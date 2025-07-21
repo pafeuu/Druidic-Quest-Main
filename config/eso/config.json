@@ -1,0 +1,15 @@
+{
+  "maxEnchantments": 5,
+  "enableEnchantability": true,
+  "enableDefaultRecipe": false,
+  "disableDiscoverySystem": false,
+  "enableEnchantmentsLeveling": false,
+  "maxEnchantmentsOnLootBooks": 1,
+  "maxEnchantmentsOnLootItems": 3,
+  "enableCursesAmplifier": false,
+  "maxCurses": 1,
+  "enchantmentLimitIncreasePerCurse": 1,
+  "hideEnchantmentsWithoutRecipe": false,
+  "disableAnvilEnchanting": true,
+  "disableBookCombining": true
+}

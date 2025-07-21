@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:bear_totem",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "2a8fad4d-c28f-4e16-8bdb-c06778fe9197"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "2fb2cdd8-d294-44ae-8290-93af45753877"
+    }
+  ],
+  "equipment_slot": "OFFHAND"
+}

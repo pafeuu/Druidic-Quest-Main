@@ -1,0 +1,27 @@
+{
+  "id": "aether:gravitite_gloves",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "7ba0434a-5813-434a-b46a-5dde371bdf99"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "3a4ff7c6-036c-445f-b43b-b25f86c0449e"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "181d58ed-bc00-417c-9ad5-bae6e3643204"
+    }
+  ],
+  "equipment_slot": "hands"
+}

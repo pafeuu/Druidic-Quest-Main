@@ -1,0 +1,20 @@
+{
+    "id": "kubejs:lesser_fire_ring",
+    "modifiers": [
+      {
+        "type": "append",
+        "attribute": "alembic:fire_damage.resistance",
+        "value": 1,
+        "operation": "ADDITION",
+        "uuid": "c4ce31b6-b401-403d-9ae9-d92f75c5a0c3"
+      },
+      {
+        "type": "append",
+        "attribute": "irons_spellbooks:fire_spell_power",
+        "value": 0.05,
+        "operation": "MULTIPLY_TOTAL",
+        "uuid": "433ba03f-e115-4397-a7bb-613848bc11cb"
+      }
+    ],
+    "equipment_slot": "ring"
+  }

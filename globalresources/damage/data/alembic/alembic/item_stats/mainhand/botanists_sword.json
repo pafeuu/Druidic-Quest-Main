@@ -1,0 +1,20 @@
+{
+  "id": "naturesaura:infused_iron_sword",
+  "modifiers": [
+    {
+      "type": "replace",
+      "target": "minecraft:generic.attack_damage",
+      "value": 2.5,
+      "operation": "ADDITION",
+      "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage",
+      "value": 2.5,
+      "operation": "ADDITION",
+      "uuid": "c6851bb0-3a90-4d71-ba46-e0f0198dc477"
+    }  
+  ],
+  "equipment_slot": "MAINHAND"
+}

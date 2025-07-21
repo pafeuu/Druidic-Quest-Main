@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:bejeweled_crucifix",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage",
+      "value": 1.5,
+      "operation": "ADDITION",
+      "uuid": "9b042f56-cc9d-4e47-9a2a-d248eb9be106"
+    }
+  ],
+  "equipment_slot": "OFFHAND"
+}

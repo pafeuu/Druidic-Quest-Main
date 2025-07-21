@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+        "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:frog_totem"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 49
+        }
+      ]  
+    } 
+  ]
+}

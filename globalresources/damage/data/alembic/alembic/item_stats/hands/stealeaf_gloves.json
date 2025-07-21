@@ -1,0 +1,20 @@
+{
+  "id": "umbral_skies:steeleaf_gloves",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage",
+      "value": 0.75,
+      "operation": "ADDITION",
+      "uuid": "a8df5a31-6a0f-418b-bdf8-59071af7a2c8"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 8,
+      "operation": "ADDITION",
+      "uuid": "1443c69e-0d2a-4857-9eb4-b66d214bcb78"
+    }
+  ],
+  "equipment_slot": "hands"
+}

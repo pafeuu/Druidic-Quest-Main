@@ -1,0 +1,20 @@
+{
+  "id": "aether:phoenix_gloves",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "fbc212f5-e954-4af7-ace0-cc0e51afa283"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "59b07dd7-b1c1-4135-be86-259f4de32bc6"
+    }
+  ],
+  "equipment_slot": "hands"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:ice_blade",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:ice_damage",
+          "value": 3,
+          "operation": "ADDITION",
+          "uuid": "294ccca8-80c4-4233-8064-b9b91cf4813d"
+      }
+  ],
+  "equipment_slot": "MAINHAND"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "aether:zanite_sword",
+  "modifiers": [
+    {
+      "type": "replace",
+      "target": "minecraft:generic.attack_damage",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "401abee1-85a3-41c5-b4db-3acd032b0223"
+    }  
+  ],
+  "equipment_slot": "MAINHAND"
+}

@@ -1,0 +1,372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "minecraft:oak_sapling"
+	id: "3E5E80A2E082BA7C"
+	images: [
+		{
+			height: 12.65625d
+			image: "kubejs:textures/questbook/welcomescreen/welcomescreen.png"
+			rotation: 0.0d
+			width: 24.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: "https://discord.gg/SRfTqrHc"
+			height: 1.5d
+			hover: ["Join the official discord!"]
+			image: "kubejs:textures/questbook/welcomescreen/welcomescreen_discord.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.75d
+			y: 4.5d
+		}
+		{
+			click: "https://www.curseforge.com/minecraft/modpacks/druidic-quest"
+			height: 2.0d
+			hover: ["Take a look at the CurseForge website"]
+			image: "kubejs:textures/questbook/welcomescreen/welcomescreen_curseforge.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			click: "https://github.com/pafeuu/Druidic-Quest"
+			height: 1.5d
+			hover: ["BTW, the pack is open source"]
+			image: "kubejs:textures/questbook/welcomescreen/welcomescreen_github.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -9.3d
+			y: 4.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to &2Druidic Quest!&r"
+				""
+				"The modpack is focused on advanture and automation through magic as well as balancing most of  the other aspects of the game!"
+				""
+				"Many recipes are changed and require you to setup automation for certain materials using a different mechanics from different mods."
+				""
+				"&eQuests&r will help guide you through progression so make sure to read them."
+			]
+			icon: "minecraft:grass_block"
+			id: "23878BB2C97470D0"
+			rewards: [
+				{
+					count: 3
+					id: "0718837C87B7E430"
+					item: "alexsdelight:bunfungus_sandwich"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "27E0DA17B7722F2D"
+					item: "wizards_reborn:arcane_salt_torch"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5DBEB97A2AC1C1B5"
+				title: "Idea behind the modpack"
+				type: "checkmark"
+			}]
+			title: "Welcome"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: ["Progression chapter is essential to not get lost in all the new things this modpack implements and it will provide you with some nice rewards. To get started proceed to your first progression quests in the &2Tier 0 - Wood Age&r Tab"]
+			icon: "immersiveengineering:drillhead_iron"
+			id: "4FF8CB3EF0206C93"
+			rewards: [{
+				count: 5
+				id: "7E701B1B2BD539C1"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2B82E041BDADF5CE"
+				type: "checkmark"
+			}]
+			title: "Progression chapter"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: [
+				"There are many chapters which have nothing to do with progression."
+				""
+				"&l&2Ultimate Collector&r tab will show you all the different collectibles in the pack"
+			]
+			icon: "supplementaries:statue"
+			id: "4CCE1DF1DF0C35DB"
+			rewards: [{
+				count: 5
+				id: "0C48E2AD25BC2832"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "264EDCE9022AE608"
+				type: "checkmark"
+			}]
+			title: "Ultimate collector"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: [
+				"If this is somehow your first modpack you are really gonna need to read the &lTips&r chapter ."
+				""
+				"But even if you are a veteran you might not know everything there so make sure to check it out!"
+				""
+				"&4&oWork in progress&r&r"
+			]
+			icon: "kubejs:infused_diamond"
+			id: "6F5C7CA9C74F13E9"
+			rewards: [{
+				count: 5
+				id: "464C497AE0195548"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "76585DF65787623E"
+				type: "checkmark"
+			}]
+			title: "Tips chapter"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: ["You can buy some usefull stuff in the market tab, they are overpriced but if you really need something..."]
+			icon: { Count: 64, id: "thermal:gold_coin" }
+			id: "4676E5CD619B4194"
+			rewards: [{
+				count: 5
+				id: "40C76F75B559B8E5"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "707119BF1D825C50"
+				type: "checkmark"
+			}]
+			title: "Market"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: [
+				"Quests are not required to progress but you can get some nice rewards from them."
+				"You can also consider completing all of them as one of your goals :)"
+				""
+				"Shapes of the invidual quests have a meaning:"
+				""
+				"&2&lRounded Square&r&r - Main Questline in the progression, they might also unluck new quests"
+				""
+				"&2&lHexagon&r &r- Informantional Quests"
+				""
+				"&2&lGear&r &r-  Quests outside of the Main progression that unlock quests in the other chapter (most of the time in the market)"
+				""
+				"&2&lDiamond&r&r - Repeteable quests usually giving some nice items for currency"
+			]
+			icon: "ftbquests:book"
+			id: "296394452736D250"
+			rewards: [{
+				id: "1BCF4966F4D832FE"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": {
+							alexsmobs: {
+								0: {
+									Count: 1b
+									id: "alexsmobs:animal_dictionary"
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							irons_spellbooks: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "irons_spellbooks:iss_guide_book"
+									}
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "You dont need a questbook, you can open quests by pressing X"
+			tasks: [{
+				id: "2C2AF4370BB5F99A"
+				type: "checkmark"
+			}]
+			title: "Questbook"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: [
+				"Remember to set your keybinds!"
+				""
+				"ESC => Options => Controls => Keybinds"
+				""
+				"The pack comes with assigned keybinds so there is no conflicts but you need to set your own as there are so many and most of them are set to nothing"
+			]
+			icon: "thermal:netherite_gear"
+			id: "622108B53EDE2AAB"
+			rewards: [{
+				count: 5
+				id: "6C62549B95F7DF62"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61A27F32728D4E7E"
+				type: "checkmark"
+			}]
+			title: "Options and keybinds"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: [
+				"As you might have already realized this player attributes are nerfed:"
+				""
+				"-Movement Speed"
+				"-Mining Speed"
+				"-Block Reach"
+				"-Max Health"
+				""
+				"You can choose a custom totem to negate one of those nerfs."
+				""
+				"&6Roadrunner Totem&r for increased movement speed."
+				""
+				"&4Crab Totem&r for increased block reach."
+				""
+				"&eLeafcutter Ant&r Totem for increased axe speed."
+				""
+				"Totems are new items custom made for the pack they will give you special effects when held in the offhand"
+			]
+			icon: {
+				Count: 1
+				id: "deep_aether:stratus_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "48BFFBF891F26E15"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: "kubejs:roadrunner_totem"
+				id: "6FCB6452436AD88E"
+				table_id: 239250073801670199L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F284D7BA9296A55"
+				type: "checkmark"
+			}]
+			title: "Nerfed Player"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: [
+				"This modpack uses both Spice of Life Onion and Carrot Editions."
+				""
+				"&6&lCarrot Edition&r gives you additional hearts. You will get your first extra heart after eating 5 new foods and after that every 25 new foods eaten."
+				""
+				"While &l&eOnion Edition&r&r depends on how diverse and nutritious your diet is, so eating bigger meals and cycling between different foods will get your extra buffs:"
+				""
+				"like extra reach, movement speed, resistances and extra hearts. It is setup in a way that it only takes a bit of effort to be as strong as regular player in other packs"
+			]
+			icon: "farmersdelight:pasta_with_mutton_chop"
+			id: "236F52C9E0815D19"
+			rewards: [{
+				count: 3
+				id: "3B6A73715FB7337C"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7879815FC7D43373"
+				type: "checkmark"
+			}]
+			title: "Balanced Diet"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: [
+				"Equipping ring of seven curses comes with a lot of extra challanges. "
+				"- From now on everyone is mad at you so they will attack!"
+				"- You cant sleep anymore"
+				"- You take double the damage"
+				"- and more..."
+				""
+				"&7&oOh and also you cant take the ring off...&r&r"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "58E9D1489BF137FB"
+			optional: true
+			rewards: [{
+				id: "4068FB258D52E9BC"
+				item: "enigmaticlegacy:cursed_ring"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 2.0d
+			subtitle: "Only for the bravest"
+			tasks: [{
+				id: "75914BB60016C7F8"
+				title: "I want to have a hard time!"
+				type: "checkmark"
+			}]
+			title: "Cursed Mode"
+			x: -5.0d
+			y: 2.0d
+		}
+	]
+	title: "Welcome - Information dump"
+}

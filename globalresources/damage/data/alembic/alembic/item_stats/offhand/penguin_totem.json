@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:penguin_totem",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "94e9fa45-26bd-4716-ae93-668737678627"
+    },
+    {
+      "type": "append",
+      "attribute": "forge:swim_speed",
+      "value": 0.4,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "9799dbaa-e635-44ee-b45d-856970e26f6f"
+    }
+  ],
+  "equipment_slot": "OFFHAND"
+}

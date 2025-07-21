@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:tiger_totem",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "0d0d1dfe-32c4-41fe-9cc4-ce65a199024e"
+    },
+    {
+      "type": "append",
+      "attribute": "combatroll:count",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "5b2e5e20-02bf-47f9-8c76-dc95ec63492e"
+    }
+  ],
+  "equipment_slot": "OFFHAND"
+}

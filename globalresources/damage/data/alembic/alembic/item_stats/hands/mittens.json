@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:mittens",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "798db1a1-7da1-4757-a2f4-af1caa3fb3b8"
+    }
+  ],
+  "equipment_slot": "hands"
+}

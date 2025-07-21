@@ -1,0 +1,20 @@
+{
+  "id": "naturesaura:infused_iron_axe",
+  "modifiers": [
+    {
+      "type": "replace",
+      "target": "minecraft:generic.attack_damage",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "a5834ca7-80e6-49a3-a987-e052935e479b"
+    }  
+  ],
+  "equipment_slot": "MAINHAND"
+}

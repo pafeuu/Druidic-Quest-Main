@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:soul_torch",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage",
+      "value": 0.5,
+      "operation": "ADDITION",
+      "uuid": "87810b50-3f7e-44ea-80e2-470484271697"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage",
+      "value": 0.5,
+      "operation": "ADDITION",
+      "uuid": "b9d61552-67a2-4e88-84ad-8c511d72389c"
+    }
+  ],
+  "equipment_slot": "MAINHAND"
+}

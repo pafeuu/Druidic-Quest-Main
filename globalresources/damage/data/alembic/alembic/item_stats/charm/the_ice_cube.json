@@ -1,0 +1,20 @@
+{
+    "id": "kubejs:the_ice_cube",
+    "modifiers": [
+      {
+        "type": "append",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": -0.02,
+        "operation": "ADDITION",
+        "uuid": "2ec549be-0e63-4929-b606-1c5dc537479a"
+      },
+      {
+        "type": "append",
+        "attribute": "alembic:fire_damage.resistance",
+        "value": 1,
+        "operation": "ADDITION",
+        "uuid": "146c77ab-7bfd-49d3-9f04-cddf951ccc10"
+      }
+    ],
+    "equipment_slot": "charm"
+  }

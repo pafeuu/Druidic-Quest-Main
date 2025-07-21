@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:archers_glove",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "attributeslib:draw_speed",
+      "value": 0.1,
+      "operation": "ADDITION",
+      "uuid": "91ca4618-6553-411b-92ba-abd44162ff33"
+    },
+    {
+      "type": "append",
+      "attribute": "attributeslib:arrow_velocity",
+      "value": 0.25,
+      "operation": "ADDITION",
+      "uuid": "7fbb506d-91c2-44c9-a4ee-93c25fe1393d"
+    }
+  ],
+  "equipment_slot": "hands"
+}

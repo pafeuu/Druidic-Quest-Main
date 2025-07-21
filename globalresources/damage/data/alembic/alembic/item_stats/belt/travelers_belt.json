@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:travelers_belt",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "forge:step_height_addition",
+      "value": 0.5,
+      "operation": "ADDITION",
+      "uuid": "1592b749-18a9-4473-8609-f411bebc8a55"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION",
+      "uuid": "4656f85a-00cb-400d-87cf-474376aa0acb"
+    }
+  ],
+  "equipment_slot": "belt"
+}

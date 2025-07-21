@@ -1,0 +1,20 @@
+{
+    "id": "kubejs:ring_travel",
+    "modifiers": [
+      {
+        "type": "append",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 0.15,
+        "operation": "ADDITION",
+        "uuid": "82e2a943-c51e-4185-9db2-fcdc5c903fbf"
+      },
+      {
+        "type": "append",
+        "attribute": "minecraft:generic.max_health",
+        "value": -0.25,
+        "operation": "MULTIPLY_TOTAL",
+        "uuid": "82e2a943-c51e-4185-9db2-fcdc5c903fba"
+      }
+    ],
+    "equipment_slot": "ring"
+  }

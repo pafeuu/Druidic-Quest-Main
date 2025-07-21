@@ -1,0 +1,17 @@
+{
+  "armorSetName": "stone_claymore",
+  "performanceMode": false,
+  "mainHand": {
+    "itemKey": "kubejs:iron_scythe"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "attributeslib:bleeding",
+      "value": 0.0,
+      "interactionType": "attack",
+      "interactionDuration": 300
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

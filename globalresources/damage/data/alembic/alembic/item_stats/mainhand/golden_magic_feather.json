@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:golden_magic_feather",
+  "modifiers": [    
+      {
+        "type": "replace",
+        "target": "minecraft:generic.attack_damage",
+        "value": 0,
+        "operation": "ADDITION",
+        "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+      },
+      {
+        "type": "append",
+        "attribute": "alembic:arcane_damage",
+        "value": 4,
+        "operation": "ADDITION",
+        "uuid": "56b66ec8-bb78-4fec-9c02-617b25c6e807"
+      }
+  ],
+  "equipment_slot": "MAINHAND"
+}

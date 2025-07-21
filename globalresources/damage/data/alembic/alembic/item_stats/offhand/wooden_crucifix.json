@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:wooden_crucifix",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage",
+      "value": 0.5,
+      "operation": "ADDITION",
+      "uuid": "93f1ddab-d1fa-44d5-a9e7-b6aa65cbdce8"
+    }
+  ],
+  "equipment_slot": "OFFHAND"
+}

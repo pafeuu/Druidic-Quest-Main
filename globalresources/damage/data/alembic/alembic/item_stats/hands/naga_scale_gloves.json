@@ -1,0 +1,20 @@
+{
+  "id": "umbral_skies:naga_gloves",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage",
+      "value": 0.5,
+      "operation": "ADDITION",
+      "uuid": "18b9d422-f0f5-4fca-8d93-59827a77765b"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "1ccf6592-1375-4df5-8976-6c7812b43b5a"
+    }
+  ],
+  "equipment_slot": "hands"
+}

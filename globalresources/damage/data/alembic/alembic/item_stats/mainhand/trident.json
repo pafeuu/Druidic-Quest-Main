@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:trident",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "40df81ad-6acc-4017-8a95-a078e5db2cd0"
+    },
+    {
+      "type": "replace",
+      "target": "minecraft:generic.attack_damage",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+    }
+  ],
+  "equipment_slot": "MAINHAND"
+}
