@@ -254,11 +254,11 @@ ItemEvents.modification(event => {
   ///======================================== Other
 
   event.modify("create:sand_paper", item=>{
-    item.maxDamage = 128
+    item.maxDamage = 256
   })
 
   event.modify("create:red_sand_paper", item=>{
-    item.maxDamage = 128
+    item.maxDamage = 312
   })
 
   

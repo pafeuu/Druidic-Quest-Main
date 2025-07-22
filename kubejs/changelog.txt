@@ -2194,4 +2194,25 @@ Patch 0.3.2.1
     -Changed the color of the tips (by Gyldanword)
     -Endermen will no longer get randomly agressive towards the player
 
+# Patch 2.2.1 bugfixes
+
+### Item Balance:
+    -Sandpaper durability has been doubled
+    -Red Sandpaper is now a little bit more durable than regular one
+
+### Recipes:
+    -Changed recipe for Andesite Tunnel
+    -Changed recipe for Brass Tunnel
+    -Changed recipe for Brass Funnel
+    -Changed recipe for Smart Chute
+    -Changed Early game recipe for planks you now need to right click Handsaw/Axe in the main hand while having logs in the offhand
+    -Removed Flint recipe in the cutting board 
+
+### Other:
+    -Primitive Shears now properly hurt sheep
+    -Rainbow Magic Feather now properly breaks bedrock
+    -Added EMI info to ores with changed generation
+    -Fixed Random Wood reward loottable
+    -Fixed quests in the gambling section
+    -Turned off modernfix spark profiler debug option
 

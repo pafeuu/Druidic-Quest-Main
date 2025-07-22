@@ -1,6 +1,6 @@
 ServerEvents.recipes(event =>{
 
-    function SlabsAndStairs(mod,woodtype)
+    function SlabStairsAndStripping(mod,woodtype)
     {
         event.custom({
 			type: "sawmill:woodcutting",
@@ -44,9 +44,11 @@ ServerEvents.recipes(event =>{
 				S: "#forge:tools/saws"
 			}
 		).damageIngredient("#forge:tools/saws", 1)
+
+		event.shapeless(mod+":stripped_"+woodtype+"_log",[mod+":"+woodtype+"_log"])
     }
 
-	 function QuarkSlabsAndStairs(mod,woodtype)
+	 function QuarkSlabStairsAndStripping(mod,woodtype)
     {
         event.custom({
 			type: "sawmill:woodcutting",
@@ -92,10 +94,11 @@ ServerEvents.recipes(event =>{
 		).damageIngredient("#forge:tools/saws", 1)
     }
 
-	function CuttingLogs(planks,log)
+	function CuttingLogs(planks,log)// Ghost Recipes just for EMI display real recipes in WoodCutting.js
 	{
 		event.custom({
 			"type": "lychee:block_interacting",
+			"ghost": true,
 			"post": [
 			  {
 				"type": "place",
@@ -124,13 +127,17 @@ ServerEvents.recipes(event =>{
 			"item_in": [
 			  {
 				"tag": "forge:tools/axes"
+			  },
+			  {
+				"item": log
 			  }
 			],
-			"block_in": log
+			"block_in": "air"
 		  })// Adds recipe for planks > Clicking stripped logs with an axe will drop 1 plank and remove the block
 
 		event.custom({
 			"type": "lychee:block_interacting",
+			"ghost": true,
 			"post": [
 			  {
 				"type": "place",
@@ -159,9 +166,12 @@ ServerEvents.recipes(event =>{
 			"item_in": [
 			  {
 				"tag": "forge:tools/saws"
+			  },
+			  {
+				"item": log
 			  }
 			],
-			"block_in": log
+			"block_in": "air"
 		  })// Adds recipe for planks > Clicking stripped logs with a sam will drop 3 planks and remove the block
 		  event.custom({
 			type: "sawmill:woodcutting",
@@ -351,113 +361,112 @@ ServerEvents.recipes(event =>{
 	CuttingLogs("biomeswevegone:florus_planks","biomeswevegone:stripped_florus_wood")
 	CuttingLogs("naturesaura:ancient_planks","naturesaura:ancient_log")
 	CuttingLogs("naturesaura:ancient_planks","naturesaura:ancient_bark")
-	event.remove([{id:"naturesaura:ancient_planks"},{id:"naturesaura:ancient_planks_from_bark"}])
 	CuttingLogs("wizards_reborn:cork_bamboo_planks","wizards_reborn:cork_bamboo_block")
 	
 
 
-    SlabsAndStairs("minecraft","oak")
-	SlabsAndStairs("minecraft","spruce")
-	SlabsAndStairs("minecraft","birch")
-	SlabsAndStairs("minecraft","jungle")
-	SlabsAndStairs("minecraft","acacia")
-	SlabsAndStairs("minecraft","dark_oak")
-	SlabsAndStairs("minecraft","crimson")
-	SlabsAndStairs("minecraft","warped")
-	SlabsAndStairs("minecraft","mangrove")
-	SlabsAndStairs("minecraft","cherry")
-	SlabsAndStairs("minecraft","bamboo")
-	//SlabsAndStairs("architects_palette","twisted")
-	SlabsAndStairs("ancient_aether","highsproot")
-	SlabsAndStairs("ancient_aether","sakura")
-	SlabsAndStairs("deep_aether","yagroot")
-	SlabsAndStairs("deep_aether","cruderoot")
-	SlabsAndStairs("deep_aether","conberry")
-	SlabsAndStairs("deep_aether","sunroot")
-	SlabsAndStairs("deep_aether","roseroot")
-	SlabsAndStairs("deeperdarker","echo")
-	SlabsAndStairs("deeperdarker","bloom")
-	SlabsAndStairs("forbidden_arcanus","aurum")
-	SlabsAndStairs("mynethersdelight","powdery")
-	QuarkSlabsAndStairs("quark","ancient")
-	QuarkSlabsAndStairs("quark","azalea")
-	QuarkSlabsAndStairs("quark","blossom")
-	SlabsAndStairs("minecraft","bamboo")
-	/*SlabsAndStairs("regions_unexplored","baobab")
-	SlabsAndStairs("regions_unexplored","alpha")
-	SlabsAndStairs("regions_unexplored","blackwood")
-	SlabsAndStairs("regions_unexplored","blue_bioshroom")
-	SlabsAndStairs("regions_unexplored","yellow_bioshroom")
-	SlabsAndStairs("regions_unexplored","pink_bioshroom")
-	SlabsAndStairs("regions_unexplored","green_bioshroom")
-	SlabsAndStairs("regions_unexplored","brimwood")
-	SlabsAndStairs("regions_unexplored","cobalt")
-	SlabsAndStairs("regions_unexplored","cypress")
-	SlabsAndStairs("regions_unexplored","dead")
-	SlabsAndStairs("regions_unexplored","eucalyptus")
-	SlabsAndStairs("regions_unexplored","joshua")
-	SlabsAndStairs("regions_unexplored","kapok")
-	SlabsAndStairs("regions_unexplored","larch")
-	SlabsAndStairs("regions_unexplored","magnolia")
-	SlabsAndStairs("regions_unexplored","maple")
-	SlabsAndStairs("regions_unexplored","mauve")
-	SlabsAndStairs("regions_unexplored","palm")
-	SlabsAndStairs("regions_unexplored","pine")
-	SlabsAndStairs("regions_unexplored","redwood")
-	SlabsAndStairs("regions_unexplored","socotra")
-	SlabsAndStairs("regions_unexplored","willow")
+    SlabStairsAndStripping("minecraft","oak")
+	SlabStairsAndStripping("minecraft","spruce")
+	SlabStairsAndStripping("minecraft","birch")
+	SlabStairsAndStripping("minecraft","jungle")
+	SlabStairsAndStripping("minecraft","acacia")
+	SlabStairsAndStripping("minecraft","dark_oak")
+	SlabStairsAndStripping("minecraft","crimson")
+	SlabStairsAndStripping("minecraft","warped")
+	SlabStairsAndStripping("minecraft","mangrove")
+	SlabStairsAndStripping("minecraft","cherry")
+	SlabStairsAndStripping("minecraft","bamboo")
+	//SlabStairsAndStripping("architects_palette","twisted")
+	SlabStairsAndStripping("ancient_aether","highsproot")
+	SlabStairsAndStripping("ancient_aether","sakura")
+	SlabStairsAndStripping("deep_aether","yagroot")
+	SlabStairsAndStripping("deep_aether","cruderoot")
+	SlabStairsAndStripping("deep_aether","conberry")
+	SlabStairsAndStripping("deep_aether","sunroot")
+	SlabStairsAndStripping("deep_aether","roseroot")
+	SlabStairsAndStripping("deeperdarker","echo")
+	SlabStairsAndStripping("deeperdarker","bloom")
+	SlabStairsAndStripping("forbidden_arcanus","aurum")
+	SlabStairsAndStripping("mynethersdelight","powdery")
+	QuarkSlabStairsAndStripping("quark","ancient")
+	QuarkSlabStairsAndStripping("quark","azalea")
+	QuarkSlabStairsAndStripping("quark","blossom")
+	SlabStairsAndStripping("minecraft","bamboo")
+	/*SlabStairsAndStripping("regions_unexplored","baobab")
+	SlabStairsAndStripping("regions_unexplored","alpha")
+	SlabStairsAndStripping("regions_unexplored","blackwood")
+	SlabStairsAndStripping("regions_unexplored","blue_bioshroom")
+	SlabStairsAndStripping("regions_unexplored","yellow_bioshroom")
+	SlabStairsAndStripping("regions_unexplored","pink_bioshroom")
+	SlabStairsAndStripping("regions_unexplored","green_bioshroom")
+	SlabStairsAndStripping("regions_unexplored","brimwood")
+	SlabStairsAndStripping("regions_unexplored","cobalt")
+	SlabStairsAndStripping("regions_unexplored","cypress")
+	SlabStairsAndStripping("regions_unexplored","dead")
+	SlabStairsAndStripping("regions_unexplored","eucalyptus")
+	SlabStairsAndStripping("regions_unexplored","joshua")
+	SlabStairsAndStripping("regions_unexplored","kapok")
+	SlabStairsAndStripping("regions_unexplored","larch")
+	SlabStairsAndStripping("regions_unexplored","magnolia")
+	SlabStairsAndStripping("regions_unexplored","maple")
+	SlabStairsAndStripping("regions_unexplored","mauve")
+	SlabStairsAndStripping("regions_unexplored","palm")
+	SlabStairsAndStripping("regions_unexplored","pine")
+	SlabStairsAndStripping("regions_unexplored","redwood")
+	SlabStairsAndStripping("regions_unexplored","socotra")
+	SlabStairsAndStripping("regions_unexplored","willow")
 	var colors = ['red','blue','white','gray','light_gray','black','purple','magenta','yellow','green','lime','light_blue','cyan','orange','pink','brown']
 	colors.forEach(color => {
-		SlabsAndStairs("regions_unexplored",color+"_painted")
+		SlabStairsAndStripping("regions_unexplored",color+"_painted")
 	});*/
 	
-	SlabsAndStairs("aether","skyroot")
-	SlabsAndStairs("aether_redux","fieldsproot")
-	SlabsAndStairs("aether_redux","blightwillow")
-	SlabsAndStairs("aether_redux","jellyshroom")
-	SlabsAndStairs("aether_redux","jellyshroom")
-	SlabsAndStairs("aether_redux","cloudcap")
-	SlabsAndStairs("aether_redux","crystal")
-	SlabsAndStairs("aether_redux","glacia")
-	SlabsAndStairs("twilightforest","twilight_oak")
-	SlabsAndStairs("twilightforest","canopy")
-	SlabsAndStairs("twilightforest","mangrove")
-	SlabsAndStairs("twilightforest","dark")
-	SlabsAndStairs("twilightforest","transformation")
-	SlabsAndStairs("twilightforest","mining")
-	SlabsAndStairs("twilightforest","sorting")
-	SlabsAndStairs("twilightforest","time")
-	SlabsAndStairs("thermal","rubberwood")
-	SlabsAndStairs("ars_nouveau","archwood")
-	SlabsAndStairs("wizards_reborn","innocent_wood")
-	SlabsAndStairs("wizards_reborn","arcane_wood")
-	SlabsAndStairs("biomeswevegone","aspen")
-	SlabsAndStairs("biomeswevegone","baobab")
-	SlabsAndStairs("biomeswevegone","blue_enchanted")
-	SlabsAndStairs("biomeswevegone","green_enchanted")
-	SlabsAndStairs("biomeswevegone","florus")
-	SlabsAndStairs("biomeswevegone","cika")
-	SlabsAndStairs("biomeswevegone","cypress")
-	SlabsAndStairs("biomeswevegone","ebony")
-	SlabsAndStairs("biomeswevegone","fir")
-	SlabsAndStairs("biomeswevegone","holly")
-	SlabsAndStairs("biomeswevegone","ironwood")
-	SlabsAndStairs("biomeswevegone","jacaranda")
-	SlabsAndStairs("biomeswevegone","mahogany")
-	SlabsAndStairs("biomeswevegone","maple")
-	SlabsAndStairs("biomeswevegone","palm")
-	SlabsAndStairs("biomeswevegone","pine")
-	SlabsAndStairs("biomeswevegone","rainbow_eucalyptus")
-	SlabsAndStairs("biomeswevegone","redwood")
-	SlabsAndStairs("biomeswevegone","sakura")
-	SlabsAndStairs("biomeswevegone","skyris")
-	SlabsAndStairs("biomeswevegone","white_mangrove")
-	SlabsAndStairs("biomeswevegone","willow")
-	SlabsAndStairs("biomeswevegone","witch_hazel")
-	SlabsAndStairs("biomeswevegone","zelkova")
-	SlabsAndStairs("naturesaura","ancient")
-	SlabsAndStairs("wizards_reborn","cork_bamboo")
-	SlabsAndStairs("wizards_reborn","cork_bamboo_chiseled")
+	SlabStairsAndStripping("aether","skyroot")
+	SlabStairsAndStripping("aether_redux","fieldsproot")
+	SlabStairsAndStripping("aether_redux","blightwillow")
+	SlabStairsAndStripping("aether_redux","jellyshroom")
+	SlabStairsAndStripping("aether_redux","jellyshroom")
+	SlabStairsAndStripping("aether_redux","cloudcap")
+	SlabStairsAndStripping("aether_redux","crystal")
+	SlabStairsAndStripping("aether_redux","glacia")
+	SlabStairsAndStripping("twilightforest","twilight_oak")
+	SlabStairsAndStripping("twilightforest","canopy")
+	SlabStairsAndStripping("twilightforest","mangrove")
+	SlabStairsAndStripping("twilightforest","dark")
+	SlabStairsAndStripping("twilightforest","transformation")
+	SlabStairsAndStripping("twilightforest","mining")
+	SlabStairsAndStripping("twilightforest","sorting")
+	SlabStairsAndStripping("twilightforest","time")
+	SlabStairsAndStripping("thermal","rubberwood")
+	SlabStairsAndStripping("ars_nouveau","archwood")
+	SlabStairsAndStripping("wizards_reborn","innocent_wood")
+	SlabStairsAndStripping("wizards_reborn","arcane_wood")
+	SlabStairsAndStripping("biomeswevegone","aspen")
+	SlabStairsAndStripping("biomeswevegone","baobab")
+	SlabStairsAndStripping("biomeswevegone","blue_enchanted")
+	SlabStairsAndStripping("biomeswevegone","green_enchanted")
+	SlabStairsAndStripping("biomeswevegone","florus")
+	SlabStairsAndStripping("biomeswevegone","cika")
+	SlabStairsAndStripping("biomeswevegone","cypress")
+	SlabStairsAndStripping("biomeswevegone","ebony")
+	SlabStairsAndStripping("biomeswevegone","fir")
+	SlabStairsAndStripping("biomeswevegone","holly")
+	SlabStairsAndStripping("biomeswevegone","ironwood")
+	SlabStairsAndStripping("biomeswevegone","jacaranda")
+	SlabStairsAndStripping("biomeswevegone","mahogany")
+	SlabStairsAndStripping("biomeswevegone","maple")
+	SlabStairsAndStripping("biomeswevegone","palm")
+	SlabStairsAndStripping("biomeswevegone","pine")
+	SlabStairsAndStripping("biomeswevegone","rainbow_eucalyptus")
+	SlabStairsAndStripping("biomeswevegone","redwood")
+	SlabStairsAndStripping("biomeswevegone","sakura")
+	SlabStairsAndStripping("biomeswevegone","skyris")
+	SlabStairsAndStripping("biomeswevegone","white_mangrove")
+	SlabStairsAndStripping("biomeswevegone","willow")
+	SlabStairsAndStripping("biomeswevegone","witch_hazel")
+	SlabStairsAndStripping("biomeswevegone","zelkova")
+	SlabStairsAndStripping("naturesaura","ancient")
+	SlabStairsAndStripping("wizards_reborn","cork_bamboo")
+	SlabStairsAndStripping("wizards_reborn","cork_bamboo_chiseled")
 
 
 	///F&A fixes

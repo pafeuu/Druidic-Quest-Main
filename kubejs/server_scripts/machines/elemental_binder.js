@@ -102,33 +102,6 @@ ServerEvents.recipes(event=>{
         "kubejs:dark_essence",
         "thermal:ruby",
         "death_essence")
-    
-    event.remove({output:"create:smart_chute"})
-    binding4ingredients("create:smart_chute","water",250,
-        "#forge:plates/brass",
-        "create:filter",
-        "vintageimprovements:redstone_module",
-        "create:chute",
-        "chute"
-    )
-
-    event.remove({output:"create:brass_tunnel"})
-    binding4ingredients("create:brass_tunnel","water",250,
-        "#forge:plates/brass",
-        "create:filter",
-        "vintageimprovements:redstone_module",
-        "create:andesite_tunnel",
-        "tunnel"
-    )
-
-    event.remove({output:"create:brass_funnel"})
-    binding4ingredients("create:brass_funnel","water",250,
-        "#forge:plates/brass",
-        "create:filter",
-        "vintageimprovements:redstone_module",
-        "create:andesite_funnel",
-        "funnel"
-    )
 
     binding("kubejs:rainbow_magic_feather","water",250,
         "ars_nouveau:fire_essence",

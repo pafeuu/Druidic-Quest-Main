@@ -61,6 +61,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["62A4387CCE7F7DD9"]
 			description: ["Gamble your gold coin on some stone building blocks"]
 			icon: "minecraft:cobblestone"
@@ -90,23 +91,26 @@
 			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["62A4387CCE7F7DD9"]
 			description: ["Gamble your gold coin on some wood building blocks"]
 			icon: "minecraft:stripped_oak_log"
 			id: "5DBE7E139C917877"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6E5C5DD0092B31E2"
-				table_id: 2259993594685209388L
+				id: "5D03112A1C73DAC9"
+				table_id: 4505272222986019558L
 				type: "random"
 			}]
 			tasks: [
 				{
+					consume_items: true
 					id: "398FDEF702E8F1D3"
 					item: "thermal:gold_coin"
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "4E4211A65B7D4A70"
 					item: "supplementaries:sack"
 					type: "item"
@@ -116,6 +120,7 @@
 			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["62A4387CCE7F7DD9"]
 			description: ["Gamble your gold coin on some detailing building blocks"]
 			icon: "minecraft:soul_lantern"
@@ -128,11 +133,13 @@
 			}]
 			tasks: [
 				{
+					consume_items: true
 					id: "3A6E9BC6686E0E15"
 					item: "thermal:gold_coin"
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "75D2805027E6A9D3"
 					item: "supplementaries:sack"
 					type: "item"

@@ -92,5 +92,13 @@ JEIEvents.information(event => {
         'silly_oddities:warped_salt_campfire'],["Can be dyed with Arcane Lumos"])
 
     event.addItem("deep_aether:goldenleaf_berries",["Found growing on Quicksoil in Golden Heights biome"])
+
+    event.addItem("#wizards_reborn:arcanum_ores"["Found between y90 and y-40 in the overworld"])
+
+    event.addItem("forbidden_arcanus:xpetrified_ore",["Found between y127 and y-15 in the twilight forest"])
+    event.addItem("forbidden_arcanus:arcane_crystal_ore",["Found between y96 and y-30 in the twilight forest"])
+    event.addItem("thermal:sapphire_ore",["Found between y-15 and y-30 in the twilight forest"])
+    event.addItem("forbidden_arcanus:runic_stone",["Found between y0 and y-30 in the twilight forest"])
+    event.addItem("forbidden_arcanus:stella_arcanum",["Found between y-10 and y-30 in the twilight forest"])
     
   })

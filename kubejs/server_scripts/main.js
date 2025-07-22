@@ -1337,6 +1337,53 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 
+	event.shaped("create:andesite_tunnel",
+		[
+			"AAA",
+			"ACA"
+		],
+		{
+			A: "andesite",
+			C: 'immersiveengineering:strip_curtain'	
+		}
+	).id("create:crafting/logistics/andesite_tunnel")
+
+	event.shaped("create:brass_tunnel",
+		[
+			"BFB",
+			"BXB"
+		],
+		{
+			B: "#forge:ingots/brass",
+			F: "create:filter",
+			X: "create:andesite_tunnel"
+		}
+	).id("create:crafting/logistics/brass_tunnel")
+
+	event.shaped("create:brass_funnel",
+		[
+			"BFB",
+			"BXB"
+		],
+		{
+			B: "#forge:ingots/brass",
+			F: "create:filter",
+			X: "create:andesite_funnel"
+		}
+	).id("create:crafting/logistics/brass_funnel")
+
+	event.shaped("create:smart_chute",
+		[
+			"BFB",
+			"BXB"
+		],
+		{
+			B: "#forge:ingots/brass",
+			F: "create:filter",
+			X: "create:chute"
+		}
+	).id("create:crafting/kinetics/smart_chute")
+
 	event.shaped("thermal:fluid_cell",
 		[
 			"RTR",

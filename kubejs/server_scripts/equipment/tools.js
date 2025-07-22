@@ -370,7 +370,7 @@ ServerEvents.recipes(event => {
 	
 	event.custom({
 		type: "lychee:block_interacting",
-		item_in: {item:"kubejs:rainbow_feather"},
+		item_in: {item:"kubejs:rainbow_magic_feather"},
 		"hide_in_viewer": true,
 		block_in: "bedrock",
 		contextual:{

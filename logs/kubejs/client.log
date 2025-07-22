@@ -1,35 +1,131 @@
-[08:46:41] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[08:46:41] [INIT] Loaded plugins:
-[08:46:41] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[08:46:41] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[08:46:41] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[08:46:41] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
-[08:46:41] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[08:46:41] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[08:46:41] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[08:46:41] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[08:46:41] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
-[08:46:41] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
-[08:46:41] [INIT] - com.falaut.KubeJSNaturesAuraPlugin
-[08:46:41] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
-[08:46:41] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[08:46:41] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
-[08:46:41] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[08:46:41] [INIT] - com.alessandro.astages.integration.kubejs.AStageKubeJSPlugin
-[08:46:41] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[08:46:41] [INIT] - com.almostreliable.morejs.Plugin
-[08:46:41] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
-[08:46:41] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[08:46:41] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[08:46:41] [INIT] - com.probejs.ProbeJSPlugin
-[08:46:41] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
-[08:46:41] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
-[08:46:41] [ERROR] ! Hiding.js#1: ReferenceError: "RecipeViewerEvents" is not defined.
-[08:46:41] [INFO] Loaded script client_scripts:Jei.js in 0.002 s
-[08:46:41] [INFO] Loaded script client_scripts:NameChange.js in 0.0 s
-[08:46:41] [INFO] Loaded script client_scripts:names.js in 0.0 s
-[08:46:41] [INFO] Loaded script client_scripts:ponder.js in 0.028 s
-[08:46:41] [INFO] Loaded script client_scripts:REI_Group.js in 0.0 s
-[08:46:41] [INFO] Loaded script client_scripts:Tooltips.js in 0.009 s
-[08:46:41] [INFO] Loaded 6/7 KubeJS client scripts in 0.209 s with 0 errors and 0 warnings
-[08:47:21] [INFO] Client resource reload complete!
+[13:36:59] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[13:36:59] [INIT] Loaded plugins:
+[13:36:59] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[13:36:59] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[13:36:59] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[13:36:59] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
+[13:36:59] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[13:36:59] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[13:36:59] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[13:36:59] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[13:36:59] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[13:36:59] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
+[13:36:59] [INIT] - com.falaut.KubeJSNaturesAuraPlugin
+[13:36:59] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[13:36:59] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[13:36:59] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
+[13:36:59] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[13:36:59] [INIT] - com.alessandro.astages.integration.kubejs.AStageKubeJSPlugin
+[13:36:59] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[13:36:59] [INIT] - com.almostreliable.morejs.Plugin
+[13:36:59] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
+[13:36:59] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[13:36:59] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[13:36:59] [INIT] - com.probejs.ProbeJSPlugin
+[13:36:59] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[13:36:59] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[13:37:00] [ERROR] ! Hiding.js#1: ReferenceError: "RecipeViewerEvents" is not defined.
+[13:37:00] [INFO] Loaded script client_scripts:Jei.js in 0.001 s
+[13:37:00] [INFO] Loaded script client_scripts:NameChange.js in 0.0 s
+[13:37:00] [INFO] Loaded script client_scripts:names.js in 0.001 s
+[13:37:00] [INFO] Loaded script client_scripts:ponder.js in 0.005 s
+[13:37:00] [INFO] Loaded script client_scripts:REI_Group.js in 0.0 s
+[13:37:00] [INFO] Loaded script client_scripts:Tooltips.js in 0.003 s
+[13:37:00] [INFO] Loaded 6/7 KubeJS client scripts in 0.077 s with 0 errors and 0 warnings
+[13:37:23] [INFO] Client resource reload complete!
+[17:50:31] [ERROR] ! Tooltips.js#202: Error while gathering tooltip for 1 overworld_key: Wrapped java.lang.IndexOutOfBoundsException: Index: 2, Size: 1
+[17:50:31] [ERROR] ! java.lang.IndexOutOfBoundsException: Index: 2, Size: 1
+[17:50:31] [ERROR] !   at java.util.ArrayList.rangeCheckForAdd(ArrayList.java:756)
+[17:50:31] [ERROR] !   at java.util.ArrayList.add(ArrayList.java:481)
+[17:50:31] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:568)
+[17:50:31] [ERROR] !   at …rhino.MemberBox.invoke(MemberBox.java:160)
+[17:50:31] [ERROR] !   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:463)
+[17:50:31] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
+[17:50:31] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
+[17:50:31] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
+[17:50:31] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[17:50:31] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
+[17:50:31] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
+[17:50:31] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[17:50:31] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
+[17:50:31] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[17:50:31] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
+[17:50:31] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
+[17:50:31] [ERROR] !   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy220.accept(Unknown Source)
+[17:50:31] [ERROR] !   at …kubejs.item.ItemTooltipEventJS$StaticTooltipHandlerFromJSWrapper.tooltip(ItemTooltipEventJS.java:74)
+[17:50:31] [ERROR] !   at …kubejs.client.KubeJSClientEventHandler.itemTooltip(KubeJSClientEventHandler.java:125)
+[17:50:31] [ERROR] !   at dev.architectury.event.forge.EventHandlerImplClient.event(EventHandlerImplClient.java:50)
+[17:50:31] [ERROR] !   at dev.architectury.event.forge.__EventHandlerImplClient_event_ItemTooltipEvent.invoke(.dynamic)
+[17:50:31] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+[17:50:31] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+[17:50:31] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+[17:50:31] [ERROR] !   at net.minecraftforge.event.ForgeEventFactory.onItemTooltip(ForgeEventFactory.java:360)
+[17:50:31] [ERROR] !   at net.minecraft.world.item.ItemStack.m_41651_(ItemStack.java:763)
+[17:50:31] [ERROR] !   at dev.emi.emi.api.stack.ItemEmiStack.getTooltipText(ItemEmiStack.java:153)
+[17:50:31] [ERROR] !   at dev.emi.emi.search.EmiSearch.bake(EmiSearch.java:71)
+[17:50:31] [ERROR] !   at dev.emi.emi.runtime.EmiReloadManager$ReloadWorker.run(EmiReloadManager.java:223)
+[17:50:31] [ERROR] !   at java.lang.Thread.run(Thread.java:833)
+[17:50:31] [ERROR] ! Tooltips.js#194: Error while gathering tooltip for 1 twilight_key: Wrapped java.lang.IndexOutOfBoundsException: Index: 2, Size: 1
+[17:50:31] [ERROR] ! java.lang.IndexOutOfBoundsException: Index: 2, Size: 1
+[17:50:31] [ERROR] !   at java.util.ArrayList.rangeCheckForAdd(ArrayList.java:756)
+[17:50:31] [ERROR] !   at java.util.ArrayList.add(ArrayList.java:481)
+[17:50:31] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:568)
+[17:50:31] [ERROR] !   at …rhino.MemberBox.invoke(MemberBox.java:160)
+[17:50:31] [ERROR] !   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:463)
+[17:50:31] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
+[17:50:31] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
+[17:50:31] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
+[17:50:31] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[17:50:31] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
+[17:50:31] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
+[17:50:31] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[17:50:31] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
+[17:50:31] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[17:50:31] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
+[17:50:31] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
+[17:50:31] [ERROR] !   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy220.accept(Unknown Source)
+[17:50:31] [ERROR] !   at …kubejs.item.ItemTooltipEventJS$StaticTooltipHandlerFromJSWrapper.tooltip(ItemTooltipEventJS.java:74)
+[17:50:31] [ERROR] !   at …kubejs.client.KubeJSClientEventHandler.itemTooltip(KubeJSClientEventHandler.java:125)
+[17:50:31] [ERROR] !   at dev.architectury.event.forge.EventHandlerImplClient.event(EventHandlerImplClient.java:50)
+[17:50:31] [ERROR] !   at dev.architectury.event.forge.__EventHandlerImplClient_event_ItemTooltipEvent.invoke(.dynamic)
+[17:50:31] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+[17:50:31] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+[17:50:31] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+[17:50:31] [ERROR] !   at net.minecraftforge.event.ForgeEventFactory.onItemTooltip(ForgeEventFactory.java:360)
+[17:50:31] [ERROR] !   at net.minecraft.world.item.ItemStack.m_41651_(ItemStack.java:763)
+[17:50:31] [ERROR] !   at dev.emi.emi.api.stack.ItemEmiStack.getTooltipText(ItemEmiStack.java:153)
+[17:50:31] [ERROR] !   at dev.emi.emi.search.EmiSearch.bake(EmiSearch.java:71)
+[17:50:31] [ERROR] !   at dev.emi.emi.runtime.EmiReloadManager$ReloadWorker.run(EmiReloadManager.java:223)
+[17:50:31] [ERROR] !   at java.lang.Thread.run(Thread.java:833)
+[17:50:31] [ERROR] ! Tooltips.js#186: Error while gathering tooltip for 1 broken_key: Wrapped java.lang.IndexOutOfBoundsException: Index: 2, Size: 1
+[17:50:31] [ERROR] ! java.lang.IndexOutOfBoundsException: Index: 2, Size: 1
+[17:50:31] [ERROR] !   at java.util.ArrayList.rangeCheckForAdd(ArrayList.java:756)
+[17:50:31] [ERROR] !   at java.util.ArrayList.add(ArrayList.java:481)
+[17:50:31] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:568)
+[17:50:31] [ERROR] !   at …rhino.MemberBox.invoke(MemberBox.java:160)
+[17:50:31] [ERROR] !   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:463)
+[17:50:31] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
+[17:50:31] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
+[17:50:31] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
+[17:50:31] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[17:50:31] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
+[17:50:31] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
+[17:50:31] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[17:50:31] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
+[17:50:31] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[17:50:31] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
+[17:50:31] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
+[17:50:31] [ERROR] !   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy220.accept(Unknown Source)
+[17:50:31] [ERROR] !   at …kubejs.item.ItemTooltipEventJS$StaticTooltipHandlerFromJSWrapper.tooltip(ItemTooltipEventJS.java:74)
+[17:50:31] [ERROR] !   at …kubejs.client.KubeJSClientEventHandler.itemTooltip(KubeJSClientEventHandler.java:125)
+[17:50:31] [ERROR] !   at dev.architectury.event.forge.EventHandlerImplClient.event(EventHandlerImplClient.java:50)
+[17:50:31] [ERROR] !   at dev.architectury.event.forge.__EventHandlerImplClient_event_ItemTooltipEvent.invoke(.dynamic)
+[17:50:31] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+[17:50:31] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+[17:50:31] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+[17:50:31] [ERROR] !   at net.minecraftforge.event.ForgeEventFactory.onItemTooltip(ForgeEventFactory.java:360)
+[17:50:31] [ERROR] !   at net.minecraft.world.item.ItemStack.m_41651_(ItemStack.java:763)
+[17:50:31] [ERROR] !   at dev.emi.emi.api.stack.ItemEmiStack.getTooltipText(ItemEmiStack.java:153)
+[17:50:31] [ERROR] !   at dev.emi.emi.search.EmiSearch.bake(EmiSearch.java:71)
+[17:50:31] [ERROR] !   at dev.emi.emi.runtime.EmiReloadManager$ReloadWorker.run(EmiReloadManager.java:223)
+[17:50:31] [ERROR] !   at java.lang.Thread.run(Thread.java:833)

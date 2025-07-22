@@ -63,17 +63,49 @@
 		}
 		{
 			dependencies: ["6F5C7CA9C74F13E9"]
-			description: [""]
+			description: [
+				""
+				"Check EMI info for details"
+				""
+				"&4&owork in progress&r&r"
+			]
 			icon: "minecraft:diamond_ore"
 			id: "3E22C28B1CF48689"
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "Some ore generation has been changed"
-			tasks: [{
-				id: "44D17EEE8A4E678B"
-				title: "EMI tips"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "730A1FB8078D7E82"
+					item: "forbidden_arcanus:xpetrified_ore"
+					type: "item"
+				}
+				{
+					id: "0B216994E8CF56AA"
+					item: "thermal:sapphire_ore"
+					type: "item"
+				}
+				{
+					id: "7F06FA8429B4A290"
+					item: "forbidden_arcanus:runic_stone"
+					type: "item"
+				}
+				{
+					id: "36B5B41B87040954"
+					item: "forbidden_arcanus:stella_arcanum"
+					type: "item"
+				}
+				{
+					id: "55DDC0AF0C7E0435"
+					item: "wizards_reborn:arcanum_ore"
+					type: "item"
+				}
+				{
+					id: "6B939BFF51EE6064"
+					item: "forbidden_arcanus:arcane_crystal_ore"
+					type: "item"
+				}
+			]
 			title: "Ore Generation"
 			x: -2.0d
 			y: -1.0d

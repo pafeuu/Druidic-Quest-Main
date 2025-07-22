@@ -142,7 +142,7 @@ ServerEvents.recipes(event => {
 
 	event.shapeless('flint', ['gravel','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',1)
 
-	event.shaped("flint",["GG","GG"],{G:"minecraft:gravel"})
+	event.shaped("flint",["GG","GG"],{G:"minecraft:gravel"}).id("farmersdelight:cutting/gravel")
 
 	event.shapeless('sugar', ['sugar_cane','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',2).id('minecraft:sugar_from_sugar_cane')
 

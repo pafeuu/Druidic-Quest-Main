@@ -538,8 +538,8 @@
 			id: "4572DC8C9535CB74"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4428CBA84EF3F25A"
-				table_id: 2259993594685209388L
+				id: "2CBD4C3AA617138E"
+				table_id: 4505272222986019558L
 				type: "random"
 			}]
 			shape: "gear"
@@ -1382,6 +1382,47 @@
 			}]
 			x: 15.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["30B689B22757873D"]
+			description: [
+				"&dAncient Sapling&r will help you maintain a healthy amount of aura in the area around. Right now you are not using any aura so you dont have to worry about it for now. Wood from this tree is also used in some recipes."
+				""
+				"You can read more about aura in the Book of Natural Aura."
+			]
+			id: "32A61115C0AD8C45"
+			rewards: [{
+				id: "4C30130FCA05747B"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Generating aura"
+			tasks: [{
+				id: "4BE6D5FEF2468D97"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["32A61115C0AD8C45"]
+			description: ["Right click a sunflower while holding the tablet to get rid of rain"]
+			id: "4629A647F810AA19"
+			rewards: [{
+				id: "725BED1D7C4CD018"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "Controlling the weather"
+			tasks: [{
+				id: "5589B439251D443A"
+				item: "ars_nouveau:ritual_cloudshaping"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.5d
 		}
 	]
 	title: "Tier 1 - Basic Magic"
