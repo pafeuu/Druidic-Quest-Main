@@ -215,8 +215,8 @@
 		School = "irons_spellbooks:nature"
 		MaxLevel = 8
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 3.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 35.0
 		AllowCrafting = true
@@ -525,10 +525,10 @@
 		School = "irons_spellbooks:evocation"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 2
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 4
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 3.0
+		CooldownInSeconds = 6.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:slow"]
