@@ -1220,12 +1220,25 @@
 				"Saw allows you to make planks in a more efficient way. To get planks right click stripped log but this time you will get three times as much planks as before."
 			]
 			id: "6814EBB8BDED9EEE"
-			rewards: [{
-				count: 5
-				id: "350D5FEAE354D1F3"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "350D5FEAE354D1F3"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "7D713B1740FFAA04"
+					item: {
+						Count: 1
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			subtitle: "Easier planks"
 			tasks: [{

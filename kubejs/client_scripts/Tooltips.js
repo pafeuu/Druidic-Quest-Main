@@ -183,7 +183,7 @@ ItemEvents.tooltip( tooltip => {
     if (!tooltip.shift) {
       text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
     } else {
-      text.add(2, Text.gold("Right click a spawner to destroy it and obtain infused ruby!"))
+      text.add(1, Text.gold("Right click a spawner to destroy it and obtain infused ruby!"))
     }
   })
 
@@ -191,7 +191,7 @@ ItemEvents.tooltip( tooltip => {
     if (!tooltip.shift) {
       text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
     } else {
-      text.add(2, Text.gold("Right click a spawner in The Twilight Forest to destroy it and obtain rare items and supplies!"))
+      text.add(1, Text.gold("Right click a spawner in The Twilight Forest to destroy it and obtain rare items and supplies!"))
     }
   })
 
@@ -199,7 +199,7 @@ ItemEvents.tooltip( tooltip => {
     if (!tooltip.shift) {
       text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
     } else {
-      text.add(2, Text.gold("Right click a spawner in The Overworld to destroy it and obtain rare items and supplies!"))
+      text.add(1, Text.gold("Right click a spawner in The Overworld to destroy it and obtain rare items and supplies!"))
     }
   })
   

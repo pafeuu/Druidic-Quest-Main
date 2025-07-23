@@ -2199,6 +2199,23 @@ Patch 0.3.2.1
 ### Item Balance:
     -Sandpaper durability has been doubled
     -Red Sandpaper is now a little bit more durable than regular one
+    -Nerfed Stone Claymore attack speed
+
+### Iron's Spells balance (Only apply in new worlds or if you reset serverconfig in your save folder)
+    -Spectral Hammer is now of Epic Quality
+    -Spectral Hammer cooldown is now doubled
+    -Spectral Hammer mana cost is now doubled
+    -Oakskin is now of Epic Quality
+    -Oakskin cooldown is increased by 50%
+    -Oakskin mana cost is now doubled
+
+### Loottables:
+    -Fixed Gravel loottable
+    -Fixed Random Wood reward loottable
+
+### Quests:
+    -Moved Ancient Sapling Quest to tier 1
+    -Moved Tablet of CloudShaping Quest to tier 1
 
 ### Recipes:
     -Changed recipe for Andesite Tunnel
@@ -2207,6 +2224,7 @@ Patch 0.3.2.1
     -Changed recipe for Smart Chute
     -Changed Early game recipe for planks you now need to right click Handsaw/Axe in the main hand while having logs in the offhand
     -Removed Flint recipe in the cutting board 
+    -Added recipe for stripping logs with sandpaper in the crafting grid
 
 ### Other:
     -Primitive Shears now properly hurt sheep
@@ -2215,4 +2233,6 @@ Patch 0.3.2.1
     -Fixed Random Wood reward loottable
     -Fixed quests in the gambling section
     -Turned off modernfix spark profiler debug option
+    -Fixed Dimensional Keys Tooltip not working without advanced tooltips on
+    -Pebbles and Twigs now properly generate in cherry grove biome
 
