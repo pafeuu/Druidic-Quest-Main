@@ -1,5 +1,33 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "naturesaura:book": {
+      "viewedEntries": [
+        "naturesaura:creating/generator_limit_remover",
+        "naturesaura:creating/oak_generator",
+        "naturesaura:creating/moss_generator",
+        "naturesaura:creating/end_flower",
+        "naturesaura:creating/potion_generator",
+        "naturesaura:creating/firework_generator",
+        "naturesaura:creating/flower_generator",
+        "naturesaura:creating/projectile_generator",
+        "naturesaura:creating/chorus_generator",
+        "naturesaura:creating/animal_generator",
+        "naturesaura:creating/ancient_tree",
+        "naturesaura:creating/slime_split_generator",
+        "naturesaura:creating/on_generating",
+        "naturesaura:using/blast_furnace_booster"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "irons_spellbooks:iss_guide_book": {
+      "viewedEntries": [
+        "irons_spellbooks:spell_books/scrolls"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }

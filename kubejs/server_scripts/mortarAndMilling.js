@@ -28,6 +28,33 @@ ServerEvents.recipes(event => {
         })  
     }
 
+    function MillingMetal(count, output, input, id)
+    {
+
+        event.recipes.naturesaura.altar(count+"x "+output, input,50,20,'naturesaura:crushing_catalyst')
+
+        event.recipes.create.crushing(count+"x "+output, input)
+
+        event.recipes.create.milling(count+"x "+output, input)
+
+        event.recipes.thermal.pulverizer(count+"x "+output, input).id(id)
+
+        event.custom({
+            "type": "immersiveengineering:crusher",
+            "energy": 1600,
+            "input": {
+                "item": input
+            },
+            "result": {
+                "base_ingredient": {
+                    "item": output
+                },
+                "count": count
+            },
+            "secondaries": []
+        })  
+    }
+
     function MillingWithExtras(count, output, magicCount, extrasCount, extras ,chance , input, damage, id)
     {
         event.shapeless(count+"x "+output, [input, '#forge:tools/mortars']).damageIngredient('#forge:tools/mortars', damage).id(id)
@@ -101,15 +128,15 @@ ServerEvents.recipes(event => {
     
 
 
-    MillingNoExtras(1, 'kubejs:zinc_dust', 'create:zinc_ingot', 8, 'kubejs:zinc_dust_from_zinc_ingot')
-    MillingNoExtras(1, 'thermal:nickel_dust', 'thermal:nickel_ingot', 8, 'thermal:machines/pulverizer/pulverizer_nickel_ingot_to_dust')
-    MillingNoExtras(1, 'thermal:lead_dust', 'thermal:lead_ingot', 8, 'thermal:machines/pulverizer/pulverizer_lead_ingot_to_dust')
-    MillingNoExtras(1, 'thermal:tin_dust', 'thermal:tin_ingot', 8, 'thermal:machines/pulverizer/pulverizer_tin_ingot_to_dust')
-    MillingNoExtras(1, 'thermal:iron_dust', 'iron_ingot', 8, 'thermal:machines/pulverizer/pulverizer_iron_ingot_to_dust')
-    MillingNoExtras(1, 'thermal:gold_dust', 'gold_ingot', 8, 'thermal:machines/pulverizer/pulverizer_gold_ingot_to_dust')
-    MillingNoExtras(1, 'thermal:silver_dust', 'thermal:silver_ingot', 8, 'thermal:machines/pulverizer/pulverizer_silver_ingot_to_dust')
-    MillingNoExtras(1, 'thermal:netherite_dust', 'netherite_ingot', 8, 'thermal:machines/pulverizer/pulverizer_netherite_ingot_to_dust')
-    MillingNoExtras(1, 'thermal:copper_dust', 'copper_ingot', 8, 'thermal:machines/pulverizer/pulverizer_copper_ingot_to_dust')
+    MillingMetal(1, 'kubejs:zinc_dust', 'create:zinc_ingot','kubejs:zinc_dust_from_zinc_ingot')
+    MillingMetal(1, 'thermal:nickel_dust', 'thermal:nickel_ingot','thermal:machines/pulverizer/pulverizer_nickel_ingot_to_dust')
+    MillingMetal(1, 'thermal:lead_dust', 'thermal:lead_ingot','thermal:machines/pulverizer/pulverizer_lead_ingot_to_dust')
+    MillingMetal(1, 'thermal:tin_dust', 'thermal:tin_ingot','thermal:machines/pulverizer/pulverizer_tin_ingot_to_dust')
+    MillingMetal(1, 'thermal:iron_dust', 'iron_ingot','thermal:machines/pulverizer/pulverizer_iron_ingot_to_dust')
+    MillingMetal(1, 'thermal:gold_dust', 'gold_ingot','thermal:machines/pulverizer/pulverizer_gold_ingot_to_dust')
+    MillingMetal(1, 'thermal:silver_dust', 'thermal:silver_ingot','thermal:machines/pulverizer/pulverizer_silver_ingot_to_dust')
+    MillingMetal(1, 'thermal:netherite_dust', 'netherite_ingot','thermal:machines/pulverizer/pulverizer_netherite_ingot_to_dust')
+    MillingMetal(1, 'thermal:copper_dust', 'copper_ingot','thermal:machines/pulverizer/pulverizer_copper_ingot_to_dust')
 
     
     event.remove({id: 'immersiveengineering:crusher/ingot_zinc'})

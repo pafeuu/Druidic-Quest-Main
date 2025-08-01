@@ -2209,14 +2209,14 @@ ServerEvents.recipes(event => {
 			N: '#forge:nuggets/gold'
 		}
 	  )
-	event.remove({output:"irons_spellbooks:iron_spell_book"})
-	event.smithing("irons_spellbooks:iron_spell_book","ars_nouveau:source_gem","irons_spellbooks:copper_spell_book","enigmaticlegacy:iron_ring")
+	
+	event.shapeless("irons_spellbooks:iron_spell_book",["ars_nouveau:source_gem","irons_spellbooks:copper_spell_book","enigmaticlegacy:iron_ring"]).id("irons_spellbooks:iron_spell_book")
 
-	event.remove({output:"irons_spellbooks:gold_spell_book"})
-	event.smithing("irons_spellbooks:gold_spell_book","irons_spellbooks:arcane_ingot","irons_spellbooks:iron_spell_book","irons_spellbooks:silver_ring")
+	
+	event.shapeless("irons_spellbooks:gold_spell_book",["irons_spellbooks:arcane_ingot","irons_spellbooks:iron_spell_book","irons_spellbooks:silver_ring"]).id("irons_spellbooks:gold_spell_book")
 
-	event.remove({output:"irons_spellbooks:diamond_spell_book"})
-	event.smithing("irons_spellbooks:diamond_spell_book","irons_spellbooks:energized_core","irons_spellbooks:gold_spell_book","irons_spellbooks:mana_ring")
+	
+	event.shapeless("irons_spellbooks:diamond_spell_book",["irons_spellbooks:energized_core","irons_spellbooks:gold_spell_book","irons_spellbooks:mana_ring"]).id("irons_spellbooks:diamond_spell_book")
                     	   
     tooltype.forEach(id => {
         event.smithing(

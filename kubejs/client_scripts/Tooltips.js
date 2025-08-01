@@ -52,11 +52,22 @@ ItemEvents.tooltip( tooltip => {
                'explorerscompass:explorerscompass',
                'enigmaticlegacy:cosmic_cake',
                'enigmaticlegacy:mending_mixture'],Text.green('Available through villager trading'))
+
+  // ========================================== Effortless Building ======================================
+
+  tooltip.add(["effortlessbuilding:reach_upgrade1",
+              "effortlessbuilding:reach_upgrade2",
+              "effortlessbuilding:reach_upgrade3"
+  ],Text.green("Only works in effortless building mode!"))
   
   ///=========================================== Offhand ===============================================
   
   tooltip.addAdvanced("#forge:tools/totems", (item, advanced, text) => {
     text.add(1, Text.of('Only works in the offhand').gray()) 
+  })
+
+  tooltip.addAdvanced("#forge:flowers/golden", (item, advanced, text) => {
+    text.add(1, Text.of('Golden Flower').gold()) 
   })
 
   tooltip.addAdvanced(['mbd2:elemental_extractor', 
@@ -98,7 +109,11 @@ ItemEvents.tooltip( tooltip => {
   tooltip.addAdvanced(["solonion:lunchbag",
                "solonion:lunchbox",
                "supplementaries:sack",
-               "immersiveengineering:crate"],(item, advanced, text) => {
+               "immersiveengineering:crate",
+               "irons_spellbooks:copper_spell_book",
+               "irons_spellbooks:iron_spell_book",
+               "irons_spellbooks:gold_spell_book",
+               "irons_spellbooks:rotten_spell_book"],(item, advanced, text) => {
                 text.add(1, Text.of("Make sure to empty it before upgrading!").red())
                })
   //======================================= Smithing Templates ==============================

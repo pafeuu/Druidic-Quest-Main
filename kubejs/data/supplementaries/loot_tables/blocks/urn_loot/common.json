@@ -29,13 +29,13 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 6.0
+                "min": 1.0,
+                "max": 3.0
               },
               "add": false
             }
           ],
-          "name": "minecraft:bone"
+          "name": "enigmaticlegacy:recall_potion"
         },
         {
           "type": "minecraft:item",

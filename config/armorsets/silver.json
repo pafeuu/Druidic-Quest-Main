@@ -32,6 +32,13 @@
     },
     {
       "type": "attribute",
+      "name": "alembic:true_damage.resistance",
+      "value": 6,
+      "modifierUUID": "d5a7dc33-9405-4398-b1e5-250b4c6dd218",
+      "description": "+6 blood resistance"
+    },
+    {
+      "type": "attribute",
       "name": "forge:step_height_addition",
       "value": 0.5,
       "modifierUUID": "d5a7dc88-9405-4398-11e5-250b4c6dd218",

@@ -4,7 +4,7 @@
     {
       "type": "append",
       "attribute": "alembic:ice_damage.resistance",
-      "value": 0.5,
+      "value": 1,
       "operation": "ADDITION",
       "uuid": "726b1812-46d1-47d9-ae0e-e8743e858448"
     }

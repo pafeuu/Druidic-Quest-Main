@@ -98,7 +98,7 @@ ItemEvents.toolTierRegistry(event => {
 })
 ItemEvents.armorTierRegistry(event => {
   event.add('copper', tier => {
-    tier.durabilityMultiplier = 30 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 45 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1, 3, 4, 1] // Slot indicies are [FEET, LEGS, BODY, HEAD]
     tier.enchantmentValue = 8
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -108,7 +108,7 @@ ItemEvents.armorTierRegistry(event => {
   })
 
   event.add('silver', tier => {
-    tier.durabilityMultiplier = 8 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 12 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1, 3, 4, 1] // Slot indicies are [FEET, LEGS, BODY, HEAD]
     tier.enchantmentValue = 18
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -118,7 +118,7 @@ ItemEvents.armorTierRegistry(event => {
   })
 
   event.add('lead', tier => {
-    tier.durabilityMultiplier = 15 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 23 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2, 4, 5, 2] // Slot indicies are [FEET, LEGS, BODY, HEAD]
     tier.enchantmentValue = 12
     tier.equipSound = 'minecraft:item.armor.equip_iron'

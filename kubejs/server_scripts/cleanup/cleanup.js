@@ -765,7 +765,6 @@ ServerEvents.recipes(event => {
 					item: outputItem
 				  }
 				],
-				"falling_block": "minecraft:anvil",
 				"landing_block": inputBlock
 			  }  
 		)
@@ -841,7 +840,6 @@ ServerEvents.recipes(event => {
 					count: 4
 				  }
 				],
-				"falling_block": "minecraft:anvil",
 				"landing_block": inputBlock
 			  }  
 		)// Adds in World Plates crafting recipes from falling anvil

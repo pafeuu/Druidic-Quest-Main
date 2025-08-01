@@ -7,11 +7,27 @@ ServerEvents.tags('item', event => {
   event.add("c:hidden_from_recipe_viewers",[global.nukelist])
   
 
-  let seed = ["vintagedelight:oat_seeds","vintagedelight:ghost_pepper_seeds"]
+  let seed = ["vintagedelight:oat_seeds",
+    "vintagedelight:ghost_pepper_seeds",
+    "ars_nouveau:sourceberry_bush",
+    "biomeswevegone:blueberries",
+    "biomeswevegone:oddion_bulb"]
 
 
 
-  let flower = ['minecraft:sunflower','minecraft:dandelion','naturesaura:aura_bloom','bloomingnature:wild_sunflower',/*'regions_unexplored:yellow_snowbelle',*/'bloomingnature:freesia_yellow','bloomingnature:golden_rod'/*,'regions_unexplored:alpha_dandelion'*/]
+  let flower = ['minecraft:sunflower',
+    'minecraft:dandelion',
+    'naturesaura:aura_bloom',
+    'bloomingnature:wild_sunflower',
+    'biomeswevegone:firecracker_flower_bush', 
+    'biomeswevegone:orange_amaranth', 
+    'biomeswevegone:lollipop_flower', 
+    'biomeswevegone:guzmania', 
+    'biomeswevegone:yellow_sakura_petals', 
+    'biomeswevegone:yellow_tulip', 
+    'silly_oddities:wildflowers'
+    /*'regions_unexplored:yellow_snowbelle',*/
+    /*,'regions_unexplored:alpha_dandelion'*/]
 
   /*let wiring = ['minecraft:repeater', 'minecraft:calibrated_sculk_sensor', 'minecraft:tripwire_hook', 'minecraft:daylight_detector', 'minecraft:string', 'minecraft:activator_rail', 'minecraft:detector_rail', 'minecraft:powered_rail', 'minecraft:rail', 
                 'minecraft:redstone', 'minecraft:piston', 'minecraft:composter', 'create:redstone_link', 'minecraft:sticky_piston', 'minecraft:dispenser', 'minecraft:redstone_lamp', 'minecraft:redstone_torch', 'minecraft:dropper',
@@ -20,12 +36,7 @@ ServerEvents.tags('item', event => {
                  'create:piston_extension_pole', 'create:gantry_shaft', 'create:analog_lever', 'create:pulse_repeater', 'create:pulse_extender', 'create:powered_latch', 'create:powered_toggle_latch', 'create:track','supplementaries:hourglass', 'supplementaries:crank', 
                  'supplementaries:wind_vane', 'supplementaries:cog_block', 'supplementaries:turn_table', 'supplementaries:spring_launcher', 'supplementaries:faucet']*/
   
-  let froglights = ["minecraft:ochre_froglight","minecraft:verdant_froglight","minecraft:pearlescent_froglight",
-                    "swampier_swamps:white_froglight","swampier_swamps:orange_froglight","swampier_swamps:magenta_froglight",
-                    "swampier_swamps:light_blue_froglight","swampier_swamps:lime_froglight","swampier_swamps:pink_froglight",
-                    "swampier_swamps:gray_froglight","swampier_swamps:light_gray_froglight","swampier_swamps:cyan_froglight",
-                    "swampier_swamps:blue_froglight","swampier_swamps:brown_froglight","swampier_swamps:red_froglight",
-                    "swampier_swamps:black_froglight"]
+  let froglights = ["minecraft:ochre_froglight","minecraft:verdant_froglight","minecraft:pearlescent_froglight"]
 
   let SourceLinks = ['ars_nouveau:alchemical_sourcelink','ars_nouveau:vitalic_sourcelink','ars_nouveau:mycelial_sourcelink','ars_nouveau:volcanic_sourcelink','ars_nouveau:agronomic_sourcelink']
   
@@ -47,7 +58,7 @@ ServerEvents.tags('item', event => {
   let Tier0Tool = []
   let Tier1Tool = []
   let Tier2Tool = []
-  let Tier3Tool = ["elementalcraft:chisel"]
+  let Tier3Tool = []
 
   event.add("dq:tier0/armor",[
       'thermal:beekeeper_helmet',
@@ -304,6 +315,7 @@ ServerEvents.tags('item', event => {
     "deep_aether:stratus_hoe",
     "ancient_aether:valkyrum_hoe",
     "ancient_aether:divine_hoe",])
+
   event.add("forge:tools/chisels","elementalcraft:chisel")
   event.add("forge:tools/hammers","immersiveengineering:hammer")
   event.add("forge:ingots/andesite_alloy","create:andesite_alloy")
@@ -336,6 +348,9 @@ ServerEvents.tags('item', event => {
   event.add("forge:gems",["forbidden_arcanus:rune","forbidden_arcanus:dark_rune"])
   event.add("forge:gems/zanite","#aether:gems/zanite")
   event.add("forge:gems/skyjade","deep_aether:skyjade")
+  event.remove("forge:gems/sapphire","thermal:sapphire")
+  event.remove("forge:storage_blocks/sapphire","thermal:sapphire_block")
+  event.add("forge:storage_blocks/sapphire","kubejs:sapphire_block")
 
   event.add("minecraft:axes","#forge:tools/axes")
   event.add("minecraft:pickaxes","#forge:tools/pickaxes")

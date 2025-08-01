@@ -7,6 +7,27 @@ ItemEvents.modification(event => {
   let stacking64 = ["minecraft:snowball","ender_pearl"]
  
   let tooltype =['pickaxe','shovel','hoe','axe']
+  
+  let ArmorSlot = ['helmet','chestplate','boots','leggings']
+
+  //let NatureArmorSlot = ['helmet','chest','pants','shoes']
+
+  let DurabilityBuffs= ['minecraft:iron',
+    'minecraft:leather',
+    'minecraft:chainmail',
+    'minecraft:diamond',
+    'minecraft:golden',
+    'minecraft:netherite',
+    'thermal:diving',
+    'aether:zanite',
+    'deep_aether:skyjade',
+    'forbidden_arcanus:mortem',
+    "irons_spellbooks:wandering_magician",
+    "irons_spellbooks:pumpkin",
+    "immersiveengineering:armor_faraday",
+    "thermal:beekeeper"]
+
+  //let NatureDurabilityBuffs = ['infused_iron','sky','depth']
 
   stacking16.forEach((id)=>{
 
@@ -21,6 +42,7 @@ ItemEvents.modification(event => {
       item.maxStackSize = 64
     })
   })
+
   //========================================Swords
   event.modify('minecraft:iron_sword', item=>{
     item.maxDamage = 512
@@ -38,22 +60,6 @@ ItemEvents.modification(event => {
     item.maxDamage = 128
   })
 
-  event.modify('create_sa:copper_sword', item=>{
-    item.maxDamage = 1024
-  })
-
-  event.modify('create_sa:zinc_sword', item=>{
-    item.maxDamage = 512
-  })
-
-  event.modify('create_sa:brass_sword', item=>{
-    item.maxDamage = 1024
-  })
-
-  event.modify('create_sa:experience_sword', item=>{
-    item.maxDamage = 256
-  })
-
   event.modify('naturesaura:infused_iron_sword', item=>{
     item.maxDamage = 1536
   })
@@ -64,10 +70,6 @@ ItemEvents.modification(event => {
 
   event.modify('aether:zanite_sword', item=>{
     item.maxDamage = 1024
-  })
-
-  event.modify('minecraft:diamond_sword', item=>{
-    item.maxDamage = 2048
   })
 
   event.modify('kubejs:golden_magic_feather', item=>{
@@ -84,6 +86,10 @@ ItemEvents.modification(event => {
 
   event.modify('minecraft:diamond_sword', item=>{
     item.maxDamage = 2048
+  })
+
+  event.modify('minecraft:netherite_sword', item=>{
+    item.maxDamage = 4096
   })
 
   event.modify("tide:blazing_swordfish", item=>{
@@ -229,7 +235,7 @@ ItemEvents.modification(event => {
 
   event.modify("immersiveengineering:armor_steel_helmet", item=>{
     item.maxDamage = -1,
-    item.armorProtection = 3.
+    item.armorProtection = 3
     item.armorToughness = 0
   })
 
@@ -251,6 +257,39 @@ ItemEvents.modification(event => {
     item.armorToughness = 0
   })
 
+  event.modify('alexsmobs:tarantula_hawk_elytra', item=>{
+    item.maxDamage = 1024,
+    item.armorProtection = 8
+  })
+
+  event.modify("immersiveengineering:armor_faraday_helmet", item=>{
+    item.maxDamage = -1
+  })
+
+  event.modify("immersiveengineering:armor_faraday_chestplate", item=>{
+    item.maxDamage = -1
+  })
+
+  event.modify("immersiveengineering:armor_faraday_leggings", item=>{
+    item.maxDamage = -1
+  })
+
+  event.modify("immersiveengineering:armor_faraday_boots", item=>{
+    item.maxDamage = -1
+  })
+
+  DurabilityBuffs.forEach(id => {
+
+    ArmorSlot.forEach(slot => {
+
+      event.modify(id+"_"+slot, item=>{
+
+        item.maxDamage = item.maxDamage*1.5
+      })
+    });
+  });
+
+  
   ///======================================== Other
 
   event.modify("create:sand_paper", item=>{

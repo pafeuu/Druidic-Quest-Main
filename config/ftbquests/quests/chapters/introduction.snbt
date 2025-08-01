@@ -12,10 +12,11 @@
 		{
 			dependencies: ["4FF8CB3EF0206C93"]
 			description: [
-				"You can sometimes find this materials laying on the ground. "
-				"If you cant find any you can destroy leaves for a chance to drop twigs and punch stone with a empty hand to get pebbles or just mine some gravel for a chance to drop pebbles."
+				"You can sometimes find these materials laying on the ground."
 				""
-				"&2If you dont want to chop down the whole tree you need to sneak while destroying the logs, your first axe has very little durability so it might not be able to chop down bigger trees&r"
+				"If you can't find any, you can destroy leaves for a chance to drop twigs and right click stone with a empty hand to get pebbles. Mining gravel also has a chance to drop pebbles."
+				""
+				"&2If you dont want to chop down the whole tree you need to sneak while destroying the logs! Your first axe has very little durability, so it might not be able to chop down bigger trees.&r"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -33,7 +34,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Use it to craft damaged axe"
+			subtitle: "Craft a damaged axe."
 			tasks: [
 				{
 					count: 3L
@@ -60,12 +61,13 @@
 					type: "item"
 				}
 			]
-			title: "Before you punch a tree"
+			title: "Before You Punch a Tree"
 			x: -9.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4E4E7EFB7FFC688B"]
+			description: ["It's a good time to look into some new tools."]
 			hide_until_deps_visible: false
 			id: "69B93BA4460E5F95"
 			rewards: [
@@ -91,7 +93,7 @@
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Now you can craft different tools"
+			subtitle: "The world of crafting opens to you."
 			tasks: [{
 				id: "77489C7B06FEF950"
 				item: "minecraft:crafting_table"
@@ -102,7 +104,7 @@
 		}
 		{
 			dependencies: ["69B93BA4460E5F95"]
-			description: ["&l&4Flint tools&r&r are faster alternative to stone tools in exchange they have -0.5 block reach and can't mine most of the ores"]
+			description: ["&8Flint tools&r are a faster alternative to stone tools. In exchange, they have -0.5 block reach and can't mine most of the ores."]
 			icon: "minecraft:flint"
 			id: "2BB4A388858E481A"
 			rewards: [{
@@ -112,6 +114,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Who mines stone with wood?"
 			tasks: [{
 				id: "61F4E8D6035FAA6E"
 				item: {
@@ -124,7 +127,7 @@
 				title: "Any #forge:tools/flint"
 				type: "item"
 			}]
-			title: "Different tools"
+			title: "Different Tools"
 			x: -0.5d
 			y: -1.0d
 		}
@@ -137,7 +140,7 @@
 				item: "fruitsdelight:durian_pie"
 				type: "item"
 			}]
-			subtitle: "More storage space"
+			subtitle: "Expanding Your Inventory"
 			tasks: [{
 				id: "2FB0F7C121F8F93D"
 				item: {
@@ -148,13 +151,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Very early game backpack"
+			title: "Very Early-Game Backpack"
 			x: -4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["69B93BA4460E5F95"]
-			description: ["At the start of the game you are extremely weak from starvation, finding stable food sources should be priority"]
+			description: ["You begin the game weakened from starvation. Establishing stable food sources should be a main priority."]
 			icon: {
 				Count: 1
 				id: "minecraft:wooden_sword"
@@ -189,13 +192,13 @@
 				}
 				type: "item"
 			}]
-			title: "New Combat system!"
+			title: "New Combat System!"
 			x: -4.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]
-			description: ["As you can see a lot of \"basic\" items have changed recipe, but you can still find those items while exploring the world."]
+			description: ["As you can see, a lot of \"basic\" items have changed recipes, but you can still find those items while exploring the world!"]
 			icon: "minecraft:compass"
 			id: "729D1CD4DE8B6BBE"
 			rewards: [
@@ -212,7 +215,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "You can skip some progression using loot from exploration"
+			subtitle: "It's not stealing, is it?"
 			tasks: [
 				{
 					id: "0317494A5A44092E"
@@ -247,12 +250,12 @@
 			]
 			title: "Exploration "
 			x: -3.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]
 			description: [
-				"Fishing is quite a lot different in this pack thanks to the &l&3Tide&r&r mod!"
+				"Fishing is quite a bit different in this pack, thanks to the &l&3Tide&r&r mod!"
 				""
 				"&8&oMore info soon to be added&r&r"
 			]
@@ -269,6 +272,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Just kickin' back."
 			tasks: [{
 				id: "192D3501559846C3"
 				item: {
@@ -287,21 +291,21 @@
 			}]
 			title: "New Fishing!"
 			x: -4.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]
 			description: [
-				"There is tons of armour to choose from in the pack most of them are part of the set."
-				"Sets give you bonus for wearing 4 pieces of the same armour type."
+				"There's tons of armor to choose from in the pack! Most pieces are part of a set."
+				"Sets give you bonuses for wearing 4 pieces of the same armor type."
 				""
 				"For example:"
 				""
-				"&4Leather armour&r gives you +30% movement speed"
+				"&cLeather Armor&r gives you +30% movement speed."
 				""
-				"&eBeekeeper Set&r provides you with few immunities to negative effects"
+				"The &eBeekeeper Set&r provides you with a few immunities to negative effects."
 				""
-				"For the &8Mortem Set&r you get slight increases in different stats and armour itself is quite strong"
+				"With the &8Mortem Set&r, you get a slight increases in some stats and the armor, itself, is quite strong."
 			]
 			icon: {
 				Count: 1
@@ -317,7 +321,7 @@
 				item: "alexsdelight:bison_burger"
 				type: "item"
 			}]
-			subtitle: "Craft your first armor"
+			subtitle: "Craft Your First Armor"
 			tasks: [
 				{
 					id: "6BD007076A5E453F"
@@ -378,15 +382,15 @@
 			]
 			title: "Armour Sets!"
 			x: -6.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["090099B8B3800BAE"]
 			description: [
-				"Now that you crafted or the primitive tools you can go into the real progression!"
+				"Now that you've crafted primitive tools, you can go into the real progression!"
 				""
-				"You cant yet craft furnace to smelt ore, but you should definitely cook some food."
-				"Nutritious and diverse diet might give you some buffs."
+				"You can't yet craft a furnace to smelt ore, but you should definitely cook some food."
+				"A nutritious and diverse diet might give you some buffs."
 			]
 			id: "070D257FF3DE0DBF"
 			rewards: [
@@ -408,12 +412,13 @@
 				}
 			]
 			size: 1.0d
+			subtitle: "Mmm... Yum."
 			tasks: [{
 				id: "2485CD10AB726E58"
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			title: "Before a furnace humanity used campfires"
+			title: "Before Furnaces, Humanity Used Campfires"
 			x: -0.5d
 			y: -5.5d
 		}
@@ -448,6 +453,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Hit the mines, kids!"
 			tasks: [
 				{
 					id: "63BCF6A42FC24357"
@@ -502,7 +508,7 @@
 				title: "Any #forge:tools/shovels"
 				type: "item"
 			}]
-			title: "time to gather usefull materials"
+			title: "Time to Gather Useful Materials"
 			x: 5.5d
 			y: 0.0d
 		}
@@ -511,15 +517,14 @@
 			dependency_requirement: "all_started"
 			description: [
 				""
-				"&2&lHoes now till blocks in 3x3! They do take 6 times more durability no matter how many block you till tho"
-				"&r&r"
-				"Tons of crops now have uses in progression for example you will need to grow:"
+				"&aHoes now till blocks in 3x3! They do take 6 times more durability, no matter how many blocks you till.&r"
+				"Tons of crops now have uses in progression. For example, you will need to grow:"
 				""
 				"-wheat to finish &3&ltier 0&r&r  "
 				""
 				"-potatoes  for machines in&9 &ltier 1&r"
 				""
-				"-Beetroot to craft &5&lcapsids&r&r which can transport items up as well as insert items into containers"
+				"-beetroot to craft &5&lcapsids&r&r which can transport items up, as well as insert items into containers"
 				""
 				"Hoes can harvest in the 3x3 or 5x5 depending on the quality of the hoe."
 			]
@@ -563,6 +568,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "Ah, the simple life..."
 			tasks: [{
 				id: "76AE06349C6FE86D"
 				item: {
@@ -583,7 +589,7 @@
 		}
 		{
 			dependencies: ["435BD5A742C05B1E"]
-			description: ["Get to known this material as you might be using it quite a lot later!"]
+			description: ["Get to know this material well. You might be using it quite a lot later on!"]
 			id: "70FF5891DA236DA4"
 			rewards: [{
 				count: 4
@@ -602,28 +608,29 @@
 		}
 		{
 			dependencies: ["435BD5A742C05B1E"]
-			description: ["Believe me or not potatos are crucial resource in creation of the machines"]
+			description: ["Believe it or not, potatos are a crucial resource in the creation of machines."]
 			id: "4995F4B02484AECC"
 			rewards: [{
 				id: "3F795676BD29B946"
 				item: "farmersdelight:steak_and_potatoes"
 				type: "item"
 			}]
+			subtitle: "Most unusual..."
 			tasks: [{
 				count: 18L
 				id: "4253DB3C915BF34E"
 				item: "minecraft:potato"
 				type: "item"
 			}]
-			title: "Potato farming"
+			title: "Potato Farming"
 			x: 3.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["70FF5891DA236DA4"]
 			description: [
-				"Sacks hold 9 stacks of items but they retain their inventory when broken."
-				"They are valuable component of other portable storages."
+				"Sacks hold 9 stacks of items and retain their inventory when broken."
+				"They are a valuable component of other portable storages."
 			]
 			id: "23302F77050C32C5"
 			rewards: [{
@@ -633,6 +640,7 @@
 			}]
 			shape: "gear"
 			size: 1.0d
+			subtitle: "Load 'em up!"
 			tasks: [{
 				id: "0B854A3543DF1B50"
 				item: "supplementaries:sack"
@@ -652,6 +660,7 @@
 				type: "random"
 			}]
 			shape: "gear"
+			subtitle: "Slicing and Dicing"
 			tasks: [{
 				id: "1D531E57A7A23F0E"
 				item: "farmersdelight:cutting_board"
@@ -662,7 +671,7 @@
 		}
 		{
 			dependencies: ["2A0A25E7A7AA7334"]
-			description: ["To craft primitve mortar you will need to right click a stone slab with chisel in one hand and a flint in the other"]
+			description: ["To craft a primitve mortar, you will need to right click a stone slab with a chisel in one hand and flint in the other."]
 			id: "0E5A981A32056DDC"
 			rewards: [
 				{
@@ -677,6 +686,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "Get into the grind!"
 			tasks: [{
 				id: "0998F8E68E163D34"
 				item: {
@@ -707,7 +717,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Shaping stones"
+			subtitle: "Shaping Stones"
 			tasks: [{
 				id: "581956980783ED26"
 				item: {
@@ -725,11 +735,13 @@
 		{
 			dependencies: ["0E5A981A32056DDC"]
 			description: [
-				"Straw now  also drops from modded grass variants when you are holding a knife."
+				"Straw now also drops from modded grass variants when you break it with a knife."
 				""
-				"Looting increases drop rate."
+				"Harvesting crops like wheat and flax with the knife will drop straw every time."
 				""
 				"Knives also allow you to get more drops from animals."
+				""
+				"Looting increases the drop rates."
 			]
 			icon: {
 				Count: 1
@@ -772,7 +784,7 @@
 			description: [
 				"You only need a bit for now."
 				""
-				"But you might as well plant some more to get food"
+				"Though, you might as well plant some more for food."
 			]
 			id: "22BF5448BA6B11AF"
 			rewards: [{
@@ -787,7 +799,7 @@
 				item: "minecraft:wheat"
 				type: "item"
 			}]
-			title: "Harvest your wheat"
+			title: "Harvest Your Wheat"
 			x: 8.0d
 			y: -4.0d
 		}
@@ -796,7 +808,9 @@
 			dependency_requirement: "all_started"
 			description: [
 				""
-				"To get to the next chapter you are gonna need to blow some stuff up you can either use mobs or tnt"
+				"To get to the next chapter, you're gonna need to blow some stuff up."
+				""
+				"You can use either mobs or tnt to complete explosion crafting recipes."
 			]
 			hide_until_deps_visible: false
 			icon: "minecraft:creeper_head"
@@ -816,7 +830,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Explosion Crafting!"
+			subtitle: "Crafting with a Bang!"
 			tasks: [{
 				icon: "handcrafted:creeper_trophy"
 				id: "509547F8D00897E5"
@@ -833,9 +847,9 @@
 			dependencies: ["3F2E2B483880F030"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Drop &82 strings&r, &a2 wheat seeds&r and &e3 flowers&r (with the tag #forge:flowers/golden) on the ground then explode it with tnt or creeper to craft &6Brilitant Fiber&r."
+				"Drop &82 string&r, &a2 wheat seeds&r and &e3 flowers&r (&nwith the tag #forge:flowers/golden&r) on the ground then explode it with tnt or a creeper to craft &6Brilliant Fiber&r."
 				""
-				"Right click &6Briliant Fiber&r on some leaves and wait for it to spread it will drop golden leaves which you need for further progression."
+				"Right click the &6Brilliant Fiber&r on some leaves and wait for it to spread. Once the leaves change, they will drop &egolden leaves&r, needed for further progression."
 			]
 			hide_details_until_startable: false
 			hide_until_deps_visible: false
@@ -862,6 +876,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "All that glitters..."
 			tasks: [
 				{
 					count: 8L
@@ -881,14 +896,14 @@
 		{
 			dependencies: ["474D50C2F74737EE"]
 			description: [
-				"Right click a stripped log  with golden leaf in one hand and knife in the other to turn it into wooden stand."
+				"Right click a stripped log with a &egold leaf&r in one hand and a &8knife&r in the other to turn it into wooden stand."
 				""
-				"This packs include custom ponders, holding w while hovering over an item with available ponder will show you a scene  with explanation on how to use it."
+				"Items used in the ritual do not need to be placed in exact order."
+				"The tree in the middle must grow in order to obtain the result from the recipe."
 				""
-				"To get the result out of recipe the tree in the middle has to grow, you need to replace golden powder after each recipe."
-				"Items dont have  to be in a specific order like in JEI"
+				"&aYou will need to place a sapling and new gold powder after every recipe, so make sure to mark the position of each.&r"
 				""
-				"You will need to place sapling and gold powder after every recipe so make sure to mark the position of each."
+				"This pack includes custom ponders. Holding \"W\" while hovering over an item with an available ponder will display a schematic with an explanation on how to use it."
 			]
 			hide_details_until_startable: false
 			hide_until_deps_visible: false
@@ -909,7 +924,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "First magical ritual"
+			subtitle: "First Magical Ritual"
 			tasks: [
 				{
 					count: 16L
@@ -925,16 +940,16 @@
 					type: "item"
 				}
 			]
-			title: "Assemble the ritual"
+			title: "Assemble the Ritual"
 			x: 8.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["7846743FB0D30EAD"]
 			description: [
-				"Jewelry is a big part of the modpack, getting good set of curios might be necessary to survive in this cruel world."
+				"Jewelry is a big part of the modpack. Putting together a good set of curios might be necessary to survive in this cruel world."
 				""
-				"Look at items from an enigmatic legacy mod and check what else you could craft to make yourself stronger!"
+				"Look at items from the Enigmatic Legacy mod and others to see what else you could craft to make yourself stronger!"
 			]
 			icon: "enigmaticlegacy:iron_ring"
 			id: "3EDF5559C9E29ED4"
@@ -944,6 +959,7 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			subtitle: "So sparkly!"
 			tasks: [
 				{
 					id: "7DF73EC4E0586B4D"
@@ -961,44 +977,13 @@
 					type: "item"
 				}
 			]
-			title: "First jewelry"
-			x: 12.5d
+			title: "First Jewelry"
+			x: 12.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["7846743FB0D30EAD"]
-			description: ["Used to store &aexperience&r!"]
-			id: "713CFFFD93BE4076"
-			rewards: [
-				{
-					count: 4
-					id: "72BD48ADB7DF18C7"
-					item: "irons_spellbooks:arcane_essence"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6ED247758661C9AF"
-					item: "fruitsdelight:blueberry_muffin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "338A58B6AC0C7A23"
-				item: {
-					Count: 1
-					id: "thermal:xp_crystal"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Keeping your xp safe!"
-			x: 12.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["7846743FB0D30EAD"]
-			description: ["Right click to activate it. Active eye gives +1.5 block reach for the cost of some unholy resistance and one heart"]
+			description: ["Right click to activate. When active, the eye gives +1.5 block reach for the cost of some unholy resistance and one heart."]
 			id: "4B5BA7BEE6643B4C"
 			rewards: [{
 				count: 3
@@ -1006,7 +991,7 @@
 				item: "minecraft:beetroot_soup"
 				type: "item"
 			}]
-			subtitle: "finally more range"
+			subtitle: "Finally! More range!"
 			tasks: [{
 				id: "5E942597BE42C797"
 				item: {
@@ -1016,8 +1001,8 @@
 				}
 				type: "item"
 			}]
-			title: "Important part of the equipment"
-			x: 13.5d
+			title: "Important Piece of Equipment"
+			x: 11.5d
 			y: 3.5d
 		}
 		{
@@ -1061,16 +1046,16 @@
 					type: "item"
 				}
 			]
-			title: "Why is it always clay?"
+			title: "Why Is It Always Clay?"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5C95579DC269AF2A"]
 			description: [
-				"Squids might drop ink sacs more often when killed with a knife."
+				"Squid might drop ink sacs more often if killed with a knife."
 				""
-				"This might be a good time to equip &l&4the cursed ring&r&r if you are brave enough..."
+				"This might be a good time to equip &l&4the Cursed Ring&r&r if you're brave enough..."
 			]
 			hide_details_until_startable: false
 			hide_until_deps_visible: false
@@ -1106,7 +1091,7 @@
 				"3795D0DD18CF8363"
 				"22BF5448BA6B11AF"
 			]
-			description: ["Brick glue has 96 durability and uses up one per brick block crafted"]
+			description: ["Brick glue has 96 durability and uses one per brick block crafted."]
 			id: "78441BFCAC4CA22B"
 			rewards: [{
 				id: "77F7DC3CC498A66A"
@@ -1114,7 +1099,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "Brick's crafting component"
+			subtitle: "Brick's Crafting Component"
 			tasks: [{
 				id: "6C8D3A74395909E3"
 				item: {
@@ -1136,13 +1121,13 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Coke Oven is built by making a 3x3x3 cube of Coke Bricks. To form a multiblock right click it with engineer's hammer."
+				"The &cCoke Oven&r is built by making a 3x3x3 cube of Coke Bricks. To form the multiblock, right click it with an engineer's hammer."
 				""
-				"It will take coal and transform it into coal coke and creosote oil necessary for further progression."
+				"It will take coal and transform it into coal coke and creosote oil, necessary for further progression."
 				""
-				"&2&lCongratulations on finishing your first chapter!"
-				"&r"
-				"&9If you are enjoying the pack so far make sure to visit our discord to share your thoughts about it."
+				"&2Congratulations on finishing your first chapter!&r"
+				""
+				"&9If you are enjoying the pack so far, be sure to visit our discord to share your thoughts about it."
 				"&r"
 				"&dYour feedback and bug reports are crucial to the pack development!&r"
 			]
@@ -1157,6 +1142,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Heatin' Up!"
 			tasks: [
 				{
 					count: 27L
@@ -1183,7 +1169,7 @@
 		{
 			dependencies: ["4E4E7EFB7FFC688B"]
 			description: [
-				"To get planks you will need to right click with axe in one hand and stripped log in the other."
+				"To get planks, right click with an axe in one hand and stripped logs in the other."
 				""
 				"&4&oCurrently the cooldown on the axe is broken so you can make planks very quickly&r&r"
 			]
@@ -1196,6 +1182,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Everything seems different here..."
 			tasks: [{
 				id: "06A59ED76D90BEB6"
 				item: {
@@ -1208,16 +1195,16 @@
 				title: "Any #minecraft:planks"
 				type: "item"
 			}]
-			title: "Cutting planks"
+			title: "Cutting Planks"
 			x: -6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["69B93BA4460E5F95"]
 			description: [
-				"&4Remember that flint does not drop from gravel anymore and you will have to craft it using 4 gravel in the crafting grid."
+				"&4Remember that flint does not drop from gravel anymore. You will have to craft it using 4 gravel in the crafting grid."
 				"&r"
-				"Saw allows you to make planks in a more efficient way. To get planks right click stripped log but this time you will get three times as much planks as before."
+				"The saw allows you to make planks in a more efficient way. Holding a saw in one hand and stripped logs in the other will give you 3x more planks than using an axe."
 			]
 			id: "6814EBB8BDED9EEE"
 			rewards: [
@@ -1228,19 +1215,19 @@
 					type: "item"
 				}
 				{
-					id: "7D713B1740FFAA04"
+					id: "02D09C985BE30D26"
 					item: {
 						Count: 1
 						id: "create:sand_paper"
 						tag: {
-							Damage: 0
+							Damage: 128
 						}
 					}
 					type: "item"
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Easier planks"
+			subtitle: "Easier Planks"
 			tasks: [{
 				id: "6E43726567162598"
 				item: {
@@ -1258,7 +1245,7 @@
 		{
 			dependencies: ["118A5A467C0FEA36"]
 			description: [
-				"Difficulty is increased once you get material from the next tier so make sure you upgrade your equipment to survive in this cruel world"
+				"Be sure to keep upgrading your equipment if you want to survive this cruel world! The difficulty will increase each time you obtain the appropriate materials."
 				""
 				"&l&4Mobs in this modpack can spawn with almost any equipment in the game. But they will not drop any of that equipment!&r&r"
 			]
@@ -1276,6 +1263,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Is it just me...?"
 			tasks: [
 				{
 					entity: "minecraft:zombie"
@@ -1290,13 +1278,13 @@
 					value: 5L
 				}
 			]
-			title: "Mob Difficulty changes"
+			title: "Mob Difficulty Changes"
 			x: -7.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3795DEE8A3FE6814"]
-			description: ["&bArcanum Ore&r spawns between y90 and y-40 in the overworld."]
+			description: ["&bArcanum Ore&r spawns between y90 and y-40 in the Overworld."]
 			icon: "wizards_reborn:arcanum"
 			id: "3D782DAACBB5DE87"
 			rewards: [
@@ -1312,6 +1300,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "How it shines!"
 			tasks: [
 				{
 					id: "5B2D4312E78561FC"
@@ -1331,9 +1320,9 @@
 		{
 			dependencies: ["3D782DAACBB5DE87"]
 			description: [
-				"&b&lArcanum Pylon&r&r  takes exp from a player that right clicks it with a certain items in hand."
+				"The &b&lArcanum Pylon&r&r takes xp from a player who right clicks it with certain items in hand."
 				""
-				"It will take any log and approximetely 1lvl to obtain arcane wood log"
+				"It will take any log and approximately 1 lvl to obtain 1 arcane wood log."
 			]
 			icon: "kubejs:arcanum_pylon"
 			id: "093161CA8E0381C0"
@@ -1350,6 +1339,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Magic Wood"
 			tasks: [
 				{
 					id: "04635584CE7DCF6A"
@@ -1368,7 +1358,7 @@
 		}
 		{
 			dependencies: ["093161CA8E0381C0"]
-			description: ["&5Arcane Wood Tools&r are extremely slow and brittle but they have innate silk touch ability and can harvest most of the blocks"]
+			description: ["&5Arcane Wood Tools&r are extremely slow and brittle, but have innate silk touch ability and can harvest most of the blocks."]
 			icon: {
 				Count: 1
 				id: "wizards_reborn:arcane_wood_pickaxe"
@@ -1453,6 +1443,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "It begins..."
 			tasks: [
 				{
 					id: "67052489F773D9A1"
@@ -1501,6 +1492,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "Pound it!"
 			tasks: [{
 				id: "4AEB70C69BA35CA1"
 				item: {
@@ -1518,9 +1510,12 @@
 		{
 			dependencies: ["3D782DAACBB5DE87"]
 			description: [
-				"You now have access to nicer light sources. "
+				"You now have access to nicer light sources."
 				""
-				"You can also dye them and then use them on some of the salty lightsources to change their flame appearence!"
+				"Can be dyed any color."
+				""
+				"Place them on their own for a ball of light."
+				"Use them on the salty lightsources to change their flame appearance."
 			]
 			id: "34A2ED5D35107D50"
 			rewards: [{
@@ -1528,6 +1523,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			subtitle: "Pretty Lights!"
 			tasks: [{
 				count: 16L
 				id: "383A5FC7ADED53CF"
@@ -1536,6 +1532,115 @@
 			}]
 			x: 6.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["118A5A467C0FEA36"]
+			description: ["Many structures contain loot to help you begin your spellcasting journey!"]
+			icon: "irons_spellbooks:common_ink"
+			id: "49520CEBA3F18404"
+			rewards: [
+				{
+					id: "77114CF8A9D6039C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blaze_storm"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F0A6D58A6CD8D78"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:heal"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Alakazam!"
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/ink_root"
+					criterion: ""
+					icon: "irons_spellbooks:common_ink"
+					id: "13309C8B4512A3BA"
+					type: "advancement"
+				}
+				{
+					id: "611F6D423FC1D89B"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+			]
+			title: "Spellcasting"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D782DAACBB5DE87"]
+			description: [
+				"Growing &dancient saplings&r can help you maintain a healthy amount of aura in an area. This will prove useful later when aura-usage increases. Wood from this tree is also required for some recipes."
+				""
+				"Read more about aura and ancient saplings in the &6Book of Natural Aura&r."
+			]
+			id: "32A61115C0AD8C45"
+			rewards: [{
+				id: "4C30130FCA05747B"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Generating Aura"
+			tasks: [{
+				id: "4BE6D5FEF2468D97"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32A61115C0AD8C45"]
+			description: ["Right click a sunflower while holding the tablet to clear rainy weather."]
+			id: "4629A647F810AA19"
+			rewards: [{
+				id: "725BED1D7C4CD018"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "Controlling the Weather"
+			tasks: [{
+				id: "5589B439251D443A"
+				item: "ars_nouveau:ritual_cloudshaping"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
 		}
 	]
 	title: "Tier 0 - Wooden Age"

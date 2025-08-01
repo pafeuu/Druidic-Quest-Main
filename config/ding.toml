@@ -13,7 +13,7 @@
 	name = "wizards_reborn:crystal_shimmer"
 	#Volume of the volume (when Minecraft loads)
 	#Range: 0.0 ~ 10.0
-	volume = 2
+	volume = 5
 	#Pitch of the sound (when Minecraft loads)
 	#Range: 0.0 ~ 10.0
 	pitch = 2.0

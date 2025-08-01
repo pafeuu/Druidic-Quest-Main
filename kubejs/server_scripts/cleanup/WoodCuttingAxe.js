@@ -1,7 +1,7 @@
 ItemEvents.rightClicked(event => {
     
     const player = event.player;
-    //const server = event.server;
+    const server = event.server;
 
     function StrippedWoodCutting(planks,log)
     {
@@ -13,6 +13,7 @@ ItemEvents.rightClicked(event => {
                 player.damageHeldItem()
 
                 player.addItemCooldown(player.mainHandItem.id,5)
+				server.runCommandSilent(`/execute at ${player.username} run playsound sawmill:ui.sawmill.take_result player ${player.username}`);
                 player.addExhaustion(0.25)
                 event.cancel()     
             }

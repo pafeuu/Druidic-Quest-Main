@@ -204,14 +204,6 @@
 		}
 		{
 			height: 1.5d
-			image: "supplementaries:block/gold_trapdoor"
-			rotation: 0.0d
-			width: 1.5d
-			x: 7.0d
-			y: 1.5d
-		}
-		{
-			height: 1.5d
 			image: "chipped:block/gold_block/ancient_gold_block"
 			rotation: 0.0d
 			width: 1.5d
@@ -233,14 +225,6 @@
 			width: 1.5d
 			x: 8.5d
 			y: -4.5d
-		}
-		{
-			height: 1.5d
-			image: "supplementaries:block/gold_trapdoor"
-			rotation: 0.0d
-			width: 1.5d
-			x: 8.5d
-			y: 1.5d
 		}
 		{
 			height: 1.5d
@@ -442,16 +426,17 @@
 			can_repeat: false
 			dependencies: ["4676E5CD619B4194"]
 			description: [
-				"We got everything you would ever want!"
-				"or anything that would make us profit"
+				"We've got everything you could ever want!"
 				""
+				"&7Or anything that'll make us profit, anyway..."
+				"&r"
 				"&2&lMore stuff in stock soon!&r&r"
 			]
 			icon: { Count: 64, id: "thermal:gold_coin" }
 			id: "72A4177F6B3E06F9"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Welcome to the Amazing Digital Market"
+			subtitle: "Welcome to the Market!"
 			tasks: [{
 				id: "682CA83814F08244"
 				title: "Market"
@@ -472,12 +457,14 @@
 				item: "minecraft:oak_sapling"
 				type: "item"
 			}]
+			subtitle: "1 Silver Coin"
 			tasks: [{
 				consume_items: true
 				id: "1776E66E009B16EC"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "Oak Sapling"
 			x: -7.5d
 			y: -4.5d
 		}
@@ -503,13 +490,14 @@
 				table_id: 8160716774924117242L
 				type: "choice"
 			}]
+			subtitle: "3 Gold Coins"
 			tasks: [{
 				count: 3L
 				id: "69430A23F226223A"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
-			title: "Buy an Armor set"
+			title: "Armor Set Choice"
 			x: 4.0d
 			y: 0.0d
 		}
@@ -526,11 +514,13 @@
 				item: "wizards_reborn:arcanum"
 				type: "item"
 			}]
+			subtitle: "1 Gold Coin"
 			tasks: [{
 				id: "0ED02EC443E7B322"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			title: "8 Arcanum"
 			x: 1.0d
 			y: -1.5d
 		}
@@ -538,24 +528,19 @@
 			dependencies: ["682CA83814F08244"]
 			icon: { Count: 18, id: "minecraft:bamboo" }
 			id: "187C4798A85AD74C"
-			rewards: [
-				{
-					count: 18
-					id: "72EB7E87D9D28173"
-					item: "minecraft:bamboo"
-					type: "item"
-				}
-				{
-					id: "38BF7429ED115335"
-					item: "regions_unexplored:bamboo_sapling"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 18
+				id: "72EB7E87D9D28173"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			subtitle: "1 Gold Coin"
 			tasks: [{
 				id: "680195377BEACCA2"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			title: "18 Bamboo"
 			x: 1.0d
 			y: -3.0d
 		}
@@ -568,11 +553,13 @@
 				item: "supplementaries:sack"
 				type: "item"
 			}]
+			subtitle: "1 Gold Coin"
 			tasks: [{
 				id: "262C76991DE6B747"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			title: "Empty Sack"
 			x: 1.0d
 			y: -4.5d
 		}
@@ -586,11 +573,13 @@
 				item: "minecraft:cocoa_beans"
 				type: "item"
 			}]
+			subtitle: "1 Gold Coin"
 			tasks: [{
 				id: "42CFC4C2751FE000"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			title: "16 Cocoa Beans"
 			x: 2.5d
 			y: -4.5d
 		}
@@ -607,11 +596,13 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
+			subtitle: "1 Gold Coin"
 			tasks: [{
 				id: "2D1B6048F679038C"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			title: "2 Blaze Rods"
 			x: 2.5d
 			y: -3.0d
 		}
@@ -625,11 +616,13 @@
 				item: "farmersdelight:organic_compost"
 				type: "item"
 			}]
+			subtitle: "1 Gold Coin"
 			tasks: [{
 				id: "6DDC64F2FBD39B5B"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			title: "8 Organic Compost"
 			x: 2.5d
 			y: -1.5d
 		}
@@ -645,6 +638,7 @@
 				item: "immersiveengineering:crate"
 				type: "item"
 			}]
+			subtitle: "1 Gold Coin + 2 Silver Coins"
 			tasks: [
 				{
 					id: "5EF0A9D8DB904717"
@@ -658,6 +652,7 @@
 					type: "item"
 				}
 			]
+			title: "Empty Storage Crate"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -674,11 +669,13 @@
 				item: "immersiveengineering:treated_wood_horizontal"
 				type: "item"
 			}]
+			subtitle: "1 Gold Coin"
 			tasks: [{
 				id: "6B8B9BA968194773"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			title: "64 Treated Wood Planks"
 			x: 4.0d
 			y: -4.5d
 		}
@@ -695,11 +692,13 @@
 				item: "alexsdelight:bunfungus_sandwich"
 				type: "item"
 			}]
+			subtitle: "1 Gold Coin"
 			tasks: [{
 				id: "341185228574FCC0"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			title: "4 Bunfungus Sandwiches"
 			x: 4.0d
 			y: -3.0d
 		}
@@ -712,11 +711,13 @@
 				item: "minecraft:dispenser"
 				type: "item"
 			}]
+			subtitle: "1 Gold Coin"
 			tasks: [{
 				id: "2739E8D5963C6720"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			title: "Dispenser"
 			x: 4.0d
 			y: -1.5d
 		}
@@ -733,12 +734,14 @@
 				item: "immersiveengineering:conveyor_basic"
 				type: "item"
 			}]
+			subtitle: "2 Gold Coins"
 			tasks: [{
 				count: 2L
 				id: "07051447DA879A5F"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			title: "16 Conveyor Belt"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -755,11 +758,13 @@
 				item: "naturesaura:gold_powder"
 				type: "item"
 			}]
+			subtitle: "1 Gold Coin"
 			tasks: [{
 				id: "4B29CC90A7C6E48D"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			title: "64 Gold Dust"
 			x: 5.5d
 			y: -4.5d
 		}
@@ -781,11 +786,13 @@
 					type: "item"
 				}
 			]
+			subtitle: "1 Gold Coin"
 			tasks: [{
 				id: "7149CC4054B95481"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			title: "3 Beehive Setups"
 			x: 5.5d
 			y: -3.0d
 		}
@@ -802,11 +809,13 @@
 				title: "Summon a Bee at your position"
 				type: "command"
 			}]
+			subtitle: "1 Gold Coin"
 			tasks: [{
 				id: "588E2793889F27B9"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			title: "Bee Spawn Egg"
 			x: 5.5d
 			y: -1.5d
 		}
@@ -822,12 +831,14 @@
 				item: "minecraft:wither_skeleton_skull"
 				type: "item"
 			}]
+			subtitle: "3 Gold Coins"
 			tasks: [{
 				count: 3L
 				id: "783C2ECD35D5E6CB"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			title: "Wither Skeleton Skull"
 			x: 5.5d
 			y: 0.0d
 		}
@@ -847,7 +858,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "No risk! trust me bro..."
+			subtitle: "No risk! Trust me bro..."
 			tasks: [
 				{
 					consume_items: true
@@ -877,12 +888,14 @@
 				item: "minecraft:birch_sapling"
 				type: "item"
 			}]
+			subtitle: "1 Silver Coin"
 			tasks: [{
 				consume_items: true
 				id: "2F29A0DAD129D0F2"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "Birch Sapling"
 			x: -6.0d
 			y: -4.5d
 		}
@@ -895,12 +908,14 @@
 				item: "minecraft:spruce_sapling"
 				type: "item"
 			}]
+			subtitle: "1 Silver Coin"
 			tasks: [{
 				consume_items: true
 				id: "349CCCD2AB22E522"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "Spruce Sapling"
 			x: -4.5d
 			y: -4.5d
 		}
@@ -910,16 +925,18 @@
 			icon: "minecraft:acacia_sapling"
 			id: "240336F6F8B65AA8"
 			rewards: [{
-				id: "124A23D5A24A242C"
-				item: "minecraft:oak_sapling"
+				id: "7AD62373738242E9"
+				item: "minecraft:acacia_sapling"
 				type: "item"
 			}]
+			subtitle: "1 Silver Coin"
 			tasks: [{
 				consume_items: true
 				id: "790DED3F77F3A858"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "Acacia Sapling"
 			x: -3.0d
 			y: -4.5d
 		}
@@ -935,6 +952,7 @@
 				item: "quark:ancient_sapling"
 				type: "item"
 			}]
+			subtitle: "4 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 4L
@@ -942,7 +960,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Silver Coin"
+			title: "Ashen Sapling"
 			x: -3.0d
 			y: -1.5d
 		}
@@ -955,6 +973,7 @@
 				item: "minecraft:cherry_sapling"
 				type: "item"
 			}]
+			subtitle: "4 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 4L
@@ -962,7 +981,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Silver Coin"
+			title: "Cherry Sapling"
 			x: -4.5d
 			y: -1.5d
 		}
@@ -975,6 +994,7 @@
 				item: "minecraft:mangrove_propagule"
 				type: "item"
 			}]
+			subtitle: "4 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 4L
@@ -982,7 +1002,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Silver Coin"
+			title: "Mangrove Propagule"
 			x: -6.0d
 			y: -1.5d
 		}
@@ -996,6 +1016,7 @@
 				item: "minecraft:dark_oak_sapling"
 				type: "item"
 			}]
+			subtitle: "4 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 4L
@@ -1003,7 +1024,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Silver Coin"
+			title: "4 Dark Oak Saplings"
 			x: -7.5d
 			y: -1.5d
 		}
@@ -1017,6 +1038,7 @@
 				item: "minecraft:arrow"
 				type: "item"
 			}]
+			subtitle: "2 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 2L
@@ -1024,6 +1046,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "32 Arrows"
 			x: -7.5d
 			y: -3.0d
 		}
@@ -1037,6 +1060,7 @@
 				item: "quark:torch_arrow"
 				type: "item"
 			}]
+			subtitle: "3 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -1044,6 +1068,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "32 Torch Arrows"
 			x: -4.5d
 			y: -3.0d
 		}
@@ -1069,6 +1094,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "2 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 2L
@@ -1076,6 +1102,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "2 Rope Arrows"
 			x: -6.0d
 			y: -3.0d
 		}
@@ -1092,6 +1119,7 @@
 				item: "farmersdelight:potato_crate"
 				type: "item"
 			}]
+			subtitle: "3 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -1099,6 +1127,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "2 Potato Crates"
 			x: -3.0d
 			y: -3.0d
 		}
@@ -1146,6 +1175,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "8 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 8L
@@ -1153,6 +1183,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "Recall Scroll"
 			x: -3.0d
 			y: 0.0d
 		}
@@ -1200,6 +1231,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "6 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 6L
@@ -1207,6 +1239,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "Teleport Scroll"
 			x: -4.5d
 			y: 0.0d
 		}
@@ -1219,6 +1252,7 @@
 				item: "woodenhopper:wooden_hopper"
 				type: "item"
 			}]
+			subtitle: "5 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 5L
@@ -1226,6 +1260,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "Wooden Hopper"
 			x: -6.0d
 			y: 0.0d
 		}
@@ -1239,6 +1274,7 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
+			subtitle: "5 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 5L
@@ -1246,6 +1282,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "4 Raw Iron"
 			x: -7.5d
 			y: 0.0d
 		}
@@ -1255,6 +1292,7 @@
 				"37E717454A7E8792"
 				"682CA83814F08244"
 			]
+			description: ["&o&4&nOne time offer!&r&r&r"]
 			hide_until_deps_visible: true
 			icon: "minecraft:budding_amethyst"
 			id: "64B56173EADBA88D"
@@ -1263,12 +1301,13 @@
 				item: "minecraft:budding_amethyst"
 				type: "item"
 			}]
-			subtitle: "One time offer!"
+			subtitle: "1 Netherite Coin"
 			tasks: [{
 				id: "4E820316F88B140E"
 				item: "thermal:netherite_coin"
 				type: "item"
 			}]
+			title: "Budding Amethyst"
 			x: 7.0d
 			y: -4.5d
 		}
@@ -1281,11 +1320,13 @@
 				item: "thermal:device_rock_gen"
 				type: "item"
 			}]
+			subtitle: "1 Netherite Coin"
 			tasks: [{
 				id: "41CEC9A206EB068C"
 				item: "thermal:netherite_coin"
 				type: "item"
 			}]
+			title: "Igneous Extruder"
 			x: 7.0d
 			y: -3.0d
 		}
@@ -1300,12 +1341,14 @@
 				table_id: 1208925981311075483L
 				type: "choice"
 			}]
+			subtitle: "2 Netherite Coins"
 			tasks: [{
 				count: 2L
 				id: "4FFC1E673923941E"
 				item: "thermal:netherite_coin"
 				type: "item"
 			}]
+			title: "Waystone Choice"
 			x: 7.0d
 			y: -1.5d
 		}
@@ -1319,11 +1362,13 @@
 				item: "enigmaticlegacy:mending_mixture"
 				type: "item"
 			}]
+			subtitle: "1 Netherite Coin"
 			tasks: [{
 				id: "338E3C5F951BCA46"
 				item: "thermal:netherite_coin"
 				type: "item"
 			}]
+			title: "2 Mending Mixtures"
 			x: 7.0d
 			y: 0.0d
 		}
@@ -1332,105 +1377,24 @@
 				"682CA83814F08244"
 				"32A61115C0AD8C45"
 			]
-			icon: "quark:blue_blossom_sapling"
+			icon: "quark:red_blossom_sapling"
 			id: "53F39B4876F4327C"
 			rewards: [{
-				id: "686A2D86262981B4"
-				item: "quark:blue_blossom_sapling"
-				type: "item"
+				exclude_from_claim_all: true
+				icon: "quark:orange_blossom_sapling"
+				id: "149DB490DFA312F6"
+				table_id: 5973969493168076425L
+				type: "choice"
 			}]
+			subtitle: "4 Gold Coins"
 			tasks: [{
 				count: 4L
 				id: "53D68AEF8CDC8B97"
 				item: { Count: 4, id: "thermal:gold_coin" }
 				type: "item"
 			}]
+			title: "Trumpet Sapling Choice"
 			x: 1.0d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"682CA83814F08244"
-				"32A61115C0AD8C45"
-			]
-			icon: "quark:lavender_blossom_sapling"
-			id: "65EAEFD522658128"
-			rewards: [{
-				icon: "quark:lavender_blossom_sapling"
-				id: "6379E55330C5F847"
-				item: "quark:lavender_blossom_sapling"
-				type: "item"
-			}]
-			tasks: [{
-				count: 4L
-				id: "3453076D6D727462"
-				item: { Count: 4, id: "thermal:gold_coin" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"682CA83814F08244"
-				"32A61115C0AD8C45"
-			]
-			icon: "quark:orange_blossom_sapling"
-			id: "78F35BF913108136"
-			rewards: [{
-				id: "6EFEDE03DACCC42D"
-				item: "quark:orange_blossom_sapling"
-				type: "item"
-			}]
-			tasks: [{
-				count: 4L
-				id: "50EB176FB3C0A6BB"
-				item: { Count: 4, id: "thermal:gold_coin" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"682CA83814F08244"
-				"32A61115C0AD8C45"
-			]
-			icon: "quark:yellow_blossom_sapling"
-			id: "4DDB2EFFC0A81872"
-			rewards: [{
-				id: "3C222044B7F7261A"
-				item: "quark:yellow_blossom_sapling"
-				type: "item"
-			}]
-			tasks: [{
-				count: 4L
-				id: "49DFFEDE9D388CB7"
-				item: { Count: 4, id: "thermal:gold_coin" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"682CA83814F08244"
-				"32A61115C0AD8C45"
-			]
-			icon: "quark:red_blossom_sapling"
-			id: "653FBB634DD7C9A1"
-			rewards: [{
-				id: "01C65DA8CFCA6659"
-				item: "quark:red_blossom_sapling"
-				type: "item"
-			}]
-			tasks: [{
-				count: 4L
-				id: "1FD0B5B8DDBECF73"
-				item: { Count: 4, id: "thermal:gold_coin" }
-				type: "item"
-			}]
-			x: 7.0d
 			y: 1.5d
 		}
 		{
@@ -1441,17 +1405,21 @@
 			icon: "minecraft:sunflower"
 			id: "6D58F8323029870C"
 			rewards: [{
-				id: "14954BE5B886373D"
-				item: "minecraft:sunflower"
-				type: "item"
+				exclude_from_claim_all: true
+				icon: "minecraft:peony"
+				id: "5654BE20A619845F"
+				table_id: 6555753844430064261L
+				type: "choice"
 			}]
+			subtitle: "4 Gold Coins"
 			tasks: [{
 				count: 4L
 				id: "05B19B804D9834B2"
 				item: { Count: 4, id: "thermal:gold_coin" }
 				type: "item"
 			}]
-			x: 8.5d
+			title: "Two-Tall Flower Choice"
+			x: 4.0d
 			y: 1.5d
 		}
 		{
@@ -1465,6 +1433,7 @@
 				item: "fruitsdelight:lemon_seeds"
 				type: "item"
 			}]
+			subtitle: "5 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 5L
@@ -1472,6 +1441,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "4 Lemon Seeds"
 			x: -7.5d
 			y: 1.5d
 		}
@@ -1485,6 +1455,7 @@
 				item: "minecraft:glow_berries"
 				type: "item"
 			}]
+			subtitle: "5 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 5L
@@ -1492,6 +1463,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "4 Glowberries"
 			x: -6.0d
 			y: 1.5d
 		}
@@ -1505,6 +1477,7 @@
 				item: "vintagedelight:cucumber_seeds"
 				type: "item"
 			}]
+			subtitle: "5 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 5L
@@ -1512,6 +1485,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "4 Cucumber Seeds"
 			x: -4.5d
 			y: 1.5d
 		}
@@ -1525,6 +1499,7 @@
 				item: "farmersdelight:tomato_seeds"
 				type: "item"
 			}]
+			subtitle: "5 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 5L
@@ -1532,6 +1507,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "4 Tomato Seeds"
 			x: -3.0d
 			y: 1.5d
 		}
@@ -1540,7 +1516,11 @@
 				"682CA83814F08244"
 				"69B93BA4460E5F95"
 			]
-			description: ["Emergency tools, if you don't want to hold money for the emergencies you can deposit it here earlier and claim your rewards when you need them!"]
+			description: [
+				"Emergency tools!"
+				""
+				"Pro Tip: if you don't want extra coins filling your inventory, you can spend them in advance and claim your rewards when you need them!"
+			]
 			icon: {
 				Count: 1
 				id: "minecraft:wooden_pickaxe"
@@ -1587,6 +1567,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "5 Silver Coins"
 			tasks: [{
 				consume_items: true
 				count: 5L
@@ -1594,6 +1575,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			title: "Emergency Axe and Pickaxe"
 			x: -1.0d
 			y: 1.5d
 		}
@@ -1624,12 +1606,14 @@
 				}
 				type: "item"
 			}]
+			subtitle: "4 Netherite Coins"
 			tasks: [{
 				count: 4L
 				id: "30BDD8AB2026A4CB"
 				item: "thermal:netherite_coin"
 				type: "item"
 			}]
+			title: "Mending Enchanted Book"
 			x: 8.5d
 			y: -4.5d
 		}
@@ -1642,11 +1626,13 @@
 				item: "quark:diamond_heart"
 				type: "item"
 			}]
+			subtitle: "1 Netherite Coin"
 			tasks: [{
 				id: "6E7DA18141447874"
 				item: "thermal:netherite_coin"
 				type: "item"
 			}]
+			title: "Heart of Diamond"
 			x: 8.5d
 			y: -3.0d
 		}
@@ -1659,13 +1645,40 @@
 				item: "minecraft:heart_of_the_sea"
 				type: "item"
 			}]
+			subtitle: "1 Netherite Coin"
 			tasks: [{
 				id: "498AA0BF1BE332EF"
 				item: "thermal:netherite_coin"
 				type: "item"
 			}]
+			title: "Heart of the Sea"
 			x: 8.5d
 			y: -1.5d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"32A61115C0AD8C45"
+			]
+			icon: "ars_nouveau:green_archwood_sapling"
+			id: "2C6CB550354953EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: "ars_nouveau:blue_archwood_sapling"
+				id: "6C4D0E0ABCAE44DE"
+				table_id: 5484227146834532380L
+				type: "choice"
+			}]
+			subtitle: "4 Gold Coins"
+			tasks: [{
+				count: 4L
+				id: "35E874FFCEFBC8E9"
+				item: { Count: 4, id: "thermal:gold_coin" }
+				type: "item"
+			}]
+			title: "Archwood Sapling Choice"
+			x: 2.5d
+			y: 1.5d
 		}
 	]
 	title: "Market"

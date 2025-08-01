@@ -5,8 +5,6 @@
 	filename: "tier_2"
 	group: "23A1FEBD04C34E2E"
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_complete: true
-	hide_quest_until_deps_visible: true
 	icon: "create:andesite_alloy"
 	id: "26ACFF6014336FD7"
 	order_index: 2
@@ -15,8 +13,9 @@
 		{
 			dependencies: ["769C5B75D85F81FC"]
 			description: [
-				"Your first ingots of &5Arcane Alloy&r must be made with inefficient tree ritual recipe."
-				"At the end of the chapter you will unluck much better recipe"
+				"Your first ingots of &5Arcane Alloy&r must be made with the inefficient tree ritual recipe."
+				""
+				"At the end of the chapter, you will unlock a much better method."
 			]
 			id: "4E33A6524A987E23"
 			rewards: [{
@@ -26,6 +25,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Magic Metal"
 			tasks: [{
 				id: "3AD0E0A9B87DBD1E"
 				item: "kubejs:source_alloy_ingot"
@@ -40,9 +40,11 @@
 				"2841B26876F416EE"
 			]
 			description: [
-				"With the help of &5&lEnchanting Apparatus&r&r you will be able to craft tons of new items as well as gain access to enchanting if you found some enchanting runes already."
+				"With the help of the &5&lEnchanting Apparatus&r&r, you can craft tons of new items!"
 				""
-				"&d&lEnchanting Apparatus can enchant any compatible item! not just books!&r&r"
+				"You can now access enchanting, as well... if you've found some enchanting runes."
+				""
+				"&5The Enchanting Apparatus can enchant &nany&r &5compatible item! Not just books!&r"
 			]
 			icon: "ars_nouveau:arcane_core"
 			id: "72FB95A11B31AFEC"
@@ -53,6 +55,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Crafting with Source!"
 			tasks: [
 				{
 					id: "3A79883BE5E4FB6A"
@@ -70,7 +73,7 @@
 					type: "item"
 				}
 			]
-			title: "Arcane crafting"
+			title: "Arcane Crafting"
 			x: -8.0d
 			y: 4.0d
 		}
@@ -79,7 +82,7 @@
 				"72FB95A11B31AFEC"
 				"23D3902848A335F6"
 			]
-			description: ["Much more durable tool handle, necessary in making &bdiamond&r and &6gold&r tools."]
+			description: ["Zinc makes a much more durable tool handle, necessary to make &bdiamond&r and &6gold&r tools."]
 			id: "4E1801454590B2B2"
 			rewards: [{
 				count: 8
@@ -88,19 +91,20 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Now we're talking!"
 			tasks: [{
 				count: 3L
 				id: "667FFA0BC9E955D8"
 				item: "kubejs:zinc_tool_handle"
 				type: "item"
 			}]
-			title: "New equipment opportunity"
+			title: "New Equipment Opportunity"
 			x: -8.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["4E1801454590B2B2"]
-			description: [""]
+			description: ["You can now access your crafting stations from your inventory by right clicking the crafting station on a stick in your hand. Or set a keybind for the Curio slot!"]
 			hide_until_deps_visible: true
 			icon: "crafting_on_a_stick:crafting_table"
 			id: "694245F07E3CAA48"
@@ -122,6 +126,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Pocket Crafting"
 			tasks: [
 				{
 					id: "08D3705C7011AD22"
@@ -139,7 +144,7 @@
 					type: "item"
 				}
 			]
-			title: "Workstations on a stick!"
+			title: "Workstations on a Stick!"
 			x: -6.0d
 			y: 7.0d
 		}
@@ -148,7 +153,11 @@
 				"72FB95A11B31AFEC"
 				"4E1801454590B2B2"
 			]
-			hide_until_deps_complete: true
+			description: [
+				"Mastering the elements is a crucial part of any magic-user's journey."
+				""
+				"Placing the appropriate items into the &9Elemental Evaporator&r will allow you to extract the elements in their liquid forms."
+			]
 			icon: "mbd2:elemental_evaporator"
 			id: "5CB418E959BA9BC4"
 			rewards: [{
@@ -158,18 +167,19 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Elemental Fluids"
 			tasks: [{
 				id: "1FD91F231C58F791"
 				item: "mbd2:elemental_evaporator"
 				type: "item"
 			}]
-			title: "Means of getting the elements"
+			title: "Distilling the Elements"
 			x: -6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7EBD23E275E837F2"]
-			description: ["After getting to &5The Nether&r you will need to slay some blazes for their rods as it will be needed for further creation of magical machines."]
+			description: ["Upon entering &4The Nether&r you will want to find and slay some blazes. Their rods will be very useful for further creation of magical machines."]
 			icon: "minecraft:netherrack"
 			id: "23D3902848A335F6"
 			rewards: [
@@ -187,17 +197,19 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "Dang, it's hot!"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "2AC64EE997DE809B"
 				type: "dimension"
 			}]
-			title: "Visit The Nether!"
+			title: "Visit the Nether!"
 			x: -8.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["5CB418E959BA9BC4"]
+			description: ["Arcanum can be infused with elemental fluid, yielding a crystalized form of the element which can then be used in crafting."]
 			icon: "kubejs:water_infused_arcanum"
 			id: "6B18370E82275EED"
 			rewards: [{
@@ -207,6 +219,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Crystialized Elements"
 			tasks: [
 				{
 					id: "168A9CB95C4F8D0E"
@@ -240,7 +253,11 @@
 		}
 		{
 			dependencies: ["4E1801454590B2B2"]
-			description: ["&6Gold tools&r  are completely changed compared to vanilla, they are still faster than diamond but they have lower mining lvl durability (but not as bad as vanilla) and most importantly they all have fortune 2 by default (looting 2 in case of sword)"]
+			description: [
+				"&6Gold tools&r have been completely reworked! Still faster than diamond, the durability has been increased significantly and the mining lvl is now the same as iron."
+				""
+				"Most importantly: Gold tools are imbued with natural Fortune 2 and the sword with natural Looting 2."
+			]
 			icon: {
 				Count: 1
 				id: "minecraft:golden_pickaxe"
@@ -263,6 +280,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Let's make those Piglins jealous!"
 			tasks: [
 				{
 					id: "533BE87C871CC53E"
@@ -320,16 +338,16 @@
 					type: "item"
 				}
 			]
-			title: "Golden Equipment new and improved"
+			title: "New and Improved Gold Tools"
 			x: -6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["4E1801454590B2B2"]
 			description: [
-				"&bDiamond tools&r are the most durable of the tools available in this tier with over 2k durability!"
+				"&bDiamond tools&r are the most durable of the tools available in this tier, with over 2k durability!"
 				""
-				"They also have the highest mining lvl"
+				"They also have the highest mining lvl."
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -354,6 +372,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Precious Tools"
 			tasks: [
 				{
 					id: "56B2A77CFD0C54A0"
@@ -424,6 +443,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Light as a feather!"
 			tasks: [{
 				id: "787A814B94A8CAE0"
 				item: "ars_nouveau:air_essence"
@@ -441,6 +461,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Wetter than water?"
 			tasks: [{
 				id: "417B4566447B3670"
 				item: "ars_nouveau:water_essence"
@@ -452,9 +473,9 @@
 		{
 			dependencies: ["769C5B75D85F81FC"]
 			description: [
-				"To create &l&aNature Essence&r&r you need to toss the ingredients in the water located in lush caves biomes."
+				"To create &l&aNature Essence&r&r you need to toss the ingredients into water located in a Lush Caves biome."
 				""
-				"What? You don't know where the lush caves are? Buy a map to the biome from the quest in previous chapter"
+				"What?! You don't know where the Lush Caves are? Buy a map to the biome from the quest in the previous chapter!"
 			]
 			hide_until_deps_complete: true
 			id: "7EBD23E275E837F2"
@@ -472,11 +493,13 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Smells Earthy..."
 			tasks: [{
 				id: "42BC429CB79BA598"
 				item: "kubejs:nature_essence"
 				type: "item"
 			}]
+			title: "Nature Essence"
 			x: -11.0d
 			y: 10.0d
 		}
@@ -489,6 +512,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Heavier than it looks..."
 			tasks: [{
 				id: "6371EE60750416A0"
 				item: "ars_nouveau:earth_essence"
@@ -506,6 +530,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Too hot to touch!"
 			tasks: [{
 				id: "5E2DEB87FECEDA36"
 				item: "ars_nouveau:fire_essence"
@@ -535,6 +560,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Building with Ease"
 			tasks: [{
 				id: "268118BB819C7C01"
 				item: "create:schematicannon"
@@ -545,6 +571,11 @@
 		}
 		{
 			dependencies: ["23D3902848A335F6"]
+			description: [
+				"To begin infusing items with Aura, you'll need to set up the Natural Altar."
+				""
+				"See the &2ponder&r for more details."
+			]
 			id: "400EBA15A5B82A93"
 			rewards: [{
 				count: 2
@@ -553,6 +584,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Harnessing the Power of Nature"
 			tasks: [{
 				id: "70397E312E0608A6"
 				item: "naturesaura:nature_altar"
@@ -563,6 +595,11 @@
 		}
 		{
 			dependencies: ["400EBA15A5B82A93"]
+			description: [
+				"Regular gold is good for some things, but to progress with magical crafting, we must use magical ingredients."
+				""
+				"Aura-infused &6tainted gold&r will greatly assist you in your journey."
+			]
 			id: "4F3750AF3A13EB91"
 			rewards: [{
 				id: "483B56F9CE36C1A7"
@@ -570,6 +607,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Dark Gold"
 			tasks: [{
 				id: "5AFC4262C8C49756"
 				item: "naturesaura:tainted_gold"
@@ -586,6 +624,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			subtitle: "Even Bigger Storage!"
 			tasks: [{
 				id: "2283B9EDCC489362"
 				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
@@ -596,6 +635,7 @@
 		}
 		{
 			dependencies: ["400EBA15A5B82A93"]
+			description: ["Infusing iron with Aura is one of the first critical steps in magical crafting."]
 			id: "67D119691018BD6C"
 			rewards: [
 				{
@@ -620,6 +660,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "So full of life!"
 			tasks: [{
 				id: "1059ECBCB79BBF2C"
 				item: "naturesaura:infused_iron"
@@ -637,6 +678,11 @@
 				"5E56A7D68E33C68B"
 				"00AEA38F60CAAE90"
 			]
+			description: [
+				"The &cAlloy Kiln&r is formed by placing a 2x2x2 of kiln bricks. Right click it with an engineer's hammer to form the multiblock."
+				""
+				"The Alloy Kiln is necessary to combine metals and magical materials into alloys. Inserting the appropriate ingots and other materials will smelt them together to give a completely new matierial!"
+			]
 			id: "0628C1A97EB1A5DB"
 			rewards: [{
 				count: 2
@@ -646,6 +692,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Mixing Metals"
 			tasks: [{
 				count: 8L
 				id: "4BB570DEC2587D62"
@@ -657,6 +704,7 @@
 		}
 		{
 			dependencies: ["67D119691018BD6C"]
+			description: ["Does the machine make the magic? Or is it the magic that makes the machine?"]
 			id: "38ADADE5E8F17847"
 			rewards: [{
 				count: 2
@@ -665,6 +713,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Innovative Magical Mechanisms!"
 			tasks: [{
 				id: "368740144F9AA064"
 				item: "kubejs:magic_machine"
@@ -681,6 +730,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			subtitle: "I feel like I can glide!"
 			tasks: [{
 				id: "37CE65F61A82ACBF"
 				item: {
@@ -697,12 +747,14 @@
 		}
 		{
 			dependencies: ["7E516240E967045E"]
+			description: [""]
 			id: "77F2DB343B15A33B"
 			rewards: [{
 				id: "1A51CAD2D6C0A180"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			subtitle: "Here creeper, creeper..."
 			tasks: [{
 				id: "5A5B8E715FBEF574"
 				item: "forbidden_arcanus:quantum_catcher"
@@ -719,6 +771,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			subtitle: "Instant Transportation"
 			tasks: [{
 				id: "30CC463EE66F3D18"
 				item: {
@@ -746,6 +799,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			subtitle: "Seafloor, here we come!"
 			tasks: [
 				{
 					id: "043C246BC3541B09"
@@ -787,7 +841,7 @@
 		}
 		{
 			dependencies: ["0F250E08450A1BEC"]
-			description: ["Upgrade your AoE tools to double their durability and increase their speed by over 60%"]
+			description: ["Upgrade your AOE tools to double their durability and increase their speed by over 60%!"]
 			icon: {
 				Count: 1
 				id: "kubejs:basic_mining_hammer"
@@ -810,6 +864,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Upgrades all around!"
 			tasks: [
 				{
 					id: "0330A6243B9692E6"
@@ -834,18 +889,26 @@
 					type: "item"
 				}
 			]
-			title: "Better AEO tools"
+			title: "Better AOE tools"
 			x: 0.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["38ADADE5E8F17847"]
+			description: [
+				"The &5Arcane Anvil&r is a valuable means of upgrading your equipment!"
+				""
+				"Apply spells to weapons, merge scrolls to form higher-level spells, and improve your unique weapons! The Arcane Anvil hosts a multitude of ways to enhance your gear."
+				""
+				"Check EMI for even more! "
+			]
 			id: "47DF387661061B96"
 			rewards: [{
 				id: "222A87341F2B565C"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			subtitle: "Magic Equipment!"
 			tasks: [{
 				id: "502279F3D5A85875"
 				item: "irons_spellbooks:arcane_anvil"
@@ -864,7 +927,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "Feeding your animals"
+			subtitle: "Tending the Herd"
 			tasks: [{
 				id: "68E8EF4DAA2A6D00"
 				item: "quark:feeding_trough"
@@ -876,9 +939,9 @@
 		{
 			dependencies: ["0F250E08450A1BEC"]
 			description: [
-				"With the power of &2The Terraformer&r you can instantly turn basic stone like and  dirt like blocks into compost."
+				"With the power of &2The Terraformer&r you can instantly turn basic stone blocks and dirt-like blocks into compost."
 				""
-				"Very nice for shaping terrain around your base"
+				"Very nice for shaping the terrain around your base."
 			]
 			id: "6FDF956447A362ED"
 			rewards: [{
@@ -886,6 +949,7 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			subtitle: "Easy Digging"
 			tasks: [{
 				id: "61FF61485057ABFB"
 				item: {
@@ -902,12 +966,14 @@
 		}
 		{
 			dependencies: ["5E56A7D68E33C68B"]
+			description: ["Like the golden magic feather, the &4firey magic feather&r will insta-mine obsidian with a right click. However, it has &omuch&r more durability."]
 			id: "5E6BD7260C3A119F"
 			rewards: [{
 				id: "37B529D7D49CBF45"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			subtitle: "Fire makes it stronger..."
 			tasks: [{
 				id: "1923337D93202B19"
 				item: {
@@ -925,9 +991,9 @@
 		{
 			dependencies: ["7EBD23E275E837F2"]
 			description: [
-				"With the power of &6Golden Magic Feather&r you can mine obsidian instantly by right clicking. "
+				"With the power of the &6Golden Magic Feather&r you can mine obsidian instantly by right clicking!"
 				""
-				"But be carefull as it doesn't have much durability"
+				"Be careful, though! It doesn't have much durability."
 			]
 			id: "2E527B86FB2AE87D"
 			rewards: [{
@@ -935,7 +1001,7 @@
 				item: "alexsmobs:mosquito_repellent_stew"
 				type: "item"
 			}]
-			subtitle: "This might be helpfull in making a nether portal"
+			subtitle: "Nether Portal Help?"
 			tasks: [{
 				id: "74805E94D6333EB9"
 				item: {
@@ -952,7 +1018,7 @@
 		}
 		{
 			dependencies: ["400EBA15A5B82A93"]
-			description: ["Unlocks &5Zanite&r tools and armor!"]
+			description: ["Infusing diamonds with Aura unlocks new tools and armor!"]
 			id: "512084C232A880EF"
 			rewards: [{
 				count: 4
@@ -970,7 +1036,7 @@
 		}
 		{
 			dependencies: ["400EBA15A5B82A93"]
-			description: ["Unlocks &2Skyjade&r tools and armor!"]
+			description: ["Infusing emeralds with Aura unlocks new tools and armor!"]
 			id: "73B4F5C2F480B53E"
 			rewards: [{
 				count: 4
@@ -989,11 +1055,11 @@
 		{
 			dependencies: ["512084C232A880EF"]
 			description: [
-				"&5Zanite tools&r have +0.5 block range more than iron and have double the durability. "
+				"&5Zanite tools&r reach 0.5 blocks farther than iron with double the durability."
 				""
-				"&5Zanite tools&r get faster the lower durability they have. "
+				"&5Zanite tools&r also mine faster the lower their durability gets. "
 				""
-				"The sword deals the same damage as iron but most of its damage is converted to &eholy damage&r which makes it perfect weapon against the &4undead&r."
+				"The sword deals the same damage as iron, but most of its damage is converted to &eholy damage&r which makes it a perfect weapon against the &4undead&r."
 			]
 			icon: {
 				Count: 1
@@ -1017,6 +1083,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Pretty in Purple"
 			tasks: [
 				{
 					id: "67399B74D529DBFB"
@@ -1074,18 +1141,18 @@
 					type: "item"
 				}
 			]
+			title: "Zanite Tools"
 			x: -4.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["73B4F5C2F480B53E"]
 			description: [
-				"&2Skyjade tools&r have the same range as iron but they have double the durability and are much faster before they lose the durability."
+				"&2Skyjade tools&r have the same range as iron and double the durability. They lose effectiveness as durability decreases."
 				""
+				"Both the &2Skyjade sword and axe&r deal extra holy damage making them excellent weapons against the &4undead&r."
 				""
-				"&2Both Skyjade sword and Axe&r deal extra holy damage which makes them good weapons against the &4undead&r,"
-				""
-				"&2Skyjade sword&r deals massive amount of damage at the cost of attack speed. Also loses attack damage as the durability goes down."
+				"The &2Skyjade sword&r deals massive amounts of damage at the cost of attack speed. It also loses attack damage as the durability goes down."
 			]
 			icon: {
 				Count: 1
@@ -1109,6 +1176,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Going Green"
 			tasks: [
 				{
 					id: "3EACB92ABB80CB3C"
@@ -1166,7 +1234,7 @@
 					type: "item"
 				}
 			]
-			title: "Skyjade tools!"
+			title: "Skyjade Tools"
 			x: -3.5d
 			y: 7.0d
 		}
@@ -1177,9 +1245,9 @@
 				"23D3902848A335F6"
 			]
 			description: [
-				"Crafting of the &5&lMagical Generator Block&r&r might look complicated at first but dont be afraid!"
+				"Crafting the &5&lMagical Generator Block&r&r might look complicated at first, but don't be afraid!"
 				""
-				"Just hold W while hovering over the item to watch ponder about the craft"
+				"Just hold \"W\" while hovering over the item to watch a &2ponder&r about the craft."
 			]
 			id: "2C1867470E747C94"
 			shape: "rsquare"
@@ -1193,13 +1261,11 @@
 			y: 7.0d
 		}
 		{
-			dependencies: [
-				"6CFC3DC7B783F151"
-				"2C1867470E747C94"
-			]
-			description: ["&5&lEnchanting Apparatus&r&r uses source for a lot of the crafting recipes. Craft one of the generators as well as source jar to produce and store your source!"]
+			dependencies: ["2C1867470E747C94"]
+			description: ["The &5&lEnchanting Apparatus&r&r uses source for many crafting recipes. Craft one of the source generators, as well as a source jar to produce and store your source!"]
 			id: "2841B26876F416EE"
 			shape: "rsquare"
+			subtitle: "Pulling magic out of the world..."
 			tasks: [
 				{
 					id: "3947CB276BC5A005"

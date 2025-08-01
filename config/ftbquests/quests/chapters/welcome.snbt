@@ -52,11 +52,11 @@
 			description: [
 				"Welcome to &2Druidic Quest!&r"
 				""
-				"The modpack is focused on advanture and automation through magic as well as balancing most of  the other aspects of the game!"
+				"This modpack is focused on adventure and automation through magic, as well as balancing most other aspects of the game!"
 				""
-				"Many recipes are changed and require you to setup automation for certain materials using a different mechanics from different mods."
+				"Many recipes are changed and will require you to set up automation for certain materials by using different mechanics from different mods."
 				""
-				"&eQuests&r will help guide you through progression so make sure to read them."
+				"&eQuests&r will help guide you through progression so &emake sure to read them&r."
 			]
 			icon: "minecraft:grass_block"
 			id: "23878BB2C97470D0"
@@ -87,7 +87,11 @@
 		}
 		{
 			dependencies: ["23878BB2C97470D0"]
-			description: ["Progression chapter is essential to not get lost in all the new things this modpack implements and it will provide you with some nice rewards. To get started proceed to your first progression quests in the &2Tier 0 - Wood Age&r Tab"]
+			description: [
+				"The Progression chapter is essential to not get lost in all the new things this modpack implements. It will also provide you with some nice rewards!"
+				""
+				"To get started, proceed to your first progression quests in &2Tier 0 - Wooden Age&r in the tab to the left."
+			]
 			icon: "immersiveengineering:drillhead_iron"
 			id: "4FF8CB3EF0206C93"
 			rewards: [{
@@ -101,16 +105,16 @@
 				id: "2B82E041BDADF5CE"
 				type: "checkmark"
 			}]
-			title: "Progression chapter"
+			title: "Progression Chapter"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["23878BB2C97470D0"]
 			description: [
-				"There are many chapters which have nothing to do with progression."
+				"Many chapters have nothing to do with progression."
 				""
-				"&l&2Ultimate Collector&r tab will show you all the different collectibles in the pack"
+				"The &l&2Ultimate Collector&r tab will show you all the collectibles in the pack!"
 			]
 			icon: "supplementaries:statue"
 			id: "4CCE1DF1DF0C35DB"
@@ -125,16 +129,16 @@
 				id: "264EDCE9022AE608"
 				type: "checkmark"
 			}]
-			title: "Ultimate collector"
+			title: "Ultimate Collector"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["23878BB2C97470D0"]
 			description: [
-				"If this is somehow your first modpack you are really gonna need to read the &lTips&r chapter ."
+				"If this is somehow your first modpack, you are &nreally&r gonna need to read the &aTips&r chapter."
 				""
-				"But even if you are a veteran you might not know everything there so make sure to check it out!"
+				"But... even veterans might not know everything there, so make sure to check it out!"
 				""
 				"&4&oWork in progress&r&r"
 			]
@@ -151,13 +155,13 @@
 				id: "76585DF65787623E"
 				type: "checkmark"
 			}]
-			title: "Tips chapter"
+			title: "Tips Chapter"
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["23878BB2C97470D0"]
-			description: ["You can buy some usefull stuff in the market tab, they are overpriced but if you really need something..."]
+			description: ["You can buy some useful stuff in the Market tab. It might be overpriced, but if you really need something..."]
 			icon: { Count: 64, id: "thermal:gold_coin" }
 			id: "4676E5CD619B4194"
 			rewards: [{
@@ -178,18 +182,18 @@
 		{
 			dependencies: ["23878BB2C97470D0"]
 			description: [
-				"Quests are not required to progress but you can get some nice rewards from them."
-				"You can also consider completing all of them as one of your goals :)"
+				"Quests are not required to progress, but offer some nice rewards."
+				"You might consider completing all of them as one of your goals! :)"
 				""
-				"Shapes of the invidual quests have a meaning:"
+				"The shape of each quest has a meaning:"
 				""
-				"&2&lRounded Square&r&r - Main Questline in the progression, they might also unluck new quests"
+				"&2&lRounded Square&r&r - Main Questline in the progression. These might also unlock new quests."
 				""
-				"&2&lHexagon&r &r- Informantional Quests"
+				"&2&lHexagon&r &r- Informational Quests"
 				""
-				"&2&lGear&r &r-  Quests outside of the Main progression that unlock quests in the other chapter (most of the time in the market)"
+				"&2&lGear&r &r-  Quests outside of the Main progression that unlock quests in other chapters (usually in the Market)."
 				""
-				"&2&lDiamond&r&r - Repeteable quests usually giving some nice items for currency"
+				"&2&lDiamond&r&r - Repeteable Quests, usually giving some nice items in exchange for currency."
 			]
 			icon: "ftbquests:book"
 			id: "296394452736D250"
@@ -243,7 +247,9 @@
 				""
 				"ESC => Options => Controls => Keybinds"
 				""
-				"The pack comes with assigned keybinds so there is no conflicts but you need to set your own as there are so many and most of them are set to nothing"
+				"The pack comes with assigned keybinds so there are no conflicts, but you'll want to set your own in many cases."
+				""
+				"Most are actually unset, and familiar keybinds can really benefit your gameplay."
 			]
 			icon: "thermal:netherite_gear"
 			id: "622108B53EDE2AAB"
@@ -258,29 +264,29 @@
 				id: "61A27F32728D4E7E"
 				type: "checkmark"
 			}]
-			title: "Options and keybinds"
+			title: "Options and Keybinds"
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["23878BB2C97470D0"]
 			description: [
-				"As you might have already realized this player attributes are nerfed:"
+				"As you may or may not have realized, many player attributes have been nerfed, including:"
 				""
 				"-Movement Speed"
 				"-Mining Speed"
 				"-Block Reach"
 				"-Max Health"
 				""
-				"You can choose a custom totem to negate one of those nerfs."
+				"Choose a custom totem to negate one of those nerfs."
 				""
-				"&6Roadrunner Totem&r for increased movement speed."
+				"&6Roadrunner Totem&r for movement speed."
 				""
-				"&4Crab Totem&r for increased block reach."
+				"&4Crab Totem&r for block reach."
 				""
-				"&eLeafcutter Ant&r Totem for increased axe speed."
+				"&aLeafcutter Ant Totem&r for axe speed."
 				""
-				"Totems are new items custom made for the pack they will give you special effects when held in the offhand"
+				"Totems are new items custom-made for the pack. They give special effects when held in the offhand. Search &d\"@druidic\"&r in EMI to check out more custom stuff!"
 			]
 			icon: {
 				Count: 1
@@ -309,13 +315,13 @@
 		{
 			dependencies: ["23878BB2C97470D0"]
 			description: [
-				"This modpack uses both Spice of Life Onion and Carrot Editions."
+				"This modpack uses both Spice of Life: Onion and Carrot Editions."
 				""
-				"&6&lCarrot Edition&r gives you additional hearts. You will get your first extra heart after eating 5 new foods and after that every 25 new foods eaten."
+				"&6&lCarrot Edition&r gives additional hearts. You get your first extra heart after eating 5 new foods, then after every 25 new foods."
 				""
-				"While &l&eOnion Edition&r&r depends on how diverse and nutritious your diet is, so eating bigger meals and cycling between different foods will get your extra buffs:"
+				"&l&eOnion Edition&r&r, instead, depends on how diverse and nutritious your diet is, so eating bigger meals and cycling between different foods will get you extra buffs, such as extra reach, movement speed, resistances, and extra hearts."
 				""
-				"like extra reach, movement speed, resistances and extra hearts. It is setup in a way that it only takes a bit of effort to be as strong as regular player in other packs"
+				"It is set up in a way that it only takes a bit of effort to be as strong as a regular player."
 			]
 			icon: "farmersdelight:pasta_with_mutton_chop"
 			id: "236F52C9E0815D19"
@@ -337,13 +343,17 @@
 		{
 			dependencies: ["23878BB2C97470D0"]
 			description: [
-				"Equipping ring of seven curses comes with a lot of extra challanges. "
-				"- From now on everyone is mad at you so they will attack!"
-				"- You cant sleep anymore"
-				"- You take double the damage"
-				"- and more..."
+				"&4The Ring of Seven Curses..."
+				"&r"
+				"You've found a ring with a strange, dark allure..."
 				""
-				"&7&oOh and also you cant take the ring off...&r&r"
+				"Energy courses through your body as it slips on your finger, rendering you sleepless evermore."
+				""
+				"As you venture out, you realize — everything and everyone wants you dead. Every wound cuts twice as deep."
+				""
+				"There's no telling what all this trinket has done to you."
+				""
+				"&r&4&oAnd it won't come off...&r&r"
 			]
 			hide_dependency_lines: false
 			hide_until_deps_visible: true
@@ -357,7 +367,7 @@
 			}]
 			shape: "heart"
 			size: 2.0d
-			subtitle: "Only for the bravest"
+			subtitle: "Not for the Faint at Heart"
 			tasks: [{
 				id: "75914BB60016C7F8"
 				title: "I want to have a hard time!"
@@ -368,5 +378,5 @@
 			y: 2.0d
 		}
 	]
-	title: "Welcome - Information dump"
+	title: "Welcome - Information Dump"
 }

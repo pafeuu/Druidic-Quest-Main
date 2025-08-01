@@ -4,8 +4,6 @@
 	filename: "basic_logistics"
 	group: "23A1FEBD04C34E2E"
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_complete: true
-	hide_quest_until_deps_visible: true
 	icon: "immersiveengineering:ingot_steel"
 	id: "5FE7FF33197A46AF"
 	order_index: 4
@@ -13,6 +11,8 @@
 	quests: [
 		{
 			dependencies: ["6EC46F530F70BFBF"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "0BC1E6E014D2F809"
 			shape: "rsquare"
 			size: 2.0d

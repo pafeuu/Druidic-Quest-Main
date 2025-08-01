@@ -1,5 +1,5 @@
 {
-  "armorSetName": "engineer",
+  "armorSetName": "explorer",
   "performanceMode": true,
   "head": {
     "itemKey": "immersiveengineering:armor_faraday_helmet",
@@ -21,22 +21,24 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "forge:block_reach",
-      "value": 1.5,
-      "modifierUUID": "28a45669-1ffd-466e-b6bf-73ec6c7afd68",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.025,
+      "modifierUUID": "d5a7dc88-9405-4398-b1e5-250b4c6dd218",
+      "description": "+25% movement speed",
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
     },
     {
-      "type": "effect",
-      "name": "minecraft:night_vision",
-      "value": 0.0,
+      "type": "attribute",
+      "name": "forge:step_height_addition",
+      "value": 0.5,
+      "modifierUUID": "d5a7dc88-9405-4398-11e5-250b4c6dd218",
+      "description": "You can walk up 1 block",
+      "attributeOperation": 0,
       "interactionType": "self",
-      "interactionDuration": 300,
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
+      "interactionDuration": 300
     }
   ],
   "hideGeneratedTooltip": false

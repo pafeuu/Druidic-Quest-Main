@@ -11,6 +11,8 @@ ServerEvents.recipes(event =>{
 			result: mod+":"+woodtype+"_slab"
 		})
 
+		//event.shaped(mod+":"+woodtype+"_planks",["S","S"],{S:mod+":"+woodtype+"_slab"})
+
         event.custom({
 			type: "sawmill:woodcutting",
 			count: 1,
@@ -56,6 +58,8 @@ ServerEvents.recipes(event =>{
 			},
 			result: mod+":"+woodtype+"_planks_slab"
 		})
+
+		//event.shaped(mod+":"+woodtype+"_planks",["S","S"],{S:mod+":"+woodtype+"_planks_slab"})
 
         event.custom({
 			type: "sawmill:woodcutting",
@@ -171,6 +175,9 @@ ServerEvents.recipes(event =>{
 			],
 			"block_in": "air"
 		  })// Adds recipe for planks > Clicking stripped logs with a sam will drop 3 planks and remove the block
+
+		  const NonStrippedLog = log.replace("stripped_", "");
+		  
 		  event.custom({
 			type: "sawmill:woodcutting",
 			count: 3,
@@ -178,7 +185,17 @@ ServerEvents.recipes(event =>{
 				item: log
 			},
 			result: planks
-		})
+		  })
+
+		   event.custom({
+			type: "sawmill:woodcutting",
+			count: 3,
+			ingredient: {
+				item: NonStrippedLog
+			},
+			result: planks
+		  })
+
 
 
 		event.remove({output:planks, type:"minecraft:crafting_shapeless"}) // Removes default shapeless recipe recipe
@@ -515,7 +532,7 @@ ServerEvents.recipes(event =>{
 
 	// WR torches and campfires
 
-	function torch(type,plank)
+	function WizardsTorch(type,plank)
 	{
 		event.shaped("6x wizards_reborn:"+type+"_salt_torch",
 			[
@@ -558,11 +575,69 @@ ServerEvents.recipes(event =>{
 		
 		event.remove({id:"wizards_reborn:shaped/"+type+"_salt_torch"})
 		event.remove({id:"wizards_reborn:shaped/"+type+"_salt_campfire"})
+		event.replaceInput({id:"wizards_reborn:shaped/"+type+"_salt_lantern"},"wizards_reborn:arcane_gold_nugget","gold_nugget")
 	}
-	torch("arcane","arcane_wood_planks")
-	torch("innocent","innocent_wood_planks")
-	torch("cork_bamboo","cork_bamboo_planks")
-	torch("wisestone","wisestone")
+
+	function SillyTorch(type,plank)
+	{
+		event.shaped("6x silly_oddities:"+type+"_salt_torch",
+			[
+				"S",
+				"C",
+				"P"
+			],
+			{
+				P: plank,
+				C: "#minecraft:coals",
+				S: "#forge:salt"
+			}
+		)
+
+		event.shaped("12x silly_oddities:"+type+"_salt_torch",
+			[
+				"S",
+				"C",
+				"P"
+			],
+			{
+				P: plank,
+				C: "#forge:coal_coke",
+				S: "#forge:salt"
+			}
+		).id("silly_oddities:integration/wizards_reborn/shaped/"+type+"/"+type+"_salt_torch")
+
+		event.shaped("silly_oddities:"+type+"_salt_campfire",
+			[
+				"S",
+				"C",
+				"P"
+			],
+			{
+				P: plank,
+				C: "campfire",
+				S: "#forge:salt"
+			}
+		).id("silly_oddities:integration/wizards_reborn/shaped/"+type+"/"+type+"_salt_campfire")
+
+		event.replaceInput({id:"silly_oddities:integration/wizards_reborn/shaped/"+type+"/"+type+"_salt_lantern"},"wizards_reborn:arcane_gold_nugget","gold_nugget")
+	}
+
+	WizardsTorch("arcane","arcane_wood_planks")
+	WizardsTorch("innocent","innocent_wood_planks")
+	WizardsTorch("cork_bamboo","cork_bamboo_planks")
+	WizardsTorch("wisestone","wisestone")
+	SillyTorch("dark_oak","dark_oak_planks")
+	SillyTorch("spruce","spruce_planks")
+	SillyTorch("oak","oak_planks")
+	SillyTorch("birch","birch_planks")
+	SillyTorch("crimson","crimson_planks")
+	SillyTorch("warped","warped_planks")
+	SillyTorch("jungle","jungle_planks")
+	SillyTorch("acacia","acacia_planks")
+	SillyTorch("mangrove","mangrove_planks")
+	SillyTorch("cherry","cherry_planks")
+	SillyTorch("bamboo","bamboo_planks")
+
 
 	const woodtype = ["oak","spruce","cherry","dark_oak","birch","jungle","bamboo","mangrove","acacia","warped","crimson"]
 

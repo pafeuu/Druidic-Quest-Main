@@ -1,0 +1,13 @@
+{
+	icon: "minecraft:chest"
+	id: "5AFAB7633C27CA85"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "minecraft:peony" }
+		{ item: "minecraft:rose_bush" }
+		{ item: "minecraft:lilac" }
+		{ item: "minecraft:sunflower" }
+	]
+	title: "tall_flower"
+}

@@ -665,7 +665,7 @@ ServerEvents.recipes(event => {
 	
 	
 	event.custom({
-	  type: "lychee:block_clicking",
+	  type: "lychee:block_interacting",
 	  post: [
 		{
 		  type: "hurt",
@@ -697,6 +697,7 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 components =======================================================================
 
+	event.shapeless("craftingstation:crafting_station_slab","craftingstation:crafting_station").id("craftingstation:crafting_station_slab")
 	event.shapeless("6x wizards_reborn:flower_fertilizer",["4x thermal:compost","5x wizards_reborn:petals"]).id("wizards_reborn:shapeless/flower_fertilizer")
 	event.shaped("6x create:shaft",
 		[
@@ -1527,6 +1528,20 @@ ServerEvents.recipes(event => {
 			Q: "#forge:storage_blocks/quartz"
 		}
 	).id("minecraft:comparator")
+
+	event.shaped("2x comparator",
+		[
+			"STS",
+			"TDT",
+			"SQS"
+		],
+		{
+			S: "#forge:plates/stone",
+			T: "redstone_torch",
+			D: "repeater",
+			Q: "#forge:storage_blocks/sapphire"
+		}
+	)
 
 	event.shaped("create:powered_latch",
 		[

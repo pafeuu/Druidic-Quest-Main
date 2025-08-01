@@ -2698,6 +2698,30 @@
 			x: -7.5d
 			y: 2.5d
 		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "221E3EAEA9C76CB4"
+			rewards: [
+				{
+					count: 6
+					id: "72FF67DDE6EA9FB6"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "20EB7FE808A08FFF"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4253D679628F9C54"
+				item: "minecraft:mangrove_propagule"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
 	]
 	title: "Dendrologist"
 }

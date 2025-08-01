@@ -1,634 +1,139 @@
-[08:47:46] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[08:47:46] [INIT] Loaded plugins:
-[08:47:46] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[08:47:46] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[08:47:46] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[08:47:46] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
-[08:47:46] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[08:47:46] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[08:47:46] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[08:47:46] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[08:47:46] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
-[08:47:46] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
-[08:47:46] [INIT] - com.falaut.KubeJSNaturesAuraPlugin
-[08:47:46] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
-[08:47:46] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[08:47:46] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
-[08:47:46] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[08:47:46] [INIT] - com.alessandro.astages.integration.kubejs.AStageKubeJSPlugin
-[08:47:46] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[08:47:46] [INIT] - com.almostreliable.morejs.Plugin
-[08:47:46] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
-[08:47:46] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[08:47:46] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[08:47:46] [INIT] - com.probejs.ProbeJSPlugin
-[08:47:46] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
-[08:47:46] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
-[08:47:46] [INFO] Loaded script server_scripts:cleanup/cleanup.js in 0.002 s
-[08:47:46] [INFO] Loaded script server_scripts:cleanup/dummy_recipes.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:cleanup/SandpaperStripping.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:cleanup/wood.js in 0.001 s
-[08:47:46] [INFO] Loaded script server_scripts:cleanup/WoodCutting.js in 0.001 s
-[08:47:46] [INFO] Loaded script server_scripts:cleanup/WoodCuttingAxe.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:enchanting/ApparatusEnchanting.js in 0.002 s
-[08:47:46] [INFO] Loaded script server_scripts:enchanting/EnchantingMaterials.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:enchanting/EnchantingRecipesRemoval.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:entities.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:equipment/accessories.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:equipment/armor.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:equipment/tools.js in 0.002 s
-[08:47:46] [INFO] Loaded script server_scripts:equipment/toolUsage/blazing_sword_fish.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:equipment/toolUsage/firestarter_tnt_lightning.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:equipment/toolUsage/hoes.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:equipment/toolUsage/PrimitiveShears.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:Food.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:loot.js in 0.001 s
-[08:47:46] [INFO] Loaded script server_scripts:machines/apparatus.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:machines/arcane_iterator.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:machines/arcane_workbench.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:machines/arcanum_pylon.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:machines/cutting_board.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:machines/elemental_binder.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:machines/elemental_evaporator.js in 0.001 s
-[08:47:46] [INFO] Loaded script server_scripts:machines/elemental_infuser.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:machines/imbuement_chamber.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:machines/mechanical_mixer.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:machines/wissen_altar.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:main.js in 0.002 s
-[08:47:46] [INFO] Loaded script server_scripts:mortarAndMilling.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:multiblocks/animal_spawner.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:multiblocks/clibano_oven.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:multiblocks/multiblock_crafting.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:multiblocks/sacrificial_altar.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:multiblocks/sequence_assembly.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:multiblocks/tree_ritual.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:multiblocks/vine_generator.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:PlayerEvents.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:spells.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:tags/BiomeTags.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:tags/Tags.js in 0.001 s
-[08:47:46] [INFO] Loaded script server_scripts:test/BlockEvents.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:test/test.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:upgrades_storage.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:utility/EmiLootFix.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:utility/KeepInventory.js in 0.0 s
-[08:47:46] [INFO] Loaded script server_scripts:Villagers.js in 0.0 s
-[08:47:46] [INFO] Loaded 49/49 KubeJS server scripts in 0.025 s with 0 errors and 0 warnings
-[08:47:46] [INFO] Scripts loaded
-[08:47:46] [INFO] Initializing recipe event...
-[08:47:47] [INFO] Server resource reload complete!
-[08:47:47] [INFO] [minecraft:worldgen/biome] Found 674 tags, added 112 objects, removed 0 objects
-[08:47:47] [INFO] [minecraft:block] Found 1141 tags, added 136 objects, removed 0 objects
-[08:47:47] [INFO] [minecraft:item] Found 2312 tags, added 1135 objects, removed 10 objects
-[08:47:47] [INFO] Processing recipes...
-[08:47:47] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_cherry[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:cherry_log\"}
-[08:47:47] [WARN] net.minecraft.ResourceLocationException: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:cherry_log\"}
-[08:47:47] [WARN]   at net.minecraft.resources.ResourceLocation.m_245413_(ResourceLocation.java:221)
-[08:47:47] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:40)
-[08:47:47] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:44)
-[08:47:47] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:50)
-[08:47:47] [WARN]   at …kubejs.util.UtilsJS.parseBlockState(UtilsJS.java:461)
-[08:47:47] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:48)
-[08:47:47] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:14)
-[08:47:47] [WARN]   at …kubejs.recipe.component.RecipeComponent.readFromJson(RecipeComponent.java:170)
-[08:47:47] [WARN]   at …kubejs.recipe.RecipeJS.deserialize(RecipeJS.java:74)
-[08:47:47] [WARN]   at …kubejs.recipe.schema.RecipeSchema.deserialize(RecipeSchema.java:248)
-[08:47:47] [WARN]   at …kubejs.recipe.RecipesEventJS.post(RecipesEventJS.java:326)
-[08:47:47] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.handler$eli000$customRecipesHead(RecipeManager.java:6031)
-[08:47:47] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
-[08:47:47] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34)
-[08:47:47] [WARN]   at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-[08:47:47] [WARN]   at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[08:47:47] [WARN]   at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[08:47:47] [WARN]   at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-[08:47:47] [WARN]   at net.minecraft.server.TickTask.run(TickTask.java:18)
-[08:47:47] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
-[08:47:47] [WARN]   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[08:47:47] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
-[08:47:47] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
-[08:47:47] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
-[08:47:47] [WARN]   at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
-[08:47:47] [WARN]   at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
-[08:47:47] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
-[08:47:47] [WARN]   at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345)
-[08:47:47] [WARN]   at morethanhidden.restrictedportals.RPCommon.onServerStarting(RPCommon.java:77)
-[08:47:47] [WARN]   at morethanhidden.restrictedportals.RestrictedPortals.onServerStarting(RestrictedPortals.java:29)
-[08:47:47] [WARN]   at morethanhidden.restrictedportals.__RestrictedPortals_onServerStarting_ServerAboutToStartEvent.invoke(.dynamic)
-[08:47:47] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
-[08:47:47] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
-[08:47:47] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
-[08:47:47] [WARN]   at net.minecraftforge.server.ServerLifecycleHooks.handleServerAboutToStart(ServerLifecycleHooks.java:98)
-[08:47:47] [WARN]   at net.minecraft.client.server.IntegratedServer.m_7038_(IntegratedServer.java:62)
-[08:47:47] [WARN]   at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:634)
-[08:47:47] [WARN]   at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
-[08:47:47] [WARN]   at java.lang.Thread.run(Thread.java:833)
-[08:47:47] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_jungle[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:jungle_log\",\"Properties\":{\"axis\":\"y\"}}
-[08:47:47] [WARN] net.minecraft.ResourceLocationException: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:jungle_log\",\"Properties\":{\"axis\":\"y\"}}
-[08:47:47] [WARN]   at net.minecraft.resources.ResourceLocation.m_245413_(ResourceLocation.java:221)
-[08:47:47] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:40)
-[08:47:47] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:44)
-[08:47:47] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:50)
-[08:47:47] [WARN]   at …kubejs.util.UtilsJS.parseBlockState(UtilsJS.java:461)
-[08:47:47] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:48)
-[08:47:47] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:14)
-[08:47:47] [WARN]   at …kubejs.recipe.component.RecipeComponent.readFromJson(RecipeComponent.java:170)
-[08:47:47] [WARN]   at …kubejs.recipe.RecipeJS.deserialize(RecipeJS.java:74)
-[08:47:47] [WARN]   at …kubejs.recipe.schema.RecipeSchema.deserialize(RecipeSchema.java:248)
-[08:47:47] [WARN]   at …kubejs.recipe.RecipesEventJS.post(RecipesEventJS.java:326)
-[08:47:47] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.handler$eli000$customRecipesHead(RecipeManager.java:6031)
-[08:47:47] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
-[08:47:47] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34)
-[08:47:47] [WARN]   at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-[08:47:47] [WARN]   at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[08:47:47] [WARN]   at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[08:47:47] [WARN]   at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-[08:47:47] [WARN]   at net.minecraft.server.TickTask.run(TickTask.java:18)
-[08:47:47] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
-[08:47:47] [WARN]   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[08:47:47] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
-[08:47:47] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
-[08:47:47] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
-[08:47:47] [WARN]   at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
-[08:47:47] [WARN]   at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
-[08:47:47] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
-[08:47:47] [WARN]   at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345)
-[08:47:47] [WARN]   at morethanhidden.restrictedportals.RPCommon.onServerStarting(RPCommon.java:77)
-[08:47:47] [WARN]   at morethanhidden.restrictedportals.RestrictedPortals.onServerStarting(RestrictedPortals.java:29)
-[08:47:47] [WARN]   at morethanhidden.restrictedportals.__RestrictedPortals_onServerStarting_ServerAboutToStartEvent.invoke(.dynamic)
-[08:47:47] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
-[08:47:47] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
-[08:47:47] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
-[08:47:47] [WARN]   at net.minecraftforge.server.ServerLifecycleHooks.handleServerAboutToStart(ServerLifecycleHooks.java:98)
-[08:47:47] [WARN]   at net.minecraft.client.server.IntegratedServer.m_7038_(IntegratedServer.java:62)
-[08:47:47] [WARN]   at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:634)
-[08:47:47] [WARN]   at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
-[08:47:47] [WARN]   at java.lang.Thread.run(Thread.java:833)
-[08:47:47] [WARN] Failed to parse recipe 'deeperdarker:resonarium_hoe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[08:47:47] [WARN] Failed to parse recipe 'aether_redux:genesis_dark_gummy_swet[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'deeperdarker:resonarium_sword_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'deeperdarker:resonarium_helmet_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_birch[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:birch_log\",\"Properties\":{\"axis\":\"y\"}}
-[08:47:48] [WARN] net.minecraft.ResourceLocationException: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:birch_log\",\"Properties\":{\"axis\":\"y\"}}
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.m_245413_(ResourceLocation.java:221)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:40)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:44)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:50)
-[08:47:48] [WARN]   at …kubejs.util.UtilsJS.parseBlockState(UtilsJS.java:461)
-[08:47:48] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:48)
-[08:47:48] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:14)
-[08:47:48] [WARN]   at …kubejs.recipe.component.RecipeComponent.readFromJson(RecipeComponent.java:170)
-[08:47:48] [WARN]   at …kubejs.recipe.RecipeJS.deserialize(RecipeJS.java:74)
-[08:47:48] [WARN]   at …kubejs.recipe.schema.RecipeSchema.deserialize(RecipeSchema.java:248)
-[08:47:48] [WARN]   at …kubejs.recipe.RecipesEventJS.post(RecipesEventJS.java:326)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.handler$eli000$customRecipesHead(RecipeManager.java:6031)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34)
-[08:47:48] [WARN]   at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-[08:47:48] [WARN]   at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[08:47:48] [WARN]   at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[08:47:48] [WARN]   at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-[08:47:48] [WARN]   at net.minecraft.server.TickTask.run(TickTask.java:18)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
-[08:47:48] [WARN]   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.RPCommon.onServerStarting(RPCommon.java:77)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.RestrictedPortals.onServerStarting(RestrictedPortals.java:29)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.__RestrictedPortals_onServerStarting_ServerAboutToStartEvent.invoke(.dynamic)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
-[08:47:48] [WARN]   at net.minecraftforge.server.ServerLifecycleHooks.handleServerAboutToStart(ServerLifecycleHooks.java:98)
-[08:47:48] [WARN]   at net.minecraft.client.server.IntegratedServer.m_7038_(IntegratedServer.java:62)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:634)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
-[08:47:48] [WARN]   at java.lang.Thread.run(Thread.java:833)
-[08:47:48] [WARN] Failed to parse recipe 'vintageimprovements:craft/fiery_wire[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'vintageimprovements:craft/electrum_wire[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_oak[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:oak_log\"}
-[08:47:48] [WARN] net.minecraft.ResourceLocationException: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:oak_log\"}
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.m_245413_(ResourceLocation.java:221)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:40)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:44)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:50)
-[08:47:48] [WARN]   at …kubejs.util.UtilsJS.parseBlockState(UtilsJS.java:461)
-[08:47:48] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:48)
-[08:47:48] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:14)
-[08:47:48] [WARN]   at …kubejs.recipe.component.RecipeComponent.readFromJson(RecipeComponent.java:170)
-[08:47:48] [WARN]   at …kubejs.recipe.RecipeJS.deserialize(RecipeJS.java:74)
-[08:47:48] [WARN]   at …kubejs.recipe.schema.RecipeSchema.deserialize(RecipeSchema.java:248)
-[08:47:48] [WARN]   at …kubejs.recipe.RecipesEventJS.post(RecipesEventJS.java:326)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.handler$eli000$customRecipesHead(RecipeManager.java:6031)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34)
-[08:47:48] [WARN]   at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-[08:47:48] [WARN]   at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[08:47:48] [WARN]   at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[08:47:48] [WARN]   at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-[08:47:48] [WARN]   at net.minecraft.server.TickTask.run(TickTask.java:18)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
-[08:47:48] [WARN]   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.RPCommon.onServerStarting(RPCommon.java:77)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.RestrictedPortals.onServerStarting(RestrictedPortals.java:29)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.__RestrictedPortals_onServerStarting_ServerAboutToStartEvent.invoke(.dynamic)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
-[08:47:48] [WARN]   at net.minecraftforge.server.ServerLifecycleHooks.handleServerAboutToStart(ServerLifecycleHooks.java:98)
-[08:47:48] [WARN]   at net.minecraft.client.server.IntegratedServer.m_7038_(IntegratedServer.java:62)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:634)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
-[08:47:48] [WARN]   at java.lang.Thread.run(Thread.java:833)
-[08:47:48] [WARN] Failed to parse recipe 'aether_treasure_reforging:valkyrie_upgrade_smithing_template[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'deeperdarker:resonarium_pickaxe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'deeperdarker:resonarium_leggings_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'vintageimprovements:craft/electrum_rod[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'aether_treasure_reforging:phoenix_upgrade_smithing_template[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'deeperdarker:resonarium_chestplate_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'deeperdarker:resonarium_shovel_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'deeperdarker:resonarium_axe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_dark_oak[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:dark_oak_log\",\"Properties\":{\"axis\":\"y\"}}
-[08:47:48] [WARN] net.minecraft.ResourceLocationException: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:dark_oak_log\",\"Properties\":{\"axis\":\"y\"}}
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.m_245413_(ResourceLocation.java:221)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:40)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:44)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:50)
-[08:47:48] [WARN]   at …kubejs.util.UtilsJS.parseBlockState(UtilsJS.java:461)
-[08:47:48] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:48)
-[08:47:48] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:14)
-[08:47:48] [WARN]   at …kubejs.recipe.component.RecipeComponent.readFromJson(RecipeComponent.java:170)
-[08:47:48] [WARN]   at …kubejs.recipe.RecipeJS.deserialize(RecipeJS.java:74)
-[08:47:48] [WARN]   at …kubejs.recipe.schema.RecipeSchema.deserialize(RecipeSchema.java:248)
-[08:47:48] [WARN]   at …kubejs.recipe.RecipesEventJS.post(RecipesEventJS.java:326)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.handler$eli000$customRecipesHead(RecipeManager.java:6031)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34)
-[08:47:48] [WARN]   at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-[08:47:48] [WARN]   at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[08:47:48] [WARN]   at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[08:47:48] [WARN]   at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-[08:47:48] [WARN]   at net.minecraft.server.TickTask.run(TickTask.java:18)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
-[08:47:48] [WARN]   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.RPCommon.onServerStarting(RPCommon.java:77)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.RestrictedPortals.onServerStarting(RestrictedPortals.java:29)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.__RestrictedPortals_onServerStarting_ServerAboutToStartEvent.invoke(.dynamic)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
-[08:47:48] [WARN]   at net.minecraftforge.server.ServerLifecycleHooks.handleServerAboutToStart(ServerLifecycleHooks.java:98)
-[08:47:48] [WARN]   at net.minecraft.client.server.IntegratedServer.m_7038_(IntegratedServer.java:62)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:634)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
-[08:47:48] [WARN]   at java.lang.Thread.run(Thread.java:833)
-[08:47:48] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_spruce[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:spruce_log\",\"Properties\":{\"axis\":\"y\"}}
-[08:47:48] [WARN] net.minecraft.ResourceLocationException: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:spruce_log\",\"Properties\":{\"axis\":\"y\"}}
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.m_245413_(ResourceLocation.java:221)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:40)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:44)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:50)
-[08:47:48] [WARN]   at …kubejs.util.UtilsJS.parseBlockState(UtilsJS.java:461)
-[08:47:48] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:48)
-[08:47:48] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:14)
-[08:47:48] [WARN]   at …kubejs.recipe.component.RecipeComponent.readFromJson(RecipeComponent.java:170)
-[08:47:48] [WARN]   at …kubejs.recipe.RecipeJS.deserialize(RecipeJS.java:74)
-[08:47:48] [WARN]   at …kubejs.recipe.schema.RecipeSchema.deserialize(RecipeSchema.java:248)
-[08:47:48] [WARN]   at …kubejs.recipe.RecipesEventJS.post(RecipesEventJS.java:326)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.handler$eli000$customRecipesHead(RecipeManager.java:6031)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34)
-[08:47:48] [WARN]   at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-[08:47:48] [WARN]   at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[08:47:48] [WARN]   at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[08:47:48] [WARN]   at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-[08:47:48] [WARN]   at net.minecraft.server.TickTask.run(TickTask.java:18)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
-[08:47:48] [WARN]   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.RPCommon.onServerStarting(RPCommon.java:77)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.RestrictedPortals.onServerStarting(RestrictedPortals.java:29)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.__RestrictedPortals_onServerStarting_ServerAboutToStartEvent.invoke(.dynamic)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
-[08:47:48] [WARN]   at net.minecraftforge.server.ServerLifecycleHooks.handleServerAboutToStart(ServerLifecycleHooks.java:98)
-[08:47:48] [WARN]   at net.minecraft.client.server.IntegratedServer.m_7038_(IntegratedServer.java:62)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:634)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
-[08:47:48] [WARN]   at java.lang.Thread.run(Thread.java:833)
-[08:47:48] [WARN] Failed to parse recipe 'lost_aether_content:gravitite_shield[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_rubberwood[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"thermal:rubberwood_log\",\"Properties\":{\"axis\":\"y\"}}
-[08:47:48] [WARN] net.minecraft.ResourceLocationException: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"thermal:rubberwood_log\",\"Properties\":{\"axis\":\"y\"}}
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.m_245413_(ResourceLocation.java:221)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:40)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:44)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:50)
-[08:47:48] [WARN]   at …kubejs.util.UtilsJS.parseBlockState(UtilsJS.java:461)
-[08:47:48] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:48)
-[08:47:48] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:14)
-[08:47:48] [WARN]   at …kubejs.recipe.component.RecipeComponent.readFromJson(RecipeComponent.java:170)
-[08:47:48] [WARN]   at …kubejs.recipe.RecipeJS.deserialize(RecipeJS.java:74)
-[08:47:48] [WARN]   at …kubejs.recipe.schema.RecipeSchema.deserialize(RecipeSchema.java:248)
-[08:47:48] [WARN]   at …kubejs.recipe.RecipesEventJS.post(RecipesEventJS.java:326)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.handler$eli000$customRecipesHead(RecipeManager.java:6031)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34)
-[08:47:48] [WARN]   at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-[08:47:48] [WARN]   at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[08:47:48] [WARN]   at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[08:47:48] [WARN]   at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-[08:47:48] [WARN]   at net.minecraft.server.TickTask.run(TickTask.java:18)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
-[08:47:48] [WARN]   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.RPCommon.onServerStarting(RPCommon.java:77)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.RestrictedPortals.onServerStarting(RestrictedPortals.java:29)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.__RestrictedPortals_onServerStarting_ServerAboutToStartEvent.invoke(.dynamic)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
-[08:47:48] [WARN]   at net.minecraftforge.server.ServerLifecycleHooks.handleServerAboutToStart(ServerLifecycleHooks.java:98)
-[08:47:48] [WARN]   at net.minecraft.client.server.IntegratedServer.m_7038_(IntegratedServer.java:62)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:634)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
-[08:47:48] [WARN]   at java.lang.Thread.run(Thread.java:833)
-[08:47:48] [WARN] Failed to parse recipe 'deeperdarker:resonarium_boots_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[08:47:48] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_acacia[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:acacia_log\",\"Properties\":{\"axis\":\"y\"}}
-[08:47:48] [WARN] net.minecraft.ResourceLocationException: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:acacia_log\",\"Properties\":{\"axis\":\"y\"}}
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.m_245413_(ResourceLocation.java:221)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:40)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:44)
-[08:47:48] [WARN]   at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:50)
-[08:47:48] [WARN]   at …kubejs.util.UtilsJS.parseBlockState(UtilsJS.java:461)
-[08:47:48] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:48)
-[08:47:48] [WARN]   at …kubejs.recipe.component.BlockComponent.read(BlockComponent.java:14)
-[08:47:48] [WARN]   at …kubejs.recipe.component.RecipeComponent.readFromJson(RecipeComponent.java:170)
-[08:47:48] [WARN]   at …kubejs.recipe.RecipeJS.deserialize(RecipeJS.java:74)
-[08:47:48] [WARN]   at …kubejs.recipe.schema.RecipeSchema.deserialize(RecipeSchema.java:248)
-[08:47:48] [WARN]   at …kubejs.recipe.RecipesEventJS.post(RecipesEventJS.java:326)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.handler$eli000$customRecipesHead(RecipeManager.java:6031)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
-[08:47:48] [WARN]   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34)
-[08:47:48] [WARN]   at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-[08:47:48] [WARN]   at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[08:47:48] [WARN]   at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[08:47:48] [WARN]   at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-[08:47:48] [WARN]   at net.minecraft.server.TickTask.run(TickTask.java:18)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
-[08:47:48] [WARN]   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
-[08:47:48] [WARN]   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.RPCommon.onServerStarting(RPCommon.java:77)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.RestrictedPortals.onServerStarting(RestrictedPortals.java:29)
-[08:47:48] [WARN]   at morethanhidden.restrictedportals.__RestrictedPortals_onServerStarting_ServerAboutToStartEvent.invoke(.dynamic)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
-[08:47:48] [WARN]   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
-[08:47:48] [WARN]   at net.minecraftforge.server.ServerLifecycleHooks.handleServerAboutToStart(ServerLifecycleHooks.java:98)
-[08:47:48] [WARN]   at net.minecraft.client.server.IntegratedServer.m_7038_(IntegratedServer.java:62)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:634)
-[08:47:48] [WARN]   at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
-[08:47:48] [WARN]   at java.lang.Thread.run(Thread.java:833)
-[08:47:48] [WARN] Failed to parse recipe 'aether_treasure_reforging:neptune_upgrade_smithing_template[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[08:47:48] [INFO] Found 17533 recipes in 1.157 s
-[08:47:49] [WARN] equipment/armor.js#189: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/armor.js#189: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/armor.js#189: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/armor.js#189: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2222: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2232: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2242: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2222: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2232: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2242: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2222: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2232: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2242: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2222: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2232: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2242: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2222: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2232: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [WARN] equipment/tools.js#2242: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[08:47:49] [INFO] Posted recipe events in 336.3 ms
-[08:47:49] [WARN] Error parsing recipe forbidden_arcanus:aurum_chest_boat[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"forbidden_arcanus:aurum_boat"},{"fabric_value":{"tag":"c:chests"},"forge_value":{"tag":"forge:chests/wooden"}}],"result":{"item":"forbidden_arcanus:aurum_chest_boat"}}: An ingredient entry needs either a tag or an item
-[08:47:49] [WARN] com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:226)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84)
-[08:47:49] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-[08:47:49] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
-[08:47:49] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-[08:47:49] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-[08:47:49] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779)
-[08:47:49] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-[08:47:49] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
-[08:47:49] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
-[08:47:49] [WARN] Error parsing recipe nethersdelight:cutting/hoglin_sausage_alt[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"nethersdelight:hoglin_loin"}],"result":[{"count":2,"item":"mynethersdelight:hoglin_sausage"}],"tool":{"tag":"forge:tools/knives"}}: Unknown item 'nethersdelight:hoglin_loin'
-[08:47:49] [WARN] com.google.gson.JsonSyntaxException: Unknown item 'nethersdelight:hoglin_loin'
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292)
-[08:47:49] [WARN]   at java.util.Optional.orElseThrow(Optional.java:403)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189)
-[08:47:49] [WARN]   at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.readIngredients(CuttingBoardRecipe.java:195)
-[08:47:49] [WARN]   at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.fromJson(CuttingBoardRecipe.java:172)
-[08:47:49] [WARN]   at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.m_6729_(CuttingBoardRecipe.java:164)
-[08:47:49] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-[08:47:49] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
-[08:47:49] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-[08:47:49] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-[08:47:49] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779)
-[08:47:49] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-[08:47:49] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
-[08:47:49] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
-[08:47:49] [WARN] Error parsing recipe alexsdelight:barbecue_on_a_stick[minecraft:crafting_shapeless]: {"group":"barbecue_stick","type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersdelight:tomato"},{"item":"farmersdelight:onion"},{"item":"amfd:singular_cooked_moose_rib"},{"item":"minecraft:cooked_chicken"},{"item":"minecraft:stick"},{"item":"minecraft:stick"}],"result":{"item":"farmersdelight:barbecue_stick","count":2}}: Unknown item 'amfd:singular_cooked_moose_rib'
-[08:47:49] [WARN] com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292)
-[08:47:49] [WARN]   at java.util.Optional.orElseThrow(Optional.java:403)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84)
-[08:47:49] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-[08:47:49] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
-[08:47:49] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-[08:47:49] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-[08:47:49] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779)
-[08:47:49] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-[08:47:49] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
-[08:47:49] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
-[08:47:49] [WARN] Error parsing recipe forbidden_arcanus:edelwood_chest_boat[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"forbidden_arcanus:edelwood_boat"},{"fabric_value":{"tag":"c:chests"},"forge_value":{"tag":"forge:chests/wooden"}}],"result":{"item":"forbidden_arcanus:edelwood_chest_boat"}}: An ingredient entry needs either a tag or an item
-[08:47:49] [WARN] Error parsing recipe farmersrespite:chilidog_alt[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersrespite:blazing_chili"},{"item":"mynethersdelight:hotdog"},{"item":"mynethersdelight:hotdog"}],"result":{"count":2,"item":"mynethersdelight:chilidog"}}: Unknown item 'farmersrespite:blazing_chili'
-[08:47:49] [WARN] com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
-[08:47:49] [WARN] com.google.gson.JsonSyntaxException: Unknown item 'farmersrespite:blazing_chili'
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:226)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27)
-[08:47:49] [WARN]   at java.util.Optional.orElseThrow(Optional.java:403)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
-[08:47:49] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104)
-[08:47:49] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
-[08:47:49] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-[08:47:49] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-[08:47:49] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
-[08:47:49] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
-[08:47:49] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
-[08:47:49] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-[08:47:49] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-[08:47:49] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
-[08:47:49] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-[08:47:49] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
-[08:47:49] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779)
-[08:47:49] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-[08:47:49] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
-[08:47:49] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
-[08:47:49] [WARN] Error parsing recipe minecraft:kjs/big_enchanting_rune[kubejs:shaped]: {"type":"minecraft:crafting_shaped","result":{"item":"kubejs:big_enchanting_rune","count":1},"pattern":["  ","  "],"key":{}}: null
-[08:47:49] [WARN] java.lang.ArrayIndexOutOfBoundsException
-[08:47:49] [WARN] Error parsing recipe lychee:kjs/dpys0bkhjt0et0eh901v62gn0[lychee:item_inside]: {"type":"lychee:item_inside","hide_in_viewer":true,"contextual":{"type":"and","contextual":[{"type":"execute","command":"execute if block ~1 ~-1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~-1 ~1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~-1 ~-1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~1 ~-1 ~-2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~-1 ~-2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~-2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~1 ~-1 ~2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~-1 ~2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~2 ~-1 ~-1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~2 ~-1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~2 ~-1 ~1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-2 ~-1 ~-1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-2 ~-1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-2 ~-1 ~1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~1 ~-1 ~1 thermal:ruby_block","hide":true},{"type":"execute","command":"execute if block ~1 ~-1 ~-1 thermal:ruby_block","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~1 thermal:ruby_block","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~-1 thermal:ruby_block","hide":true},{"type":"execute","command":"execute if block ~ ~2 ~3 kubejs:charged_copper_block","hide":true},{"type":"execute","command":"execute if block ~ ~2 ~-3 kubejs:charged_copper_block","hide":true},{"type":"execute","command":"execute if block ~3 ~2 ~ kubejs:charged_copper_block","hide":true},{"type":"execute","command":"execute if block ~-3 ~2 ~ kubejs:charged_copper_block","hide":true},{"type":"execute","command":"execute if block ~-3 ~ ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-3 ~1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~3 ~ ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~3 ~1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~ ~-3 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~1 ~-3 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~ ~3 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~1 ~3 rubinated_nether:altar_stone_tiles","hide":true}]},"post":[{"type":"drop_item","count":1,"item":"thermal:sapphire"},{"type":"execute","command":"playsound minecraft:block.blastfurnace.fire_crackle neutral @p"},{"type":"execute","command":"fill ~3 ~2 ~3 ~-3 ~2 ~-3 minecraft:waxed_copper_block replace kubejs:charged_copper_block"},{"type":"execute","command":"fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 kubejs:depleted_ruby_block replace thermal:ruby_block"},{"type":"delay","s":5},{"type":"execute","command":"fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 thermal:ruby_block replace kubejs:depleted_ruby_block"}],"item_in":[{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:alchemical_dust"}],"block_in":"kubejs:infusing_altar"}: Unknown item 'kubejs:alchemical_dust'
-[08:47:49] [WARN] com.google.gson.JsonSyntaxException: Unknown item 'kubejs:alchemical_dust'
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292)
-[08:47:49] [WARN]   at java.util.Optional.orElseThrow(Optional.java:403)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189)
-[08:47:49] [WARN]   at snownee.lychee.core.recipe.ItemShapelessRecipe$Serializer.lambda$fromJson$0(ItemShapelessRecipe.java:88)
-[08:47:49] [WARN]   at java.lang.Iterable.forEach(Iterable.java:75)
-[08:47:49] [WARN]   at snownee.lychee.core.recipe.ItemShapelessRecipe$Serializer.fromJson(ItemShapelessRecipe.java:87)
-[08:47:49] [WARN]   at snownee.lychee.item_inside.ItemInsideRecipe$Serializer.fromJson(ItemInsideRecipe.java:136)
-[08:47:49] [WARN]   at snownee.lychee.item_inside.ItemInsideRecipe$Serializer.fromJson(ItemInsideRecipe.java:128)
-[08:47:49] [WARN]   at snownee.lychee.core.recipe.LycheeRecipe$Serializer.fromJson(LycheeRecipe.java:206)
-[08:47:49] [WARN]   at snownee.lychee.core.recipe.LycheeRecipe$Serializer.m_6729_(LycheeRecipe.java:156)
-[08:47:49] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-[08:47:49] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
-[08:47:49] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-[08:47:49] [WARN]   at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
-[08:47:49] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-[08:47:49] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
-[08:47:49] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
-[08:47:49] [WARN] Error parsing recipe lychee:kjs/ebl6cbab2rhc4rtp6uc7plzvq[lychee:item_inside]: {"type":"lychee:item_inside","ghost":true,"comment":"Needs infusing altar multiblock to work. Check ponder by holding W while hovering over infusing altar for more info","item_in":[{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:alchemical_dust"}],"block_in":"kubejs:infusing_altar","post":[{"type":"drop_item","item":"thermal:sapphire","count":1}]}: Unknown item 'kubejs:alchemical_dust'
-[08:47:49] [WARN] Error parsing recipe twilightforest:equipment/fiery_ingot_crafting[immersiveengineering:alloy]: {"type":"immersiveengineering:alloy","input0":{"tag":"twilightforest:fiery_vial"},"input1":{"item":"kubejs:inert_alloy_ingot"},"result":{"base_ingredient":{"item":"twilightforest:fiery_ingot"},"count":1},"time":200}: Unknown item 'kubejs:inert_alloy_ingot'
-[08:47:49] [WARN] com.google.gson.JsonSyntaxException: Unknown item 'kubejs:alchemical_dust'
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292)
-[08:47:49] [WARN]   at java.util.Optional.orElseThrow(Optional.java:403)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291)
-[08:47:49] [WARN] com.google.gson.JsonSyntaxException: Unknown item 'kubejs:inert_alloy_ingot'
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219)
-[08:47:49] [WARN]   at java.util.Optional.orElseThrow(Optional.java:403)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189)
-[08:47:49] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148)
-[08:47:49] [WARN]   at snownee.lychee.core.recipe.ItemShapelessRecipe$Serializer.lambda$fromJson$0(ItemShapelessRecipe.java:88)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
-[08:47:49] [WARN]   at java.lang.Iterable.forEach(Iterable.java:75)
-[08:47:49] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189)
-[08:47:49] [WARN]   at snownee.lychee.core.recipe.ItemShapelessRecipe$Serializer.fromJson(ItemShapelessRecipe.java:87)
-[08:47:49] [WARN]   at blusunrize.immersiveengineering.common.crafting.IngredientWithSizeSerializer.parse(IngredientWithSizeSerializer.java:58)
-[08:47:49] [WARN]   at snownee.lychee.item_inside.ItemInsideRecipe$Serializer.fromJson(ItemInsideRecipe.java:136)
-[08:47:49] [WARN]   at blusunrize.immersiveengineering.api.crafting.IngredientWithSize.deserialize(IngredientWithSize.java:56)
-[08:47:49] [WARN]   at snownee.lychee.item_inside.ItemInsideRecipe$Serializer.fromJson(ItemInsideRecipe.java:128)
-[08:47:49] [WARN]   at blusunrize.immersiveengineering.common.crafting.serializers.AlloyRecipeSerializer.readFromJson(AlloyRecipeSerializer.java:38)
-[08:47:49] [WARN]   at snownee.lychee.core.recipe.LycheeRecipe$Serializer.fromJson(LycheeRecipe.java:206)
-[08:47:49] [WARN]   at blusunrize.immersiveengineering.common.crafting.serializers.AlloyRecipeSerializer.readFromJson(AlloyRecipeSerializer.java:25)
-[08:47:49] [WARN]   at snownee.lychee.core.recipe.LycheeRecipe$Serializer.m_6729_(LycheeRecipe.java:156)
-[08:47:49] [WARN]   at blusunrize.immersiveengineering.api.crafting.IERecipeSerializer.fromJson(IERecipeSerializer.java:36)
-[08:47:49] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-[08:47:49] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
-[08:47:49] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
-[08:47:49] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
-[08:47:49] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-[08:47:49] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-[08:47:49] [WARN]   at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
-[08:47:49] [WARN]   at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
-[08:47:49] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-[08:47:49] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-[08:47:49] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
-[08:47:49] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
-[08:47:49] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
-[08:47:49] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
-[08:47:49] [INFO] Added 2838 recipes, removed 1295 recipes, modified 72 recipes, with 9 failed recipes in 346.1 ms
-[08:47:50] [INFO] Server resource reload complete!
-[09:02:56] [ERROR] ! cleanup/WoodCutting.js#389: Error in 'ItemEvents.rightClicked': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.item.ItemClickedEventJS@37cf59d4.
+[20:49:59] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[20:49:59] [INIT] Loaded plugins:
+[20:49:59] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:49:59] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[20:49:59] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[20:49:59] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
+[20:49:59] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[20:49:59] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[20:49:59] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[20:49:59] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[20:49:59] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[20:49:59] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
+[20:49:59] [INIT] - com.falaut.KubeJSNaturesAuraPlugin
+[20:49:59] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[20:49:59] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[20:49:59] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
+[20:49:59] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[20:49:59] [INIT] - com.alessandro.astages.integration.kubejs.AStageKubeJSPlugin
+[20:49:59] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[20:49:59] [INIT] - com.almostreliable.morejs.Plugin
+[20:49:59] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
+[20:49:59] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[20:49:59] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[20:49:59] [INIT] - com.probejs.ProbeJSPlugin
+[20:49:59] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[20:49:59] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[20:49:59] [INFO] Loaded script server_scripts:cleanup/cleanup.js in 0.002 s
+[20:49:59] [INFO] Loaded script server_scripts:cleanup/dummy_recipes.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:cleanup/SandpaperStripping.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:cleanup/wood.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:cleanup/WoodCutting.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:cleanup/WoodCuttingAxe.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:enchanting/ApparatusEnchanting.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:enchanting/EnchantingMaterials.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:enchanting/EnchantingRecipesRemoval.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:entities.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:equipment/accessories.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:equipment/armor.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:equipment/tools.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:equipment/toolUsage/blazing_sword_fish.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:equipment/toolUsage/firestarter_tnt_lightning.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:equipment/toolUsage/hoes.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:equipment/toolUsage/PrimitiveShears.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:Food.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:loot.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:machines/apparatus.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:machines/arcane_iterator.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:machines/arcane_workbench.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:machines/arcanum_pylon.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:machines/cutting_board.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:machines/elemental_binder.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:machines/elemental_evaporator.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:machines/elemental_infuser.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:machines/imbuement_chamber.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:machines/mechanical_mixer.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:machines/wissen_altar.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:main.js in 0.005 s
+[20:49:59] [INFO] Loaded script server_scripts:mortarAndMilling.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:multiblocks/animal_spawner.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:multiblocks/clibano_oven.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:multiblocks/multiblock_crafting.js in 0.003 s
+[20:49:59] [INFO] Loaded script server_scripts:multiblocks/sacrificial_altar.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:multiblocks/sequence_assembly.js in 0.002 s
+[20:49:59] [INFO] Loaded script server_scripts:multiblocks/tree_ritual.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:multiblocks/vine_generator.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:PlayerEvents.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:spells.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:tags/BiomeTags.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:tags/Tags.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:test/BlockEvents.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:test/test.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:upgrades_storage.js in 0.001 s
+[20:49:59] [INFO] Loaded script server_scripts:utility/EmiLootFix.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:utility/KeepInventory.js in 0.0 s
+[20:49:59] [INFO] Loaded script server_scripts:Villagers.js in 0.001 s
+[20:49:59] [INFO] Loaded 49/49 KubeJS server scripts in 0.058 s with 0 errors and 0 warnings
+[20:49:59] [INFO] Scripts loaded
+[20:49:59] [INFO] Initializing recipe event...
+[20:49:59] [INFO] [minecraft:worldgen/biome] Found 679 tags, added 112 objects, removed 0 objects
+[20:49:59] [INFO] [minecraft:block] Found 1138 tags, added 136 objects, removed 0 objects
+[20:49:59] [INFO] [minecraft:item] Found 2307 tags, added 1146 objects, removed 12 objects
+[20:50:00] [INFO] Processing recipes...
+[20:50:00] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_cherry[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:cherry_log\"}
+[20:50:00] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_jungle[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:jungle_log\",\"Properties\":{\"axis\":\"y\"}}
+[20:50:00] [WARN] Failed to parse recipe 'deeperdarker:resonarium_hoe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[20:50:00] [WARN] Failed to parse recipe 'aether_redux:genesis_dark_gummy_swet[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:50:00] [WARN] Failed to parse recipe 'deeperdarker:resonarium_sword_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[20:50:00] [WARN] Failed to parse recipe 'deeperdarker:resonarium_helmet_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[20:50:00] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_birch[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:birch_log\",\"Properties\":{\"axis\":\"y\"}}
+[20:50:00] [WARN] Failed to parse recipe 'vintageimprovements:craft/fiery_wire[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:50:00] [WARN] Failed to parse recipe 'vintageimprovements:craft/electrum_wire[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:50:00] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_oak[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:oak_log\"}
+[20:50:01] [WARN] Failed to parse recipe 'aether_treasure_reforging:valkyrie_upgrade_smithing_template[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:50:01] [WARN] Failed to parse recipe 'deeperdarker:resonarium_pickaxe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[20:50:01] [WARN] Failed to parse recipe 'deeperdarker:resonarium_leggings_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[20:50:01] [WARN] Failed to parse recipe 'vintageimprovements:craft/electrum_rod[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:50:01] [WARN] Failed to parse recipe 'aether_treasure_reforging:phoenix_upgrade_smithing_template[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:50:01] [WARN] Failed to parse recipe 'deeperdarker:resonarium_chestplate_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[20:50:01] [WARN] Failed to parse recipe 'deeperdarker:resonarium_shovel_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[20:50:01] [WARN] Failed to parse recipe 'deeperdarker:resonarium_axe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[20:50:01] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_dark_oak[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:dark_oak_log\",\"Properties\":{\"axis\":\"y\"}}
+[20:50:01] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_spruce[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:spruce_log\",\"Properties\":{\"axis\":\"y\"}}
+[20:50:01] [WARN] Failed to parse recipe 'lost_aether_content:gravitite_shield[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:50:01] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_rubberwood[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"thermal:rubberwood_log\",\"Properties\":{\"axis\":\"y\"}}
+[20:50:01] [WARN] Failed to parse recipe 'deeperdarker:resonarium_boots_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[20:50:01] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_acacia[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:acacia_log\",\"Properties\":{\"axis\":\"y\"}}
+[20:50:01] [WARN] Failed to parse recipe 'aether_treasure_reforging:neptune_upgrade_smithing_template[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:50:01] [INFO] Found 17565 recipes in 1.096 s
+[20:50:01] [WARN] equipment/armor.js#189: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/armor.js#189: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/armor.js#189: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/armor.js#189: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2222: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2232: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2242: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2222: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2232: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2242: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2222: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2232: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2242: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2222: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2232: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2242: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2222: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2232: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [WARN] equipment/tools.js#2242: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[20:50:01] [INFO] Posted recipe events in 333.3 ms
+[20:50:01] [WARN] Error parsing recipe forbidden_arcanus:aurum_chest_boat[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"forbidden_arcanus:aurum_boat"},{"fabric_value":{"tag":"c:chests"},"forge_value":{"tag":"forge:chests/wooden"}}],"result":{"item":"forbidden_arcanus:aurum_chest_boat"}}: An ingredient entry needs either a tag or an item
+[20:50:01] [WARN] Error parsing recipe forbidden_arcanus:edelwood_chest_boat[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"forbidden_arcanus:edelwood_boat"},{"fabric_value":{"tag":"c:chests"},"forge_value":{"tag":"forge:chests/wooden"}}],"result":{"item":"forbidden_arcanus:edelwood_chest_boat"}}: An ingredient entry needs either a tag or an item
+[20:50:01] [WARN] Error parsing recipe alexsdelight:barbecue_on_a_stick[minecraft:crafting_shapeless]: {"group":"barbecue_stick","type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersdelight:tomato"},{"item":"farmersdelight:onion"},{"item":"amfd:singular_cooked_moose_rib"},{"item":"minecraft:cooked_chicken"},{"item":"minecraft:stick"},{"item":"minecraft:stick"}],"result":{"item":"farmersdelight:barbecue_stick","count":2}}: Unknown item 'amfd:singular_cooked_moose_rib'
+[20:50:01] [WARN] Error parsing recipe farmersrespite:chilidog_alt[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersrespite:blazing_chili"},{"item":"mynethersdelight:hotdog"},{"item":"mynethersdelight:hotdog"}],"result":{"count":2,"item":"mynethersdelight:chilidog"}}: Unknown item 'farmersrespite:blazing_chili'
+[20:50:01] [WARN] Error parsing recipe nethersdelight:cutting/hoglin_sausage_alt[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"nethersdelight:hoglin_loin"}],"result":[{"count":2,"item":"mynethersdelight:hoglin_sausage"}],"tool":{"tag":"forge:tools/knives"}}: Unknown item 'nethersdelight:hoglin_loin'
+[20:50:01] [WARN] Error parsing recipe minecraft:kjs/big_enchanting_rune[kubejs:shaped]: {"type":"minecraft:crafting_shaped","result":{"item":"kubejs:big_enchanting_rune","count":1},"pattern":["  ","  "],"key":{}}: null
+[20:50:01] [WARN] Error parsing recipe lychee:kjs/dpys0bkhjt0et0eh901v62gn0[lychee:item_inside]: {"type":"lychee:item_inside","hide_in_viewer":true,"contextual":{"type":"and","contextual":[{"type":"execute","command":"execute if block ~1 ~-1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~-1 ~1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~-1 ~-1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~1 ~-1 ~-2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~-1 ~-2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~-2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~1 ~-1 ~2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~-1 ~2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~2 ~-1 ~-1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~2 ~-1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~2 ~-1 ~1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-2 ~-1 ~-1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-2 ~-1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-2 ~-1 ~1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~1 ~-1 ~1 thermal:ruby_block","hide":true},{"type":"execute","command":"execute if block ~1 ~-1 ~-1 thermal:ruby_block","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~1 thermal:ruby_block","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~-1 thermal:ruby_block","hide":true},{"type":"execute","command":"execute if block ~ ~2 ~3 kubejs:charged_copper_block","hide":true},{"type":"execute","command":"execute if block ~ ~2 ~-3 kubejs:charged_copper_block","hide":true},{"type":"execute","command":"execute if block ~3 ~2 ~ kubejs:charged_copper_block","hide":true},{"type":"execute","command":"execute if block ~-3 ~2 ~ kubejs:charged_copper_block","hide":true},{"type":"execute","command":"execute if block ~-3 ~ ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-3 ~1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~3 ~ ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~3 ~1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~ ~-3 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~1 ~-3 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~ ~3 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~1 ~3 rubinated_nether:altar_stone_tiles","hide":true}]},"post":[{"type":"drop_item","count":1,"item":"thermal:sapphire"},{"type":"execute","command":"playsound minecraft:block.blastfurnace.fire_crackle neutral @p"},{"type":"execute","command":"fill ~3 ~2 ~3 ~-3 ~2 ~-3 minecraft:waxed_copper_block replace kubejs:charged_copper_block"},{"type":"execute","command":"fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 kubejs:depleted_ruby_block replace thermal:ruby_block"},{"type":"delay","s":5},{"type":"execute","command":"fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 thermal:ruby_block replace kubejs:depleted_ruby_block"}],"item_in":[{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:alchemical_dust"}],"block_in":"kubejs:infusing_altar"}: Unknown item 'kubejs:alchemical_dust'
+[20:50:01] [WARN] Error parsing recipe twilightforest:equipment/fiery_ingot_crafting[immersiveengineering:alloy]: {"type":"immersiveengineering:alloy","input0":{"tag":"twilightforest:fiery_vial"},"input1":{"item":"kubejs:inert_alloy_ingot"},"result":{"base_ingredient":{"item":"twilightforest:fiery_ingot"},"count":1},"time":200}: Unknown item 'kubejs:inert_alloy_ingot'
+[20:50:01] [WARN] Error parsing recipe lychee:kjs/ebl6cbab2rhc4rtp6uc7plzvq[lychee:item_inside]: {"type":"lychee:item_inside","ghost":true,"comment":"Needs infusing altar multiblock to work. Check ponder by holding W while hovering over infusing altar for more info","item_in":[{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:alchemical_dust"}],"block_in":"kubejs:infusing_altar","post":[{"type":"drop_item","item":"thermal:sapphire","count":1}]}: Unknown item 'kubejs:alchemical_dust'
+[20:50:02] [INFO] Added 3017 recipes, removed 1335 recipes, modified 85 recipes, with 9 failed recipes in 337.4 ms
+[20:50:02] [INFO] Server resource reload complete!

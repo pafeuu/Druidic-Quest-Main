@@ -4,7 +4,7 @@ LootJS.modifiers((event) => {
 
     ///==================================Enchanted Books==========================
 
-    event.addLootTableModifier([
+    event.addLootTypeModifier([
         LootType.ADVANCEMENT_ENTITY,
         LootType.ADVANCEMENT_REWARD,
         LootType.CHEST,
@@ -12,7 +12,7 @@ LootJS.modifiers((event) => {
         LootType.FISHING,
         LootType.GIFT,
         LootType.PIGLIN_BARTER,
-        LootType.UNKNOWN]).removeLoot("minecraft:enchanted_book")
+        LootType.UNKNOWN]).replaceLoot("minecraft:enchanted_book","kubejs:enchanting_rune")
 
     ///=======================================Replacing Junk
 
@@ -87,18 +87,25 @@ LootJS.modifiers((event) => {
         .randomChance(0.05).addLoot("vintagedelight:century_egg");
     
     event.addLootTableModifier(/.*irons_spellbooks.*/)
-        .replaceLoot(Item.of('minecraft:potion', '{Potion:"minecraft:water"}'), "quark:bottled_cloud");
+        .replaceLoot(Item.of('minecraft:potion', '{Potion:"minecraft:water"}'), "enigmaticlegacy:recall_potion");
+    
+    event.addLootTableModifier(/.*idas:chests.*/)
+        .randomChance(0.4)
+        .addLoot("2x enigmaticlegacy:recall_potion");
 
+    event.addLootTableModifier(/.*idas:chests.*/)
+        .randomChance(0.10)
+        .addLoot("enigmaticlegacy:mending_mixture");
     
 
     // ====================================================IDAS
 
     event.addLootTableModifier(/.*idas:chests.*/)
         .randomChance(0.5)
-        .addLoot("enigmaticlegacy:recall_potion");
+        .addLoot("3x enigmaticlegacy:recall_potion");
 
     event.addLootTableModifier(/.*idas:chests.*/)
-        .randomChance(0.05)
+        .randomChance(0.15)
         .addLoot("enigmaticlegacy:mending_mixture");
 
     event.addLootTableModifier("minecraft:chests/jungle_temple")

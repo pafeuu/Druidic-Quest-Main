@@ -93,7 +93,7 @@ JEIEvents.information(event => {
 
     event.addItem("deep_aether:goldenleaf_berries",["Found growing on Quicksoil in Golden Heights biome"])
 
-    event.addItem("#wizards_reborn:arcanum_ores"["Found between y90 and y-40 in the overworld"])
+    event.addItem("wizards_reborn:arcanum_ore",["Found between y90 and y-40 in the overworld"])
 
     event.addItem("forbidden_arcanus:xpetrified_ore",["Found between y127 and y-15 in the twilight forest"])
     event.addItem("forbidden_arcanus:arcane_crystal_ore",["Found between y96 and y-30 in the twilight forest"])

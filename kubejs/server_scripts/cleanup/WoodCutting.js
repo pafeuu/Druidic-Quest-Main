@@ -1,7 +1,7 @@
 ItemEvents.rightClicked('kubejs:primitive_saw', event => {
     
     const player = event.player;
-    //const server = event.server;
+    const server = event.server;
 
     function StrippedWoodCutting(planks,log)
     {
@@ -13,6 +13,7 @@ ItemEvents.rightClicked('kubejs:primitive_saw', event => {
                 player.damageHeldItem()
                 player.addExhaustion(0.15)
 
+				server.runCommandSilent(`/execute at ${player.username} run playsound sawmill:ui.sawmill.take_result player ${player.username}`);
                 player.addItemCooldown("kubejs:primitive_saw",5)
                 event.cancel()     
             }
@@ -28,9 +29,11 @@ ItemEvents.rightClicked('kubejs:primitive_saw', event => {
                 player.damageHeldItem()
                 player.addExhaustion(0.15)
 
+				server.runCommandSilent(`/execute at ${player.username} run playsound sawmill:ui.sawmill.take_result player ${player.username}`);
                 player.addItemCooldown("kubejs:primitive_saw",5)
                 event.cancel()     
             }
+
     }
 
     StrippedWoodCutting("minecraft:oak_planks","minecraft:stripped_oak_log")

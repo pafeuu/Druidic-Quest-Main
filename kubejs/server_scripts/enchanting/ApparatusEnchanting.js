@@ -1596,6 +1596,42 @@ ServerEvents.recipes(event=>{
         "naturesaura:token_fear"
     ],9000)
 
+    Enchanting("veinmining:vein_mining",1,[
+        "kubejs:big_enchanting_rune_of_wisdom",
+        "tnt",
+        "twilightforest:naga_scale"
+    ],2000)
+
+    Enchanting("veinmining:vein_mining",2,[
+        "kubejs:big_enchanting_rune_of_wisdom",
+        "tnt",
+        "twilightforest:naga_scale",
+        "twilightforest:naga_scale"
+    ],4000)
+
+    Enchanting("veinmining:vein_mining",3,[
+        "kubejs:big_enchanting_rune_of_wisdom",
+        "tnt",
+        "twilightforest:naga_scale",
+        "twilightforest:naga_scale",
+        "twilightforest:naga_scale"
+    ],6000)
+
+    Enchanting("veinmining:vein_mining",4,[
+        "kubejs:big_enchanting_rune_of_wisdom",
+        "kubejs:big_enchanting_rune_of_wisdom",
+        "tnt",
+        "twilightforest:naga_scale",
+    ],8000)
+
+    Enchanting("veinmining:vein_mining",5,[
+        "kubejs:big_enchanting_rune_of_wisdom",
+        "kubejs:big_enchanting_rune_of_wisdom",
+        "tnt",
+        "twilightforest:naga_scale",
+        "twilightforest:naga_scale"
+    ],10000)
+
     
     
 })

@@ -35,12 +35,13 @@
 				}
 			]
 			size: 2.0d
+			subtitle: "Need some texture in your life?"
 			tasks: [{
 				id: "00A1F8AF3219C840"
 				item: "quark:trowel"
 				type: "item"
 			}]
-			title: "randomized building"
+			title: "Randomized Building"
 			x: -3.0d
 			y: 0.5d
 		}
@@ -55,7 +56,7 @@
 			}]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Press alt to check all the options!"
+			subtitle: "Press ALT to check out all the options!"
 			tasks: [{
 				id: "6E306F7B4E745B87"
 				type: "checkmark"
@@ -83,6 +84,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "Convenient Randomization"
 			tasks: [{
 				id: "195F2778C52AFB7A"
 				item: {
@@ -102,7 +104,9 @@
 		}
 		{
 			dependencies: ["04F83F3CC3854027"]
+			description: [""]
 			id: "08CA7F8F750C9741"
+			subtitle: "Need even more texture?"
 			tasks: [{
 				id: "52A4011219671EE8"
 				item: {
@@ -123,6 +127,7 @@
 		{
 			dependencies: ["08CA7F8F750C9741"]
 			id: "6DF2CA32E107937D"
+			subtitle: "This ought to do the trick!"
 			tasks: [{
 				id: "615094B02D6F5288"
 				item: {
@@ -143,11 +148,12 @@
 		{
 			dependencies: ["6F5C7CA9C74F13E9"]
 			description: [
-				"Schematicannon is already an extremely usefull tool in Create arsenal but did you know it has a \"hidden\" trait?"
-				"Blocks placed by this machine doesn't cause update which makes gives you a mountain of possibilites like:"
+				"The schematicannon is already an extremely usefull tool in the Create arsenal, but... did you know it has a \"hidden\" trait?"
 				""
-				"-Changing obsidian in the nether portal"
-				"-Placing blocks that need a special environment like azelea bushes on top of stone etc."
+				"Blocks placed by this machine do not cause adjacent blocks to update, giving you mountains of possibilites like:"
+				""
+				"-Changing out the obsidian in a Nether portal"
+				"-Placing blocks that need a special environment (placing flowers or azalea bushes on top of stone, etc.)"
 			]
 			icon: "create:schematicannon"
 			id: "300CF3200A5E73D7"
@@ -158,6 +164,7 @@
 				type: "item"
 			}]
 			size: 2.0d
+			subtitle: "Is it cheating...?"
 			tasks: [{
 				id: "467B7B7CFC24DC37"
 				item: "create:schematicannon"
@@ -168,7 +175,7 @@
 		}
 		{
 			dependencies: ["6F5C7CA9C74F13E9"]
-			description: ["You can place carpets(including moss carpet) on stairs and slabs now!"]
+			description: ["You can now place carpets (including moss carpet) on stairs and slabs!"]
 			icon: "minecraft:red_carpet"
 			id: "38F291101EE9F367"
 			rewards: [{
@@ -179,6 +186,7 @@
 			}]
 			shape: "octagon"
 			size: 2.0d
+			subtitle: "Grand entrance, anyone?"
 			tasks: [{
 				id: "64729BD84CD7C565"
 				type: "checkmark"
@@ -190,9 +198,9 @@
 		{
 			dependencies: ["6F5C7CA9C74F13E9"]
 			description: [
-				"You can now modify the look of your storage containers much easier with the help of Decoration Table! Options are limitless."
+				"You can now easily modify the look of your storage containers with the help of the Decoration Table. Your options are limitless!"
 				""
-				"You can even  apply decoration on the containers in world with the help of the Paintbrush"
+				"You can even apply your decorations to the containers in-world with the help of the Paintbrush!"
 			]
 			icon: "sophisticatedstorage:decoration_table"
 			id: "58009425DF30A949"
@@ -203,6 +211,7 @@
 				type: "item"
 			}]
 			size: 2.0d
+			subtitle: "Storage with Style!"
 			tasks: [{
 				id: "7289B60106CDEEE9"
 				item: "sophisticatedstorage:decoration_table"
@@ -217,6 +226,7 @@
 				"70FF5891DA236DA4"
 			]
 			id: "62693CF96CA4C6DA"
+			subtitle: "I can reach a little farther..."
 			tasks: [{
 				id: "725A7AE9A319B8E1"
 				item: "effortlessbuilding:reach_upgrade1"
@@ -231,6 +241,7 @@
 				"62693CF96CA4C6DA"
 			]
 			id: "13ED6FE81EC3C2A1"
+			subtitle: "and a little farther..."
 			tasks: [{
 				id: "542F9135FF107EFB"
 				item: "effortlessbuilding:reach_upgrade2"
@@ -245,6 +256,7 @@
 				"23D3902848A335F6"
 			]
 			id: "76EF42A8710C9F2A"
+			subtitle: "Now I've got it!"
 			tasks: [{
 				id: "64374E68EF21F8B7"
 				item: "effortlessbuilding:reach_upgrade3"
@@ -254,5 +266,5 @@
 			y: 4.5d
 		}
 	]
-	title: "Building tools and tips"
+	title: "Building Tools and Tips"
 }

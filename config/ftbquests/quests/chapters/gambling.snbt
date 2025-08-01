@@ -51,19 +51,20 @@
 			id: "552F01B008A748AF"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Yes, we came up with the name ourselves"
+			subtitle: "Gamble away your riches!"
 			tasks: [{
 				id: "62A4387CCE7F7DD9"
 				title: "Welcome to Amazing Digital Casino"
 				type: "checkmark"
 			}]
+			title: "Welcome to the Casino"
 			x: 0.5d
 			y: 0.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["62A4387CCE7F7DD9"]
-			description: ["Gamble your gold coin on some stone building blocks"]
+			description: ["Gamble a gold coin on some stone building blocks!"]
 			icon: "minecraft:cobblestone"
 			id: "6ABD193B4AD4BE13"
 			rewards: [{
@@ -72,6 +73,7 @@
 				table_id: 5679688801934745409L
 				type: "random"
 			}]
+			subtitle: "???"
 			tasks: [
 				{
 					consume_items: true
@@ -86,14 +88,14 @@
 					type: "item"
 				}
 			]
-			title: "Stone building materials"
+			title: "Stone Building Materials"
 			x: -4.5d
 			y: -0.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["62A4387CCE7F7DD9"]
-			description: ["Gamble your gold coin on some wood building blocks"]
+			description: ["Gamble a gold coin on some wood building blocks!"]
 			icon: "minecraft:stripped_oak_log"
 			id: "5DBE7E139C917877"
 			rewards: [{
@@ -102,6 +104,7 @@
 				table_id: 4505272222986019558L
 				type: "random"
 			}]
+			subtitle: "???"
 			tasks: [
 				{
 					consume_items: true
@@ -116,13 +119,14 @@
 					type: "item"
 				}
 			]
+			title: "Wooden Building Materials"
 			x: -3.0d
 			y: -0.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["62A4387CCE7F7DD9"]
-			description: ["Gamble your gold coin on some detailing building blocks"]
+			description: ["Gamble a gold coin on some blocks to decorate with!"]
 			icon: "minecraft:soul_lantern"
 			id: "416372088BAACD13"
 			rewards: [{
@@ -131,6 +135,7 @@
 				table_id: 4538509838943174082L
 				type: "random"
 			}]
+			subtitle: "???"
 			tasks: [
 				{
 					consume_items: true
@@ -145,6 +150,7 @@
 					type: "item"
 				}
 			]
+			title: "Decorative Building Materials"
 			x: -1.5d
 			y: -0.5d
 		}

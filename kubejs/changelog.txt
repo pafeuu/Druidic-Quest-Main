@@ -2236,3 +2236,119 @@ Patch 0.3.2.1
     -Fixed Dimensional Keys Tooltip not working without advanced tooltips on
     -Pebbles and Twigs now properly generate in cherry grove biome
 
+# Patch 2.2.2
+
+### Removed Mods:
+    -Grimoire of Gaia (This wasn't supposed to be there,yet)
+    -Polytone (Removed in the last patch)
+
+### Quests:
+    -Added Quests reward to tier 0 that unlocks all sections in the Arcanemicon
+
+### Recipes:
+    -Block crushing recipes with anvil now also work with chipped and damaged anvil
+    -Changed recipe for the Ironbound Tome
+    -Changed recipe for the Apprentice's Spell Book
+    -Changed recipe for the Enchanted Spell Book
+
+### Other:
+    -Added back curio slot for crafting table on a stick
+
+# Patch 2.3 Quality of Life
+
+### Updated Mods:
+    -AStages
+    -CraftingTweaks
+    -e4mc
+    -EntityJS
+    -FluffyFur
+    -HopoBetterMineshaft
+    -IDAS
+    -SillyOddities
+    -TooManyRecipeViewers
+    -Balm
+    -ArsNouveau
+    -EveryCompat
+    -FancyMenu
+    -FTBLibrary
+    -ImprovedMobs
+    -KubejsArsNouveau
+    -LegendaryCreatures
+    -ModernFix
+    -XaeroMinimap
+    -XaeroWorldMap
+    -ImmedietalyFast
+    -MoreMobs
+    -OhTheBiomesWeveGone
+    -SophisticatedMods
+    -Tide
+
+
+### Added Mods:
+    -Lighty
+    -Extreme Sound Muffler
+    -Crafting Station Improved
+    -Vein Mining
+
+### Recipes:
+    -You can now craft planks directly from non stripped logs in the Universal Saw
+    -Changed recipes for salt torches and campfires from silly oddities to match wizard's reborn
+    -Replaced arcane gold nuggets to regular gold nuggets in all the salt lantern recipes
+    -You can no longer use mortar to pulverizer ingots into dusts
+    -Added alternate recipe for the comparator
+    -You can now craft two wooden slabs back into regular block
+
+### Quests:
+    -Modified nearly every quest description thanks to Gyldanword
+    -Added quest in tier 1 for crafting station
+    -Changed Market quests for trumpet saplings
+    -Changed Market quest for sunflower to tall flower of choice
+    -Added Market quest for archwood saplings
+    -Added missing mangrove propagule quest to the dendrologist chapter
+    -You will now see every quest in the chapter after starting it(Details still hidden until startable)
+
+### Loot:
+    -Recall Potion and Mending Mixtures are now more common
+    -Replaced Enchanted Books with Enchanting Rune in all loottables
+
+### Item Balance:
+    -Buffed Netherite Sword durability to match other tools
+    -Slighlty buffed Leather Armor ice resistance
+    -Buffed silver armor set bonus
+    -Slightly Changed Faraday armor resistances values
+    -Changed engineer set to explorer set
+    -Faraday armor is now unbreakable
+    -Following armor sets now have 50% more durability:
+        -Iron
+        -Leather
+        -Chainmail
+        -Silver
+        -Copper
+        -Lead
+        -Diving
+        -Beekeper
+        -Mortem
+        -Diamond
+        -Netherite
+        -Scarecrow
+        -Wandering Magician
+
+
+### Other:
+    -Fixed sapphire related tags
+    -You no longer need to unlock entries in guidebooks
+    -Source berries,blue berries and oddion bulbs can now go into the seed pouch
+    -Added silly oddities and bwyg flowers to the golden flowers tag
+    -Added tooltip to the flowers that can craft briliant fiber
+    -Removed every difficulty based modifier from tide fishes
+    -Mobs will no longer target villagers(except for zombies)
+    -Ravagers will no longer spawn with item in hands
+    -Vexs,Shulkers and silverfish will no longer spawn with any equipment
+    -Added sound to plank cutting and blazing swordfish usage
+    -Removed /back, /spawn, /sethome, /home commands (Only in new worlds or if you reset server config in your world)
+    -changed punching stone to right clicking to get pebbles
+    -Fixed tooltip on leather set armor bonus
+    -Renamed Reach upgrades to Build Power Upgrades
+    -Buffed Build Power Upgrades reach
+    -Added a tooltip to Build Power Upgrades to specify they only work in effortless building mode
+    
