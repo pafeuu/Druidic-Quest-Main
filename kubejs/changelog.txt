@@ -2351,4 +2351,10 @@ Patch 0.3.2.1
     -Renamed Reach upgrades to Build Power Upgrades
     -Buffed Build Power Upgrades reach
     -Added a tooltip to Build Power Upgrades to specify they only work in effortless building mode
+
+# Patch 2.3b hotfix
+
+    -Updated EffortlessBuilding
+    -Fixed wood dupe bug from placeholder recipe
+
     

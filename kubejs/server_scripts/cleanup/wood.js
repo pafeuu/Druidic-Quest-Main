@@ -11,7 +11,7 @@ ServerEvents.recipes(event =>{
 			result: mod+":"+woodtype+"_slab"
 		})
 
-		//event.shaped(mod+":"+woodtype+"_planks",["S","S"],{S:mod+":"+woodtype+"_slab"})
+		event.shaped(mod+":"+woodtype+"_planks",["S","S"],{S:mod+":"+woodtype+"_slab"})
 
         event.custom({
 			type: "sawmill:woodcutting",
@@ -59,7 +59,7 @@ ServerEvents.recipes(event =>{
 			result: mod+":"+woodtype+"_planks_slab"
 		})
 
-		//event.shaped(mod+":"+woodtype+"_planks",["S","S"],{S:mod+":"+woodtype+"_planks_slab"})
+		event.shaped(mod+":"+woodtype+"_planks",["S","S"],{S:mod+":"+woodtype+"_planks_slab"})
 
         event.custom({
 			type: "sawmill:woodcutting",
@@ -195,8 +195,6 @@ ServerEvents.recipes(event =>{
 			},
 			result: planks
 		  })
-
-
 
 		event.remove({output:planks, type:"minecraft:crafting_shapeless"}) // Removes default shapeless recipe recipe
 	}
