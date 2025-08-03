@@ -23,6 +23,15 @@ ItemEvents.toolTierRegistry(event => {
     tier.repairIngredient = '#forge:ingots/copper'
   })
 
+  event.add('copper', tier => {
+    tier.uses = 1536
+    tier.speed = 5.0
+    tier.attackDamageBonus = 2
+    tier.level = 3
+    tier.enchantmentValue = 12
+    tier.repairIngredient = '#forge:ingots/bronze'
+  })
+
   event.add('silver', tier => {
     tier.uses = 256
     tier.speed = 7.0
@@ -105,6 +114,16 @@ ItemEvents.armorTierRegistry(event => {
     tier.repairIngredient = '#forge:ingots/copper'
     tier.toughness = 0.0 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.0
+  })
+
+  event.add('bronze', tier => {
+    tier.durabilityMultiplier = 60 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2, 4, 5, 2] // Slot indicies are [FEET, LEGS, BODY, HEAD]
+    tier.enchantmentValue = 8
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = '#forge:ingots/bronze'
+    tier.toughness = 0.0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.05
   })
 
   event.add('silver', tier => {
@@ -389,6 +408,11 @@ StartupEvents.registry('item', item => {
   item.create('copper_shovel','shovel').tier('copper').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool")
   item.create('copper_hoe','hoe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
   item.create('copper_trident','sword').tier('copper').tag('minecraft:sword').tag("forge:tools/copper").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier1/weapon")
+
+
+  item.create('bronze_pickaxe','pickaxe').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool")
+  item.create('bronze_shovel','shovel').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool")
+  item.create('bronze_hoe','hoe').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
 
   item.create('lead_pickaxe','pickaxe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool")
   item.create('lead_sword','sword').tier('lead').tag("minecraft:tools").tag("dq:tier1/weapon")

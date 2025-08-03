@@ -286,6 +286,10 @@
     }
   ],
   "lookup_history": [
+    "item:vintagedelight:vinegar_bottle",
+    "item:vintagedelight:cheese_curds",
+    "item:vintagedelight:cheese_wheel",
+    "item:tide:endstone_perch",
     "item:minecraft:end_stone",
     "item:minecraft:crafting_table",
     {
@@ -803,7 +807,6 @@
     "item:farmersdelight:cabbage_rolls",
     "item:create:flywheel",
     "item:vintagedelight:cheese_mold",
-    "item:vintagedelight:cheese_wheel",
     "item:vintageimprovements:spring_coiling_machine_wheel",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:projectile_protection\",lvl:4s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"majruszsenchantments:horse_protection\",lvl:4s}]}",
@@ -1486,10 +1489,7 @@
     "item:kubejs:bouncy_boots_cover",
     "item:kubejs:water_infused_arcanum",
     "item:kubejs:fire_infused_arcanum",
-    "item:kubejs:earth_infused_arcanum",
-    "item:kubejs:infused_amethyst",
-    "item:kubejs:infused_diamond",
-    "item:kubejs:sapphire"
+    "item:kubejs:earth_infused_arcanum"
   ],
   "craft_history": [
     "irons_spellbooks:druidic_spell_book",
