@@ -697,6 +697,8 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 components =======================================================================
 
+	event.shaped("naturesaura:ancient_stick",[" P","P "],{P:"naturesaura:ancient_slab"}).id("naturesaura:ancient_stick")
+
 	event.shapeless("craftingstation:crafting_station_slab","craftingstation:crafting_station").id("craftingstation:crafting_station_slab")
 	event.shapeless("6x wizards_reborn:flower_fertilizer",["4x thermal:compost","5x wizards_reborn:petals"]).id("wizards_reborn:shapeless/flower_fertilizer")
 	event.shaped("6x create:shaft",
@@ -1337,6 +1339,46 @@ ServerEvents.recipes(event => {
 	)
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
+	event.shaped("naturesaura:item_distributor",
+		[
+			"CCC",
+			"HMH",
+			"CCC"
+		],
+		{
+			C: "cobblestone",
+			H: "woodenhopper:wooden_hopper",
+			M: "kubejs:primitive_machine"
+		}
+	).id("naturesaura:item_distributor")
+
+	event.shaped("naturesaura:pickup_stopper",
+		[
+			"CSC",
+			"CMC",
+			"CSC"
+		],
+		{
+			C: "cobblestone",
+			S: "slime_ball",
+			M: "kubejs:primitive_machine"
+		}
+	).id("naturesaura:pickup_stopper")
+
+	event.shaped("naturesaura:oak_generator",
+		[
+			"LEL",
+			"AMA",
+			"LTL"
+		],
+		{
+			L: "minecraft:oak_log",
+			A: "naturesaura:ancient_sapling",
+			M: "kubejs:primitive_machine",
+			E: "#c:gems/emerald",
+			T: "naturesaura:token_fear"
+		}
+	).id("naturesaura:oak_generator")
 
 	event.shaped("create:andesite_tunnel",
 		[
@@ -1969,9 +2011,6 @@ ServerEvents.recipes(event => {
 	  }
 	)
 	
-	
-	
-	event.shaped('ars_nouveau:imbuement_chamber', ['kubejs:recipe_changed']).id("ars_nouveau:imbuement_chamber")
 	event.custom({
 		 type: "lychee:lightning_channeling",
 		  post: [
@@ -2523,11 +2562,7 @@ ServerEvents.recipes(event => {
 		  ],
 		  block_in: "minecraft:water"
 	})
-	//event.shapeless("ars_nouveau:air_essence",["kubejs:recipe_changed"]).id("ars_nouveau:imbuement_air_essence")
-	event.recipes.ars_nouveau.imbuement("kubejs:recipe_changed","ars_nouveau:air_essence",100,[]).id("ars_nouveau:imbuement_air_essence")
-	event.recipes.ars_nouveau.imbuement("kubejs:recipe_changed","ars_nouveau:earth_essence",100,[]).id("ars_nouveau:imbuement_earth_essence")
-	event.recipes.ars_nouveau.imbuement("kubejs:recipe_changed","ars_nouveau:fire_essence",100,[]).id("ars_nouveau:imbuement_fire_essence")
-	event.recipes.ars_nouveau.imbuement("kubejs:recipe_changed","ars_nouveau:water_essence",100,[]).id("ars_nouveau:imbuement_water_essence")
+	
 	event.custom({
 		type: "lychee:item_inside",
 		contextual: [
@@ -2608,6 +2643,166 @@ ServerEvents.recipes(event => {
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
 
+	event.shaped("naturesaura:blast_furnace_booster",
+		[
+			"FBF",
+			"AXT",
+			"SGS"
+		],
+		{
+			F: "ars_nouveau:fire_essence",
+			B: "blast_furnace",
+			A: "naturesaura:token_anger",
+			X: "kubejs:basic_magic_machine",
+			T: "naturesaura:token_sorrow",
+			S: "#forge:plates/stone",
+			G: "#forge:gears/infused_iron"
+		}
+	).id("naturesaura:blast_furnace_booster")
+
+	event.shaped("naturesaura:firework_generator",
+		[
+			"BTB",
+			"PMP",
+			"BTB"
+		],
+		{
+			B: "naturesaura:infused_stone",
+			T: "naturesaura:token_terror",
+			M: "kubejs:aura_generator_block",
+			P: "firework_rocket"
+		}
+	).id("naturesaura:firework_generator")
+
+	event.shaped("naturesaura:projectile_generator",
+		[
+			"BTB",
+			"PMP",
+			"BTB"
+		],
+		{
+			B: "naturesaura:infused_stone",
+			T: "naturesaura:token_anger",
+			M: "kubejs:aura_generator_block",
+			P: "archers_paradox:lightning_arrow"
+		}
+	).id("naturesaura:projectile_generator")
+
+	event.shaped("naturesaura:chorus_generator",
+		[
+			"BTB",
+			"PMP",
+			"BTB"
+		],
+		{
+			B: "end_stone",
+			T: "naturesaura:token_rage",
+			M: "kubejs:aura_generator_block",
+			P: "chorus_flower"
+		}
+	).id("naturesaura:chorus_generator")
+
+	event.shaped("naturesaura:potion_generator",
+		[
+			"BTB",
+			"PMP",
+			"BTB"
+		],
+		{
+			B: "nether_bricks",
+			T: "naturesaura:token_fear",
+			M: "kubejs:aura_generator_block",
+			P: "blaze_rod"
+		}
+	).id("naturesaura:potion_generator")
+
+	event.shaped("naturesaura:animal_generator",
+		[
+			"BTB",
+			"PMP",
+			"BTB"
+		],
+		{
+			B: "nether_bricks",
+			T: "naturesaura:token_sorrow",
+			M: "kubejs:aura_generator_block",
+			P: "forbidden_arcanus:soul"
+		}
+	).id("naturesaura:animal_generator")
+
+	event.shaped("naturesaura:slime_split_generator",
+		[
+			"BPB",
+			"BMB",
+			"BTB"
+		],
+		{
+			B: "slime_block",
+			M: "kubejs:aura_generator_block",
+			P: "naturesaura:token_joy",
+			T: "naturesaura:token_sorrow"
+		}
+	).id("naturesaura:slime_split_generator")
+
+	event.shaped("naturesaura:flower_generator",
+		[
+			"BTB",
+			"PMP",
+			"BTB"
+		],
+		{
+			B: "wizards_reborn:bunch_of_things",
+			P: "peony",
+			M: "kubejs:aura_generator_block",
+			T: "naturesaura:token_joy"
+		}
+	).id("naturesaura:flower_generator")
+
+	event.shaped("naturesaura:moss_generator",
+		[
+			"BTB",
+			"PMP",
+			"BTB"
+		],
+		{
+			B: "mossy_cobblestone",
+			P: "moss_block",
+			M: "kubejs:aura_generator_block",
+			T: "naturesaura:token_joy"
+		}
+	).id("naturesaura:moss_generator")
+
+	event.shaped("naturesaura:furnace_heater",
+		[
+			"FTF",
+			"PMP",
+			"SSS"
+		],
+		{
+			S: "naturesaura:infused_stone",
+			P: "#forge:plates/tainted_gold",
+			M: "kubejs:basic_magic_machine",
+			F: "ars_nouveau:fire_essence",
+			T: "naturesaura:token_fear"
+		}
+	)
+
+	event.shaped("naturesaura:crushing_catalyst",
+		[
+			"PSP",
+			"GMG",
+			"PTP"
+		],
+		{
+			P:"#forge:plates/ironwood",
+			S:"create:millstone",
+			M:"kubejs:basic_magic_machine",
+			G:"#forge:gears/arcanum_alloy",
+			T:"naturesaura:token_anger"
+
+		}
+	)
+
 	event.shaped("ars_nouveau:relay",
 		[
 			"GPG",
@@ -2622,7 +2817,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("ars_nouveau:relay")
 
-	event.shaped('ars_nouveau:basic_spell_turret',["R"],{R:"kubejs:recipe_changed"}).id('ars_nouveau:basic_spell_turret')
 
 	event.shaped('ars_nouveau:basic_spell_turret',
 			[
@@ -2641,7 +2835,6 @@ ServerEvents.recipes(event => {
 	
 	event.remove({id:'ars_nouveau:rotating_turret_to_basic_spell_turret'})
 		
-	event.shaped('ars_nouveau:rotating_spell_turret',["R"],{R:"kubejs:recipe_changed"}).id('ars_nouveau:rotating_spell_turret')
 
 	event.shaped('ars_nouveau:rotating_spell_turret',
 			[
@@ -2655,7 +2848,6 @@ ServerEvents.recipes(event => {
 			}
 		)
 		
-	event.recipes.ars_nouveau.enchanting_apparatus("kubejs:recipe_changed","kubejs:recipe_changed",'ars_nouveau:spell_turret').id('ars_nouveau:spell_turret')
 
 	event.shaped('ars_nouveau:spell_turret',
 			[
@@ -2670,7 +2862,7 @@ ServerEvents.recipes(event => {
 			}
 		)
 		
-	event.recipes.ars_nouveau.enchanting_apparatus("kubejs:recipe_changed","kubejs:recipe_changed",'ars_nouveau:timer_spell_turret').id('ars_nouveau:timer_spell_turret')
+	
 
 	event.shaped('ars_nouveau:timer_spell_turret',
 			[
@@ -3483,6 +3675,21 @@ ServerEvents.recipes(event => {
 	
 	
 	///======================================== Tier 3 Machines =======================================================================
+	event.shaped("naturesaura:conversion_catalyst",
+		[
+			"PSP",
+			"GMG",
+			"PTP"
+		],
+		{
+			P:"#forge:plates/ironwood",
+			S:"#forge:gears/infused_iron",
+			M:"kubejs:magic_machine",
+			G:"kubejs:improved_alchemical_dust",
+			T:"naturesaura:token_sorrow"
+
+		}
+	)
 
 	event.shaped("mbd2:elemental_binder",
 		[
