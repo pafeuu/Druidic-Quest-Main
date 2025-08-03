@@ -1214,30 +1214,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "7530CBD7BB569B99"
-			rewards: [
-				{
-					count: 6
-					id: "6323852720D08943"
-					item: "thermal:copper_coin"
-					type: "item"
-				}
-				{
-					id: "434B3348BDD5A1C3"
-					item: "deep_aether:aether_coarse_dirt"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "362AEA9FD99A6E3D"
-				item: "ancient_aether:sakura_sapling"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "08A5D2F435646E34"
 			rewards: [
 				{

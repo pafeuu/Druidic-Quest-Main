@@ -2257,18 +2257,18 @@ Patch 0.3.2.1
 # Patch 2.3 Quality of Life
 
 ### Updated Mods:
-    -AStages
-    -CraftingTweaks
-    -e4mc
-    -EntityJS
-    -FluffyFur
-    -HopoBetterMineshaft
-    -IDAS
-    -SillyOddities
-    -TooManyRecipeViewers
-    -Balm
-    -ArsNouveau
-    -EveryCompat
+    -AStages ????
+    -CraftingTweaks 
+    -e4mc ????
+    -EntityJS 
+    -FluffyFur 
+    -HopoBetterMineshaft 
+    -IDAS 
+    -SillyOddities 
+    -TooManyRecipeViewers 
+    -Balm 
+    -ArsNouveau 
+    -EveryCompat 
     -FancyMenu
     -FTBLibrary
     -ImprovedMobs
@@ -2357,4 +2357,72 @@ Patch 0.3.2.1
     -Updated EffortlessBuilding
     -Fixed wood dupe bug from placeholder recipe
 
+# Patch 2.3.1
+
+### Removed Mods:
+    -e4mc
+    -Astages
+
+### New Textures:
+    -Penguing Totem
+    -Tiger Totem
+    -Leafcutter Ant Totem
+    -Crab Totem
+    -Roadrunner Totem
+    -Bear Totem
+    -Bunny Totem
+    -Frog Totem
+
+### Loot:
+    -Fixed jungle temple loottable
+
+### Fixes:
+    -Fixed Enchanting Book getting cleared out
+    -Fixed Backpacks and satchels not opening
     
+# Patch 2.3.1b
+
+### Other:
+    -Gold and Diamond Minotaur axes now correctly chop down trees
+    -Rubies, Glowstone, Quartz and Uranium no longer burn in lava
+    -Fixed screen offset while wearing an elytra type item
+    -Fixed plank recipe for axe
+    -Fixed plank recipe for mangrove,cherry and bamboo
+
+# Patch 2.4 Natures Aura Balancing
+
+### Recipes:
+    -Changed for Ancient Wood Rod
+    -Changed for Canopy Dimnisher
+    -Changed for Crushing Catalyst
+    -Changed for Transmutation Catalyst
+    -Changed for Item Grounder
+    -Changed for Extraneus Firestarter
+    -Changed for Swamp Homi
+    -Changed for Herbivorous Absorber
+    -Changed for Shooting Mark
+    -Changed for Firecracker Gaze
+    -Changed for Reaper of Ender Heights
+    -Changed for Offshoot Observer
+    -Changed for Lingering Absorber
+    -Changed for Disentagle of Mortals
+    -Changed for Armorer's Aid
+    -Added for elytra
+
+### Textures:
+    -Changed for Item Distributor
+
+### Quests:
+    -Fixed Sakura Sapling Quest
+
+### Other:
+    -Deleted outdated tips about ftb commands
+    -Vein Mining enchant can now only be applied to shovels, pickaxes, hoes and quark's pickarangs
+    -Vein Mining now works on following blocks:
+        -Rubinated Blackstone
+        -All Leaves
+        -Nether Wart Block
+        -Warped Wart Block
+        -Clay
+        -Gravel
+        -Amethyst Block

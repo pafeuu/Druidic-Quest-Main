@@ -23,5 +23,5 @@ minEnchantabilityPerLevel = 5
 #Enchantments that cannot be applied together with the enchantment.
 incompatibleEnchantments = []
 #Items that the enchantment can be applied on.
-itemsList = ["is:tool", "quark:pickarang", "quark:flamerang"]
+itemsList = ["is:hoe", "is:shovel", "is:pickaxe", "quark:pickarang", "quark:flamerang"]
 

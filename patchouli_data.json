@@ -17,7 +17,8 @@
         "naturesaura:creating/ancient_tree",
         "naturesaura:creating/slime_split_generator",
         "naturesaura:creating/on_generating",
-        "naturesaura:using/blast_furnace_booster"
+        "naturesaura:using/blast_furnace_booster",
+        "naturesaura:devices/item_distributor"
       ],
       "bookmarks": [],
       "completedManualQuests": []
@@ -26,6 +27,11 @@
       "viewedEntries": [
         "irons_spellbooks:spell_books/scrolls"
       ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [],
       "bookmarks": [],
       "completedManualQuests": []
     }
