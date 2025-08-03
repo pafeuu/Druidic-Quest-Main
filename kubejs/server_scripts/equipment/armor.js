@@ -343,4 +343,19 @@ ServerEvents.recipes(event => {
 
 	event.smithing("aether:phoenix_gloves","kubejs:phoenix_upgrade_smithing_template","umbral_skies:fiery_gloves","kubejs:phoenix_ingot").id("aether:crafting/armor/phoenix_gloves")
 	event.remove({output:"thermal:hazmat_fabric"})
+
+	event.shaped("elytra",
+		[
+			"MGM",
+			"MNM",
+			"A A"
+		],
+		{
+			M: "minecraft:phantom_membrane",
+			G: "immersiveengineering:glider",
+			N: "#forge:ingots/netherite",
+			A: "ars_nouveau:air_essence"
+		}
+	)
+	
 })
