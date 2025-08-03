@@ -29,6 +29,16 @@ ItemEvents.tooltip( tooltip => {
 
   tooltip.add("kubejs:sapphire",Text.gray("Texture by JuniDeerGirl"))
 
+  tooltip.add(["kubejs:bear_totem",
+               "kubejs:crab_totem",
+               "kubejs:frog_totem",
+               "kubejs:bunny_totem",
+               "kubejs:tiger_totem",
+               "kubejs:penguin_totem",
+               "kubejs:roadrunner_totem",
+               "kubejs:leafcutter_ant_totem"
+  ],Text.gray("Texture by Gyldanword"))
+
   tooltip.add(["kubejs:arcane_alloy_ingot",
                "kubejs:neptun_ingot",
                "kubejs:phoenix_ingot",
