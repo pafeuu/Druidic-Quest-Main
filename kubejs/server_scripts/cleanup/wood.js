@@ -207,9 +207,9 @@ ServerEvents.recipes(event =>{
 	CuttingLogs("minecraft:dark_oak_planks","minecraft:stripped_dark_oak_log")
 	CuttingLogs("minecraft:crimson_planks","minecraft:stripped_crimson_stem")
 	CuttingLogs("minecraft:warped_planks","minecraft:stripped_warped_stem")
-	CuttingLogs("mangrove_planks","stripped_mangrove_log")
-	CuttingLogs("cherry_planks","stripped_cherry_log")
-	CuttingLogs("bamboo_planks","stripped_bamboo_block")
+	CuttingLogs("minecraft:mangrove_planks","minecraft:stripped_mangrove_log")
+	CuttingLogs("minecraft:cherry_planks","minecraft:stripped_cherry_log")
+	CuttingLogs("minecraft:bamboo_planks","minecraft:stripped_bamboo_block")
 	//CuttingLogs("architects_palette:twisted_planks","architects_palette:stripped_twisted_log")
 	CuttingLogs("ancient_aether:highsproot_planks","ancient_aether:stripped_highsproot_log")
 	CuttingLogs("ancient_aether:sakura_planks","ancient_aether:stripped_sakura_log")
@@ -378,7 +378,7 @@ ServerEvents.recipes(event =>{
 	
 
 
-    SlabsAndStairs("minecraft","oak")
+    	SlabsAndStairs("minecraft","oak")
 		SlabsAndStairs("minecraft","spruce")
 		SlabsAndStairs("minecraft","birch")
 		SlabsAndStairs("minecraft","jungle")
