@@ -113,7 +113,7 @@
                 "function": "minecraft:set_count"
               }
             ],
-            "name": "kubejs:small_enchanting_rune",
+            "name": "enigmaticlegacy:mending_mixture",
             "weight": 5
           },
           {
@@ -132,17 +132,6 @@
           {
             "type": "minecraft:item",
             "name": "thermal:ruby"
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "function": "minecraft:enchant_with_levels",
-                "levels": 20,
-                "treasure": true
-              }
-            ],
-            "name": "minecraft:book"
           }
         ],
         "rolls": {

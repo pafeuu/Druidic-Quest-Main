@@ -5,14 +5,10 @@ LootJS.modifiers((event) => {
     ///==================================Enchanted Books==========================
 
     event.addLootTypeModifier([
-        LootType.ADVANCEMENT_ENTITY,
-        LootType.ADVANCEMENT_REWARD,
         LootType.CHEST,
-        LootType.ENTITY,
-        LootType.FISHING,
-        LootType.GIFT,
         LootType.PIGLIN_BARTER,
-        LootType.UNKNOWN]).replaceLoot("minecraft:enchanted_book","kubejs:enchanting_rune")
+        LootType.FISHING
+        ]).replaceLoot("minecraft:enchanted_book","kubejs:enchanting_rune")
 
     ///=======================================Replacing Junk
 
