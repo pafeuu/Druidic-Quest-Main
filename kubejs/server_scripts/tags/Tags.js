@@ -353,6 +353,8 @@ ServerEvents.tags('item', event => {
   event.add("forge:storage_blocks/sapphire","kubejs:sapphire_block")
 
   event.add("minecraft:axes","#forge:tools/axes")
+  event.add("minecraft:axes","twilightforest:gold_minotaur_axe")
+  event.add("minecraft:axes","twilightforest:diamond_minotaur_axe")
   event.add("minecraft:pickaxes","#forge:tools/pickaxes")
   event.add("minecraft:swords","#forge:tools/swords")
   event.add("minecraft:shovels","#forge:tools/shovels")
