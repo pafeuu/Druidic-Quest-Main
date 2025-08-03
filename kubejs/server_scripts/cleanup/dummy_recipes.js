@@ -73,5 +73,6 @@ ServerEvents.recipes(event=>{
     event.recipes.ars_nouveau.enchanting_apparatus(['kubejs:recipe_changed'],'kubejs:recipe_changed',"kubejs:recipe_changed").id("ars_nouveau:whirlisprig_charm")
     event.recipes.ars_nouveau.enchanting_apparatus(['kubejs:recipe_changed'],'kubejs:recipe_changed',"kubejs:recipe_changed").id("ars_nouveau:drygmy_charm")
     event.recipes.ars_nouveau.enchanting_apparatus(['kubejs:recipe_changed'],'kubejs:recipe_changed',"kubejs:recipe_changed").id("ars_nouveau:wixie_charm")
+    event.recipes.ars_nouveau.enchanting_apparatus(['kubejs:recipe_changed'],'kubejs:recipe_changed',"kubejs:recipe_changed").id("ars_nouveau:magebloom_crop")
     
 })

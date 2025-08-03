@@ -178,6 +178,12 @@ ItemEvents.modification(event => {
       
     })
 
+    event.modify('wizards_reborn:innocent_wood_'+id, item=>{
+      item.digSpeed = 5,
+      item.maxDamage = 256
+      
+    })
+
     event.modify("immersiveengineering:"+id+"_steel"+id, item=>{
       item.digSpeed = 7.5,
       item.maxDamage = -1

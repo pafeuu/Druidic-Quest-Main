@@ -2247,20 +2247,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("kubejs:aura_generator_block")
 
-	event.shaped(
-		Item.of('forbidden_arcanus:golden_orchid_seeds'), 
-		[
-		  'BBB',
-		  'BFB', 
-		  'BBB' 
-		],
-		{
-		  F: "forbidden_arcanus:yellow_orchid",
-		  B: "forbidden_arcanus:deorum_block",
-		}
-	  ).id("forbidden_arcanus:golden_orchid_seeds")
-
-	
 
 	event.recipes.naturesaura.altar("aether:zanite_gemstone","diamond",7500,40)
 	event.recipes.naturesaura.altar("deep_aether:skyjade","emerald",7500,40)

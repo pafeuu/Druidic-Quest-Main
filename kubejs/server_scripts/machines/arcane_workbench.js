@@ -551,5 +551,32 @@ ServerEvents.recipes(event=>{
     "wissen": 2000
     }).id("craftingstation:crafting_station")
 
+    const woodtools = ["hoe","axe","shovel","pickaxe"]
 
+    woodtools.forEach(id => {
+        event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "PPP",
+        "PXP",
+        "PPP",
+        "SSSS"
+    ],
+    "key": {
+        "P": {
+        "item": "wizards_reborn:innocent_wood_planks"
+        },
+        "S": {
+        "item": "wizards_reborn:innocent_wood_branch"
+        },
+        "X":{
+        "item": "wizards_reborn:arcane_wood_"+id  
+        }
+    },
+    "output": {
+        "item": "wizards_reborn:innocent_wood_"+id
+    },
+    "wissen": 500
+    })
+    });
 })

@@ -2391,6 +2391,12 @@ Patch 0.3.2.1
 
 # Patch 2.4 Natures Aura Balancing
 
+### New Mods:
+    -FindMe
+    
+### Updated Mods:
+    -ArmorSetBonuses
+
 ### Recipes:
     -Changed for Ancient Wood Rod
     -Changed for Canopy Dimnisher
@@ -2407,13 +2413,28 @@ Patch 0.3.2.1
     -Changed for Lingering Absorber
     -Changed for Disentagle of Mortals
     -Changed for Armorer's Aid
-    -Added for elytra
+    -Changed for Magebloom Seed
+    -Changed for Arcane Linen Seeds
+    -Changed for Arcanum Seeds
+    -Changed for Golden Orchid Seeds
+    -Changed for Arcane Wood Sapling
+    -Changed for Innocent Wood Sapling
+    -Added for Cork Bamboo Seed
+    -Added for Elytra
+    -Added for Chorus Flower
+    -Added for Innocent Wood Axe
+    -Added for Innocent Wood Pickaxe
+    -Added for Innocent Wood Shovel
+    -Added for Innocent Wood Hoe
 
 ### Textures:
     -Changed for Item Distributor
 
 ### Quests:
     -Fixed Sakura Sapling Quest
+
+### Villagers:
+    -Lowered price for heart of diamond
 
 ### Other:
     -Deleted outdated tips about ftb commands
