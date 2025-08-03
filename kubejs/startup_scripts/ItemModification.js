@@ -27,7 +27,30 @@ ItemEvents.modification(event => {
     "immersiveengineering:armor_faraday",
     "thermal:beekeeper"]
 
+  let FireResistant = ["rubinated_nether:ruby",
+    "rubinated_nether:ruby_shard",
+    "rubinated_nether:molten_ruby",
+    "rubinated_nether:molten_ruby_nugget",
+    "rubinated_nether:molten_ruby_ore",
+    "rubinated_nether:nether_ruby_ore",
+    "rubinated_nether:rubinated_blackstone",
+    "thermal:ruby",
+    "thermal:ruby_block",
+    "minecraft:glowstone",
+    "minecraft:glowstone_dust",
+    "immersiveengineering:ore_uranium",
+    "immersiveengineering:raw_uranium",
+    "minecraft:nether_quartz_ore",
+    "minecraft:quartz"
+  ]
+
   //let NatureDurabilityBuffs = ['infused_iron','sky','depth']
+  
+  FireResistant.forEach(id => {
+    event.modify(id, item=>{
+      item.fireResistant = true
+    })
+  });
 
   stacking16.forEach((id)=>{
 
