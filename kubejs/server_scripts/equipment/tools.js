@@ -1055,6 +1055,24 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Tools ============================================================================
 	
+	const CoppperToolsUpgrade = ["pickaxe","hoe","shovel"]
+
+	CoppperToolsUpgrade.forEach(type => {
+
+		event.shaped("kubejs:bronze_"+type,
+			[
+				" P ",
+				"PXP",
+				" P "
+			],
+			{
+				P: "#forge:plates/bronze",
+				X: "kubejs:copper_"+type
+			}
+		)
+		
+	});
+	
 	event.shaped("thermal:fluid_reservoir",
 		[
 			"CRC",
