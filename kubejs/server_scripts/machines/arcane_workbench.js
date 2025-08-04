@@ -579,4 +579,32 @@ ServerEvents.recipes(event=>{
     "wissen": 500
     })
     });
+
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "LCL",
+        "LML",
+        "L L",
+        "EEEE"
+    ],
+    "key": {
+        "L": {
+        "item": "wizards_reborn:arcane_wood_log"
+        },
+        "E": {
+        "item": "forbidden_arcanus:xpetrified_orb"
+        },
+        "C":{
+        "item": "crafting_table"   
+        },
+        "M":{
+        "item": "kubejs:basic_magic_machine"    
+        }
+    },
+    "output": {
+        "item": "kubejs:the_terraformer"
+    },
+    "wissen": 1000
+    })
 })
