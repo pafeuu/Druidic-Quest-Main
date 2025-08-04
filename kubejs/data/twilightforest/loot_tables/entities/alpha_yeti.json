@@ -9,11 +9,7 @@
           "functions": [
             {
               "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 11.0,
-                "min": 6.0
-              },
+              "count": 6.0,
               "function": "minecraft:set_count"
             },
             {
@@ -25,7 +21,7 @@
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "twilightforest:naga_scale"
+          "name": "twilightforest:alpha_yeti_fur"
         }
       ],
       "rolls": 1.0
@@ -38,23 +34,19 @@
           "functions": [
             {
               "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 9.0,
-                "min": 3.0
-              },
+              "count": 6.0,
               "function": "minecraft:set_count"
             },
             {
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
+                "max": 1.0,
                 "min": 0.0
               },
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "kubejs:infused_iron_nugget"
+          "name": "twilightforest:ice_bomb"
         }
       ],
       "rolls": 1.0
@@ -64,17 +56,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "twilightforest:naga_trophy"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:botanist_upgrade_smithing_template"
+          "name": "twilightforest:alpha_yeti_trophy"
         }
       ],
       "rolls": 1.0
@@ -94,21 +76,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "endrem:rogue_eye"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:enchanting_rune_of_nature"
+          "name": "kubejs:enchanting_rune_of_ice"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:entities/naga"
+  "random_sequence": "twilightforest:entities/alpha_yeti"
 }

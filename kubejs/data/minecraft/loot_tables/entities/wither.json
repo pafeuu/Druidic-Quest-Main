@@ -9,6 +9,26 @@
           "name": "minecraft:netherite_upgrade_smithing_template"
         }
       ]  
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:big_enchanting_rune_of_horror"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:nether_key"
+        }
+      ],
+      "rolls": 1.0
     } 
   ]
 }

@@ -34,8 +34,8 @@
             {
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 3.0,
+                "min": 2.0
               },
               "function": "minecraft:looting_enchant"
             }
@@ -95,6 +95,26 @@
         {
           "type": "minecraft:item",
           "name": "twilightforest:diamond_minotaur_axe"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:enchanting_rune_of_speed"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:twilight_key"
         }
       ],
       "rolls": 1.0
