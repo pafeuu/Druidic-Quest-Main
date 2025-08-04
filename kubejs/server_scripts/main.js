@@ -324,13 +324,14 @@ ServerEvents.recipes(event => {
 	event.custom({
 		  type: "lychee:item_exploding",
 		  post: [
-			{type: "drop_item", item: "naturesaura:gold_fiber", "count": 3}
+			{type: "drop_item", item: "naturesaura:gold_fiber", "count": 4}
 		  ],
 		  item_in: [
 			{item: "minecraft:string",},
 			{item: "minecraft:string",},
 			{item: "minecraft:wheat_seeds",},
 			{item: "minecraft:wheat_seeds",},
+			{tag: "forge:flowers/golden",},
 			{tag: "forge:flowers/golden",},
 			{tag: "forge:flowers/golden",},
 			{tag: "forge:flowers/golden",}
@@ -696,7 +697,13 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ======================================================================= Tier 1 components =======================================================================
+	
+	
+	event.remove({id:"forbidden_arcanus:smelting/arcane_crystal_dust_from_smelting"})
+	event.remove({id:"forbidden_arcanus:blasting/arcane_crystal_dust_from_blasting"})
+	event.remove({id:"forbidden_arcanus:clibano_combustion/arcane_crystal_dust_from_clibano_combusting"})
 
+	event.shaped("end_stone",[" C ","CSC"," C "],{C:"vintagedelight:cheese_curds",S:"stone"})
 	event.shaped("naturesaura:ancient_stick",[" P","P "],{P:"naturesaura:ancient_slab"}).id("naturesaura:ancient_stick")
 
 	event.shapeless("craftingstation:crafting_station_slab","craftingstation:crafting_station").id("craftingstation:crafting_station_slab")
@@ -1034,7 +1041,7 @@ ServerEvents.recipes(event => {
 		 post: [
 		   {
 			 type: "drop_item",
-			 item: "wizards_reborn:arcanum"
+			 item: "forbidden_arcanus:arcane_crystal"
 		   },
 		   {
 			   type: "execute",
@@ -1060,37 +1067,6 @@ ServerEvents.recipes(event => {
 		   }
 		 ]
    })
-
-   event.custom({
-	type: "lychee:lightning_channeling",
-	 post: [
-	   {
-		 type: "drop_item",
-		 item: "create:brass_ingot",
-		 "count": 2
-
-	   },
-	   {
-		   type: "execute",
-		   command: "playsound irons_spellbooks:lightning_lance_cast neutral @p",
-		   hide: "true"
-	   }
-	 ],
-	 item_in: [
-	   {
-		 tag: "forge:ingots/zinc",
-	   },
-	   {
-		tag: "forge:ingots/zinc",
-	  },
-	  {
-		tag: "forge:ingots/copper",
-	  },
-	  {
-		tag: "forge:ingots/copper",
-	  }
-	 ]
-})
 	
 	event.shaped(
 		Item.of('2x kubejs:sapling_ball'), 
@@ -1339,6 +1315,20 @@ ServerEvents.recipes(event => {
 	)
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
+	event.shaped("2x naturesaura:field_creator",
+		[
+			"GAG",
+			"GMG",
+			"GTG"
+		],
+		{
+			G: "#forge:glass",
+			M: "kubejs:basic_magic_machine",
+			T: "naturesaura:token_anger",
+			A: "#forge:storage_blocks/arcanum"
+		}
+	).id("naturesaura:field_creator")
+	
 	event.shaped("naturesaura:item_distributor",
 		[
 			"CCC",
@@ -3155,7 +3145,7 @@ ServerEvents.recipes(event => {
 			"reagent": [
 			  {item: "kubejs:basic_magic_machine"}
 			],
-			"sourceCost": 0
+			"sourceCost": 5000
 		  }
 	)
 	
