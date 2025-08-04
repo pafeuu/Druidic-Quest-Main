@@ -191,5 +191,29 @@ ServerEvents.recipes(event=>{
           ],
           "cherry_sapling"
      ).id("wizards_reborn:crystal_infusion/innocent_wood_sapling")
-     
+
+     tree_ritual("4x thermal:bronze_ingot",
+          [
+               "#forge:ingots/tin",
+               "#forge:ingots/tin",
+               "#forge:ingots/copper",
+               "#forge:ingots/copper",
+               "#forge:ingots/copper",
+               "#forge:ingots/copper",
+               "#forge:ingots/copper",
+               "#forge:ingots/copper"
+          ],
+          "jungle_sapling"
+     )
+
+     tree_ritual("2x create:brass_ingot",
+          [
+               "#forge:ingots/zinc",
+               "#forge:ingots/zinc",
+               "#forge:ingots/copper",
+               "#forge:ingots/copper"
+          ],
+          "jungle_sapling"
+     )
+
 })
