@@ -6,4 +6,77 @@ ServerEvents.recipes(e => {
  e.recipes.farmersdelight.cooking(["minecraft:carrot","#forge:dusts/gold"],"minecraft:golden_carrot",10,30).id("minecraft:golden_carrot")
  e.recipes.farmersdelight.cooking(["minecraft:golden_apple","naturesaura:tainted_gold_block","fruitsdelight:apple_jelly","minecraft:enchanted_book","vintagedelight:ghost_pepper","vintagedelight:nut_mash_mason_jar"],"minecraft:enchanted_golden_apple",10,30).id("forbidden_arcanus:enchanted_golden_apple") 
 
+ e.custom(
+    {
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+        "type": "l2library:potion",
+        "potion": "minecraft:water"
+        },
+        {
+        "item": "minecraft:sugar"
+        },
+        {
+        "item": "fruitsdelight:lemon_slice"
+        },
+        {
+        "item": "fruitsdelight:lemon_slice"
+        },
+        {
+        "item": "fruitsdelight:lemon_slice"
+        },
+        {
+        "item": "fruitsdelight:lemon_slice"
+        },
+        {
+        "item": "fruitsdelight:lemon_slice"
+        },
+        {
+        "item": "fruitsdelight:lemon_slice"
+        }
+    ],
+    "result": {
+        "item": "fruitsdelight:lemon_juice"
+    }
+ }
+ )
+
+ e.custom(
+    {
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+        "type": "l2library:potion",
+        "potion": "minecraft:water"
+        },
+        {
+        "item": "minecraft:sugar"
+        },
+        {
+        "item": "fruitsdelight:orange_slice"
+        },
+        {
+        "item": "fruitsdelight:orange_slice"
+        },
+        {
+        "item": "fruitsdelight:orange_slice"
+        },
+        {
+        "item": "fruitsdelight:orange_slice"
+        },
+        {
+        "item": "fruitsdelight:orange_slice"
+        },
+        {
+        "item": "fruitsdelight:orange_slice"
+        }
+    ],
+    "result": {
+        "item": "fruitsdelight:orange_juice"
+    }
+ }
+ )
 })
