@@ -482,6 +482,35 @@ ServerEvents.recipes(event =>{
 	SlabsAndStairs("wizards_reborn","cork_bamboo_chiseled")
 
 
+	function CraftingTable(woodtype)
+	{
+		event.shapeless("biomeswevegone:"+woodtype+"_crafting_table",["crafting_table","biomeswevegone:"+woodtype+"_planks"]).id("biomeswevegone:"+woodtype+"_crafting_table")
+	}
+
+	CraftingTable("baobab")
+	CraftingTable("blue_enchanted")
+	CraftingTable("green_enchanted")
+	CraftingTable("florus")
+	CraftingTable("cika")
+	CraftingTable("cypress")
+	CraftingTable("ebony")
+	CraftingTable("fir")
+	CraftingTable("holly")
+	CraftingTable("ironwood")
+	CraftingTable("jacaranda")
+	CraftingTable("mahogany")
+	CraftingTable("maple")
+	CraftingTable("palm")
+	CraftingTable("pine")
+	CraftingTable("rainbow_eucalyptus")
+	CraftingTable("redwood")
+	CraftingTable("sakura")
+	CraftingTable("skyris")
+	CraftingTable("white_mangrove")
+	CraftingTable("willow")
+	CraftingTable("witch_hazel")
+	CraftingTable("zelkova")
+
 	///F&A fixes
 
 	event.shaped("forbidden_arcanus:fungyss_fence_gate",
