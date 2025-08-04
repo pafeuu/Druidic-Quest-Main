@@ -23,7 +23,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.repairIngredient = '#forge:ingots/copper'
   })
 
-  event.add('copper', tier => {
+  event.add('bronze', tier => {
     tier.uses = 1536
     tier.speed = 5.0
     tier.attackDamageBonus = 2

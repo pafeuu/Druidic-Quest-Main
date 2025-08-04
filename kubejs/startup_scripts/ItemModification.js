@@ -88,7 +88,8 @@ ItemEvents.modification(event => {
   })
 
   event.modify('deep_aether:skyjade_sword', item=>{
-    item.maxDamage = 1024
+    item.maxDamage = 1024,
+    item.attackDamage = 4
   })
 
   event.modify('aether:zanite_sword', item=>{

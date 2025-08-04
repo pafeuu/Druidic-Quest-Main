@@ -114,6 +114,8 @@ ServerEvents.recipes(event => {
     MillingWithExtras(2, 'naturesaura:gold_powder', 4, 2, 'naturesaura:gold_powder', 0.5, 'naturesaura:gold_leaf', 2, 'naturesaura:gold_powder')
     event.remove({id:"naturesaura:altar/gold_powder"})
 
+    MillingWithExtras(1,"forbidden_arcanus:arcane_crystal_dust",2,1,"forbidden_arcanus:arcane_crystal_dust",0.5,"forbidden_arcanus:arcane_crystal",4,"forbidden_arcanus:arcane_crystal_dust")
+
 
     MillingNoExtras(9, 'bone_meal', 'bone_block', 6,'minecraft:bone_meal_from_bone_block')
     MillingNoExtras(1, 'thermal:ender_pearl_dust', 'ender_pearl', 2,'thermal:earth_charge/ender_pearl_dust_from_ender_pearl')
