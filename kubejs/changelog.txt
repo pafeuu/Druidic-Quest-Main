@@ -2393,9 +2393,14 @@ Patch 0.3.2.1
 
 ### New Mods:
     -FindMe
-    
+
 ### Updated Mods:
     -ArmorSetBonuses
+
+### New Items:
+    -Bronze Shovel
+    -Bronze Pickaxe
+    -Bronze Hoe
 
 ### Recipes:
     -Changed for Ancient Wood Rod
@@ -2419,6 +2424,11 @@ Patch 0.3.2.1
     -Changed for Golden Orchid Seeds
     -Changed for Arcane Wood Sapling
     -Changed for Innocent Wood Sapling
+    -Changed for Brass Ingot
+    -Changed for Brilliant Fiber
+    -Changed for Arcane Crystal Dust
+    -Changed for Aura Field Creator
+    -Changed for Arcane Cassete
     -Added for Cork Bamboo Seed
     -Added for Elytra
     -Added for Chorus Flower
@@ -2426,9 +2436,27 @@ Patch 0.3.2.1
     -Added for Innocent Wood Pickaxe
     -Added for Innocent Wood Shovel
     -Added for Innocent Wood Hoe
+    -Added for Bronze Ingot
+    -Added for End Stone
+    -Added for Lemon Juice
+    -Added for Orange Juice
+    -Natural Altar recipe now requires 5k source
+    -Crystal Specks and Quartz now craft Arcane Crystal instead of Arcanum
+
+### Loot:
+    -Naga now drops an Enchanting Rune of Nature
+    -Lich now drops an Enchanting Rune of Mana
+    -Hydra now drops an Enchanting Rune of Fire and The Twilight Key
+    -Minoshroom now drops an Enchanting Rune of Speed and The Twilight Key
+    -Wither now drops a Big Enchanting Rune of Horror and The Nether Key
+    -Alpha Yeti now drops Enchanting Rune of Ice and The Twilight Key
 
 ### Textures:
     -Changed for Item Distributor
+    -Changed for Aura Field Creator
+
+### Item Balance:
+    -Lowered the dmg of Skyjade sword
 
 ### Quests:
     -Fixed Sakura Sapling Quest
@@ -2438,6 +2466,9 @@ Patch 0.3.2.1
 
 ### Other:
     -Deleted outdated tips about ftb commands
+    -Added Emi info on how to obtain Supplementaries music disc
+    -Added Emi info on how to obtain Ancient Sentrite music disc
+
     -Vein Mining enchant can now only be applied to shovels, pickaxes, hoes and quark's pickarangs
     -Vein Mining now works on following blocks:
         -Rubinated Blackstone
@@ -2447,3 +2478,4 @@ Patch 0.3.2.1
         -Clay
         -Gravel
         -Amethyst Block
+    -Added a few new tips (By Gyldanword)

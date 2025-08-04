@@ -1,33 +1,33 @@
-[18:08:52] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[18:08:52] [INIT] Loaded plugins:
-[18:08:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[18:08:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[18:08:52] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[18:08:52] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
-[18:08:52] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[18:08:52] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[18:08:52] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[18:08:52] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[18:08:52] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
-[18:08:52] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
-[18:08:52] [INIT] - com.falaut.KubeJSNaturesAuraPlugin
-[18:08:52] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
-[18:08:52] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[18:08:52] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
-[18:08:52] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[18:08:52] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[18:08:52] [INIT] - com.almostreliable.morejs.Plugin
-[18:08:52] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
-[18:08:52] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[18:08:52] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[18:08:52] [INIT] - com.probejs.ProbeJSPlugin
-[18:08:52] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
-[18:08:52] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
-[18:08:52] [ERROR] ! Hiding.js#1: ReferenceError: "RecipeViewerEvents" is not defined.
-[18:08:52] [INFO] Loaded script client_scripts:Jei.js in 0.0 s
-[18:08:52] [INFO] Loaded script client_scripts:NameChange.js in 0.0 s
-[18:08:52] [INFO] Loaded script client_scripts:ponder.js in 0.012 s
-[18:08:52] [INFO] Loaded script client_scripts:REI_Group.js in 0.0 s
-[18:08:52] [INFO] Loaded script client_scripts:Tooltips.js in 0.007 s
-[18:08:52] [INFO] Loaded 5/6 KubeJS client scripts in 0.147 s with 0 errors and 0 warnings
-[18:09:17] [INFO] Client resource reload complete!
+[07:24:04] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[07:24:04] [INIT] Loaded plugins:
+[07:24:04] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[07:24:04] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[07:24:04] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[07:24:04] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
+[07:24:04] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[07:24:04] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[07:24:04] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[07:24:04] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[07:24:04] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[07:24:04] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
+[07:24:04] [INIT] - com.falaut.KubeJSNaturesAuraPlugin
+[07:24:04] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[07:24:04] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[07:24:04] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
+[07:24:04] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[07:24:04] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[07:24:04] [INIT] - com.almostreliable.morejs.Plugin
+[07:24:04] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
+[07:24:04] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[07:24:04] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[07:24:04] [INIT] - com.probejs.ProbeJSPlugin
+[07:24:04] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[07:24:04] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[07:24:04] [ERROR] ! Hiding.js#1: ReferenceError: "RecipeViewerEvents" is not defined.
+[07:24:04] [INFO] Loaded script client_scripts:Jei.js in 0.004 s
+[07:24:04] [INFO] Loaded script client_scripts:NameChange.js in 0.003 s
+[07:24:04] [INFO] Loaded script client_scripts:ponder.js in 0.014 s
+[07:24:04] [INFO] Loaded script client_scripts:REI_Group.js in 0.0 s
+[07:24:04] [INFO] Loaded script client_scripts:Tooltips.js in 0.063 s
+[07:24:04] [INFO] Loaded 5/6 KubeJS client scripts in 0.222 s with 0 errors and 0 warnings
+[07:24:31] [INFO] Client resource reload complete!

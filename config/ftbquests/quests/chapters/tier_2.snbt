@@ -1291,7 +1291,7 @@
 		}
 		{
 			dependencies: ["67D119691018BD6C"]
-			description: ["Place on top of a blasting furnace for a 45% chance to double the output from raw ores!"]
+			description: ["Place the &2Armorer's Aid&r on top of a blast furnace for a 45% chance to double the output from raw ores!"]
 			id: "0CA987424784F703"
 			rewards: [{
 				count: 4
@@ -1310,7 +1310,7 @@
 		}
 		{
 			dependencies: ["67D119691018BD6C"]
-			description: ["&a&lAura Generator Block&r&r is component of every block that creates aura except for the first two"]
+			description: ["The &2Aura Generator BLock&r is a necessary component of higher-teir Aura generation."]
 			id: "189E5234B18E0B30"
 			rewards: [{
 				count: 2
@@ -1318,7 +1318,7 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
-			subtitle: "Better Aura Generator Component"
+			subtitle: "Better Aura Generators"
 			tasks: [{
 				id: "74BBDEA21FA9A1BF"
 				item: "kubejs:aura_generator_block"

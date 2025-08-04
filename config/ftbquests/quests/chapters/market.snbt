@@ -1301,6 +1301,7 @@
 				item: "minecraft:budding_amethyst"
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "1 Netherite Coin"
 			tasks: [{
 				id: "4E820316F88B140E"

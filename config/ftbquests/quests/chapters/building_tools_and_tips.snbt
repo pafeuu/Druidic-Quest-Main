@@ -47,6 +47,7 @@
 		}
 		{
 			dependencies: ["6F5C7CA9C74F13E9"]
+			description: ["Seriously... You're missing out if you don't!"]
 			icon: "effortlessbuilding:muscles"
 			id: "17A9893D5FDD3F5B"
 			rewards: [{
@@ -148,7 +149,7 @@
 		{
 			dependencies: ["6F5C7CA9C74F13E9"]
 			description: [
-				"The schematicannon is already an extremely usefull tool in the Create arsenal, but... did you know it has a \"hidden\" trait?"
+				"The schematicannon is already an extremely useful tool in the Create arsenal, but... did you know it has a \"hidden\" trait?"
 				""
 				"Blocks placed by this machine do not cause adjacent blocks to update, giving you mountains of possibilites like:"
 				""

@@ -12,7 +12,7 @@
 	quests: [
 		{
 			dependencies: ["0628C1A97EB1A5DB"]
-			description: ["&7Andesite Alloy&r is a critical material used in the crafting of automation materials and machines. You'll definitely want to stock up!"]
+			description: ["&7Andesite Alloy&r is a unique material used in the crafting of automation materials and machines. You'll definitely want to stock up!"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "7199B6B476F453BB"
@@ -132,7 +132,7 @@
 				"3DDF1CBFC865F991"
 				"6E30DFF0F2B9B811"
 			]
-			description: ["The storage controller and storage tool will give you even more control of your Sophisticated Storages. Use the Storage Lectern from Ars Nouveau to gain access to all connected storages at once!"]
+			description: ["The storage controller and storage tool will give you even more control of your Sophisticated Storages. Use the Storage Lectern from Ars Nouveau to gain access to all connected inventories at once!"]
 			icon: "sophisticatedstorage:controller"
 			id: "06F09790C8570FA7"
 			rewards: [{
@@ -232,7 +232,7 @@
 				"35BF841735837D97"
 				"3A94BCF22852A627"
 			]
-			description: ["You are going to need 27 brick blocks which would cost you 216 bricks"]
+			description: ["You are going to need 27 brick blocks which will cost you 216 bricks in total."]
 			id: "6EC46F530F70BFBF"
 			rewards: [{
 				count: 3
@@ -304,7 +304,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: 4.5d
 		}
 		{

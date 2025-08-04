@@ -114,7 +114,7 @@
 		{
 			dependencies: ["2C7DD9A9CEA857D0"]
 			description: [
-				"Grind a bit of &6gold dust&r."
+				"Grind a bit of &6gold dust&r. Grind a lot, if you have the energy to crank a few millstones at once!"
 				""
 				"&o&7Note that watermills no longer generate stress units, though they will still power blocks like belts and weighted ejectors.&r&r"
 			]
@@ -1026,6 +1026,7 @@
 				}
 				type: "item"
 			}]
+			shape: "pentagon"
 			size: 1.25d
 			subtitle: "Location is everything!"
 			tasks: [{
@@ -1445,7 +1446,7 @@
 		}
 		{
 			dependencies: ["44B9FE4B80D14F6F"]
-			description: ["&5&lCrafting Station&r&r can pull items from inventories adjacent to all 6 sides. "]
+			description: ["The &5&lCrafting Station&r&r can pull items from inventories adjacent to all 6 of its sides!"]
 			id: "2A75073D74CD0574"
 			rewards: [{
 				id: "3D612EB671829C22"
@@ -1495,8 +1496,14 @@
 		}
 		{
 			dependencies: ["2C7DD9A9CEA857D0"]
+			description: [
+				"Ever wished you could control those pesky giant oak trees in your tree farm?"
+				"Now you can!"
+				""
+				"The &6Canopy Diminisher&r converts excess growth energy from tall oak trees into Aura, replenishing the surrounding area while preventing the oaks from growing too tall."
+			]
 			id: "5B1A108E8E4B3DBF"
-			subtitle: "More reliable aura generator"
+			subtitle: "More Reliable Aura Generation"
 			tasks: [{
 				id: "0D008B8344F3BC49"
 				item: "naturesaura:oak_generator"
