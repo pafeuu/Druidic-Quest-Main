@@ -1,0 +1,19 @@
+{
+  "priority": 1,
+  "source_overrides": {
+    "wizards_reborn:arcane_magic":{"arcane_damage":1.0},
+    "wizards_reborn:ritual":{"true_damage":1.0},
+    "farmersdelight:stove_burn":{"fire_damage":1.0},
+    "quark:pickarang":{"physical_damage":1.0},
+    "attributeslib:current_hp_damage":{"arcane_damage":1.0},
+    "attributeslib:fire_damage":{"fire_damage":1.0},
+    "attributeslib:cold_damage":{"ice_damage":1.0},
+    "attributeslib:bleeding":{"true_damage":1.0},
+    "supplementaries:bamboo_spikes": {"alchemical_damage":0.80,"physical_damage":0.20},
+    "thermal:basalz_projectile": {"alchemical_damage":0.5,"fire_damage":0.5},
+    "thermal:blizz_projectile":{"ice_damage":1.0},
+    "thermal:blitz_projectile":{"true_damage": 0.25, "arcane_damage": 0.25, "fire_damage": 0.50},
+    "supplementaries:player_bomb_explosion": {"fire_damage": 0.50, "physical_damage": 0.50},
+    "supplementaries:bomb_explosion": {"fire_damage": 0.50, "physical_damage": 0.50}
+  }
+}

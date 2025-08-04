@@ -2429,6 +2429,7 @@ Patch 0.3.2.1
     -Changed for Arcane Crystal Dust
     -Changed for Aura Field Creator
     -Changed for Arcane Cassete
+    -Changed for every bwg crafting table
     -Added for Cork Bamboo Seed
     -Added for Elytra
     -Added for Chorus Flower
@@ -2479,3 +2480,6 @@ Patch 0.3.2.1
         -Gravel
         -Amethyst Block
     -Added a few new tips (By Gyldanword)
+    -Elevator Pulley and Sticky Pistons dont need any stress(Requires server config reset)
+    -Fixed doubled damaged on mobs
+    -Twilight Forest damage types now deal correct elemental damage

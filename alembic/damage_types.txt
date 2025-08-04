@@ -1,0 +1,301 @@
+### Alembic Damage Types ###
+alembic:alchemical_damage
+alembic:arcane_damage
+alembic:physical_damage
+alembic:fire_damage
+alembic:holy_damage
+alembic:ice_damage
+alembic:true_damage
+
+
+
+
+
+
+### Vanilla Damage Types ###
+minecraft:
+  -  minecraft:cramming
+  -  minecraft:trident
+    - alembic:physical_damage -> 0.75
+    - alembic:arcane_damage -> 0.25
+  -  minecraft:sting
+    - alembic:alchemical_damage -> 0.8
+    - alembic:physical_damage -> 0.2
+  -  minecraft:thrown
+    - alembic:physical_damage -> 1.0
+  -  minecraft:bad_respawn_point
+  -  minecraft:generic_kill
+  -  minecraft:arrow
+    - alembic:physical_damage -> 1.0
+  -  minecraft:sweet_berry_bush
+  -  minecraft:out_of_world
+    - alembic:true_damage -> 1.0
+  -  minecraft:drown
+    - alembic:true_damage -> 1.0
+  -  minecraft:dry_out
+  -  minecraft:explosion
+    - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 0.5
+  -  minecraft:generic
+  -  minecraft:indirect_magic
+  -  minecraft:lava
+  -  minecraft:unattributed_fireball
+  -  minecraft:stalagmite
+  -  minecraft:mob_attack
+    - alembic:physical_damage -> 1.0
+  -  minecraft:freeze
+    - alembic:ice_damage -> 1.0
+  -  minecraft:starve
+  -  minecraft:fireworks
+    - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 0.5
+  -  minecraft:falling_anvil
+  -  minecraft:in_wall
+  -  minecraft:thorns
+    - alembic:arcane_damage -> 1.0
+  -  minecraft:mob_projectile
+  -  minecraft:hot_floor
+  -  minecraft:player_attack
+    - alembic:physical_damage -> 1.0
+  -  minecraft:sonic_boom
+    - alembic:physical_damage -> 0.5
+    - alembic:arcane_damage -> 0.5
+  -  minecraft:mob_attack_no_aggro
+    - alembic:physical_damage -> 1.0
+  -  minecraft:fireball
+    - alembic:fire_damage -> 0.7
+    - alembic:physical_damage -> 0.3
+  -  minecraft:player_explosion
+    - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 0.5
+  -  minecraft:falling_stalactite
+  -  minecraft:dragon_breath
+    - alembic:true_damage -> 0.5
+    - alembic:arcane_damage -> 0.5
+  -  minecraft:fly_into_wall
+  -  minecraft:wither
+    - alembic:true_damage -> 0.5
+    - alembic:arcane_damage -> 0.5
+  -  minecraft:falling_block
+  -  minecraft:outside_border
+  -  minecraft:wither_skull
+    - alembic:true_damage -> 0.1
+    - alembic:physical_damage -> 0.3
+    - alembic:arcane_damage -> 0.6
+  -  minecraft:on_fire
+    - alembic:fire_damage -> 1.0
+  -  minecraft:in_fire
+    - alembic:fire_damage -> 1.0
+  -  minecraft:magic
+    - alembic:arcane_damage -> 1.0
+  -  minecraft:cactus
+    - alembic:alchemical_damage -> 0.8
+    - alembic:physical_damage -> 0.2
+  -  minecraft:fall
+    - alembic:true_damage -> 1.0
+  -  minecraft:lightning_bolt
+    - alembic:fire_damage -> 0.5
+    - alembic:true_damage -> 0.25
+    - alembic:arcane_damage -> 0.25
+attributeslib:
+  -  attributeslib:detonation
+    - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 0.5
+  -  attributeslib:bleeding
+    - alembic:true_damage -> 1.0
+  -  attributeslib:fire_damage
+    - alembic:fire_damage -> 1.0
+  -  attributeslib:current_hp_damage
+  -  attributeslib:cold_damage
+    - alembic:ice_damage -> 1.0
+irons_spellbooks:
+  -  irons_spellbooks:heartstop
+  -  irons_spellbooks:poison_cloud
+  -  irons_spellbooks:evocation_magic
+    - alembic:arcane_damage -> 1.0
+  -  irons_spellbooks:blood_magic
+    - alembic:true_damage -> 1.0
+  -  irons_spellbooks:dragon_breath_pool
+  -  irons_spellbooks:ender_magic
+    - alembic:true_damage -> 0.5
+    - alembic:arcane_damage -> 0.5
+  -  irons_spellbooks:holy_magic
+    - alembic:holy_damage -> 1.0
+  -  irons_spellbooks:blood_cauldron
+  -  irons_spellbooks:fire_field
+  -  irons_spellbooks:nature_magic
+    - alembic:alchemical_damage -> 1.0
+  -  irons_spellbooks:ice_magic
+    - alembic:ice_damage -> 1.0
+  -  irons_spellbooks:fire_magic
+    - alembic:fire_damage -> 1.0
+  -  irons_spellbooks:lightning_magic
+    - alembic:fire_damage -> 0.5
+    - alembic:true_damage -> 0.25
+    - alembic:arcane_damage -> 0.25
+  -  irons_spellbooks:eldritch_magic
+    - alembic:true_damage -> 0.5
+    - alembic:arcane_damage -> 0.5
+wizards_reborn:
+  -  wizards_reborn:arcane_magic
+  -  wizards_reborn:ritual
+farmersdelight:
+  -  farmersdelight:stove_burn
+alembic:
+  -  alembic:guardian_beam
+    - alembic:arcane_damage -> 1.0
+  -  alembic:allergy
+    - alembic:alchemical_damage -> 1.0
+  -  alembic:soul_fire
+    - alembic:fire_damage -> 0.5
+    - alembic:arcane_damage -> 0.5
+  -  alembic:alchemical
+    - alembic:alchemical_damage -> 1.0
+  -  alembic:evoker_fangs
+    - alembic:physical_damage -> 0.5
+    - alembic:arcane_damage -> 0.5
+bookshelf:
+  -  bookshelf:fake_player
+enigmaticlegacy:
+  -  enigmaticlegacy:darkness
+  -  enigmaticlegacy:nemesis_curse
+cofh_core:
+  -  cofh_core:knife
+immersiveengineering:
+  -  immersiveengineering:revolver_wolfpack
+  -  immersiveengineering:revolver_buckshot_turret
+  -  immersiveengineering:sawblade
+  -  immersiveengineering:revolver_homing_turret
+  -  immersiveengineering:acid
+  -  immersiveengineering:revolver_wolfpack_turret
+  -  immersiveengineering:revolver_armorpiercing
+  -  immersiveengineering:revolver_casull
+  -  immersiveengineering:revolver_dragonsbreath
+  -  immersiveengineering:sawblade_turret
+  -  immersiveengineering:crushed
+  -  immersiveengineering:revolver_casull_turret
+  -  immersiveengineering:tesla
+  -  immersiveengineering:revolver_silver
+  -  immersiveengineering:revolver_buckshot
+  -  immersiveengineering:tesla_primary
+  -  immersiveengineering:revolver_potion
+  -  immersiveengineering:razor_wire
+  -  immersiveengineering:razor_shock
+  -  immersiveengineering:revolver_armorpiercing_turret
+  -  immersiveengineering:revolver_potion_turret
+  -  immersiveengineering:railgun
+  -  immersiveengineering:revolver_silver_turret
+  -  immersiveengineering:revolver_dragonsbreath_turret
+  -  immersiveengineering:wire_shock
+  -  immersiveengineering:sawmill
+  -  immersiveengineering:revolver_homing
+  -  immersiveengineering:railgun_turret
+alexsmobs:
+  -  alexsmobs:freddy
+  -  alexsmobs:farseer
+amendments:
+  -  amendments:boiling
+deeperdarker:
+  -  deeperdarker:ring
+  -  deeperdarker:bite
+aether:
+  -  aether:inebriation
+  -  aether:ice_crystal
+  -  aether:floating_block
+  -  aether:incineration
+  -  aether:thunder_crystal
+  -  aether:armor_piercing_attack
+  -  aether:cloud_crystal
+  -  aether:crush
+  -  aether:fire_crystal
+biomeswevegone:
+  -  biomeswevegone:cattail_explosion
+  -  biomeswevegone:in_quicksand
+forbidden_arcanus:
+  -  forbidden_arcanus:extract_soul
+ars_nouveau:
+  -  ars_nouveau:windshear
+  -  ars_nouveau:frost
+  -  ars_nouveau:flare
+  -  ars_nouveau:spell
+  -  ars_nouveau:crush
+aether_redux:
+  -  aether_redux:spear
+  -  aether_redux:blight
+  -  aether_redux:ember
+  -  aether_redux:swet_absorption
+  -  aether_redux:zanberry_bush
+  -  aether_redux:corrupted_vines
+thermal:
+  -  thermal:basalz_projectile
+    - alembic:fire_damage -> 0.5
+    - alembic:alchemical_damage -> 0.5
+  -  thermal:blitz_projectile
+    - alembic:fire_damage -> 0.5
+    - alembic:true_damage -> 0.25
+    - alembic:arcane_damage -> 0.25
+  -  thermal:blizz_projectile
+    - alembic:ice_damage -> 1.0
+create:
+  -  create:fan_fire
+  -  create:mechanical_drill
+  -  create:potato_cannon
+  -  create:cuckoo_surprise
+  -  create:fan_lava
+  -  create:mechanical_roller
+  -  create:run_over
+  -  create:mechanical_saw
+  -  create:crush
+twilightforest:
+  -  twilightforest:hydra_mortar
+  -  twilightforest:falling_ice
+  -  twilightforest:slam
+  -  twilightforest:frozen
+  -  twilightforest:lich_bolt
+  -  twilightforest:chilling_breath
+  -  twilightforest:lich_bomb
+  -  twilightforest:twilight_scepter
+  -  twilightforest:lost_words
+  -  twilightforest:acid_rain
+  -  twilightforest:clamped
+  -  twilightforest:scorched
+  -  twilightforest:fire_jet
+  -  twilightforest:lifedrain
+  -  twilightforest:fiery
+  -  twilightforest:leaf_brain
+  -  twilightforest:spiked
+  -  twilightforest:slider
+  -  twilightforest:thorns
+  -  twilightforest:squish
+  -  twilightforest:ghast_tear
+  -  twilightforest:axing
+  -  twilightforest:hydra_bite
+  -  twilightforest:haunt
+  -  twilightforest:yeeted
+  -  twilightforest:ant
+  -  twilightforest:thrown_block
+  -  twilightforest:snowball_fight
+  -  twilightforest:moonworm
+  -  twilightforest:thrown_pickaxe
+  -  twilightforest:expired
+  -  twilightforest:reactor
+  -  twilightforest:schooled
+  -  twilightforest:thrown_axe
+  -  twilightforest:knightmetal
+  -  twilightforest:hydra_fire
+supplementaries:
+  -  supplementaries:player_bomb_explosion
+    - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 0.5
+  -  supplementaries:xp_extracting
+  -  supplementaries:bamboo_spikes
+    - alembic:alchemical_damage -> 0.8
+    - alembic:physical_damage -> 0.2
+  -  supplementaries:cannonball
+  -  supplementaries:slingshot
+  -  supplementaries:player_cannonball
+  -  supplementaries:bomb_explosion
+    - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 0.5
+quark:
+  -  quark:pickarang

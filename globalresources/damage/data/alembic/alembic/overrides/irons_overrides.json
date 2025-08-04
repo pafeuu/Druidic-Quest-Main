@@ -1,0 +1,19 @@
+{
+  "priority": 1,
+  "source_overrides": {
+    "irons_spellbooks:lightning_magic":{"true_damage": 0.25, "arcane_damage": 0.25, "fire_damage": 0.50},
+    "irons_spellbooks:nature_magic":{"alchemical_damage":1.0},
+    "irons_spellbooks:fire_magic":{"fire_damage":1.0},
+    "irons_spellbooks:ice_magic":{"ice_damage":1.0},
+    "irons_spellbooks:ender_magic":{"true_damage":0.5,"arcane_damage":0.5},
+    "irons_spellbooks:blood_magic":{"true_damage":1.0},
+    "irons_spellbooks:holy_magic":{"holy_damage":1.0},
+    "irons_spellbooks:evocation_magic":{"arcane_damage":1.0},
+    "irons_spellbooks:eldritch_magic":{"arcane_damage":0.5,"true_damage":0.5},
+    "irons_spellbooks:heartstop":{"true_damage":1.0},
+    "irons_spellbooks:poison_cloud":{"alchemical_damage":0.8,"arcane_damage":0.2},
+    "irons_spellbooks:dragon_breath_pool":{"true_damage":0.5,"arcane_damage":0.5},
+    "irons_spellbooks:blood_cauldron":{"true_damage":1.0},
+    "irons_spellbooks:fire_field":{"fire_damage":1.0}
+  }
+}
