@@ -1,138 +1,80 @@
-[10:01:49] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[10:01:49] [INIT] Loaded plugins:
-[10:01:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[10:01:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[10:01:49] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[10:01:49] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
-[10:01:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[10:01:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[10:01:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[10:01:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[10:01:49] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
-[10:01:49] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
-[10:01:49] [INIT] - com.falaut.KubeJSNaturesAuraPlugin
-[10:01:49] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
-[10:01:49] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[10:01:49] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
-[10:01:49] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[10:01:49] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[10:01:49] [INIT] - com.almostreliable.morejs.Plugin
-[10:01:49] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
-[10:01:49] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[10:01:49] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[10:01:49] [INIT] - com.probejs.ProbeJSPlugin
-[10:01:49] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
-[10:01:49] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
-[10:01:49] [INFO] Loaded script server_scripts:cleanup/cleanup.js in 0.001 s
-[10:01:49] [INFO] Loaded script server_scripts:cleanup/dummy_recipes.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:cleanup/SandpaperStripping.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:cleanup/wood.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:cleanup/WoodCutting.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:cleanup/WoodCuttingAxe.js in 0.001 s
-[10:01:49] [INFO] Loaded script server_scripts:enchanting/ApparatusEnchanting.js in 0.001 s
-[10:01:49] [INFO] Loaded script server_scripts:enchanting/EnchantingMaterials.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:enchanting/EnchantingRecipesRemoval.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:entities.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:equipment/accessories.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:equipment/armor.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:equipment/tools.js in 0.003 s
-[10:01:49] [INFO] Loaded script server_scripts:equipment/toolUsage/blazing_sword_fish.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:equipment/toolUsage/firestarter_tnt_lightning.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:equipment/toolUsage/hoes.js in 0.001 s
-[10:01:49] [INFO] Loaded script server_scripts:equipment/toolUsage/PrimitiveShears.js in 0.002 s
-[10:01:49] [INFO] Loaded script server_scripts:Food.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:loot.js in 0.001 s
-[10:01:49] [INFO] Loaded script server_scripts:machines/apparatus.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:machines/arcane_iterator.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:machines/arcane_workbench.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:machines/arcanum_pylon.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:machines/cutting_board.js in 0.001 s
-[10:01:49] [INFO] Loaded script server_scripts:machines/elemental_binder.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:machines/elemental_evaporator.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:machines/elemental_infuser.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:machines/imbuement_chamber.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:machines/mechanical_mixer.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:machines/wissen_altar.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:main.js in 0.004 s
-[10:01:49] [INFO] Loaded script server_scripts:mortarAndMilling.js in 0.001 s
-[10:01:49] [INFO] Loaded script server_scripts:multiblocks/animal_spawner.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:multiblocks/clibano_oven.js in 0.001 s
-[10:01:49] [INFO] Loaded script server_scripts:multiblocks/multiblock_crafting.js in 0.002 s
-[10:01:49] [INFO] Loaded script server_scripts:multiblocks/sacrificial_altar.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:multiblocks/sequence_assembly.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:multiblocks/tree_ritual.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:multiblocks/vine_generator.js in 0.001 s
-[10:01:49] [INFO] Loaded script server_scripts:PlayerEvents.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:spells.js in 0.001 s
-[10:01:49] [INFO] Loaded script server_scripts:tags/BiomeTags.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:tags/Tags.js in 0.001 s
-[10:01:49] [INFO] Loaded script server_scripts:test/BlockEvents.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:test/test.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:upgrades_storage.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:utility/EmiLootFix.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:utility/KeepInventory.js in 0.0 s
-[10:01:49] [INFO] Loaded script server_scripts:Villagers.js in 0.0 s
-[10:01:49] [INFO] Loaded 49/49 KubeJS server scripts in 0.052 s with 0 errors and 0 warnings
-[10:01:49] [INFO] Scripts loaded
-[10:01:49] [INFO] Initializing recipe event...
-[10:01:49] [INFO] [minecraft:worldgen/biome] Found 671 tags, added 112 objects, removed 0 objects
-[10:01:50] [INFO] [minecraft:block] Found 1138 tags, added 136 objects, removed 0 objects
-[10:01:50] [INFO] [minecraft:item] Found 2307 tags, added 1158 objects, removed 12 objects
-[10:01:52] [INFO] Processing recipes...
-[10:01:52] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_cherry[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:cherry_log\"}
-[10:01:52] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_jungle[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:jungle_log\",\"Properties\":{\"axis\":\"y\"}}
-[10:01:52] [WARN] Failed to parse recipe 'deeperdarker:resonarium_hoe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'aether_redux:genesis_dark_gummy_swet[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'deeperdarker:resonarium_sword_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'deeperdarker:resonarium_helmet_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_birch[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:birch_log\",\"Properties\":{\"axis\":\"y\"}}
-[10:01:52] [WARN] Failed to parse recipe 'vintageimprovements:craft/fiery_wire[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'vintageimprovements:craft/electrum_wire[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_oak[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:oak_log\"}
-[10:01:52] [WARN] Failed to parse recipe 'aether_treasure_reforging:valkyrie_upgrade_smithing_template[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'deeperdarker:resonarium_pickaxe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'deeperdarker:resonarium_leggings_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'vintageimprovements:craft/electrum_rod[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'aether_treasure_reforging:phoenix_upgrade_smithing_template[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'deeperdarker:resonarium_chestplate_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'deeperdarker:resonarium_shovel_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'deeperdarker:resonarium_axe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_dark_oak[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:dark_oak_log\",\"Properties\":{\"axis\":\"y\"}}
-[10:01:52] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_spruce[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:spruce_log\",\"Properties\":{\"axis\":\"y\"}}
-[10:01:52] [WARN] Failed to parse recipe 'lost_aether_content:gravitite_shield[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_rubberwood[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"thermal:rubberwood_log\",\"Properties\":{\"axis\":\"y\"}}
-[10:01:52] [WARN] Failed to parse recipe 'deeperdarker:resonarium_boots_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[10:01:52] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_acacia[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:acacia_log\",\"Properties\":{\"axis\":\"y\"}}
-[10:01:53] [WARN] Failed to parse recipe 'aether_treasure_reforging:neptune_upgrade_smithing_template[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[10:01:53] [INFO] Found 17565 recipes in 875.4 ms
-[10:01:53] [WARN] equipment/armor.js#189: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/armor.js#189: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/armor.js#189: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/armor.js#189: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2240: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2250: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2260: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2240: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2250: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2260: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2240: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2250: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2260: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2240: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2250: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2260: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2240: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2250: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [WARN] equipment/tools.js#2260: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[10:01:53] [INFO] Posted recipe events in 396.6 ms
-[10:01:53] [WARN] Error parsing recipe forbidden_arcanus:aurum_chest_boat[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"forbidden_arcanus:aurum_boat"},{"fabric_value":{"tag":"c:chests"},"forge_value":{"tag":"forge:chests/wooden"}}],"result":{"item":"forbidden_arcanus:aurum_chest_boat"}}: An ingredient entry needs either a tag or an item
-[10:01:53] [WARN] Error parsing recipe farmersrespite:chilidog_alt[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersrespite:blazing_chili"},{"item":"mynethersdelight:hotdog"},{"item":"mynethersdelight:hotdog"}],"result":{"count":2,"item":"mynethersdelight:chilidog"}}: Unknown item 'farmersrespite:blazing_chili'
-[10:01:53] [WARN] Error parsing recipe nethersdelight:cutting/hoglin_sausage_alt[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"nethersdelight:hoglin_loin"}],"result":[{"count":2,"item":"mynethersdelight:hoglin_sausage"}],"tool":{"tag":"forge:tools/knives"}}: Unknown item 'nethersdelight:hoglin_loin'
-[10:01:53] [WARN] Error parsing recipe alexsdelight:barbecue_on_a_stick[minecraft:crafting_shapeless]: {"group":"barbecue_stick","type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersdelight:tomato"},{"item":"farmersdelight:onion"},{"item":"amfd:singular_cooked_moose_rib"},{"item":"minecraft:cooked_chicken"},{"item":"minecraft:stick"},{"item":"minecraft:stick"}],"result":{"item":"farmersdelight:barbecue_stick","count":2}}: Unknown item 'amfd:singular_cooked_moose_rib'
-[10:01:53] [WARN] Error parsing recipe forbidden_arcanus:edelwood_chest_boat[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"forbidden_arcanus:edelwood_boat"},{"fabric_value":{"tag":"c:chests"},"forge_value":{"tag":"forge:chests/wooden"}}],"result":{"item":"forbidden_arcanus:edelwood_chest_boat"}}: An ingredient entry needs either a tag or an item
-[10:01:53] [WARN] Error parsing recipe minecraft:kjs/big_enchanting_rune[kubejs:shaped]: {"type":"minecraft:crafting_shaped","result":{"item":"kubejs:big_enchanting_rune","count":1},"pattern":["  ","  "],"key":{}}: Index 0 out of bounds for length 0
-[10:01:53] [WARN] Error parsing recipe twilightforest:equipment/fiery_ingot_crafting[immersiveengineering:alloy]: {"type":"immersiveengineering:alloy","input0":{"tag":"twilightforest:fiery_vial"},"input1":{"item":"kubejs:inert_alloy_ingot"},"result":{"base_ingredient":{"item":"twilightforest:fiery_ingot"},"count":1},"time":200}: Unknown item 'kubejs:inert_alloy_ingot'
-[10:01:53] [WARN] Error parsing recipe lychee:kjs/dpys0bkhjt0et0eh901v62gn0[lychee:item_inside]: {"type":"lychee:item_inside","hide_in_viewer":true,"contextual":{"type":"and","contextual":[{"type":"execute","command":"execute if block ~1 ~-1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~-1 ~1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~-1 ~-1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~1 ~-1 ~-2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~-1 ~-2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~-2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~1 ~-1 ~2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~-1 ~2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~2 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~2 ~-1 ~-1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~2 ~-1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~2 ~-1 ~1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-2 ~-1 ~-1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-2 ~-1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-2 ~-1 ~1 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~1 ~-1 ~1 thermal:ruby_block","hide":true},{"type":"execute","command":"execute if block ~1 ~-1 ~-1 thermal:ruby_block","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~1 thermal:ruby_block","hide":true},{"type":"execute","command":"execute if block ~-1 ~-1 ~-1 thermal:ruby_block","hide":true},{"type":"execute","command":"execute if block ~ ~2 ~3 kubejs:charged_copper_block","hide":true},{"type":"execute","command":"execute if block ~ ~2 ~-3 kubejs:charged_copper_block","hide":true},{"type":"execute","command":"execute if block ~3 ~2 ~ kubejs:charged_copper_block","hide":true},{"type":"execute","command":"execute if block ~-3 ~2 ~ kubejs:charged_copper_block","hide":true},{"type":"execute","command":"execute if block ~-3 ~ ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~-3 ~1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~3 ~ ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~3 ~1 ~ rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~ ~-3 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~1 ~-3 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~ ~3 rubinated_nether:altar_stone_tiles","hide":true},{"type":"execute","command":"execute if block ~ ~1 ~3 rubinated_nether:altar_stone_tiles","hide":true}]},"post":[{"type":"drop_item","count":1,"item":"thermal:sapphire"},{"type":"execute","command":"playsound minecraft:block.blastfurnace.fire_crackle neutral @p"},{"type":"execute","command":"fill ~3 ~2 ~3 ~-3 ~2 ~-3 minecraft:waxed_copper_block replace kubejs:charged_copper_block"},{"type":"execute","command":"fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 kubejs:depleted_ruby_block replace thermal:ruby_block"},{"type":"delay","s":5},{"type":"execute","command":"fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 thermal:ruby_block replace kubejs:depleted_ruby_block"}],"item_in":[{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:alchemical_dust"}],"block_in":"kubejs:infusing_altar"}: Unknown item 'kubejs:alchemical_dust'
-[10:01:53] [WARN] Error parsing recipe lychee:kjs/ebl6cbab2rhc4rtp6uc7plzvq[lychee:item_inside]: {"type":"lychee:item_inside","ghost":true,"comment":"Needs infusing altar multiblock to work. Check ponder by holding W while hovering over infusing altar for more info","item_in":[{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:sapphire"},{"item":"kubejs:alchemical_dust"}],"block_in":"kubejs:infusing_altar","post":[{"type":"drop_item","item":"thermal:sapphire","count":1}]}: Unknown item 'kubejs:alchemical_dust'
-[10:01:53] [INFO] Added 3158 recipes, removed 1338 recipes, modified 88 recipes, with 9 failed recipes in 456.4 ms
-[10:01:54] [INFO] Server resource reload complete!
+[22:42:47] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[22:42:47] [INIT] Loaded plugins:
+[22:42:47] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[22:42:47] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[22:42:47] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[22:42:47] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
+[22:42:47] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[22:42:47] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[22:42:47] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[22:42:47] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[22:42:47] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[22:42:47] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
+[22:42:47] [INIT] - com.falaut.KubeJSNaturesAuraPlugin
+[22:42:47] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[22:42:47] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[22:42:47] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
+[22:42:47] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[22:42:47] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[22:42:47] [INIT] - com.almostreliable.morejs.Plugin
+[22:42:47] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
+[22:42:47] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[22:42:47] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[22:42:47] [INIT] - com.probejs.ProbeJSPlugin
+[22:42:47] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[22:42:47] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[22:42:47] [INFO] Loaded script server_scripts:cleanup/cleanup.js in 0.004 s
+[22:42:47] [INFO] Loaded script server_scripts:cleanup/dummy_recipes.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:cleanup/SandpaperStripping.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:cleanup/wood.js in 0.003 s
+[22:42:47] [INFO] Loaded script server_scripts:cleanup/WoodCutting.js in 0.003 s
+[22:42:47] [INFO] Loaded script server_scripts:cleanup/WoodCuttingAxe.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:enchanting/ApparatusEnchanting.js in 0.004 s
+[22:42:47] [INFO] Loaded script server_scripts:enchanting/EnchantingMaterials.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:enchanting/EnchantingRecipesRemoval.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:entities.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:equipment/accessories.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:equipment/armor.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:equipment/tools.js in 0.004 s
+[22:42:47] [INFO] Loaded script server_scripts:equipment/toolUsage/blazing_sword_fish.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:equipment/toolUsage/firestarter_tnt_lightning.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:equipment/toolUsage/hoes.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:equipment/toolUsage/PrimitiveShears.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:Food.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:loot.js in 0.004 s
+[22:42:47] [INFO] Loaded script server_scripts:machines/apparatus.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:machines/arcane_iterator.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:machines/arcane_workbench.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:machines/arcanum_pylon.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:machines/cutting_board.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:machines/elemental_binder.js in 0.002 s
+[22:42:47] [INFO] Loaded script server_scripts:machines/elemental_evaporator.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:machines/elemental_infuser.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:machines/imbuement_chamber.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:machines/mechanical_mixer.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:machines/wissen_altar.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:main.js in 0.005 s
+[22:42:47] [INFO] Loaded script server_scripts:mortarAndMilling.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:multiblocks/animal_spawner.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:multiblocks/clibano_oven.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:multiblocks/kiln.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:multiblocks/multiblock_crafting.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:multiblocks/sacrificial_altar.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:multiblocks/sequence_assembly.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:multiblocks/tree_ritual.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:multiblocks/vine_generator.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:PlayerEvents.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:spells.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:tags/BiomeTags.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:tags/Tags.js in 0.002 s
+[22:42:47] [INFO] Loaded script server_scripts:test/BlockEvents.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:test/test.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:upgrades_storage.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:utility/EmiLootFix.js in 0.0 s
+[22:42:47] [INFO] Loaded script server_scripts:utility/KeepInventory.js in 0.001 s
+[22:42:47] [INFO] Loaded script server_scripts:Villagers.js in 0.002 s
+[22:42:47] [INFO] Loaded 50/50 KubeJS server scripts in 0.089 s with 0 errors and 0 warnings
+[22:42:47] [INFO] Scripts loaded
+[22:42:47] [INFO] Initializing recipe event...
+[22:42:49] [INFO] [minecraft:worldgen/biome] Found 671 tags, added 112 objects, removed 0 objects
+[22:42:49] [INFO] [minecraft:block] Found 1138 tags, added 136 objects, removed 0 objects

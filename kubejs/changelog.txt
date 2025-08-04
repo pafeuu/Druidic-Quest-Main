@@ -2391,6 +2391,9 @@ Patch 0.3.2.1
 
 # Patch 2.4 Natures Aura Balancing
 
+### Removed Mods:
+    -LegendaryCreatures
+
 ### New Mods:
     -FindMe
 
@@ -2483,3 +2486,17 @@ Patch 0.3.2.1
     -Elevator Pulley and Sticky Pistons dont need any stress(Requires server config reset)
     -Fixed doubled damaged on mobs
     -Twilight Forest damage types now deal correct elemental damage
+    -Max Fortune on Ars Break glyph is now 3
+
+# Patch 2.4.1
+
+### Recipes:
+    -Fixed Ancient Knight recipe in altar of birthing
+    -Buffed Arcane Gold Ingot Recipe
+    -Removed Aether's Piston recipe
+
+### Other:
+    -Players now respawn with half a hunger bar and weakness effect
+    -Removed tooltip from smart filter, recipe changed and unstable ivy quartz about reporting 
+    -Arcanemicon can now be merged with EccentricTome
+    -Disabled Fluffy Fur rain shader

@@ -11,9 +11,7 @@ var wood_TF_no_mangrove = ['canopy','twilight_oak','time','transformation','mini
 
 global.nukelist = ["twigs:calcite_wall",
     "twigs:tuff_wall",
-    "twigs:calcite_stairs",
-    "kubejs:recipe_changed",
-    "kubejs:unstable_ivy_quartz",
+    "twigs:calcite_stairs",,
     "aether:life_shard",
     "immersiveengineering:shield",
     "alexsmobs:shield_of_the_deep",
@@ -268,8 +266,7 @@ global.nukelist = ["twigs:calcite_wall",
 	'silly_oddities:polished_tuff',
 	'silly_oddities:polished_tuff_stairs',
 	"silly_oddities:tuff_wall",
-	"minecraft:enchanting_table",
-	'ftbfiltersystem:smart_filter'
+	"minecraft:enchanting_table"
 ]/*,
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',

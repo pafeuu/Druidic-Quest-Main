@@ -5,6 +5,8 @@ ServerEvents.tags('item', event => {
   event.removeAllTagsFrom([global.nukelist])
 
   event.add("c:hidden_from_recipe_viewers",[global.nukelist])
+
+  //event.add("c:hidden_from_recipe_viewers",["ftbfiltersystem:smart_filter","kubejs:recipe_changed","kubejs:unstable_ivy_quartz"])
   
 
   let seed = ["vintagedelight:oat_seeds",
