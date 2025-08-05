@@ -1,6 +1,6 @@
 var colors = ['red','blue','white','gray','light_gray','black','purple','magenta','yellow','green','lime','light_blue','blue','orange','pink','brown']
 
-var metals = ['tin','silver','lead','gold','iron','copper','nickel','zinc','aluminum']
+var ThermalMetals = ['tin','silver','lead','gold','iron','copper','nickel','aluminum']
 
 var alloys = ['bronze','enderium','brass','invar','rose_gold','constantan','signalum','lumium']
 
@@ -11,7 +11,7 @@ var wood_TF_no_mangrove = ['canopy','twilight_oak','time','transformation','mini
 
 global.nukelist = ["twigs:calcite_wall",
     "twigs:tuff_wall",
-    "twigs:calcite_stairs",,
+    "twigs:calcite_stairs",
     "aether:life_shard",
     "immersiveengineering:shield",
     "alexsmobs:shield_of_the_deep",
@@ -266,8 +266,20 @@ global.nukelist = ["twigs:calcite_wall",
 	'silly_oddities:polished_tuff',
 	'silly_oddities:polished_tuff_stairs',
 	"silly_oddities:tuff_wall",
-	"minecraft:enchanting_table"
-]/*,
+	"minecraft:enchanting_table",
+	'thermal:press_coin_die',
+	'thermal:iron_coin',
+	'thermal:tin_coin',
+	'thermal:lead_coin',
+	'thermal:nickel_coin',
+	'thermal:steel_coin',
+	'thermal:rose_gold_coin',
+	'thermal:bronze_coin',
+	'thermal:electrum_coin',
+	'thermal:invar_coin',
+	'thermal:constantan_coin',
+	'thermal:signalum_coin',
+	'thermal:lumium_coin']/*,
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',
 	'thermal:enderium_dust',
@@ -350,7 +362,8 @@ ServerEvents.recipes(event => {
 		"architects_palette:vslabs/gold_ore_brick_vertical_slab_revert",
 		"architects_palette:tuff_bricks",
 		"regions_unexplored:yellow_dye_from_tall_yellow_bioshroom"*/,
-		"minecraft:bamboo_mosaic_slab"
+		"minecraft:bamboo_mosaic_slab",
+		"ftbfiltersystem:smart_filter"		
 		]
 	
 	RemoveById.forEach(id => {
@@ -488,7 +501,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling('thermal:quartz_dust','#forge:gems/quartz')
 	event.recipes.create.milling("thermal:sulfur_dust","#forge:gems/sulfur")
 
-    metals.forEach(id => {
+    ThermalMetals.forEach(id => {
 		event.custom(
 			{
 			"type": "create:milling",
