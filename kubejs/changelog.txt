@@ -2504,6 +2504,17 @@ Patch 0.3.2.1
     -Changed for Mechanical Pump
     -Changed for Fluid Extractor
     -Changed for Fluid Pump
+    -Changed for Smart Observer
+    -Changed for Threshold Switch
+    -Changed for Smart Fluid Pipe
+    -Changed for Contraption Controls
+    -Changed for Display Boards
+    -Changed for Adjustable Chain Gearshift
+    -Changed for Sequenced Gearshift
+
+### Loottables:
+    -Increased the amount of blaze rods dropped from blazes
+    -Blaze rods no longer need player kills to drop
 
 ### Other:
     -Disabled Fluffy Fur Weather shader
@@ -2511,3 +2522,4 @@ Patch 0.3.2.1
     -Mobs with backpacks now always drop the backpack but without any loot in it(Needs server config reset)
     -Thermal xp crystal cant be put in a backpack(Needs server config reset)
     -Disabled unused coins stuff
+    -Sun spirit minions will no longer get buffs from difficulty

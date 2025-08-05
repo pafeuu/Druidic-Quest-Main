@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
 
     MillingWithExtras(1, 'create:wheat_flour', 2, 1, 'create:wheat_flour', 0.5, 'minecraft:wheat', 2, 'create:milling/wheat')
 
-    MillingWithExtras(2, 'naturesaura:gold_powder', 4, 2, 'naturesaura:gold_powder', 0.5, 'naturesaura:gold_leaf', 2, 'naturesaura:gold_powder')
+    MillingWithExtras(2, 'naturesaura:gold_powder', 4, 2, 'naturesaura:gold_powder', 0.5, 'naturesaura:gold_leaf', 1, 'naturesaura:gold_powder')
     event.remove({id:"naturesaura:altar/gold_powder"})
 
     MillingWithExtras(1,"forbidden_arcanus:arcane_crystal_dust",2,1,"forbidden_arcanus:arcane_crystal_dust",0.5,"forbidden_arcanus:arcane_crystal",4,"forbidden_arcanus:arcane_crystal_dust")
@@ -131,6 +131,7 @@ ServerEvents.recipes(event => {
 
 
     MillingMetal(1, 'kubejs:zinc_dust', 'create:zinc_ingot','kubejs:zinc_dust_from_zinc_ingot')
+    MillingMetal(1, 'kubejs:zinc_dust', "create:raw_zinc",'create:kjs/36lua76falkiruqwh3mhiqb3j')
     MillingMetal(1, 'thermal:nickel_dust', 'thermal:nickel_ingot','thermal:machines/pulverizer/pulverizer_nickel_ingot_to_dust')
     MillingMetal(1, 'thermal:lead_dust', 'thermal:lead_ingot','thermal:machines/pulverizer/pulverizer_lead_ingot_to_dust')
     MillingMetal(1, 'thermal:tin_dust', 'thermal:tin_ingot','thermal:machines/pulverizer/pulverizer_tin_ingot_to_dust')

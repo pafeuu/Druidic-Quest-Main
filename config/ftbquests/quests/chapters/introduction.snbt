@@ -903,15 +903,15 @@
 			id: "3795DEE8A3FE6814"
 			rewards: [
 				{
-					count: 3
-					id: "4B7A945651D92778"
-					item: "farmersdelight:kelp_roll_slice"
-					type: "item"
-				}
-				{
 					count: 8
 					id: "57CCBE6FF02D2390"
 					item: "naturesaura:gold_leaf"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5FD2403C0CAC2E6C"
+					item: "minecraft:bone_meal"
 					type: "item"
 				}
 			]
