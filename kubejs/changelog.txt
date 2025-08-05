@@ -2391,9 +2391,6 @@ Patch 0.3.2.1
 
 # Patch 2.4 Natures Aura Balancing
 
-### Removed Mods:
-    -LegendaryCreatures
-
 ### New Mods:
     -FindMe
 
@@ -2486,17 +2483,31 @@ Patch 0.3.2.1
     -Elevator Pulley and Sticky Pistons dont need any stress(Requires server config reset)
     -Fixed doubled damaged on mobs
     -Twilight Forest damage types now deal correct elemental damage
-    -Max Fortune on Ars Break glyph is now 3
 
 # Patch 2.4.1
 
+### New Mods:
+    -Cyanide
+
 ### Recipes:
-    -Fixed Ancient Knight recipe in altar of birthing
-    -Buffed Arcane Gold Ingot Recipe
-    -Removed Aether's Piston recipe
+    -Mortar now takes less damage when grinding golden leaves
+    -Fixed Fiery Ingot Recipe
+    -Changed for paper from bark
+    -Fixed Raw Zinc recipe in the millstone
+    -Buffed the output of Iron Fluid Pipe recipe
+    -Buffed the output of Copper Fluid Pipe recipe
+    -Buffed the altarnate Shaft recipe
+    -Changed for Wisestone Fluid Pipe
+    -Changed for Fluiduct
+    -Changed for Fluiduct(Windowed)
+    -Changed for Attachment:Servo
+    -Changed for Mechanical Pump
+    -Changed for Fluid Extractor
+    -Changed for Fluid Pump
 
 ### Other:
-    -Players now respawn with half a hunger bar and weakness effect
-    -Removed tooltip from smart filter, recipe changed and unstable ivy quartz about reporting 
+    -Disabled Fluffy Fur Weather shader
     -Arcanemicon can now be merged with EccentricTome
-    -Disabled Fluffy Fur rain shader
+    -Mobs with backpacks now always drop the backpack but without any loot in it(Needs server config reset)
+    -Thermal xp crystal cant be put in a backpack(Needs server config reset)
+    -Disabled unused coins stuff

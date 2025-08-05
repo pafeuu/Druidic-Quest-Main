@@ -23,7 +23,7 @@
 	#Shaders
 	[graphics.shaders]
 		#Enable Rain Fog effect post process shader.
-		rainFogShader = true
+		rainFogShader = false
 		#Intensity of Rain Fog effect post process shader.
 		#Range: 0.0 ~ 2.0
 		rainFogShaderIntensity = 0.3

@@ -62,7 +62,7 @@ ServerEvents.recipes((event)=>{
         "irons_spellbooks:uncommon_ink",
         "bone"],50000,60)
 
-    event.recipes.naturesaura.animal_spawner("irons_spellbooks:citadel_keeper",
+    event.recipes.naturesaura.animal_spawner("irons_spellbooks:ancient_knight",
         ["naturesaura:birth_spirit",
         "irons_spellbooks:arcane_essence",
         "irons_spellbooks:epic_ink",

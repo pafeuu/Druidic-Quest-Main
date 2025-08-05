@@ -168,7 +168,13 @@
 			id: "118A5A467C0FEA36"
 			rewards: [{
 				id: "0CC4895B4D1014D2"
-				item: "silly_oddities:rainbow_bundle"
+				item: {
+					Count: 1
+					id: "minecraft:bundle"
+					tag: {
+						enchant: 1b
+					}
+				}
 				type: "item"
 			}]
 			subtitle: "But are you in a condition to fight?"
@@ -751,25 +757,17 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "2CFFE963B01A7CBD"
-					item: {
-						Count: 1
-						id: "farmersdelight:flint_knife"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "2CFFE963B01A7CBD"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-				{
-					count: 3L
-					id: "213FF6EA083F52DC"
-					item: { Count: 3, id: "farmersdelight:straw" }
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			x: 5.5d
 			y: -2.0d
 		}

@@ -251,9 +251,9 @@ key_key.effortlessbuilding.undo.desc:key.keyboard.z:CONTROL
 key_key.effortlessbuilding.redo.desc:key.keyboard.y:CONTROL
 key_key.effortlessbuilding.previous_build_mode.desc:key.keyboard.unknown
 key_key.effortlessbuilding.disable_build_mode_toggle.desc:key.keyboard.unknown
+key_key.inventorysorter.itemin:key.mouse.100
 key_key.inventorysorter.sort:key.mouse.middle
 key_key.inventorysorter.itemout:key.mouse.102
-key_key.inventorysorter.itemin:key.mouse.100
 key_keybind.sophisticatedstorage.sort:key.mouse.middle
 key_dropoff.key.dump:key.keyboard.unknown
 key_dropoff.key.deposit:key.keyboard.unknown
@@ -331,14 +331,14 @@ key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown
 key_key.structurecredits.deactivate_key:key.keyboard.unknown
 key_key.structurecredits.show_again_key:key.keyboard.unknown
 key_key.structurecredits.dont_show_key:key.keyboard.unknown
-soundCategory_master:0.1357615894039735
+soundCategory_master:0.08112582781456953
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:0.2984044894366199
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
-soundCategory_player:1.0
+soundCategory_player:0.5105633802816901
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
 modelPart_cape:true
