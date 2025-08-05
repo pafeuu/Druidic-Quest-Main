@@ -372,6 +372,16 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 0 Components ========================================================================
 	
+	event.remove({id:"immersive_weathering:paper_from_birch_bark"})
+	event.shaped("paper",
+		[
+			"BBB"
+		],
+		{
+			B: "#immersive_weathering:bark"
+		}
+	).id("farmersdelight:paper_from_tree_bark")
+
 	event.custom({
 	"type": "lychee:block_interacting",
 	"post": [
@@ -708,11 +718,12 @@ ServerEvents.recipes(event => {
 
 	event.shapeless("craftingstation:crafting_station_slab","craftingstation:crafting_station").id("craftingstation:crafting_station_slab")
 	event.shapeless("6x wizards_reborn:flower_fertilizer",["4x thermal:compost","5x wizards_reborn:petals"]).id("wizards_reborn:shapeless/flower_fertilizer")
-	event.shaped("6x create:shaft",
+	
+	event.shaped("3x create:shaft",
 		[
-			"ARA",
-			"ARA",
-			"ARA"
+			"  A",
+			" R ",
+			"A  "
 		],
 		{
 			R: "#forge:rods/nickel",
@@ -733,7 +744,7 @@ ServerEvents.recipes(event => {
 		"landing_block": "kubejs:rotten_flesh_block"
 	})
 	
-	event.shaped('3x immersiveengineering:fluid_pipe',
+	event.shaped('4x immersiveengineering:fluid_pipe',
 		[
 			"III",
 			"SSS",
@@ -745,7 +756,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("immersiveengineering:crafting/fluid_pipe")
 
-	event.shaped('2x create:fluid_pipe',
+	event.shaped('3x create:fluid_pipe',
 		[
 			"III",
 			"SSS",
@@ -1316,6 +1327,137 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 	
+	event.shaped("create:content_observer",
+		[
+			" B ",
+			"BXB",
+			" Z "
+		],
+		{
+			B: "#forge:plates/brass",
+			X: "observer",
+			Z: "create:filter"
+		}
+	).id("create:crafting/logistics/content_observer")
+
+	event.shaped("create:stockpile_switch",
+		[
+			" B ",
+			"BXB",
+			" Z "
+		],
+		{
+			B: "#forge:plates/brass",
+			X: "comparator",
+			Z: "create:brass_casing"
+		}
+	).id("create:crafting/logistics/stockpile_switch")
+
+	event.shaped("create:smart_fluid_pipe",
+		[
+			" B ",
+			"BXB",
+			" Z "
+		],
+		{
+			B: "#forge:plates/brass",
+			X: "create:fluid_pipe",
+			Z: "create:filter"
+		}
+	).id("create:crafting/kinetics/smart_fluid_pipe")
+
+	event.shaped("create:adjustable_chain_gearshift",
+		[
+			" S ",
+			"BXB",
+			" Z "
+		],
+		{
+			B: "create:large_cogwheel",
+			S: "create:cogwheel",
+			X: "create:andesite_casing",
+			Z: "redstone_torch"
+		}
+	).id("create:crafting/kinetics/adjustable_chain_gearshift")
+
+	event.shaped("create:contraption_controls",["A","B","C"],
+		{
+			A:"#minecraft:buttons",
+			B:"kubejs:primitive_machine",
+			C:"create:andesite_casing"
+		}
+	).id("create:crafting/kinetics/contraption_controls")
+
+	event.shaped("2x create:display_board",["A","B","C"],
+		{
+			A:"create:belt_connector",
+			B:"#minecraft:signs",
+			C:"create:cogwheel"
+		}
+	).id("create:crafting/kinetics/display_board")
+
+	event.shaped("create:sequenced_gearshift",["A","B","C"],
+		{
+			A:"create:cogwheel",
+			B:"create:brass_casing",
+			C:"clock"
+		}
+	).id("create:crafting/kinetics/sequenced_gearshift")
+
+	event.shaped("2x create:mechanical_pump",["A","B","C"],
+		{
+			A: "supplementaries:faucet",
+			B: "create:fluid_pipe",
+			C: "create:cogwheel"
+		}
+	).id("create:crafting/kinetics/mechanical_pump")
+
+	event.shaped("wizards_reborn:fluid_extractor",["A","B","C"],
+		{
+			A: "supplementaries:faucet",
+			B: "wizards_reborn:fluid_pipe",
+			C: "redstone_torch"
+		}
+	).id("wizards_reborn:shapeless/fluid_extractor")
+
+	event.shaped("immersiveengineering:fluid_pump",["A","B","C"],
+		{
+			A: "supplementaries:faucet",
+			B: "immersiveengineering:fluid_pipe",
+			C: "redstone_torch"
+		}
+	).id("immersiveengineering:crafting/fluid_pump")
+
+	event.shaped("thermal:servo_attachment",
+		[
+			" C ",
+			"PFP",
+			" A "
+		],
+		{
+			A: "supplementaries:faucet",
+			F: "thermal:fluid_duct",
+			P: "#forge:plates/tin",
+			C: "redstone_torch"
+		}
+	).id("thermal:servo_attachment_2")
+
+	event.shapeless("wizards_reborn:fluid_pipe",["immersiveengineering:fluid_pipe","wizards_reborn:wisestone"]).id("wizards_reborn:arcane_workbench/fluid_pipe")
+
+	event.shaped("3x thermal:fluid_duct",
+		[
+			"BBB",
+			"SSS",
+			"BBB"
+		],
+		{
+			B: "#forge:plates/bronze",
+			S: "kubejs:pipe_sealant"
+		}
+	).id("thermal:fluid_duct_4")
+
+	event.shapeless("thermal:fluid_duct_windowed",["thermal:fluid_duct","#forge:glass"]).id("thermal:fluid_duct_windowed_4")
+
 	event.shaped("2x naturesaura:field_creator",
 		[
 			"GAG",
@@ -2188,7 +2330,6 @@ ServerEvents.recipes(event => {
 	event.shapeless('minecraft:dispenser', ['kubejs:primitive_machine','minecraft:bow'])
 	
 	event.remove('minecraft:piston')
-	event.remove({id:"aether:skyroot_piston"})
 	event.shapeless('minecraft:piston', ['kubejs:primitive_machine','create:piston_extension_pole'])
 	
 	event.replaceInput({id:"immersiveengineering:crafting/conveyor_basic"},"minecraft:redstone","kubejs:primitive_machine")
@@ -2242,54 +2383,6 @@ ServerEvents.recipes(event => {
 
 	event.recipes.naturesaura.altar("aether:zanite_gemstone","diamond",7500,40)
 	event.recipes.naturesaura.altar("deep_aether:skyjade","emerald",7500,40)
-
-	event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			base_ingredient: {
-				item: "ars_nouveau:source_gem"
-			},
-			count: 3
-		  },
-		  "input1": {
-			base_ingredient: {
-				tag: "forge:ingots/gold"
-			},
-			count: 2,
-		  },
-		   
-		  "result": {
-			"base_ingredient": {
-			  item: "kubejs:source_alloy_ingot"
-			},
-			"count": 2
-		  },
-		  "time": 800	
-	})
-
-	event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			base_ingredient: {
-				item: "wizards_reborn:arcanum"
-			},
-			count: 3
-		  },
-		  "input1": {
-			base_ingredient: {
-				tag: "forge:ingots/iron"
-			},
-			count: 2,
-		  },
-		   
-		  "result": {
-			"base_ingredient": {
-			  item: "kubejs:arcanum_alloy_ingot"
-			},
-			"count": 2
-		  },
-		  "time": 800	
-	})
 
 	event.recipes.ars_nouveau.enchanting_apparatus(
 		["kubejs:zinc_tool_handle","blaze_rod","#forge:storage_blocks/coal_coke","#forge:storage_blocks/coal_coke"],
@@ -3462,46 +3555,8 @@ ServerEvents.recipes(event => {
 	
 	
 	event.shapeless('9x create:andesite_alloy', ['create:andesite_alloy_block'])
-	event.remove({output:'create:andesite_alloy'})
-	event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			item: "kubejs:natural_clay_blend"
-		  },
-		  "input1": {
-			item: "minecraft:andesite"
-		  },
-		  "result": {
-			"base_ingredient": {
-			  item: "create:andesite_alloy"
-			},
-			"count": 2
-		  },
-		  "time": 200
-		
-	})
 
-	event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			item: "ars_nouveau:water_essence"
-		  },
-		  "input1": {
-			item: "kubejs:arcanum_alloy_ingot"
-		  },
-		  "result": {
-			"base_ingredient": {
-			  item: "kubejs:aquatic_ingot"
-			},
-			"count": 2
-		  },
-		  "time": 200
-	})
 
-	//event.remove({id:"wizards_reborn:blasting/arcane_gold_ingot"})
-	//event.remove({id:"wizards_reborn:smelting/arcane_gold_ingot"})
-
-	
 	
 	event.remove({output:'minecraft:cauldron'})
 	event.shaped(
