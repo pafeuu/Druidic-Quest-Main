@@ -120,4 +120,112 @@ ServerEvents.recipes(event=>{
 		  "time": 800	
 	})
 
+    event.custom({
+		type: "immersiveengineering:alloy",
+		  "input0": {
+			base_ingredient: {
+				item: "ars_nouveau:source_gem"
+			},
+			count: 3
+		  },
+		  "input1": {
+			base_ingredient: {
+				tag: "forge:ingots/gold"
+			},
+			count: 2,
+		  },
+		   
+		  "result": {
+			"base_ingredient": {
+			  item: "kubejs:source_alloy_ingot"
+			},
+			"count": 2
+		  },
+		  "time": 800	
+	})
+
+	event.custom({
+		type: "immersiveengineering:alloy",
+		  "input0": {
+			base_ingredient: {
+				item: "wizards_reborn:arcanum"
+			},
+			count: 3
+		  },
+		  "input1": {
+			base_ingredient: {
+				tag: "forge:ingots/iron"
+			},
+			count: 2,
+		  },
+		   
+		  "result": {
+			"base_ingredient": {
+			  item: "kubejs:arcanum_alloy_ingot"
+			},
+			"count": 2
+		  },
+		  "time": 800	
+	})
+
+    event.remove({output:'create:andesite_alloy'})
+	event.custom({
+		type: "immersiveengineering:alloy",
+		  "input0": {
+			item: "kubejs:natural_clay_blend"
+		  },
+		  "input1": {
+			item: "minecraft:andesite"
+		  },
+		  "result": {
+			"base_ingredient": {
+			  item: "create:andesite_alloy"
+			},
+			"count": 2
+		  },
+		  "time": 200
+		
+	})
+
+	event.custom({
+		type: "immersiveengineering:alloy",
+		  "input0": {
+			item: "ars_nouveau:water_essence"
+		  },
+		  "input1": {
+			item: "kubejs:arcanum_alloy_ingot"
+		  },
+		  "result": {
+			"base_ingredient": {
+			  item: "kubejs:aquatic_ingot"
+			},
+			"count": 2
+		  },
+		  "time": 200
+	})
+
+    event.custom({
+		type: "immersiveengineering:alloy",
+		  "input0": {
+			base_ingredient: {
+				tag: "twilightforest:fiery_vial"
+			},
+			count: 2
+		  },
+		  "input1": {
+			base_ingredient: {
+				item: "kubejs:arcanum_alloy_ingot"
+			},
+			count: 1,
+		  },
+		   
+		  "result": {
+			"base_ingredient": {
+			  item: "twilightforest:fiery_ingot"
+			},
+			"count": 1
+		  },
+		  "time": 800	
+	}).id("twilightforest:equipment/fiery_ingot_crafting")
+
 })
