@@ -6,7 +6,7 @@ ServerEvents.tags('item', event => {
 
   event.add("c:hidden_from_recipe_viewers",[global.nukelist])
 
-  //event.add("c:hidden_from_recipe_viewers",["ftbfiltersystem:smart_filter","kubejs:recipe_changed","kubejs:unstable_ivy_quartz"])
+  event.add("c:hidden_from_recipe_viewers",["kubejs:recipe_changed","ftbfiltersystem:smart_filter","kubejs:unstable_ivy_quartz"])
   
 
   let seed = ["vintagedelight:oat_seeds",
@@ -38,15 +38,29 @@ ServerEvents.tags('item', event => {
                  'create:piston_extension_pole', 'create:gantry_shaft', 'create:analog_lever', 'create:pulse_repeater', 'create:pulse_extender', 'create:powered_latch', 'create:powered_toggle_latch', 'create:track','supplementaries:hourglass', 'supplementaries:crank', 
                  'supplementaries:wind_vane', 'supplementaries:cog_block', 'supplementaries:turn_table', 'supplementaries:spring_launcher', 'supplementaries:faucet']*/
   
-  let froglights = ["minecraft:ochre_froglight","minecraft:verdant_froglight","minecraft:pearlescent_froglight"]
+  let froglights = ["minecraft:ochre_froglight",
+    "minecraft:verdant_froglight",
+    "minecraft:pearlescent_froglight"]
 
-  let SourceLinks = ['ars_nouveau:alchemical_sourcelink','ars_nouveau:vitalic_sourcelink','ars_nouveau:mycelial_sourcelink','ars_nouveau:volcanic_sourcelink','ars_nouveau:agronomic_sourcelink']
+  let SourceLinks = ['ars_nouveau:alchemical_sourcelink',
+    'ars_nouveau:vitalic_sourcelink',
+    'ars_nouveau:mycelial_sourcelink',
+    'ars_nouveau:volcanic_sourcelink',
+    'ars_nouveau:agronomic_sourcelink']
   
   event.add("dq:tier0componenets", 
     ['minecraft:string',
-      'minecraft:feather',
-      'farmersdelight:canvas',
-      'farmersdelight:straw'])
+    'minecraft:feather',
+    'farmersdelight:canvas',
+    'farmersdelight:straw',
+    "paper",
+    "flint",
+    "naturesaura:gold_leaf",
+    "naturesaura:gold_powder",
+    "wizards_reborn:arcanum_dust",
+    "wizards_reborn:arcanum",
+    "leather",
+    "immersive_weathering:tallow"])
 
   let Tier1Component = []
   let Tier2Component = []
