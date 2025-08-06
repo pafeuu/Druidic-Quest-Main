@@ -65,6 +65,26 @@ ItemEvents.modification(event => {
       item.maxStackSize = 64
     })
   })
+  //==========================================Knives
+  event.modify("farmersdelight:iron_knife", item=>{
+    item.maxDamage = 512
+  })
+
+  event.modify("farmersdelight:diamond_knife", item=>{
+    item.maxDamage = 2048
+  })
+
+  event.modify("farmersdelight:netherite_knife", item=>{
+    item.maxDamage = 4096
+  })
+
+  event.modify("farmersdelight:golden_knife", item=>{
+    item.maxDamage = 512
+  })
+
+  event.modify('farmersdelight:flint_knife', item=>{
+    item.maxDamage = 128
+  })
 
   //========================================Swords
   event.modify('minecraft:iron_sword', item=>{
@@ -116,12 +136,17 @@ ItemEvents.modification(event => {
     item.maxDamage = 4096
   })
 
+  event.modify("twilightforest:fiery_sword",item=>{
+    item.attackDamage = 1
+  })
+
   event.modify("tide:blazing_swordfish", item=>{
     item.maxDamage = 1024,
     item.attackSpeed = -2.0,
     item.attackDamage = 2
   })
   ////========================================Tools
+
   event.modify('aether:hammer_of_kingbdogz', item=>{
     item.maxDamage = 1024
   })

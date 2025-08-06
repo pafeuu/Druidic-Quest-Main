@@ -167,14 +167,8 @@
 			}
 			id: "118A5A467C0FEA36"
 			rewards: [{
-				id: "0CC4895B4D1014D2"
-				item: {
-					Count: 1
-					id: "minecraft:bundle"
-					tag: {
-						enchant: 1b
-					}
-				}
+				id: "76C2C55923A44610"
+				item: "silly_oddities:rainbow_bundle"
 				type: "item"
 			}]
 			subtitle: "But are you in a condition to fight?"
@@ -1135,25 +1129,12 @@
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Heatin' Up!"
-			tasks: [
-				{
-					count: 27L
-					id: "7DE2C8EC522E5848"
-					item: { Count: 27, id: "immersiveengineering:cokebrick" }
-					type: "item"
-				}
-				{
-					id: "1C4C29A779C63C13"
-					item: {
-						Count: 1
-						id: "immersiveengineering:hammer"
-						tag: {
-							Damage: 50
-						}
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 27L
+				id: "7DE2C8EC522E5848"
+				item: { Count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
 			title: "The Big Oven"
 			x: 14.0d
 			y: -0.25d
@@ -1428,12 +1409,21 @@
 			description: [""]
 			icon: "wizards_reborn:arcane_workbench"
 			id: "7846743FB0D30EAD"
-			rewards: [{
-				count: 3
-				id: "2A869F5DCC16ACC7"
-				item: "wizards_reborn:arcanum"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "2A869F5DCC16ACC7"
+					item: "wizards_reborn:arcanum"
+					type: "item"
+				}
+				{
+					command: "/wizards_reborn knowledge give @p all "
+					elevate_perms: true
+					icon: "wizards_reborn:arcanemicon"
+					id: "2F49B1065153DAD5"
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			subtitle: "It begins..."
 			tasks: [

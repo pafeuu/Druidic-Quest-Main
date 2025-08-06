@@ -2484,11 +2484,14 @@ Patch 0.3.2.1
     -Fixed doubled damaged on mobs
     -Twilight Forest damage types now deal correct elemental damage
 
-# Patch 2.4.1
+# Patch 2.5 General Balance and Polishing 
 
 ### New Mods:
     -Cyanide
 
+### New Items:
+    -Silver Knife
+    
 ### Recipes:
     -Mortar now takes less damage when grinding golden leaves
     -Fixed Fiery Ingot Recipe
@@ -2511,10 +2514,32 @@ Patch 0.3.2.1
     -Changed for Display Boards
     -Changed for Adjustable Chain Gearshift
     -Changed for Sequenced Gearshift
+    -Added for Fiery Sword
+    -Added for Fiery Pickaxe
+    -Added recipe for Big Enchanting Rune from Enchanting Runes
+    -Twigs should now be useable as a stick in every recipe
 
 ### Loottables:
     -Increased the amount of blaze rods dropped from blazes
     -Blaze rods no longer need player kills to drop
+
+### Item Balance:
+    -Flint Knife now also deals fire damage
+    -Golden Knife now also deals arcane damage
+    -Fiery Sword now deals mostly fire damage
+    -Slightly Buffed Holy dmg of Silver Sword
+    -Blazing Core now gives fire resistance for the price of ice resistance
+    -Following items now have the same durability as other items in their tier:
+        -Flint Spear
+        -Flint Knife
+        -Stone Claymore
+        -Iron Knife
+        -Golden Knife
+        -Diamond Knife
+        -Netherite Knife
+    
+### Quests:
+    -Reworked Tips Chapter (By Gyldanword) (This change was in the last patch but not mentioned in the patch notes)
 
 ### Other:
     -Disabled Fluffy Fur Weather shader
@@ -2523,3 +2548,4 @@ Patch 0.3.2.1
     -Thermal xp crystal cant be put in a backpack(Needs server config reset)
     -Disabled unused coins stuff
     -Sun spirit minions will no longer get buffs from difficulty
+    -Hidden Infused Veridium tools and weapons

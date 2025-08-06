@@ -394,9 +394,9 @@ StartupEvents.registry('item', item => {
   item.create('chill_blade','sword').displayName("Chilled Blade").tier('ice').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').tag("dq:tier1/weapon")
   item.create('blade_of_grass','irons_spells_js:magic_sword').tier('grass').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:poison_splash",3).tag("dq:tier2/weapon")
   item.create('ice_blade','irons_spells_js:magic_sword').tier('ice').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:icicle",3).tag("dq:tier1/weapon").speedBaseline(-2.1)
-  item.create('flint_spear','sword').tier('wood').tag('minecraft:sword').tag("forge:tools/flint").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon")
-  item.create('stone_claymore','sword').tier('stone').tag('minecraft:sword').tag("forge:tools/stone").tag('minecraft:tools').speedBaseline(-3).tag("dq:tier0/weapon").attackDamageBaseline(7)
-  item.create('iron_scythe','sword').tier('iron').tag('minecraft:sword').tag("forge:tools/iron").tag("minecraft:tools").tag("dq:tier1/weapon").speedBaseline(-2.8).attackDamageBaseline(7)
+  item.create('flint_spear','sword').tier('wood').tag('minecraft:sword').tag("forge:tools/flint").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon").maxDamage(128)
+  item.create('stone_claymore','sword').tier('stone').tag('minecraft:sword').tag("forge:tools/stone").tag('minecraft:tools').speedBaseline(-3).tag("dq:tier0/weapon").attackDamageBaseline(7).maxDamage(128)
+  item.create('iron_scythe','sword').tier('iron').tag('minecraft:sword').tag("forge:tools/iron").tag("minecraft:tools").tag("dq:tier1/weapon").speedBaseline(-2.8).attackDamageBaseline(7).maxDamage(512)
 
   item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("dq:tier1/weapon").tag("dq:tier1/tool")
   item.create('fiery_magic_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("dq:tier2/weapon").tag("dq:tier2/tool")
@@ -409,7 +409,6 @@ StartupEvents.registry('item', item => {
   item.create('copper_hoe','hoe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
   item.create('copper_trident','sword').tier('copper').tag('minecraft:sword').tag("forge:tools/copper").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier1/weapon")
 
-
   item.create('bronze_pickaxe','pickaxe').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool")
   item.create('bronze_shovel','shovel').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool")
   item.create('bronze_hoe','hoe').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
@@ -421,6 +420,7 @@ StartupEvents.registry('item', item => {
   item.create('lead_hoe','hoe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
   item.create('lead_waraxe','axe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool").speedBaseline(-3.2).tag("dq:tier1/weapon").attackDamageBaseline(10).tag("forge:tools/lead")
 
+  item.create("silver_knife","farmersdelight:knife").tier('silver').tag("minecraft:tools").tag("minecraft:tools/knives").tag("dq:tier1/tool")
   item.create('silver_pickaxe','pickaxe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool")
   item.create('silver_sword','sword').tier('silver').tag("minecraft:tools").tag("dq:tier1/weapon")
   item.create('silver_axe','axe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool")

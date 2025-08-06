@@ -1,0 +1,20 @@
+{
+  "id": "enigmaticlegacy:blazing_core",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:fire_damage.resistance",
+          "value": 10,
+          "operation": "ADDITION",
+          "uuid": "a5224ca7-80e6-49a3-a117-e052963e419b"
+      },
+      {
+          "type": "append",
+          "attribute": "alembic:ice_damage.resistance",
+          "value": -10,
+          "operation": "ADDITION",
+          "uuid": "a5834ca7-80e6-49a3-a327-e0529677479b"
+      }
+  ],
+  "equipment_slot": "spellstone"
+}
