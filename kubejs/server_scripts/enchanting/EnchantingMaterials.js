@@ -31,6 +31,7 @@ ServerEvents.recipes(event=>{
 	event.shaped("kubejs:large_enchanting_rune",["AA","AA"],{A:"kubejs:big_enchanting_rune"})
 	event.shapeless("4x kubejs:big_enchanting_rune","kubejs:large_enchanting_rune")
 	event.shapeless("4x kubejs:enchanting_rune","kubejs:big_enchanting_rune")
+    event.shaped("kubejs:big_enchanting_rune",["AA","AA"],{A:"kubejs:enchanting_rune"})
 
     function RuneCrafting(output,input,wissen,experience)
     {
