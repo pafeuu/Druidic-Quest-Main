@@ -12107,3 +12107,143 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.ItemLik
 [06Aug2025 13:04:18.060] [Thread-45/INFO] [EMI/]: [EMI] Baking index
 [06Aug2025 13:04:18.163] [Thread-45/INFO] [EMI/]: [EMI] Registering late recipes
 [06Aug2025 13:04:18.164] [Thread-45/INFO] [EMI/]: [EMI] Baking recipes
+[06Aug2025 13:04:18.973] [Thread-45/ERROR] [EMI/]: Comparison threw an exception, disabling
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "de.ellpeck.naturesaura.items.ItemEffectPowder.getEffect(net.minecraft.world.item.ItemStack)" is null
+	at de.ellpeck.naturesaura.compat.jei.JEINaturesAuraPlugin.lambda$registerItemSubtypes$0(JEINaturesAuraPlugin.java:49) ~[NaturesAura-39.4.jar%23573!/:39.4]
+	at mezz.jei.library.ingredients.subtypes.SubtypeManager.lambda$getSubtypeInfo$0(SubtypeManager.java:23) ~[toomanyrecipeviewers-0.6.0+mc.20.1.jar%23644!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at mezz.jei.library.ingredients.subtypes.SubtypeManager.getSubtypeInfo(SubtypeManager.java:23) ~[toomanyrecipeviewers-0.6.0+mc.20.1.jar%23644!/:?]
+	at mezz.jei.api.ingredients.subtypes.ISubtypeManager.getSubtypeInfo(ISubtypeManager.java:21) ~[toomanyrecipeviewers-0.6.0+mc.20.1.jar%23644!/:?]
+	at dev.nolij.toomanyrecipeviewers.impl.jei.api.runtime.IngredientManager.lambda$registerItemStackDefaultComparison$12(IngredientManager.java:640) ~[toomanyrecipeviewers-0.6.0+mc.20.1.jar%23644!/:?]
+	at dev.emi.emi.api.stack.Comparison.lambda$compareData$4(Comparison.java:35) ~[emi-1.1.22+1.20.1+forge.jar%23488!/:?]
+	at dev.emi.emi.api.stack.Comparison.getHash(Comparison.java:58) ~[emi-1.1.22+1.20.1+forge.jar%23488!/:?]
+	at dev.emi.emi.registry.EmiStackList$ComparisonHashStrategy.hashCode(EmiStackList.java:339) ~[emi-1.1.22+1.20.1+forge.jar%23488!/:?]
+	at dev.emi.emi.registry.EmiStackList$ComparisonHashStrategy.hashCode(EmiStackList.java:321) ~[emi-1.1.22+1.20.1+forge.jar%23488!/:?]
+	at it.unimi.dsi.fastutil.objects.Object2ObjectOpenCustomHashMap.get(Object2ObjectOpenCustomHashMap.java:339) ~[fastutil-8.5.9.jar%23122!/:?]
+	at java.util.Map.computeIfAbsent(Map.java:1052) ~[?:?]
+	at dev.emi.emi.registry.EmiRecipes$Manager.lambda$new$3(EmiRecipes.java:201) ~[emi-1.1.22+1.20.1+forge.jar%23488!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
+	at java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at dev.emi.emi.registry.EmiRecipes$Manager.<init>(EmiRecipes.java:200) ~[emi-1.1.22+1.20.1+forge.jar%23488!/:?]
+	at dev.emi.emi.registry.EmiRecipes.bake(EmiRecipes.java:98) ~[emi-1.1.22+1.20.1+forge.jar%23488!/:?]
+	at dev.emi.emi.runtime.EmiReloadManager$ReloadWorker.run(EmiReloadManager.java:219) ~[emi-1.1.22+1.20.1+forge.jar%23488!/:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[06Aug2025 13:04:19.143] [Thread-45/ERROR] [EMI/]: [EMI] Stack illegally self-mutated during recipe bake, causing recipe loss: effect_powder{effect:"naturesaura:plant_boost"} x24
+[06Aug2025 13:04:19.147] [Thread-45/ERROR] [EMI/]: [EMI] Stack illegally self-mutated during recipe bake, causing recipe loss: effect_powder{effect:"naturesaura:nether_grass"} x24
+[06Aug2025 13:04:19.155] [Thread-45/ERROR] [EMI/]: [EMI] Stack illegally self-mutated during recipe bake, causing recipe loss: effect_powder{effect:"naturesaura:animal"} x8
+[06Aug2025 13:04:19.159] [Thread-45/ERROR] [EMI/]: [EMI] Stack illegally self-mutated during recipe bake, causing recipe loss: effect_powder{effect:"naturesaura:cache_recharge"} x32
+[06Aug2025 13:04:19.167] [Thread-45/ERROR] [EMI/]: [EMI] Stack illegally self-mutated during recipe bake, causing recipe loss: effect_powder{effect:"naturesaura:ore_spawn"} x4
+[06Aug2025 13:04:19.197] [Thread-45/INFO] [EMI/]: [EMI] Baked 68045 recipes in 1029ms
+[06Aug2025 13:04:19.233] [Thread-45/INFO] [EMI/]: [EMI] Baking search
+[06Aug2025 13:04:20.038] [Thread-49/INFO] [EMI/]: [EMI] Baked recipes after reload in 844ms
+[06Aug2025 13:04:23.604] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:poison_splash
+[06Aug2025 13:04:23.604] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.nature.PoisonSplashSpell@75fdcfa8
+[06Aug2025 13:04:25.349] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:raise_dead
+[06Aug2025 13:04:25.351] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.blood.RaiseDeadSpell@a68f3101
+[06Aug2025 13:04:25.352] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:ray_of_siphoning
+[06Aug2025 13:04:25.353] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.blood.RayOfSiphoningSpell@c5ef394c
+[06Aug2025 13:04:25.359] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:dragon_breath
+[06Aug2025 13:04:25.359] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.ender.DragonBreathSpell@276e2c36
+[06Aug2025 13:04:25.364] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:magic_arrow
+[06Aug2025 13:04:25.364] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.ender.MagicArrowSpell@f42b5b21
+[06Aug2025 13:04:25.370] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:starfall
+[06Aug2025 13:04:25.370] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.ender.StarfallSpell@edd7f4f7
+[06Aug2025 13:04:25.375] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:recall
+[06Aug2025 13:04:25.375] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.ender.RecallSpell@67a7c73b
+[06Aug2025 13:04:25.377] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:black_hole
+[06Aug2025 13:04:25.377] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.ender.BlackHoleSpell@3dbad52a
+[06Aug2025 13:04:25.378] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:chain_creeper
+[06Aug2025 13:04:25.378] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.evocation.ChainCreeperSpell@1846fe1a
+[06Aug2025 13:04:25.380] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:fang_strike
+[06Aug2025 13:04:25.380] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.evocation.FangStrikeSpell@6f9ac2c7
+[06Aug2025 13:04:25.383] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:fang_ward
+[06Aug2025 13:04:25.383] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.evocation.FangWardSpell@7f1ab451
+[06Aug2025 13:04:25.388] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:gust
+[06Aug2025 13:04:25.388] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.evocation.GustSpell@9f9227f9
+[06Aug2025 13:04:25.391] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:invisibility
+[06Aug2025 13:04:25.391] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.evocation.InvisibilitySpell@35399621
+[06Aug2025 13:04:25.399] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:summon_horse
+[06Aug2025 13:04:25.399] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.evocation.SummonHorseSpell@b2b70329
+[06Aug2025 13:04:25.400] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:summon_vex
+[06Aug2025 13:04:25.400] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.evocation.SummonVexSpell@a4326f75
+[06Aug2025 13:04:25.401] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:slow
+[06Aug2025 13:04:25.401] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.evocation.SlowSpell@9f977a2b
+[06Aug2025 13:04:25.403] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:arrow_volley
+[06Aug2025 13:04:25.403] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.evocation.ArrowVolleySpell@a4aff18d
+[06Aug2025 13:04:25.405] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:wololo
+[06Aug2025 13:04:25.405] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.evocation.WololoSpell@70c13948
+[06Aug2025 13:04:25.412] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:fireball
+[06Aug2025 13:04:25.412] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.fire.FireballSpell@7dcd815f
+[06Aug2025 13:04:25.417] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:fire_breath
+[06Aug2025 13:04:25.417] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.fire.FireBreathSpell@761116b3
+[06Aug2025 13:04:25.420] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:magma_bomb
+[06Aug2025 13:04:25.420] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.fire.MagmaBombSpell@cd2419e4
+[06Aug2025 13:04:25.423] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:heat_surge
+[06Aug2025 13:04:25.423] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.fire.HeatSurgeSpell@59840449
+[06Aug2025 13:04:25.425] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:flaming_strike
+[06Aug2025 13:04:25.425] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.fire.FlamingStrikeSpell@ac1bebcb
+[06Aug2025 13:04:25.427] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:scorch
+[06Aug2025 13:04:25.427] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.fire.ScorchSpell@69462402
+[06Aug2025 13:04:25.432] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:blessing_of_life
+[06Aug2025 13:04:25.432] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.holy.BlessingOfLifeSpell@78b6b956
+[06Aug2025 13:04:25.435] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:fortify
+[06Aug2025 13:04:25.435] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.holy.FortifySpell@7703e27b
+[06Aug2025 13:04:25.438] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:greater_heal
+[06Aug2025 13:04:25.438] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.holy.GreaterHealSpell@4d6c1737
+[06Aug2025 13:04:25.441] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:healing_circle
+[06Aug2025 13:04:25.442] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.holy.HealingCircleSpell@3974fbdf
+[06Aug2025 13:04:25.450] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:wisp
+[06Aug2025 13:04:25.450] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.holy.WispSpell@9f9940d9
+[06Aug2025 13:04:25.453] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:divine_smite
+[06Aug2025 13:04:25.453] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.holy.DivineSmiteSpell@46b9e59a
+[06Aug2025 13:04:25.454] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:haste
+[06Aug2025 13:04:25.454] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.holy.HasteSpell@a548f2b5
+[06Aug2025 13:04:25.455] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:cleanse
+[06Aug2025 13:04:25.455] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.holy.CleanseSpell@d272e685
+[06Aug2025 13:04:25.456] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:cone_of_cold
+[06Aug2025 13:04:25.456] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.ice.ConeOfColdSpell@cea77b5a
+[06Aug2025 13:04:25.460] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:ice_block
+[06Aug2025 13:04:25.460] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.ice.IceBlockSpell@2210fa03
+[06Aug2025 13:04:25.464] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:summon_polar_bear
+[06Aug2025 13:04:25.464] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.ice.SummonPolarBearSpell@2b33425d
+[06Aug2025 13:04:25.468] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:frostwave
+[06Aug2025 13:04:25.468] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.ice.FrostwaveSpell@af96ffe7
+[06Aug2025 13:04:25.476] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:electrocute
+[06Aug2025 13:04:25.476] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.lightning.ElectrocuteSpell@d8d23c99
+[06Aug2025 13:04:25.481] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:lightning_lance
+[06Aug2025 13:04:25.481] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.lightning.LightningLanceSpell@15ad3230
+[06Aug2025 13:04:25.483] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:shockwave
+[06Aug2025 13:04:25.483] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.lightning.ShockwaveSpell@c7884c5
+[06Aug2025 13:04:25.485] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:thunderstorm
+[06Aug2025 13:04:25.485] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.lightning.ThunderstormSpell@2f9fdaaf
+[06Aug2025 13:04:25.489] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:acid_orb
+[06Aug2025 13:04:25.489] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.nature.AcidOrbSpell@29976087
+[06Aug2025 13:04:25.491] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:blight
+[06Aug2025 13:04:25.491] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.nature.BlightSpell@4cbfb21e
+[06Aug2025 13:04:25.493] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:poison_arrow
+[06Aug2025 13:04:25.493] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.nature.PoisonArrowSpell@c659703c
+[06Aug2025 13:04:25.496] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:poison_breath
+[06Aug2025 13:04:25.496] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.nature.PoisonBreathSpell@59146da1
+[06Aug2025 13:04:25.500] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:root
+[06Aug2025 13:04:25.501] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.nature.RootSpell@9f97110c
+[06Aug2025 13:04:25.505] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:firefly_swarm
+[06Aug2025 13:04:25.505] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.nature.FireflySwarmSpell@e01e560
+[06Aug2025 13:04:25.509] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:earthquake
+[06Aug2025 13:04:25.509] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.nature.EarthquakeSpell@20c91ef7
+[06Aug2025 13:04:25.511] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:stomp
+[06Aug2025 13:04:25.511] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.nature.StompSpell@a5ec887b
+[06Aug2025 13:04:25.514] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:sculk_tentacles
+[06Aug2025 13:04:25.514] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.eldritch.SculkTentaclesSpell@2aa0db30
+[06Aug2025 13:04:25.515] [Thread-45/INFO] [irons_spells_js/]: irons_spellbooks:sonic_boom
+[06Aug2025 13:04:25.515] [Thread-45/INFO] [irons_spells_js/]: io.redspace.ironsspellbooks.spells.eldritch.SonicBoomSpell@a993d148
+[06Aug2025 13:04:26.531] [Thread-45/INFO] [EMI/]: [EMI] Finishing up
+[06Aug2025 13:04:26.542] [Thread-45/INFO] [EMI/]: [EMI] Reloaded EMI in 17716ms
