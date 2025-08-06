@@ -189,7 +189,8 @@ ServerEvents.recipes(event => {
 		  },
 		  {
 			"type": "execute",
-			"command": "playsound minecraft:ui.stonecutter.take_result neutral @p"
+			"command": "playsound minecraft:ui.stonecutter.take_result neutral @p",
+			"hide": true
 		  }
 		],
 		"item_in": [
@@ -559,7 +560,7 @@ ServerEvents.recipes(event => {
 			"  S"
 		],
 		{F:"flint",
-		 S:"stick"}
+		 S:"#c:rods/wooden"}
 	).id("kubejs:primitive_saw")
 
 	event.shaped("kubejs:primitive_mortar",
@@ -635,7 +636,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			F: "minecraft:flint",
-			S: "minecraft:stick"
+			S: "#c:rods/wooden"
 		}
 	)
 
@@ -647,7 +648,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			C: "cobblestone",
-			S: "stick",
+			S: "#c:rods/wooden",
 			B: "quark:sturdy_stone"
 		}
 	)
@@ -800,7 +801,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: 'twigs:pebble',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -813,7 +814,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: 'twigs:pebble',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -827,7 +828,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: 'twigs:pebble',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	event.shaped(
@@ -839,7 +840,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: 'twigs:pebble',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -852,7 +853,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: 'twigs:pebble',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -865,7 +866,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: '#forge:cobblestone',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -878,7 +879,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: '#forge:cobblestone',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -891,7 +892,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: '#forge:cobblestone',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -904,7 +905,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: '#forge:cobblestone',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	event.shaped(
@@ -916,7 +917,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: '#forge:cobblestone',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -929,7 +930,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: 'minecraft:flint',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -942,7 +943,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: 'minecraft:flint',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -955,7 +956,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: 'minecraft:flint',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	event.shaped(
@@ -967,7 +968,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: 'minecraft:flint',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -980,7 +981,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		F: 'minecraft:flint',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -994,7 +995,7 @@ ServerEvents.recipes(event => {
 	  {
 		F: 'minecraft:flint',
 		X: '#forge:string',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -1008,7 +1009,7 @@ ServerEvents.recipes(event => {
 	  {
 		F: 'minecraft:flint',
 		X: '#forge:string',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -1022,7 +1023,7 @@ ServerEvents.recipes(event => {
 	  {
 		F: 'minecraft:flint',
 		X: '#forge:string',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	event.shaped(
@@ -1035,7 +1036,7 @@ ServerEvents.recipes(event => {
 	  {
 		F: 'minecraft:flint',
 		X: '#forge:string',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	 )
 	 event.shaped(
@@ -1048,7 +1049,7 @@ ServerEvents.recipes(event => {
 	  {
 		F: 'minecraft:flint',
 		X: '#forge:string',
-		S: 'minecraft:stick'
+		S: "#c:rods/wooden"
 	  }
 	)
 	
@@ -1174,6 +1175,17 @@ ServerEvents.recipes(event => {
 	).id("kubejs:the_ice_cube")
 
 	/// ======================================================================= Tier 2 Tools ============================================================================
+	
+	const FieryTools = ["pickaxe","sword"]
+	FieryTools.forEach(id => {
+		event.shaped("twilightforest:fiery_"+id,[" I ","IPI"," I "],
+		{
+			I: "#forge:ingots/fiery",
+			P: "iron_"+id
+		}
+	)
+	});
+
 	
 	event.smithing("create:copper_diving_boots","#forge:storage_blocks/lead","kubejs:copper_boots","ars_nouveau:water_essence").id("create:crafting/appliances/copper_diving_boots")
 	event.smithing("create:copper_diving_helmet","thermal:obsidian_glass","kubejs:copper_helmet","ars_nouveau:water_essence").id("create:crafting/appliances/copper_diving_helmet")

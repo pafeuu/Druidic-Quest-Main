@@ -4,6 +4,11 @@ ServerEvents.tags('item', event => {
 
   event.removeAllTagsFrom([global.nukelist])
 
+  event.add("c:rods/wooden","twigs:twig")
+  
+  event.remove("c:rods/wooden","naturesaura:ancient_stick")
+  event.remove("c:rods/wooden","immersiveengineering:stick_treated")
+  
   event.add("c:hidden_from_recipe_viewers",[global.nukelist])
 
   event.add("c:hidden_from_recipe_viewers",["kubejs:recipe_changed","ftbfiltersystem:smart_filter","kubejs:unstable_ivy_quartz"])
