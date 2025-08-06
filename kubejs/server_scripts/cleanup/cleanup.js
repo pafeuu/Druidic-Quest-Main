@@ -279,7 +279,13 @@ global.nukelist = ["twigs:calcite_wall",
 	'thermal:invar_coin',
 	'thermal:constantan_coin',
 	'thermal:signalum_coin',
-	'thermal:lumium_coin']/*,
+	'thermal:lumium_coin',
+	'aether_redux:infused_veridium_sword',
+	'aether_redux:infused_veridium_shovel',
+	'aether_redux:infused_veridium_pickaxe',
+	'aether_redux:infused_veridium_axe',
+	'aether_redux:infused_veridium_hoe',
+	'aether_redux:infused_veridium_dart_shooter']/*,
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',
 	'thermal:enderium_dust',
@@ -381,8 +387,8 @@ ServerEvents.recipes(event => {
 	event.remove({output:"elementalcraft:water_mill_wood_saw"})
 	event.remove({output:"#aether:accessories_gloves"})
 
+	event.replaceInput({input:"minecraft:stick"},"minecraft:stick","#c:rods/wooden")
 	event.replaceOutput({id:"vintageimprovements:craft/sulfur_nuggets_to_item"},"vintageimprovements:sulfur","thermal:sulfur")
-	event.replaceInput({id:"elementalcraft:air_mill_wood_saw"},"grindstone","thermal:saw_blade")
 
 	
 	event.stonecutting("farmersdelight:potato_crate","thermal:potato_block")
