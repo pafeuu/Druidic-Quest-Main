@@ -1,6 +1,8 @@
 
 ItemEvents.modification(event => {
   
+  var colors = ['red','blue','white','gray','light_gray','black','purple','magenta','yellow','green','lime','light_blue','blue','orange','pink','brown']
+
   let stacking16 = ['minecraft:potion','minecraft:saddle',"minecraft:writable_book","enigmaticlegacy:recall_potion","enigmaticlegacy:mending_mixture","minecraft:splash_potion","minecraft:lingering_potion","minecraft:cake",
     "enigmaticlegacy:common_potion","enigmaticlegacy:common_potion_splash","enigmaticlegacy:common_potion_lingering","enigmaticlegacy:ultimate_potion","enigmaticlegacy:ultimate_potion_splash","enigmaticlegacy:ultimate_potion_lingering"]
 
@@ -46,11 +48,17 @@ ItemEvents.modification(event => {
 
   //let NatureDurabilityBuffs = ['infused_iron','sky','depth']
   
+  colors.forEach(color => {
+    event.modify("minecraft:"+color+"_bed", item=>{
+      item.maxStackSize = 64
+    })
+  });
   FireResistant.forEach(id => {
     event.modify(id, item=>{
       item.fireResistant = true
     })
   });
+
 
   stacking16.forEach((id)=>{
 
