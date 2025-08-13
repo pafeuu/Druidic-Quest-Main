@@ -7,6 +7,20 @@
       "value": 0.5,
       "operation": "ADDITION",
       "uuid": "93f1ddab-d1fa-44d5-a9e7-b6aa65cbdce8"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "07a280e9-2888-4c64-a44c-4cd6f23f17c6"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "07a280e9-1888-4c64-a44c-4cd6f23f17c6"
     }
   ],
   "equipment_slot": "OFFHAND"

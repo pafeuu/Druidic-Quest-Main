@@ -1,0 +1,20 @@
+{
+  "id": "enigmaticlegacy:ocean_stone",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:fire_damage.resistance",
+          "value": -10,
+          "operation": "ADDITION",
+          "uuid": "a5224ca7-80e6-49a3-a111-e052963e414b"
+      },
+      {
+          "type": "append",
+          "attribute": "alembic:ice_damage.resistance",
+          "value": 10,
+          "operation": "ADDITION",
+          "uuid": "a5834ca7-80e6-42a3-a327-e05296774797"
+      }
+  ],
+  "equipment_slot": "spellstone"
+}

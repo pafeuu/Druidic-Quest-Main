@@ -1,0 +1,20 @@
+{
+  "id": "enigmaticlegacy:eye_of_nebula",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:ice_damage.resistance",
+          "value": -10,
+          "operation": "ADDITION",
+          "uuid": "a5224ca7-81e6-47a3-a111-e052963e414b"
+      },
+      {
+          "type": "append",
+          "attribute": "alembic:arcane_damage.resistance",
+          "value": 10,
+          "operation": "ADDITION",
+          "uuid": "15834ca7-80e6-4273-a327-e05296774797"
+      }
+  ],
+  "equipment_slot": "spellstone"
+}
