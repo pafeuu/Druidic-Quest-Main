@@ -133,6 +133,7 @@
 		}
 		{
 			dependencies: ["69B93BA4460E5F95"]
+			description: ["Hold in your hand and right click to open. (There is no keybind.)"]
 			id: "3C35A64771D5DEC8"
 			rewards: [{
 				count: 3
@@ -1589,6 +1590,8 @@
 				"Growing &dancient saplings&r can help you maintain a healthy amount of aura in an area. This will prove useful later when aura-usage increases. Wood from this tree is also required for some recipes."
 				""
 				"Read more about aura and ancient saplings in the &6Book of Natural Aura&r."
+				""
+				"&o&7Remember, you can find saplings needed for rituals in the Market!&r&r"
 			]
 			id: "32A61115C0AD8C45"
 			rewards: [{

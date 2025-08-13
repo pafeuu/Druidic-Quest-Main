@@ -25,10 +25,10 @@
 
 "Accessibility Options" {
     # Whether or not Amulet of Ascension should be enabled. [default: true, synchronized: yes]
-    B:AmuletofAscensionEnabled=true
+    B:AmuletofAscensionEnabled=false
 
     # Whether or not Angel's Blessing should be enabled. [default: true, synchronized: yes]
-    B:AngelsBlessingEnabled=true
+    B:AngelsBlessingEnabled=false
 
     # Whether or not Astral Breaker should be enabled. [default: true, synchronized: yes]
     B:AstralBreakerEnabled=true
@@ -46,16 +46,16 @@
     B:BlankScrollEnabled=true
 
     # Whether or not Blazing Core should be enabled. [default: true, synchronized: yes]
-    B:BlazingCoreEnabled=true
+    B:BlazingCoreEnabled=false
 
     # Whether or not bonus recipes for wool dyeing should be enabled. [default: true, synchronized: yes]
     B:BonusWoolRecipesEnabled=true
 
     # Whether or not Bottle of Ichor should be enabled. [default: true, synchronized: yes]
-    B:BottleofIchorEnabled=true
+    B:BottleofIchorEnabled=false
 
     # Whether or not Bulwark of Blazing Pride should be enabled. [default: true, synchronized: yes]
-    B:BulwarkofBlazingPrideEnabled=true
+    B:BulwarkofBlazingPrideEnabled=false
 
     # Whether or not Ceaseless Enchantment should be enabled. [default: true, synchronized: yes]
     B:CeaselessEnchantmentEnabled=true
@@ -160,16 +160,16 @@
     B:ExtradimensionalEyeEnabled=true
 
     # Whether or not Eye of Nebula should be enabled. [default: true, synchronized: yes]
-    B:EyeofNebulaEnabled=true
+    B:EyeofNebulaEnabled=false
 
     # Whether or not Forbidden Fruit should be enabled. [default: true, synchronized: yes]
-    B:ForbiddenFruitEnabled=true
+    B:ForbiddenFruitEnabled=false
 
     # Whether or not Gift of the Heaven should be enabled. [default: true, synchronized: yes]
-    B:GiftoftheHeavenEnabled=true
+    B:GiftoftheHeavenEnabled=false
 
     # Whether or not Grace of the Creator should be enabled. [default: true, synchronized: yes]
-    B:GraceoftheCreatorEnabled=true
+    B:GraceoftheCreatorEnabled=false
 
     # Whether or not Guide to Feral Hunt should be enabled. [default: true, synchronized: yes]
     B:GuidetoFeralHuntEnabled=true
@@ -187,7 +187,7 @@
     B:HeartoftheEarthEnabled=true
 
     # Whether or not Heart of the Golem should be enabled. [default: true, synchronized: yes]
-    B:HeartoftheGolemEnabled=true
+    B:HeartoftheGolemEnabled=false
 
     # Whether or not Heart of the Guardian should be enabled. [default: true, synchronized: yes]
     B:HeartoftheGuardianEnabled=true
@@ -223,13 +223,13 @@
     B:NefariousIngotEnabled=true
 
     # Whether or not Non-Euclidean Cube should be enabled. [default: true, synchronized: yes]
-    B:NonEuclideanCubeEnabled=true
+    B:NonEuclideanCubeEnabled=false
 
     # Whether or not Pact of Infinite Avarice should be enabled. [default: true, synchronized: yes]
     B:PactofInfiniteAvariceEnabled=true
 
     # Whether or not Pearl of the Void should be enabled. [default: true, synchronized: yes]
-    B:PearloftheVoidEnabled=true
+    B:PearloftheVoidEnabled=false
 
     # Whether or not Potion of Recall should be enabled. [default: true, synchronized: yes]
     B:PotionofRecallEnabled=true
@@ -253,7 +253,7 @@
     B:ScrollofAgelessWisdomEnabled=true
 
     # Whether or not Scroll of Postmortal Recall should be enabled. [default: true, synchronized: yes]
-    B:ScrollofPostmortalRecallEnabled=true
+    B:ScrollofPostmortalRecallEnabled=false
 
     # Whether or not Scroll of a Thousand Curses should be enabled. [default: true, synchronized: yes]
     B:ScrollofaThousandCursesEnabled=true
@@ -322,7 +322,7 @@
     B:WayfinderoftheDamnedEnabled=true
 
     # Whether or not Will of the Ocean should be enabled. [default: true, synchronized: yes]
-    B:WilloftheOceanEnabled=true
+    B:WilloftheOceanEnabled=false
 
     # Whether or not Withered Tome should be enabled. [default: true, synchronized: yes]
     B:WitheredTomeEnabled=true
@@ -349,17 +349,17 @@
     I:AngelBlessingCooldown=40
 
     # Chance to deflect projectile when having Angel's Blessing equipped. Measured in percents. [range: 0 ~ 100, default: 50, synchronized: yes]
-    I:AngelBlessingDeflectChance=50
+    I:AngelBlessingDeflectChance=20
 
     # List of entities that should count towards the curse-altering effect of Guide to Animal Companionship, and thus remain neutral to players bearing Ring of the Seven Curses if they posses such guide. Examples: minecraft:iron_golem, minecraft:zombified_piglin [default: , synchronized: no]
     S:AnimalGuideAnimalExclusionList <
      >
 
     # The depth of Astral Breaker AOE mining. [range: 0 ~ 127, default: 1, synchronized: yes]
-    I:AstralBreakerMiningDepth=1
+    I:AstralBreakerMiningDepth=5
 
     # The radius of Astral Breaker AOE mining. Set to -1 to disable the feature. [range: -1 ~ 127, default: 3, synchronized: yes]
-    I:AstralBreakerMiningRadius=3
+    I:AstralBreakerMiningRadius=5
 
     # Chance to get an Emerald when slaying any mob with Pact of Infinite Avarice equipped. [range: 0 ~ 100, default: 15, synchronized: yes]
     I:AvariceScrollEmeraldChance=15

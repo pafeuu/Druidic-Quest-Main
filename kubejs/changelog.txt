@@ -2489,9 +2489,31 @@ Patch 0.3.2.1
 ### New Mods:
     -Cyanide
 
+### Removed Mods:
+    -More Mobs
+
 ### New Items:
     -Silver Knife
-    
+
+### Removed Items:
+    -Non-Euclidean Cube
+    -Heart of Creation
+    -Grace of the Creator
+    -Scroll of Postmortem Recall
+    -Pearl of the Void
+
+### Renamed Items:
+    -Thermal Fluiduct -> Bronze Fluid Pipe
+    -Wizard's Reborn Fluid Pipe -> Wisestone Fluid Pipe
+    -Natures Aura Gold Powder -> Gold Leaf Powder
+    -F&A Arcane Crystal -> Twilight Crystal
+    -Irons Arcane Dust -> Mystic Dust
+
+### New Textures:
+    -Gold Knife
+    -Diamond Knife
+    -Iron Knife
+
 ### Recipes:
     -Mortar now takes less damage when grinding golden leaves
     -Fixed Fiery Ingot Recipe
@@ -2518,17 +2540,28 @@ Patch 0.3.2.1
     -Added for Fiery Pickaxe
     -Added recipe for Big Enchanting Rune from Enchanting Runes
     -Twigs should now be useable as a stick in every recipe
+    -Changed for Gold Knife
+    -Changed for Iron Knife
+    -Changed for Diamond Knife
 
 ### Loottables:
     -Increased the amount of blaze rods dropped from blazes
-    -Blaze rods no longer need player kills to drop
+    -Blaze rods no longer need player kills to drop 
 
 ### Item Balance:
     -Flint Knife now also deals fire damage
     -Golden Knife now also deals arcane damage
     -Fiery Sword now deals mostly fire damage
     -Slightly Buffed Holy dmg of Silver Sword
-    -Blazing Core now gives fire resistance for the price of ice resistance
+    -Nerfed Angel's Blessing chance to deflect projectile to 20%
+    -Primitive Mining Hammer and Excavator can now properly be repaired with sturdy stone
+    -Ice blade is now repaired with Iron Ingots
+    -Blade of grass is now repaired with Iron Ingots
+    -The Terraformer is now repaired with Iron ingots
+    -Golden Armor Pieces now give the same speed and unholy resistance as their Silver Counterparts
+    -All the available spellstones now give and take resistances
+    -Basic Mining Hammer and Excavator are now repaired with lead ingots instead of blocks
+    -Buffed all the Crucifixes with holy and unholy resistances
     -Following items now have the same durability as other items in their tier:
         -Flint Spear
         -Flint Knife
@@ -2540,12 +2573,23 @@ Patch 0.3.2.1
     
 ### Quests:
     -Reworked Tips Chapter (By Gyldanword) (This change was in the last patch but not mentioned in the patch notes)
+    -Reworked Armorsmith Chapter to follow progression order(By Gyldanword)
+    -Reworked Bladesmith Chapter(By Gyldanword)
+    -Added Archfisher Chapter (By Gyldanword)
+    -Removed Unobtainable skulls from headhunter chapter
+    -Fixed Discord Link in Welcom Chapter
 
 ### Other:
     -Disabled Fluffy Fur Weather shader
     -Arcanemicon can now be merged with EccentricTome
     -Mobs with backpacks now always drop the backpack but without any loot in it(Needs server config reset)
-    -Thermal xp crystal cant be put in a backpack(Needs server config reset)
     -Disabled unused coins stuff
     -Sun spirit minions will no longer get buffs from difficulty
     -Hidden Infused Veridium tools and weapons
+
+2.5.1
+
+### Recipes:
+    -Hidden Mage's SpellBook Dummy recipe
+    -Changed for The Terraformer
+    -Changed for Bejeweled Crucifix

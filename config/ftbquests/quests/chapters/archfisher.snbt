@@ -18,6 +18,2671 @@
 	id: "4EDCA06013ECC813"
 	order_index: 10
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "075A18C590BBC917"
+			rewards: [{
+				id: "261870AA604EA138"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "756D357BD1353A3B"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "60A3EF4311F452E0"
+			rewards: [{
+				id: "6DA1C2867F88A165"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4E882D163C6C6033"
+				item: {
+					Count: 1
+					id: "tide:stone_fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "333606F4BB897A6E"
+			rewards: [{
+				id: "754739777FB22150"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7346FAADA13505BC"
+				item: {
+					Count: 1
+					id: "tide:iron_fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			id: "76B17FF21544D480"
+			tasks: [{
+				id: "48116CBEDE908EBD"
+				item: {
+					Count: 1
+					id: "tide:golden_fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			id: "4B358684DC46D0A6"
+			tasks: [{
+				id: "5AE63FCD49EEE6AE"
+				item: {
+					Count: 1
+					id: "tide:crystal_fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2DB5B25BEE888DAC"
+			rewards: [{
+				id: "1C703B096432F28C"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "053D0D23969EEC4D"
+				item: {
+					Count: 1
+					id: "tide:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "79D04A424EA2EEA4"
+			rewards: [{
+				id: "463CE6552846C10C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "5AAA8406524C8DE6"
+				item: {
+					Count: 1
+					id: "tide:netherite_fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "433B38466EFD5794"
+			rewards: [{
+				id: "14A82AEF741F35B0"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "44ABE788855BE500"
+				item: "tide:red_fishing_bobber"
+				type: "item"
+			}]
+			x: -8.4d
+			y: -3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6AD078EA4186A90B"
+			rewards: [{
+				id: "426C2EF15CF199B4"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "169E6BC0ED8304AE"
+				item: "tide:orange_fishing_bobber"
+				type: "item"
+			}]
+			x: -8.4d
+			y: -2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "20B5A29A41A6927F"
+			rewards: [{
+				id: "5B6D9F1D4967473A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "2DA7F4FC7B5E8A79"
+				item: "tide:yellow_fishing_bobber"
+				type: "item"
+			}]
+			x: -8.4d
+			y: -1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "66BC1CF1F70D89EB"
+			rewards: [{
+				id: "2111354281D19098"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "22BE6912AA3E0D50"
+				item: "tide:lime_fishing_bobber"
+				type: "item"
+			}]
+			x: -8.4d
+			y: -0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7459ECF4E665A678"
+			rewards: [{
+				id: "2F7295E14E61A84A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "24BA4B5A7AC6D263"
+				item: "tide:green_fishing_bobber"
+				type: "item"
+			}]
+			x: -8.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "4E5B8353530D8137"
+			rewards: [{
+				id: "7F43EC931F504833"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "0E154496B9D0F314"
+				item: "tide:cyan_fishing_bobber"
+				type: "item"
+			}]
+			x: -8.4d
+			y: 0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "39F2840C710DB2D0"
+			rewards: [{
+				id: "1545509CABBB0D5C"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "2FDF5B5D43CDD80D"
+				item: "tide:light_blue_fishing_bobber"
+				type: "item"
+			}]
+			x: -8.4d
+			y: 1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6EF217ED2C65696C"
+			rewards: [{
+				id: "318A0014311F8EF1"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "4EDD1FF646FD5195"
+				item: "tide:blue_fishing_bobber"
+				type: "item"
+			}]
+			x: -8.4d
+			y: 2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "594D6199BF4029E9"
+			rewards: [{
+				id: "0ED83915742D1C8C"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "5784E4AE703A9590"
+				item: "tide:purple_fishing_bobber"
+				type: "item"
+			}]
+			x: -7.6d
+			y: -3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "05E6299313D673CB"
+			rewards: [{
+				id: "59E66616849EAABF"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "1A1342C184079DB9"
+				item: "tide:pink_fishing_bobber"
+				type: "item"
+			}]
+			x: -7.6d
+			y: -1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2BA58C790A1849B8"
+			rewards: [{
+				id: "02B70555F292D978"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "726AD40B90272ECC"
+				item: "tide:white_fishing_bobber"
+				type: "item"
+			}]
+			x: -7.6d
+			y: -0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "019958C785B195D4"
+			rewards: [{
+				id: "21FFA3493ED56CBB"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "0ACF64AA518C380F"
+				item: "tide:light_gray_fishing_bobber"
+				type: "item"
+			}]
+			x: -7.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "443852E8A007347F"
+			rewards: [{
+				id: "6D87B367E6A60CFC"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "77C50ABFFE218E7D"
+				item: "tide:magenta_fishing_bobber"
+				type: "item"
+			}]
+			x: -7.6d
+			y: -2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "34B5FA8DDCA8DC2C"
+			rewards: [{
+				id: "0C28C73AAA0C39C0"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "405E207B74EA1512"
+				item: "tide:brown_fishing_bobber"
+				type: "item"
+			}]
+			x: -7.6d
+			y: 2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2A3524376C64FB6F"
+			rewards: [{
+				id: "68ADDEA1E6240215"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "52D146ECCB421F7A"
+				item: "tide:black_fishing_bobber"
+				type: "item"
+			}]
+			x: -7.6d
+			y: 1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "779FFC7133D6D576"
+			rewards: [{
+				id: "7AB5AE4E6C2609FB"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "3D60C1BB6A2EC19A"
+				item: "tide:gray_fishing_bobber"
+				type: "item"
+			}]
+			x: -7.6d
+			y: 0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1774FA8A3E1A45CC"
+			rewards: [{
+				id: "498D19C915D22478"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "74F036D573213183"
+				item: "tide:apple_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.8d
+			y: -3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1D1448DAD7A03E34"
+			rewards: [{
+				id: "38D71817F78D9CC9"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "4A3C6E237C5ACB8A"
+				item: "tide:golden_apple_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.8d
+			y: -2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1076E5950E5E53B0"
+			rewards: [{
+				id: "49330C5BA87C932F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "1CDF418DA112DBB5"
+				item: "tide:enchanted_golden_apple_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.8d
+			y: -1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "25ABFEEBD0124935"
+			rewards: [{
+				id: "42F2C91BA55CAB0F"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "7C0B3495F5599D8B"
+				item: "tide:golden_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "515A70F285E694F7"
+			rewards: [{
+				id: "1F06DC1F6A7CC500"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "7DBF6CAF0F8C18D4"
+				item: "tide:iron_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.8d
+			y: -0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "45107BE8A83BA8F4"
+			rewards: [{
+				id: "122964EE41E8EA69"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "3F3B960912B31D58"
+				item: "tide:diamond_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.8d
+			y: 0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7EE3814A81DFA941"
+			rewards: [{
+				id: "784F375057C8290A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "16CC014CA7E57730"
+				item: "tide:netherite_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.8d
+			y: 1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3F7FE16F62A37C11"
+			rewards: [{
+				id: "0B64C16DA827F0C9"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "19509FF055D14025"
+				item: "tide:pearl_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6F0B381E27CD3C7C"
+			rewards: [{
+				id: "6FF61E073057C93D"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "1B9A201B1831E804"
+				item: "tide:amethyst_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.8d
+			y: 2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7D164FC1548A00BC"
+			rewards: [{
+				id: "0BD5174327722A81"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "46D598354EBC2E97"
+				item: "tide:nautilus_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "42563F60A269125F"
+			rewards: [{
+				id: "2C415DA91F7AB90A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "22850923CC732940"
+				item: "tide:chorus_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "579261C753A3D930"
+			rewards: [{
+				id: "6E68CA327CBF2CC2"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "67AD02660145DB2C"
+				item: "tide:grassy_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "17D194D0D2FB67F4"
+			rewards: [{
+				id: "3376846661B11BA5"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "692F07B028A94E4C"
+				item: "tide:feather_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6F45E1A0D395D380"
+			rewards: [{
+				id: "5E293F987177CDD7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "61D83ED9E952E23D"
+				item: "tide:heart_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "06CCED43436B0478"
+			rewards: [{
+				id: "460699F07F75A782"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "7D146862F6666882"
+				item: "tide:lichen_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7F0D751DD5E9552B"
+			rewards: [{
+				id: "30D7FB84CE878836"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "2A38D6A0572CC11C"
+				item: "tide:echo_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "56275F698B23885A"
+			rewards: [{
+				id: "40499989D15BC4F9"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "44262CC0F1427AC8"
+				item: "tide:fishing_hook"
+				type: "item"
+			}]
+			x: -4.4d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6EFBD509FA49CCD7"
+			rewards: [{
+				id: "0A62474EB953CC29"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "7803485B571DEE7E"
+				item: "tide:iron_fishing_hook"
+				type: "item"
+			}]
+			x: -4.4d
+			y: -2.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0B4A9AB2BB2B15A3"
+			rewards: [{
+				id: "1524B72B12D98102"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "7CF4FF2DF22999CF"
+				item: "tide:lavaproof_fishing_hook"
+				type: "item"
+			}]
+			x: -4.4d
+			y: -1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0E25DA0439F3B389"
+			rewards: [{
+				id: "13C653BEDC053C3D"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "7F9CBE1E44A07117"
+				item: "tide:fishing_line"
+				type: "item"
+			}]
+			x: -4.4d
+			y: -0.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2FE261467C87BDD6"
+			rewards: [{
+				id: "7B8504D69B276958"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "2019CB1918667CCE"
+				item: "tide:braided_line"
+				type: "item"
+			}]
+			x: -4.4d
+			y: 0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "39D50CB8B01F1008"
+			rewards: [{
+				id: "547AA29053EBB851"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "7E161AAF9C80343A"
+				item: "tide:reinforced_line"
+				type: "item"
+			}]
+			x: -4.4d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3CD3B44CB235E2C9"
+			rewards: [{
+				id: "42BF960BD80FE211"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "31BA2A9E55028D92"
+				item: "tide:fortune_line"
+				type: "item"
+			}]
+			x: -4.4d
+			y: 3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6FF70DA47FD88108"
+			rewards: [{
+				id: "13977F9696052E01"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "074919AED237CE21"
+				item: "minecraft:cod_bucket"
+				type: "item"
+			}]
+			x: -2.8d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "24BA3E324C5FF3D5"
+			rewards: [{
+				id: "5D28A2C1CAC4FD68"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "40028CA0276A94AA"
+				item: "minecraft:salmon_bucket"
+				type: "item"
+			}]
+			x: -2.8d
+			y: -3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "018DF606AE95F361"
+			rewards: [{
+				id: "121B67D20E767832"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "654203725B046AC3"
+				item: "minecraft:tropical_fish_bucket"
+				type: "item"
+			}]
+			x: -2.8d
+			y: -2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "481B23D9EFE697F9"
+			rewards: [{
+				id: "6AF81520B64C9A25"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "6BE631A8E8A48B29"
+				item: "minecraft:pufferfish_bucket"
+				type: "item"
+			}]
+			x: -2.8d
+			y: -1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7A22F92EEE6A41A0"
+			rewards: [{
+				id: "0CE577F92A20818B"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "117D1A9D26B9D698"
+				item: "minecraft:axolotl_bucket"
+				type: "item"
+			}]
+			x: -2.8d
+			y: -0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7CB85D74894715BF"
+			rewards: [{
+				id: "75E90F47B37D6CAD"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "6075FF765E135B16"
+				item: "quark:crab_bucket"
+				type: "item"
+			}]
+			x: -2.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0835268651A69D14"
+			rewards: [{
+				id: "79E25C46AE04F89A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "21F88EF91462CD57"
+				item: "minecraft:tadpole_bucket"
+				type: "item"
+			}]
+			x: -2.8d
+			y: 0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "019984CFC71EF4D5"
+			rewards: [{
+				id: "7BE6F421275D8955"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "2FE7DCBD18A6AA5A"
+				item: "deep_aether:aerglow_fish_bucket"
+				type: "item"
+			}]
+			x: -0.4d
+			y: 3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "17FA49036A9B35A8"
+			rewards: [{
+				id: "5E6F526F4DC16ACA"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "2BAB99327CBD5125"
+				item: "alexsmobs:lobster_bucket"
+				type: "item"
+			}]
+			x: -2.8d
+			y: 2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "63758905506C6301"
+			rewards: [{
+				id: "730F96C43528B5E2"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "10A4CBF512FF6FA2"
+				item: "alexsmobs:blobfish_bucket"
+				type: "item"
+			}]
+			x: -2.8d
+			y: 3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "15CA01C3E7DCEF4A"
+			rewards: [{
+				count: 3
+				id: "3265BF3C79B32599"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "7A2558C8B66F30FF"
+				item: "alexsmobs:stradpole_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "55F85B7AA3535941"
+			rewards: [{
+				id: "556DCFA81F150663"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "63475B541765A258"
+				item: "alexsmobs:platypus_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "181073B2823F9CF9"
+			rewards: [{
+				id: "107410000D8D15DB"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "5FBECE4B64B68793"
+				item: "alexsmobs:frilled_shark_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.4d
+		}
+		{
+			id: "7B765EC349FC1552"
+			size: 0.8d
+			tasks: [{
+				id: "5B2DC96086D98AF3"
+				item: "alexsmobs:mimic_octopus_bucket"
+				type: "item"
+			}]
+			x: -1.2d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6544CCC291058194"
+			rewards: [{
+				id: "02841A4973E87DEB"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "4FD9B388450D2CA7"
+				item: "alexsmobs:terrapin_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6A82581D5BA9F336"
+			rewards: [{
+				id: "422A44517D4241CF"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "69E635BD717BBEA7"
+				item: "alexsmobs:comb_jelly_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5FE4E452A914BE1A"
+			rewards: [{
+				count: 5
+				id: "21B8FAD8E47319C0"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "1C03F2E15F655719"
+				item: "alexsmobs:cosmic_cod_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3F00AA4AE46FABFC"
+			rewards: [{
+				id: "2B8C714E5AAB341C"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "24894931FE2B1892"
+				item: "alexsmobs:devils_hole_pupfish_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "777882BC542D3FB5"
+			rewards: [{
+				id: "11BEE69C0598F0E0"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "495B19DAC92BD9E3"
+				item: "alexsmobs:small_catfish_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1A8E8B076E4C883E"
+			rewards: [{
+				id: "504264F2C4F3E08F"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "1952EBA4D38C20FE"
+				item: "alexsmobs:medium_catfish_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "795EA82794F49877"
+			rewards: [{
+				id: "5542739603594FEA"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "303D821D5F0CEB20"
+				item: "alexsmobs:large_catfish_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7E5CAC94D0FF50D0"
+			rewards: [{
+				id: "3A17722C8C188648"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "378495EAF00D63DF"
+				item: "alexsmobs:flying_fish_bucket"
+				type: "item"
+			}]
+			x: -1.2d
+			y: -3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "73E3C7487BFC4724"
+			rewards: [{
+				id: "65BBC1464F780410"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "3CFF3D0D256A7DAC"
+				item: "alexsmobs:mudskipper_bucket"
+				type: "item"
+			}]
+			x: -1.2d
+			y: -2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "42A0911F95DF83E7"
+			rewards: [{
+				id: "63728530C60BEEBE"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "788572C4D1BEC93F"
+				item: "alexsmobs:triops_bucket"
+				type: "item"
+			}]
+			x: -1.2d
+			y: -1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "54985EEE16986D52"
+			rewards: [{
+				id: "7BA1456219AF6411"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "1BC783D32844F120"
+				item: "tide:trout_bucket"
+				type: "item"
+			}]
+			x: -1.2d
+			y: -0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "686841A8F6E9DCF0"
+			rewards: [{
+				id: "3DE98916AC679943"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "4D1FBE0F50A358E2"
+				item: "tide:bass_bucket"
+				type: "item"
+			}]
+			x: -1.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "10B51915896249DF"
+			rewards: [{
+				id: "7C63E8CE11638764"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "56AA2755E6AFC1D8"
+				item: "tide:yellow_perch_bucket"
+				type: "item"
+			}]
+			x: -1.2d
+			y: 0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3B35F68E8BDB3368"
+			rewards: [{
+				id: "3D4684CB85FF3533"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "53BA95CB7D3275C9"
+				item: "tide:bluegill_bucket"
+				type: "item"
+			}]
+			x: -1.2d
+			y: 1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "187985F78A7848CD"
+			rewards: [{
+				id: "755606F65F713B9D"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "297892187170A404"
+				item: "tide:mint_carp_bucket"
+				type: "item"
+			}]
+			x: -1.2d
+			y: 2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "4B4F6BAA273C8215"
+			rewards: [{
+				id: "350A7FBCD8275EC3"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "2AE95EEDBF741C41"
+				item: "tide:pike_bucket"
+				type: "item"
+			}]
+			x: -1.2d
+			y: 3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "76C0B70110199CBA"
+			rewards: [{
+				id: "143F6E727A72C549"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "435FF01DBD6F8540"
+				item: "tide:guppy_bucket"
+				type: "item"
+			}]
+			x: -0.4d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "627754111733706D"
+			rewards: [{
+				id: "6F6CA21D0F06E0A7"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "37C6846EA3E9A199"
+				item: "tide:catfish_bucket"
+				type: "item"
+			}]
+			x: -0.4d
+			y: -3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6322F1753C74C733"
+			rewards: [{
+				id: "4795D6171FC92222"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "79AFA667E81E6699"
+				item: "tide:clayfish_bucket"
+				type: "item"
+			}]
+			x: -0.4d
+			y: -2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7288838EA2F27467"
+			rewards: [{
+				id: "20D173666DE87DEB"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "1561E60C9097CEBE"
+				item: "tide:tuna_bucket"
+				type: "item"
+			}]
+			x: -0.4d
+			y: -1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1AC080D8DA3082B4"
+			rewards: [{
+				id: "507178B71C5D3194"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "10537503030D3FB4"
+				item: "tide:ocean_perch_bucket"
+				type: "item"
+			}]
+			x: -0.4d
+			y: -0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "4B98CDEA18A5BEDC"
+			rewards: [{
+				id: "4E4CCFA571D4492A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "423909F6E29A36A1"
+				item: "tide:mackerel_bucket"
+				type: "item"
+			}]
+			x: -0.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6E3694699B75A55A"
+			rewards: [{
+				id: "42C34F9833D896E3"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "292C67A8D3481221"
+				item: "tide:angelfish_bucket"
+				type: "item"
+			}]
+			x: -0.4d
+			y: 0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "582500A214C22A7F"
+			rewards: [{
+				id: "2DC30611875602BE"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "663E3AEA9538E727"
+				item: "tide:barracuda_bucket"
+				type: "item"
+			}]
+			x: -0.4d
+			y: 1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "716D7200558B60EE"
+			rewards: [{
+				id: "579082D74BB3F184"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "6756A6D235F4C9EA"
+				item: "tide:sailfish_bucket"
+				type: "item"
+			}]
+			x: -0.4d
+			y: 2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2ED65798E4160904"
+			rewards: [{
+				id: "421D0B63C7492525"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "5B9EBD0D9BC428CD"
+				item: "biomeswevegone:man_o_war_bucket"
+				type: "item"
+			}]
+			x: -2.8d
+			y: 1.6d
+		}
+		{
+			id: "113CF4E8DD943273"
+			rewards: [{
+				id: "773003030A97C13D"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "44BE787CFAAD1AF7"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			x: 1.275d
+			y: -4.25d
+		}
+		{
+			id: "0F72A715D96EEA3A"
+			rewards: [{
+				id: "27B99CDDF7E9F063"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "4763B639FE7DAE10"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			x: 1.275d
+			y: -3.4d
+		}
+		{
+			id: "0E529640CF10F033"
+			rewards: [{
+				id: "316F5314099E2BFB"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "2163A83FCE76C0AC"
+				item: "minecraft:tropical_fish"
+				type: "item"
+			}]
+			x: 1.275d
+			y: -2.55d
+		}
+		{
+			id: "1B4A468119CA9230"
+			rewards: [{
+				id: "3EC6AABF49C5F4D0"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "41ED38F6230D64D8"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
+			x: 1.275d
+			y: -1.7d
+		}
+		{
+			id: "62A5CFD6404B8647"
+			rewards: [{
+				id: "1DB0EDE70956FAF7"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "0D1D7FA21A22CB09"
+				item: "tide:mint_carp"
+				type: "item"
+			}]
+			x: 1.275d
+			y: -0.85d
+		}
+		{
+			id: "2305A6706F217BA3"
+			rewards: [{
+				id: "65FE1419F5D48ECF"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "04044D3C1B5B82E2"
+				item: "tide:clayfish"
+				type: "item"
+			}]
+			x: 1.275d
+			y: 0.0d
+		}
+		{
+			id: "4BB3AA5E445D33C3"
+			rewards: [{
+				id: "7A741BC0C5C512CB"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "4AA66EAACF5B9284"
+				item: "tide:trout"
+				type: "item"
+			}]
+			x: 1.275d
+			y: 0.85d
+		}
+		{
+			id: "7F27BE2432949A32"
+			rewards: [{
+				id: "403DBE43E6A721D2"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "1D47598F44D45248"
+				item: "tide:angelfish"
+				type: "item"
+			}]
+			x: 1.275d
+			y: 1.7d
+		}
+		{
+			id: "7E916C1B0874765B"
+			rewards: [{
+				id: "43332DD86777EFC3"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "39D1EA8D94FB8F3C"
+				item: "tide:barracuda"
+				type: "item"
+			}]
+			x: 1.275d
+			y: 2.55d
+		}
+		{
+			id: "344FA73B650C757E"
+			rewards: [{
+				id: "4EFDF5FDAC92DF02"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "6D54C1D12299EDA5"
+				item: "tide:sailfish"
+				type: "item"
+			}]
+			x: 1.275d
+			y: 3.4d
+		}
+		{
+			id: "478FBBA4148E912E"
+			rewards: [{
+				id: "044F5AD936491462"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "1302507A996CE489"
+				item: "tide:catfish"
+				type: "item"
+			}]
+			x: 2.125d
+			y: -4.25d
+		}
+		{
+			id: "1DA9CF163624C5D3"
+			rewards: [{
+				id: "27F3AF5D0F09275E"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "2566305BB151D2DF"
+				item: "tide:pike"
+				type: "item"
+			}]
+			x: 2.125d
+			y: -3.4d
+		}
+		{
+			id: "72A30E8846A8E6D7"
+			rewards: [{
+				id: "73CF1CCB992C5613"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "7342FA090BC1ACBA"
+				item: "tide:bass"
+				type: "item"
+			}]
+			x: 2.125d
+			y: -2.55d
+		}
+		{
+			id: "2A4CBD5456BBF0BF"
+			rewards: [{
+				id: "77E90D806E22FD57"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "37376838B23F3CE5"
+				item: "tide:tuna"
+				type: "item"
+			}]
+			x: 2.125d
+			y: -1.7d
+		}
+		{
+			id: "469D77A6DB134787"
+			rewards: [{
+				id: "19E2FEE7A2D44F9B"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "64A8E92D6CCCDC37"
+				item: "tide:yellow_perch"
+				type: "item"
+			}]
+			x: 2.125d
+			y: -0.85d
+		}
+		{
+			id: "10F423D84FF8D90F"
+			rewards: [{
+				id: "3B6EDDA6541C2A83"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "6AC13D128BDDED42"
+				item: "tide:ocean_perch"
+				type: "item"
+			}]
+			x: 2.125d
+			y: 0.0d
+		}
+		{
+			id: "61D22D4846D0FE8C"
+			rewards: [{
+				id: "7667D872CBC12E8D"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "6FAFF2DBC7911CA9"
+				item: "tide:guppy"
+				type: "item"
+			}]
+			x: 2.125d
+			y: 0.85d
+		}
+		{
+			id: "5760113D189B5131"
+			rewards: [{
+				id: "09AD2C1CB14AA3B7"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "0927E4E743F2F96D"
+				item: "tide:bluegill"
+				type: "item"
+			}]
+			x: 2.125d
+			y: 1.7d
+		}
+		{
+			id: "2EE9307A3093CFF3"
+			rewards: [{
+				id: "470266F6116F61E9"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "44ECAB5C03683EA0"
+				item: "tide:mackerel"
+				type: "item"
+			}]
+			x: 2.125d
+			y: 2.55d
+		}
+		{
+			id: "18E8AB8B02E740B3"
+			rewards: [{
+				id: "067FAB38FBAB2274"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "7F95D6F432CE1DF3"
+				item: "tide:cave_eel"
+				type: "item"
+			}]
+			x: 2.125d
+			y: 3.4d
+		}
+		{
+			id: "74564F6BA7DAE915"
+			rewards: [{
+				id: "5364740DF9B7EEBC"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "73821DCD09018C32"
+				item: "tide:crystal_shrimp"
+				type: "item"
+			}]
+			x: 2.975d
+			y: -4.25d
+		}
+		{
+			id: "39B01A716EFFBAEB"
+			rewards: [{
+				id: "27AEF9606F9A8810"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "212142F76C11BAC3"
+				item: "tide:iron_tetra"
+				type: "item"
+			}]
+			x: 2.975d
+			y: -3.4d
+		}
+		{
+			id: "354B7433010CD251"
+			rewards: [{
+				id: "62D280EBC22A1009"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "15AB77E7C32FB325"
+				item: "tide:glowfish"
+				type: "item"
+			}]
+			x: 2.975d
+			y: -2.55d
+		}
+		{
+			id: "6E47630D23D1C80B"
+			rewards: [{
+				id: "545F3E82C38C5C29"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "6EEF018047DEBB0C"
+				item: "tide:anglerfish"
+				type: "item"
+			}]
+			x: 2.975d
+			y: -1.7d
+		}
+		{
+			id: "76A13064111EA6AE"
+			rewards: [{
+				id: "40004782F80A386E"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "629EC7A514105C7D"
+				item: "tide:cave_crawler"
+				type: "item"
+			}]
+			x: 2.975d
+			y: -0.85d
+		}
+		{
+			id: "5C68EFC0AB471CFA"
+			rewards: [{
+				id: "01BD7F2E7AF6B863"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "2CDBCFC0CBE66544"
+				item: "tide:gilded_minnow"
+				type: "item"
+			}]
+			x: 2.975d
+			y: 0.0d
+		}
+		{
+			id: "3BCA829899EC3253"
+			rewards: [{
+				id: "22F4208EFF54F225"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "7FFA74C0E93E8380"
+				item: "tide:abyss_angler"
+				type: "item"
+			}]
+			x: 2.975d
+			y: 0.85d
+		}
+		{
+			id: "5ECC22A599012990"
+			rewards: [{
+				id: "6A334B40E6C61B79"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "46029CEF16128C66"
+				item: "tide:crystalline_carp"
+				type: "item"
+			}]
+			x: 2.975d
+			y: 1.7d
+		}
+		{
+			id: "27DD85BEC0CB463D"
+			rewards: [{
+				id: "4D22BBC8DEDAFDD9"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "1D46BED286F55D4E"
+				item: "tide:lapis_lanternfish"
+				type: "item"
+			}]
+			x: 2.975d
+			y: 2.55d
+		}
+		{
+			id: "4D9EFF6077AA73E5"
+			rewards: [{
+				id: "4C743305CA3A71BB"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "3376D2F53BB374E6"
+				item: "tide:luminescent_jellyfish"
+				type: "item"
+			}]
+			x: 2.975d
+			y: 3.4d
+		}
+		{
+			id: "6D82162B3B45A48A"
+			rewards: [{
+				id: "6AD6AEFD15A11A78"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "683C07D72E05B627"
+				item: "tide:shadow_snapper"
+				type: "item"
+			}]
+			x: 3.8249999999999997d
+			y: -4.25d
+		}
+		{
+			id: "4742664D0F19FDDB"
+			rewards: [{
+				id: "785C358A70FACE8D"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "59ACFA86EB9ADA29"
+				item: "tide:deep_grouper"
+				type: "item"
+			}]
+			x: 3.8249999999999997d
+			y: -3.4d
+		}
+		{
+			id: "544CADAD7534E201"
+			rewards: [{
+				id: "5E16AE4C51FDAC6D"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "0EA4DF2B1A7727F9"
+				item: "tide:bedrock_tetra"
+				type: "item"
+			}]
+			x: 3.8249999999999997d
+			y: -2.55d
+		}
+		{
+			id: "46EFAA74B24E5B3E"
+			rewards: [{
+				count: 5
+				id: "27FF6ABD15BAC624"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "2FF7809F2A5BF26B"
+				item: "tide:endstone_perch"
+				type: "item"
+			}]
+			x: 3.8249999999999997d
+			y: -1.7d
+		}
+		{
+			id: "5AC77278BBDFD2B1"
+			rewards: [{
+				count: 5
+				id: "6E195D908277A6C7"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "3DD8D56DACC57E57"
+				item: "tide:enderfin"
+				type: "item"
+			}]
+			x: 3.8249999999999997d
+			y: -0.85d
+		}
+		{
+			id: "447B05F995B10984"
+			rewards: [{
+				count: 5
+				id: "705497FCD585C1B7"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "4E62ECA9D1DF18C7"
+				item: "tide:endergazer"
+				type: "item"
+			}]
+			x: 3.8249999999999997d
+			y: 0.0d
+		}
+		{
+			id: "5007C937F41BBA61"
+			rewards: [{
+				count: 5
+				id: "1C01DD8276EF893C"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "3AA6FA6970006979"
+				item: "tide:purpur_pike"
+				type: "item"
+			}]
+			x: 3.8249999999999997d
+			y: 0.85d
+		}
+		{
+			id: "79442B072803B86D"
+			rewards: [{
+				count: 5
+				id: "79868088F03D9B49"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "532374433D929560"
+				item: "tide:chorus_cod"
+				type: "item"
+			}]
+			x: 3.8249999999999997d
+			y: 1.7d
+		}
+		{
+			id: "1063A97D99EB6D9C"
+			rewards: [{
+				count: 5
+				id: "48CCD1F57E5A9391"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "62CEC229EB78CEDD"
+				item: "tide:elytrout"
+				type: "item"
+			}]
+			x: 3.8249999999999997d
+			y: 2.55d
+		}
+		{
+			id: "32D5CA5A692EC2DE"
+			rewards: [{
+				id: "12C43A72AEF2549A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "7B39E54311CB039D"
+				item: "tide:prarie_pike"
+				type: "item"
+			}]
+			x: 3.8249999999999997d
+			y: 3.4d
+		}
+		{
+			id: "56B51D6498B063C5"
+			rewards: [{
+				id: "4A9CE7D888FA2B4D"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "49C8EFAD865E985B"
+				item: "tide:sandskipper"
+				type: "item"
+			}]
+			x: 4.675d
+			y: -4.25d
+		}
+		{
+			id: "33ECA0E12EBDBB25"
+			rewards: [{
+				id: "75DD130B066F6FF0"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "1435CA3F05015DDF"
+				item: "tide:blossom_bass"
+				type: "item"
+			}]
+			x: 4.675d
+			y: -3.4d
+		}
+		{
+			id: "060F082468C15232"
+			rewards: [{
+				id: "1BF7A48060CA6400"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "78875028FA862D65"
+				item: "tide:oakfish"
+				type: "item"
+			}]
+			x: 4.675d
+			y: -2.55d
+		}
+		{
+			id: "6D3A7AB6F67E4AB2"
+			rewards: [{
+				id: "445181C89FBC7AA5"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "3E361417F274A2D2"
+				item: "tide:frostbite_flounder"
+				type: "item"
+			}]
+			x: 4.675d
+			y: -1.7d
+		}
+		{
+			id: "5315ECC169B2396A"
+			rewards: [{
+				id: "000A0E8E873FC833"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "142A1FC23C4199C7"
+				item: "tide:mirage_catfish"
+				type: "item"
+			}]
+			x: 4.675d
+			y: -0.85d
+		}
+		{
+			id: "0903C8C3F2228DEF"
+			rewards: [{
+				id: "7AC1AB5E3D2C1A15"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "7804891FB297852A"
+				item: "tide:echofin_snapper"
+				type: "item"
+			}]
+			x: 4.675d
+			y: 0.0d
+		}
+		{
+			id: "14F25D765B2C3F20"
+			rewards: [{
+				id: "4D6BDB2639F16D49"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "36CBD0CFE0AA0DBB"
+				item: "tide:sunspike_goby"
+				type: "item"
+			}]
+			x: 4.675d
+			y: 0.85d
+		}
+		{
+			id: "2961E0D95F4BBAA0"
+			rewards: [{
+				id: "7E5442B9A92904DF"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "57572CF21BA13290"
+				item: "tide:birch_trout"
+				type: "item"
+			}]
+			x: 4.675d
+			y: 1.7d
+		}
+		{
+			id: "1A8D37CC20331F3B"
+			rewards: [{
+				id: "6B238153FE28987D"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "5E51EF6C3C3B06E5"
+				item: "tide:stonefish"
+				type: "item"
+			}]
+			x: 4.675d
+			y: 2.55d
+		}
+		{
+			id: "7F72720140A80AEF"
+			rewards: [{
+				id: "3F8966F142A32D22"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "5DAB6D679A7CB5A6"
+				item: "tide:dripstone_darter"
+				type: "item"
+			}]
+			x: 4.675d
+			y: 3.4d
+		}
+		{
+			id: "6D75CA7FE203806A"
+			rewards: [{
+				id: "08CAE76C6E05204E"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "2F0201B15B40B2EB"
+				item: "tide:slimefin_snapper"
+				type: "item"
+			}]
+			x: 5.5249999999999995d
+			y: -4.25d
+		}
+		{
+			id: "096E6FAF533F3E50"
+			rewards: [{
+				id: "12C0ADCDC12ACD30"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "3F5598673E90DD03"
+				item: "tide:sporestalker"
+				type: "item"
+			}]
+			x: 5.5249999999999995d
+			y: -3.4d
+		}
+		{
+			id: "3E383C13F63DFE1D"
+			rewards: [{
+				id: "5309D60204128B88"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "1E7E3889CC57D324"
+				item: "tide:leafback"
+				type: "item"
+			}]
+			x: 5.5249999999999995d
+			y: -2.55d
+		}
+		{
+			id: "58638727F7D55056"
+			rewards: [{
+				id: "0402C159638141CE"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "4B44D3212CF61CBB"
+				item: "tide:fluttergill"
+				type: "item"
+			}]
+			x: 5.5249999999999995d
+			y: -1.7d
+		}
+		{
+			id: "2EDE934892B48DFC"
+			rewards: [{
+				id: "02D25425FD989207"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "4F020D8A9C4EA982"
+				item: "tide:pine_perch"
+				type: "item"
+			}]
+			x: 5.5249999999999995d
+			y: -0.85d
+		}
+		{
+			id: "18BDC85A72FF94EB"
+			rewards: [{
+				id: "3FDBC7C61DB16D37"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "08A3802A12FFE7BD"
+				item: "tide:ember_koi"
+				type: "item"
+			}]
+			x: 5.5249999999999995d
+			y: 0.0d
+		}
+		{
+			id: "3999F51FD6A447A2"
+			rewards: [{
+				id: "7B9AFE350A3EA2C7"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "1AF8EB593963F32A"
+				item: "tide:inferno_guppy"
+				type: "item"
+			}]
+			x: 5.5249999999999995d
+			y: 0.85d
+		}
+		{
+			id: "2E31F7566571C721"
+			rewards: [{
+				id: "06A2E2ACC33713F9"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "76C51A2E043851C5"
+				item: "tide:obsidian_pike"
+				type: "item"
+			}]
+			x: 5.5249999999999995d
+			y: 1.7d
+		}
+		{
+			id: "5C9D9DD9EFEC38BB"
+			rewards: [{
+				id: "29FF4806415A5CCF"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "4F4A30448D9D7828"
+				item: "tide:volcano_tuna"
+				type: "item"
+			}]
+			x: 5.5249999999999995d
+			y: 2.55d
+		}
+		{
+			id: "6C9AD6D2403E8368"
+			rewards: [{
+				count: 3
+				id: "18B6EE46E4F4524A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "35CBB56F6222EA88"
+				item: "tide:magma_mackerel"
+				type: "item"
+			}]
+			x: 5.5249999999999995d
+			y: 3.4d
+		}
+		{
+			id: "36D85BF854AE3434"
+			rewards: [{
+				count: 3
+				id: "60E71CAEEB15EF86"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "1772B8393F36A407"
+				item: "tide:warped_guppy"
+				type: "item"
+			}]
+			x: 6.375d
+			y: -4.25d
+		}
+		{
+			id: "0F071B826D8D18DE"
+			rewards: [{
+				count: 3
+				id: "7F4BBA66111D7DCC"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "736498BAB1B963B1"
+				item: "tide:crimson_fangjaw"
+				type: "item"
+			}]
+			x: 6.375d
+			y: -3.4d
+		}
+		{
+			id: "0D025FC645755DC6"
+			rewards: [{
+				count: 3
+				id: "1213E892113283EE"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "1A101218F31098F1"
+				item: "tide:ashen_perch"
+				type: "item"
+			}]
+			x: 6.375d
+			y: -2.55d
+		}
+		{
+			id: "3FD9C9CC85490340"
+			rewards: [{
+				count: 3
+				id: "247653494226517C"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "1E99CC2DA1FDA5F4"
+				item: "tide:witherfin"
+				type: "item"
+			}]
+			x: 6.375d
+			y: -1.7d
+		}
+		{
+			id: "46F28DA29470503A"
+			rewards: [{
+				count: 3
+				id: "7E942FA21D3E7837"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "20902A61FC937C92"
+				item: "tide:soulscaler"
+				type: "item"
+			}]
+			x: 6.375d
+			y: -0.85d
+		}
+		{
+			id: "182E9B636D5F564A"
+			rewards: [{
+				count: 3
+				id: "0B40799466C8EC44"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "655F62BE42ABB2E2"
+				item: {
+					Count: 1
+					id: "tide:blazing_swordfish"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.375d
+			y: 0.0d
+		}
+		{
+			id: "689F0971E40040E2"
+			rewards: [{
+				count: 5
+				id: "6368BFC5EBDCF31A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "1F4E9DDACF0FD9A4"
+				item: "tide:aquathorn"
+				type: "item"
+			}]
+			x: 6.375d
+			y: 0.85d
+		}
+		{
+			id: "6D32C88DAE0E0F36"
+			rewards: [{
+				count: 5
+				id: "655CB7CDD1FD9CDB"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "58BE0BD98AB78AB1"
+				item: "tide:midas_fish"
+				type: "item"
+			}]
+			x: 6.375d
+			y: 1.7d
+		}
+		{
+			id: "1922CB296B857C1D"
+			rewards: [{
+				count: 6
+				id: "3E7B030953E4CDE4"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "7D0C36F3B035A05D"
+				item: "tide:voidseeker"
+				type: "item"
+			}]
+			x: 6.375d
+			y: 2.55d
+		}
+		{
+			id: "6CB6D102264804CC"
+			rewards: [{
+				count: 5
+				id: "25ACE70D6F21F7E2"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "72BCAE70EE77A52E"
+				item: "tide:shooting_starfish"
+				type: "item"
+			}]
+			x: 6.375d
+			y: 3.4d
+		}
+	]
 	title: "Archfisher"
 }

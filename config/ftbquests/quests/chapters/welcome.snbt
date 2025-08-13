@@ -15,7 +15,7 @@
 			y: 0.0d
 		}
 		{
-			click: "https://discord.gg/SRfTqrHc"
+			click: "https://discord.gg/mqVNhCU2pT"
 			height: 1.5d
 			hover: ["Join the official discord!"]
 			image: "kubejs:textures/questbook/welcomescreen/welcomescreen_discord.png"
@@ -194,8 +194,6 @@
 				"&2&lGear&r &r-  Quests outside of the Main progression that unlock quests in other chapters (usually in the Market)."
 				""
 				"&2&lDiamond&r&r - Repeteable Quests, usually giving some nice items in exchange for currency."
-				""
-				"&l&2Pentagon&r&r - like &2&lDiamond&r&r but not repeatable"
 			]
 			icon: "ftbquests:book"
 			id: "296394452736D250"

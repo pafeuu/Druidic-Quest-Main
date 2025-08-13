@@ -285,7 +285,13 @@ global.nukelist = ["twigs:calcite_wall",
 	'aether_redux:infused_veridium_pickaxe',
 	'aether_redux:infused_veridium_axe',
 	'aether_redux:infused_veridium_hoe',
-	'aether_redux:infused_veridium_dart_shooter']/*,
+	'aether_redux:infused_veridium_dart_shooter',
+	'enigmaticlegacy:the_cube',
+	'enigmaticlegacy:enigmatic_item',
+	'enigmaticlegacy:void_pearl',
+	'enigmaticlegacy:escape_scroll',
+	'enigmaticlegacy:fabulous_scroll',
+	'forbidden_arcanus:deepslate_arcane_crystal_ore']/*,
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',
 	'thermal:enderium_dust',
@@ -369,7 +375,7 @@ ServerEvents.recipes(event => {
 		"architects_palette:tuff_bricks",
 		"regions_unexplored:yellow_dye_from_tall_yellow_bioshroom"*/,
 		"minecraft:bamboo_mosaic_slab",
-		"ftbfiltersystem:smart_filter"		
+		"ftbfiltersystem:smart_filter",		
 		]
 	
 	RemoveById.forEach(id => {
