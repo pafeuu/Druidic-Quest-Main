@@ -56,7 +56,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.attackDamageBonus = 0
     tier.level = 2
     tier.enchantmentValue = 24
-    tier.repairIngredient = 'ars_nouveau:earth_essence'
+    tier.repairIngredient = "#forge:ingots/iron"
   })
 
   event.add('primitive', tier => {
@@ -65,7 +65,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.attackDamageBonus = 0
     tier.level = 1
     tier.enchantmentValue = 12
-    tier.repairIngredient = 'quark:sturdy_stone'
+    tier.repairIngredient = "#forge:storage_blocks/cobblestone"
   })
 
   event.add('basic', tier => {
@@ -74,7 +74,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.attackDamageBonus = 2
     tier.level = 2
     tier.enchantmentValue = 12
-    tier.repairIngredient = '#forge:storage_blocks/lead'
+    tier.repairIngredient = '#forge:ingots/lead'
   })
 
   event.add('sturdy', tier => {
@@ -92,7 +92,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.attackDamageBonus = 0
     tier.level = 1
     tier.enchantmentValue = 16
-    tier.repairIngredient = 'thermal:blizz_rod'
+    tier.repairIngredient = "#forge:ingots/iron"
   })
 
   event.add('grass', tier => {
@@ -101,7 +101,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.attackDamageBonus = 0
     tier.level = 1
     tier.enchantmentValue = 16
-    tier.repairIngredient = 'kubejs:nature_essence'
+    tier.repairIngredient = "#forge:ingots/iron"
   })
 
 })
