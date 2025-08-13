@@ -100,6 +100,8 @@ JEIEvents.information(event => {
     event.addItem("thermal:sapphire_ore",["Found between y-15 and y-30 in the twilight forest"])
     event.addItem("forbidden_arcanus:runic_stone",["Found between y0 and y-30 in the twilight forest"])
     event.addItem("forbidden_arcanus:stella_arcanum",["Found between y-10 and y-30 in the twilight forest"])
+    event.addItem("irons_spellbooks:arcane_debris",["Found near y56 in the overworld"])
+    event.addItem("forbidden_arcanus:darkstone",["Found near y56 in the overworld"])
 
     event.addItem('supplementaries:music_disc_heave_ho',["Obtained by killing a Creeper with a Cannonball"])
     event.addItem('aether_redux:ancient_sentrite_music_disc',["Drops when Sentry kills another Sentry"])
