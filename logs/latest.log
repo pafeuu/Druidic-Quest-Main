@@ -13911,3 +13911,68 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceL
 [13Aug2025 19:42:21.183] [Thread-63/INFO] [EMI/]: [EMI] Baked 68579 recipes in 654ms
 [13Aug2025 19:42:21.193] [Thread-63/INFO] [EMI/]: [EMI] Baking search
 [13Aug2025 19:42:21.747] [Thread-68/INFO] [EMI/]: [EMI] Baked recipes after reload in 564ms
+[13Aug2025 19:42:26.979] [Thread-63/INFO] [EMI/]: [EMI] Finishing up
+[13Aug2025 19:42:26.979] [Thread-63/INFO] [EMI/]: [EMI] Reloaded EMI in 10172ms
+[13Aug2025 19:43:28.629] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] ScreenCustomizationLayer registered: nl.requios.effortlessbuilding.gui.buildmode.RadialMenu
+[13Aug2025 19:43:29.258] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[13Aug2025 19:43:29.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Testing Grounds]'/minecraft:overworld
+[13Aug2025 19:43:29.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Testing Grounds]'/minecraft:the_nether
+[13Aug2025 19:43:29.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Testing Grounds]'/twilightforest:twilight_forest
+[13Aug2025 19:43:29.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Testing Grounds]'/minecraft:the_end
+[13Aug2025 19:43:29.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Testing Grounds]'/deeperdarker:otherside
+[13Aug2025 19:43:29.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Testing Grounds]'/aether:the_aether
+[13Aug2025 19:45:39.489] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] ScreenCustomizationLayer registered: inventory_screen
+[13Aug2025 19:45:39.498] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] ScreenCustomizationLayer registered: creative_mode_inventory_screen
+[13Aug2025 19:45:47.876] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] ScreenCustomizationLayer registered: dev.emi.emi.screen.RecipeScreen
+[13Aug2025 19:48:10.411] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Giving up search for pupfish chunk after 6 minutes. no pupfish will spawn in this world :( 
+[13Aug2025 19:52:34.577] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] ScreenCustomizationLayer registered: chat_screen
+[13Aug2025 19:52:43.866] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 0 items
+[13Aug2025 19:52:45.068] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 1 [Aura Cache]
+[13Aug2025 19:52:46.351] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 0 items
+[13Aug2025 19:52:55.835] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 28 items
+[13Aug2025 19:52:57.397] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 27 items
+[13Aug2025 19:53:07.416] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:crafting in 5.124 ms. 8003/10301 recipes are parallelized.
+[13Aug2025 19:53:08.521] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 26 items
+[13Aug2025 19:53:20.056] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[13Aug2025 19:53:20.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Testing Grounds]'/minecraft:overworld
+[13Aug2025 19:53:20.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Testing Grounds]'/minecraft:the_nether
+[13Aug2025 19:53:20.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Testing Grounds]'/twilightforest:twilight_forest
+[13Aug2025 19:53:20.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Testing Grounds]'/minecraft:the_end
+[13Aug2025 19:53:20.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Testing Grounds]'/deeperdarker:otherside
+[13Aug2025 19:53:20.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Testing Grounds]'/aether:the_aether
+[13Aug2025 19:59:20.482] [Server thread/INFO] [EMI/]: [EMI] paffeu cheated in 1 astral_fruit
+[13Aug2025 19:59:25.813] [Server thread/INFO] [EMI/]: [EMI] paffeu cheated in 1 forbidden_fruit
+[13Aug2025 20:00:00.008] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[13Aug2025 20:00:00.009] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Found world folder at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\1.20.1\minecraft\saves\Testing Grounds\.
+[13Aug2025 20:00:00.457] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Last backup size: 134.3MB Current world size: 110.1MB Current Available space: 601.5GB ExpectedSize 98.7MB
+[13Aug2025 20:00:00.457] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to true
+[13Aug2025 20:00:00.457] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to true
+[13Aug2025 20:00:00.457] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world twilightforest:twilight_forest save state to true
+[13Aug2025 20:00:00.457] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to true
+[13Aug2025 20:00:00.457] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world deeperdarker:otherside save state to true
+[13Aug2025 20:00:00.457] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world aether:the_aether save state to true
+[13Aug2025 20:00:00.461] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\1.20.1\minecraft\backups\backups.json
+[13Aug2025 20:00:00.464] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Waiting for world save to complete.
+[13Aug2025 20:00:00.599] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Starting Server backup
+[13Aug2025 20:00:00.911] [FTB Backups backup thread 0/INFO] [net.creeperhost.levelio.loader.SaveInfo/]: Detected MC Version 1.20.1, Data version 3465
+[13Aug2025 20:00:00.911] [FTB Backups backup thread 0/INFO] [net.creeperhost.levelio.loader.SaveInfo/]: Save Name: Testing Grounds
+[13Aug2025 20:00:01.425] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.data.Level/]: Did not find a region folder for level: C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\1.20.1\minecraft\saves\Testing Grounds\.\DIM1
+[13Aug2025 20:00:01.779] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder deeperdarker:otherside
+[13Aug2025 20:00:01.779] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder minecraft:server_faucet_test_level
+[13Aug2025 20:00:01.780] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder minecraft:server_projectile_test_level
+[13Aug2025 20:00:01.780] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder twilightforest:twilight_forest
+[13Aug2025 20:00:02.926] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup preview created, Scan took 1093ms, Capture took 1003ms
+[13Aug2025 20:00:06.051] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to false
+[13Aug2025 20:00:06.051] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to false
+[13Aug2025 20:00:06.051] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world twilightforest:twilight_forest save state to false
+[13Aug2025 20:00:06.051] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to false
+[13Aug2025 20:00:06.051] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world deeperdarker:otherside save state to false
+[13Aug2025 20:00:06.051] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world aether:the_aether save state to false
+[13Aug2025 20:00:06.062] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Backup finished in 0m, 5s, 592ms
+[13Aug2025 20:00:06.151] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup size 46.2MB World Size 110.1MB
+[13Aug2025 20:00:06.152] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\1.20.1\minecraft\backups\backups.json
+[13Aug2025 20:00:06.154] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: New backup created at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\1.20.1\minecraft\backups\2025-8-13_20-0-0.zip size: 46.2MB Took: 0m, 5s, 592ms Sha1: 2348d25b4eb2066e952198da618260e7cb52efee
+[13Aug2025 20:00:26.743] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: More backups than 5 found, Removing oldest backup
+[13Aug2025 20:00:26.764] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Removed old backup 2025-8-7_23-30-0.zip
+[13Aug2025 20:00:26.764] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: File missing, removing from backups C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\1.20.1\minecraft\backups\2025-8-7_23-30-0.zip
+[13Aug2025 20:00:26.828] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\1.20.1\minecraft\backups\backups.json

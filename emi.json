@@ -323,6 +323,9 @@
     }
   ],
   "lookup_history": [
+    "item:naturesaura:gold_leaf",
+    "item:enigmaticlegacy:astral_fruit",
+    "item:ancient_aether:valkyrum_lance{Damage:0}",
     "item:ars_nouveau:enchanting_apparatus",
     "item:rubinated_nether:freezer",
     "item:kubejs:ice_blade{Damage:0,ISB_Spells:{data:[{id:\"irons_spellbooks:icicle\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
@@ -1466,7 +1469,6 @@
     },
     "item:deep_aether:stratus_ingot",
     "item:deep_aether:frozen_goldenleaf_berries",
-    "item:naturesaura:gold_leaf",
     {
       "type": "item",
       "id": "wizards_reborn:rainbow_arcane_lumos",
@@ -1576,9 +1578,7 @@
     "item:silly_oddities:jungle_pedestal",
     "item:silly_oddities:birch_pedestal",
     "item:silly_oddities:spruce_pedestal",
-    "item:silly_oddities:oak_pedestal",
-    "item:forbidden_arcanus:darkstone_pedestal",
-    "item:wizards_reborn:innocent_pedestal"
+    "item:silly_oddities:oak_pedestal"
   ],
   "craft_history": [
     "minecraft:kjs/sawmill_sawmill",
