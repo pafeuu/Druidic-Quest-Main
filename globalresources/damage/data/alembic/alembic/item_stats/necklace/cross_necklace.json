@@ -11,9 +11,16 @@
       {
         "type": "append",
         "attribute": "alembic:true_damage.resistance",
-        "value": 2,
+        "value": 4,
         "operation": "ADDITION",
         "uuid": "96d1d0cd-9c43-491e-bb05-c4075df02201"
+      },
+      {
+        "type": "append",
+        "attribute": "alembic:holy_damage.resistance",
+        "value": 4,
+        "operation": "ADDITION",
+        "uuid": "96d1d0cd-2243-491e-b305-c4075df02201"
       }
     ],
     "equipment_slot": "necklace"
