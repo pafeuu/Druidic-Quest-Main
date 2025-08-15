@@ -1,82 +1,33 @@
-[19:31:30] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[19:31:30] [INIT] Loaded plugins:
-[19:31:30] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[19:31:30] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[19:31:30] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[19:31:30] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
-[19:31:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[19:31:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[19:31:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[19:31:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[19:31:30] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
-[19:31:30] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
-[19:31:30] [INIT] - com.falaut.KubeJSNaturesAuraPlugin
-[19:31:30] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
-[19:31:30] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[19:31:30] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
-[19:31:30] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[19:31:30] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[19:31:30] [INIT] - com.almostreliable.morejs.Plugin
-[19:31:30] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
-[19:31:30] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[19:31:30] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[19:31:30] [INIT] - com.probejs.ProbeJSPlugin
-[19:31:30] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
-[19:31:30] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
-[19:31:30] [ERROR] ! Hiding.js#1: ReferenceError: "RecipeViewerEvents" is not defined.
-[19:31:30] [INFO] Loaded script client_scripts:Jei.js in 0.002 s
-[19:31:30] [INFO] Loaded script client_scripts:NameChange.js in 0.001 s
-[19:31:30] [INFO] Loaded script client_scripts:ponder.js in 0.007 s
-[19:31:30] [INFO] Loaded script client_scripts:REI_Group.js in 0.0 s
-[19:31:30] [INFO] Loaded script client_scripts:Tooltips.js in 0.003 s
-[19:31:30] [INFO] Loaded 5/6 KubeJS client scripts in 0.111 s with 0 errors and 0 warnings
-[19:31:55] [ERROR] ! NameChange.js#7: Error in 'ClientEvents.lang': Java method "renameItem" was invoked with [object Object] as "this" value that can not be converted to Java type dev.latvian.mods.kubejs.client.LangEventJS.
-[19:31:55] [ERROR] ! …rhino.EvaluatorException: Java method "renameItem" was invoked with [object Object] as "this" value that can not be converted to Java type …kubejs.client.LangEventJS. (client_scripts:NameChange.js#7)
-[19:31:55] [ERROR] !   at …rhino.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:67)
-[19:31:55] [ERROR] !   at …rhino.Context.reportRuntimeError(Context.java:133)
-[19:31:55] [ERROR] !   at …rhino.Context.reportRuntimeError(Context.java:173)
-[19:31:55] [ERROR] !   at …rhino.Context.reportRuntimeError3(Context.java:155)
-[19:31:55] [ERROR] !   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:448)
-[19:31:55] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
-[19:31:55] [ERROR] !   at script.tools(client_scripts:NameChange.js:7)
-[19:31:55] [ERROR] !   at script(client_scripts:NameChange.js:13)
-[19:31:55] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
-[19:31:55] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
-[19:31:55] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[19:31:55] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
-[19:31:55] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
-[19:31:55] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[19:31:55] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
-[19:31:55] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[19:31:55] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
-[19:31:55] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
-[19:31:55] [ERROR] !   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy129.onEvent(Unknown Source)
-[19:31:55] [ERROR] !   at …kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
-[19:31:55] [ERROR] !   at …kubejs.event.EventHandler.postToHandlers(EventHandler.java:304)
-[19:31:55] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:264)
-[19:31:55] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:226)
-[19:31:55] [ERROR] !   at …kubejs.client.GeneratedClientResourcePack.generate(GeneratedClientResourcePack.java:104)
-[19:31:55] [ERROR] !   at …kubejs.script.data.GeneratedResourcePack.getGenerated(GeneratedResourcePack.java:88)
-[19:31:55] [ERROR] !   at …kubejs.client.GeneratedClientResourcePack.<init>(GeneratedClientResourcePack.java:67)
-[19:31:55] [ERROR] !   at …kubejs.client.GeneratedClientResourcePack.inject(GeneratedClientResourcePack.java:48)
-[19:31:55] [ERROR] !   at net.minecraft.client.Minecraft.modifyExpressionValue$emo000$kjs$loadPacks(Minecraft.java:18979)
-[19:31:55] [ERROR] !   at net.minecraft.client.Minecraft.<init>(Minecraft.java:559)
-[19:31:55] [ERROR] !   at net.minecraft.client.main.Main.main(Main.java:182)
-[19:31:55] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:568)
-[19:31:55] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
-[19:31:55] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99)
-[19:31:55] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25)
-[19:31:55] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
-[19:31:55] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
-[19:31:55] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
-[19:31:55] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
-[19:31:55] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
-[19:31:55] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
-[19:31:55] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
-[19:31:55] [ERROR] !   at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
-[19:31:55] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:568)
-[19:31:55] [ERROR] !   at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:69)
-[19:31:55] [ERROR] !   at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:105)
-[19:31:55] [ERROR] !   at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
-[19:31:55] [ERROR] !   at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
-[19:32:02] [INFO] Client resource reload complete!
+[16:50:25] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[16:50:25] [INIT] Loaded plugins:
+[16:50:25] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[16:50:25] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[16:50:25] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[16:50:25] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
+[16:50:25] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[16:50:25] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[16:50:25] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[16:50:25] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[16:50:25] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[16:50:25] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
+[16:50:25] [INIT] - com.falaut.KubeJSNaturesAuraPlugin
+[16:50:25] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[16:50:25] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[16:50:25] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
+[16:50:25] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[16:50:25] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[16:50:25] [INIT] - com.almostreliable.morejs.Plugin
+[16:50:25] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
+[16:50:25] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[16:50:25] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[16:50:25] [INIT] - com.probejs.ProbeJSPlugin
+[16:50:25] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[16:50:25] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[16:50:25] [ERROR] ! Hiding.js#1: ReferenceError: "RecipeViewerEvents" is not defined.
+[16:50:25] [INFO] Loaded script client_scripts:Jei.js in 0.004 s
+[16:50:25] [INFO] Loaded script client_scripts:NameChange.js in 0.002 s
+[16:50:25] [INFO] Loaded script client_scripts:ponder.js in 0.015 s
+[16:50:25] [INFO] Loaded script client_scripts:REI_Group.js in 0.0 s
+[16:50:25] [INFO] Loaded script client_scripts:Tooltips.js in 0.011 s
+[16:50:25] [INFO] Loaded 5/6 KubeJS client scripts in 0.159 s with 0 errors and 0 warnings
+[16:50:41] [INFO] Client resource reload complete!

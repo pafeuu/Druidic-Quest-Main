@@ -2587,9 +2587,86 @@ Patch 0.3.2.1
     -Sun spirit minions will no longer get buffs from difficulty
     -Hidden Infused Veridium tools and weapons
 
-2.5.1
+Patch 2.6
+
+### Updated Mods:
+    -AdvancedLootInfo (You can now see all the lootjs changes in EMI)
+
+### New Items:
+    -Infusion Catalyst
+    -Elemental Core
+    -Coal Chunk
+    -Charcoal Chunk
+    -Coke Chunk
 
 ### Recipes:
     -Hidden Mage's SpellBook Dummy recipe
     -Changed for The Terraformer
     -Changed for Bejeweled Crucifix
+    -Fixed for Enchanting Apparatus
+    -Fixed for Cross Necklace
+    -Changed Magical Generator Block recipe to right clicking instead of lightning crafting
+    -Added for Silver Ring
+    -Added for Skyjade Block
+    -Added for Zanite Block
+    -Crushing in nature altar is now slower and takes more aura
+    -Added for Rotten Flesh
+    -Added for Bone
+    -Added for Wooden Stand
+    -Every Natural Altar recipe now needs a catalyst
+    -Added for Souls
+    -Added for Bottle of Ichor
+    -Added for Forbidden Fruit
+    -Added for Celestial Fruit
+    -Added for Angel's Blessing
+    -Added for Blazing Core
+    -Added for Will of the Ocean
+    -Added for Heart of the Golem
+    -Removed for Anvil from Zanite
+    -Removed for Stonecutter from Zanite
+    -Removed for Smithing table from Zanite
+    -Changed for Fluid Router
+    -Fixed in world crafting of chocolate
+    -Fixed for Salmon Quartz
+    -Changed for Natural Altar
+    -Changed for Crumbling Catalyst
+    -Added for Organic Compost
+    -Added for Liveroot Block
+    -Changed for Kiln Brick
+
+### New Textures:
+    -The Terraformer(By Señor Random)
+
+### Loottable:
+    -Fixed shipwreck treasure loot chest
+    -Mobs no longer have 0.1% chance to drop keys
+
+### Quest:
+    -Fixed Sourcelink quest
+    -Replaced knowledge reward with Creative Knowledge Scroll
+    -Added Confectioner Extraordinaire Quest Chapter (By Gyldanword)
+    -Added Michelin-Starred Chef Quest Chapter (By Gyldanword)
+    -Added Master Accessorizer Quest Chapter (By Gyldanword)
+    -Added an Advancment reward for obtaining naga scales
+    -Reworked the Welcome Screen (By Gyldanword)
+    -Adjusted Quests in the Market
+    -Adjusted Tier 1 Chapter
+    -Adjusted Tier 2 Chapter
+    -Fixed Archfisher Chapter dependencies
+    
+### Item Balance:
+    -Fixed Ring of Costly travel speed bonus and made it cost less health
+    -Buffed cross necklace
+    -Wissen Keychain can now only be equipped in charm and necklace slot
+    -Changed the Warden Armor Set bonus
+
+### Other:
+    -Fixed all the broken renames
+    -Cyan beds now stack to 64 like other beds
+    -Cooking Pots now stack to 64
+    -Added tooltip to the faraday armor about it being unbreakable
+    -Fixed Iron Gates double opening 
+    -Skeletons are now much weaker to the physical damage
+    -Spawners need diamond lvl tool to break now
+    -Break Glyph cannot be combo'ed with amplify glyph
+    -Dispensers can now correctly place iron blocks!
