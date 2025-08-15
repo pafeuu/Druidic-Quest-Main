@@ -2110,10 +2110,11 @@
 						AssignedColor: 0.1f
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 6.4d
-			y: -3.9999999999999996d
+			y: 1.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2133,6 +2134,7 @@
 						AssignedColor: 0.2f
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 6.4d
@@ -2156,6 +2158,7 @@
 						AssignedColor: 0.3f
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 6.4d
@@ -2179,6 +2182,7 @@
 						AssignedColor: 0.4f
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 6.4d
@@ -2202,6 +2206,7 @@
 						AssignedColor: 0.5f
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 6.4d
@@ -2225,6 +2230,7 @@
 						AssignedColor: 0.6f
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 6.4d
@@ -2248,27 +2254,11 @@
 						AssignedColor: 0.7f
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 6.4d
 			y: 0.8000000000000007d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "65BA1A64342C762E"
-			rewards: [{
-				id: "7408992082776818"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "3B4024A6FEEFDBF0"
-				item: "enigmaticlegacy:unwitnessed_amulet"
-				type: "item"
-			}]
-			x: 6.4d
-			y: 1.6000000000000005d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2289,7 +2279,7 @@
 				type: "item"
 			}]
 			x: 6.4d
-			y: 2.4000000000000004d
+			y: 2.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]

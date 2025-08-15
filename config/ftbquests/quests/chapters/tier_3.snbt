@@ -30,8 +30,8 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: -8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0628C1A97EB1A5DB"]
@@ -53,7 +53,7 @@
 				item: "wizards_reborn:arcane_gold_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -10.0d
 			y: 5.0d
 		}
 		{
@@ -78,8 +78,8 @@
 				type: "item"
 			}]
 			title: "Elemental Binder"
-			x: 0.0d
-			y: 2.5d
+			x: -6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
@@ -99,7 +99,7 @@
 				item: "vintageimprovements:redstone_module"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -3.5d
 			y: 0.5d
 		}
 		{
@@ -124,8 +124,8 @@
 				item: "kubejs:ender_essence"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -159,7 +159,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -6.0d
 			y: 0.5d
 		}
 		{
@@ -193,7 +193,7 @@
 				item: "kubejs:andesite_machine"
 				type: "item"
 			}]
-			x: 6.0d
+			x: -3.5d
 			y: -3.0d
 		}
 		{
@@ -304,8 +304,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: -6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6E30DFF0F2B9B811"]
@@ -334,8 +334,8 @@
 				type: "dimension"
 			}]
 			title: "Visit the Aether!"
-			x: 0.0d
-			y: -1.25d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -384,69 +384,103 @@
 		{
 			dependencies: ["166492730EA5EBBD"]
 			id: "792DD974C0AB477E"
+			rewards: [{
+				count: 4
+				id: "78D619CDF7FF9F4E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6161DB68609DBFCF"
 				item: "kubejs:life_essence"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.5d
+			x: -2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0D87D09C792CBD96"]
 			id: "47CA7121501C2397"
+			rewards: [{
+				id: "4B96B8FAF2F061E1"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5130862EBA313B50"
 				item: "kubejs:death_essence"
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
 			id: "0D87D09C792CBD96"
+			rewards: [{
+				id: "307525BF75D22644"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "62E442B4CD42EE7E"
 				item: "kubejs:dark_essence"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
 			id: "166492730EA5EBBD"
+			rewards: [{
+				count: 2
+				id: "0920A61A02F82EA5"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "08C0226DA0196E7F"
 				item: "kubejs:light_essence"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: -4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["166492730EA5EBBD"]
 			id: "1AD18FEB552DB6BF"
+			rewards: [{
+				count: 4
+				id: "4287B8C98F2DC003"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
 			subtitle: "Mobs Be Gone!"
 			tasks: [{
 				id: "5281653DC0962802"
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: -4.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
 			id: "5604F661A992D207"
+			rewards: [{
+				count: 4
+				id: "6D78A7F6E5F2DB6E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "53086F7DD8F4B7BA"
 				item: "kubejs:lightning_essence"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: -6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -456,6 +490,12 @@
 			description: ["For many processes going forward, you are going to need to generate &cstress units&r. Steam engines will give you access to this crucial energy source!"]
 			icon: "create:steam_engine"
 			id: "309BD32733CE043D"
+			rewards: [{
+				count: 6
+				id: "3F4F683CF2CC1A88"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			subtitle: "Stressed Out!"
 			tasks: [
 				{
@@ -489,8 +529,8 @@
 				item: "wizards_reborn:arcane_iterator"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: -8.0d
+			y: 7.0d
 		}
 	]
 	title: "Tier 3 - Primitive Tech"

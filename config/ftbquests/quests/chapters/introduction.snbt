@@ -512,7 +512,8 @@
 			dependency_requirement: "all_started"
 			description: [
 				""
-				"&aHoes now till blocks in 3x3! They do take 6 times more durability, no matter how many blocks you till.&r"
+				"&aHoes now till blocks in 3x3 or more depending on the hoe! They do take 6 times more durability, no matter how many blocks you till. To till in an AoE you are going to need to crouch&r"
+				""
 				"Tons of crops now have uses in progression. For example, you will need to grow:"
 				""
 				"-wheat to finish &3&ltier 0&r&r  "
@@ -1126,11 +1127,18 @@
 			hide_until_deps_visible: false
 			icon: "immersiveengineering:cokebrick"
 			id: "51966AE20559FFA0"
-			rewards: [{
-				id: "29DC6958A4800B95"
-				item: "thermal:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "29DC6958A4800B95"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+				{
+					id: "00FEE0CB37CD6321"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Heatin' Up!"

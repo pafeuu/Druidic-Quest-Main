@@ -3,6 +3,9 @@ ServerEvents.recipes(event => {
     function AoeHoe(block,farmland){
         event.custom({
             "type": "lychee:block_interacting",
+            "contextual": {
+              "type": "is_sneaking",
+            },
             "post": [
               {
                 "type": "execute",
@@ -29,6 +32,9 @@ ServerEvents.recipes(event => {
 
         event.custom({
             "type": "lychee:block_interacting",
+            "contextual": {
+              "type": "is_sneaking",
+            },
             "post": [
               {
                 "type": "execute",
@@ -55,6 +61,9 @@ ServerEvents.recipes(event => {
 
         event.custom({
             "type": "lychee:block_interacting",
+            "contextual": {
+              "type": "is_sneaking",
+            },
             "post": [
               {
                 "type": "execute",
