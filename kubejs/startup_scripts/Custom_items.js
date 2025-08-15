@@ -475,6 +475,11 @@ StartupEvents.registry('item', item => {
   item.create('lead_chestplate','chestplate').tier('lead').tag("dq:tier1/armor")
   item.create('lead_leggings','leggings').tier('lead').tag("dq:tier1/armor")
   item.create('lead_boots','boots').tier('lead').tag("dq:tier1/armor")
+
+  item.create('bronze_helmet','helmet').tier('bronze').tag("dq:tier1/armor")
+  item.create('bronze_chestplate','chestplate').tier('bronze').tag("dq:tier1/armor")
+  item.create('bronze_leggings','leggings').tier('bronze').tag("dq:tier1/armor")
+  item.create('bronze_boots','boots').tier('bronze').tag("dq:tier1/armor")
   
   ///===================================================FOOD===========================================================
 
@@ -488,6 +493,12 @@ StartupEvents.registry('item', item => {
   item.create('aquatic_spice')
   item.create('underground_spice')
   item.create('cosmic_spice')
+  
+  ///==================================================Coal Chunks====================================================
+
+  item.create("coal_chunk").burnTime(200)
+  item.create("charcoal_chunk").burnTime(200)
+  item.create("coke_chunk").burnTime(400)
 
   ///===================================================MISC===========================================================
 
@@ -508,6 +519,7 @@ StartupEvents.registry('item', item => {
   item.create('magic_book').displayName('Magical Book')
   item.create('fiery_clay_blend').displayName('Fiery Clay Blend')
   item.create('basic_token').displayName('Basic Token')
+  item.create("elemental_core").rarity("legendary")
   
 })
 
