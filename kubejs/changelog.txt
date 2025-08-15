@@ -2587,7 +2587,7 @@ Patch 0.3.2.1
     -Sun spirit minions will no longer get buffs from difficulty
     -Hidden Infused Veridium tools and weapons
 
-Patch 2.6
+# Patch 2.6
 
 ### Updated Mods:
     -AdvancedLootInfo (You can now see all the lootjs changes in EMI)
@@ -2670,3 +2670,15 @@ Patch 2.6
     -Spawners need diamond lvl tool to break now
     -Break Glyph cannot be combo'ed with amplify glyph
     -Dispensers can now correctly place iron blocks!
+
+# Patch 2.6.1 
+
+### Quests:
+    -Fixed Tier 2 dependencies
+    -Added IE Manual as reward in the last tier0 Quest
+
+### Mob balance:
+    -Changed Death Tome's resistances and damage type
+
+### Other:
+    

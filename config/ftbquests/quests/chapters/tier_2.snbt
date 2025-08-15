@@ -17,6 +17,7 @@
 				""
 				"At the end of the chapter, you will unlock a much better method."
 			]
+			hide_until_deps_complete: true
 			id: "4E33A6524A987E23"
 			rewards: [{
 				id: "4FBC16708C07D75D"
