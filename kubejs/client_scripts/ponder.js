@@ -67,14 +67,8 @@ Ponder.registry((event) => {
         scene.idle(5)
         }
 
-        scene.text(20,"Drop Lemon Quartz in the middle",[3.0,1.5,3.0]).attachKeyFrame();
-        scene.showControls(20,[3.0,1.5,3.0],"down").withItem("kubejs:lemon_quartz");
-    
-        scene.idle(30);
-
-        //scene.text(40,"testt",[3.0,2.5,3.0])//.attachKeyFrame();
-        scene.showControls(15,[3.0,1.5,3.0],"down").withItem("thermal:lightning_charge");
-        scene.text(20,"Summon Lightning to finish crafting!",[3.0,1.5,3.0]).attachKeyFrame();
+        scene.text(20,"Right Click the middle block with Lemon Quartz in hand",[3.0,1.5,3.0]).attachKeyFrame();
+        scene.showControls(20,[3.0,1.5,3.0],"down").withItem("kubejs:lemon_quartz").rightClick();;
 
         scene.idle(30);
 
@@ -145,6 +139,50 @@ Ponder.registry((event) => {
         }
     });
 
+    event.create("kubejs:vine_generator").scene("vine_generator", "Vine Generator Usage","kubejs:vine_generator", (scene, util) => {
+        //scene.showStructure();
+        scene.world.showSection([0,0,0,4,0,4], Facing.DOWN);
+        scene.idle(10);
+        scene.world.showSection([2,1,2,2,2,2], Facing.DOWN)
+        scene.text(40,"Vine Generator needs Mossy Cobblestone below to work!",[2.5,1,2.5]).placeNearTarget().attachKeyFrame()
+        scene.idle(40);
+
+        scene.world.showSection([1,2,2], Facing.DOWN);
+        scene.idle(1);
+        scene.world.showSection([2,2,1], Facing.DOWN);
+        scene.idle(1);
+        scene.world.showSection([2,2,3], Facing.DOWN);
+        scene.idle(1);
+        scene.world.showSection([3,2,2], Facing.DOWN);
+        scene.text(40,"Vine Generator will produce either Ivy or Vines depending what its covered in",[2.5,2,2.5]).placeNearTarget().attachKeyFrame()
+        scene.idle(50);
+        scene.world.showSection([1,1,1],Facing.DOWN)
+        scene.idle(1);
+        scene.world.showSection([1,1,2],Facing.DOWN)
+        scene.idle(1);
+        scene.world.showSection([1,1,3],Facing.DOWN)
+        scene.idle(1);
+        scene.world.showSection([2,1,1],Facing.DOWN)
+        scene.idle(1);
+        scene.world.showSection([3,1,1],Facing.DOWN)
+        scene.idle(1);
+        scene.world.showSection([2,1,3],Facing.DOWN)
+        scene.idle(1);
+        scene.world.showSection([3,1,3],Facing.DOWN)
+        scene.idle(1);
+        scene.world.showSection([3,1,2],Facing.DOWN)
+        scene.idle(1);
+        scene.text(60,"Vine Generator will produce items and drain nearby moss in random intervals of time",[2.5,2,2.5]).placeNearTarget().attachKeyFrame()
+        scene.idle(70);
+        scene.world.createItemEntity(util.vector.topOf(2.5, 2.5, 2.5), util.vector.of(-0.1, 0.3, -0.1), "minecraft:vine");
+        scene.world.replaceBlocks([1,1,1,3,1,3],"minecraft:cobblestone",false)
+        scene.idle(20);
+        scene.showControls(50,[3.5,2,3.5],"down").withItem("ars_nouveau:earth_essence").rightClick()
+        scene.text(40,"You can also use earth essence to cause instant generation!",[2.5,2,2.5]).placeNearTarget().attachKeyFrame()
+        scene.idle(60)
+
+    });
+    
     event.create(['wizards_reborn:arcane_workbench','wizards_reborn:wissen_altar','wizards_reborn:wissen_translator']).scene("wissen_basics","Explaining the wissen basics","kubejs:wissen_basics",(scene, util)=>{
         scene.world.showSection([0, 0, 0, 4, 0, 4], Facing.DOWN);
         scene.idle(10)
