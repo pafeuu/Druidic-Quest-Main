@@ -5,7 +5,6 @@
 	default_repeatable_quest: true
 	filename: "market"
 	group: ""
-	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: { Count: 64, id: "thermal:gold_coin" }
 	id: "37D0225A9D849EF0"
@@ -801,13 +800,205 @@
 			icon: "minecraft:bee_spawn_egg"
 			id: "0473ACFFD0AA5E1D"
 			rewards: [{
-				command: "/summon minecraft:bee"
-				elevate_perms: true
-				icon: "minecraft:bee_spawn_egg"
-				id: "447FABDF3655B328"
-				silent: true
-				title: "Summon a Bee at your position"
-				type: "command"
+				id: "2310560DC827FA03"
+				item: {
+					Count: 1
+					id: "supplementaries:cage"
+					tag: {
+						BlockEntityTag: {
+							MobHolder: {
+								EntityData: {
+									AbsorptionAmount: 0.0f
+									Age: 0
+									Air: 300s
+									AngerTime: 0
+									ArmorDropChances: [
+										0.085f
+										0.085f
+										0.085f
+										0.085f
+									]
+									ArmorItems: [
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									Attributes: [
+										{
+											Base: 48.0d
+											Modifiers: [{
+												Amount: 0.03422828847599417d
+												Name: "Random spawn bonus"
+												Operation: 1
+												UUID: [I;
+													-925689177
+													188367555
+													-1419474957
+													368942830
+												]
+											}]
+											Name: "minecraft:generic.follow_range"
+										}
+										{
+											Base: 0.0d
+											Name: "alembic:fire_damage.resistance"
+										}
+										{
+											Base: 0.30000001192092896d
+											Name: "minecraft:generic.movement_speed"
+										}
+										{
+											Base: 0.1d
+											Name: "caelus:fall_flying"
+										}
+										{
+											Base: 0.0d
+											Name: "forge:step_height_addition"
+										}
+										{
+											Base: 1.0d
+											Name: "forge:swim_speed"
+										}
+										{
+											Base: 0.08d
+											Name: "forge:entity_gravity"
+										}
+									]
+									BalmData: { }
+									Brain: {
+										memories: { }
+									}
+									CanPickUpLoot: 0b
+									CanUpdate: 1b
+									CannotEnterHiveTicks: 0
+									CitadelData: { }
+									CropsGrownSincePollination: 0
+									DeathTime: 0s
+									EntityJSData: { }
+									FallDistance: 0.0f
+									FallFlying: 0b
+									Fire: 0s
+									ForcedAge: 0
+									ForgeCaps: {
+										"aether:mob_accessory": {
+											DropChances: {
+												aether_gloves: 0.085f
+												aether_pendant: 0.085f
+												hands: 0.085f
+												necklace: 0.085f
+											}
+										}
+										"aether_redux:vampire_amulet": {
+											active: 0b
+											has_curio: 0b
+											timer: 24000
+										}
+										"alembic:fire_tag": {
+											fireType: "normal"
+										}
+										"curios:inventory": {
+											Curios: [ ]
+										}
+										"structure_gel:gel_entity": {
+											portal: "structure_gel:empty"
+										}
+										"twilightforest:cap_shield": {
+											permshields: 0
+											tempshields: 0
+										}
+										"twilightforest:cap_thrown": {
+											throwCooldown: 0
+											throwX: 0.0d
+											throwY: 0.0d
+											throwZ: 0.0d
+											yetiThrown: 0b
+										}
+										"twilightforest:giant_pick_mine": {
+											giantBlockConversion: 0
+											giantPickBreaking: 0b
+											giantPickMining: 0L
+										}
+									}
+									ForgeData: { }
+									HandDropChances: [
+										0.085f
+										0.085f
+									]
+									HandItems: [
+										{ }
+										{ }
+									]
+									HasNectar: 0b
+									HasStung: 0b
+									Health: 10.0f
+									HurtByTimestamp: 0
+									HurtTime: 0s
+									IMFlags: {
+										CanBreakBlocks: 2
+										CanFly: 2
+										GearEnchanted: 1b
+										IsThrown: 0b
+										IsVariedSize: 0b
+										MagicRes: 0.0f
+										ModifiedArmor: 1b
+										ModifiedAttributes: 1b
+										ModifiedHeld: 1b
+										ProjBoost: 1.0f
+										explosionMult: 1.0f
+									}
+									InLove: 0
+									Invulnerable: 0b
+									LeftHanded: 0b
+									MobSpawnReason: 12
+									Motion: [
+										0.0d
+										-0.0784000015258789d
+										0.0d
+									]
+									OnGround: 1b
+									PersistenceRequired: 0b
+									PortalCooldown: 0
+									Pos: [
+										0.5d
+										0.1251d
+										0.5d
+									]
+									Rotation: [
+										0.0f
+										0.0f
+									]
+									TicksSincePollination: 6
+									castingEquipmentSlot: ""
+									castingSpellId: ""
+									castingSpellLevel: 0
+									effectFlags: 0L
+									evasionHitsRemaining: 0.0f
+									"forge:spawn_type": "SPAWN_EGG"
+									heartStopAccumulatedDamage: 0.0f
+									id: "minecraft:bee"
+									isCasting: 0b
+									spellSelection: {
+										index: -1
+										lastIndex: -1
+										lastSlot: ""
+										slot: ""
+									}
+									usedSpecial: 0b
+								}
+								Name: "Bee"
+								Scale: 0.8219178f
+								UUID: [I;
+									1267885141
+									823740732
+									-1383186595
+									-1455588486
+								]
+							}
+						}
+					}
+				}
+				type: "item"
 			}]
 			subtitle: "1 Gold Coin"
 			tasks: [{
@@ -815,32 +1006,31 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
-			title: "Bee Spawn Egg"
+			title: "Bee"
 			x: 5.5d
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"682CA83814F08244"
-				"23D3902848A335F6"
-			]
-			icon: "minecraft:wither_skeleton_skull"
+			dependencies: ["682CA83814F08244"]
+			icon: "minecraft:cow_spawn_egg"
 			id: "788B7CD2FE782AAF"
 			rewards: [{
-				id: "715B182279031253"
-				item: "minecraft:wither_skeleton_skull"
-				type: "item"
+				exclude_from_claim_all: true
+				icon: "supplementaries:cage"
+				id: "334B774AB757E017"
+				table_id: 8179196907387838422L
+				type: "choice"
 			}]
-			subtitle: "3 Gold Coins"
+			subtitle: "6 Gold Coins"
 			tasks: [{
-				count: 3L
+				count: 6L
 				id: "783C2ECD35D5E6CB"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
-			title: "Wither Skeleton Skull"
+			title: "Farm Animal of Choice"
 			x: 5.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			can_repeat: false
@@ -1132,118 +1322,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"682CA83814F08244"
-				"3C2909A41E93F910"
-			]
-			icon: {
-				Count: 1
-				id: "irons_spellbooks:scroll"
-				tag: {
-					ISB_Spells: {
-						data: [{
-							id: "irons_spellbooks:recall"
-							index: 0
-							level: 1
-							locked: 1b
-						}]
-						maxSpells: 1
-						mustEquip: 0b
-						spellWheel: 0b
-					}
-				}
-			}
-			id: "423AD67270BCBF85"
-			rewards: [{
-				id: "7746892C25B55FE3"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:recall"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "8 Silver Coins"
-			tasks: [{
-				consume_items: true
-				count: 8L
-				id: "43D46C2AE3D8863B"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			title: "Recall Scroll"
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"682CA83814F08244"
-				"3C2909A41E93F910"
-			]
-			icon: {
-				Count: 1
-				id: "irons_spellbooks:scroll"
-				tag: {
-					ISB_Spells: {
-						data: [{
-							id: "irons_spellbooks:teleport"
-							index: 0
-							level: 1
-							locked: 1b
-						}]
-						maxSpells: 1
-						mustEquip: 0b
-						spellWheel: 0b
-					}
-				}
-			}
-			id: "4E551FF2E604CD52"
-			rewards: [{
-				id: "46CE412E80B01293"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:teleport"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "6 Silver Coins"
-			tasks: [{
-				consume_items: true
-				count: 6L
-				id: "38304D1CE7FF9D2B"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			title: "Teleport Scroll"
-			x: -4.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["682CA83814F08244"]
 			icon: "woodenhopper:wooden_hopper"
 			id: "0454B8B653EABFF4"
@@ -1293,7 +1371,6 @@
 				"682CA83814F08244"
 			]
 			description: ["&o&4&nOne time offer!&r&r&r"]
-			hide_until_deps_visible: true
 			icon: "minecraft:budding_amethyst"
 			id: "64B56173EADBA88D"
 			rewards: [{
@@ -1351,7 +1428,7 @@
 			}]
 			title: "Waystone Choice"
 			x: 7.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["682CA83814F08244"]
@@ -1371,7 +1448,7 @@
 			}]
 			title: "2 Mending Mixtures"
 			x: 7.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1399,10 +1476,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"682CA83814F08244"
-				"32A61115C0AD8C45"
-			]
+			dependencies: ["682CA83814F08244"]
 			icon: "minecraft:sunflower"
 			id: "6D58F8323029870C"
 			rewards: [{
@@ -1616,7 +1690,7 @@
 			}]
 			title: "Mending Enchanted Book"
 			x: 8.5d
-			y: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["682CA83814F08244"]
@@ -1680,6 +1754,116 @@
 			title: "Archwood Sapling Choice"
 			x: 2.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "alexsmobs:spawn_egg_anaconda"
+			id: "198108455E75F4A3"
+			rewards: [{
+				id: "0AC28D730A7820CF"
+				item: {
+					Count: 1
+					id: "supplementaries:cage"
+					tag: {
+						BlockEntityTag: {
+							MobHolder: {
+								EntityData: {
+									Pos: [
+										0.5d
+										0.20009998807907103d
+										0.5d
+									]
+									id: "alexsmobs:anaconda"
+								}
+								Name: "Anaconda"
+								UUID: [I;
+									719858050
+									1469468379
+									-1314582237
+									-2119634646
+								]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "1 Netherite Coin"
+			tasks: [{
+				id: "4BBA36EFC6BFC55B"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			title: "Anaconda"
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "fruitsdelight:hamimelon"
+			id: "22271BB9AECD9809"
+			rewards: [{
+				count: 4
+				id: "55A5179DA7222992"
+				item: "fruitsdelight:hamimelon_seeds"
+				type: "item"
+			}]
+			subtitle: "5 Silver Coins"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "07D4D53475AE5D5D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "4 Hamimelon Seeds"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "vintagedelight:oat"
+			id: "09CA223D5A0DB0CD"
+			rewards: [{
+				count: 4
+				id: "63AB170701D562CD"
+				item: "vintagedelight:oat_seeds"
+				type: "item"
+			}]
+			subtitle: "5 Silver Coins"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "20C4A3997542EE22"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "4 Oat Seeds"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"23D3902848A335F6"
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "7E1D9080FAE3D183"
+			rewards: [{
+				id: "2D2CF15762C8E827"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			subtitle: "3 Gold Coins"
+			tasks: [{
+				count: 3L
+				id: "0105BE366A973250"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			title: "Wither Skeleton Skull"
+			x: 5.5d
+			y: 0.0d
 		}
 	]
 	title: "Market"

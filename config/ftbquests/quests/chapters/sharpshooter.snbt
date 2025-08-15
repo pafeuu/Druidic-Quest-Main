@@ -7,7 +7,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "minecraft:spectral_arrow"
 	id: "5B1DCD4A4A1EF571"
-	order_index: 6
+	order_index: 8
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -724,7 +724,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -747,7 +747,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -770,7 +770,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -793,7 +793,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -816,7 +816,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -884,7 +884,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -908,7 +908,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.0d
+			y: 3.0d
 		}
 	]
 	title: "Sharpshooter"

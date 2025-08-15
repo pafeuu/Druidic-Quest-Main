@@ -13,7 +13,7 @@
 		}
 	}
 	id: "2D31A9CB6776879E"
-	order_index: 4
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -858,7 +858,7 @@
 				item: "minecraft:sentry_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: -2.5d
 		}
 		{
@@ -874,7 +874,7 @@
 				item: "minecraft:vex_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: -0.5d
 		}
 		{
@@ -890,7 +890,7 @@
 				item: "minecraft:wild_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
@@ -906,7 +906,7 @@
 				item: "minecraft:coast_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -922,7 +922,7 @@
 				item: "minecraft:tide_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: -0.5d
 		}
 		{
@@ -938,7 +938,7 @@
 				item: "quark:smithing_template_rune"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
@@ -954,7 +954,7 @@
 				item: "minecraft:wayfinder_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: -1.5d
 		}
 		{
@@ -970,7 +970,7 @@
 				item: "minecraft:raiser_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: -1.5d
 		}
 		{
@@ -986,7 +986,7 @@
 				item: "minecraft:shaper_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -1002,7 +1002,7 @@
 				item: "minecraft:host_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -1018,7 +1018,7 @@
 				item: "minecraft:silence_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
@@ -1034,7 +1034,7 @@
 				item: "minecraft:snout_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: -0.5d
 		}
 		{
@@ -1050,7 +1050,7 @@
 				item: "minecraft:ward_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 0.5d
 		}
 		{
@@ -1066,7 +1066,7 @@
 				item: "minecraft:rib_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -0.5d
 		}
 		{
@@ -1082,7 +1082,7 @@
 				item: "minecraft:eye_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -1098,7 +1098,7 @@
 				item: "minecraft:dune_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -2.5d
 		}
 		{
@@ -1114,7 +1114,7 @@
 				item: "minecraft:spire_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: 0.5d
 		}
 		{
@@ -1609,7 +1609,7 @@
 				item: "ancient_aether:wynd_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 2.5d
 		}
 		{
@@ -1625,7 +1625,7 @@
 				item: "ancient_aether:whale_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 2.5d
 		}
 		{
@@ -1641,7 +1641,7 @@
 				item: "ancient_aether:ascended_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
@@ -1657,7 +1657,7 @@
 				item: "ancient_aether:mysterious_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 1.5d
 		}
 		{
@@ -1673,7 +1673,7 @@
 				item: "ancient_aether:mechanical_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
@@ -1689,7 +1689,7 @@
 				item: "ancient_aether:royal_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -1705,7 +1705,7 @@
 				item: "ancient_aether:mosaic_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 3.5d
 		}
 		{
@@ -1721,7 +1721,7 @@
 				item: "ancient_aether:solar_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 3.5d
 		}
 		{
@@ -1737,7 +1737,7 @@
 				item: "ancient_aether:ancient_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 3.5d
 		}
 		{

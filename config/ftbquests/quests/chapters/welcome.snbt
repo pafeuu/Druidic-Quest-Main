@@ -7,42 +7,45 @@
 	id: "3E5E80A2E082BA7C"
 	images: [
 		{
-			height: 12.65625d
-			image: "kubejs:textures/questbook/welcomescreen/welcomescreen.png"
-			rotation: 0.0d
-			width: 24.0d
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			click: "https://discord.gg/mqVNhCU2pT"
+			click: "https://discord.gg/SRfTqrHc"
 			height: 1.5d
 			hover: ["Join the official discord!"]
 			image: "kubejs:textures/questbook/welcomescreen/welcomescreen_discord.png"
+			order: 1
 			rotation: 0.0d
 			width: 1.5d
-			x: -7.75d
-			y: 4.5d
+			x: 2.5d
+			y: 4.0d
 		}
 		{
 			click: "https://www.curseforge.com/minecraft/modpacks/druidic-quest"
 			height: 2.0d
 			hover: ["Take a look at the CurseForge website"]
 			image: "kubejs:textures/questbook/welcomescreen/welcomescreen_curseforge.png"
+			order: 1
 			rotation: 0.0d
 			width: 2.0d
-			x: -6.0d
-			y: 4.5d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			click: "https://github.com/pafeuu/Druidic-Quest"
 			height: 1.5d
 			hover: ["BTW, the pack is open source"]
 			image: "kubejs:textures/questbook/welcomescreen/welcomescreen_github.png"
+			order: 1
 			rotation: 0.0d
 			width: 1.5d
-			x: -9.3d
-			y: 4.5d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 12.4d
+			image: "kubejs:textures/questbook/welcomescreen/newwelcome.png"
+			rotation: 0.0d
+			width: 24.8d
+			x: -5.0d
+			y: 0.0d
 		}
 	]
 	order_index: 0
@@ -139,8 +142,6 @@
 				"If this is somehow your first modpack, you are &nreally&r gonna need to read the &aTips&r chapter."
 				""
 				"But... even veterans might not know everything there, so make sure to check it out!"
-				""
-				"&4&oWork in progress&r&r"
 			]
 			icon: "kubejs:infused_diamond"
 			id: "6F5C7CA9C74F13E9"
@@ -194,6 +195,8 @@
 				"&2&lGear&r &r-  Quests outside of the Main progression that unlock quests in other chapters (usually in the Market)."
 				""
 				"&2&lDiamond&r&r - Repeteable Quests, usually giving some nice items in exchange for currency."
+				""
+				"&2&lPentagon&r&r - One-time purchases; exchange coins for rare and useful items."
 			]
 			icon: "ftbquests:book"
 			id: "296394452736D250"

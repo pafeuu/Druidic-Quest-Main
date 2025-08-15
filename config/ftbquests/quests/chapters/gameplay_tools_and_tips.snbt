@@ -20,15 +20,15 @@
 		{
 			dependencies: ["6F5C7CA9C74F13E9"]
 			description: [
-				"After typing the item you are looking for into EMI, you can double click the search bar to highlight that item in your inventory or opened containers."
+				"After typing the item you are looking for into EMI, you can double click the search bar to &6highlight&r that item in your &2inventory or opened containers&r. You can also &2hover&r over the item in your inventory or in EMI and &2press \"Y\"&r (by default)."
 				""
-				"Use the Quick Stack to Nearby Chests button in your inventory to quickly deposit items into nearby inventories."
+				"Use the &2Quick Stack to Nearby Chests&r button in your inventory to quickly deposit items into nearby inventories."
 				""
-				"You can quickly transfer items one-at-a-time between your inventory and any storage by scrolling the mouse wheel while hovering over the items you wish to move."
+				"You can quickly transfer items one-at-a-time between your inventory and any storage by &2scrolling&r the mouse wheel while &2hovering&r over the items you wish to move."
 				""
-				"Middle-clicking the mouse in an inventory will auto-sort that inventory."
+				"&2Middle-clicking&r the mouse in an inventory will &2auto-sort&r that inventory."
 				""
-				"Annoying noises? Check out the Extreme Sound Muffler button in your inventory!"
+				"Annoying noises? Check out the &2Extreme Sound Muffler&r button in your inventory!"
 			]
 			icon: "minecraft:chest"
 			id: "0D9BE29FAE146910"
@@ -124,7 +124,7 @@
 				""
 				"This means that most recipes within the pack have been changed to include components from various mods."
 				""
-				"Many mod mechanics have also been changed to provide balance, as well as to encourage non-conventional methods of automation."
+				"Many mod mechanics have also been changed to provide balance, as well as to encourage unconventional methods of automation."
 			]
 			icon: "minecraft:crafting_table"
 			id: "2CB01969B0479612"
@@ -214,6 +214,34 @@
 			title: "Looting Tips"
 			x: 0.0d
 			y: -0.75d
+		}
+		{
+			dependencies: ["6F5C7CA9C74F13E9"]
+			description: [
+				"Armor, weapons, and tools in the pack are highly specialized. Most armor can be put together into \"sets\" to give additional buffs."
+				""
+				"You'll also want to check out all the accessories available! "
+				""
+				"&2Equipping yourself appropriately for various situations could make a huge difference!&r"
+			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "23A6B7EF98592193"
+			size: 1.5d
+			subtitle: "Dress for Success!"
+			tasks: [{
+				id: "7746DD402A285636"
+				title: "Expect the Unexpected"
+				type: "checkmark"
+			}]
+			title: "Equipment Tips"
+			x: -3.75d
+			y: 0.0d
 		}
 	]
 	title: "Gameplay Tools and Tips"

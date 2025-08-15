@@ -112,34 +112,41 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2C7DD9A9CEA857D0"]
-			description: [
-				"Grind a bit of &6gold dust&r. Grind a lot, if you have the energy to crank a few millstones at once!"
-				""
-				"&o&7Note that watermills no longer generate stress units, though they will still power blocks like belts and weighted ejectors.&r&r"
+			dependencies: [
+				"2C7DD9A9CEA857D0"
+				"41FA7D0AD437E6FB"
 			]
-			icon: "thermal:gold_dust"
+			description: [
+				"Build a&2&l Natural Altar&r&r multiblock with the crumbling catalyst to grind a bit of gold dust."
+				""
+				"Be carefull as it will use the Aura in your area which might have unwanted consqeuences."
+				""
+				"If you are too scared you can get a more manual and safe alternative using create's millstone!"
+			]
+			icon: "naturesaura:nature_altar"
 			id: "44B9FE4B80D14F6F"
 			rewards: [{
-				id: "6F6FCE781B4EE904"
-				item: "thermal:silver_coin"
+				count: 2
+				id: "6996A56CC953FAD5"
+				item: "thermal:gold_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
 			subtitle: "Embrace the grind!"
 			tasks: [
 				{
-					id: "5476208CE10E3BCE"
-					item: "create:millstone"
+					id: "64A2D37B81C491C8"
+					item: "naturesaura:nature_altar"
 					type: "item"
 				}
 				{
-					id: "594BBF29A4B1C59A"
-					item: "create:hand_crank"
+					id: "539487A2EA511C5F"
+					item: "naturesaura:crushing_catalyst"
 					type: "item"
 				}
 			]
-			x: 19.0d
+			title: "Crumbling Altar"
+			x: 21.5d
 			y: 0.0d
 		}
 		{
@@ -178,8 +185,8 @@
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 2.0d
+			x: 25.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["118CF02B3B3C899C"]
@@ -221,7 +228,7 @@
 				}
 			]
 			title: "Plates"
-			x: 9.5d
+			x: 11.0d
 			y: 0.0d
 		}
 		{
@@ -243,7 +250,7 @@
 				type: "item"
 			}]
 			title: "First Machine Casing"
-			x: 14.0d
+			x: 17.0d
 			y: 0.0d
 		}
 		{
@@ -281,7 +288,7 @@
 				type: "item"
 			}]
 			title: "Lightning Crafting"
-			x: 14.0d
+			x: 18.0d
 			y: 5.5d
 		}
 		{
@@ -304,8 +311,8 @@
 				item: "irons_spellbooks:lightning_bottle"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 5.5d
+			x: 12.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1767BADCC1133711"]
@@ -322,7 +329,7 @@
 				item: "quark:bottled_cloud"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: 5.5d
 		}
 		{
@@ -336,6 +343,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Clearly Essential"
 			tasks: [{
 				count: 12L
 				id: "78E3BE06EE1ED63F"
@@ -343,7 +351,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["118CF02B3B3C899C"]
@@ -362,7 +370,7 @@
 				type: "item"
 			}]
 			title: "Redstone Innovations!"
-			x: 5.5d
+			x: 7.0d
 			y: -1.5d
 		}
 		{
@@ -382,7 +390,7 @@
 				type: "item"
 			}]
 			title: "Easier Block Crafting"
-			x: 9.5d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
@@ -461,7 +469,7 @@
 				}
 			]
 			title: "New Tools"
-			x: 7.0d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
@@ -502,8 +510,8 @@
 				}
 			]
 			title: "Find an Amethyst Geode"
-			x: 19.0d
-			y: -2.0d
+			x: 25.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2C7DD9A9CEA857D0"]
@@ -532,7 +540,7 @@
 				type: "item"
 			}]
 			title: "Basic Entity Transportation"
-			x: 12.5d
+			x: 15.0d
 			y: -1.5d
 		}
 		{
@@ -561,7 +569,7 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
+			x: 10.0d
 			y: -3.5d
 		}
 		{
@@ -590,7 +598,7 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 12.0d
 			y: -3.5d
 		}
 		{
@@ -615,7 +623,7 @@
 				item: "minecraft:dispenser"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 17.0d
 			y: -2.0d
 		}
 		{
@@ -633,7 +641,7 @@
 				item: "woodenhopper:wooden_hopper"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.0d
 			y: -3.0d
 		}
 		{
@@ -652,8 +660,8 @@
 				item: "sophisticatedstorage:basic_tier_upgrade"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0F2FD265581372C2"]
@@ -675,8 +683,8 @@
 				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["62BB9932A2712DF2"]
@@ -693,102 +701,7 @@
 				item: "farmersdelight:basket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["118CF02B3B3C899C"]
-			description: ["&lTreated wood&r unlocks quite a few new items to craft!"]
-			id: "23FBA974E0F978E9"
-			rewards: [{
-				id: "32C8CF9937CF6DCB"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "24DC422227451CC7"
-				item: { Count: 2, id: "immersiveengineering:treated_fence" }
-				title: "New functional furniture"
-				type: "item"
-			}]
-			title: "New Functional Furniture"
 			x: 7.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["23FBA974E0F978E9"]
-			icon: "handcrafted:mangrove_fancy_bed"
-			id: "7CB0215E03B2D42C"
-			rewards: [{
-				id: "41BEF958B41A031A"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			subtitle: "zzzz..."
-			tasks: [{
-				id: "2C15860C8627C2EC"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)"
-					}
-				}
-				title: "Any #minecraft:beds"
-				type: "item"
-			}]
-			title: "Get a Bed"
-			x: 8.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["23FBA974E0F978E9"]
-			description: ["Your first spellbook! Maybe you can use some of those scrolls you've found to fill it up? Magical combat awaits you!"]
-			icon: {
-				Count: 1
-				id: "irons_spellbooks:copper_spell_book"
-				tag: {
-					ISB_Spells: {
-						data: [ ]
-						maxSpells: 5
-						mustEquip: 1b
-						spellWheel: 1b
-					}
-				}
-			}
-			id: "3C2909A41E93F910"
-			rewards: [{
-				id: "5AEC60763C3EED30"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
-			shape: "gear"
-			subtitle: "Is this how magic works?"
-			tasks: [
-				{
-					id: "0AA44CED3ADF9879"
-					item: "irons_spellbooks:inscription_table"
-					type: "item"
-				}
-				{
-					id: "16D5BB7EA7A9F70F"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:copper_spell_book"
-						tag: {
-							ISB_Spells: {
-								data: [ ]
-								maxSpells: 5
-								mustEquip: 1b
-								spellWheel: 1b
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 11.5d
 			y: -5.0d
 		}
 		{
@@ -807,48 +720,8 @@
 				item: "immersiveengineering:crate"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["4BE9468347CCD7B1"]
-			description: ["You know what a backpack is. Now, go out and fill it!"]
-			id: "6BEAFAE5088E0C30"
-			rewards: [{
-				id: "44BE5F72D44F48E9"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			subtitle: "Now, we bring home the loot!"
-			tasks: [{
-				id: "339619EF5A94C27D"
-				item: "sophisticatedbackpacks:backpack"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -8.5d
-		}
-		{
-			dependencies: [
-				"769C5B75D85F81FC"
-				"3C2909A41E93F910"
-			]
-			description: [""]
-			id: "12A42D84CE4AB829"
-			rewards: [{
-				count: 4
-				id: "390AFCE7E12943DF"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			subtitle: "Oh, the possibilities..."
-			tasks: [{
-				id: "765E7DE584AA1B73"
-				item: "ars_nouveau:novice_spell_book"
-				type: "item"
-			}]
-			x: 23.0d
-			y: -5.0d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["37E717454A7E8792"]
@@ -864,8 +737,8 @@
 				item: "vintagedelight:fermenting_jar"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -2.5d
+			x: 24.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2C7DD9A9CEA857D0"]
@@ -895,7 +768,7 @@
 				type: "item"
 			}]
 			title: "First Autocrafter"
-			x: 15.5d
+			x: 19.0d
 			y: -1.5d
 		}
 		{
@@ -925,8 +798,8 @@
 				item: "thermal:device_composter"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -3.5d
+			x: 25.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["37E717454A7E8792"]
@@ -955,33 +828,8 @@
 				item: "thermal:device_fisher"
 				type: "item"
 			}]
-			x: 19.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["37E717454A7E8792"]
-			description: ["Allows the creation of new combat spells!"]
-			id: "1B9897EF3A4960B4"
-			rewards: [
-				{
-					id: "70D2FEDD880C6D97"
-					item: "irons_spellbooks:rare_ink"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "049DDE33A3A24AD9"
-					item: "thermal:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "435E0B68A389CFBC"
-				item: "irons_spellbooks:scroll_forge"
-				type: "item"
-			}]
-			x: 20.0d
-			y: -3.5d
+			x: 27.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5C199D8DE803D331"]
@@ -1003,8 +851,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -1.0d
+			x: 12.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["769C5B75D85F81FC"]
@@ -1037,8 +885,8 @@
 				type: "item"
 			}]
 			title: "Buy a Map to the Lush Caves"
-			x: 23.5d
-			y: 2.0d
+			x: 23.125d
+			y: 5.625d
 		}
 		{
 			dependencies: ["42453AA97CCD3970"]
@@ -1056,8 +904,8 @@
 				item: "supplementaries:cog_block"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.5d
+			x: 8.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["769C5B75D85F81FC"]
@@ -1072,8 +920,8 @@
 				item: "enigmaticlegacy:thicc_scroll"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 3.5d
+			x: 25.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5C199D8DE803D331"]
@@ -1108,8 +956,8 @@
 					type: "item"
 				}
 			]
-			title: "Fluid Transportation"
-			x: 10.5d
+			title: "First Fluid Transportation"
+			x: 12.0d
 			y: 1.5d
 		}
 		{
@@ -1133,31 +981,8 @@
 				item: "naturesaura:light_staff"
 				type: "item"
 			}]
-			x: 25.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["12A42D84CE4AB829"]
-			description: ["The spells found here will provide vital help with your automation processes!"]
-			hide_until_deps_visible: false
-			id: "013D068E5A72F7E5"
-			rewards: [{
-				id: "611B976A21179A7B"
-				item: {
-					Count: 1
-					id: "ars_nouveau:annotated_codex"
-					tag: { }
-				}
-				type: "item"
-			}]
-			subtitle: "Magic automation awaits!"
-			tasks: [{
-				id: "4D35022515ACCD08"
-				item: "ars_nouveau:scribes_table"
-				type: "item"
-			}]
-			x: 25.5d
-			y: -5.0d
+			x: 21.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7E7BB0BB5C8EBBB5"]
@@ -1182,37 +1007,8 @@
 				item: "waystones:return_scroll"
 				type: "item"
 			}]
-			x: 23.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["296B9FE094A5F55E"]
-			hide_until_deps_visible: true
-			id: "0E5FB7E6E204BD96"
-			subtitle: "Let the light spread!"
-			tasks: [{
-				id: "3FCF235E87B92797"
-				item: "torchmaster:feral_flare_lantern"
-				type: "item"
-			}]
-			x: 27.5d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"490B9B2E3CFE4E94"
-				"013D068E5A72F7E5"
-			]
-			hide_until_deps_visible: true
-			id: "296B9FE094A5F55E"
-			subtitle: "Bright Idea!"
-			tasks: [{
-				id: "38707DB585F33DB2"
-				item: "ars_nouveau:glyph_light"
-				type: "item"
-			}]
 			x: 25.5d
-			y: 0.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5C199D8DE803D331"]
@@ -1235,7 +1031,7 @@
 				type: "item"
 			}]
 			title: "Plate Automation"
-			x: 8.5d
+			x: 10.0d
 			y: 1.5d
 		}
 		{
@@ -1297,12 +1093,20 @@
 			]
 			hide_until_deps_visible: false
 			id: "41FA7D0AD437E6FB"
-			rewards: [{
-				count: 3
-				id: "5D067E5C731870E7"
-				item: "twilightforest:naga_scale"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "5D067E5C731870E7"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+				{
+					advancement: "twilightforest:progress_naga"
+					criterion: ""
+					id: "5BDB003C1D4AA78E"
+					type: "advancement"
+				}
+			]
 			shape: "rsquare"
 			subtitle: "...or don't."
 			tasks: [{
@@ -1311,8 +1115,8 @@
 				type: "item"
 			}]
 			title: "Slay the Naga "
-			x: 14.0d
-			y: 2.0d
+			x: 18.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6CDE2D6E743FAAA5"]
@@ -1390,8 +1194,8 @@
 				}
 			]
 			title: "AOE Tools"
-			x: 15.5d
-			y: 3.5d
+			x: 18.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["089147A7CE1A1DC6"]
@@ -1411,7 +1215,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
+			x: 15.0d
 			y: -3.0d
 		}
 		{
@@ -1429,11 +1233,12 @@
 				item: "naturesaura:placer"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -3.5d
+			x: 17.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0773DBD92BA8845A"]
+			description: [""]
 			id: "63EF6558322E13C4"
 			subtitle: "The cutest autocrafting around!"
 			tasks: [{
@@ -1441,11 +1246,11 @@
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 19.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["44B9FE4B80D14F6F"]
+			dependencies: ["37E717454A7E8792"]
 			description: ["The &5&lCrafting Station&r&r can pull items from inventories adjacent to all 6 of its sides!"]
 			id: "2A75073D74CD0574"
 			rewards: [{
@@ -1459,40 +1264,8 @@
 				item: "craftingstation:crafting_station"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["30B689B22757873D"]
-			description: ["Used to store &aexperience&r!"]
-			id: "713CFFFD93BE4076"
-			rewards: [
-				{
-					count: 4
-					id: "72BD48ADB7DF18C7"
-					item: "irons_spellbooks:arcane_essence"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6ED247758661C9AF"
-					item: "fruitsdelight:blueberry_muffin"
-					type: "item"
-				}
-			]
-			subtitle: "What a relief..."
-			tasks: [{
-				id: "338A58B6AC0C7A23"
-				item: {
-					Count: 1
-					id: "thermal:xp_crystal"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Keeping Your XP Safe!"
-			x: 9.5d
-			y: 3.5d
+			x: 27.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2C7DD9A9CEA857D0"]
@@ -1509,8 +1282,52 @@
 				item: "naturesaura:oak_generator"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 1.0d
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C199D8DE803D331"]
+			id: "6BCC24F77F7598FB"
+			tasks: [{
+				id: "0C2F65A21F57E0DC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["44B9FE4B80D14F6F"]
+			description: [
+				"Grind a bit of &6gold dust&r. Grind a lot, if you have the energy to crank a few millstones at once!"
+				""
+				"&o&7Note that watermills no longer generate stress units, though they will still power blocks like belts and weighted ejectors.&r&r"
+			]
+			id: "5B2014B3B0771EB5"
+			rewards: [{
+				id: "4847A7FB290D5604"
+				item: "kubejs:primitive_machine"
+				type: "item"
+			}]
+			subtitle: "Embrace the grind!"
+			tasks: [{
+				id: "5427F01E0A5EF46D"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -1.5d
 		}
 	]
 	title: "Tier 1 - Basic Magic"

@@ -304,7 +304,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 4.5d
 		}
 		{
@@ -380,19 +380,6 @@
 			title: "Clibano Oven"
 			x: 1.5d
 			y: -3.0d
-		}
-		{
-			dependencies: ["6E30DFF0F2B9B811"]
-			id: "19500538380DEC10"
-			subtitle: "Filtered Funnels"
-			tasks: [{
-				id: "0F772D7404698AEB"
-				item: "create:brass_funnel"
-				type: "item"
-			}]
-			title: "Brass Logistics"
-			x: -1.5d
-			y: -1.0d
 		}
 		{
 			dependencies: ["166492730EA5EBBD"]

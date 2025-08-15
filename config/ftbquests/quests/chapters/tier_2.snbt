@@ -99,7 +99,7 @@
 				type: "item"
 			}]
 			title: "New Equipment Opportunity"
-			x: -8.0d
+			x: -5.5d
 			y: 7.0d
 		}
 		{
@@ -145,7 +145,7 @@
 				}
 			]
 			title: "Workstations on a Stick!"
-			x: -6.0d
+			x: -4.0d
 			y: 7.0d
 		}
 		{
@@ -174,7 +174,7 @@
 				type: "item"
 			}]
 			title: "Distilling the Elements"
-			x: -6.0d
+			x: -5.5d
 			y: 4.0d
 		}
 		{
@@ -204,13 +204,13 @@
 				type: "dimension"
 			}]
 			title: "Visit the Nether!"
-			x: -8.0d
+			x: -5.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["5CB418E959BA9BC4"]
 			description: ["Arcanum can be infused with elemental fluid, yielding a crystalized form of the element which can then be used in crafting."]
-			icon: "kubejs:water_infused_arcanum"
+			icon: "mbd2:elemental_infuser"
 			id: "6B18370E82275EED"
 			rewards: [{
 				count: 8
@@ -248,7 +248,7 @@
 				}
 			]
 			title: "Elemental Arcanum"
-			x: -3.5d
+			x: 1.5d
 			y: 4.0d
 		}
 		{
@@ -256,7 +256,7 @@
 			description: [
 				"&6Gold tools&r have been completely reworked! Still faster than diamond, the durability has been increased significantly and the mining lvl is now the same as iron."
 				""
-				"Most importantly: Gold tools are imbued with natural Fortune 2 and the sword with natural Looting 2."
+				"Most importantly: Gold tools are imbued with natural &6Fortune 2&r and the sword with natural &6Looting 2&r."
 			]
 			icon: {
 				Count: 1
@@ -339,7 +339,7 @@
 				}
 			]
 			title: "New and Improved Gold Tools"
-			x: -6.0d
+			x: -4.5d
 			y: 6.0d
 		}
 		{
@@ -431,7 +431,7 @@
 				}
 			]
 			title: "Diamond Equipment"
-			x: -6.0d
+			x: -4.5d
 			y: 8.0d
 		}
 		{
@@ -449,7 +449,7 @@
 				item: "ars_nouveau:air_essence"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 5.0d
 			y: 5.5d
 		}
 		{
@@ -467,8 +467,8 @@
 				item: "ars_nouveau:water_essence"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.5d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["769C5B75D85F81FC"]
@@ -518,8 +518,8 @@
 				item: "ars_nouveau:earth_essence"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 7.5d
+			x: 5.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6B18370E82275EED"]
@@ -536,8 +536,8 @@
 				item: "ars_nouveau:fire_essence"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5E56A7D68E33C68B"]
@@ -566,8 +566,8 @@
 				item: "create:schematicannon"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["23D3902848A335F6"]
@@ -587,10 +587,10 @@
 			subtitle: "Harnessing the Power of Nature"
 			tasks: [{
 				id: "70397E312E0608A6"
-				item: "naturesaura:nature_altar"
+				item: "kubejs:infusion_catalyst"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -1.5d
 			y: 10.0d
 		}
 		{
@@ -613,7 +613,7 @@
 				item: "naturesaura:tainted_gold"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 1.5d
 			y: 10.0d
 		}
 		{
@@ -630,8 +630,8 @@
 				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 11.5d
+			x: 1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["400EBA15A5B82A93"]
@@ -666,7 +666,7 @@
 				item: "naturesaura:infused_iron"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -1.5d
 			y: 13.0d
 		}
 		{
@@ -699,7 +699,8 @@
 				item: "immersiveengineering:alloybrick"
 				type: "item"
 			}]
-			x: -0.5d
+			title: "Kiln Alloy Smelter!"
+			x: 5.0d
 			y: 10.0d
 		}
 		{
@@ -719,7 +720,7 @@
 				item: "kubejs:magic_machine"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.5d
 			y: 13.0d
 		}
 		{
@@ -742,7 +743,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 7.0d
 			y: 6.0d
 		}
 		{
@@ -760,7 +761,7 @@
 				item: "forbidden_arcanus:quantum_catcher"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 7.0d
 			y: 5.0d
 		}
 		{
@@ -781,8 +782,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["00AEA38F60CAAE90"]
@@ -836,8 +837,8 @@
 				}
 			]
 			title: "Copper Diving Set"
-			x: 1.0d
-			y: 4.0d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0F250E08450A1BEC"]
@@ -890,8 +891,8 @@
 				}
 			]
 			title: "Better AOE tools"
-			x: 0.5d
-			y: 8.5d
+			x: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["38ADADE5E8F17847"]
@@ -914,8 +915,8 @@
 				item: "irons_spellbooks:arcane_anvil"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 14.5d
+			x: 0.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["7EBD23E275E837F2"]
@@ -961,7 +962,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: 7.0d
 			y: 8.5d
 		}
 		{
@@ -985,8 +986,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.5d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7EBD23E275E837F2"]
@@ -1013,7 +1014,7 @@
 				}
 				type: "item"
 			}]
-			x: -9.25d
+			x: -8.0d
 			y: 10.0d
 		}
 		{
@@ -1031,7 +1032,7 @@
 				item: "aether:zanite_gemstone"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: 8.5d
 		}
 		{
@@ -1049,7 +1050,7 @@
 				item: "deep_aether:skyjade"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -0.5d
 			y: 8.5d
 		}
 		{
@@ -1142,7 +1143,7 @@
 				}
 			]
 			title: "Zanite Tools"
-			x: -4.5d
+			x: -2.5d
 			y: 7.0d
 		}
 		{
@@ -1235,7 +1236,7 @@
 				}
 			]
 			title: "Skyjade Tools"
-			x: -3.5d
+			x: -0.5d
 			y: 7.0d
 		}
 		{
@@ -1264,24 +1265,29 @@
 			dependencies: ["2C1867470E747C94"]
 			description: ["The &5&lEnchanting Apparatus&r&r uses source for many crafting recipes. Craft one of the source generators, as well as a source jar to produce and store your source!"]
 			id: "2841B26876F416EE"
+			rewards: [{
+				id: "6DC1AB6D64321E0E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Pulling magic out of the world..."
 			tasks: [
 				{
-					id: "3947CB276BC5A005"
+					id: "092613FEE7EDE92A"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+				{
+					id: "04FF4F0A0FBFCE02"
 					item: {
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(druidic_quest:generators/source)"
+							"ftbfiltersystem:filter": "item_tag(dq:generators/source)"
 						}
 					}
-					title: "Any #druidic_quest:generators/source"
-					type: "item"
-				}
-				{
-					id: "092613FEE7EDE92A"
-					item: "ars_nouveau:source_jar"
+					title: "Sourcelink"
 					type: "item"
 				}
 			]
@@ -1305,7 +1311,7 @@
 				item: "naturesaura:blast_furnace_booster"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -2.5d
 			y: 15.0d
 		}
 		{
@@ -1324,7 +1330,92 @@
 				item: "kubejs:aura_generator_block"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0628C1A97EB1A5DB"]
+			id: "6237607319FF7E53"
+			rewards: [{
+				count: 3
+				id: "70B1082FCD5EDBCC"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "406EF4CC2825ED10"
+				item: "kubejs:elemental_core"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6237607319FF7E53"]
+			id: "5A7FAC001CEEBCC7"
+			rewards: [{
+				count: 4
+				id: "2ED5CD8959172369"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13E812428DD626DD"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6237607319FF7E53"]
+			id: "555D03DCB4FC88E7"
+			rewards: [{
+				count: 4
+				id: "083228B1C4D61B51"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "398E8021695A1EBF"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6237607319FF7E53"]
+			id: "049D8AC1C18E830D"
+			rewards: [{
+				count: 4
+				id: "03AAD74A627DA7B8"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AA815C8D0C07914"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6237607319FF7E53"]
+			id: "7D16A792594BDDD9"
+			rewards: [{
+				count: 4
+				id: "4397CCEEDE5B3B82"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20129D85102EC855"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: 6.0d
 			y: 15.0d
 		}
 	]

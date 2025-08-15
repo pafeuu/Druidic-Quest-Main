@@ -646,7 +646,11 @@
 		}
 		{
 			dependencies: ["5C95579DC269AF2A"]
-			description: ["You can now tinker even more with food!"]
+			description: [
+				"You can now tinker even more with food!"
+				""
+				"&8&oCan be automated with a hopper and dispenser in the next chapter&r&r"
+			]
 			id: "0FC4FA79D5AB30AE"
 			rewards: [{
 				icon: "farmersdelight:chicken_sandwich"
@@ -883,14 +887,14 @@
 		{
 			dependencies: ["474D50C2F74737EE"]
 			description: [
-				"Right click a stripped log with a &egold leaf&r in one hand and a &8knife&r in the other to turn it into wooden stand."
+				"Right click a stripped log with a &egold leaf&r in one hand and a &8knife&r in the other to turn it into a wooden stand."
 				""
 				"Items used in the ritual do not need to be placed in exact order."
 				"The tree in the middle must grow in order to obtain the result from the recipe."
 				""
 				"&aYou will need to place a sapling and new gold powder after every recipe, so make sure to mark the position of each.&r"
 				""
-				"This pack includes custom ponders. Holding \"W\" while hovering over an item with an available ponder will display a schematic with an explanation on how to use it."
+				"This pack includes custom &2ponders&r. Holding \"W\" while hovering over an item with an available ponder will display a schematic with an explanation on how to use it."
 			]
 			hide_details_until_startable: false
 			hide_until_deps_visible: false
@@ -1110,7 +1114,7 @@
 			description: [
 				"The &cCoke Oven&r is built by making a 3x3x3 cube of Coke Bricks. To form the multiblock, right click it with an engineer's hammer."
 				""
-				"It will take coal and transform it into coal coke and creosote oil, necessary for further progression."
+				"It will take coal and transform it into coal coke and creosote oil, both necessary for further progression."
 				""
 				"&2Congratulations on finishing your first chapter!&r"
 				""
@@ -1221,7 +1225,7 @@
 			description: [
 				"Be sure to keep upgrading your equipment if you want to survive this cruel world! The difficulty will increase each time you obtain the appropriate materials."
 				""
-				"&l&4Mobs in this modpack can spawn with almost any equipment in the game. But they will not drop any of that equipment!&r&r"
+				"&4Mobs in this modpack can spawn with almost any equipment in the game. But they will not drop any of that equipment!&r"
 			]
 			icon: "minecraft:skeleton_skull"
 			id: "2910627A1D09A447"
@@ -1418,11 +1422,9 @@
 					type: "item"
 				}
 				{
-					command: "/wizards_reborn knowledge give @p all "
-					elevate_perms: true
-					icon: "wizards_reborn:arcanemicon"
-					id: "2F49B1065153DAD5"
-					type: "command"
+					id: "34CF0C5933909997"
+					item: "wizards_reborn:creative_knowledge_scroll"
+					type: "item"
 				}
 			]
 			shape: "rsquare"

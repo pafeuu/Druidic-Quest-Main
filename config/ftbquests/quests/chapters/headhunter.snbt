@@ -7,7 +7,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "minecraft:piglin_head"
 	id: "5553122205DD59C8"
-	order_index: 8
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -98,8 +98,8 @@
 				item: "minecraft:wither_skeleton_skull"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -165,8 +165,8 @@
 				item: "minecraft:dragon_head"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.0d
+			x: -4.0d
+			y: 0.0d
 		}
 	]
 	title: "Headhunter"
