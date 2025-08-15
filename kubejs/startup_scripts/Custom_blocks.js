@@ -342,6 +342,13 @@ StartupEvents.registry("block", (event) => {
     .box(0,0,0,16,8,16)
     .tagItem("c:hidden_from_recipe_viewers")
 
+    event.create("infusion_catalyst")
+    .displayName("Infusion Catalyst")
+    .soundType("stone")
+    .hardness("3")
+    .resistance("6")
+    .tagBlock("mineable/pickaxe")
+
 
 
     
