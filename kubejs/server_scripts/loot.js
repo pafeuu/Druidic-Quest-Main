@@ -289,23 +289,6 @@ LootJS.modifiers((event) => {
         .randomChance(0.0125)
         .addLoot("kubejs:lesser_nature_ring")
     
-    event.addLootTypeModifier([LootType.ENTITY])
-    .and((and) => {
-        and.anyDimension("minecraft:overworld").randomChance(0.001).killedByPlayer()
-    })
-    .addLoot("kubejs:overworld_key")
-
-    event.addLootTypeModifier([LootType.ENTITY])
-    .and((and) => {
-        and.anyDimension("minecraft:the_nether").randomChance(0.001).killedByPlayer()
-    })
-    .addLoot("kubejs:nether_key")
-
-    event.addLootTypeModifier([LootType.ENTITY])
-    .and((and) => {
-        and.anyDimension("twilightforest:twilight_forest").randomChance(0.001).killedByPlayer()
-    })
-    .addLoot("kubejs:twilight_key")
     //================================================ BLOCKS
     
     event.addBlockLootModifier("#forge:tall_grass")
@@ -316,5 +299,7 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier("kubejs:charged_copper_block")
         .replaceLoot("kubejs:charged_copper_block","minecraft:copper_block")
   
+    event.addLootTypeModifier(LootType.CHEST)
+        .replaceLoot("enigmaticlegacy:forbidden_fruit","enchanted_golden_apple")
 
 })
