@@ -513,6 +513,18 @@ ServerEvents.recipes(event => {
 
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	event.shaped("immersive_weathering:steel_wool",
+		[
+			" I ",
+			"IWI",
+			" I "
+		],
+		{
+			W: "#minecraft:wool",
+			I: "#forge:nuggets/iron"
+		}
+	)
+
 	toolNoSword("wizards_reborn:arcane_wood","wizards_reborn:arcane_wood_planks","wizards_reborn:arcane_wood_branch","#forge:ropes")
 
 	event.shaped("kubejs:primitive_firestarter",
@@ -1056,6 +1068,26 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Tools ============================================================================
 	
+	event.shaped("kubejs:silver_knife",
+		[
+		" I",
+		"BS"
+		],
+		{
+			S: "immersiveengineering:stick_treated",
+			I: "#forge:ingots/silver",
+			B: "string"
+		}
+	)
+
+	event.shaped("farmersdelight:iron_knife",[" I","BS"],
+		{
+			S: "immersiveengineering:stick_treated",
+			I: "#forge:ingots/iron",
+			B: "string"
+		}
+	).id("farmersdelight:iron_knife")
+	
 	const CoppperToolsUpgrade = ["pickaxe","hoe","shovel"]
 
 	CoppperToolsUpgrade.forEach(type => {
@@ -1175,7 +1207,13 @@ ServerEvents.recipes(event => {
 	).id("kubejs:the_ice_cube")
 
 	/// ======================================================================= Tier 2 Tools ============================================================================
-	
+	event.shaped("farmersdelight:diamond_knife",[" I","BS"],
+		{
+			S: "kubejs:zinc_tool_handle",
+			I: "#forge:gems/diamond",
+			B: "alexsmobs:shed_snake_skin"
+		}
+	).id("farmersdelight:diamond_knife")
 	const FieryTools = ["pickaxe","sword"]
 	FieryTools.forEach(id => {
 		event.shaped("twilightforest:fiery_"+id,[" I ","IPI"," I "],
@@ -1203,17 +1241,6 @@ ServerEvents.recipes(event => {
 			W: "ars_nouveau:water_essence"
 		}
 	).id("create:crafting/appliances/copper_backtank")
-
-	event.shaped("kubejs:cross_necklace",
-		[
-			"CCC",
-			"CTC",
-			"CXC"
-		],
-		{T:"ars_nouveau:dull_trinket",
-		 C:"chain",
-		 X:"kubejs:bejeweled_crucifix"}
-	).id("kubejs:cross_necklace")
 
 	event.shaped("aether:iron_ring",
 		[
@@ -2207,9 +2234,6 @@ ServerEvents.recipes(event => {
 
 	event.shapeless("quark:pickarang",["diamond_pickaxe","quark:diamond_heart"]).id("quark:tools/crafting/pickarang_heart")
 
-	event.recipes.naturesaura.tree_ritual("kubejs:the_terraformer",
-		["iron_shovel","ars_nouveau:earth_essence","kubejs:nature_essence","kubejs:nature_essence","thermal:device_composter","thermal:device_composter","kubejs:nature_essence","kubejs:nature_essence"],"ars_nouveau:green_archwood_sapling")
-
 	event.shaped("thermal:potion_quiver",
 		[
 			"PFP",
@@ -2282,6 +2306,8 @@ ServerEvents.recipes(event => {
 		event.smithing('golden_'+id,'kubejs:gold_upgrade_smithing_template',Item.of('kubejs:silver_'+id),'kubejs:gold_upgrade_parts')
 		event.smithing("immersiveengineering:"+id+"_steel",'kubejs:steel_upgrade_smithing_template',"naturesaura:infused_iron_"+id,'kubejs:steel_upgrade_parts')
     });
+
+	event.smithing("farmersdelight:golden_knife",'kubejs:gold_upgrade_smithing_template','kubejs:silver_knife','kubejs:gold_upgrade_parts').id("farmersdelight:golden_knife")
 
 	event.remove({output:'immersiveengineering:glider'})
 	event.shaped(
