@@ -54,23 +54,7 @@ ServerEvents.recipes(event => {
 			{type: "execute",command: "playsound farmersdelight:block.cutting_board.knife neutral @p",hide: true}
 		]
 	})
-
-
-	function clickb(block, item, output) {
-		event.custom({
-			type: "create:item_application",
-			ingredients: [
-				{ item: block },
-				{ item: item },
-			],
-			results: [
-				{ item: output },
-			],
-		});
-	}
-	clickb("minecraft:obsidian","kubejs:cut_onions","minecraft:crying_obsidian")
 	 
-
 	/// ======================================================================= Tier 0 Machines ========================================================================
 	
 	event.shaped("kubejs:arcanum_pylon",
@@ -567,7 +551,18 @@ ServerEvents.recipes(event => {
 	event.shapeless('2x immersive_weathering:mulch_block', ['minecraft:dirt','#immersive_weathering:bark','immersive_weathering:moss_clump','minecraft:bone_meal'])
 	
 	event.remove({output:'farmersdelight:organic_compost'})
-	event.shapeless('farmersdelight:organic_compost', ['immersive_weathering:mulch_block','2x minecraft:bone_meal','2x minecraft:rotten_flesh','2x farmersdelight:straw'])
+
+	event.shapeless('farmersdelight:organic_compost', 
+		['immersive_weathering:mulch_block',
+			'2x minecraft:bone_meal',
+			'2x minecraft:rotten_flesh',
+			'2x farmersdelight:straw'])
+
+	event.shapeless('farmersdelight:organic_compost', 
+		['immersive_weathering:mulch_block',
+			'thermal:compost',
+			'2x minecraft:rotten_flesh',
+			'farmersdelight:straw'])
 
 	event.custom({
 		type: "lychee:item_inside",
@@ -600,6 +595,10 @@ ServerEvents.recipes(event => {
 			{
 			  type: "drop_item",
 			  item: "create:bar_of_chocolate"
+			},
+			{
+			  type: "place",
+			  block: "air"
 			}
 		  ],
 		  item_in: [
@@ -607,8 +606,14 @@ ServerEvents.recipes(event => {
 			  item: "minecraft:ice"
 			}
 		  ],
-		  block_in: "create:chocolate"
+		  "block_in": {
+			"blocks": ["create:chocolate"],
+			"state": {
+            "level": 0
+        }
+		}
 	})
+
 	event.shaped(
 	  Item.of('kubejs:sapling_ball'), 
 	  [
@@ -708,6 +713,19 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 components =======================================================================
 	
+	event.shaped("naturesaura:nature_altar",
+		[
+			"SNS",
+			"SMS",
+			"SHS"
+		],
+		{
+			N: "twilightforest:naga_scale",
+			S: "#forge:plates/stone",
+			M: "kubejs:primitive_machine",
+			H: "woodenhopper:wooden_hopper"
+		}
+	)
 	
 	event.remove({id:"forbidden_arcanus:smelting/arcane_crystal_dust_from_smelting"})
 	event.remove({id:"forbidden_arcanus:blasting/arcane_crystal_dust_from_blasting"})
@@ -988,8 +1006,6 @@ ServerEvents.recipes(event => {
 			X:"kubejs:pipe_sealant"
 	}).id("thermal:diving_fabric")
 
-	clickb("glass","thermal:slag","immersiveengineering:slag_glass")
-
 	event.remove({id:"immersiveengineering:smelting/slag_glass"})
 
 	event.shaped("kubejs:sturdy_basalt",
@@ -1261,7 +1277,8 @@ ServerEvents.recipes(event => {
 			},
 			{
 				type: "execute",
-				command: "execute playsound minecraft:entity.lightning_bolt.impact neutral @p"
+				command: "execute playsound minecraft:entity.lightning_bolt.impact neutral @p",
+				
 			}
 		  ],
 		  item_in: [
@@ -1840,6 +1857,21 @@ ServerEvents.recipes(event => {
 		}
 	).id("immersiveengineering:crafting/sorter")
 
+	event.shaped("immersiveengineering:fluid_sorter",
+		[
+			"BCB",
+			"HFH",
+			"BMB"
+		],
+		{
+			C: "comparator",
+			H: "supplementaries:faucet",
+			M: "kubejs:primitive_machine",
+			B: "kubejs:sturdy_basalt",
+			F: "sophisticatedstorage:filter_upgrade"
+		}
+	).id("immersiveengineering:crafting/fluid_sorter")
+
 	event.remove({output:'torchmaster:feral_flare_lantern'})
 	event.shaped(
 	  Item.of('torchmaster:feral_flare_lantern'), 
@@ -2024,14 +2056,15 @@ ServerEvents.recipes(event => {
 	event.shaped(
 	  Item.of('create:millstone'), 
 	  [
-		'S',
-		'G', 
-		'P'
+		' S ',
+		' G ', 
+		'DPD'
 	  ],
 	  {
 		G: 'kubejs:stone_gear',
 		P: 'kubejs:primitive_machine',
-		S: 'woodenhopper:wooden_hopper'
+		S: 'woodenhopper:wooden_hopper',
+		D: "#forge:dusts/iron"
 	  }
 	)
 	
@@ -2370,19 +2403,18 @@ ServerEvents.recipes(event => {
 	event.shaped("kubejs:aura_generator_block",
 		[
 			"IGI",
-			"IMI",
-			"IGI"
+			"EME",
+			"IEI"
 		],
 		{
 			I: "#forge:plates/infused_iron",
 			G: '#forge:gears/infused_iron',
-			M: "kubejs:magical_generator_block"
+			M: "kubejs:magical_generator_block",
+			E: "kubejs:nature_essence"
 		}
 	).id("kubejs:aura_generator_block")
 
 
-	event.recipes.naturesaura.altar("aether:zanite_gemstone","diamond",7500,40)
-	event.recipes.naturesaura.altar("deep_aether:skyjade","emerald",7500,40)
 
 	event.recipes.ars_nouveau.enchanting_apparatus(
 		["kubejs:zinc_tool_handle","blaze_rod","#forge:storage_blocks/coal_coke","#forge:storage_blocks/coal_coke"],
@@ -2714,6 +2746,19 @@ ServerEvents.recipes(event => {
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
 
+	event.shaped("naturesaura:mover_cart",
+		[
+			" B ",
+			"BIB",
+			" C "
+		],
+		{
+			B: "naturesaura:infused_brick",
+			I: "naturesaura:infused_iron_block",
+			C: "minecart"
+		}
+	).id("naturesaura:mover_cart")
+
 	event.shaped("naturesaura:blast_furnace_booster",
 		[
 			"FBF",
@@ -2860,15 +2905,15 @@ ServerEvents.recipes(event => {
 
 	event.shaped("naturesaura:crushing_catalyst",
 		[
-			"PSP",
+			"PTP",
 			"GMG",
-			"PTP"
+			"PWP"
 		],
 		{
-			P:"#forge:plates/ironwood",
-			S:"create:millstone",
-			M:"kubejs:basic_magic_machine",
-			G:"#forge:gears/arcanum_alloy",
+			P:"#forge:plates/stone",
+			W:"woodenhopper:wooden_hopper",
+			M:"kubejs:primitive_machine",
+			G:"#forge:gears/stone",
 			T:"naturesaura:token_anger"
 
 		}
@@ -3139,7 +3184,6 @@ ServerEvents.recipes(event => {
 	  }
 	)
 	
-	clickb("vintagedelight:fermenting_jar","kubejs:source_alloy_ingot","ars_nouveau:source_jar")
 	
 	event.remove({output:"ars_nouveau:mob_jar"})
 	event.shapeless("ars_nouveau:mob_jar",["ars_nouveau:source_jar","supplementaries:cage"])
@@ -3182,67 +3226,8 @@ ServerEvents.recipes(event => {
 		G: 'minecraft:polished_deepslate'
 	  }
 	)
-	
-	event.remove({output:"immersiveengineering:alloybrick"})
-	event.custom({	
-		 type: "ars_nouveau:imbuement",
-	  "count": 1,
-	  "input": {
-		item: "kubejs:magic_machine"
-	  },
-	  "output": "immersiveengineering:alloybrick",
-	  "pedestalItems": [
-		{
-		  item: {
-			item: "ars_nouveau:air_essence"
-		  }
-		},
-		{
-		  item: {
-			item: "ars_nouveau:water_essence"
-		  }
-		},
-		{
-		  item: {
-			item: "ars_nouveau:fire_essence"
-		  }
-		},
-		{
-			item: {
-			  item: "naturesaura:tainted_gold"
-			}
-		},
-		{
-		  item: {
-			item: "ars_nouveau:earth_essence"
-		  }
-		}
-	  ],
-	  "source": 500	
-	})
 
 	event.remove({output:"naturesaura:nature_altar"})
-	event.custom(
-		{
-			type: "ars_nouveau:enchanting_apparatus",
-			"keepNbtOfReagent": false,
-			"output": {item: "naturesaura:nature_altar"},
-			"pedestalItems": [
-			  {item: "minecraft:smooth_stone"},
-			  {item: "naturesaura:token_joy"},
-			  {item: "kubejs:nature_essence"},
-			  {item: "kubejs:nature_essence"},
-			  {item: "kubejs:nature_essence"},
-			  {item: "kubejs:nature_essence"},
-			  {item: "kubejs:nature_essence"},
-			  {item: "kubejs:nature_essence"}
-			],
-			"reagent": [
-			  {item: "kubejs:basic_magic_machine"}
-			],
-			"sourceCost": 5000
-		  }
-	)
 	
 
 	event.remove({output:'kubejs:zinc_tool_handle'})
@@ -3341,7 +3326,7 @@ ServerEvents.recipes(event => {
 				type: "create:deploying",
 				ingredients: [
 				  {item: "kubejs:unstable_ivy_quartz"},
-				  {item: "forge:raw_fishes/salmon" }
+				  {tag: "forge:raw_fishes/salmon" }
 				],
 				results: [
 				  {item: "kubejs:unstable_ivy_quartz"}
@@ -3351,7 +3336,7 @@ ServerEvents.recipes(event => {
 				type: "create:deploying",
 				ingredients: [
 				  {item: "kubejs:unstable_ivy_quartz"},
-				  {item: "forge:raw_fishes/salmon"}
+				  {tag: "forge:raw_fishes/salmon"}
 				],
 				results: [
 				  {item: "kubejs:unstable_ivy_quartz"}
@@ -3381,7 +3366,7 @@ ServerEvents.recipes(event => {
 		"transitionalItem": {item: "kubejs:unstable_ivy_quartz"}
 	})
 
-	event.recipes.naturesaura.altar("naturesaura:infused_stone","kubejs:sturdy_deepslate",7500,40).id("naturesaura:altar/infused_stone")
+	
 	event.remove({output:"minecraft:clock"})
 	event.custom({
 		type: "create:sequenced_assembly",
