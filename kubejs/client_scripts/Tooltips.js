@@ -27,6 +27,8 @@ ItemEvents.tooltip( tooltip => {
 
   tooltip.add(["kubejs:travelers_belt"],Text.gray("Texture by Futureazoo"))
 
+  tooltip.add(["kubejs:the_terraformer"],Text.gray("Texture by SenorRandom"))
+
   tooltip.add("kubejs:sapphire",Text.gray("Texture by JuniDeerGirl"))
 
   tooltip.add(["kubejs:bear_totem",
@@ -36,7 +38,11 @@ ItemEvents.tooltip( tooltip => {
                "kubejs:tiger_totem",
                "kubejs:penguin_totem",
                "kubejs:roadrunner_totem",
-               "kubejs:leafcutter_ant_totem"
+               "kubejs:leafcutter_ant_totem",
+               "kubejs:bronze_helmet",
+               "kubejs:bronze_chestplate",
+               "kubejs:bronze_leggings",
+               "kubejs:bronze_boots"
   ],Text.gray("Texture by Gyldanword"))
 
   tooltip.add(["kubejs:arcane_alloy_ingot",
@@ -87,9 +93,7 @@ ItemEvents.tooltip( tooltip => {
     'kubejs:nether_key', 
     'kubejs:end_key', 
     'kubejs:aether_key', 
-    'kubejs:dark_key', 
-    'kubejs:heavenly_spice', 
-    'kubejs:cosmic_spice',
+    'kubejs:dark_key',
     'kubejs:electricity_essence',
     'kubejs:ultimate_alchemical_dust',
     'kubejs:berry_quartz'], (item, advanced, text) => {
@@ -335,11 +339,25 @@ ItemEvents.tooltip( tooltip => {
                "immersiveengineering:shovel_steel",
                "immersiveengineering:axe_steel",
                "immersiveengineering:hoe_steel",
-               "immersiveengineering:sword_steel",],(item, advanced, text) => {
+               "immersiveengineering:sword_steel",
+               'immersiveengineering:armor_faraday_helmet',
+               'immersiveengineering:armor_faraday_chestplate',
+               'immersiveengineering:armor_faraday_leggings',
+               'immersiveengineering:armor_faraday_boots'],(item, advanced, text) => {
                 text.add(1, Text.of("Unbreakable").blue())
                })
   //=======================Arrows=======================
 
   tooltip.add("forbidden_arcanus:boom_arrow",[Text.gold("Explodes on impact with entities!"),Text.gold("Deals massive amounts of damage!")])
 
+  //========================Enigmatic Legacy ========================
+
+  tooltip.add("enigmaticlegacy:ocean_stone",[Text.gold("When equipped as Spellstone:"),Text.blue("+10 Cold Resistance"),Text.red("-10 Fire Resistance")])
+  
+  //=======================Generators================================
+
+  tooltip.add("#dq:generators/wissen",Text.aqua("Wissen Generator"))
+  tooltip.add("#dq:generators/aura",Text.green("Aura Generator"))
+  tooltip.add("#dq:generators/source",Text.darkPurple("Source Generator"))
+  tooltip.add("#dq:generators/stress",Text.yellow("Stress Generator"))
 })

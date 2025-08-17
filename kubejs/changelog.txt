@@ -2683,4 +2683,69 @@ Patch 0.3.2.1
 
 ### Other:
     -You now need to crouch to Aoe till the ground with a Hoe
+    -All of the Farmer's Delight Foods now stack to 64
+    -Fixed Magical Generator Ponder
+
+# Patch 2.6.2
+
+### New Items:
+    -Bronze Helmet
+    -Bronze Chestplate
+    -Bronze Leggings
+    -Bronze Boots
+
+### Recipes:
+    -Added missing Infusion Catalyst Recipe
+
+### Other:
+    -Fixed Explorer's Armor Set bonus
+
+
+# Patch 2.6.2.1
+
+### Recipes:
+    -Changed for Infusion Catalyst Recipe
+
+# Patch 2.6.3
+
+### Recipes:
+    -Added for Gray Permafrost
+    -Changed for Ironwood Helmet
+    -Changed for Ironwood Chestplate
+    -Changed for Ironwood Leggings
+    -Changed for Ironwood Boots
+    -Removed old Nature Altar recipe
+    -Fixed for Source Jar
+    -Fixed for Crying Obsidian
+    -Fixed for Slag Glass
+    -Added for Blue Spruce Sapling
+    
+### Mob Balance:
+    -Basalz Can no longer spawn with items in hand
+
+### Item Balance:
+    -Previous Armor Durability increase was changed from +50% to +75%
+    -Rebalanced the Ironwood Armor
+    -Following Armors now also get extra 75% durability:
+        -Botanist
+        -Ironwood
+        -Fiery
+        -Battlemage
+        -Sorcerer
+        -Botanist
+        -Sky
+        -Depth
+        -Arcanist
+
+# Patch 3.0
+
+### Recipes:
+    -Buffed for Tinted Glass
+
+### Other:
+    -Fixed Wissen Generators tooltips
+    -Fixed Stress Generators tooltips
+
+### Loot:
+    -Fixed Abandoned Temple Chest
     
