@@ -59,7 +59,7 @@ ServerEvents.recipes(event => {
     {
         event.shapeless(count+"x "+output, [input, '#forge:tools/mortars']).damageIngredient('#forge:tools/mortars', damage).id(id)
 
-        event.recipes.naturesaura.altar(magicCount+"x "+output, input,50,20,'naturesaura:crushing_catalyst')
+        event.recipes.naturesaura.altar(magicCount+"x "+output, input,500,80,'naturesaura:crushing_catalyst')
 
        /* event.custom(
             {
@@ -107,6 +107,7 @@ ServerEvents.recipes(event => {
 
     MillingWithExtras(4, "vintagedelight:salt_dust", 6, 1, "coal", 0.9, "wizards_reborn:nether_salt", 4, "wizards_reborn:salt_crushing")
     MillingWithExtras(1, "wizards_reborn:arcanum_dust", 2, 1, "wizards_reborn:arcanum_dust", 0.5, "wizards_reborn:arcanum", 4, "wizards_reborn:shapeless/arcanum_dust")
+    event.remove({id:"wizards_reborn:integration/create/crushing/arcanum"})
     event.remove({id:"wizards_reborn:shapeless/arcanum_dust_with_redstone"})
 
     MillingWithExtras(1, 'create:wheat_flour', 2, 1, 'create:wheat_flour', 0.5, 'minecraft:wheat', 2, 'create:milling/wheat')
