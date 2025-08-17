@@ -498,7 +498,7 @@ StartupEvents.registry('item', item => {
 
   item.create("coal_chunk").burnTime(200)
   item.create("charcoal_chunk").burnTime(200)
-  item.create("coke_chunk").burnTime(400)
+  item.create("coke_chunk").burnTime(400).displayName("Coal Coke Chunk")
 
   ///===================================================MISC===========================================================
 
