@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
         "naturesaura:infused_iron_shoes"]})
 
 
-    function simplearmor(material,helmet,chest,leg,boots)
+    function SimpleArmor(material,helmet,chest,leg,boots)
 	{
 		event.shaped(
 			Item.of(helmet), 
@@ -83,20 +83,59 @@ ServerEvents.recipes(event => {
 		  )
 	}
 
-    simplearmor("thermal:beekeeper_fabric","thermal:beekeeper_helmet","thermal:beekeeper_chestplate","thermal:beekeeper_leggings","thermal:beekeeper_boots")
+    SimpleArmor("thermal:beekeeper_fabric",
+		"thermal:beekeeper_helmet",
+		"thermal:beekeeper_chestplate",
+		"thermal:beekeeper_leggings",
+		"thermal:beekeeper_boots")
 
-    simplearmor("#forge:plates/copper","kubejs:copper_helmet","kubejs:copper_chestplate","kubejs:copper_leggings","kubejs:copper_boots")
+    SimpleArmor("#forge:plates/copper",
+		"kubejs:copper_helmet",
+		"kubejs:copper_chestplate",
+		"kubejs:copper_leggings",
+		"kubejs:copper_boots")
 	
-    simplearmor("#forge:plates/lead","kubejs:lead_helmet","kubejs:lead_chestplate","kubejs:lead_leggings","kubejs:lead_boots")
+    SimpleArmor("#forge:plates/lead",
+		"kubejs:lead_helmet",
+		"kubejs:lead_chestplate",
+		"kubejs:lead_leggings",
+		"kubejs:lead_boots")
 	
-    simplearmor("#forge:plates/silver","kubejs:silver_helmet","kubejs:silver_chestplate","kubejs:silver_leggings","kubejs:silver_boots")
+    SimpleArmor("#forge:plates/silver",
+		"kubejs:silver_helmet",
+		"kubejs:silver_chestplate",
+		"kubejs:silver_leggings",
+		"kubejs:silver_boots")
 
-    simplearmor("#forge:plates/iron","iron_helmet","iron_chestplate","iron_leggings","iron_boots")
-	simplearmor("#forge:plates/diamond","diamond_helmet","diamond_chestplate","diamond_leggings","diamond_boots")
-	simplearmor("minecraft:chain","chainmail_helmet","chainmail_chestplate","chainmail_leggings","chainmail_boots")
+    SimpleArmor("#forge:plates/iron",
+		"iron_helmet",
+		"iron_chestplate",
+		"iron_leggings",
+		"iron_boots")
+	
+	SimpleArmor("#forge:plates/diamond",
+		"diamond_helmet",
+		"diamond_chestplate",
+		"diamond_leggings",
+		"diamond_boots")
 
-    simplearmor('immersiveengineering:hemp_fabric',"immersiveengineering:armor_faraday_helmet","immersiveengineering:armor_faraday_chestplate","immersiveengineering:armor_faraday_leggings","immersiveengineering:armor_faraday_boots")
+	SimpleArmor("minecraft:chain",
+		"chainmail_helmet",
+		"chainmail_chestplate",
+		"chainmail_leggings",
+		"chainmail_boots")
 
+    SimpleArmor('immersiveengineering:hemp_fabric',
+		"immersiveengineering:armor_faraday_helmet",
+		"immersiveengineering:armor_faraday_chestplate",
+		"immersiveengineering:armor_faraday_leggings",
+		"immersiveengineering:armor_faraday_boots")
+
+	SimpleArmor("#forge:plates/ironwood",
+		"twilightforest:ironwood_helmet",
+		"twilightforest:ironwood_chestplate",
+		"twilightforest:ironwood_leggings",
+		"twilightforest:ironwood_boots")
     event.remove([
         {output:"iron_helmet"},
         {output:"iron_chestplate"},
@@ -318,6 +357,23 @@ ServerEvents.recipes(event => {
 		"twilightforest:fiery_chestplate",
 		"twilightforest:fiery_leggings",
 		"twilightforest:fiery_boots")
+
+	SimpleArmorUpgrade("#forge:plates/bronze",
+		"kubejs:copper_helmet",
+		"kubejs:copper_chestplate",
+		"kubejs:copper_leggings",
+		"kubejs:copper_boots",
+		"kubejs:bronze_helmet",
+		"kubejs:bronze_chestplate",
+		"kubejs:bronze_leggings",
+		"kubejs:bronze_boots")
+
+	event.remove([
+		{output:"twilightforest:ironwood_helmet"},
+		{output:"twilightforest:ironwood_chestplate"},
+		{output:"twilightforest:ironwood_leggings"},
+		{output:"twilightforest:ironwood_boots"}
+	])
 		
 	event.shaped("umbral_skies:fiery_gloves",
 		[
@@ -346,7 +402,7 @@ ServerEvents.recipes(event => {
 
 	event.shaped("elytra",
 		[
-			"MGM",
+			"NGN",
 			"MNM",
 			"A A"
 		],
