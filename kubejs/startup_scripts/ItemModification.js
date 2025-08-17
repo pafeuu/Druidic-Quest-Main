@@ -1,6 +1,12 @@
 
 ItemEvents.modification(event => {
   
+  /*const HelmetDurabilityModifier = 13
+  const ChestplateDurabilityModifier = 15
+  const LeggingsDurabilityModifier = 16
+  const BootsDurabilityModifier = 11*/
+
+
   var colors = ['red',
     'blue',
     'white',
@@ -36,13 +42,56 @@ ItemEvents.modification(event => {
 
   let stacking64 = ["minecraft:snowball",
     "ender_pearl",
-    "farmersdelight:cooking_pot"]
+    "farmersdelight:cooking_pot",
+    'farmersdelight:cooked_rice',
+    'farmersdelight:bone_broth',
+    'farmersdelight:beef_stew',
+    'farmersdelight:chicken_soup',
+    'farmersdelight:vegetable_soup',
+    'farmersdelight:fish_stew',
+    'farmersdelight:fried_rice',
+    'farmersdelight:squid_ink_pasta',
+    'farmersdelight:ratatouille',
+    'farmersdelight:steak_and_potatoes',
+    'farmersdelight:vegetable_noodles',
+    'farmersdelight:roasted_mutton_chops',
+    'farmersdelight:mushroom_rice',
+    'farmersdelight:pasta_with_mutton_chop',
+    'farmersdelight:pasta_with_meatballs',
+    'farmersdelight:bacon_and_eggs',
+    'farmersdelight:noodle_soup',
+    'farmersdelight:baked_cod_stew',
+    'farmersdelight:pumpkin_soup',
+    'farmersdelight:grilled_salmon',
+    'farmersdelight:roast_chicken_block',
+    'farmersdelight:roast_chicken',
+    'farmersdelight:stuffed_pumpkin_block',
+    'farmersdelight:stuffed_pumpkin',
+    'farmersdelight:honey_glazed_ham_block',
+    'farmersdelight:honey_glazed_ham',
+    'farmersdelight:shepherds_pie_block',
+    'farmersdelight:shepherds_pie',
+    'farmersdelight:rice_roll_medley_block',
+    'farmersdelight:dog_food',
+    'farmersdelight:horse_feed',
+    'farmersdelight:melon_juice',
+    'farmersdelight:apple_cider',
+    'farmersdelight:hot_cocoa',
+    'farmersdelight:milk_bottle',
+    'farmersdelight:nether_salad',
+    'farmersdelight:mixed_salad',
+    'farmersdelight:fruit_salad',
+    'farmersdelight:glow_berry_custard']
  
   let tooltype =['pickaxe','shovel','hoe','axe']
   
   let ArmorSlot = ['helmet','chestplate','boots','leggings']
 
-  //let NatureArmorSlot = ['helmet','chest','pants','shoes']
+  let NatureArmorSlot = ['helmet','chest','pants','shoes']
+
+  let ArsArmorSlot =['hood','robes','leggings','boots']
+
+  let ArsDurabilityBuffs = ['sorcerer','arcanist','battlemage']
 
   let DurabilityBuffs= ['minecraft:iron',
     'minecraft:leather',
@@ -56,9 +105,17 @@ ItemEvents.modification(event => {
     'forbidden_arcanus:mortem',
     "irons_spellbooks:wandering_magician",
     "irons_spellbooks:pumpkin",
-    "immersiveengineering:armor_faraday",
-    "thermal:beekeeper"]
+    "thermal:beekeeper",
+    "twilightforest:fiery",
+    "twilightforest:ironwood",
+    "twilightforest:steel"
+    ]
 
+    let NatureDurabilityBuffs = [
+      'infused_iron',
+      'sky',
+      'depth']
+  
   let FireResistant = ["rubinated_nether:ruby",
     "rubinated_nether:ruby_shard",
     "rubinated_nether:molten_ruby",
@@ -76,7 +133,7 @@ ItemEvents.modification(event => {
     "minecraft:quartz"
   ]
 
-  //let NatureDurabilityBuffs = ['infused_iron','sky','depth']
+  
   
   colors.forEach(color => {
     event.modify("minecraft:"+color+"_bed", item=>{
@@ -257,6 +314,27 @@ ItemEvents.modification(event => {
   
   //========================================Armor
 
+  event.modify("twilightforest:ironwood_helmet", item=>{
+    item.armorProtection = 1,
+    item.armorKnockbackResistance = 0.05
+
+  })
+
+  event.modify("twilightforest:ironwood_chestplate", item=>{
+    item.armorProtection = 5,
+    item.armorKnockbackResistance = 0.05
+  })
+
+  event.modify("twilightforest:ironwood_leggings", item=>{
+    item.armorProtection = 4,
+    item.armorKnockbackResistance = 0.05
+  })
+
+  event.modify("twilightforest:ironwood_boots", item=>{
+    item.armorProtection = 1,
+    item.armorKnockbackResistance = 0.05
+  })
+
   event.modify("twilightforest:fiery_helmet", item=>{
     item.armorProtection = 2,
     item.armorToughness = 0
@@ -377,7 +455,29 @@ ItemEvents.modification(event => {
 
       event.modify(id+"_"+slot, item=>{
 
-        item.maxDamage = item.maxDamage*1.5
+        item.maxDamage = item.maxDamage*1.75
+      })
+    });
+  });
+
+  NatureDurabilityBuffs.forEach(id => {
+
+    NatureArmorSlot.forEach(slot => {
+
+      event.modify("naturesaura:"+id+"_"+slot, item=>{
+
+        item.maxDamage = item.maxDamage*1.75
+      })
+    });
+  });
+
+  ArsDurabilityBuffs.forEach(id => {
+
+    ArsArmorSlot.forEach(slot => {
+
+      event.modify("ars_nouveau:"+id+"_"+slot, item=>{
+
+        item.maxDamage = item.maxDamage*1.75
       })
     });
   });
