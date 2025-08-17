@@ -1,5 +1,59 @@
 ServerEvents.recipes(event=>{
 
+	function spellstone(element,output)
+	{
+		event.custom({
+		type: "immersiveengineering:alloy",
+		  "input0": {
+			base_ingredient: {
+				item: "ars_nouveau:"+element+"_essence"
+			},
+			count: 16
+		  },
+		  "input1": {
+            base_ingredient: {
+			item: "kubejs:elemental_core"
+            },
+            count: 1
+		  },
+		  "result": {
+			"base_ingredient": {
+			  item: "enigmaticlegacy:"+output
+			},
+			"count": 1
+		  },
+		  "time": 600
+		})
+	}
+
+	spellstone("fire","blazing_core")
+	spellstone("earth","golem_heart")
+	spellstone("water","ocean_stone")
+	spellstone("air","angel_blessing")
+
+	event.custom({
+		type: "immersiveengineering:alloy",
+		  "input0": {
+			base_ingredient: {
+				item: "kubejs:ender_essence"
+			},
+			count: 2
+		  },
+		  "input1": {
+            base_ingredient: {
+			item: "kubejs:elemental_core"
+            },
+            count: 1
+		  },
+		  "result": {
+			"base_ingredient": {
+			  item: "enigmaticlegacy:eye_of_nebula"
+			},
+			"count": 1
+		  },
+		  "time": 600
+		})
+		
     event.custom({
 		type: "immersiveengineering:alloy",
 		  "input0": {
