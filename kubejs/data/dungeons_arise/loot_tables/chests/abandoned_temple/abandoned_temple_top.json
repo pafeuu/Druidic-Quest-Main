@@ -10,7 +10,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "thermal:iron_plates",
+          "name": "create:iron_sheet",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -142,19 +142,8 @@
           "name": "kubejs:lead_sword"
         },
         {
-          "type": "minecraft:tag",
-          "weight": 10,
-          "name": "minecraft:arrows",
-          "expand": true,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 12,
-                "max": 36
-              }
-            }
-          ]
+          "type": "minecraft:item",
+          "name": "kubejs:archers_glove"
         },
         {
           "type": "minecraft:item",

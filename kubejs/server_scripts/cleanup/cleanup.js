@@ -291,7 +291,8 @@ global.nukelist = ["twigs:calcite_wall",
 	'enigmaticlegacy:void_pearl',
 	'enigmaticlegacy:escape_scroll',
 	'enigmaticlegacy:fabulous_scroll',
-	'forbidden_arcanus:deepslate_arcane_crystal_ore']/*,
+	'forbidden_arcanus:deepslate_arcane_crystal_ore',
+	'forbidden_arcanus:obsidian_skull_shield']/*,
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',
 	'thermal:enderium_dust',
@@ -375,7 +376,10 @@ ServerEvents.recipes(event => {
 		"architects_palette:tuff_bricks",
 		"regions_unexplored:yellow_dye_from_tall_yellow_bioshroom"*/,
 		"minecraft:bamboo_mosaic_slab",
-		"ftbfiltersystem:smart_filter",		
+		"ftbfiltersystem:smart_filter",
+		"ancient_aether:skyroot_smithing_table_from_zanite",
+		"ancient_aether:holystone_stonecutter_from_zanite",
+		"ancient_aether:anvil_from_zanite"
 		]
 	
 	RemoveById.forEach(id => {
@@ -470,6 +474,13 @@ ServerEvents.recipes(event => {
 
 	event.stonecutting("everycomp:dd/naturesaura/short_ancient_door","everycomp:ch/naturesaura/overgrown_ancient_door").id("everycomp:dd/naturesaura/short_ancient_door")*/
 
+	function Chunks(big,small)
+	{
+		event.shapeless(big,"8x "+small)
+		event.shapeless("8x "+small,big)
+		//Compacts 8 small items into 1 big item and back (coal chunks)
+	};
+
 	function StorageCompacting(big,small)
 	{
 		event.shapeless(big,"9x "+small)
@@ -484,6 +495,9 @@ ServerEvents.recipes(event => {
 		//Compacts 4 small items into 1 big item and back (used for some gems and gems blocks)
 	};
 
+	Chunks("coal","kubejs:coal_chunk")
+	Chunks("charcoal","kubejs:charcoal_chunk")
+	Chunks("thermal:coal_coke","kubejs:coke_chunk")
 	StorageCompacting("kubejs:gold_leaf_block","naturesaura:gold_leaf")
 	StorageCompacting("kubejs:rotten_flesh_block","rotten_flesh")
 	StorageCompacting("kubejs:ivy_block","immersive_weathering:ivy")
@@ -967,6 +981,18 @@ ServerEvents.recipes(event => {
 	
 	///=======================================Building blocks=======================================///
 
+	event.shaped("12x tinted_glass",
+		[
+			"LAL",
+			"AGA",
+			"LAL"
+		],
+		{
+			L: "#forge:wires/lead",
+			A: "#forge:gems/amethyst",
+			G: "#forge:glass/colorless"
+		}
+	).id("immersiveengineering:crafting/tinted_glass_lead_wire")
 	event.shaped("immersiveengineering:sawdust",
 		[
 			"SS"
@@ -1192,54 +1218,6 @@ ServerEvents.recipes(event => {
 			R: "kubejs:shapeshifting_root"
 	})
 
-	/*event.shaped("regions_unexplored:blue_bioshroom",
-		[
-			"ZXZ",
-			"XRX",
-			"ZXZ"
-		],
-		{
-			X: "#forge:dyes/blue",
-			Z: "quark:glow_shroom",
-			R: "kubejs:shapeshifting_root"
-	})
-
-	event.shaped("regions_unexplored:pink_bioshroom",
-		[
-			"ZXZ",
-			"XRX",
-			"ZXZ"
-		],
-		{
-			X: "#forge:dyes/pink",
-			Z: "quark:glow_shroom",
-			R: "kubejs:shapeshifting_root"
-	})
-
-	event.shaped("regions_unexplored:green_bioshroom",
-		[
-			"ZXZ",
-			"XRX",
-			"ZXZ"
-		],
-		{
-			X: "#forge:dyes/green",
-			Z: "quark:glow_shroom",
-			R: "kubejs:shapeshifting_root"
-	})
-
-	event.shaped("regions_unexplored:yellow_bioshroom",
-		[
-			"ZXZ",
-			"XRX",
-			"ZXZ"
-		],
-		{
-			X: "#forge:dyes/yellow",
-			Z: "quark:glow_shroom",
-			R: "kubejs:shapeshifting_root"
-	})
-	*/
 
 	event.shaped("quark:glow_shroom",
 		[
@@ -1250,6 +1228,18 @@ ServerEvents.recipes(event => {
 		{
 			X: "#forge:mushrooms",
 			Z: "glow_berries",
+			R: "kubejs:shapeshifting_root"
+	})
+
+	event.shaped("biomeswevegone:blue_spruce_sapling",
+		[
+			"ZXZ",
+			"ZRZ",
+			"ZZZ"
+		],
+		{
+			X: "minecraft:spruce_sapling",
+			Z: "blue_dye",
 			R: "kubejs:shapeshifting_root"
 	})
 

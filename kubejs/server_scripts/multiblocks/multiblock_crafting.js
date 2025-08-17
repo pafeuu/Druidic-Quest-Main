@@ -356,7 +356,7 @@ ServerEvents.recipes(event => {
 
   ClickingSquareCrafting("thermal:coal_coke","minecraft:furnace","quark:sturdy_stone","quark:sturdy_stone","minecraft:coal_block")
   
-  LightningSquareCrafting("kubejs:lemon_quartz","kubejs:magical_generator_block","kubejs:source_alloy_block","kubejs:arcanum_alloy_block","kubejs:source_alloy_block")
+  ClickingSquareCrafting("kubejs:lemon_quartz","kubejs:magical_generator_block","kubejs:source_alloy_block","kubejs:arcanum_alloy_block","kubejs:source_alloy_block")
   
 
 })

@@ -5,14 +5,23 @@ ServerEvents.tags('item', event => {
   event.removeAllTagsFrom([global.nukelist])
 
   event.add("c:rods/wooden","twigs:twig")
+  event.add("lychee:dispenser_placement","minecraft:iron_block")
   
-  event.remove("c:rods/wooden","naturesaura:ancient_stick")
-  event.remove("c:rods/wooden","immersiveengineering:stick_treated")
+  event.remove("forge:rods/wooden","naturesaura:ancient_stick")
+  event.remove("forge:rods/wooden","immersiveengineering:stick_treated")
+  event.remove("forge:tools","#forge:shields")
+  event.remove("forge:tools","#forge:tools/shields")
+  event.remove("forge:tools","#c:tools/shields")
+  event.remove("forge:tools","#c:tools")
   
   event.add("c:hidden_from_recipe_viewers",[global.nukelist])
 
   event.add("c:hidden_from_recipe_viewers",["kubejs:recipe_changed","ftbfiltersystem:smart_filter","kubejs:unstable_ivy_quartz"])
   
+  event.add("curios:charm",["wizards_reborn:wissen_keychain",'wizards_reborn:creative_wissen_keychain'])
+  event.add("curios:necklace",["wizards_reborn:wissen_keychain",'wizards_reborn:creative_wissen_keychain'])
+
+  event.remove("curios:curio",["wizards_reborn:wissen_keychain",'wizards_reborn:creative_wissen_keychain'])
 
   let seed = ["vintagedelight:oat_seeds",
     "vintagedelight:ghost_pepper_seeds",
@@ -47,11 +56,60 @@ ServerEvents.tags('item', event => {
     "minecraft:verdant_froglight",
     "minecraft:pearlescent_froglight"]
 
-  let SourceLinks = ['ars_nouveau:alchemical_sourcelink',
+  event.add("dq:generators/source",[
+    'ars_nouveau:alchemical_sourcelink',
     'ars_nouveau:vitalic_sourcelink',
     'ars_nouveau:mycelial_sourcelink',
     'ars_nouveau:volcanic_sourcelink',
-    'ars_nouveau:agronomic_sourcelink']
+    'ars_nouveau:agronomic_sourcelink'])
+
+  event.add("dq:generators/wissen",[
+    "wizards_reborn:altar_of_drought",
+    "wizards_reborn:totem_of_disenchant",
+    "wizards_reborn:totem_of_experience_absorption",
+    "wizards_reborn:wissen_altar"
+  ])
+
+  event.add("dq:generators/aura",[
+    'naturesaura:potion_generator',
+    'naturesaura:flower_generator',
+    'naturesaura:oak_generator',
+    'naturesaura:animal_generator',
+    'naturesaura:moss_generator',
+    'naturesaura:ancient_sapling',
+    'naturesaura:end_flower',
+    'naturesaura:ancient_sapling',
+    'naturesaura:firework_generator',
+    'naturesaura:projectile_generator',
+    'naturesaura:chorus_generator',
+    'naturesaura:slime_split_generator',
+    'naturesaura:end_flower'
+  ])
+
+  event.add("dq:generators/stress",[
+    'create:hand_crank',
+    'create:steam_engine',
+    'create:gray_valve_handle',
+    'create:light_gray_valve_handle',
+    'create:cyan_valve_handle',
+    'create:purple_valve_handle',
+    'create:blue_valve_handle',
+    'create:brown_valve_handle',
+    'create:green_valve_handle',
+    'create:red_valve_handle',
+    'create:black_valve_handle',
+    'create:gray_valve_handle',
+    'create:pink_valve_handle',
+    'create:lime_valve_handle',
+    'create:yellow_valve_handle',
+    'create:light_blue_valve_handle',
+    'create:magenta_valve_handle',
+    'create:orange_valve_handle',
+    'create:white_valve_handle',
+    'create:copper_valve_handle',
+    'create:hand_crank',
+    'create:steam_engine'])
+
   
   event.add("dq:tier0componenets", 
     ['minecraft:string',
@@ -409,9 +467,6 @@ ServerEvents.tags('item', event => {
   event.add('forge:plates/andesite','vintageimprovements:andesite_sheet')
 
   event.add('immersive_weathering:bark','farmersdelight:tree_bark')
-  SourceLinks.forEach(id => {
-    event.add("druidic_quest:generators/source",id)
-  });
 
   froglights.forEach(id => {
     event.add("forge:froglights",id)
@@ -487,6 +542,8 @@ ServerEvents.tags('item', event => {
 	event.add('forge:tools/steel', "immersiveengineering:axe_steel")  
 	event.add('forge:tools/steel', "immersiveengineering:shovel_steel")  
 	event.add('forge:tools/steel', "immersiveengineering:sword_steel")  
+
+  event.add("forge:storage_blocks/cobblestone","quark:sturdy_stone")
 
   event.add('druidic_quest:dimensional_tools',['#forge:tools/ironwood',"#forge:tools/zanite","#forge:tools/gravitite","#forge:tools/holystone", 
     "#forge:tools/skyjade","#forge:tools/steeleaf","#forge:tools/ironwood","#forge:tools/blaze","#forge:tools/netherite"])
@@ -604,5 +661,13 @@ ServerEvents.tags('block', event => {
   grass.forEach(id => {
     event.add("forge:tall_grass",id)
   });
+
+  event.add("minecraft:needs_diamond_tool",[
+    "waystones:waystone",
+    "waystones:sandy_waystone",
+    "waystones:mossy_waystone",
+    "minecraft:spawner",
+    "quark:monster_box"
+  ])
 
 })

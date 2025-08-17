@@ -7,6 +7,97 @@
 	id: "5CB7677DFE3231B7"
 	order_index: 10
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "4AB693E41C1E98EA"
+			tasks: [{
+				id: "147071169A9557E5"
+				item: "immersiveengineering:conveyor_basic"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			id: "7D8E452FDD5F9A5E"
+			tasks: [{
+				id: "0BABF8BEDC2D14CE"
+				item: "woodenhopper:wooden_hopper"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "59579B12207DD310"
+			tasks: [{
+				id: "79C3063F2C56AFF2"
+				item: "supplementaries:faucet"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "192F4A1B7714BA44"
+			tasks: [{
+				id: "10FE910492FCD2D2"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "2BB2936431BC8F06"
+			tasks: [{
+				id: "07654379165CAF18"
+				item: "wizards_reborn:fluid_pipe"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "775A9821ACC21BE5"
+			tasks: [{
+				id: "174F680CC7D29EC9"
+				item: "immersiveengineering:fluid_pipe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "5171A92A9587D551"
+			tasks: [{
+				id: "0C8EFCB16BF86B02"
+				title: "item transportation"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "18F180938E232223"
+			tasks: [{
+				id: "17F6E21ACF1694D1"
+				title: "fluid transportation"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "088994ED32EAB559"
+			tasks: [{
+				id: "24804F0427A847BC"
+				item: "thermal:fluid_duct"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+	]
 	title: "Automation"
 }

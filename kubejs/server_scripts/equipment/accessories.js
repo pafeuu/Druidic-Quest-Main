@@ -47,6 +47,8 @@ ServerEvents.recipes(event => {
     }
     )
 
+    event.shapeless("irons_spellbooks:silver_ring",["ars_nouveau:ring_of_potential","#forge:plates/silver"])
+    
     event.recipes.naturesaura.tree_ritual("kubejs:gravity_boots_cover", [
         "thermal:ruby", 
         "kubejs:fall_boots_cover",

@@ -95,13 +95,13 @@
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                  "max": 3,
+                  "max": 2,
                   "min": 1
                 },
                 "function": "minecraft:set_count"
               }
             ],
-            "name": "kubejs:small_enchanting_rune",
+            "name": "kubejs:enchanting_rune",
             "weight": 6
           },
           {

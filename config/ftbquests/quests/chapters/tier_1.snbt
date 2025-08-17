@@ -52,6 +52,7 @@
 				"Check the &aponder&r for more details!"
 			]
 			hide_until_deps_visible: false
+			icon: "minecraft:furnace"
 			id: "00F6FC5B3A511000"
 			rewards: [{
 				count: 5
@@ -61,11 +62,31 @@
 			}]
 			shape: "rsquare"
 			subtitle: "If you can't even do that, are you sure you want to keep playing?"
-			tasks: [{
-				id: "2604C96BC9FF0DF6"
-				item: "minecraft:furnace"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2604C96BC9FF0DF6"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "37EBF06D5A06F0E8"
+					item: { Count: 8, id: "quark:sturdy_stone" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C1D64AB3B6B214F"
+					item: "minecraft:coal_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26EF132AFBC32955"
+					item: "thermal:coal_coke"
+					type: "item"
+				}
+			]
 			title: "First Magical Feat"
 			x: 2.0d
 			y: 0.0d
@@ -1288,6 +1309,12 @@
 		{
 			dependencies: ["5C199D8DE803D331"]
 			id: "6BCC24F77F7598FB"
+			rewards: [{
+				count: 6
+				id: "3D5019138B3D48F1"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C2F65A21F57E0DC"
 				item: {

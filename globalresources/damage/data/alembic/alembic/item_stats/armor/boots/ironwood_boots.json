@@ -1,0 +1,20 @@
+{
+  "id": "twilightforest:ironwood_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "8fcd834e-f731-4711-865c-e5979c0626f2"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.001,
+      "operation": "ADDITION",
+      "uuid": "522c4864-a78c-49fa-adc0-90ecabc0eda6"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

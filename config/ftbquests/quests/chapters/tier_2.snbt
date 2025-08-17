@@ -1251,13 +1251,49 @@
 				""
 				"Just hold \"W\" while hovering over the item to watch a &2ponder&r about the craft."
 			]
+			icon: "kubejs:magical_generator_block"
 			id: "2C1867470E747C94"
+			rewards: [
+				{
+					id: "0C98CEAC0FE4C761"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "08349AB9C0D621D3"
+					item: "ars_nouveau:source_berry_pie"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			tasks: [{
-				id: "6CFC3DC7B783F151"
-				item: "kubejs:magical_generator_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6CFC3DC7B783F151"
+					item: "kubejs:magical_generator_block"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "449F2B715C218621"
+					item: { Count: 5, id: "kubejs:source_alloy_block" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F263ED218D4B52D"
+					item: { Count: 4, id: "kubejs:arcanum_alloy_block" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "42506F0B773972F8"
+					item: "kubejs:lemon_quartz"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Base of the Generator "
 			x: -11.0d
 			y: 7.0d

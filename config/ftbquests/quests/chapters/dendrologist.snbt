@@ -13,18 +13,11 @@
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5099EFEC325CEE0A"
-			rewards: [
-				{
-					id: "2D175F03126B5E60"
-					item: "kubejs:greater_shapeshifting_root"
-					type: "item"
-				}
-				{
-					id: "4CDD5676E8D6074A"
-					item: "thermal:gold_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4CDD5676E8D6074A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "0AAC44DCD0031F9D"
@@ -37,19 +30,12 @@
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "136C5174690A643A"
-			rewards: [
-				{
-					id: "2EFF5CAC2B0933AB"
-					item: "kubejs:shapeshifting_root"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "4B89587FFBA5539A"
-					item: "thermal:silver_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 3
+				id: "4B89587FFBA5539A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "60C88287E8027292"
