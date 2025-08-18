@@ -634,7 +634,14 @@ ServerEvents.tags('block', event => {
     "biomeswevegone:tall_prairie_grass"]
   
 
-  let pickaxeable = ["#forge:glass","#forge:glass_panes","#chipped:glass","beacon","skeleton_skull","wither_skeleton_skull","player_head"/*,"elementalcraft:burnt_glass"*/]
+  let pickaxeable = ["#forge:glass",
+    "#forge:glass_panes",
+    "#chipped:glass",
+    "beacon",
+    "skeleton_skull",
+    "wither_skeleton_skull",
+    "player_head",
+    "ars_nouveau:agronomic_sourcelink"/*,"elementalcraft:burnt_glass"*/]
 
   let axeable = ["skeleton_skull","wither_skeleton_skull","player_head","supplementaries:sack","quark:bonded_leather"]
 
