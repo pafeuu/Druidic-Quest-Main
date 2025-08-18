@@ -1254,5 +1254,8 @@ ServerEvents.recipes(event => {
 			R: "#forge:ingots/iron"
 	}).id("minecraft:lodestone")
 
+	///============================ misc
+
+	event.shapeless("2x green_dye",["blue_dye","yellow_dye"])
 })
 
