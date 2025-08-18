@@ -1,0 +1,12 @@
+{
+  "ali:chest_loot": {
+    "order": 202,
+    "sort": "none",
+    "icon": {
+      "stack": "item:lootr:lootr_chest"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

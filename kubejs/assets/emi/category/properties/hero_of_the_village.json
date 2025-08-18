@@ -1,0 +1,12 @@
+{
+  "ali:hero_loot": {
+    "order": 206,
+    "sort": "none",
+    "icon": {
+      "stack": "item:minecraft:emerald"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

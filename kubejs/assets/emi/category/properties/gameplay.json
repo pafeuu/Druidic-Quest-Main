@@ -1,0 +1,12 @@
+{
+  "ali:gameplay_loot": {
+    "order": 205,
+    "sort": "none",
+    "icon": {
+      "stack": "item:minecraft:compass"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

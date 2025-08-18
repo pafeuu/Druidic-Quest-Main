@@ -1,0 +1,12 @@
+{
+  "immersiveengineering:arc_recycling": {
+    "order": 190,
+    "sort": "none",
+    "icon": {
+      "stack": "item:immersiveengineering:arc_furnace"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

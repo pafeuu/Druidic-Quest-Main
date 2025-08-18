@@ -1,0 +1,12 @@
+{
+  "lychee:block_crushing/minecraft/default": {
+    "order": 4,
+    "sort": "none",
+    "icon": {
+      "stack": "item:minecraft:anvil"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

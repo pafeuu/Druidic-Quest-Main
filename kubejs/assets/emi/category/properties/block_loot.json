@@ -1,0 +1,12 @@
+{
+  "ali:block_loot": {
+    "order": 210,
+    "sort": "none",
+    "icon": {
+      "stack": "item:minecraft:iron_pickaxe"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

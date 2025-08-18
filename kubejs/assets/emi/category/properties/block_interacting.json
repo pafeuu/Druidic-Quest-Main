@@ -1,0 +1,12 @@
+{
+  "lychee:block_interacting/minecraft/default": {
+    "order": 3,
+    "sort": "none",
+    "icon": {
+      "stack": "item:immersiveengineering:hammer"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

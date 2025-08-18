@@ -1,0 +1,12 @@
+{
+  "ali:entity_loot": {
+    "order": 203,
+    "sort": "none",
+    "icon": {
+      "stack": "item:minecraft:wither_skeleton_skull"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}
