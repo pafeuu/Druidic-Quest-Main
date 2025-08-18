@@ -6,342 +6,622 @@
     "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
   ],
   "MAINHAND": {
+    "aether:candy_cane_sword": [
+      5325,
+      0.0081
+    ],
+    "aether:flaming_sword": [
+      4463,
+      1.0088911
+    ],
+    "aether:gravitite_axe": [
+      2601,
+      5.022479
+    ],
+    "aether:gravitite_sword": [
+      2663,
+      4.889481
+    ],
+    "aether:hammer_of_kingbdogz": [
+      4916,
+      0.049
+    ],
+    "aether:holy_sword": [
+      4463,
+      1.0088911
+    ],
+    "aether:holystone_axe": [
+      5032,
+      0.0374
+    ],
+    "aether:holystone_sword": [
+      5140,
+      0.026599998
+    ],
+    "aether:lightning_sword": [
+      4463,
+      1.0088911
+    ],
+    "aether:phoenix_bow": [
+      2838,
+      4.508568
+    ],
+    "aether:pig_slayer": [
+      5001,
+      0.040499996
+    ],
+    "aether:skyroot_axe": [
+      5216,
+      0.019
+    ],
+    "aether:skyroot_sword": [
+      5279,
+      0.0127
+    ],
+    "aether:valkyrie_axe": [
+      2601,
+      5.022479
+    ],
+    "aether:valkyrie_lance": [
+      2663,
+      4.889481
+    ],
+    "aether:vampire_blade": [
+      1864,
+      6.5723376
+    ],
+    "aether:zanite_axe": [
+      4829,
+      0.51635593
+    ],
+    "aether:zanite_sword": [
+      4916,
+      0.049
+    ],
+    "aether_redux:infused_veridium_axe": [
+      4117,
+      1.4534681
+    ],
+    "aether_redux:infused_veridium_sword": [
+      4066,
+      1.5193686
+    ],
+    "aether_redux:subzero_crossbow": [
+      2014,
+      6.259293
+    ],
+    "aether_redux:veridium_axe": [
+      4117,
+      1.4534681
+    ],
+    "aether_redux:veridium_sword": [
+      4104,
+      1.4702548
+    ],
     "alexsmobs:skelewag_sword": [
-      4643,
+      4640,
       0.7804518
     ],
     "alexsmobs:tendon_whip": [
-      4940,
+      4937,
       0.0469
     ],
+    "ancient_aether:ancient_sword": [
+      1864,
+      6.5723376
+    ],
+    "ancient_aether:divine_axe": [
+      2601,
+      5.022479
+    ],
+    "ancient_aether:valkyrum_axe": [
+      1765,
+      6.778693
+    ],
+    "ancient_aether:valkyrum_lance": [
+      1864,
+      6.5723376
+    ],
+    "ancient_aether:valkyrum_sword": [
+      1835,
+      6.632802
+    ],
     "ars_nouveau:enchanters_sword": [
-      1838,
+      1835,
       6.632802
     ],
     "ars_nouveau:spell_bow": [
-      3609,
+      3606,
       2.1195521
     ],
     "ars_nouveau:spell_crossbow": [
-      4065,
+      4062,
       1.5245426
     ],
-    "create_sa:blazing_axe": [
-      4509,
-      0.95369714
-    ],
-    "create_sa:blazing_cleaver": [
-      4567,
-      0.8790464
-    ],
-    "create_sa:brass_axe": [
-      4492,
-      0.9755281
-    ],
-    "create_sa:brass_sword": [
-      4554,
+    "deep_aether:blade_of_luck": [
+      4551,
       0.89580816
     ],
-    "create_sa:copper_axe": [
-      5097,
-      0.031199997
+    "deep_aether:skyjade_axe": [
+      5124,
+      0.028199999
     ],
-    "create_sa:copper_sword": [
-      5122,
-      0.028699998
+    "deep_aether:skyjade_sword": [
+      4921,
+      0.048499998
     ],
-    "create_sa:experience_axe": [
-      4860,
-      0.46648473
+    "deep_aether:storm_bow": [
+      2838,
+      4.508568
     ],
-    "create_sa:experience_sword": [
-      4896,
-      0.36782715
+    "deep_aether:storm_sword": [
+      4664,
+      0.7489827
     ],
-    "create_sa:rose_quartz_axe": [
-      2463,
-      5.322494
+    "deep_aether:stratus_axe": [
+      1765,
+      6.778693
     ],
-    "create_sa:rose_quartz_sword": [
-      2496,
-      5.2525306
+    "deep_aether:stratus_sword": [
+      1835,
+      6.632802
     ],
-    "create_sa:zinc_axe": [
-      4832,
-      0.51635593
+    "deeperdarker:resonarium_axe": [
+      3226,
+      3.5768492
     ],
-    "create_sa:zinc_sword": [
-      4919,
-      0.049
+    "deeperdarker:resonarium_sword": [
+      3288,
+      3.385685
     ],
-    "create_things_and_misc:brass_knife": [
-      5195,
-      0.021399999
+    "deeperdarker:warden_axe": [
+      894,
+      8.592401
     ],
-    "create_things_and_misc:copper_knife": [
-      5212,
-      0.019699998
-    ],
-    "create_things_and_misc:zinc_knife": [
-      5212,
-      0.019699998
-    ],
-    "dungeonnowloading:life_stealer": [
-      2664,
-      4.8937836
-    ],
-    "dungeonnowloading:spawner_sword": [
-      2664,
-      4.8937836
-    ],
-    "enemyexpansion:deathstick": [
-      3481,
-      2.2883818
+    "deeperdarker:warden_sword": [
+      972,
+      8.429875
     ],
     "enigmaticlegacy:ender_slayer": [
-      1890,
+      1887,
       6.5243726
     ],
     "enigmaticlegacy:etherium_axe": [
-      17,
+      14,
       10.430168
     ],
     "enigmaticlegacy:etherium_scythe": [
-      157,
+      154,
       10.137218
     ],
     "enigmaticlegacy:etherium_sword": [
-      73,
+      70,
       10.312961
     ],
     "enigmaticlegacy:forbidden_axe": [
-      1820,
+      1817,
       6.670325
     ],
     "forbidden_arcanus:draco_arcanus_axe": [
-      628,
+      625,
       9.153307
     ],
     "forbidden_arcanus:draco_arcanus_sword": [
-      650,
+      647,
       9.107409
     ],
     "forbidden_arcanus:mystical_dagger": [
-      4429,
+      4426,
       1.0563377
     ],
     "forbidden_arcanus:reinforced_deorum_axe": [
-      886,
+      883,
       8.615326
     ],
     "forbidden_arcanus:reinforced_deorum_sword": [
-      952,
+      949,
       8.477796
     ],
     "immersive_weathering:ice_sickle": [
-      5314,
+      5311,
       0.0095
     ],
     "immersiveengineering:axe_steel": [
-      4150,
+      4147,
       1.41476
     ],
     "immersiveengineering:sword_steel": [
-      4230,
+      4227,
       1.3117309
     ],
     "irons_spellbooks:amethyst_rapier": [
-      2637,
+      2634,
       4.951788
     ],
     "irons_spellbooks:autoloader_crossbow": [
-      3135,
+      3132,
       3.826627
     ],
     "irons_spellbooks:claymore": [
-      3520,
+      3517,
       2.236861
     ],
     "irons_spellbooks:keeper_flamberge": [
-      3479,
+      3476,
       2.2910256
     ],
     "irons_spellbooks:magehunter": [
-      2666,
+      2663,
       4.889481
     ],
     "irons_spellbooks:misery": [
-      3487,
+      3484,
       2.280451
     ],
     "irons_spellbooks:spellbreaker": [
-      2567,
+      2564,
       5.1015
     ],
+    "kubejs:blade_of_grass": [
+      4509,
+      0.9498429
+    ],
+    "kubejs:chill_blade": [
+      4509,
+      0.9498429
+    ],
+    "kubejs:copper_axe": [
+      3531,
+      2.2183836
+    ],
+    "kubejs:copper_sword": [
+      3612,
+      2.1116571
+    ],
+    "kubejs:copper_trident": [
+      3612,
+      2.1116571
+    ],
+    "kubejs:fiery_magic_feather": [
+      2663,
+      4.889481
+    ],
+    "kubejs:flint_spear": [
+      5162,
+      0.0244
+    ],
+    "kubejs:golden_magic_feather": [
+      5325,
+      0.0081
+    ],
+    "kubejs:ice_blade": [
+      4509,
+      0.9498429
+    ],
+    "kubejs:iron_scythe": [
+      4347,
+      1.1576267
+    ],
+    "kubejs:lead_axe": [
+      4446,
+      1.030694
+    ],
+    "kubejs:lead_sword": [
+      4509,
+      0.9498429
+    ],
+    "kubejs:lead_waraxe": [
+      4306,
+      1.2102311
+    ],
+    "kubejs:mossy_sword": [
+      5140,
+      0.026599998
+    ],
+    "kubejs:rainbow_magic_feather": [
+      1835,
+      6.632802
+    ],
+    "kubejs:royal_guard_sword": [
+      4359,
+      1.1422371
+    ],
+    "kubejs:sacrificial_dagger": [
+      5347,
+      0.0058999998
+    ],
+    "kubejs:silver_axe": [
+      4881,
+      0.41076243
+    ],
+    "kubejs:silver_katana": [
+      4944,
+      0.046199996
+    ],
+    "kubejs:silver_sword": [
+      4944,
+      0.046199996
+    ],
+    "kubejs:stone_claymore": [
+      5037,
+      0.0369
+    ],
     "minecraft:bow": [
-      2841,
+      2838,
       4.508568
     ],
     "minecraft:crossbow": [
-      3135,
+      3132,
       3.826627
     ],
     "minecraft:diamond_axe": [
-      2604,
+      2601,
       5.022479
     ],
     "minecraft:diamond_sword": [
-      2666,
+      2663,
       4.889481
     ],
     "minecraft:enchanted_book": [
-      3809,
+      3806,
       1.8573177
     ],
     "minecraft:golden_axe": [
-      5265,
+      5262,
       0.014399999
     ],
     "minecraft:golden_sword": [
-      5328,
+      5325,
       0.0081
     ],
     "minecraft:iron_axe": [
-      4832,
+      4829,
       0.51635593
     ],
     "minecraft:iron_sword": [
-      4919,
+      4916,
       0.049
     ],
     "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
-      3909,
+      3906,
       1.7269388
     ],
     "minecraft:netherite_axe": [
-      1768,
+      1765,
       6.778693
     ],
     "minecraft:netherite_sword": [
-      1838,
+      1835,
       6.632802
     ],
     "minecraft:snowball": [
-      4859,
+      4856,
       0.46844563
     ],
     "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
-      3909,
+      3906,
       1.7269388
     ],
     "minecraft:stone_axe": [
-      5035,
+      5032,
       0.0374
     ],
     "minecraft:stone_sword": [
-      5143,
+      5140,
       0.026599998
     ],
     "minecraft:tnt": [
-      3709,
+      3706,
       1.9881918
     ],
     "minecraft:trident": [
-      2909,
+      2906,
       4.357304
     ],
     "minecraft:wooden_axe": [
-      5219,
+      5216,
       0.019
     ],
     "minecraft:wooden_sword": [
-      5282,
+      5279,
       0.0127
     ],
-    "monsterplus:crystal_sword": [
-      2691,
-      4.8356147
-    ],
-    "monsterplus:darkstar": [
-      2498,
-      5.248286
-    ],
-    "monsterplus:gnawing_jaw": [
-      2520,
-      5.201559
-    ],
     "naturesaura:depth_axe": [
-      929,
+      926,
       8.525718
     ],
     "naturesaura:depth_sword": [
-      1007,
+      1004,
       8.363213
     ],
     "naturesaura:infused_iron_axe": [
-      4832,
+      4829,
       0.51635593
     ],
     "naturesaura:infused_iron_sword": [
-      4919,
+      4916,
       0.049
     ],
     "naturesaura:sky_axe": [
-      2707,
+      2704,
       4.8010597
     ],
     "naturesaura:sky_sword": [
-      2769,
+      2766,
       4.666484
     ],
-    "nethersdelight:diamond_machete": [
-      2691,
-      4.8356147
+    "tide:blazing_swordfish": [
+      4916,
+      0.049
     ],
-    "nethersdelight:golden_machete": [
-      5341,
-      0.0068
+    "twilightforest:diamond_minotaur_axe": [
+      2564,
+      5.1015
     ],
-    "nethersdelight:iron_machete": [
-      4940,
-      0.0469
+    "twilightforest:ender_bow": [
+      2838,
+      4.508568
     ],
-    "nethersdelight:netherite_machete": [
-      1867,
-      6.5723376
+    "twilightforest:fiery_sword": [
+      3547,
+      2.1972775
     ],
-    "seadwellers:depth_axe": [
-      3224,
-      3.5910394
+    "twilightforest:giant_sword": [
+      3430,
+      2.3518867
     ],
-    "seadwellers:depth_sword": [
-      3285,
-      3.4058104
+    "twilightforest:gold_minotaur_axe": [
+      5262,
+      0.014399999
+    ],
+    "twilightforest:ice_bow": [
+      2838,
+      4.508568
+    ],
+    "twilightforest:ice_sword": [
+      5248,
+      0.0158
+    ],
+    "twilightforest:ironwood_axe": [
+      4384,
+      1.1101819
+    ],
+    "twilightforest:ironwood_sword": [
+      4471,
+      0.9986282
+    ],
+    "twilightforest:knightmetal_axe": [
+      4347,
+      1.1576267
+    ],
+    "twilightforest:knightmetal_sword": [
+      4446,
+      1.030694
+    ],
+    "twilightforest:seeker_bow": [
+      2838,
+      4.508568
+    ],
+    "twilightforest:steeleaf_axe": [
+      4995,
+      0.0411
+    ],
+    "twilightforest:steeleaf_sword": [
+      5094,
+      0.031199997
+    ],
+    "twilightforest:triple_bow": [
+      2838,
+      4.508568
+    ],
+    "wizards_reborn:arcane_gold_axe": [
+      4489,
+      0.9755281
+    ],
+    "wizards_reborn:arcane_gold_scythe": [
+      4551,
+      0.89580816
+    ],
+    "wizards_reborn:arcane_gold_sword": [
+      4576,
+      0.8635538
+    ],
+    "wizards_reborn:arcane_wood_axe": [
+      5005,
+      0.040099997
+    ],
+    "wizards_reborn:arcane_wood_bow": [
+      2454,
+      5.3352003
+    ],
+    "wizards_reborn:arcane_wood_scythe": [
+      5055,
+      0.035099998
+    ],
+    "wizards_reborn:arcane_wood_sword": [
+      5074,
+      0.0332
+    ],
+    "wizards_reborn:innocent_wood_axe": [
+      4905,
+      0.23071903
+    ],
+    "wizards_reborn:innocent_wood_scythe": [
+      4959,
+      0.044699997
+    ],
+    "wizards_reborn:innocent_wood_sword": [
+      4980,
+      0.0426
     ]
   },
   "OFFHAND": {
     "ars_nouveau:enchanters_shield": [
-      275,
+      1939,
       2.053812
     ],
+    "deep_aether:skyjade_shield": [
+      1595,
+      3.2997048
+    ],
+    "deep_aether:stratus_shield": [
+      251,
+      6.3553553
+    ],
+    "kubejs:primitive_shield": [
+      2683,
+      1.0896697
+    ],
     "minecraft:ender_pearl": [
-      925,
+      2589,
       1.2102311
     ],
     "minecraft:flint_and_steel": [
-      897,
+      2561,
       1.2461817
     ],
     "minecraft:lava_bucket": [
-      525,
+      2189,
       1.7269388
     ],
     "minecraft:shield": [
-      603,
+      2267,
       1.6255897
+    ],
+    "twilightforest:knightmetal_shield": [
+      891,
+      5.0075016
     ]
   },
   "FEET": {
+    "aether:gravitite_boots": [
+      4676,
+      2.231581
+    ],
+    "aether:neptune_boots": [
+      5506,
+      1.1524966
+    ],
+    "aether:obsidian_boots": [
+      4614,
+      2.3135066
+    ],
+    "aether:phoenix_boots": [
+      4676,
+      2.231581
+    ],
+    "aether:sentry_boots": [
+      5511,
+      1.1460843
+    ],
+    "aether:valkyrie_boots": [
+      4676,
+      2.231581
+    ],
+    "aether:zanite_boots": [
+      5511,
+      1.1460843
+    ],
     "alexsmobs:flying_fish_boots": [
       6420,
       0.014099999
@@ -349,6 +629,10 @@
     "alexsmobs:roadrunner_boots": [
       5858,
       0.6972618
+    ],
+    "ancient_aether:valkyrum_boots": [
+      4676,
+      2.231581
     ],
     "ars_nouveau:arcanist_boots": [
       5336,
@@ -370,33 +654,25 @@
       4926,
       1.9030677
     ],
-    "create_sa:brass_boots": [
-      5255,
-      1.4754212
+    "deep_aether:skyjade_boots": [
+      4940,
+      1.8847604
     ],
-    "create_sa:copper_boots": [
-      5627,
-      0.9973453
+    "deep_aether:stormforged_boots": [
+      4741,
+      2.1458812
     ],
-    "create_sa:slime_boots": [
-      5581,
-      1.0563377
+    "deep_aether:stratus_boots": [
+      4620,
+      2.3055708
     ],
-    "create_sa:zinc_boots": [
-      5476,
-      1.1909808
+    "deeperdarker:resonarium_boots": [
+      5005,
+      1.7998894
     ],
-    "create_things_and_misc:sticky_boots_boots": [
-      4932,
-      1.8952204
-    ],
-    "dungeonnowloading:spawner_boots": [
-      4803,
-      2.0643225
-    ],
-    "enemyexpansion:phantasm_boots": [
-      5400,
-      1.288585
+    "deeperdarker:warden_boots": [
+      3720,
+      5.0993676
     ],
     "enigmaticlegacy:etherium_boots": [
       3324,
@@ -466,6 +742,22 @@
       5516,
       1.1396724
     ],
+    "kubejs:bronze_boots": [
+      5397,
+      1.2924418
+    ],
+    "kubejs:copper_boots": [
+      5882,
+      0.66491455
+    ],
+    "kubejs:lead_boots": [
+      5620,
+      1.0063256
+    ],
+    "kubejs:silver_boots": [
+      6063,
+      0.049799997
+    ],
     "minecraft:chainmail_boots": [
       5969,
       0.540316
@@ -490,10 +782,6 @@
       4926,
       1.9030677
     ],
-    "monsterplus:crystal_boots": [
-      4676,
-      2.231581
-    ],
     "naturesaura:depth_shoes": [
       3618,
       5.316139
@@ -506,10 +794,6 @@
       4666,
       2.2447827
     ],
-    "seadwellers:depth_boots": [
-      5023,
-      1.776424
-    ],
     "thermal:beekeeper_boots": [
       6262,
       0.0299
@@ -521,9 +805,69 @@
     "thermal:hazmat_boots": [
       5875,
       0.67440087
+    ],
+    "twilightforest:arctic_boots": [
+      5423,
+      1.2590272
+    ],
+    "twilightforest:fiery_boots": [
+      4031,
+      4.4243336
+    ],
+    "twilightforest:ironwood_boots": [
+      5322,
+      1.3889769
+    ],
+    "twilightforest:knightmetal_boots": [
+      4781,
+      2.0932417
+    ],
+    "twilightforest:steeleaf_boots": [
+      4846,
+      2.0078652
+    ],
+    "twilightforest:yeti_boots": [
+      4733,
+      2.1564183
+    ],
+    "wizards_reborn:arcane_fortress_boots": [
+      4450,
+      3.3615854
+    ],
+    "wizards_reborn:arcane_gold_boots": [
+      5371,
+      1.3258815
+    ],
+    "wizards_reborn:inventor_wizard_boots": [
+      4890,
+      1.9501879
     ]
   },
   "LEGS": {
+    "aether:gravitite_leggings": [
+      4691,
+      2.231581
+    ],
+    "aether:neptune_leggings": [
+      5521,
+      1.1524966
+    ],
+    "aether:obsidian_leggings": [
+      4629,
+      2.3135066
+    ],
+    "aether:phoenix_leggings": [
+      4691,
+      2.231581
+    ],
+    "aether:valkyrie_leggings": [
+      4691,
+      2.231581
+    ],
+    "aether:zanite_leggings": [
+      5526,
+      1.1460843
+    ],
     "alexsmobs:centipede_leggings": [
       4270,
       3.9059477
@@ -531,6 +875,10 @@
     "alexsmobs:emu_leggings": [
       5505,
       1.173019
+    ],
+    "ancient_aether:valkyrum_leggings": [
+      4691,
+      2.231581
     ],
     "ars_nouveau:arcanist_leggings": [
       5351,
@@ -544,25 +892,25 @@
       5767,
       0.8363856
     ],
-    "create_sa:brass_leggings": [
-      5270,
-      1.4754212
+    "deep_aether:skyjade_leggings": [
+      4955,
+      1.8847604
     ],
-    "create_sa:copper_leggings": [
-      5642,
-      0.9973453
+    "deep_aether:stormforged_leggings": [
+      4756,
+      2.1458812
     ],
-    "create_sa:zinc_leggings": [
-      5491,
-      1.1909808
+    "deep_aether:stratus_leggings": [
+      4635,
+      2.3055708
     ],
-    "dungeonnowloading:spawner_leggings": [
-      4778,
-      2.1169202
+    "deeperdarker:resonarium_leggings": [
+      5020,
+      1.7998894
     ],
-    "enemyexpansion:phantasm_leggings": [
-      5415,
-      1.288585
+    "deeperdarker:warden_leggings": [
+      3735,
+      5.0993676
     ],
     "enigmaticlegacy:etherium_leggings": [
       3135,
@@ -632,6 +980,22 @@
       5531,
       1.1396724
     ],
+    "kubejs:bronze_leggings": [
+      5412,
+      1.2924418
+    ],
+    "kubejs:copper_leggings": [
+      5897,
+      0.66491455
+    ],
+    "kubejs:lead_leggings": [
+      5635,
+      1.0063256
+    ],
+    "kubejs:silver_leggings": [
+      6078,
+      0.049799997
+    ],
     "minecraft:chainmail_leggings": [
       5984,
       0.540316
@@ -656,10 +1020,6 @@
       4941,
       1.9030677
     ],
-    "monsterplus:crystal_leggings": [
-      4691,
-      2.231581
-    ],
     "naturesaura:depth_pants": [
       3633,
       5.316139
@@ -672,10 +1032,6 @@
       4681,
       2.2447827
     ],
-    "seadwellers:depth_leggings": [
-      5038,
-      1.776424
-    ],
     "thermal:beekeeper_leggings": [
       6271,
       0.030499998
@@ -687,9 +1043,73 @@
     "thermal:hazmat_leggings": [
       5881,
       0.6865328
+    ],
+    "twilightforest:arctic_leggings": [
+      5438,
+      1.2590272
+    ],
+    "twilightforest:fiery_leggings": [
+      4046,
+      4.4243336
+    ],
+    "twilightforest:ironwood_leggings": [
+      5337,
+      1.3889769
+    ],
+    "twilightforest:knightmetal_leggings": [
+      4796,
+      2.0932417
+    ],
+    "twilightforest:naga_leggings": [
+      5058,
+      1.7503701
+    ],
+    "twilightforest:steeleaf_leggings": [
+      4861,
+      2.0078652
+    ],
+    "twilightforest:yeti_leggings": [
+      4748,
+      2.1564183
+    ],
+    "wizards_reborn:arcane_fortress_leggings": [
+      4465,
+      3.3615854
+    ],
+    "wizards_reborn:arcane_gold_leggings": [
+      5386,
+      1.3258815
+    ],
+    "wizards_reborn:inventor_wizard_trousers": [
+      4905,
+      1.9501879
     ]
   },
   "CHEST": {
+    "aether:gravitite_chestplate": [
+      4691,
+      2.231581
+    ],
+    "aether:neptune_chestplate": [
+      5521,
+      1.1524966
+    ],
+    "aether:obsidian_chestplate": [
+      4629,
+      2.3135066
+    ],
+    "aether:phoenix_chestplate": [
+      4691,
+      2.231581
+    ],
+    "aether:valkyrie_chestplate": [
+      4691,
+      2.231581
+    ],
+    "aether:zanite_chestplate": [
+      5526,
+      1.1460843
+    ],
     "alexsmobs:crocodile_chestplate": [
       5294,
       1.4444326
@@ -705,6 +1125,10 @@
     "alexsmobs:unsettling_kimono": [
       5944,
       0.59963983
+    ],
+    "ancient_aether:valkyrum_chestplate": [
+      4691,
+      2.231581
     ],
     "ars_nouveau:arcanist_robes": [
       5351,
@@ -726,49 +1150,25 @@
       4941,
       1.9030677
     ],
-    "create_sa:andesite_exoskeleton_chestplate": [
-      5367,
-      1.3503351
+    "deep_aether:skyjade_chestplate": [
+      4955,
+      1.8847604
     ],
-    "create_sa:andesite_jetpack_chestplate": [
-      5491,
-      1.1909808
+    "deep_aether:stormforged_chestplate": [
+      4756,
+      2.1458812
     ],
-    "create_sa:brass_chestplate": [
-      5270,
-      1.4754212
+    "deep_aether:stratus_chestplate": [
+      4635,
+      2.3055708
     ],
-    "create_sa:brass_exoskeleton_chestplate": [
-      5132,
-      1.6541448
+    "deeperdarker:resonarium_chestplate": [
+      5020,
+      1.7998894
     ],
-    "create_sa:brass_jetpack_chestplate": [
-      5400,
-      1.3078723
-    ],
-    "create_sa:copper_chestplate": [
-      5642,
-      0.9973453
-    ],
-    "create_sa:copper_exoskeleton_chestplate": [
-      5526,
-      1.1460843
-    ],
-    "create_sa:copper_jetpack_chestplate": [
-      5526,
-      1.1460843
-    ],
-    "create_sa:zinc_chestplate": [
-      5491,
-      1.1909808
-    ],
-    "dungeonnowloading:spawner_chestplate": [
-      4802,
-      2.0853524
-    ],
-    "enemyexpansion:phantasm_chestplate": [
-      5415,
-      1.288585
+    "deeperdarker:warden_chestplate": [
+      3735,
+      5.0993676
     ],
     "enigmaticlegacy:etherium_chestplate": [
       3254,
@@ -838,6 +1238,22 @@
       5531,
       1.1396724
     ],
+    "kubejs:bronze_chestplate": [
+      5412,
+      1.2924418
+    ],
+    "kubejs:copper_chestplate": [
+      5897,
+      0.66491455
+    ],
+    "kubejs:lead_chestplate": [
+      5635,
+      1.0063256
+    ],
+    "kubejs:silver_chestplate": [
+      6078,
+      0.049799997
+    ],
     "minecraft:chainmail_chestplate": [
       5984,
       0.540316
@@ -862,10 +1278,6 @@
       4941,
       1.9030677
     ],
-    "monsterplus:crystal_chestplate": [
-      4691,
-      2.231581
-    ],
     "naturesaura:depth_chest": [
       3633,
       5.316139
@@ -882,10 +1294,6 @@
       6332,
       0.0244
     ],
-    "seadwellers:depth_chestplate": [
-      5038,
-      1.776424
-    ],
     "thermal:beekeeper_chestplate": [
       6274,
       0.030199999
@@ -897,9 +1305,77 @@
     "thermal:hazmat_chestplate": [
       5886,
       0.67980134
+    ],
+    "twilightforest:arctic_chestplate": [
+      5438,
+      1.2590272
+    ],
+    "twilightforest:fiery_chestplate": [
+      4046,
+      4.4243336
+    ],
+    "twilightforest:ironwood_chestplate": [
+      5337,
+      1.3889769
+    ],
+    "twilightforest:knightmetal_chestplate": [
+      4796,
+      2.0932417
+    ],
+    "twilightforest:naga_chestplate": [
+      5058,
+      1.7503701
+    ],
+    "twilightforest:phantom_chestplate": [
+      4719,
+      2.1946402
+    ],
+    "twilightforest:steeleaf_chestplate": [
+      4861,
+      2.0078652
+    ],
+    "twilightforest:yeti_chestplate": [
+      4748,
+      2.1564183
+    ],
+    "wizards_reborn:arcane_fortress_chestplate": [
+      4465,
+      3.3615854
+    ],
+    "wizards_reborn:arcane_gold_chestplate": [
+      5386,
+      1.3258815
+    ],
+    "wizards_reborn:inventor_wizard_costume": [
+      4905,
+      1.9501879
     ]
   },
   "HEAD": {
+    "aether:gravitite_helmet": [
+      4661,
+      2.231581
+    ],
+    "aether:neptune_helmet": [
+      5491,
+      1.1524966
+    ],
+    "aether:obsidian_helmet": [
+      4599,
+      2.3135066
+    ],
+    "aether:phoenix_helmet": [
+      4661,
+      2.231581
+    ],
+    "aether:valkyrie_helmet": [
+      4661,
+      2.231581
+    ],
+    "aether:zanite_helmet": [
+      5496,
+      1.1460843
+    ],
     "alexsmobs:fedora": [
       6107,
       0.043899998
@@ -928,6 +1404,10 @@
       5542,
       1.0871058
     ],
+    "ancient_aether:valkyrum_helmet": [
+      4661,
+      2.231581
+    ],
     "ars_nouveau:arcanist_hood": [
       5321,
       1.3709393
@@ -948,45 +1428,25 @@
       4911,
       1.9030677
     ],
-    "create_sa:brass_helmet": [
-      5240,
-      1.4754212
+    "deep_aether:skyjade_helmet": [
+      4925,
+      1.8847604
     ],
-    "create_sa:copper_helmet": [
-      5612,
-      0.9973453
+    "deep_aether:stormforged_helmet": [
+      4726,
+      2.1458812
     ],
-    "create_sa:slime_helmet": [
-      5566,
-      1.0563377
+    "deep_aether:stratus_helmet": [
+      4605,
+      2.3055708
     ],
-    "create_sa:zinc_helmet": [
-      5461,
-      1.1909808
+    "deeperdarker:resonarium_helmet": [
+      4990,
+      1.7998894
     ],
-    "dungeonnowloading:spawner_helmet": [
-      4727,
-      2.1445646
-    ],
-    "enemyexpansion:headbiter_helmet": [
-      5385,
-      1.288585
-    ],
-    "enemyexpansion:horsehead_helmet": [
-      5385,
-      1.288585
-    ],
-    "enemyexpansion:meathead_helmet": [
-      5385,
-      1.288585
-    ],
-    "enemyexpansion:phantasm_helmet": [
-      5385,
-      1.288585
-    ],
-    "enemyexpansion:silverhead_helmet": [
-      5385,
-      1.288585
+    "deeperdarker:warden_helmet": [
+      3705,
+      5.0993676
     ],
     "enigmaticlegacy:etherium_helmet": [
       2998,
@@ -1068,6 +1528,22 @@
       5501,
       1.1396724
     ],
+    "kubejs:bronze_helmet": [
+      5382,
+      1.2924418
+    ],
+    "kubejs:copper_helmet": [
+      5867,
+      0.66491455
+    ],
+    "kubejs:lead_helmet": [
+      5605,
+      1.0063256
+    ],
+    "kubejs:silver_helmet": [
+      6048,
+      0.049799997
+    ],
     "minecraft:chainmail_helmet": [
       5954,
       0.540316
@@ -1100,10 +1576,6 @@
       5650,
       0.948558
     ],
-    "monsterplus:crystal_helmet": [
-      4661,
-      2.231581
-    ],
     "naturesaura:depth_helmet": [
       3603,
       5.316139
@@ -1120,74 +1592,6 @@
       6302,
       0.0244
     ],
-    "railways:black_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:blue_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:brown_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:cyan_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:gray_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:green_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:light_blue_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:light_gray_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:lime_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:magenta_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:orange_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:pink_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:purple_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:red_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:white_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "railways:yellow_conductor_cap": [
-      5916,
-      0.59678036
-    ],
-    "seadwellers:depth_helmet": [
-      5008,
-      1.776424
-    ],
     "thermal:beekeeper_helmet": [
       6237,
       0.030899998
@@ -1199,6 +1603,46 @@
     "thermal:hazmat_helmet": [
       5846,
       0.6932441
+    ],
+    "twilightforest:arctic_helmet": [
+      5408,
+      1.2590272
+    ],
+    "twilightforest:fiery_helmet": [
+      4016,
+      4.4243336
+    ],
+    "twilightforest:ironwood_helmet": [
+      5307,
+      1.3889769
+    ],
+    "twilightforest:knightmetal_helmet": [
+      4766,
+      2.0932417
+    ],
+    "twilightforest:phantom_helmet": [
+      4689,
+      2.1946402
+    ],
+    "twilightforest:steeleaf_helmet": [
+      4831,
+      2.0078652
+    ],
+    "twilightforest:yeti_helmet": [
+      4718,
+      2.1564183
+    ],
+    "wizards_reborn:arcane_fortress_helmet": [
+      4435,
+      3.3615854
+    ],
+    "wizards_reborn:arcane_gold_helmet": [
+      5356,
+      1.3258815
+    ],
+    "wizards_reborn:inventor_wizard_hat": [
+      4875,
+      1.9501879
     ]
   }
 }

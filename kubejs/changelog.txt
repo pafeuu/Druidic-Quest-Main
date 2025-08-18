@@ -2737,7 +2737,13 @@ Patch 0.3.2.1
         -Depth
         -Arcanist
 
-# Patch 3.0
+# Patch 2.6.4
+
+### Updated Mods:
+    -LycheeTweaker
+
+### Removed Mods:
+    -Emi Enchanting
 
 ### Recipes:
     -Buffed for Tinted Glass
@@ -2747,8 +2753,10 @@ Patch 0.3.2.1
     -Fixed Wissen Generators tooltips
     -Fixed Stress Generators tooltips
     -Rearranged Emi Categories
+    -Fixed Steeleaf armor durability buff
     
-
 ### Loot:
     -Fixed Abandoned Temple Chest
+    -Agronomic Sourcelink is now mined faster with a pickaxe
+    -Steel tools are now Unbreakable for real
     

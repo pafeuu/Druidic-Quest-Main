@@ -108,7 +108,7 @@ ItemEvents.modification(event => {
     "thermal:beekeeper",
     "twilightforest:fiery",
     "twilightforest:ironwood",
-    "twilightforest:steel"
+    "twilightforest:steeleaf"
     ]
 
     let NatureDurabilityBuffs = [
@@ -305,7 +305,7 @@ ItemEvents.modification(event => {
       
     })
 
-    event.modify("immersiveengineering:"+id+"_steel"+id, item=>{
+    event.modify("immersiveengineering:"+id+"_steel", item=>{
       item.digSpeed = 7.5,
       item.maxDamage = -1
       // ??+1 block range
