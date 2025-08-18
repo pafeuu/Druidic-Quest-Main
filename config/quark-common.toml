@@ -492,7 +492,7 @@
 
 	[tools.seed_pouch]
 		"Max Items" = 640
-		"Show All Variants In Creative" = true
+		"Show All Variants In Creative" = false
 		"Shift Range" = 3
 		#Allow putting bone meal into the Seed Pouch (or anything else in the tag 'quark:seed_pouch_fertilizers')
 		"Allow Fertilizer" = true
