@@ -517,6 +517,7 @@ StartupEvents.registry('item', item => {
   item.create("dimension_ripper").displayName("Dimension Ripper").tag("twilightforest:portal/activator")
   item.create('sapling_ball').displayName('Sapling Ball')
   item.create('magic_book').displayName('Magical Book')
+  item.create("twilight_tome")
   item.create('fiery_clay_blend').displayName('Fiery Clay Blend')
   item.create('basic_token').displayName('Basic Token')
   item.create("elemental_core").rarity("legendary")

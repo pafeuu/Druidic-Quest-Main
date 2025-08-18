@@ -1207,6 +1207,21 @@ ServerEvents.recipes(event => {
 	).id("kubejs:the_ice_cube")
 
 	/// ======================================================================= Tier 2 Tools ============================================================================
+	event.shaped("enigmaticlegacy:enchantment_transposer",
+		[
+			"BPB",
+			"LTL",
+			"BRB"
+		],
+		{
+			B: "blaze_powder",
+			P: "#forge:plates/arcanum_alloy",
+			T: "kubejs:twilight_tome",
+			L: "lapis_lazuli",
+			R: "kubejs:big_enchanting_rune"
+		}
+	).id("enigmaticlegacy:enchantment_transposer")
+	
 	event.shaped("farmersdelight:diamond_knife",[" I","BS"],
 		{
 			S: "kubejs:zinc_tool_handle",
