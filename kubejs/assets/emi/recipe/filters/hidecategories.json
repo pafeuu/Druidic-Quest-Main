@@ -1,0 +1,38 @@
+{
+    "filters": [
+        {
+            "category": "emi:grinding"
+        },
+        {
+            "id": "/create\/fill_minecraft_bucket/",
+            "category": "create:spout_filling"
+        },
+        {
+            "id": "/bucket/",
+            "category": "emi:world_interaction"
+        },
+        {   
+            "id": "/enchanting/",
+            "category": "emi:anvil_repairing"
+        },
+        {
+            "id": "/crafting\/repair/",
+            "category": "minecraft:crafting"
+        },
+        {
+            "category": "create:automatic_shaped" 
+        },
+        {
+            "category": "create:automatic_shapeless" 
+        },
+        {
+            "category": "create:automatic_brewing" 
+        },
+        {
+            "category": "create:automatic_packing" 
+        },
+        {
+            "category": "aether_redux:infusion"
+        }
+    ]
+}
