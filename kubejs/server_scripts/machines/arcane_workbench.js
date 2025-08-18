@@ -1,4 +1,7 @@
 ServerEvents.recipes(event=>{
+    /*    1  
+        4---2
+          3     */
 
     event.custom({
         "type": "wizards_reborn:arcane_workbench",
@@ -219,14 +222,17 @@ ServerEvents.recipes(event=>{
         "NNN",
         "NCN",
         "NNN",
-        "AAAA"
+        "AABB"
     ],
     "key": {
         "C": {
         "item": "kubejs:metal_crucifix"
         },
         "A": {
-        "item": "wizards_reborn:arcanum"
+        "item": "kubejs:sapphire"
+        },
+        "B": {
+        "item": "rubinated_nether:ruby"
         },
         "N":{
         "tag": "forge:plates/gold"    
@@ -238,7 +244,34 @@ ServerEvents.recipes(event=>{
     "wissen": 500
     })
 
-    event.shaped("ars_nouveau:apprentice_spell_book",["   "," X ","   "],{X:"kubejs:recipe_changed"}).id("ars_nouveau:apprentice_spell_book_upgrade")
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "NNN",
+        "NXN",
+        "NCN",
+        "AAAA"
+    ],
+    "key": {
+        "C": {
+        "item": "kubejs:metal_crucifix"
+        },
+        "X": {
+        "item": "ars_nouveau:dull_trinket"
+        },
+        "N": {
+        "item": "minecraft:chain"
+        },
+        "A":{
+        "tag": "forge:plates/gold"    
+        }
+    },
+    "output": {
+        "item": "kubejs:cross_necklace",
+    },
+    "wissen": 500
+    })
+
     event.custom({
     "type": "wizards_reborn:arcane_workbench",
     "pattern": [
@@ -395,7 +428,7 @@ ServerEvents.recipes(event=>{
         "tag": "forge:dusts/gold"
         },
         "R":{
-        "item": "stick"    
+        "tag": "c:rods/wooden"    
         },
         "P":{
         "item": "ars_nouveau:archwood_planks"   
@@ -583,20 +616,23 @@ ServerEvents.recipes(event=>{
     event.custom({
     "type": "wizards_reborn:arcane_workbench",
     "pattern": [
-        "LCL",
-        "LML",
-        "L L",
+        " L ",
+        "CXC",
+        " L ",
         "EEEE"
     ],
     "key": {
         "L": {
-        "item": "wizards_reborn:arcane_wood_log"
+        "item": "ars_nouveau:earth_essence"
         },
         "E": {
-        "item": "forbidden_arcanus:xpetrified_orb"
+        "item": "kubejs:nature_essence"
+        },
+        "X": {
+        "item": "iron_shovel"
         },
         "C":{
-        "item": "crafting_table"   
+        "item": "thermal:device_composter"   
         },
         "M":{
         "item": "kubejs:basic_magic_machine"    
