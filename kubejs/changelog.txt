@@ -2762,3 +2762,38 @@ Patch 0.3.2.1
     -Agronomic Sourcelink is now mined faster with a pickaxe
     -Steel tools are now Unbreakable for real
     
+# Patch 3.0.0
+
+### Removed Mods:
+    -LegendaryTooltips
+
+### Added Mods:
+    -TooltipOverhaul
+    -JustEnoughProffesions
+    -Brewin and Chewin
+    -Smidgeon o Bliss
+
+### Removed Items:
+    -Aether's Freezer
+    -Amulete of Ascension
+
+### Quests:
+    -Added Sorcerer Supreme Chapter(By Gyldanword)
+    -Reworked the Armorsmith Chapter
+    
+### Updated Mods:
+    -LycheeTweaker(Unbreakable tools will no longer break with lychee recipes)
+
+### Recipes:
+    -Changed for every Enigmatic Amulet
+    -Changed for Magebloom Fiber
+    -Moved all the aether's freezer recipes to RubinatedNether's freezer
+
+### Mob Balance:
+    -Phantoms will no longer spawn with special items in their hand
+
+### Item Balance:
+    -No item should be getting aether dimension nerf
+
+### Other:
+    -FruitsDelight Cookies can now correctly go into the supplementaries jar

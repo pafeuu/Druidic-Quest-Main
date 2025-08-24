@@ -641,6 +641,117 @@ ServerEvents.recipes(event=>{
     "output": {
         "item": "kubejs:the_terraformer"
     },
-    "wissen": 1000
+    "wissen": 5000
     })
+
+    function EnigmaticAmulet(color,input1,input2,input3,input4,input5,input6)
+    {
+         event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "ABC",
+            "GXG",
+            "DEF",
+            "RRRR"
+        ],
+        "key": {
+            "G": {
+            "tag": "forge:plates/gold"
+            },
+            "R": {
+            "item": "thermal:ruby"
+            },
+            "X": {
+            "item": "ars_nouveau:dull_trinket"
+            },
+            "A":{
+            "item": input1   
+            },
+            "B":{
+            "item": input2    
+            },
+            "C":{
+            "item": input3   
+            },
+            "D":{
+            "item": input4  
+            },
+            "E":{
+            "item": input5   
+            },
+            "F":{
+            "item": input6   
+            }
+        },
+        "output": {
+                "item": 'enigmaticlegacy:enigmatic_amulet',
+                "nbt":{
+                    "AssignedColor": color
+                },
+                "count": 1
+            },
+        "wissen": 2000
+        })
+    }
+
+    EnigmaticAmulet(0.6,
+        "rubinated_nether:ruby",
+        "aether:vampire_blade",
+        "rubinated_nether:ruby",
+        "kubejs:sapphire",
+        "kubejs:sapphire",
+        "kubejs:sapphire")
+   
+    EnigmaticAmulet(0.2,
+		"leather_helmet",
+        "kubejs:silver_sword",
+        "leather_leggings",
+		"leather_chestplate",
+		"kubejs:silver_hoe",
+        "leather_boots")
+
+    EnigmaticAmulet(0.1,
+        "wooden_sword",
+		"iron_sword",
+		"stone_sword",
+		"kubejs:silver_sword",
+		"kubejs:lead_sword",
+		"kubejs:copper_sword",
+    )
+
+    EnigmaticAmulet(0.5,
+        "kubejs:copper_helmet",
+        "kubejs:copper_pickaxe",
+		"kubejs:copper_leggings",
+        "kubejs:copper_chestplate",
+		"iron_pickaxe",
+        "kubejs:copper_boots"
+    )
+
+    EnigmaticAmulet(0.3,
+        "forbidden_arcanus:mortem_helmet",
+		"shield",
+        "forbidden_arcanus:mortem_leggings",
+		"forbidden_arcanus:mortem_chestplate",
+        "ars_nouveau:bastion_pod",
+		"forbidden_arcanus:mortem_boots"
+    )
+
+    EnigmaticAmulet(0.4,
+	    "feather",
+		"alexsmobs:roadrunner_feather",
+		"alexsmobs:emu_feather",
+		"supplementaries:feather_block",
+		"quark:bottled_cloud",
+		"hay_block"
+    )
+
+    EnigmaticAmulet(0.7,
+		"cod",
+        "fishing_rod",
+		"salmon",
+		"pufferfish",
+		"alexsmobs:flying_fish",
+		"tropical_fish"
+    )
 })

@@ -2,6 +2,13 @@
   "bookGuiScale": 0,
   "clickedVisualize": false,
   "bookData": {
+    "enigmaticlegacy:the_acknowledgment": {
+      "viewedEntries": [
+        "enigmaticlegacy:relics/enigmatic_amulet"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "naturesaura:book": {
       "viewedEntries": [
         "naturesaura:creating/generator_limit_remover",

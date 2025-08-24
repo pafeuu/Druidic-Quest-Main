@@ -10,13 +10,13 @@
 	#EG: modname:modsound.boing
 	#
 	#If you want to use external sounds, consider looking into the mods that add resources
-	name = "wizards_reborn:crystal_shimmer"
+	name = "entity.experience_orb.pickup"
 	#Volume of the volume (when Minecraft loads)
 	#Range: 0.0 ~ 10.0
-	volume = 5
+	volume = 0.25
 	#Pitch of the sound (when Minecraft loads)
 	#Range: 0.0 ~ 10.0
-	pitch = 2.0
+	pitch = 1.0
 	#Sound category for the sound played when Minecraft finishes loading. EG: "ambient" or "music". Defaults to "master" if Ding cannot find your category.
 	category = "master"
 
@@ -44,7 +44,7 @@
 	#Resource Location based name of the sound file to play when the world finishes loading (after connecting to a server).
 	#
 	#Look at the "name" config for more details.
-	nameWorld = "entity.lightning_bolt.thunder"
+	nameWorld = "entity.experience_orb.pickup"
 	#Volume of the sound (when the world loads after connecting to a server)
 	#Range: 0.0 ~ 10.0
 	volumeWorld = 0.25
