@@ -25,7 +25,7 @@
 				item: "minecraft:music_disc_chirp"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -9.0d
 			y: 0.0d
 		}
 		{
@@ -42,7 +42,7 @@
 				item: "minecraft:music_disc_blocks"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -10.0d
 			y: 0.0d
 		}
 		{
@@ -59,7 +59,7 @@
 				item: "minecraft:music_disc_cat"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -11.0d
 			y: 0.0d
 		}
 		{
@@ -76,7 +76,7 @@
 				item: "minecraft:music_disc_mall"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -11.0d
 			y: 1.0d
 		}
 		{
@@ -93,7 +93,7 @@
 				item: "minecraft:music_disc_mellohi"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -10.0d
 			y: 1.0d
 		}
 		{
@@ -110,7 +110,7 @@
 				item: "minecraft:music_disc_stal"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -9.0d
 			y: 1.0d
 		}
 		{
@@ -127,7 +127,7 @@
 				item: "minecraft:music_disc_13"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -12.0d
 			y: 0.0d
 		}
 		{
@@ -144,7 +144,7 @@
 				item: "minecraft:music_disc_far"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -12.0d
 			y: 1.0d
 		}
 		{
@@ -161,7 +161,7 @@
 				item: "minecraft:music_disc_strad"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -12.0d
 			y: 2.0d
 		}
 		{
@@ -178,7 +178,7 @@
 				item: "minecraft:music_disc_ward"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -11.0d
 			y: 2.0d
 		}
 		{
@@ -195,7 +195,7 @@
 				item: "minecraft:music_disc_11"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -10.0d
 			y: 2.0d
 		}
 		{
@@ -212,7 +212,7 @@
 				item: "minecraft:music_disc_wait"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -9.0d
 			y: 2.0d
 		}
 		{
@@ -229,7 +229,7 @@
 				item: "minecraft:music_disc_otherside"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -12.0d
 			y: 3.0d
 		}
 		{
@@ -246,7 +246,7 @@
 				item: "minecraft:music_disc_5"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -11.0d
 			y: 3.0d
 		}
 		{
@@ -263,7 +263,7 @@
 				item: "minecraft:music_disc_pigstep"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -10.0d
 			y: 3.0d
 		}
 		{
@@ -280,7 +280,7 @@
 				item: "minecraft:music_disc_relic"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -9.0d
 			y: 3.0d
 		}
 		{
@@ -297,8 +297,8 @@
 				item: "quark:music_disc_endermosh"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.0d
+			x: -5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -314,8 +314,8 @@
 				item: "quark:music_disc_chatter"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.0d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -331,8 +331,8 @@
 				item: "quark:music_disc_crickets"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: -6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -348,8 +348,8 @@
 				item: "quark:music_disc_clock"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 0.0d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -365,8 +365,8 @@
 				item: "quark:music_disc_fire"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.0d
+			x: -7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -382,8 +382,8 @@
 				item: "quark:music_disc_wind"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.0d
+			x: -6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -399,8 +399,8 @@
 				item: "quark:music_disc_rain"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 2.0d
+			x: -6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -416,8 +416,8 @@
 				item: "quark:music_disc_ocean"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 3.0d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -433,8 +433,8 @@
 				item: "quark:music_disc_drips"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 2.0d
+			x: -7.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -450,7 +450,7 @@
 				item: "ars_nouveau:music_disc_aria_biblio"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -467,8 +467,8 @@
 				item: "ars_nouveau:music_disc_thistle_the_sound_of_glass"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -484,8 +484,8 @@
 				item: "ars_nouveau:music_disc_firel_the_wild_hunt"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.0d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -501,8 +501,8 @@
 				item: "idas:music_disc_slither"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 0.0d
+			x: -12.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -518,8 +518,8 @@
 				item: "idas:music_disc_calidum"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 1.0d
+			x: -11.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -535,8 +535,8 @@
 				item: "alexsmobs:music_disc_thime"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 1.0d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -552,7 +552,7 @@
 				item: "alexsmobs:music_disc_daze"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -7.0d
 			y: 0.0d
 		}
 		{
@@ -569,8 +569,8 @@
 				item: "integrated_stronghold:music_disc_sight"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 2.0d
+			x: -10.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -586,8 +586,8 @@
 				item: "integrated_stronghold:music_disc_forlorn"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 3.0d
+			x: -9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -637,8 +637,8 @@
 				item: "twilightforest:music_disc_radiance"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -654,7 +654,7 @@
 				item: "twilightforest:music_disc_steps"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -671,8 +671,8 @@
 				item: "twilightforest:music_disc_motion"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -688,7 +688,7 @@
 				item: "twilightforest:music_disc_wayfarer"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -705,8 +705,8 @@
 				item: "twilightforest:music_disc_home"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -722,7 +722,7 @@
 				item: "twilightforest:music_disc_maker"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -756,7 +756,7 @@
 				item: "twilightforest:music_disc_thread"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -773,8 +773,8 @@
 				item: "aether:music_disc_aether_tune"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: -0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -790,8 +790,8 @@
 				item: "aether:music_disc_ascending_dawn"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -807,8 +807,8 @@
 				item: "deep_aether:music_disc_cyclone"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -824,8 +824,8 @@
 				item: "deep_aether:music_disc_a_morning_wish"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -841,8 +841,8 @@
 				item: "deep_aether:music_disc_nabooru"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -858,8 +858,8 @@
 				item: "supplementaries:music_disc_heave_ho"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 2.0d
+			x: -5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -875,8 +875,8 @@
 				item: "rubinated_nether:shimmer_disc"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 3.0d
+			x: -7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -892,8 +892,8 @@
 				item: "deep_aether:music_disc_above_the_rain"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -909,8 +909,8 @@
 				item: "deep_aether:music_disc_atta"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -926,8 +926,8 @@
 				item: "deep_aether:music_disc_himininn"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -943,8 +943,8 @@
 				item: "wizards_reborn:music_disc_arcanum"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -960,8 +960,8 @@
 				item: "wizards_reborn:music_disc_mor"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.0d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -977,8 +977,8 @@
 				item: "wizards_reborn:music_disc_reborn"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.0d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -994,7 +994,7 @@
 				item: "wizards_reborn:music_disc_shimmer"
 				type: "item"
 			}]
-			x: 8.5d
+			x: -0.5d
 			y: 1.0d
 		}
 		{
@@ -1011,7 +1011,7 @@
 				item: "wizards_reborn:music_disc_capitalism"
 				type: "item"
 			}]
-			x: 7.5d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -1028,7 +1028,7 @@
 				item: "wizards_reborn:music_disc_panache"
 				type: "item"
 			}]
-			x: 8.5d
+			x: -1.0d
 			y: 2.0d
 		}
 		{
@@ -1045,8 +1045,8 @@
 				item: "wizards_reborn:music_disc_disco"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1062,8 +1062,8 @@
 				item: "biomeswevegone:music_disc_better_days"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 4.0d
+			x: -6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1079,8 +1079,8 @@
 				item: "biomeswevegone:music_disc_pixie_club"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 5.0d
+			x: -5.0d
+			y: 1.0d
 		}
 	]
 	title: "Melomaniac"

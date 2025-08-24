@@ -30,8 +30,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.0d
+			x: -6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -46,8 +46,8 @@
 				item: "archers_paradox:ender_arrow"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -62,8 +62,8 @@
 				item: "archers_paradox:shulker_arrow"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -78,8 +78,8 @@
 				item: "archers_paradox:blaze_arrow"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -94,8 +94,8 @@
 				item: "archers_paradox:training_arrow"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -110,8 +110,8 @@
 				item: "archers_paradox:frost_arrow"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -126,8 +126,8 @@
 				item: "archers_paradox:quartz_arrow"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: -7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -142,8 +142,8 @@
 				item: "archers_paradox:explosive_arrow"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.0d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -158,7 +158,7 @@
 				item: "forbidden_arcanus:draco_arcanus_arrow"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -2.5d
 			y: -1.0d
 		}
 		{
@@ -174,8 +174,8 @@
 				item: "forbidden_arcanus:boom_arrow"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -190,8 +190,8 @@
 				item: "archers_paradox:slime_arrow"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -206,7 +206,7 @@
 				item: "archers_paradox:phantasmal_arrow"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: 2.0d
 		}
 		{
@@ -222,8 +222,8 @@
 				item: "archers_paradox:lightning_arrow"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -238,8 +238,8 @@
 				item: "archers_paradox:challenge_arrow"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -254,8 +254,8 @@
 				item: "archers_paradox:diamond_arrow"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: -6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -270,8 +270,8 @@
 				item: "archers_paradox:verdant_arrow"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.0d
+			x: -2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -286,8 +286,8 @@
 				item: "archers_paradox:spore_arrow"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.0d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -302,8 +302,8 @@
 				item: "minecraft:spectral_arrow"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.0d
+			x: -6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -326,8 +326,8 @@
 				title: "Any tipped Arrow"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -4.0d
+			x: -7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -342,8 +342,8 @@
 				item: "quark:torch_arrow"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: -7.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -358,8 +358,8 @@
 				item: "ars_nouveau:amplify_arrow"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.0d
+			x: -5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -374,8 +374,8 @@
 				item: "ars_nouveau:split_arrow"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -3.0d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -390,8 +390,8 @@
 				item: "ars_nouveau:pierce_arrow"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -406,8 +406,8 @@
 				item: "alexsmobs:shark_tooth_arrow"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.0d
+			x: -7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -433,8 +433,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -453,8 +453,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.0d
+			x: 0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -475,8 +475,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.0d
+			x: 3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -497,8 +497,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.0d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -517,8 +517,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -537,8 +537,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -560,8 +560,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -576,8 +576,8 @@
 				item: "minecraft:target"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -592,8 +592,8 @@
 				item: "archers_paradox:prismarine_arrow"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.0d
+			x: -6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -646,8 +646,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.0d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -700,8 +700,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.0d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -723,8 +723,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: 4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -746,8 +746,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -769,8 +769,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -792,8 +792,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -815,8 +815,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -837,8 +837,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -860,8 +860,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -883,8 +883,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -907,8 +907,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: 5.5d
+			y: -2.5d
 		}
 	]
 	title: "Sharpshooter"

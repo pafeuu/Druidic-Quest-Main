@@ -81,7 +81,7 @@
 			]
 			title: "Leather Set"
 			x: -6.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -147,7 +147,7 @@
 			]
 			title: "Engineer's Set"
 			x: -3.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -213,7 +213,7 @@
 			]
 			title: "Mortem Set"
 			x: -4.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -278,8 +278,8 @@
 				}
 			]
 			title: "Iron Set"
-			x: -6.0d
-			y: -1.5d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -345,7 +345,7 @@
 			]
 			title: "Chainmail Set"
 			x: -1.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -411,7 +411,7 @@
 			]
 			title: "Botanist Set"
 			x: -3.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -476,8 +476,8 @@
 				}
 			]
 			title: "Gold Set"
-			x: -5.0d
-			y: 0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -542,8 +542,8 @@
 				}
 			]
 			title: "Diamond Set"
-			x: -4.0d
-			y: 0.5d
+			x: -6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -608,8 +608,8 @@
 				}
 			]
 			title: "Netherite Set"
-			x: -6.0d
-			y: 1.5d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -674,8 +674,8 @@
 				}
 			]
 			title: "Steel Set"
-			x: -6.0d
-			y: 3.5d
+			x: -6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -740,8 +740,8 @@
 				}
 			]
 			title: "Skyseeker Set"
-			x: -3.0d
-			y: 0.5d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -757,7 +757,7 @@
 				item: "kubejs:botanist_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -13.0d
 			y: -1.0d
 		}
 		{
@@ -774,8 +774,8 @@
 				item: "kubejs:gold_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -1.0d
+			x: -12.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -791,8 +791,8 @@
 				item: "minecraft:netherite_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -1.0d
+			x: -13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -808,8 +808,8 @@
 				item: "kubejs:skyseeker_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 0.5d
+			x: -12.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -825,8 +825,8 @@
 				item: "forbidden_arcanus:darkstone_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 2.0d
+			x: -12.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -842,7 +842,7 @@
 				item: "kubejs:steel_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -13.0d
 			y: 2.0d
 		}
 		{
@@ -858,7 +858,7 @@
 				item: "minecraft:sentry_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -9.5d
 			y: -2.5d
 		}
 		{
@@ -874,7 +874,7 @@
 				item: "minecraft:vex_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -10.5d
 			y: -0.5d
 		}
 		{
@@ -890,7 +890,7 @@
 				item: "minecraft:wild_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 3.5d
+			x: -8.5d
 			y: -2.5d
 		}
 		{
@@ -906,7 +906,7 @@
 				item: "minecraft:coast_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -10.5d
 			y: -2.5d
 		}
 		{
@@ -922,7 +922,7 @@
 				item: "minecraft:tide_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -9.5d
 			y: -0.5d
 		}
 		{
@@ -938,7 +938,7 @@
 				item: "quark:smithing_template_rune"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -10.5d
 			y: 1.5d
 		}
 		{
@@ -954,7 +954,7 @@
 				item: "minecraft:wayfinder_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 3.5d
+			x: -8.5d
 			y: -1.5d
 		}
 		{
@@ -970,7 +970,7 @@
 				item: "minecraft:raiser_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -9.5d
 			y: -1.5d
 		}
 		{
@@ -986,7 +986,7 @@
 				item: "minecraft:shaper_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -10.5d
 			y: -1.5d
 		}
 		{
@@ -1002,7 +1002,7 @@
 				item: "minecraft:host_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 4.5d
+			x: -7.5d
 			y: -1.5d
 		}
 		{
@@ -1018,7 +1018,7 @@
 				item: "minecraft:silence_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 4.5d
+			x: -7.5d
 			y: 0.5d
 		}
 		{
@@ -1034,7 +1034,7 @@
 				item: "minecraft:snout_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 3.5d
+			x: -8.5d
 			y: -0.5d
 		}
 		{
@@ -1050,7 +1050,7 @@
 				item: "minecraft:ward_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 3.5d
+			x: -8.5d
 			y: 0.5d
 		}
 		{
@@ -1066,7 +1066,7 @@
 				item: "minecraft:rib_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 4.5d
+			x: -7.5d
 			y: -0.5d
 		}
 		{
@@ -1082,7 +1082,7 @@
 				item: "minecraft:eye_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -10.5d
 			y: 0.5d
 		}
 		{
@@ -1098,7 +1098,7 @@
 				item: "minecraft:dune_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 4.5d
+			x: -7.5d
 			y: -2.5d
 		}
 		{
@@ -1114,7 +1114,7 @@
 				item: "minecraft:spire_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -9.5d
 			y: 0.5d
 		}
 		{
@@ -1181,7 +1181,7 @@
 			]
 			title: "Copper Set"
 			x: -2.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1246,8 +1246,8 @@
 				}
 			]
 			title: "Silver Set"
-			x: -5.0d
-			y: -1.5d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1312,8 +1312,8 @@
 				}
 			]
 			title: "Lead Set"
-			x: -4.0d
-			y: -1.5d
+			x: -5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1378,8 +1378,8 @@
 				}
 			]
 			title: "Draco Arcanus Set"
-			x: -5.0d
-			y: 3.5d
+			x: -5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1444,8 +1444,8 @@
 				}
 			]
 			title: "Tyr Set"
-			x: -4.0d
-			y: 3.5d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1510,8 +1510,8 @@
 				}
 			]
 			title: "Etherium Set"
-			x: -3.0d
-			y: 3.5d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1576,8 +1576,8 @@
 				}
 			]
 			title: "Soulstrider Set"
-			x: -5.0d
-			y: 1.5d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1593,8 +1593,8 @@
 				item: "deeperdarker:warden_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 2.0d
+			x: -12.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1609,7 +1609,7 @@
 				item: "ancient_aether:wynd_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 4.0d
+			x: -8.0d
 			y: 2.5d
 		}
 		{
@@ -1625,7 +1625,7 @@
 				item: "ancient_aether:whale_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 3.0d
+			x: -9.0d
 			y: 2.5d
 		}
 		{
@@ -1641,7 +1641,7 @@
 				item: "ancient_aether:ascended_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -10.0d
 			y: 2.5d
 		}
 		{
@@ -1657,7 +1657,7 @@
 				item: "ancient_aether:mysterious_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 4.5d
+			x: -7.5d
 			y: 1.5d
 		}
 		{
@@ -1673,7 +1673,7 @@
 				item: "ancient_aether:mechanical_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 3.5d
+			x: -8.5d
 			y: 1.5d
 		}
 		{
@@ -1689,7 +1689,7 @@
 				item: "ancient_aether:royal_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -9.5d
 			y: 1.5d
 		}
 		{
@@ -1705,7 +1705,7 @@
 				item: "ancient_aether:mosaic_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 4.0d
+			x: -8.0d
 			y: 3.5d
 		}
 		{
@@ -1721,7 +1721,7 @@
 				item: "ancient_aether:solar_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -10.0d
 			y: 3.5d
 		}
 		{
@@ -1737,7 +1737,7 @@
 				item: "ancient_aether:ancient_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 3.0d
+			x: -9.0d
 			y: 3.5d
 		}
 		{
@@ -1793,8 +1793,8 @@
 				}
 			]
 			title: "Naga Set"
-			x: -6.0d
-			y: -0.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1880,7 +1880,7 @@
 			]
 			title: "Ironwood Set"
 			x: -1.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1965,8 +1965,8 @@
 				}
 			]
 			title: "Steeleaf Set"
-			x: -5.0d
-			y: -0.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2031,8 +2031,8 @@
 				}
 			]
 			title: "Arctic Set"
-			x: -1.0d
-			y: -0.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2123,8 +2123,8 @@
 				}
 			]
 			title: "Yeti Set"
-			x: -6.0d
-			y: 0.5d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2189,8 +2189,8 @@
 				}
 			]
 			title: "Fiery Set"
-			x: -4.0d
-			y: -0.5d
+			x: -5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2254,8 +2254,8 @@
 				}
 			]
 			title: "Neptune Set"
-			x: -3.0d
-			y: 1.5d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2320,8 +2320,8 @@
 				}
 			]
 			title: "Gravitite Set"
-			x: -4.0d
-			y: 1.5d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2386,8 +2386,8 @@
 				}
 			]
 			title: "Knightmetal Set"
-			x: -2.0d
-			y: -0.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2452,8 +2452,8 @@
 				}
 			]
 			title: "Skyjade Set"
-			x: -1.0d
-			y: 0.5d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2518,8 +2518,8 @@
 				}
 			]
 			title: "Zanite Set"
-			x: -2.0d
-			y: 0.5d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2562,8 +2562,8 @@
 				}
 			]
 			title: "Phantom Set"
-			x: -3.0d
-			y: -0.5d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2628,8 +2628,8 @@
 				}
 			]
 			title: "Phoenix Set"
-			x: -2.0d
-			y: 1.5d
+			x: -5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2693,8 +2693,8 @@
 				}
 			]
 			title: "Stratus Set"
-			x: -6.0d
-			y: 2.5d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2759,8 +2759,8 @@
 				}
 			]
 			title: "Obsidian Set"
-			x: -5.0d
-			y: 2.5d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2824,8 +2824,8 @@
 				}
 			]
 			title: "Valkyrum Set"
-			x: -4.0d
-			y: 2.5d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2890,8 +2890,8 @@
 				}
 			]
 			title: "Resonarium Set"
-			x: -2.0d
-			y: 3.5d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2956,8 +2956,8 @@
 				}
 			]
 			title: "Warden Set"
-			x: -1.0d
-			y: 3.5d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3023,7 +3023,7 @@
 			]
 			title: "Beekeeper's Set"
 			x: -5.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3082,8 +3082,8 @@
 				}
 			]
 			title: "Stormforged Set"
-			x: -1.0d
-			y: 1.5d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3099,8 +3099,8 @@
 				item: "kubejs:phoenix_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 0.5d
+			x: -13.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3166,7 +3166,7 @@
 			]
 			title: "Diving Set"
 			x: -2.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3180,8 +3180,7 @@
 			}
 			id: "11ED416FB72B31AD"
 			rewards: [{
-				count: 3
-				id: "23E7C688BC45C673"
+				id: "558617005E5B9B5F"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -3236,8 +3235,8 @@
 				}
 			]
 			title: "Arcane Gold Set"
-			x: -3.0d
-			y: 2.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3251,8 +3250,8 @@
 			}
 			id: "151D7FC362F4CEA3"
 			rewards: [{
-				count: 3
-				id: "0F2282D686918942"
+				count: 2
+				id: "0DFDDE93CA4B0538"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -3307,8 +3306,8 @@
 				}
 			]
 			title: "Inventor Wizard Set"
-			x: -2.0d
-			y: 2.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3377,8 +3376,8 @@
 				}
 			]
 			title: "Arcane Fortress Set"
-			x: -1.0d
-			y: 2.5d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3394,8 +3393,1101 @@
 				item: "deep_aether:stratus_smithing_template"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -12.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "kubejs:bronze_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0CC7E0F83D71AC40"
+			rewards: [{
+				count: 2
+				id: "666FBC8E64F33A52"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61C8362ABE51BF90"
+					item: {
+						Count: 1
+						id: "kubejs:bronze_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D8D454BBAB1970E"
+					item: {
+						Count: 1
+						id: "kubejs:bronze_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B2B260813352DF6"
+					item: {
+						Count: 1
+						id: "kubejs:bronze_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F72CF6181FDEEA5"
+					item: {
+						Count: 1
+						id: "kubejs:bronze_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bronze Set"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:sorcerer_robes"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "413CD3762BAFA7CE"
+			rewards: [{
+				id: "5E1CC8E7B93D3078"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1B3ECDD16719CB03"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6882863F5519A5B0"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EB5BB4D53D3F25A"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57E4486672E8AB66"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sorcerer's Set"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:arcanist_robes"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0178C0BDFD2A9FBB"
+			rewards: [{
+				count: 2
+				id: "0CA7ED51210407DE"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "098F53A637FF368F"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "781B1C7DECF8E329"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58872F13F7EBB811"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65B0D435BC79D722"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Arcanist's Set"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:battlemage_robes"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "04324FF675E30910"
+			rewards: [{
+				id: "4ADF632FA2766D96"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "429D6629797F8F85"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D8ED41BA1A80EBE"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "374DB330633A443D"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44EC8B0266968F67"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Battlemage's Set"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:wandering_magician_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E82DA4F2E34EFDF"
+			rewards: [{
+				id: "710D9304EF5D92DB"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "231F0F255D4F390B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3364AC503576FF4F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "375155232AEE9610"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C407AC044F12C76"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wandering Magician Set"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:pumpkin_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B85D0E9D533A22B"
+			rewards: [{
+				id: "14B091026BC1412B"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1EFF08EAC94263CD"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67FDA4A808648D99"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D0A22AEA3FC322B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42227192FF85C03D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Scarecrow Set"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:pyromancer_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "0DA4EAD80AAC7021"
+			rewards: [{
+				count: 2
+				id: "319A0C1D99A997BD"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "70F7D6352C188215"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52C92B91CB89CB1F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20AAC04B4F84559D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A96721FCD4AA36D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pyromancer Set"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:cryomancer_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "0C10B21CF79B9275"
+			rewards: [{
+				count: 2
+				id: "186E1CE188191839"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "70958A7FDA38D8FE"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17BBFDA3B679981E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A3BCB16B27F34FE"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "768C0E5E81154791"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cryomancer Set"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:electromancer_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "23B40E5F42F1BEA1"
+			rewards: [{
+				count: 2
+				id: "70AD6E5D3F04FBED"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "36B92328E074237D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E5CDD4CB0817DA0"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "634153B812E2FDB3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D7B48D05C04BE8D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Electromancer Set"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:archevoker_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "3212250E5A7B068D"
+			rewards: [{
+				count: 2
+				id: "64EC858B067ED258"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1C71F235DFC8FAA8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CF5EB6F1EB7F7A7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "258B0479A66ECA29"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07304F9B918276DC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Archevoker Set"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:cultist_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "6C0640596EE41C99"
+			rewards: [{
+				count: 2
+				id: "03EC182B676D2FF1"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "34DCF2EC101D7623"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D9A5090719E7F32"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AC4DC8ED8DE26AB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61B41AB3C0F1B70B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cultist Set"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:shadowwalker_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "5E65F4F50BBD7A64"
+			rewards: [{
+				count: 2
+				id: "5B671253A5C3F42C"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4F94947D50627713"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FDBDAEADE474EDA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48BAB955E9F9F52C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10FFF43AC58D6F36"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Shadow-Walker Set"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:priest_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "79FBCE43552F5497"
+			rewards: [{
+				count: 2
+				id: "1697B1F14DF0A596"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "24FBABDC56CE89E7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73B3575E5E6B20CC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EDBE4C99D0FFE99"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06BA2AACD6EA98F9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Priest Set"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:plagued_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "0CF418391EA884A1"
+			rewards: [{
+				count: 2
+				id: "665CD7C1B4F6F575"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "05CDFCD1029ABE3E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FAEDB6D6BDB1FB6"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A7F86D5F7D0F9B4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1366FB052E5840C5"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Plagued Set"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:netherite_mage_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "069B2D0924521462"
+			rewards: [{
+				id: "418177519E12063B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "195C02C1FA8D3239"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F7759F417C91AF4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57586CB7624CEE31"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C69A5E28981E28E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite Battlemage Set"
+			x: 2.5d
+			y: 3.0d
 		}
 	]
 	title: "Armorsmith"
