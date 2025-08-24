@@ -578,7 +578,7 @@
 							data: [{
 								id: "irons_spellbooks:blaze_storm"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -587,6 +587,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -8.8d
@@ -611,7 +612,7 @@
 							data: [{
 								id: "irons_spellbooks:burning_dash"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -620,6 +621,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -8.0d
@@ -644,7 +646,7 @@
 							data: [{
 								id: "irons_spellbooks:fireball"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -653,6 +655,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -7.200000000000001d
@@ -677,7 +680,7 @@
 							data: [{
 								id: "irons_spellbooks:firebolt"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -686,6 +689,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -6.4d
@@ -710,7 +714,7 @@
 							data: [{
 								id: "irons_spellbooks:fire_breath"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -719,6 +723,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.6000000000000005d
@@ -743,7 +748,7 @@
 							data: [{
 								id: "irons_spellbooks:magma_bomb"
 								index: 0
-								level: 1
+								level: 8
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -752,6 +757,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.800000000000001d
@@ -776,7 +782,7 @@
 							data: [{
 								id: "irons_spellbooks:wall_of_fire"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -785,6 +791,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.000000000000001d
@@ -809,7 +816,7 @@
 							data: [{
 								id: "irons_spellbooks:heat_surge"
 								index: 0
-								level: 1
+								level: 8
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -818,6 +825,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -3.200000000000002d
@@ -842,7 +850,7 @@
 							data: [{
 								id: "irons_spellbooks:flaming_strike"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -851,6 +859,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.4000000000000012d
@@ -875,7 +884,7 @@
 							data: [{
 								id: "irons_spellbooks:scorch"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -884,6 +893,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -1.6000000000000014d
@@ -908,7 +918,7 @@
 							data: [{
 								id: "irons_spellbooks:flaming_barrage"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -917,6 +927,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -0.8000000000000025d
@@ -941,7 +952,7 @@
 							data: [{
 								id: "irons_spellbooks:cone_of_cold"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -950,6 +961,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -7.200000000000001d
@@ -965,7 +977,7 @@
 			}]
 			size: 0.8d
 			tasks: [{
-				id: "396FE9C79A74AFF0"
+				id: "4008BF8A0EB78551"
 				item: {
 					Count: 1
 					id: "irons_spellbooks:scroll"
@@ -974,7 +986,7 @@
 							data: [{
 								id: "irons_spellbooks:frost_step"
 								index: 0
-								level: 1
+								level: 8
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -983,6 +995,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -6.4d
@@ -1007,7 +1020,7 @@
 							data: [{
 								id: "irons_spellbooks:ice_block"
 								index: 0
-								level: 1
+								level: 6
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1016,6 +1029,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.6d
@@ -1040,7 +1054,7 @@
 							data: [{
 								id: "irons_spellbooks:icicle"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1049,6 +1063,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.800000000000001d
@@ -1073,7 +1088,7 @@
 							data: [{
 								id: "irons_spellbooks:summon_polar_bear"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1082,6 +1097,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.000000000000001d
@@ -1106,7 +1122,7 @@
 							data: [{
 								id: "irons_spellbooks:ray_of_frost"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1115,6 +1131,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -3.200000000000001d
@@ -1139,7 +1156,7 @@
 							data: [{
 								id: "irons_spellbooks:frostwave"
 								index: 0
-								level: 1
+								level: 8
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1148,6 +1165,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.4000000000000012d
@@ -1172,7 +1190,7 @@
 							data: [{
 								id: "irons_spellbooks:ascension"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1181,6 +1199,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -8.0d
@@ -1205,7 +1224,7 @@
 							data: [{
 								id: "irons_spellbooks:chain_lightning"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1214,6 +1233,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -7.199999999999999d
@@ -1238,7 +1258,7 @@
 							data: [{
 								id: "irons_spellbooks:charge"
 								index: 0
-								level: 1
+								level: 3
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1247,6 +1267,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -6.4d
@@ -1271,7 +1292,7 @@
 							data: [{
 								id: "irons_spellbooks:electrocute"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1280,6 +1301,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.6d
@@ -1304,7 +1326,7 @@
 							data: [{
 								id: "irons_spellbooks:lightning_bolt"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1313,6 +1335,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.8d
@@ -1337,7 +1360,7 @@
 							data: [{
 								id: "irons_spellbooks:lightning_lance"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1346,6 +1369,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.0d
@@ -1370,7 +1394,7 @@
 							data: [{
 								id: "irons_spellbooks:shockwave"
 								index: 0
-								level: 1
+								level: 8
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1379,6 +1403,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -3.200000000000001d
@@ -1403,7 +1428,7 @@
 							data: [{
 								id: "irons_spellbooks:thunderstorm"
 								index: 0
-								level: 1
+								level: 8
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1412,6 +1437,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.4000000000000004d
@@ -1436,7 +1462,7 @@
 							data: [{
 								id: "irons_spellbooks:ball_lightning"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1445,6 +1471,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -1.6000000000000005d
@@ -1478,9 +1505,10 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
-			x: -9.2d
+			x: -8.8d
 			y: 3.2d
 		}
 		{
@@ -1502,7 +1530,7 @@
 							data: [{
 								id: "irons_spellbooks:dragon_breath"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1511,9 +1539,10 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
-			x: -8.399999999999999d
+			x: -8.0d
 			y: 3.2d
 		}
 		{
@@ -1535,7 +1564,7 @@
 							data: [{
 								id: "irons_spellbooks:evasion"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1544,9 +1573,10 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
-			x: -7.6d
+			x: -7.200000000000001d
 			y: 3.2d
 		}
 		{
@@ -1568,7 +1598,7 @@
 							data: [{
 								id: "irons_spellbooks:magic_arrow"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1577,9 +1607,10 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
-			x: -6.8d
+			x: -6.400000000000001d
 			y: 3.2d
 		}
 		{
@@ -1601,7 +1632,7 @@
 							data: [{
 								id: "irons_spellbooks:magic_missile"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1610,9 +1641,10 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.600000000000001d
 			y: 3.2d
 		}
 		{
@@ -1634,7 +1666,7 @@
 							data: [{
 								id: "irons_spellbooks:starfall"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1643,9 +1675,10 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
-			x: -5.199999999999999d
+			x: -4.800000000000001d
 			y: 3.2d
 		}
 		{
@@ -1667,7 +1700,7 @@
 							data: [{
 								id: "irons_spellbooks:teleport"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1676,9 +1709,10 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
-			x: -4.3999999999999995d
+			x: -4.000000000000001d
 			y: 3.2d
 		}
 		{
@@ -1709,9 +1743,10 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
-			x: -3.5999999999999988d
+			x: -3.2d
 			y: 3.2d
 		}
 		{
@@ -1742,42 +1777,10 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
-			x: -2.8d
-			y: 3.2d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "44B23957D4440CAD"
-			rewards: [{
-				id: "515C55BCDF88C76C"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "4E5CBEBE7B24E24D"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:teleport"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
+			x: -2.4000000000000012d
 			y: 3.2d
 		}
 		{
@@ -1799,7 +1802,7 @@
 							data: [{
 								id: "irons_spellbooks:echoing_strikes"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1808,9 +1811,10 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
-			x: -1.2000000000000002d
+			x: -1.6d
 			y: 3.2d
 		}
 		{
@@ -1832,7 +1836,7 @@
 							data: [{
 								id: "irons_spellbooks:black_hole"
 								index: 0
-								level: 1
+								level: 6
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1841,9 +1845,10 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
-			x: -0.3999999999999986d
+			x: -0.7999999999999985d
 			y: 3.2d
 		}
 		{
@@ -1865,7 +1870,7 @@
 							data: [{
 								id: "irons_spellbooks:angel_wing"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1874,6 +1879,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -9.2d
@@ -1898,7 +1904,7 @@
 							data: [{
 								id: "irons_spellbooks:blessing_of_life"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1907,6 +1913,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -8.399999999999999d
@@ -1931,7 +1938,7 @@
 							data: [{
 								id: "irons_spellbooks:fortify"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1940,6 +1947,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -7.6d
@@ -1964,7 +1972,7 @@
 							data: [{
 								id: "irons_spellbooks:heal"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -1973,6 +1981,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -6.799999999999999d
@@ -2006,6 +2015,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.999999999999999d
@@ -2030,7 +2040,7 @@
 							data: [{
 								id: "irons_spellbooks:healing_circle"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2039,6 +2049,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.199999999999999d
@@ -2063,7 +2074,7 @@
 							data: [{
 								id: "irons_spellbooks:guiding_bolt"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2072,6 +2083,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.3999999999999995d
@@ -2096,7 +2108,7 @@
 							data: [{
 								id: "irons_spellbooks:sunbeam"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2105,6 +2117,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -3.5999999999999988d
@@ -2129,7 +2142,7 @@
 							data: [{
 								id: "irons_spellbooks:wisp"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2138,6 +2151,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.8d
@@ -2162,7 +2176,7 @@
 							data: [{
 								id: "irons_spellbooks:divine_smite"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2171,6 +2185,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -1.9999999999999991d
@@ -2195,7 +2210,7 @@
 							data: [{
 								id: "irons_spellbooks:haste"
 								index: 0
-								level: 1
+								level: 6
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2204,6 +2219,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -1.1999999999999993d
@@ -2237,6 +2253,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -0.3999999999999986d
@@ -2261,7 +2278,7 @@
 							data: [{
 								id: "irons_spellbooks:acupuncture"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2270,6 +2287,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -8.399999999999999d
@@ -2294,7 +2312,7 @@
 							data: [{
 								id: "irons_spellbooks:blood_needles"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2303,6 +2321,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -7.599999999999998d
@@ -2327,7 +2346,7 @@
 							data: [{
 								id: "irons_spellbooks:blood_slash"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2336,6 +2355,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -6.799999999999999d
@@ -2360,7 +2380,7 @@
 							data: [{
 								id: "irons_spellbooks:blood_step"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2369,6 +2389,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.999999999999998d
@@ -2393,7 +2414,7 @@
 							data: [{
 								id: "irons_spellbooks:devour"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2402,6 +2423,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.199999999999999d
@@ -2426,7 +2448,7 @@
 							data: [{
 								id: "irons_spellbooks:heartstop"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2435,6 +2457,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.399999999999999d
@@ -2459,7 +2482,7 @@
 							data: [{
 								id: "irons_spellbooks:raise_dead"
 								index: 0
-								level: 1
+								level: 6
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2468,6 +2491,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -3.5999999999999988d
@@ -2492,7 +2516,7 @@
 							data: [{
 								id: "irons_spellbooks:ray_of_siphoning"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2501,6 +2525,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.799999999999999d
@@ -2525,7 +2550,7 @@
 							data: [{
 								id: "irons_spellbooks:wither_skull"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2534,6 +2559,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -1.9999999999999982d
@@ -2558,7 +2584,7 @@
 							data: [{
 								id: "irons_spellbooks:sacrifice"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2567,6 +2593,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -1.1999999999999993d
@@ -2591,7 +2618,7 @@
 							data: [{
 								id: "irons_spellbooks:acid_orb"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2600,6 +2627,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -9.2d
@@ -2624,7 +2652,7 @@
 							data: [{
 								id: "irons_spellbooks:blight"
 								index: 0
-								level: 1
+								level: 8
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2633,6 +2661,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -8.399999999999999d
@@ -2657,7 +2686,7 @@
 							data: [{
 								id: "irons_spellbooks:poison_arrow"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2666,6 +2695,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -7.6d
@@ -2690,7 +2720,7 @@
 							data: [{
 								id: "irons_spellbooks:poison_breath"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2699,6 +2729,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -6.8d
@@ -2723,7 +2754,7 @@
 							data: [{
 								id: "irons_spellbooks:poison_splash"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2732,6 +2763,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -6.0d
@@ -2756,7 +2788,7 @@
 							data: [{
 								id: "irons_spellbooks:root"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2765,6 +2797,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.2d
@@ -2789,7 +2822,7 @@
 							data: [{
 								id: "irons_spellbooks:spider_aspect"
 								index: 0
-								level: 1
+								level: 8
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2798,6 +2831,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.3999999999999995d
@@ -2822,7 +2856,7 @@
 							data: [{
 								id: "irons_spellbooks:firefly_swarm"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2831,6 +2865,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -3.5999999999999996d
@@ -2855,7 +2890,7 @@
 							data: [{
 								id: "irons_spellbooks:oakskin"
 								index: 0
-								level: 1
+								level: 8
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2864,6 +2899,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.8d
@@ -2888,7 +2924,7 @@
 							data: [{
 								id: "irons_spellbooks:earthquake"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2897,6 +2933,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.000000000000001d
@@ -2921,7 +2958,7 @@
 							data: [{
 								id: "irons_spellbooks:stomp"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2930,6 +2967,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -1.2000000000000002d
@@ -2954,7 +2992,7 @@
 							data: [{
 								id: "irons_spellbooks:gluttony"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2963,6 +3001,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -0.3999999999999986d
@@ -2987,7 +3026,7 @@
 							data: [{
 								id: "irons_spellbooks:chain_creeper"
 								index: 0
-								level: 1
+								level: 6
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -2996,6 +3035,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -10.0d
@@ -3020,7 +3060,7 @@
 							data: [{
 								id: "irons_spellbooks:fang_strike"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -3029,6 +3069,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -9.2d
@@ -3053,7 +3094,7 @@
 							data: [{
 								id: "irons_spellbooks:fang_ward"
 								index: 0
-								level: 1
+								level: 8
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -3062,6 +3103,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -8.4d
@@ -3086,7 +3128,7 @@
 							data: [{
 								id: "irons_spellbooks:firecracker"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -3095,6 +3137,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -7.6000000000000005d
@@ -3119,7 +3162,7 @@
 							data: [{
 								id: "irons_spellbooks:gust"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -3128,6 +3171,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -6.8d
@@ -3152,7 +3196,7 @@
 							data: [{
 								id: "irons_spellbooks:invisibility"
 								index: 0
-								level: 1
+								level: 6
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -3161,6 +3205,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -6.0d
@@ -3185,7 +3230,7 @@
 							data: [{
 								id: "irons_spellbooks:lob_creeper"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -3194,6 +3239,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.2d
@@ -3218,7 +3264,7 @@
 							data: [{
 								id: "irons_spellbooks:shield"
 								index: 0
-								level: 1
+								level: 10
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -3227,6 +3273,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.400000000000001d
@@ -3251,7 +3298,7 @@
 							data: [{
 								id: "irons_spellbooks:spectral_hammer"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -3260,6 +3307,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -3.6000000000000005d
@@ -3284,7 +3332,7 @@
 							data: [{
 								id: "irons_spellbooks:summon_horse"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -3293,6 +3341,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.8d
@@ -3317,7 +3366,7 @@
 							data: [{
 								id: "irons_spellbooks:summon_vex"
 								index: 0
-								level: 1
+								level: 5
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -3326,6 +3375,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.0d
@@ -3350,7 +3400,7 @@
 							data: [{
 								id: "irons_spellbooks:slow"
 								index: 0
-								level: 1
+								level: 6
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -3359,6 +3409,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -1.1999999999999993d
@@ -3383,7 +3434,7 @@
 							data: [{
 								id: "irons_spellbooks:arrow_volley"
 								index: 0
-								level: 1
+								level: 6
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -3392,6 +3443,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -0.3999999999999986d
@@ -3425,6 +3477,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.40000000000000213d
@@ -3449,7 +3502,7 @@
 							data: [{
 								id: "irons_spellbooks:abyssal_shroud"
 								index: 0
-								level: 1
+								level: 3
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -3458,6 +3511,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -6.8d
@@ -3482,7 +3536,7 @@
 							data: [{
 								id: "irons_spellbooks:sculk_tentacles"
 								index: 0
-								level: 1
+								level: 4
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -3491,6 +3545,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.999999999999999d

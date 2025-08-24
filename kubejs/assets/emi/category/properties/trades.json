@@ -1,0 +1,12 @@
+{
+  "emitrades:villager_trades": {
+    "order": 190,
+    "sort": "none",
+    "icon": {
+      "stack": "item:thermal:gold_coin"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}
