@@ -6,7 +6,14 @@ ServerEvents.tags('item', event => {
 
   event.add("c:rods/wooden","twigs:twig")
   event.add("lychee:dispenser_placement","minecraft:iron_block")
-  
+  event.add("aether:treated_as_aether_item","#forge:tools")
+  event.add("aether:treated_as_aether_item","#forge:armors")
+  event.add("supplementaries:cookies",[
+    'fruitsdelight:cranberry_cookie',
+    'fruitsdelight:persimmon_cookie',
+    'fruitsdelight:bayberry_cookie',
+    'fruitsdelight:lemon_cookie'])
+
   event.remove("forge:rods/wooden","naturesaura:ancient_stick")
   event.remove("forge:rods/wooden","immersiveengineering:stick_treated")
   event.remove("forge:tools","#forge:shields")
