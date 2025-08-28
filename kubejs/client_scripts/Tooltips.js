@@ -27,7 +27,12 @@ ItemEvents.tooltip( tooltip => {
 
   tooltip.add(["kubejs:travelers_belt"],Text.gray("Texture by Futureazoo"))
 
-  tooltip.add(["kubejs:the_terraformer"],Text.gray("Texture by SenorRandom"))
+  tooltip.add([
+    "kubejs:the_terraformer",
+    "kubejs:wooden_crucifix",
+    "kubejs:metal_crucifix",
+    "kubejs:bejeweled_crucifix"
+  ],Text.gray("Texture by SenorRandom"))
 
   tooltip.add("kubejs:sapphire",Text.gray("Texture by JuniDeerGirl"))
 
@@ -282,6 +287,8 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("ars_nouveau:experience_gem",Text.green("Grants 3 experience points!"))
   tooltip.add("ars_nouveau:greater_experience_gem",Text.green("Grants 12 experience points!"))
   tooltip.add("create:experience_nugget",Text.green("Grants 3 experience point!"))
+  tooltip.add("sob:exp_candy",Text.green("Grants 10 experience point!"))
+  tooltip.add("sob:bustling_brew",Text.green("Grants 50 experience point!"))
   tooltip.add("create_sa:heap_of_experience",Text.green("Grants 12 experience points!"))
   tooltip.add("forbidden_arcanus:xpetrified_orb",[Text.green("Grants random amount of experience points!"),Text.blue("Crafting ingredient")])
 
@@ -331,21 +338,24 @@ ItemEvents.tooltip( tooltip => {
 
   tooltip.add("#druidic_quest:dimensional_tools",[Text.darkPurple("Tool made from materials outside of the main realm!"),Text.blue("Combine it with extradimensional eye"),Text.blue("in the crafting grid to apply telekinesis enchant!")])
   
-  tooltip.addAdvanced(["immersiveengineering:armor_steel_helmet",
-               "immersiveengineering:armor_steel_chestplate",
-               "immersiveengineering:armor_steel_leggings",
-               "immersiveengineering:armor_steel_boots",
-               "immersiveengineering:pickaxe_steel",
-               "immersiveengineering:shovel_steel",
-               "immersiveengineering:axe_steel",
-               "immersiveengineering:hoe_steel",
-               "immersiveengineering:sword_steel",
-               'immersiveengineering:armor_faraday_helmet',
-               'immersiveengineering:armor_faraday_chestplate',
-               'immersiveengineering:armor_faraday_leggings',
-               'immersiveengineering:armor_faraday_boots'],(item, advanced, text) => {
-                text.add(1, Text.of("Unbreakable").blue())
-               })
+  tooltip.addAdvanced([
+    "immersiveengineering:armor_steel_helmet",
+    "immersiveengineering:armor_steel_chestplate",
+    "immersiveengineering:armor_steel_leggings",
+    "immersiveengineering:armor_steel_boots",
+    "immersiveengineering:pickaxe_steel",
+    "immersiveengineering:shovel_steel",
+    "immersiveengineering:axe_steel",
+    "immersiveengineering:hoe_steel",
+    "immersiveengineering:sword_steel",
+    'immersiveengineering:armor_faraday_helmet',
+    'immersiveengineering:armor_faraday_chestplate',
+    'immersiveengineering:armor_faraday_leggings',
+    'immersiveengineering:armor_faraday_boots',
+    "create:extendo_grip"],
+    (item, advanced, text) => {
+    text.add(1, Text.of("Unbreakable").blue())
+    })
   //=======================Arrows=======================
 
   tooltip.add("forbidden_arcanus:boom_arrow",[Text.gold("Explodes on impact with entities!"),Text.gold("Deals massive amounts of damage!")])
