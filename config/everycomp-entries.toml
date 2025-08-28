@@ -10,7 +10,7 @@
 	[types.wood_type]
 
 		[types.wood_type.ars_nouveau]
-			archwood = true
+			blue_archwood = true
 
 		[types.wood_type.naturesaura]
 			ancient = true
@@ -35,6 +35,7 @@
 
 		[types.wood_type.deeperdarker]
 			echo = true
+			bloom = true
 
 		[types.wood_type.aether]
 			skyroot = true
@@ -300,6 +301,9 @@
 			hollow_log_climbable = true
 			hollow_log_horizontal = true
 			hollow_log_vertical = true
+
+		[entries.wood_type.sob]
+			counter = true
 
 	[entries.leaves_type]
 
