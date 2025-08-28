@@ -1,6 +1,9 @@
 {
 	chapter_groups: [
-		{ id: "23A1FEBD04C34E2E", title: "Progression" }
+		{ id: "1F26ADB9FE7155EE", title: "Money" }
+		{ id: "62F82B115610E936", title: "Tips" }
+		{ id: "23A1FEBD04C34E2E", title: "Main Questline" }
+		{ id: "3234F6E6AE6DF6F9", title: "Side Questline" }
 		{ id: "6959C7C8592FBBA9", title: "Ultimate Collector" }
 	]
 }

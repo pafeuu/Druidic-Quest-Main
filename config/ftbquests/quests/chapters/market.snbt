@@ -4,7 +4,7 @@
 	default_quest_shape: "diamond"
 	default_repeatable_quest: true
 	filename: "market"
-	group: ""
+	group: "1F26ADB9FE7155EE"
 	hide_quest_until_deps_visible: true
 	icon: { Count: 64, id: "thermal:gold_coin" }
 	id: "37D0225A9D849EF0"

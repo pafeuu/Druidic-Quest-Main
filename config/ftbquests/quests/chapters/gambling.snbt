@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "diamond"
 	filename: "gambling"
-	group: ""
+	group: "1F26ADB9FE7155EE"
 	hide_quest_details_until_startable: true
 	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
@@ -41,8 +41,40 @@
 			x: -1.5d
 			y: 0.0d
 		}
+		{
+			height: 2.0d
+			image: "farmersdelight:item/hamburger"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 0.0d
+		}
 	]
-	order_index: 4
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -58,7 +90,7 @@
 				type: "checkmark"
 			}]
 			title: "Welcome to the Casino"
-			x: 0.5d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -152,6 +184,36 @@
 			]
 			title: "Decorative Building Materials"
 			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "48D1FC45C106B8A3"
+			tasks: [{
+				id: "13D69365817B88ED"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "1D0075FBA10C27FE"
+			tasks: [{
+				id: "4E2AED8D49B29871"
+				item: "fruitsdelight:hamimelon_juice"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "4E5E70E3FC52DA6D"
+			tasks: [{
+				id: "20A9D84B66AA3F70"
+				item: "vintagedelight:cheese_burger"
+				type: "item"
+			}]
+			x: 3.5d
 			y: -0.5d
 		}
 	]

@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "automation"
-	group: "23A1FEBD04C34E2E"
+	group: "3234F6E6AE6DF6F9"
 	icon: "kubejs:infused_iron_gear"
 	id: "5CB7677DFE3231B7"
-	order_index: 10
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -231,12 +231,20 @@
 		}
 		{
 			dependencies: ["20647356BD02AC51"]
+			icon: "minecraft:dispenser"
 			id: "586EFA581591FD72"
-			tasks: [{
-				id: "79B51BF376CD8131"
-				item: "minecraft:dispenser"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "79B51BF376CD8131"
+					item: "minecraft:dispenser"
+					type: "item"
+				}
+				{
+					id: "207D9B408278DE83"
+					item: "supplementaries:dispenser_minecart"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -5.5d
 		}
@@ -281,8 +289,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -5.5d
+			x: 8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5171A92A9587D551"]
@@ -366,8 +374,156 @@
 				item: "supplementaries:bamboo_spikes"
 				type: "item"
 			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5171A92A9587D551"]
+			id: "3D5C9D562E85514E"
+			tasks: [
+				{
+					id: "0D25B7D2F27B3DD0"
+					item: "quark:pipe"
+					type: "item"
+				}
+				{
+					id: "741C15BFA7B8AF2D"
+					item: "quark:chute"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E369306ED039634"]
+			icon: "minecraft:magma_block"
+			id: "2B04B54C341F195D"
+			tasks: [
+				{
+					id: "5B1247C4B1BD4BDD"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "608C56CB14F83671"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+				{
+					id: "2594767C59A1AF37"
+					item: "minecraft:cactus"
+					type: "item"
+				}
+			]
+			title: "Vanilla Way"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5171A92A9587D551"]
+			id: "2CD803C91158A465"
+			tasks: [
+				{
+					id: "50263BE149033F0C"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "3B08F6A84EB1FB50"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "518C02B7699D922D"
+					item: "minecraft:dropper"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "085506B2810635B8"
+			tasks: [{
+				id: "3D9F72D00D472B59"
+				title: "auto crafting"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["085506B2810635B8"]
+			id: "2B312995F2B9457A"
+			tasks: [{
+				id: "2C17F2AF513FC85F"
+				item: "quark:crafter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["085506B2810635B8"]
+			id: "6E51BD3392DBC5D6"
+			tasks: [{
+				id: "53020C69E2A7F2CF"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["085506B2810635B8"]
+			id: "3E3602BF68F5C926"
+			tasks: [{
+				id: "50C1E58C6A7AEA1B"
+				item: "naturesaura:auto_crafter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"7883B923A38920B9"
+				"5E369306ED039634"
+			]
+			dependency_requirement: "one_completed"
+			icon: "supplementaries:cannon"
+			id: "5A68495E8322FC72"
+			tasks: [
+				{
+					id: "0C03DE8776CB70BC"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					id: "53B6AB80C7CCC11C"
+					item: "supplementaries:cannon"
+					type: "item"
+				}
+				{
+					id: "1A63DA77EF41D5AC"
+					item: "supplementaries:cannonball"
+					type: "item"
+				}
+				{
+					id: "0BB2232D2ED4C35E"
+					item: "supplementaries:bomb"
+					type: "item"
+				}
+				{
+					id: "206D4543E83AAECF"
+					item: "supplementaries:bomb_blue"
+					type: "item"
+				}
+			]
+			title: "Destruction"
 			x: 10.0d
-			y: -3.5d
+			y: -4.5d
 		}
 	]
 	title: "Automation"

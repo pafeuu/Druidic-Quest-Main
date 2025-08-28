@@ -1,0 +1,297 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "3234F6E6AE6DF6F9"
+	icon: "quark:crate"
+	id: "445DCECF7DCF2BA1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:magma_block"
+			id: "1CBDCC784C114148"
+			tasks: [{
+				id: "52A6DE06649D1658"
+				title: "Item Storage"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CBDCC784C114148"]
+			id: "63F9B999733B8032"
+			tasks: [{
+				id: "2A3BE468E3AD8591"
+				item: "ars_nouveau:repository"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1CBDCC784C114148"]
+			id: "0AA6D7DF12C7EA35"
+			tasks: [{
+				id: "6AA688A7AE84ED38"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CBDCC784C114148"]
+			icon: "minecraft:barrel"
+			id: "24CE8EA5A982ADED"
+			tasks: [
+				{
+					id: "28525FC16C99B107"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "40D35569A8516920"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CBDCC784C114148"]
+			id: "07C47993064F01F0"
+			tasks: [{
+				id: "67C664FB953F118D"
+				item: "supplementaries:sack"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07C47993064F01F0"]
+			id: "6CD01F8C044E9250"
+			tasks: [{
+				id: "42BCE0C0A330B971"
+				item: "immersiveengineering:crate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1CBDCC784C114148"]
+			id: "506A8F5F973A9DA0"
+			tasks: [{
+				id: "297E87BF163F2BF8"
+				item: "quark:crate"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CBDCC784C114148"]
+			icon: "silly_oddities:rainbow_bundle"
+			id: "511D263DEE425267"
+			tasks: [{
+				id: "0FA1F5EF096BFCF6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(silly_oddities:bundles)"
+					}
+				}
+				title: "Any #silly_oddities:bundles"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6CD01F8C044E9250"]
+			id: "5071D5A0B03CCD10"
+			tasks: [{
+				id: "5189D78FA79D59C4"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6CD01F8C044E9250"]
+			id: "514A2C14F477B7E3"
+			tasks: [{
+				id: "684DB7B0478F7D47"
+				item: "immersiveengineering:reinforced_crate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5071D5A0B03CCD10"]
+			id: "4419138FEA7EBDAE"
+			tasks: [{
+				id: "72A735A227E6CACF"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4419138FEA7EBDAE"]
+			id: "35775F7B1B1343F5"
+			tasks: [{
+				id: "40B5C25A0BC9CF2F"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4419138FEA7EBDAE"]
+			id: "653B960CC6ABE62E"
+			tasks: [{
+				id: "246E5AF61B9917B6"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4419138FEA7EBDAE"]
+			id: "7B2380E46ADD3D68"
+			tasks: [{
+				id: "314F2FC9430BDD2F"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1CBDCC784C114148"]
+			id: "4F6B3472311B022F"
+			tasks: [{
+				id: "2C55D8CFCF63D108"
+				item: {
+					Count: 1
+					id: "thermal:satchel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			icon: "minecraft:lava_bucket"
+			id: "25205D8CDA01C923"
+			tasks: [{
+				id: "6DD8E2D241FA49E3"
+				title: "Fluid Storage"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "5B9D369ED404FE32"
+			tasks: [{
+				id: "04837D256E48C6F0"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "7ADBACC2256AE817"
+			tasks: [{
+				id: "16377D7A31FAD52A"
+				item: {
+					Count: 1
+					id: "thermal:fluid_reservoir"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "5D9784871E2DC5FC"
+			tasks: [{
+				id: "3E4C85DD05E70FF1"
+				item: "starbunclemania:fluid_jar"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "62D22A665048A511"
+			tasks: [{
+				id: "4525A3648AEA7D3C"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			id: "6398E76C0FB41209"
+			tasks: [{
+				id: "67C85ED6F6BD63C2"
+				item: {
+					Count: 1
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			id: "488A49BFFFB2C316"
+			tasks: [{
+				id: "3D64304C3D4C5FBC"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6398E76C0FB41209"]
+			id: "43EFCDA4C8EA8139"
+			tasks: [{
+				id: "5BEA6D517106E9C8"
+				item: "thermal:fluid_tank_augment"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+	]
+	title: "Storage"
+}
