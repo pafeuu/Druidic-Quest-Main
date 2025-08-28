@@ -391,8 +391,8 @@
 		"Allow Tinted Glass Transparency" = true
 
 	[tools.bottled_cloud]
-		"Cloud Level Bottom" = 191
-		"Cloud Level Top" = 196
+		"Cloud Level Bottom" = 190
+		"Cloud Level Top" = 320
 
 	[tools.color_runes]
 		"Dungeon Weight" = 10
@@ -1810,7 +1810,7 @@
 		#It's possible for a trade to not restock even when the chance is 1. This happens when the rerolled trade is one the villager already has.
 		#This chance only guarantees a reroll will be attempted.
 		#Allowed values: [0,1]
-		"Chance To Reroll When Restocking" = 0.25
+		"Chance To Reroll When Restocking" = 0.0
 		#Set to 0 to disable the chance to reroll trades when restocking. Set to -1 to allow unlimited rerolling.
 		#Trades earlier in the list will restock first.
 		"Maximum Restocks Per Day" = 3
@@ -1822,9 +1822,9 @@
 
 [oddities]
 	Backpack = false
-	Crate = false
+	Crate = true
 	Magnets = false
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Pipes = true
 	"Tiny Potato" = false
 	"Totem Of Holding" = false
