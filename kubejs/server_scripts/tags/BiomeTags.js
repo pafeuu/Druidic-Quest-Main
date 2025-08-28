@@ -7,4 +7,5 @@ ServerEvents.tags('worldgen/biome', event=>{
 
    event.add('twigs:spawns_pebble',"minecraft:cherry_grove")
    event.add('twigs:spawns_twig',"minecraft:cherry_grove")
+
 })

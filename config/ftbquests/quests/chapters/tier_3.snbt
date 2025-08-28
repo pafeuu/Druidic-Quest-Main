@@ -100,7 +100,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
@@ -160,7 +160,7 @@
 				}
 			]
 			x: -6.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -334,8 +334,8 @@
 				type: "dimension"
 			}]
 			title: "Visit the Aether!"
-			x: -1.0d
-			y: 0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -427,7 +427,7 @@
 				item: "kubejs:dark_essence"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 5.0d
 		}
 		{

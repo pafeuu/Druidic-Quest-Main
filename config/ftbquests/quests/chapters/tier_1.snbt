@@ -337,7 +337,7 @@
 		}
 		{
 			dependencies: ["1767BADCC1133711"]
-			description: ["Right click in the air between y=192 and y=196 to trap a cloud in a bottle."]
+			description: ["Right click in the air between y=190 and y=320 to trap a cloud in a bottle."]
 			id: "677C282E80275B53"
 			rewards: [{
 				id: "13551B0D7B525961"
@@ -503,6 +503,7 @@
 							"ftbfiltersystem:filter": "or(item(kubejs:bronze_pickaxe)item(kubejs:bronze_shovel)item(kubejs:bronze_hoe))"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]

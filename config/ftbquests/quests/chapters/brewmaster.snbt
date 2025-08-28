@@ -1,0 +1,1460 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "brewmaster"
+	group: "6959C7C8592FBBA9"
+	icon: {
+		Count: 1
+		id: "minecraft:potion"
+		tag: {
+			CustomPotionColor: 16087807
+			CustomPotionEffects: [
+				{
+					Amplifier: 2
+					Duration: 400
+					Id: 8
+				}
+				{
+					Amplifier: 0
+					Duration: 400
+					Id: 25
+				}
+				{
+					Amplifier: 0
+					Duration: 400
+					Id: 9
+				}
+			]
+			Potion: "minecraft:water"
+			display: {
+				Name: "{\"text\":\"Dragon's Belch\",\"italic\":false}"
+			}
+		}
+	}
+	id: "29A60B223142EADB"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3A36E2D77028548E"
+			rewards: [{
+				id: "561A503B124515F4"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AB2929F64553E60"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "ars_nouveau:freezing_potion_strong"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "1A2EC30BF9910D80"
+			rewards: [{
+				id: "3105D8E40B1F4E6C"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28D4C4F120BE68A9"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			id: "4C47CB67F0F6814D"
+			rewards: [{
+				id: "59B4553B01C5D78E"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19597943680A7229"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_invisibility"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.0d
+		}
+		{
+			id: "270FF982D804A6DD"
+			rewards: [{
+				id: "13482AB8A6F9164B"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "597CD9EEFC45D4CA"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_leaping"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.0d
+		}
+		{
+			id: "346AA4EE50B6E50C"
+			rewards: [{
+				id: "2F0E23B50B2BFBF1"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "626BA9D18C77A263"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -13.5d
+			y: -7.0d
+		}
+		{
+			id: "5E993EA0FAB3B62D"
+			rewards: [{
+				id: "5719118174F26AE4"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "017F973A60BD2431"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_swiftness"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			id: "04BF53A25E7B7C87"
+			rewards: [{
+				id: "203E073047F52A94"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F10D0BFA9870440"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_slowness"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "425F0A9C4DDAA00B"
+			rewards: [{
+				id: "4D5C550F308CFCFC"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "688F520E2ACF04FA"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_turtle_master"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.0d
+		}
+		{
+			id: "614E8A1120B40A0C"
+			rewards: [{
+				id: "0A597424B09AE423"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BB10FCC2E374EAE"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_water_breathing"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.0d
+		}
+		{
+			id: "3E4002B42F8EA492"
+			rewards: [{
+				id: "78A11E46D9EC6864"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7332E92953096AA2"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -12.5d
+			y: -10.5d
+		}
+		{
+			id: "6080FC67DF41CD38"
+			rewards: [{
+				id: "5F581536438BD5F9"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "268213DD1F428B51"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_harming"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "14C1ACC85B5EAEE3"
+			rewards: [{
+				id: "3AED67966B15DE90"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "619342783F1D6661"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_poison"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "426C85B01E63C13E"
+			rewards: [{
+				id: "4FC298E9D4E8D193"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D083736CA52362E"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_regeneration"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -11.5d
+			y: -10.5d
+		}
+		{
+			id: "131BB4A8DCA7508D"
+			rewards: [{
+				id: "14CCCA7DF04FFE63"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BDC13C5ECE664BF"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_strength"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.0d
+		}
+		{
+			id: "5A2E92079CDE5C5F"
+			rewards: [{
+				id: "5333DAB4A863E1B2"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C401F1E3E0591CC"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_weakness"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			id: "5D8E6B3EDE2D4F29"
+			rewards: [{
+				id: "26A8453F874DC758"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27AB9B1A210F77D9"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_slow_falling"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			id: "1021598A5DBD4691"
+			rewards: [{
+				id: "62ED09D527C5A0F9"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "217C67E1E8174B5A"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "vintagedelight:strong_dehydrated"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			id: "41A645C9269FF395"
+			rewards: [{
+				id: "3522BE66FB6B6902"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B22ECC7EBA444A0"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "ars_nouveau:mana_regen_potion_strong"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -12.5d
+			y: -9.5d
+		}
+		{
+			id: "6002BFE52B6B5C3E"
+			rewards: [{
+				id: "1A5719EA6F2FC090"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7357FB4C9348DFF9"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "ars_nouveau:spell_damage_potion_strong"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			id: "0256AB571232C6AF"
+			rewards: [{
+				id: "663E90D750F691F6"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DA642C0BDB8308B"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "ars_nouveau:recovery_potion_strong"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -13.5d
+			y: -8.5d
+		}
+		{
+			id: "2FCC589310CFA37E"
+			rewards: [{
+				id: "07D501ABE8FB833B"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B5D617074FD24A0"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "ars_nouveau:blasting_potion_strong"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			id: "493F35908F55A8EE"
+			rewards: [{
+				id: "713809FC7E5BC5D5"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A50E67781FF91F0"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "ars_nouveau:shielding_potion_strong"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			id: "661172A9E35968A8"
+			rewards: [{
+				id: "57625BC392EBC4CE"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B640E1829BC2155"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "deep_aether:remedy_potion"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -10.5d
+			y: -8.5d
+		}
+		{
+			id: "5F5D048D284F8E0F"
+			rewards: [{
+				id: "2AEE9D4FE49A2AD5"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D3CCD51F28FD483"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "aether_redux:long_intoxication"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "135BD7A9502478AD"
+			rewards: [{
+				id: "38F3BD786F87E308"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71AABBF82B5736F8"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:strong_knockback_resistance"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -14.5d
+			y: -7.5d
+		}
+		{
+			id: "25A1022D15C4AC97"
+			rewards: [{
+				id: "23DFFD249D6CC69A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A1FFDF97646FF5F"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:long_lava_vision"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			id: "5EDD4A95DDB65C8F"
+			rewards: [{
+				id: "2A84883C2059F74E"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AD63637CA12F775"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:long_poison_resistance"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.0d
+		}
+		{
+			id: "3F42F6FFEF3ABB06"
+			rewards: [{
+				id: "21E7F7BFB5C3FC4F"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "212EF97EB3D124F6"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:long_bug_pheromones"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			id: "3AE9723955DEBF5A"
+			rewards: [{
+				id: "293377FF600B2A05"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44C37D71F199C44B"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:strong_soulsteal"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			id: "77DE9B09FCA66D05"
+			rewards: [{
+				id: "636482DDB742EA7B"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18401950A7DB2CCD"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:long_clinging"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			id: "7DFEF1B08D2EC011"
+			rewards: [{
+				id: "40C99D5111BC81F1"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FAC827076ABED65"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alembic:strong_ice_damage_resistance"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Potion of Cold Resistance"
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			id: "2E0CD3BEEA6950AF"
+			rewards: [{
+				id: "7A377B08E9F6E690"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0105A52DDE9893CF"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alembic:strong_holy_damage_resistance"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Potion of Holy Resistance"
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			id: "57F58BD49D0D0833"
+			rewards: [{
+				id: "6FAC8EEBB55ADF20"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FA39CE930B74910"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alembic:strong_arcane_damage_resistance"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			id: "3FE464AEC22003DA"
+			rewards: [{
+				id: "049BCCF3A809FE83"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C61BB1C15BF4FED"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alembic:strong_alchemical_damage_resistance"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			id: "102010A3DB39A64F"
+			rewards: [{
+				id: "64202914D2978BAA"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C540D791F9CB37F"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "deeperdarker:long_sculk_affinity"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			id: "7F5D8127B7655929"
+			rewards: [{
+				id: "2D1DD3DDA29328CF"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EDFAB02CB5D0D8B"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "quark:strong_resilience"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -15.5d
+			y: -7.0d
+		}
+		{
+			id: "5AC62E4AC60BFE69"
+			rewards: [{
+				id: "07F4CCB85297BB1F"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5453964C76C11EFF"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "irons_spellbooks:instant_mana_four"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -11.5d
+			y: -9.5d
+		}
+		{
+			id: "0FEDAD4EA791F181"
+			rewards: [{
+				id: "049513FC8A619836"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0756DFCA7F28F85C"
+				item: {
+					Count: 3
+					id: "minecraft:potion"
+					tag: {
+						CustomPotionColor: 13458603
+						CustomPotionEffects: [
+							{
+								Amplifier: 1
+								Duration: 400
+								Id: 10
+							}
+							{
+								Amplifier: 1
+								Duration: 400
+								Id: 2
+							}
+						]
+						Potion: "minecraft:water"
+						display: {
+							Name: "{\"text\":\"Brashing Tonic\",\"italic\":false}"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			id: "19556D9FB13FBE63"
+			rewards: [{
+				id: "57C06D09DF1C8FDF"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4631EF1A607C09C4"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						CustomPotionColor: 16771840
+						CustomPotionEffects: [
+							{
+								Amplifier: 2
+								Duration: 600
+								Id: 1
+							}
+							{
+								Amplifier: 1
+								Duration: 600
+								Id: 18
+							}
+						]
+						Potion: "minecraft:water"
+						display: {
+							Name: "{\"text\":\"Goblin's Piss\",\"italic\":false}"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			id: "6357671FFC857D8D"
+			rewards: [{
+				id: "48D883F3E69D591B"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "568DC6E79063539B"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						CustomPotionColor: 5521732
+						CustomPotionEffects: [
+							{
+								Amplifier: 1
+								Duration: 1200
+								Id: 3
+							}
+							{
+								Amplifier: 0
+								Duration: 1200
+								Id: 17
+							}
+						]
+						Potion: "minecraft:water"
+						display: {
+							Name: "{\"text\":\"Oily Oaf\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			id: "0D453C6ACFA9D008"
+			rewards: [{
+				id: "2E9DC2695C641E33"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07BC0926BE3A5271"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						CustomPotionColor: 11141120
+						CustomPotionEffects: [
+							{
+								Amplifier: 2
+								Duration: 600
+								Id: 5
+							}
+							{
+								Amplifier: 3
+								Duration: 600
+								Id: 11
+							}
+							{
+								Amplifier: 0
+								Duration: 400
+								Id: 20
+							}
+						]
+						Potion: "minecraft:water"
+						display: {
+							Name: "{\"text\":\"Berserker's Brew\",\"italic\":false}"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.0d
+		}
+		{
+			id: "7A64A5D41C8A0CCB"
+			rewards: [{
+				id: "4C0F885B1DF7220D"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "655D2ADF14E4A7FD"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						CustomPotionColor: 16087807
+						CustomPotionEffects: [
+							{
+								Amplifier: 2
+								Duration: 400
+								Id: 8
+							}
+							{
+								Amplifier: 0
+								Duration: 400
+								Id: 25
+							}
+							{
+								Amplifier: 0
+								Duration: 400
+								Id: 9
+							}
+						]
+						Potion: "minecraft:water"
+						display: {
+							Name: "{\"text\":\"Dragon's Belch\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			id: "7F9221B3DF12B0C9"
+			rewards: [{
+				id: "3E075FD4D130DF4C"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76E8839B742DCAFE"
+				item: "enigmaticlegacy:ichor_bottle"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -12.5d
+		}
+		{
+			id: "6679252373A7E765"
+			rewards: [{
+				id: "7119E51325CFD5E4"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C2EF8B7DDD65C6E"
+				item: {
+					Count: 1
+					id: "wizards_reborn:alchemy_vial_potion"
+					tag: {
+						alchemyPotion: "wizards_reborn:alchemy_oil"
+						uses: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Alchemy Oil"
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			id: "1D620DD056DD5E4E"
+			rewards: [{
+				id: "52B52C5C0963947B"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A8936A106747E35"
+				item: {
+					Count: 1
+					id: "wizards_reborn:alchemy_vial_potion"
+					tag: {
+						alchemyPotion: "wizards_reborn:oil_tea"
+						uses: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Oil Tea"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "175E0BF7338823DE"
+			rewards: [{
+				id: "2BB49800C80BD4BD"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23C2F9FA0F8223C4"
+				item: {
+					Count: 1
+					id: "wizards_reborn:alchemy_vial_potion"
+					tag: {
+						alchemyPotion: "wizards_reborn:wissen_tea"
+						uses: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Wissen Tea"
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			id: "272A4F38205CDC02"
+			rewards: [{
+				id: "4B86735E23347C0B"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "383E5B23E039379D"
+				item: {
+					Count: 1
+					id: "wizards_reborn:alchemy_vial_potion"
+					tag: {
+						alchemyPotion: "wizards_reborn:milk_tea"
+						uses: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Milk Tea"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			id: "4DC30F18842D5EBD"
+			rewards: [{
+				id: "4EE609E770630321"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12E509BB40BEF0CA"
+				item: {
+					Count: 1
+					id: "wizards_reborn:alchemy_vial_potion"
+					tag: {
+						alchemyPotion: "wizards_reborn:mor_brew"
+						uses: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Mor Brew"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			id: "681F237F2FCBA6A4"
+			rewards: [{
+				id: "05B81A7D564C0189"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70B5781920545863"
+				item: {
+					Count: 1
+					id: "wizards_reborn:alchemy_vial_potion"
+					tag: {
+						alchemyPotion: "wizards_reborn:absorption"
+						uses: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Potion of Absorption"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			id: "5D69D2C76113F09F"
+			rewards: [{
+				id: "5A2C3209E938ED53"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7179F6D29001FF0B"
+				item: {
+					Count: 1
+					id: "wizards_reborn:alchemy_vial_potion"
+					tag: {
+						alchemyPotion: "wizards_reborn:resistance"
+						uses: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Potion of Resistance"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			id: "26B34E7562A0E431"
+			rewards: [{
+				id: "6B804E674ED7723D"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D083FC68C0B1D8E"
+				item: {
+					Count: 1
+					id: "wizards_reborn:alchemy_vial_potion"
+					tag: {
+						alchemyPotion: "wizards_reborn:magical_attunement"
+						uses: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Potion of Magical Attunement"
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			id: "71898CB74EB6C19B"
+			rewards: [{
+				id: "52AB6A99378DEB96"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C5C0C28417D7D2E"
+				item: {
+					Count: 1
+					id: "wizards_reborn:alchemy_vial_potion"
+					tag: {
+						alchemyPotion: "wizards_reborn:darkness"
+						uses: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Potion of Darkness"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "46462A2AF90D33E4"
+			rewards: [{
+				id: "2A757D2CC467A93A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DAC81F9308A2873"
+				item: "irons_spellbooks:greater_oakskin_elixir"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -11.5d
+		}
+		{
+			id: "2D140C791B4155A8"
+			rewards: [{
+				id: "21C6D942E9F99246"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26E307221BA95929"
+				item: "irons_spellbooks:greater_invisibility_elixir"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -11.5d
+		}
+		{
+			id: "7075B6F2A84B7E3D"
+			rewards: [{
+				id: "6360A28CEB472FDE"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35D797927B797DD3"
+				item: "irons_spellbooks:greater_evasion_elixir"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -11.5d
+		}
+		{
+			id: "274BADC3F31D0FBB"
+			rewards: [{
+				id: "4BA2068B1171E956"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07CE853914334824"
+				item: "irons_spellbooks:greater_healing_potion"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -12.5d
+		}
+		{
+			id: "7714AB5C22C5C4F6"
+			rewards: [{
+				id: "26ABFF6717605999"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55EC290775601944"
+				item: {
+					Count: 1
+					id: "ars_nouveau:potion_flask"
+					tag: {
+						Damage: 8
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -13.5d
+		}
+		{
+			id: "112623BEFFC25566"
+			rewards: [{
+				id: "0FD38CF046575DEE"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45E3B3624AC8228A"
+				item: {
+					Count: 1
+					id: "ars_nouveau:potion_flask_amplify"
+					tag: {
+						Damage: 8
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -12.5d
+		}
+		{
+			id: "5FC48439330DF30E"
+			rewards: [{
+				id: "07637242584451C3"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "194981E6C89FC81A"
+				item: {
+					Count: 1
+					id: "ars_nouveau:potion_flask_extend_time"
+					tag: {
+						Damage: 8
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -13.0d
+		}
+		{
+			id: "4F109078CCA4F243"
+			rewards: [{
+				id: "7CCDB84BFA770D7F"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61D79E3E9E7EC142"
+				item: {
+					Count: 1
+					id: "ars_nouveau:splash_flask_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -13.5d
+		}
+		{
+			id: "35CC6B673955533F"
+			rewards: [{
+				id: "7ED9CE400052A36A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23E0B5D167FA9797"
+				item: {
+					Count: 1
+					id: "ars_nouveau:lingering_flask_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -14.0d
+		}
+		{
+			id: "64DDB3165046D61F"
+			rewards: [{
+				id: "260DE0044DB1D410"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "724F2500C91DC34B"
+				item: "ars_nouveau:potion_diffuser"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -13.0d
+		}
+	]
+	title: "Brewmaster"
+}

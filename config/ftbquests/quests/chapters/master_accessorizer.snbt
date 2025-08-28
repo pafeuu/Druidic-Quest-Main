@@ -12,7 +12,7 @@
 		}
 	}
 	id: "7F5A1ACBDD116BA9"
-	order_index: 7
+	order_index: 8
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -1828,8 +1828,8 @@
 				item: "ars_nouveau:amulet_of_mana_boost"
 				type: "item"
 			}]
-			x: 3.6000000000000005d
-			y: -1.9999999999999996d
+			x: 3.6d
+			y: -0.8000000000000003d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1845,8 +1845,8 @@
 				item: "ars_nouveau:ring_of_greater_discount"
 				type: "item"
 			}]
-			x: 3.6000000000000005d
-			y: -3.5999999999999996d
+			x: 3.6d
+			y: -2.4000000000000004d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1862,8 +1862,8 @@
 				item: "ars_nouveau:ring_of_lesser_discount"
 				type: "item"
 			}]
-			x: 3.6000000000000005d
-			y: -4.3999999999999995d
+			x: 3.6d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1879,8 +1879,8 @@
 				item: "ars_nouveau:amulet_of_mana_regen"
 				type: "item"
 			}]
-			x: 3.6000000000000005d
-			y: -1.1999999999999993d
+			x: 3.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1896,8 +1896,8 @@
 				item: "ars_nouveau:belt_of_unstable_gifts"
 				type: "item"
 			}]
-			x: 3.6000000000000005d
-			y: -0.39999999999999947d
+			x: 3.6d
+			y: 0.7999999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1913,8 +1913,8 @@
 				item: "ars_nouveau:jump_ring"
 				type: "item"
 			}]
-			x: 3.6000000000000005d
-			y: -2.7999999999999994d
+			x: 3.6d
+			y: -1.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1930,8 +1930,8 @@
 				item: "ars_nouveau:belt_of_levitation"
 				type: "item"
 			}]
-			x: 3.6000000000000005d
-			y: 0.40000000000000036d
+			x: 3.6d
+			y: 1.5999999999999996d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1947,8 +1947,8 @@
 				item: "ars_nouveau:summon_focus"
 				type: "item"
 			}]
-			x: 3.6000000000000005d
-			y: 1.200000000000001d
+			x: 4.4d
+			y: -2.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1964,8 +1964,8 @@
 				item: "ars_nouveau:shapers_focus"
 				type: "item"
 			}]
-			x: 3.6000000000000005d
-			y: 2.0d
+			x: 4.4d
+			y: -1.600000000000001d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1981,8 +1981,8 @@
 				item: "ars_nouveau:alchemists_crown"
 				type: "item"
 			}]
-			x: 3.6000000000000005d
-			y: 2.8000000000000007d
+			x: 4.4d
+			y: -0.8000000000000003d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2021,7 +2021,7 @@
 				item: "enigmaticlegacy:iron_ring"
 				type: "item"
 			}]
-			x: 4.800000000000002d
+			x: 5.6d
 			y: -2.7999999999999994d
 		}
 		{
@@ -2038,7 +2038,7 @@
 				item: "enigmaticlegacy:magnet_ring"
 				type: "item"
 			}]
-			x: 4.800000000000002d
+			x: 5.6d
 			y: -1.9999999999999996d
 		}
 		{
@@ -2055,7 +2055,7 @@
 				item: "enigmaticlegacy:golden_ring"
 				type: "item"
 			}]
-			x: 4.800000000000002d
+			x: 5.6d
 			y: -1.1999999999999993d
 		}
 		{
@@ -2072,7 +2072,7 @@
 				item: "enigmaticlegacy:ender_ring"
 				type: "item"
 			}]
-			x: 4.800000000000002d
+			x: 5.6d
 			y: -0.39999999999999947d
 		}
 		{
@@ -2089,7 +2089,7 @@
 				item: "enigmaticlegacy:super_magnet_ring"
 				type: "item"
 			}]
-			x: 4.800000000000002d
+			x: 5.6d
 			y: 0.40000000000000036d
 		}
 		{
@@ -2113,7 +2113,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.4d
+			x: 7.199999999999998d
 			y: 1.2000000000000002d
 		}
 		{
@@ -2137,7 +2137,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.4d
+			x: 7.199999999999998d
 			y: -3.599999999999999d
 		}
 		{
@@ -2161,7 +2161,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.4d
+			x: 7.199999999999998d
 			y: -2.7999999999999994d
 		}
 		{
@@ -2185,7 +2185,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.4d
+			x: 7.199999999999998d
 			y: -1.9999999999999996d
 		}
 		{
@@ -2209,8 +2209,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.4d
-			y: -1.1999999999999997d
+			x: 7.199999999999998d
+			y: -1.1999999999999993d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2233,8 +2233,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.4d
-			y: -0.399999999999999d
+			x: 7.199999999999998d
+			y: -0.3999999999999986d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2257,7 +2257,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.4d
+			x: 7.199999999999998d
 			y: 0.40000000000000036d
 		}
 		{
@@ -2278,7 +2278,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.4d
+			x: 7.199999999999998d
 			y: 2.0d
 		}
 		{
@@ -2295,7 +2295,7 @@
 				item: "enigmaticlegacy:mega_sponge"
 				type: "item"
 			}]
-			x: 4.800000000000002d
+			x: 5.6d
 			y: -3.5999999999999996d
 		}
 		{
@@ -2316,7 +2316,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.800000000000002d
+			x: 5.6d
 			y: -4.3999999999999995d
 		}
 		{
@@ -2337,7 +2337,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.6d
+			x: 6.399999999999998d
 			y: -4.0d
 		}
 		{
@@ -2358,7 +2358,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.6d
+			x: 6.399999999999998d
 			y: -3.1999999999999997d
 		}
 		{
@@ -2375,7 +2375,7 @@
 				item: "enigmaticlegacy:monster_charm"
 				type: "item"
 			}]
-			x: 5.6d
+			x: 6.399999999999998d
 			y: -2.3999999999999995d
 		}
 		{
@@ -2392,7 +2392,7 @@
 				item: "enigmaticlegacy:angel_blessing"
 				type: "item"
 			}]
-			x: 5.6d
+			x: 6.399999999999998d
 			y: -1.5999999999999996d
 		}
 		{
@@ -2409,7 +2409,7 @@
 				item: "enigmaticlegacy:ocean_stone"
 				type: "item"
 			}]
-			x: 5.6d
+			x: 6.399999999999998d
 			y: -0.7999999999999998d
 		}
 		{
@@ -2426,7 +2426,7 @@
 				item: "enigmaticlegacy:blazing_core"
 				type: "item"
 			}]
-			x: 5.6d
+			x: 6.399999999999998d
 			y: 0.0d
 		}
 		{
@@ -2443,7 +2443,7 @@
 				item: "enigmaticlegacy:void_pearl"
 				type: "item"
 			}]
-			x: 5.6d
+			x: 6.399999999999998d
 			y: 0.8000000000000007d
 		}
 		{
@@ -2460,7 +2460,7 @@
 				item: "enigmaticlegacy:eye_of_nebula"
 				type: "item"
 			}]
-			x: 5.6d
+			x: 6.399999999999998d
 			y: 1.6000000000000005d
 		}
 		{
@@ -2477,7 +2477,7 @@
 				item: "enigmaticlegacy:golem_heart"
 				type: "item"
 			}]
-			x: 5.6d
+			x: 6.399999999999998d
 			y: 2.4000000000000004d
 		}
 		{
@@ -2498,7 +2498,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.800000000000002d
+			x: 5.6d
 			y: 1.200000000000001d
 		}
 		{
@@ -2515,7 +2515,7 @@
 				item: "enigmaticlegacy:heaven_scroll"
 				type: "item"
 			}]
-			x: 4.800000000000002d
+			x: 5.6d
 			y: 2.0d
 		}
 		{
@@ -2532,7 +2532,7 @@
 				item: "enigmaticlegacy:fabulous_scroll"
 				type: "item"
 			}]
-			x: 4.800000000000002d
+			x: 5.6d
 			y: 2.8000000000000007d
 		}
 		{
@@ -2549,7 +2549,7 @@
 				item: "twilightforest:firefly"
 				type: "item"
 			}]
-			x: 8.4d
+			x: 9.2d
 			y: -3.5999999999999996d
 		}
 		{
@@ -2566,7 +2566,7 @@
 				item: "twilightforest:cicada"
 				type: "item"
 			}]
-			x: 8.4d
+			x: 9.2d
 			y: -2.7999999999999994d
 		}
 		{
@@ -2583,7 +2583,7 @@
 				item: "twilightforest:moonworm"
 				type: "item"
 			}]
-			x: 8.4d
+			x: 9.2d
 			y: -1.9999999999999996d
 		}
 		{
@@ -2600,7 +2600,7 @@
 				item: "twilightforest:charm_of_life_1"
 				type: "item"
 			}]
-			x: 8.4d
+			x: 9.2d
 			y: -1.1999999999999993d
 		}
 		{
@@ -2617,7 +2617,7 @@
 				item: "twilightforest:charm_of_life_2"
 				type: "item"
 			}]
-			x: 8.4d
+			x: 9.2d
 			y: -0.39999999999999947d
 		}
 		{
@@ -2634,7 +2634,7 @@
 				item: "twilightforest:naga_trophy"
 				type: "item"
 			}]
-			x: 7.6d
+			x: 8.399999999999999d
 			y: -3.9999999999999996d
 		}
 		{
@@ -2651,7 +2651,7 @@
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
-			x: 7.6d
+			x: 8.399999999999999d
 			y: -3.1999999999999993d
 		}
 		{
@@ -2668,7 +2668,7 @@
 				item: "twilightforest:minoshroom_trophy"
 				type: "item"
 			}]
-			x: 7.6d
+			x: 8.399999999999999d
 			y: -2.3999999999999995d
 		}
 		{
@@ -2685,7 +2685,7 @@
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			x: 7.6d
+			x: 8.399999999999999d
 			y: -1.5999999999999996d
 		}
 		{
@@ -2702,7 +2702,7 @@
 				item: "twilightforest:knight_phantom_trophy"
 				type: "item"
 			}]
-			x: 7.6d
+			x: 8.399999999999999d
 			y: -0.7999999999999998d
 		}
 		{
@@ -2719,7 +2719,7 @@
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			x: 7.6d
+			x: 8.399999999999999d
 			y: 8.881784197001252E-16d
 		}
 		{
@@ -2736,7 +2736,7 @@
 				item: "twilightforest:alpha_yeti_trophy"
 				type: "item"
 			}]
-			x: 7.6d
+			x: 8.399999999999999d
 			y: 0.8000000000000007d
 		}
 		{
@@ -2753,7 +2753,7 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 7.6d
+			x: 8.399999999999999d
 			y: 1.6000000000000005d
 		}
 		{
@@ -2770,7 +2770,7 @@
 				item: "twilightforest:quest_ram_trophy"
 				type: "item"
 			}]
-			x: 7.6d
+			x: 8.399999999999999d
 			y: 2.4000000000000004d
 		}
 		{
@@ -2787,7 +2787,7 @@
 				item: "aether:iron_ring"
 				type: "item"
 			}]
-			x: 9.6d
+			x: 10.399999999999999d
 			y: -4.8d
 		}
 		{
@@ -2804,7 +2804,7 @@
 				item: "aether:golden_ring"
 				type: "item"
 			}]
-			x: 9.6d
+			x: 10.399999999999999d
 			y: -3.9999999999999996d
 		}
 		{
@@ -2827,7 +2827,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.6d
+			x: 10.399999999999999d
 			y: -3.1999999999999993d
 		}
 		{
@@ -2850,7 +2850,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.6d
+			x: 10.399999999999999d
 			y: -2.3999999999999995d
 		}
 		{
@@ -2867,7 +2867,7 @@
 				item: "aether_redux:sentry_ring"
 				type: "item"
 			}]
-			x: 9.6d
+			x: 10.399999999999999d
 			y: -1.5999999999999996d
 		}
 		{
@@ -2890,7 +2890,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.6d
+			x: 10.399999999999999d
 			y: -0.7999999999999998d
 		}
 		{
@@ -2907,7 +2907,7 @@
 				item: "ancient_aether:valkyrum_ring"
 				type: "item"
 			}]
-			x: 9.6d
+			x: 10.399999999999999d
 			y: 8.881784197001252E-16d
 		}
 		{
@@ -2924,7 +2924,7 @@
 				item: "ancient_aether:hermes_ring"
 				type: "item"
 			}]
-			x: 9.6d
+			x: 10.399999999999999d
 			y: 0.8000000000000007d
 		}
 		{
@@ -2941,7 +2941,7 @@
 				item: "ancient_aether:warrior_ring"
 				type: "item"
 			}]
-			x: 9.6d
+			x: 10.399999999999999d
 			y: 1.6000000000000005d
 		}
 		{
@@ -2958,7 +2958,7 @@
 				item: "ancient_aether:growth_ring"
 				type: "item"
 			}]
-			x: 10.4d
+			x: 11.2d
 			y: -1.5999999999999996d
 		}
 		{
@@ -2975,7 +2975,7 @@
 				item: "ancient_aether:ancient_ring"
 				type: "item"
 			}]
-			x: 10.4d
+			x: 11.2d
 			y: -2.3999999999999995d
 		}
 		{
@@ -2998,7 +2998,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.4d
+			x: 11.2d
 			y: -4.8d
 		}
 		{
@@ -3021,7 +3021,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.4d
+			x: 11.2d
 			y: -3.9999999999999996d
 		}
 		{
@@ -3038,7 +3038,7 @@
 				item: "aether_redux:enchanted_ring"
 				type: "item"
 			}]
-			x: 10.4d
+			x: 11.2d
 			y: -3.1999999999999993d
 		}
 		{
@@ -3055,7 +3055,7 @@
 				item: "aether_redux:ring_of_wisdom"
 				type: "item"
 			}]
-			x: 10.4d
+			x: 11.2d
 			y: -0.7999999999999998d
 		}
 		{
@@ -3072,7 +3072,7 @@
 				item: "aether_redux:shroom_ring"
 				type: "item"
 			}]
-			x: 10.4d
+			x: 11.2d
 			y: 8.881784197001252E-16d
 		}
 		{
@@ -3090,7 +3090,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.4d
+			x: 11.2d
 			y: 0.8000000000000007d
 		}
 		{
@@ -3107,7 +3107,7 @@
 				item: "aether_redux:ring_of_construction"
 				type: "item"
 			}]
-			x: 10.4d
+			x: 11.2d
 			y: 1.6000000000000005d
 		}
 		{
@@ -3124,7 +3124,7 @@
 				item: "aether:iron_pendant"
 				type: "item"
 			}]
-			x: 11.2d
+			x: 11.999999999999996d
 			y: -5.6d
 		}
 		{
@@ -3141,7 +3141,7 @@
 				item: "aether:golden_pendant"
 				type: "item"
 			}]
-			x: 11.2d
+			x: 11.999999999999996d
 			y: -4.8d
 		}
 		{
@@ -3164,7 +3164,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.2d
+			x: 11.999999999999996d
 			y: -3.9999999999999996d
 		}
 		{
@@ -3187,7 +3187,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.2d
+			x: 11.999999999999996d
 			y: -3.1999999999999993d
 		}
 		{
@@ -3204,7 +3204,7 @@
 				item: "ancient_aether:valkyrum_pendant"
 				type: "item"
 			}]
-			x: 11.2d
+			x: 11.999999999999996d
 			y: -2.3999999999999995d
 		}
 		{
@@ -3221,7 +3221,7 @@
 				item: "ancient_aether:hermes_pendant"
 				type: "item"
 			}]
-			x: 11.2d
+			x: 11.999999999999996d
 			y: -1.5999999999999996d
 		}
 		{
@@ -3238,7 +3238,7 @@
 				item: "ancient_aether:warrior_pendant"
 				type: "item"
 			}]
-			x: 11.2d
+			x: 11.999999999999996d
 			y: -0.7999999999999998d
 		}
 		{
@@ -3255,7 +3255,7 @@
 				item: "ancient_aether:growth_pendant"
 				type: "item"
 			}]
-			x: 11.2d
+			x: 11.999999999999996d
 			y: 8.881784197001252E-16d
 		}
 		{
@@ -3267,7 +3267,7 @@
 				item: "ancient_aether:ancient_pendant"
 				type: "item"
 			}]
-			x: 11.2d
+			x: 11.999999999999996d
 			y: 0.8000000000000007d
 		}
 		{
@@ -3288,7 +3288,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.2d
+			x: 11.999999999999996d
 			y: 1.6000000000000005d
 		}
 		{
@@ -3305,7 +3305,7 @@
 				item: "deep_aether:medal_of_honor"
 				type: "item"
 			}]
-			x: 11.2d
+			x: 11.999999999999996d
 			y: 2.4000000000000004d
 		}
 		{
@@ -3326,7 +3326,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.2d
+			x: 11.999999999999996d
 			y: 4.000000000000002d
 		}
 		{
@@ -3343,7 +3343,7 @@
 				item: "aether_redux:grand_victory_medal"
 				type: "item"
 			}]
-			x: 11.2d
+			x: 11.999999999999996d
 			y: 3.200000000000001d
 		}
 		{
@@ -3360,7 +3360,7 @@
 				item: "aether:agility_cape"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.799999999999997d
 			y: -5.199999999999999d
 		}
 		{
@@ -3377,7 +3377,7 @@
 				item: "aether:swet_cape"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.799999999999997d
 			y: -4.3999999999999995d
 		}
 		{
@@ -3394,7 +3394,7 @@
 				item: "aether_redux:airbound_cape"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.799999999999997d
 			y: -3.5999999999999996d
 		}
 		{
@@ -3411,7 +3411,7 @@
 				item: "aether:valkyrie_cape"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.799999999999997d
 			y: -2.7999999999999994d
 		}
 		{
@@ -3428,7 +3428,7 @@
 				item: "aether:invisibility_cloak"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.799999999999997d
 			y: -1.9999999999999996d
 		}
 		{
@@ -3445,7 +3445,7 @@
 				item: "aether_redux:cockatrice_feather"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.799999999999997d
 			y: -1.1999999999999993d
 		}
 		{
@@ -3462,7 +3462,7 @@
 				item: "aether_redux:feather_of_warding"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.799999999999997d
 			y: -0.39999999999999947d
 		}
 		{
@@ -3485,7 +3485,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.799999999999997d
 			y: 1.200000000000001d
 		}
 		{
@@ -3502,7 +3502,7 @@
 				item: "aether_redux:snailshell_shield"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.799999999999997d
 			y: 0.40000000000000036d
 		}
 		{
@@ -3519,7 +3519,7 @@
 				item: "ancient_aether:shield_of_inebriation"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.799999999999997d
 			y: 2.0d
 		}
 		{
@@ -3536,7 +3536,7 @@
 				item: "ancient_aether:shield_of_remediation"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.799999999999997d
 			y: 2.8000000000000007d
 		}
 		{
@@ -3559,7 +3559,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.799999999999997d
 			y: 3.5999999999999996d
 		}
 		{
@@ -3576,7 +3576,7 @@
 				item: "aether:regeneration_stone"
 				type: "item"
 			}]
-			x: 9.6d
+			x: 10.399999999999999d
 			y: 2.4000000000000004d
 		}
 		{
@@ -3593,7 +3593,7 @@
 				item: "ancient_aether:strength_stone"
 				type: "item"
 			}]
-			x: 9.6d
+			x: 10.399999999999999d
 			y: 3.200000000000001d
 		}
 		{
@@ -3610,7 +3610,7 @@
 				item: "aether_redux:solar_emblem"
 				type: "item"
 			}]
-			x: 10.4d
+			x: 11.2d
 			y: 2.4000000000000004d
 		}
 		{
@@ -3633,7 +3633,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.4d
+			x: 11.2d
 			y: 3.200000000000001d
 		}
 		{
@@ -3650,7 +3650,7 @@
 				item: "umbral_skies:slider_trophy"
 				type: "item"
 			}]
-			x: 8.4d
+			x: 9.2d
 			y: 0.40000000000000036d
 		}
 		{
@@ -3667,7 +3667,7 @@
 				item: "umbral_skies:valkyrie_queen_trophy"
 				type: "item"
 			}]
-			x: 8.4d
+			x: 9.2d
 			y: 1.200000000000001d
 		}
 		{
@@ -3684,7 +3684,7 @@
 				item: "umbral_skies:sun_spirit_trophy"
 				type: "item"
 			}]
-			x: 8.4d
+			x: 9.2d
 			y: 2.0d
 		}
 		{
@@ -4121,6 +4121,40 @@
 			title: "The Testament of Contempt"
 			x: -10.8d
 			y: 1.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3A2A2457515332A2"
+			rewards: [{
+				id: "01BAA45605B64AC5"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "2AD178A86D84B50A"
+				item: "ars_nouveau:jar_of_light"
+				type: "item"
+			}]
+			x: 4.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2528717ACB6927B3"
+			rewards: [{
+				id: "547DA6EFBC45AABA"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "765DDB2B24D28A22"
+				item: "ars_nouveau:void_jar"
+				type: "item"
+			}]
+			x: 4.4d
+			y: 0.8d
 		}
 	]
 	title: "Master Accessorizer"

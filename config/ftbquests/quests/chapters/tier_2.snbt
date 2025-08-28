@@ -896,30 +896,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["38ADADE5E8F17847"]
-			description: [
-				"The &5Arcane Anvil&r is a valuable means of upgrading your equipment!"
-				""
-				"Apply spells to weapons, merge scrolls to form higher-level spells, and improve your unique weapons! The Arcane Anvil hosts a multitude of ways to enhance your gear."
-				""
-				"Check EMI for even more! "
-			]
-			id: "47DF387661061B96"
-			rewards: [{
-				id: "222A87341F2B565C"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			subtitle: "Magic Equipment!"
-			tasks: [{
-				id: "502279F3D5A85875"
-				item: "irons_spellbooks:arcane_anvil"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 11.5d
-		}
-		{
 			dependencies: ["7EBD23E275E837F2"]
 			description: ["Automatically feeds the animals around it when supplied with their prefered food. Not as efficient as feeding them yourself!"]
 			id: "6F5F12972F0E25D2"

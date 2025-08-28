@@ -506,7 +506,7 @@
 				type: "item"
 			}]
 			x: -4.800000000000001d
-			y: -4.4d
+			y: -2.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -523,7 +523,7 @@
 				type: "item"
 			}]
 			x: -5.6000000000000005d
-			y: -4.4d
+			y: -2.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -540,7 +540,7 @@
 				type: "item"
 			}]
 			x: -7.200000000000001d
-			y: -4.4d
+			y: -2.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -557,7 +557,7 @@
 				type: "item"
 			}]
 			x: -6.4d
-			y: -4.4d
+			y: -2.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -610,7 +610,7 @@
 				type: "item"
 			}]
 			x: -10.4d
-			y: -4.4d
+			y: -2.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -627,7 +627,7 @@
 				type: "item"
 			}]
 			x: -9.600000000000001d
-			y: -4.4d
+			y: -2.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -644,7 +644,7 @@
 				type: "item"
 			}]
 			x: -8.8d
-			y: -4.4d
+			y: -2.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -662,7 +662,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -4.4d
+			y: -2.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -989,8 +989,8 @@
 				item: "fruitsdelight:hamimelon_juice"
 				type: "item"
 			}]
-			x: -9.600000000000001d
-			y: -3.6d
+			x: -8.8d
+			y: -4.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1006,8 +1006,8 @@
 				item: "fruitsdelight:hawberry_tea"
 				type: "item"
 			}]
-			x: -8.800000000000004d
-			y: -3.6d
+			x: -8.000000000000004d
+			y: -4.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1023,8 +1023,8 @@
 				item: "fruitsdelight:orange_juice"
 				type: "item"
 			}]
-			x: -8.000000000000004d
-			y: -3.6d
+			x: -7.200000000000003d
+			y: -4.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1040,8 +1040,8 @@
 				item: "fruitsdelight:lemon_juice"
 				type: "item"
 			}]
-			x: -7.200000000000001d
-			y: -3.6d
+			x: -6.4d
+			y: -4.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1057,8 +1057,8 @@
 				item: "fruitsdelight:pear_juice"
 				type: "item"
 			}]
-			x: -6.4d
-			y: -3.6d
+			x: -5.6d
+			y: -4.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1074,8 +1074,8 @@
 				item: "fruitsdelight:mango_tea"
 				type: "item"
 			}]
-			x: -5.6d
-			y: -3.6d
+			x: -9.6d
+			y: -3.6000000000000005d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1091,8 +1091,8 @@
 				item: "fruitsdelight:peach_tea"
 				type: "item"
 			}]
-			x: -9.200000000000003d
-			y: -2.8000000000000003d
+			x: -8.8d
+			y: -3.6000000000000005d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1108,8 +1108,8 @@
 				item: "fruitsdelight:lychee_cherry_tea"
 				type: "item"
 			}]
-			x: -8.400000000000002d
-			y: -2.8000000000000003d
+			x: -8.0d
+			y: -3.6000000000000005d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1125,8 +1125,8 @@
 				item: "fruitsdelight:mangosteen_tea"
 				type: "item"
 			}]
-			x: -7.6000000000000005d
-			y: -2.8000000000000003d
+			x: -7.199999999999998d
+			y: -3.6000000000000005d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1142,8 +1142,8 @@
 				item: "fruitsdelight:bayberry_soup"
 				type: "item"
 			}]
-			x: -6.8000000000000025d
-			y: -2.8000000000000003d
+			x: -6.4d
+			y: -3.6000000000000005d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1159,8 +1159,8 @@
 				item: "fruitsdelight:kiwi_juice"
 				type: "item"
 			}]
-			x: -6.000000000000002d
-			y: -2.8000000000000003d
+			x: -5.6d
+			y: -3.6000000000000005d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2539,6 +2539,23 @@
 			}]
 			x: 6.000000000000002d
 			y: 1.6000000000000003d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1AC37CB991D87B44"
+			rewards: [{
+				id: "10878A9AEE758149"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "33CA51F6DCEDF9E5"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			x: -9.6d
+			y: -4.4d
 		}
 	]
 	title: "Confectioner Extraordinaire"

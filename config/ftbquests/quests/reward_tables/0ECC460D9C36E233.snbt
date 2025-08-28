@@ -1,0 +1,15 @@
+{
+	icon: "minecraft:chest"
+	id: "0ECC460D9C36E233"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ item: "waystones:deepslate_waystone" }
+		{ item: "waystones:blackstone_waystone" }
+		{ item: "waystones:end_stone_waystone" }
+		{ item: "waystones:waystone" }
+		{ item: "waystones:mossy_waystone" }
+		{ item: "waystones:sandy_waystone" }
+	]
+	title: "waystones2"
+}

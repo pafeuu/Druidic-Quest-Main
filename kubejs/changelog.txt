@@ -2764,36 +2764,121 @@ Patch 0.3.2.1
     
 # Patch 3.0.0
 
+### Updated all of the mods
+
+### Updated Resource Packs
+    -Fresh Waystones
+
 ### Removed Mods:
     -LegendaryTooltips
 
 ### Added Mods:
     -TooltipOverhaul
     -JustEnoughProffesions
-    -Brewin and Chewin
-    -Smidgeon o Bliss
+    -StarbuncleMania?
+    -ArsNouveau Flavor&Delight?
+    -InControl?
+    -BrewinNChewin
+    -SmidgeonOBliss
 
 ### Removed Items:
     -Aether's Freezer
     -Amulete of Ascension
+    -Charm of Keeping I
+    -Charm of Keeping II
+    -Charm of Keeping III
+
+### Changed Textures:
+    -Wooden Crucifix (By Señor Random)
+    -Metal Crucifix (By Señor Random)
+    -Bejeweled Crucifix (By Señor Random)
+
+### Villagers:
+    -Replaced Blank Scroll trade with a mending book trade (Librarian)
+    -Massively lowered the price of the stable warp scroll (Librarian)
 
 ### Quests:
     -Added Sorcerer Supreme Chapter(By Gyldanword)
-    -Reworked the Armorsmith Chapter
+    -Added Master Enchanter Chapter(By Gyldanword)
+    -Added Brewmaster Chapter(By Gyldanword)
+    -Reworked the Armorsmith Chapter(By Gyldanword)
+    -Reworked the Sharpshooter Chapter(By Gyldanword)
+    -Added Notable Needleworker Chapter(By Gyldanword)
+    -Added Spellcasting Chapter(By Gyldanword)
+    -Quest in the market now gives you choice of all the new waystones
     
-### Updated Mods:
-    -LycheeTweaker(Unbreakable tools will no longer break with lychee recipes)
+
+### Loot:
+    -Maze Slimes now drop armor shards instead of charm of keeping
+
+### Worldgen:
+    -Following blocks will no longer appear in structures:
+        -Blaze Burner
+        -Mechanical Mixer
+        -Mechanical Arm
+        -Mechanical Drill
+        -Encased Fan
+        -Mechanical Press
+        -Crushing Wheel
+        -Mechanical Crafter
+        -Mechanical Saw
+        -Windmill Bearing
+        -Mechanical Bearing
+        -Netherite Block
+        -Andesite Alloy Block
 
 ### Recipes:
     -Changed for every Enigmatic Amulet
     -Changed for Magebloom Fiber
     -Moved all the aether's freezer recipes to RubinatedNether's freezer
+    -Fixed Stone Plate recipe in late game pressing machines
+    -Nerfed the mechcanical press recipes for sheets
+    -Changed for Extendo Grip
+    -Changed for Potato Cannon
+    -Changed for Redstone Sensor
+    -Changed for Item Sorter
+    -Changed for Smart Chute
+    -Changed for Content Observer
+    -Changed for Stockpile Switch
+    -Changed for Brass Tunnel
+    -Changed for Brass Funnel
+    -Changed for Experience Sensor
+    -Changed for Fluid Sensor
+    -Changed for Heat Sensor
+    -Changed for Cooldown Sensor
+    -Changed for Wissen Sensor
+    -Changed for Light Sensor
+    -You can craft cloud in a bottle above Y190 to Y320 now
+    -You can craft air essence above Y190 to Y320 now
+    -Nerfed Eye of the Nebula recipe
+    -Buffed Enderium Ingot Recipe
+    -Changed for Silent Boots Covers
+    -Changed for Featherfall Boots Covers
+    -Changed for Evaporator
+    -Added for Aurum Sapling
+    -Added recipes to change waystone variants
+    
 
 ### Mob Balance:
     -Phantoms will no longer spawn with special items in their hand
+    -Amount of lost souls in the world is now capped to 5
 
 ### Item Balance:
     -No item should be getting aether dimension nerf
+    -Rebalanced A LOT of food
+    -You now start with higher block reach but the tools give less amount of reach
+    -Extendo Grip is now Unbreakable
+    -Potato Cannon's durability is now 1024
+    -Nerfed the reach of crab totem slightly
+
+### Loot:
+    -Magebloom now has a small chance to drop seeds without fortune
+    -Magebloom seeds with fortune is significantly lowered
+    -Gray Permafrost now sometimes drops tin nuggets instead of gold nuggets, iron nuggets and bones
 
 ### Other:
     -FruitsDelight Cookies can now correctly go into the supplementaries jar
+    -Food Diversity only tracks 14 of the last food eaten
+    -fixed silver knife tags so now you can properly cut stuff
+    -Totems in your offhand shouldn't interrupt your cutting anymore
+    -Unbreakable tools will no longer break with lychee recipes

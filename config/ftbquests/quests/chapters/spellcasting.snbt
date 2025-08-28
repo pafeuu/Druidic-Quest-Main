@@ -422,7 +422,11 @@
 		}
 		{
 			dependencies: ["3F9EFB4F1DE435E7"]
-			description: ["Easily remove imbued spells from your weapons by combining them with a &9shriving stone&r in the arcane anvil. This will &nnot&r return the scroll."]
+			description: [
+				"Easily remove imbued spells from your weapons by combining them with a &9shriving stone&r in the arcane anvil. This will &nnot&r return the scroll."
+				""
+				"You can also use the shriving stone to remove &9upgrade orbs&r from your equipment, returning the orbs to you."
+			]
 			id: "78D08FECC6F48017"
 			subtitle: "Oops..."
 			tasks: [{

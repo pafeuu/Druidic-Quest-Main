@@ -7,7 +7,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "minecraft:spectral_arrow"
 	id: "5B1DCD4A4A1EF571"
-	order_index: 8
+	order_index: 9
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -30,7 +30,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.0d
 			y: -2.5d
 		}
 		{
@@ -46,7 +46,7 @@
 				item: "archers_paradox:ender_arrow"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -5.0d
 			y: 2.0d
 		}
 		{
@@ -62,7 +62,7 @@
 				item: "archers_paradox:shulker_arrow"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -4.0d
 			y: 2.0d
 		}
 		{
@@ -78,7 +78,7 @@
 				item: "archers_paradox:blaze_arrow"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -7.0d
 			y: 0.5d
 		}
 		{
@@ -94,7 +94,7 @@
 				item: "archers_paradox:training_arrow"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -7.0d
 			y: -2.5d
 		}
 		{
@@ -110,7 +110,7 @@
 				item: "archers_paradox:frost_arrow"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: 0.5d
 		}
 		{
@@ -126,7 +126,7 @@
 				item: "archers_paradox:quartz_arrow"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: 0.5d
 		}
 		{
@@ -142,7 +142,7 @@
 				item: "archers_paradox:explosive_arrow"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -4.0d
 			y: 0.5d
 		}
 		{
@@ -158,7 +158,7 @@
 				item: "forbidden_arcanus:draco_arcanus_arrow"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
@@ -174,7 +174,7 @@
 				item: "forbidden_arcanus:boom_arrow"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -190,7 +190,7 @@
 				item: "archers_paradox:slime_arrow"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -7.0d
 			y: 2.0d
 		}
 		{
@@ -206,7 +206,7 @@
 				item: "archers_paradox:phantasmal_arrow"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: 2.0d
 		}
 		{
@@ -222,7 +222,7 @@
 				item: "archers_paradox:lightning_arrow"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -5.0d
 			y: 0.5d
 		}
 		{
@@ -238,7 +238,7 @@
 				item: "archers_paradox:challenge_arrow"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: -2.5d
 		}
 		{
@@ -254,7 +254,7 @@
 				item: "archers_paradox:diamond_arrow"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.0d
 			y: 0.5d
 		}
 		{
@@ -270,7 +270,7 @@
 				item: "archers_paradox:verdant_arrow"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -4.0d
 			y: -2.5d
 		}
 		{
@@ -286,7 +286,7 @@
 				item: "archers_paradox:spore_arrow"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -5.0d
 			y: -2.5d
 		}
 		{
@@ -302,7 +302,7 @@
 				item: "minecraft:spectral_arrow"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.0d
 			y: -1.0d
 		}
 		{
@@ -326,7 +326,7 @@
 				title: "Any tipped Arrow"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: -1.0d
 		}
 		{
@@ -342,7 +342,7 @@
 				item: "quark:torch_arrow"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: -2.5d
 		}
 		{
@@ -358,7 +358,7 @@
 				item: "ars_nouveau:amplify_arrow"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -7.0d
 			y: -1.0d
 		}
 		{
@@ -374,7 +374,7 @@
 				item: "ars_nouveau:split_arrow"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: -1.0d
 		}
 		{
@@ -390,7 +390,7 @@
 				item: "ars_nouveau:pierce_arrow"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -5.0d
 			y: -1.0d
 		}
 		{
@@ -406,7 +406,7 @@
 				item: "alexsmobs:shark_tooth_arrow"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: 2.0d
 		}
 		{
@@ -433,8 +433,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -453,8 +453,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -475,7 +475,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: -2.5d
 		}
 		{
@@ -497,8 +497,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -517,8 +517,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -537,7 +537,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
 			y: -2.5d
 		}
 		{
@@ -560,8 +560,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.0d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -577,7 +577,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -592,7 +592,7 @@
 				item: "archers_paradox:prismarine_arrow"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.0d
 			y: 2.0d
 		}
 		{
@@ -646,8 +646,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -700,8 +700,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -723,8 +723,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -0.5d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -746,8 +746,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -769,8 +769,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.5d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -792,8 +792,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -815,8 +815,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -837,8 +837,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -860,8 +860,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.0d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -883,8 +883,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -0.5d
+			x: 7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -907,8 +907,326 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "096D5AF3F4F384B0"
+			rewards: [{
+				count: 2
+				id: "177C07C4A41B406C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BB24C6607C6A039"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 21
+						}
+					}
+					id: "immersiveengineering:revolver"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "45828A725D8DBE75"
+			rewards: [{
+				count: 2
+				id: "68CAED30CC418F63"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D22966BC2BCE7DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 3
+						}
+					}
+					id: "immersiveengineering:railgun"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "51D166EA9B0276EB"
+			rewards: [{
+				id: "49250070EBEE741C"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4933C968861DFD9E"
+				item: "immersiveengineering:casull"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "050727C8974618E6"
+			rewards: [{
+				id: "2062F6CB88F010A5"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61BDE09B41C3D82B"
+				item: "immersiveengineering:armor_piercing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3AE5FD791562A407"
+			rewards: [{
+				id: "0CAD90A76D862370"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A58013014D90F42"
+				item: "immersiveengineering:buckshot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5F3EE73D37ECFECF"
+			rewards: [{
+				id: "130F8953C83F9ABB"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "137378ED3D4DDBCA"
+				item: "immersiveengineering:he"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "79BB712996CB245C"
+			rewards: [{
+				id: "458F27BCBF5E7997"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B867C7C70D67554"
+				item: "immersiveengineering:silver"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6F7CA754566785F7"
+			rewards: [{
+				id: "2099A875E0714BF5"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27EA207E0254A613"
+				item: "immersiveengineering:dragons_breath"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "06B731718D14B828"
+			rewards: [{
+				id: "6F98AE6C915242A4"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "367189B23FBECAC0"
+				item: "immersiveengineering:potion"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "038C96123F882B82"
+			rewards: [{
+				id: "18E45BA1982DA107"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12DC25C69CCF1379"
+				item: "immersiveengineering:homing"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "4A80A027EF97433E"
+			rewards: [{
+				id: "051F020BDD9A9A7B"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10081418A08B764E"
+				item: "immersiveengineering:wolfpack"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0A1A84AB9320E121"
+			rewards: [{
+				id: "2FEBE79DB11CACA9"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "366564AFEEA9904C"
+				item: "immersiveengineering:flare"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "21999226C0868EBD"
+			rewards: [{
+				id: "670349C659CE1D08"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DB8ACC7EE73B299"
+				item: "immersiveengineering:firework"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3AC5CECD80481A29"
+			rewards: [{
+				count: 3
+				id: "5B7350F143CCA659"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "425B5FB9754B2B52"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 8
+						}
+					}
+					id: "immersiveengineering:speedloader"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "123062677F41D9EF"
+			rewards: [{
+				id: "75144582C3470EF6"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EB2954E140A3ADF"
+				item: "immersiveengineering:toolupgrade_revolver_bayonet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6AFCEC4B24D3197E"
+			rewards: [{
+				id: "7D130155F9679920"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3496214F9A34E1A8"
+				item: "immersiveengineering:toolupgrade_revolver_magazine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "4E1795F86CB59FD3"
+			rewards: [{
+				id: "7AC9AEB06326778E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "272DC221230BE6AE"
+				item: "immersiveengineering:toolupgrade_revolver_electro"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0CA43362C9E64956"
+			rewards: [{
+				id: "47FB9D9E5B07B5DF"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C44C1ACEF7D303A"
+				item: "immersiveengineering:toolupgrade_railgun_capacitors"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
 		}
 	]
 	title: "Sharpshooter"

@@ -356,6 +356,17 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 0 Components ========================================================================
 	
+	event.shaped("wizards_reborn:totem_base",
+		[
+			" P ",
+			" P ",
+			"PWP"
+		],
+		{
+			P: "wizards_reborn:arcane_wood_planks",
+			W: "naturesaura:wood_stand"
+		}
+	)
 	event.remove({id:"immersive_weathering:paper_from_birch_bark"})
 	event.shaped("paper",
 		[
@@ -712,20 +723,20 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ======================================================================= Tier 1 components =======================================================================
-	
-	event.shaped("naturesaura:nature_altar",
+
+	event.shaped("vintagedelight:evaporator",
 		[
-			"SNS",
-			"SMS",
-			"SHS"
+			"BBB",
+			"LXL",
+			"BCB"
 		],
 		{
-			N: "twilightforest:naga_scale",
-			S: "#forge:plates/stone",
-			M: "kubejs:primitive_machine",
-			H: "woodenhopper:wooden_hopper"
+			B: "bricks",
+			L: "#minecraft:logs",
+			C: "campfire",
+			X: "kubejs:primitive_machine"
 		}
-	)
+	).id("vintagedelight:evaporator")
 	
 	event.remove({id:"forbidden_arcanus:smelting/arcane_crystal_dust_from_smelting"})
 	event.remove({id:"forbidden_arcanus:blasting/arcane_crystal_dust_from_blasting"})
@@ -1343,7 +1354,130 @@ ServerEvents.recipes(event => {
 	)
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
-	
+	event.shaped("wizards_reborn:cooldown_sensor",
+		[
+			"D",
+			"X",
+		],
+		{
+			D: "supplementaries:hourglass",
+			X: "wizards_reborn:redstone_sensor"
+		}
+	).id("wizards_reborn:arcane_workbench/cooldown_sensor")
+
+	event.shaped("wizards_reborn:heat_sensor",
+		[
+			"D",
+			"X",
+		],
+		{
+			D: "campfire",
+			X: "wizards_reborn:redstone_sensor"
+		}
+	).id("wizards_reborn:arcane_workbench/heat_sensor")
+
+	event.shaped("wizards_reborn:experience_sensor",
+		[
+			"D",
+			"X",
+		],
+		{
+			D: "forbidden_arcanus:xpetrified_orb",
+			X: "wizards_reborn:redstone_sensor"
+		}
+	).id("wizards_reborn:arcane_workbench/experience_sensor")
+
+	event.shaped("wizards_reborn:light_sensor",
+		[
+			"D",
+			"X",
+		],
+		{
+			D: "daylight_detector",
+			X: "wizards_reborn:redstone_sensor"
+		}
+	).id("wizards_reborn:arcane_workbench/light_sensor")
+    
+	event.shaped("wizards_reborn:fluid_sensor",
+		[
+			" D ",
+			"DXD",
+			" D "
+		],
+		{
+			D: "wizards_reborn:fluid_pipe",
+			X: "wizards_reborn:redstone_sensor"
+		}
+	).id("wizards_reborn:arcane_workbench/fluid_sensor")
+
+	event.shaped("wizards_reborn:wissen_sensor",
+		[
+			" D ",
+			"DXD",
+			" D "
+		],
+		{
+			D: "wizards_reborn:arcanum_dust",
+			X: "wizards_reborn:redstone_sensor"
+		}
+	).id("wizards_reborn:arcane_workbench/wissen_sensor")
+
+	event.shaped("wizards_reborn:steam_sensor",
+		[
+			" D ",
+			"DXD",
+			" D "
+		],
+		{
+			D: "wizards_reborn:steam_pipe",
+			X: "wizards_reborn:redstone_sensor"
+		}
+	).id("wizards_reborn:arcane_workbench/steam_sensor")
+
+	event.shaped("2x wizards_reborn:redstone_sensor",
+		[
+			"NPN",
+			"SCS",
+			"NPN"
+		],
+		{
+			N: "#forge:nuggets/bronze",
+			S: "#forge:plates/bronze",
+			C: "comparator",
+			P: "wizards_reborn:arcane_wood_planks"
+		}
+	).id("wizards_reborn:arcane_workbench/redstone_sensor")
+
+	event.shaped("wizards_reborn:item_sorter",
+		[
+			"NFN",
+			"PCP",
+			"NHN"
+		],
+		{
+			N: "#forge:nuggets/bronze",
+			H: "woodenhopper:wooden_hopper",
+			F: "sophisticatedstorage:filter_upgrade",
+			C: "wizards_reborn:redstone_sensor",
+			P: "wizards_reborn:arcane_wood_planks"
+
+		}
+	).id("wizards_reborn:arcane_workbench/item_sorter")
+
+	event.shaped("naturesaura:nature_altar",
+		[
+			"SNS",
+			"SMS",
+			"SHS"
+		],
+		{
+			N: "twilightforest:naga_scale",
+			S: "#forge:plates/stone",
+			M: "kubejs:primitive_machine",
+			H: "woodenhopper:wooden_hopper"
+		}
+	)
+
 	event.shaped("create:content_observer",
 		[
 			" B ",
@@ -1352,8 +1486,8 @@ ServerEvents.recipes(event => {
 		],
 		{
 			B: "#forge:plates/brass",
-			X: "observer",
-			Z: "create:filter"
+			X: "wizards_reborn:redstone_sensor",
+			Z: "sophisticatedstorage:filter_upgrade"
 		}
 	).id("create:crafting/logistics/content_observer")
 
@@ -1365,7 +1499,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			B: "#forge:plates/brass",
-			X: "comparator",
+			X: "wizards_reborn:redstone_sensor",
 			Z: "create:brass_casing"
 		}
 	).id("create:crafting/logistics/stockpile_switch")
@@ -1379,7 +1513,7 @@ ServerEvents.recipes(event => {
 		{
 			B: "#forge:plates/brass",
 			X: "create:fluid_pipe",
-			Z: "create:filter"
+			Z: "sophisticatedstorage:filter_upgrade"
 		}
 	).id("create:crafting/kinetics/smart_fluid_pipe")
 
@@ -1548,7 +1682,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			B: "#forge:ingots/brass",
-			F: "create:filter",
+			F: "sophisticatedstorage:filter_upgrade",
 			X: "create:andesite_tunnel"
 		}
 	).id("create:crafting/logistics/brass_tunnel")
@@ -1560,7 +1694,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			B: "#forge:ingots/brass",
-			F: "create:filter",
+			F: "item_sorter",
 			X: "create:andesite_funnel"
 		}
 	).id("create:crafting/logistics/brass_funnel")
@@ -1572,7 +1706,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			B: "#forge:ingots/brass",
-			F: "create:filter",
+			F: "wizards_reborn:item_sorter",
 			X: "create:chute"
 		}
 	).id("create:crafting/kinetics/smart_chute")
@@ -2651,7 +2785,7 @@ ServerEvents.recipes(event => {
 	event.custom({
 		type: "lychee:item_inside",
 		contextual:[
-			{type: "location",predicate: {position:{ y: {min: 200, max: 350}}}}
+			{type: "location",predicate: {position:{ y: {min: 190, max: 320}}}}
 		  ],
 		  post: [
 			{type: "drop_item",item: "ars_nouveau:air_essence"},
@@ -3101,7 +3235,7 @@ ServerEvents.recipes(event => {
 		  I: '#forge:plates/arcanum_alloy',
 		  C: 'kubejs:carbon_infused_sturdy_handle'
 		}
-	).id("elementalcraft:infuser")
+	)
 	
 
 	event.shaped(
@@ -3136,21 +3270,6 @@ ServerEvents.recipes(event => {
 	)
 
 	event.remove({output:"ars_nouveau:source_jar"})
-
-	/*event.remove('elementalcraft:instrument_retriever')
-	event.shaped(
-	  Item.of('elementalcraft:instrument_retriever'), 
-	  [
-		'RRR',
-		'RFR',
-		' H '
-	  ],
-	  {
-		R: "elementalcraft:whiterock",
-		F: "create:filter",
-		H: 'woodenhopper:wooden_hopper'
-	  }
-	)*/
 
 	event.remove('irons_spellbooks:pedestal')
 	event.shaped(

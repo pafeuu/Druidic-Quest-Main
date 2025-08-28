@@ -178,6 +178,20 @@ ServerEvents.recipes(event=>{
           "biomeswevegone:blue_spruce_sapling"
      )
 
+     tree_ritual("forbidden_arcanus:aurum_sapling",
+          [
+               "golden_apple",
+               "oak_sapling",
+               "thermal:gold_dust",
+               "thermal:gold_dust",
+               "thermal:gold_dust",
+               "thermal:gold_dust",
+               "thermal:gold_dust",
+               "thermal:gold_dust",
+          ],
+          "wizards_reborn:arcane_wood_sapling"
+     )
+
      tree_ritual("wizards_reborn:innocent_wood_sapling",
           [
                "wizards_reborn:arcane_wood_sapling",

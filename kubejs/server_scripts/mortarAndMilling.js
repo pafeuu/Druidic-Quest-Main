@@ -61,20 +61,6 @@ ServerEvents.recipes(event => {
 
         event.recipes.naturesaura.altar(magicCount+"x "+output, input,500,80,'naturesaura:crushing_catalyst')
 
-       /* event.custom(
-            {
-                "type": "elementalcraft:grinding",
-                "element_amount": 1000,
-                "ingredient": {
-                  "item": input
-                },
-                "luck_ratio": 3,
-                "output": {
-                  "Count": magicCount,
-                  "id": output
-                }
-            } 
-        )*/
 
         event.recipes.create.crushing([count+"x "+output, Item.of(extras, extrasCount).withChance(chance)], input)
 
@@ -116,10 +102,13 @@ ServerEvents.recipes(event => {
     event.remove({id:"naturesaura:altar/gold_powder"})
 
     MillingWithExtras(1,"forbidden_arcanus:arcane_crystal_dust",2,1,"forbidden_arcanus:arcane_crystal_dust",0.5,"forbidden_arcanus:arcane_crystal",4,"forbidden_arcanus:arcane_crystal_dust")
-
+    MillingWithExtras(1,'arsdelight:wilden_spike_powder',2,1,'arsdelight:wilden_spike_powder',0.5,"ars_nouveau:wilden_spike",1,"arsdelight:cutting/wilden_spike")
+    MillingWithExtras(1,'arsdelight:wilden_horn_powder',2,1,'arsdelight:wilden_horn_powder',0.5,"ars_nouveau:wilden_horn",1,"arsdelight:cutting/wilden_horn")
 
     MillingNoExtras(9, 'bone_meal', 'bone_block', 6,'minecraft:bone_meal_from_bone_block')
     MillingNoExtras(1, 'thermal:ender_pearl_dust', 'ender_pearl', 2,'thermal:earth_charge/ender_pearl_dust_from_ender_pearl')
+
+    MillingNoExtras(1, "ars_nouveau:magebloom_fiber","ars_nouveau:magebloom", 1,"ars_nouveau:magebloom_fiber")
 
     MillingNoExtras(1, 'wizards_reborn:ground_brown_mushroom', 'brown_mushroom', 1,'wizards_reborn:mortar/ground_brown_mushroom')
     MillingNoExtras(1, 'wizards_reborn:ground_red_mushroom', 'red_mushroom', 1,'wizards_reborn:mortar/ground_red_mushroom')
@@ -129,8 +118,6 @@ ServerEvents.recipes(event => {
     MillingNoExtras(1, 'wizards_reborn:ground_mor', 'wizards_reborn:mor', 1,'wizards_reborn:mortar/ground_mor')
     MillingNoExtras(1, "wizards_reborn:petals","wizards_reborn:flower_fertilizer",1,'wizards_reborn:petal_duping')
     
-
-
     MillingMetal(1, 'kubejs:zinc_dust', 'create:zinc_ingot','kubejs:zinc_dust_from_zinc_ingot')
     MillingMetal(1, 'kubejs:zinc_dust', "create:raw_zinc",'create:kjs/36lua76falkiruqwh3mhiqb3j')
     MillingMetal(1, 'thermal:nickel_dust', 'thermal:nickel_ingot','thermal:machines/pulverizer/pulverizer_nickel_ingot_to_dust')

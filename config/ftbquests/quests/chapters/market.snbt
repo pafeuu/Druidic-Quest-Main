@@ -1414,9 +1414,8 @@
 			id: "29E1BA7E7C50F113"
 			rewards: [{
 				exclude_from_claim_all: true
-				icon: "waystones:waystone"
-				id: "12207624A52FDD42"
-				table_id: 1208925981311075483L
+				id: "53413C31C0DCEBFC"
+				table_id: 1066304236049326643L
 				type: "choice"
 			}]
 			subtitle: "2 Netherite Coins"

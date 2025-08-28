@@ -420,7 +420,7 @@ StartupEvents.registry('item', item => {
   item.create('lead_hoe','hoe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
   item.create('lead_waraxe','axe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool").speedBaseline(-3.2).tag("dq:tier1/weapon").attackDamageBaseline(10).tag("forge:tools/lead")
 
-  item.create("silver_knife","farmersdelight:knife").tier('silver').tag("minecraft:tools").tag("minecraft:tools/knives").tag("dq:tier1/tool")
+  item.create("silver_knife","farmersdelight:knife").tier('silver').tag("minecraft:tools").tag("forge:tools/knives").tag("dq:tier1/tool")
   item.create('silver_pickaxe','pickaxe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool")
   item.create('silver_sword','sword').tier('silver').tag("minecraft:tools").tag("dq:tier1/weapon")
   item.create('silver_axe','axe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool")

@@ -644,6 +644,74 @@ ServerEvents.recipes(event=>{
     "wissen": 5000
     })
 
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "ESW",
+        "YXS",
+        "WYE",
+        "AARR"
+    ],
+    "key": {
+        "A": {
+        "item": "kubejs:infused_amethyst"
+        },
+        "R": {
+        "item": "thermal:ruby"
+        },
+        "X": {
+        "item": "kubejs:fall_boots_cover"
+        },
+        "W":{
+        "item": "white_wool"   
+        },
+        "S":{
+        "item": "thermal:sapphire"   
+        },
+        "Y":{
+        "item": "kubejs:infused_emerald"   
+        },
+        "E":{
+        "tag": "forge:plates/enderium"    
+        }
+    },
+    "output": {
+        "item": "kubejs:silent_boots_cover"
+    },
+    "wissen": 5000
+    })
+
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        " H ",
+        "CXC",
+        " S ",
+        "EEEE"
+    ],
+    "key": {
+        "H": {
+        "item": "create:brass_hand"
+        },
+        "E": {
+        "tag": "forge:plates/brass"
+        },
+        "X": {
+        "item": "kubejs:crab_totem"
+        },
+        "C":{
+        "item": "create:cogwheel"   
+        },
+        "S":{
+        "item": "immersiveengineering:stick_treated"    
+        }
+    },
+    "output": {
+        "item": "create:extendo_grip"
+    },
+    "wissen": 2000
+    }).id("create:mechanical_crafting/extendo_grip")
+
     function EnigmaticAmulet(color,input1,input2,input3,input4,input5,input6)
     {
          event.custom({

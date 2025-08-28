@@ -493,5 +493,13 @@ ItemEvents.modification(event => {
     item.maxDamage = 312
   })
 
+  event.modify("create:extendo_grip", item=>{
+    item.maxDamage = -1
+  })
+
+  event.modify("create:potato_cannon", item=>{
+    item.maxDamage = 1024
+  })
+
   
 })

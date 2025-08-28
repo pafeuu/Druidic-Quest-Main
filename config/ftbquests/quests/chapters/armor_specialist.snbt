@@ -13,7 +13,7 @@
 		}
 	}
 	id: "2D31A9CB6776879E"
-	order_index: 5
+	order_index: 6
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -80,8 +80,8 @@
 				}
 			]
 			title: "Leather Set"
-			x: -6.0d
-			y: -2.0d
+			x: -6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -146,8 +146,8 @@
 				}
 			]
 			title: "Engineer's Set"
-			x: -3.0d
-			y: -2.0d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -212,8 +212,8 @@
 				}
 			]
 			title: "Mortem Set"
-			x: -4.0d
-			y: -2.0d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -278,8 +278,8 @@
 				}
 			]
 			title: "Iron Set"
-			x: 0.0d
-			y: -2.0d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -344,8 +344,8 @@
 				}
 			]
 			title: "Chainmail Set"
-			x: -1.0d
-			y: -2.0d
+			x: -6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -410,8 +410,8 @@
 				}
 			]
 			title: "Botanist Set"
-			x: -3.0d
-			y: -1.0d
+			x: -7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -476,8 +476,8 @@
 				}
 			]
 			title: "Gold Set"
-			x: 0.0d
-			y: 0.0d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -542,8 +542,8 @@
 				}
 			]
 			title: "Diamond Set"
-			x: -6.0d
-			y: 1.0d
+			x: -3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -608,8 +608,8 @@
 				}
 			]
 			title: "Netherite Set"
-			x: -2.0d
-			y: 1.0d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -674,8 +674,8 @@
 				}
 			]
 			title: "Steel Set"
-			x: -6.5d
-			y: 3.0d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -740,8 +740,8 @@
 				}
 			]
 			title: "Skyseeker Set"
-			x: -5.0d
-			y: 1.0d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -757,8 +757,8 @@
 				item: "kubejs:botanist_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -1.0d
+			x: -10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -774,7 +774,7 @@
 				item: "kubejs:gold_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -9.0d
 			y: -1.5d
 		}
 		{
@@ -791,8 +791,8 @@
 				item: "minecraft:netherite_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 0.0d
+			x: -10.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -808,7 +808,7 @@
 				item: "kubejs:skyseeker_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -9.0d
 			y: -0.5d
 		}
 		{
@@ -825,7 +825,7 @@
 				item: "forbidden_arcanus:darkstone_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -9.0d
 			y: 2.5d
 		}
 		{
@@ -842,8 +842,8 @@
 				item: "kubejs:steel_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 2.0d
+			x: -10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -858,7 +858,7 @@
 				item: "minecraft:sentry_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -12.0d
 			y: -2.5d
 		}
 		{
@@ -874,8 +874,8 @@
 				item: "minecraft:vex_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -0.5d
+			x: -11.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -890,8 +890,8 @@
 				item: "minecraft:wild_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -2.5d
+			x: -13.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -906,7 +906,7 @@
 				item: "minecraft:coast_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -13.0d
 			y: -2.5d
 		}
 		{
@@ -922,8 +922,8 @@
 				item: "minecraft:tide_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -0.5d
+			x: -11.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -938,8 +938,8 @@
 				item: "quark:smithing_template_rune"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 1.5d
+			x: -14.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -954,8 +954,8 @@
 				item: "minecraft:wayfinder_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -1.5d
+			x: -12.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -970,8 +970,8 @@
 				item: "minecraft:raiser_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -1.5d
+			x: -13.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -986,8 +986,8 @@
 				item: "minecraft:shaper_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -1.5d
+			x: -14.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1002,8 +1002,8 @@
 				item: "minecraft:host_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -1.5d
+			x: -11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1018,8 +1018,8 @@
 				item: "minecraft:silence_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.5d
+			x: -13.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1034,8 +1034,8 @@
 				item: "minecraft:snout_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -0.5d
+			x: -14.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1050,8 +1050,8 @@
 				item: "minecraft:ward_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 0.5d
+			x: -14.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1066,8 +1066,8 @@
 				item: "minecraft:rib_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -0.5d
+			x: -13.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1082,7 +1082,7 @@
 				item: "minecraft:eye_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -12.0d
 			y: 0.5d
 		}
 		{
@@ -1098,8 +1098,8 @@
 				item: "minecraft:dune_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -2.5d
+			x: -12.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1114,7 +1114,7 @@
 				item: "minecraft:spire_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -11.0d
 			y: 0.5d
 		}
 		{
@@ -1180,8 +1180,8 @@
 				}
 			]
 			title: "Copper Set"
-			x: -2.0d
-			y: -2.0d
+			x: -7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1246,8 +1246,8 @@
 				}
 			]
 			title: "Silver Set"
-			x: -6.0d
-			y: -1.0d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1312,8 +1312,8 @@
 				}
 			]
 			title: "Lead Set"
-			x: -5.0d
-			y: -1.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1378,8 +1378,8 @@
 				}
 			]
 			title: "Draco Arcanus Set"
-			x: -5.5d
-			y: 3.0d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1444,8 +1444,8 @@
 				}
 			]
 			title: "Tyr Set"
-			x: -4.5d
-			y: 3.0d
+			x: -3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1510,8 +1510,8 @@
 				}
 			]
 			title: "Etherium Set"
-			x: -3.5d
-			y: 3.0d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1576,8 +1576,8 @@
 				}
 			]
 			title: "Soulstrider Set"
-			x: -1.0d
-			y: 1.0d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1593,7 +1593,7 @@
 				item: "deeperdarker:warden_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -9.0d
 			y: 1.5d
 		}
 		{
@@ -1609,7 +1609,7 @@
 				item: "ancient_aether:wynd_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -11.0d
 			y: 2.5d
 		}
 		{
@@ -1625,7 +1625,7 @@
 				item: "ancient_aether:whale_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -12.0d
 			y: 2.5d
 		}
 		{
@@ -1641,7 +1641,7 @@
 				item: "ancient_aether:ascended_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -13.0d
 			y: 2.5d
 		}
 		{
@@ -1657,7 +1657,7 @@
 				item: "ancient_aether:mysterious_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -11.0d
 			y: 1.5d
 		}
 		{
@@ -1673,7 +1673,7 @@
 				item: "ancient_aether:mechanical_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -12.0d
 			y: 1.5d
 		}
 		{
@@ -1689,8 +1689,8 @@
 				item: "ancient_aether:royal_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 1.5d
+			x: -14.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1705,7 +1705,7 @@
 				item: "ancient_aether:mosaic_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -11.0d
 			y: 3.5d
 		}
 		{
@@ -1721,7 +1721,7 @@
 				item: "ancient_aether:solar_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -13.0d
 			y: 3.5d
 		}
 		{
@@ -1737,7 +1737,7 @@
 				item: "ancient_aether:ancient_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -12.0d
 			y: 3.5d
 		}
 		{
@@ -1793,8 +1793,8 @@
 				}
 			]
 			title: "Naga Set"
-			x: 0.0d
-			y: -1.0d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1879,8 +1879,8 @@
 				}
 			]
 			title: "Ironwood Set"
-			x: -1.0d
-			y: -1.0d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1965,8 +1965,8 @@
 				}
 			]
 			title: "Steeleaf Set"
-			x: -6.0d
-			y: 0.0d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2031,8 +2031,8 @@
 				}
 			]
 			title: "Arctic Set"
-			x: -2.0d
-			y: 0.0d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2123,8 +2123,8 @@
 				}
 			]
 			title: "Yeti Set"
-			x: -1.0d
-			y: 0.0d
+			x: -5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2189,8 +2189,8 @@
 				}
 			]
 			title: "Fiery Set"
-			x: -5.0d
-			y: 0.0d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2254,8 +2254,8 @@
 				}
 			]
 			title: "Neptune Set"
-			x: -6.0d
-			y: 2.0d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2320,8 +2320,8 @@
 				}
 			]
 			title: "Gravitite Set"
-			x: 0.0d
-			y: 1.0d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2386,8 +2386,8 @@
 				}
 			]
 			title: "Knightmetal Set"
-			x: -3.0d
-			y: 0.0d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2452,8 +2452,8 @@
 				}
 			]
 			title: "Skyjade Set"
-			x: -3.0d
-			y: 1.0d
+			x: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2518,8 +2518,8 @@
 				}
 			]
 			title: "Zanite Set"
-			x: -4.0d
-			y: 1.0d
+			x: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2562,8 +2562,8 @@
 				}
 			]
 			title: "Phantom Set"
-			x: -4.0d
-			y: 0.0d
+			x: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2628,8 +2628,8 @@
 				}
 			]
 			title: "Phoenix Set"
-			x: -5.0d
-			y: 2.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2693,8 +2693,8 @@
 				}
 			]
 			title: "Stratus Set"
-			x: -3.0d
-			y: 2.0d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2759,8 +2759,8 @@
 				}
 			]
 			title: "Obsidian Set"
-			x: -2.0d
-			y: 2.0d
+			x: -4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2824,8 +2824,8 @@
 				}
 			]
 			title: "Valkyrum Set"
-			x: -1.0d
-			y: 2.0d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2890,8 +2890,8 @@
 				}
 			]
 			title: "Resonarium Set"
-			x: -2.5d
-			y: 3.0d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2956,8 +2956,8 @@
 				}
 			]
 			title: "Warden Set"
-			x: -1.5d
-			y: 3.0d
+			x: -0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3022,8 +3022,8 @@
 				}
 			]
 			title: "Beekeeper's Set"
-			x: -5.0d
-			y: -2.0d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3082,8 +3082,8 @@
 				}
 			]
 			title: "Stormforged Set"
-			x: -4.0d
-			y: 2.0d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3099,8 +3099,8 @@
 				item: "kubejs:phoenix_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 1.0d
+			x: -10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3165,8 +3165,8 @@
 				}
 			]
 			title: "Diving Set"
-			x: -2.0d
-			y: -1.0d
+			x: -6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3235,8 +3235,8 @@
 				}
 			]
 			title: "Arcane Gold Set"
-			x: 0.0d
-			y: 2.0d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3306,8 +3306,8 @@
 				}
 			]
 			title: "Inventor Wizard Set"
-			x: -0.5d
-			y: 3.0d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3376,8 +3376,8 @@
 				}
 			]
 			title: "Arcane Fortress Set"
-			x: 0.5d
-			y: 3.0d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3393,7 +3393,7 @@
 				item: "deep_aether:stratus_smithing_template"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -9.0d
 			y: 0.5d
 		}
 		{
@@ -3459,8 +3459,8 @@
 				}
 			]
 			title: "Bronze Set"
-			x: -4.0d
-			y: -1.0d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3524,7 +3524,7 @@
 				}
 			]
 			title: "Sorcerer's Set"
-			x: 1.5d
+			x: 3.0d
 			y: -2.0d
 		}
 		{
@@ -3590,7 +3590,7 @@
 				}
 			]
 			title: "Arcanist's Set"
-			x: 2.5d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -3655,7 +3655,7 @@
 				}
 			]
 			title: "Battlemage's Set"
-			x: 3.5d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -3720,7 +3720,7 @@
 				}
 			]
 			title: "Wandering Magician Set"
-			x: 2.0d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -3785,7 +3785,7 @@
 				}
 			]
 			title: "Scarecrow Set"
-			x: 3.0d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -3863,7 +3863,7 @@
 				}
 			]
 			title: "Pyromancer Set"
-			x: 1.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -3941,7 +3941,7 @@
 				}
 			]
 			title: "Cryomancer Set"
-			x: 2.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -4019,7 +4019,7 @@
 				}
 			]
 			title: "Electromancer Set"
-			x: 3.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -4097,7 +4097,7 @@
 				}
 			]
 			title: "Archevoker Set"
-			x: 1.5d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -4175,7 +4175,7 @@
 				}
 			]
 			title: "Cultist Set"
-			x: 2.5d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -4253,7 +4253,7 @@
 				}
 			]
 			title: "Shadow-Walker Set"
-			x: 3.5d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -4331,7 +4331,7 @@
 				}
 			]
 			title: "Priest Set"
-			x: 2.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -4409,7 +4409,7 @@
 				}
 			]
 			title: "Plagued Set"
-			x: 3.0d
+			x: 4.5d
 			y: 2.0d
 		}
 		{
@@ -4486,7 +4486,7 @@
 				}
 			]
 			title: "Netherite Battlemage Set"
-			x: 2.5d
+			x: 4.0d
 			y: 3.0d
 		}
 	]

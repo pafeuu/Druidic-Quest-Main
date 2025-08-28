@@ -5,6 +5,7 @@ ServerEvents.tags('item', event => {
   event.removeAllTagsFrom([global.nukelist])
 
   event.add("c:rods/wooden","twigs:twig")
+  event.add("farmersdelight:offhand_equipment","#forge:tools/totems")
   event.add("lychee:dispenser_placement","minecraft:iron_block")
   event.add("aether:treated_as_aether_item","#forge:tools")
   event.add("aether:treated_as_aether_item","#forge:armors")
@@ -14,12 +15,15 @@ ServerEvents.tags('item', event => {
     'fruitsdelight:bayberry_cookie',
     'fruitsdelight:lemon_cookie'])
 
+  event.add("minecraft:smooth_stone","smooth_stone")
+
   event.remove("forge:rods/wooden","naturesaura:ancient_stick")
   event.remove("forge:rods/wooden","immersiveengineering:stick_treated")
   event.remove("forge:tools","#forge:shields")
   event.remove("forge:tools","#forge:tools/shields")
   event.remove("forge:tools","#c:tools/shields")
   event.remove("forge:tools","#c:tools")
+  event.remove("forge:tools",["minecraft:shield","kubejs:primitive_shield","ars_nouveau:enchanters_shield"])
   
   event.add("c:hidden_from_recipe_viewers",[global.nukelist])
 
@@ -35,8 +39,6 @@ ServerEvents.tags('item', event => {
     "ars_nouveau:sourceberry_bush",
     "biomeswevegone:blueberries",
     "biomeswevegone:oddion_bulb"]
-
-
 
   let flower = ['minecraft:sunflower',
     'minecraft:dandelion',

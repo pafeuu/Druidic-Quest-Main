@@ -294,7 +294,15 @@ global.nukelist = ["twigs:calcite_wall",
 	'forbidden_arcanus:deepslate_arcane_crystal_ore',
 	'forbidden_arcanus:obsidian_skull_shield',
 	'enigmaticlegacy:ascension_amulet',
-	'aether:freezer']/*,
+	'aether:freezer',
+	'twilightforest:charm_of_keeping_1',
+	'twilightforest:charm_of_keeping_2',
+	'twilightforest:charm_of_keeping_3',
+	'sob:peanut_bag',
+	'sob:wild_peanuts',
+	'sob:peanut',
+	'sob:roasted_peanuts']/*,,
+	
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',
 	'thermal:enderium_dust',
@@ -311,6 +319,7 @@ ServerEvents.recipes(event => {
 	let RemoveById = [
 		"thermal:machines/smelter/smelter_sapphire_ore",
 		"thermal:compat/immersiveengineering/press_ie_steel_ingot_to_plate",
+		"aether:holystone_stonecutter",
 		"vintageimprovements:pressing/uranium_ingot",
 		"immersiveengineering:metalpress/plate_uranium",
 		"thermal:compat/immersiveengineering/press_ie_uranium_ingot_to_plate",
@@ -381,7 +390,12 @@ ServerEvents.recipes(event => {
 		"ftbfiltersystem:smart_filter",
 		"ancient_aether:skyroot_smithing_table_from_zanite",
 		"ancient_aether:holystone_stonecutter_from_zanite",
-		"ancient_aether:anvil_from_zanite"
+		"ancient_aether:anvil_from_zanite",
+		"wizards_reborn:integration/create/pressing/vilenium_ingot",
+		"wizards_reborn:integration/create/pressing/sarcon_ingot",
+		"wizards_reborn:integration/create/pressing/arcane_gold_ingot",
+		"vintageimprovements:pressing/zinc_ingot",
+		"vintageimprovements:pressing/aluminum_ingot"
 		]
 	
 	RemoveById.forEach(id => {
@@ -396,7 +410,7 @@ ServerEvents.recipes(event => {
 
 	event.remove({input:'immersiveengineering:hammer'})
 	event.remove({mod:"immersiveengineering",output:"#forge:rods/all_metal"})
-	event.remove({output:"elementalcraft:water_mill_wood_saw"})
+	
 	event.remove({output:"#aether:accessories_gloves"})
 
 	event.replaceInput({input:"minecraft:stick"},"minecraft:stick","#c:rods/wooden")
@@ -834,11 +848,8 @@ ServerEvents.recipes(event => {
 		event.recipes.naturesaura.altar(Item.of(outputItem,2),inputBlock,500,100,"kubejs:pressing_catalyst")
 	}
 	function plates(inputItem, outputItem, inputBlock) {// Adds Plates crafting recipes to the machines
-		event.custom({
-			type: "create:pressing",
-			ingredients: [{ tag: inputItem }],
-			results: [{ item: outputItem }],
-		});// Adds Plates crafting recipes to the create machines
+		
+		event.recipes.create.pressing(Item.of(outputItem,6),inputBlock)// Adds Plates crafting recipes to the create machines
 	
 		event.recipes.thermal.press(outputItem,"#"+inputItem)// Adds Plates crafting recipes to the thermal machines
 	
@@ -910,7 +921,7 @@ ServerEvents.recipes(event => {
 	}
 
 	PlatesOnetoOne("forge:treated_wood", "kubejs:wooden_plate", "immersiveengineering:treated_wood_horizontal")
-	PlatesOnetoOne("chipped:smooth_stone","kubejs:stone_plate", "minecraft:smooth_stone")
+	PlatesOnetoOne("minecraft:smooth_stone","kubejs:stone_plate", "minecraft:smooth_stone")
 
 	plates("forge:ingots/source_alloy","kubejs:source_alloy_plate","kubejs:source_alloy_block")
 	plates("forge:ingots/infused_iron","kubejs:infused_iron_plate","naturesaura:infused_iron_block")
@@ -920,7 +931,7 @@ ServerEvents.recipes(event => {
 	plates("forge:ingots/ironwood","vintageimprovements:ironwood_sheet","twilightforest:ironwood_block")
 	plates("forge:ingots/knightmetal","vintageimprovements:knightmetal_sheet","twilightforest:knightmetal_block")
 	plates("forge:ingots/fiery","vintageimprovements:fiery_sheet","twilightforest:fiery_block")
-	//plates("forge:ingots/fireite","kubejs:fireite_sheet","elementalcraft:fireite_block")
+	
 
 	plates("forge:ingots/tin","vintageimprovements:tin_sheet","thermal:tin_block")
 	plates("forge:ingots/silver","vintageimprovements:silver_sheet","thermal:silver_block")
@@ -951,11 +962,13 @@ ServerEvents.recipes(event => {
 	plates("forge:ingots/netherite","vintageimprovements:netherite_sheet","minecraft:netherite_block")
 	plates("forge:ingots/brass","create:brass_sheet","create:brass_block")
 
-	//plates("forge:ingots/drenched_iron","kubejs:drenched_iron_sheet","elementalcraft:drenched_iron_block")
-	//plates("forge:ingots/swift_alloy","kubejs:swift_alloy_sheet","elementalcraft:swift_alloy_block")
+	
 	plates("forge:ingots/tainted_gold","kubejs:tainted_gold_sheet","naturesaura:tainted_gold_block")
 	plates("forge:ingots/sky","kubejs:sky_sheet","naturesaura:sky_ingot_block")
 	plates("forge:ingots/depth","kubejs:depth_sheet","naturesaura:depth_ingot_block")
+
+	plates("forge:ingots/sarcon","wizards_reborn:sarcon_sheet","wizards_reborn:sarcon_block")
+	plates("forge:ingots/vilenium","wizards_reborn:vilenium_sheet","wizards_reborn:vilenium_block")
 	
 
 
@@ -1256,6 +1269,16 @@ ServerEvents.recipes(event => {
 			R: "#forge:ingots/iron"
 	}).id("minecraft:lodestone")
 
+	function WaystoneVariants(type,block)
+	{
+		event.shapeless("waystones:"+type+"waystone",["#waystones:waystones",block])
+	}
+	WaystoneVariants("deepslate_","deepslate")
+	WaystoneVariants("sandy_","sandstone")
+	WaystoneVariants("","stone")
+	WaystoneVariants("mossy_","moss_block")
+	WaystoneVariants("end_stone_","end_stone")
+	WaystoneVariants("blackstone_","blackstone")
 	///============================ misc
 
 	event.shapeless("2x green_dye",["blue_dye","yellow_dye"])

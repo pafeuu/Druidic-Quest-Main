@@ -2,6 +2,13 @@ ServerEvents.recipes(e => {
 
     const cooking = e.recipes.farmersdelight.cooking
 
+    cooking(["honey_bottle",
+        "vintagedelight:roasted_peanut",
+        "vintagedelight:roasted_peanut",
+        "vintagedelight:roasted_peanut",
+        "sugar",
+        "vintagedelight:salt_dust"],"sob:candied_peanuts",1,200).id("sob:cooking/candied_peanuts")
+
     cooking(["minecraft:apple",
         "#forge:dusts/gold",
         "#forge:dusts/gold",
@@ -56,6 +63,7 @@ ServerEvents.recipes(e => {
         "enigmaticlegacy:astral_dust",
         "honey_bottle"],"enigmaticlegacy:ichor_bottle",100,200)
     
+    e.shapeless("sob:peanut_butter",["2x vintagedelight:roasted_peanut","sugar","glass_bottle"]).id("sob:crafting/peanut_butter")
     e.custom(
         {
         "type": "minecraft:crafting_shapeless",

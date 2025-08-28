@@ -9,6 +9,19 @@ LootJS.modifiers((event) => {
         LootType.PIGLIN_BARTER,
         LootType.FISHING
         ]).replaceLoot("minecraft:enchanted_book","kubejs:enchanting_rune")
+        
+    
+    //=======================================Charm of Keeping=======================
+
+    event.addLootTypeModifier([
+        LootType.CHEST,
+        LootType.PIGLIN_BARTER,
+        LootType.FISHING,
+        LootType.ENTITY
+        ])
+        .replaceLoot("twilightforest:charm_of_keeping_1","2x thermal:bronze_ingot")
+        .replaceLoot("twilightforest:charm_of_keeping_2","8x thermal:silver_ingot")
+        .replaceLoot("twilightforest:charm_of_keeping_3","6x thermal:bronze_ingot")
 
     ///=======================================Replacing Junk
 
@@ -63,12 +76,17 @@ LootJS.modifiers((event) => {
         .replaceLoot("minecraft:golden_chestplate","3x create:golden_sheet")
         .replaceLoot("minecraft:golden_leggings","2x create:golden_sheet")
         .replaceLoot("minecraft:golden_boots","create:golden_sheet")
+        .replaceLoot("aether:golden_knife","create:golden_sheet")
         .replaceLoot("minecraft:netherite_upgrade_smithing_template","kubejs:gold_upgrade_smithing_template")
         .replaceLoot("create:large_cogwheel","kubejs:wooden_gear")
         .replaceLoot("create:cogwheel","kubejs:wooden_gear")
         .replaceLoot("create:andesite_ladder","thermal:silver_ingot")
         .replaceLoot("create:brass_ladder","thermal:lead_ingot")
-        .replaceLoot("trident","kubejs:rusty_trident");
+        .replaceLoot("trident","kubejs:rusty_trident")
+        .replaceLoot("netherite_ingot","netherite_scrap")
+        .replaceLoot("netherite_block","6x netherite_scrap")
+        .replaceLoot("aether:diamond_gloves","4x kubejs:diamond_plate")
+        .replaceLoot("aether:iron_gloves","4x create:iron_sheet");
 
     // ====================================================Iron's
     event.addLootTableModifier("irons_spellbooks:chests/filler_storage_loot")
@@ -85,16 +103,27 @@ LootJS.modifiers((event) => {
     event.addLootTableModifier(/.*irons_spellbooks.*/)
         .replaceLoot(Item.of('minecraft:potion', '{Potion:"minecraft:water"}'), "enigmaticlegacy:recall_potion");
     
-    event.addLootTableModifier(/.*idas:chests.*/)
+    event.addLootTableModifier(/.*irons_spellbooks.*/)
         .randomChance(0.4)
         .addLoot("2x enigmaticlegacy:recall_potion");
 
-    event.addLootTableModifier(/.*idas:chests.*/)
+    event.addLootTableModifier(/.*irons_spellbooks.*/)
         .randomChance(0.10)
         .addLoot("enigmaticlegacy:mending_mixture");
     
 
     // ====================================================IDAS
+    
+    event.addLootTableModifier(/.*idas:chests.*/)
+        .replaceLoot("diamond_axe","diamond")
+        .replaceLoot("diamond_pickaxe","2x diamond")
+        .replaceLoot("diamond_shovel","diamond")
+        .replaceLoot("diamond_hoe","diamond")
+        .replaceLoot("diamond_sword","diamond")
+        .replaceLoot("diamond_helmet","2x kubejs:diamond_plate")
+        .replaceLoot("diamond_chestplate","4x kubejs:diamond_plate")
+        .replaceLoot("diamond_leggings","3x kubejs:diamond_plate")
+        .replaceLoot("diamond_boots","2x kubejs:diamond_plate")
 
     event.addLootTableModifier(/.*idas:chests.*/)
         .randomChance(0.5)
@@ -113,6 +142,18 @@ LootJS.modifiers((event) => {
         .addLoot("vintageimprovements:redstone_module");
 
     //======================================================== Dungeons Arise
+
+    event.addLootTableModifier(/.*dungeons_arise:chests.*/)
+        .replaceLoot("diamond_axe","diamond")
+        .replaceLoot("diamond_pickaxe","2x diamond")
+        .replaceLoot("diamond_shovel","diamond")
+        .replaceLoot("diamond_hoe","diamond")
+        .replaceLoot("diamond_sword","diamond")
+        .replaceLoot("diamond_helmet","2x kubejs:diamond_plate")
+        .replaceLoot("diamond_chestplate","4x kubejs:diamond_plate")
+        .replaceLoot("diamond_leggings","3x kubejs:diamond_plate")
+        .replaceLoot("diamond_boots","2x kubejs:diamond_plate")
+
     event.addLootTableModifier(/.*dungeons_arise:chests.*/)
         .randomChance(0.5)
         .addLoot("3x enigmaticlegacy:recall_potion")

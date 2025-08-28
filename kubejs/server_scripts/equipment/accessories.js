@@ -23,25 +23,13 @@ ServerEvents.recipes(event => {
     }
     )
 
-    event.shaped("kubejs:silent_boots_cover",[
-        "S S",
-        "P P",
-        "D D"
-    ],
-    {
-        S: "string",
-        P: "leather",
-        D: "#minecraft:wool",
-    }
-    )
-
     event.shaped("kubejs:fall_boots_cover",[
         "S S",
         "P P",
         "D D"
     ],
     {
-        S: "elementalcraft:air_silk",
+        S: "ars_nouveau:air_essence",
         P: "immersiveengineering:cushion",
         D: "#handcrafted:cushions"
     }

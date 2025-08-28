@@ -37,7 +37,7 @@ ServerEvents.recipes(event=>{
 			base_ingredient: {
 				item: "kubejs:ender_essence"
 			},
-			count: 2
+			count: 16
 		  },
 		  "input1": {
             base_ingredient: {
@@ -86,13 +86,16 @@ ServerEvents.recipes(event=>{
 			count: 4
 		  },
 		  "input1": {
+			base_ingredient: {
 			tag: "forge:ingots/lead"
+			},
+			count:2
 		  },
 		  "result": {
 			"base_ingredient": {
 			  item: "thermal:enderium_ingot"
 			},
-			"count": 1
+			"count": 2
 		  },
 		  "time": 200
 	}).id("thermal:machines/smelter/smelter_alloy_enderium")

@@ -1068,6 +1068,21 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Tools ============================================================================
 	
+	event.shaped("create:potato_cannon",
+		[
+			"PCP",
+			"GBG",
+			"PXP"
+		],
+		{
+			P: "#forge:plates/copper",
+			C: "crossbow",
+			X: "piston",
+			B: "supplementaries:bellows",
+			G: "create:cogwheel"
+		}
+	).id("create:mechanical_crafting/potato_cannon")
+
 	event.shaped("kubejs:silver_knife",
 		[
 		" I",
@@ -1955,7 +1970,7 @@ ServerEvents.recipes(event => {
 			P: "#forge:plates/bronze",
 			F: "ars_nouveau:potion_flask",
 			Q: "supplementaries:quiver",
-			S: "elementalcraft:air_silk",
+			S: "ars_nouveau:magebloom_fiber",
 			B: "create:belt_connector"
 		}
 	).id("thermal:potion_quiver")

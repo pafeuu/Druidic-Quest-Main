@@ -17,6 +17,3238 @@
 	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "33BF6A1101499AA3"
+			rewards: [{
+				id: "2516CCE7C67EF7B3"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "41CD502794973BF6"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Protection IV"
+			x: -8.1d
+			y: -4.5d
+		}
+		{
+			id: "546256E01EEB83A5"
+			rewards: [{
+				id: "007FA011D8242C8A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "703903819475B60E"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:fire_protection"
+							lvl: 4s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Fire Protection IV"
+			x: -7.199999999999999d
+			y: -4.5d
+		}
+		{
+			id: "3D22B81B0DF30E8D"
+			rewards: [{
+				id: "4599825D47B306F1"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "675F97C93C9716E2"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:feather_falling"
+							lvl: 4s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Feather Falling IV"
+			x: -8.549999999999999d
+			y: -0.8999999999999999d
+		}
+		{
+			id: "3ECD88ADEEF7252E"
+			rewards: [{
+				id: "4734E2836D6DF8BF"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "690E9EC20EA56B73"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:blast_protection"
+							lvl: 4s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Blast Protection IV"
+			x: -6.3d
+			y: -4.5d
+		}
+		{
+			id: "71B4185254835E5A"
+			rewards: [{
+				id: "703A47AA9864C29A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "1618DEB075A2D564"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:projectile_protection"
+							lvl: 4s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Projectile Protection IV"
+			x: -5.4d
+			y: -4.5d
+		}
+		{
+			id: "0C7B5EC491DC6296"
+			rewards: [{
+				id: "7517AB25DEB60CDB"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "3B65D46975C24F4F"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:respiration"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Respiration III"
+			x: -7.199999999999999d
+			y: -2.6999999999999997d
+		}
+		{
+			id: "6F7A3C38C02EB61E"
+			rewards: [{
+				id: "3E3CC233CB1F61A7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "1D1C1D6112A14B7D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:aqua_affinity"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Aqua Affinity"
+			x: -8.1d
+			y: -2.6999999999999997d
+		}
+		{
+			id: "5EC798389C138E25"
+			rewards: [{
+				id: "13D76AC3FF0A4B3B"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "6BC826C2BA6C7DC5"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:thorns"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Thorns III"
+			x: -8.1d
+			y: -1.7999999999999998d
+		}
+		{
+			id: "5C2EDE3F1E671167"
+			rewards: [{
+				id: "36FB89FDC997DCA7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "244672731BC38433"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:depth_strider"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Depth Strider III"
+			x: -7.649999999999999d
+			y: -0.8999999999999999d
+		}
+		{
+			id: "1F4B6589AD49FA7E"
+			rewards: [{
+				id: "7725F59E0B7F0BBA"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "726608879C149E36"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:frost_walker"
+							lvl: 2s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Frost Walker II"
+			x: -6.749999999999999d
+			y: -0.8999999999999999d
+		}
+		{
+			id: "3B5C209712699751"
+			rewards: [{
+				id: "541B4EDA36C3E0B7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "6D9F6D42C6481FDA"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:binding_curse"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Curse of Binding"
+			x: -1.3500000000000005d
+			y: -1.3499999999999996d
+		}
+		{
+			id: "0B1AA6814DB5E064"
+			rewards: [{
+				id: "082F2660012980A7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "76AF6470B13B0D93"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:soul_speed"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Soul Speed III"
+			x: -5.85d
+			y: -0.8999999999999999d
+		}
+		{
+			id: "2D8FDA2A8CA72687"
+			rewards: [{
+				id: "7427FE7C75DA6AF2"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "0ED1EC3632081B83"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:swift_sneak"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Swift Sneak III"
+			x: -7.199999999999999d
+			y: -1.7999999999999998d
+		}
+		{
+			id: "7A517CA8C00AFA6F"
+			rewards: [{
+				id: "4C88986D02B297F7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "07B3D7D7B8848A96"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Sharpness V"
+			x: 5.399999999999999d
+			y: -4.5d
+		}
+		{
+			id: "0167D65430C1D6C1"
+			rewards: [{
+				id: "529DDFC6E6F48C29"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "5DA55894A3A15334"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:smite"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Smite V"
+			x: 6.299999999999999d
+			y: -4.5d
+		}
+		{
+			id: "53ED8EFE30375E05"
+			rewards: [{
+				id: "30D27CBB2A18B28A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "1D959814954A2986"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:bane_of_arthropods"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Bane of Arthropods V"
+			x: 7.1999999999999975d
+			y: -4.5d
+		}
+		{
+			id: "7965EBF70D4B8CC5"
+			rewards: [{
+				id: "187329281AFFA7D2"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "5DC472AF02924B1C"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:knockback"
+							lvl: 2s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Knockback II"
+			x: 4.049999999999999d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "65B00EB161CF8BB7"
+			rewards: [{
+				id: "6D70BCE892F2E562"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "0B0AA82E45B82DA6"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:fire_aspect"
+							lvl: 2s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Fire Aspect II"
+			x: 4.949999999999999d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "32AE480FAEF7B101"
+			rewards: [{
+				id: "20992053BD19921A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "73798BA10EBA2EFF"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:looting"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Looting III"
+			x: 5.849999999999998d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "44124929B5F4351E"
+			rewards: [{
+				id: "12523E467EBDAAD9"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "77663A0843F8ABBA"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sweeping"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Sweeping Edge III"
+			x: 6.749999999999998d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "36F3C22E5C445232"
+			rewards: [{
+				id: "2CBBCC22F3E5AF9E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "1873107C3C6820AE"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:efficiency"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Efficiency V"
+			x: -9.0d
+			y: 1.3499999999999999d
+		}
+		{
+			id: "39B142226E35A8D9"
+			rewards: [{
+				id: "3F57F11BA0349759"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4C18E250D6D74A40"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Silk Touch"
+			x: -8.1d
+			y: 1.3499999999999999d
+		}
+		{
+			id: "7002382384F4A855"
+			rewards: [{
+				id: "57797BF787BA00B6"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "0491049925EB09DF"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Unbreaking III"
+			x: -1.35d
+			y: -4.5d
+		}
+		{
+			id: "7F3C1785B0CE8039"
+			rewards: [{
+				id: "7395DE743B90D284"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "225AB660455E847B"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:fortune"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Fortune III"
+			x: -7.2d
+			y: 1.3499999999999999d
+		}
+		{
+			id: "4AF361FEB1521B58"
+			rewards: [{
+				id: "2FF0265265141CEA"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "6A33EC6F45123B3A"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:power"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Power V"
+			x: 5.399999999999999d
+			y: -2.6999999999999997d
+		}
+		{
+			id: "3AD4C3CE79787322"
+			rewards: [{
+				id: "7F6BB3B3F025E3EA"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "550A93B4BC1E256E"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:punch"
+							lvl: 2s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Punch II"
+			x: 6.299999999999999d
+			y: -2.6999999999999997d
+		}
+		{
+			id: "079F0E17C26801A8"
+			rewards: [{
+				id: "48FE98ED461BD0D4"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "7AD25834D39E862C"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:flame"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Flame"
+			x: 7.1999999999999975d
+			y: -2.6999999999999997d
+		}
+		{
+			id: "5F9B6397F2FCBBE6"
+			rewards: [{
+				id: "0F71592FC955DED7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4728F596A00424CD"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:infinity"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Infinity"
+			x: 8.1d
+			y: -2.6999999999999997d
+		}
+		{
+			id: "3134D8F977B29310"
+			rewards: [{
+				id: "1728B55565303BD9"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "546CAC1EFE5C1321"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:luck_of_the_sea"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Luck of the Sea III"
+			x: -7.65d
+			y: 2.25d
+		}
+		{
+			id: "6D8F0096963C8452"
+			rewards: [{
+				id: "430CCF82185BBE31"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "7A8BE82E4BEC860D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:lure"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Lure III"
+			x: -6.75d
+			y: 2.25d
+		}
+		{
+			id: "32729575DACD95DF"
+			rewards: [{
+				id: "6FC712D23171A633"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "1564D72C47B7523E"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:loyalty"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Loyalty III"
+			x: 4.949999999999999d
+			y: -0.8999999999999999d
+		}
+		{
+			id: "47C44F9550CD8BD3"
+			rewards: [{
+				id: "0FF6847B4BF0A11A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "7538D3E2FABF13E3"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:impaling"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Impaling V"
+			x: 5.85d
+			y: -0.8999999999999999d
+		}
+		{
+			id: "3504309E6A964051"
+			rewards: [{
+				id: "572D9CAA4DCE25A1"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "3871CA73A017D60B"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:riptide"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Riptide III"
+			x: 6.749999999999998d
+			y: -0.8999999999999999d
+		}
+		{
+			id: "7971724D211FCD32"
+			rewards: [{
+				id: "4A73857AFF106FC5"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "070BF29ED5104FBB"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:channeling"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Channeling"
+			x: 7.649999999999999d
+			y: -0.8999999999999999d
+		}
+		{
+			id: "0EE1023D74B82E1C"
+			rewards: [{
+				id: "04B0DD75F82B3394"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "5C4171C7CF79D792"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:multishot"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Multishot"
+			x: 5.399999999999999d
+			y: -1.7999999999999998d
+		}
+		{
+			id: "5ECC740462DD11E7"
+			rewards: [{
+				id: "5154C9DCA3493BAA"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "7DD4658E22B2A467"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:quick_charge"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Quick Charge III"
+			x: 6.299999999999999d
+			y: -1.7999999999999998d
+		}
+		{
+			id: "4858398934EF9CAD"
+			rewards: [{
+				id: "1ADCE7ED6A6F74AC"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "1A973C26B3B2F2D4"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:piercing"
+							lvl: 4s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Piercing IV"
+			x: 7.1999999999999975d
+			y: -1.7999999999999998d
+		}
+		{
+			id: "5086A096FE5B12AF"
+			rewards: [{
+				id: "2715038EEE11CCB7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4725466AD61B0F42"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Mending"
+			x: -0.4500000000000002d
+			y: -4.5d
+		}
+		{
+			id: "6E0325764A864963"
+			rewards: [{
+				id: "211CF9D3A3D0828F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "204DB9F1594030ED"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:vanishing_curse"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Curse of Vanishing"
+			x: -2.25d
+			y: -1.3499999999999996d
+		}
+		{
+			id: "7397B29249B97BF5"
+			rewards: [{
+				id: "7939FE4874DF3DFD"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "378D82DF4EA89CFF"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "combatroll:longfooted"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Longfooted V"
+			x: -4.949999999999999d
+			y: -0.8999999999999999d
+		}
+		{
+			id: "2864200C92A606FF"
+			rewards: [{
+				id: "0086FEB4911D0040"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "6C24CE688C5753D5"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "combatroll:acrobat"
+							lvl: 10s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Acrobat X"
+			x: -6.3d
+			y: -1.7999999999999998d
+		}
+		{
+			id: "200A8ABD7D38A40D"
+			rewards: [{
+				id: "1BCA0F272AFCFD4A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "59986713C9B5081F"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "combatroll:multi_roll"
+							lvl: 4s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Multi-Roll IV"
+			x: -6.3d
+			y: -2.6999999999999997d
+		}
+		{
+			id: "601D2350AF60D8F5"
+			rewards: [{
+				id: "6A2F08036E92A971"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "19827C94B38CE77B"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "mynethersdelight:poaching"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Poaching"
+			x: 1.8000000000000007d
+			y: -0.4500000000000002d
+		}
+		{
+			id: "462D3C5A7DBE2C26"
+			rewards: [{
+				id: "197B352F94856F2F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "316FC81E575B3854"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "naturesaura:aura_mending"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Nature's Mend"
+			x: 0.44999999999999973d
+			y: -4.5d
+		}
+		{
+			id: "1DE8D918F4FC35C4"
+			rewards: [{
+				id: "3D4F73AC694734E0"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "38C0F0F482E29AB2"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ars_nouveau:mana_regen"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Mana Regen III"
+			x: -8.1d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "31CBB99B95FE52FF"
+			rewards: [{
+				id: "1570A605743C434A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "14F854251A3E2B12"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ars_nouveau:mana_boost"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Mana Boost III"
+			x: -7.200000000000001d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "04B4CC6077D09E2F"
+			rewards: [{
+				id: "706F004DCDFACA16"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "50D687021EFEE31C"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "deep_aether:gloves_reach"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Gloves Block Reach III"
+			x: -7.649999999999999d
+			y: 0.0d
+		}
+		{
+			id: "25D38550D7AB6820"
+			rewards: [{
+				id: "3D62BB32A6B26750"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "18CD6A6D2340DAF2"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "twilightforest:fire_react"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Fire React II"
+			x: -6.300000000000001d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "7845D77202A8200E"
+			rewards: [{
+				id: "644B30E74EE5A17F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4DF22339A747B467"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "twilightforest:chill_aura"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Chill Aura III"
+			x: -5.4d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "00284952CB6E8861"
+			rewards: [{
+				id: "125607A3219D47E7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "63EA830FC61E023D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "twilightforest:destruction"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Destruction III"
+			x: 7.199999999999999d
+			y: 0.0d
+		}
+		{
+			id: "26F135003DD9F1E5"
+			rewards: [{
+				id: "0B96BC269B98EE9A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "69FA4D8D7C081930"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "farmersdelight:backstabbing"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Backstabbing III"
+			x: 6.299999999999999d
+			y: 0.0d
+		}
+		{
+			id: "3787AF25D6BD561E"
+			rewards: [{
+				id: "302E8564887CA53E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "0994F07A27B27A2C"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "enigmaticlegacy:sharpshooter"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Sharpshooter V"
+			x: 8.1d
+			y: -1.7999999999999998d
+		}
+		{
+			id: "361C29776953F0F6"
+			rewards: [{
+				id: "3B6AEA6BC9C074E5"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4466D2505FBC370D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "enigmaticlegacy:ceaseless"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ceaseless"
+			x: 8.999999999999998d
+			y: -1.7999999999999998d
+		}
+		{
+			id: "0DD62767A09D5602"
+			rewards: [{
+				id: "73A0A730DDAC7CCE"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "1BCA45E3348455B7"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "enigmaticlegacy:nemesis"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Curse of Nemesis"
+			x: 0.8999999999999995d
+			y: -0.4500000000000002d
+		}
+		{
+			id: "6EAE0CF9016E2EBB"
+			rewards: [{
+				id: "3DBB103D8E73F867"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "05BA8FC4D96FB11A"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "enigmaticlegacy:torrent"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Torrent V"
+			x: 8.549999999999999d
+			y: -0.8999999999999999d
+		}
+		{
+			id: "76DFAB7E0E9F7752"
+			rewards: [{
+				id: "24FB864F88017B7D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "2B41E1C0E3B20EB0"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "enigmaticlegacy:wrath"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Wrath V"
+			x: 9.45d
+			y: -0.8999999999999999d
+		}
+		{
+			id: "154A4660813FB26B"
+			rewards: [{
+				id: "738AC5E07D6E5E75"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "62A4B99E1DEB9BFE"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "enigmaticlegacy:slayer"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Slayer V"
+			x: 8.099999999999998d
+			y: -4.5d
+		}
+		{
+			id: "53B932BCAD06E1BD"
+			rewards: [{
+				id: "39C1CB788A597238"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "00D67C6B9E2E4C22"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "enigmaticlegacy:eternal_binding"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Curse of Eternal Binding"
+			x: 0.0d
+			y: -0.4500000000000002d
+		}
+		{
+			id: "7BD07EEDD00C5769"
+			rewards: [{
+				id: "2B3A12772B4816BE"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "758BC25FB048AD31"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "enigmaticlegacy:sorrow"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Curse of Sorrow"
+			x: -0.9000000000000004d
+			y: -0.4500000000000002d
+		}
+		{
+			id: "16B685C55FDE6A5A"
+			rewards: [{
+				id: "1577DCF852BDBA3C"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "78ED91F9BFDF8DD8"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "deeperdarker:catalysis"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Catalysis III"
+			x: 7.649999999999999d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "55BB0E634D1E4703"
+			rewards: [{
+				id: "020A8D6C9C1C3F8E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "37C64BB4D3791AD1"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "deeperdarker:sculk_smite"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Sculk Smite V"
+			x: 8.999999999999998d
+			y: -4.5d
+		}
+		{
+			id: "32BF85B8760DEC78"
+			rewards: [{
+				id: "3011C0E7583DCA48"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "2EAFD2437347DC5D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "forbidden_arcanus:permafrost"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Permafrost"
+			x: -0.4500000000000002d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "305C12D3963EF499"
+			rewards: [{
+				id: "3C913BF74BF76C96"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "1C9316171ACE1BCD"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "create:potato_recovery"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Potato Recovery III"
+			x: -6.3d
+			y: 3.15d
+		}
+		{
+			id: "1B2B4BCA34C8CF1E"
+			rewards: [{
+				id: "60994062BE2C8ABE"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "263D90DC867878FB"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "create:capacity"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Capacity III"
+			x: -5.4d
+			y: 3.15d
+		}
+		{
+			id: "62B14A398FB55A58"
+			rewards: [{
+				id: "1321F3746D23568D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "62254F012D1A5030"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "cofh_core:holding"
+							lvl: 4s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Holding IV"
+			x: -7.199999999999999d
+			y: 3.15d
+		}
+		{
+			id: "312A4A3E913CC8BA"
+			rewards: [{
+				id: "2ECCBB6B86FAA1E2"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "2CDF352024518DBE"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "supplementaries:stasis"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Stasis"
+			x: 8.099999999999998d
+			y: 0.0d
+		}
+		{
+			id: "023EEE3996B0E058"
+			rewards: [{
+				id: "10AE6BDAB06BD9E5"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "22B477A1A5591746"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:death_wish"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Death Wish"
+			x: 8.549999999999999d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "787EEF5984168CD1"
+			rewards: [{
+				id: "2EB80896244AB5A5"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "6631AA221D0DDD71"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:dodge"
+							lvl: 2s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Dodge II"
+			x: -5.4d
+			y: -1.7999999999999998d
+		}
+		{
+			id: "4087D46405768F55"
+			rewards: [{
+				id: "7B7395A177891FDF"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "044EFF06DAF17CA7"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:enlightenment"
+							lvl: 2s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Enlightenment II"
+			x: -4.500000000000001d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "1803304EDF44A721"
+			rewards: [{
+				id: "41B906AC802AE472"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "3D4ECEBB291A739F"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:fishing_fanatic"
+							lvl: 8s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "True Fishing Fanatic"
+			x: -5.8500000000000005d
+			y: 2.25d
+		}
+		{
+			id: "474DCE8EB28C3553"
+			rewards: [{
+				id: "6D7DA6E7F5D52449"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "395F70472DA93A0C"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:fuse_cutter"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Fuse Cutter"
+			x: -6.749999999999998d
+			y: 0.0d
+		}
+		{
+			id: "70572C4878C7ABF1"
+			rewards: [{
+				id: "36DE50A5AF464C73"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4F0E1A7EAEC5AB6D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:gold_fuelled"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Gold-Fuelled"
+			x: 0.44999999999999973d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "7637F2FDB2FF20EB"
+			rewards: [{
+				id: "200F295672447A37"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "10D5825B21D701C3"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:harvester"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Harvester III"
+			x: -8.1d
+			y: 3.15d
+		}
+		{
+			id: "2869969F3057983C"
+			rewards: [{
+				id: "3509C5A3384620C8"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4E67FB349909D2A9"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:horse_frost_walker"
+							lvl: 2s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Frost Rider II"
+			x: -0.9000000000000001d
+			y: -2.6999999999999997d
+		}
+		{
+			id: "664B895C4E272A8E"
+			rewards: [{
+				id: "4CE7278390E2A9F0"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "311D3CEC2EC1A5D0"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:horse_protection"
+							lvl: 4s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Armored Caravan IV"
+			x: 0.0d
+			y: -2.6999999999999997d
+		}
+		{
+			id: "2436E1D8F3C17084"
+			rewards: [{
+				id: "557B21749BF8F5AB"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "089C86B2385803B7"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:horse_swiftness"
+							lvl: 4s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Swiftness IV"
+			x: 0.8999999999999995d
+			y: -2.6999999999999997d
+		}
+		{
+			id: "6C501B1D50759953"
+			rewards: [{
+				id: "5EBF004B5756A6A6"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "00D637DC94C7A366"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:hunter"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Hunter III"
+			x: 9.0d
+			y: -2.6999999999999997d
+		}
+		{
+			id: "09C1BD14CCEB2944"
+			rewards: [{
+				id: "711B6CB2CF6967B4"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "00AE86F6160D19C2"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:immortality"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Immortality"
+			x: 1.3499999999999996d
+			y: -4.5d
+		}
+		{
+			id: "1B8C6AF03517F7CB"
+			rewards: [{
+				id: "274118E3FEA85472"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "6610CD951778EDB0"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:leech"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Leech"
+			x: 9.45d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "4A407E43F959E019"
+			rewards: [{
+				id: "1140F55981F64E1A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "42EBF2945DC963C9"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:magic_protection"
+							lvl: 4s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Magic Protection IV"
+			x: -9.0d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "40ECBA4823BCCB73"
+			rewards: [{
+				id: "7CE40AA43A9999ED"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "7D2F1FCA6F7C1366"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:misanthropy"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Misanthropy"
+			x: 10.349999999999998d
+			y: -3.5999999999999996d
+		}
+		{
+			id: "625ED9986D3953DF"
+			rewards: [{
+				id: "6B916C12EBA7553F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "135D092F710F55AD"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:repulsion"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Repulsion"
+			x: -5.849999999999999d
+			y: 0.0d
+		}
+		{
+			id: "4D22CBEB26EC3F76"
+			rewards: [{
+				id: "66C79E37E9033238"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4D30BA76129E38AE"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:sixth_sense"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Sixth Sense"
+			x: -5.4d
+			y: -2.6999999999999997d
+		}
+		{
+			id: "5751F181DB46B4B5"
+			rewards: [{
+				id: "09FDD6177FBC25B6"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "2ECD35691ED15B6A"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:smelter"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Smelter"
+			x: -6.300000000000001d
+			y: 1.3499999999999999d
+		}
+		{
+			id: "0FD7A2086D631E36"
+			rewards: [{
+				id: "12F271D05A63B76D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "0FFF09DFCABF9248"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:telekinesis"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Telekinesis"
+			x: -4.500000000000001d
+			y: 1.3499999999999999d
+		}
+		{
+			id: "1EEF994E32F08C0A"
+			rewards: [{
+				id: "0919AB655AEBFF2D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "6435CEF14D70BEFA"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:breaking_curse"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Curse of Breaking III"
+			x: -0.4500000000000002d
+			y: -1.3499999999999996d
+		}
+		{
+			id: "6509A9F19AC04474"
+			rewards: [{
+				id: "71D5C2CABFB118CE"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "5CE90C12B222DC5F"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:corrosion_curse"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Curse of Corrosion"
+			x: 0.4499999999999993d
+			y: -1.3499999999999996d
+		}
+		{
+			id: "2D5197E6777BEBC0"
+			rewards: [{
+				id: "70C41C55BCAA56A7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "109CF65F17050AA8"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:fatigue_curse"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Curse of Fatigue"
+			x: 1.3499999999999996d
+			y: -1.3499999999999996d
+		}
+		{
+			id: "16F5F81BD603737F"
+			rewards: [{
+				id: "7076B1E58CA9E55A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4EB24FAE15C73CEA"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:incompatibility_curse"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Curse of Incompatibility"
+			x: 2.25d
+			y: -1.3499999999999996d
+		}
+		{
+			id: "6E223D1540210690"
+			rewards: [{
+				id: "1437CF34A7A897CB"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "433E200A1498F17F"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:slippery_curse"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Curse of Slippery"
+			x: -1.7999999999999998d
+			y: -0.4500000000000002d
+		}
+		{
+			id: "3D4A9E300A9618DB"
+			rewards: [{
+				id: "501E0A5DD4CF2BD9"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "27DBCC78E080CA7E"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "veinmining:vein_mining"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Vein Mining V"
+			x: -5.4d
+			y: 1.3499999999999999d
+		}
+		{
+			id: "0DD5BDA6242AC288"
+			rewards: [{
+				id: "118F419CA3B254DB"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "6A660CED533EDB59"
+				item: {
+					Count: 1
+					id: "wizards_reborn:arcane_enchanted_book"
+					tag: {
+						arcaneEnchantments: {
+							"wizards_reborn:wissen_mending": 3
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Wissen Mending III"
+			x: -0.44999999999999973d
+			y: 0.9000000000000004d
+		}
+		{
+			id: "19A5872D1CEC008C"
+			rewards: [{
+				id: "38082C499FC7BCED"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "045F221F253BF47B"
+				item: {
+					Count: 1
+					id: "wizards_reborn:arcane_enchanted_book"
+					tag: {
+						arcaneEnchantments: {
+							"wizards_reborn:life_mending": 3
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Life Mending III"
+			x: -1.35d
+			y: 0.9000000000000004d
+		}
+		{
+			id: "0E8AEBEB8DD974AE"
+			rewards: [{
+				id: "16A78FDC89875F3B"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "62663A37FDB82286"
+				item: {
+					Count: 1
+					id: "wizards_reborn:arcane_enchanted_book"
+					tag: {
+						arcaneEnchantments: {
+							"wizards_reborn:magic_blade": 5
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Magic Blade V"
+			x: 0.44999999999999973d
+			y: 0.9000000000000004d
+		}
+		{
+			id: "4E62ED7A88673609"
+			rewards: [{
+				id: "647FD75DFA5899C9"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "16451AD032CAB9FF"
+				item: {
+					Count: 1
+					id: "wizards_reborn:arcane_enchanted_book"
+					tag: {
+						arcaneEnchantments: {
+							"wizards_reborn:throw": 1
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Throw"
+			x: 1.3499999999999996d
+			y: 0.9000000000000004d
+		}
+		{
+			id: "0AD45EEEE95BEE8B"
+			rewards: [{
+				id: "615A5D731A4091E5"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "619628FC30FB8978"
+				item: {
+					Count: 1
+					id: "wizards_reborn:arcane_enchanted_book"
+					tag: {
+						arcaneEnchantments: {
+							"wizards_reborn:life_roots": 2
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Life Roots II"
+			x: -0.9000000000000001d
+			y: 1.7999999999999998d
+		}
+		{
+			id: "388608873C8EE094"
+			rewards: [{
+				id: "57AF7622BB98C503"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "6287B7C9DFACBEB7"
+				item: {
+					Count: 1
+					id: "wizards_reborn:arcane_enchanted_book"
+					tag: {
+						arcaneEnchantments: {
+							"wizards_reborn:wissen_charge": 2
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Wissen Charge II"
+			x: 0.0d
+			y: 1.7999999999999998d
+		}
+		{
+			id: "553365C19183F78A"
+			rewards: [{
+				id: "3196DF58CCDB8C1F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "1B91CD6201D72DD8"
+				item: {
+					Count: 1
+					id: "wizards_reborn:arcane_enchanted_book"
+					tag: {
+						arcaneEnchantments: {
+							"wizards_reborn:eagle_shot": 4
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Eagle Shot IV"
+			x: -0.4500000000000002d
+			y: 2.6999999999999993d
+		}
+		{
+			id: "63ABC72339047AA7"
+			rewards: [{
+				id: "75B5789F02AFFCA9"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "246485947BD6E79E"
+				item: {
+					Count: 1
+					id: "wizards_reborn:arcane_enchanted_book"
+					tag: {
+						arcaneEnchantments: {
+							"wizards_reborn:split": 4
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Split IV"
+			x: 0.44999999999999973d
+			y: 2.6999999999999993d
+		}
+		{
+			id: "1A991BAB2ACACF1E"
+			rewards: [{
+				id: "39E0C916C72CC59E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "5055E360326F057B"
+				item: {
+					Count: 1
+					id: "wizards_reborn:arcane_enchanted_book"
+					tag: {
+						arcaneEnchantments: {
+							"wizards_reborn:sonar": 3
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Sonar III"
+			x: 0.8999999999999999d
+			y: 1.7999999999999998d
+		}
+		{
+			id: "57DD5091191DDF87"
+			rewards: [{
+				id: "1B0DC99E1F7CBE40"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "250431EA8628278E"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:feather_falling"
+							lvl: 4s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Feather Falling"
+			x: 9.899999999999999d
+			y: 2.25d
+		}
+		{
+			id: "25FE1AB09D41F468"
+			rewards: [{
+				id: "1093EE5BCF438941"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "0CF60EC2AD2455BB"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:thorns"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Thorns"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			id: "1684BB99740B6E95"
+			rewards: [{
+				id: "468EAB206A46B3F8"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "56E1B3E4B894531B"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Sharpness"
+			x: 4.5d
+			y: 1.3499999999999996d
+		}
+		{
+			id: "5813A2E0BFB544CD"
+			rewards: [{
+				id: "5581BFB0D4646BD1"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "6CCBA30797F25C37"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:smite"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Smite"
+			x: 5.399999999999999d
+			y: 1.3499999999999996d
+		}
+		{
+			id: "495DD3D2E8E0811D"
+			rewards: [{
+				id: "31C6B9F0D1FDA77A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "67D4B2BB2CD34F4F"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:bane_of_arthropods"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Bane of Arthropods"
+			x: 6.299999999999999d
+			y: 1.3499999999999996d
+		}
+		{
+			id: "4F495BD8447B926A"
+			rewards: [{
+				id: "643B1709C08BDF0E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "79B2F5AFDD3D7BA6"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:knockback"
+							lvl: 2s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Knockback"
+			x: 7.199999999999999d
+			y: 1.3499999999999996d
+		}
+		{
+			id: "611A789498355929"
+			rewards: [{
+				id: "2E5B13D578241082"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "1457C7350FE536C2"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:fire_aspect"
+							lvl: 2s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Fire Aspect"
+			x: 8.1d
+			y: 1.3499999999999996d
+		}
+		{
+			id: "10DAE36B164D4CDA"
+			rewards: [{
+				id: "434002E4C0DED5C0"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "42184AC44BDD190B"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:looting"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Looting"
+			x: 9.0d
+			y: 1.3499999999999996d
+		}
+		{
+			id: "320F0CF70632D186"
+			rewards: [{
+				id: "5F9FD6554485CB8B"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "21B253B2952445E6"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sweeping"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Sweeping Edge"
+			x: 9.899999999999999d
+			y: 1.3499999999999996d
+		}
+		{
+			id: "0087489152A9BD46"
+			rewards: [{
+				id: "5DDB5C796A95A76D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "3C62326C48D66651"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:efficiency"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Efficiency"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			id: "2B251830A915F243"
+			rewards: [{
+				id: "67578EB5B15AC9CF"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "68D51053FF0EBBEF"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Unbreaking"
+			x: 5.399999999999999d
+			y: 2.25d
+		}
+		{
+			id: "57DB4600BCF0CD9B"
+			rewards: [{
+				id: "7FF6D49EBB1F9679"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "61BB8FBD2F8DD8D9"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:fortune"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Fortune"
+			x: 6.299999999999999d
+			y: 2.25d
+		}
+		{
+			id: "3DF33C4BF007D5E6"
+			rewards: [{
+				id: "7ED155FE5A8A3EB6"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "11A5050A10B2F531"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:power"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Power"
+			x: 4.949999999999999d
+			y: 3.1500000000000004d
+		}
+		{
+			id: "07F3B231CECCB883"
+			rewards: [{
+				id: "3A61FB8F1FFAB777"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "2A54CBFF8FA573DC"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:punch"
+							lvl: 2s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Punch"
+			x: 5.85d
+			y: 3.1500000000000004d
+		}
+		{
+			id: "203CD100B58A1458"
+			rewards: [{
+				id: "33F2E4FCF77EDCB6"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4359B8C77B5BF8C7"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:luck_of_the_sea"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Luck of the Sea"
+			x: 7.199999999999999d
+			y: 2.25d
+		}
+		{
+			id: "50BBEF5B7667B969"
+			rewards: [{
+				id: "2448FD4769081682"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "56E315250635FD36"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:lure"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Lure"
+			x: 8.1d
+			y: 2.25d
+		}
+		{
+			id: "07B7043BFFCC8FCE"
+			rewards: [{
+				id: "7F86BC2EF53A6B8F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "3F194E7A99D318A1"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:loyalty"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Loyalty"
+			x: 7.649999999999999d
+			y: 3.1500000000000004d
+		}
+		{
+			id: "64A85B728D6DBC79"
+			rewards: [{
+				id: "1BEAD8B980B55C89"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "49018D741D78B788"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:impaling"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Impaling"
+			x: 8.549999999999997d
+			y: 3.1500000000000004d
+		}
+		{
+			id: "2F52502420C021BE"
+			rewards: [{
+				id: "2E90DBE009DB9210"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "62948023C7A196C7"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:riptide"
+							lvl: 3s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Riptide"
+			x: 9.45d
+			y: 3.1500000000000004d
+		}
+		{
+			id: "2FECC030D3DA0E9D"
+			rewards: [{
+				id: "08C448A2B06DCA02"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4EE208EB9F849D89"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:piercing"
+							lvl: 4s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "+1 Piercing"
+			x: 6.75d
+			y: 3.1500000000000004d
+		}
+	]
 	title: "Master Enchanter"
 }

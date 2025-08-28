@@ -68,12 +68,22 @@
 			dependencies: ["0BC1E6E014D2F809"]
 			id: "24F667ABDE037B01"
 			tasks: [{
-				id: "68E3860A0EB3DA63"
-				item: "minecraft:end_portal_frame"
-				type: "item"
+				dimension: "minecraft:the_end"
+				id: "32CE6DD72F6A04CA"
+				type: "dimension"
 			}]
 			x: -4.5d
 			y: -1.0d
+		}
+		{
+			id: "35D3E015F5847394"
+			tasks: [{
+				id: "4C7616BECE1A3C24"
+				item: "irons_spellbooks:dragonskin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
 		}
 	]
 	title: "Tier 4 - Basic Logistics"
