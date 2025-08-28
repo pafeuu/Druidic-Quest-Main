@@ -1,0 +1,525 @@
+{
+	icon: "minecraft:chest"
+	id: "1FDA3B752D3AED85"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 6b
+								Slot: 0b
+								id: "minecraft:baked_potato"
+							}
+							{
+								Count: 6b
+								Slot: 1b
+								id: "minecraft:baked_potato"
+							}
+							{
+								Count: 6b
+								Slot: 2b
+								id: "minecraft:baked_potato"
+							}
+							{
+								Count: 6b
+								Slot: 3b
+								id: "minecraft:baked_potato"
+							}
+							{
+								Count: 6b
+								Slot: 4b
+								id: "minecraft:baked_potato"
+							}
+							{
+								Count: 6b
+								Slot: 5b
+								id: "minecraft:baked_potato"
+							}
+							{
+								Count: 6b
+								Slot: 6b
+								id: "minecraft:baked_potato"
+							}
+							{
+								Count: 6b
+								Slot: 7b
+								id: "minecraft:baked_potato"
+							}
+							{
+								Count: 6b
+								Slot: 8b
+								id: "minecraft:baked_potato"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 3b
+								Slot: 0b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 3b
+								Slot: 1b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 3b
+								Slot: 2b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 3b
+								Slot: 3b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 3b
+								Slot: 4b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 3b
+								Slot: 5b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 3b
+								Slot: 6b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 3b
+								Slot: 7b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 3b
+								Slot: 8b
+								id: "minecraft:carrot"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 2b
+								Slot: 0b
+								id: "farmersdelight:egg_sandwich"
+							}
+							{
+								Count: 2b
+								Slot: 1b
+								id: "farmersdelight:chicken_sandwich"
+							}
+							{
+								Count: 2b
+								Slot: 2b
+								id: "brewinandchewin:ham_and_cheese_sandwich"
+							}
+							{
+								Count: 2b
+								Slot: 3b
+								id: "farmersdelight:egg_sandwich"
+							}
+							{
+								Count: 2b
+								Slot: 4b
+								id: "farmersdelight:chicken_sandwich"
+							}
+							{
+								Count: 2b
+								Slot: 5b
+								id: "brewinandchewin:ham_and_cheese_sandwich"
+							}
+							{
+								Count: 2b
+								Slot: 6b
+								id: "farmersdelight:egg_sandwich"
+							}
+							{
+								Count: 2b
+								Slot: 7b
+								id: "farmersdelight:chicken_sandwich"
+							}
+							{
+								Count: 2b
+								Slot: 8b
+								id: "brewinandchewin:ham_and_cheese_sandwich"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 2b
+								Slot: 0b
+								id: "farmersdelight:bacon_sandwich"
+							}
+							{
+								Count: 2b
+								Slot: 1b
+								id: "alexsdelight:bunfungus_sandwich"
+							}
+							{
+								Count: 2b
+								Slot: 2b
+								id: "sob:pbnj"
+							}
+							{
+								Count: 2b
+								Slot: 3b
+								id: "farmersdelight:bacon_sandwich"
+							}
+							{
+								Count: 2b
+								Slot: 4b
+								id: "alexsdelight:bunfungus_sandwich"
+							}
+							{
+								Count: 2b
+								Slot: 5b
+								id: "sob:pbnj"
+							}
+							{
+								Count: 2b
+								Slot: 6b
+								id: "farmersdelight:bacon_sandwich"
+							}
+							{
+								Count: 2b
+								Slot: 7b
+								id: "alexsdelight:bunfungus_sandwich"
+							}
+							{
+								Count: 2b
+								Slot: 8b
+								id: "sob:pbnj"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 10b
+								Slot: 0b
+								id: "brewinandchewin:pizza_slice"
+							}
+							{
+								Count: 10b
+								Slot: 1b
+								id: "vintagedelight:cheese_pizza_slice"
+							}
+							{
+								Count: 10b
+								Slot: 2b
+								id: "vintagedelight:meat_pizza_slice"
+							}
+							{
+								Count: 10b
+								Slot: 3b
+								id: "brewinandchewin:pizza_slice"
+							}
+							{
+								Count: 10b
+								Slot: 4b
+								id: "vintagedelight:cheese_pizza_slice"
+							}
+							{
+								Count: 10b
+								Slot: 5b
+								id: "vintagedelight:meat_pizza_slice"
+							}
+							{
+								Count: 10b
+								Slot: 6b
+								id: "brewinandchewin:pizza_slice"
+							}
+							{
+								Count: 10b
+								Slot: 7b
+								id: "vintagedelight:cheese_pizza_slice"
+							}
+							{
+								Count: 10b
+								Slot: 8b
+								id: "vintagedelight:meat_pizza_slice"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 5b
+								Slot: 0b
+								id: "vintagedelight:roasted_peanut"
+							}
+							{
+								Count: 5b
+								Slot: 1b
+								id: "vintagedelight:roasted_peanut"
+							}
+							{
+								Count: 5b
+								Slot: 2b
+								id: "vintagedelight:roasted_peanut"
+							}
+							{
+								Count: 5b
+								Slot: 3b
+								id: "vintagedelight:roasted_peanut"
+							}
+							{
+								Count: 5b
+								Slot: 4b
+								id: "vintagedelight:roasted_peanut"
+							}
+							{
+								Count: 5b
+								Slot: 5b
+								id: "vintagedelight:roasted_peanut"
+							}
+							{
+								Count: 5b
+								Slot: 6b
+								id: "vintagedelight:peanut"
+							}
+							{
+								Count: 5b
+								Slot: 7b
+								id: "vintagedelight:peanut"
+							}
+							{
+								Count: 5b
+								Slot: 8b
+								id: "vintagedelight:peanut"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 10b
+								Slot: 0b
+								id: "mynethersdelight:bacon-wrapped_sausage_on_a_stick"
+							}
+							{
+								Count: 10b
+								Slot: 1b
+								id: "mynethersdelight:bacon-wrapped_sausage_on_a_stick"
+							}
+							{
+								Count: 10b
+								Slot: 2b
+								id: "mynethersdelight:bacon-wrapped_sausage_on_a_stick"
+							}
+							{
+								Count: 10b
+								Slot: 3b
+								id: "farmersdelight:cooked_bacon"
+							}
+							{
+								Count: 10b
+								Slot: 4b
+								id: "farmersdelight:cooked_bacon"
+							}
+							{
+								Count: 10b
+								Slot: 5b
+								id: "farmersdelight:cooked_bacon"
+							}
+							{
+								Count: 10b
+								Slot: 6b
+								id: "mynethersdelight:bacon-wrapped_sausage_on_a_stick"
+							}
+							{
+								Count: 10b
+								Slot: 7b
+								id: "mynethersdelight:bacon-wrapped_sausage_on_a_stick"
+							}
+							{
+								Count: 10b
+								Slot: 8b
+								id: "mynethersdelight:bacon-wrapped_sausage_on_a_stick"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [{
+							Count: 1b
+							Slot: 4b
+							id: "vintagedelight:deluxe_burger"
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 3b
+								Slot: 0b
+								id: "brewinandchewin:jerky"
+							}
+							{
+								Count: 3b
+								Slot: 1b
+								id: "brewinandchewin:jerky"
+							}
+							{
+								Count: 3b
+								Slot: 2b
+								id: "brewinandchewin:jerky"
+							}
+							{
+								Count: 3b
+								Slot: 3b
+								id: "brewinandchewin:jerky"
+							}
+							{
+								Count: 3b
+								Slot: 4b
+								id: "brewinandchewin:jerky"
+							}
+							{
+								Count: 3b
+								Slot: 5b
+								id: "brewinandchewin:jerky"
+							}
+							{
+								Count: 3b
+								Slot: 6b
+								id: "brewinandchewin:jerky"
+							}
+							{
+								Count: 3b
+								Slot: 7b
+								id: "brewinandchewin:jerky"
+							}
+							{
+								Count: 3b
+								Slot: 8b
+								id: "brewinandchewin:jerky"
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+	title: "snacks"
+}

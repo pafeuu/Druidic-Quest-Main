@@ -1,0 +1,561 @@
+{
+	icon: "minecraft:chest"
+	id: "22BF0BCAFA1E1CF9"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "fruitsdelight:cranberry_cookie"
+							}
+							{
+								Count: 5b
+								Slot: 1b
+								id: "fruitsdelight:lemon_cookie"
+							}
+							{
+								Count: 5b
+								Slot: 2b
+								id: "fruitsdelight:persimmon_cookie"
+							}
+							{
+								Count: 8b
+								Slot: 3b
+								id: "fruitsdelight:cranberry_cookie"
+							}
+							{
+								Count: 5b
+								Slot: 4b
+								id: "fruitsdelight:lemon_cookie"
+							}
+							{
+								Count: 5b
+								Slot: 5b
+								id: "fruitsdelight:persimmon_cookie"
+							}
+							{
+								Count: 8b
+								Slot: 6b
+								id: "fruitsdelight:cranberry_cookie"
+							}
+							{
+								Count: 5b
+								Slot: 7b
+								id: "fruitsdelight:lemon_cookie"
+							}
+							{
+								Count: 5b
+								Slot: 8b
+								id: "fruitsdelight:persimmon_cookie"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 3b
+								Slot: 0b
+								id: "create:honeyed_apple"
+							}
+							{
+								Count: 3b
+								Slot: 1b
+								id: "create:honeyed_apple"
+							}
+							{
+								Count: 3b
+								Slot: 2b
+								id: "create:honeyed_apple"
+							}
+							{
+								Count: 3b
+								Slot: 3b
+								id: "create:honeyed_apple"
+							}
+							{
+								Count: 3b
+								Slot: 4b
+								id: "create:honeyed_apple"
+							}
+							{
+								Count: 3b
+								Slot: 5b
+								id: "create:honeyed_apple"
+							}
+							{
+								Count: 3b
+								Slot: 6b
+								id: "create:honeyed_apple"
+							}
+							{
+								Count: 3b
+								Slot: 7b
+								id: "create:honeyed_apple"
+							}
+							{
+								Count: 3b
+								Slot: 8b
+								id: "create:honeyed_apple"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 3b
+								Slot: 0b
+								id: "minecraft:apple"
+							}
+							{
+								Count: 3b
+								Slot: 1b
+								id: "minecraft:apple"
+							}
+							{
+								Count: 3b
+								Slot: 2b
+								id: "minecraft:apple"
+							}
+							{
+								Count: 3b
+								Slot: 3b
+								id: "minecraft:apple"
+							}
+							{
+								Count: 3b
+								Slot: 4b
+								id: "minecraft:apple"
+							}
+							{
+								Count: 3b
+								Slot: 5b
+								id: "minecraft:apple"
+							}
+							{
+								Count: 3b
+								Slot: 6b
+								id: "minecraft:apple"
+							}
+							{
+								Count: 3b
+								Slot: 7b
+								id: "minecraft:apple"
+							}
+							{
+								Count: 3b
+								Slot: 8b
+								id: "minecraft:apple"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 4b
+								Slot: 0b
+								id: "create:sweet_roll"
+							}
+							{
+								Count: 4b
+								Slot: 1b
+								id: "create:sweet_roll"
+							}
+							{
+								Count: 4b
+								Slot: 2b
+								id: "create:sweet_roll"
+							}
+							{
+								Count: 4b
+								Slot: 3b
+								id: "create:sweet_roll"
+							}
+							{
+								Count: 4b
+								Slot: 5b
+								id: "create:sweet_roll"
+							}
+							{
+								Count: 4b
+								Slot: 6b
+								id: "create:sweet_roll"
+							}
+							{
+								Count: 4b
+								Slot: 7b
+								id: "create:sweet_roll"
+							}
+							{
+								Count: 4b
+								Slot: 8b
+								id: "create:sweet_roll"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 2b
+								Slot: 0b
+								id: "fruitsdelight:sweetberry_jelly"
+							}
+							{
+								Count: 5b
+								Slot: 2b
+								id: "fruitsdelight:pineapple_jelly"
+							}
+							{
+								Count: 2b
+								Slot: 3b
+								id: "fruitsdelight:sweetberry_jelly"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "fruitsdelight:jelly_bread"
+								tag: {
+									JellyEffectRoot: ["PINEAPPLE"]
+								}
+							}
+							{
+								Count: 5b
+								Slot: 5b
+								id: "fruitsdelight:pineapple_jelly"
+							}
+							{
+								Count: 2b
+								Slot: 6b
+								id: "fruitsdelight:sweetberry_jelly"
+							}
+							{
+								Count: 5b
+								Slot: 8b
+								id: "fruitsdelight:pineapple_jelly"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "minecraft:sweet_berries"
+							}
+							{
+								Count: 8b
+								Slot: 1b
+								id: "minecraft:sweet_berries"
+							}
+							{
+								Count: 8b
+								Slot: 2b
+								id: "minecraft:sweet_berries"
+							}
+							{
+								Count: 8b
+								Slot: 3b
+								id: "minecraft:sweet_berries"
+							}
+							{
+								Count: 8b
+								Slot: 4b
+								id: "farmersdelight:sweet_berry_cheesecake"
+							}
+							{
+								Count: 8b
+								Slot: 5b
+								id: "minecraft:sweet_berries"
+							}
+							{
+								Count: 8b
+								Slot: 6b
+								id: "minecraft:sweet_berries"
+							}
+							{
+								Count: 8b
+								Slot: 7b
+								id: "minecraft:sweet_berries"
+							}
+							{
+								Count: 8b
+								Slot: 8b
+								id: "minecraft:sweet_berries"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "fruitsdelight:jelly_bread"
+								tag: {
+									JellyEffectRoot: ["GLOWBERRY"]
+								}
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "fruitsdelight:jelly_bread"
+								tag: {
+									JellyEffectRoot: ["MELON"]
+								}
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "fruitsdelight:mangosteen_jelly"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "fruitsdelight:chorus_jelly"
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "fruitsdelight:jelly_bread"
+								tag: {
+									JellyEffectRoot: ["ORANGE"]
+								}
+							}
+							{
+								Count: 1b
+								Slot: 5b
+								id: "fruitsdelight:jelly_bread"
+								tag: {
+									JellyEffectRoot: ["FIG"]
+								}
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "fruitsdelight:jelly_bread"
+								tag: {
+									JellyEffectRoot: ["KIWI"]
+								}
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "fruitsdelight:jelly_bread"
+								tag: {
+									JellyEffectRoot: ["BAYBERRY"]
+								}
+							}
+							{
+								Count: 1b
+								Slot: 8b
+								id: "fruitsdelight:jelly_bread"
+								tag: {
+									JellyEffectRoot: ["CHORUS"]
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "mynethersdelight:magma_cake_slice"
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "mynethersdelight:magma_cake_slice"
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "mynethersdelight:magma_cake_slice"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "mynethersdelight:magma_cake_slice"
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "mynethersdelight:magma_cake_block"
+							}
+							{
+								Count: 1b
+								Slot: 5b
+								id: "mynethersdelight:magma_cake_slice"
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "mynethersdelight:magma_cake_slice"
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "mynethersdelight:magma_cake_slice"
+							}
+							{
+								Count: 1b
+								Slot: 8b
+								id: "mynethersdelight:magma_cake_slice"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "farmersdelight:chocolate_pie"
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "arsdelight:bastion_pie"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "biomeswevegone:green_apple_pie"
+							}
+							{
+								Count: 1b
+								Slot: 5b
+								id: "create:blaze_cake"
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "minecraft:cake"
+							}
+							{
+								Count: 1b
+								Slot: 8b
+								id: "biomeswevegone:blueberry_pie"
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+	title: "sweets"
+}

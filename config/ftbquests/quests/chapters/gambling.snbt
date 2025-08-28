@@ -80,6 +80,7 @@
 		{
 			dependencies: ["5B05D16DC73F943E"]
 			description: ["&4&lMost of the quests here are not implemented yet :(&r&r"]
+			icon: "vintagedelight:golden_egg"
 			id: "552F01B008A748AF"
 			shape: "hexagon"
 			size: 2.0d
@@ -187,32 +188,90 @@
 			y: -0.5d
 		}
 		{
+			can_repeat: true
+			description: ["Gamble a gold coin on some sweets!"]
+			icon: "minecraft:cookie"
 			id: "48D1FC45C106B8A3"
-			tasks: [{
-				id: "13D69365817B88ED"
-				item: "minecraft:cookie"
-				type: "item"
+			rewards: [{
+				icon: "farmersdelight:honey_cookie"
+				id: "72A08D24EAFB46A5"
+				table_id: 2503732884248861945L
+				type: "random"
 			}]
+			tasks: [
+				{
+					id: "35B269AA47778E23"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					id: "6282F8C866C7FC15"
+					item: "supplementaries:sack"
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Sweets"
 			x: 5.0d
 			y: -0.5d
 		}
 		{
+			can_repeat: true
+			description: ["Gamble a gold coin on drinks!"]
+			icon: "fruitsdelight:orange_juice"
 			id: "1D0075FBA10C27FE"
-			tasks: [{
-				id: "4E2AED8D49B29871"
-				item: "fruitsdelight:hamimelon_juice"
-				type: "item"
+			rewards: [{
+				icon: "fruitsdelight:pear_juice"
+				id: "550FC8BC068ACE7B"
+				table_id: 5848683086198882266L
+				type: "random"
 			}]
+			subtitle: "???"
+			tasks: [
+				{
+					consume_items: true
+					id: "47D481FE3A7A2F80"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1B9B3A8B2249250A"
+					item: "supplementaries:sack"
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Drinks"
 			x: 6.5d
 			y: -0.5d
 		}
 		{
+			can_repeat: true
+			description: ["Gamble a gold coin on some snacks!"]
+			icon: "vintagedelight:cheese_burger"
 			id: "4E5E70E3FC52DA6D"
-			tasks: [{
-				id: "20A9D84B66AA3F70"
-				item: "vintagedelight:cheese_burger"
-				type: "item"
+			rewards: [{
+				icon: "vintagedelight:deluxe_burger"
+				id: "4C7D4581EFE7C544"
+				table_id: 2295212334554738053L
+				type: "random"
 			}]
+			subtitle: "???"
+			tasks: [
+				{
+					id: "20A9D84B66AA3F70"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					id: "6642DA791482E604"
+					item: "supplementaries:sack"
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Snacks"
 			x: 3.5d
 			y: -0.5d
 		}

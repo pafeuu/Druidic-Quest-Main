@@ -1,0 +1,606 @@
+{
+	icon: "minecraft:chest"
+	id: "512AB2477CB83FDA"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:water"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:water"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:water"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:water"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:water"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 5b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:water"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:water"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:water"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 8b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:water"
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 3b
+								Slot: 0b
+								id: "biomeswevegone:aloe_vera_juice"
+							}
+							{
+								Count: 3b
+								Slot: 1b
+								id: "biomeswevegone:aloe_vera_juice"
+							}
+							{
+								Count: 3b
+								Slot: 2b
+								id: "biomeswevegone:aloe_vera_juice"
+							}
+							{
+								Count: 3b
+								Slot: 3b
+								id: "biomeswevegone:aloe_vera_juice"
+							}
+							{
+								Count: 3b
+								Slot: 4b
+								id: "biomeswevegone:aloe_vera_juice"
+							}
+							{
+								Count: 3b
+								Slot: 5b
+								id: "biomeswevegone:aloe_vera_juice"
+							}
+							{
+								Count: 3b
+								Slot: 6b
+								id: "biomeswevegone:aloe_vera_juice"
+							}
+							{
+								Count: 3b
+								Slot: 7b
+								id: "biomeswevegone:aloe_vera_juice"
+							}
+							{
+								Count: 3b
+								Slot: 8b
+								id: "biomeswevegone:aloe_vera_juice"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "arsdelight:bastion_tea"
+							}
+							{
+								Count: 2b
+								Slot: 1b
+								id: "arsdelight:bastion_tea"
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "arsdelight:bastion_tea"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "arsdelight:bastion_tea"
+							}
+							{
+								Count: 2b
+								Slot: 4b
+								id: "arsdelight:bastion_tea"
+							}
+							{
+								Count: 1b
+								Slot: 5b
+								id: "arsdelight:bastion_tea"
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "arsdelight:bastion_tea"
+							}
+							{
+								Count: 2b
+								Slot: 7b
+								id: "arsdelight:bastion_tea"
+							}
+							{
+								Count: 1b
+								Slot: 8b
+								id: "arsdelight:bastion_tea"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 2b
+								Slot: 0b
+								id: "biomeswevegone:aloe_vera_juice"
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:water"
+								}
+							}
+							{
+								Count: 2b
+								Slot: 2b
+								id: "biomeswevegone:aloe_vera_juice"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:water"
+								}
+							}
+							{
+								Count: 2b
+								Slot: 4b
+								id: "biomeswevegone:aloe_vera_juice"
+							}
+							{
+								Count: 1b
+								Slot: 5b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:water"
+								}
+							}
+							{
+								Count: 2b
+								Slot: 6b
+								id: "biomeswevegone:aloe_vera_juice"
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:water"
+								}
+							}
+							{
+								Count: 2b
+								Slot: 8b
+								id: "biomeswevegone:aloe_vera_juice"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "fruitsdelight:orange_juice"
+							}
+							{
+								Count: 8b
+								Slot: 1b
+								id: "fruitsdelight:orange_juice"
+							}
+							{
+								Count: 8b
+								Slot: 2b
+								id: "fruitsdelight:orange_juice"
+							}
+							{
+								Count: 8b
+								Slot: 3b
+								id: "fruitsdelight:orange_juice"
+							}
+							{
+								Count: 8b
+								Slot: 4b
+								id: "farmersdelight:milk_bottle"
+							}
+							{
+								Count: 8b
+								Slot: 5b
+								id: "fruitsdelight:orange_juice"
+							}
+							{
+								Count: 8b
+								Slot: 6b
+								id: "fruitsdelight:orange_juice"
+							}
+							{
+								Count: 8b
+								Slot: 7b
+								id: "fruitsdelight:orange_juice"
+							}
+							{
+								Count: 8b
+								Slot: 8b
+								id: "fruitsdelight:orange_juice"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 3b
+								Slot: 0b
+								id: "sob:cactus_juice"
+							}
+							{
+								Count: 3b
+								Slot: 1b
+								id: "sob:cactus_juice"
+							}
+							{
+								Count: 3b
+								Slot: 2b
+								id: "sob:cactus_juice"
+							}
+							{
+								Count: 3b
+								Slot: 3b
+								id: "sob:cactus_juice"
+							}
+							{
+								Count: 3b
+								Slot: 4b
+								id: "sob:cactus_juice"
+							}
+							{
+								Count: 3b
+								Slot: 5b
+								id: "sob:cactus_juice"
+							}
+							{
+								Count: 3b
+								Slot: 6b
+								id: "sob:cactus_juice"
+							}
+							{
+								Count: 3b
+								Slot: 7b
+								id: "sob:cactus_juice"
+							}
+							{
+								Count: 3b
+								Slot: 8b
+								id: "sob:cactus_juice"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 3b
+								Slot: 0b
+								id: "fruitsdelight:lychee_cherry_tea"
+							}
+							{
+								Count: 2b
+								Slot: 1b
+								id: "fruitsdelight:lychee_cherry_tea"
+							}
+							{
+								Count: 3b
+								Slot: 2b
+								id: "fruitsdelight:lychee_cherry_tea"
+							}
+							{
+								Count: 3b
+								Slot: 3b
+								id: "fruitsdelight:lychee_cherry_tea"
+							}
+							{
+								Count: 2b
+								Slot: 4b
+								id: "fruitsdelight:lychee_cherry_tea"
+							}
+							{
+								Count: 3b
+								Slot: 5b
+								id: "fruitsdelight:lychee_cherry_tea"
+							}
+							{
+								Count: 3b
+								Slot: 6b
+								id: "fruitsdelight:lychee_cherry_tea"
+							}
+							{
+								Count: 2b
+								Slot: 7b
+								id: "fruitsdelight:lychee_cherry_tea"
+							}
+							{
+								Count: 3b
+								Slot: 8b
+								id: "fruitsdelight:lychee_cherry_tea"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "fruitsdelight:kiwi_juice"
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "fruitsdelight:pear_juice"
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "fruitsdelight:orange_juice"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "fruitsdelight:hamimelon_juice"
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "fruitsdelight:mango_tea"
+							}
+							{
+								Count: 1b
+								Slot: 5b
+								id: "fruitsdelight:peach_tea"
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "arsdelight:mendosteen_tea"
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "sob:glittering_gloop"
+							}
+							{
+								Count: 1b
+								Slot: 8b
+								id: "arsdelight:bombegrante_tea"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 7b
+								Slot: 0b
+								id: "fruitsdelight:lemon_juice"
+							}
+							{
+								Count: 7b
+								Slot: 1b
+								id: "fruitsdelight:lemon_juice"
+							}
+							{
+								Count: 7b
+								Slot: 2b
+								id: "fruitsdelight:lemon_juice"
+							}
+							{
+								Count: 7b
+								Slot: 3b
+								id: "fruitsdelight:lemon_juice"
+							}
+							{
+								Count: 7b
+								Slot: 4b
+								id: "fruitsdelight:lemon_juice"
+							}
+							{
+								Count: 7b
+								Slot: 5b
+								id: "fruitsdelight:lemon_juice"
+							}
+							{
+								Count: 7b
+								Slot: 6b
+								id: "fruitsdelight:lemon_juice"
+							}
+							{
+								Count: 7b
+								Slot: 7b
+								id: "fruitsdelight:lemon_juice"
+							}
+							{
+								Count: 7b
+								Slot: 8b
+								id: "fruitsdelight:lemon_juice"
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+	title: "drinks"
+}

@@ -205,16 +205,18 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["25205D8CDA01C923"]
 			id: "5B9D369ED404FE32"
 			tasks: [{
 				id: "04837D256E48C6F0"
 				item: "minecraft:bucket"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 1.0d
 		}
 		{
+			dependencies: ["25205D8CDA01C923"]
 			id: "7ADBACC2256AE817"
 			tasks: [{
 				id: "16377D7A31FAD52A"
@@ -225,20 +227,22 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["25205D8CDA01C923"]
 			id: "5D9784871E2DC5FC"
 			tasks: [{
 				id: "3E4C85DD05E70FF1"
 				item: "starbunclemania:fluid_jar"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["25205D8CDA01C923"]
 			id: "62D22A665048A511"
 			tasks: [{
 				id: "4525A3648AEA7D3C"
@@ -246,9 +250,10 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["25205D8CDA01C923"]
 			id: "6398E76C0FB41209"
 			tasks: [{
 				id: "67C85ED6F6BD63C2"
@@ -268,18 +273,19 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.5d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
+			dependencies: ["25205D8CDA01C923"]
 			id: "488A49BFFFB2C316"
 			tasks: [{
 				id: "3D64304C3D4C5FBC"
 				item: "sophisticatedbackpacks:tank_upgrade"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6398E76C0FB41209"]
@@ -289,8 +295,8 @@
 				item: "thermal:fluid_tank_augment"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.5d
+			x: 5.0d
+			y: 5.5d
 		}
 	]
 	title: "Storage"
