@@ -14,7 +14,7 @@
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "47E756B094F8773A"
 			rewards: [{
-				id: "30334D8D2AC8BB31"
+				id: "1BC616C8CA9C5E4C"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -24,14 +24,14 @@
 				item: "vintagedelight:nut_milk_bottle"
 				type: "item"
 			}]
-			x: -19.6d
-			y: -10.8d
+			x: -19.200000000000003d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "29B28BADDAB200CB"
 			rewards: [{
-				id: "7A5FE3EBFACEA624"
+				id: "3188F23981FC9A83"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -41,14 +41,14 @@
 				item: "vintagedelight:chocolate_nut_granola_bar"
 				type: "item"
 			}]
-			x: -18.8d
-			y: -10.8d
+			x: -18.400000000000002d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "52D016D9F9715F4F"
 			rewards: [{
-				id: "6968196C7333B224"
+				id: "60675E813FAC4F2C"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -58,14 +58,14 @@
 				item: "vintagedelight:fruity_granola_bar"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -10.8d
+			x: -17.6d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "14522131B6948FBF"
 			rewards: [{
-				id: "083CC63141FE8B67"
+				id: "67B05E8D6FDBAFAD"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -75,14 +75,14 @@
 				item: "vintagedelight:deluxe_granola_bar"
 				type: "item"
 			}]
-			x: -17.2d
-			y: -10.8d
+			x: -16.8d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "63EAFE7D5FD9F58B"
 			rewards: [{
-				id: "2251712527D4DA79"
+				id: "1102D9AC681B8974"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -92,14 +92,14 @@
 				item: "fruitsdelight:blueberry_muffin"
 				type: "item"
 			}]
-			x: -16.4d
-			y: -10.8d
+			x: -16.0d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "3A7D012F74F54609"
 			rewards: [{
-				id: "58F7FC9D0EED83A5"
+				id: "3AD416C4E1596A70"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -109,15 +109,14 @@
 				item: "fruitsdelight:cranberry_muffin"
 				type: "item"
 			}]
-			x: -15.6d
-			y: -10.8d
+			x: -15.200000000000001d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2715DEDAB4A5B64A"
 			rewards: [{
-				count: 2
-				id: "24D5AC1C7AA3A6BF"
+				id: "28E13296B7DADEC3"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -127,15 +126,14 @@
 				item: "aether_redux:wynd_bagel"
 				type: "item"
 			}]
-			x: -20.0d
-			y: -10.0d
+			x: -19.6d
+			y: -10.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5C8786353162C524"
 			rewards: [{
-				count: 2
-				id: "4ED5944E84EE338C"
+				id: "652793DE1D5745E0"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -145,14 +143,14 @@
 				item: "aether_redux:blueberry_bagel"
 				type: "item"
 			}]
-			x: -19.2d
-			y: -10.0d
+			x: -18.8d
+			y: -10.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "72D22577C8C5FA1F"
 			rewards: [{
-				id: "1FDAE754F16AB7D9"
+				id: "2B739111F12DD829"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -162,14 +160,14 @@
 				item: "mynethersdelight:toasts"
 				type: "item"
 			}]
-			x: -18.4d
-			y: -10.0d
+			x: -18.0d
+			y: -10.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "52188D129E756E21"
 			rewards: [{
-				id: "296D19123A057ECE"
+				id: "3265B41D75A36FDE"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -179,14 +177,14 @@
 				item: "vintagedelight:oatmeal"
 				type: "item"
 			}]
-			x: -17.6d
-			y: -10.0d
+			x: -17.200000000000003d
+			y: -10.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "62E8DD996FB37A5D"
 			rewards: [{
-				id: "22C23C55F26BF5E6"
+				id: "6277DB9A90867F31"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -196,15 +194,14 @@
 				item: "vintagedelight:overnight_oats"
 				type: "item"
 			}]
-			x: -16.8d
-			y: -10.0d
+			x: -16.400000000000002d
+			y: -10.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "7F7B753BF0AEFD38"
 			rewards: [{
-				count: 2
-				id: "7CA896308CD708A3"
+				id: "53F412FCBB1DDCAD"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -214,15 +211,15 @@
 				item: "aether_redux:oatmeal"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -10.0d
+			x: -15.600000000000001d
+			y: -10.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2564848E88E9ADBB"
 			rewards: [{
 				count: 2
-				id: "7006F4884D99C3F4"
+				id: "3EBF87963511762E"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -232,14 +229,14 @@
 				item: "mynethersdelight:dried_ghast_with_milk"
 				type: "item"
 			}]
-			x: -15.2d
-			y: -10.0d
+			x: -14.8d
+			y: -10.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "1C3A41E45F29302E"
 			rewards: [{
-				id: "76F320DB93B9BB69"
+				id: "13C52D16CA5E65F8"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -249,15 +246,14 @@
 				item: "farmersdelight:bacon_and_eggs"
 				type: "item"
 			}]
-			x: -18.8d
-			y: -9.2d
+			x: -18.0d
+			y: -9.599999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "3B06DF22407D9333"
 			rewards: [{
-				count: 2
-				id: "763B8492E1754E0E"
+				id: "5BC39192B12323F7"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -267,14 +263,14 @@
 				item: "mynethersdelight:breakfast_sampler"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -9.2d
+			x: -17.2d
+			y: -9.599999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "3A256D391C48E420"
 			rewards: [{
-				id: "1B2FDD61E0B069AE"
+				id: "59981037A46F553F"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -284,15 +280,15 @@
 				item: "farmersdelight:egg_sandwich"
 				type: "item"
 			}]
-			x: -17.2d
-			y: -9.2d
+			x: -16.4d
+			y: -9.599999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "3E45B4C50C1BA55D"
 			rewards: [{
 				count: 2
-				id: "58122D5A2C9833BD"
+				id: "4FEB91D96277F298"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -302,14 +298,14 @@
 				item: "mynethersdelight:scotch_eggs"
 				type: "item"
 			}]
-			x: -16.4d
-			y: -9.2d
+			x: -15.599999999999998d
+			y: -9.599999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "51420D9286477592"
 			rewards: [{
-				id: "3A1B3F56C72EA207"
+				id: "41AE0CDAE0A52837"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -319,14 +315,14 @@
 				item: "vintagedelight:cheese_curds"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -17.2d
 			y: -6.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2628CC63CEE6FF72"
 			rewards: [{
-				id: "6D3C2889569CF351"
+				id: "1E17EA2F6134A484"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -336,14 +332,14 @@
 				item: "farmersdelight:cabbage_rolls"
 				type: "item"
 			}]
-			x: -19.2d
+			x: -19.200000000000003d
 			y: -7.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "7243881508C0DF5A"
 			rewards: [{
-				id: "4A6BB4ED2973F707"
+				id: "32CCF2238CDC19A3"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -353,14 +349,14 @@
 				item: "farmersdelight:salmon_roll"
 				type: "item"
 			}]
-			x: -18.4d
+			x: -18.400000000000002d
 			y: -7.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "50AEF134F052DE1E"
 			rewards: [{
-				id: "506DD76A2DC5AC66"
+				id: "0BD2E3A369D9FAC3"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -370,14 +366,14 @@
 				item: "farmersdelight:cod_roll"
 				type: "item"
 			}]
-			x: -17.599999999999998d
+			x: -17.6d
 			y: -7.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2D33EB21E6D5D9E8"
 			rewards: [{
-				id: "1697FB7ADFD82FEC"
+				id: "65D9A8828F9D5F21"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -387,14 +383,14 @@
 				item: "farmersdelight:kelp_roll"
 				type: "item"
 			}]
-			x: -16.799999999999997d
+			x: -16.8d
 			y: -7.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "6398D2798A177927"
 			rewards: [{
-				id: "45C30E80F8CD95CA"
+				id: "309B19280F86360F"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -404,14 +400,14 @@
 				item: "mynethersdelight:burnt_roll"
 				type: "item"
 			}]
-			x: -15.999999999999998d
+			x: -15.200000000000001d
 			y: -7.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5A08013261F18BD2"
 			rewards: [{
-				id: "79E2BD7BE8B565D1"
+				id: "003E50A4936252A2"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -421,14 +417,14 @@
 				item: "farmersdelight:dumplings"
 				type: "item"
 			}]
-			x: -18.8d
+			x: -18.0d
 			y: -6.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "3E9F52DE79F29249"
 			rewards: [{
-				id: "7349E53CAD037F60"
+				id: "0C8AB6FBB9255BD5"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -438,7 +434,7 @@
 				item: "biomeswevegone:blooming_oddion"
 				type: "item"
 			}]
-			x: -17.2d
+			x: -16.4d
 			y: -6.8d
 		}
 		{
@@ -446,7 +442,7 @@
 			id: "4CBABA6F43485B5D"
 			rewards: [{
 				count: 2
-				id: "148C6C74F188EDAF"
+				id: "41E453C870C6A7A7"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -456,7 +452,7 @@
 				item: "mynethersdelight:deviled_egg"
 				type: "item"
 			}]
-			x: -19.2d
+			x: -18.400000000000002d
 			y: -6.0d
 		}
 		{
@@ -464,7 +460,7 @@
 			id: "19772E21BA6E7E20"
 			rewards: [{
 				count: 2
-				id: "0803DF5C85FFCB8E"
+				id: "488A61FBEFB6FAC7"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -474,7 +470,7 @@
 				item: "mynethersdelight:stuffed_pepper"
 				type: "item"
 			}]
-			x: -18.4d
+			x: -17.6d
 			y: -6.0d
 		}
 		{
@@ -482,7 +478,7 @@
 			id: "1B286B6647A5151B"
 			rewards: [{
 				count: 2
-				id: "3D57F0D98322EC8B"
+				id: "64A7D486AED97152"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -492,7 +488,7 @@
 				item: "mynethersdelight:fries_ghasta"
 				type: "item"
 			}]
-			x: -17.599999999999998d
+			x: -16.8d
 			y: -6.0d
 		}
 		{
@@ -500,7 +496,7 @@
 			id: "17D629AD6C1DA2F4"
 			rewards: [{
 				count: 2
-				id: "111121FF2CDBE26E"
+				id: "09C5FA7F7532C46A"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -510,7 +506,7 @@
 				item: "mynethersdelight:spicy_cotton"
 				type: "item"
 			}]
-			x: -16.8d
+			x: -16.000000000000004d
 			y: -6.0d
 		}
 		{
@@ -518,7 +514,7 @@
 			id: "6298EB39E0611B03"
 			rewards: [{
 				count: 2
-				id: "568FB42BF76E66D8"
+				id: "4B399BD3B148ED91"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -528,14 +524,14 @@
 				item: "mynethersdelight:hot_wings_bucket"
 				type: "item"
 			}]
-			x: -15.999999999999996d
+			x: -15.2d
 			y: -6.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "609624DEFAE3C7F9"
 			rewards: [{
-				id: "3360C429B8CE0FFB"
+				id: "63D2A76425F6F833"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -545,14 +541,14 @@
 				item: "vintagedelight:vinegar_mason_jar"
 				type: "item"
 			}]
-			x: -19.6d
-			y: -4.4d
+			x: -19.200000000000003d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "6E48857D11407B5D"
 			rewards: [{
-				id: "35E20D7E854566F2"
+				id: "7E8F8B4DAEC79C49"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -562,14 +558,14 @@
 				item: "vintagedelight:pepper_jam_mason_jar"
 				type: "item"
 			}]
-			x: -18.8d
-			y: -4.4d
+			x: -18.400000000000002d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "06627F19A5E95C3E"
 			rewards: [{
-				id: "5474DDD64DDB312B"
+				id: "59EA5BF844CE1978"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -579,14 +575,14 @@
 				item: "vintagedelight:relish_mason_jar"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -4.4d
+			x: -17.6d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "3DDC226B7586BF55"
 			rewards: [{
-				id: "40D6A49FFFC3CBAD"
+				id: "111F18A0F0EF3A27"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -596,14 +592,14 @@
 				item: "vintagedelight:pickle"
 				type: "item"
 			}]
-			x: -17.2d
-			y: -4.4d
+			x: -16.8d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "7617A7F62A3ACBE5"
 			rewards: [{
-				id: "10D40B7793368F52"
+				id: "29CF542851AF3DAA"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -613,14 +609,14 @@
 				item: "vintagedelight:pickled_pepper"
 				type: "item"
 			}]
-			x: -16.4d
-			y: -4.4d
+			x: -16.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "636D53390D68587B"
 			rewards: [{
-				id: "1D5F469245AB38FB"
+				id: "5D7DA5A4792417E1"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -630,14 +626,14 @@
 				item: "vintagedelight:kimchi"
 				type: "item"
 			}]
-			x: -15.6d
-			y: -4.4d
+			x: -15.200000000000001d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "1190FCA07597643D"
 			rewards: [{
-				id: "1BFDE3644BA05B46"
+				id: "0AFAC2E128C3573F"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -647,14 +643,14 @@
 				item: "vintagedelight:pickled_onion"
 				type: "item"
 			}]
-			x: -19.6d
-			y: -3.6000000000000005d
+			x: -19.200000000000003d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "295F9FA3DB32C15F"
 			rewards: [{
-				id: "746C476F874E5504"
+				id: "127CDDDA290074E0"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -664,14 +660,14 @@
 				item: "vintagedelight:pickled_beetroot"
 				type: "item"
 			}]
-			x: -18.8d
-			y: -3.6000000000000005d
+			x: -18.400000000000002d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "404884FDF4079BAA"
 			rewards: [{
-				id: "2DD398CDD8D82FF5"
+				id: "270B3BE378364B2F"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -681,14 +677,14 @@
 				item: "vintagedelight:pickled_egg"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -3.6000000000000005d
+			x: -17.6d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "75C0998A7C3EFFD6"
 			rewards: [{
-				id: "003C7B6B8DEF9C72"
+				id: "13D186297A4925CE"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -698,14 +694,14 @@
 				item: "vintagedelight:pickled_pitcher_pod"
 				type: "item"
 			}]
-			x: -17.2d
-			y: -3.6000000000000005d
+			x: -16.8d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "222B71C694F0ECFE"
 			rewards: [{
-				id: "168D999282151006"
+				id: "52208C2D9D637217"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -715,14 +711,14 @@
 				item: "vintagedelight:surstromming"
 				type: "item"
 			}]
-			x: -16.4d
-			y: -3.6000000000000005d
+			x: -16.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "4690A5B6C97AD06D"
 			rewards: [{
-				id: "7230666131C779AD"
+				id: "78D7D29A2FF4493A"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -732,14 +728,14 @@
 				item: "vintagedelight:century_egg"
 				type: "item"
 			}]
-			x: -15.6d
-			y: -3.6000000000000005d
+			x: -15.200000000000001d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "48BA305B40E9F0C5"
 			rewards: [{
-				id: "51A4AEDB17B69129"
+				id: "243263B474FA26D2"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -749,14 +745,14 @@
 				item: "farmersdelight:mixed_salad"
 				type: "item"
 			}]
-			x: -13.200000000000001d
-			y: -10.8d
+			x: -12.8d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "34312CE83F58650B"
 			rewards: [{
-				id: "00A9B5A52E6A535C"
+				id: "6B22E93390A2C3D7"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -766,14 +762,14 @@
 				item: "vintagedelight:cucumber_salad"
 				type: "item"
 			}]
-			x: -12.4d
-			y: -10.8d
+			x: -12.0d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "126049184AC5DC07"
 			rewards: [{
-				id: "29E19EE5C64B9DB3"
+				id: "04B191CB0F9708EA"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -783,14 +779,14 @@
 				item: "farmersdelight:fruit_salad"
 				type: "item"
 			}]
-			x: -11.6d
-			y: -10.8d
+			x: -11.2d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "046D672217301041"
 			rewards: [{
-				id: "0004A02B1670725B"
+				id: "6E1E70E9A095D745"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -800,14 +796,14 @@
 				item: "fruitsdelight:mango_salad"
 				type: "item"
 			}]
-			x: -10.800000000000002d
-			y: -10.8d
+			x: -10.400000000000002d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "05946658EE19ECA9"
 			rewards: [{
-				id: "30DE0E4CBF068DA3"
+				id: "718C4533C4B44DC5"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -817,15 +813,14 @@
 				item: "alexsdelight:maggot_salad"
 				type: "item"
 			}]
-			x: -10.000000000000002d
-			y: -10.8d
+			x: -9.600000000000001d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "16811174CEBF489F"
 			rewards: [{
-				count: 2
-				id: "24C927E91EE7A970"
+				id: "5D30DAF200BDCB64"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -835,14 +830,14 @@
 				item: "farmersdelight:nether_salad"
 				type: "item"
 			}]
-			x: -9.200000000000001d
-			y: -10.8d
+			x: -8.8d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2EA6B05A457352A5"
 			rewards: [{
-				id: "4821FE6D63EBB6B9"
+				id: "564B8BF0DD0F085C"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -852,14 +847,14 @@
 				item: "mynethersdelight:ghast_salad"
 				type: "item"
 			}]
-			x: -8.4d
-			y: -10.8d
+			x: -8.0d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "7FD68D466AE9FDA6"
 			rewards: [{
-				id: "1F20EF24CC42AB11"
+				id: "2603A80D77281A62"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -869,14 +864,14 @@
 				item: "farmersdelight:bone_broth"
 				type: "item"
 			}]
-			x: -12.800000000000002d
-			y: -10.0d
+			x: -12.400000000000002d
+			y: -10.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "48E0C7538D8DEF7B"
 			rewards: [{
-				id: "7F8B829FE4B3A38E"
+				id: "102C0119F8248E38"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -886,14 +881,14 @@
 				item: "minecraft:beetroot_soup"
 				type: "item"
 			}]
-			x: -12.000000000000002d
-			y: -10.0d
+			x: -11.600000000000001d
+			y: -10.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2DA3B175D219B95F"
 			rewards: [{
-				id: "62090B62F4E281C9"
+				id: "74B592DD120E3003"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -903,14 +898,14 @@
 				item: "vintagedelight:pickle_soup"
 				type: "item"
 			}]
-			x: -11.200000000000001d
-			y: -10.0d
+			x: -10.8d
+			y: -10.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "43BA4E74EE96DE7A"
 			rewards: [{
-				id: "2EB855FFB7DDA00F"
+				id: "55F13826CF56F146"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -920,14 +915,14 @@
 				item: "mynethersdelight:egg_soup"
 				type: "item"
 			}]
-			x: -10.4d
-			y: -10.0d
+			x: -10.0d
+			y: -10.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "6A1574CB4503FC24"
 			rewards: [{
-				id: "1A85C2BC9FF6E3D8"
+				id: "16ADAEBE0AA0180D"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -937,14 +932,14 @@
 				item: "farmersdelight:chicken_soup"
 				type: "item"
 			}]
-			x: -9.6d
-			y: -10.0d
+			x: -9.2d
+			y: -10.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "14A9F65B09FB534E"
 			rewards: [{
-				id: "4EAB40162B948F73"
+				id: "78BDB667C19B5637"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -954,14 +949,14 @@
 				item: "farmersdelight:vegetable_soup"
 				type: "item"
 			}]
-			x: -8.8d
-			y: -10.0d
+			x: -8.4d
+			y: -10.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "18E0C9BF1E339E3E"
 			rewards: [{
-				id: "4CA75AC6BC155EA3"
+				id: "3372836F9982222C"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -971,14 +966,14 @@
 				item: "farmersdelight:pumpkin_soup"
 				type: "item"
 			}]
-			x: -13.200000000000001d
-			y: -9.200000000000001d
+			x: -12.8d
+			y: -9.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "408B8D9106D748F1"
 			rewards: [{
-				id: "212A0F7842277AAD"
+				id: "5401F5F1EB3F289E"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -988,14 +983,14 @@
 				item: "farmersdelight:noodle_soup"
 				type: "item"
 			}]
-			x: -12.4d
-			y: -9.200000000000001d
+			x: -12.0d
+			y: -9.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2BE6EE58EC39D342"
 			rewards: [{
-				id: "12F4B1E4898F2B47"
+				id: "17A0645DC970371B"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1005,14 +1000,14 @@
 				item: "alexsdelight:acacia_blossom_soup"
 				type: "item"
 			}]
-			x: -11.6d
-			y: -9.200000000000001d
+			x: -11.2d
+			y: -9.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5943105CE64C0C3A"
 			rewards: [{
-				id: "16ED9A3A976BE713"
+				id: "55AA18E80BBD178E"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1022,14 +1017,14 @@
 				item: "biomeswevegone:allium_oddion_soup"
 				type: "item"
 			}]
-			x: -10.800000000000002d
-			y: -9.200000000000001d
+			x: -10.400000000000002d
+			y: -9.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5ABEAACFD90577C0"
 			rewards: [{
-				id: "06F74C180BD40D73"
+				id: "35C0F1D7184CEAAD"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1039,15 +1034,14 @@
 				item: "forbidden_arcanus:bat_soup"
 				type: "item"
 			}]
-			x: -10.000000000000002d
-			y: -9.200000000000001d
+			x: -9.600000000000001d
+			y: -9.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "0D8789F98422D07F"
 			rewards: [{
-				count: 2
-				id: "421C93BDC8A4C9D4"
+				id: "14A6B66960BED92E"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1057,15 +1051,14 @@
 				item: "mynethersdelight:spicy_noodle_soup"
 				type: "item"
 			}]
-			x: -9.200000000000001d
-			y: -9.200000000000001d
+			x: -8.8d
+			y: -9.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "23D151435307D9C7"
 			rewards: [{
-				count: 2
-				id: "0EECF5FFBE108661"
+				id: "30CE24EC48F0AB82"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1075,14 +1068,14 @@
 				item: "mynethersdelight:rock_soup"
 				type: "item"
 			}]
-			x: -8.4d
-			y: -9.200000000000001d
+			x: -8.0d
+			y: -9.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "441379A8AC6D7DAE"
 			rewards: [{
-				id: "7AA23C1DC2B01205"
+				id: "65A4DD05FD76A494"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1092,14 +1085,14 @@
 				item: "minecraft:mushroom_stew"
 				type: "item"
 			}]
-			x: -12.800000000000002d
-			y: -8.4d
+			x: -12.400000000000002d
+			y: -8.799999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2CD6D62D0FA2CC3B"
 			rewards: [{
-				id: "04BE9E2257B79B43"
+				id: "791B6F0D978A33C7"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1109,14 +1102,14 @@
 				item: "minecraft:rabbit_stew"
 				type: "item"
 			}]
-			x: -12.000000000000002d
-			y: -8.4d
+			x: -11.600000000000001d
+			y: -8.799999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "380BE71CEC42C8F6"
 			rewards: [{
-				id: "4943FC48D5244759"
+				id: "1A3175E574F53D70"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1126,14 +1119,14 @@
 				item: "fruitsdelight:fig_chicken_stew"
 				type: "item"
 			}]
-			x: -11.200000000000001d
-			y: -8.4d
+			x: -10.8d
+			y: -8.799999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5CF3538B8825EDD2"
 			rewards: [{
-				id: "70840191FF288C58"
+				id: "4573221B7E2CE0EF"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1143,14 +1136,14 @@
 				item: "farmersdelight:beef_stew"
 				type: "item"
 			}]
-			x: -10.4d
-			y: -8.4d
+			x: -10.0d
+			y: -8.799999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "752D88D818BE68DF"
 			rewards: [{
-				id: "6D0A8B13FFFDB4CD"
+				id: "4876CC92F7DDD4BB"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1160,14 +1153,14 @@
 				item: "farmersdelight:fish_stew"
 				type: "item"
 			}]
-			x: -9.6d
-			y: -8.4d
+			x: -9.2d
+			y: -8.799999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5B5F721F4B42C883"
 			rewards: [{
-				id: "7F018F13C88FFDE0"
+				id: "327AAB0B2DF818E1"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1177,14 +1170,14 @@
 				item: "farmersdelight:baked_cod_stew"
 				type: "item"
 			}]
-			x: -8.8d
-			y: -8.4d
+			x: -8.4d
+			y: -8.799999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "7FC60E36A23D9601"
 			rewards: [{
-				id: "16423FADA4412EC9"
+				id: "2964619EF2FDA090"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1194,14 +1187,14 @@
 				item: "alexsdelight:kangaroo_stew"
 				type: "item"
 			}]
-			x: -12.800000000000002d
-			y: -7.6000000000000005d
+			x: -12.799999999999999d
+			y: -7.999999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "41442C193E4EF669"
 			rewards: [{
-				id: "4C6C2B311DCADE9E"
+				id: "2728AD497E6D4D5E"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1211,14 +1204,14 @@
 				item: "biomeswevegone:white_puffball_stew"
 				type: "item"
 			}]
-			x: -12.000000000000002d
-			y: -7.6000000000000005d
+			x: -11.999999999999998d
+			y: -7.999999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "1EEE48292FCF1ECA"
 			rewards: [{
-				id: "30670E959FE1772E"
+				id: "427F26A34459D0A8"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1228,15 +1221,15 @@
 				item: "alexsmobs:mosquito_repellent_stew"
 				type: "item"
 			}]
-			x: -11.200000000000005d
-			y: -7.6000000000000005d
+			x: -11.600000000000001d
+			y: -7.199999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "6F8E5E57EA65C1EC"
 			rewards: [{
 				count: 2
-				id: "4B35F5F010644495"
+				id: "64241B7EF7AE7549"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1246,15 +1239,15 @@
 				item: "mynethersdelight:strider_stew"
 				type: "item"
 			}]
-			x: -10.400000000000004d
-			y: -7.6000000000000005d
+			x: -10.000000000000002d
+			y: -7.199999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "11022794A9A2C395"
 			rewards: [{
 				count: 2
-				id: "4EEB25C224768C77"
+				id: "6E41070A4B1F5FF2"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1264,15 +1257,15 @@
 				item: "mynethersdelight:spicy_hoglin_stew"
 				type: "item"
 			}]
-			x: -9.600000000000003d
-			y: -7.6000000000000005d
+			x: -9.200000000000001d
+			y: -7.199999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "611E451C2A2EBD3F"
 			rewards: [{
 				count: 2
-				id: "2451E2E6FA9D608E"
+				id: "5C3577E330DDC3AF"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1282,14 +1275,14 @@
 				item: "vintagedelight:ghostly_chili"
 				type: "item"
 			}]
-			x: -8.8d
-			y: -7.6000000000000005d
+			x: -8.399999999999999d
+			y: -7.199999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "60A6CF71B37DD187"
 			rewards: [{
-				id: "511EE63C00C65CE2"
+				id: "25503929EF3C635F"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1299,15 +1292,15 @@
 				item: "farmersdelight:barbecue_stick"
 				type: "item"
 			}]
-			x: -13.6d
-			y: -5.2d
+			x: -12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "79BFE5DE95C5B426"
 			rewards: [{
 				count: 2
-				id: "56F551573930B82C"
+				id: "561D2FE6C4BFDB9D"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1317,15 +1310,15 @@
 				item: "mynethersdelight:red_loin_on_a_stick"
 				type: "item"
 			}]
-			x: -12.799999999999999d
-			y: -5.2d
+			x: -9.6d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "1917A71DECB11B7A"
 			rewards: [{
 				count: 2
-				id: "02B86B1E70DCF904"
+				id: "5B9AC026752D36DF"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1335,15 +1328,15 @@
 				item: "mynethersdelight:bacon-wrapped_sausage_on_a_stick"
 				type: "item"
 			}]
-			x: -11.999999999999998d
-			y: -5.2d
+			x: -8.799999999999999d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "04660063CECCA177"
 			rewards: [{
 				count: 2
-				id: "59E0F55A09DA341F"
+				id: "36C7F3F2BDE8A969"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1353,14 +1346,15 @@
 				item: "mynethersdelight:spicy_skewer"
 				type: "item"
 			}]
-			x: -11.2d
-			y: -5.2d
+			x: -8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "674030E2F3D71C72"
 			rewards: [{
-				id: "32A722634BC45A60"
+				count: 2
+				id: "64A51AA7F255CBFA"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1370,14 +1364,15 @@
 				item: "mynethersdelight:hotdog"
 				type: "item"
 			}]
-			x: -10.399999999999999d
-			y: -5.2d
+			x: -11.200000000000003d
+			y: -4.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "038B2BDE1A8DADF1"
 			rewards: [{
-				id: "357B2E68CFEDC8F9"
+				count: 2
+				id: "70586FC1BE9409FF"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1387,15 +1382,15 @@
 				item: "mynethersdelight:hotdog_with_mixed_salad"
 				type: "item"
 			}]
-			x: -9.6d
-			y: -5.2d
+			x: -10.400000000000004d
+			y: -4.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5C11EB4505081487"
 			rewards: [{
 				count: 2
-				id: "0BF6E40CE12B7DCC"
+				id: "205A23568AA35994"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1405,15 +1400,15 @@
 				item: "mynethersdelight:hotdog_with_nether_salad"
 				type: "item"
 			}]
-			x: -8.799999999999999d
-			y: -5.2d
+			x: -9.600000000000003d
+			y: -4.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "3DE4FAD924D8E1DB"
 			rewards: [{
 				count: 2
-				id: "4CE7888C89018986"
+				id: "53D4D0ED21B6E2F9"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1423,14 +1418,14 @@
 				item: "mynethersdelight:chilidog"
 				type: "item"
 			}]
-			x: -7.999999999999999d
-			y: -5.2d
+			x: -8.800000000000004d
+			y: -4.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5D3FF54069320518"
 			rewards: [{
-				id: "2A416C5171C2CD1F"
+				id: "7BC20A415D58CED8"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1441,13 +1436,13 @@
 				type: "item"
 			}]
 			x: -12.8d
-			y: -6.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "43B7334553EB5554"
 			rewards: [{
-				id: "58B615379F7199D4"
+				id: "1F68E47F6AE20F2F"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1458,13 +1453,13 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: -6.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5668F3ADD016FAA8"
 			rewards: [{
-				id: "0A5BE72CCD434687"
+				id: "679704766C9C86BE"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1475,13 +1470,13 @@
 				type: "item"
 			}]
 			x: -11.200000000000001d
-			y: -6.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "67C29A9BCECD3ECE"
 			rewards: [{
-				id: "3FA66E9656851CDF"
+				id: "6375D84547A0205D"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1492,13 +1487,13 @@
 				type: "item"
 			}]
 			x: -10.4d
-			y: -6.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "16A9240D5F909DA2"
 			rewards: [{
-				id: "5BAF4A0E776274E7"
+				id: "10F2B932FB35FE23"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1508,15 +1503,15 @@
 				item: "alexsdelight:bison_burger"
 				type: "item"
 			}]
-			x: -9.6d
-			y: -6.0d
+			x: -8.8d
+			y: -5.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "03488D8E0C852591"
 			rewards: [{
 				count: 2
-				id: "5377DF6D041D9960"
+				id: "18BC31DD431B2D15"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1526,14 +1521,14 @@
 				item: "mynethersdelight:nether_burger"
 				type: "item"
 			}]
-			x: -8.8d
-			y: -6.0d
+			x: -8.000000000000002d
+			y: -5.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "0F17C23375954120"
 			rewards: [{
-				id: "4B4C68FD9B1AB1AB"
+				id: "74899862E6DA5BFB"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1543,14 +1538,14 @@
 				item: "farmersdelight:chicken_sandwich"
 				type: "item"
 			}]
-			x: -13.200000000000001d
-			y: -4.4d
+			x: -9.6d
+			y: -5.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "0E3BFB13834579BC"
 			rewards: [{
-				id: "1B7A764E87F5FBDF"
+				id: "695272D72526D5A8"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1560,14 +1555,14 @@
 				item: "farmersdelight:bacon_sandwich"
 				type: "item"
 			}]
-			x: -12.4d
-			y: -4.4d
+			x: -12.399999999999999d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "604309504E19A396"
 			rewards: [{
-				id: "056F75E9AF642CBC"
+				id: "4D829B1520B87E9E"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1577,14 +1572,14 @@
 				item: "alexsdelight:bunfungus_sandwich"
 				type: "item"
 			}]
-			x: -11.6d
-			y: -4.4d
+			x: -11.599999999999998d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "7DA5609058406A29"
 			rewards: [{
-				id: "465778D848467883"
+				id: "0DFC78FAD4DB50BE"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1594,14 +1589,14 @@
 				item: "vintagedelight:pb_j"
 				type: "item"
 			}]
-			x: -10.8d
-			y: -4.4d
+			x: -9.999999999999998d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "47156D12B569F1DA"
 			rewards: [{
-				id: "42D7080110C91DBE"
+				id: "762C30FDADA167F5"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1611,14 +1606,14 @@
 				item: "farmersdelight:stuffed_potato"
 				type: "item"
 			}]
-			x: -8.399999999999999d
-			y: -4.4d
+			x: -12.000000000000002d
+			y: -4.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "4D5A3258DD237BD9"
 			rewards: [{
-				id: "2251164A7F8578F9"
+				id: "704B14BF941B80EA"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1628,14 +1623,14 @@
 				item: "farmersdelight:mutton_wrap"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -4.4d
+			x: -9.199999999999998d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "7B37EF6C83B9ECF9"
 			rewards: [{
-				id: "54E2645619E9D55A"
+				id: "0FA58B5739CBE9EE"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1645,14 +1640,14 @@
 				item: "vintagedelight:stuffed_burrito"
 				type: "item"
 			}]
-			x: -9.2d
-			y: -4.4d
+			x: -8.399999999999997d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "72759F78F2086EB5"
 			rewards: [{
-				id: "56ABFE81F9222CB1"
+				id: "52624054718FA84B"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -1663,13 +1658,13 @@
 				type: "item"
 			}]
 			x: -12.4d
-			y: -3.5999999999999996d
+			y: -2.3999999999999995d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "73B58DF33E9403F4"
 			rewards: [{
-				id: "32F2CE8AFA5E3E68"
+				id: "1B7BF2634EC5485F"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -1680,13 +1675,13 @@
 				type: "item"
 			}]
 			x: -11.599999999999998d
-			y: -3.5999999999999996d
+			y: -2.3999999999999995d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "1847DA940EC5F0B9"
 			rewards: [{
-				id: "524C9DF1C6AFE726"
+				id: "46084CD133589A9B"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1697,13 +1692,13 @@
 				type: "item"
 			}]
 			x: -10.799999999999999d
-			y: -3.5999999999999996d
+			y: -2.3999999999999995d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2243EC628617DEBF"
 			rewards: [{
-				id: "5F1C0A3B9BC334FE"
+				id: "2FF8840F8331B401"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -1714,14 +1709,14 @@
 				type: "item"
 			}]
 			x: -9.999999999999998d
-			y: -3.5999999999999996d
+			y: -2.3999999999999995d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2B5C96C0B5B61F65"
 			rewards: [{
 				count: 2
-				id: "3A59BBF3186807CC"
+				id: "46E8BF5BC5EB3BFA"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -1731,14 +1726,14 @@
 				item: "mynethersdelight:bread_loaf"
 				type: "item"
 			}]
-			x: -9.199999999999998d
-			y: -3.5999999999999996d
+			x: -7.6d
+			y: -2.3999999999999995d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "154538A20F20BF40"
 			rewards: [{
-				id: "06674B31A82E20E5"
+				id: "108D2AEF1AF98920"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1748,14 +1743,14 @@
 				item: "farmersdelight:cooked_rice"
 				type: "item"
 			}]
-			x: -5.6000000000000005d
-			y: -10.8d
+			x: -4.800000000000001d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "65157E839F7137AC"
 			rewards: [{
-				id: "37599A202F6770E0"
+				id: "33850196A3277F88"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1765,14 +1760,14 @@
 				item: "farmersdelight:fried_rice"
 				type: "item"
 			}]
-			x: -4.800000000000001d
-			y: -10.8d
+			x: -4.000000000000001d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "70364A491A279520"
 			rewards: [{
-				id: "1BE38A771D390DDE"
+				id: "79B58FA9DD87B84F"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1782,14 +1777,14 @@
 				item: "farmersdelight:mushroom_rice"
 				type: "item"
 			}]
-			x: -4.000000000000002d
-			y: -10.8d
+			x: -3.200000000000002d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "7E44FA5ECFDF131D"
 			rewards: [{
-				id: "5E66F056FBC63315"
+				id: "05DCFF446490123B"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1799,14 +1794,14 @@
 				item: "alexsmobs:shrimp_fried_rice"
 				type: "item"
 			}]
-			x: -3.200000000000001d
-			y: -10.8d
+			x: -2.4000000000000012d
+			y: -11.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "1E103F46150B5EC4"
 			rewards: [{
-				id: "0531E83447385F82"
+				id: "026E3ABDEF1FEF49"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1816,14 +1811,14 @@
 				item: "vintagedelight:cheese_pasta"
 				type: "item"
 			}]
-			x: -6.4d
-			y: -10.000000000000002d
+			x: -5.6000000000000005d
+			y: -10.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "6499CCEF55C25886"
 			rewards: [{
-				id: "51180D5419F28A63"
+				id: "266E67CAB7EFC5A1"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1833,14 +1828,14 @@
 				item: "farmersdelight:pasta_with_meatballs"
 				type: "item"
 			}]
-			x: -5.6000000000000005d
-			y: -10.000000000000002d
+			x: -4.000000000000001d
+			y: -10.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5E7AC0C81F0857AC"
 			rewards: [{
-				id: "0773FFABBCB99845"
+				id: "2ECCA10BA7022ADE"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1850,14 +1845,14 @@
 				item: "farmersdelight:pasta_with_mutton_chop"
 				type: "item"
 			}]
-			x: -4.800000000000001d
-			y: -10.000000000000002d
+			x: -3.200000000000001d
+			y: -10.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5B7CAB6CDC07B117"
 			rewards: [{
-				id: "6F0CC25BCF22432F"
+				id: "5B031B0D4AEB3D6E"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1867,14 +1862,14 @@
 				item: "alexsdelight:lobster_pasta"
 				type: "item"
 			}]
-			x: -2.4000000000000004d
-			y: -10.0d
+			x: -1.6000000000000005d
+			y: -10.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "28FA1E3E59A28BCA"
 			rewards: [{
-				id: "4AD1BBF9D8B63B4F"
+				id: "1BE7D5B38FB866A7"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1884,14 +1879,15 @@
 				item: "alexsdelight:kangaroo_pasta"
 				type: "item"
 			}]
-			x: -3.200000000000001d
-			y: -10.000000000000002d
+			x: -5.200000000000001d
+			y: -9.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "1CD1A123E45E9AEB"
 			rewards: [{
-				id: "6270F4ED5D955B57"
+				count: 2
+				id: "2E9CE1E809820E81"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1901,14 +1897,14 @@
 				item: "farmersdelight:squid_ink_pasta"
 				type: "item"
 			}]
-			x: -5.200000000000001d
-			y: -9.200000000000001d
+			x: -3.6000000000000005d
+			y: -9.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "6E33ED48429F2C92"
 			rewards: [{
-				id: "6AB7C9B65AA0F0CD"
+				id: "02665F9E67982888"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1918,15 +1914,15 @@
 				item: "farmersdelight:vegetable_noodles"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -10.0d
+			x: -2.400000000000001d
+			y: -10.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "430FF7004ED05C89"
 			rewards: [{
 				count: 2
-				id: "6807BD00320339C8"
+				id: "4238B5887A3110ED"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1936,15 +1932,15 @@
 				item: "mynethersdelight:twisted_ghasta"
 				type: "item"
 			}]
-			x: -4.4d
-			y: -9.200000000000001d
+			x: -2.8d
+			y: -9.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "478B86EC6A3A134F"
 			rewards: [{
 				count: 2
-				id: "40286931280ADFA3"
+				id: "59141CF0D0EF4998"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1954,14 +1950,14 @@
 				item: "mynethersdelight:plate_of_ghasta_with_cream"
 				type: "item"
 			}]
-			x: -3.5999999999999996d
-			y: -9.200000000000001d
+			x: -1.9999999999999991d
+			y: -9.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5EBE05A47AF470C7"
 			rewards: [{
-				id: "2902B6C40D8242FC"
+				id: "2C1C9A09256E9485"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1971,14 +1967,14 @@
 				item: "farmersdelight:ratatouille"
 				type: "item"
 			}]
-			x: -5.6000000000000005d
-			y: -8.000000000000002d
+			x: -5.2d
+			y: -8.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "4EB86290682BB214"
 			rewards: [{
-				id: "0F350F03CF3D4D5E"
+				id: "08A6A784F03F9A7F"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -1988,14 +1984,14 @@
 				item: "vintagedelight:pad_thai"
 				type: "item"
 			}]
-			x: -4.4d
-			y: -7.200000000000001d
+			x: -4.000000000000001d
+			y: -7.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "006F96337FA374AC"
 			rewards: [{
-				id: "6A952ADFC418A348"
+				id: "04211F58C1641592"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2005,14 +2001,14 @@
 				item: "farmersdelight:grilled_salmon"
 				type: "item"
 			}]
-			x: -4.800000000000001d
-			y: -8.000000000000002d
+			x: -4.4d
+			y: -8.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5496F2D941934A48"
 			rewards: [{
-				id: "09CA85BBA6D6CFE5"
+				id: "5A9142CD96037A81"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2022,14 +2018,14 @@
 				item: "farmersdelight:roasted_mutton_chops"
 				type: "item"
 			}]
-			x: -4.000000000000002d
-			y: -8.000000000000002d
+			x: -3.6000000000000014d
+			y: -8.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "06C5CE86BE21742A"
 			rewards: [{
-				id: "4BD507CF45172CA3"
+				id: "0C61AB1291D06AC1"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2039,14 +2035,14 @@
 				item: "farmersdelight:steak_and_potatoes"
 				type: "item"
 			}]
-			x: -3.200000000000001d
-			y: -8.000000000000002d
+			x: -2.8000000000000007d
+			y: -8.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2BE19929C48F4511"
 			rewards: [{
-				id: "7D564CA60ADFE5B5"
+				id: "065EAB6A09D510F4"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2056,14 +2052,14 @@
 				item: "fruitsdelight:orange_chicken"
 				type: "item"
 			}]
-			x: -5.200000000000001d
-			y: -7.200000000000001d
+			x: -4.800000000000002d
+			y: -7.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "3116AE1C216354B8"
 			rewards: [{
-				id: "124D399EDEB40E94"
+				id: "7B26B8FD9A16D781"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2073,14 +2069,14 @@
 				item: "fruitsdelight:orange_marinated_pork"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -7.200000000000001d
+			x: -5.6000000000000005d
+			y: -7.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "0B89D5A3C956A357"
 			rewards: [{
-				id: "25C21B9152583986"
+				id: "36829E146DBDA30D"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2090,14 +2086,14 @@
 				item: "fruitsdelight:pineapple_marinated_pork"
 				type: "item"
 			}]
-			x: -3.6000000000000014d
-			y: -7.200000000000001d
+			x: -3.200000000000002d
+			y: -7.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2AD7898BB38D52E1"
 			rewards: [{
-				id: "51FFC99CC3246CE5"
+				id: "73DDF3FCDA040147"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2107,14 +2103,14 @@
 				item: "fruitsdelight:lychee_chicken"
 				type: "item"
 			}]
-			x: -2.8000000000000007d
-			y: -7.200000000000001d
+			x: -2.4000000000000012d
+			y: -7.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "064288D55371923F"
 			rewards: [{
-				id: "7D162A309A3ED25D"
+				id: "61B191267626866E"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2124,7 +2120,7 @@
 				item: "alexsdelight:gongylidia_bruschetta"
 				type: "item"
 			}]
-			x: -16.4d
+			x: -15.599999999999998d
 			y: -6.8d
 		}
 		{
@@ -2132,7 +2128,7 @@
 			id: "1630CFD3AA1853E5"
 			rewards: [{
 				count: 2
-				id: "2D117BD798F41D1F"
+				id: "26649736BD5E5AB1"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2142,15 +2138,15 @@
 				item: "mynethersdelight:bleeding_tartar"
 				type: "item"
 			}]
-			x: -5.6000000000000005d
-			y: -6.400000000000001d
+			x: -4.4d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "3D68349D3624DB4B"
 			rewards: [{
 				count: 2
-				id: "04740F7453C8AB80"
+				id: "0BC62460DA5566B8"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2160,14 +2156,15 @@
 				item: "mynethersdelight:strider_with_grilled_fungus"
 				type: "item"
 			}]
-			x: -3.200000000000001d
-			y: -5.600000000000001d
+			x: -2.4000000000000012d
+			y: -5.200000000000001d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "518406C341D430AE"
 			rewards: [{
-				id: "0B6D28F67CEE35F3"
+				count: 2
+				id: "3384551E3C0B74AA"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2177,15 +2174,15 @@
 				item: "mynethersdelight:crimson_stroganoff"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -6.400000000000001d
+			x: -2.8d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "428131518251CFA5"
 			rewards: [{
 				count: 2
-				id: "6C044CE255AA953F"
+				id: "5EA0FBC4F01A1EF1"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2195,15 +2192,15 @@
 				item: "mynethersdelight:giant_takoyaki"
 				type: "item"
 			}]
-			x: -3.200000000000001d
-			y: -6.400000000000001d
+			x: -2.000000000000001d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "313FF872299EC56C"
 			rewards: [{
 				count: 2
-				id: "1D94482A79A2B45A"
+				id: "496303E0E5EE0AF8"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2213,15 +2210,15 @@
 				item: "mynethersdelight:sausage_and_potatoes"
 				type: "item"
 			}]
-			x: -5.6000000000000005d
-			y: -5.600000000000001d
+			x: -4.800000000000001d
+			y: -5.200000000000001d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "642C5C2EF54F509A"
 			rewards: [{
 				count: 2
-				id: "6586119C45C8236B"
+				id: "6CFC51248929F865"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2231,15 +2228,15 @@
 				item: "mynethersdelight:blue_tenderloin_steak"
 				type: "item"
 			}]
-			x: -4.800000000000001d
-			y: -5.600000000000001d
+			x: -4.000000000000001d
+			y: -5.200000000000001d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "279BC9F688446BF9"
 			rewards: [{
 				count: 2
-				id: "5A691938BA8AE487"
+				id: "17815FE9ADD33D51"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2249,15 +2246,15 @@
 				item: "mynethersdelight:fried_hoglin_chop"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.600000000000001d
+			x: -3.2d
+			y: -5.200000000000001d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "7E635DC8D4220D19"
 			rewards: [{
 				count: 2
-				id: "6CD4E65E1C89F3C7"
+				id: "03207AE25B552E62"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
@@ -2267,14 +2264,14 @@
 				item: "mynethersdelight:spicy_curry"
 				type: "item"
 			}]
-			x: -4.800000000000001d
-			y: -6.400000000000001d
+			x: -3.6000000000000005d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2BC2910F0F54F883"
 			rewards: [{
-				id: "6B8B00838567C895"
+				id: "11A7D6A8C22B5B15"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -2284,14 +2281,14 @@
 				item: "farmersdelight:rice_roll_medley_block"
 				type: "item"
 			}]
-			x: -5.6000000000000005d
-			y: -4.400000000000001d
+			x: -4.000000000000001d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "6550FC207527253E"
 			rewards: [{
-				id: "6DE241AEFA9765F8"
+				id: "3CC94C7D0DB577DC"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -2302,13 +2299,13 @@
 				type: "item"
 			}]
 			x: -4.800000000000001d
-			y: -4.400000000000001d
+			y: -3.1999999999999993d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "1AAD38436C52EFB2"
 			rewards: [{
-				id: "194F5534DDC73954"
+				id: "2C000D0640E9349F"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -2319,13 +2316,13 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -4.400000000000001d
+			y: -3.1999999999999993d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5E66316AB045FFCF"
 			rewards: [{
-				id: "32EAFDA9C63BF3E4"
+				id: "0D1EEB5FB0EEFB28"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -2335,14 +2332,14 @@
 				item: "farmersdelight:honey_glazed_ham_block"
 				type: "item"
 			}]
-			x: -3.200000000000001d
-			y: -4.400000000000001d
+			x: -3.2000000000000015d
+			y: -3.1999999999999993d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "7626913CA136C79E"
 			rewards: [{
-				id: "2A16EBE3B87633AA"
+				id: "468345F0BC1F76B5"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -2352,14 +2349,14 @@
 				item: "farmersdelight:shepherds_pie_block"
 				type: "item"
 			}]
-			x: -5.6000000000000005d
-			y: -3.6000000000000014d
+			x: -2.4000000000000004d
+			y: -3.1999999999999993d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "18ECF4B33975E327"
 			rewards: [{
-				id: "47F78BA2C464646C"
+				id: "6582132E24CBD40E"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -2369,15 +2366,15 @@
 				item: "farmersdelight:stuffed_pumpkin_block"
 				type: "item"
 			}]
-			x: -4.800000000000001d
-			y: -3.6000000000000014d
+			x: -5.2d
+			y: -2.3999999999999986d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "44813DA4F97D4587"
 			rewards: [{
 				count: 2
-				id: "177254A6C99763FF"
+				id: "1707C9D1A4430A5A"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -2387,15 +2384,15 @@
 				item: "mynethersdelight:striderloaf"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.6000000000000014d
+			x: -2.8000000000000003d
+			y: -2.3999999999999986d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "3127B72A67D081DC"
 			rewards: [{
 				count: 2
-				id: "782666409834D94A"
+				id: "6F1A32BCF765DB8C"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
@@ -2405,8 +2402,691 @@
 				item: "mynethersdelight:roast_stuffed_hoglin"
 				type: "item"
 			}]
-			x: -3.200000000000001d
-			y: -3.6000000000000014d
+			x: -2.0000000000000013d
+			y: -2.3999999999999986d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2080F7C4794C06A6"
+			rewards: [{
+				id: "123AED701F98AA48"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "0E96EFF679EB7FE2"
+				item: "brewinandchewin:kimchi"
+				type: "item"
+			}]
+			x: -18.400000000000002d
+			y: -2.3999999999999986d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "56C7992778B2DE5E"
+			rewards: [{
+				id: "678867A098C536A1"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "4223E480FCE8E711"
+				item: "brewinandchewin:jerky"
+				type: "item"
+			}]
+			x: -17.6d
+			y: -2.3999999999999986d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "47AD7D01BB93931A"
+			rewards: [{
+				id: "09699E6404920B1F"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "420B09FF12968021"
+				item: "brewinandchewin:pickled_pickles"
+				type: "item"
+			}]
+			x: -16.8d
+			y: -2.3999999999999986d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7C8773F044892B30"
+			rewards: [{
+				id: "7263DCC38E75CC14"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "5E624E83F7856310"
+				item: "brewinandchewin:kippers"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.3999999999999986d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7B7106BCE45928FC"
+			rewards: [{
+				id: "4F706920F90E0B0B"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "26D2BFBD565F623B"
+				item: "brewinandchewin:vegetable_omelet"
+				type: "item"
+			}]
+			x: -18.8d
+			y: -9.599999999999998d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0047CD4E094FB646"
+			rewards: [{
+				id: "685410D770D40C04"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "54639381C0EBCE4C"
+				item: "brewinandchewin:creamy_onion_soup"
+				type: "item"
+			}]
+			x: -10.4d
+			y: -7.999999999999998d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7E0E9DE215C8F250"
+			rewards: [{
+				id: "2B7B28510D87D322"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "5D7613B46AA671FC"
+				item: "brewinandchewin:cheesy_pasta"
+				type: "item"
+			}]
+			x: -4.800000000000001d
+			y: -10.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "392431A5FC3F4395"
+			rewards: [{
+				id: "522B02102DC2CF93"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "2EB04A4588E87B8C"
+				item: "brewinandchewin:horror_lasagna"
+				type: "item"
+			}]
+			x: -4.4d
+			y: -9.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1DF540E804B6DB29"
+			rewards: [{
+				id: "520A4EF9D51935A6"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "0F0E250E58B04786"
+				item: "brewinandchewin:scarlet_pierogi"
+				type: "item"
+			}]
+			x: -5.2d
+			y: -5.999999999999999d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6EB9B3960AF51E56"
+			rewards: [{
+				id: "5F208646E9F7140D"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "7E383651E809D98C"
+				item: "brewinandchewin:ham_and_cheese_sandwich"
+				type: "item"
+			}]
+			x: -13.2d
+			y: -3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "24A3DD45007A03C7"
+			rewards: [{
+				id: "13DFFDA81D5A7808"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "317BD25B97C67FB1"
+				item: "brewinandchewin:quiche"
+				type: "item"
+			}]
+			x: -4.800000000000001d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1E6EC073D21E912F"
+			rewards: [{
+				id: "6F9C188F6F694AE9"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "274F061EC3836A79"
+				item: "brewinandchewin:fiery_fondue_pot"
+				type: "item"
+			}]
+			x: -3.6000000000000005d
+			y: -2.3999999999999986d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "012EF7950D970993"
+			rewards: [{
+				id: "70E506C73185A4CD"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "1ABCF3EF810EA72B"
+				item: "brewinandchewin:pizza"
+				type: "item"
+			}]
+			x: -13.2d
+			y: -2.3999999999999995d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "25F8CF315C5956E4"
+			rewards: [{
+				id: "16375030EE120026"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "1A17D40DFC78EBF0"
+				item: "brewinandchewin:flaxen_cheese_wheel"
+				type: "item"
+			}]
+			x: -9.2d
+			y: -2.3999999999999995d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "4F2CD692124CC80E"
+			rewards: [{
+				count: 2
+				id: "68606BEEBED8CE30"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "6D94A011EE667828"
+				item: "brewinandchewin:scarlet_cheese_wheel"
+				type: "item"
+			}]
+			x: -8.4d
+			y: -2.3999999999999995d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2D5946EA11F0708C"
+			rewards: [{
+				id: "65E629C41D6D1713"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "1834DEBBB491FB86"
+				item: "sob:pbnj"
+				type: "item"
+			}]
+			x: -10.799999999999999d
+			y: -3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2FB6C58403569828"
+			rewards: [{
+				id: "04E267B86724EEC9"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "00CA5B93B37D336D"
+				item: "arsdelight:wilden_salad"
+				type: "item"
+			}]
+			x: -3.2000000000000006d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5A37CA5C3CE2184A"
+			rewards: [{
+				count: 2
+				id: "725E31A089F272FC"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "7CD1DC56CE9C90D7"
+				item: "arsdelight:honey_glazed_chimera"
+				type: "item"
+			}]
+			x: -4.4d
+			y: -2.3999999999999986d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "749F2EA571C0997A"
+			rewards: [{
+				id: "6181CD66B3CEB8AA"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "64C03261DD4D9508"
+				item: "arsdelight:grilled_chimera_skewer"
+				type: "item"
+			}]
+			x: -10.4d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "09C2CAF91CDFFF92"
+			rewards: [{
+				id: "429B66C40A4081C3"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "6CFA029816C77204"
+				item: "arsdelight:grilled_wilden_skewer"
+				type: "item"
+			}]
+			x: -11.2d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "37FFD614DC04444D"
+			rewards: [{
+				id: "288E947D46D226F3"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "4DD352894166D724"
+				item: "arsdelight:arch_sauce"
+				type: "item"
+			}]
+			x: -9.600000000000001d
+			y: -7.999999999999998d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2273915CF08BCBCA"
+			rewards: [{
+				id: "17F7E1F63A88D703"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "155A4D8823DD5485"
+				item: "arsdelight:wilden_sauce"
+				type: "item"
+			}]
+			x: -8.8d
+			y: -7.999999999999998d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "477E5D32A550A707"
+			rewards: [{
+				id: "3AF4AA7A212EAEEF"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "56801BB0EEA1DDDA"
+				item: "arsdelight:arch_soup"
+				type: "item"
+			}]
+			x: -8.000000000000002d
+			y: -7.999999999999998d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7B59C4D3291F35E2"
+			rewards: [{
+				id: "080220465C17F4A1"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "4762A7439062A3A6"
+				item: "arsdelight:wilden_stew"
+				type: "item"
+			}]
+			x: -12.4d
+			y: -7.199999999999998d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "451A23584EECE864"
+			rewards: [{
+				id: "3306D18E196E39FC"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "58E841AFBF1F45B7"
+				item: "arsdelight:mendosteen_chicken"
+				type: "item"
+			}]
+			x: -4.800000000000001d
+			y: -6.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "263EA8BD98FCC4FF"
+			rewards: [{
+				id: "55318C265B20AD51"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "2F3CF54CCDFF6B92"
+				item: "arsdelight:bastion_pork"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "407316A19441ACBF"
+			rewards: [{
+				id: "0002E6193E61C7A5"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "6066B62E7C133B1A"
+				item: "arsdelight:bombegrante_steak"
+				type: "item"
+			}]
+			x: -3.2d
+			y: -6.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "02E8315CDD1592BA"
+			rewards: [{
+				id: "67BAC5494917EA4A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "2A05EC2F66BC9CF0"
+				item: "arsdelight:frostaya_mutton"
+				type: "item"
+			}]
+			x: -2.4000000000000004d
+			y: -6.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5F2D247CDFF2CE6B"
+			rewards: [{
+				id: "730481D6435F32B8"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "26CD4BC91D5C3D67"
+				item: "sob:honey_barbecue_stick"
+				type: "item"
+			}]
+			x: -12.8d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3C9CDE9A91830F02"
+			rewards: [{
+				id: "5B86A578B265175A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "6BC83830D6937B4B"
+				item: "sob:veggie_wrap"
+				type: "item"
+			}]
+			x: -7.599999999999999d
+			y: -3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1441349159A4FB30"
+			rewards: [{
+				count: 2
+				id: "764EE40662302A75"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "494046BDFD21D8C3"
+				item: "sob:ink_soup"
+				type: "item"
+			}]
+			x: -10.8d
+			y: -7.199999999999998d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6EA1A8B08FC57D8C"
+			rewards: [{
+				id: "1890EE771F2AC4E6"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "091B1405ABC895D2"
+				item: "sob:asparagus_soup"
+				type: "item"
+			}]
+			x: -11.2d
+			y: -7.999999999999998d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "595847DBC53BC963"
+			rewards: [{
+				id: "19D2B47CFFE21CA8"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "76D6FD0509FB0418"
+				item: "sob:mangrove_stir_fry"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3216C2B054001577"
+			rewards: [{
+				id: "413285635DBBB856"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "3A64D70B39C2A985"
+				item: "sob:big_soup_block"
+				type: "item"
+			}]
+			x: -2.4000000000000004d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0F11BFADD4B8965B"
+			rewards: [{
+				id: "728E7525B61C3425"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "7C4DF86BADD7D40A"
+				item: "sob:cactus_porkchop"
+				type: "item"
+			}]
+			x: -1.6000000000000005d
+			y: -7.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0251C69F18558299"
+			rewards: [{
+				id: "037C1B1F5EC52D81"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "206854DB8C3CB183"
+				item: "sob:root_steak"
+				type: "item"
+			}]
+			x: -2.0000000000000004d
+			y: -8.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "08135AF2033422D4"
+			rewards: [{
+				id: "1F69FF565969A9C8"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "7713701228BF9ACD"
+				item: "sob:grilled_vegetables"
+				type: "item"
+			}]
+			x: -1.2000000000000002d
+			y: -8.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0756E2C8A16F1006"
+			rewards: [{
+				id: "1FB186052A530837"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "6E910C47A6DB1383"
+				item: "sob:sculk_roll"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -7.6d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2340B99C5E0CA975"
+			rewards: [{
+				id: "1ED05DB4AB7706BC"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "569DA0D52A4E9D53"
+				item: "sob:ants_log"
+				type: "item"
+			}]
+			x: -18.8d
+			y: -6.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3459964AE99D07EC"
+			rewards: [{
+				id: "0CBDCAB7ED25A69F"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "4C09A0B63CF32844"
+				item: "sob:cinder_bread"
+				type: "item"
+			}]
+			x: -19.200000000000003d
+			y: -6.0d
 		}
 	]
 	title: "Michelin-Starred Chef"

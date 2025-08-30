@@ -2773,11 +2773,10 @@ Patch 0.3.2.1
     -LegendaryTooltips
 
 ### Added Mods:
-    -TooltipOverhaul
     -JustEnoughProffesions
-    -StarbuncleMania?
-    -ArsNouveau Flavor&Delight?
-    -InControl?
+    -StarbuncleMania
+    -ArsNouveau Flavor&Delight
+    -InControl
     -BrewinNChewin
     -SmidgeonOBliss
 
@@ -2792,10 +2791,13 @@ Patch 0.3.2.1
     -Wooden Crucifix (By Señor Random)
     -Metal Crucifix (By Señor Random)
     -Bejeweled Crucifix (By Señor Random)
+    -Redstone Torch
+    -Elemental Machine progress bars(By Gyldanword)
 
 ### Villagers:
     -Replaced Blank Scroll trade with a mending book trade (Librarian)
     -Massively lowered the price of the stable warp scroll (Librarian)
+    -Completely Reworked the Wandering Trader
 
 ### Quests:
     -Added Sorcerer Supreme Chapter(By Gyldanword)
@@ -2806,10 +2808,6 @@ Patch 0.3.2.1
     -Added Notable Needleworker Chapter(By Gyldanword)
     -Added Spellcasting Chapter(By Gyldanword)
     -Quest in the market now gives you choice of all the new waystones
-    
-
-### Loot:
-    -Maze Slimes now drop armor shards instead of charm of keeping
 
 ### Worldgen:
     -Following blocks will no longer appear in structures:
@@ -2857,11 +2855,17 @@ Patch 0.3.2.1
     -Changed for Evaporator
     -Added for Aurum Sapling
     -Added recipes to change waystone variants
+    -Added for Alchemy Glass
+    -Changed for Cannonball
+    -Changed for Gustmaker
+    -Added for Quark's Crate
+    -Added for Lost Tentacle
     
 
 ### Mob Balance:
     -Phantoms will no longer spawn with special items in their hand
     -Amount of lost souls in the world is now capped to 5
+    -Amount of Dropbears in the world is now capped to 5
     -Adjusted the Ender Dragon Fight
 
 ### Item Balance:
@@ -2871,15 +2875,24 @@ Patch 0.3.2.1
     -Extendo Grip is now Unbreakable
     -Potato Cannon's durability is now 1024
     -Nerfed the reach of crab totem slightly
+    -Nerfed the Poisonward Ring
+    -Nerfed the Fireward Ring
+    -Nerfed the Frostward Ring
+    -Changed the Heavy Chain
 
 ### Loot:
     -Magebloom now has a small chance to drop seeds without fortune
     -Magebloom seeds with fortune is significantly lowered
     -Gray Permafrost now sometimes drops tin nuggets instead of gold nuggets, iron nuggets and bones
+    -Maze Slimes now drop armor shards instead of charm of keeping
+    -Jungle Leaves now drop twice as much saplings
+    -Special Twilight Forest trees now drop corresponding saplings
 
 ### Other:
     -FruitsDelight Cookies can now correctly go into the supplementaries jar
     -Food Diversity only tracks 14 of the last food eaten
     -fixed silver knife tags so now you can properly cut stuff
     -Totems in your offhand shouldn't interrupt your cutting anymore
-    -Unbreakable tools will no longer break with lychee recipes
+    -Unbreakable tools will no longer break with in world crafting
+    -Shields no longer grant block reach when held in main hand
+    -All of the juices and teas now stack to 64

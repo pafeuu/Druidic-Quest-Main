@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["5171A92A9587D551"]
+			dependency_requirement: "one_completed"
 			id: "4AB693E41C1E98EA"
 			tasks: [
 				{
@@ -23,18 +24,26 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: -3.5d
+			x: -7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5171A92A9587D551"]
 			id: "7D8E452FDD5F9A5E"
-			tasks: [{
-				id: "0BABF8BEDC2D14CE"
-				item: "woodenhopper:wooden_hopper"
-				type: "item"
-			}]
-			x: -5.0d
+			tasks: [
+				{
+					id: "0BABF8BEDC2D14CE"
+					item: "woodenhopper:wooden_hopper"
+					type: "item"
+				}
+				{
+					id: "64DBE28735C6F2BD"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "Hoppers!"
+			x: -4.5d
 			y: 0.5d
 		}
 		{
@@ -115,6 +124,7 @@
 				title: "item transportation"
 				type: "checkmark"
 			}]
+			title: "Item/Entity Transportation"
 			x: -5.0d
 			y: -1.5d
 		}
@@ -162,13 +172,26 @@
 		{
 			dependencies: ["5171A92A9587D551"]
 			id: "75139B4B416A0216"
-			tasks: [{
-				id: "04341096198C924F"
-				item: "prettypipes:pipe"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "04341096198C924F"
+					item: "prettypipes:pipe"
+					type: "item"
+				}
+				{
+					id: "33078575D09CB70A"
+					item: "prettypipes:low_extraction_module"
+					type: "item"
+				}
+				{
+					id: "6EEBEE1C0B2A789F"
+					item: "prettypipes:pressurizer"
+					type: "item"
+				}
+			]
+			title: "Pretty Pipes Item Transportation"
 			x: -3.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5171A92A9587D551"]
@@ -200,8 +223,8 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: -1.5d
+			x: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["51966AE20559FFA0"]
@@ -304,8 +327,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.0d
+			x: -5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["51966AE20559FFA0"]
@@ -379,6 +402,7 @@
 		}
 		{
 			dependencies: ["5171A92A9587D551"]
+			icon: "quark:pipe"
 			id: "3D5C9D562E85514E"
 			tasks: [
 				{
@@ -392,8 +416,9 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: -3.0d
+			title: "Quark Item transportation"
+			x: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5E369306ED039634"]
@@ -422,6 +447,8 @@
 		}
 		{
 			dependencies: ["5171A92A9587D551"]
+			dependency_requirement: "one_completed"
+			icon: "minecraft:water_bucket"
 			id: "2CD803C91158A465"
 			tasks: [
 				{
@@ -440,10 +467,12 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 0.0d
+			title: "Vanilla Ways"
+			x: -3.0d
+			y: -1.0d
 		}
 		{
+			description: ["&4&owork in progress&r&r"]
 			id: "085506B2810635B8"
 			tasks: [{
 				id: "3D9F72D00D472B59"
@@ -492,6 +521,7 @@
 				"5E369306ED039634"
 			]
 			dependency_requirement: "one_completed"
+			description: ["Supplementaries Cannon can shoot any projectile! also any tnt type while turning it on!"]
 			icon: "supplementaries:cannon"
 			id: "5A68495E8322FC72"
 			tasks: [
@@ -524,6 +554,141 @@
 			title: "Destruction"
 			x: 10.0d
 			y: -4.5d
+		}
+		{
+			description: ["&4&owork in progress&r&r"]
+			id: "5941068474570745"
+			tasks: [{
+				id: "68583720E62F0D04"
+				title: "item collectors"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5941068474570745"]
+			id: "79518721DA4D4560"
+			tasks: [{
+				id: "7C09C83891E2A0CF"
+				item: "naturesaura:hopper_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5941068474570745"]
+			id: "064B99D930A004C4"
+			tasks: [
+				{
+					id: "07A67438B512DAD0"
+					item: "sophisticatedbackpacks:magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "3C20C0896F04022F"
+					item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "0262732470D71EBB"
+					item: "sophisticatedstorage:magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "10A87E664657E141"
+					item: "sophisticatedstorage:advanced_magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "32FF78011FB53B0B"
+					item: "sophisticatedbackpacks:pickup_upgrade"
+					type: "item"
+				}
+				{
+					id: "2E8DFE64D51D4080"
+					item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					type: "item"
+				}
+				{
+					id: "05C113F0D7E5339A"
+					item: "sophisticatedstorage:pickup_upgrade"
+					type: "item"
+				}
+				{
+					id: "38DAF42DB57CD7BA"
+					item: "sophisticatedstorage:advanced_pickup_upgrade"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5941068474570745"]
+			id: "4BD524EDFDA5FFF5"
+			tasks: [{
+				id: "0AF1B140BE4C50BD"
+				item: "thermal:device_collector"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5171A92A9587D551"]
+			description: [
+				"&l&eGustmaker&r&r when provided with a redstone signal will create a tornado that pushes all entities for over 25 blocks!"
+				""
+				"&l&5Capsid&r&r will transport items up if it ends on a container it will deposit said item."
+			]
+			id: "1FB2E22555CD36CB"
+			tasks: [
+				{
+					id: "78353429DDFA6017"
+					item: "alexsmobs:gustmaker"
+					type: "item"
+				}
+				{
+					id: "648A76567D292040"
+					item: "alexsmobs:capsid"
+					type: "item"
+				}
+			]
+			title: "Alex's Mobs Item Transportation"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5171A92A9587D551"]
+			id: "3BB8FF2ED7F5B76B"
+			tasks: [{
+				id: "45A2E7A4267139B3"
+				item: "supplementaries:bellows"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5171A92A9587D551"]
+			id: "106F774ECF29F3ED"
+			tasks: [
+				{
+					id: "41EBDFF4222EB5F9"
+					item: "wizards_reborn:item_sorter"
+					type: "item"
+				}
+				{
+					id: "1493AA4D6A27E57C"
+					item: "wizards_reborn:arcane_hopper"
+					type: "item"
+				}
+			]
+			title: "Wizards Reborn's Item Transportation"
+			x: -6.5d
+			y: -3.0d
 		}
 	]
 	title: "Automation"

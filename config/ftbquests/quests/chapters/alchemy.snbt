@@ -251,6 +251,32 @@
 			x: -2.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["271C298B958B7602"]
+			id: "322C0032BBE3B362"
+			tasks: [{
+				id: "65B2CE52F987D542"
+				item: "kubejs:phoenix_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5812063B29B992B5"]
+			id: "791D63C0735B944C"
+			tasks: [{
+				id: "10BA030DAB444AE3"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:earth_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
 	]
 	title: "Alchemy"
 }

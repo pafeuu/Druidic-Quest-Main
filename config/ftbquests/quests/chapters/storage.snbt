@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["&4&owork in progress&r&r"]
 			icon: "minecraft:magma_block"
 			id: "1CBDCC784C114148"
 			tasks: [{
@@ -131,8 +132,8 @@
 				item: "immersiveengineering:reinforced_crate"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.0d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5071D5A0B03CCD10"]
@@ -194,6 +195,7 @@
 			y: 1.0d
 		}
 		{
+			description: ["&4&owork in progress&r&r"]
 			icon: "minecraft:lava_bucket"
 			id: "25205D8CDA01C923"
 			tasks: [{
@@ -297,6 +299,21 @@
 			}]
 			x: 5.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["25205D8CDA01C923"]
+			id: "75A1DD72AB15E518"
+			tasks: [{
+				id: "706B0CA808A76CF8"
+				item: {
+					Count: 1
+					id: "wizards_reborn:orbital_fluid_retainer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
 		}
 	]
 	title: "Storage"
