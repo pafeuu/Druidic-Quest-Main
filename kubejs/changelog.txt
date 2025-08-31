@@ -2762,7 +2762,7 @@ Patch 0.3.2.1
     -Agronomic Sourcelink is now mined faster with a pickaxe
     -Steel tools are now Unbreakable for real
     
-# Patch 3.0.0
+# Patch 3.0.0 Pre-Release
 
 ### Updated all of the mods
 
@@ -2780,12 +2780,23 @@ Patch 0.3.2.1
     -BrewinNChewin
     -SmidgeonOBliss
 
+### New Items:
+    -Basic Recycler
+    -Elemental Recycler
+    -Storm Ingot
+    -Storm Sheet
+    -Storm Gear
+    -Storm Nugget
+    -Storm Rod
+    -Storm Block
+
 ### Removed Items:
     -Aether's Freezer
     -Amulete of Ascension
     -Charm of Keeping I
     -Charm of Keeping II
     -Charm of Keeping III
+    -Removed all the new Create storage system components for now
 
 ### Changed Textures:
     -Wooden Crucifix (By Señor Random)
@@ -2808,6 +2819,8 @@ Patch 0.3.2.1
     -Added Notable Needleworker Chapter(By Gyldanword)
     -Added Spellcasting Chapter(By Gyldanword)
     -Quest in the market now gives you choice of all the new waystones
+    -Added Automation Chapter(Work in progress)
+    -Added Storage Chapter(Work in progress)
 
 ### Worldgen:
     -Following blocks will no longer appear in structures:
@@ -2860,6 +2873,8 @@ Patch 0.3.2.1
     -Changed for Gustmaker
     -Added for Quark's Crate
     -Added for Lost Tentacle
+    -Added for a lot of Alex's Mobs animals (More Soon)
+    -Fiery ingots now craft 4 times faster in the kiln
     
 
 ### Mob Balance:

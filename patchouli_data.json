@@ -40,7 +40,9 @@
       "completedManualQuests": []
     },
     "ars_nouveau:worn_notebook": {
-      "viewedEntries": [],
+      "viewedEntries": [
+        "ars_nouveau:arsdelight/drygmy_charm_weapon"
+      ],
       "bookmarks": [],
       "completedManualQuests": []
     }
