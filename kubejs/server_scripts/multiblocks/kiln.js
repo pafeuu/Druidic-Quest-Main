@@ -123,23 +123,6 @@ ServerEvents.recipes(event=>{
 	event.custom({
 		type: "immersiveengineering:alloy",
 		  "input0": {
-			tag: "twilightforest:fiery_vial"
-		  },
-		  "input1": {
-			item: "kubejs:inert_alloy_ingot"
-		  },
-		  "result": {
-			"base_ingredient": {
-			  item: "twilightforest:fiery_ingot"
-			},
-			"count": 1
-		  },
-		  "time": 200	
-	}).id("twilightforest:equipment/fiery_ingot_crafting")
-
-	event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
 			base_ingredient: {
 				item: "ars_nouveau:fire_essence"
 			},
@@ -282,7 +265,30 @@ ServerEvents.recipes(event=>{
 			},
 			"count": 1
 		  },
-		  "time": 800	
+		  "time": 200	
 	}).id("twilightforest:equipment/fiery_ingot_crafting")
 
+	event.custom({
+		type: "immersiveengineering:alloy",
+		  "input0": {
+			base_ingredient: {
+				tag: "forge:ingots/arcanum_alloy"
+			},
+			count: 1
+		  },
+		  "input1": {
+			base_ingredient: {
+				item: "ars_nouveau:air_essence"
+			},
+			count: 4,
+		  },
+		   
+		  "result": {
+			"base_ingredient": {
+			  item: "kubejs:storm_ingot"
+			},
+			"count": 1
+		  },
+		  "time": 200	
+	})
 })
