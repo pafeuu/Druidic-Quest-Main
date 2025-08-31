@@ -2132,6 +2132,7 @@ ServerEvents.recipes(event => {
 
 	event.shapeless(Item.of('minecraft:flint_and_steel', '{Damage:0,Unbreakable:1b}'),["kubejs:primitive_firestarter","4x #forge:plates/steel"])
 
+	event.shapeless("kubejs:steel_shears",["shears","4x #forge:plates/steel"])
 	event.recipes.create.mechanical_crafting("thermal:flux_drill",
 		[
 			"DI   ",

@@ -3,5 +3,10 @@
         "mob": "forbidden_arcanus:lost_soul",
         "mincount": 5,
         "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:dropbear",
+        "mincount": 5,
+        "result": "deny"
     }
 ]
