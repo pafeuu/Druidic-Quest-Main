@@ -15,8 +15,6 @@ ItemEvents.modification(event=>{
         'farmersdelight:cooked_bacon',
         'arsdelight:grilled_wilden_meat_slice']
 
-    const Juice = []
-
     const Jam = []
 
     const Jello = []
@@ -291,7 +289,8 @@ ItemEvents.modification(event=>{
         'alexsdelight:cooked_bunfungus',
         'tide:cooked_fish',
         'forbidden_arcanus:cooked_tentacle',
-        'arsdelight:grilled_wilden_meat']
+        'arsdelight:grilled_wilden_meat',
+        'brewinandchewin:jerky']
 
     CookedMeat.forEach(id => {
         event.modify(id, item => {
@@ -350,6 +349,36 @@ ItemEvents.modification(event=>{
             item.foodProperties = food => {
                 food.hunger(8)
                 food.saturation(0.4)
+            }
+        })
+    });
+
+    const Juice = [
+        'fruitsdelight:mangosteen_tea',
+        'biomeswevegone:aloe_vera_juice',
+        'sob:cactus_juice',
+        'fruitsdelight:lychee_cherry_tea',
+        'fruitsdelight:kiwi_juice',
+        'fruitsdelight:pear_juice',
+        'fruitsdelight:lemon_juice', 
+        'fruitsdelight:orange_juice',
+        'fruitsdelight:hamimelon_juice',
+        'sob:glittering_gloop',
+        'fruitsdelight:peach_tea',
+        'fruitsdelight:mango_tea',
+        'fruitsdelight:hawberry_tea',
+        'arsdelight:source_berry_tea',
+        'arsdelight:frostaya_tea',
+        'arsdelight:bombegrante_tea',
+        'arsdelight:bastion_tea',
+        'arsdelight:mendosteen_tea',
+        'create:builders_tea']
+
+    Juice.forEach(id => {
+        event.modify(id, item => {
+            item.foodProperties = food => {
+                food.hunger(5)
+                food.saturation(0.7)
             }
         })
     });
