@@ -11,6 +11,7 @@ ServerEvents.recipes(event=>{
     }
 
     infusing("wizards_reborn:wisestone","earth",100,"quark:sturdy_stone","sturdy_stone_to_wisestone",100)
-    infusing("2x wizards_reborn:wisestone","earth",200,"kubejs:sturdy_deepslate","sturdy_deepslate_to_wisestone",200)
+    infusing("2x wizards_reborn:wisestone","earth",200,"kubejs:sturdy_deepslate","sturdy_deepslate_to_wisestone",100)
+    infusing("wizards_reborn:alchemy_glass","air",100,"#forge:glass","glass_to_alchemy_glass",100)
     
 })
