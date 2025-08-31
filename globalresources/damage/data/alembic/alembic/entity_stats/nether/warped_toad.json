@@ -1,0 +1,21 @@
+{
+  "priority": 1,
+  "type": "alexsmobs:warped_toad",
+  "resistances": {
+    "alchemical_damage": 1.1,
+    "physical_damage": 1.0,
+    "fire_damage": 1.5,
+    "arcane_damage": 1.0,
+    "true_damage": 1.25,
+    "ice_damage": 0.5,
+    "holy_damage": 0.9
+  },
+  "damage": {
+    "physical_damage": 1.0
+  },
+  "ignored_sources": [
+      "minecraft:lava",
+      "minecraft:in_fire",
+      "minecraft:on_fire"
+    ]
+}

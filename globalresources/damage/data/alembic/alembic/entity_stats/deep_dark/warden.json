@@ -1,0 +1,19 @@
+{
+  "priority": 2,
+  "type": "minecraft:warden",
+  "resistances": {
+    "alchemical_damage": 1.5,
+    "physical_damage": 1.75,
+    "fire_damage": 1.1,
+    "arcane_damage": 1.0,
+    "true_damage": 1.9,
+    "ice_damage": 1.1,
+    "holy_damage": 1.0
+  },
+  "damage": {
+    "physical_damage": 0.4,
+    "alchemical_damage": 0.3,
+    "true_damage": 0.3
+  },
+  "ignored_sources": []
+}

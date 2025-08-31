@@ -1,0 +1,18 @@
+{
+  "priority": 2,
+  "type": "minecraft:witch",
+  "resistances": {
+    "alchemical_damage": 1.75,
+    "physical_damage": 1.0,
+    "fire_damage": 1.0,
+    "arcane_damage": 1.9,
+    "true_damage": 1.25,
+    "ice_damage": 1.0,
+    "holy_damage": 0.8
+  },
+  "damage": {
+    "physical_damage": 0.4,
+    "alchemical_damage": 0.6
+  },
+  "ignored_sources": []
+}

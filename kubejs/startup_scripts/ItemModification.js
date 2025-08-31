@@ -328,6 +328,16 @@ ItemEvents.modification(event => {
       item.maxDamage = -1
       // ??+1 block range
     })
+
+    event.modify("immersiveengineering:sword_steel", item=>{
+      item.maxDamage = -1
+      // ??+1 block range
+    })
+
+    event.modify("kubejs:steel_knife", item=>{
+      item.maxDamage = -1
+      // ??+1 block range
+    })
   })
   
   //========================================Armor

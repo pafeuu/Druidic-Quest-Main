@@ -1,0 +1,21 @@
+{
+  "priority": 1,
+  "type": "alexsmobs:bone_serpent_part",
+  "resistances": {
+    "alchemical_damage": 1.0,
+    "physical_damage": 0.9,
+    "fire_damage": 2.0,
+    "arcane_damage": 1.2,
+    "true_damage": 1.25,
+    "ice_damage": 0.5,
+    "holy_damage": 0.8
+  },
+  "damage": {
+    "physical_damage": 1.0
+  },
+  "ignored_sources": [
+      "minecraft:lava",
+      "minecraft:in_fire",
+      "minecraft:on_fire"
+  ]
+}

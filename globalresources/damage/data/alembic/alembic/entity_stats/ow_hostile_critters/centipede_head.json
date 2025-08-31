@@ -1,0 +1,17 @@
+{
+  "priority": 1,
+  "type": "alexsmobs:centipede_head",
+  "resistances": {
+    "alchemical_damage": 1.5,
+    "physical_damage": 1.0,
+    "fire_damage": 0.8,
+    "arcane_damage": 1.0,
+    "true_damage": 1.25,
+    "ice_damage": 0.8,
+    "holy_damage": 1.0
+  },
+  "damage": {
+    "physical_damage": 1.0
+  },
+  "ignored_sources": []
+}

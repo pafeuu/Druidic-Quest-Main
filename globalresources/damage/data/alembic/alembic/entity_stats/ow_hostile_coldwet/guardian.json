@@ -1,0 +1,17 @@
+{
+  "priority": 2,
+  "type": "minecraft:guardian",
+  "resistances": {
+    "alchemical_damage": 1.0,
+    "physical_damage": 1.5,
+    "fire_damage": 0.5,
+    "arcane_damage": 1.5,
+    "true_damage": 1.0,
+    "ice_damage": 2.0,
+    "holy_damage": 0.8
+  },
+  "damage": {
+    "arcane_damage": 1.0
+  },
+  "ignored_sources": []
+}

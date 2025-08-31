@@ -1,0 +1,18 @@
+{
+  "priority": 1,
+  "type": "alexsmobs:void_worm_part",
+  "resistances": {
+    "alchemical_damage": 1.0,
+    "physical_damage": 1.75,
+    "fire_damage": 1.25,
+    "arcane_damage": 1.5,
+    "true_damage": 1.25,
+    "ice_damage": 0.9,
+    "holy_damage": 1.25
+  },
+  "damage": {
+    "true_damage": 0.5,
+    "arcane_damage": 0.5
+  },
+  "ignored_sources": []
+}

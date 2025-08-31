@@ -1,0 +1,19 @@
+{
+  "priority": 1,
+  "type": "deeperdarker:sludge",
+  "resistances": {
+    "alchemical_damage": 1.75,
+    "physical_damage": 1.2,
+    "fire_damage": 1.25,
+    "arcane_damage": 0.8,
+    "true_damage": 1.9,
+    "ice_damage": 1.25,
+    "holy_damage": 0.6
+  },
+  "damage": {
+    "physical_damage": 0.4,
+    "alchemical_damage": 0.3,
+    "true_damage": 0.3
+  },
+  "ignored_sources": []
+}

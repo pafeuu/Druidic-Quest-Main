@@ -1,0 +1,18 @@
+{
+  "priority": 2,
+  "type": "minecraft:spider",
+  "resistances": {
+    "alchemical_damage": 1.2,
+    "physical_damage": 1.0,
+    "fire_damage": 0.8,
+    "arcane_damage": 1.0,
+    "true_damage": 1.2,
+    "ice_damage": 1.0,
+    "holy_damage": 0.9
+  },
+  "damage": {
+    "alchemical_damage": 0.10,
+    "physical_damage": 0.90
+  },
+  "ignored_sources": []
+}

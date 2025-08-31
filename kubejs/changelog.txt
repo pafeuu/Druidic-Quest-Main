@@ -2783,6 +2783,8 @@ Patch 0.3.2.1
 ### New Items:
     -Basic Recycler
     -Elemental Recycler
+    -Steel Knife
+    -Steel Shears
     -Storm Ingot
     -Storm Sheet
     -Storm Gear
@@ -2911,3 +2913,4 @@ Patch 0.3.2.1
     -Unbreakable tools will no longer break with in world crafting
     -Shields no longer grant block reach when held in main hand
     -All of the juices and teas now stack to 64
+    -Steel Sword is now correctly Unbreakable

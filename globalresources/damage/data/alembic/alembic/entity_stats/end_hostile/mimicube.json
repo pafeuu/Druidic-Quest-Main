@@ -1,0 +1,19 @@
+{
+  "priority": 1,
+  "type": "alexsmobs:mimicube",
+  "resistances": {
+    "alchemical_damage": 0.8,
+    "physical_damage": 1.2,
+    "fire_damage": 1.0,
+    "arcane_damage": 1.5,
+    "true_damage": 1.25,
+    "ice_damage": 0.4,
+    "holy_damage": 1.0
+  },
+  "damage": {
+    "physical_damage": 0.5,
+    "true_damage": 0.25,
+    "arcane_damage": 0.25
+  },
+  "ignored_sources": []
+}
