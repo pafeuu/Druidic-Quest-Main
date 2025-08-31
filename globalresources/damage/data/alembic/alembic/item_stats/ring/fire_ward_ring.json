@@ -1,0 +1,13 @@
+{
+    "id": "irons_spellbooks:fireward_ring",
+    "modifiers": [
+      {
+        "type": "append",
+        "attribute": "alembic:ice_damage.resistance",
+        "value": -8,
+        "operation": "ADDITION",
+        "uuid": "5fd0baae-1136-4ea4-a3e7-5936e24d2006"
+      }
+    ],
+    "equipment_slot": "ring"
+  }
