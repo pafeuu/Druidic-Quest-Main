@@ -23,6 +23,8 @@ ServerEvents.tags('item', event => {
   event.remove("forge:tools","#forge:tools/shields")
   event.remove("forge:tools","#c:tools/shields")
   event.remove("forge:tools","#c:tools")
+  event.remove("forge:tools","#bookshelf:shields")
+  event.remove("forge:tools","immersiveengineering:toolbox/tools")
   event.remove("forge:tools",["minecraft:shield","kubejs:primitive_shield","ars_nouveau:enchanters_shield"])
   
   event.add("c:hidden_from_recipe_viewers",[global.nukelist])
@@ -565,15 +567,23 @@ ServerEvents.tags('block', event => {
     "mbd2:elemental_binder",
     "mbd2:elemental_evaporator",
     "mbd2:elemental_infuser",
-    "mbd2:elemental_extractor"
+    "mbd2:elemental_extractor",
+    "mbd2:elemental_recycler",
+    "mbd2:basic_recycler"
   ])
 
   event.add("minecraft:needs_iron_tool",[
     "mbd2:elemental_binder",
     "mbd2:elemental_evaporator",
     "mbd2:elemental_infuser",
-    "mbd2:elemental_extractor"
+    "mbd2:elemental_extractor",
+    "mbd2:elemental_recycler",
   ])
+
+  event.add("minecraft:needs_stone_tool",[
+    "mbd2:basic_recycler"
+  ])
+
   
   event.add("druidic_quest:terraformer","#forge:stone")
   event.add("druidic_quest:terraformer","#minecraft:dirt")
