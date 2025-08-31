@@ -572,11 +572,7 @@
 		}
 		{
 			dependencies: ["23D3902848A335F6"]
-			description: [
-				"To begin infusing items with Aura, you'll need to set up the Natural Altar."
-				""
-				"See the &2ponder&r for more details."
-			]
+			description: ["You'll need the power of the &ainfusion catalyst&r in the natural altar to infuse mundane materials with magical properties!"]
 			id: "400EBA15A5B82A93"
 			rewards: [{
 				count: 2
@@ -1128,7 +1124,7 @@
 			description: [
 				"&2Skyjade tools&r have the same range as iron and double the durability. They lose effectiveness as durability decreases."
 				""
-				"Both the &2Skyjade sword and axe&r deal extra holy damage making them excellent weapons against the &4undead&r."
+				"Both the &2Skyjade sword and axe&r deal extra &eholy damage&r making them excellent weapons against the undead."
 				""
 				"The &2Skyjade sword&r deals massive amounts of damage at the cost of attack speed. It also loses attack damage as the durability goes down."
 			]

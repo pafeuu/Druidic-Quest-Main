@@ -25,7 +25,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "24194AE7FDFF09C5"
 				item: {
@@ -37,8 +37,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: -5.0d
+			x: -8.549999999999999d
+			y: 16.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -48,7 +48,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "0B2145CFF8BAAAAE"
 				item: {
@@ -60,8 +60,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -5.0d
+			x: -8.549999999999999d
+			y: 14.85d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -71,7 +71,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "7221DB9E19CEF881"
 				item: {
@@ -83,8 +83,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -5.0d
+			x: -1.3499999999999999d
+			y: 15.299999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -94,7 +94,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "118E166D8550B65A"
 				item: {
@@ -106,8 +106,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -5.0d
+			x: -6.75d
+			y: 9.9d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -117,7 +117,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "174775BDE89E4F64"
 				item: {
@@ -129,8 +129,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.0d
+			x: -2.25d
+			y: 14.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -141,7 +141,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "323A8E5C46C4DFEE"
 				item: {
@@ -153,8 +153,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.0d
+			x: -6.75d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -164,7 +164,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "78B8E8DB4DA8EC42"
 				item: {
@@ -176,8 +176,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.0d
+			x: -7.6499999999999995d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -188,7 +188,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "26020F8E9E039175"
 				item: {
@@ -200,13 +200,13 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -2.5d
+			x: -4.95d
+			y: 10.35d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "50FEE060885F8945"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "275EDB6AB62743E7"
 				item: {
@@ -218,8 +218,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: -4.95d
+			y: 12.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -230,7 +230,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "5E170681D5E0919F"
 				item: {
@@ -242,8 +242,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.5d
+			x: -3.15d
+			y: 11.7d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -254,7 +254,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "378395E45E9C215D"
 				item: {
@@ -266,13 +266,13 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: -1.3499999999999999d
+			y: 10.799999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "1EA5D3E0C009B0CC"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "4619ECC4F1E198D8"
 				item: {
@@ -284,8 +284,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 1.3499999999999999d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -296,7 +296,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "6ECF3CCDA55FD4CD"
 				item: {
@@ -308,8 +308,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: -2.25d
+			y: 11.7d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -319,7 +319,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "3E62D36FBEAF09DC"
 				item: {
@@ -331,13 +331,13 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: -4.05d
+			y: 10.799999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "452C582BC38D18CA"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "075F00DF544CCFD9"
 				item: {
@@ -349,13 +349,13 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 3.15d
+			y: 3.5999999999999996d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "4F2C614174EABC9E"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "394AEC9C1E0DCE43"
 				item: {
@@ -367,8 +367,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: 2.25d
+			y: 3.5999999999999996d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -386,7 +386,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "2B0E50004C5ABDF6"
 				item: {
@@ -398,8 +398,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: -3.15d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -410,7 +410,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "775CB71C95531809"
 				item: {
@@ -422,8 +422,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.5d
+			x: -2.25d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -434,7 +434,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "6F47C7A762E96DAA"
 				item: {
@@ -446,8 +446,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 0.0d
+			x: -1.3499999999999999d
+			y: 7.199999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -458,7 +458,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "575635EF484A0BCD"
 				item: {
@@ -470,13 +470,13 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.5d
+			x: 0.44999999999999996d
+			y: 8.1d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "275D1A1344569484"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "00E29016B975D48E"
 				item: {
@@ -488,8 +488,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.5d
+			x: -2.25d
+			y: 8.1d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -500,7 +500,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "4729517699652C1D"
 				item: {
@@ -512,8 +512,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: -0.44999999999999996d
+			y: 8.1d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -524,7 +524,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "21F6A7179D7DBABB"
 				item: {
@@ -536,13 +536,13 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: -2.5d
+			x: -0.44999999999999996d
+			y: 7.199999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "36533B225101713E"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "6490FC088E5C3213"
 				item: {
@@ -554,8 +554,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.0d
+			x: 0.44999999999999996d
+			y: 5.3999999999999995d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -566,7 +566,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "734B7FF66F83BE65"
 				item: {
@@ -578,13 +578,13 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 0.0d
+			x: -1.3499999999999999d
+			y: 9.9d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "7111E7537BA9DED5"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "3642209040589764"
 				item: {
@@ -596,8 +596,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 0.0d
+			x: -0.44999999999999996d
+			y: 6.3d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -607,7 +607,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "5CF1853AA6090790"
 				item: {
@@ -623,8 +623,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -5.0d
+			x: -5.85d
+			y: 11.7d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -635,7 +635,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "1DD2265849DC6CD9"
 				item: {
@@ -651,8 +651,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -4.0d
+			x: -4.95d
+			y: 11.7d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -663,7 +663,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "326E0A8DBDAAC608"
 				item: {
@@ -675,8 +675,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.0d
+			x: -4.05d
+			y: 12.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -687,7 +687,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "452E536692B4D8A8"
 				item: {
@@ -699,8 +699,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: -5.0d
+			x: -4.05d
+			y: 11.7d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -710,7 +710,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "5C1FD09717941294"
 				item: {
@@ -722,8 +722,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: 0.44999999999999996d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -734,7 +734,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "4EFC1C8242E55E8A"
 				item: {
@@ -746,8 +746,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: -3.15d
+			y: 10.799999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -757,7 +757,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "25911C116832435A"
 				item: {
@@ -769,13 +769,13 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -5.0d
+			x: -6.75d
+			y: 14.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2C521676D073C12C"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "1C7DD2C147424489"
 				item: {
@@ -787,13 +787,13 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.0d
+			x: 4.05d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "756B2DBAC194E6FD"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "07EE5F5151E202A1"
 				item: {
@@ -805,8 +805,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: 4.05d
+			y: 3.5999999999999996d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -817,7 +817,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "67E0B7BFA3D5CA90"
 				item: {
@@ -829,8 +829,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: -4.95d
+			y: 13.95d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -841,7 +841,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "1CCCD513AA17846C"
 				item: {
@@ -853,8 +853,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.5d
+			x: 0.44999999999999996d
+			y: 7.199999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -865,7 +865,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "6493503B1D31A4D6"
 				item: {
@@ -877,8 +877,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: -0.44999999999999996d
+			y: 9.9d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -888,7 +888,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "2424D0A75455D7BB"
 				item: {
@@ -900,8 +900,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: -4.05d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -912,7 +912,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "45281CFF625BE5CE"
 				item: {
@@ -924,8 +924,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.5d
+			x: 2.25d
+			y: 7.199999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -935,7 +935,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "510C91E3A1A6101C"
 				item: {
@@ -947,8 +947,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.0d
+			x: -7.199999999999999d
+			y: 16.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -959,7 +959,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "3E12FE71429E3088"
 				item: {
@@ -971,8 +971,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: -2.5d
+			x: -2.6999999999999997d
+			y: 12.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -983,7 +983,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "198483E60AA5F8D8"
 				item: {
@@ -995,8 +995,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: -1.5d
+			x: -3.15d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1007,7 +1007,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "03B01C337AD44335"
 				item: {
@@ -1019,8 +1019,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -1.5d
+			x: 3.15d
+			y: 6.3d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1030,7 +1030,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "4D14BC83C6036A07"
 				item: {
@@ -1042,8 +1042,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.0d
+			x: -5.85d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1054,7 +1054,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "65B8599352CCC359"
 				item: {
@@ -1077,8 +1077,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.5d
+			x: -3.15d
+			y: 9.9d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1089,7 +1089,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "664F34810D638744"
 				item: {
@@ -1112,8 +1112,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.5d
+			x: -2.25d
+			y: 10.799999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1124,7 +1124,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "5830BAFB94171E51"
 				item: {
@@ -1136,8 +1136,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: -6.75d
+			y: 10.799999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1147,7 +1147,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "1175838C09CB0022"
 				item: {
@@ -1160,8 +1160,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: -4.05d
+			y: 9.9d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1171,7 +1171,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "6A26A802F8D76D94"
 				item: {
@@ -1183,8 +1183,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -4.0d
+			x: -7.6499999999999995d
+			y: 15.299999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1195,7 +1195,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "670110032390B717"
 				item: {
@@ -1207,8 +1207,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -4.0d
+			x: -6.3d
+			y: 12.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1218,7 +1218,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "466BB563CE4E06BF"
 				item: {
@@ -1230,8 +1230,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.0d
+			x: -2.25d
+			y: 15.299999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1241,7 +1241,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "04B861ED75FD1D8F"
 				item: {
@@ -1253,8 +1253,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: -4.0d
+			x: -5.85d
+			y: 14.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1265,7 +1265,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "741C1C989E87E531"
 				item: {
@@ -1277,8 +1277,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: 1.0d
+			x: 1.3499999999999999d
+			y: 5.3999999999999995d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1288,7 +1288,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "054058C8F80419AB"
 				item: {
@@ -1300,8 +1300,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.0d
+			x: 2.25d
+			y: 6.3d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1311,7 +1311,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "5A6E9421E82C65F6"
 				item: {
@@ -1323,8 +1323,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: -1.3499999999999999d
+			y: 8.1d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1335,7 +1335,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "4B7DBA7611299939"
 				item: {
@@ -1347,8 +1347,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 1.3499999999999999d
+			y: 6.3d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1359,7 +1359,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "6FA35ABE99368620"
 				item: {
@@ -1371,8 +1371,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -2.5d
+			x: -5.85d
+			y: 10.799999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1383,7 +1383,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "25DDF1C9648EFD18"
 				item: {
@@ -1395,13 +1395,13 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.5d
+			x: -2.25d
+			y: 9.9d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "4AEDF08C1D59BF35"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "4BF8ED70C92FA70E"
 				item: {
@@ -1413,8 +1413,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 2.25d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1425,7 +1425,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "211B1F5E58F76B22"
 				item: {
@@ -1437,13 +1437,13 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 3.15d
+			y: 5.3999999999999995d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5DD2986DB5CA8254"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "40446C1968C90B0F"
 				item: {
@@ -1455,8 +1455,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
+			x: 3.15d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1466,7 +1466,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "1F6BD368D58C0BAA"
 				item: {
@@ -1478,8 +1478,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -5.0d
+			x: -3.15d
+			y: 14.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1489,7 +1489,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "359CE6CABA271F9D"
 				item: {
@@ -1501,13 +1501,13 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.0d
+			x: -7.6499999999999995d
+			y: 9.9d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "574F4553C061E082"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "7A61C1F09576196D"
 				item: {
@@ -1519,13 +1519,13 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: 1.3499999999999999d
+			y: 8.1d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "724918FE8D46754F"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "08ECCA43CDC4A42D"
 				item: {
@@ -1537,13 +1537,13 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: 0.44999999999999996d
+			y: 6.3d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "26470E884A5BA709"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "425894EC80DF0AFB"
 				item: {
@@ -1555,13 +1555,13 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.0d
+			x: -1.3499999999999999d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "4FA4DFCBCE1411E4"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "79068A3E75FEA309"
 				item: {
@@ -1584,13 +1584,13 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.0d
+			x: 1.3499999999999999d
+			y: 7.199999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "27B5A701F48D8C75"
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "038EC3C0578A8B42"
 				item: {
@@ -1613,8 +1613,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 4.05d
+			y: 5.3999999999999995d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1625,14 +1625,14 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [{
 				id: "092952C05CAE8C75"
 				item: "aether:lightning_knife"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.5d
+			x: -0.44999999999999996d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1649,7 +1649,7 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [
 				{
 					icon: "enigmaticlegacy:evil_essence"
@@ -1671,8 +1671,8 @@
 				}
 			]
 			title: "The Ender Slayer"
-			x: -1.5d
-			y: 2.5d
+			x: -8.549999999999999d
+			y: 12.149999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1689,7 +1689,7 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 0.9d
 			tasks: [
 				{
 					icon: "enigmaticlegacy:evil_essence"
@@ -1711,8 +1711,8 @@
 				}
 			]
 			title: "The Voracious Pan"
-			x: 0.5d
-			y: 2.5d
+			x: -4.05d
+			y: 15.75d
 		}
 	]
 	title: "Bladesmith"
