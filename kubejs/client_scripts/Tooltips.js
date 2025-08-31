@@ -2,7 +2,11 @@ ItemEvents.tooltip( tooltip => {
 
   // ========================================== Texture Credits ==========================================
   tooltip.add(["kubejs:archers_glove",
-               "kubejs:rotten_flesh_block"],Text.gray("Texture by Qwerty"))
+               "kubejs:rotten_flesh_block",
+               'immersiveengineering:armor_steel_helmet',
+               'immersiveengineering:armor_steel_chestplate',
+               'immersiveengineering:armor_steel_leggings',
+               'immersiveengineering:armor_steel_boots'],Text.gray("Texture by Qwerty"))
 
   tooltip.add(["kubejs:inert_alloy_ingot",
                "kubejs:ring_travel",
@@ -352,7 +356,9 @@ ItemEvents.tooltip( tooltip => {
     'immersiveengineering:armor_faraday_chestplate',
     'immersiveengineering:armor_faraday_leggings',
     'immersiveengineering:armor_faraday_boots',
-    "create:extendo_grip"],
+    "create:extendo_grip",
+    "kubejs:steel_shears",
+    "kubejs:steel_knife"],
     (item, advanced, text) => {
     text.add(1, Text.of("Unbreakable").blue())
     })
