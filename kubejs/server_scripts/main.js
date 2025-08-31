@@ -356,6 +356,19 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 0 Components ========================================================================
 	
+	event.shapeless("aether:cold_aercloud","9x quark:bottled_cloud")
+	
+	event.shaped("48x supplementaries:cannonball",
+		[
+			" C ",
+			"CCC",
+			" C "
+		],
+		{
+			C: "quark:sturdy_stone"
+		}
+	).id("supplementaries:cannonball_2")
+
 	event.shaped("wizards_reborn:totem_base",
 		[
 			" P ",
@@ -722,8 +735,9 @@ ServerEvents.recipes(event => {
 
 	
 	
-	/// ======================================================================= Tier 1 components =======================================================================
-
+	/// ======================================================================= Tier 1 Components =======================================================================
+	
+	event.shapeless("alexsmobs:lost_tentacle",["forbidden_arcanus:tentacle","forbidden_arcanus:soul"])
 	event.shaped("vintagedelight:evaporator",
 		[
 			"BBB",
@@ -1354,6 +1368,62 @@ ServerEvents.recipes(event => {
 	)
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
+	
+	event.shaped("create:pulse_timer",
+		[
+			"SRS",
+			"ABA",
+			"SRS"
+		],
+		{
+			R: "create:pulse_repeater",
+			S: "#forge:plates/stone",
+			A: "amethyst_shard",
+			B: "#forge:plates/brass"
+		}
+	).id("create:crafting/logistics/pulse_timer")
+
+	event.shaped("mbd2:basic_recycler",
+		[
+			"PHP",
+			"PXP",
+			"PMP"
+		],
+		{
+			P: "#forge:plates/wooden",
+			H: "woodenhopper:wooden_hopper",
+			X: "#forge:gears/nickel",
+			M: "kubejs:primitive_machine",
+		}
+	)
+	
+	event.shaped("quark:crate",
+		[
+			"ISI",
+			"SXS",
+			"ISI"
+		],
+		{
+			S: "#c:rods/wooden",
+			X: "#c:barrels/wooden",
+			I: "#forge:plates/iron"
+		}
+	)
+	
+	event.shaped("alexsmobs:gustmaker",
+		[
+			"SYS",
+			"SXS",
+			"SZS"
+		],
+		{
+			S: "sandstone",
+			X: "supplementaries:bellows",
+			Y: "alexsmobs:guster_eye",
+			Z: "kubejs:primitive_machine"
+		}
+	).id("alexsmobs:gustmaker")
+	
 	event.shaped("wizards_reborn:cooldown_sensor",
 		[
 			"D",
@@ -2740,18 +2810,6 @@ ServerEvents.recipes(event => {
 	smithingtemplate("deepslate","#forge:ingots/infused_iron","steel")
 	smithingtemplate("deep_aether:aseterite","#forge:ingots/phoenix","phoenix")
 
-	event.recipes.naturesaura.tree_ritual("naturesaura:token_joy",
-	["#forge:gems/lapis","kubejs:basic_token","create:bar_of_chocolate","create:bar_of_chocolate","create:bar_of_chocolate","create:bar_of_chocolate","create:bar_of_chocolate","create:bar_of_chocolate"],"quark:yellow_blossom_sapling",100).id("naturesaura:tree_ritual/token_joy")
-
-	event.recipes.naturesaura.tree_ritual("naturesaura:token_sorrow",
-	["#forge:dusts/redstone","kubejs:basic_token","crying_obsidian","crying_obsidian","crying_obsidian","crying_obsidian","crying_obsidian","crying_obsidian"],"quark:blue_blossom_sapling",100).id("naturesaura:tree_ritual/token_sorrow")
-
-	event.recipes.naturesaura.tree_ritual("naturesaura:token_fear",
-	["#forge:gems/niter","kubejs:basic_token","carved_pumpkin","carved_pumpkin","carved_pumpkin","carved_pumpkin","carved_pumpkin","carved_pumpkin"],"quark:lavender_blossom_sapling",100).id("naturesaura:tree_ritual/token_fear")
-
-	event.recipes.naturesaura.tree_ritual("naturesaura:token_anger",
-	["#forge:gems/sulfur","kubejs:basic_token","immersive_weathering:vitrified_sand","immersive_weathering:vitrified_sand","immersive_weathering:vitrified_sand","immersive_weathering:vitrified_sand","immersive_weathering:vitrified_sand","immersive_weathering:vitrified_sand"],"quark:red_blossom_sapling",100).id("naturesaura:tree_ritual/token_anger")
-
 	
 	event.custom({
 		type: "lychee:item_inside",
@@ -2873,12 +2931,22 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.recipes.naturesaura.tree_ritual("2x kubejs:source_alloy_ingot",["ars_nouveau:source_gem","ars_nouveau:source_gem","ars_nouveau:source_gem","#forge:dusts/gold","#forge:dusts/gold","#forge:dusts/gold"],"ars_nouveau:purple_archwood_sapling",100)
-	
-	event.recipes.naturesaura.tree_ritual("2x kubejs:arcanum_alloy_ingot",["wizards_reborn:arcanum","wizards_reborn:arcanum",'wizards_reborn:arcanum',"#forge:dusts/iron","#forge:dusts/iron","#forge:dusts/iron"],"birch_sapling",100)
-
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
+	
+	event.shaped("mbd2:elemental_recycler",
+		[
+			"PPP",
+			"PXP",
+			"RMR"
+		],
+		{
+			P: "#forge:plates/arcanum_alloy",
+			X: "mbd2:basic_recycler",
+			M: "kubejs:basic_magic_machine",
+			R: "kubejs:carbon_infused_sturdy_handle"
+		}
+	)
 
 	event.shaped("naturesaura:mover_cart",
 		[
