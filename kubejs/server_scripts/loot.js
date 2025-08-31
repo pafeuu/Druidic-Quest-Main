@@ -86,7 +86,8 @@ LootJS.modifiers((event) => {
         .replaceLoot("netherite_ingot","netherite_scrap")
         .replaceLoot("netherite_block","6x netherite_scrap")
         .replaceLoot("aether:diamond_gloves","4x kubejs:diamond_plate")
-        .replaceLoot("aether:iron_gloves","4x create:iron_sheet");
+        .replaceLoot("aether:iron_gloves","4x create:iron_sheet")
+        .replaceLoot("irons_spellbooks:fireward_ring","irons_spellbooks:cinder_essence");
 
     // ====================================================Iron's
     event.addLootTableModifier("irons_spellbooks:chests/filler_storage_loot")
@@ -100,14 +101,14 @@ LootJS.modifiers((event) => {
         .randomChance(0.01).addLoot("vintagedelight:magic_peanut")
         .randomChance(0.05).addLoot("vintagedelight:century_egg");
     
-    event.addLootTableModifier(/.*irons_spellbooks.*/)
+    event.addLootTableModifier(/.*irons_spellbooks:chests.*/)
         .replaceLoot(Item.of('minecraft:potion', '{Potion:"minecraft:water"}'), "enigmaticlegacy:recall_potion");
     
-    event.addLootTableModifier(/.*irons_spellbooks.*/)
+    event.addLootTableModifier(/.*irons_spellbooks:chests.*/)
         .randomChance(0.4)
         .addLoot("2x enigmaticlegacy:recall_potion");
 
-    event.addLootTableModifier(/.*irons_spellbooks.*/)
+    event.addLootTableModifier(/.*irons_spellbooks:chests.*/)
         .randomChance(0.10)
         .addLoot("enigmaticlegacy:mending_mixture");
     
