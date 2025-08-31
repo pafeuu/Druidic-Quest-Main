@@ -186,6 +186,7 @@ StartupEvents.registry('item', item => {
   item.create('knightmetal_gear').tag('forge:gears/knightmetal').tag('forge:gears').tag("dq:tier3/component")
   item.create('fiery_gear').tag('forge:gears/fiery').tag('forge:gears').tag("dq:tier3/component")
   item.create('arcane_gold_gear').tag('forge:gears/arcane_gold').tag('forge:gears').tag("dq:tier3/component")
+  item.create('storm_gear').tag('forge:gears/storm').tag('forge:gears').tag("dq:tier3/component")
 
   //item.create('swift_alloy_gear').tag('forge:gears/swift_alloy').tag('forge:gears').tag("dq:tier4/component")
   item.create('sky_gear').tag('forge:gears/sky').tag('forge:gears').tag("dq:tier4/component")
@@ -205,6 +206,7 @@ StartupEvents.registry('item', item => {
   item.create("copper_rod").tag("forge:rods").tag("forge:rods/copper").tag("dq:tier1/component")
   item.create("gold_rod").tag("forge:rods").tag("forge:rods/gold").tag("dq:tier1/component")
   item.create("diamond_rod").tag("forge:rods").tag("forge:rods/diamond").tag("dq:tier1/component")
+  item.create("brass_rod").tag("forge:rods").tag("forge:rods/brass").tag("dq:tier1/component")
 
   item.create("electrum_rod").tag("forge:rods").tag("forge:rods/electrum").tag("dq:tier2/component")
   item.create("arcanum_alloy_rod").tag("forge:rods").tag("forge:rods/arcanum_alloy").tag("dq:tier2/component")
@@ -212,9 +214,9 @@ StartupEvents.registry('item', item => {
   item.create("infused_iron_rod").tag("forge:rods").tag("forge:rods/infused_iron").tag("dq:tier2/component")
   item.create("tainted_gold_rod").tag("forge:rods").tag("forge:rods/tainted_gold").tag("dq:tier2/component")
 
-  item.create("brass_rod").tag("forge:rods").tag("forge:rods/brass").tag("dq:tier3/component")
   item.create('fiery_rod').tag("forge:rods").tag("forge:rods/fiery").tag("dq:tier3/component")
   item.create("arcane_gold_rod").tag("forge:rods").tag("forge:rods/arcane_gold").tag("dq:tier3/component")
+  item.create("storm_rod").tag("forge:rods").tag("forge:rods/storm").tag("dq:tier3/component")
   //item.create("drenched_iron_rod").tag("forge:rods").tag("forge:rods/drenched_iron").tag("dq:tier3/component")
 
   item.create("sky_rod").tag("forge:rods").tag("forge:rods/sky").tag("dq:tier4/component")
@@ -227,8 +229,9 @@ StartupEvents.registry('item', item => {
 
   ///===================================================INGOTS===========================================================
 
-  item.create('source_alloy_ingot').tag('forge:ingots').tag('forge:ingots/source_alloy').tag("dq:tier1/component")
-  item.create('arcanum_alloy_ingot').tag('forge:ingots').tag('forge:ingots/arcanum_alloy').tag("dq:tier1/component")
+  item.create('source_alloy_ingot').tag('forge:ingots').tag('forge:ingots/source_alloy').tag("dq:tier2/component")
+  item.create('arcanum_alloy_ingot').tag('forge:ingots').tag('forge:ingots/arcanum_alloy').tag("dq:tier2/component")
+  item.create('storm_ingot').tag('forge:ingots').tag('forge:ingots/storm').tag("dq:tier3/component")
   item.create('wrought_iron_ingot').tag('forge:ingots').tag('forge:ingots/wrought_iron')
   item.create('aquatic_ingot').tag('forge:ingots').tag('forge:ingots/aquatic')
   item.create('phoenix_ingot').tag('forge:ingots').tag('forge:ingots/phoenix')
@@ -245,6 +248,7 @@ StartupEvents.registry('item', item => {
   item.create('andesite_alloy_nugget').tag('forge:nuggets').tag('forge:nuggets/andesite_alloy').tag("dq:tier3/component")
   item.create('fiery_nugget').tag('forge:nuggets').tag('forge:nuggets/fiery').tag("dq:tier3/component")
   item.create('knightmetal_nugget').tag('forge:nuggets').tag('forge:nuggets/knightmetal').tag("dq:tier3/component")
+  item.create('storm_nugget').tag('forge:nuggets').tag('forge:nuggets/storm').tag("dq:tier3/component")
 
   item.create('sky_nugget').tag('forge:nuggets').tag('forge:nuggets/sky').tag("dq:tier4/component")
 
@@ -444,8 +448,10 @@ StartupEvents.registry('item', item => {
   
   item.create('sacrificial_dagger','sword').tier('gold').tag("minecraft:tools").tag("dq:tier1/weapon").tag("dq:tier1/tool").speedBaseline(-2.0).attackDamageBaseline(1)
   
-  item.createCustom('primitive_shears',() => new $ShearsItem(new $ItemProperties().defaultDurability(8)))
-
+  //item.createCustom('primitive_shears',() => new $ShearsItem(new $ItemProperties().defaultDurability(8)))
+  item.create('primitive_shears',"shears").maxDamage(8).unstackable()
+  item.create("steel_shears","shears").maxDamage(-1).unstackable().tag("forge:tools/steel")
+  item.create("steel_knife","farmersdelight:knife").tag("minecraft:tools").tag("forge:tools/knives").tag("dq:tier1/tool").unstackable().tag("forge:tools/steel")
   item.createCustom('primitive_firestarter',() => new $FlintAndSteelItem(new $ItemProperties().defaultDurability(8)))
 
   item.createCustom('primitive_shield', () => new $ShieldItem(new $ItemProperties().defaultDurability(128)))
