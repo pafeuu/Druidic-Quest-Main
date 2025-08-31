@@ -64,6 +64,9 @@ ServerEvents.recipes(e => {
         "honey_bottle"],"enigmaticlegacy:ichor_bottle",100,200)
     
     e.shapeless("sob:peanut_butter",["2x vintagedelight:roasted_peanut","sugar","glass_bottle"]).id("sob:crafting/peanut_butter")
+    
+    e.shapeless("sob:echo_rock_candy",["echo_shard","honey_bottle","enigmaticlegacy:recall_potion","#c:rods/wooden"])
+    
     e.custom(
         {
         "type": "minecraft:crafting_shapeless",

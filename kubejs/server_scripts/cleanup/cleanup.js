@@ -1,4 +1,4 @@
-var colors = ['red','blue','white','gray','light_gray','black','purple','magenta','yellow','green','lime','light_blue','blue','orange','pink','brown']
+global.colors = ['red','blue','white','gray','light_gray','black','purple','magenta','yellow','green','lime','light_blue','blue','orange','pink','brown']
 
 var ThermalMetals = ['tin','silver','lead','gold','iron','copper','nickel','aluminum']
 
@@ -301,7 +301,17 @@ global.nukelist = ["twigs:calcite_wall",
 	'sob:peanut_bag',
 	'sob:wild_peanuts',
 	'sob:peanut',
-	'sob:roasted_peanuts']/*,,
+	'sob:roasted_peanuts',
+	/*'create:factory_gauge',
+	'create:redstone_requester',
+	'create:stock_link',
+	'create:stock_ticker',
+	'create:repackager',
+	'create:package_frogport',
+	'create:item_hatch',
+	'create:packager',
+	'create:pulse_timer',
+	'create:package_filter'*/]/*,,
 	
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',
