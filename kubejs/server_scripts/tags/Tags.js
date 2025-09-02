@@ -19,14 +19,11 @@ ServerEvents.tags('item', event => {
 
   event.remove("forge:rods/wooden","naturesaura:ancient_stick")
   event.remove("forge:rods/wooden","immersiveengineering:stick_treated")
-  event.remove("forge:tools","#forge:shields")
-  event.remove("forge:tools","#forge:tools/shields")
-  event.remove("forge:tools","#c:tools/shields")
-  event.remove("forge:tools","#c:tools")
-  event.remove("forge:tools","#bookshelf:shields")
-  event.remove("forge:tools","immersiveengineering:toolbox/tools")
-  event.remove("forge:tools",["minecraft:shield","kubejs:primitive_shield","ars_nouveau:enchanters_shield"])
-  
+
+
+  event.remove("minecraft:flowers",['farmersdelight:wild_potatoes', 'farmersdelight:wild_rice', 'farmersdelight:wild_beetroots', 'farmersdelight:wild_tomatoes', 'farmersdelight:wild_onions', 'farmersdelight:wild_carrots', 'farmersdelight:wild_cabbages', 'vintagedelight:wild_oats', 'vintagedelight:wild_cucumbers', 'vintagedelight:wild_ghost_peppers', 'vintagedelight:wild_peanuts', 'supplementaries:wild_flax'])
+  event.remove("minecraft:small_flowers",['farmersdelight:wild_potatoes', 'farmersdelight:wild_beetroots', 'farmersdelight:wild_tomatoes', 'farmersdelight:wild_onions', 'farmersdelight:wild_carrots', 'farmersdelight:wild_cabbages', 'vintagedelight:wild_oats', 'vintagedelight:wild_cucumbers', 'vintagedelight:wild_ghost_peppers', 'vintagedelight:wild_peanuts', 'supplementaries:wild_flax'])
+  event.remove("minecraft:tall_flowers",'farmersdelight:wild_rice')
   event.add("c:hidden_from_recipe_viewers",[global.nukelist])
 
   event.add("c:hidden_from_recipe_viewers",["kubejs:recipe_changed","ftbfiltersystem:smart_filter","kubejs:unstable_ivy_quartz"])
