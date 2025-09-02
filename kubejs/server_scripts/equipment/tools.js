@@ -369,10 +369,35 @@ ServerEvents.recipes(event => {
 		]
 	})
 	
+	const MazeBlocks = [
+		'twilightforest:mazestone_border',
+		'twilightforest:mazestone',
+		'twilightforest:mazestone_brick',
+		'twilightforest:cracked_mazestone',
+		'twilightforest:mossy_mazestone',
+		'twilightforest:decorative_mazestone',
+		'twilightforest:cut_mazestone',
+		'twilightforest:mazestone_mosaic']
+	
+	MazeBlocks.forEach(id => {
+		event.custom({
+		type: "lychee:block_interacting",
+		item_in: {item:"kubejs:rainbow_magic_feather"},
+		"hide_in_viewer": false,
+		block_in: id,
+		post: [
+			{type: "place", block: "air"},
+			{type: "damage_item", damage: 2},
+			{type: "drop_item", item: id},
+			{type: "execute", command: "playsound minecraft:block.stone.break_block.break neutral @p",hide: true}
+		]
+	})
+	});
+
 	event.custom({
 		type: "lychee:block_interacting",
 		item_in: {item:"kubejs:rainbow_magic_feather"},
-		"hide_in_viewer": true,
+		"hide_in_viewer": false,
 		block_in: "bedrock",
 		contextual:{
 			type: "location",
