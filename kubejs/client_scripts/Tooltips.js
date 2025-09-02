@@ -205,6 +205,7 @@ ItemEvents.tooltip( tooltip => {
       text.add(1, Text.gold('You can insta mine obsidian by right clicking'))
       text.add(2, Text.red('Right clicking netherrack in the nether will cause an explosion!'))
       text.add(3, Text.lightPurple('Right clicking bedrock on the nether roof will destroy it!'))
+      text.add(3, Text.darkGreen('Right clicking Maze Blocks will destroy it!'))
     }
   })
 
@@ -358,7 +359,27 @@ ItemEvents.tooltip( tooltip => {
     'immersiveengineering:armor_faraday_boots',
     "create:extendo_grip",
     "kubejs:steel_shears",
-    "kubejs:steel_knife"],
+    "kubejs:steel_knife",
+    'forbidden_arcanus:tyr_helmet',
+    'forbidden_arcanus:tyr_chestplate',
+    'forbidden_arcanus:tyr_leggings',
+    'forbidden_arcanus:tyr_boots', 
+    'thermal:hazmat_helmet',
+    'thermal:hazmat_chestplate',
+    'thermal:hazmat_leggings',
+    'thermal:hazmat_boots',
+    'enigmaticlegacy:etherium_helmet',
+    'enigmaticlegacy:etherium_chestplate',
+    'enigmaticlegacy:etherium_leggings',
+    'enigmaticlegacy:etherium_boots',
+    'deeperdarker:warden_helmet',
+    'deeperdarker:warden_chestplate',
+    'deeperdarker:warden_leggings',
+    'deeperdarker:warden_boots',
+    'ancient_aether:valkyrum_helmet',
+    'ancient_aether:valkyrum_chestplate',
+    'ancient_aether:valkyrum_leggings',
+    'ancient_aether:valkyrum_boots'],
     (item, advanced, text) => {
     text.add(1, Text.of("Unbreakable").blue())
     })
