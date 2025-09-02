@@ -24,7 +24,7 @@ uuid_locking = false
 skull_candles = false
 #If false, items that come enchanted when you craft them (such as ironwood or steeleaf gear) will not show this way in the creative inventory.
 #Please note that this doesnt affect the crafting recipes themselves, you will need a datapack to change those.
-default_item_enchantments = true
+default_item_enchantments = false
 #If true, Twilight Forest's bosses will put their drops inside of a chest where they originally spawned instead of dropping the loot directly.
 #Note that the Knight Phantoms are not affected by this as their drops work differently.
 boss_drop_chests = true
