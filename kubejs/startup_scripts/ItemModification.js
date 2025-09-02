@@ -126,7 +126,38 @@ ItemEvents.modification(event => {
     "thermal:beekeeper",
     "twilightforest:fiery",
     "twilightforest:ironwood",
-    "twilightforest:steeleaf"
+    "twilightforest:steeleaf",
+    "twilightforest:knightmetal",
+    "twilightforest:arctic",
+    "twilightforest:yeti",
+    "kubejs:copper",
+    "kubejs:bronze",
+    "kubejs:lead",
+    "kubejs:silver",
+    "aether:gravitite",
+    "wizards_reborn:arcane_gold",
+    "aether:neptune",
+    "aether:obsidian",
+    "wizards_reborn:inventor_wizard",
+    "aether:phoenix",
+    "irons_spellbooks:netherite_mage",
+    "irons_spellbooks:cultist",
+    "irons_spellbooks:priest",
+    "irons_spellbooks:pyromancer",
+    "irons_spellbooks:cryomancer",
+    "irons_spellbooks:shadowwalker",
+    "irons_spellbooks:plagued",
+    "irons_spellbooks:archevoker",
+    "deep_aether:stormforged",
+    "deep_aether:stratus",
+    "forbidden_arcanus:draco_arcanus",
+    ]
+
+    let UnbreakableArmor = [
+      "ancient_aether:valkyrum",
+      "thermal:hazmat",
+      "deeperdarker:warden",
+      "enigmaticlegacy:etherium"
     ]
 
     let NatureDurabilityBuffs = [
@@ -483,7 +514,18 @@ ItemEvents.modification(event => {
 
       event.modify(id+"_"+slot, item=>{
 
-        item.maxDamage = item.maxDamage*1.75
+        item.maxDamage = item.maxDamage*2
+      })
+    });
+  });
+
+  UnbreakableArmor.forEach(id => {
+
+    ArmorSlot.forEach(slot => {
+
+      event.modify(id+"_"+slot, item=>{
+
+        item.maxDamage = -1
       })
     });
   });
@@ -494,7 +536,7 @@ ItemEvents.modification(event => {
 
       event.modify("naturesaura:"+id+"_"+slot, item=>{
 
-        item.maxDamage = item.maxDamage*1.75
+        item.maxDamage = item.maxDamage*2
       })
     });
   });
@@ -505,7 +547,7 @@ ItemEvents.modification(event => {
 
       event.modify("ars_nouveau:"+id+"_"+slot, item=>{
 
-        item.maxDamage = item.maxDamage*1.75
+        item.maxDamage = item.maxDamage*2
       })
     });
   });
