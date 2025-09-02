@@ -206,6 +206,93 @@ ServerEvents.recipes(event=>{
           "cherry_sapling"
      ).id("wizards_reborn:crystal_infusion/innocent_wood_sapling")
 
+     tree_ritual("naturesaura:token_joy",
+	[
+          "#forge:gems/lapis",
+          "kubejs:basic_token",
+          "create:bar_of_chocolate",
+          "create:bar_of_chocolate",
+          "create:bar_of_chocolate",
+          "create:bar_of_chocolate",
+          "create:bar_of_chocolate",
+          "create:bar_of_chocolate"],
+          "quark:yellow_blossom_sapling",100
+     ).id("naturesaura:tree_ritual/token_joy")
+
+	tree_ritual("naturesaura:token_sorrow",
+	[
+          "#forge:dusts/redstone",
+          "kubejs:basic_token",
+          "crying_obsidian",
+          "crying_obsidian",
+          "crying_obsidian",
+          "crying_obsidian",
+          "crying_obsidian",
+          "crying_obsidian"],
+          "quark:blue_blossom_sapling",100
+     ).id("naturesaura:tree_ritual/token_sorrow")
+
+	tree_ritual("naturesaura:token_fear",
+	[
+          "#forge:gems/niter",
+          "kubejs:basic_token",
+          "carved_pumpkin",
+          "carved_pumpkin",
+          "carved_pumpkin",
+          "carved_pumpkin",
+          "carved_pumpkin",
+          "carved_pumpkin"],
+          "quark:lavender_blossom_sapling",100
+     ).id("naturesaura:tree_ritual/token_fear")
+
+	tree_ritual("naturesaura:token_anger",
+	[
+          "#forge:gems/sulfur",
+          "kubejs:basic_token",
+          "immersive_weathering:vitrified_sand",
+          "immersive_weathering:vitrified_sand",
+          "immersive_weathering:vitrified_sand",
+          "immersive_weathering:vitrified_sand",
+          "immersive_weathering:vitrified_sand",
+          "immersive_weathering:vitrified_sand"],
+          "quark:red_blossom_sapling",100
+     ).id("naturesaura:tree_ritual/token_anger")
+
+     //==============================================Alloys===========================================
+
+     tree_ritual("2x kubejs:source_alloy_ingot",
+          [
+               "ars_nouveau:source_gem",
+               "ars_nouveau:source_gem",
+               "ars_nouveau:source_gem",
+               "#forge:dusts/gold",
+               "#forge:dusts/gold",
+               "#forge:dusts/gold"],
+               "ars_nouveau:purple_archwood_sapling",100
+     )
+	
+	tree_ritual("2x kubejs:arcanum_alloy_ingot",
+          [
+               "wizards_reborn:arcanum",
+               "wizards_reborn:arcanum",
+               'wizards_reborn:arcanum',
+               "#forge:dusts/iron",
+               "#forge:dusts/iron",
+               "#forge:dusts/iron"],
+               "birch_sapling",100
+     )
+
+     tree_ritual("kubejs:storm_ingot",
+          [
+               "kubejs:arcanum_alloy_ingot",
+               "kubejs:arcanum_alloy_ingot",
+               "ars_nouveau:air_essence",
+               "ars_nouveau:air_essence",
+               "ars_nouveau:air_essence",
+               "ars_nouveau:air_essence"],
+               "birch_sapling",100
+     )
+
      tree_ritual("4x thermal:bronze_ingot",
           [
                "#forge:ingots/tin",
@@ -229,5 +316,4 @@ ServerEvents.recipes(event=>{
           ],
           "jungle_sapling"
      )
-
 })
