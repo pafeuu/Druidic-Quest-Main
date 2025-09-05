@@ -1023,6 +1023,7 @@
 			}]
 			subtitle: "6 Gold Coins"
 			tasks: [{
+				consume_items: true
 				count: 6L
 				id: "783C2ECD35D5E6CB"
 				item: "thermal:gold_coin"
