@@ -80,7 +80,7 @@
 				}
 			]
 			title: "Leather Set"
-			x: -6.5d
+			x: -7.0d
 			y: -2.5d
 		}
 		{
@@ -146,7 +146,7 @@
 				}
 			]
 			title: "Engineer's Set"
-			x: 0.5d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -212,7 +212,7 @@
 				}
 			]
 			title: "Mortem Set"
-			x: -0.5d
+			x: -5.0d
 			y: -2.5d
 		}
 		{
@@ -344,8 +344,8 @@
 				}
 			]
 			title: "Chainmail Set"
-			x: -6.0d
-			y: -1.5d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -410,8 +410,8 @@
 				}
 			]
 			title: "Botanist Set"
-			x: -7.0d
-			y: -0.5d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -476,7 +476,7 @@
 				}
 			]
 			title: "Gold Set"
-			x: -4.5d
+			x: -5.5d
 			y: 0.5d
 		}
 		{
@@ -542,7 +542,7 @@
 				}
 			]
 			title: "Diamond Set"
-			x: -3.5d
+			x: -4.5d
 			y: 0.5d
 		}
 		{
@@ -608,8 +608,8 @@
 				}
 			]
 			title: "Netherite Set"
-			x: -5.5d
-			y: 1.5d
+			x: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -674,8 +674,8 @@
 				}
 			]
 			title: "Steel Set"
-			x: -5.5d
-			y: 3.5d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -740,7 +740,7 @@
 				}
 			]
 			title: "Skyseeker Set"
-			x: -2.5d
+			x: -3.5d
 			y: 0.5d
 		}
 		{
@@ -1180,8 +1180,8 @@
 				}
 			]
 			title: "Copper Set"
-			x: -7.0d
-			y: -1.5d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1246,7 +1246,7 @@
 				}
 			]
 			title: "Silver Set"
-			x: -1.0d
+			x: -6.0d
 			y: -1.5d
 		}
 		{
@@ -1312,7 +1312,7 @@
 				}
 			]
 			title: "Lead Set"
-			x: 0.0d
+			x: -7.0d
 			y: -1.5d
 		}
 		{
@@ -1378,7 +1378,7 @@
 				}
 			]
 			title: "Draco Arcanus Set"
-			x: -4.5d
+			x: -5.5d
 			y: 3.5d
 		}
 		{
@@ -1444,7 +1444,7 @@
 				}
 			]
 			title: "Tyr Set"
-			x: -3.5d
+			x: -0.5d
 			y: 3.5d
 		}
 		{
@@ -1793,7 +1793,7 @@
 				}
 			]
 			title: "Naga Set"
-			x: -4.0d
+			x: -6.0d
 			y: -0.5d
 		}
 		{
@@ -1879,7 +1879,7 @@
 				}
 			]
 			title: "Ironwood Set"
-			x: -5.0d
+			x: -7.0d
 			y: -0.5d
 		}
 		{
@@ -1965,7 +1965,7 @@
 				}
 			]
 			title: "Steeleaf Set"
-			x: -3.0d
+			x: -5.0d
 			y: -0.5d
 		}
 		{
@@ -2031,7 +2031,7 @@
 				}
 			]
 			title: "Arctic Set"
-			x: 1.0d
+			x: 0.0d
 			y: -0.5d
 		}
 		{
@@ -2123,8 +2123,8 @@
 				}
 			]
 			title: "Yeti Set"
-			x: -5.5d
-			y: 0.5d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2189,7 +2189,7 @@
 				}
 			]
 			title: "Fiery Set"
-			x: -2.0d
+			x: -4.0d
 			y: -0.5d
 		}
 		{
@@ -2386,7 +2386,7 @@
 				}
 			]
 			title: "Knightmetal Set"
-			x: 0.0d
+			x: -1.0d
 			y: -0.5d
 		}
 		{
@@ -2452,7 +2452,7 @@
 				}
 			]
 			title: "Skyjade Set"
-			x: -0.5d
+			x: -1.5d
 			y: 0.5d
 		}
 		{
@@ -2518,7 +2518,7 @@
 				}
 			]
 			title: "Zanite Set"
-			x: -1.5d
+			x: -2.5d
 			y: 0.5d
 		}
 		{
@@ -2562,7 +2562,7 @@
 				}
 			]
 			title: "Phantom Set"
-			x: -1.0d
+			x: -2.0d
 			y: -0.5d
 		}
 		{
@@ -2759,8 +2759,8 @@
 				}
 			]
 			title: "Obsidian Set"
-			x: -4.5d
-			y: 2.5d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2824,7 +2824,7 @@
 				}
 			]
 			title: "Valkyrum Set"
-			x: -3.5d
+			x: -4.5d
 			y: 2.5d
 		}
 		{
@@ -2956,7 +2956,7 @@
 				}
 			]
 			title: "Warden Set"
-			x: -0.5d
+			x: -4.5d
 			y: 3.5d
 		}
 		{
@@ -3022,7 +3022,7 @@
 				}
 			]
 			title: "Beekeeper's Set"
-			x: -5.5d
+			x: -6.0d
 			y: -2.5d
 		}
 		{
@@ -3165,8 +3165,8 @@
 				}
 			]
 			title: "Diving Set"
-			x: -6.0d
-			y: -0.5d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3235,7 +3235,7 @@
 				}
 			]
 			title: "Arcane Gold Set"
-			x: -2.5d
+			x: -3.5d
 			y: 2.5d
 		}
 		{
@@ -3306,7 +3306,7 @@
 				}
 			]
 			title: "Inventor Wizard Set"
-			x: -1.5d
+			x: -2.5d
 			y: 2.5d
 		}
 		{
@@ -3376,7 +3376,7 @@
 				}
 			]
 			title: "Arcane Fortress Set"
-			x: -0.5d
+			x: -1.5d
 			y: 2.5d
 		}
 		{
@@ -3459,7 +3459,7 @@
 				}
 			]
 			title: "Bronze Set"
-			x: 1.0d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
@@ -4488,6 +4488,72 @@
 			title: "Netherite Battlemage Set"
 			x: 4.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "thermal:hazmat_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3C10E784E8CC64B1"
+			rewards: [{
+				count: 2
+				id: "4478C2A6C7B0EAF6"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07C927017028C7AB"
+					item: {
+						Count: 1
+						id: "thermal:hazmat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03CFA327B7FD5DC6"
+					item: {
+						Count: 1
+						id: "thermal:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "074DCAAD4082D7DE"
+					item: {
+						Count: 1
+						id: "thermal:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62EE432EB7A561AD"
+					item: {
+						Count: 1
+						id: "thermal:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hazmat Set"
+			x: -3.5d
+			y: 3.5d
 		}
 	]
 	title: "Armorsmith"
