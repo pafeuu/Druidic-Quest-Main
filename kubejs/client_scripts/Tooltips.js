@@ -1,3 +1,4 @@
+
 ItemEvents.tooltip( tooltip => { 
 
   // ========================================== Texture Credits ==========================================
@@ -140,13 +141,63 @@ ItemEvents.tooltip( tooltip => {
                 text.add(1, Text.of("Make sure to empty it before upgrading!").red())
                })
   //======================================= Smithing Templates ==============================
-
-  tooltip.add("kubejs:botanist_upgrade_smithing_template", [Text.gray("Botanist Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.white(" Iron Equipment"), Text.gray("Ingredients:"), Text.white(" Infused Iron Ingot")])
-  tooltip.add("kubejs:skyseeker_upgrade_smithing_template", [Text.gray("Skyseeker Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.aqua(" Diamond Equipment"), Text.gray("Ingredients:"), Text.aqua(" Ingot of the Skies")])
-  tooltip.add("kubejs:gold_upgrade_smithing_template", [Text.gray("Gold Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.gold(" Silver Equipment"), Text.gray("Ingredients:"), Text.gold(" Gold Upgrade Parts")])
-  tooltip.add("kubejs:steel_upgrade_smithing_template", [Text.gray("Steel Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.darkGreen(" Botanist Equipment"), Text.gray("Ingredients:"), Text.darkGreen(" Steel Upgrade Parts")])
-  tooltip.add("kubejs:phoenix_upgrade_smithing_template", [Text.gray("Phoenix Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.red(" Fiery Equipment"), Text.gray("Ingredients:"), Text.red(" Phoenix Ingot")])
   
+  function NewSmithingTemplateTooltip(Template,UpgradeTo,UpgradeFrom,Material,Color)
+  {
+    tooltip.addAdvanced(Template,(item, advanced, text) => {
+                text.clear()
+                text.add(0,Text.of("Smithing Template"))
+                text.add(1, Text.of(UpgradeTo+" Template").gray())
+                text.add(2, Text.of(" "))
+                text.add(3, Text.of("Applies To:").gray())
+                text.add(4, Text.of(" "+UpgradeFrom+" Equipment").color(Color))
+                text.add(5, Text.of("Ingredients:").gray())
+                text.add(6, Text.of(" "+Material).color(Color))
+               
+               })
+  }
+  function SmithingTemplate(Template,UpgradeTo,UpgradeFrom,Material,Color)
+  {
+      tooltip.addAdvanced(Template,(item, advanced, text) => {
+                text.add(1, Text.of(UpgradeTo+" Template").gray())
+                text.add(2, Text.of(" "))
+                text.add(3, Text.of("Applies To:").gray())
+                text.add(4, Text.of(" "+UpgradeFrom+" Equipment").color(Color))
+                text.add(5, Text.of("Ingredients:").gray())
+                text.add(6, Text.of(" "+Material).color(Color))
+               })
+  }
+
+  NewSmithingTemplateTooltip("minecraft:netherite_upgrade_smithing_template","Netherite","Diamond","Netherite Sheet",0x5555FF)
+  NewSmithingTemplateTooltip("deep_aether:stormforged_smithing_template","Stormforged","Phoenix","Squall Plate",0x5555FF)
+  NewSmithingTemplateTooltip("deeperdarker:warden_upgrade_smithing_template","Warden","Arcane Fortress","Reinforced Echo Shard",0x5555FF)
+  NewSmithingTemplateTooltip("deep_aether:stratus_smithing_template","Stratus","Gravitite","Stratus Ingot",0x5555FF)
+  SmithingTemplate("kubejs:phoenix_upgrade_smithing_template","Phoenix","Fiery","Phoenix Ingot",0x5555FF)
+  SmithingTemplate("kubejs:gold_upgrade_smithing_template","Gold","Silver","Gold Upgrade Parts",0x5555FF)
+  SmithingTemplate("kubejs:skyseeker_upgrade_smithing_template","Skyseeker","Netherite","Skyseeker Upgrade Parts",0x5555FF)
+  SmithingTemplate("kubejs:depth_upgrade_smithing_template","Soulstrider","Obsidian","Soulstrider Upgrade Parts",0x5555FF)
+  SmithingTemplate("kubejs:engineer_upgrade_smithing_template","Engineer","Leather","Tough Fabric",0x5555FF)
+  SmithingTemplate("kubejs:botanist_upgrade_smithing_template","Botanist","Iron","Infused Ingot",0x5555FF)
+  SmithingTemplate("kubejs:fiery_upgrade_smithing_template","Fiery","Iron","Fiery Sheet",0x5555FF)
+  SmithingTemplate("kubejs:bronze_upgrade_smithing_template","Bronze","Copper","Bronze Upgrade Parts",0x5555FF)
+  SmithingTemplate("kubejs:obsidian_upgrade_smithing_template","Obsidian","Knightmetal","Obsidian Ingot",0x5555FF)
+  SmithingTemplate("kubejs:knightmetal_upgrade_smithing_template","Knightmetal","Lead","Knightmetal Sheet",0x5555FF)
+  SmithingTemplate("kubejs:scarecrow_upgrade_smithing_template","Scarecrow","Wandering Magician","Arcane Cloth",0x5555FF)
+  SmithingTemplate("kubejs:steeleaf_upgrade_smithing_template","Steeleaf","Ironwood","Steeleaf Upgrade Parts",0x5555FF)
+  SmithingTemplate("kubejs:wandering_magician_upgrade_smithing_template","Wandering Magician","Leather","Arcane Leather",0x5555FF)
+  SmithingTemplate("kubejs:skyjade_upgrade_smithing_template","Skyjade","Silver","Skyjade Upgrade Parts",0x5555FF)
+  SmithingTemplate("kubejs:zanite_upgrade_smithing_template","Zanite","Lead","Zanite Upgrade Parts",0x5555FF)
+  SmithingTemplate("kubejs:steel_upgrade_smithing_template","Steel","Botanist","Steel Upgrade Parts",0x5555FF)
+  SmithingTemplate("kubejs:arcane_gold_upgrade_smithing_template","Arcane Gold","Gold","Arcane Gold Upgrade Parts",0x5555FF)
+  SmithingTemplate("kubejs:netherite_battlemage_upgrade_smithing_template","Netherite Battlemage","Netherite","Battlemage Cloth",0x5555FF)
+  SmithingTemplate("kubejs:arcane_fortress_upgrade_smithing_template","Arcane Fortress","Arcane Gold","Arcane Plating",0x5555FF)
+  SmithingTemplate("kubejs:valkyrum_upgrade_smithing_template","Valkyrum","Skyseeker","Valkyrum Upgrade Parts",0x5555FF)
+  SmithingTemplate("kubejs:etherium_upgrade_smithing_template","Etherium","Stormforged","Etherium Upgrade Parts",0x5555FF)
+  SmithingTemplate("kubejs:tyr_upgrade_smithing_template","Tyr","Draco Arcanus","Tyr Upgrade Parts",0x5555FF)
+  SmithingTemplate("kubejs:draco_arcanus_upgrade_smithing_template","Draco Arcanus","Obsidian","Dragon Scale",0x5555FF)
+  
+  
+
   //======================================= Custom Tools ====================================== 
     
   tooltip.addAdvanced("kubejs:stone_claymore", (item, advanced, text) => {
@@ -398,3 +449,4 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("#dq:generators/source",Text.darkPurple("Source Generator"))
   tooltip.add("#dq:generators/stress",Text.yellow("Stress Generator"))
 })
+
