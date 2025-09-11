@@ -206,12 +206,7 @@ global.nukelist = ["twigs:calcite_wall",
 	'effortlessbuilding:muscles', 
 	'effortlessbuilding:elastic_hand', 
 	'effortlessbuilding:building_techniques_book',
-	'aether_redux:veridium_hoe',
-	'aether_redux:veridium_axe',
-	'aether_redux:veridium_pickaxe',
-	'aether_redux:veridium_shovel',
 	'aetherdelight:veridium_knife', 
-	'aether_redux:veridium_sword',
 	'create:cart_assembler', 
 	'create:mechanical_bearing',
 	'create:clockwork_bearing', 
@@ -280,12 +275,6 @@ global.nukelist = ["twigs:calcite_wall",
 	'thermal:constantan_coin',
 	'thermal:signalum_coin',
 	'thermal:lumium_coin',
-	'aether_redux:infused_veridium_sword',
-	'aether_redux:infused_veridium_shovel',
-	'aether_redux:infused_veridium_pickaxe',
-	'aether_redux:infused_veridium_axe',
-	'aether_redux:infused_veridium_hoe',
-	'aether_redux:infused_veridium_dart_shooter',
 	'enigmaticlegacy:the_cube',
 	'enigmaticlegacy:enigmatic_item',
 	'enigmaticlegacy:void_pearl',
@@ -467,9 +456,6 @@ ServerEvents.recipes(event => {
 	event.remove({id:"thermal:storage/potato_block"})
 	event.replaceInput({id:"forbidden_arcanus:boom_arrow"},"arrow","archers_paradox:explosive_arrow")
 
-	event.shapeless("create:iron_sheet",["thermal:iron_plate"])
-	event.shapeless("create:golden_sheet",["thermal:gold_plate"])
-
 	///Needs Chipped to work
 	/*event.shaped("3x everycomp:ch/naturesaura/overgrown_ancient_door",
 		[
@@ -537,6 +523,8 @@ ServerEvents.recipes(event => {
 	StorageCompacting("naturesaura:depth_ingot","kubejs:depth_nugget")
 	StorageCompacting('twilightforest:fiery_ingot','kubejs:fiery_nugget')
 	StorageCompacting("create:andesite_alloy","kubejs:andesite_alloy_nugget")
+	StorageCompacting("kubejs:storm_block","kubejs:storm_ingot")
+	StorageCompacting("kubejs:storm_ingot","kubejs:storm_nugget")
 
 
 
@@ -685,6 +673,7 @@ ServerEvents.recipes(event => {
 	CustomGears("brass","kubejs:brass_gear")
 	//CustomGears("fireite","kubejs:fireite_gear")
 	CustomGears("fiery","kubejs:fiery_gear")
+	CustomGears("storm","kubejs:storm_gear")
 
 
 	//-------------------Rods-----------------------
@@ -735,6 +724,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:"vintageimprovements:craft/fiery_rod"})
 	
 	rods("fiery","kubejs:fiery_rod")
+	rods("storm","kubejs:storm_rod")
 	
 
 
@@ -974,6 +964,7 @@ ServerEvents.recipes(event => {
 
 	plates("forge:ingots/sarcon","wizards_reborn:sarcon_sheet","wizards_reborn:sarcon_block")
 	plates("forge:ingots/vilenium","wizards_reborn:vilenium_sheet","wizards_reborn:vilenium_block")
+	plates("forge:ingots/storm","kubejs:storm_sheet","kubejs:storm_block")
 	
 
 
@@ -1141,7 +1132,6 @@ ServerEvents.recipes(event => {
 	event.shapeless("quark:mossy_cobblestone_bricks","twigs:mossy_cobblestone_bricks").id("quark:building/crafting/mossy_cobblestone_bricks")
 
 	//event.shaped("architects_palette:hadaline_tiles",["XX","XX"],{"X":"architects_palette:hadaline_bricks"}).id("architects_palette:hadaline_tiles")
-	event.shaped("ancient_aether:carved_tiles",["XX","XX"],{"X":"aether_redux:carved_base"}).id("ancient_aether:carved_tiles")
 
 	//Regions Unexplored
 	//event.shapeless("regions_unexplored:mossy_stone","immersive_weathering:mossy_stone").id("regions_unexplored:mossy_stone")
@@ -1287,5 +1277,7 @@ ServerEvents.recipes(event => {
 	///============================ misc
 
 	event.shapeless("2x green_dye",["blue_dye","yellow_dye"])
+
+	
 })
 
