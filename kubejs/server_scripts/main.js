@@ -1369,6 +1369,48 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 	
+	event.shaped("aether_redux:logicator",
+		[
+			"SRS",
+			"RTR",
+			"SGS"
+		],
+		{
+			S: "#forge:plates/stone",
+			R: "#forge:dusts/redstone",
+			T: "redstone_torch",
+			G: "#forge:gems/sapphire"
+		}
+	).id("aether_redux:logicator")
+
+	event.shaped("quark:redstone_randomizer",
+		[
+			"STS",
+			"TGT",
+			"SRS"
+		],
+		{
+			S: "#forge:plates/stone",
+			R: "#forge:dusts/redstone",
+			T: "redstone_torch",
+			G: "#forge:gems/prismarine"
+		}
+	).id("quark:automation/crafting/redstone_randomizer")
+
+
+	event.shaped("shulker_box",
+		[
+			"S",
+			"C",
+			"S"
+		],
+		{
+			S: "shulker_shell",
+			C: "#c:chests/wooden"	
+		}).id("minecraft:shulker_box")
+
+	event.replaceInput({id:"starbunclemania:fluid_jar"},"ars_nouveau:water_essence","create:fluid_tank")
+
 	event.shaped("create:pulse_timer",
 		[
 			"SRS",
@@ -2788,28 +2830,6 @@ ServerEvents.recipes(event => {
 	  }
 	).id("quark:building/crafting/gold_bars")
 
-	function smithingtemplate(block,material,name)
-	{
-		event.shaped(
-			Item.of("2x kubejs:"+name+"_upgrade_smithing_template"), 
-			[
-			  'CZC',
-			  'CXC',
-			  'CCC'
-			],
-			{
-			  Z: block,
-			  C: material,
-			  X: "kubejs:"+name+"_upgrade_smithing_template"
-			}
-		  )
-	}
-	smithingtemplate("mossy_stone_bricks","#forge:ingots/iron","botanist")
-	smithingtemplate("calcite","naturesaura:sky_ingot","skyseeker")
-	smithingtemplate("basalt","#forge:plates/gold","gold")
-	smithingtemplate("deepslate","#forge:ingots/infused_iron","steel")
-	smithingtemplate("deep_aether:aseterite","#forge:ingots/phoenix","phoenix")
-
 	
 	event.custom({
 		type: "lychee:item_inside",
@@ -2934,6 +2954,20 @@ ServerEvents.recipes(event => {
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
 	
+	event.shaped("ars_nouveau:ritual_brazier",
+		[
+			"PPP",
+			"RMR",
+			"RTR"
+		],
+		{
+			P: "#forge:plates/source_alloy",
+			R: "#forge:rods/gold",
+			M: "kubejs:basic_magic_machine",
+			T: "ars_nouveau:arcane_pedestal"
+		}
+	).id("ars_nouveau:ritual_brazier")
+
 	event.shaped("mbd2:elemental_recycler",
 		[
 			"PPP",
@@ -4404,11 +4438,55 @@ ServerEvents.recipes(event => {
 				tag: "forge:gears/enderium"
 			  },
 			  "A": {
-				tag: "forge:plates/tin"
+				tag: "forge:plates/sky"
 			  }
 			},
 			"result": {
 			  item: "thermal:machine_frame",
+			  "count": 1
+			},
+			"acceptMirrored": true
+		  }
+	)
+
+	event.remove({output:"thermal:machine_frame"})
+	event.custom(
+		{
+			type: "create:mechanical_crafting",
+			"pattern": [
+			  "AAAAAAA",
+			  "ANNNNNA",
+			  "ANDXDNA",
+			  "ANGYGNA",
+			  "ANDZDNA",
+			  "ANNNNNA",
+			  "AAAAAAA"
+			],
+			"key": {
+			  "A": {
+				item: "forbidden_arcanus:spawner_scrap"
+			  },
+			  "N": {
+				tag: "forge:plates/netherite"
+			  },
+			  "D": {
+				item: "kubejs:death_essence"
+			  },
+			  "G": {
+				tag: "forge:gears/depth"
+			  },
+			  "X": {
+				item: "quark:monster_box"
+			  },
+			  "Y": {
+				item: "kubejs:steel_machine"
+			  },
+			  "Z": {
+				item: "naturesaura:animal_spawner"
+			  }
+			},
+			"result": {
+			  item: "minecraft:spawner",
 			  "count": 1
 			},
 			"acceptMirrored": true
