@@ -39,6 +39,30 @@
       "bookmarks": [],
       "completedManualQuests": []
     },
+    "patchouli:druidic_beastiary": {
+      "viewedEntries": [
+        "patchouli:damage_types/fire",
+        "patchouli:damage_types/physical",
+        "patchouli:damage_types/ice",
+        "patchouli:damage_types/irons_spells",
+        "patchouli:damage_types/blood",
+        "patchouli:damage_types/holy",
+        "patchouli:damage_types/arcane",
+        "patchouli:damage_types/nature",
+        "patchouli:ae_general/zephyr",
+        "patchouli:ae_general/slammroot",
+        "patchouli:ae_general/golden_swet",
+        "patchouli:n_neutral/piglin",
+        "patchouli:n_neutral/zombie_piglin",
+        "patchouli:n_neutral/stradpole",
+        "patchouli:n_neutral/warped_toad",
+        "patchouli:n_bosses/warped_mosco",
+        "patchouli:n_bosses/keeper",
+        "patchouli:n_bosses/wither"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "ars_nouveau:worn_notebook": {
       "viewedEntries": [
         "ars_nouveau:arsdelight/drygmy_charm_weapon"

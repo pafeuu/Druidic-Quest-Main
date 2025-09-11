@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
     SmithingTemplate("kubejs:steeleaf_upgrade_smithing_template","twilightforest:ironwood_ingot","twilightforest:dark_log")
     SmithingTemplate("kubejs:wandering_magician_upgrade_smithing_template","leather","white_wool")
     SmithingTemplate("kubejs:skyjade_upgrade_smithing_template","thermal:silver_ingot","aether:holystone")
-    SmithingTemplate("kubejs:zanite_upgrade_smithing_template","thermal:lead_ingot","aether_redux:divinite")
+    SmithingTemplate("kubejs:zanite_upgrade_smithing_template","thermal:lead_ingot","deep_aether:raw_clorite")
     SmithingTemplate("kubejs:tyr_upgrade_smithing_template","forbidden_arcanus:dragon_scale","end_stone")
     SmithingTemplate("kubejs:draco_arcanus_upgrade_smithing_template","forbidden_arcanus:obsidian_ingot","create:ochrum")
     SmithingTemplate("kubejs:arcane_gold_upgrade_smithing_template","gold_ingot","create:asurine")
@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
     SmithingTemplate("kubejs:depth_upgrade_smithing_template","forbidden_arcanus:obsidian_ingot","create:crimsite")
     SmithingTemplate("kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_ingot","astrological:triphylite")
     SmithingTemplate("kubejs:etherium_upgrade_smithing_template","deep_aether:squall_plate","astrological:light_jade")
-    SmithingTemplate("deep_aether:stratus_smithing_template","aether_redux:gravitite_ingot","aether:holystone")
+    SmithingTemplate("deep_aether:stratus_smithing_template","aether:enchanted_gravitite","aether:holystone")
 	
     function NatureArmorup(input,output,smith,material)
 	{

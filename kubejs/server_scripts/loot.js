@@ -348,6 +348,37 @@ LootJS.modifiers((event) => {
     .randomChance(0.075)
     .addLoot("kubejs:fiery_upgrade_smithing_template")
 
+    event.addLootTypeModifier(LootType.CHEST)
+    .replaceLoot([
+        "deep_aether:stormforged_boots",
+        "deep_aether:stormforged_leggings",
+        "deep_aether:stormforged_chestplate",
+        "deep_aether:stormforged_helmet",
+        "deep_aether:stormforged_gloves",
+        "deep_aether:storm_bow",
+        "deep_aether:storm_sword"
+    ],"deep_aether:stormforged_smithing_template")
+
+    event.addEntityLootModifier([
+        "minecraft:witch",
+        "irons_spellbooks:necromancer",
+        "twilightforest:skeleton_druid"])
+    .randomChance(0.2)
+    .addLoot("kubejs:wandering_magician_upgrade_smithing_template")
+    
+    event.addEntityLootModifier([
+        "irons_spellbooks:pyromancer",
+        "irons_spellbooks:priest",
+        "irons_spellbooks:cultist",
+        "irons_spellbooks:cryomancer",
+        "irons_spellbooks:apothecarist",
+        "irons_spellbooks:archevoker"])
+    .randomChance(0.5)
+    .addLoot("kubejs:scarecrow_upgrade_smithing_template")
+
+    event.addLootTableModifier(/.*twilightforest:chests\/stronghold.*/)
+    .randomChance(0.15)
+    .addLoot("kubejs:knightmetal_upgrade_smithing_template")
 
     //=============================================== Keys
     

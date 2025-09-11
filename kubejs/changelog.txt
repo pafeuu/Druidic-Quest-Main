@@ -2783,6 +2783,8 @@ Patch 0.3.2.1
     -SmidgeonOBliss
     -Cyanide
 
+### Removed Items:
+    -Silent Boots Cover
 ### New Items:
     -Basic Recycler
     -Elemental Recycler
@@ -2812,6 +2814,7 @@ Patch 0.3.2.1
     -Tyr Smithing Template
     -Etherium Smithing Template
     -Valkyrum Smithing Template
+    -The Druidic Bestiary
 
 ### Removed Items:
     -Aether's Freezer
@@ -2849,6 +2852,7 @@ Patch 0.3.2.1
     -Quest in the market now gives you choice of all the new waystones
     -Added Automation Chapter(Work in progress)
     -Added Storage Chapter(Work in progress)
+    -Fixed Github and Discord link
 
 ### Worldgen:
     -Changed Stalactites in TF hills
@@ -2904,12 +2908,14 @@ Patch 0.3.2.1
     -Added for Lost Tentacle
     -Added for a lot of Alex's Mobs animals (More Soon)
     -Fiery ingots now craft 4 times faster in the kiln
+
     -Removed cutting board recipes for dyes from flowers 
     -Changed for Ritual Brazier
     -Added for Spawner
     -Fixed Sophisticated Shulker boxes recipes
-    -Changed for Redstone Logicator
     -Changed for Redstone Randomizer
+    -Added new recipes using TF Transformation Powder
+    -Fixed Ancient Knight animal spawner recipe
     
 
 ### Mob Balance:
