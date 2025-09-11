@@ -142,7 +142,7 @@ ItemEvents.tooltip( tooltip => {
                })
   //======================================= Smithing Templates ==============================
   
-  function NewSmithingTemplateTooltip(Template,UpgradeTo,UpgradeFrom,Material,Color)
+  /*function NewSmithingTemplateTooltip(Template,UpgradeTo,UpgradeFrom,Material,Color)
   {
     tooltip.addAdvanced(Template,(item, advanced, text) => {
                 text.clear()
@@ -155,7 +155,8 @@ ItemEvents.tooltip( tooltip => {
                 text.add(6, Text.of(" "+Material).color(Color))
                
                })
-  }
+  }*/
+ 
   function SmithingTemplate(Template,UpgradeTo,UpgradeFrom,Material,Color)
   {
       tooltip.addAdvanced(Template,(item, advanced, text) => {
@@ -168,10 +169,10 @@ ItemEvents.tooltip( tooltip => {
                })
   }
 
-  NewSmithingTemplateTooltip("minecraft:netherite_upgrade_smithing_template","Netherite","Diamond","Netherite Sheet",0x5555FF)
+  /*NewSmithingTemplateTooltip("minecraft:netherite_upgrade_smithing_template","Netherite","Diamond","Netherite Sheet",0x5555FF)
   NewSmithingTemplateTooltip("deep_aether:stormforged_smithing_template","Stormforged","Phoenix","Squall Plate",0x5555FF)
-  NewSmithingTemplateTooltip("deeperdarker:warden_upgrade_smithing_template","Warden","Arcane Fortress","Reinforced Echo Shard",0x5555FF)
-  NewSmithingTemplateTooltip("deep_aether:stratus_smithing_template","Stratus","Gravitite","Stratus Ingot",0x5555FF)
+  NewSmithingTemplateTooltip("deep_aether:stratus_smithing_template","Stratus","Gravitite","Stratus Ingot",0x5555FF)*/
+
   SmithingTemplate("kubejs:phoenix_upgrade_smithing_template","Phoenix","Fiery","Phoenix Ingot",0x5555FF)
   SmithingTemplate("kubejs:gold_upgrade_smithing_template","Gold","Silver","Gold Upgrade Parts",0x5555FF)
   SmithingTemplate("kubejs:skyseeker_upgrade_smithing_template","Skyseeker","Netherite","Skyseeker Upgrade Parts",0x5555FF)
@@ -394,6 +395,7 @@ ItemEvents.tooltip( tooltip => {
 
   tooltip.add("#druidic_quest:dimensional_tools",[Text.darkPurple("Tool made from materials outside of the main realm!"),Text.blue("Combine it with extradimensional eye"),Text.blue("in the crafting grid to apply telekinesis enchant!")])
   
+  tooltip.add("twilightforest:transformation_powder",[Text.blue("Can be used by a Dispenser")])
   tooltip.addAdvanced([
     "immersiveengineering:armor_steel_helmet",
     "immersiveengineering:armor_steel_chestplate",
