@@ -456,6 +456,19 @@ ServerEvents.recipes(event => {
 	event.remove({id:"thermal:storage/potato_block"})
 	event.replaceInput({id:"forbidden_arcanus:boom_arrow"},"arrow","archers_paradox:explosive_arrow")
 
+	event.custom({
+		"type": "patchouli:shapeless_book_recipe",
+		"ingredients": [
+			{
+			"item": "book"
+			},
+			{
+			"item": "minecraft:rotten_flesh"
+			}
+		],
+		"book": "patchouli:druidic_beastiary"
+	})
+
 	///Needs Chipped to work
 	/*event.shaped("3x everycomp:ch/naturesaura/overgrown_ancient_door",
 		[
