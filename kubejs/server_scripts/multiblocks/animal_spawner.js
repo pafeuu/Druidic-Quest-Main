@@ -65,7 +65,7 @@ ServerEvents.recipes((event)=>{
         "irons_spellbooks:uncommon_ink",
         "bone"],MagicalCritterAuraCost,60)
 
-    spawn("irons_spellbooks:ancient_knight",
+    spawn("irons_spellbooks:citadel_keeper",
         ["naturesaura:birth_spirit",
         "irons_spellbooks:arcane_essence",
         "irons_spellbooks:epic_ink",
