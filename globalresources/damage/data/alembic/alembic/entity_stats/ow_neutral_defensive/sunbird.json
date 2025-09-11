@@ -4,14 +4,16 @@
   "resistances": {
     "alchemical_damage": 1.0,
     "physical_damage": 1.0,
-    "fire_damage": 1.0,
+    "fire_damage": 2.0,
     "arcane_damage": 1.0,
-    "true_damage": 1.0,
-    "ice_damage": 1.0,
-    "holy_damage": 1.0
+    "true_damage": 0.8,
+    "ice_damage": 0.8,
+    "holy_damage": 1.75
   },
   "damage": {
-    "physical_damage": 1.0
+    "physical_damage": 0.25,
+    "fire_damage": 0.5,
+    "holy_damage": 0.25
   },
   "ignored_sources": [
       "minecraft:lava",

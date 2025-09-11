@@ -1,0 +1,19 @@
+{
+    "name": "Cryomancer",
+    "category": "patchouli:ow_humanoid",
+    "icon": "irons_spellbooks:cryomancer_spawn_egg",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice   Arcane$(2br)$(l)Weakness:$()$(br)None$(2br)$(l)Damage:$()$(br)Physical   Ice"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "irons_spellbooks:cryomancer",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

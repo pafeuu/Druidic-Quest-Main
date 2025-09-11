@@ -1,0 +1,20 @@
+{
+    "name": "Wilden Hunter",
+    "category": "patchouli:ow_surface",
+    "icon": "ars_nouveau:wilden_hunter_se",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature$(2br)$(l)Weakness:$()$(br)Blood   Ice   Holy$(2br)$(l)Damage:$()$(br)Physical   Nature"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "ars_nouveau:wilden_hunter",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2",
+            "scale": "0.75"
+        }
+    ]
+}

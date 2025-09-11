@@ -1,0 +1,19 @@
+{
+    "name": "Lich",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:lich_trophy",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Arcane   Blood   Physical$(2br)$(l)Weakness:$()$(br)Holy   Fire$(2br)$(l)Damage:$()$(br)Arcane   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:lich",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.1"
+        }
+    ]
+}

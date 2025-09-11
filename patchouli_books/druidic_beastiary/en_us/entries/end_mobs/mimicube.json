@@ -1,0 +1,19 @@
+{
+    "name": "Mimicube",
+    "category": "patchouli:end_mobs",
+    "icon": "alexsmobs:spawn_egg_mimicube",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Arcane   Physical$(2br)$(l)Weakness:$()$(br)Ice   Nature$(2br)$(l)Damage:$()$(br)Physical   Arcane   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:mimicube",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8"
+        }
+    ]
+}

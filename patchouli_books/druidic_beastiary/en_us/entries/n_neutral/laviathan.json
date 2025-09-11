@@ -1,0 +1,19 @@
+{
+    "name": "Laviathan",
+    "category": "patchouli:n_neutral",
+    "icon": "alexsmobs:spawn_egg_laviathan",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "peaceful"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:laviathan",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.6"
+        }
+    ]
+}

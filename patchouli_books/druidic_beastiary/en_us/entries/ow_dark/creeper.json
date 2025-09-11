@@ -1,0 +1,19 @@
+{
+    "name": "Creeper",
+    "category": "patchouli:ow_dark",
+    "icon": "minecraft:creeper_spawn_egg",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Physical$(2br)$(l)Weakness:$()$(br)Fire$(2br)$(l)Damage:$()$(br)Physical   Fire"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:creeper",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.1"
+        }
+    ]
+}

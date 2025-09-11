@@ -1,0 +1,19 @@
+{
+    "name": "Piglin",
+    "category": "patchouli:n_neutral",
+    "icon": "minecraft:piglin_spawn_egg",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire$(2br)$(l)Weakness:$()$(br)Ice   Holy$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:piglin",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

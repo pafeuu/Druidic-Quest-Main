@@ -1,0 +1,20 @@
+{
+    "name": "Elder Guardian",
+    "category": "patchouli:ow_water",
+    "icon": "minecraft:elder_guardian_spawn_egg",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice   Arcane$(2br)$(l)Weakness:$()$(br)Holy   Fire   Nature$(2br)$(l)Damage:$()$(br)Arcane   Ice"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:elder_guardian",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8",
+            "offset": "0.2"
+        }
+    ]
+}

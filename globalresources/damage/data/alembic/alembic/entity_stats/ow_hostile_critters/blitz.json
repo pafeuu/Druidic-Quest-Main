@@ -2,18 +2,18 @@
     "priority": 1,
     "type": "thermal:blitz",
     "resistances": {
-      "alchemical_damage": 1.0,
+      "alchemical_damage": 1.5,
       "physical_damage": 1.0,
       "fire_damage": 1.5,
-      "arcane_damage": 1.5,
+      "arcane_damage": 1.0,
       "true_damage": 1.0,
       "ice_damage": 0.5,
-      "holy_damage": 1.0
+      "holy_damage": 1.25
     },
     "damage": {
-      "fire_damage": 0.5,
-      "arcane_damage": 0.25,
-      "alchemical_damage": 0.25
+      "fire_damage": 0.4,
+      "holy_damage": 0.3,
+      "alchemical_damage": 0.3
     },
     "ignored_sources": [
 

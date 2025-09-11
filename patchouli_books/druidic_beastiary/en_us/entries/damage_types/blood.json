@@ -1,0 +1,17 @@
+{
+    "name": "Blood Damage",
+    "category": "patchouli:damage_types",
+    "icon": "irons_spellbooks:blood_vial",
+    "entry_color": "660000",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Blood damage is unholy damage dealt mostly by undead and Nether mobs.$(2br)Blood damage will give you the advantage against the heavenly mobs of the Aether."
+        },
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

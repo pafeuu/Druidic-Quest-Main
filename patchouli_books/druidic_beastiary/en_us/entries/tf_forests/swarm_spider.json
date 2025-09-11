@@ -1,0 +1,20 @@
+{
+    "name": "Swarm Spider",
+    "category": "patchouli:tf_forests",
+    "icon": "twilightforest:swarm_spider_spawn_egg",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Blood$(2br)$(l)Weakness:$()$(br)Arcane   Fire$(2br)$(l)Damage:$()$(br)Nature   Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:swarm_spider",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8",
+            "offset": "0.2"
+        }
+    ]
+}

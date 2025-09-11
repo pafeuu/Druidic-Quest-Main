@@ -12,7 +12,7 @@
   },
   "damage": {
     "fire_damage": 0.5,
-    "holy_damage": 0.5
+    "physical_damage": 0.5
   },
   "ignored_sources": []
 }

@@ -1,0 +1,20 @@
+{
+    "name": "Farseer",
+    "category": "patchouli:ow_surface",
+    "icon": "alexsmobs:spawn_egg_farseer",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)All$(2br)$(l)Weakness:$()$(br)Physical   Arcane$(2br)$(l)Damage:$()$(br)Physical   Fire   Ice   Arcane"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:farseer",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.7",
+            "offset": "0.2"
+        }
+    ]
+}

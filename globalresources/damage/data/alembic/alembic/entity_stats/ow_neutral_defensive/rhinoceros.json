@@ -2,10 +2,10 @@
   "priority": 1,
   "type": "alexsmobs:rhinoceros",
   "resistances": {
-    "alchemical_damage": 1.0,
-    "physical_damage": 1.0,
+    "alchemical_damage": 1.5,
+    "physical_damage": 1.5,
     "fire_damage": 1.0,
-    "arcane_damage": 1.0,
+    "arcane_damage": 1.25,
     "true_damage": 1.0,
     "ice_damage": 1.0,
     "holy_damage": 1.0

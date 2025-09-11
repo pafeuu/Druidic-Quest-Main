@@ -1,0 +1,7 @@
+{
+    "name": "Warm Biomes",
+    "description": "These mobs can all be found on the surface during the day under certain conditions. Some may also spawn underground in their appropriate biomes.",
+    "icon": "silly_oddities:cactus_flower",
+    "parent": "patchouli:overworld",
+    "sortnum": 2
+}

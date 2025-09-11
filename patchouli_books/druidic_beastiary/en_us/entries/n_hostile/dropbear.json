@@ -1,0 +1,19 @@
+{
+    "name": "Dropbear",
+    "category": "patchouli:n_hostile",
+    "icon": "alexsmobs:spawn_egg_dropbear",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Blood$(2br)$(l)Weakness:$()$(br)Ice   Holy$(2br)$(l)Damage:$()$(br)Blood   Physical   Fire"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:dropbear",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8"
+        }
+    ]
+}

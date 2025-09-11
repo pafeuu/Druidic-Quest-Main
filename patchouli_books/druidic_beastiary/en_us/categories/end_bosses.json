@@ -1,0 +1,7 @@
+{
+    "name": "Bosses",
+    "description": "Here be dragons...",
+    "icon": "minecraft:dragon_head",
+    "parent": "patchouli:end",
+    "sortnum": 2
+}

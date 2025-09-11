@@ -1,0 +1,20 @@
+{
+    "name": "Bone Serpent",
+    "category": "patchouli:n_hostile",
+    "icon": "alexsmobs:spawn_egg_bone_serpent",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Blood$(2br)$(l)Weakness:$()$(br)Ice   Holy$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:bone_serpent",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.6",
+            "offset": "0.2"
+        }
+    ]
+}

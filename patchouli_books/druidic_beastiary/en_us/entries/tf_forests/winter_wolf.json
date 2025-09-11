@@ -1,0 +1,18 @@
+{
+    "name": "Winter Wolf",
+    "category": "patchouli:tf_forests",
+    "icon": "twilightforest:winter_wolf_spawn_egg",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice   Nature   Physical$(2br)$(l)Weakness:$()$(br)Fire   Arcane$(2br)$(l)Damage:$()$(br)Ice   Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:winter_wolf",
+            "rotate": "false",
+            "default_rotation": "35"
+        }
+    ]
+}

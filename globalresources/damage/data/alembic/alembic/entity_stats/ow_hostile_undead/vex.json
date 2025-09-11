@@ -12,7 +12,7 @@
   },
   "damage": {
     "arcane_damage": 0.30,
-    "physical_damage": 0.70
+    "true_damage": 0.70
   },
   "ignored_sources": []
 }

@@ -1,0 +1,19 @@
+{
+    "name": "Ancient Knight",
+    "category": "patchouli:n_bosses",
+    "icon": "irons_spellbooks:keeper_spawn_egg",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Blood   Physical$(2br)$(l)Weakness:$()$(br)Holy   Nature$(2br)$(l)Damage:$()$(br)Physical   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "irons_spellbooks:citadel_keeper",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

@@ -2771,6 +2771,8 @@ Patch 0.3.2.1
 
 ### Removed Mods:
     -LegendaryTooltips
+    -DeeperAndDarker
+    -AetherRedux
 
 ### Added Mods:
     -JustEnoughProffesions
@@ -2791,6 +2793,24 @@ Patch 0.3.2.1
     -Storm Nugget
     -Storm Rod
     -Storm Block
+    -Engineer Smithing Template
+    -Wandering Magician Smithing Template
+    -Bronze Smithing Template
+    -Scarecrow Smithing Template
+    -Steeleaf Smithing Template
+    -Knightmetal Smithing Template
+    -Skyjade Smithing Template
+    -Zanite Smithing Template
+    -Fiery Smithing Tempalte
+    -Obsidian Smithing Template
+    -Arcane Gold Smithing Template
+    -Netherite Battlemage Smithing Template
+    -Arcane Fortress Smithing Template
+    -Depth Smithing Template
+    -Draco Arcanus Smithing Template
+    -Tyr Smithing Template
+    -Etherium Smithing Template
+    -Valkyrum Smithing Template
 
 ### Removed Items:
     -Aether's Freezer
@@ -2798,6 +2818,7 @@ Patch 0.3.2.1
     -Charm of Keeping I
     -Charm of Keeping II
     -Charm of Keeping III
+    -Silent Boots Cover
     -Removed all the new Create storage system components for now
 
 ### Changed Textures:
@@ -2806,6 +2827,10 @@ Patch 0.3.2.1
     -Bejeweled Crucifix (By Señor Random)
     -Redstone Torch
     -Elemental Machine progress bars(By Gyldanword)
+    -Warden Smithing Template
+    -Skyseeker Smithing Template
+    -Phoenix Smithing Template
+    -Gold Smithing Template
 
 ### Villagers:
     -Replaced Blank Scroll trade with a mending book trade (Librarian)
@@ -2877,6 +2902,12 @@ Patch 0.3.2.1
     -Added for Lost Tentacle
     -Added for a lot of Alex's Mobs animals (More Soon)
     -Fiery ingots now craft 4 times faster in the kiln
+    -Removed cutting board recipes for dyes from flowers 
+    -Changed for Ritual Brazier
+    -Added for Spawner
+    -Fixed Sophisticated Shulker boxes recipes
+    -Changed for Redstone Logicator
+    -Changed for Redstone Randomizer
     
 
 ### Mob Balance:
@@ -2896,6 +2927,14 @@ Patch 0.3.2.1
     -Nerfed the Fireward Ring
     -Nerfed the Frostward Ring
     -Changed the Heavy Chain
+    -Every Armor should now have double of the base durability
+    -All of the Twilight Forest items are no longer enchanted by default
+    -This Armor sets are now unbreakable:
+        -Warden
+        -Valkyrum
+        -Etherium
+        -Tyr
+        -Hazmat
 
 ### Loot:
     -Magebloom now has a small chance to drop seeds without fortune
@@ -2904,6 +2943,8 @@ Patch 0.3.2.1
     -Maze Slimes now drop armor shards instead of charm of keeping
     -Jungle Leaves now drop twice as much saplings
     -Special Twilight Forest trees now drop corresponding saplings
+    -Replaced Redstone Module in chests with a comparator
+    -Botanist Smithing Template no longer appear in every chest
 
 ### Other:
     -FruitsDelight Cookies can now correctly go into the supplementaries jar
@@ -2914,3 +2955,7 @@ Patch 0.3.2.1
     -Shields no longer grant block reach when held in main hand
     -All of the juices and teas now stack to 64
     -Steel Sword is now correctly Unbreakable
+    -Fixed Stainless Steel items names
+    -Bosses and Mini Bosses can no longer be put in a containment jar
+    -Bosses and Mini Bosses no longer work with drygmy
+    -Bosses and Mini Bosses can no longer be caught with a quantum catcher

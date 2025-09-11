@@ -1,0 +1,18 @@
+{
+  "priority": 1,
+  "type": "aether_redux:mykapod",
+  "resistances": {
+    "alchemical_damage": 1.5,
+    "physical_damage": 1.75,
+    "fire_damage": 1.2,
+    "arcane_damage": 0.8,
+    "true_damage": 0.75,
+    "ice_damage": 1.5,
+    "holy_damage": 1.5
+  },
+  "damage": {
+    "physical_damage": 0.75,
+    "holy_damage": 0.25
+  },
+  "ignored_sources": []
+}

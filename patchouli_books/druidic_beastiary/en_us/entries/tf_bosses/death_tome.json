@@ -1,0 +1,19 @@
+{
+    "name": "Death Tome",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:death_tome_spawn_egg",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Arcane   Blood$(2br)$(l)Weakness:$()$(br)Fire   Holy$(2br)$(l)Damage:$()$(br)Arcane   Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:death_tome",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.8"
+        }
+    ]
+}

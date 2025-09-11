@@ -1,0 +1,19 @@
+{
+    "name": "Stray",
+    "category": "patchouli:ow_frozen",
+    "icon": "minecraft:stray_spawn_egg",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice   Blood$(2br)$(l)Weakness:$()$(br)Holy   Fire$(2br)$(l)Damage:$()$(br)Physical   Ice"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:stray",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.1"
+        }
+    ]
+}

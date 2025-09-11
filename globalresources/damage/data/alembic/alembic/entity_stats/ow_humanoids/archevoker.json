@@ -2,17 +2,18 @@
   "priority": 1,
   "type": "irons_spellbooks:archevoker",
   "resistances": {
-    "alchemical_damage": 1.0,
+    "alchemical_damage": 1.2,
     "physical_damage": 1.0,
     "fire_damage": 1.0,
     "arcane_damage": 1.75,
-    "true_damage": 1.0,
+    "true_damage": 1.5,
     "ice_damage": 1.0,
     "holy_damage": 0.9
   },
   "damage": {
     "arcane_damage": 0.40,
-    "physical_damage": 0.60
+    "physical_damage": 0.30,
+    "true_damage": 0.30
   },
   "ignored_sources": []
 }

@@ -1,0 +1,19 @@
+{
+    "name": "Valkyrie Queen",
+    "category": "patchouli:ae_bosses",
+    "icon": "umbral_skies:valkyrie_queen_trophy",
+    "sortnum": 12,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Holy   Ice$(2br)$(l)Weakness:$()$(br)Blood   Arcane$(2br)$(l)Damage:$()$(br)Physical   Holy"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "aether:valkyrie_queen",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

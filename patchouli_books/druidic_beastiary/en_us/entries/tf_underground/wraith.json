@@ -1,0 +1,19 @@
+{
+    "name": "Twilight Wraith",
+    "category": "patchouli:tf_underground",
+    "icon": "twilightforest:wraith_spawn_egg",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Blood   Physical   Nature$(2br)$(l)Weakness:$()$(br)Holy   Fire$(2br)$(l)Damage:$()$(br)Nature   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:wraith",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

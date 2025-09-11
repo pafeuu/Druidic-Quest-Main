@@ -1,0 +1,19 @@
+{
+    "name": "Zombie",
+    "category": "patchouli:ow_dark",
+    "icon": "minecraft:zombie_spawn_egg",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Blood   Physical$(2br)$(l)Weakness:$()$(br)Holy   Fire$(2br)$(l)Damage:$()$(br)Physical   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:zombie",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.1"
+        }
+    ]
+}

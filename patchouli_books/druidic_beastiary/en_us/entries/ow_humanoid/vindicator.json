@@ -1,0 +1,19 @@
+{
+    "name": "Vindicator",
+    "category": "patchouli:ow_humanoid",
+    "icon": "minecraft:pillager_spawn_egg",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Blood   Physical$(2br)$(l)Weakness:$()$(br)Holy$(2br)$(l)Damage:$()$(br)Physical   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:vindicator",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

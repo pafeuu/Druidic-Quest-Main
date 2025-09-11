@@ -1,0 +1,20 @@
+{
+    "name": "Witch",
+    "category": "patchouli:ow_humanoid",
+    "icon": "minecraft:witch_spawn_egg",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Arcane   Nature   Blood$(2br)$(l)Weakness:$()$(br)Holy$(2br)$(l)Damage:$()$(br)Arcane   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:witch",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.3",
+            "scale": "0.9"
+        }
+    ]
+}

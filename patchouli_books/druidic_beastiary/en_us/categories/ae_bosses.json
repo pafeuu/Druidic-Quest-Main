@@ -1,0 +1,7 @@
+{
+    "name": "Dungeons and Bosses",
+    "description": "The mobs and bosses within the dungeons of the Aether.",
+    "icon": "deep_aether:wind_shield",
+    "parent": "patchouli:aether",
+    "sortnum": 2
+}

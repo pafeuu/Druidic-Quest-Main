@@ -1,0 +1,19 @@
+{
+    "name": "Zephyr",
+    "category": "patchouli:ae_general",
+    "icon": "aether:zephyr_spawn_egg",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice   Holy$(2br)$(l)Weakness:$()$(br)Fire   Blood   Physical$(2br)$(l)Damage:$()$(br)Ice   Holy"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "aether:zephyr",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.9"
+        }
+    ]
+}

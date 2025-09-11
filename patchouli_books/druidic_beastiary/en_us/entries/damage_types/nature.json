@@ -1,0 +1,17 @@
+{
+    "name": "Nature Damage",
+    "category": "patchouli:damage_types",
+    "icon": "kubejs:nature_essence",
+    "entry_color": "004d00",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Animals in the Overworld and creatures in the Twilight Forest tend to be strong against nature damage.$(br2)Nature damage will be a benefit to you in the alien world of the End."
+        },
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

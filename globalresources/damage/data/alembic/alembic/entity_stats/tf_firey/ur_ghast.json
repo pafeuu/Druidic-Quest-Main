@@ -2,11 +2,11 @@
   "priority": 1,
   "type": "twilightforest:ur_ghast",
   "resistances": {
-    "alchemical_damage": 1.0,
-    "physical_damage": 1.0,
+    "alchemical_damage": 1.5,
+    "physical_damage": 1.25,
     "fire_damage": 2.0,
-    "arcane_damage": 1.0,
-    "true_damage": 1.0,
+    "arcane_damage": 0.8,
+    "true_damage": 1.9,
     "ice_damage": 0.5,
     "holy_damage": 1.0
   },

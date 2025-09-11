@@ -1,0 +1,18 @@
+{
+  "priority": 1,
+  "type": "deep_aether:baby_zephyr",
+  "resistances": {
+    "alchemical_damage": 1.25,
+    "physical_damage": 1.0,
+    "fire_damage": 1.0,
+    "arcane_damage": 1.25,
+    "true_damage": 1.0,
+    "ice_damage": 1.9,
+    "holy_damage": 1.75
+  },
+  "damage": {
+    "ice_damage": 0.6,
+    "holy_damage": 0.4
+  },
+  "ignored_sources": []
+}

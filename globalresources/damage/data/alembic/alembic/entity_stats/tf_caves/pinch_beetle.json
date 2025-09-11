@@ -3,9 +3,9 @@
   "type": "twilightforest:pinch_beetle",
   "resistances": {
     "alchemical_damage": 1.5,
-    "physical_damage": 0.9,
+    "physical_damage": 0.2,
     "fire_damage": 0.6,
-    "arcane_damage": 1.0,
+    "arcane_damage": 0.8,
     "true_damage": 1.2,
     "ice_damage": 1.0,
     "holy_damage": 1.0

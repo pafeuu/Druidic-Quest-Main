@@ -3,7 +3,7 @@
   "type": "alexsmobs:guster",
   "resistances": {
     "alchemical_damage": 1.0,
-    "physical_damage": 1.1,
+    "physical_damage": 1.25,
     "fire_damage": 1.1,
     "arcane_damage": 1.0,
     "true_damage": 1.0,

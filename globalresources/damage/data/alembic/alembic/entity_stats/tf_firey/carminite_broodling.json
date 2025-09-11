@@ -2,7 +2,7 @@
   "priority": 1,
   "type": "twilightforest:carminite_broodling",
   "resistances": {
-    "alchemical_damage": 1.0,
+    "alchemical_damage": 1.2,
     "physical_damage": 1.0,
     "fire_damage": 1.5,
     "arcane_damage": 1.0,
@@ -11,7 +11,7 @@
     "holy_damage": 0.9
   },
   "damage": {
-    "physical_damage": 0.4,
+    "alchemical_damage": 0.4,
     "fire_damage": 0.6
   },
   "ignored_sources": []

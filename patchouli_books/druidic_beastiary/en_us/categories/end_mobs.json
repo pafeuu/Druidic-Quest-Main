@@ -1,0 +1,7 @@
+{
+    "name": "Mobs",
+    "description": "You'll find these mobs as you roam the barren reaches of the End.",
+    "icon": "supplementaries:enderman_head",
+    "parent": "patchouli:end",
+    "sortnum": 1
+}

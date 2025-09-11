@@ -1,0 +1,20 @@
+{
+    "name": "King Spider",
+    "category": "patchouli:tf_forests",
+    "icon": "twilightforest:king_spider_spawn_egg",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Physical   Blood$(2br)$(l)Weakness:$()$(br)Arcane   Fire$(2br)$(l)Damage:$()$(br)Nature   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:king_spider",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.6",
+            "offset": "0.3"
+        }
+    ]
+}

@@ -3,9 +3,9 @@
   "type": "ancient_aether:festive_swet",
   "resistances": {
     "alchemical_damage": 1.5,
-    "physical_damage": 1.2,
+    "physical_damage": 1.5,
     "fire_damage": 0.8,
-    "arcane_damage": 1.5,
+    "arcane_damage": 1.0,
     "true_damage": 0.8,
     "ice_damage": 2.0,
     "holy_damage": 1.9

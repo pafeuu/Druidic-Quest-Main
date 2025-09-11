@@ -2,7 +2,7 @@
     "priority": 1,
     "type": "irons_spellbooks:citadel_keeper",
     "resistances": {
-      "alchemical_damage": 0.8,
+      "alchemical_damage": 1.0,
       "physical_damage": 1.5,
       "fire_damage": 1.75,
       "arcane_damage": 1.2,

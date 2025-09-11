@@ -7,12 +7,12 @@
     "fire_damage": 0.5,
     "arcane_damage": 1.0,
     "true_damage": 0.75,
-    "ice_damage": 1.5,
-    "holy_damage": 1.75
+    "ice_damage": 1.75,
+    "holy_damage": 1.5
   },
   "damage": {
-    "physical_damage": 0.5,
-    "holy_damage": 0.5
+    "physical_damage": 0.2,
+    "alchemical_damage": 0.8
   },
   "ignored_sources": []
 }

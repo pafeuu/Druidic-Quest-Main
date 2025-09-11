@@ -1,0 +1,20 @@
+{
+    "name": "Carminite Broodling",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:carminite_broodling_spawn_egg",
+    "sortnum": 17,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Blood   Nature$(2br)$(l)Weakness:$()$(br)Ice$(2br)$(l)Damage:$()$(br)Fire   Nature"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:carminite_broodling",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8",
+            "offset": "0.2"
+        }
+    ]
+}

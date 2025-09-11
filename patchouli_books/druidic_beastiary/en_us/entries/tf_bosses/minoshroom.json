@@ -1,0 +1,19 @@
+{
+    "name": "Minoshroom",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:minoshroom_trophy",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Physical$(2br)$(l)Weakness:$()$(br)Arcane   Fire$(2br)$(l)Damage:$()$(br)Physical   Nature"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:minoshroom",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.1"
+        }
+    ]
+}

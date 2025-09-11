@@ -1,0 +1,19 @@
+{
+    "name": "Warden",
+    "category": "patchouli:ow_dark",
+    "icon": "minecraft:warden_spawn_egg",
+    "sortnum": 16,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Blood   Physical Nature$(2br)$(l)Weakness:$()$(br)Holy   Arcane$(2br)$(l)Damage:$()$(br)Physical   Blood   Nature"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:warden",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

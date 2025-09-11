@@ -4,15 +4,15 @@
   "resistances": {
     "alchemical_damage": 1.5,
     "physical_damage": 1.0,
-    "fire_damage": 1.0,
+    "fire_damage": 0.9,
     "arcane_damage": 1.25,
     "true_damage": 1.0,
     "ice_damage": 1.75,
     "holy_damage": 1.5
   },
   "damage": {
-    "alchemical_damage": 0.5,
-    "holy_damage": 0.5
+    "alchemical_damage": 0.75,
+    "ice_damage": 0.25
   },
   "ignored_sources": []
 }

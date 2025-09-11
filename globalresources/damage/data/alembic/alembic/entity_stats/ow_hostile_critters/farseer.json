@@ -2,17 +2,17 @@
   "priority": 1,
   "type": "alexsmobs:farseer",
   "resistances": {
-    "alchemical_damage": 1.25,
+    "alchemical_damage": 0.8,
     "physical_damage": 0.5,
     "fire_damage": 1.25,
     "arcane_damage": 1.25,
     "true_damage": 1.25,
     "ice_damage": 1.25,
-    "holy_damage": 0.9
+    "holy_damage": 1.25
   },
   "damage": {
     "physical_damage": 0.25,
-    "alchemical_damage": 0.25,
+    "arcane_damage": 0.25,
     "fire_damage": 0.25,
     "ice_damage": 0.25
   },

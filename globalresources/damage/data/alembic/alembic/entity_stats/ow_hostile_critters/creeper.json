@@ -3,7 +3,7 @@
   "type": "minecraft:creeper",
   "resistances": {
     "alchemical_damage": 1.2,
-    "physical_damage": 1.0,
+    "physical_damage": 0.9,
     "fire_damage": 0.5,
     "arcane_damage": 1.0,
     "true_damage": 1.2,

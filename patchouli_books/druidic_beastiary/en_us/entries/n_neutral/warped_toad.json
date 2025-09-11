@@ -1,0 +1,20 @@
+{
+    "name": "Warped Toad",
+    "category": "patchouli:n_neutral",
+    "icon": "alexsmobs:spawn_egg_warped_toad",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Blood$(2br)$(l)Weakness:$()$(br)Ice$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:warped_toad",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.7",
+            "offset": "0.2"
+        }
+    ]
+}

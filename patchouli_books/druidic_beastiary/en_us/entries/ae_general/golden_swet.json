@@ -1,0 +1,18 @@
+{
+    "name": "Golden Swet",
+    "category": "patchouli:ae_general",
+    "icon": "aether:golden_swet_spawn_egg",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Holy   Ice   Physical   Nature$(2br)$(l)Weakness:$()$(br)Fire   Blood$(2br)$(l)Damage:$()$(br)Physical   Holy"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "aether:golden_swet",
+            "rotate": "false",
+            "default_rotation": "35"
+        }
+    ]
+}

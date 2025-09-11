@@ -1,0 +1,17 @@
+{
+  "priority": 1,
+  "type": "alexsmobs:anaconda_part",
+  "resistances": {
+    "alchemical_damage": 1.5,
+    "physical_damage": 0.9,
+    "fire_damage": 0.6,
+    "arcane_damage": 1.0,
+    "true_damage": 1.25,
+    "ice_damage": 0.6,
+    "holy_damage": 0.8
+  },
+  "damage": {
+    "physical_damage": 1.0
+  },
+  "ignored_sources": []
+}

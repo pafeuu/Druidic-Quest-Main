@@ -1,0 +1,19 @@
+{
+    "name": "Necromancer",
+    "category": "patchouli:ow_dark",
+    "icon": "irons_spellbooks:necromancer_spawn_egg",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Blood   Arcane$(2br)$(l)Weakness:$()$(br)Holy   Fire$(2br)$(l)Damage:$()$(br)Physical   Arcane"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "irons_spellbooks:necromancer",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

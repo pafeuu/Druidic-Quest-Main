@@ -1,0 +1,19 @@
+{
+    "name": "Piglin Brute",
+    "category": "patchouli:n_hostile",
+    "icon": "minecraft:piglin_brute_spawn_egg",
+    "sortnum": 13,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Physical   Blood$(2br)$(l)Weakness:$()$(br)Ice   Holy   Nature$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:piglin_brute",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

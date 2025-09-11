@@ -1,0 +1,19 @@
+{
+    "name": "Dead King",
+    "category": "patchouli:ow_dark",
+    "icon": "irons_spellbooks:dead_king_corpse_spawn_egg",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Blood$(2br)$(l)Weakness:$()$(br)Holy   Fire$(2br)$(l)Damage:$()$(br)Physical   Blood$(2br)$(o)Be ready for a boss battle!"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "irons_spellbooks:dead_king",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.3"
+        }
+    ]
+}

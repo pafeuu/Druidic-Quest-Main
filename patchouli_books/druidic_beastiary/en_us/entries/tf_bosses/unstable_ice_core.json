@@ -1,0 +1,19 @@
+{
+    "name": "Unstable Ice Core",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:unstable_ice_core_spawn_egg",
+    "sortnum": 29,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice   Nature   Physical$(2br)$(l)Weakness:$()$(br)Fire   Arcane$(2br)$(l)Damage:$()$(br)Ice   Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:unstable_ice_core",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.3"
+        }
+    ]
+}

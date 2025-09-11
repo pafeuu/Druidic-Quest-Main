@@ -1,0 +1,19 @@
+{
+    "name": "Pyromancer",
+    "category": "patchouli:ow_humanoid",
+    "icon": "irons_spellbooks:pyromancer_spawn_egg",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Arcane$(2br)$(l)Weakness:$()$(br)None$(2br)$(l)Damage:$()$(br)Physical   Fire"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "irons_spellbooks:pyromancer",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

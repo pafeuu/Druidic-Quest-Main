@@ -1,0 +1,19 @@
+{
+    "name": "Hydra",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:hydra_trophy",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire$(2br)$(l)Weakness:$()$(br)Ice   Arcane   Holy$(2br)$(l)Damage:$()$(br)Fire   Physical   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:hydra",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "1.2"
+        }
+    ]
+}

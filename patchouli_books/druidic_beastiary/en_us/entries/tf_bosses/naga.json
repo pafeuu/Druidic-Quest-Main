@@ -1,0 +1,19 @@
+{
+    "name": "Naga",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:naga_trophy",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Physical$(2br)$(l)Weakness:$()$(br)Fire   Arcane$(2br)$(l)Damage:$()$(br)Physical   Nature"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:naga",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.5"
+        }
+    ]
+}

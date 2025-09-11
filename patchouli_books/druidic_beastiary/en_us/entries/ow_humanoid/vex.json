@@ -1,0 +1,19 @@
+{
+    "name": "Vex",
+    "category": "patchouli:ow_humanoid",
+    "icon": "minecraft:vex_spawn_egg",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Arcane   Blood$(2br)$(l)Weakness:$()$(br)Holy   Physical$(2br)$(l)Damage:$()$(br)Blood   Arcane"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:vex",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8"
+        }
+    ]
+}

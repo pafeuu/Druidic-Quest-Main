@@ -1,0 +1,17 @@
+{
+    "name": "Physical Damage",
+    "category": "patchouli:damage_types",
+    "icon": "minecraft:iron_sword",
+    "entry_color": "262626",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Physical damage is exactly what you would expect — normal damage done by physical objects and weapons. This includes things like fall damage."
+        },
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

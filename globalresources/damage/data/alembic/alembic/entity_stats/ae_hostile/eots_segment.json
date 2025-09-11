@@ -1,0 +1,18 @@
+{
+  "priority": 1,
+  "type": "aether:eots_segment",
+  "resistances": {
+    "alchemical_damage": 1.25,
+    "physical_damage": 1.25,
+    "fire_damage": 1.0,
+    "arcane_damage": 1.0,
+    "true_damage": 0.9,
+    "ice_damage": 2.0,
+    "holy_damage": 1.9
+  },
+  "damage": {
+    "ice_damage": 0.6,
+    "holy_damage": 0.4
+  },
+  "ignored_sources": []
+}

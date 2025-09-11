@@ -1,0 +1,16 @@
+{
+    "name": "Iron's Spell Schools",
+    "category": "patchouli:damage_types",
+    "icon": "irons_spellbooks:gold_spell_book",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Most spell schools from $(#524177)Iron's Spells and Spellbooks$() deal the damage type of the same name.$(2br)The Evocation Spell School deals arcane damage.$(2br)Some spell schools deal more complex damage. These include:"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(2br)$(#ffffff)The Lightning Spell School$() deals a combination of fire, nature, and holy damage. Ideal against water mobs.$(2br)$(#8200e6)The Ender Spell School$() deals a combination of arcane and blood damage.$(2br)$(#004d4d)The Eldritch Spell School$() deals a combination of blood, nature, and arcane damage."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Carminite Ghastguard",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:carminite_ghastguard_spawn_egg",
+    "sortnum": 21,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Blood$(2br)$(l)Weakness:$()$(br)Ice$(2br)$(l)Damage:$()$(br)Fire   Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:carminite_ghastguard",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "The Druidic Beastiary",
+    "landing_text": "$(o)$(l)The complete guide to damage types and mob resistances!$()$(br2)In $(#3a4e19)$(l)Druidic Quest,$() mobs have resistances and weaknesses which will greatly impact your combat experience.$(br2)$(#3a4e19)$(o)$(l)The Druidic Beastiary$() contains the knowledge you need to gain the upper-hand against whatever foes you may face!",
+    "creative_tab": "minecraft:tools_and_utilities",
+    "use_resource_pack": false,
+    "model": "patchouli:book_cyan",
+    "book_texture": "patchouli:textures/gui/book_cyan.png",
+    "nameplate_color": "daa520",
+    "header_color": "3a4e19",
+    "text_color": "282200",
+    "version": "1",
+    "text_overflow_mode": "resize"
+}

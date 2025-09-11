@@ -1,0 +1,18 @@
+{
+    "name": "Anaconda",
+    "category": "patchouli:ow_water",
+    "icon": "alexsmobs:spawn_egg_anaconda",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Blood$(2br)$(l)Weakness:$()$(br)Ice$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:anaconda",
+            "rotate": "false",
+            "default_rotation": "35"
+        }
+    ]
+}

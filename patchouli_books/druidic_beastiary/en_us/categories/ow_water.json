@@ -1,0 +1,7 @@
+{
+    "name": "Wet Biomes",
+    "description": "These mobs can be found in wet biomes. Some are acclimated to both land and water, while others will be found only in the open ocean.",
+    "icon": "biomeswevegone:tiny_lily_pads",
+    "parent": "patchouli:overworld",
+    "sortnum": 4
+}

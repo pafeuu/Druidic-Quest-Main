@@ -1,0 +1,7 @@
+{
+    "name": "Dungeons and Bosses",
+    "description": "The mobs and bosses within the dungeons of the Twilight Forest. Your access to various biomes will be restricted until the appropriate boss is defeated.",
+    "icon": "twilightforest:naga_courtyard_miniature_structure",
+    "parent": "patchouli:twilight_forest",
+    "sortnum": 3
+}

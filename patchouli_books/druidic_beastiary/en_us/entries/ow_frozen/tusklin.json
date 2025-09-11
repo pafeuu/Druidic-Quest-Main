@@ -1,0 +1,20 @@
+{
+    "name": "Tusklin",
+    "category": "patchouli:ow_frozen",
+    "icon": "alexsmobs:spawn_egg_tusklin",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice$(2br)$(l)Weakness:$()$(br)Fire$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:tusklin",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8",
+            "offset": "0.3"
+        }
+    ]
+}

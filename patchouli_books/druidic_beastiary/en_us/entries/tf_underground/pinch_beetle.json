@@ -1,0 +1,20 @@
+{
+    "name": "Pinch Beetle",
+    "category": "patchouli:tf_underground",
+    "icon": "twilightforest:pinch_beetle_spawn_egg",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Physical   Blood$(2br)$(l)Weakness:$()$(br)Fire   Arcane$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:pinch_beetle",
+            "rotate": "false",
+            "default_rotation": "40",
+            "scale": "0.7",
+            "offset": "0.2"
+        }
+    ]
+}

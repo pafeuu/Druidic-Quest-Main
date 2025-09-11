@@ -1,0 +1,17 @@
+{
+    "name": "✧Lich Tower✧",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:lich_tower_miniature_structure",
+    "entry_color": "3a4e19",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2br)$(o)$(l)WIP"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(2br)$(2br)$(o)$(l)WIP"
+        }
+    ]
+}

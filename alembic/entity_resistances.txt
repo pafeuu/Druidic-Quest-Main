@@ -3,26 +3,26 @@ irons_spellbooks:apothecarist ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.75
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.9
 
 irons_spellbooks:archevoker -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.75
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.75
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.9
 
 irons_spellbooks:catacombs_zombie -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 0.5
 
@@ -30,8 +30,8 @@ irons_spellbooks:citadel_keeper ->
     - alembic:ice_damage -> 1.5
     - alembic:fire_damage -> 1.75
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.2
     - alembic:true_damage -> 1.75
+    - alembic:arcane_damage -> 1.2
     - alembic:alchemical_damage -> 0.8
     - alembic:holy_damage -> 0.9
 
@@ -39,8 +39,8 @@ irons_spellbooks:cryomancer ->
     - alembic:ice_damage -> 1.75
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -48,17 +48,17 @@ irons_spellbooks:cultist ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.75
     - alembic:true_damage -> 1.75
+    - alembic:arcane_damage -> 1.75
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.8
 
 irons_spellbooks:dead_king -> 
     - alembic:ice_damage -> 1.1
     - alembic:fire_damage -> 0.9
     - alembic:physical_damage -> 1.2
-    - alembic:arcane_damage -> 1.1
     - alembic:true_damage -> 2.0
+    - alembic:arcane_damage -> 1.1
     - alembic:alchemical_damage -> 1.2
     - alembic:holy_damage -> 0.75
 
@@ -75,20 +75,20 @@ irons_spellbooks:frozen_humanoid ->
 No stats found 
 
 irons_spellbooks:magehunter_vindicator -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 1.1
+    - alembic:fire_damage -> 1.1
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.1
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.1
+    - alembic:arcane_damage -> 1.25
+    - alembic:alchemical_damage -> 1.1
+    - alembic:holy_damage -> 1.0
 
 irons_spellbooks:necromancer -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.2
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.75
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 0.5
 
@@ -96,8 +96,8 @@ irons_spellbooks:priest ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.5
 
@@ -105,8 +105,8 @@ irons_spellbooks:pyromancer ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.75
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -123,8 +123,8 @@ irons_spellbooks:spectral_steed ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.9
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 0.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 0.85
     - alembic:holy_damage -> 1.5
 
@@ -132,8 +132,8 @@ irons_spellbooks:summoned_polar_bear ->
     - alembic:ice_damage -> 1.75
     - alembic:fire_damage -> 0.5
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 0.9
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 0.9
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
@@ -141,8 +141,8 @@ irons_spellbooks:summoned_skeleton ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 0.5
 
@@ -150,8 +150,8 @@ irons_spellbooks:summoned_vex ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 0.9
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.25
 
@@ -159,8 +159,8 @@ irons_spellbooks:summoned_zombie ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 0.5
 
@@ -172,8 +172,8 @@ minecraft:allay ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
@@ -184,8 +184,8 @@ minecraft:axolotl ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -193,8 +193,8 @@ minecraft:bat ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -202,8 +202,8 @@ minecraft:bee ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -211,8 +211,8 @@ minecraft:blaze ->
     - alembic:ice_damage -> 0.5
     - alembic:fire_damage -> 2.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.2
     - alembic:holy_damage -> 0.8
 
@@ -220,8 +220,8 @@ minecraft:camel ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -229,8 +229,8 @@ minecraft:cat ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -238,8 +238,8 @@ minecraft:cave_spider ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.7
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.2
     - alembic:true_damage -> 1.2
+    - alembic:arcane_damage -> 1.2
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 0.9
 
@@ -247,8 +247,8 @@ minecraft:chicken ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -256,8 +256,8 @@ minecraft:cod ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -265,24 +265,26 @@ minecraft:cow ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 minecraft:creeper -> 
-    - alembic:true_damage -> 0.0
-    - alembic:fire_damage -> 0.4
-    - alembic:alchemical_damage -> 1.1
+    - alembic:ice_damage -> 1.0
+    - alembic:fire_damage -> 0.5
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.2
     - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.2
+    - alembic:holy_damage -> 1.0
 
 minecraft:dolphin -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -290,8 +292,8 @@ minecraft:donkey ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -299,8 +301,8 @@ minecraft:drowned ->
     - alembic:ice_damage -> 1.5
     - alembic:fire_damage -> 0.5
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 0.8
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 0.8
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 0.5
 
@@ -308,17 +310,17 @@ minecraft:elder_guardian ->
     - alembic:ice_damage -> 1.5
     - alembic:fire_damage -> 0.5
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.2
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.9
 
 minecraft:ender_dragon -> 
     - alembic:ice_damage -> 0.5
     - alembic:fire_damage -> 1.4
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.4
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 0.7
     - alembic:holy_damage -> 0.8
 
@@ -326,8 +328,8 @@ minecraft:enderman ->
     - alembic:ice_damage -> 0.5
     - alembic:fire_damage -> 1.2
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 0.7
     - alembic:holy_damage -> 0.8
 
@@ -335,8 +337,8 @@ minecraft:endermite ->
     - alembic:ice_damage -> 0.5
     - alembic:fire_damage -> 1.2
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 0.7
     - alembic:holy_damage -> 0.8
 
@@ -344,17 +346,17 @@ minecraft:evoker ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.25
     - alembic:arcane_damage -> 1.75
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.9
 
 minecraft:fox -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -362,8 +364,8 @@ minecraft:frog ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -371,9 +373,9 @@ minecraft:ghast ->
     - alembic:ice_damage -> 0.5
     - alembic:fire_damage -> 2.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.2
     - alembic:holy_damage -> 1.0
 
 minecraft:giant -> 
@@ -383,8 +385,8 @@ minecraft:glow_squid ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -392,8 +394,8 @@ minecraft:goat ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -401,17 +403,17 @@ minecraft:guardian ->
     - alembic:ice_damage -> 2.0
     - alembic:fire_damage -> 0.5
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.8
 
 minecraft:hoglin -> 
     - alembic:ice_damage -> 0.75
     - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.2
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.2
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 0.8
 
@@ -419,8 +421,8 @@ minecraft:horse ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.9
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 0.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 0.85
     - alembic:holy_damage -> 1.0
 
@@ -428,8 +430,8 @@ minecraft:husk ->
     - alembic:ice_damage -> 0.75
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.2
     - alembic:true_damage -> 1.8
+    - alembic:arcane_damage -> 1.2
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 0.75
 
@@ -437,17 +439,17 @@ minecraft:illusioner ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.1
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.25
     - alembic:arcane_damage -> 1.9
-    - alembic:true_damage -> 1.1
     - alembic:alchemical_damage -> 1.1
-    - alembic:holy_damage -> 1.1
+    - alembic:holy_damage -> 0.9
 
 minecraft:iron_golem -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 0.5
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 0.5
     - alembic:alchemical_damage -> 0.5
     - alembic:holy_damage -> 1.75
 
@@ -455,8 +457,8 @@ minecraft:llama ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -464,8 +466,8 @@ minecraft:magma_cube ->
     - alembic:ice_damage -> 0.4
     - alembic:fire_damage -> 1.8
     - alembic:physical_damage -> 1.2
-    - alembic:arcane_damage -> 1.2
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.2
     - alembic:alchemical_damage -> 0.8
     - alembic:holy_damage -> 1.0
 
@@ -473,8 +475,8 @@ minecraft:mooshroom ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -482,8 +484,8 @@ minecraft:mule ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -491,8 +493,8 @@ minecraft:ocelot ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -500,8 +502,8 @@ minecraft:panda ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -509,8 +511,8 @@ minecraft:parrot ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -518,17 +520,17 @@ minecraft:phantom ->
     - alembic:ice_damage -> 0.75
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.2
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.2
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 0.9
+    - alembic:holy_damage -> 0.75
 
 minecraft:pig -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -536,8 +538,8 @@ minecraft:piglin ->
     - alembic:ice_damage -> 0.75
     - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 0.9
 
@@ -545,8 +547,8 @@ minecraft:piglin_brute ->
     - alembic:ice_damage -> 0.75
     - alembic:fire_damage -> 1.75
     - alembic:physical_damage -> 1.75
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 0.9
 
@@ -554,17 +556,17 @@ minecraft:pillager ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.25
+    - alembic:true_damage -> 1.25
     - alembic:arcane_damage -> 1.25
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.25
-    - alembic:holy_damage -> 1.0
+    - alembic:alchemical_damage -> 1.0
+    - alembic:holy_damage -> 0.8
 
 minecraft:polar_bear -> 
     - alembic:ice_damage -> 1.75
     - alembic:fire_damage -> 0.5
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 0.75
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 0.75
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
@@ -572,8 +574,8 @@ minecraft:pufferfish ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -581,8 +583,8 @@ minecraft:rabbit ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -590,8 +592,8 @@ minecraft:ravager ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.9
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 0.9
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 0.9
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
@@ -599,8 +601,8 @@ minecraft:salmon ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -608,8 +610,8 @@ minecraft:sheep ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -617,8 +619,8 @@ minecraft:shulker ->
     - alembic:ice_damage -> 0.5
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.2
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.2
     - alembic:alchemical_damage -> 0.75
     - alembic:holy_damage -> 1.0
 
@@ -626,17 +628,17 @@ minecraft:silverfish ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 minecraft:skeleton -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
-    - alembic:physical_damage -> 1.2
-    - alembic:arcane_damage -> 1.0
+    - alembic:physical_damage -> 0.8
     - alembic:true_damage -> 1.75
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 0.5
 
@@ -644,8 +646,8 @@ minecraft:skeleton_horse ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.2
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.75
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 0.5
 
@@ -653,17 +655,17 @@ minecraft:slime ->
     - alembic:ice_damage -> 0.9
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 0.9
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 0.9
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 minecraft:sniffer -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:physical_damage -> 1.25
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -671,26 +673,26 @@ minecraft:snow_golem ->
     - alembic:ice_damage -> 2.0
     - alembic:fire_damage -> 0.25
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.0
 
 minecraft:spider -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:fire_damage -> 0.8
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.2
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:alchemical_damage -> 1.2
+    - alembic:holy_damage -> 0.9
 
 minecraft:squid -> 
     - alembic:ice_damage -> 1.5
     - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -698,17 +700,17 @@ minecraft:stray ->
     - alembic:ice_damage -> 1.9
     - alembic:fire_damage -> 0.5
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 0.9
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 0.9
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 0.5
 
 minecraft:strider -> 
     - alembic:ice_damage -> 0.75
-    - alembic:fire_damage -> 1.25
+    - alembic:fire_damage -> 2.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -719,8 +721,8 @@ minecraft:trader_llama ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -728,8 +730,8 @@ minecraft:tropical_fish ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -737,8 +739,8 @@ minecraft:turtle ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -746,17 +748,17 @@ minecraft:vex ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 0.9
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.25
+    - alembic:holy_damage -> 0.9
 
 minecraft:villager -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -764,26 +766,26 @@ minecraft:vindicator ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.1
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.1
+    - alembic:arcane_damage -> 1.25
+    - alembic:alchemical_damage -> 1.1
+    - alembic:holy_damage -> 0.9
 
 minecraft:wandering_trader -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 minecraft:warden -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 1.1
+    - alembic:fire_damage -> 1.1
     - alembic:physical_damage -> 1.75
-    - alembic:arcane_damage -> 1.25
-    - alembic:true_damage -> 1.5
+    - alembic:true_damage -> 1.9
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
@@ -791,17 +793,17 @@ minecraft:witch ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.25
     - alembic:arcane_damage -> 1.9
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:alchemical_damage -> 1.75
+    - alembic:holy_damage -> 0.8
 
 minecraft:wither -> 
     - alembic:ice_damage -> 0.9
     - alembic:fire_damage -> 1.75
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 0.75
 
@@ -809,8 +811,8 @@ minecraft:wither_skeleton ->
     - alembic:ice_damage -> 0.9
     - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 0.75
 
@@ -818,8 +820,8 @@ minecraft:wolf ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.0
 
@@ -827,8 +829,8 @@ minecraft:zoglin ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.25
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 0.5
 
@@ -836,8 +838,8 @@ minecraft:zombie ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 0.5
 
@@ -845,8 +847,8 @@ minecraft:zombie_horse ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 0.5
 
@@ -854,8 +856,8 @@ minecraft:zombie_villager ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 0.5
 
@@ -863,8 +865,8 @@ minecraft:zombified_piglin ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.25
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 0.5
 
@@ -873,8 +875,8 @@ tide:angelfish ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -882,8 +884,8 @@ tide:barracuda ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -891,8 +893,8 @@ tide:bass ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -900,8 +902,8 @@ tide:bluegill ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -909,8 +911,8 @@ tide:catfish ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -918,8 +920,8 @@ tide:clayfish ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -927,8 +929,8 @@ tide:guppy ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -936,8 +938,8 @@ tide:mackerel ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -945,8 +947,8 @@ tide:mint_carp ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -954,8 +956,8 @@ tide:ocean_perch ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -963,8 +965,8 @@ tide:pike ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -972,8 +974,8 @@ tide:sailfish ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -981,8 +983,8 @@ tide:trout ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -990,8 +992,8 @@ tide:tuna ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -999,8 +1001,8 @@ tide:yellow_perch ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1011,37 +1013,37 @@ No stats found
 alexsmobs: 
 alexsmobs:alligator_snapping_turtle -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:fire_damage -> 0.8
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 0.8
+    - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.0
 
 alexsmobs:anaconda -> 
-    - alembic:ice_damage -> 1.0
+    - alembic:ice_damage -> 0.8
     - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
+    - alembic:physical_damage -> 0.9
+    - alembic:true_damage -> 1.25
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 alexsmobs:anaconda_part -> 
-    - alembic:ice_damage -> 1.0
+    - alembic:ice_damage -> 0.8
     - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
+    - alembic:physical_damage -> 0.9
+    - alembic:true_damage -> 1.25
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 alexsmobs:anteater -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1049,8 +1051,8 @@ alexsmobs:bald_eagle ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1058,8 +1060,8 @@ alexsmobs:banana_slug ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1067,8 +1069,8 @@ alexsmobs:bison ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1076,8 +1078,8 @@ alexsmobs:blobfish ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1085,44 +1087,44 @@ alexsmobs:blue_jay ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:bone_serpent -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
+    - alembic:ice_damage -> 0.5
+    - alembic:fire_damage -> 2.0
+    - alembic:physical_damage -> 0.9
+    - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.2
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.8
 
 alexsmobs:bone_serpent_part -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
+    - alembic:ice_damage -> 0.5
+    - alembic:fire_damage -> 2.0
+    - alembic:physical_damage -> 0.9
+    - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.2
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.8
 
 alexsmobs:bunfungus -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 alexsmobs:cachalot_whale -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1130,8 +1132,8 @@ alexsmobs:caiman ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1139,8 +1141,8 @@ alexsmobs:capuchin_monkey ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1148,44 +1150,44 @@ alexsmobs:catfish ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:centipede_body -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 0.8
+    - alembic:fire_damage -> 0.8
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.25
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 alexsmobs:centipede_head -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 0.8
+    - alembic:fire_damage -> 0.8
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.25
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 alexsmobs:centipede_tail -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 0.8
+    - alembic:fire_damage -> 0.8
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.25
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 alexsmobs:cockroach -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1193,8 +1195,8 @@ alexsmobs:comb_jelly ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1202,8 +1204,8 @@ alexsmobs:cosmaw ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1211,35 +1213,35 @@ alexsmobs:cosmic_cod ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:crimson_mosquito -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
+    - alembic:fire_damage -> 1.5
+    - alembic:physical_damage -> 0.75
+    - alembic:true_damage -> 1.9
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:alchemical_damage -> 1.2
+    - alembic:holy_damage -> 0.9
 
 alexsmobs:crocodile -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.2
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:arcane_damage -> 0.9
+    - alembic:alchemical_damage -> 1.2
+    - alembic:holy_damage -> 0.9
 
 alexsmobs:crow -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1247,26 +1249,26 @@ alexsmobs:devils_hole_pupfish ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:dropbear -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 0.75
+    - alembic:fire_damage -> 1.9
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
+    - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.1
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.9
 
 alexsmobs:elephant -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1274,53 +1276,53 @@ alexsmobs:emu ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:endergrade -> 
-    - alembic:ice_damage -> 1.0
+    - alembic:ice_damage -> 0.75
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.5
+    - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 1.0
 
 alexsmobs:enderiophage -> 
-    - alembic:ice_damage -> 1.0
+    - alembic:ice_damage -> 0.75
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.25
+    - alembic:alchemical_damage -> 0.8
     - alembic:holy_damage -> 1.0
 
 alexsmobs:farseer -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:ice_damage -> 1.25
+    - alembic:fire_damage -> 1.25
+    - alembic:physical_damage -> 0.5
+    - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.25
+    - alembic:alchemical_damage -> 1.25
+    - alembic:holy_damage -> 0.9
 
 alexsmobs:flutter -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:fire_damage -> 0.5
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 alexsmobs:fly -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:fire_damage -> 0.8
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.9
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1328,8 +1330,8 @@ alexsmobs:flying_fish ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1337,17 +1339,17 @@ alexsmobs:frilled_shark ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:froststalker -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:ice_damage -> 1.5
+    - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 1.1
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1355,8 +1357,8 @@ alexsmobs:gazelle ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1364,8 +1366,8 @@ alexsmobs:gelada_monkey ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1373,53 +1375,53 @@ alexsmobs:giant_squid ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:gorilla -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:physical_damage -> 1.25
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.0
 
 alexsmobs:grizzly_bear -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:physical_damage -> 1.25
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.0
 
 alexsmobs:guster -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:ice_damage -> 0.6
+    - alembic:fire_damage -> 1.1
+    - alembic:physical_damage -> 1.1
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:hammerhead_shark -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:ice_damage -> 1.5
+    - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 1.2
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 0.9
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.9
 
 alexsmobs:hummingbird -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1427,8 +1429,8 @@ alexsmobs:jerboa ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1436,26 +1438,26 @@ alexsmobs:kangaroo ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:komodo_dragon -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
+    - alembic:ice_damage -> 0.75
+    - alembic:fire_damage -> 1.1
+    - alembic:physical_damage -> 1.1
+    - alembic:true_damage -> 1.25
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 alexsmobs:laviathan -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:ice_damage -> 0.8
+    - alembic:fire_damage -> 2.0
+    - alembic:physical_damage -> 1.25
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1463,8 +1465,8 @@ alexsmobs:leafcutter_ant ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1472,8 +1474,8 @@ alexsmobs:lobster ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1481,8 +1483,8 @@ alexsmobs:maned_wolf ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1490,8 +1492,8 @@ alexsmobs:mantis_shrimp ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1499,26 +1501,26 @@ alexsmobs:mimic_octopus ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:mimicube -> 
-    - alembic:ice_damage -> 1.0
+    - alembic:ice_damage -> 0.4
     - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:physical_damage -> 1.2
+    - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.5
+    - alembic:alchemical_damage -> 0.8
     - alembic:holy_damage -> 1.0
 
 alexsmobs:moose -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1526,8 +1528,8 @@ alexsmobs:mudskipper ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1535,35 +1537,35 @@ alexsmobs:mungus ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:murmur -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.1
+    - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.5
+    - alembic:alchemical_damage -> 1.25
+    - alembic:holy_damage -> 0.5
 
 alexsmobs:murmur_head -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.1
+    - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.5
+    - alembic:alchemical_damage -> 1.25
+    - alembic:holy_damage -> 0.5
 
 alexsmobs:orca -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1571,8 +1573,8 @@ alexsmobs:platypus ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1580,8 +1582,8 @@ alexsmobs:potoo ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1589,8 +1591,8 @@ alexsmobs:raccoon ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1598,26 +1600,26 @@ alexsmobs:rain_frog ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:rattlesnake -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 0.8
+    - alembic:fire_damage -> 1.1
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.0
 
 alexsmobs:rhinoceros -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1625,17 +1627,17 @@ alexsmobs:roadrunner ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:rocky_roller -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:physical_damage -> 1.25
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 0.75
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1643,8 +1645,8 @@ alexsmobs:sea_bear ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1652,8 +1654,8 @@ alexsmobs:seagull ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1661,8 +1663,8 @@ alexsmobs:seal ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1670,35 +1672,35 @@ alexsmobs:shoebill ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:skelewag -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
+    - alembic:ice_damage -> 1.9
+    - alembic:fire_damage -> 0.6
+    - alembic:physical_damage -> 0.9
+    - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 0.9
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.75
 
 alexsmobs:skreecher -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:true_damage -> 1.9
+    - alembic:arcane_damage -> 0.8
+    - alembic:alchemical_damage -> 1.25
+    - alembic:holy_damage -> 0.5
 
 alexsmobs:skunk -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1706,53 +1708,53 @@ alexsmobs:snow_leopard ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:soul_vulture -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 0.5
+    - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.9
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.8
 
 alexsmobs:spectre -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:straddler -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
+    - alembic:ice_damage -> 0.6
+    - alembic:fire_damage -> 1.9
+    - alembic:physical_damage -> 1.25
+    - alembic:true_damage -> 1.25
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.8
 
 alexsmobs:stradpole -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 0.4
+    - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.25
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.8
 
 alexsmobs:sugar_glider -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1760,26 +1762,26 @@ alexsmobs:sunbird ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:tarantula_hawk -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 0.8
+    - alembic:fire_damage -> 0.8
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.2
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 alexsmobs:tasmanian_devil -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1787,8 +1789,8 @@ alexsmobs:terrapin ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1796,8 +1798,8 @@ alexsmobs:tiger ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1805,8 +1807,8 @@ alexsmobs:toucan ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1814,72 +1816,72 @@ alexsmobs:triops ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:tusklin -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:ice_damage -> 1.5
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.1
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 alexsmobs:underminer -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
+    - alembic:physical_damage -> 1.25
+    - alembic:true_damage -> 1.5
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.6
 
 alexsmobs:void_worm -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
+    - alembic:ice_damage -> 0.9
+    - alembic:fire_damage -> 1.25
+    - alembic:physical_damage -> 1.75
+    - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 1.25
 
 alexsmobs:void_worm_part -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
+    - alembic:ice_damage -> 0.9
+    - alembic:fire_damage -> 1.25
+    - alembic:physical_damage -> 1.75
+    - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 1.25
 
 alexsmobs:warped_mosco -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:fire_damage -> 2.0
+    - alembic:physical_damage -> 1.5
+    - alembic:true_damage -> 1.9
+    - alembic:arcane_damage -> 1.25
+    - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.0
 
 alexsmobs:warped_toad -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 0.5
+    - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.25
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:alchemical_damage -> 1.1
+    - alembic:holy_damage -> 0.9
 
 immersiveengineering: 
 immersiveengineering:bulwark -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.1
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.1
 
@@ -1887,8 +1889,8 @@ immersiveengineering:commando ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.1
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.1
 
@@ -1896,8 +1898,8 @@ immersiveengineering:fusilier ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.1
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.1
 
@@ -1906,81 +1908,85 @@ deeperdarker:angler_fish ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 deeperdarker:sculk_centipede -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:ice_damage -> 1.25
+    - alembic:fire_damage -> 1.25
+    - alembic:physical_damage -> 1.1
+    - alembic:true_damage -> 1.75
+    - alembic:arcane_damage -> 0.9
+    - alembic:alchemical_damage -> 1.75
+    - alembic:holy_damage -> 0.75
 
 deeperdarker:sculk_leech -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:ice_damage -> 1.25
+    - alembic:fire_damage -> 1.25
+    - alembic:physical_damage -> 0.8
+    - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 0.8
+    - alembic:alchemical_damage -> 1.5
+    - alembic:holy_damage -> 0.6
 
 deeperdarker:sculk_snapper -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 1.25
+    - alembic:fire_damage -> 1.25
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 0.8
+    - alembic:alchemical_damage -> 1.5
+    - alembic:holy_damage -> 0.6
 
 deeperdarker:shattered -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:ice_damage -> 1.25
+    - alembic:fire_damage -> 1.25
+    - alembic:physical_damage -> 0.9
+    - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 0.8
+    - alembic:alchemical_damage -> 1.5
+    - alembic:holy_damage -> 0.7
 
 deeperdarker:shriek_worm -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:ice_damage -> 1.25
+    - alembic:fire_damage -> 1.25
+    - alembic:physical_damage -> 1.1
+    - alembic:true_damage -> 1.75
+    - alembic:arcane_damage -> 0.9
+    - alembic:alchemical_damage -> 1.75
+    - alembic:holy_damage -> 0.8
 
 deeperdarker:sludge -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:ice_damage -> 1.25
+    - alembic:fire_damage -> 1.25
+    - alembic:physical_damage -> 1.2
+    - alembic:true_damage -> 1.9
+    - alembic:arcane_damage -> 0.8
+    - alembic:alchemical_damage -> 1.75
+    - alembic:holy_damage -> 0.6
 
 deeperdarker:stalker -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
+    - alembic:ice_damage -> 1.5
+    - alembic:fire_damage -> 1.5
+    - alembic:physical_damage -> 1.2
+    - alembic:true_damage -> 1.9
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:alchemical_damage -> 1.8
     - alembic:holy_damage -> 1.0
+
+starbunclemania: 
+starbunclemania:starby_mount -> 
+No stats found 
 
 aether: 
 aether:aechor_plant -> 
-    - alembic:ice_damage -> 0.5
-    - alembic:fire_damage -> 1.5
+    - alembic:ice_damage -> 1.5
+    - alembic:fire_damage -> 0.6
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 0.6
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.5
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.5
 
@@ -1988,8 +1994,8 @@ aether:aerbunny ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -1997,44 +2003,44 @@ aether:aerwhale ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 aether:blue_swet -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:ice_damage -> 1.8
+    - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 1.2
+    - alembic:true_damage -> 0.8
+    - alembic:arcane_damage -> 1.5
+    - alembic:alchemical_damage -> 1.5
+    - alembic:holy_damage -> 1.9
 
 aether:cloud_minion -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 aether:cockatrice -> 
-    - alembic:ice_damage -> 0.5
-    - alembic:fire_damage -> 1.5
+    - alembic:ice_damage -> 1.5
+    - alembic:fire_damage -> 0.5
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 0.75
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.5
     - alembic:alchemical_damage -> 1.5
-    - alembic:holy_damage -> 1.5
+    - alembic:holy_damage -> 1.75
 
 aether:evil_whirlwind -> 
     - alembic:ice_damage -> 0.8
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:fire_damage -> 0.6
+    - alembic:physical_damage -> 1.5
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 0.8
     - alembic:holy_damage -> 0.8
 
@@ -2042,8 +2048,8 @@ aether:fire_minion ->
     - alembic:ice_damage -> 0.5
     - alembic:fire_damage -> 2.0
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 0.75
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.2
 
@@ -2051,35 +2057,35 @@ aether:flying_cow ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 aether:golden_swet -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:ice_damage -> 1.8
+    - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 1.2
+    - alembic:true_damage -> 0.8
+    - alembic:arcane_damage -> 1.5
+    - alembic:alchemical_damage -> 1.5
+    - alembic:holy_damage -> 1.9
 
 aether:mimic -> 
-    - alembic:ice_damage -> 0.8
-    - alembic:fire_damage -> 1.5
-    - alembic:physical_damage -> 1.0
+    - alembic:ice_damage -> 1.5
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.1
+    - alembic:true_damage -> 0.6
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.5
-    - alembic:alchemical_damage -> 0.7
-    - alembic:holy_damage -> 1.5
+    - alembic:alchemical_damage -> 1.0
+    - alembic:holy_damage -> 1.8
 
 aether:moa -> 
-    - alembic:ice_damage -> 0.9
-    - alembic:fire_damage -> 1.25
+    - alembic:ice_damage -> 1.25
+    - alembic:fire_damage -> 0.9
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.75
 
@@ -2087,17 +2093,17 @@ aether:phyg ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 aether:sentry -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.25
+    - alembic:ice_damage -> 1.5
+    - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.75
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.2
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.75
 
@@ -2105,64 +2111,64 @@ aether:sheepuff ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 aether:slider -> 
-    - alembic:ice_damage -> 1.0
+    - alembic:ice_damage -> 1.5
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 0.75
-    - alembic:true_damage -> 1.25
-    - alembic:alchemical_damage -> 0.75
-    - alembic:holy_damage -> 1.5
+    - alembic:true_damage -> 0.9
+    - alembic:arcane_damage -> 1.2
+    - alembic:alchemical_damage -> 1.0
+    - alembic:holy_damage -> 1.9
 
 aether:sun_spirit -> 
     - alembic:ice_damage -> 0.5
-    - alembic:fire_damage -> 1.75
+    - alembic:fire_damage -> 2.0
     - alembic:physical_damage -> 1.25
+    - alembic:true_damage -> 0.75
     - alembic:arcane_damage -> 1.25
-    - alembic:true_damage -> 1.25
-    - alembic:alchemical_damage -> 1.0
+    - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.25
 
 aether:valkyrie -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.5
-    - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
-    - alembic:true_damage -> 1.5
-    - alembic:alchemical_damage -> 0.9
-    - alembic:holy_damage -> 1.5
-
-aether:valkyrie_queen -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.5
-    - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.25
-    - alembic:true_damage -> 1.5
-    - alembic:alchemical_damage -> 0.9
-    - alembic:holy_damage -> 1.75
-
-aether:whirlwind -> 
-    - alembic:ice_damage -> 1.0
+    - alembic:ice_damage -> 1.75
     - alembic:fire_damage -> 1.25
     - alembic:physical_damage -> 1.25
+    - alembic:true_damage -> 0.8
     - alembic:arcane_damage -> 1.25
-    - alembic:true_damage -> 1.25
+    - alembic:alchemical_damage -> 1.0
+    - alembic:holy_damage -> 1.9
+
+aether:valkyrie_queen -> 
+    - alembic:ice_damage -> 1.9
+    - alembic:fire_damage -> 1.25
+    - alembic:physical_damage -> 1.5
+    - alembic:true_damage -> 0.9
+    - alembic:arcane_damage -> 1.25
+    - alembic:alchemical_damage -> 1.1
+    - alembic:holy_damage -> 2.0
+
+aether:whirlwind -> 
+    - alembic:ice_damage -> 1.75
+    - alembic:fire_damage -> 1.25
+    - alembic:physical_damage -> 1.25
+    - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.25
 
 aether:zephyr -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.25
+    - alembic:ice_damage -> 1.9
+    - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.0
     - alembic:arcane_damage -> 1.25
-    - alembic:true_damage -> 1.25
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.25
+    - alembic:alchemical_damage -> 1.25
+    - alembic:holy_damage -> 1.75
 
 biomeswevegone: 
 biomeswevegone:man_o_war -> 
@@ -2179,8 +2185,8 @@ forbidden_arcanus:lost_soul ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2189,8 +2195,8 @@ ars_nouveau:ally_vex ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2198,8 +2204,8 @@ ars_nouveau:amethyst_golem ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2207,8 +2213,8 @@ ars_nouveau:animated_block ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2216,44 +2222,38 @@ ars_nouveau:animated_head ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 ars_nouveau:blazing_weald_walker -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+No stats found 
 
 ars_nouveau:bookwyrm -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 ars_nouveau:cascading_weald_walker -> 
-    - alembic:ice_damage -> 1.0
+    - alembic:ice_damage -> 1.75
     - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:physical_damage -> 1.5
+    - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.25
+    - alembic:alchemical_damage -> 1.25
+    - alembic:holy_damage -> 1.25
 
 ars_nouveau:drygmy -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2261,80 +2261,44 @@ ars_nouveau:dummy ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 ars_nouveau:familiar_amethyst_golem -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+No stats found 
 
 ars_nouveau:familiar_bookwyrm -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+No stats found 
 
 ars_nouveau:familiar_drygmy -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+No stats found 
 
 ars_nouveau:familiar_starbuncle -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+No stats found 
 
 ars_nouveau:familiar_whirlisprig -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+No stats found 
 
 ars_nouveau:familiar_wixie -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+No stats found 
 
 ars_nouveau:flourishing_weald_walker -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
+    - alembic:ice_damage -> 1.25
+    - alembic:fire_damage -> 1.25
+    - alembic:physical_damage -> 1.5
+    - alembic:true_damage -> 1.25
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:alchemical_damage -> 1.75
+    - alembic:holy_damage -> 1.25
 
 ars_nouveau:gift_starby -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2342,8 +2306,8 @@ ars_nouveau:lily ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2351,53 +2315,53 @@ ars_nouveau:starbuncle ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 ars_nouveau:summon_horse -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:fire_damage -> 0.9
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 0.85
+    - alembic:holy_damage -> 1.5
 
 ars_nouveau:summon_skeleton -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:arcane_damage -> 1.25
+    - alembic:alchemical_damage -> 0.9
+    - alembic:holy_damage -> 0.5
 
 ars_nouveau:summon_wolf -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:physical_damage -> 1.25
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.25
+    - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.0
 
 ars_nouveau:vexing_weald_walker -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
+    - alembic:ice_damage -> 1.25
+    - alembic:fire_damage -> 1.25
+    - alembic:physical_damage -> 1.5
+    - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.75
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 1.25
 
 ars_nouveau:whirlisprig -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2405,8 +2369,8 @@ ars_nouveau:wilden_boss ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.9
     - alembic:holy_damage -> 1.25
 
@@ -2414,8 +2378,8 @@ ars_nouveau:wilden_guardian ->
     - alembic:ice_damage -> 1.25
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
@@ -2423,8 +2387,8 @@ ars_nouveau:wilden_hunter ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
@@ -2432,8 +2396,8 @@ ars_nouveau:wilden_stalker ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
@@ -2441,8 +2405,8 @@ ars_nouveau:wixie ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2451,8 +2415,8 @@ deep_aether:aerglow_fish ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2460,10 +2424,22 @@ deep_aether:baby_zephyr ->
 No stats found 
 
 deep_aether:eots_controller -> 
-No stats found 
+    - alembic:ice_damage -> 1.5
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.1
+    - alembic:true_damage -> 0.6
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.0
+    - alembic:holy_damage -> 1.8
 
 deep_aether:eots_segment -> 
-No stats found 
+    - alembic:ice_damage -> 1.5
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.1
+    - alembic:true_damage -> 0.6
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.0
+    - alembic:holy_damage -> 1.8
 
 deep_aether:gentle_wind -> 
 No stats found 
@@ -2472,17 +2448,17 @@ deep_aether:quail ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 deep_aether:venomite -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.5
+    - alembic:ice_damage -> 1.75
+    - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.5
+    - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.5
 
@@ -2491,11 +2467,11 @@ No stats found
 
 aether_redux: 
 aether_redux:blightbunny -> 
-    - alembic:ice_damage -> 0.75
-    - alembic:fire_damage -> 1.5
+    - alembic:ice_damage -> 1.5
+    - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.5
+    - alembic:true_damage -> 0.9
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.2
     - alembic:holy_damage -> 1.5
 
@@ -2503,8 +2479,8 @@ aether_redux:blightbunny_spawner ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2512,91 +2488,91 @@ aether_redux:cockatrice_spawner ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 aether_redux:mykapod -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 1.5
+    - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:true_damage -> 0.9
+    - alembic:arcane_damage -> 1.25
+    - alembic:alchemical_damage -> 1.5
+    - alembic:holy_damage -> 1.5
 
 aether_redux:shimmercow -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 aether_redux:vanilla_swet -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:ice_damage -> 1.8
+    - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 1.2
+    - alembic:true_damage -> 0.8
+    - alembic:arcane_damage -> 1.5
+    - alembic:alchemical_damage -> 1.5
+    - alembic:holy_damage -> 1.9
 
 ancient_aether: 
 ancient_aether:aeronautic_leaper -> 
-    - alembic:ice_damage -> 1.0
+    - alembic:ice_damage -> 1.8
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:arcane_damage -> 1.25
+    - alembic:alchemical_damage -> 1.5
+    - alembic:holy_damage -> 1.9
 
 ancient_aether:festive_swet -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:ice_damage -> 2.0
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.2
+    - alembic:true_damage -> 0.8
+    - alembic:arcane_damage -> 1.5
+    - alembic:alchemical_damage -> 1.5
+    - alembic:holy_damage -> 1.9
 
 ancient_aether:fluffalo -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 ancient_aether:mutated_aechor_plant -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:ice_damage -> 1.5
+    - alembic:fire_damage -> 0.9
+    - alembic:physical_damage -> 1.25
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.8
+    - alembic:holy_damage -> 1.5
 
 ancient_aether:slammroot -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:ice_damage -> 1.75
+    - alembic:fire_damage -> 0.75
+    - alembic:physical_damage -> 1.25
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
+    - alembic:holy_damage -> 1.9
 
 thermal: 
 thermal:basalz -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
@@ -2604,8 +2580,8 @@ thermal:blitz ->
     - alembic:ice_damage -> 0.5
     - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2613,18 +2589,22 @@ thermal:blizz ->
     - alembic:ice_damage -> 2.0
     - alembic:fire_damage -> 0.5
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.2
     - alembic:true_damage -> 1.2
+    - alembic:arcane_damage -> 1.2
     - alembic:alchemical_damage -> 1.2
     - alembic:holy_damage -> 1.0
+
+create: 
+create:package -> 
+No stats found 
 
 quark: 
 quark:crab -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2632,17 +2612,17 @@ quark:forgotten ->
     - alembic:ice_damage -> 1.5
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.75
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 0.75
 
 quark:foxhound -> 
-    - alembic:ice_damage -> 1.0
+    - alembic:ice_damage -> 0.8
     - alembic:fire_damage -> 1.75
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.1
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2650,8 +2630,8 @@ quark:shiba ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2659,8 +2639,8 @@ quark:stoneling ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.2
-    - alembic:arcane_damage -> 0.75
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 0.75
     - alembic:alchemical_damage -> 1.2
     - alembic:holy_damage -> 1.0
 
@@ -2668,8 +2648,8 @@ quark:toretoise ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
@@ -2677,8 +2657,8 @@ quark:wraith ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 2.0
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 0.5
 
@@ -2690,8 +2670,8 @@ supplementaries:red_merchant ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2700,8 +2680,8 @@ twilightforest:adherent ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2709,89 +2689,89 @@ twilightforest:alpha_yeti ->
     - alembic:ice_damage -> 1.8
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 twilightforest:armored_giant -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:ice_damage -> 1.25
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.75
+    - alembic:true_damage -> 0.8
+    - alembic:arcane_damage -> 0.9
+    - alembic:alchemical_damage -> 1.25
+    - alembic:holy_damage -> 1.25
 
 twilightforest:bighorn_sheep -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 twilightforest:blockchain_goblin -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:fire_damage -> 0.9
+    - alembic:physical_damage -> 1.2
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 twilightforest:boar -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 twilightforest:carminite_broodling -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 0.5
+    - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.2
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.9
 
 twilightforest:carminite_ghastguard -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 0.5
+    - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.2
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.9
 
 twilightforest:carminite_ghastling -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:ice_damage -> 0.5
+    - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.2
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.9
 
 twilightforest:carminite_golem -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
+    - alembic:ice_damage -> 0.75
+    - alembic:fire_damage -> 1.5
+    - alembic:physical_damage -> 1.2
+    - alembic:true_damage -> 1.2
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.9
 
 twilightforest:death_tome -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:fire_damage -> 0.75
+    - alembic:physical_damage -> 1.25
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.75
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2799,8 +2779,8 @@ twilightforest:deer ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2808,8 +2788,8 @@ twilightforest:dwarf_rabbit ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2817,26 +2797,26 @@ twilightforest:fire_beetle ->
     - alembic:ice_damage -> 0.5
     - alembic:fire_damage -> 1.5
     - alembic:physical_damage -> 1.2
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.2
     - alembic:holy_damage -> 1.0
 
 twilightforest:giant_miner -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:ice_damage -> 1.25
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.75
+    - alembic:true_damage -> 0.8
+    - alembic:arcane_damage -> 0.9
+    - alembic:alchemical_damage -> 1.25
+    - alembic:holy_damage -> 1.25
 
 twilightforest:harbinger_cube -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2844,35 +2824,35 @@ twilightforest:hedge_spider ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.2
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 twilightforest:helmet_crab -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.2
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.2
     - alembic:holy_damage -> 1.0
 
 twilightforest:hostile_wolf -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.2
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 twilightforest:hydra -> 
     - alembic:ice_damage -> 0.75
     - alembic:fire_damage -> 2.0
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
@@ -2880,8 +2860,8 @@ twilightforest:ice_crystal ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -2889,35 +2869,35 @@ twilightforest:king_spider ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.8
     - alembic:physical_damage -> 1.2
-    - alembic:arcane_damage -> 1.2
     - alembic:true_damage -> 1.2
+    - alembic:arcane_damage -> 1.2
     - alembic:alchemical_damage -> 1.75
     - alembic:holy_damage -> 1.0
 
 twilightforest:knight_phantom -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.5
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 twilightforest:kobold -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:physical_damage -> 0.9
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 0.8
+    - alembic:alchemical_damage -> 1.2
     - alembic:holy_damage -> 1.0
 
 twilightforest:lich -> 
     - alembic:ice_damage -> 1.2
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.75
     - alembic:true_damage -> 1.75
+    - alembic:arcane_damage -> 1.75
     - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 0.5
 
@@ -2925,80 +2905,80 @@ twilightforest:lich_minion ->
     - alembic:ice_damage -> 1.2
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 0.75
     - alembic:holy_damage -> 0.5
 
 twilightforest:lower_goblin_knight -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:fire_damage -> 0.9
+    - alembic:physical_damage -> 1.2
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 twilightforest:loyal_zombie -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.2
-    - alembic:arcane_damage -> 1.2
     - alembic:true_damage -> 1.5
+    - alembic:arcane_damage -> 1.2
     - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 0.75
 
 twilightforest:maze_slime -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.5
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 twilightforest:minoshroom -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.5
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.8
     - alembic:holy_damage -> 1.0
 
 twilightforest:minotaur -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:fire_damage -> 0.9
+    - alembic:physical_damage -> 1.25
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.0
 
 twilightforest:mist_wolf -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
+    - alembic:fire_damage -> 0.8
+    - alembic:physical_damage -> 1.5
+    - alembic:true_damage -> 1.2
+    - alembic:arcane_damage -> 1.2
+    - alembic:alchemical_damage -> 1.5
+    - alembic:holy_damage -> 0.9
 
 twilightforest:mosquito_swarm -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:fire_damage -> 0.2
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.8
     - alembic:holy_damage -> 1.0
 
 twilightforest:naga -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.25
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.75
     - alembic:holy_damage -> 1.0
 
@@ -3006,26 +2986,26 @@ twilightforest:penguin ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 twilightforest:pinch_beetle -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
+    - alembic:fire_damage -> 0.6
+    - alembic:physical_damage -> 0.9
+    - alembic:true_damage -> 1.2
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 twilightforest:plateau_boss -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -3033,8 +3013,8 @@ twilightforest:quest_ram ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -3042,8 +3022,8 @@ twilightforest:raven ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -3051,26 +3031,26 @@ twilightforest:redcap ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.2
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.2
     - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.0
 
 twilightforest:redcap_sapper -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.2
+    - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.0
 
 twilightforest:rising_zombie -> 
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.2
-    - alembic:arcane_damage -> 1.2
     - alembic:true_damage -> 1.75
+    - alembic:arcane_damage -> 1.2
     - alembic:alchemical_damage -> 0.9
     - alembic:holy_damage -> 0.5
 
@@ -3078,26 +3058,26 @@ twilightforest:roving_cube ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 twilightforest:skeleton_druid -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
+    - alembic:fire_damage -> 0.9
+    - alembic:physical_damage -> 0.9
+    - alembic:true_damage -> 1.5
     - alembic:arcane_damage -> 1.75
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.75
-    - alembic:holy_damage -> 1.0
+    - alembic:holy_damage -> 0.75
 
 twilightforest:slime_beetle -> 
     - alembic:ice_damage -> 0.9
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.25
+    - alembic:true_damage -> 1.2
     - alembic:arcane_damage -> 0.9
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
@@ -3105,8 +3085,8 @@ twilightforest:snow_guardian ->
     - alembic:ice_damage -> 2.0
     - alembic:fire_damage -> 0.25
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.0
 
@@ -3114,8 +3094,8 @@ twilightforest:snow_queen ->
     - alembic:ice_damage -> 2.0
     - alembic:fire_damage -> 0.25
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.1
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.1
 
@@ -3123,8 +3103,8 @@ twilightforest:squirrel ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -3132,8 +3112,8 @@ twilightforest:stable_ice_core ->
     - alembic:ice_damage -> 2.0
     - alembic:fire_damage -> 0.4
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.5
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.5
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -3141,8 +3121,8 @@ twilightforest:swarm_spider ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.2
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
     - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
@@ -3150,53 +3130,53 @@ twilightforest:tiny_bird ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 1.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 twilightforest:towerwood_borer -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
+    - alembic:fire_damage -> 0.4
     - alembic:physical_damage -> 1.0
+    - alembic:true_damage -> 1.5
     - alembic:arcane_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 twilightforest:troll -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 0.9
+    - alembic:fire_damage -> 0.8
     - alembic:physical_damage -> 1.5
+    - alembic:true_damage -> 1.2
     - alembic:arcane_damage -> 0.9
-    - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.5
+    - alembic:alchemical_damage -> 1.75
     - alembic:holy_damage -> 1.0
 
 twilightforest:unstable_ice_core -> 
     - alembic:ice_damage -> 2.0
     - alembic:fire_damage -> 0.5
     - alembic:physical_damage -> 1.5
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
 twilightforest:upper_goblin_knight -> 
     - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
+    - alembic:fire_damage -> 0.9
+    - alembic:physical_damage -> 1.2
     - alembic:true_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
+    - alembic:alchemical_damage -> 1.5
     - alembic:holy_damage -> 1.0
 
 twilightforest:ur_ghast -> 
     - alembic:ice_damage -> 0.5
     - alembic:fire_damage -> 2.0
     - alembic:physical_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 1.0
 
@@ -3204,8 +3184,8 @@ twilightforest:winter_wolf ->
     - alembic:ice_damage -> 1.5
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.0
 
@@ -3213,8 +3193,8 @@ twilightforest:wraith ->
     - alembic:ice_damage -> 1.0
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.25
     - alembic:true_damage -> 2.0
+    - alembic:arcane_damage -> 1.25
     - alembic:alchemical_damage -> 1.0
     - alembic:holy_damage -> 0.5
 
@@ -3222,8 +3202,8 @@ twilightforest:yeti ->
     - alembic:ice_damage -> 1.5
     - alembic:fire_damage -> 0.75
     - alembic:physical_damage -> 1.25
-    - alembic:arcane_damage -> 1.0
     - alembic:true_damage -> 1.0
+    - alembic:arcane_damage -> 1.0
     - alembic:alchemical_damage -> 1.25
     - alembic:holy_damage -> 1.0
 

@@ -11,7 +11,9 @@
     "holy_damage": 0.9
   },
   "damage": {
-    "physical_damage": 1.0
+    "physical_damage": 0.25,
+    "fire_damage": 0.25,
+    "true_damage": 0.5
   },
   "ignored_sources": [
       "minecraft:lava",

@@ -1,0 +1,19 @@
+{
+    "name": "Forgotten",
+    "category": "patchouli:ow_dark",
+    "icon": "quark:forgotten_spawn_egg",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Blood   Ice   Physical$(2br)$(l)Weakness:$()$(br)Holy   Fire$(2br)$(l)Damage:$()$(br)Physical   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "quark:forgotten",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.1"
+        }
+    ]
+}

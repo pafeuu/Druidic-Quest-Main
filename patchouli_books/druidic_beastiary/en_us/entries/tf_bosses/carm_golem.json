@@ -1,0 +1,19 @@
+{
+    "name": "Carminite Golem",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:carminite_golem_spawn_egg",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Physical   Blood$(2br)$(l)Weakness:$()$(br)Ice$(2br)$(l)Damage:$()$(br)Fire   Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:carminite_golem",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "1.1"
+        }
+    ]
+}

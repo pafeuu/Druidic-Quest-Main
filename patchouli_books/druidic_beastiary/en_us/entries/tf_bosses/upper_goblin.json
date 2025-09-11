@@ -1,0 +1,20 @@
+{
+    "name": "Upper Goblin Knight",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:lower_goblin_knight_spawn_egg",
+    "sortnum": 13,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Physical$(2br)$(l)Weakness:$()$(br)Arcane   Fire$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:upper_goblin_knight",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.7",
+            "offset": "0.2"
+        }
+    ]
+}

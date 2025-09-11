@@ -1,0 +1,17 @@
+{
+    "name": "Arcane Damage",
+    "category": "patchouli:damage_types",
+    "icon": "ars_nouveau:abjuration_essence",
+    "entry_color": "800080",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Arcane damage is your average magic damage. Most magical humanoids, as well as the denizens of the End, are resistant to it.$(2br)Arcane damage will aid you in the Twilight Forest and against other nature-resistant mobs, such as animals."
+        },
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

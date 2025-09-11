@@ -2,17 +2,18 @@
   "priority": 1,
   "type": "aether:slider",
   "resistances": {
-   "alchemical_damage": 1.0,
+   "alchemical_damage": 1.25,
     "physical_damage": 1.5,
     "fire_damage": 1.0,
-    "arcane_damage": 1.2,
+    "arcane_damage": 0.9,
     "true_damage": 0.9,
     "ice_damage": 1.5,
     "holy_damage": 1.9
   },
   "damage": {
-    "physical_damage": 0.5,
-    "holy_damage": 0.5
+    "physical_damage": 0.4,
+    "holy_damage": 0.3,
+    "ice_damage": 0.3
   },
   "ignored_sources": []
 }

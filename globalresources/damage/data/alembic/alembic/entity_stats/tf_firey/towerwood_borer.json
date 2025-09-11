@@ -3,7 +3,7 @@
   "type": "twilightforest:towerwood_borer",
   "resistances": {
     "alchemical_damage": 1.5,
-    "physical_damage": 1.0,
+    "physical_damage": 0.4,
     "fire_damage": 0.4,
     "arcane_damage": 1.0,
     "true_damage": 1.5,

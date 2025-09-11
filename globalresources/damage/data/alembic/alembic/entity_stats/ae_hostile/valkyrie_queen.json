@@ -2,10 +2,10 @@
   "priority": 1,
   "type": "aether:valkyrie_queen",
   "resistances": {
-    "alchemical_damage": 1.1,
+    "alchemical_damage": 1.25,
     "physical_damage": 1.5,
     "fire_damage": 1.25,
-    "arcane_damage": 1.25,
+    "arcane_damage": 1.0,
     "true_damage": 0.9,
     "ice_damage": 1.9,
     "holy_damage": 2.0

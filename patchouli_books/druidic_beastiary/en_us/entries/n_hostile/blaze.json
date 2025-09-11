@@ -1,0 +1,18 @@
+{
+    "name": "Blaze",
+    "category": "patchouli:n_hostile",
+    "icon": "minecraft:blaze_spawn_egg",
+    "sortnum": 11,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Blood$(2br)$(l)Weakness:$()$(br)Ice   Holy$(2br)$(l)Damage:$()$(br)Fire   Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:blaze",
+            "rotate": "false",
+            "default_rotation": "35"
+        }
+    ]
+}

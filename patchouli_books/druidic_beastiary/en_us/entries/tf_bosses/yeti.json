@@ -1,0 +1,20 @@
+{
+    "name": "Yeti",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:yeti_spawn_egg",
+    "sortnum": 24,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice   Nature   Physical$(2br)$(l)Weakness:$()$(br)Fire$(2br)$(l)Damage:$()$(br)Physical   Ice"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:yeti",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.9",
+            "offset": "0.2"
+        }
+    ]
+}

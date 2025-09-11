@@ -11,7 +11,7 @@
     "holy_damage": 1.5
   },
   "damage": {
-    "physical_damage": 0.5,
+    "alchemical_damage": 0.5,
     "holy_damage": 0.5
   },
   "ignored_sources": []

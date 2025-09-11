@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"fast"
-resourcePacks:["vanilla","mod_resources","Banner Pattern Clarity v1.5 pf8-34.zip","Better Double Slabs 1.20.zip","Better_Enderdragon.zip","DQ-ZaniteTools.zip","Fancy Crops v1.0 f5-34.zip","Moonlight Mods Dynamic Assets","NoWoodenIEPlusSound.zip","Quark Programmer Art.zip","REVIVED_Farmer\u0027s Delight_crops_3D_R1.1-1.20.x.zip","RevertedEngineering.zip","file/Tombstones redux 1.20 v2.zip","Torchmaster Remaster.zip","Updated_Engineering_v1.7.zip","[Moonsu] Better GUI Vanilla Style for Better Smithing Table 1.0.zip","[Moonsu] Better GUI for Sophisticated Backpacks 1.0.zip","[Moonsu] Better GUI for Villagers!.zip","bettermanabar.zip","builtin/ancient_aether_texture_tweaks","builtin/client/golden_swet_ball/DAGoldenSwetBallFixClient","builtin/compatibility/deep_aether_assets","builtin/resource/overrides_pack","builtin/resource/redux_tips","moromoro\u0027s_create_style_prettypipes.zip","rainbowXpBar_1.19-1.20.1.zip","builtin/aether_tips"]
-incompatibleResourcePacks:["Banner Pattern Clarity v1.5 pf8-34.zip","Fancy Crops v1.0 f5-34.zip","NoWoodenIEPlusSound.zip","Quark Programmer Art.zip","Torchmaster Remaster.zip","Updated_Engineering_v1.7.zip","moromoro\u0027s_create_style_prettypipes.zip","rainbowXpBar_1.19-1.20.1.zip","file/Angel\u0027s_Weather_v1.8.zip"]
+resourcePacks:["vanilla","mod_resources","Banner Pattern Clarity v1.5 pf8-34.zip","Better Double Slabs 1.20.zip","Better_Enderdragon.zip","DQ-ZaniteTools.zip","Fancy Crops v1.0 f5-34.zip","Moonlight Mods Dynamic Assets","NoWoodenIEPlusSound.zip","Quark Programmer Art.zip","REVIVED_Farmer\u0027s Delight_crops_3D_R1.1-1.20.x.zip","RevertedEngineering.zip","file/Tombstones redux 1.20 v2.zip","Torchmaster Remaster.zip","Updated_Engineering_v1.7.zip","[Moonsu] Better GUI Vanilla Style for Better Smithing Table 1.0.zip","[Moonsu] Better GUI for Sophisticated Backpacks 1.0.zip","[Moonsu] Better GUI for Villagers!.zip","bettermanabar.zip","builtin/ancient_aether_texture_tweaks","builtin/client/golden_swet_ball/DAGoldenSwetBallFixClient","builtin/compatibility/deep_aether_assets","builtin/resource/overrides_pack","builtin/resource/redux_tips","moromoro\u0027s_create_style_prettypipes.zip","rainbowXpBar_1.19-1.20.1.zip","builtin/aether_tips","Hellim\u0027s Xaero\u0027s Maps Mob Icons v1.2.zip","waystones_update_2_1.20.1.zip","file/§5§lModded §f§lContainers §8§lDark§8.zip","file/§8§lDarkmode §f§lColourful Containers§8.zip"]
+incompatibleResourcePacks:["Banner Pattern Clarity v1.5 pf8-34.zip","Fancy Crops v1.0 f5-34.zip","NoWoodenIEPlusSound.zip","Quark Programmer Art.zip","Torchmaster Remaster.zip","Updated_Engineering_v1.7.zip","moromoro\u0027s_create_style_prettypipes.zip","rainbowXpBar_1.19-1.20.1.zip","file/§8§lDarkmode §f§lColourful Containers§8.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -224,16 +224,14 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
-key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_key.enderRing:key.keyboard.unknown
 key_key.spellstoneAbility:key.keyboard.unknown
 key_key.xpScroll:key.keyboard.unknown
-key_key.deeperdarker.boost:key.keyboard.unknown
-key_key.deeperdarker.transmit:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.findme.search:key.keyboard.y
 key_key.findme.pull_one:key.keyboard.keypad.0
@@ -253,8 +251,8 @@ key_key.effortlessbuilding.redo.desc:key.keyboard.y:CONTROL
 key_key.effortlessbuilding.previous_build_mode.desc:key.keyboard.unknown
 key_key.effortlessbuilding.disable_build_mode_toggle.desc:key.keyboard.unknown
 key_key.inventorysorter.itemout:key.mouse.102
-key_key.inventorysorter.sort:key.mouse.middle
 key_key.inventorysorter.itemin:key.mouse.100
+key_key.inventorysorter.sort:key.mouse.middle
 key_keybind.sophisticatedstorage.sort:key.mouse.middle
 key_dropoff.key.dump:key.keyboard.unknown
 key_dropoff.key.deposit:key.keyboard.unknown

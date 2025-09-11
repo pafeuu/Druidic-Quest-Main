@@ -1,0 +1,19 @@
+{
+    "name": "Wither Skeleton",
+    "category": "patchouli:n_hostile",
+    "icon": "minecraft:wither_skeleton_spawn_egg",
+    "sortnum": 12,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Blood   Fire$(2br)$(l)Weakness:$()$(br)Holy   Ice$(2br)$(l)Damage:$()$(br)Physical   Arcane   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:wither_skeleton",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

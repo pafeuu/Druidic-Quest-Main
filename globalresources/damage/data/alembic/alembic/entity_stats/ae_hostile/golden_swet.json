@@ -3,10 +3,10 @@
   "type": "aether:golden_swet",
   "resistances": {
     "alchemical_damage": 1.5,
-    "physical_damage": 1.2,
-    "fire_damage": 0.5,
-    "arcane_damage": 1.5,
-    "true_damage": 0.8,
+    "physical_damage": 1.5,
+    "fire_damage": 0.8,
+    "arcane_damage": 1.0,
+    "true_damage": 0.5,
     "ice_damage": 1.8,
     "holy_damage": 1.9
   },
