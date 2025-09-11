@@ -1,8 +1,54 @@
 ServerEvents.recipes(event => {
 
-    const armorslot = ["helmet","chestplate","leggings","boots"]
+    const ArmorSlot = ["helmet","chestplate","leggings","boots"]
 
-    function naturearmorup(input,output,smith,material)
+	function SmithingTemplate(template,material,block)
+	{
+		event.shaped(
+			Item.of("2x "+template), 
+			[
+			  'CZC',
+			  'CXC',
+			  'CCC'
+			],
+			{
+			  Z: block,
+			  C: material,
+			  X: template
+			}
+		  )
+		  event.remove([{output:template,type:"crafting_shaped"}])
+	}
+	
+	SmithingTemplate("minecraft:netherite_upgrade_smithing_template","diamond","netherrack")
+    SmithingTemplate("kubejs:gold_upgrade_smithing_template","thermal:silver_ingot","basalt")
+    SmithingTemplate("kubejs:botanist_upgrade_smithing_template","iron_ingot","minecraft:mossy_stone_bricks")
+    SmithingTemplate("kubejs:steel_upgrade_smithing_template","naturesaura:infused_iron","deepslate")
+    SmithingTemplate("kubejs:skyseeker_upgrade_smithing_template","netherite_ingot","calcite")
+    SmithingTemplate("kubejs:phoenix_upgrade_smithing_template","twilightforest:fiery_ingot","deep_aether:aseterite")
+    SmithingTemplate("deeperdarker:warden_upgrade_smithing_template","forbidden_arcanus:deorum_ingot","sculk")
+    SmithingTemplate("deep_aether:stormforged_smithing_template","kubejs:phoenix_ingot","deep_aether:nimbus_stone")
+    SmithingTemplate("kubejs:engineer_upgrade_smithing_template","leather","andesite")
+    SmithingTemplate("kubejs:fiery_upgrade_smithing_template","iron_ingot","granite")
+    SmithingTemplate("kubejs:bronze_upgrade_smithing_template","copper_block","stone")
+    SmithingTemplate("kubejs:obsidian_upgrade_smithing_template","twilightforest:knightmetal_ingot","twilightforest:mazestone_brick")
+    SmithingTemplate("kubejs:knightmetal_upgrade_smithing_template","thermal:lead_ingot","twilightforest:underbrick")
+    SmithingTemplate("kubejs:scarecrow_upgrade_smithing_template","kubejs:arcane_leather","hay_block")
+    SmithingTemplate("kubejs:steeleaf_upgrade_smithing_template","twilightforest:ironwood_ingot","twilightforest:dark_log")
+    SmithingTemplate("kubejs:wandering_magician_upgrade_smithing_template","leather","white_wool")
+    SmithingTemplate("kubejs:skyjade_upgrade_smithing_template","thermal:silver_ingot","aether:holystone")
+    SmithingTemplate("kubejs:zanite_upgrade_smithing_template","thermal:lead_ingot","aether_redux:divinite")
+    SmithingTemplate("kubejs:tyr_upgrade_smithing_template","forbidden_arcanus:dragon_scale","end_stone")
+    SmithingTemplate("kubejs:draco_arcanus_upgrade_smithing_template","forbidden_arcanus:obsidian_ingot","create:ochrum")
+    SmithingTemplate("kubejs:arcane_gold_upgrade_smithing_template","gold_ingot","create:asurine")
+    SmithingTemplate("kubejs:netherite_battlemage_upgrade_smithing_template","netherite_ingot","astrological:purpurite")
+    SmithingTemplate("kubejs:arcane_fortress_upgrade_smithing_template","wizards_reborn:arcane_gold_ingot","create:veridium")
+    SmithingTemplate("kubejs:depth_upgrade_smithing_template","forbidden_arcanus:obsidian_ingot","create:crimsite")
+    SmithingTemplate("kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_ingot","astrological:triphylite")
+    SmithingTemplate("kubejs:etherium_upgrade_smithing_template","deep_aether:squall_plate","astrological:light_jade")
+    SmithingTemplate("deep_aether:stratus_smithing_template","aether_redux:gravitite_ingot","aether:holystone")
+	
+    function NatureArmorup(input,output,smith,material)
 	{
 		// Upgrades the armor
 		event.smithing("naturesaura:"+output+"_helmet","kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_helmet"),"naturesaura:"+material)
@@ -15,8 +61,8 @@ ServerEvents.recipes(event => {
 		event.remove({output:"naturesaura:"+output+"_shoes"})
 	}
 
-    naturearmorup("diamond","sky","skyseeker","sky_ingot")
-	naturearmorup("iron","infused_iron","botanist","infused_iron")
+    NatureArmorup("diamond","sky","skyseeker","sky_ingot")
+	NatureArmorup("iron","infused_iron","botanist","infused_iron")
 
 	event.smithing('immersiveengineering:armor_steel_helmet',"kubejs:steel_upgrade_smithing_template","naturesaura:infused_iron_helmet","kubejs:steel_upgrade_parts").id("immersiveengineering:crafting/armor_steel_helmet")
 	event.smithing('immersiveengineering:armor_steel_chestplate' ,"kubejs:steel_upgrade_smithing_template","naturesaura:infused_iron_chest","kubejs:steel_upgrade_parts").id("immersiveengineering:crafting/armor_steel_chestplate")
@@ -223,7 +269,7 @@ ServerEvents.recipes(event => {
         {output:"deep_aether:skyjade_leggings"},
         {output:"deep_aether:skyjade_boots"}])
 
-    armorslot.forEach(id=>{
+    ArmorSlot.forEach(id=>{
     
         event.smithing("golden_"+id,"kubejs:gold_upgrade_smithing_template",Item.of("kubejs:silver_"+id).ignoreNBT(),"kubejs:gold_upgrade_parts").id("minecraft:golden_"+id)
    
@@ -393,7 +439,7 @@ ServerEvents.recipes(event => {
 		{output:"twilightforest:fiery_leggings"},
 		{output:"twilightforest:fiery_boots"}
 	])
-	armorslot.forEach(id => {
+	ArmorSlot.forEach(id => {
 		event.smithing("aether:phoenix_"+id,"kubejs:phoenix_upgrade_smithing_template","twilightforest:fiery_"+id,"kubejs:phoenix_ingot").id("aether:crafting/armor/phoenix_"+id)
 	})
 
@@ -413,5 +459,25 @@ ServerEvents.recipes(event => {
 			A: "ars_nouveau:air_essence"
 		}
 	)
+	
+	// =================================================== Tier 3 ========================================================
+
+	function ScarecrowUpgrade(ArmorType,MagicSchool)
+	{
+		ArmorSlot.forEach(slot => {
+			event.smithing("irons_spellbooks:"+ArmorType+"_"+slot,"irons_spellbooks:"+MagicSchool+"_rune","irons_spellbooks:pumpkin_"+slot,"kubejs:elemental_cloth")
+			event.remove({id:"irons_spellbooks:"+ArmorType+"_"+slot})
+		});
+	}
+
+	ScarecrowUpgrade("priest","holy")
+	ScarecrowUpgrade("shadowwalker","ender")
+	ScarecrowUpgrade("archevoker","evocation")
+	ScarecrowUpgrade("pyromancer","fire")
+	ScarecrowUpgrade("electromancer","lightning")
+	ScarecrowUpgrade("cultist","blood")
+	ScarecrowUpgrade("cryomancer","ice")
+	ScarecrowUpgrade("plagued","nature")
+	
 	
 })

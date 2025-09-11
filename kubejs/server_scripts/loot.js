@@ -87,7 +87,8 @@ LootJS.modifiers((event) => {
         .replaceLoot("netherite_block","6x netherite_scrap")
         .replaceLoot("aether:diamond_gloves","4x kubejs:diamond_plate")
         .replaceLoot("aether:iron_gloves","4x create:iron_sheet")
-        .replaceLoot("irons_spellbooks:fireward_ring","irons_spellbooks:cinder_essence");
+        .replaceLoot("irons_spellbooks:fireward_ring","irons_spellbooks:cinder_essence")
+        .replaceLoot("vintageimprovements:redstone_module","comparator")
 
     // ====================================================Iron's
     event.addLootTableModifier("irons_spellbooks:chests/filler_storage_loot")
@@ -166,8 +167,6 @@ LootJS.modifiers((event) => {
         .addLoot("3x enigmaticlegacy:mending_mixture")
         .randomChance(0.1)
         .addLoot("aether:leather_gloves")
-        .randomChance(0.01)
-        .addLoot("kubejs:overworld_key");
     //===================================================Rare Loot
     event.addLootTableModifier(/.*chests\/village.*/)
         .randomChance(0.1)
@@ -206,12 +205,6 @@ LootJS.modifiers((event) => {
     event.addLootTypeModifier(LootType.CHEST)
         .randomChance(0.02)
         .addLoot(Item.of('naturesaura:aura_cache', '{aura:200000}'));
-    
-    
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyDimension("minecraft:overworld") 
-        .randomChance(0.02)
-        .addLoot("kubejs:botanist_upgrade_smithing_template");
     
      event.addLootTypeModifier(LootType.CHEST)
         .biome("#minecraft:is_forest") 
@@ -292,25 +285,6 @@ LootJS.modifiers((event) => {
             and.biome("#forge:is_snowy").randomChance(0.25)
          })
          .addLoot("kubejs:mittens")
-         
-    event.addLootTypeModifier([LootType.CHEST])
-        .and((and) => {
-            and.anyDimension("minecraft:overworld").randomChance(0.02)
-    })
-    .addLoot("kubejs:overworld_key"
-
-    )
-    event.addLootTypeModifier([LootType.CHEST])
-        .and((and) => {
-            and.anyDimension("minecraft:the_nether").randomChance(0.02)
-    })
-    .addLoot("kubejs:nether_key")
-
-    event.addLootTypeModifier([LootType.CHEST])
-        .and((and) => {
-            and.anyDimension("twilightforest:twilight_forest").randomChance(0.02)
-    })
-    .addLoot("kubejs:twilight_key")
      //================================================ MOBS
 
     event.addEntityLootModifier("minecraft:zombie")
@@ -343,5 +317,84 @@ LootJS.modifiers((event) => {
   
     event.addLootTypeModifier(LootType.CHEST)
         .replaceLoot("enigmaticlegacy:forbidden_fruit","enchanted_golden_apple")
+
+    
+    //============================================= Templates
+
+    event.addBlockLootModifier("stone")
+    .randomChance(0.001)
+    .addLoot("kubejs:bronze_upgrade_smithing_template")
+
+    event.addBlockLootModifier("deepslate")
+    .randomChance(0.002)
+    .addLoot("kubejs:bronze_upgrade_smithing_template")
+
+    event.addBlockLootModifier("#minecraft:logs")
+    .randomChance(0.005)
+    .addLoot("kubejs:steeleaf_upgrade_smithing_template")
+
+    event.addLootTableModifier("immersiveengineering:chests/engineers_house")
+    .randomChance(0.25)
+    .addLoot("kubejs:engineer_upgrade_smithing_template")
+
+    event.addLootTableModifier(/.*idas:chests\/tinkers_workshop\/tinkers_workshop.*/)
+    .randomChance(0.25)
+    .addLoot("kubejs:engineer_upgrade_smithing_template")
+
+    event.addEntityLootModifier("twilightforest:hydra")
+    .addLoot("kubejs:fiery_upgrade_smithing_template")
+
+    event.addLootTableModifier(/.*twilightforest:chests\/hill.*/)
+    .randomChance(0.075)
+    .addLoot("kubejs:fiery_upgrade_smithing_template")
+
+
+    //=============================================== Keys
+    
+    event.addLootTableModifier("kubejs:chests/overworld_key")
+    .randomChance(0.01)
+    .addLoot("kubejs:overworld_key")
+
+    event.addLootTableModifier("kubejs:chests/twilight_key")
+    .randomChance(0.01)
+    .addLoot("kubejs:twilight_key")
+    
+    event.addEntityLootModifier([
+        "aether:slider",
+        "aether:valkyrie_queen",
+        "aether:sun_spirit",
+        "ancient_aether:mutated_aechor_plant",
+        "deep_aether:eots_controller"])
+    .addLoot("kubejs:aether_key")
+
+    event.addEntityLootModifier([
+        "minecraft:wither",
+        "alexsmobs:warped_mosco"])
+    .addLoot("kubejs:nether_key")
+
+    event.addEntityLootModifier(["minecraft:ender_dragon",
+        "alexsmobs:void_worm"])
+    .addLoot("kubejs:end_key")
+
+    event.addEntityLootModifier("minecraft:evoker")
+    .randomChance(0.05)
+    .addLoot("kubejs:overworld_key")
+
+    event.addEntityLootModifier([
+        "irons_spellbooks:pyromancer",
+        "irons_spellbooks:priest",
+        "irons_spellbooks:cultist",
+        "irons_spellbooks:cryomancer",
+        "irons_spellbooks:apothecarist",
+        "irons_spellbooks:archevoker"])
+    .randomChance(0.25)
+    .addLoot("kubejs:overworld_key")
+
+    event.addEntityLootModifier([
+        "minecraft:warden",
+        "irons_spellbooks:dead_king"
+    ])
+    .addLoot("kubejs:overworld_key")
+
 
 })
