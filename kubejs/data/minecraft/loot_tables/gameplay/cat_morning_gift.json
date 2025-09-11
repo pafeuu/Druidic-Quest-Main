@@ -6,11 +6,6 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "kubejs:overworld_key",
-            "weight": 1
-          },
-          {
-            "type": "minecraft:item",
             "name": "minecraft:rabbit_foot",
             "weight": 15
           },
@@ -41,8 +36,8 @@
           },
           {
             "type": "minecraft:item",
-            "name": "thermal:ruby",
-            "weight": 2
+            "name": "kubejs:infused_emerald",
+            "weight": 3
           }
         ],
         "rolls": 3
