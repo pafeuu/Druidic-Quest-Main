@@ -1369,19 +1369,6 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 	
-	event.shaped("aether_redux:logicator",
-		[
-			"SRS",
-			"RTR",
-			"SGS"
-		],
-		{
-			S: "#forge:plates/stone",
-			R: "#forge:dusts/redstone",
-			T: "redstone_torch",
-			G: "#forge:gems/sapphire"
-		}
-	).id("aether_redux:logicator")
 
 	event.shaped("quark:redstone_randomizer",
 		[
