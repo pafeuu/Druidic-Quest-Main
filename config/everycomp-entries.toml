@@ -33,10 +33,6 @@
 			mining = true
 			sorting = true
 
-		[types.wood_type.deeperdarker]
-			echo = true
-			bloom = true
-
 		[types.wood_type.aether]
 			skyroot = true
 
@@ -50,14 +46,6 @@
 		[types.wood_type.ancient_aether]
 			highsproot = true
 			sakura = true
-
-		[types.wood_type.aether_redux]
-			fieldsproot = true
-			blightwillow = true
-			cloudcap = true
-			jellyshroom = true
-			crystal = true
-			glacia = true
 
 		[types.wood_type.mynethersdelight]
 			powdery = true
@@ -148,9 +136,6 @@
 			mining = true
 			sorting = true
 
-		[types.leaves_type.deeperdarker]
-			echo = true
-
 		[types.leaves_type.aether]
 			skyroot = true
 			golden_oak = true
@@ -176,14 +161,6 @@
 			blue_skyroot_pine = true
 			highsproot = true
 			sakura = true
-
-		[types.leaves_type.aether_redux]
-			blightwillow = true
-			glacia = true
-			purple_glacia = true
-			gilded_oak = true
-			blighted_skyroot = true
-			fieldsproot = true
 
 		[types.leaves_type.wizards_reborn]
 			arcane_wood = true

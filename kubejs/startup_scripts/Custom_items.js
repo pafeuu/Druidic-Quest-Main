@@ -162,7 +162,7 @@ StartupEvents.registry('item', item => {
 
   //item.create('drenched_iron_sheet').tag('forge:plates').tag('forge:plates/drenched_iron').tag("dq:tier3/component")
   
-
+  item.create('storm_sheet').tag('forge:plates').tag('forge:plates/storm').tag("dq:tier3/component")
   item.create('sky_sheet').tag('forge:plates').tag('forge:plates/sky').tag("dq:tier4/component")
   //item.create('swift_alloy_sheet').tag('forge:plates').tag('forge:plates/swift_alloy').tag("dq:tier4/component")
 
@@ -375,12 +375,35 @@ StartupEvents.registry('item', item => {
   item.create('the_ice_cube').tag('curios:charm').unstackable()
 
   ///===================================================TEMPLATES
-
-  item.create('botanist_upgrade_smithing_template').displayName('Smithing Template').tag("dq:tier2/component")
-  item.create('gold_upgrade_smithing_template').displayName('Smithing Template').tag("dq:tier2/component")
-  item.create('steel_upgrade_smithing_template').displayName('Smithing Template').tag("dq:tier3/component")
-  item.create('skyseeker_upgrade_smithing_template').displayName('Smithing Template').tag("dq:tier3/component")
-  item.create('phoenix_upgrade_smithing_template').displayName('Smithing Template').tag("dq:tier3/component")
+  function SmithingTemplates(material,tier)
+  {
+    item.create(material+'_upgrade_smithing_template').displayName('Smithing Template').tag("dq:tier"+tier+"/component")
+  }
+  
+  SmithingTemplates("engineer",0)
+  SmithingTemplates("wandering_magician",0)
+  SmithingTemplates("bronze",1)
+  SmithingTemplates("scarecrow",1)
+  SmithingTemplates("steeleaf",1)
+  SmithingTemplates("botanist",2)
+  SmithingTemplates("knightmetal",2)
+  SmithingTemplates("gold",2)
+  SmithingTemplates("skyjade",2)
+  SmithingTemplates("zanite",2)
+  SmithingTemplates("fiery",2)
+  SmithingTemplates("steel",3)
+  SmithingTemplates("phoenix",3)
+  SmithingTemplates("obsidian",3)
+  SmithingTemplates("arcane_gold",3)
+  SmithingTemplates("netherite_battlemage",4)
+  SmithingTemplates("arcane_fortress",4)
+  SmithingTemplates("skyseeker",4)
+  SmithingTemplates("depth",4)
+  SmithingTemplates("draco_arcanus",4)
+  SmithingTemplates("tyr",5)
+  SmithingTemplates("etherium",5)
+  SmithingTemplates("valkyrum",5)
+  
 
   ///===================================================KEYS===========================================================
 
@@ -508,6 +531,7 @@ StartupEvents.registry('item', item => {
 
   ///===================================================MISC===========================================================
 
+  item.create("elemental_cloth").tag("dq:tier3/component")
   item.create('natural_clay_blend').tag('dq:tier3/component')
   item.create('blast_brick').tag('dq:tier3/component')
   item.create('arcane_leather').tag('dq:tier0/component')
