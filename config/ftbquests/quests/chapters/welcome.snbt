@@ -7,7 +7,7 @@
 	id: "3E5E80A2E082BA7C"
 	images: [
 		{
-			click: "https://discord.gg/SRfTqrHc"
+			click: "https://discord.gg/mqVNhCU2pT"
 			height: 1.5d
 			hover: ["Join the official discord!"]
 			image: "kubejs:textures/questbook/welcomescreen/welcomescreen_discord.png"
@@ -29,7 +29,7 @@
 			y: 4.0d
 		}
 		{
-			click: "https://github.com/pafeuu/Druidic-Quest"
+			click: "https://github.com/pafeuu/Druidic-Quest-Main"
 			height: 1.5d
 			hover: ["BTW, the pack is open source"]
 			image: "kubejs:textures/questbook/welcomescreen/welcomescreen_github.png"
@@ -234,7 +234,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "You dont need a questbook, you can open quests by pressing X"
+			subtitle: "You dont need a questbook, you can open quests by pressing `"
 			tasks: [{
 				id: "2C2AF4370BB5F99A"
 				type: "checkmark"
