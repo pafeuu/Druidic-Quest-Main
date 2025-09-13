@@ -1,6 +1,7 @@
 MoreJSEvents.wandererTrades(event=>{
 
 	event.addTrade(1,"thermal:silver_coin","2x wizards_reborn:arcanum")
+	event.addTrade(1,"thermal:gold_coin","kubejs:wandering_magician_upgrade_smithing_template")
 	event.addTrade(1,"3x thermal:silver_coin","diamond")
 	event.addTrade(1,"3x thermal:silver_coin","lava_bucket")
 	event.addTrade(1,"2x thermal:silver_coin","milk_bucket")
@@ -152,16 +153,14 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("armorer", 2, [TradeItem.of("#forge:coal_coke", 2, 8)], "4x thermal:copper_coin");
 	event.addTrade("armorer", 2, [TradeItem.of("#forge:ingots/iron", 8, 12)], "4x thermal:copper_coin");
 	
-	//event.addTrade("armorer", 3, [TradeItem.of("thermal:copper_coin", 4, 12)], "decorative_blocks:chain");
-	event.addTrade("armorer", 3, [TradeItem.of("thermal:copper_coin", 8, 24)], "16x minecraft:chain");
-	event.addTrade("armorer", 3, [TradeItem.of("thermal:gold_coin", 2, 12)], 'irons_spellbooks:heavy_chain_necklace');
+	event.addTrade("armorer", 3, [TradeItem.of("thermal:gold_coin", 2, 4)], "kubejs:zanite_upgrade_smithing_template").villagerExperience(75);
+	event.addTrade("armorer", 3, [TradeItem.of("thermal:gold_coin", 2, 4)], "kubejs:skyjade_upgrade_smithing_template").villagerExperience(75);
 	
-	event.addTrade("armorer", 4, [TradeItem.of("thermal:netherite_coin", 4, 8)], Item.of('minecraft:chainmail_boots', "{Damage:0,Unbreakable:1,display:{Name:'{\"text\":\"Armorer\\'s Boots\"}'}}").enchant('minecraft:protection', 1));
-	event.addTrade("armorer", 4, [TradeItem.of("thermal:netherite_coin", 10, 20)], Item.of('minecraft:chainmail_helmet', "{Damage:0,Unbreakable:1,display:{Name:'{\"text\":\"Armorer\\'s Helmet\"}'}}").enchant('minecraft:protection', 1));
+	event.addTrade("armorer", 4, [TradeItem.of("thermal:gold_coin", 4, 8)], "kubejs:steel_upgrade_smithing_template").villagerExperience(125);
+	event.addTrade("armorer", 4, [TradeItem.of("thermal:gold_coin", 8, 16)], "kubejs:steel_upgrade_parts").villagerExperience(125);
 	
-	
-	event.addTrade("armorer", 5, [TradeItem.of("thermal:netherite_coin", 8, 16)], Item.of('minecraft:chainmail_chestplate', "{Damage:0,Unbreakable:1,display:{Name:'{\"text\":\"Armorer\\'s Chestplate\"}'}}").enchant('minecraft:protection', 1));
-	event.addTrade("armorer", 5, [TradeItem.of("thermal:netherite_coin", 7, 14)], Item.of('minecraft:chainmail_leggings', "{Damage:0,Unbreakable:1,display:{Name:'{\"text\":\"Armorer\\'s Leggings\"}'}}").enchant('minecraft:protection', 1));
+	event.addTrade("armorer", 5, [TradeItem.of("thermal:netherite_coin", 2, 4)], "kubejs:arcane_fortress_upgrade_smithing_template");
+	event.addTrade("armorer", 5, [TradeItem.of("thermal:netherite_coin", 2, 4)], "kubejs:depth_upgrade_smithing_template");
 
 
     ///===========================================================Cleric
@@ -212,38 +211,38 @@ MoreJSEvents.villagerTrades((event) => {
 
 	///============================================================Weaponsmith
 
-	event.addTrade("weaponsmith", 1, [TradeItem.of("thermal:steel_ingot", 4, 8)], "2x thermal:silver_coin");
-	event.addTrade("weaponsmith", 1, ["thermal:netherite_coin","ars_nouveau:fire_essence"], "tide:blazing_swordfish");
-	
-	/*event.addTrade("weaponsmith", 2, [TradeItem.of("#forge:gems/lapis", 4, 8)], "4x thermal:copper_coin");
-	event.addTrade("weaponsmith", 2, [TradeItem.of("minecraft:nether_wart", 8, 12)], "4x thermal:copper_coin");
-	
-	event.addTrade("weaponsmith", 3, [TradeItem.of("thermal:silver_coin", 8, 24)], "16x minecraft:glowstone");
-	event.addTrade("weaponsmith", 3, [TradeItem.of("thermal:silver_coin", 2, 12)], '32x minecraft:shroomlight');
-	
-	event.addTrade("weaponsmith", 4, [TradeItem.of("thermal:gold_coin", 8, 16)], Item.of('ars_nouveau:potion_flask', '{Damage:8,an_potion_flask:{PotionData:{Potion:"minecraft:strong_strength",includedPotions:["minecraft:strong_strength"]},count:8}}'));
-	event.addTrade("weaponsmith", 4, [TradeItem.of("thermal:gold_coin", 10, 20)], Item.of('ars_nouveau:potion_flask', '{Damage:8,an_potion_flask:{PotionData:{Potion:"minecraft:night_vision",includedPotions:["minecraft:strong_strength"]},count:8}}'));
-	
-	
-	event.addTrade("Weaponsmith", 5, [TradeItem.of("thermal:gold_coin", 3, 6)], 'enigmaticlegacy:mending_mixture');
-	event.addTrade("Weaponsmith", 5, [TradeItem.of("thermal:gold_coin", 1, 2)], 'enigmaticlegacy:cosmic_cake'); */
+	event.addTrade("weaponsmith", 1, [TradeItem.of("thermal:steel_ingot", 2, 4)], "2x thermal:silver_coin").villagerExperience(5);
+	event.addTrade("weaponsmith", 1, [TradeItem.of("quartz", 8, 16)], "2x thermal:copper_coin")
+
+	event.addTrade("weaponsmith", 2, ["thermal:gold_coin","iron_sword"], "kubejs:chill_blade").villagerExperience(30);
+	event.addTrade("weaponsmith", 2, ["6x thermal:gold_coin","iron_sword"], "kubejs:royal_guard_sword").villagerExperience(35);
+
+	event.addTrade("weaponsmith", 3, ["thermal:netherite_coin"], "irons_spellbooks:magehunter").villagerExperience(75);
+	event.addTrade("weaponsmith", 3, ["thermal:netherite_coin"], "irons_spellbooks:weapon_parts").villagerExperience(75);
+
+	event.addTrade("weaponsmith", 4, ["thermal:netherite_coin", "ars_nouveau:fire_essence"], "tide:blazing_swordfish").villagerExperience(125);
+	event.addTrade("weaponsmith", 4, ["thermal:netherite_coin"], "irons_spellbooks:keeper_flamberge").villagerExperience(125);
+
+	event.addTrade("weaponsmith", 5, ["thermal:netherite_coin"], "aether:pig_slayer")
 
 	///===================================================================Toolsmith
 
 	event.addTrade("toolsmith", 1, [TradeItem.of("kubejs:zinc_tool_handle", 1, 4)], "thermal:silver_coin");
-	
-	/*event.addTrade("weaponsmith", 2, [TradeItem.of("#forge:gems/lapis", 4, 8)], "4x thermal:copper_coin");
-	event.addTrade("weaponsmith", 2, [TradeItem.of("minecraft:nether_wart", 8, 12)], "4x thermal:copper_coin");
-	
-	event.addTrade("weaponsmith", 3, [TradeItem.of("thermal:silver_coin", 8, 24)], "16x minecraft:glowstone");
-	event.addTrade("weaponsmith", 3, [TradeItem.of("thermal:silver_coin", 2, 12)], '32x minecraft:shroomlight');
-	
-	event.addTrade("weaponsmith", 4, [TradeItem.of("thermal:gold_coin", 8, 16)], Item.of('ars_nouveau:potion_flask', '{Damage:8,an_potion_flask:{PotionData:{Potion:"minecraft:strong_strength",includedPotions:["minecraft:strong_strength"]},count:8}}'));
-	event.addTrade("weaponsmith", 4, [TradeItem.of("thermal:gold_coin", 10, 20)], Item.of('ars_nouveau:potion_flask', '{Damage:8,an_potion_flask:{PotionData:{Potion:"minecraft:night_vision",includedPotions:["minecraft:strong_strength"]},count:8}}'));
-	
-	
-	event.addTrade("Weaponsmith", 5, [TradeItem.of("thermal:gold_coin", 3, 6)], 'enigmaticlegacy:mending_mixture');
-	event.addTrade("Weaponsmith", 5, [TradeItem.of("thermal:gold_coin", 1, 2)], 'enigmaticlegacy:cosmic_cake'); */
+	event.addTrade("toolsmith", 1, "thermal:gold_coin", "alexsmobs:squid_grapple").villagerExperience(10);
+
+	event.addTrade("toolsmith", 2, "thermal:gold_coin", "create:blue_toolbox").villagerExperience(35);
+	event.addTrade("toolsmith", 2, "thermal:gold_coin", "kubejs:basic_mortar").villagerExperience(70);
+	event.addTrade("toolsmith", 2, "thermal:gold_coin", "kubejs:basic_chisel").villagerExperience(70);
+
+	event.addTrade("toolsmith", 3, "thermal:gold_coin", "kubejs:builders_belt").villagerExperience(75);
+	event.addTrade("toolsmith", 3, "6x thermal:gold_coin", "create:wand_of_symmetry").villagerExperience(75);
+
+	event.addTrade("toolsmith", 4, "5x thermal:gold_coin", "crafting_on_a_stick:crafting_table").villagerExperience(125);
+	event.addTrade("toolsmith", 4, "3x thermal:gold_coin", "crafting_on_a_stick:stonecutter").villagerExperience(125);
+
+	event.addTrade("toolsmith", 5, ["3x thermal:netherite_coin","vintageimprovements:netherite_rod"], "kubejs:reinforced_tool_handle").villagerExperience(75);
+	event.addTrade("toolsmith", 5, ["2x thermal:gold_coin"], "naturesaura:cave_finder").villagerExperience(75);
+
 
 	///==========================================================Fisherman
 
@@ -354,4 +353,12 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("ars_nouveau:shady_wizard",5,"8x thermal:gold_coin","ars_nouveau:music_disc_aria_biblio")
 	event.addTrade("ars_nouveau:shady_wizard",5,"8x thermal:gold_coin","ars_nouveau:music_disc_firel_the_wild_hunt")
 	event.addTrade("ars_nouveau:shady_wizard",5,"8x thermal:gold_coin","ars_nouveau:music_disc_thistle_the_sound_of_glass")
+
+	/*event.addTrade("biomeswevegone:forager")
+	event.addTrade("immersiveengineering:electrician")
+	event.addTrade("immersiveengineering:engineer")
+	event.addTrade("immersiveengineering:gunsmith")
+	event.addTrade("immersiveengineering:machinist")
+	event.addTrade("immersiveengineering:outfitter")*/
+	
 });
