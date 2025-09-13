@@ -250,9 +250,29 @@ ServerEvents.recipes((event)=>{
         "alexsmobs:banana",
         "#minecraft:leaves"],RegularAnimalAuraCost,60)
 
-    spawn("alexsmobs:platypus",
+    /*spawn("alexsmobs:platypus",
         ["naturesaura:birth_spirit",
         "clay",
-        "red_dye"],RegularAnimalAuraCost,60)
+        "red_dye"],RegularAnimalAuraCost,60)*/
+
+    spawn("minecraft:frog",
+        ["naturesaura:birth_spirit",
+        "slime_ball",
+        "mud"
+        ],RegularAnimalAuraCost,60)
+
+    spawn("minecraft:glow_squid",
+        ["naturesaura:birth_spirit",
+        "ink_sac",
+        "glowstone_dust"
+        ],RegularAnimalAuraCost,60)
+
+    spawn("minecraft:goat",
+        ["naturesaura:birth_spirit",
+        "white_wool",
+        "twigs:bronzed_seashell"
+        ],RegularAnimalAuraCost,60)
+
+
     
 })
