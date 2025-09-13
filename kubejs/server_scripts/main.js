@@ -737,6 +737,8 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Components =======================================================================
 	
+	event.shapeless("twilightforest:transformation_powder",["kubejs:basic_alchemical_dust","4x forbidden_arcanus:arcane_crystal_dust","bundle"])
+
 	event.shapeless("alexsmobs:lost_tentacle",["forbidden_arcanus:tentacle","forbidden_arcanus:soul"])
 	event.shaped("vintagedelight:evaporator",
 		[
