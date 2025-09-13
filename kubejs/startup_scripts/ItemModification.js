@@ -552,7 +552,28 @@ ItemEvents.modification(event => {
     });
   });
 
-  
+  ///======================================== Hammers & Excavators
+
+  const AoeTools = ["excavator","mining_hammer"]
+
+  AoeTools.forEach(id => {
+
+    event.modify("kubejs:primitive_"+id, item=>{
+      item.maxDamage = 2048
+      item.digSpeed = 1.5
+    })
+
+    event.modify("kubejs:basic_"+id, item=>{
+      item.maxDamage = 4096
+      item.digSpeed = 3
+    })
+
+    event.modify("kubejs:sturdy_"+id, item=>{
+      item.maxDamage = 8192
+      item.digSpeed = 5
+    })
+    
+  });
   ///======================================== Other
 
   event.modify("create:sand_paper", item=>{

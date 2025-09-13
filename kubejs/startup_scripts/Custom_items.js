@@ -1,5 +1,7 @@
 const $ShearsItem = Java.loadClass('net.minecraft.world.item.ShearsItem')
 const $ShieldItem = Java.loadClass('net.minecraft.world.item.ShieldItem')
+const $HammerItem = Java.loadClass('cofh.core.common.item.HammerItem')
+const $ExcavatorItem = Java.loadClass('cofh.core.common.item.ExcavatorItem')
 const $FlintAndSteelItem = Java.loadClass('net.minecraft.world.item.FlintAndSteelItem')
 const $ItemProperties = Java.loadClass('net.minecraft.world.item.Item$Properties')
 
@@ -454,15 +456,18 @@ StartupEvents.registry('item', item => {
   item.create('silver_hoe','hoe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
   item.create("silver_katana","sword").tier('silver').tag("minecraft:tools").tag("dq:tier1/weapon").tag("dq:tier1/tool").speedBaseline(-2.2).tag('forge:tools/silver')
 
-  item.create('primitive_mining_hammer','pickaxe').tier('primitive').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier1/tool")
+  item.createCustom('primitive_mining_hammer',() => new $HammerItem('stone', new $ItemProperties()))
+  item.createCustom('basic_mining_hammer',() => new $HammerItem('iron', new $ItemProperties()))
+  item.createCustom('sturdy_mining_hammer',() => new $HammerItem('diamond', new $ItemProperties()))
+  /*item.create('primitive_mining_hammer','pickaxe').tier('primitive').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier1/tool")
   item.create('basic_mining_hammer','pickaxe').tier('basic').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier2/tool")
   item.create('sturdy_mining_hammer','pickaxe').tier('sturdy').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier3/tool")
-  /*item.create('advanced_mining_hammer','pickaxe').tier('advanced').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier4/tool")
+  item.create('advanced_mining_hammer','pickaxe').tier('advanced').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier4/tool")
   item.create('ultimate_mining_hammer','pickaxe').tier('ultimate').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier5/tool")*/
 
-  item.create('primitive_excavator','shovel').tier('primitive').tag("minecraft:tools").tag('forge:tools/excavators').tag("dq:tier1/tool")
-  item.create('basic_excavator','shovel').tier('basic').tag("minecraft:tools").tag('forge:tools/excavators').tag("dq:tier2/tool")
-  item.create('sturdy_excavator','shovel').tier('sturdy').tag("minecraft:tools").tag('forge:tools/excavators').tag("dq:tier3/tool")
+  item.createCustom('primitive_excavator',() => new $ExcavatorItem('stone', new $ItemProperties()))
+  item.createCustom('basic_excavator',() => new $ExcavatorItem('iron', new $ItemProperties()))
+  item.createCustom('sturdy_excavator',() => new $ExcavatorItem('diamond', new $ItemProperties()))
   /*item.create('advanced_excavator','shovel').tier('advanced').tag("minecraft:tools").tag('forge:tools/excavators').tag("dq:tier4/tool")
   item.create('ultimate_excavator','shovel').tier('ultimate').tag("minecraft:tools").tag('forge:tools/excavators').tag("dq:tier5/tool")*/
 
@@ -470,10 +475,10 @@ StartupEvents.registry('item', item => {
   
   item.create('sacrificial_dagger','sword').tier('gold').tag("minecraft:tools").tag("dq:tier1/weapon").tag("dq:tier1/tool").speedBaseline(-2.0).attackDamageBaseline(1)
   
-  //item.createCustom('primitive_shears',() => new $ShearsItem(new $ItemProperties().defaultDurability(8)))
   item.create('primitive_shears',"shears").maxDamage(8).unstackable()
   item.create("steel_shears","shears").maxDamage(-1).unstackable().tag("forge:tools/steel")
   item.create("steel_knife","farmersdelight:knife").tag("minecraft:tools").tag("forge:tools/knives").tag("dq:tier1/tool").unstackable().tag("forge:tools/steel")
+
   item.createCustom('primitive_firestarter',() => new $FlintAndSteelItem(new $ItemProperties().defaultDurability(8)))
 
   item.createCustom('primitive_shield', () => new $ShieldItem(new $ItemProperties().defaultDurability(128)))
