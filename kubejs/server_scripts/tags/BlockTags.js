@@ -125,12 +125,25 @@ ServerEvents.tags('block', event => {
     event.add("forge:tall_grass",id)
   });
 
+  
   event.add("minecraft:needs_diamond_tool",[
+    "minecraft:spawner",
+    "quark:monster_box",
+    "minecraft:beacon"
+  ])
+
+  const Waystones = [
     "waystones:waystone",
     "waystones:sandy_waystone",
     "waystones:mossy_waystone",
-    "minecraft:spawner",
-    "quark:monster_box"
-  ])
+    "waystones:deepslate_waystone",
+    "waystones:end_stone_waystone",
+    "waystones:blackstone_waystone"]
+
+  event.add("ars_nouveau:break_blacklist",Waystones)
+
+  event.add("create:non_breakable",Waystones)
+
+  
 
 })
