@@ -14,6 +14,17 @@
       "value": 4,
       "operation": "ADDITION",
       "uuid": "dd947609-33cb-4928-9d6d-a1d0adaaae15"
+    },
+    {
+      "type": "remove",
+      "target": "minecraft:generic.armor"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 7.5,
+      "operation": "ADDITION",
+      "uuid": "38b04fd0-4f83-408b-9297-b236e70de0c3"
     }
   ],
   "equipment_slot": "CHEST"

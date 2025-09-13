@@ -49,4 +49,13 @@ ServerEvents.recipes(event=>{
         "kubejs:nature_essence"
     ],"kubejs:basic_magic_machine","kubejs:infusion_catalyst",5000)
 
+    apparatus([
+        "immersiveengineering:hemp_fabric",
+        "immersiveengineering:hemp_fabric",
+        "immersiveengineering:hemp_fabric",
+        "kubejs:arcane_leather",
+        "kubejs:arcane_leather",
+        "kubejs:arcane_leather",
+    ],"forbidden_arcanus:cloth","irons_spellbooks:magic_cloth",2500).id("irons_spellbooks:magic_cloth")
+
 })

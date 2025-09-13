@@ -21,6 +21,17 @@
       "value": 2.5,
       "operation": "ADDITION",
       "uuid": "b86f0c97-619a-4fae-a272-e18f73dc61ed"
+    },
+    {
+      "type": "remove",
+      "target": "minecraft:generic.armor"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 5.5,
+      "operation": "ADDITION",
+      "uuid": "00dfbf70-9799-4f81-93b5-507fabac23e6"
     }
   ],
   "equipment_slot": "LEGS"

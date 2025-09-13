@@ -1,46 +1,46 @@
-[09:29:12] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[09:29:12] [INIT] Loaded plugins:
-[09:29:12] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[09:29:12] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[09:29:12] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[09:29:12] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
-[09:29:12] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[09:29:12] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[09:29:12] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[09:29:12] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[09:29:12] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
-[09:29:12] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
-[09:29:12] [INIT] - com.falaut.KubeJSNaturesAuraPlugin
-[09:29:12] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
-[09:29:12] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[09:29:12] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
-[09:29:12] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[09:29:12] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[09:29:12] [INIT] - com.almostreliable.morejs.Plugin
-[09:29:12] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
-[09:29:12] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[09:29:12] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[09:29:12] [INIT] - com.probejs.ProbeJSPlugin
-[09:29:12] [INIT] - com.almostreliable.ponderjs.KubePlugin
-[09:29:12] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
-[09:29:18] [INFO] attributes.js#3: Loaded Java class 'net.minecraft.world.entity.ai.attributes.Attributes'
-[09:29:18] [INFO] attributes.js#4: Loaded Java class 'net.minecraft.world.entity.ai.attributes.AttributeModifier'
-[09:29:18] [INFO] attributes.js#5: Loaded Java class 'io.redspace.ironsspellbooks.api.registry.AttributeRegistry'
-[09:29:18] [INFO] Loaded script startup_scripts:attributes.js in 0.093 s
-[09:29:18] [INFO] Loaded script startup_scripts:BlockModification.js in 0.012 s
-[09:29:18] [INFO] Loaded script startup_scripts:creative_tab.js in 0.001 s
-[09:29:18] [INFO] Loaded script startup_scripts:Custom_blocks.js in 0.014 s
-[09:29:18] [INFO] Loaded script startup_scripts:Custom_fluids.js in 0.002 s
-[09:29:18] [INFO] Custom_items.js#1: Loaded Java class 'net.minecraft.world.item.ShearsItem'
-[09:29:18] [INFO] Custom_items.js#2: Loaded Java class 'net.minecraft.world.item.ShieldItem'
-[09:29:18] [INFO] Custom_items.js#3: Loaded Java class 'cofh.core.common.item.HammerItem'
-[09:29:18] [INFO] Custom_items.js#4: Loaded Java class 'cofh.core.common.item.ExcavatorItem'
-[09:29:18] [INFO] Custom_items.js#5: Loaded Java class 'net.minecraft.world.item.FlintAndSteelItem'
-[09:29:18] [INFO] Custom_items.js#6: Loaded Java class 'net.minecraft.world.item.Item$Properties'
-[09:29:18] [INFO] Loaded script startup_scripts:Custom_items.js in 0.075 s
-[09:29:18] [INFO] Loaded script startup_scripts:EntityModification.js in 0.0 s
-[09:29:18] [INFO] Loaded script startup_scripts:FoodModification.js in 0.002 s
-[09:29:18] [INFO] Loaded script startup_scripts:ItemModification.js in 0.004 s
-[09:29:18] [INFO] Loaded script startup_scripts:Name.js in 0.0 s
-[09:29:18] [INFO] Loaded script startup_scripts:TreePunching.js in 0.008 s
-[09:29:18] [INFO] Loaded 11/11 KubeJS startup scripts in 5.68 s with 0 errors and 0 warnings
+[19:20:55] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[19:20:55] [INIT] Loaded plugins:
+[19:20:55] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[19:20:55] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[19:20:55] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[19:20:55] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
+[19:20:55] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[19:20:55] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[19:20:55] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[19:20:55] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[19:20:55] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[19:20:55] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
+[19:20:55] [INIT] - com.falaut.KubeJSNaturesAuraPlugin
+[19:20:55] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[19:20:55] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[19:20:55] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
+[19:20:55] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[19:20:55] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[19:20:55] [INIT] - com.almostreliable.morejs.Plugin
+[19:20:55] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
+[19:20:55] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[19:20:55] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[19:20:55] [INIT] - com.probejs.ProbeJSPlugin
+[19:20:55] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[19:20:55] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[19:20:57] [INFO] attributes.js#3: Loaded Java class 'net.minecraft.world.entity.ai.attributes.Attributes'
+[19:20:57] [INFO] attributes.js#4: Loaded Java class 'net.minecraft.world.entity.ai.attributes.AttributeModifier'
+[19:20:57] [INFO] attributes.js#5: Loaded Java class 'io.redspace.ironsspellbooks.api.registry.AttributeRegistry'
+[19:20:57] [INFO] Loaded script startup_scripts:attributes.js in 0.066 s
+[19:20:57] [INFO] Loaded script startup_scripts:BlockModification.js in 0.006 s
+[19:20:57] [INFO] Loaded script startup_scripts:creative_tab.js in 0.001 s
+[19:20:57] [INFO] Loaded script startup_scripts:Custom_blocks.js in 0.008 s
+[19:20:57] [INFO] Loaded script startup_scripts:Custom_fluids.js in 0.001 s
+[19:20:57] [INFO] Custom_items.js#1: Loaded Java class 'net.minecraft.world.item.ShearsItem'
+[19:20:57] [INFO] Custom_items.js#2: Loaded Java class 'net.minecraft.world.item.ShieldItem'
+[19:20:57] [INFO] Custom_items.js#3: Loaded Java class 'cofh.core.common.item.HammerItem'
+[19:20:57] [INFO] Custom_items.js#4: Loaded Java class 'cofh.core.common.item.ExcavatorItem'
+[19:20:57] [INFO] Custom_items.js#5: Loaded Java class 'net.minecraft.world.item.FlintAndSteelItem'
+[19:20:57] [INFO] Custom_items.js#6: Loaded Java class 'net.minecraft.world.item.Item$Properties'
+[19:20:57] [INFO] Loaded script startup_scripts:Custom_items.js in 0.031 s
+[19:20:57] [INFO] Loaded script startup_scripts:EntityModification.js in 0.0 s
+[19:20:57] [INFO] Loaded script startup_scripts:FoodModification.js in 0.003 s
+[19:20:57] [INFO] Loaded script startup_scripts:ItemModification.js in 0.002 s
+[19:20:57] [INFO] Loaded script startup_scripts:Name.js in 0.0 s
+[19:20:57] [INFO] Loaded script startup_scripts:TreePunching.js in 0.006 s
+[19:20:57] [INFO] Loaded 11/11 KubeJS startup scripts in 1.978 s with 0 errors and 0 warnings

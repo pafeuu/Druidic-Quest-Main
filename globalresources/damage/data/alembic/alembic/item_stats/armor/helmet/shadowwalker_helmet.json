@@ -14,6 +14,17 @@
       "value": 2,
       "operation": "ADDITION",
       "uuid": "dd947609-33cb-4928-9d6d-a1d0adaaae15"
+    },
+    {
+      "type": "remove",
+      "target": "minecraft:generic.armor"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 2.5,
+      "operation": "ADDITION",
+      "uuid": "ed02c139-4091-4ac7-b768-146ed2060184"
     }
   ],
   "equipment_slot": "HEAD"

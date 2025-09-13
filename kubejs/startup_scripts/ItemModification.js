@@ -574,6 +574,44 @@ ItemEvents.modification(event => {
     })
     
   });
+
+  /*const IronsElementalArmors = [
+    "pyromancer",
+    "priest",
+    "electromancer",
+    "shadowwalker",
+    "plagued",
+    "cryomancer",
+    "cultist",
+    "archevoker"]*/
+
+    event.modify("irons_spellbooks:electromancer_helmet", item=>{
+        item.armorProtection = 2.5
+      })
+    
+    event.modify("irons_spellbooks:electromancer_chestplate", item=>{
+        item.armorProtection = 9
+      })
+    /*
+    IronsElementalArmors.forEach(id => {
+
+      event.modify("irons_spellbooks:"+id+"_helmet", item=>{
+        item.armorProtection = 2.5
+      })
+
+      event.modify("irons_spellbooks:"+id+"_chestplate", item=>{
+        item.armorProtection = 7.5
+      })
+
+      event.modify("irons_spellbooks:"+id+"_leggings", item=>{
+        item.armorProtection = 5.5
+      })
+
+      event.modify("irons_spellbooks:"+id+"_boots", item=>{
+        item.armorProtection = 2.5
+      })
+
+    });*/
   ///======================================== Other
 
   event.modify("create:sand_paper", item=>{
