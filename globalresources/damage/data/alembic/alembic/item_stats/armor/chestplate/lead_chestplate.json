@@ -7,6 +7,13 @@
       "value": -0.004,
       "operation": "ADDITION",
       "uuid": "c19b4273-0016-415b-a05c-6be15e1f58e1"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "5bf45711-9229-4c03-a266-1afaa3f14f5f"
     }
   ],
   "equipment_slot": "CHEST"

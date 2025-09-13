@@ -2782,9 +2782,15 @@ Patch 0.3.2.1
     -BrewinNChewin
     -SmidgeonOBliss
     -Cyanide
+    -Fyshi's Attributes
+    -Simple Magnets
+    -InGameNBTedit Reborn
 
 ### Removed Items:
     -Silent Boots Cover
+    -FluxoMagnet
+    -Holystone tools
+
 ### New Items:
     -Basic Recycler
     -Elemental Recycler
@@ -2840,6 +2846,9 @@ Patch 0.3.2.1
     -Replaced Blank Scroll trade with a mending book trade (Librarian)
     -Massively lowered the price of the stable warp scroll (Librarian)
     -Completely Reworked the Wandering Trader
+    -Reworked the Armorsmith trades
+    -Reworked the Weaponsmith trades
+    -Reworked the Toolsmith trades
 
 ### Quests:
     -Added Sorcerer Supreme Chapter(By Gyldanword)
@@ -2908,7 +2917,6 @@ Patch 0.3.2.1
     -Added for Lost Tentacle
     -Added for a lot of Alex's Mobs animals (More Soon)
     -Fiery ingots now craft 4 times faster in the kiln
-
     -Removed cutting board recipes for dyes from flowers 
     -Changed for Ritual Brazier
     -Added for Spawner
@@ -2916,6 +2924,9 @@ Patch 0.3.2.1
     -Changed for Redstone Randomizer
     -Added new recipes using TF Transformation Powder
     -Fixed Ancient Knight animal spawner recipe
+    -Added for Frog in Animal Spawner
+    -Added for Goat in Animal Spawner
+    -Addef for Glowsquid in Animal Spawner
     
 
 ### Mob Balance:
@@ -2937,8 +2948,12 @@ Patch 0.3.2.1
     -Changed the Heavy Chain
     -Every Armor should now have double of the base durability
     -All of the Twilight Forest items are no longer enchanted by default
+    -Slightly Buffed Lead Armor
+    -Slightly Buffed the Wandering Magician Armor
+    -Buffed the Electromancer Armor
+    -Buffed the Shadowwalker Armor
+    -Reworked Mining Hammers and Excavators
     -This Armor sets are now unbreakable:
-        -Warden
         -Valkyrum
         -Etherium
         -Tyr
@@ -2967,3 +2982,4 @@ Patch 0.3.2.1
     -Bosses and Mini Bosses can no longer be put in a containment jar
     -Bosses and Mini Bosses no longer work with drygmy
     -Bosses and Mini Bosses can no longer be caught with a quantum catcher
+    -Waystones cant be broken with create drills and ars break spell 

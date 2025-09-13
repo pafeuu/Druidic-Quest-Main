@@ -264,6 +264,17 @@
         "value": 100
       }
     },
+    "fyshisattribute:positive_effect_in_duration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 255,
+        "value": 255
+      }
+    },
     "alembic:arcane_damage.shielding": {
       "enabled": false,
       "min": {
@@ -339,6 +350,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "fyshisattribute:jump_height": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 255,
+        "value": 255
       }
     },
     "alembic:lightning_damage.resistance": {
@@ -451,6 +473,17 @@
         "value": 100
       }
     },
+    "fyshisattribute:lifesteal": {
+      "enabled": false,
+      "min": {
+        "default": -255,
+        "value": -255
+      },
+      "max": {
+        "default": 255,
+        "value": 255
+      }
+    },
     "alembic:arcane_damage.absorption": {
       "enabled": false,
       "min": {
@@ -561,6 +594,17 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
+    "fyshisattribute:regeneration_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0.001,
+        "value": 0.001
+      },
+      "max": {
+        "default": 255,
+        "value": 255
+      }
+    },
     "wizards_reborn:magic_armor": {
       "enabled": false,
       "min": {
@@ -581,6 +625,28 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "fyshisattribute:positive_effect_out_duration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 255,
+        "value": 255
+      }
+    },
+    "fyshisattribute:respiratory": {
+      "enabled": false,
+      "min": {
+        "default": 0.001,
+        "value": 0.001
+      },
+      "max": {
+        "default": 255,
+        "value": 255
       }
     },
     "wizards_reborn:arcane_damage": {
@@ -913,6 +979,17 @@
         "value": 2
       }
     },
+    "fyshisattribute:energy": {
+      "enabled": false,
+      "min": {
+        "default": 0.001,
+        "value": 0.001
+      },
+      "max": {
+        "default": 255,
+        "value": 255
+      }
+    },
     "ars_nouveau:ars_nouveau.perk.spell_damage": {
       "enabled": false,
       "min": {
@@ -1122,6 +1199,17 @@
         "value": 1000
       }
     },
+    "fyshisattribute:negative_effect_out_duration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 255,
+        "value": 255
+      }
+    },
     "druidic_quest:lightning_damage.resistance": {
       "enabled": false,
       "min": {
@@ -1153,6 +1241,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "fyshisattribute:hungersteal": {
+      "enabled": false,
+      "min": {
+        "default": -255,
+        "value": -255
+      },
+      "max": {
+        "default": 255,
+        "value": 255
       }
     },
     "druidic_quest:holy_damage.resistance": {
@@ -1210,6 +1309,17 @@
         "value": 100
       }
     },
+    "fyshisattribute:jump": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 255,
+        "value": 255
+      }
+    },
     "irons_spellbooks:eldritch_spell_power": {
       "enabled": false,
       "min": {
@@ -1252,6 +1362,17 @@
       "max": {
         "default": 2,
         "value": 2
+      }
+    },
+    "fyshisattribute:aircrouch": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 255,
+        "value": 255
       }
     },
     "alembic:ice_damage": {
@@ -1452,6 +1573,17 @@
         "value": 1024
       }
     },
+    "fyshisattribute:aircrouch_tick": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1200,
+        "value": 1200
+      }
+    },
     "forge:swim_speed": {
       "enabled": false,
       "min": {
@@ -1538,6 +1670,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "fyshisattribute:negative_effect_in_duration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 255,
+        "value": 255
       }
     },
     "puffish_attributes:stamina": {

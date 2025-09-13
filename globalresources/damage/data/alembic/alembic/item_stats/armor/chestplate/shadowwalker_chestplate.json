@@ -1,0 +1,20 @@
+{
+  "id": "irons_spellbooks:shadowwalker_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "b6ab1522-3fe6-4a1c-a6e4-3b32e97b9622"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "dd947609-33cb-4928-9d6d-a1d0adaaae15"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
     SmithingTemplate("kubejs:steel_upgrade_smithing_template","naturesaura:infused_iron","deepslate")
     SmithingTemplate("kubejs:skyseeker_upgrade_smithing_template","netherite_ingot","calcite")
     SmithingTemplate("kubejs:phoenix_upgrade_smithing_template","twilightforest:fiery_ingot","deep_aether:aseterite")
-    SmithingTemplate("deeperdarker:warden_upgrade_smithing_template","forbidden_arcanus:deorum_ingot","sculk")
+    
     SmithingTemplate("deep_aether:stormforged_smithing_template","kubejs:phoenix_ingot","deep_aether:nimbus_stone")
     SmithingTemplate("kubejs:engineer_upgrade_smithing_template","leather","andesite")
     SmithingTemplate("kubejs:fiery_upgrade_smithing_template","iron_ingot","granite")

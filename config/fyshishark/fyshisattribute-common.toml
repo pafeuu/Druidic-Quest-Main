@@ -1,0 +1,60 @@
+
+["Config for Fyshis Attribute"]
+	#If you're planning to change the attribute for existing world, delete/access the file in saves/<YOUR WORLD>/serverconfig/fyshisattribute-server.toml
+	#1. Leave the world first
+	#2. Access/Delete the fyshisattribute-server.toml
+	#3. Join and respawn to apply the new default value of attribute.
+	#That's how attribute works, it goes back to its default value after respawn.
+	#
+	#Default Value for "fyshisattribute:aircrouch" (Default: 0)
+	#Range: 0 ~ 255
+	"Aircrouch Default" = 0
+	#
+	#Default Value for "fyshisattribute:aircrouch_tick" (Default: 30)
+	#Range: 0 ~ 1200
+	"Aircrouch Tick Default" = 30
+	#
+	#Default Value for "fyshisattribute:energy" (Default: 1.00)
+	#Range: 0.001 ~ 255.0
+	"Energy Default" = 1.0
+	#
+	#Default Value for "fyshisattribute:hungersteal" (Default: 0.00)
+	#Range: -255.0 ~ 255.0
+	"Hungersteal Default" = 0.0
+	#
+	#Default Value for "fyshisattribute:jump" (Default: 1)
+	#Range: 0 ~ 255
+	"Jump Default" = 1
+	#
+	#Default Value for "fyshisattribute:jump_height" (Default: 1.00)
+	#Range: 0.0 ~ 255.0
+	"Jump Height Default" = 1.0
+	#
+	#Default Value for "fyshisattribute:lifesteal" (Default: 0.00)
+	#Range: -255.0 ~ 255.0
+	"Lifesteal Default" = 0.0
+	#
+	#Default Value for "fyshisattribute:negative_effect_in_duration" (Default: 1.00)
+	#Range: 0.0 ~ 255.0
+	"Incoming Negative Duration Default" = 1.0
+	#
+	#Default Value for "fyshisattribute:negative_effect_out_duration" (Default: 1.00)
+	#Range: 0.0 ~ 255.0
+	"Passing Negative Duration Default" = 1.0
+	#
+	#Default Value for "fyshisattribute:positive_effect_in_duration" (Default: 1.00)
+	#Range: 0.0 ~ 255.0
+	"Incoming Positive Duration Default" = 1.0
+	#
+	#Default Value for "fyshisattribute:positive_effect_out_duration" (Default: 1.00)
+	#Range: 0.0 ~ 255.0
+	"Passing Positive Duration Default" = 1.0
+	#
+	#Default Value for "fyshisattribute:regeneration_speed" (Default: 1.00)
+	#Range: 0.001 ~ 255.0
+	"Regeneration Speed Default" = 1.0
+	#
+	#Default Value for "fyshisattribute:respiratory" (Default: 1.00)
+	#Range: 0.001 ~ 255.0
+	"Respiratory Default" = 1.0
+

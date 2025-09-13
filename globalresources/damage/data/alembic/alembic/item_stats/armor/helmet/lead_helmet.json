@@ -7,6 +7,13 @@
       "value": -0.002,
       "operation": "ADDITION",
       "uuid": "70de7171-4d0b-471e-82ef-e01d832e89ea"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "5bf25311-9469-4c03-a266-1afaa3f14f5f"
     }
   ],
   "equipment_slot": "HEAD"
