@@ -17,7 +17,8 @@ ServerEvents.tags('item', event => {
   
   
 
-
+  
+  
   event.add("minecraft:smooth_stone","smooth_stone")
 
   event.remove("forge:rods/wooden","naturesaura:ancient_stick")

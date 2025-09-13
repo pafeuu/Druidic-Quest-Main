@@ -1418,35 +1418,6 @@ ServerEvents.recipes(event => {
 	  }
 	)
 
-	event.shaped("aether_redux:ring_of_wisdom",
-		[
-		  'AIA',
-		  'IXI', 
-		  'AIA' 
-		],
-		{
-		  A: 'forbidden_arcanus:xpetrified_orb',
-		  I: '#forge:ingots/silver',
-		  X: 'aether_redux:enchanted_ring'
-  
-		}
-	  ).id("aether_redux:ring_of_wisdom")
-	
-	event.shaped("aether_redux:shroom_ring",
-		[
-		  'AYA',
-		  'IXI', 
-		  'AIA' 
-		],
-		{
-		  A: 'naturesaura:aura_shroom',
-		  Y: '#forge:gems/sapphire',
-		  I: 'quark:glow_shroom',
-		  X: 'aether_redux:enchanted_ring'
-  
-		}
-	  ).id("aether_redux:shroom_ring")
-
 	event.shaped("aether:iron_gloves",
 		[
 		  'III',
