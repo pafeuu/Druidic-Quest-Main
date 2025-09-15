@@ -296,7 +296,8 @@ global.nukelist = ["twigs:calcite_wall",
 	'aether:holystone_shovel',
 	'aether:holystone_pickaxe',
 	'aether:holystone_axe',
-	'aether:holystone_hoe'
+	'aether:holystone_hoe',
+	"irons_spellbooks:dragonskin"
 	/*'create:factory_gauge',
 	'create:redstone_requester',
 	'create:stock_link',
@@ -402,6 +403,7 @@ ServerEvents.recipes(event => {
 		event.remove({id:id})
 	});
 
+	event.replaceInput({id:"irons_spellbooks:dragonskin_spell_book"},"irons_spellbooks:dragonskin","forbidden_arcanus:dragon_scale")
 	event.remove({output:[global.nukelist]})
 	event.remove({input:[global.nukelist]})
   
