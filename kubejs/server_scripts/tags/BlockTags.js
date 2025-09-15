@@ -144,6 +144,8 @@ ServerEvents.tags('block', event => {
 
   event.add("create:non_breakable",Waystones)
 
+  event.add("dq:tiab_blacklist",["naturesaura:blast_furnace_booster"])
+
   
 
 })
