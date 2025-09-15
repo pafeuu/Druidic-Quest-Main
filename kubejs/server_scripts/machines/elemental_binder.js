@@ -123,7 +123,8 @@ ServerEvents.recipes(event=>{
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
-        "kubejs:elemental_core"
+        "kubejs:elemental_core",
+        "cloth_water"
     )
     binding("kubejs:elemental_cloth","fire",1000,
         "irons_spellbooks:magic_cloth",
@@ -133,7 +134,8 @@ ServerEvents.recipes(event=>{
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
-        "kubejs:elemental_core"
+        "kubejs:elemental_core",
+        "cloth_fire"
     )
     binding("kubejs:elemental_cloth","earth",1000,
         "irons_spellbooks:magic_cloth",
@@ -143,7 +145,8 @@ ServerEvents.recipes(event=>{
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
-        "kubejs:elemental_core"
+        "kubejs:elemental_core",
+        "cloth_earth"
     )
     binding("kubejs:elemental_cloth","air",1000,
         "irons_spellbooks:magic_cloth",
@@ -153,7 +156,8 @@ ServerEvents.recipes(event=>{
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
-        "kubejs:elemental_core"
+        "kubejs:elemental_core",
+        "cloth_air"
     )
 
 })
