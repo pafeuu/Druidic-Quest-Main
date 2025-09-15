@@ -113,6 +113,7 @@
 		}
 		{
 			dependencies: ["6CDE2D6E743FAAA5"]
+			description: [""]
 			id: "118CF02B3B3C899C"
 			rewards: [{
 				count: 16
@@ -121,7 +122,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "You'll want to automate that for sure."
+			subtitle: "You'll want to automate that, for sure."
 			tasks: [{
 				count: 8L
 				id: "56053AA077C386CB"
@@ -337,7 +338,13 @@
 		}
 		{
 			dependencies: ["1767BADCC1133711"]
-			description: ["Right click in the air between y=190 and y=320 to trap a cloud in a bottle."]
+			description: [
+				"Right click in the air between y=190 and y=320 to trap a cloud in a bottle."
+				""
+				"This isn't the only time you are gonna have to craft stuff at high altitudes so you should probably build some infrastructure around it."
+				""
+				"Below you are going to find a quest that sells you materials to make your very own makeshift cloud elevator!"
+			]
 			id: "677C282E80275B53"
 			rewards: [{
 				id: "13551B0D7B525961"
@@ -376,7 +383,7 @@
 		}
 		{
 			dependencies: ["118CF02B3B3C899C"]
-			description: ["Now that you can craft redstone torches, a lot of cool stuff opens up."]
+			description: ["Now that you can craft redstone torches, a lot of cool stuff opens up!"]
 			id: "42453AA97CCD3970"
 			rewards: [{
 				count: 4
@@ -513,7 +520,7 @@
 		}
 		{
 			dependencies: ["44B9FE4B80D14F6F"]
-			description: ["Right clicking with &5&lDowsing Rod&r&r will highlight &5&lAmethyst&r&r related blocks near you"]
+			description: ["Right clicking with a &5&lDowsing Rod&r&r will highlight &5&lAmethyst&r&r-related blocks near you."]
 			icon: "minecraft:amethyst_cluster"
 			id: "37E717454A7E8792"
 			rewards: [
@@ -707,7 +714,7 @@
 			description: [
 				"Bigger chests or barrels!"
 				""
-				"Be sure to check what other upgrades are available from &cSophisticated Storage&r. They'll come in handy for more storage options and automation along the way!"
+				"Be sure to check for other upgrades available from &cSophisticated Storage!&r They'll come in handy along the way for more storage and automation options."
 			]
 			id: "73415F6632A61CB3"
 			rewards: [{
@@ -782,7 +789,7 @@
 		{
 			dependencies: ["2C7DD9A9CEA857D0"]
 			description: [
-				"Needs a multiblock structure to function."
+				"Requires a multiblock structure to function."
 				""
 				"Check out the &eBook of Natural Aura&r for more info."
 			]
@@ -879,6 +886,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			subtitle: "Snip, Snip!"
 			tasks: [{
 				id: "5B385E0139886FDA"
 				item: {
@@ -902,6 +910,7 @@
 			]
 			icon: "kubejs:nature_essence"
 			id: "1EC8670D9091464A"
+			optional: true
 			rewards: [{
 				id: "1DEE23CA34415DA7"
 				item: {
@@ -929,7 +938,11 @@
 		}
 		{
 			dependencies: ["42453AA97CCD3970"]
-			description: ["Redstone dust in block form! Can move power up and down. Does not need a block to support it."]
+			description: [
+				"Redstone dust in block form!"
+				""
+				"Can move power up and down. Does not need a block to support it."
+			]
 			id: "7BE52BCC5EB42805"
 			rewards: [{
 				count: 8
@@ -1078,7 +1091,7 @@
 				"6CDE2D6E743FAAA5"
 				"0E40C9B32E05AC51"
 			]
-			description: ["The &5&lDimension Ripper&r&r activates the Twilight Forest portal like the diamond usually would."]
+			description: ["The &5&lDimension Ripper&r&r activates the Twilight Forest portal like a diamond usually would."]
 			hide_until_deps_visible: false
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "30B689B22757873D"
@@ -1357,7 +1370,7 @@
 		{
 			dependencies: ["44B9FE4B80D14F6F"]
 			description: [
-				"Grind a bit of &6gold dust&r. Grind a lot, if you have the energy to crank a few millstones at once!"
+				"Grind a bit of &6gold dust.&r Grind a lot, if you have the energy to crank a few millstones at once!"
 				""
 				"&o&7Note that watermills no longer generate stress units, though they will still power blocks like belts and weighted ejectors.&r&r"
 			]
@@ -1375,6 +1388,41 @@
 			}]
 			x: 21.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["677C282E80275B53"]
+			description: [
+				"&b&lBlue Aercloud&r&r will launch the player that walk into them high in the air!"
+				""
+				"While &lCold Aercloud&r are great to catch your fall from a high distance"
+			]
+			icon: "aether:blue_aercloud"
+			id: "6534B009CA155499"
+			optional: true
+			rewards: [
+				{
+					count: 12
+					id: "3BCBDAC89018EBBE"
+					item: "aether:blue_aercloud"
+					type: "item"
+				}
+				{
+					id: "0D5DE8238B892169"
+					item: "aether:cold_aercloud"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "31C211C5C640AC61"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			title: "Materials for cloud \"elevator\""
+			x: 7.0d
+			y: 7.0d
 		}
 	]
 	title: "Tier 1 - Basic Magic"

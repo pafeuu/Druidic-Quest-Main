@@ -13,7 +13,7 @@
 		{
 			dependencies: ["769C5B75D85F81FC"]
 			description: [
-				"Your first ingots of &5Arcane Alloy&r must be made with the inefficient tree ritual recipe."
+				"Your first ingots of &5Source Alloy&r must be made with the inefficient tree ritual recipe."
 				""
 				"At the end of the chapter, you will unlock a much better method."
 			]
@@ -572,7 +572,7 @@
 		}
 		{
 			dependencies: ["23D3902848A335F6"]
-			description: ["You'll need the power of the &ainfusion catalyst&r in the natural altar to infuse mundane materials with magical properties!"]
+			description: ["You'll need the power of the &aInfusion Catalyst&r in the Natural Altar to infuse mundane materials with magical properties!"]
 			id: "400EBA15A5B82A93"
 			rewards: [{
 				count: 2
@@ -893,7 +893,7 @@
 		}
 		{
 			dependencies: ["7EBD23E275E837F2"]
-			description: ["Automatically feeds the animals around it when supplied with their prefered food. Not as efficient as feeding them yourself!"]
+			description: ["Automatically feeds the animals around it when supplied with their preferred food. Not as efficient as feeding them yourself!"]
 			id: "6F5F12972F0E25D2"
 			rewards: [{
 				count: 2
@@ -1325,7 +1325,7 @@
 		}
 		{
 			dependencies: ["67D119691018BD6C"]
-			description: ["The &2Aura Generator BLock&r is a necessary component of higher-teir Aura generation."]
+			description: ["The &2Aura Generator BLock&r is a necessary component of higher-tier Aura generation."]
 			id: "189E5234B18E0B30"
 			rewards: [{
 				count: 2

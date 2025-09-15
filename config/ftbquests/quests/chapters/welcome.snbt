@@ -53,13 +53,13 @@
 	quests: [
 		{
 			description: [
-				"Welcome to &2Druidic Quest!&r"
+				"✨ Welcome to &2Druidic Quest!&r ✨"
 				""
 				"This modpack is focused on adventure and automation through magic, as well as balancing most other aspects of the game!"
 				""
 				"Many recipes are changed and will require you to set up automation for certain materials by using different mechanics from different mods."
 				""
-				"&eQuests&r will help guide you through progression so &emake sure to read them&r."
+				"&eQuests&r will help guide you through progression so &emake sure to read them.&r"
 			]
 			icon: "minecraft:grass_block"
 			id: "23878BB2C97470D0"

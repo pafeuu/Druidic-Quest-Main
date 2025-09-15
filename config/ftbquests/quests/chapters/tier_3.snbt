@@ -515,7 +515,7 @@
 		}
 		{
 			dependencies: ["720EAE83846D3178"]
-			description: ["The &6Arcane Iterator&r takes wissen, health, experience, as well as items from nearby pedestals to create &5Enchantment Runes&r or to enchant &6Arcane Tools&r."]
+			description: ["Using items from nearby pedestals, the &6Arcane Iterator&r takes wissen, health, and experience to create &5Enchantment Runes&r or to enchant &6Arcane Tools.&r"]
 			id: "4ECC6F65A0C69B47"
 			rewards: [{
 				count: 4

@@ -104,7 +104,7 @@
 		}
 		{
 			dependencies: ["69B93BA4460E5F95"]
-			description: ["&8Flint tools&r are a faster alternative to stone tools. In exchange, they have -0.5 block reach and can't mine most of the ores."]
+			description: ["&8Flint tools&r are a faster alternative to stone tools. However, they cannot mine most ores and have -0.5 block reach compared to stone."]
 			icon: "minecraft:flint"
 			id: "2BB4A388858E481A"
 			rewards: [{
@@ -518,11 +518,11 @@
 				""
 				"-wheat to finish &3&ltier 0&r&r  "
 				""
-				"-potatoes  for machines in&9 &ltier 1&r"
+				"-potatoes for machines in&9 &ltier 1&r"
 				""
 				"-beetroot to craft &5&lcapsids&r&r which can transport items up, as well as insert items into containers"
 				""
-				"Hoes can harvest in the 3x3 or 5x5 depending on the quality of the hoe."
+				"Hoes can harvest in a 3x3 or 5x5 depending on the quality of the hoe."
 			]
 			icon: {
 				Count: 1
@@ -650,7 +650,7 @@
 			description: [
 				"You can now tinker even more with food!"
 				""
-				"&8&oCan be automated with a hopper and dispenser in the next chapter&r&r"
+				"&8&oCan be automated with a hopper and dispenser in the next chapter.&r&r"
 			]
 			id: "0FC4FA79D5AB30AE"
 			rewards: [{
@@ -735,13 +735,11 @@
 		{
 			dependencies: ["0E5A981A32056DDC"]
 			description: [
-				"Straw now also drops from modded grass variants when you break it with a knife."
+				"Now, modded grass variants will drop straw like vanilla grass when broken with a knife!"
 				""
 				"Harvesting crops like wheat and flax with the knife will drop straw every time."
 				""
-				"Knives also allow you to get more drops from animals."
-				""
-				"Looting increases the drop rates."
+				"Animals give more drops when killed with a knife. This is affected by Looting."
 			]
 			icon: {
 				Count: 1
@@ -888,9 +886,10 @@
 		{
 			dependencies: ["474D50C2F74737EE"]
 			description: [
-				"Right click a stripped log with a &egold leaf&r in one hand and a &8knife&r in the other to turn it into a wooden stand."
+				"Right click a stripped log with a &egold leaf&r in one hand and a &2knife&r in the other to turn it into a wooden stand."
 				""
 				"Items used in the ritual do not need to be placed in exact order."
+				""
 				"The tree in the middle must grow in order to obtain the result from the recipe."
 				""
 				"&aYou will need to place a sapling and new gold powder after every recipe, so make sure to mark the position of each.&r"
@@ -941,7 +940,7 @@
 			description: [
 				"Jewelry is a big part of the modpack. Putting together a good set of curios might be necessary to survive in this cruel world."
 				""
-				"Look at items from the Enigmatic Legacy mod and others to see what else you could craft to make yourself stronger!"
+				"Look at items from the Enigmatic Legacy mod and many others to see what else you could craft to make yourself stronger!"
 			]
 			icon: "enigmaticlegacy:iron_ring"
 			id: "3EDF5559C9E29ED4"
@@ -1047,7 +1046,7 @@
 			description: [
 				"Squid might drop ink sacs more often if killed with a knife."
 				""
-				"This might be a good time to equip &l&4the Cursed Ring&r&r if you're brave enough..."
+				"&8This might be a good time to equip &r&l&4the Cursed Ring&r&r&8 if you're brave enough...&r"
 			]
 			hide_details_until_startable: false
 			hide_until_deps_visible: false
@@ -1117,11 +1116,11 @@
 				""
 				"It will take coal and transform it into coal coke and creosote oil, both necessary for further progression."
 				""
-				"&2Congratulations on finishing your first chapter!&r"
+				"&2✨ Congratulations on finishing your first chapter!&r"
 				""
-				"&9If you are enjoying the pack so far, be sure to visit our discord to share your thoughts about it."
-				"&r"
-				"&dYour feedback and bug reports are crucial to the pack development!&r"
+				"&9✨ If you are enjoying the pack so far, be sure to visit our Discord to share your thoughts about it.&r"
+				""
+				"&d✨ Your feedback and bug reports are crucial to the pack development!&r"
 			]
 			hide_details_until_startable: false
 			hide_until_deps_visible: false
@@ -1503,7 +1502,7 @@
 		{
 			dependencies: ["3D782DAACBB5DE87"]
 			description: [
-				"You now have access to nicer light sources."
+				"You now have access to nicer light sources!"
 				""
 				"Can be dyed any color."
 				""
@@ -1599,7 +1598,7 @@
 			description: [
 				"Growing &dancient saplings&r can help you maintain a healthy amount of aura in an area. This will prove useful later when aura-usage increases. Wood from this tree is also required for some recipes."
 				""
-				"Read more about aura and ancient saplings in the &6Book of Natural Aura&r."
+				"Read more about aura and ancient saplings in the &6Book of Natural Aura.&r"
 				""
 				"&o&7Remember, you can find saplings needed for rituals in the Market!&r&r"
 			]
@@ -1636,6 +1635,35 @@
 			}]
 			x: 8.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["6814EBB8BDED9EEE"]
+			id: "5F3492DDB5A1328A"
+			optional: true
+			rewards: [
+				{
+					command: "/summon minecraft:horse ~ ~ ~ {Variant:13}"
+					icon: "minecraft:leather_horse_armor"
+					id: "34C6B37A47E1EAF9"
+					type: "command"
+				}
+				{
+					id: "19E21D8E3E59D4AA"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1C426217ACEBE2E5"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "Get a horse for cheap!"
+			x: -2.5d
+			y: -4.0d
 		}
 	]
 	title: "Tier 0 - Wooden Age"

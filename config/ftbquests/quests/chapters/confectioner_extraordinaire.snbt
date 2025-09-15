@@ -108,8 +108,8 @@
 				item: "aether:blue_gummy_swet"
 				type: "item"
 			}]
-			x: -4.4d
-			y: -3.9999999999999987d
+			x: -4.0d
+			y: -3.999999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -125,25 +125,8 @@
 				item: "aether:golden_gummy_swet"
 				type: "item"
 			}]
-			x: -3.600000000000001d
-			y: -3.9999999999999996d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "40C0024898ECC706"
-			rewards: [{
-				id: "351D1CEF6F9A5C30"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "56EF04A44F0B6DD2"
-				item: "aether_redux:vanilla_gummy_swet"
-				type: "item"
-			}]
-			x: -2.8000000000000003d
-			y: -3.9999999999999996d
+			x: -3.2000000000000006d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -160,7 +143,7 @@
 				item: "ancient_aether:festive_gummy_swet"
 				type: "item"
 			}]
-			x: -1.9999999999999996d
+			x: -2.3999999999999995d
 			y: -3.9999999999999996d
 		}
 		{
@@ -178,7 +161,7 @@
 				item: "aether:candy_cane"
 				type: "item"
 			}]
-			x: -0.39999999999999947d
+			x: -0.7999999999999994d
 			y: -3.9999999999999996d
 		}
 		{
@@ -196,7 +179,7 @@
 				item: "aether:gingerbread_man"
 				type: "item"
 			}]
-			x: -1.2000000000000006d
+			x: -1.6000000000000005d
 			y: -3.9999999999999987d
 		}
 		{
@@ -740,8 +723,8 @@
 				item: "biomeswevegone:green_apple_pie"
 				type: "item"
 			}]
-			x: 2.4d
-			y: -3.1999999999999993d
+			x: 3.2d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -757,8 +740,8 @@
 				item: "biomeswevegone:blueberry_pie"
 				type: "item"
 			}]
-			x: 3.1999999999999997d
-			y: -3.1999999999999993d
+			x: 4.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -779,40 +762,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "0ADA41FFB4EED8C2"
-			rewards: [{
-				id: "266315678B73A5BB"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "763A92DEB3DB2C37"
-				item: "aether_redux:blueberry_pie"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -3.1999999999999993d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "5F368A357BCA303C"
-			rewards: [{
-				id: "07087C275ECE189C"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "5386FB1590AA653D"
-				item: "aether_redux:enchanted_blueberry_pie"
-				type: "item"
-			}]
-			x: 4.800000000000001d
-			y: -3.1999999999999993d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "54EE81F8CD61E58A"
 			rewards: [{
 				id: "68650CD7AC521044"
@@ -825,8 +774,8 @@
 				item: "farmersdelight:apple_pie"
 				type: "item"
 			}]
-			x: 5.6d
-			y: -3.1999999999999993d
+			x: 4.8d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -842,8 +791,8 @@
 				item: "farmersdelight:chocolate_pie"
 				type: "item"
 			}]
-			x: 6.400000000000002d
-			y: -3.1999999999999993d
+			x: 5.600000000000002d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -859,8 +808,8 @@
 				item: "farmersdelight:sweet_berry_cheesecake"
 				type: "item"
 			}]
-			x: 7.199999999999999d
-			y: -3.1999999999999993d
+			x: 6.3999999999999995d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -912,57 +861,6 @@
 			}]
 			x: 4.0d
 			y: -1.6d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "3CF7B8638F6401D9"
-			rewards: [{
-				id: "67EE265CDE97C335"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "3295C0E63AC61E10"
-				item: "aether_redux:blue_swet_jelly"
-				type: "item"
-			}]
-			x: -3.2000000000000006d
-			y: -3.1999999999999993d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "385060F405CEA01A"
-			rewards: [{
-				id: "6051D9029FFB4BBF"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "1A271A04C26B55DD"
-				item: "aether_redux:golden_swet_jelly"
-				type: "item"
-			}]
-			x: -2.4d
-			y: -3.1999999999999993d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "2EF64AAA2DB0FB2B"
-			rewards: [{
-				id: "61B271683400EE3F"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "5D86E38AB6CF3170"
-				item: "aether_redux:vanilla_swet_jelly"
-				type: "item"
-			}]
-			x: -1.600000000000001d
-			y: -3.1999999999999993d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]

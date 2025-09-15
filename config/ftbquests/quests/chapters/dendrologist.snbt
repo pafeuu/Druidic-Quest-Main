@@ -379,8 +379,8 @@
 				item: "quark:blue_blossom_sapling"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.0d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -936,222 +936,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "27A976D18FA4EE3C"
-			rewards: [
-				{
-					count: 6
-					id: "66D808610667B06F"
-					item: "thermal:copper_coin"
-					type: "item"
-				}
-				{
-					id: "6A02B1810954B902"
-					item: "deep_aether:aether_coarse_dirt"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7D07A5BC0F548F5D"
-				item: "aether_redux:blightwillow_sapling"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "088F05D548BB730F"
-			rewards: [
-				{
-					count: 6
-					id: "429A03B6B5D0F8CD"
-					item: "thermal:copper_coin"
-					type: "item"
-				}
-				{
-					id: "42EE95B0EA1BD84A"
-					item: "deep_aether:aether_coarse_dirt"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0D2770FF54C48E2C"
-				item: "aether_redux:blighted_skyroot_sapling"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "1C3EC1DC0B1081E7"
-			rewards: [
-				{
-					count: 6
-					id: "669F04506CCDC978"
-					item: "thermal:copper_coin"
-					type: "item"
-				}
-				{
-					id: "65DAC4540BBF986B"
-					item: "deep_aether:aether_coarse_dirt"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2941D9B45E850CD6"
-				item: "aether_redux:glacia_sapling"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "5D252268B88102B4"
-			rewards: [
-				{
-					count: 6
-					id: "7C80CA0E9BFC9226"
-					item: "thermal:copper_coin"
-					type: "item"
-				}
-				{
-					id: "7F9D22BBB6EE795C"
-					item: "deep_aether:aether_coarse_dirt"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "75122F79BEF375A7"
-				item: "aether_redux:purple_glacia_sapling"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "64BF02DF2590C970"
-			rewards: [
-				{
-					count: 6
-					id: "6A89F2E6085C56B0"
-					item: "thermal:copper_coin"
-					type: "item"
-				}
-				{
-					id: "11894724D0232081"
-					item: "deep_aether:aether_coarse_dirt"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "360398C518C67D61"
-				item: "aether_redux:gilded_oak_sapling"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "74846E6E30871DC6"
-			rewards: [
-				{
-					count: 6
-					id: "15CA27BD72B953AA"
-					item: "thermal:copper_coin"
-					type: "item"
-				}
-				{
-					id: "5E82E8BB677CB522"
-					item: "deep_aether:aether_coarse_dirt"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "47E52763D16F39C6"
-				item: "aether_redux:crystal_sapling"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "500CDC1005F31DC4"
-			rewards: [
-				{
-					count: 6
-					id: "60DB2835CF050212"
-					item: "thermal:copper_coin"
-					type: "item"
-				}
-				{
-					id: "72F9E9F9C7884401"
-					item: "deep_aether:aether_coarse_dirt"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2A341177D0EA9AB3"
-				item: "aether_redux:crystal_fruit_sapling"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "02F28C4039964122"
-			rewards: [
-				{
-					count: 6
-					id: "49EC4E5C12220D6D"
-					item: "thermal:copper_coin"
-					type: "item"
-				}
-				{
-					id: "0519BD7E03928EBD"
-					item: "deep_aether:aether_coarse_dirt"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "206FECBB84661928"
-				item: "aether_redux:fieldsproot_sapling"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "03358588B84AD788"
-			rewards: [
-				{
-					count: 6
-					id: "5A924C5A2ECC22D9"
-					item: "thermal:copper_coin"
-					type: "item"
-				}
-				{
-					id: "39F3FC830DDE526F"
-					item: "deep_aether:aether_coarse_dirt"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "59D0400E7E373278"
-				item: "ancient_aether:skyroot_pine_sapling"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "6946B9A6F6488485"
 			rewards: [
 				{
@@ -1171,8 +955,8 @@
 				item: "ancient_aether:skyroot_pine_sapling"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.5d
+			x: 7.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1195,8 +979,8 @@
 				item: "ancient_aether:highsproot_sapling"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 8.5d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1219,8 +1003,8 @@
 				item: "ancient_aether:sakura_sapling"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 8.5d
+			x: 7.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1243,8 +1027,8 @@
 				item: "ancient_aether:sakura_sapling"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 8.5d
+			x: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1315,8 +1099,8 @@
 				item: "deep_aether:cruderoot_sapling"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 8.5d
+			x: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1339,8 +1123,8 @@
 				item: "deep_aether:yagroot_sapling"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 8.5d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1363,8 +1147,8 @@
 				item: "deep_aether:sunroot_sapling"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 8.5d
+			x: 7.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1387,8 +1171,8 @@
 				item: "deep_aether:conberry_sapling"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 8.5d
+			x: 7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1411,7 +1195,7 @@
 				item: "twilightforest:twilight_oak_sapling"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: 7.0d
 		}
 		{
@@ -1436,7 +1220,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1460,7 +1244,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1483,7 +1267,7 @@
 				item: "twilightforest:darkwood_sapling"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.5d
 			y: 2.5d
 		}
 		{
@@ -1507,7 +1291,7 @@
 				item: "twilightforest:time_sapling"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.5d
 			y: 1.0d
 		}
 		{
@@ -1531,7 +1315,7 @@
 				item: "twilightforest:transformation_sapling"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.5d
 			y: -0.5d
 		}
 		{
@@ -1793,7 +1577,7 @@
 				item: "biomeswevegone:silver_maple_sapling"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: 7.0d
 		}
 		{
@@ -1817,8 +1601,8 @@
 				item: "biomeswevegone:red_spruce_sapling"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 7.0d
+			x: -3.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1841,7 +1625,7 @@
 				item: "biomeswevegone:red_oak_sapling"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.5d
 			y: 7.0d
 		}
 		{
@@ -1865,7 +1649,7 @@
 				item: "biomeswevegone:red_maple_sapling"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.0d
 			y: 7.0d
 		}
 		{
@@ -1889,7 +1673,7 @@
 				item: "biomeswevegone:orchard_sapling"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: 7.0d
 		}
 		{
@@ -1913,8 +1697,8 @@
 				item: "biomeswevegone:orange_spruce_sapling"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: -4.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1961,7 +1745,7 @@
 				item: "biomeswevegone:indigo_jacaranda_sapling"
 				type: "item"
 			}]
-			x: 6.0d
+			x: -3.0d
 			y: 7.0d
 		}
 		{
@@ -2057,8 +1841,8 @@
 				item: "biomeswevegone:blue_spruce_sapling"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: -1.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2417,7 +2201,7 @@
 				item: "biomeswevegone:aspen_sapling"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 7.0d
 		}
 		{
@@ -2441,8 +2225,8 @@
 				item: "biomeswevegone:baobab_sapling"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 8.5d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2537,8 +2321,8 @@
 				item: "biomeswevegone:cika_sapling"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.0d
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2561,7 +2345,7 @@
 				item: "biomeswevegone:cypress_sapling"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 4.5d
 			y: 8.5d
 		}
 		{
@@ -2585,8 +2369,8 @@
 				item: "biomeswevegone:ebony_sapling"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.5d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2609,8 +2393,8 @@
 				item: "biomeswevegone:fir_sapling"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -0.5d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2657,8 +2441,8 @@
 				item: "biomeswevegone:holly_sapling"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -0.5d
+			x: 1.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2682,7 +2466,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2705,7 +2489,7 @@
 				item: "minecraft:mangrove_propagule"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: 8.5d
 		}
 	]

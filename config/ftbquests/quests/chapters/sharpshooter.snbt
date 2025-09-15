@@ -497,7 +497,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -517,7 +517,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -817,28 +817,6 @@
 			}]
 			x: 7.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "431159E150D43742"
-			rewards: [{
-				id: "1B9256A32C30D7C7"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6049B1CFBA59D097"
-				item: {
-					Count: 1
-					id: "aether_redux:subzero_crossbow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 7.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]

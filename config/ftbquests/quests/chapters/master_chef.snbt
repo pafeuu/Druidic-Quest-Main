@@ -24,8 +24,8 @@
 				item: "vintagedelight:nut_milk_bottle"
 				type: "item"
 			}]
-			x: -19.200000000000003d
-			y: -11.2d
+			x: -18.8d
+			y: -10.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -41,7 +41,7 @@
 				item: "vintagedelight:chocolate_nut_granola_bar"
 				type: "item"
 			}]
-			x: -18.400000000000002d
+			x: -18.8d
 			y: -11.2d
 		}
 		{
@@ -58,7 +58,7 @@
 				item: "vintagedelight:fruity_granola_bar"
 				type: "item"
 			}]
-			x: -17.6d
+			x: -18.0d
 			y: -11.2d
 		}
 		{
@@ -75,7 +75,7 @@
 				item: "vintagedelight:deluxe_granola_bar"
 				type: "item"
 			}]
-			x: -16.8d
+			x: -17.2d
 			y: -11.2d
 		}
 		{
@@ -92,7 +92,7 @@
 				item: "fruitsdelight:blueberry_muffin"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -16.4d
 			y: -11.2d
 		}
 		{
@@ -109,42 +109,8 @@
 				item: "fruitsdelight:cranberry_muffin"
 				type: "item"
 			}]
-			x: -15.200000000000001d
+			x: -15.6d
 			y: -11.2d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "2715DEDAB4A5B64A"
-			rewards: [{
-				id: "28E13296B7DADEC3"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "3E05270EBDD45726"
-				item: "aether_redux:wynd_bagel"
-				type: "item"
-			}]
-			x: -19.6d
-			y: -10.399999999999999d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "5C8786353162C524"
-			rewards: [{
-				id: "652793DE1D5745E0"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "1D5A948A97C63145"
-				item: "aether_redux:blueberry_bagel"
-				type: "item"
-			}]
-			x: -18.8d
-			y: -10.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -199,23 +165,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "7F7B753BF0AEFD38"
-			rewards: [{
-				id: "53F412FCBB1DDCAD"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "497E901FE71AFD90"
-				item: "aether_redux:oatmeal"
-				type: "item"
-			}]
-			x: -15.600000000000001d
-			y: -10.399999999999999d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2564848E88E9ADBB"
 			rewards: [{
 				count: 2
@@ -229,8 +178,8 @@
 				item: "mynethersdelight:dried_ghast_with_milk"
 				type: "item"
 			}]
-			x: -14.8d
-			y: -10.399999999999999d
+			x: -15.6d
+			y: -10.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]

@@ -1378,7 +1378,7 @@
 				}
 			]
 			title: "Draco Arcanus Set"
-			x: -5.5d
+			x: -4.5d
 			y: 3.5d
 		}
 		{
@@ -1444,7 +1444,7 @@
 				}
 			]
 			title: "Tyr Set"
-			x: -0.5d
+			x: -1.5d
 			y: 3.5d
 		}
 		{
@@ -2826,138 +2826,6 @@
 			title: "Valkyrum Set"
 			x: -4.5d
 			y: 2.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			icon: {
-				Count: 1
-				id: "deeperdarker:resonarium_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "59174CF744EB76E7"
-			rewards: [{
-				count: 2
-				id: "7A7A34E9849D9288"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "5E1EBF319018E1C1"
-					item: {
-						Count: 1
-						id: "deeperdarker:resonarium_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "382E303F4BB8CE4A"
-					item: {
-						Count: 1
-						id: "deeperdarker:resonarium_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "350B3B1D7D722878"
-					item: {
-						Count: 1
-						id: "deeperdarker:resonarium_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6653DA8241AF2A01"
-					item: {
-						Count: 1
-						id: "deeperdarker:resonarium_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Resonarium Set"
-			x: -1.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			icon: {
-				Count: 1
-				id: "deeperdarker:warden_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "5F5831816A802685"
-			rewards: [{
-				count: 2
-				id: "20E8FD72056DB128"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "68B34BB859B3FCA6"
-					item: {
-						Count: 1
-						id: "deeperdarker:warden_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0CF860C3915FE92B"
-					item: {
-						Count: 1
-						id: "deeperdarker:warden_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4AA305615BA9A40D"
-					item: {
-						Count: 1
-						id: "deeperdarker:warden_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7D997654476BE559"
-					item: {
-						Count: 1
-						id: "deeperdarker:warden_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Warden Set"
-			x: -4.5d
-			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]

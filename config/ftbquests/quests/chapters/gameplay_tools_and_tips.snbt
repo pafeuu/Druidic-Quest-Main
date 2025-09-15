@@ -145,7 +145,7 @@
 			description: [
 				"Meaningful progression is a major theme within &2Druidic Quest.&r Set aside the natural desire to race to power, and take time to discover all the nooks and crannies of this highly-customized world!"
 				""
-				"Quests are not the key to progression, though they will be extremely helpful along your journey."
+				"Quests are required for progression through the game, though they will be extremely helpful along your journey."
 				""
 				"Rather, each new dimension is unlocked when the player obtains a specific item. With each new dimension unlocked, the mobs surrounding you will also grow more powerful."
 			]
@@ -170,7 +170,7 @@
 				""
 				"Enchanting is now entirely recipe-based through the powers of Ars Nouveau and Wizard's Reborn."
 				""
-				"The accumulating xp cost on the anvil has been removed, making armor and tool repair much more rewarding."
+				"The accumulating xp cost on the anvil has also been removed, making armor and tool repair much more rewarding."
 			]
 			icon: "minecraft:experience_bottle"
 			id: "59A41666249EF4E2"

@@ -173,7 +173,7 @@
 				type: "item"
 			}]
 			x: -8.8d
-			y: -3.6d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -196,7 +196,7 @@
 				type: "item"
 			}]
 			x: -8.8d
-			y: -2.8d
+			y: -2.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -219,7 +219,7 @@
 				type: "item"
 			}]
 			x: -8.8d
-			y: -1.2d
+			y: -0.7999999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -242,7 +242,7 @@
 				type: "item"
 			}]
 			x: -8.8d
-			y: -2.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1144,7 +1144,7 @@
 				type: "item"
 			}]
 			x: -6.8d
-			y: -3.6d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1161,7 +1161,7 @@
 				type: "item"
 			}]
 			x: -6.8d
-			y: -1.1999999999999997d
+			y: -0.7999999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1178,7 +1178,7 @@
 				type: "item"
 			}]
 			x: -6.8d
-			y: -2.8d
+			y: -2.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1199,7 +1199,7 @@
 				type: "item"
 			}]
 			x: -6.8d
-			y: -0.3999999999999999d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1220,7 +1220,7 @@
 				type: "item"
 			}]
 			x: -6.8d
-			y: 0.3999999999999999d
+			y: 0.7999999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1241,7 +1241,7 @@
 				type: "item"
 			}]
 			x: -6.8d
-			y: 1.1999999999999997d
+			y: 1.5999999999999996d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1262,7 +1262,7 @@
 				type: "item"
 			}]
 			x: -6.8d
-			y: 1.9999999999999996d
+			y: 2.399999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1278,25 +1278,8 @@
 				item: "kubejs:bouncy_boots_cover"
 				type: "item"
 			}]
-			x: -3.5999999999999996d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "50A78685DAE40C2B"
-			rewards: [{
-				id: "6979EE0B4A65FD9C"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "61BD41A0FCCEFEE0"
-				item: "kubejs:silent_boots_cover"
-				type: "item"
-			}]
-			x: -3.5999999999999996d
-			y: 0.7999999999999998d
+			x: -3.6d
+			y: 0.39999999999999947d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1312,8 +1295,8 @@
 				item: "kubejs:fall_boots_cover"
 				type: "item"
 			}]
-			x: -3.5999999999999996d
-			y: 1.6000000000000005d
+			x: -3.6d
+			y: 1.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1329,8 +1312,8 @@
 				item: "kubejs:gravity_boots_cover"
 				type: "item"
 			}]
-			x: -3.5999999999999996d
-			y: 2.3999999999999995d
+			x: -3.6d
+			y: 1.999999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1346,8 +1329,8 @@
 				item: "kubejs:sturdy_boots_cover"
 				type: "item"
 			}]
-			x: -3.5999999999999996d
-			y: 3.2d
+			x: -3.6d
+			y: 2.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1364,7 +1347,7 @@
 				type: "item"
 			}]
 			x: -8.8d
-			y: -0.4d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1381,7 +1364,7 @@
 				type: "item"
 			}]
 			x: -8.8d
-			y: 0.4d
+			y: 0.7999999999999998d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1398,7 +1381,7 @@
 				type: "item"
 			}]
 			x: -8.8d
-			y: 1.2d
+			y: 1.5999999999999996d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1414,8 +1397,8 @@
 				item: "kubejs:archers_glove"
 				type: "item"
 			}]
-			x: -3.5999999999999996d
-			y: -3.2d
+			x: -3.6d
+			y: -2.8000000000000007d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1432,7 +1415,7 @@
 				type: "item"
 			}]
 			x: -6.8d
-			y: -2.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1471,8 +1454,8 @@
 				item: "kubejs:mittens"
 				type: "item"
 			}]
-			x: -3.5999999999999996d
-			y: -2.4d
+			x: -3.6d
+			y: -2.0000000000000004d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1488,8 +1471,8 @@
 				item: "kubejs:travelers_belt"
 				type: "item"
 			}]
-			x: -3.5999999999999996d
-			y: -1.6d
+			x: -3.6d
+			y: -1.2000000000000006d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1505,8 +1488,8 @@
 				item: "kubejs:builders_belt"
 				type: "item"
 			}]
-			x: -3.5999999999999996d
-			y: -0.7999999999999998d
+			x: -3.6d
+			y: -0.40000000000000036d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1692,8 +1675,8 @@
 				item: "kubejs:cross_necklace"
 				type: "item"
 			}]
-			x: -3.5999999999999996d
-			y: -4.0d
+			x: -3.6d
+			y: -3.6000000000000005d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1709,8 +1692,8 @@
 				item: "kubejs:the_ice_cube"
 				type: "item"
 			}]
-			x: -3.5999999999999996d
-			y: -4.8d
+			x: -3.6d
+			y: -4.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2787,8 +2770,8 @@
 				item: "aether:iron_ring"
 				type: "item"
 			}]
-			x: 10.399999999999999d
-			y: -4.8d
+			x: 10.4d
+			y: -3.6000000000000005d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2804,8 +2787,8 @@
 				item: "aether:golden_ring"
 				type: "item"
 			}]
-			x: 10.399999999999999d
-			y: -3.9999999999999996d
+			x: 10.4d
+			y: -2.8000000000000003d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2827,8 +2810,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.399999999999999d
-			y: -3.1999999999999993d
+			x: 10.4d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2850,25 +2833,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.399999999999999d
-			y: -2.3999999999999995d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "650CFB730873DBAE"
-			rewards: [{
-				id: "679E130854D80ECF"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "005A98B221353C2D"
-				item: "aether_redux:sentry_ring"
-				type: "item"
-			}]
-			x: 10.399999999999999d
-			y: -1.5999999999999996d
+			x: 10.4d
+			y: -1.2000000000000002d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2890,8 +2856,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.399999999999999d
-			y: -0.7999999999999998d
+			x: 10.400000000000002d
+			y: -0.4000000000000008d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2907,8 +2873,8 @@
 				item: "ancient_aether:valkyrum_ring"
 				type: "item"
 			}]
-			x: 10.399999999999999d
-			y: 8.881784197001252E-16d
+			x: 11.2d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2924,8 +2890,8 @@
 				item: "ancient_aether:hermes_ring"
 				type: "item"
 			}]
-			x: 10.399999999999999d
-			y: 0.8000000000000007d
+			x: 11.2d
+			y: -1.2000000000000002d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2941,8 +2907,8 @@
 				item: "ancient_aether:warrior_ring"
 				type: "item"
 			}]
-			x: 10.399999999999999d
-			y: 1.6000000000000005d
+			x: 11.2d
+			y: -2.8000000000000007d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2959,7 +2925,7 @@
 				type: "item"
 			}]
 			x: 11.2d
-			y: -1.5999999999999996d
+			y: -0.40000000000000036d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2975,8 +2941,8 @@
 				item: "ancient_aether:ancient_ring"
 				type: "item"
 			}]
-			x: 11.2d
-			y: -2.3999999999999995d
+			x: 10.400000000000002d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2998,8 +2964,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.2d
-			y: -4.8d
+			x: 10.400000000000002d
+			y: 0.39999999999999947d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3021,59 +2987,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.2d
-			y: -3.9999999999999996d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "3D7F06B8FF3E591C"
-			rewards: [{
-				id: "64845C434BCA18D2"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "5319B14B07A10A37"
-				item: "aether_redux:enchanted_ring"
-				type: "item"
-			}]
-			x: 11.2d
-			y: -3.1999999999999993d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "42A2263BFDAB1687"
-			rewards: [{
-				id: "5298BE03FF18C45B"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "3EB3BE4423E40A8E"
-				item: "aether_redux:ring_of_wisdom"
-				type: "item"
-			}]
-			x: 11.2d
-			y: -0.7999999999999998d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "32B34CAC2A47F7B6"
-			rewards: [{
-				id: "5A9E56A1C805CF0E"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "42D2FE5B02EFA023"
-				item: "aether_redux:shroom_ring"
-				type: "item"
-			}]
-			x: 11.2d
-			y: 8.881784197001252E-16d
+			x: 10.400000000000002d
+			y: 1.1999999999999993d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3091,24 +3006,7 @@
 				type: "item"
 			}]
 			x: 11.2d
-			y: 0.8000000000000007d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "605E5E3AD03154EF"
-			rewards: [{
-				id: "020BFC1B285DB622"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "3FFCF7237F3AA23B"
-				item: "aether_redux:ring_of_construction"
-				type: "item"
-			}]
-			x: 11.2d
-			y: 1.6000000000000005d
+			y: -3.6000000000000005d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3124,8 +3022,8 @@
 				item: "aether:iron_pendant"
 				type: "item"
 			}]
-			x: 11.999999999999996d
-			y: -5.6d
+			x: 12.0d
+			y: -4.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3141,8 +3039,8 @@
 				item: "aether:golden_pendant"
 				type: "item"
 			}]
-			x: 11.999999999999996d
-			y: -4.8d
+			x: 12.0d
+			y: -3.6000000000000005d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3164,8 +3062,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.999999999999996d
-			y: -3.9999999999999996d
+			x: 12.0d
+			y: -2.8000000000000003d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3187,8 +3085,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.999999999999996d
-			y: -3.1999999999999993d
+			x: 12.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3204,8 +3102,8 @@
 				item: "ancient_aether:valkyrum_pendant"
 				type: "item"
 			}]
-			x: 11.999999999999996d
-			y: -2.3999999999999995d
+			x: 12.0d
+			y: -1.2000000000000002d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3221,8 +3119,8 @@
 				item: "ancient_aether:hermes_pendant"
 				type: "item"
 			}]
-			x: 11.999999999999996d
-			y: -1.5999999999999996d
+			x: 12.0d
+			y: -0.40000000000000036d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3238,8 +3136,8 @@
 				item: "ancient_aether:warrior_pendant"
 				type: "item"
 			}]
-			x: 11.999999999999996d
-			y: -0.7999999999999998d
+			x: 12.0d
+			y: 0.39999999999999947d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3255,8 +3153,8 @@
 				item: "ancient_aether:growth_pendant"
 				type: "item"
 			}]
-			x: 11.999999999999996d
-			y: 8.881784197001252E-16d
+			x: 12.0d
+			y: 1.2000000000000002d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3267,29 +3165,8 @@
 				item: "ancient_aether:ancient_pendant"
 				type: "item"
 			}]
-			x: 11.999999999999996d
-			y: 0.8000000000000007d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "1121F0C6EAA89E40"
-			rewards: [{
-				id: "78906F160929AC7A"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "170D7AE651F4BF6C"
-				item: {
-					Count: 1
-					id: "aether_redux:vampire_amulet"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 11.999999999999996d
-			y: 1.6000000000000005d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3305,8 +3182,8 @@
 				item: "deep_aether:medal_of_honor"
 				type: "item"
 			}]
-			x: 11.999999999999996d
-			y: 2.4000000000000004d
+			x: 12.000000000000004d
+			y: 2.799999999999999d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3326,25 +3203,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.999999999999996d
-			y: 4.000000000000002d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "5F151B322D80B845"
-			rewards: [{
-				id: "5A5EABFB836DFF36"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "3F09C22432DC1D96"
-				item: "aether_redux:grand_victory_medal"
-				type: "item"
-			}]
-			x: 11.999999999999996d
-			y: 3.200000000000001d
+			x: 12.8d
+			y: 2.4000000000000004d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3360,8 +3220,8 @@
 				item: "aether:agility_cape"
 				type: "item"
 			}]
-			x: 12.799999999999997d
-			y: -5.199999999999999d
+			x: 12.8d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3377,25 +3237,8 @@
 				item: "aether:swet_cape"
 				type: "item"
 			}]
-			x: 12.799999999999997d
-			y: -4.3999999999999995d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "04B43395DEA969BD"
-			rewards: [{
-				id: "06791B00457EC621"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "5637690D00729004"
-				item: "aether_redux:airbound_cape"
-				type: "item"
-			}]
-			x: 12.799999999999997d
-			y: -3.5999999999999996d
+			x: 12.8d
+			y: -3.2d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3411,8 +3254,8 @@
 				item: "aether:valkyrie_cape"
 				type: "item"
 			}]
-			x: 12.799999999999997d
-			y: -2.7999999999999994d
+			x: 12.8d
+			y: -2.4000000000000004d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3428,42 +3271,8 @@
 				item: "aether:invisibility_cloak"
 				type: "item"
 			}]
-			x: 12.799999999999997d
-			y: -1.9999999999999996d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "27C152D59AFD5409"
-			rewards: [{
-				id: "5DAEDB15DCED6112"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "42F69E1EC2B59E15"
-				item: "aether_redux:cockatrice_feather"
-				type: "item"
-			}]
-			x: 12.799999999999997d
-			y: -1.1999999999999993d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "770CD7D0697C9FFE"
-			rewards: [{
-				id: "42D23F8DAB69E5C5"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "526C2A2618C8FA71"
-				item: "aether_redux:feather_of_warding"
-				type: "item"
-			}]
-			x: 12.799999999999997d
-			y: -0.39999999999999947d
+			x: 12.8d
+			y: -1.6000000000000005d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3485,25 +3294,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.799999999999997d
-			y: 1.200000000000001d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "549630A523C44AD5"
-			rewards: [{
-				id: "389C4425FEEBD424"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "7604D415D8D16A19"
-				item: "aether_redux:snailshell_shield"
-				type: "item"
-			}]
-			x: 12.799999999999997d
-			y: 0.40000000000000036d
+			x: 12.8d
+			y: -0.8000000000000003d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3519,8 +3311,8 @@
 				item: "ancient_aether:shield_of_inebriation"
 				type: "item"
 			}]
-			x: 12.799999999999997d
-			y: 2.0d
+			x: 12.8d
+			y: -1.7763568394002505E-15d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3536,8 +3328,8 @@
 				item: "ancient_aether:shield_of_remediation"
 				type: "item"
 			}]
-			x: 12.799999999999997d
-			y: 2.8000000000000007d
+			x: 12.8d
+			y: 0.7999999999999989d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3559,8 +3351,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.799999999999997d
-			y: 3.5999999999999996d
+			x: 12.8d
+			y: 1.5999999999999979d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3576,8 +3368,8 @@
 				item: "aether:regeneration_stone"
 				type: "item"
 			}]
-			x: 10.399999999999999d
-			y: 2.4000000000000004d
+			x: 11.2d
+			y: 1.2000000000000002d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3593,25 +3385,8 @@
 				item: "ancient_aether:strength_stone"
 				type: "item"
 			}]
-			x: 10.399999999999999d
-			y: 3.200000000000001d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "2A854E97AA6351BB"
-			rewards: [{
-				id: "23793E01712B748B"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "70C65E0208AD6F6D"
-				item: "aether_redux:solar_emblem"
-				type: "item"
-			}]
 			x: 11.2d
-			y: 2.4000000000000004d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3634,7 +3409,7 @@
 				type: "item"
 			}]
 			x: 11.2d
-			y: 3.200000000000001d
+			y: 0.39999999999999947d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -4155,6 +3930,23 @@
 			}]
 			x: 4.4d
 			y: 0.8d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1F7FBBC646118BFB"
+			rewards: [{
+				id: "3CE66E034B04EEF3"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "2307A06656B6116E"
+				item: "create:extendo_grip"
+				type: "item"
+			}]
+			x: -6.8d
+			y: -3.2d
 		}
 	]
 	title: "Master Accessorizer"
