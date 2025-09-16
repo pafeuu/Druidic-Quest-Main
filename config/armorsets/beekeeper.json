@@ -17,13 +17,16 @@
     "itemKey": "thermal:beekeeper_boots",
     "mustBeEmpty": false
   },
-  "fullSetBonuses": [
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
     {
       "type": "effect",
       "name": "minecraft:poison",
       "interactionType": "immunity",
       "description": "Poison immunity"
-    },
+    }
+  ],
+  "fullSetBonuses": [
     {
       "type": "effect",
       "name": "minecraft:blindness",

@@ -34,35 +34,38 @@
     ],
     "mustBeEmpty": false
   },
-  "fullSetBonuses": [
-    {
+  "partialBonusRequiredAmount": 2,
+    "partialSetBonuses": [
+      {
       "type": "effect",
       "name": "minecraft:poison",
       "interactionType": "immunity",
       "description": "Poison immunity"
-    },
-    {
-      "type": "effect",
-      "name": "alexsmobs:mosquito_repellent",
-      "value": 1.0,
-      "interactionType": "self",
-      "interactionDuration": 300,
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    },
+      },
+      {
+        "type": "effect",
+        "name": "alexsmobs:mosquito_repellent",
+        "value": 1.0,
+        "interactionType": "self",
+        "interactionDuration": 300,
+        "hideBonusDescription": false,
+        "onlyImmuneToNewEffects": false
+      }
+    ],
+  "fullSetBonuses": [
     {
       "type": "attribute",
       "name": "combatroll:count",
-      "value": 1,
+      "value": 2,
       "modifierUUID": "d5a7dc28-9405-4398-b1e5-233b4c6dd218",
-      "description": "+1 combat roll"
+      "description": "+2 combat roll"
     },
     {
       "type": "attribute",
       "name": "alembic:alchemical_damage.resistance",
-      "value": 6,
+      "value": 10,
       "modifierUUID": "d5a7dc88-9405-4398-b1e5-233b4c6dd218",
-      "description": "+6 nature resistance"
+      "description": "+10 nature resistance"
     }
     
   ],

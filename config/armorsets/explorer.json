@@ -22,8 +22,9 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.movement_speed",
-      "value": 0.025,
+      "value": 0.25,
       "modifierUUID": "2fad3791-b190-46ff-990b-5285e64e1ab3",
+      "attributeOperation": 2,
       "description": "+25% movement speed",
       "interactionType": "self",
       "interactionDuration": 300,

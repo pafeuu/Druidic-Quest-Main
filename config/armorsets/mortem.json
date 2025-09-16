@@ -18,6 +18,16 @@
     "itemKey": "forbidden_arcanus:mortem_boots",
     "mustBeEmpty": false
   },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "alembic:true_damage.resistance",
+      "value": 6,
+      "modifierUUID": "d5a7dc88-9405-4398-b1e5-233b4c633218",
+      "description": "+6 unholy resistance"
+    }
+  ],
   "fullSetBonuses": [
     {
       "type": "attribute",
@@ -37,13 +47,6 @@
       "value": 1,
       "modifierUUID": "d5a7dc88-9433-4398-b1e5-233b4c6dd212",
       "description": "+1 combat roll"
-    },
-    {
-      "type": "attribute",
-      "name": "alembic:true_damage.resistance",
-      "value": 6,
-      "modifierUUID": "d5a7dc88-9405-4398-b1e5-233b4c633218",
-      "description": "+6 unholy resistance"
     }
   ],
   "hideGeneratedTooltip": false

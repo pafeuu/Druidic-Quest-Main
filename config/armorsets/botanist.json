@@ -17,6 +17,15 @@
     "itemKey": "naturesaura:infused_iron_shoes",
     "mustBeEmpty": false
   },
+  "partialBonusRequiredAmount": 2,
+    "partialSetBonuses": [
+      {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "interactionType": "immunity",
+      "description": "Poison immunity"
+    }
+    ],
   "fullSetBonuses": [
     {
       "type": "effect",
@@ -26,12 +35,6 @@
       "interactionDuration": 300,
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
-    },
-    {
-      "type": "effect",
-      "name": "minecraft:poison",
-      "interactionType": "immunity",
-      "description": "Poison immunity"
     },
     {
       "type": "effect",

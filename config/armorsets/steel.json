@@ -14,7 +14,7 @@
   "boots": {
     "itemKey": "immersiveengineering:armor_steel_boots"
   },
-  "partialBonusRequiredAmount": 3,
+  "partialBonusRequiredAmount": 2,
   "partialSetBonuses": [
     {
       "type": "effect",
