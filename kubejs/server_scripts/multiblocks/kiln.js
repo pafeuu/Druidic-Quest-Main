@@ -31,6 +31,32 @@ ServerEvents.recipes(event=>{
 	spellstone("water","ocean_stone")
 	spellstone("air","angel_blessing")
 
+	function kiln(Output,OutputAmount,Input1,InputAmount1,Input2,InputAmount2)
+	{
+		event.custom({
+		type: "immersiveengineering:alloy",
+		  "input0": {
+			base_ingredient: {
+				item: Input1
+			},
+			count: InputAmount1
+		  },
+		  "input1": {
+            base_ingredient: {
+			item: Input2
+            },
+            count: InputAmount2
+		  },
+		  "result": {
+			"base_ingredient": {
+			  item: Output
+			},
+			"count": OutputAmount
+		  },
+		  "time": 600
+		})
+	}
+
 	event.custom({
 		type: "immersiveengineering:alloy",
 		  "input0": {
@@ -53,242 +79,73 @@ ServerEvents.recipes(event=>{
 		  },
 		  "time": 600
 		})
-		
-    event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			base_ingredient: {
-				item: "forbidden_arcanus:mundabitur_dust"
-			},
-			count: 4
-		  },
-		  "input1": {
-            base_ingredient: {
-			item: "naturesaura:tainted_gold"
-            },
-            count: 2
-		  },
-		  "result": {
-			"base_ingredient": {
-			  item: "wizards_reborn:arcane_gold_ingot"
-			},
-			"count": 2
-		  },
-		  "time": 200
-	}).id("forbidden_arcanus:deorum_ingot")
+	
+	kiln("wizards_reborn:arcane_gold_ingot",2,
+			"forbidden_arcanus:mundabitur_dust",4,
+			"naturesaura:tainted_gold",2
+	)
 
-    event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			base_ingredient: {
-				item: "kubejs:ender_essence"
-			},
-			count: 4
-		  },
-		  "input1": {
-			base_ingredient: {
-			tag: "forge:ingots/lead"
-			},
-			count:2
-		  },
-		  "result": {
-			"base_ingredient": {
-			  item: "thermal:enderium_ingot"
-			},
-			"count": 2
-		  },
-		  "time": 200
-	}).id("thermal:machines/smelter/smelter_alloy_enderium")
+	event.remove({id:"forbidden_arcanus:deorum_ingot"})
+	event.remove({id:"thermal:machines/smelter/smelter_alloy_enderium"})
+	event.remove({id:"thermal:machines/smelter/smelter_alloy_lumium"})
 
-	event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			base_ingredient: {
-				item: "kubejs:light_essence"
-			},
-			count: 4
-		  },
-		  "input1": {
-			tag: "forge:ingots/enderium"
-		  },
-		  "result": {
-			"base_ingredient": {
-			  item: "thermal:lumium_ingot"
-			},
-			"count": 1
-		  },
-		  "time": 200
-	}).id("thermal:machines/smelter/smelter_alloy_lumium")
+	kiln("thermal:enderium_ingot",2,
+			"thermal:lead_ingot",2,
+			"kubejs:ender_essence",4
+	)
 
-	event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			base_ingredient: {
-				item: "ars_nouveau:fire_essence"
-			},
-			count: 4
-		  },
-		  "input1": {
-			item: "twilightforest:fiery_tears"
-		  },
-		  "result": {
-			"base_ingredient": {
-			  item: "twilightforest:fiery_tears"
-			},
-			"count": 2
-		  },
-		  "time": 800	
-	})
+	kiln("thermal:lumium_ingot",1,
+		"thermal:enderium_ingot",1,
+		"kubejs:light_essence",4
+	)
+	
+	kiln("twilightforest:fiery_tears",2,
+		"twilightforest:fiery_tears",1,
+		"ars_nouveau:fire_essence",4
+	)
 
-	event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			base_ingredient: {
-				item: "ars_nouveau:fire_essence"
-			},
-			count: 4
-		  },
-		  "input1": {
-			item: "twilightforest:fiery_blood"
-		  },
-		  "result": {
-			"base_ingredient": {
-			  item: "twilightforest:fiery_blood"
-			},
-			"count": 2
-		  },
-		  "time": 800	
-	})
+	kiln("twilightforest:fiery_blood",2,
+		"twilightforest:fiery_blood",1,
+		"ars_nouveau:fire_essence",4
+	)
 
-    event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			base_ingredient: {
-				item: "ars_nouveau:source_gem"
-			},
-			count: 3
-		  },
-		  "input1": {
-			base_ingredient: {
-				tag: "forge:ingots/gold"
-			},
-			count: 2,
-		  },
-		   
-		  "result": {
-			"base_ingredient": {
-			  item: "kubejs:source_alloy_ingot"
-			},
-			"count": 2
-		  },
-		  "time": 800	
-	})
+	kiln("kubejs:source_alloy_ingot",2,
+		"minecraft:gold_ingot",2,
+		"ars_nouveau:source_gem",3
+	)
 
-	event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			base_ingredient: {
-				item: "wizards_reborn:arcanum"
-			},
-			count: 3
-		  },
-		  "input1": {
-			base_ingredient: {
-				tag: "forge:ingots/iron"
-			},
-			count: 2,
-		  },
-		   
-		  "result": {
-			"base_ingredient": {
-			  item: "kubejs:arcanum_alloy_ingot"
-			},
-			"count": 2
-		  },
-		  "time": 800	
-	})
+    kiln("kubejs:arcanum_alloy_ingot",2,
+		"minecraft:iron_ingot",2,
+		"wizards_reborn:arcanum",3
+	)
+
+	kiln("create:andesite_alloy",2,
+		"kubejs:natural_clay_blend",1,
+		"minecraft:andesite",1
+	)
 
     event.remove({output:'create:andesite_alloy'})
-	event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			item: "kubejs:natural_clay_blend"
-		  },
-		  "input1": {
-			item: "minecraft:andesite"
-		  },
-		  "result": {
-			"base_ingredient": {
-			  item: "create:andesite_alloy"
-			},
-			"count": 2
-		  },
-		  "time": 200
-		
-	})
+	
+	kiln("kubejs:aquatic_ingot",2,
+		"ars_nouveau:water_essence",2,
+		"kubejs:arcanum_alloy_ingot",1
+	)
 
-	event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			item: "ars_nouveau:water_essence"
-		  },
-		  "input1": {
-			item: "kubejs:arcanum_alloy_ingot"
-		  },
-		  "result": {
-			"base_ingredient": {
-			  item: "kubejs:aquatic_ingot"
-			},
-			"count": 2
-		  },
-		  "time": 200
-	})
+	kiln("twilightforest:fiery_ingot",1,
+		"kubejs:arcanum_alloy_ingot",1,
+		"twilightforest:fiery_blood",2
+	)
 
-    event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			base_ingredient: {
-				tag: "twilightforest:fiery_vial"
-			},
-			count: 2
-		  },
-		  "input1": {
-			base_ingredient: {
-				item: "kubejs:arcanum_alloy_ingot"
-			},
-			count: 1,
-		  },
-		   
-		  "result": {
-			"base_ingredient": {
-			  item: "twilightforest:fiery_ingot"
-			},
-			"count": 1
-		  },
-		  "time": 200	
-	}).id("twilightforest:equipment/fiery_ingot_crafting")
+	kiln("twilightforest:fiery_ingot",1,
+		"kubejs:arcanum_alloy_ingot",1,
+		"twilightforest:fiery_tears",2
+	)
 
-	event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			base_ingredient: {
-				tag: "forge:ingots/arcanum_alloy"
-			},
-			count: 1
-		  },
-		  "input1": {
-			base_ingredient: {
-				item: "ars_nouveau:air_essence"
-			},
-			count: 4,
-		  },
-		   
-		  "result": {
-			"base_ingredient": {
-			  item: "kubejs:storm_ingot"
-			},
-			"count": 1
-		  },
-		  "time": 200	
-	})
+    event.remove({id:"twilightforest:equipment/fiery_ingot_crafting"})
+	
+	kiln("kubejs:storm_ingot",1,
+		"kubejs:arcanum_alloy_ingot",1,
+		"ars_nouveau:air_essence",4
+	)
+
 })
