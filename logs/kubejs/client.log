@@ -1,145 +1,89 @@
-[20:01:10] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[20:01:10] [INIT] Loaded plugins:
-[20:01:10] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[20:01:10] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[20:01:10] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[20:01:10] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
-[20:01:10] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[20:01:10] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[20:01:10] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[20:01:10] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[20:01:10] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
-[20:01:10] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
-[20:01:10] [INIT] - com.falaut.KubeJSNaturesAuraPlugin
-[20:01:10] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
-[20:01:10] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[20:01:10] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
-[20:01:10] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[20:01:10] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[20:01:10] [INIT] - com.almostreliable.morejs.Plugin
-[20:01:10] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
-[20:01:10] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[20:01:10] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[20:01:10] [INIT] - com.probejs.ProbeJSPlugin
-[20:01:10] [INIT] - com.almostreliable.ponderjs.KubePlugin
-[20:01:10] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
-[20:01:11] [ERROR] ! Hiding.js#1: ReferenceError: "RecipeViewerEvents" is not defined.
-[20:01:11] [INFO] Loaded script client_scripts:Jei.js in 0.001 s
-[20:01:11] [INFO] Loaded script client_scripts:NameChange.js in 0.001 s
-[20:01:11] [INFO] Loaded script client_scripts:ponder.js in 0.005 s
-[20:01:11] [INFO] Loaded script client_scripts:REI_Group.js in 0.0 s
-[20:01:11] [INFO] Loaded script client_scripts:Tooltips.js in 0.003 s
-[20:01:11] [INFO] Loaded 5/6 KubeJS client scripts in 0.06 s with 0 errors and 0 warnings
-[20:01:28] [INFO] Client resource reload complete!
-[20:02:53] [ERROR] ! Error in 'JEIEvents.information': ingredients must not be empty.
-[20:02:53] [ERROR] ! java.lang.IllegalArgumentException: ingredients must not be empty.
-[20:02:53] [ERROR] !   at mezz.jei.common.util.ErrorUtil.checkNotEmpty(ErrorUtil.java:122)
-[20:02:53] [ERROR] !   at dev.nolij.toomanyrecipeviewers.impl.jei.api.registration.RecipeRegistration.addIngredientInfo(RecipeRegistration.java:56)
-[20:02:53] [ERROR] !   at …kubejs.integration.forge.jei.InformationJEIEventJS.addItem(InformationJEIEventJS.java:24)
-[20:02:53] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:568)
-[20:02:53] [ERROR] !   at …rhino.MemberBox.invoke(MemberBox.java:160)
-[20:02:53] [ERROR] !   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:463)
-[20:02:53] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
-[20:02:53] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
-[20:02:53] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
-[20:02:53] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[20:02:53] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
-[20:02:53] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
-[20:02:53] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[20:02:53] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
-[20:02:53] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[20:02:53] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
-[20:02:53] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
-[20:02:53] [ERROR] !   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy128.onEvent(Unknown Source)
-[20:02:53] [ERROR] !   at …kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
-[20:02:53] [ERROR] !   at …kubejs.event.EventHandler.postToHandlers(EventHandler.java:304)
-[20:02:53] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:272)
-[20:02:53] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:226)
-[20:02:53] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:189)
-[20:02:53] [ERROR] !   at …kubejs.integration.forge.jei.JEIPlugin.registerRecipes(JEIPlugin.java:85)
-[20:02:53] [ERROR] !   at dev.nolij.toomanyrecipeviewers.JEIPlugins.lambda$registerRecipes$9(JEIPlugins.java:215)
-[20:02:53] [ERROR] !   at dev.nolij.toomanyrecipeviewers.JEIPlugins.dispatchInternal(JEIPlugins.java:147)
-[20:02:53] [ERROR] !   at dev.nolij.toomanyrecipeviewers.JEIPlugins.dispatchInternal(JEIPlugins.java:160)
-[20:02:53] [ERROR] !   at dev.nolij.toomanyrecipeviewers.JEIPlugins.lambda$dispatch$1(JEIPlugins.java:170)
-[20:02:53] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67)
-[20:02:53] [ERROR] !   at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-[20:02:53] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
-[20:02:53] [ERROR] !   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[20:02:53] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
-[20:02:53] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
-[20:02:53] [ERROR] !   at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1106)
-[20:02:53] [ERROR] !   at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718)
-[20:02:53] [ERROR] !   at net.minecraft.client.main.Main.main(Main.java:218)
-[20:02:53] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:568)
-[20:02:53] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
-[20:02:53] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99)
-[20:02:53] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25)
-[20:02:53] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
-[20:02:53] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
-[20:02:53] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
-[20:02:53] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
-[20:02:53] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
-[20:02:53] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
-[20:02:53] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
-[20:02:53] [ERROR] !   at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
-[20:02:53] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:568)
-[20:02:53] [ERROR] !   at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:69)
-[20:02:53] [ERROR] !   at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:105)
-[20:02:53] [ERROR] !   at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
-[20:02:53] [ERROR] !   at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
-[20:08:17] [ERROR] ! Error in 'JEIEvents.information': ingredients must not be empty.
-[20:08:17] [ERROR] ! java.lang.IllegalArgumentException: ingredients must not be empty.
-[20:08:17] [ERROR] !   at mezz.jei.common.util.ErrorUtil.checkNotEmpty(ErrorUtil.java:122)
-[20:08:17] [ERROR] !   at dev.nolij.toomanyrecipeviewers.impl.jei.api.registration.RecipeRegistration.addIngredientInfo(RecipeRegistration.java:56)
-[20:08:17] [ERROR] !   at …kubejs.integration.forge.jei.InformationJEIEventJS.addItem(InformationJEIEventJS.java:24)
-[20:08:17] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:568)
-[20:08:17] [ERROR] !   at …rhino.MemberBox.invoke(MemberBox.java:160)
-[20:08:17] [ERROR] !   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:463)
-[20:08:17] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
-[20:08:17] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
-[20:08:17] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
-[20:08:17] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[20:08:17] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
-[20:08:17] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
-[20:08:17] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[20:08:17] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
-[20:08:17] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[20:08:17] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
-[20:08:17] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
-[20:08:17] [ERROR] !   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy128.onEvent(Unknown Source)
-[20:08:17] [ERROR] !   at …kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
-[20:08:17] [ERROR] !   at …kubejs.event.EventHandler.postToHandlers(EventHandler.java:304)
-[20:08:17] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:272)
-[20:08:17] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:226)
-[20:08:17] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:189)
-[20:08:17] [ERROR] !   at …kubejs.integration.forge.jei.JEIPlugin.registerRecipes(JEIPlugin.java:85)
-[20:08:17] [ERROR] !   at dev.nolij.toomanyrecipeviewers.JEIPlugins.lambda$registerRecipes$9(JEIPlugins.java:215)
-[20:08:17] [ERROR] !   at dev.nolij.toomanyrecipeviewers.JEIPlugins.dispatchInternal(JEIPlugins.java:147)
-[20:08:17] [ERROR] !   at dev.nolij.toomanyrecipeviewers.JEIPlugins.dispatchInternal(JEIPlugins.java:160)
-[20:08:17] [ERROR] !   at dev.nolij.toomanyrecipeviewers.JEIPlugins.lambda$dispatch$1(JEIPlugins.java:170)
-[20:08:17] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67)
-[20:08:17] [ERROR] !   at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-[20:08:17] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
-[20:08:17] [ERROR] !   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[20:08:17] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
-[20:08:17] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
-[20:08:17] [ERROR] !   at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1106)
-[20:08:17] [ERROR] !   at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718)
-[20:08:17] [ERROR] !   at net.minecraft.client.main.Main.main(Main.java:218)
-[20:08:17] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:568)
-[20:08:17] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
-[20:08:17] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99)
-[20:08:17] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25)
-[20:08:17] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
-[20:08:17] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
-[20:08:17] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
-[20:08:17] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
-[20:08:17] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
-[20:08:17] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
-[20:08:17] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
-[20:08:17] [ERROR] !   at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
-[20:08:17] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:568)
-[20:08:17] [ERROR] !   at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:69)
-[20:08:17] [ERROR] !   at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:105)
-[20:08:17] [ERROR] !   at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
-[20:08:17] [ERROR] !   at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+[18:04:15] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[18:04:15] [INIT] Loaded plugins:
+[18:04:15] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[18:04:15] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[18:04:15] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[18:04:15] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
+[18:04:15] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[18:04:15] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[18:04:15] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[18:04:15] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[18:04:15] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[18:04:15] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
+[18:04:15] [INIT] - com.falaut.KubeJSNaturesAuraPlugin
+[18:04:15] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[18:04:15] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[18:04:15] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
+[18:04:15] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[18:04:15] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[18:04:15] [INIT] - com.almostreliable.morejs.Plugin
+[18:04:15] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
+[18:04:15] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[18:04:15] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[18:04:15] [INIT] - com.probejs.ProbeJSPlugin
+[18:04:15] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[18:04:15] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[18:04:15] [ERROR] ! Hiding.js#1: ReferenceError: "RecipeViewerEvents" is not defined.
+[18:04:15] [INFO] Loaded script client_scripts:Jei.js in 0.003 s
+[18:04:15] [INFO] Loaded script client_scripts:NameChange.js in 0.001 s
+[18:04:15] [INFO] Loaded script client_scripts:ponder.js in 0.013 s
+[18:04:15] [INFO] Loaded script client_scripts:REI_Group.js in 0.001 s
+[18:04:15] [INFO] Loaded script client_scripts:Tooltips.js in 0.013 s
+[18:04:15] [INFO] Loaded 5/6 KubeJS client scripts in 0.161 s with 0 errors and 0 warnings
+[18:04:54] [INFO] Client resource reload complete!
+[18:08:53] [ERROR] ! Error in 'JEIEvents.information': ingredients must not be empty.
+[18:08:53] [ERROR] ! java.lang.IllegalArgumentException: ingredients must not be empty.
+[18:08:53] [ERROR] !   at mezz.jei.common.util.ErrorUtil.checkNotEmpty(ErrorUtil.java:122)
+[18:08:53] [ERROR] !   at dev.nolij.toomanyrecipeviewers.impl.jei.api.registration.RecipeRegistration.addIngredientInfo(RecipeRegistration.java:56)
+[18:08:53] [ERROR] !   at …kubejs.integration.forge.jei.InformationJEIEventJS.addItem(InformationJEIEventJS.java:24)
+[18:08:53] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:568)
+[18:08:53] [ERROR] !   at …rhino.MemberBox.invoke(MemberBox.java:160)
+[18:08:53] [ERROR] !   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:463)
+[18:08:53] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
+[18:08:53] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
+[18:08:53] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
+[18:08:53] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[18:08:53] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
+[18:08:53] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
+[18:08:53] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[18:08:53] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
+[18:08:53] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[18:08:53] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
+[18:08:53] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
+[18:08:53] [ERROR] !   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy128.onEvent(Unknown Source)
+[18:08:53] [ERROR] !   at …kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
+[18:08:53] [ERROR] !   at …kubejs.event.EventHandler.postToHandlers(EventHandler.java:304)
+[18:08:53] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:272)
+[18:08:53] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:226)
+[18:08:53] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:189)
+[18:08:53] [ERROR] !   at …kubejs.integration.forge.jei.JEIPlugin.registerRecipes(JEIPlugin.java:85)
+[18:08:53] [ERROR] !   at dev.nolij.toomanyrecipeviewers.JEIPlugins.lambda$registerRecipes$9(JEIPlugins.java:215)
+[18:08:53] [ERROR] !   at dev.nolij.toomanyrecipeviewers.JEIPlugins.dispatchInternal(JEIPlugins.java:147)
+[18:08:53] [ERROR] !   at dev.nolij.toomanyrecipeviewers.JEIPlugins.dispatchInternal(JEIPlugins.java:160)
+[18:08:53] [ERROR] !   at dev.nolij.toomanyrecipeviewers.JEIPlugins.lambda$dispatch$1(JEIPlugins.java:170)
+[18:08:53] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67)
+[18:08:53] [ERROR] !   at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[18:08:53] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+[18:08:53] [ERROR] !   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[18:08:53] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+[18:08:53] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+[18:08:53] [ERROR] !   at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1106)
+[18:08:53] [ERROR] !   at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718)
+[18:08:53] [ERROR] !   at net.minecraft.client.main.Main.main(Main.java:218)
+[18:08:53] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:568)
+[18:08:53] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
+[18:08:53] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99)
+[18:08:53] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25)
+[18:08:53] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+[18:08:53] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[18:08:53] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[18:08:53] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
+[18:08:53] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
+[18:08:53] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[18:08:53] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[18:08:53] [ERROR] !   at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+[18:08:53] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:568)
+[18:08:53] [ERROR] !   at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:69)
+[18:08:53] [ERROR] !   at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:105)
+[18:08:53] [ERROR] !   at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+[18:08:53] [ERROR] !   at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)

@@ -1,0 +1,24 @@
+{
+  "id": "irons_spellbooks:plagued_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 5,
+      "operation": "ADDITION",
+      "uuid": "b6ab1522-3fe6-4a1c-a6e4-3b32e97b9622"
+    },
+    {
+      "type": "remove",
+      "target": "minecraft:generic.armor"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 7,
+      "operation": "ADDITION",
+      "uuid": "00dfbf70-9799-4f81-93b5-507fabac23e6"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

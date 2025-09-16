@@ -12,7 +12,7 @@
       "type": "append",
       "attribute": "minecraft:generic.movement_speed",
       "value": 0.05,
-      "operation": "ADDITION",
+      "operation": "MULTIPLY_TOTAL",
       "uuid": "4656f85a-00cb-400d-87cf-474376aa0acb"
     }
   ],

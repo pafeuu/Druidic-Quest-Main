@@ -394,6 +394,27 @@ ItemEvents.modification(event => {
     item.armorKnockbackResistance = 0.05
   })
 
+  event.modify("twilightforest:steeleaf_helmet", item=>{
+    item.armorProtection = 2,
+    item.armorKnockbackResistance = 0.05
+
+  })
+
+  event.modify("twilightforest:steeleaf_chestplate", item=>{
+    item.armorProtection = 7,
+    item.armorKnockbackResistance = 0.05
+  })
+
+  event.modify("twilightforest:steeleaf_leggings", item=>{
+    item.armorProtection = 5,
+    item.armorKnockbackResistance = 0.05
+  })
+
+  event.modify("twilightforest:steeleaf_boots", item=>{
+    item.armorProtection = 2,
+    item.armorKnockbackResistance = 0.05
+  })
+
   event.modify("twilightforest:fiery_helmet", item=>{
     item.armorProtection = 2,
     item.armorToughness = 0

@@ -1,0 +1,24 @@
+{
+  "id": "irons_spellbooks:cultist_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "b6ab1522-3fe6-4a1c-a6e4-3b32e97b9622"
+    },
+    {
+      "type": "remove",
+      "target": "minecraft:generic.armor"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "8b43b5c0-c262-42ae-856c-e26003b26d88"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

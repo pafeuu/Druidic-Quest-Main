@@ -22,7 +22,7 @@
     {
       "type": "append",
       "attribute": "minecraft:generic.armor",
-      "value": 2.5,
+      "value": 5,
       "operation": "ADDITION",
       "uuid": "ed02c139-4091-4ac7-b768-146ed2060184"
     }
