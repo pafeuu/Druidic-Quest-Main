@@ -1305,6 +1305,7 @@ ServerEvents.recipes(event => {
 			{
 				type: "execute",
 				command: "execute playsound minecraft:entity.lightning_bolt.impact neutral @p",
+				hide: true
 				
 			}
 		  ],
