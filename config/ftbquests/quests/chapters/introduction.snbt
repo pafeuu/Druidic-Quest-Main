@@ -77,15 +77,27 @@
 					type: "item"
 				}
 				{
-					id: "3E40695F25D20512"
+					id: "4AC283B2C90F08A1"
 					item: {
 						Count: 1
-						id: "thermal:satchel"
+						id: "sophisticatedbackpacks:backpack"
 						tag: {
-							display: {
-								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"The Manliest Purse\"}"
-								color: 15437475
+							borderColor: 14643122
+							clothColor: 14972592
+							contentsUuid: [I;
+								488902614
+								-1968553980
+								-1431729793
+								-1799299064
+							]
+							inventorySlots: 27
+							renderInfo: {
+								upgradeItems: [{
+									Count: 1b
+									id: "minecraft:air"
+								}]
 							}
+							upgradeSlots: 1
 						}
 					}
 					type: "item"
@@ -327,7 +339,7 @@
 							display: {
 								Name: "{\"text\":\"Early Game Helmet\"}"
 							}
-							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_helmet)item(thermal:beekeeper_helmet)item(minecraft:leather_helmet))"
+							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_helmet)item(thermal:beekeeper_helmet)item(minecraft:leather_helmet)item(kubejs:cactus_helmet))"
 						}
 					}
 					type: "item"
@@ -341,7 +353,7 @@
 							display: {
 								Name: "{\"text\":\"Early Game Chestplate\"}"
 							}
-							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_chestplate)item(minecraft:leather_chestplate)item(thermal:beekeeper_chestplate))"
+							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_chestplate)item(minecraft:leather_chestplate)item(thermal:beekeeper_chestplate)item(kubejs:cactus_chestplate))"
 						}
 					}
 					type: "item"
@@ -355,7 +367,7 @@
 							display: {
 								Name: "{\"text\":\"Early Game Leggings\"}"
 							}
-							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_leggings)item(minecraft:leather_leggings)item(thermal:beekeeper_leggings))"
+							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_leggings)item(minecraft:leather_leggings)item(thermal:beekeeper_leggings)item(kubejs:cactus_leggings))"
 						}
 					}
 					type: "item"
@@ -369,7 +381,7 @@
 							display: {
 								Name: "{\"text\":\"Early Game Boots\"}"
 							}
-							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_boots)item(minecraft:leather_boots)item(thermal:beekeeper_boots))"
+							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_boots)item(minecraft:leather_boots)item(thermal:beekeeper_boots)item(kubejs:cactus_boots))"
 						}
 					}
 					type: "item"
@@ -1638,6 +1650,7 @@
 		}
 		{
 			dependencies: ["6814EBB8BDED9EEE"]
+			icon: "minecraft:leather_horse_armor"
 			id: "5F3492DDB5A1328A"
 			optional: true
 			rewards: [

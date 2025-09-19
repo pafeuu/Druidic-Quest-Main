@@ -1097,22 +1097,22 @@
 			id: "30B689B22757873D"
 			rewards: [
 				{
+					id: "0BF495DC80A40AE1"
+					item: "twilightforest:magic_map"
+					type: "item"
+				}
+				{
 					exclude_from_claim_all: true
 					icon: {
 						Count: 1
-						id: "irons_spellbooks:claymore"
+						id: "kubejs:stone_claymore"
 						tag: {
 							Damage: 0
 						}
 					}
-					id: "015B578C37712CB6"
-					table_id: 8160716774924117242L
+					id: "4220E26CE82852E6"
+					table_id: 5303927485161658712L
 					type: "choice"
-				}
-				{
-					id: "0BF495DC80A40AE1"
-					item: "twilightforest:magic_map"
-					type: "item"
 				}
 			]
 			shape: "rsquare"

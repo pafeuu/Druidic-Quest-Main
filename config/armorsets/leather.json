@@ -4,7 +4,6 @@
   "head": {
     "itemKey": "minecraft:leather_helmet",
     "mixAndMatch": [
-      "immersiveengineering:glider",
       "irons_spellbooks:wandering_magician_helmet"
     ],
     "mustBeEmpty": false
@@ -20,7 +19,6 @@
   "legs": {
     "itemKey": "minecraft:leather_leggings",
     "mixAndMatch": [
-      "immersiveengineering:glider",
       "irons_spellbooks:wandering_magician_leggings"
     ],
     "mustBeEmpty": false
@@ -28,24 +26,12 @@
   "boots": {
     "itemKey": "minecraft:leather_boots",
     "mixAndMatch": [
-      "immersiveengineering:glider",
       "irons_spellbooks:wandering_magician_boots"
     ],
     "mustBeEmpty": false
   },
-  "fullSetBonuses": [
-    {
-      "type": "attribute",
-      "name": "minecraft:generic.movement_speed",
-      "value": 0.2,
-      "modifierUUID": "d5a7dc88-9405-4398-b1e5-250b4c6dd218",
-      "description": "+20% movement speed",
-      "attributeOperation": 2,
-      "interactionType": "self",
-      "interactionDuration": 300,
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
     {
       "type": "attribute",
       "name": "alembic:ice_damage.resistance",
@@ -59,6 +45,20 @@
       "value": 2,
       "modifierUUID": "d5a7dc88-9405-4398-b1e5-250b4c6dd228",
       "description": "+2 nature resistance"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "modifierUUID": "d5a7dc88-9405-4398-b1e5-250b4c6dd218",
+      "description": "+20% movement speed",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
     },
     {
       "type": "attribute",
