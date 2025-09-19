@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(o)$(l)WIP"
+            "text": "Having obtained the Alpha Yeti's fur, you may now brave the frigid Aurora Palace.$(br2)Surrounded by glacial ice, the ethereal palace towers over the landscape."
         },
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(2br)$(o)$(l)WIP"
+            "text": "$(br2)$(br)You must find your way to the top of the palace to find Her Highness, the Ice Queen. She is merciless and cold, and the way up is guarded by her icy minions."
         }
     ]
 }

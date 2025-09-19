@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(o)$(l)WIP"
+            "text": "Found buried in large sky islands, the entrance to the dungeon may be all you can see from the outside."
         },
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(2br)$(o)$(l)WIP"
+            "text": "$(br2)$(br)Making your way into the dungeon, you will encounter both sentries and mimics on your way to defeat the Slider."
         }
     ]
 }

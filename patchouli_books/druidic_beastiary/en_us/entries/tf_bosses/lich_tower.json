@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(o)$(l)WIP"
+            "text": "A strange, solitary tower stands in the midst of the forest. The eerie noises emanating from within warn of the ghoulish encounter that awaits. The tower is sealed by the unholy powers of the Lich residing within. Only those who have proven themselves against the great Naga may break the walls of the tower to confront its spectral master."
         },
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(2br)$(o)$(l)WIP"
+            "text": "$(br2)$(br2)Once inside, you must make your way past the Death Tomes and the undead minions you find there to the top of the tower. There, you will encounter the master of the tower, the Lich. Be sure to keep your eyes on him!"
         }
     ]
 }

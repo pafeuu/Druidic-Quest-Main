@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(o)$(l)WIP"
+            "text": "Peeking out from the sides of the sky islands, you find the remains of an ancient Laboratory. Experiments left behind, paused in the process of completion...$(br2)What happened here...?"
         },
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(2br)$(o)$(l)WIP"
+            "text": "$(br2)$(br)One thing is certain: the only thing left alive in this place is the most monstrous version of an Aechor Plant you've ever seen..."
         }
     ]
 }

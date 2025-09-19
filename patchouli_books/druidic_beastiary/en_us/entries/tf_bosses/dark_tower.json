@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(o)$(l)WIP"
+            "text": "In the pitch-black center of the Dark Forest, you will find an enormous tower reaching high above the canopy. Heat emanates from the strange wood of the tower and you hear ghastly noises coming from within, giving ominous warnings of the danger that awaits."
         },
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(2br)$(o)$(l)WIP"
+            "text": "$(br2)$(br)To find the dreadful Ur-Ghast, you must make your way to the very top of the tower, facing hordes of fiery creatures as you puzzle your way up.$(br2)Be careful you don't fall! The height of the tower is as dangerous as the monsters."
         }
     ]
 }

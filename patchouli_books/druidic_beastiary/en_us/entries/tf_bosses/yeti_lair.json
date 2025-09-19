@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(o)$(l)WIP"
+            "text": "Upon defeating the Ur-Ghast, you will be imbued with the fiery strength needed to endure the frigid cold of the Snowy Forest, where you will find the yetis in their lair."
         },
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(2br)$(o)$(l)WIP"
+            "text": "$(br2)$(br)The Alpha Yeti is immensely powerful and cannot be defeated without the strength given by the defeat of the Ur-Ghast. The smaller yetis that live with him in the lair will support him in battle."
         }
     ]
 }

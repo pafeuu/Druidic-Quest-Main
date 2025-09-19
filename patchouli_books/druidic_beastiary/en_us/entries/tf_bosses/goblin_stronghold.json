@@ -3,15 +3,15 @@
     "category": "patchouli:tf_bosses",
     "icon": "twilightforest:lich_tower_miniature_structure",
     "entry_color": "3a4e19",
-    "sortnum": 10,
+    "sortnum": 11,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(o)$(l)WIP"
+            "text": "Venturing into the ever-night of the Dark Forest, you find a strange brick structure buried in the groud. Next to one of the many entrances, you find a mysterious pedestal. Perhaps it holds the key to the way inside...?"
         },
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(2br)$(o)$(l)WIP"
+            "text": "$(2br)Wandering the maze-like halls, you will face helmet crabs and goblins, along with redcaps and any number of other mobs as you make your way to the Knight Phantom. The labyrinthine collection of halls and stairways has been know to keep players running in circles for hours. Beware you don't get lost!"
         }
     ]
 }

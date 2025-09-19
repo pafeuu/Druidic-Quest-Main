@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(o)$(l)WIP"
+            "text": "Within a spherical island topped with golden oaks, you will find the abode of the Sun Spirit.$(br2)Defeating him will give you the power to control the rising and setting of the sun."
         },
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(2br)$(o)$(l)WIP"
+            "text": ""
         }
     ]
 }

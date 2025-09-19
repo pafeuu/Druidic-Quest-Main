@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(o)$(l)WIP"
+            "text": "In the midst of the Cloud biome, you come across a floating citadel with a large courtyard at the center.$(br2)Breaking through the cold aercloud doors, you find your way obstructed by Baby Zephyrs and winding hallways."
         },
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(2br)$(o)$(l)WIP"
+            "text": "$(br2)$(br)Within the center courtyard, you will confront the mighty Eye of the Storm."
         }
     ]
 }

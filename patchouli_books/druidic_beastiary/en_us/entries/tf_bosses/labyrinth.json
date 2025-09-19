@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(o)$(l)WIP"
+            "text": "After defeating the Lich, you come across a strangely opened hill in the midst of the Twilight Swamp. In the center, you find a hole leading into a structure composed of nearly unbreakable stone. Entering without a Maze Map would be ill-advised."
         },
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(2br)$(o)$(l)WIP"
+            "text": "Descending into the dark, you are confronted by hosts of mobs among the confusion of twists and turns. Fight your way through heavy-hitting minotaurs and maze slimes, as well as swarms of beetles and other mobs, to find your way through the Labyrinth to defeat the mighty Minoshroom.$(br2)Eat the Meef Stroganoff to fortify yourself against the heat of the Fire Swamp and find the Hydra in its lair!"
         }
     ]
 }

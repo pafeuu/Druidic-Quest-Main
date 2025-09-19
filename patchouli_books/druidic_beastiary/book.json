@@ -1,6 +1,6 @@
 {
-    "name": "The Druidic Beastiary",
-    "landing_text": "$(o)$(l)The complete guide to damage types and mob resistances!$()$(br2)In $(#3a4e19)$(l)Druidic Quest,$() mobs have resistances and weaknesses which will greatly impact your combat experience.$(br2)$(#3a4e19)$(o)$(l)The Druidic Beastiary$() contains the knowledge you need to gain the upper-hand against whatever foes you may face!",
+    "name": "The Druidic Bestiary",
+    "landing_text": "$(o)$(l)The complete guide to damage types and mob resistances!$()$(br2)In $(#3a4e19)$(l)Druidic Quest,$() mobs have resistances and weaknesses which will greatly impact your combat experience.$(br2)$(#3a4e19)$(o)$(l)The Druidic Bestiary$() contains the knowledge you need to gain the upper-hand against whatever foes you may face!",
     "creative_tab": "minecraft:tools_and_utilities",
     "use_resource_pack": false,
     "model": "patchouli:book_cyan",

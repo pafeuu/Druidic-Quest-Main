@@ -1,0 +1,47 @@
+{
+  "armorSetName": "cactus",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "kubejs:cactus_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "kubejs:cactus_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "kubejs:cactus_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "kubejs:cactus_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "alembic:fire_damage.resistance",
+      "value": 2,
+      "modifierUUID": "d5a7dc33-9335-4299-b1e5-250b4c6dd218",
+      "description": "+2 fire resistance"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:regeneration",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 60,
+      "description": "Regenaration while standing on any sand block!",
+      "conditions": [
+        {
+          "type": "onblock",
+          "extra": "#c:sands"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

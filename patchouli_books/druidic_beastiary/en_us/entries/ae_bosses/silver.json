@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(o)$(l)WIP"
+            "text": "A large, temple-like structure on the surface of the islands, the Silver Dungeon is home to the Valkyrie Queen and her loyal subjects."
         },
         {
             "type": "patchouli:text",
-            "text": "$(2br)$(2br)$(o)$(l)WIP"
+            "text": "$(br2)$(br)The Queen will require you to complete a trial before she will face you, herself.$(br2)Be sure to not dissapoint her..."
         }
     ]
 }

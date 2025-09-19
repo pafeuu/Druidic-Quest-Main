@@ -2788,6 +2788,9 @@ Patch 0.3.2.1
     -DimensionViewer
     -SophisticatedStorageCreateIntegration
     -ArmorDamageLimit
+    -RangedJS
+    -KubejsCurios
+    -ArmorDamageScaling
 
 ### Removed Items:
     -Silent Boots Cover
@@ -2824,6 +2827,21 @@ Patch 0.3.2.1
     -Etherium Smithing Template
     -Valkyrum Smithing Template
     -The Druidic Bestiary
+    -Skyjade Upgrade Parts
+    -Bronze Upgrade Parts
+    -Valkyrum Upgrade Parts
+    -Etherium Upgrade Parts
+    -Steeleaf Upgrade Parts
+    -Arcane Gold Upgrade Parts
+    -Zanite Upgrade Parts
+    -Soulstrider Upgrade Parts
+    -Skyseeker Upgrade Parts
+    -Arcane Plating
+    -Battlemage Cloth
+    -Cactus Helmet
+    -Cactus Chestplate
+    -Cactus Leggings
+    -Cactus Boots
 
 ### Removed Items:
     -Aether's Freezer
@@ -2866,9 +2884,12 @@ Patch 0.3.2.1
     -Added Automation Chapter(Work in progress)
     -Added Storage Chapter(Work in progress)
     -Fixed Github and Discord link
+    -Added one time purchase Quests to the early game
 
 ### Worldgen:
     -Changed Stalactites in TF hills
+    
+    -Waystones should spawn in almost every village now
     -Following blocks will no longer appear in structures:
         -Blaze Burner
         -Mechanical Mixer

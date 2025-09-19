@@ -1,0 +1,17 @@
+{
+    "name": "✧❦❦❦❦❦✧",
+    "category": "patchouli:tf_bosses",
+    "icon": "forbidden_arcanus:arcane_crystal_dust_speck",
+    "entry_color": "3a4e19",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(br2)❦This page is a placeholder.❦"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(br2)$(br2)$(br)❦This page is a placeholder.❦"
+        }
+    ]
+}
