@@ -1,0 +1,12 @@
+{
+  "mbd2:elemental_binding": {
+    "order": 40,
+    "sort": "none",
+    "icon": {
+      "stack": "item:mbd2:elemental_binder"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mbd2:recycling": {
+    "order": 180,
+    "sort": "none",
+    "icon": {
+      "stack": "item:mbd2:basic_recycler"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}
