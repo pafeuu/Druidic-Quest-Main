@@ -1269,15 +1269,7 @@ ServerEvents.recipes(event => {
 			B: "alexsmobs:shed_snake_skin"
 		}
 	).id("farmersdelight:diamond_knife")
-	const FieryTools = ["pickaxe","sword"]
-	FieryTools.forEach(id => {
-		event.shaped("twilightforest:fiery_"+id,[" I ","IPI"," I "],
-		{
-			I: "#forge:ingots/fiery",
-			P: "iron_"+id
-		}
-	)
-	});
+	
 
 	
 	event.smithing("create:copper_diving_boots","#forge:storage_blocks/lead","kubejs:copper_boots","ars_nouveau:water_essence").id("create:crafting/appliances/copper_diving_boots")
@@ -1988,46 +1980,9 @@ ServerEvents.recipes(event => {
 	
 	event.shapeless("irons_spellbooks:iron_spell_book",["ars_nouveau:source_gem","irons_spellbooks:copper_spell_book","enigmaticlegacy:iron_ring"]).id("irons_spellbooks:iron_spell_book")
 
-	
 	event.shapeless("irons_spellbooks:gold_spell_book",["irons_spellbooks:arcane_ingot","irons_spellbooks:iron_spell_book","irons_spellbooks:silver_ring"]).id("irons_spellbooks:gold_spell_book")
 
-	
 	event.shapeless("irons_spellbooks:diamond_spell_book",["irons_spellbooks:energized_core","irons_spellbooks:gold_spell_book","irons_spellbooks:mana_ring"]).id("irons_spellbooks:diamond_spell_book")
-                    	   
-    tooltype.forEach(id => {
-        event.smithing(
-            'naturesaura:infused_iron_'+id,
-            // This is a custome template you can add any item here it dose not need to be a template.
-            'kubejs:botanist_upgrade_smithing_template', 
-            // This is the item you wish to upgrade. If it contains a custome name or enchantment it will transfer it to the upgrade.
-            Item.of('minecraft:iron_'+id).ignoreNBT(), 
-            // This can be any item perf the material you with to upgrade to.
-            'naturesaura:infused_iron'
-            )
-
-        event.smithing(
-                'minecraft:netherite_'+id,
-                // This is a custome template you can add any item here it dose not need to be a template.
-                'minecraft:netherite_upgrade_smithing_template', 
-                // This is the item you wish to upgrade. If it contains a custome name or enchantment it will transfer it to the upgrade.
-                Item.of('minecraft:diamond_'+id).ignoreNBT(), 
-                // This can be any item perf the material you with to upgrade to.
-                '#forge:plates/netherite'
-        )
-
-		event.smithing(
-			'naturesaura:sky_'+id,
-			// This is a custome template you can add any item here it dose not need to be a template.
-			'kubejs:skyseeker_upgrade_smithing_template', 
-			// This is the item you wish to upgrade. If it contains a custome name or enchantment it will transfer it to the upgrade.
-			Item.of('diamond_'+id).ignoreNBT(), 
-			// This can be any item perf the material you with to upgrade to.
-			'naturesaura:sky_ingot'
-		)
-
-		event.smithing('golden_'+id,'kubejs:gold_upgrade_smithing_template',Item.of('kubejs:silver_'+id),'kubejs:gold_upgrade_parts')
-		event.smithing("immersiveengineering:"+id+"_steel",'kubejs:steel_upgrade_smithing_template',"naturesaura:infused_iron_"+id,'kubejs:steel_upgrade_parts')
-    });
 
 	event.smithing("farmersdelight:golden_knife",'kubejs:gold_upgrade_smithing_template','kubejs:silver_knife','kubejs:gold_upgrade_parts').id("farmersdelight:golden_knife")
 

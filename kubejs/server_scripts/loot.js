@@ -93,6 +93,16 @@ LootJS.modifiers((event) => {
         .replaceLoot("minecraft:iron_horse_armor", "create:iron_sheet")
         .replaceLoot("minecraft:golden_horse_armor", "create:iron_sheet")
         .replaceLoot("irons_spellbooks:magic_cloth","kubejs:arcane_leather")
+        .replaceLoot("ancient_aether:valkyrum_helmet","kubejs:skyseeker_upgrade_smithing_template")
+        .replaceLoot("ancient_aether:valkyrum_boots","kubejs:skyseeker_upgrade_smithing_template")
+        .replaceLoot("ancient_aether:valkyrum_chestplate","3x ancient_debris")
+        .replaceLoot("ancient_aether:valkyrum_leggings","2x ancient_debris")
+        .replaceLoot("ancient_aether:valkyrum_axe","2x irons_spellbooks:arcane_debris")
+        .replaceLoot("ancient_aether:valkyrum_pickaxe","2x irons_spellbooks:arcane_debris")
+        .replaceLoot("ancient_aether:valkyrum_gloves","irons_spellbooks:arcane_debris")
+        .replaceLoot("ancient_aether:valkyrum_shovel","forbidden_arcanus:stella_arcanum")
+        .replaceLoot("ancient_aether:valkyrum_sword","forbidden_arcanus:stella_arcanum")
+        .replaceLoot("ancient_aether:valkyrum_hoe","forbidden_arcanus:stella_arcanum")
 
     // ====================================================Iron's
     event.addLootTableModifier("irons_spellbooks:chests/filler_storage_loot")

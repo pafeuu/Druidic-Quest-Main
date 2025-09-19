@@ -8,12 +8,6 @@
       "stack": "item:enigmaticlegacy:enigmatic_elytra{Damage:0}"
     },
     {
-      "stack": "item:enigmaticlegacy:fabulous_scroll"
-    },
-    {
-      "stack": "item:enigmaticlegacy:xp_scroll"
-    },
-    {
       "stack": {
         "type": "item",
         "id": "enigmaticlegacy:ender_rod",
@@ -69,33 +63,10 @@
       "stack": "item:wizards_reborn:alchemy_machine"
     },
     {
-      "stack": "item:enigmaticlegacy:escape_scroll"
-    },
-    {
       "stack": "item:enigmaticlegacy:heaven_scroll"
     },
     {
-      "stack": "item:enigmaticlegacy:thicc_scroll"
-    },
-    {
-      "stack": "item:enigmaticlegacy:fabulous_scroll"
-    },
-    {
-      "stack": "item:enigmaticlegacy:cursed_scroll"
-    },
-    {
-      "stack": "item:enigmaticlegacy:avarice_scroll"
-    },
-    {
       "stack": "item:enigmaticlegacy:darkest_scroll"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "ars_nouveau:magebloom_fiber",
-        "amount": 4
-      },
-      "recipe": "ars_nouveau:magebloom_fiber"
     },
     {
       "stack": "item:ars_nouveau:ritual_awakening",
@@ -114,16 +85,6 @@
     },
     {
       "stack": "item:biomeswevegone:mossy_stone"
-    },
-    {
-      "stack": "item:forbidden_arcanus:obsidian_skull",
-      "recipe": "forbidden_arcanus:obsidian_skull"
-    },
-    {
-      "stack": "item:minecraft:book"
-    },
-    {
-      "stack": "item:aether:phoenix_bow{Damage:0}"
     },
     {
       "stack": "item:aether:flaming_sword{Damage:0}"
@@ -160,10 +121,6 @@
       "recipe": "vintageimprovements:craft/vacuum_chamber"
     },
     {
-      "stack": "item:wizards_reborn:wissen_crystallizer",
-      "recipe": "wizards_reborn:shaped/wissen_crystallizer"
-    },
-    {
       "stack": "item:ars_nouveau:jump_ring",
       "recipe": "toomanyrecipeviewers:/ars_nouveau/jump_ring"
     },
@@ -172,36 +129,8 @@
       "recipe": "toomanyrecipeviewers:/ars_nouveau/belt_of_levitation"
     },
     {
-      "stack": "item:ars_nouveau:amulet_of_mana_boost"
-    },
-    {
-      "stack": "item:kubejs:reinforced_tool_handle"
-    },
-    {
       "stack": "item:tide:golden_fishing_rod{Damage:0,bait-contents:{size:0},modifier:{bobber:{},hook:{},line:{}}}",
       "recipe": "tide:gold_rod_smithing"
-    },
-    {
-      "stack": "item:thermal:cured_rubber"
-    },
-    {
-      "stack": "item:deep_aether:bio_crystal"
-    },
-    {
-      "stack": "item:thermal:rubber",
-      "recipe": "thermal:rubber_from_dandelion"
-    },
-    {
-      "stack": "item:thermal:rubber",
-      "recipe": "thermal:rubber_from_vine"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "thermal:rubber",
-        "amount": 3
-      },
-      "recipe": "thermal:rubber_3"
     },
     {
       "stack": "item:ars_nouveau:sorcerer_boots{Damage:0}"
@@ -280,14 +209,6 @@
     {
       "stack": {
         "type": "item",
-        "id": "forbidden_arcanus:edelwood_planks",
-        "amount": 2
-      },
-      "recipe": "forbidden_arcanus:edelwood_planks"
-    },
-    {
-      "stack": {
-        "type": "item",
         "id": "wizards_reborn:steam_pipe",
         "amount": 4
       },
@@ -305,36 +226,10 @@
       "recipe": "create:crafting/logistics/white_postbox"
     },
     {
-      "stack": "item:deep_aether:squall_plate",
-      "recipe": "deep_aether:squall_plate_from_smelting"
-    },
-    {
-      "stack": "item:deep_aether:skyjade_gloves{Damage:0}"
-    },
-    {
-      "stack": "item:minecraft:hay_block"
-    },
-    {
       "stack": "item:forbidden_arcanus:aquatic_dragon_scale"
     },
     {
-      "stack": "item:deep_aether:stratus_smithing_template"
-    },
-    {
-      "stack": "item:forbidden_arcanus:dragon_scale"
-    },
-    {
-      "stack": "item:minecraft:shulker_shell"
-    },
-    {
-      "stack": "item:minecraft:shulker_box",
-      "recipe": "minecraft:shulker_box"
-    },
-    {
       "stack": "item:minecraft:netherite_upgrade_smithing_template"
-    },
-    {
-      "stack": "item:wizards_reborn:arcane_gold_ingot"
     },
     {
       "stack": "item:deep_aether:stormforged_smithing_template"
@@ -357,18 +252,6 @@
       "stack": "item:alexsmobs:shattered_dimensional_carver{Damage:0}"
     },
     {
-      "stack": "item:ars_nouveau:glyph_randomize",
-      "recipe": "toomanyrecipeviewers:/ars_nouveau/glyph_randomize"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "ancient_aether:ancient_rune",
-        "amount": 2
-      },
-      "recipe": "ancient_aether:ancient_rune"
-    },
-    {
       "stack": {
         "type": "item",
         "id": "kubejs:obsidian_upgrade_smithing_template",
@@ -383,9 +266,6 @@
         "amount": 2
       },
       "recipe": "minecraft:kjs/arcane_gold_upgrade_smithing_template"
-    },
-    {
-      "stack": "item:kubejs:skyseeker_upgrade_smithing_template"
     },
     {
       "stack": "item:kubejs:draco_arcanus_upgrade_smithing_template"
@@ -432,14 +312,145 @@
     },
     {
       "stack": "item:vintageimprovements:nickel_rod"
+    },
+    {
+      "stack": "item:aether:phoenix_bow{Damage:0}"
+    },
+    {
+      "stack": "item:deep_aether:storm_sword{Damage:0}",
+      "recipe": "deep_aether:storm_sword_smithing"
     }
   ],
   "lookup_history": [
+    "item:deep_aether:storm_sword{Damage:0}",
+    "item:deep_aether:storm_bow{Damage:0}",
+    "item:twilightforest:fiery_pickaxe{Damage:0}",
+    "item:twilightforest:fiery_sword{Damage:0}",
+    "item:umbral_skies:fiery_gloves{Damage:0}",
+    {
+      "type": "item",
+      "id": "ancient_aether:ancient_rune",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "kubejs:obsidian_upgrade_smithing_template",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "kubejs:arcane_gold_upgrade_smithing_template",
+      "amount": 2
+    },
+    "item:kubejs:draco_arcanus_upgrade_smithing_template",
+    "item:kubejs:skyseeker_upgrade_smithing_template",
+    "item:enigmaticlegacy:cursed_scroll",
+    "item:enigmaticlegacy:enigmatic_elytra{Damage:0}",
+    "item:enigmaticlegacy:xp_scroll",
+    "item:kubejs:reinforced_tool_handle",
+    "item:wizards_reborn:arcane_gold_ingot",
+    "item:aether:valkyrie_cape",
+    "item:biomeswevegone:mossy_stone",
+    "item:minecraft:ancient_debris",
+    "item:forbidden_arcanus:mortem_boots{Damage:0}",
+    "item:forbidden_arcanus:mortem_leggings{Damage:0}",
+    "item:forbidden_arcanus:mortem_chestplate{Damage:0}",
+    "item:forbidden_arcanus:mortem_helmet{Damage:0}",
+    "item:twilightforest:knightmetal_helmet{Damage:0}",
+    "item:kubejs:knightmetal_upgrade_smithing_template",
+    "item:naturesaura:infused_iron_helmet{Damage:0}",
+    "item:kubejs:botanist_upgrade_smithing_template",
+    "item:irons_spellbooks:pumpkin_helmet{Damage:0}",
+    "item:kubejs:scarecrow_upgrade_smithing_template",
+    "item:kubejs:bronze_chestplate{Damage:0}",
+    "item:kubejs:bronze_upgrade_smithing_template",
+    "item:irons_spellbooks:wandering_magician_helmet{Damage:0}",
+    "item:kubejs:wandering_magician_upgrade_smithing_template",
+    "item:kubejs:engineer_upgrade_smithing_template",
+    "item:immersiveengineering:armor_faraday_chestplate",
+    "item:ancient_aether:valkyrum_pickaxe{Damage:0}",
+    "item:kubejs:valkyrum_upgrade_smithing_template",
+    "item:deep_aether:stormforged_helmet{Damage:0}",
+    "item:deep_aether:stormforged_smithing_template",
+    "item:immersiveengineering:armor_faraday_leggings",
+    "item:minecraft:netherite_upgrade_smithing_template",
+    "item:kubejs:steeleaf_upgrade_smithing_template",
+    "item:enigmaticlegacy:etherium_helmet",
+    "item:enigmaticlegacy:etherium_ingot",
+    "item:enigmaticlegacy:etherium_ore",
+    "item:enigmaticlegacy:etherium_pickaxe{Damage:0}",
+    "item:kubejs:etherium_upgrade_smithing_template",
+    "item:forbidden_arcanus:tyr_chestplate{Damage:0}",
+    "item:kubejs:tyr_upgrade_smithing_template",
+    "item:forbidden_arcanus:draco_arcanus_staff",
+    "item:kubejs:lead_helmet{Damage:0}",
+    "item:aether:obsidian_helmet{Damage:0}",
+    "item:kubejs:depth_upgrade_smithing_template",
+    "item:aether:obsidian_chestplate{Damage:0}",
+    "item:naturesaura:sky_pickaxe{Damage:0}",
+    "item:naturesaura:sky_chest{Damage:0}",
+    "item:naturesaura:sky_helmet{Damage:0}",
+    "item:naturesaura:sky_shovel{Damage:0}",
+    "item:naturesaura:farming_stencil",
+    "item:naturesaura:depth_shovel{Damage:0}",
+    "item:wizards_reborn:arcane_fortress_helmet{Damage:0,arcaneEnchantments:{}}",
+    "item:kubejs:arcane_fortress_upgrade_smithing_template",
+    "item:irons_spellbooks:netherite_mage_helmet{Damage:0}",
+    "item:kubejs:netherite_battlemage_upgrade_smithing_template",
+    "item:wizards_reborn:arcane_gold_helmet{Damage:0,arcaneEnchantments:{}}",
+    "item:kubejs:phoenix_upgrade_smithing_template",
+    "item:aether:phoenix_gloves{Damage:0}",
+    "item:aether:phoenix_bow{Damage:0}",
+    "item:aether:phoenix_chestplate{Damage:0}",
+    "item:immersiveengineering:pickaxe_steel",
+    "item:kubejs:steel_upgrade_smithing_template",
+    "item:twilightforest:fiery_chestplate{Damage:0}",
+    "item:kubejs:fiery_upgrade_smithing_template",
+    "item:immersiveengineering:armor_steel_helmet",
+    "item:twilightforest:fiery_helmet{Damage:0}",
+    "item:aether:zanite_helmet{Damage:0}",
+    "item:kubejs:zanite_upgrade_smithing_template",
+    "item:deep_aether:skyjade_helmet{Damage:0}",
+    "item:kubejs:skyjade_upgrade_smithing_template",
+    "item:minecraft:golden_chestplate{Damage:0}",
+    "item:minecraft:golden_pickaxe{Damage:0}",
+    "item:kubejs:gold_upgrade_smithing_template",
+    "item:deep_aether:skyjade_leggings{Damage:0}",
+    "item:deep_aether:skyjade_boots{Damage:0}",
+    "item:deep_aether:skyjade_gloves{Damage:0}",
+    "item:kubejs:cactus_boots{Damage:0}",
+    "item:kubejs:cactus_chestplate{Damage:0}",
+    "item:kubejs:cactus_leggings{Damage:0}",
+    "item:kubejs:cactus_helmet{Damage:0}",
+    "item:minecraft:cactus",
+    "item:naturesaura:aura_cactus",
+    "item:biomeswevegone:carved_barrel_cactus",
+    "item:kubejs:golden_magic_feather{Damage:0}",
+    "item:irons_spellbooks:netherite_mage_chestplate{Damage:0,ISB_Spells:{data:[],maxSpells:1,mustEquip:1b,spellWheel:1b}}",
+    "item:deep_aether:squall_plate",
+    "item:deep_aether:stormforged_chestplate{Damage:0}",
+    "item:aether:neptune_boots{Damage:0}",
+    "item:mbd2:elemental_binder",
+    "item:mbd2:elemental_evaporator",
+    "item:sophisticatedstorage:crafting_upgrade",
+    "item:irons_spellbooks:lightning_bottle",
+    "item:deep_aether:purple_squash_slice",
+    "item:forbidden_arcanus:dragon_scale",
+    "item:forbidden_arcanus:aquatic_dragon_scale",
+    "item:forbidden_arcanus:obsidian_ingot",
+    "item:vintageimprovements:knightmetal_sheet",
+    "item:twilightforest:armor_shard",
+    "item:twilightforest:armor_shard_cluster",
+    "item:twilightforest:knightmetal_ingot",
+    "item:twilightforest:knightmetal_chestplate{Damage:0}",
+    "item:twilightforest:knightmetal_leggings{Damage:0}",
+    "item:twilightforest:knightmetal_boots{Damage:0}",
+    "item:irons_spellbooks:magic_cloth",
+    "item:twilightforest:phantom_helmet{Damage:0}",
     "item:thermal:nickel_gear",
     "item:mbd2:basic_recycler",
     "item:thermal:enderium_ingot",
     "item:twilightforest:phantom_chestplate{Damage:0}",
-    "item:wizards_reborn:arcane_gold_ingot",
     "item:forbidden_arcanus:deorum_ingot",
     "item:thermal:lightning_tnt",
     "item:kubejs:lightning_essence",
@@ -454,7 +465,6 @@
     "item:twilightforest:steeleaf_helmet{Damage:0}",
     "item:umbral_skies:ironwood_gloves{Damage:0}",
     "item:umbral_skies:steeleaf_gloves{Damage:0}",
-    "item:kubejs:steeleaf_upgrade_smithing_template",
     "item:twilightforest:steeleaf_chestplate{Damage:0}",
     "item:quark:dragon_scale",
     "item:minecraft:dragon_egg",
@@ -464,18 +474,8 @@
     "item:simplemagnets:basicmagnet{}",
     "item:simplemagnets:basic_demagnetization_coil",
     "item:simplemagnets:advanced_demagnetization_coil",
-    "item:kubejs:scarecrow_upgrade_smithing_template",
-    {
-      "type": "item",
-      "id": "kubejs:obsidian_upgrade_smithing_template",
-      "amount": 2
-    },
-    "item:deep_aether:skyjade_gloves{Damage:0}",
-    "item:deep_aether:stormforged_smithing_template",
-    "item:kubejs:botanist_upgrade_smithing_template",
     "item:minecraft:goat_spawn_egg",
     "item:irons_spellbooks:dragonskin_spell_book{ISB_Spells:{data:[],maxSpells:12,mustEquip:1b,spellWheel:1b}}",
-    "item:forbidden_arcanus:dragon_scale",
     "item:aether:blue_aercloud",
     "item:thermal:silver_coin",
     "item:deep_aether:chromatic_aercloud",
@@ -489,12 +489,9 @@
       "id": "thermal:fluid_duct",
       "amount": 2
     },
-    "item:irons_spellbooks:pumpkin_helmet{Damage:0}",
-    "item:irons_spellbooks:magic_cloth",
     "item:wizards_reborn:experience_totem",
     "item:amendments:dragon_charge",
     "item:forbidden_arcanus:silver_dragon_scale",
-    "item:forbidden_arcanus:aquatic_dragon_scale",
     "item:kubejs:elemental_cloth",
     "item:kubejs:arcane_leather",
     "item:irons_spellbooks:pumpkin_chestplate{Damage:0}",
@@ -504,7 +501,6 @@
     "item:vintagedelight:chocolate_nut_granola_bar",
     "item:alexsmobs:squid_grapple{Damage:0}",
     "item:create:wand_of_symmetry",
-    "item:kubejs:skyseeker_upgrade_smithing_template",
     "item:create:stockpile_switch",
     "item:create:content_observer",
     "item:wizards_reborn:redstone_sensor",
@@ -513,16 +509,6 @@
     "item:create:contraption_controls",
     "item:create:display_board",
     "item:wizards_reborn:totem_base",
-    "item:kubejs:zanite_upgrade_smithing_template",
-    "item:kubejs:skyjade_upgrade_smithing_template",
-    "item:kubejs:draco_arcanus_upgrade_smithing_template",
-    {
-      "type": "item",
-      "id": "kubejs:arcane_gold_upgrade_smithing_template",
-      "amount": 2
-    },
-    "item:kubejs:arcane_fortress_upgrade_smithing_template",
-    "item:kubejs:depth_upgrade_smithing_template",
     "item:simplemagnets:advancedmagnet",
     "item:twigs:bronzed_seashell",
     "item:twilightforest:crumble_horn{Damage:0}",
@@ -547,7 +533,6 @@
     "item:kubejs:basic_mortar{Damage:0}",
     "item:irons_spellbooks:amethyst_rapier{Damage:0,ISB_Spells:{data:[{id:\"irons_spellbooks:echoing_strikes\",index:0,level:5,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
     "item:immersiveengineering:survey_tools{Damage:0}",
-    "item:kubejs:reinforced_tool_handle",
     "item:create:brown_toolbox",
     "item:create:orange_toolbox",
     "item:kubejs:builders_belt",
@@ -563,19 +548,6 @@
     "item:forbidden_arcanus:darkstone_upgrade_smithing_template",
     "item:thermal:flux_magnet",
     "item:immersiveengineering:toolupgrade_shield_magnet",
-    "item:kubejs:tyr_upgrade_smithing_template",
-    "item:kubejs:netherite_battlemage_upgrade_smithing_template",
-    "item:kubejs:knightmetal_upgrade_smithing_template",
-    "item:kubejs:etherium_upgrade_smithing_template",
-    "item:kubejs:fiery_upgrade_smithing_template",
-    "item:kubejs:steel_upgrade_smithing_template",
-    "item:kubejs:phoenix_upgrade_smithing_template",
-    "item:minecraft:netherite_upgrade_smithing_template",
-    "item:kubejs:engineer_upgrade_smithing_template",
-    "item:kubejs:wandering_magician_upgrade_smithing_template",
-    "item:kubejs:bronze_upgrade_smithing_template",
-    "item:kubejs:gold_upgrade_smithing_template",
-    "item:kubejs:valkyrum_upgrade_smithing_template",
     "item:deep_aether:raw_clorite",
     "item:irons_spellbooks:keeper_spawn_egg",
     "item:minecraft:pig_spawn_egg",
@@ -605,20 +577,8 @@
     },
     "item:kubejs:broken_spawner",
     "item:deep_aether:stratus_smithing_template",
-    "item:deep_aether:skyjade_leggings{Damage:0}",
-    "item:deep_aether:squall_plate",
-    "item:twilightforest:armor_shard",
-    "item:twilightforest:armor_shard_cluster",
-    "item:twilightforest:knightmetal_ingot",
-    "item:twilightforest:knightmetal_chestplate{Damage:0}",
-    "item:deep_aether:stormforged_helmet{Damage:0}",
     "item:aether:zephyr_spawn_egg",
     "item:alexsmobs:spawn_egg_guster",
-    {
-      "type": "item",
-      "id": "ancient_aether:ancient_rune",
-      "amount": 2
-    },
     "item:aether:enchanted_gravitite",
     "item:deep_aether:cobbled_aseterite",
     "item:deep_aether:aseterite",
@@ -627,7 +587,6 @@
     "item:deep_aether:goldenleaf_berries",
     "item:deep_aether:bio_crystal",
     "item:deep_aether:green_squash_slice",
-    "item:deep_aether:storm_bow{Damage:0}",
     "item:deep_aether:stratus_hoe{Damage:0}",
     "item:deep_aether:aether_mud",
     "item:deep_aether:lightcap_mushroom_block",
@@ -710,7 +669,6 @@
     "item:irons_spellbooks:cooldown_rune",
     "item:irons_spellbooks:cooldown_upgrade_orb",
     "item:immersiveengineering:armor_faraday_helmet",
-    "item:immersiveengineering:pickaxe_steel",
     "item:immersiveengineering:plate_steel",
     "item:astrological:light_jade_tiles",
     "item:astrological:purpurite_blob",
@@ -781,7 +739,6 @@
     "item:irons_spellbooks:archevoker_leggings{Damage:0}",
     "item:ars_nouveau:sorcerer_leggings{Damage:0}",
     "item:irons_spellbooks:arcane_essence",
-    "item:irons_spellbooks:wandering_magician_helmet{Damage:0}",
     "item:wizards_reborn:arcane_linen_seeds",
     "item:ars_nouveau:magebloom_crop",
     "item:ars_nouveau:magebloom",
@@ -839,7 +796,6 @@
     "item:kubejs:rainbow_magic_feather{Damage:0}",
     "item:twilightforest:mazebreaker_pickaxe{Damage:0}",
     "item:twilightforest:tower_key",
-    "item:twilightforest:knightmetal_helmet{Damage:0}",
     "item:twilightforest:knightmetal_shield{Damage:0}",
     "item:kubejs:sacrificial_dagger{Damage:0}",
     "item:ancient_aether:valkyrum_boots{Damage:0}",
@@ -884,7 +840,6 @@
     "item:create:pulse_timer",
     "item:deep_aether:stormforged_gloves{Damage:0}",
     "item:deep_aether:skyjade_chestplate{Damage:0}",
-    "item:deep_aether:storm_sword{Damage:0}",
     "item:create:pulp",
     "item:create:cardboard_block",
     "item:create:package_filter",
@@ -925,12 +880,9 @@
     "item:kubejs:lead_pickaxe{Damage:0}",
     "item:kubejs:bronze_pickaxe{Damage:0}",
     "item:kubejs:copper_pickaxe{Damage:0}",
-    "item:enigmaticlegacy:etherium_pickaxe{Damage:0}",
-    "item:twilightforest:fiery_pickaxe{Damage:0}",
     "item:twilightforest:knightmetal_pickaxe{Damage:0}",
     "item:twilightforest:steeleaf_pickaxe{Damage:0,Enchantments:[{id:\"minecraft:fortune\",lvl:2s}]}",
     "item:alexsmobs:ghostly_pickaxe{Damage:0}",
-    "item:ancient_aether:valkyrum_pickaxe{Damage:0}",
     "item:ancient_aether:divine_pickaxe{Damage:0}",
     "item:deep_aether:skyjade_pickaxe{Damage:0}",
     "item:aether:zanite_pickaxe{Damage:0}",
@@ -968,7 +920,6 @@
     "item:forbidden_arcanus:soul",
     "item:alexsmobs:spawn_egg_mimic_octopus",
     "item:alexsmobs:spawn_egg_flying_fish",
-    "item:forbidden_arcanus:tyr_chestplate{Damage:0}",
     "item:forbidden_arcanus:spectral_eye_amulet{}",
     "item:alexsmobs:spiked_scute",
     "item:alexsmobs:spawn_egg_blue_jay",
@@ -1482,7 +1433,7 @@
     "item:vintagedelight:pickled_pepper",
     "item:vintagedelight:roasted_peanut",
     "item:farmersdelight:cabbage_rolls",
-    "#item:forge:crops/rice",
+    "#item:forge:grain/rice",
     "item:farmersdelight:vegetable_noodles",
     "item:farmersdelight:roasted_mutton_chops",
     "item:farmersdelight:mushroom_rice",
@@ -1588,100 +1539,7 @@
       "nbt": "{Bottle:\"SPLASH\",Potion:\"alexsmobs:soulsteal\"}",
       "amount": 437
     },
-    "item:minecraft:splash_potion{Potion:\"alexsmobs:soulsteal\"}",
-    [
-      "item:minecraft:splash_potion{Potion:\"alexsmobs:soulsteal\"}",
-      "item:minecraft:splash_potion{Potion:\"alexsmobs:long_soulsteal\"}",
-      "item:minecraft:splash_potion{Potion:\"alexsmobs:strong_soulsteal\"}"
-    ],
-    "item:kubejs:twilight_tome",
-    "item:enigmaticlegacy:enchantment_transposer",
-    "item:immersiveengineering:axe_steel{Damage:1}",
-    "item:minecraft:iron_pickaxe{Damage:0}",
-    "item:enigmaticlegacy:the_twist",
-    "item:twilightforest:ice_sword{Damage:9}",
-    "item:enigmaticlegacy:the_acknowledgment",
-    "item:immersiveengineering:ingot_uranium",
-    "item:ars_nouveau:agronomic_sourcelink",
-    "item:immersiveengineering:alloybrick",
-    "item:naturesaura:infused_brick",
-    "item:minecraft:minecart",
-    "item:kubejs:cross_necklace",
-    "item:naturesaura:mover_cart",
-    "item:naturesaura:infused_iron_block",
-    "item:twilightforest:giant_cobblestone",
-    "item:naturesaura:infused_stone",
-    "item:immersive_weathering:loam",
-    "item:kubejs:infused_diamond",
-    "item:kubejs:infused_emerald",
-    "item:naturescompass:naturescompass",
-    {
-      "type": "item",
-      "id": "minecraft:iron_block",
-      "amount": 2
-    },
-    "item:kubejs:infused_amethyst",
-    "item:immersive_weathering:grassy_permafrost",
-    "item:enigmaticlegacy:cosmic_heart",
-    "item:enigmaticlegacy:evil_essence",
-    "item:enigmaticlegacy:enchanter_pearl",
-    "item:enigmaticlegacy:twisted_heart",
-    "item:enigmaticlegacy:curse_transposer",
-    {
-      "type": "item",
-      "id": "enigmaticlegacy:ender_rod",
-      "amount": 2
-    },
-    "item:forbidden_arcanus:clibano_core",
-    "item:immersive_weathering:steel_wool{Damage:0}",
-    "item:twilightforest:ironwood_helmet{Damage:0,Enchantments:[{id:\"minecraft:aqua_affinity\",lvl:1s}]}",
-    "item:minecraft:tinted_glass",
-    "item:enigmaticlegacy:astral_fruit",
-    "item:naturesaura:crushing_catalyst",
-    "item:naturesaura:nature_altar",
-    "item:naturesaura:sky_helmet{Damage:0}",
-    "item:biomeswevegone:blue_spruce_sapling",
-    "item:ars_nouveau:arcanist_hood{Damage:0}",
-    "item:twilightforest:naga_leggings{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:3s}]}",
-    "item:twilightforest:naga_chestplate{Damage:0,Enchantments:[{id:\"minecraft:fire_protection\",lvl:3s}]}",
-    "item:twilightforest:ironwood_chestplate{Damage:1,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}",
-    "item:twilightforest:ironwood_leggings{Damage:1,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}",
-    "item:twilightforest:raw_ironwood",
-    "item:twilightforest:ironwood_ingot",
-    "item:twilightforest:ironwood_boots{Damage:0,Enchantments:[{id:\"minecraft:feather_falling\",lvl:1s}]}",
-    [
-      "item:ars_nouveau:arcanist_boots{Damage:0,an_stack_perks:{color:\"\",perks:[],tier:1}}",
-      "item:ars_nouveau:battlemage_leggings{Damage:0,an_stack_perks:{color:\"\",perks:[],tier:1}}",
-      "item:ars_nouveau:arcanist_robes{Damage:0,an_stack_perks:{color:\"\",perks:[],tier:1}}",
-      "item:ars_nouveau:battlemage_hood{Damage:0,an_stack_perks:{color:\"\",perks:[],tier:1}}",
-      "item:ars_nouveau:battlemage_robes{Damage:0,an_stack_perks:{color:\"\",perks:[],tier:1}}",
-      "item:ars_nouveau:battlemage_boots{Damage:0,an_stack_perks:{color:\"\",perks:[],tier:1}}",
-      "item:ars_nouveau:sorcerer_boots{Damage:0,an_stack_perks:{color:\"\",perks:[],tier:1}}",
-      "item:ars_nouveau:sorcerer_hood{Damage:0,an_stack_perks:{color:\"\",perks:[],tier:1}}",
-      "item:ars_nouveau:arcanist_leggings{Damage:0,an_stack_perks:{color:\"\",perks:[],tier:1}}",
-      "item:ars_nouveau:sorcerer_robes{Damage:0,an_stack_perks:{color:\"\",perks:[],tier:1}}",
-      "item:ars_nouveau:sorcerer_leggings{Damage:0,an_stack_perks:{color:\"\",perks:[],tier:1}}",
-      "item:ars_nouveau:arcanist_hood{Damage:0,an_stack_perks:{color:\"\",perks:[],tier:1}}"
-    ],
-    "item:ars_nouveau:arcanist_boots{Damage:0}",
-    "item:ars_nouveau:battlemage_hood{Damage:0}",
-    "item:twilightforest:steeleaf_leggings{Damage:0,Enchantments:[{id:\"minecraft:fire_protection\",lvl:2s}]}",
-    "item:farmersdelight:organic_compost",
-    "item:ancient_aether:fluffalo_wool",
-    "#item:minecraft:wool",
-    "item:alexsmobs:flying_fish_boots{Damage:0}",
-    "item:biomeswevegone:water_silk",
-    "item:immersive_weathering:stone_brick",
-    {
-      "type": "item",
-      "id": "minecraft:stone_bricks",
-      "amount": 64
-    },
-    "item:minecraft:sandstone",
-    "item:immersive_weathering:plate_iron",
-    "item:immersive_weathering:exposed_plate_iron",
-    "item:immersive_weathering:weathered_plate_iron",
-    "item:immersive_weathering:rusted_plate_iron"
+    "item:minecraft:splash_potion{Potion:\"alexsmobs:soulsteal\"}"
   ],
   "craft_history": [
     "minecraft:tnt",
@@ -1703,140 +1561,127 @@
   ],
   "recipe_defaults": {
     "added": [
-      "minecraft:kjs/sapphire_block",
-      "minecraft:kjs/copper_rod",
-      "minecraft:kjs/depth_gear",
-      "minecraft:kjs/lead_hoe",
       "minecraft:kjs/copper_boots",
+      "minecraft:kjs/silver_sword",
+      "minecraft:kjs/depth_gear",
+      "minecraft:kjs/fall_boots_cover",
+      "toomanyrecipeviewers:/naturesaura/kjs/dyltlma60eh3n98u1jdz3sgkq",
+      "minecraft:kjs/silver_boots",
+      "minecraft:kjs/lead_helmet",
+      "minecraft:kjs/polished_planks",
+      "toomanyrecipeviewers:/naturesaura/kjs/6uveow00unidabkrgogeom7dn",
+      "toomanyrecipeviewers:/lychee/kjs/bkh0zqki07r17brvuz7j5e0i3",
+      "minecraft:kjs/fiery_rod",
+      "toomanyrecipeviewers:/kubejs/sturdy_excavator",
+      "minecraft:kjs/silver_pickaxe",
+      "minecraft:kjs/gold_leaf_block",
+      "minecraft:kjs/source_alloy_rod",
+      "minecraft:kjs/basic_chisel",
       "kubejs:primitive_chisel",
-      "minecraft:kjs/copper_chestplate",
-      "minecraft:kjs/diamond_rod",
+      "minecraft:kjs/copper_shovel",
+      "toomanyrecipeviewers:/wizards_reborn/arcane_workbench/jeweler_table",
+      "minecraft:kjs/arcanum_alloy_nugget",
       "minecraft:kjs/fiery_nugget",
-      "minecraft:kjs/infused_iron_rod",
+      "minecraft:kjs/lead_leggings",
+      "minecraft:kjs/sky_nugget",
+      "minecraft:kjs/silver_shovel",
+      "minecraft:kjs/arcanum_alloy_block",
+      "minecraft:kjs/ivy_block",
+      "minecraft:kjs/lead_pickaxe",
+      "minecraft:kjs/source_alloy_gear",
+      "minecraft:kjs/rotten_flesh_block",
+      "toomanyrecipeviewers:/wizards_reborn/wissen_crystallizer/cosmic_arcane_lumos",
+      "toomanyrecipeviewers:/wizards_reborn/arcane_workbench/wisestone",
+      "toomanyrecipeviewers:/wizards_reborn/arcane_workbench/arcane_iterator",
+      "minecraft:kjs/sturdy_boots_cover",
+      "toomanyrecipeviewers:/wizards_reborn/wissen_crystallizer/rainbow_arcane_lumos",
+      "minecraft:kjs/infused_iron_nugget",
+      "minecraft:kjs/copper_leggings",
+      "minecraft:kjs/silver_leggings",
+      "toomanyrecipeviewers:/kubejs/primitive_excavator",
+      "minecraft:kjs/primitive_shield",
+      "minecraft:kjs/ironwood_nugget",
+      "minecraft:kjs/primitive_firestarter",
+      "minecraft:kjs/copper_sword",
+      "minecraft:kjs/aluminum_gear",
+      "minecraft:kjs/arcanum_alloy_gear",
+      "minecraft:kjs/copper_pickaxe",
+      "toomanyrecipeviewers:/kubejs/sturdy_mining_hammer",
+      "kubejs:primitive_saw",
+      "minecraft:kjs/copper_hoe",
+      "minecraft:kjs/sapphire_block",
+      "minecraft:kjs/blade_of_grass",
+      "toomanyrecipeviewers:/kubejs/iron_scythe",
+      "toomanyrecipeviewers:/lychee/kjs/1bta30p0mwv6l3hr8vw2bv345",
+      "toomanyrecipeviewers:/kubejs/lead_waraxe",
+      "toomanyrecipeviewers:/kubejs/basic_excavator",
+      "minecraft:kjs/sturdy_deepslate",
+      "minecraft:kjs/sky_rod",
+      "minecraft:kjs/source_alloy_nugget",
+      "minecraft:kjs/infused_iron_gear",
+      "minecraft:kjs/large_enchanting_rune",
+      "minecraft:kjs/zinc_gear",
+      "minecraft:kjs/lead_chestplate",
+      "minecraft:kjs/depth_rod",
       "minecraft:kjs/brass_gear",
       "minecraft:kjs/stainless_steel_gear",
-      "minecraft:kjs/lead_helmet",
-      "minecraft:kjs/ironwood_gear",
-      "toomanyrecipeviewers:/irons_spellbooks/curios/emerald_stoneplate_ring",
-      "minecraft:kjs/source_alloy_gear",
-      "toomanyrecipeviewers:/wizards_reborn/arcane_workbench/wisestone",
-      "minecraft:kjs/lead_sword",
-      "toomanyrecipeviewers:/enigmaticlegacy/iron_ring",
-      "toomanyrecipeviewers:/kubejs/lead_waraxe",
-      "minecraft:kjs/brass_rod",
-      "rubinated_nether:kjs/cpb2z38gpgft9youuax9e4g4o",
-      "minecraft:kjs/ironwood_nugget",
-      "toomanyrecipeviewers:/naturesaura/kjs/9jkeadf1cz4c41gwawdtzcx9s",
-      "minecraft:kjs/blade_of_grass",
-      "toomanyrecipeviewers:/lychee/kjs/1bta30p0mwv6l3hr8vw2bv345",
-      "minecraft:kjs/polished_planks",
-      "toomanyrecipeviewers:/wizards_reborn/arcane_workbench/jeweler_table",
-      "minecraft:kjs/fiery_gear",
-      "minecraft:kjs/copper_shovel",
-      "toomanyrecipeviewers:/kubejs/sturdy_excavator",
-      "toomanyrecipeviewers:/immersiveengineering/cokeoven/coke",
-      "toomanyrecipeviewers:/kubejs/primitive_excavator",
-      "kubejs:sacrificial_dagger",
-      "toomanyrecipeviewers:/ars_nouveau/imbuement_amethyst",
-      "toomanyrecipeviewers:/kubejs/primitive_mining_hammer",
-      "minecraft:kjs/silver_chestplate",
-      "minecraft:kjs/infused_iron_nugget",
-      "minecraft:kjs/sky_nugget",
-      "toomanyrecipeviewers:/lychee/kjs/bkh0zqki07r17brvuz7j5e0i3",
-      "minecraft:kjs/lead_leggings",
-      "minecraft:kjs/basic_chisel",
-      "minecraft:kjs/sky_gear",
-      "minecraft:kjs/flint_spear",
-      "minecraft:kjs/immersiveengineering_sword_steel",
-      "minecraft:kjs/copper_leggings",
-      "minecraft:kjs/zinc_gear",
-      "minecraft:kjs/arcanum_alloy_nugget",
-      "minecraft:kjs/copper_axe",
-      "minecraft:kjs/silver_shovel",
-      "minecraft:kjs/immersiveengineering_axe_steel",
-      "minecraft:kjs/lead_shovel",
-      "minecraft:kjs/fiery_rod",
-      "minecraft:kjs/fall_boots_cover",
-      "minecraft:kjs/packed_planks",
-      "minecraft:kjs/immersiveengineering_shovel_steel",
-      "toomanyrecipeviewers:/wizards_reborn/wissen_crystallizer/cosmic_arcane_lumos",
-      "minecraft:kjs/lead_pickaxe",
-      "minecraft:kjs/andesite_alloy_nugget",
-      "toomanyrecipeviewers:/naturesaura/kjs/6uveow00unidabkrgogeom7dn",
-      "minecraft:kjs/lead_chestplate",
-      "minecraft:kjs/stone_claymore",
-      "minecraft:kjs/immersiveengineering_hoe_steel",
-      "minecraft:kjs/uranium_gear",
-      "minecraft:kjs/lead_axe",
-      "minecraft:kjs/copper_pickaxe",
-      "minecraft:kjs/silver_axe",
-      "kubejs:primitive_mortar",
       "kubejs:basic_mortar",
-      "minecraft:kjs/copper_hoe",
-      "minecraft:kjs/copper_helmet",
-      "minecraft:kjs/primitive_shears",
-      "minecraft:kjs/silver_pickaxe",
-      "minecraft:kjs/source_alloy_nugget",
-      "minecraft:kjs/arcanum_alloy_block",
-      "minecraft:kjs/silver_leggings",
-      "minecraft:kjs/depth_rod",
-      "minecraft:kjs/depth_nugget",
-      "minecraft:kjs/copper_sword",
-      "toomanyrecipeviewers:/lychee/kjs/1m80pklwloi1xy1zq7hmuvqhc",
-      "toomanyrecipeviewers:/kubejs/sturdy_mining_hammer",
-      "toomanyrecipeviewers:/naturesaura/kjs/3702eblyhkn76hgiyi4q65gqj",
-      "minecraft:kjs/sturdy_boots_cover",
-      "toomanyrecipeviewers:/wizards_reborn/arcane_workbench/arcane_iterator",
-      "minecraft:kjs/primitive_shield",
-      "toomanyrecipeviewers:/kubejs/basic_mining_hammer",
-      "minecraft:kjs/sturdy_deepslate",
-      "minecraft:kjs/lead_boots",
-      "minecraft:kjs/knightmetal_nugget",
-      "kubejs:primitive_saw",
-      "minecraft:kjs/tainted_gold_rod",
-      "minecraft:kjs/andesite_gear",
-      "minecraft:kjs/aluminum_gear",
-      "toomanyrecipeviewers:/wizards_reborn/wissen_crystallizer/rainbow_arcane_lumos",
-      "minecraft:kjs/arcanum_alloy_gear",
-      "minecraft:kjs/silver_sword",
-      "minecraft:kjs/tainted_gold_nugget",
-      "minecraft:kjs/silver_boots",
-      "minecraft:kjs/infused_iron_gear",
-      "minecraft:kjs/gold_leaf_block",
-      "toomanyrecipeviewers:/naturesaura/kjs/dyltlma60eh3n98u1jdz3sgkq",
-      "minecraft:kjs/knightmetal_gear",
-      "minecraft:kjs/source_alloy_block",
-      "minecraft:kjs/silver_helmet",
-      "minecraft:kjs/source_alloy_rod",
-      "toomanyrecipeviewers:/kubejs/silver_katana",
-      "minecraft:kjs/primitive_firestarter",
-      "minecraft:kjs/immersiveengineering_pickaxe_steel",
-      "toomanyrecipeviewers:/kubejs/iron_scythe",
-      "minecraft:kjs/ivy_block",
-      "minecraft:kjs/gold_rod",
-      "minecraft:kjs/tainted_gold_gear",
-      "minecraft:kjs/sky_rod",
+      "toomanyrecipeviewers:/naturesaura/kjs/9jkeadf1cz4c41gwawdtzcx9s",
       "toomanyrecipeviewers:/wizards_reborn/arcane_workbench/alchemy_machine",
-      "minecraft:kjs/rotten_flesh_block",
-      "minecraft:kjs/electrum_rod",
-      "toomanyrecipeviewers:/kubejs/basic_excavator",
-      "minecraft:kjs/large_enchanting_rune",
+      "minecraft:kjs/diamond_rod",
       "toomanyrecipeviewers:/lychee/kjs/77kvcloyu0fe4m3rzg10sbkjn",
-      "minecraft:kjs/silver_hoe"
+      "minecraft:kjs/copper_axe",
+      "minecraft:kjs/knightmetal_nugget",
+      "toomanyrecipeviewers:/lychee/kjs/1m80pklwloi1xy1zq7hmuvqhc",
+      "minecraft:kjs/infused_iron_rod",
+      "toomanyrecipeviewers:/immersiveengineering/cokeoven/coke",
+      "minecraft:kjs/packed_planks",
+      "minecraft:kjs/electrum_rod",
+      "minecraft:kjs/lead_axe",
+      "minecraft:kjs/lead_sword",
+      "minecraft:kjs/silver_helmet",
+      "toomanyrecipeviewers:/naturesaura/kjs/3702eblyhkn76hgiyi4q65gqj",
+      "minecraft:kjs/andesite_alloy_nugget",
+      "minecraft:kjs/silver_axe",
+      "minecraft:kjs/brass_rod",
+      "minecraft:kjs/source_alloy_block",
+      "minecraft:kjs/silver_hoe",
+      "toomanyrecipeviewers:/kubejs/silver_katana",
+      "minecraft:kjs/andesite_gear",
+      "rubinated_nether:kjs/cpb2z38gpgft9youuax9e4g4o",
+      "minecraft:kjs/copper_rod",
+      "minecraft:kjs/tainted_gold_rod",
+      "minecraft:kjs/depth_nugget",
+      "minecraft:kjs/primitive_shears",
+      "toomanyrecipeviewers:/ars_nouveau/imbuement_amethyst",
+      "minecraft:kjs/tainted_gold_gear",
+      "minecraft:kjs/lead_shovel",
+      "toomanyrecipeviewers:/kubejs/primitive_mining_hammer",
+      "minecraft:kjs/copper_chestplate",
+      "minecraft:kjs/sky_gear",
+      "minecraft:kjs/lead_boots",
+      "minecraft:kjs/knightmetal_gear",
+      "minecraft:kjs/fiery_gear",
+      "minecraft:kjs/copper_helmet",
+      "minecraft:kjs/silver_chestplate",
+      "kubejs:sacrificial_dagger",
+      "minecraft:kjs/flint_spear",
+      "kubejs:primitive_mortar",
+      "minecraft:kjs/uranium_gear",
+      "minecraft:kjs/tainted_gold_nugget",
+      "minecraft:kjs/gold_rod",
+      "minecraft:kjs/ironwood_gear",
+      "toomanyrecipeviewers:/kubejs/basic_mining_hammer",
+      "minecraft:kjs/stone_claymore",
+      "minecraft:kjs/lead_hoe",
+      "toomanyrecipeviewers:/enigmaticlegacy/iron_ring"
     ],
     "tags": {},
     "resolutions": {
-      "toomanyrecipeviewers:/lychee/kjs/bzbxuoojxk2p4bgt1xmjgr2g2": [
+      "toomanyrecipeviewers:/lychee/kjs/9bdb650t2uipdm55336au7vft": [
         {
           "type": "item",
-          "id": "kubejs:sky_sheet",
-          "amount": 5
-        }
-      ],
-      "toomanyrecipeviewers:/lychee/kjs/84ixn43rv840q1xpidmlwogzr": [
-        {
-          "type": "item",
-          "id": "kubejs:diamond_plate",
+          "id": "kubejs:depth_sheet",
           "amount": 5
         }
       ],
@@ -1847,10 +1692,17 @@
           "amount": 5
         }
       ],
-      "toomanyrecipeviewers:/lychee/kjs/9bdb650t2uipdm55336au7vft": [
+      "toomanyrecipeviewers:/lychee/kjs/84ixn43rv840q1xpidmlwogzr": [
         {
           "type": "item",
-          "id": "kubejs:depth_sheet",
+          "id": "kubejs:diamond_plate",
+          "amount": 5
+        }
+      ],
+      "toomanyrecipeviewers:/lychee/kjs/bzbxuoojxk2p4bgt1xmjgr2g2": [
+        {
+          "type": "item",
+          "id": "kubejs:sky_sheet",
           "amount": 5
         }
       ],

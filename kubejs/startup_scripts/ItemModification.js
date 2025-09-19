@@ -156,7 +156,7 @@ ItemEvents.modification(event => {
     let UnbreakableArmor = [
       "ancient_aether:valkyrum",
       "thermal:hazmat",
-      "deeperdarker:warden",
+      "forbidden_arcanus:tyr",
       "enigmaticlegacy:etherium"
     ]
 
@@ -418,6 +418,14 @@ ItemEvents.modification(event => {
   event.modify("twilightforest:fiery_helmet", item=>{
     item.armorProtection = 2,
     item.armorToughness = 0
+  })
+
+  event.modify("twilightforest:phantom_chestplate", item=>{
+    item.armorKnockbackResistance = 0.1
+  })
+
+  event.modify("twilightforest:phantom_helmet", item=>{
+    item.armorKnockbackResistance = 0.1
   })
 
   event.modify("twilightforest:fiery_chestplate", item=>{
