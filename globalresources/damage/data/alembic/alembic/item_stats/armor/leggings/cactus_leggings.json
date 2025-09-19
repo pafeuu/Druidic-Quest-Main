@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:cactus_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 1.5,
+      "operation": "ADDITION",
+      "uuid": "6fdf1d30-06d4-4869-aec9-5b8d72c2cc52"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

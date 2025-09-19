@@ -52,7 +52,11 @@ ItemEvents.tooltip( tooltip => {
                "kubejs:bronze_helmet",
                "kubejs:bronze_chestplate",
                "kubejs:bronze_leggings",
-               "kubejs:bronze_boots"
+               "kubejs:bronze_boots",
+               'kubejs:cactus_boots',
+               'kubejs:cactus_leggings',
+               'kubejs:cactus_helmet',
+               'kubejs:cactus_chestplate'
   ],Text.gray("Texture by Gyldanword"))
 
   tooltip.add(["kubejs:arcane_alloy_ingot",
@@ -194,7 +198,7 @@ ItemEvents.tooltip( tooltip => {
   SmithingTemplate("kubejs:arcane_fortress_upgrade_smithing_template","Arcane Fortress","Arcane Gold","Arcane Plating",0xb67b66)
   SmithingTemplate("kubejs:valkyrum_upgrade_smithing_template","Valkyrum","Skyseeker","Valkyrum Upgrade Parts",0x05efd6)
   SmithingTemplate("kubejs:etherium_upgrade_smithing_template","Etherium","Stormforged","Etherium Upgrade Parts",0x6c94b4)
-  SmithingTemplate("kubejs:tyr_upgrade_smithing_template","Tyr","Draco Arcanus","Tyr Upgrade Parts",0x9d1faa)
+  SmithingTemplate("kubejs:tyr_upgrade_smithing_template","Tyr","Draco Arcanus","Aquatic Dragon Scale",0x9d1faa)
   SmithingTemplate("kubejs:draco_arcanus_upgrade_smithing_template","Draco Arcanus","Obsidian","Dragon Scale",0x543474)
   
   

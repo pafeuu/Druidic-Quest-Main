@@ -15,10 +15,14 @@ ServerEvents.tags('item', event => {
     'fruitsdelight:bayberry_cookie',
     'fruitsdelight:lemon_cookie'])
   
+  event.add("forge:cactus",['minecraft:cactus',
+    'biomeswevegone:carved_barrel_cactus',
+    'biomeswevegone:flowering_barrel_cactus',
+    'biomeswevegone:barrel_cactus',
+    'naturesaura:aura_cactus'])
   
-
-  
-  
+  event.add("aether:obsidian_repairing","forbidden_arcanus:obsidian_ingot")
+    
   event.add("minecraft:smooth_stone","smooth_stone")
 
   event.remove("forge:rods/wooden","naturesaura:ancient_stick")

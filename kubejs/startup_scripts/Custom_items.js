@@ -147,6 +147,16 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 0.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1
   })
+
+  event.add('cactus', tier => {
+    tier.durabilityMultiplier = 8 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1, 2, 3, 1] // Slot indicies are [FEET, LEGS, BODY, HEAD]
+    tier.enchantmentValue = 12
+    tier.equipSound = 'minecraft:item.armor.equip_leather'
+    tier.repairIngredient = '#forge:cactus'
+    tier.toughness = 0.0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.0
+  })
 })
 
 StartupEvents.registry('item', item => {
@@ -235,7 +245,7 @@ StartupEvents.registry('item', item => {
   item.create('arcanum_alloy_ingot').tag('forge:ingots').tag('forge:ingots/arcanum_alloy').tag("dq:tier2/component")
   item.create('storm_ingot').tag('forge:ingots').tag('forge:ingots/storm').tag("dq:tier3/component")
   item.create('wrought_iron_ingot').tag('forge:ingots').tag('forge:ingots/wrought_iron')
-  item.create('aquatic_ingot').tag('forge:ingots').tag('forge:ingots/aquatic')
+  item.create('aquatic_ingot').tag('forge:ingots').tag('forge:ingots/aquatic').tag("aether:neptune_repairing")
   item.create('phoenix_ingot').tag('forge:ingots').tag('forge:ingots/phoenix')
   
 
@@ -351,7 +361,19 @@ StartupEvents.registry('item', item => {
   item.create("gravity_boots_cover").tag("curios:feet").unstackable()
   item.create("sturdy_boots_cover").tag("curios:feet").unstackable()
 
+  ///===================================================CHARMS======================================================
+  
+  function charm(id,tier)
+  {
+    item.create(id).tag("curios:charm").tag("dq:tier"+tier+"/accessories").unstackable()
+  }
 
+  charm("warrior_charm",3)
+  charm("tank_charm",3)
+  charm("spellcaster_charm",4)
+  charm("nutrition_charm",2)
+  
+  
   ///===================================================TOTEMS
   
   item.create('roadrunner_totem').unstackable().tag("forge:tools/totems")
@@ -513,6 +535,11 @@ StartupEvents.registry('item', item => {
   item.create('bronze_chestplate','chestplate').tier('bronze').tag("dq:tier1/armor")
   item.create('bronze_leggings','leggings').tier('bronze').tag("dq:tier1/armor")
   item.create('bronze_boots','boots').tier('bronze').tag("dq:tier1/armor")
+
+  item.create('cactus_helmet','helmet').tier('cactus').tag("dq:tier0/armor")
+  item.create('cactus_chestplate','chestplate').tier('cactus').tag("dq:tier0/armor")
+  item.create('cactus_leggings','leggings').tier('cactus').tag("dq:tier0/armor")
+  item.create('cactus_boots','boots').tier('cactus').tag("dq:tier0/armor")
   
   ///===================================================FOOD===========================================================
 
@@ -546,6 +573,17 @@ StartupEvents.registry('item', item => {
   item.create('greater_shapeshifting_root').displayName('Greater Shapeshifting Root')
   item.create("gold_upgrade_parts").displayName("Gold Upgrade Parts")
   item.create("steel_upgrade_parts")
+  item.create("bronze_upgrade_parts")
+  item.create("steeleaf_upgrade_parts")
+  item.create("valkyrum_upgrade_parts")
+  item.create("etherium_upgrade_parts")
+  item.create("skyjade_upgrade_parts")
+  item.create("arcane_gold_upgrade_parts")
+  item.create("zanite_upgrade_parts")
+  item.create("soulstrider_upgrade_parts")
+  item.create("skyseeker_upgrade_parts")
+  item.create("arcane_plating")
+  item.create("battlemage_cloth")
   item.create('unassembled_clock').displayName('Unassembled Clock')
   item.create('unassembled_compass').displayName('Unassembled Compass')
   item.create("dimension_ripper").displayName("Dimension Ripper").tag("twilightforest:portal/activator")

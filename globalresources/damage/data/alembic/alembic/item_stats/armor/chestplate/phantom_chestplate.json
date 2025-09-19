@@ -1,0 +1,20 @@
+{
+  "id": "twilightforest:phantom_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "79716982-9416-4def-826b-4388298eac58"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": -6,
+      "operation": "ADDITION",
+      "uuid": "af05dc7a-c66b-4e44-a0ef-3cf036eba0fa"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}
