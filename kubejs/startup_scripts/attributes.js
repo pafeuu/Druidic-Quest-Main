@@ -7,7 +7,7 @@ let $ISSAttributeRegistry = Java.loadClass('io.redspace.ironsspellbooks.api.regi
 ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event => {
 	
 	
-	if (event.itemStack.hasTag("forge:tools") && event.slotType == 'mainhand' && !event.itemStack.hasTag("forge:tools/shields")) {
+	if (event.itemStack.hasTag("forge:tools") && event.slotType == 'mainhand' && !event.itemStack.hasTag("forge:tools/shields") && !event.itemStack.hasTag("forge:tools/bows")) {
 					
 		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('8de60aa9-1d4b-459f-b075-48e1c37523ce'), 'Tool modifier', 0.5, 'addition'))
 	};
