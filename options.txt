@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"fast"
-resourcePacks:["vanilla","mod_resources","Banner Pattern Clarity v1.5 pf8-34.zip","Better Double Slabs 1.20.zip","Better_Enderdragon.zip","DQ-ZaniteTools.zip","Fancy Crops v1.0 f5-34.zip","Moonlight Mods Dynamic Assets","NoWoodenIEPlusSound.zip","Quark Programmer Art.zip","REVIVED_Farmer\u0027s Delight_crops_3D_R1.1-1.20.x.zip","RevertedEngineering.zip","file/Tombstones redux 1.20 v2.zip","Torchmaster Remaster.zip","Updated_Engineering_v1.7.zip","[Moonsu] Better GUI Vanilla Style for Better Smithing Table 1.0.zip","[Moonsu] Better GUI for Sophisticated Backpacks 1.0.zip","[Moonsu] Better GUI for Villagers!.zip","bettermanabar.zip","builtin/ancient_aether_texture_tweaks","builtin/client/golden_swet_ball/DAGoldenSwetBallFixClient","builtin/compatibility/deep_aether_assets","builtin/resource/overrides_pack","builtin/resource/redux_tips","moromoro\u0027s_create_style_prettypipes.zip","rainbowXpBar_1.19-1.20.1.zip","builtin/aether_tips","Hellim\u0027s Xaero\u0027s Maps Mob Icons v1.2.zip","waystones_update_2_1.20.1.zip","file/§5§lModded §f§lContainers §8§lDark§8.zip","file/§8§lDarkmode §f§lColourful Containers§8.zip"]
+resourcePacks:["vanilla","mod_resources","Banner Pattern Clarity v1.5 pf8-34.zip","Better Double Slabs 1.20.zip","Better_Enderdragon.zip","DQ-ZaniteTools.zip","Fancy Crops v1.0 f5-34.zip","Moonlight Mods Dynamic Assets","NoWoodenIEPlusSound.zip","Quark Programmer Art.zip","REVIVED_Farmer\u0027s Delight_crops_3D_R1.1-1.20.x.zip","RevertedEngineering.zip","file/Tombstones redux 1.20 v2.zip","Torchmaster Remaster.zip","Updated_Engineering_v1.7.zip","[Moonsu] Better GUI Vanilla Style for Better Smithing Table 1.0.zip","[Moonsu] Better GUI for Sophisticated Backpacks 1.0.zip","[Moonsu] Better GUI for Villagers!.zip","bettermanabar.zip","builtin/ancient_aether_texture_tweaks","builtin/compatibility/deep_aether_assets","moromoro\u0027s_create_style_prettypipes.zip","rainbowXpBar_1.19-1.20.1.zip","builtin/aether_tips","Hellim\u0027s Xaero\u0027s Maps Mob Icons v1.2.zip","waystones_update_2_1.20.1.zip"]
 incompatibleResourcePacks:["Banner Pattern Clarity v1.5 pf8-34.zip","Fancy Crops v1.0 f5-34.zip","NoWoodenIEPlusSound.zip","Quark Programmer Art.zip","Torchmaster Remaster.zip","Updated_Engineering_v1.7.zip","moromoro\u0027s_create_style_prettypipes.zip","rainbowXpBar_1.19-1.20.1.zip","file/§8§lDarkmode §f§lColourful Containers§8.zip"]
 lastServer:
 lang:en_us
@@ -119,6 +119,7 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.fluffy_fur.skin_menu:key.keyboard.unknown
+key_simplemagnets.keys.toggle:key.keyboard.h
 key_key.modernfix.config:key.keyboard.unknown
 key_info.structure_gel.building_tool.undo:key.keyboard.z:CONTROL
 key_info.structure_gel.building_tool.redo:key.keyboard.y:CONTROL
@@ -211,7 +212,6 @@ key_key.aether.gravitite_jump_ability.desc:key.keyboard.space
 key_key.aether.invisibility_toggle.desc:key.keyboard.unknown
 key_key.deep_aether.stratus_dash_ability.desc:key.keyboard.unknown
 key_key.deep_aether.slider_eye_ability:key.keyboard.unknown
-key_key.aether_redux.shoot_fireball.desc:key.keyboard.unknown
 key_gui.xaero_open_map:key.keyboard.m
 key_gui.xaero_open_settings:key.keyboard.m:CONTROL
 key_gui.xaero_map_zoom_in:key.keyboard.unknown
@@ -224,11 +224,11 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
-key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.enderRing:key.keyboard.unknown
 key_key.spellstoneAbility:key.keyboard.unknown
 key_key.xpScroll:key.keyboard.unknown
@@ -327,6 +327,7 @@ key_key.irons_spellbooks.spell_quick_cast_12:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_13:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_14:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown
+key_key.nbtedit.shortcut:key.keyboard.n
 key_key.structurecredits.deactivate_key:key.keyboard.unknown
 key_key.structurecredits.show_again_key:key.keyboard.unknown
 key_key.structurecredits.dont_show_key:key.keyboard.unknown

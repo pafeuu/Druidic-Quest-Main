@@ -1,0 +1,15 @@
+{
+    "name": "Druidic Quest Expert",
+    "version": "3.0.0",
+    "overrides": [
+        "config",
+        "kubejs",
+        "!kubejs/probe",
+        "ldlib",
+        "defaultconfigs",
+        "globalresources",
+        "resourcepacks",
+        "shaderpacks",
+        "patchouli_books"
+    ]
+}

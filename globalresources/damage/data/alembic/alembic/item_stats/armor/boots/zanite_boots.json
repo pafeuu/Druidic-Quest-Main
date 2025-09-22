@@ -10,10 +10,24 @@
     },
     {
       "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "2162ca29-697d-4ce6-9a00-cc30256ec1a5"
+    },
+    {
+      "type": "append",
       "attribute": "alembic:holy_damage.resistance",
       "value": 1,
       "operation": "ADDITION",
       "uuid": "38e5e9a5-3be0-4697-bcf3-2ae73ce8e777"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.02,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "70de7171-477b-4717-82ef-e01d832e89ea"
     }
   ],
   "equipment_slot": "FEET"

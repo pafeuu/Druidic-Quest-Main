@@ -289,6 +289,7 @@ ItemEvents.modification(event => {
     item.attackSpeed = -2.0,
     item.attackDamage = 2
   })
+
   ////========================================Tools
 
   event.modify('aether:hammer_of_kingbdogz', item=>{
@@ -372,6 +373,49 @@ ItemEvents.modification(event => {
   })
   
   //========================================Armor
+  event.modify("aether:zanite_helmet", item=>{
+    item.armorProtection = 3,
+    item.armorKnockbackResistance = 0.1
+    item.armorToughness = 0.5
+  })
+
+  event.modify("aether:zanite_chestplate", item=>{
+    item.armorProtection = 6,
+    item.armorKnockbackResistance = 0.1
+    item.armorToughness = 0.5
+  })
+
+  event.modify("aether:zanite_leggings", item=>{
+    item.armorProtection = 4,
+    item.armorKnockbackResistance = 0.1
+    item.armorToughness = 0.5
+  })
+
+  event.modify("aether:zanite_boots", item=>{
+    item.armorProtection = 3,
+    item.armorKnockbackResistance = 0.1
+    item.armorToughness = 0.5
+  })
+
+  event.modify("deep_aether:skyjade_helmet", item=>{
+    item.armorProtection = 2
+  
+  })
+
+  event.modify("deep_aether:skyjade_chestplate", item=>{
+    item.armorProtection = 6.5
+   
+  })
+
+  event.modify("deep_aether:skyjade_leggings", item=>{
+    item.armorProtection = 4.5
+    
+  })
+
+  event.modify("deep_aether:skyjade_boots", item=>{
+    item.armorProtection = 2
+    
+  })
 
   event.modify("twilightforest:ironwood_helmet", item=>{
     item.armorProtection = 1,
@@ -379,13 +423,54 @@ ItemEvents.modification(event => {
 
   })
 
-  event.modify("twilightforest:ironwood_chestplate", item=>{
+  
+  event.modify("minecraft:diamond_helmet", item=>{
+    item.armorProtection = 2,
+    item.armorToughness = 1
+  })  
+
+  event.modify("minecraft:diamond_chestplate", item=>{
+    item.armorProtection = 7,
+    item.armorToughness = 1
+  }) 
+  
+  event.modify("minecraft:diamond_leggings", item=>{
     item.armorProtection = 5,
+    item.armorToughness = 1
+  }) 
+
+  event.modify("minecraft:diamond_boots", item=>{
+    item.armorProtection = 2,
+    item.armorToughness = 1
+  })
+
+   event.modify("minecraft:netherite_helmet", item=>{
+    
+    item.armorToughness = 1
+  })  
+
+  event.modify("minecraft:netherite_chestplate", item=>{
+    
+    item.armorToughness = 1
+  }) 
+  
+  event.modify("minecraft:netherite_leggings", item=>{
+    
+    item.armorToughness = 1
+  }) 
+
+  event.modify("minecraft:netherite_boots", item=>{
+    
+    item.armorToughness = 1
+  })
+
+  event.modify("twilightforest:ironwood_chestplate", item=>{
+    item.armorProtection = 4,
     item.armorKnockbackResistance = 0.05
   })
 
   event.modify("twilightforest:ironwood_leggings", item=>{
-    item.armorProtection = 4,
+    item.armorProtection = 3,
     item.armorKnockbackResistance = 0.05
   })
 

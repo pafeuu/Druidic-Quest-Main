@@ -10,10 +10,24 @@
     },
     {
       "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "b1671b02-60ab-42a5-852f-9053c9425bf5"
+    },
+    {
+      "type": "append",
       "attribute": "alembic:holy_damage.resistance",
       "value": 1,
       "operation": "ADDITION",
-      "uuid": "14c1d73a-1807-4794-b3c7-7caa7371411a"
+      "uuid": "0e4398bf-7b9e-4ac3-aea5-138366256802"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.02,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "70de7171-4d0b-471e-82ef-e01d832e89ea"
     }
   ],
   "equipment_slot": "HEAD"

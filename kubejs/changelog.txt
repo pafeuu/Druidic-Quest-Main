@@ -2888,7 +2888,6 @@ Patch 0.3.2.1
 
 ### Worldgen:
     -Changed Stalactites in TF hills
-    
     -Waystones should spawn in almost every village now
     -Following blocks will no longer appear in structures:
         -Blaze Burner
@@ -2994,9 +2993,13 @@ Patch 0.3.2.1
     -Buffed the Pyromancer Armor
     -Buffed the Cryomancer Armor
     -Buffed the Archevoker Armor
+    -Rebalanced the Diamond Armor
     -Rebalanced the Scarecrow Armor
     -Rebalanced the Steeleaf Armor
     -Reworked Mining Hammers and Excavators
+    -Reworked the Zanite Armor
+    ////////////////////////////-Reworked the Skyjade Armor
+    -Slightly nerfed the Diving Armor ice resistance
     -Fixed Movement Speed nerfs/buffs on all the armor and traveler's belt
     -This Armor sets are now unbreakable:
         -Valkyrum
