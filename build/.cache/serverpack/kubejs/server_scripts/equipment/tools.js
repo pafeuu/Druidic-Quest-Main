@@ -475,6 +475,7 @@ ServerEvents.recipes(event => {
 		},
 		block_in: "minecraft:spawner"
 	  })
+
 	event.custom({
 		type: "lychee:block_interacting",
 		"hide_in_viewer": true,
@@ -500,6 +501,33 @@ ServerEvents.recipes(event => {
 		},
 		block_in: "minecraft:spawner"
 	  })
+
+	event.custom({
+		type: "lychee:block_interacting",
+		"hide_in_viewer": true,
+		contextual:{
+			type: "location",
+			predicate:{
+				dimension: "minecraft:the_nether"
+			}
+		},
+		post: [
+		  {type: "drop_item", item:"kubejs:broken_spawner"},
+		  {type: "place", block: "air"},
+		  {type: "execute", command: "playsound minecraft:block.ender_chest.open neutral @p", hide: true},
+		  {type: "delay", s: 0.5},
+		  {type: "execute", command: "playsound minecraft:entity.experience_orb.pickup neutral @p"},
+		  {type: "execute", command: "particle irons_spellbooks:unstable_ender ~ ~ ~ 0.5 0.5 0.5 0.1 80 force"},
+		  {type: "execute", command: "loot spawn ~ ~ ~ loot kubejs:chests/nether_key"},
+		  {type: "delay", s: 1},
+		  {type: "execute", command: "playsound minecraft:block.ender_chest.close neutral @p", hide: true}
+		],
+		item_in: {
+		  item: "kubejs:nether_key"
+		},
+		block_in: "minecraft:spawner"
+	  })
+	  
 	///=============================================================== Shields ==========================================================
 
 	event.shaped("twilightforest:knightmetal_shield",

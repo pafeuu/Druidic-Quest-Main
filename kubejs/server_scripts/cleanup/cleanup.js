@@ -11,6 +11,7 @@ var wood_TF_no_mangrove = ['canopy','twilight_oak','time','transformation','mini
 
 global.nukelist = ["twigs:calcite_wall",
     "twigs:tuff_wall",
+	'forbidden_arcanus:obsidian_with_iron',
     "twigs:calcite_stairs",
     "aether:life_shard",
     "immersiveengineering:shield",
@@ -396,7 +397,9 @@ ServerEvents.recipes(event => {
 		"farmersdelight:cutting/lily_of_the_valley",
 		"farmersdelight:cutting/wither_rose",
 		"wizards_reborn:integration/farmers_delight/cutting/petals_of_innocence",
-		"farmersdelight:cutting/torchflower"
+		"farmersdelight:cutting/torchflower",
+		"thermal:machines/smelter/smelter_alloy_netherite",
+		"minecraft:netherite_ingot"
 		]
 	
 	RemoveById.forEach(id => {

@@ -148,4 +148,10 @@ ServerEvents.recipes(event=>{
 		"ars_nouveau:air_essence",4
 	)
 
+	kiln("netherite_ingot",1,
+		"wizards_reborn:arcane_gold_ingot",4,
+		"netherite_scrap",4
+	)
+	
+
 })

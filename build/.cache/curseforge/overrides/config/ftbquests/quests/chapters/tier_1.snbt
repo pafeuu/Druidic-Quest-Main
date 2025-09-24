@@ -166,6 +166,34 @@
 					item: "naturesaura:crushing_catalyst"
 					type: "item"
 				}
+				{
+					count: 4L
+					id: "353DED5C5F416D7A"
+					item: { Count: 4, id: "minecraft:chiseled_stone_bricks" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "0E075B03CC693BB2"
+					item: { Count: 20, id: "minecraft:oak_planks" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "154CB0AA1B247A71"
+					item: { Count: 4, id: "naturesaura:gold_brick" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "612064F69C56CD98"
+					item: { Count: 16, id: "minecraft:stone_bricks" }
+					optional_task: true
+					type: "item"
+				}
 			]
 			title: "Crumbling Altar"
 			x: 21.5d

@@ -1372,6 +1372,31 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 	
+	event.shaped("simplemagnets:basic_demagnetization_coil",
+		[
+			"RBR",
+			"RMR",
+			"BBB"
+		],
+		{
+			B: "forbidden_arcanus:darkstone",
+			M: "kubejs:primitive_machine",
+			R: "#forge:storage_blocks/redstone"
+		}
+	).id("simplemagnets:basic_demagnetization_coil")
+
+	event.shaped("simplemagnets:advanced_demagnetization_coil",
+		[
+			"RBR",
+			"RXR",
+			"BBB"
+		],
+		{
+			B: "forbidden_arcanus:darkstone",
+			X: "simplemagnets:basic_demagnetization_coil",
+			R: "#forge:rods/gold"
+		}
+	).id("simplemagnets:advanced_demagnetization_coil")
 
 	event.shaped("quark:redstone_randomizer",
 		[

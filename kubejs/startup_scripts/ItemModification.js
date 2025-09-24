@@ -373,6 +373,8 @@ ItemEvents.modification(event => {
   })
   
   //========================================Armor
+
+  /// ZANITE
   event.modify("aether:zanite_helmet", item=>{
     item.armorProtection = 3,
     item.armorKnockbackResistance = 0.1
@@ -397,6 +399,7 @@ ItemEvents.modification(event => {
     item.armorToughness = 0.5
   })
 
+  /// SKYJADE
   event.modify("deep_aether:skyjade_helmet", item=>{
     item.armorProtection = 2
   
@@ -417,13 +420,8 @@ ItemEvents.modification(event => {
     
   })
 
-  event.modify("twilightforest:ironwood_helmet", item=>{
-    item.armorProtection = 1,
-    item.armorKnockbackResistance = 0.05
 
-  })
-
-  
+  /// DIAMOND
   event.modify("minecraft:diamond_helmet", item=>{
     item.armorProtection = 2,
     item.armorToughness = 1
@@ -444,6 +442,7 @@ ItemEvents.modification(event => {
     item.armorToughness = 1
   })
 
+  /// NETHERITE
    event.modify("minecraft:netherite_helmet", item=>{
     
     item.armorToughness = 1
@@ -462,6 +461,13 @@ ItemEvents.modification(event => {
   event.modify("minecraft:netherite_boots", item=>{
     
     item.armorToughness = 1
+  })
+
+  /// IRONWOOD
+  event.modify("twilightforest:ironwood_helmet", item=>{
+    item.armorProtection = 1,
+    item.armorKnockbackResistance = 0.05
+
   })
 
   event.modify("twilightforest:ironwood_chestplate", item=>{
@@ -485,6 +491,8 @@ ItemEvents.modification(event => {
 
   })
 
+
+  /// STEELEAF
   event.modify("twilightforest:steeleaf_chestplate", item=>{
     item.armorProtection = 7,
     item.armorKnockbackResistance = 0.05
@@ -500,11 +508,12 @@ ItemEvents.modification(event => {
     item.armorKnockbackResistance = 0.05
   })
 
-  event.modify("twilightforest:fiery_helmet", item=>{
+  event.modify("twilightforest:steeleaf_helmet", item=>{
     item.armorProtection = 2,
     item.armorToughness = 0
   })
 
+  /// PHANTOM
   event.modify("twilightforest:phantom_chestplate", item=>{
     item.armorKnockbackResistance = 0.1
   })
@@ -513,13 +522,20 @@ ItemEvents.modification(event => {
     item.armorKnockbackResistance = 0.1
   })
 
+  /// FIERY
+
+  event.modify("twilightforest:fiery_boots", item=>{
+    item.armorProtection = 3,
+    item.armorToughness = 0
+  })
+
   event.modify("twilightforest:fiery_chestplate", item=>{
-    item.armorProtection = 6,
+    item.armorProtection = 7,
     item.armorToughness = 0
   })
 
   event.modify("twilightforest:fiery_leggings", item=>{
-    item.armorProtection = 5,
+    item.armorProtection = 6,
     item.armorToughness = 0
   })
 
@@ -527,6 +543,50 @@ ItemEvents.modification(event => {
     item.armorProtection = 2,
     item.armorToughness = 0
   })
+
+  /// BOTANIST/INFUSED IRON
+  event.modify("naturesaura:infused_iron_helmet", item=>{
+    item.armorProtection = 3,
+    item.armorToughness = 0
+  })
+
+  event.modify("naturesaura:infused_iron_chest", item=>{
+    item.armorProtection = 7,
+    item.armorToughness = 0
+  })
+
+   event.modify("naturesaura:infused_iron_pants", item=>{
+    item.armorProtection = 6,
+    item.armorToughness = 0
+  })
+
+  event.modify("naturesaura:infused_iron_shoes", item=>{
+    item.armorProtection = 3,
+    item.armorToughness = 0
+  })
+
+  // ARCANE GOLD
+
+  event.modify("wizards_reborn:arcane_gold_helmet", item=>{
+    item.armorProtection = 2,
+    item.armorToughness = 0
+  })
+
+  event.modify("wizards_reborn:arcane_gold_chestplate", item=>{
+    item.armorProtection = 8,
+    item.armorToughness = 0
+  })
+
+  event.modify("wizards_reborn:arcane_gold_leggings", item=>{
+    item.armorProtection = 7,
+    item.armorToughness = 0
+  })
+
+  event.modify("wizards_reborn:arcane_gold_boots", item=>{
+    item.armorProtection = 2,
+    item.armorToughness = 0
+  })
+
 
   event.modify("quark:forgotten_hat", item=>{
     item.maxDamage = 110

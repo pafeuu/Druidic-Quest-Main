@@ -82,7 +82,7 @@ ServerEvents.recipes(event=>{
 
   Sacrificing("minecraft:zombie","forbidden_arcanus:arcane_dragon_egg","minecraft:zombie_spawn_egg",1)
 
-  Sacrificing("minecraft:enderman","forbidden_arcanus:arcane_dragon_egg","minecraft:zombie_spawn_egg",1)
+  Sacrificing("minecraft:enderman","forbidden_arcanus:arcane_dragon_egg","minecraft:enderman_spawn_egg",1)
 
   Sacrificing("minecraft:wither_skeleton","forbidden_arcanus:arcane_dragon_egg","minecraft:wither_skeleton_spawn_egg",1)
 
