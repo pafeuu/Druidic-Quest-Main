@@ -1,0 +1,19 @@
+{
+    "name": "Snow Queen",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:snow_queen_trophy",
+    "sortnum": 30,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice   Nature   Physical$(2br)$(l)Weakness:$()$(br)Fire   Arcane$(2br)$(l)Damage:$()$(br)Ice   Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:snow_queen",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

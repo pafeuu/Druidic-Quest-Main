@@ -1,0 +1,20 @@
+{
+    "id": "kubejs:lesser_ice_ring",
+    "modifiers": [
+      {
+        "type": "append",
+        "attribute": "alembic:ice_damage.resistance",
+        "value": 1,
+        "operation": "ADDITION",
+        "uuid": "a5223d87-405c-44f8-8bc0-6fca6c137035"
+      },
+      {
+        "type": "append",
+        "attribute": "irons_spellbooks:ice_spell_power",
+        "value": 0.05,
+        "operation": "MULTIPLY_TOTAL",
+        "uuid": "85b4ad25-15bb-450a-9b66-2da0b7a0848d"
+      }
+    ],
+    "equipment_slot": "ring"
+  }

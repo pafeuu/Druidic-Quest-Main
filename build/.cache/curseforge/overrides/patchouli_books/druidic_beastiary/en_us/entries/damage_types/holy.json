@@ -1,0 +1,17 @@
+{
+    "name": "Holy Damage",
+    "category": "patchouli:damage_types",
+    "icon": "kubejs:light_essence",
+    "entry_color": "ffd900",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Holy damage is the main danger faced while in the Aether.$(2br)Holy damage is highly effective against all undead mobs, as well as most mobs within the Nether."
+        },
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

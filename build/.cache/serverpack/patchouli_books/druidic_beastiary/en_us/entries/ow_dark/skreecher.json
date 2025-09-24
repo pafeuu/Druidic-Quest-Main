@@ -1,0 +1,20 @@
+{
+    "name": "Skreecher",
+    "category": "patchouli:ow_dark",
+    "icon": "alexsmobs:spawn_egg_skreecher",
+    "sortnum": 15,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Blood   Nature$(2br)$(l)Weakness:$()$(br)Holy   Arcane$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:skreecher",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.6",
+            "offset": "0.3"
+        }
+    ]
+}

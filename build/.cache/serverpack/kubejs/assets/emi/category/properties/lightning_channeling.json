@@ -1,0 +1,12 @@
+{
+  "lychee:lightning_channeling/minecraft/default": {
+    "order": 1,
+    "sort": "none",
+    "icon": {
+      "stack": "item:thermal:lightning_charge"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

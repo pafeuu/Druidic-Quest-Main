@@ -1,0 +1,12 @@
+{
+  "lychee:item_exploding/minecraft/default": {
+    "order": 2,
+    "sort": "none",
+    "icon": {
+      "stack": "item:minecraft:tnt"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

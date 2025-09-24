@@ -1,0 +1,34 @@
+{
+  "id": "aether:zanite_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "a9701249-d0f4-4a42-a109-56f383a73465"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "b1671b02-60ab-42a5-852f-9053c9425bf5"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "0e4398bf-7b9e-4ac3-aea5-138366256802"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.02,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "70de7171-4d0b-471e-82ef-e01d832e89ea"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

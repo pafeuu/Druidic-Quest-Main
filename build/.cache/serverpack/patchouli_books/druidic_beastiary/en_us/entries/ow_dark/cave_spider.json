@@ -1,0 +1,20 @@
+{
+    "name": "Cave Spider",
+    "category": "patchouli:ow_dark",
+    "icon": "minecraft:cave_spider_spawn_egg",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Blood   Arcane$(2br)$(l)Weakness:$()$(br)Fire$(2br)$(l)Damage:$()$(br)Physical   Nature"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:cave_spider",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.7",
+            "offset": "0.2"
+        }
+    ]
+}

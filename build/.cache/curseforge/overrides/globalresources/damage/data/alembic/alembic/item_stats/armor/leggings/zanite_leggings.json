@@ -1,0 +1,34 @@
+{
+  "id": "aether:zanite_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "786aa168-9340-4fc7-b87b-89a71da4bdde"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "49bfe37e-d8df-4a65-b486-c71ca0453dc4"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "00cf2ee6-3106-4830-a961-691a9d0e1369"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.04,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "70de7171-433b-471e-822f-e01d831e89ea"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

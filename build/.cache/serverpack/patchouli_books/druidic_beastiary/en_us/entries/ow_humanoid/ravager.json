@@ -1,0 +1,20 @@
+{
+    "name": "Ravager",
+    "category": "patchouli:ow_humanoid",
+    "icon": "minecraft:ravager_spawn_egg",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Physical   Nature$(2br)$(l)Weakness:$()$(br)Arcane   Fire$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:ravager",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8",
+            "offset": "0.2"
+        }
+    ]
+}

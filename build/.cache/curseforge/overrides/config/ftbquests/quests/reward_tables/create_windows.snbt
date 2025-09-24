@@ -1,0 +1,12 @@
+{
+	icon: "minecraft:chest"
+	id: "52A6B4869B132CA4"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ count: 12, item: "create:ornate_iron_window" }
+		{ count: 12, item: "create:industrial_iron_window" }
+		{ count: 12, item: "create:weathered_iron_window" }
+	]
+	title: "create_windows"
+}

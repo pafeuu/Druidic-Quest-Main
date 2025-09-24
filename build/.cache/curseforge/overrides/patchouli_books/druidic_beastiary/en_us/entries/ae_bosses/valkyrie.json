@@ -1,0 +1,19 @@
+{
+    "name": "Valkyrie",
+    "category": "patchouli:ae_bosses",
+    "icon": "aether:valkyrie_spawn_egg",
+    "sortnum": 11,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Holy   Ice$(2br)$(l)Weakness:$()$(br)Blood   Arcane$(2br)$(l)Damage:$()$(br)Physical   Holy"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "aether:valkyrie",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

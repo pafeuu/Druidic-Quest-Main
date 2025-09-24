@@ -1,0 +1,22 @@
+{
+  "priority": 1,
+  "type": "ars_nouveau:familiar_amethyst_golem",
+  "resistances": {
+    "alchemical_damage": 0.9,
+    "physical_damage": 1.75,
+    "fire_damage": 1.25,
+    "arcane_damage": 1.5,
+    "true_damage": 1.0,
+    "ice_damage": 1.25,
+    "holy_damage": 1.0
+  },
+  "damage": {
+    "physical_damage": 0.8,
+    "arcane_damage": 0.2
+  },
+  "ignored_sources": [
+      "minecraft:lava",
+      "minecraft:in_fire"
+      "minecraft:on_fire"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "The Eye of the Storm",
+    "category": "patchouli:ae_bosses",
+    "icon": "deep_aether:floaty_scarf",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice   Holy$(2br)$(l)Weakness:$()$(br)Blood   Fire   Physical$(2br)$(l)Damage:$()$(br)Ice   Holy"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "deep_aether:eots_segment",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.7",
+            "offset": "0.4"
+        }
+    ]
+}

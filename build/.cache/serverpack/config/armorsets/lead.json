@@ -1,0 +1,35 @@
+{
+    "armorSetName": "lead",
+    "performanceMode": true,
+    "head": {
+      "itemKey": "kubejs:lead_helmet",
+      "mustBeEmpty": false
+    },
+    "chest": {
+      "itemKey": "kubejs:lead_chestplate",
+      "mustBeEmpty": false
+    },
+    "legs": {
+      "itemKey": "kubejs:lead_leggings",
+      "mustBeEmpty": false
+    },
+    "boots": {
+      "itemKey": "kubejs:lead_boots",
+      "mustBeEmpty": false
+    },
+    "fullSetBonuses": [
+      {
+        "type": "attribute",
+        "name": "minecraft:generic.knockback_resistance",
+        "value": 1,
+        "modifierUUID": "d5c72c88-9405-4398-b1e5-250b4c6dd218",
+        "description": "Knockback Resistance!",
+        "attributeOperation": 0,
+        "interactionType": "self",
+        "interactionDuration": 300,
+        "hideBonusDescription": false,
+        "onlyImmuneToNewEffects": false
+      }
+    ],
+    "hideGeneratedTooltip": false
+  }

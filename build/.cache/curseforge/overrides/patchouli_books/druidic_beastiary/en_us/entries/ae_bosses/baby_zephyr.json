@@ -1,0 +1,19 @@
+{
+    "name": "Baby Zephyr",
+    "category": "patchouli:ae_bosses",
+    "icon": "aether:zephyr_spawn_egg",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice   Holy$(2br)$(l)Weakness:$()$(br)Fire   Blood   Physical$(2br)$(l)Damage:$()$(br)Ice   Holy"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "deep_aether:baby_zephyr",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.7"
+        }
+    ]
+}

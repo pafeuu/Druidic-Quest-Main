@@ -1,0 +1,19 @@
+{
+    "name": "Husk",
+    "category": "patchouli:ow_dark",
+    "icon": "minecraft:husk_spawn_egg",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Blood   Arcane$(2br)$(l)Weakness:$()$(br)Holy   Ice$(2br)$(l)Damage:$()$(br)Physical   Fire   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:husk",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.1"
+        }
+    ]
+}

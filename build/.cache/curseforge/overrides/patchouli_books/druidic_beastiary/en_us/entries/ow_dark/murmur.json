@@ -1,0 +1,20 @@
+{
+    "name": "Murmur",
+    "category": "patchouli:ow_dark",
+    "icon": "alexsmobs:spawn_egg_murmur",
+    "sortnum": 13,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Blood   Arcane   Nature$(2br)$(l)Weakness:$()$(br)Holy   Fire$(2br)$(l)Damage:$()$(br)Physical   Blood   Nature"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:murmur",
+            "scale": "0.75",
+            "offset": "0.35",
+            "rotate": "false",
+            "default_rotation": "35"
+        }
+    ]
+}

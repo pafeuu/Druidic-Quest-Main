@@ -1,0 +1,11 @@
+{
+  "blocks": [
+    {
+      "block": "forbidden_arcanus:runic_stone",
+      "weight": 1
+    }
+  ],
+  "max_length": 3,
+  "size_variation": 0.5,
+  "weight": 15
+}

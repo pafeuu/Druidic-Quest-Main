@@ -1,0 +1,20 @@
+{
+    "name": "Wither",
+    "category": "patchouli:n_bosses",
+    "icon": "minecraft:wither_spawn_egg",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)All$(2br)$(l)Weakness:$()$(br)Holy   Ice   Nature$(2br)$(l)Damage:$()$(br)Physical   Arcane   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:wither",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "1.2",
+            "offset": "0.4"
+        }
+    ]
+}

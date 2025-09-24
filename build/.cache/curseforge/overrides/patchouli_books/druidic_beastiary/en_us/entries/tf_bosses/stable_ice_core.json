@@ -1,0 +1,19 @@
+{
+    "name": "Stable Ice Core",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:stable_ice_core_spawn_egg",
+    "sortnum": 28,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice   Nature   Physical$(2br)$(l)Weakness:$()$(br)Fire   Arcane$(2br)$(l)Damage:$()$(br)Ice"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:stable_ice_core",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.3"
+        }
+    ]
+}

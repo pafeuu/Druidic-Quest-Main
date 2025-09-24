@@ -1,0 +1,24 @@
+{
+  "id": "irons_spellbooks:priest_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 8,
+      "operation": "ADDITION",
+      "uuid": "b6ab1522-3fe6-4a1c-a6e4-3b32e97b9622"
+    },
+    {
+      "type": "remove",
+      "target": "minecraft:generic.armor"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 10,
+      "operation": "ADDITION",
+      "uuid": "38b04fd0-4f83-408b-9297-b236e70de0c3"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

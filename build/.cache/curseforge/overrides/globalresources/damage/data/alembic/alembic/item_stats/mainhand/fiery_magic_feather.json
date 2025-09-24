@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:fiery_magic_feather",
+  "modifiers": [
+    {
+      "type": "replace",
+      "target": "minecraft:generic.attack_damage",
+      "value": 0,
+      "operation": "ADDITION",
+      "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "71b339e9-2686-4951-8c83-5cb2cb7d450b"
+    }
+  ],
+  "equipment_slot": "MAINHAND"
+}

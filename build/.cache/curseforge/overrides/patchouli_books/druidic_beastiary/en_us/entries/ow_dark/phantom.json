@@ -1,0 +1,19 @@
+{
+    "name": "Phantom",
+    "category": "patchouli:ow_dark",
+    "icon": "minecraft:phantom_spawn_egg",
+    "sortnum": 14,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Arcane$(2br)$(l)Weakness:$()$(br)Holy   Ice   Fire$(2br)$(l)Damage:$()$(br)Physical   Arcane"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:phantom",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.5"
+        }
+    ]
+}

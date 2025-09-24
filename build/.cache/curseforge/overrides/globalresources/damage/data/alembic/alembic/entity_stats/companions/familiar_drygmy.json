@@ -1,0 +1,21 @@
+{
+  "priority": 1,
+  "type": "ars_nouveau:familiar_drygmy",
+  "resistances": {
+    "alchemical_damage": 1.5,
+    "physical_damage": 1.2,
+    "fire_damage": 1.0,
+    "arcane_damage": 1.2,
+    "true_damage": 1.0,
+    "ice_damage": 1.2,
+    "holy_damage": 1.0
+  },
+  "damage": {
+    "physical_damage": 1.0
+  },
+  "ignored_sources": [
+      "minecraft:lava",
+      "minecraft:in_fire"
+      "minecraft:on_fire"
+    ]
+}

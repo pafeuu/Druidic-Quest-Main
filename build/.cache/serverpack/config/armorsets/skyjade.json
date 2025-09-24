@@ -1,0 +1,73 @@
+{
+  "armorSetName": "skyjade",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "deep_aether:skyjade_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "deep_aether:skyjade_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "deep_aether:skyjade_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "deep_aether:skyjade_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "alembic:true_damage.resistance",
+      "value": 6,
+      "modifierUUID": "d5a7dc33-9405-4398-b1e5-250b4c6dd218",
+      "description": "+6 blood resistance"
+    },
+    {
+      "type": "attribute",
+      "name": "forge:step_height_addition",
+      "value": 0.5,
+      "modifierUUID": "d5a7dc88-9405-4398-11e5-250b4c6dd218",
+      "description": "You can walk up 1 block",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "modifierUUID": "d5a7dc88-9435-4398-b1e5-250b4c6dd218",
+      "description": "20% faster movement speed",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "interactionDuration": 300
+    },
+    {
+      "type": "attribute",
+      "name": "fyshisattribute:jump",
+      "value": 1,
+      "modifierUUID": "d5a7dc88-9435-4398-b1e5-250b4c6dd218",
+      "description": "extra jump!",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "interactionDuration": 300
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:count",
+      "value": 2,
+      "modifierUUID": "d5a7dc88-9435-4398-b1e5-250b4c6dd218",
+      "description": "two extra rolls",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "interactionDuration": 300
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

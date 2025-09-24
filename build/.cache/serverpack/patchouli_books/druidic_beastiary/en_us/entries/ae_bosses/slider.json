@@ -1,0 +1,19 @@
+{
+    "name": "Slider",
+    "category": "patchouli:ae_bosses",
+    "icon": "umbral_skies:slider_trophy",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Holy   Ice   Physical$(2br)$(l)Weakness:$()$(br)Blood   Fire   Arcane$(2br)$(l)Damage:$()$(br)Physical   Holy   Ice"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "aether:slider",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8"
+        }
+    ]
+}

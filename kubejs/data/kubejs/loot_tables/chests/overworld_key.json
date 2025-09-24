@@ -116,6 +116,50 @@
       {
         "rolls": 1,
         "entries": [
+            {
+                "type": "item",
+                "name": "kubejs:engineer_upgrade_smithing_template",
+                "weight": 5
+            },
+            {
+                "type": "item",
+                "name": "kubejs:wandering_magician_upgrade_smithing_template",
+                "weight": 5
+            },
+            {
+                "type": "item",
+                "name": "kubejs:bronze_upgrade_smithing_template",
+                "weight": 2
+            },
+            {
+                "type": "item",
+                "name": "kubejs:scarecrow_upgrade_smithing_template",
+                "weight": 1
+            },
+            {
+                "type": "item",
+                "name": "kubejs:steeleaf_upgrade_smithing_template",
+                "weight": 2
+            }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+            {
+              "type": "empty",
+              "weight": 999
+            },
+            {
+              "type": "item",
+              "name": "kubejs:overworld_key",
+              "weight": 1
+            }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
           {
             "type": "item",
             "weight": 1,

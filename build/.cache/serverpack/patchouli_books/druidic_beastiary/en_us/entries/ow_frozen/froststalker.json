@@ -1,0 +1,20 @@
+{
+    "name": "Froststalker",
+    "category": "patchouli:ow_frozen",
+    "icon": "alexsmobs:spawn_egg_froststalker",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice$(2br)$(l)Weakness:$()$(br)Fire$(2br)$(l)Damage:$()$(br)Ice   Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:froststalker",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8",
+            "offset": "0.3"
+        }
+    ]
+}

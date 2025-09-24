@@ -1,0 +1,17 @@
+{
+    "name": "✧Brass Dungeon✧",
+    "category": "patchouli:ae_bosses",
+    "icon": "twilightforest:lich_tower_miniature_structure",
+    "entry_color": "3a4e19",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "In the midst of the Cloud biome, you come across a floating citadel with a large courtyard at the center.$(br2)Breaking through the cold aercloud doors, you find your way obstructed by Baby Zephyrs and winding hallways."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(br2)$(br)Within the center courtyard, you will confront the mighty Eye of the Storm."
+        }
+    ]
+}

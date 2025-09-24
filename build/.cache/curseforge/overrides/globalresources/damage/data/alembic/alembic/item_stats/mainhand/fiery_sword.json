@@ -1,0 +1,13 @@
+{
+  "id": "twilightforest:fiery_sword",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:fire_damage",
+          "value": 6,
+          "operation": "ADDITION",
+          "uuid": "a5834ca7-80e6-49a3-a117-e052965e479b"
+      }
+  ],
+  "equipment_slot": "MAINHAND"
+}

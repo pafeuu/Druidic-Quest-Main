@@ -1,0 +1,27 @@
+{
+  "id": "deep_aether:skyjade_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "80c2b1fa-8bd4-467f-ac8c-823e9d2391f2"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "ef468ce8-2e2d-45c7-bc0f-5d03f3472953"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.02,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "242220ff-db29-10b9-a4be-5551f83a3125"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

@@ -1,0 +1,14 @@
+{
+	icon: "minecraft:chest"
+	id: "52E7CD9A434DB689"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ item: "quark:red_blossom_sapling" }
+		{ item: "quark:yellow_blossom_sapling" }
+		{ item: "quark:orange_blossom_sapling" }
+		{ item: "quark:lavender_blossom_sapling" }
+		{ item: "quark:blue_blossom_sapling" }
+	]
+	title: "trumpet_saplings"
+}

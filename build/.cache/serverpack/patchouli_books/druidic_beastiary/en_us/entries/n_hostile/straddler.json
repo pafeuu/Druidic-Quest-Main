@@ -1,0 +1,19 @@
+{
+    "name": "Straddler",
+    "category": "patchouli:n_hostile",
+    "icon": "alexsmobs:spawn_egg_straddler",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Physical   Blood$(2br)$(l)Weakness:$()$(br)Ice   Holy$(2br)$(l)Damage:$()$(br)Physical   Blood   Fire"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:straddler",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

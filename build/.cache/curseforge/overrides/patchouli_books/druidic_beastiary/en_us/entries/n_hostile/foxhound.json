@@ -1,0 +1,19 @@
+{
+    "name": "Foxhound",
+    "category": "patchouli:n_hostile",
+    "icon": "quark:foxhound_spawn_egg",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire$(2br)$(l)Weakness:$()$(br)Ice$(2br)$(l)Damage:$()$(br)Physical   Fire"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "quark:foxhound",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8"
+        }
+    ]
+}

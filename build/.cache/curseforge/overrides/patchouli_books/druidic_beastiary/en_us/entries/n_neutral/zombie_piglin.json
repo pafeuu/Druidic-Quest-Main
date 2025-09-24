@@ -1,0 +1,19 @@
+{
+    "name": "Zombified Piglin",
+    "category": "patchouli:n_neutral",
+    "icon": "minecraft:zombified_piglin_spawn_egg",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Blood   Physical$(2br)$(l)Weakness:$()$(br)Holy   Nature$(2br)$(l)Damage:$()$(br)Blood   Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:zombified_piglin",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

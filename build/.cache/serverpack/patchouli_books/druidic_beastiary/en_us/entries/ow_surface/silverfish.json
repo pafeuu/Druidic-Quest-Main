@@ -1,0 +1,19 @@
+{
+    "name": "Silverfish",
+    "category": "patchouli:ow_surface",
+    "icon": "minecraft:silverfish_spawn_egg",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Physical   Nature$(2br)$(l)Weakness:$()$(br)Fire$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:silverfish",
+            "rotate": "false",
+            "default_rotation": "30",
+            "scale": "0.8"
+        }
+    ]
+}

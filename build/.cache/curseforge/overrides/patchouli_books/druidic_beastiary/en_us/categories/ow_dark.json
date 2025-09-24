@@ -1,0 +1,7 @@
+{
+    "name": "Caves and Darkness",
+    "description": "These mobs spawn in complete darkness or deep underground.",
+    "icon": "minecraft:skeleton_skull",
+    "parent": "patchouli:overworld",
+    "sortnum": 1
+}

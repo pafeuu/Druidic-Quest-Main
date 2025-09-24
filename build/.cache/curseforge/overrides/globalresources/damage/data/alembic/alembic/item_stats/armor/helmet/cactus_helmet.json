@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:cactus_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 0.5,
+      "operation": "ADDITION",
+      "uuid": "6dd0fb52-1a49-4433-97ce-16de55ff1a2e"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

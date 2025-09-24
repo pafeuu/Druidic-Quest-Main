@@ -1,0 +1,20 @@
+{
+  "id": "aether:zanite_axe",
+  "modifiers": [
+    {
+      "type": "replace",
+      "target": "minecraft:generic.attack_damage",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage",
+      "value": 7,
+      "operation": "ADDITION",
+      "uuid": "3f861ade-73f3-4ea0-bdf6-e18dae149f64"
+    }  
+  ],
+  "equipment_slot": "MAINHAND"
+}

@@ -73,7 +73,6 @@ LootJS.modifiers((event) => {
         .replaceLoot("netherite_block","6x netherite_scrap")
         .replaceLoot("aether:diamond_gloves","4x kubejs:diamond_plate")
         .replaceLoot("aether:iron_gloves","4x create:iron_sheet")
-        .replaceLoot("irons_spellbooks:fireward_ring","irons_spellbooks:cinder_essence")
         .replaceLoot("vintageimprovements:redstone_module","comparator")
         .replaceLoot("minecraft:diamond_horse_armor", "create:iron_sheet")
         .replaceLoot("minecraft:golden_sword","create:golden_sheet")
@@ -103,6 +102,9 @@ LootJS.modifiers((event) => {
         .replaceLoot("ancient_aether:valkyrum_shovel","forbidden_arcanus:stella_arcanum")
         .replaceLoot("ancient_aether:valkyrum_sword","forbidden_arcanus:stella_arcanum")
         .replaceLoot("ancient_aether:valkyrum_hoe","forbidden_arcanus:stella_arcanum")
+
+    event.addLootTableModifier(/.*irons_spellbooks.*/)
+    .replaceLoot("irons_spellbooks:fireward_ring","irons_spellbooks:cinder_essence")
 
     // ====================================================Iron's
     event.addLootTableModifier("irons_spellbooks:chests/filler_storage_loot")
@@ -328,10 +330,10 @@ LootJS.modifiers((event) => {
 
     event.addBlockLootModifier("kubejs:charged_copper_block")
         .replaceLoot("kubejs:charged_copper_block","minecraft:copper_block")
+        
   
     event.addLootTypeModifier(LootType.CHEST)
         .replaceLoot("enigmaticlegacy:forbidden_fruit","enchanted_golden_apple")
-
     
     //============================================= Templates
 

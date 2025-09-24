@@ -1,0 +1,20 @@
+{
+  "id": "ancient_aether:valkyrum_gloves",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "c0379449-7684-4e7a-b742-df1fcb6c2d50"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "9cd7584c-6eee-47c0-8c6b-81017ec8d006"
+    }
+  ],
+  "equipment_slot": "hands"
+}

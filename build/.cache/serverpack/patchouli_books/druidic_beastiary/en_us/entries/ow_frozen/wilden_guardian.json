@@ -1,0 +1,20 @@
+{
+    "name": "Wilden Defender",
+    "category": "patchouli:ow_frozen",
+    "icon": "ars_nouveau:wilden_guardian_se",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice$(2br)$(l)Weakness:$()$(br)Fire   Holy   Nature$(2br)$(l)Damage:$()$(br)Nature   Ice"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "ars_nouveau:wilden_guardian",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2",
+            "scale": "0.75"
+        }
+    ]
+}

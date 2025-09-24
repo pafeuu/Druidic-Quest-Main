@@ -1,0 +1,20 @@
+{
+    "name": "Rocky Roller",
+    "category": "patchouli:ow_dark",
+    "icon": "alexsmobs:spawn_egg_rocky_roller",
+    "sortnum": 12,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Physical$(2br)$(l)Weakness:$()$(br)Arcane$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:rocky_roller",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8",
+            "offset": "0.2"
+        }
+    ]
+}

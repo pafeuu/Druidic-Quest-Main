@@ -1,0 +1,20 @@
+{
+  "id": "twilightforest:phantom_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "bb3b4531-e6c2-4552-bea2-f467e2db83d2"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": -2,
+      "operation": "ADDITION",
+      "uuid": "fe0177d7-36ac-4bf4-8168-06baf9e0c618"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Shulker",
+    "category": "patchouli:end_mobs",
+    "icon": "minecraft:shulker_spawn_egg",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Arcane   Fire$(2br)$(l)Weakness:$()$(br)Ice   Nature$(2br)$(l)Damage:$()$(br)Physical   Arcane"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:shulker",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8",
+            "offset": "0.2"
+        }
+    ]
+}

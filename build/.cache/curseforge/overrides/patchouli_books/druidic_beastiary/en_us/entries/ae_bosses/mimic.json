@@ -1,0 +1,19 @@
+{
+    "name": "Mimic",
+    "category": "patchouli:ae_bosses",
+    "icon": "aether:mimic_spawn_egg",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Holy   Ice$(2br)$(l)Weakness:$()$(br)Blood   Fire$(2br)$(l)Damage:$()$(br)Physical   Holy"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "aether:mimic",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.9"
+        }
+    ]
+}

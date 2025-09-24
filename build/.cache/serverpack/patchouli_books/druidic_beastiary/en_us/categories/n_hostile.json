@@ -1,0 +1,7 @@
+{
+    "name": "Deadly",
+    "description": "All of these mobs will kill you, given the chance. Many can only be found in certain biomes and others can only be found in specific structures.",
+    "icon": "minecraft:wither_skeleton_skull",
+    "parent": "patchouli:nether",
+    "sortnum": 2
+}

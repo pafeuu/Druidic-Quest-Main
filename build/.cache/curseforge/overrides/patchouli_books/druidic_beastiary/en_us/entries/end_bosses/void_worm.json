@@ -1,0 +1,19 @@
+{
+    "name": "Void Worm",
+    "category": "patchouli:end_bosses",
+    "icon": "alexsmobs:spawn_egg_void_worm",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Physical   Arcane$(2br)$(l)Weakness:$()$(br)Ice   Nature$(2br)$(l)Damage:$()$(br)Blood   Arcane"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:void_worm",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "-1.0"
+        }
+    ]
+}

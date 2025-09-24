@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:cactus_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 0.5,
+      "operation": "ADDITION",
+      "uuid": "60fe5fb3-2094-4e47-8b79-509b7ebd76b9"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

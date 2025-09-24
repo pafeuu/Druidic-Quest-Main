@@ -1,0 +1,20 @@
+{
+    "name": "Towerwood Borer",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:towerwood_borer_spawn_egg",
+    "sortnum": 18,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Blood$(2br)$(l)Weakness:$()$(br)Fire$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:towerwood_borer",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8",
+            "offset": "0.1"
+        }
+    ]
+}

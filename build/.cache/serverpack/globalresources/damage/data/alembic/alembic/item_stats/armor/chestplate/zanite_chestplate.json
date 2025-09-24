@@ -1,0 +1,34 @@
+{
+  "id": "aether:zanite_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "38e5e9a5-3be0-4697-bcf3-2ae73ce81111"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "6dfcfa99-d96d-48b8-80b1-a04585c729ec"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "17519fd5-ee18-478a-93b0-ef9e8c80d830"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.04,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "70de7171-4d0b-471e-82ef-e03d332e192a"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

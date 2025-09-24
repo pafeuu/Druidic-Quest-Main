@@ -1,0 +1,12 @@
+{
+  "immersiveengineering:alloy": {
+    "order": 6,
+    "sort": "none",
+    "icon": {
+      "stack": "item:immersiveengineering:alloy_smelter"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

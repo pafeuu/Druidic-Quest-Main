@@ -1,0 +1,23 @@
+{
+  "priority": 1,
+  "type": "alexsmobs:straddler",
+  "resistances": {
+    "alchemical_damage": 1.0,
+    "physical_damage": 1.25,
+    "fire_damage": 1.9,
+    "arcane_damage": 1.0,
+    "true_damage": 1.25,
+    "ice_damage": 0.6,
+    "holy_damage": 0.8
+  },
+  "damage": {
+    "physical_damage": 0.6,
+    "true_damage": 0.2,
+    "fire_damage": 0.2
+  },
+  "ignored_sources": [
+      "minecraft:lava",
+      "minecraft:in_fire",
+      "minecraft:on_fire"
+    ]
+}

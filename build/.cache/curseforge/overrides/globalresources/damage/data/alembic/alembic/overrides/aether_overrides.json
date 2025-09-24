@@ -1,0 +1,16 @@
+{
+  "priority": 2,
+  "source_overrides": {
+    "aether:inebriation": {"alchemical_damage": 1.0},
+    "aether:ice_crystal": {"ice_damage": 1.0},
+    "aether:incerneration": {"fire_damage": 1.0},
+    "aether:thunder_crystal": {"fire_damage": 0.4, "alchemical_damage": 0.3, "holy_damage":0.3},
+    "aether:cloud_crystal": {"ice_damage": 0.5, "holy_damage: 0.5"},
+    "aether:fire_crystal": {"fire_damage": 1.0},
+    "aether:crush": {"physical_damage": 1.0},
+    "aether_redux:spear": {"physical_damage": 0.75, "alchemical_damage": 0.25},
+    "aether_redux:blight": {"alchemical_damage": 1.0},
+    "aether_redux:ember": {"fire_damage": 1.0},
+    "aether_redux:corrupted_vines": {"physical_damage": 0.4, "alchemical_damage": 0.6}
+    }
+}

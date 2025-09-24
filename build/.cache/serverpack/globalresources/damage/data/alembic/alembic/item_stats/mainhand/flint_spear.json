@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:flint_spear",
+  "modifiers": [
+	{
+      "type": "append",
+      "attribute": "alembic:fire_damage",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "1e15cf20-1231-40d3-b441-262036315e75"
+    }
+  ],
+  "equipment_slot": "MAINHAND"
+}

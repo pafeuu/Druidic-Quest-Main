@@ -1,0 +1,18 @@
+{
+    "name": "Blizz",
+    "category": "patchouli:ow_frozen",
+    "icon": "thermal:blizz_spawn_egg",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice$(2br)$(l)Weakness:$()$(br)Fire$(2br)$(l)Damage:$()$(br)Ice   Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "thermal:blizz",
+            "rotate": "false",
+            "default_rotation": "35"
+        }
+    ]
+}

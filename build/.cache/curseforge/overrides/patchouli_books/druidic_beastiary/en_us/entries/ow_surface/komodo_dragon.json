@@ -1,0 +1,18 @@
+{
+    "name": "Komodo Dragon",
+    "category": "patchouli:ow_surface",
+    "icon": "alexsmobs:spawn_egg_komodo_dragon",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Blood$(2br)$(l)Weakness:$()$(br)Ice$(2br)$(l)Damage:$()$(br)Physical   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:komodo_dragon",
+            "rotate": "false",
+            "default_rotation": "35"
+        }
+    ]
+}

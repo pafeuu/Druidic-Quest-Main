@@ -1,0 +1,19 @@
+{
+    "name": "Skelewag",
+    "category": "patchouli:ow_water",
+    "icon": "alexsmobs:spawn_egg_skelewag",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Ice   Blood$(2br)$(l)Weakness:$()$(br)Holy   Fire   Nature$(2br)$(l)Damage:$()$(br)Physical   Ice"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:skelewag",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8"
+        }
+    ]
+}

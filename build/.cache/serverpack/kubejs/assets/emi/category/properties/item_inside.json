@@ -1,0 +1,12 @@
+{
+  "lychee:item_inside/minecraft/default": {
+    "order": 5,
+    "sort": "none",
+    "icon": {
+      "stack": "item:minecraft:cauldron"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

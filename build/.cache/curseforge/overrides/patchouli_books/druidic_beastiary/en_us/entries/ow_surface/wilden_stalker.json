@@ -1,0 +1,20 @@
+{
+    "name": "Wilden Stalker",
+    "category": "patchouli:ow_surface",
+    "icon": "ars_nouveau:wilden_stalker_se",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Blood$(2br)$(l)Weakness:$()$(br)Fire   Ice   Holy$(2br)$(l)Damage:$()$(br)Blood   Nature"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "ars_nouveau:wilden_stalker",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2",
+            "scale": "0.75"
+        }
+    ]
+}

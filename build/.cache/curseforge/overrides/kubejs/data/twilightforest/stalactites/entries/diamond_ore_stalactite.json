@@ -1,0 +1,15 @@
+{
+  "blocks": [
+    {
+      "block": "thermal:silver_ore",
+      "weight": 20
+    },
+    {
+      "block": "forbidden_arcanus:stella_arcanum",
+      "weight": 1
+    }
+  ],
+  "max_length": 4,
+  "size_variation": 0.5,
+  "weight": 30
+}

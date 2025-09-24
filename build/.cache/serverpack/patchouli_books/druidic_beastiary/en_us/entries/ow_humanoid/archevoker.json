@@ -1,0 +1,19 @@
+{
+    "name": "Archevoker",
+    "category": "patchouli:ow_humanoid",
+    "icon": "irons_spellbooks:archevoker_spawn_egg",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Arcane   Blood$(2br)$(l)Weakness:$()$(br)Holy$(2br)$(l)Damage:$()$(br)Arcane   Physical   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "irons_spellbooks:archevoker",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

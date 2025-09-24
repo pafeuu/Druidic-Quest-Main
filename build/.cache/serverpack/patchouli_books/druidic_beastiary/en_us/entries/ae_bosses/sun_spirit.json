@@ -1,0 +1,18 @@
+{
+    "name": "Sun Spirit",
+    "category": "patchouli:ae_bosses",
+    "icon": "umbral_skies:sun_spirit_trophy",
+    "sortnum": 15,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Holy$(2br)$(l)Weakness:$()$(br)Ice   Blood$(2br)$(l)Damage:$()$(br)Fire   Holy"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "aether:sun_spirit",
+            "rotate": "false",
+            "default_rotation": "35"
+        }
+    ]
+}

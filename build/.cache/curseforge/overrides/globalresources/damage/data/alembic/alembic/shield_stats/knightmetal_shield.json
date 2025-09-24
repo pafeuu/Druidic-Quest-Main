@@ -1,0 +1,34 @@
+{
+  "item": "twilightforest:knightmetal_shield",
+  "blocking_stats": [
+    {
+      "type": "alembic:physical_damage",
+      "modifier": 0.0
+    },
+    {
+      "type": "alembic:true_damage",
+      "modifier": 0.0
+    },
+    {
+      "type": "alembic:alchemical_damage",
+      "modifier": 0.3
+    },
+    {
+      "type": "alembic:arcane_damage",
+      "modifier": 0.3
+    },
+    {
+      "type": "alembic:fire_damage",
+      "modifier": 0.3
+    },
+    {
+      "type": "alembic:ice_damage",
+      "modifier": 0.9
+    },
+    {
+      "type": "alembic:holy_damage",
+      "modifier": 0.95
+    }
+    
+  ]
+}

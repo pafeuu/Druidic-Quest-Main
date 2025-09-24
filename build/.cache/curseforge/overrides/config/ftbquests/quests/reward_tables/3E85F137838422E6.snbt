@@ -1,0 +1,576 @@
+{
+	icon: "minecraft:chest"
+	id: "3E85F137838422E6"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"astages:owners": { }
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 21b
+								Slot: 0b
+								id: "minecraft:acacia_log"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "minecraft:acacia_fence"
+							}
+							{
+								Count: 21b
+								Slot: 2b
+								id: "minecraft:acacia_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "minecraft:acacia_log"
+							}
+							{
+								Count: 21b
+								Slot: 4b
+								id: "minecraft:acacia_fence"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "minecraft:acacia_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 6b
+								id: "minecraft:acacia_log"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "minecraft:acacia_fence"
+							}
+							{
+								Count: 21b
+								Slot: 8b
+								id: "minecraft:acacia_trapdoor"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"astages:owners": { }
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 21b
+								Slot: 0b
+								id: "biomeswevegone:mahogany_log"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "biomeswevegone:mahogany_fence"
+							}
+							{
+								Count: 21b
+								Slot: 2b
+								id: "biomeswevegone:mahogany_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "biomeswevegone:mahogany_log"
+							}
+							{
+								Count: 21b
+								Slot: 4b
+								id: "biomeswevegone:mahogany_fence"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "biomeswevegone:mahogany_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 6b
+								id: "biomeswevegone:mahogany_log"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "biomeswevegone:mahogany_fence"
+							}
+							{
+								Count: 21b
+								Slot: 8b
+								id: "biomeswevegone:mahogany_trapdoor"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"astages:owners": { }
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 21b
+								Slot: 0b
+								id: "minecraft:mangrove_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "minecraft:mangrove_log"
+							}
+							{
+								Count: 21b
+								Slot: 2b
+								id: "minecraft:mangrove_fence"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "minecraft:mangrove_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 4b
+								id: "minecraft:mangrove_log"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "minecraft:mangrove_fence"
+							}
+							{
+								Count: 21b
+								Slot: 6b
+								id: "minecraft:mangrove_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "minecraft:mangrove_log"
+							}
+							{
+								Count: 21b
+								Slot: 8b
+								id: "minecraft:mangrove_fence"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"astages:owners": { }
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 21b
+								Slot: 0b
+								id: "biomeswevegone:blue_enchanted_log"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "biomeswevegone:blue_enchanted_fence"
+							}
+							{
+								Count: 21b
+								Slot: 2b
+								id: "biomeswevegone:blue_enchanted_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "biomeswevegone:blue_enchanted_log"
+							}
+							{
+								Count: 21b
+								Slot: 4b
+								id: "biomeswevegone:blue_enchanted_fence"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "biomeswevegone:blue_enchanted_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 6b
+								id: "biomeswevegone:blue_enchanted_log"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "biomeswevegone:blue_enchanted_fence"
+							}
+							{
+								Count: 21b
+								Slot: 8b
+								id: "biomeswevegone:blue_enchanted_trapdoor"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"astages:owners": { }
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 21b
+								Slot: 0b
+								id: "quark:ancient_log"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "quark:ancient_fence"
+							}
+							{
+								Count: 21b
+								Slot: 2b
+								id: "quark:ancient_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "quark:ancient_log"
+							}
+							{
+								Count: 21b
+								Slot: 4b
+								id: "quark:ancient_fence"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "quark:ancient_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 6b
+								id: "quark:ancient_log"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "quark:ancient_fence"
+							}
+							{
+								Count: 21b
+								Slot: 8b
+								id: "quark:ancient_trapdoor"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"astages:owners": { }
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 21b
+								Slot: 0b
+								id: "biomeswevegone:sakura_log"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "biomeswevegone:sakura_fence"
+							}
+							{
+								Count: 21b
+								Slot: 2b
+								id: "biomeswevegone:sakura_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "biomeswevegone:sakura_log"
+							}
+							{
+								Count: 21b
+								Slot: 4b
+								id: "biomeswevegone:sakura_fence"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "biomeswevegone:sakura_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 6b
+								id: "biomeswevegone:sakura_log"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "biomeswevegone:sakura_fence"
+							}
+							{
+								Count: 21b
+								Slot: 8b
+								id: "biomeswevegone:sakura_trapdoor"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"astages:owners": { }
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 21b
+								Slot: 0b
+								id: "minecraft:dark_oak_log"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "minecraft:dark_oak_fence"
+							}
+							{
+								Count: 21b
+								Slot: 2b
+								id: "minecraft:dark_oak_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "minecraft:dark_oak_log"
+							}
+							{
+								Count: 21b
+								Slot: 4b
+								id: "minecraft:dark_oak_fence"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "minecraft:dark_oak_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 6b
+								id: "minecraft:dark_oak_log"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "minecraft:dark_oak_fence"
+							}
+							{
+								Count: 21b
+								Slot: 8b
+								id: "minecraft:dark_oak_trapdoor"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"astages:owners": { }
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 21b
+								Slot: 0b
+								id: "biomeswevegone:pine_log"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "biomeswevegone:pine_fence"
+							}
+							{
+								Count: 21b
+								Slot: 2b
+								id: "biomeswevegone:pine_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "biomeswevegone:pine_log"
+							}
+							{
+								Count: 21b
+								Slot: 4b
+								id: "biomeswevegone:pine_fence"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "biomeswevegone:pine_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 6b
+								id: "biomeswevegone:pine_log"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "biomeswevegone:pine_fence"
+							}
+							{
+								Count: 21b
+								Slot: 8b
+								id: "biomeswevegone:pine_trapdoor"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: {
+							"astages:owners": { }
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 0b
+							}
+						}
+						Items: [
+							{
+								Count: 21b
+								Slot: 0b
+								id: "biomeswevegone:zelkova_log"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "biomeswevegone:zelkova_fence"
+							}
+							{
+								Count: 21b
+								Slot: 2b
+								id: "biomeswevegone:zelkova_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "biomeswevegone:zelkova_log"
+							}
+							{
+								Count: 21b
+								Slot: 4b
+								id: "biomeswevegone:zelkova_fence"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "biomeswevegone:zelkova_trapdoor"
+							}
+							{
+								Count: 21b
+								Slot: 6b
+								id: "biomeswevegone:zelkova_log"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "biomeswevegone:zelkova_fence"
+							}
+							{
+								Count: 21b
+								Slot: 8b
+								id: "biomeswevegone:zelkova_trapdoor"
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+	title: "RandomWood"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Cold Biomes",
+    "description": "You will find these mobs only in cold biomes. Some spawn in complete darkness, others may be seen on the surface during the day.",
+    "icon": "immersive_weathering:frosty_grass",
+    "parent": "patchouli:overworld",
+    "sortnum": 3
+}

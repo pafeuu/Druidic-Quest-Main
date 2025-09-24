@@ -1,0 +1,1683 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: "23A1FEBD04C34E2E"
+	hide_quest_details_until_startable: true
+	icon: "minecraft:flint"
+	id: "0C8FBF701F2CC12E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4FF8CB3EF0206C93"]
+			description: [
+				"You can sometimes find these materials laying on the ground."
+				""
+				"If you can't find any, you can destroy leaves for a chance to drop twigs and right click stone with a empty hand to get pebbles. Mining gravel also has a chance to drop pebbles."
+				""
+				"&2If you dont want to chop down the whole tree you need to sneak while destroying the logs! Your first axe has very little durability, so it might not be able to chop down bigger trees.&r"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:stone_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E4E7EFB7FFC688B"
+			rewards: [{
+				id: "1BA192001BDD82CC"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Craft a damaged axe."
+			tasks: [
+				{
+					count: 3L
+					id: "7D44DD370F1534B1"
+					item: "twigs:pebble"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "33AF9CE4F1ECF96C"
+					item: "twigs:twig"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E2257244744DFFC"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 120
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Before You Punch a Tree"
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E4E7EFB7FFC688B"]
+			description: ["It's a good time to look into some new tools."]
+			hide_until_deps_visible: false
+			id: "69B93BA4460E5F95"
+			rewards: [
+				{
+					id: "7B93D48632D2D47C"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "4AC283B2C90F08A1"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:backpack"
+						tag: {
+							borderColor: 14643122
+							clothColor: 14972592
+							contentsUuid: [I;
+								488902614
+								-1968553980
+								-1431729793
+								-1799299064
+							]
+							inventorySlots: 27
+							renderInfo: {
+								upgradeItems: [{
+									Count: 1b
+									id: "minecraft:air"
+								}]
+							}
+							upgradeSlots: 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "The world of crafting opens to you."
+			tasks: [{
+				id: "77489C7B06FEF950"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69B93BA4460E5F95"]
+			description: ["&8Flint tools&r are a faster alternative to stone tools. However, they cannot mine most ores and have -0.5 block reach compared to stone."]
+			icon: "minecraft:flint"
+			id: "2BB4A388858E481A"
+			rewards: [{
+				count: 4
+				id: "2CBC9FD684C5A5CC"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Who mines stone with wood?"
+			tasks: [{
+				id: "61F4E8D6035FAA6E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/flint)"
+					}
+				}
+				title: "Any #forge:tools/flint"
+				type: "item"
+			}]
+			title: "Different Tools"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69B93BA4460E5F95"]
+			description: ["Hold in your hand and right click to open. (There is no keybind.)"]
+			id: "3C35A64771D5DEC8"
+			rewards: [{
+				count: 3
+				id: "1D70D886EF7B9FC4"
+				item: "fruitsdelight:durian_pie"
+				type: "item"
+			}]
+			subtitle: "Expanding Your Inventory"
+			tasks: [{
+				id: "2FB0F7C121F8F93D"
+				item: {
+					Count: 1
+					id: "thermal:satchel"
+					tag: { }
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Very Early-Game Backpack"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69B93BA4460E5F95"]
+			description: ["You begin the game weakened from starvation. Establishing stable food sources should be a main priority."]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "118A5A467C0FEA36"
+			rewards: [{
+				id: "76C2C55923A44610"
+				item: "silly_oddities:rainbow_bundle"
+				type: "item"
+			}]
+			subtitle: "But are you in a condition to fight?"
+			tasks: [{
+				id: "0F3FB0935B2A1651"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Early game weapon\"}"
+						}
+						"ftbfiltersystem:filter": "or(item(minecraft:stone_sword)item(kubejs:stone_claymore)item(minecraft:wooden_sword)item(kubejs:mossy_sword)item(kubejs:flint_spear)item(farmersdelight:flint_knife))"
+					}
+				}
+				type: "item"
+			}]
+			title: "New Combat System!"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["118A5A467C0FEA36"]
+			description: ["As you can see, a lot of \"basic\" items have changed recipes, but you can still find those items while exploring the world!"]
+			icon: "minecraft:compass"
+			id: "729D1CD4DE8B6BBE"
+			rewards: [
+				{
+					count: 2
+					id: "29837615A2AB0E04"
+					item: "alexsmobs:kangaroo_burger"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5A727775055223CA"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "It's not stealing, is it?"
+			tasks: [
+				{
+					id: "0317494A5A44092E"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "66764F9FA73C6079"
+					item: "minecraft:clock"
+					type: "item"
+				}
+				{
+					id: "6993F6DF2BE3AEB2"
+					item: "minecraft:compass"
+					type: "item"
+				}
+				{
+					id: "25C1EBAF23105E8A"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "73481649AAA7C3A3"
+					item: "minecraft:dropper"
+					type: "item"
+				}
+				{
+					id: "7E41B878CD727327"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "Exploration "
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["118A5A467C0FEA36"]
+			description: [
+				"Fishing is quite a bit different in this pack, thanks to the &l&3Tide&r&r mod!"
+				""
+				"&8&oMore info soon to be added&r&r"
+			]
+			id: "7E2375F791287F5E"
+			rewards: [
+				{
+					id: "467A59459132A64C"
+					item: "farmersdelight:grilled_salmon"
+					type: "item"
+				}
+				{
+					id: "13BA1A1C80445289"
+					item: "tide:angler_workshop"
+					type: "item"
+				}
+			]
+			subtitle: "Just kickin' back."
+			tasks: [{
+				id: "192D3501559846C3"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: 14
+							hook: 0
+							line: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "New Fishing!"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["118A5A467C0FEA36"]
+			description: [
+				"There's tons of armor to choose from in the pack! Most pieces are part of a set."
+				"Sets give you bonuses for wearing 4 pieces of the same armor type."
+				""
+				"For example:"
+				""
+				"&cLeather Armor&r gives you +30% movement speed."
+				""
+				"The &eBeekeeper Set&r provides you with a few immunities to negative effects."
+				""
+				"With the &8Mortem Set&r, you get a slight increases in some stats and the armor, itself, is quite strong."
+			]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:mortem_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7FA124A98B532194"
+			rewards: [{
+				count: 2
+				id: "03830C80F8D06F67"
+				item: "alexsdelight:bison_burger"
+				type: "item"
+			}]
+			subtitle: "Craft Your First Armor"
+			tasks: [
+				{
+					id: "6BD007076A5E453F"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Early Game Helmet\"}"
+							}
+							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_helmet)item(thermal:beekeeper_helmet)item(minecraft:leather_helmet)item(kubejs:cactus_helmet))"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B1245FA9922A256"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Early Game Chestplate\"}"
+							}
+							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_chestplate)item(minecraft:leather_chestplate)item(thermal:beekeeper_chestplate)item(kubejs:cactus_chestplate))"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C87BDE378F498CC"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Early Game Leggings\"}"
+							}
+							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_leggings)item(minecraft:leather_leggings)item(thermal:beekeeper_leggings)item(kubejs:cactus_leggings))"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CB858C2C3062557"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Early Game Boots\"}"
+							}
+							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_boots)item(minecraft:leather_boots)item(thermal:beekeeper_boots)item(kubejs:cactus_boots))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armour Sets!"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["090099B8B3800BAE"]
+			description: [
+				"Now that you've crafted primitive tools, you can go into the real progression!"
+				""
+				"You can't yet craft a furnace to smelt ore, but you should definitely cook some food."
+				"A nutritious and diverse diet might give you some buffs."
+			]
+			id: "070D257FF3DE0DBF"
+			rewards: [
+				{
+					id: "2A269158CA3BF273"
+					item: "solonion:food_book"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1EEF4F647DB9FDBD"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					id: "1E36666E1469BDCB"
+					item: "solcarrot:food_book"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Mmm... Yum."
+			tasks: [{
+				id: "2485CD10AB726E58"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "Before Furnaces, Humanity Used Campfires"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2BB4A388858E481A"]
+			dependency_requirement: "all_started"
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "090099B8B3800BAE"
+			rewards: [
+				{
+					count: 16
+					id: "7350AF715A9EDD4C"
+					item: "wizards_reborn:arcane_salt_torch"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "48B4AF319912E5CF"
+					item: {
+						Count: 1
+						id: "fruitsdelight:jelly_bread"
+						tag: {
+							JellyEffectRoot: ["APPLE"]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Hit the mines, kids!"
+			tasks: [
+				{
+					id: "63BCF6A42FC24357"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "2FF3E03AB624A44C"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(minecraft:wooden_pickaxe)item(minecraft:stone_pickaxe))"
+						}
+					}
+					title: "Early game pickaxe"
+					type: "item"
+				}
+			]
+			title: "Mining"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E5A981A32056DDC"]
+			dependency_requirement: "all_started"
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "08BFA7B9435D7DCC"
+			rewards: [{
+				id: "4343EF8115278B4C"
+				item: "create:brown_toolbox"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4A18D0F653C5BF79"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/shovels)"
+					}
+				}
+				title: "Any #forge:tools/shovels"
+				type: "item"
+			}]
+			title: "Time to Gather Useful Materials"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BB4A388858E481A"]
+			dependency_requirement: "all_started"
+			description: [
+				""
+				"&aHoes now till blocks in 3x3 or more depending on the hoe! They do take 6 times more durability, no matter how many blocks you till. To till in an AoE you are going to need to crouch&r"
+				""
+				"Tons of crops now have uses in progression. For example, you will need to grow:"
+				""
+				"-wheat to finish &3&ltier 0&r&r  "
+				""
+				"-potatoes for machines in&9 &ltier 1&r"
+				""
+				"-beetroot to craft &5&lcapsids&r&r which can transport items up, as well as insert items into containers"
+				""
+				"Hoes can harvest in a 3x3 or 5x5 depending on the quality of the hoe."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "435BD5A742C05B1E"
+			rewards: [
+				{
+					id: "18EC625BC0ECB2FC"
+					item: {
+						Count: 1
+						id: "quark:seed_pouch"
+						tag: {
+							itemCount: 16
+							storedItem: {
+								Count: 1b
+								id: "immersiveengineering:seed"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1617C348C81DDE03"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 9
+							}
+						}
+						id: "solonion:lunchbox"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Ah, the simple life..."
+			tasks: [{
+				id: "76AE06349C6FE86D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Early game hoe\"}"
+						}
+						"ftbfiltersystem:filter": "or(item(minecraft:stone_hoe)item(minecraft:wooden_hoe))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Farming"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["435BD5A742C05B1E"]
+			description: ["Get to know this material well. You might be using it quite a lot later on!"]
+			id: "70FF5891DA236DA4"
+			rewards: [{
+				count: 4
+				id: "59EE164B05021956"
+				item: "farmersdelight:mixed_salad"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "7F764620F95E94DF"
+				item: "farmersdelight:canvas"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["435BD5A742C05B1E"]
+			description: ["Believe it or not, potatos are a crucial resource in the creation of machines."]
+			id: "4995F4B02484AECC"
+			rewards: [{
+				id: "3F795676BD29B946"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			subtitle: "Most unusual..."
+			tasks: [{
+				count: 18L
+				id: "4253DB3C915BF34E"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			title: "Potato Farming"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["70FF5891DA236DA4"]
+			description: [
+				"Sacks hold 9 stacks of items and retain their inventory when broken."
+				"They are a valuable component of other portable storages."
+			]
+			id: "23302F77050C32C5"
+			rewards: [{
+				id: "0A9F8ACE3E3751A6"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Load 'em up!"
+			tasks: [{
+				id: "0B854A3543DF1B50"
+				item: "supplementaries:sack"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5C95579DC269AF2A"]
+			description: [
+				"You can now tinker even more with food!"
+				""
+				"&8&oCan be automated with a hopper and dispenser in the next chapter.&r&r"
+			]
+			id: "0FC4FA79D5AB30AE"
+			rewards: [{
+				icon: "farmersdelight:chicken_sandwich"
+				id: "4AA8215B8C603A6A"
+				table_id: 4681511814997660015L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Slicing and Dicing"
+			tasks: [{
+				id: "1D531E57A7A23F0E"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A0A25E7A7AA7334"]
+			description: ["To craft a primitve mortar, you will need to right click a stone slab with a chisel in one hand and flint in the other."]
+			id: "0E5A981A32056DDC"
+			rewards: [
+				{
+					id: "6466B5F4990C5F6E"
+					item: "fruitsdelight:mango_salad"
+					type: "item"
+				}
+				{
+					id: "68FCDB2E2664865F"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Get into the grind!"
+			tasks: [{
+				id: "0998F8E68E163D34"
+				item: {
+					Count: 1
+					id: "kubejs:primitive_mortar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2BB4A388858E481A"]
+			id: "2A0A25E7A7AA7334"
+			rewards: [
+				{
+					id: "7CCA13CD53E8C684"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+				{
+					id: "51F6918B9397BDBD"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Shaping Stones"
+			tasks: [{
+				id: "581956980783ED26"
+				item: {
+					Count: 1
+					id: "kubejs:primitive_chisel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E5A981A32056DDC"]
+			description: [
+				"Now, modded grass variants will drop straw like vanilla grass when broken with a knife!"
+				""
+				"Harvesting crops like wheat and flax with the knife will drop straw every time."
+				""
+				"Animals give more drops when killed with a knife. This is affected by Looting."
+			]
+			icon: {
+				Count: 1
+				id: "farmersdelight:flint_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C95579DC269AF2A"
+			rewards: [{
+				id: "321CB8C03BD35D07"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2CFFE963B01A7CBD"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["435BD5A742C05B1E"]
+			description: [
+				"You only need a bit for now."
+				""
+				"Though, you might as well plant some more for food."
+			]
+			id: "22BF5448BA6B11AF"
+			rewards: [{
+				id: "778C9A624F904899"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "0B1B2E62408DE1D9"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "Harvest Your Wheat"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6814EBB8BDED9EEE"]
+			dependency_requirement: "all_started"
+			description: [
+				""
+				"To get to the next chapter, you're gonna need to blow some stuff up."
+				""
+				"You can use either mobs or tnt to complete explosion crafting recipes."
+			]
+			hide_until_deps_visible: false
+			icon: "minecraft:creeper_head"
+			id: "3F2E2B483880F030"
+			rewards: [
+				{
+					count: 2
+					id: "2FED523D2C16D553"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "285A3CD566BB6665"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Crafting with a Bang!"
+			tasks: [{
+				icon: "handcrafted:creeper_trophy"
+				id: "509547F8D00897E5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:creeper"
+				type: "observation"
+			}]
+			title: "Explosive Mobs"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F2E2B483880F030"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Drop &82 string&r, &a2 wheat seeds&r and &e4 flowers&r (&nwith the tag #forge:flowers/golden&r) on the ground then explode it with tnt or a creeper to craft &6Brilliant Fiber&r."
+				""
+				"Right click the &6Brilliant Fiber&r on some leaves and wait for it to spread. Once the leaves change, they will drop &egolden leaves&r, needed for further progression."
+			]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			icon: "naturesaura:gold_fiber"
+			id: "474D50C2F74737EE"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "7E57681C09E38238"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "naturesaura:book"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3A25233FC71AD111"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "All that glitters..."
+			tasks: [
+				{
+					count: 8L
+					id: "4E57D72FF6B70120"
+					item: { Count: 8, id: "naturesaura:gold_leaf" }
+					type: "item"
+				}
+				{
+					id: "112101A4F1CD3875"
+					item: "naturesaura:gold_fiber"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["474D50C2F74737EE"]
+			description: [
+				"Right click a stripped log with a &egold leaf&r in one hand and a &2knife&r in the other to turn it into a wooden stand."
+				""
+				"Items used in the ritual do not need to be placed in exact order."
+				""
+				"The tree in the middle must grow in order to obtain the result from the recipe."
+				""
+				"&aYou will need to place a sapling and new gold powder after every recipe, so make sure to mark the position of each.&r"
+				""
+				"This pack includes custom &2ponders&r. Holding \"W\" while hovering over an item with an available ponder will display a schematic with an explanation on how to use it."
+			]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			icon: "naturesaura:wood_stand"
+			id: "3795DEE8A3FE6814"
+			rewards: [
+				{
+					count: 8
+					id: "57CCBE6FF02D2390"
+					item: "naturesaura:gold_leaf"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5FD2403C0CAC2E6C"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "First Magical Ritual"
+			tasks: [
+				{
+					count: 16L
+					id: "473EC5D57AFB1B19"
+					item: { Count: 16, id: "naturesaura:gold_powder" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5A3EA25913807A1A"
+					item: "naturesaura:wood_stand"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Assemble the Ritual"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7846743FB0D30EAD"]
+			description: [
+				"Jewelry is a big part of the modpack. Putting together a good set of curios might be necessary to survive in this cruel world."
+				""
+				"Look at items from the Enigmatic Legacy mod and many others to see what else you could craft to make yourself stronger!"
+			]
+			icon: "enigmaticlegacy:iron_ring"
+			id: "3EDF5559C9E29ED4"
+			rewards: [{
+				count: 3
+				id: "290711AFFFE68D15"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "So sparkly!"
+			tasks: [
+				{
+					id: "7DF73EC4E0586B4D"
+					item: "enigmaticlegacy:iron_ring"
+					type: "item"
+				}
+				{
+					id: "7D458C8D19406586"
+					item: "enigmaticlegacy:magnet_ring"
+					type: "item"
+				}
+				{
+					id: "49C94266C775AAD7"
+					item: "enigmaticlegacy:golden_ring"
+					type: "item"
+				}
+			]
+			title: "First Jewelry"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7846743FB0D30EAD"]
+			description: ["Right click to activate. When active, the eye gives +1.5 block reach for the cost of some unholy resistance and one heart."]
+			id: "4B5BA7BEE6643B4C"
+			rewards: [{
+				count: 3
+				id: "64DDDB2734B58294"
+				item: "minecraft:beetroot_soup"
+				type: "item"
+			}]
+			subtitle: "Finally! More range!"
+			tasks: [{
+				id: "5E942597BE42C797"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Important Piece of Equipment"
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["08BFA7B9435D7DCC"]
+			description: ["You might want to harvest a bunch of clay and sand for the future."]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clay_ball"
+			id: "3795D0DD18CF8363"
+			rewards: [{
+				id: "50EC389AE9E2B1A7"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 36L
+					icon: "minecraft:sand"
+					id: "3AF322DAEAD8EF71"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:sand)"
+						}
+					}
+					title: "Any sand"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "20745DD491B65644"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "21EE77077CF5B188"
+					item: { Count: 18, id: "minecraft:gravel" }
+					type: "item"
+				}
+			]
+			title: "Why Is It Always Clay?"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C95579DC269AF2A"]
+			description: [
+				"Squid might drop ink sacs more often if killed with a knife."
+				""
+				"&8This might be a good time to equip &r&l&4the Cursed Ring&r&r&8 if you're brave enough...&r"
+			]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			id: "0A4DF24D1B2E7889"
+			rewards: [
+				{
+					id: "756D3E4124CD1537"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "311587EA1E416A17"
+					item: "farmersdelight:squid_ink_pasta"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "1857A526AA2858B7"
+				item: "minecraft:ink_sac"
+				type: "item"
+			}]
+			title: "Squid Hunt"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0A4DF24D1B2E7889"
+				"3795DEE8A3FE6814"
+				"3795D0DD18CF8363"
+				"22BF5448BA6B11AF"
+			]
+			description: ["Brick glue has 96 durability and uses one per brick block crafted."]
+			id: "78441BFCAC4CA22B"
+			rewards: [{
+				id: "77F7DC3CC498A66A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Brick's Crafting Component"
+			tasks: [{
+				id: "6C8D3A74395909E3"
+				item: {
+					Count: 1
+					id: "kubejs:brick_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"78441BFCAC4CA22B"
+				"22940C5D29764070"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The &cCoke Oven&r is built by making a 3x3x3 cube of Coke Bricks. To form the multiblock, right click it with an engineer's hammer."
+				""
+				"It will take coal and transform it into coal coke and creosote oil, both necessary for further progression."
+				""
+				"&2✨ Congratulations on finishing your first chapter!&r"
+				""
+				"&9✨ If you are enjoying the pack so far, be sure to visit our Discord to share your thoughts about it.&r"
+				""
+				"&d✨ Your feedback and bug reports are crucial to the pack development!&r"
+			]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			icon: "immersiveengineering:cokebrick"
+			id: "51966AE20559FFA0"
+			rewards: [
+				{
+					id: "29DC6958A4800B95"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+				{
+					id: "00FEE0CB37CD6321"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Heatin' Up!"
+			tasks: [{
+				count: 27L
+				id: "7DE2C8EC522E5848"
+				item: { Count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			title: "The Big Oven"
+			x: 14.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["4E4E7EFB7FFC688B"]
+			description: [
+				"To get planks, right click with an axe in one hand and stripped logs in the other."
+				""
+				"&4&oCurrently the cooldown on the axe is broken so you can make planks very quickly&r&r"
+			]
+			icon: "minecraft:spruce_planks"
+			id: "4138D0D9B6F11604"
+			rewards: [{
+				count: 4
+				id: "16C65310CF01D221"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Everything seems different here..."
+			tasks: [{
+				id: "06A59ED76D90BEB6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)"
+					}
+				}
+				title: "Any #minecraft:planks"
+				type: "item"
+			}]
+			title: "Cutting Planks"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69B93BA4460E5F95"]
+			description: [
+				"&4Remember that flint does not drop from gravel anymore. You will have to craft it using 4 gravel in the crafting grid."
+				"&r"
+				"The saw allows you to make planks in a more efficient way. Holding a saw in one hand and stripped logs in the other will give you 3x more planks than using an axe."
+			]
+			id: "6814EBB8BDED9EEE"
+			rewards: [
+				{
+					count: 5
+					id: "350D5FEAE354D1F3"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "02D09C985BE30D26"
+					item: {
+						Count: 1
+						id: "create:sand_paper"
+						tag: {
+							Damage: 128
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Easier Planks"
+			tasks: [{
+				id: "6E43726567162598"
+				item: {
+					Count: 1
+					id: "kubejs:primitive_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["118A5A467C0FEA36"]
+			description: [
+				"Be sure to keep upgrading your equipment if you want to survive this cruel world! The difficulty will increase each time you obtain the appropriate materials."
+				""
+				"&4Mobs in this modpack can spawn with almost any equipment in the game. But they will not drop any of that equipment!&r"
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "2910627A1D09A447"
+			rewards: [
+				{
+					id: "6B2B03600720894F"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "1BD16562C95B3912"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Is it just me...?"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "3499CBA076EC3435"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "4D030493E77E07D6"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Mob Difficulty Changes"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3795DEE8A3FE6814"]
+			description: ["&bArcanum Ore&r spawns between y90 and y-40 in the Overworld."]
+			icon: "wizards_reborn:arcanum"
+			id: "3D782DAACBB5DE87"
+			rewards: [
+				{
+					id: "3E9F05E2B2AE959F"
+					item: "wizards_reborn:arcanemicon"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "471DFA1BF2720868"
+					item: "enigmaticlegacy:recall_potion"
+					type: "item"
+				}
+			]
+			subtitle: "How it shines!"
+			tasks: [
+				{
+					id: "5B2D4312E78561FC"
+					item: "wizards_reborn:arcanum_dust"
+					type: "item"
+				}
+				{
+					id: "2D54182CC4077FCF"
+					item: "wizards_reborn:arcanum"
+					type: "item"
+				}
+			]
+			title: "Arcanum Ore"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D782DAACBB5DE87"]
+			description: [
+				"The &b&lArcanum Pylon&r&r takes xp from a player who right clicks it with certain items in hand."
+				""
+				"It will take any log and approximately 1 lvl to obtain 1 arcane wood log."
+			]
+			icon: "kubejs:arcanum_pylon"
+			id: "093161CA8E0381C0"
+			rewards: [
+				{
+					count: 4
+					id: "272D3683672164AE"
+					item: "wizards_reborn:arcane_wood_branch"
+					type: "item"
+				}
+				{
+					id: "56AC5A9CB5791D91"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "Magic Wood"
+			tasks: [
+				{
+					id: "04635584CE7DCF6A"
+					item: "kubejs:arcanum_pylon"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "31BC8EFBE25D2D59"
+					item: { Count: 4, id: "wizards_reborn:arcane_wood_log" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["093161CA8E0381C0"]
+			description: ["&5Arcane Wood Tools&r are extremely slow and brittle, but have innate silk touch ability and can harvest most of the blocks."]
+			icon: {
+				Count: 1
+				id: "wizards_reborn:arcane_wood_pickaxe"
+				tag: {
+					Damage: 0
+					arcaneEnchantments: { }
+				}
+			}
+			id: "36E8803252843028"
+			rewards: [{
+				id: "3D317275358458EE"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Early Silk Touch"
+			tasks: [
+				{
+					id: "1E37D420682B21CD"
+					item: {
+						Count: 1
+						id: "wizards_reborn:arcane_wood_pickaxe"
+						tag: {
+							Damage: 0
+							arcaneEnchantments: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3331129BA9585B19"
+					item: {
+						Count: 1
+						id: "wizards_reborn:arcane_wood_axe"
+						tag: {
+							Damage: 0
+							arcaneEnchantments: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A1CD3EF744D18D4"
+					item: {
+						Count: 1
+						id: "wizards_reborn:arcane_wood_shovel"
+						tag: {
+							Damage: 0
+							arcaneEnchantments: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79699028CB509BF5"
+					item: {
+						Count: 1
+						id: "wizards_reborn:arcane_wood_hoe"
+						tag: {
+							Damage: 0
+							arcaneEnchantments: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Arcane Tools"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3795DEE8A3FE6814"
+				"093161CA8E0381C0"
+			]
+			description: [""]
+			icon: "wizards_reborn:arcane_workbench"
+			id: "7846743FB0D30EAD"
+			rewards: [
+				{
+					count: 3
+					id: "2A869F5DCC16ACC7"
+					item: "wizards_reborn:arcanum"
+					type: "item"
+				}
+				{
+					id: "34CF0C5933909997"
+					item: "wizards_reborn:creative_knowledge_scroll"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "It begins..."
+			tasks: [
+				{
+					id: "67052489F773D9A1"
+					item: "wizards_reborn:arcane_workbench"
+					type: "item"
+				}
+				{
+					id: "260B5F41FB5BBDE9"
+					item: "wizards_reborn:wissen_altar"
+					type: "item"
+				}
+				{
+					id: "465CF53EFA404580"
+					item: "wizards_reborn:wissen_translator"
+					type: "item"
+				}
+				{
+					id: "31FB1AD6BF4832D2"
+					item: {
+						Count: 1
+						id: "wizards_reborn:wissen_wand"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Arcane Arts"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7846743FB0D30EAD"]
+			id: "22940C5D29764070"
+			rewards: [
+				{
+					count: 8
+					id: "4E4080DAB9058F7A"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2AB4A113C5F6829F"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Pound it!"
+			tasks: [{
+				id: "4AEB70C69BA35CA1"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D782DAACBB5DE87"]
+			description: [
+				"You now have access to nicer light sources!"
+				""
+				"Can be dyed any color."
+				""
+				"Place them on their own for a ball of light."
+				"Use them on the salty lightsources to change their flame appearance."
+			]
+			id: "34A2ED5D35107D50"
+			rewards: [{
+				id: "15259D7383A2E361"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "Pretty Lights!"
+			tasks: [{
+				count: 16L
+				id: "383A5FC7ADED53CF"
+				item: "wizards_reborn:white_arcane_lumos"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["118A5A467C0FEA36"]
+			description: ["Many structures contain loot to help you begin your spellcasting journey!"]
+			icon: "irons_spellbooks:common_ink"
+			id: "49520CEBA3F18404"
+			rewards: [
+				{
+					id: "77114CF8A9D6039C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blaze_storm"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F0A6D58A6CD8D78"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:heal"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Alakazam!"
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/ink_root"
+					criterion: ""
+					icon: "irons_spellbooks:common_ink"
+					id: "13309C8B4512A3BA"
+					type: "advancement"
+				}
+				{
+					id: "611F6D423FC1D89B"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+			]
+			title: "Spellcasting"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D782DAACBB5DE87"]
+			description: [
+				"Growing &dancient saplings&r can help you maintain a healthy amount of aura in an area. This will prove useful later when aura-usage increases. Wood from this tree is also required for some recipes."
+				""
+				"Read more about aura and ancient saplings in the &6Book of Natural Aura.&r"
+				""
+				"&o&7Remember, you can find saplings needed for rituals in the Market!&r&r"
+			]
+			id: "32A61115C0AD8C45"
+			rewards: [{
+				id: "4C30130FCA05747B"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Generating Aura"
+			tasks: [{
+				id: "4BE6D5FEF2468D97"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32A61115C0AD8C45"]
+			description: ["Right click a sunflower while holding the tablet to clear rainy weather."]
+			id: "4629A647F810AA19"
+			rewards: [{
+				id: "725BED1D7C4CD018"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "Controlling the Weather"
+			tasks: [{
+				id: "5589B439251D443A"
+				item: "ars_nouveau:ritual_cloudshaping"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6814EBB8BDED9EEE"]
+			icon: "minecraft:leather_horse_armor"
+			id: "5F3492DDB5A1328A"
+			optional: true
+			rewards: [
+				{
+					command: "/summon minecraft:horse ~ ~ ~ {Variant:13}"
+					icon: "minecraft:leather_horse_armor"
+					id: "34C6B37A47E1EAF9"
+					type: "command"
+				}
+				{
+					id: "19E21D8E3E59D4AA"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1C426217ACEBE2E5"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "Get a horse for cheap!"
+			x: -2.5d
+			y: -4.0d
+		}
+	]
+	title: "Tier 0 - Wooden Age"
+}

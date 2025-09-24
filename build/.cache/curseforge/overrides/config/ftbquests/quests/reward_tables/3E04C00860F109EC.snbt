@@ -1,0 +1,117 @@
+{
+	icon: "minecraft:chest"
+	id: "3E04C00860F109EC"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cage"
+				tag: {
+					BlockEntityTag: {
+						MobHolder: {
+							EntityData: {
+								Pos: [
+									0.5d
+									0.20009998807907103d
+									0.5d
+								]
+								id: "minecraft:cow"
+							}
+							Name: "Cow"
+							UUID: [I;
+								719828050
+								1469468379
+								-1314582237
+								-2119634646
+							]
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cage"
+				tag: {
+					BlockEntityTag: {
+						MobHolder: {
+							EntityData: {
+								Pos: [
+									0.5d
+									0.20009998807907103d
+									0.5d
+								]
+								id: "minecraft:pig"
+							}
+							Name: "Pig"
+							UUID: [I;
+								719838050
+								1469468379
+								-1314582237
+								-2119634646
+							]
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cage"
+				tag: {
+					BlockEntityTag: {
+						MobHolder: {
+							EntityData: {
+								Pos: [
+									0.5d
+									0.20009998807907103d
+									0.5d
+								]
+								id: "minecraft:sheep"
+							}
+							Name: "Sheep"
+							UUID: [I;
+								719838050
+								1469468379
+								-1314582237
+								-2119634646
+							]
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cage"
+				tag: {
+					BlockEntityTag: {
+						MobHolder: {
+							EntityData: {
+								Pos: [
+									0.5d
+									0.20009998807907103d
+									0.5d
+								]
+								id: "minecraft:chicken"
+							}
+							Name: "Chicken"
+							UUID: [I;
+								719838050
+								1469468379
+								-1314582237
+								-2119634646
+							]
+						}
+					}
+				}
+			}
+		}
+	]
+	title: "FarmAnimals"
+}

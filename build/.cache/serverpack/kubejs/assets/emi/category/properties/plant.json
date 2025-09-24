@@ -1,0 +1,12 @@
+{
+  "ali:plant_loot": {
+    "order": 209,
+    "sort": "none",
+    "icon": {
+      "stack": "item:minecraft:iron_hoe"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

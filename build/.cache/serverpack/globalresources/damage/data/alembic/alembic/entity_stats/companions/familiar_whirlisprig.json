@@ -1,0 +1,21 @@
+{
+  "priority": 1,
+  "type": "ars_nouveau:familiar_whirlisprig",
+  "resistances": {
+    "alchemical_damage": 1.9,
+    "physical_damage": 1.0,
+    "fire_damage": 0.5,
+    "arcane_damage": 1.0,
+    "true_damage": 1.0,
+    "ice_damage": 1.0,
+    "holy_damage": 1.0
+  },
+  "damage": {
+    "physical_damage": 1.0
+  },
+  "ignored_sources": [
+      "minecraft:lava",
+      "minecraft:in_fire"
+      "minecraft:on_fire"
+    ]
+}

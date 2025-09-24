@@ -1,0 +1,19 @@
+{
+    "name": "Ur-Ghast",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:ur_ghast_trophy",
+    "sortnum": 22,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Blood$(2br)$(l)Weakness:$()$(br)Ice   Arcane$(2br)$(l)Damage:$()$(br)Fire   Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:ur_ghast",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.9"
+        }
+    ]
+}

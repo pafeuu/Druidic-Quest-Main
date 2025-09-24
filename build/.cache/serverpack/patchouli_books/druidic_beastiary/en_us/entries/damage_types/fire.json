@@ -1,0 +1,17 @@
+{
+    "name": "Fire Damage",
+    "category": "patchouli:damage_types",
+    "icon": "ars_nouveau:fire_essence",
+    "entry_color": "d16200",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Fire damage is incurred whenever you encounter lava or fire in the world and is a primary concern when in the Nether.$(br2)Using fire damage will serve you well against entities that are strong in the cold."
+        },
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

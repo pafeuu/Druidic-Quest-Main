@@ -1,0 +1,20 @@
+{
+  "id": "twilightforest:steeleaf_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 5,
+      "operation": "ADDITION",
+      "uuid": "e3e52353-44f7-4f6e-aa04-b83ff70c3034"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.02,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "93645cb0-58dc-474f-b9d4-9a5b81907609"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Sentry",
+    "category": "patchouli:ae_bosses",
+    "icon": "aether:sentry_spawn_egg",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Holy   Physical   Ice$(2br)$(l)Weakness:$()$(br)Arcane   Blood   Fire$(2br)$(l)Damage:$()$(br)Physical   Holy"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "aether:sentry",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.7",
+            "offset": "0.2"
+        }
+    ]
+}

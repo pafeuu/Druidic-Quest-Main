@@ -1,0 +1,19 @@
+{
+    "name": "Warped Mosco",
+    "category": "patchouli:n_bosses",
+    "icon": "alexsmobs:spawn_egg_warped_mosco",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)All$(2br)$(l)Weakness:$()$(br)Ice   Holy$(2br)$(l)Damage:$()$(br)Physical   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:warped_mosco",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.3"
+        }
+    ]
+}

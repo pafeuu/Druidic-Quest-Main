@@ -1,0 +1,18 @@
+{
+    "name": "Drowned",
+    "category": "patchouli:ow_water",
+    "icon": "minecraft:drowned_spawn_egg",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Blood$(2br)$(l)Weakness:$()$(br)Holy   Fire$(2br)$(l)Damage:$()$(br)Blood   Nature"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:drowned",
+            "rotate": "false",
+            "default_rotation": "35"
+        }
+    ]
+}

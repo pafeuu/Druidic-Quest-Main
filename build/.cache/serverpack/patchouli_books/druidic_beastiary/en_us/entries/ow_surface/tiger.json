@@ -1,0 +1,20 @@
+{
+    "name": "Tiger",
+    "category": "patchouli:ow_surface",
+    "icon": "alexsmobs:spawn_egg_tiger",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Physical$(2br)$(l)Weakness:$()$(br)Arcane$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:tiger",
+            "rotate": "false",
+            "default_rotation": "30",
+            "scale": "0.9",
+            "offset": "0.1"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "tick_sources": [
+      "lightning_strike"
+    ],
+    "target_self": true,
+    "growth_chance": 1,
+    "growth_for_face": [
+      {
+        "direction": "up",
+        "weight": 1,
+        "growth": [
+          {
+            "data": {
+              "block": {
+                "Name": "kubejs:charged_copper_block"
+              }
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "owners": "minecraft:copper_block",
+    "replacing_target": {
+      "block": "minecraft:copper_block",
+      "predicate_type": "minecraft:block_match"
+    }
+  }

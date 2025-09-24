@@ -1,0 +1,20 @@
+{
+  "id": "twilightforest:steeleaf_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "fbbc4ea7-4095-4826-843a-e493aea9b005"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.01,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "060359e9-4b7d-4232-98ab-635cf62f3e7e"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

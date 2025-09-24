@@ -1,0 +1,17 @@
+{
+    "name": "Ice Damage",
+    "category": "patchouli:damage_types",
+    "icon": "kubejs:the_ice_cube",
+    "entry_color": "4d4dff",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Be wary of ice damage when visiting snowy biomes. Powdered snow and icy mobs will deal this frigid form of damage, as will water-bound mobs.$(br2)Mobs that typically take damage from water will be heavily affected by ice damage. This will aid you greatly in the Nether and the End."
+        },
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

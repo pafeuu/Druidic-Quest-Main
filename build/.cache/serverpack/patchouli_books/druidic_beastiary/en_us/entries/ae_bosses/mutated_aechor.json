@@ -1,0 +1,20 @@
+{
+    "name": "Mutated Aechor Plant",
+    "category": "patchouli:ae_bosses",
+    "icon": "aether:aechor_petal",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Holy   Ice$(2br)$(l)Weakness:$()$(br)Fire   Blood   Arcane$(2br)$(l)Damage:$()$(br)Nature   Ice"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "ancient_aether:mutated_aechor_plant",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.6",
+            "offset": "0.8"
+        }
+    ]
+}

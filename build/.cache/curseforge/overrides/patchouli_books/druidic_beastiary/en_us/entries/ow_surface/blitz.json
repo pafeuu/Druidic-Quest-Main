@@ -1,0 +1,19 @@
+{
+    "name": "Blitz",
+    "category": "patchouli:ow_surface",
+    "icon": "thermal:blitz_spawn_egg",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Fire   Nature   Holy$(br)(lightning)$(2br)$(l)Weakness:$()$(br)Ice$(2br)$(l)Damage:$()$(br)Fire   Nature   Holy$(br)(lightning)"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "thermal:blitz",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

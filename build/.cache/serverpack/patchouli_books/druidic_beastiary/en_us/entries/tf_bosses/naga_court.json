@@ -1,0 +1,17 @@
+{
+    "name": "✧Naga Courtyard✧",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:lich_tower_miniature_structure",
+    "entry_color": "3a4e19",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "You've found a large stone courtyard with strange serpentine images lining the walls. You find no entrance and must scale or break through the wall to enter."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(br2)$(br)Be prepared! Setting foot within its lair will awaken the Naga, causing it to fiercely attack any intruders."
+        }
+    ]
+}

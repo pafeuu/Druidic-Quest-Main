@@ -1,0 +1,18 @@
+{
+    "name": "Basalz",
+    "category": "patchouli:ow_surface",
+    "icon": "thermal:basalz_spawn_egg",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Physical   Fire   Nature$(2br)$(l)Weakness:$()$(br)Arcane$(2br)$(l)Damage:$()$(br)Physical   Fire   Nature"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "thermal:basalz",
+            "rotate": "false",
+            "default_rotation": "35"
+        }
+    ]
+}

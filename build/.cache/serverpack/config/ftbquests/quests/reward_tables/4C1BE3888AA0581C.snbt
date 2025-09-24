@@ -1,0 +1,13 @@
+{
+	icon: "minecraft:chest"
+	id: "4C1BE3888AA0581C"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ item: "ars_nouveau:purple_archwood_sapling" }
+		{ item: "ars_nouveau:red_archwood_sapling" }
+		{ item: "ars_nouveau:green_archwood_sapling" }
+		{ item: "ars_nouveau:blue_archwood_sapling" }
+	]
+	title: "archwood_saplings"
+}

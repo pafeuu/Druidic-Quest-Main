@@ -1,0 +1,19 @@
+{
+    "name": "Soul Vulture",
+    "category": "patchouli:n_hostile",
+    "icon": "alexsmobs:spawn_egg_soul_vulture",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Blood   Fire$(2br)$(l)Weakness:$()$(br)Ice   Holy$(2br)$(l)Damage:$()$(br)Physical   Blood"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:soul_vulture",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.8"
+        }
+    ]
+}

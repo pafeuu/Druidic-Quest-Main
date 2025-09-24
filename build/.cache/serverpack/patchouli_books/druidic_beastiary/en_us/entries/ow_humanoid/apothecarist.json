@@ -1,0 +1,19 @@
+{
+    "name": "Apothecarist",
+    "category": "patchouli:ow_humanoid",
+    "icon": "irons_spellbooks:apothecarist_spawn_egg",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Blood$(2br)$(l)Weakness:$()$(br)Holy$(2br)$(l)Damage:$()$(br)Nature   Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "irons_spellbooks:apothecarist",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.2"
+        }
+    ]
+}

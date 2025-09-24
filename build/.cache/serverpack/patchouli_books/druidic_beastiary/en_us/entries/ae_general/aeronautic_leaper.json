@@ -1,0 +1,20 @@
+{
+    "name": "Aeronautic Leaper",
+    "category": "patchouli:ae_general",
+    "icon": "ancient_aether:aeronautic_leaper_spawn_egg",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Holy   Ice   Physical$(2br)$(l)Weakness:$()$(br)Blood$(2br)$(l)Damage:$()$(br)Physical   Holy"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "ancient_aether:aeronautic_leaper",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": "0.7",
+            "offset": "0.2"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "ali:archaeology_loot": {
+    "order": 208,
+    "sort": "none",
+    "icon": {
+      "stack": "item:minecraft:brush"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

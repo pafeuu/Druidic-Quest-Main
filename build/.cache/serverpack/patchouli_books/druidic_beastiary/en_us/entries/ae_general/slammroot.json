@@ -1,0 +1,19 @@
+{
+    "name": "Slammroot",
+    "category": "patchouli:ae_general",
+    "icon": "aether:cockatrice_spawn_egg",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Holy   Ice   Nature$(2br)$(l)Weakness:$()$(br)Fire   Blood   Arcane$(2br)$(l)Damage:$()$(br)Physical   Nature"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "ancient_aether:slammroot",
+            "rotate": "false",
+            "default_rotation": "35",
+            "scale": 0.7
+        }
+    ]
+}

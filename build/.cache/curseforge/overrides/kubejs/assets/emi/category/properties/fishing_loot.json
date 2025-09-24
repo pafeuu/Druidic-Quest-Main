@@ -1,0 +1,12 @@
+{
+  "ali:fishing_loot": {
+    "order": 204,
+    "sort": "none",
+    "icon": {
+      "stack": "item:minecraft:fishing_rod"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/block/dirt.png"
+    }
+  }
+}

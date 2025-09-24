@@ -1,0 +1,19 @@
+{
+    "name": "Guster",
+    "category": "patchouli:ow_surface",
+    "icon": "alexsmobs:spawn_egg_guster",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Physical$(2br)$(l)Weakness:$()$(br)Ice$(2br)$(l)Damage:$()$(br)Physical   Fire"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "alexsmobs:guster",
+            "rotate": "false",
+            "default_rotation": "30",
+            "offset": "0.1"
+        }
+    ]
+}

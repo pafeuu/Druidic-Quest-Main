@@ -1,0 +1,20 @@
+{
+  "id": "enigmaticlegacy:angel_blessing",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:holy_damage.resistance",
+          "value": 10,
+          "operation": "ADDITION",
+          "uuid": "a5224ca7-87e6-49a3-a111-e052963e414b"
+      },
+      {
+          "type": "append",
+          "attribute": "alembic:true_damage.resistance",
+          "value": -10,
+          "operation": "ADDITION",
+          "uuid": "a5334ca7-80e6-42a3-a327-e05296774797"
+      }
+  ],
+  "equipment_slot": "spellstone"
+}

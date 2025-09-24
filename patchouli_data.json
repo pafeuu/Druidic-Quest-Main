@@ -1,6 +1,6 @@
 {
   "bookGuiScale": 0,
-  "clickedVisualize": false,
+  "clickedVisualize": true,
   "bookData": {
     "enigmaticlegacy:the_acknowledgment": {
       "viewedEntries": [
@@ -28,7 +28,8 @@
         "naturesaura:devices/item_distributor",
         "naturesaura:using/field_creator",
         "naturesaura:practices/aura_plants",
-        "naturesaura:items/cave_finder"
+        "naturesaura:items/cave_finder",
+        "naturesaura:using/altar"
       ],
       "bookmarks": [],
       "completedManualQuests": []

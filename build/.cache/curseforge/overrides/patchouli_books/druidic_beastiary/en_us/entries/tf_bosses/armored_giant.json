@@ -1,0 +1,19 @@
+{
+    "name": "Armored Giant",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:armored_giant_spawn_egg",
+    "sortnum": 33,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)All$(2br)$(l)Weakness:$()$(br)Arcane   Fire   Blood$(2br)$(l)Damage:$()$(br)Physical"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:armored_giant",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.4"
+        }
+    ]
+}

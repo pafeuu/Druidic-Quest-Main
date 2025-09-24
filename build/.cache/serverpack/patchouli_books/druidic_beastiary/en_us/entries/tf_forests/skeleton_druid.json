@@ -1,0 +1,19 @@
+{
+    "name": "Skeleton Druid",
+    "category": "patchouli:tf_forests",
+    "icon": "twilightforest:skeleton_druid_spawn_egg",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature   Arcane$(2br)$(l)Weakness:$()$(br)Holy$(2br)$(l)Damage:$()$(br)Physical   Nature"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "twilightforest:skeleton_druid",
+            "rotate": "false",
+            "default_rotation": "35",
+            "offset": "0.1"
+        }
+    ]
+}

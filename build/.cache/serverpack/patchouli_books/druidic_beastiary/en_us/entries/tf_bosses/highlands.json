@@ -1,0 +1,17 @@
+{
+    "name": "✧Highlands✧",
+    "category": "patchouli:tf_bosses",
+    "icon": "twilightforest:lich_tower_miniature_structure",
+    "entry_color": "3a4e19",
+    "sortnum": 31,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Beneath the uberous soil of the Highlands lie the Troll Caves. Here you will find the magic beans which, when grown, will give you access to the Cloud Cottage, high above."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(br2)$(br)Obtain the Giant Pickaxe and use it to break the giant obsidian found far below in the caves. The item you find there will grant you access to the Final Plateau."
+        }
+    ]
+}
