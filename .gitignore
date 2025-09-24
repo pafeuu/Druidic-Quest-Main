@@ -20,7 +20,13 @@ patchouli_data.json
 /XaeroWaypoints_BACKUP240807
 /keybinding presets
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 enigmatic_persistence.dat
+=======
+/config
+enigmatic_persistence.dat
+usercache.json
+>>>>>>> Stashed changes
 =======
 /config
 enigmatic_persistence.dat
