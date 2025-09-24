@@ -219,6 +219,37 @@ ServerEvents.recipes(event=>{
     event.custom({
     "type": "wizards_reborn:arcane_workbench",
     "pattern": [
+        "NNZ",
+        "NX ",
+        "NNZ",
+        "BBAA"
+    ],
+    "key": {
+        "Z": {
+        "item": "lodestone"
+        },
+        "X": {
+        "tag": "forge:gems/diamond"
+        },
+        "A": {
+        "tag": "forge:storage_blocks/lapis"
+        },
+        "B": {
+        "tag": "forge:storage_blocks/redstone"
+        },
+        "N":{
+        "tag": "forge:plates/iron"    
+        }
+    },
+    "output": {
+        "item": 'simplemagnets:basicmagnet',
+    },
+    "wissen": 500
+    }).id("simplemagnets:basicmagnet")
+
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
         "NNN",
         "NCN",
         "NNN",
