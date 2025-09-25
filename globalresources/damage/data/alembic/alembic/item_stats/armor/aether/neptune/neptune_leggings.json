@@ -1,0 +1,20 @@
+{
+  "id": "aether:neptune_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 7,
+      "operation": "ADDITION",
+      "uuid": "3c885b35-5b30-4668-9e99-12697bf17f54"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 2.5,
+      "operation": "ADDITION",
+      "uuid": "037c2380-39f3-410d-8abc-ed3d6e74358b"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

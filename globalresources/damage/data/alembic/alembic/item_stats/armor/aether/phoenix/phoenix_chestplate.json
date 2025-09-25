@@ -1,0 +1,34 @@
+{
+  "id": "aether:phoenix_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.02,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "40ca68be-40eb-4c7c-853a-1478a141034f"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage",
+      "value": 0.10,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "c592b756-e12e-4dc3-8750-61fc4edb62fb"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 8,
+      "operation": "ADDITION",
+      "uuid": "fd57bf25-c4dd-4273-9189-7ba8d32716bd"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 3.5,
+      "operation": "ADDITION",
+      "uuid": "67c89bab-c5ea-44d7-a145-47ebbe265c57"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

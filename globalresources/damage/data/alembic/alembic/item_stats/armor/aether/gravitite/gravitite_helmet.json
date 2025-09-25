@@ -1,0 +1,13 @@
+{
+  "id": "aether:gravitite_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "6dd0fb52-1779-4433-97ce-16de55ff1a2e"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

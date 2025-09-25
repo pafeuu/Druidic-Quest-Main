@@ -1,0 +1,20 @@
+{
+  "id": "twilightforest:knightmetal_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.02,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "70de7171-4d0b-471e-82ef-e01d832e89ea"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "5bf25311-9469-4c03-a266-1afaa3f14f5f"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

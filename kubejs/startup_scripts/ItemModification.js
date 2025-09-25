@@ -568,22 +568,210 @@ ItemEvents.modification(event => {
   // ARCANE GOLD
 
   event.modify("wizards_reborn:arcane_gold_helmet", item=>{
-    item.armorProtection = 2,
-    item.armorToughness = 0
+    item.armorProtection = 3,
+    item.armorToughness = 1
   })
 
   event.modify("wizards_reborn:arcane_gold_chestplate", item=>{
-    item.armorProtection = 8,
-    item.armorToughness = 0
+    item.armorProtection = 7.5,
+    item.armorToughness = 1
   })
 
   event.modify("wizards_reborn:arcane_gold_leggings", item=>{
-    item.armorProtection = 7,
-    item.armorToughness = 0
+    item.armorProtection = 6.5,
+    item.armorToughness = 1
   })
 
   event.modify("wizards_reborn:arcane_gold_boots", item=>{
     item.armorProtection = 2,
+    item.armorToughness = 1
+  })
+
+  // GRAVITITE
+
+  event.modify("aether:gravitite_helmet", item=>{
+    item.armorProtection = 4,
+    item.armorToughness = 2
+  })
+
+  event.modify("aether:gravitite_chestplate", item=>{
+    item.armorProtection = 11,
+    item.armorToughness = 2
+  })
+
+  event.modify("aether:gravitite_leggings", item=>{
+    item.armorProtection = 9,
+    item.armorToughness = 2
+  })
+
+  event.modify("aether:gravitite_boots", item=>{
+    item.armorProtection = 4,
+    item.armorToughness = 2
+  })
+
+  // STRATUS
+
+  event.modify("deep_aether:stratus_helmet", item=>{
+    item.armorProtection = 5,
+    item.armorToughness = 3
+  })
+
+  event.modify("deep_aether:stratus_chestplate", item=>{
+    item.armorProtection = 14,
+    item.armorToughness = 3
+  })
+
+  event.modify("deep_aether:stratus_leggings", item=>{
+    item.armorProtection = 12,
+    item.armorToughness = 3
+  })
+
+  event.modify("deep_aether:stratus_boots", item=>{
+    item.armorProtection = 5,
+    item.armorToughness = 3
+  })
+
+  // OBSIDIAN
+
+  event.modify("aether:obsidian_helmet", item=>{
+    item.armorProtection = 5,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.15
+  })
+
+  event.modify("aether:obsidian_chestplate", item=>{
+    item.armorProtection = 12,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.15
+  })
+
+  event.modify("aether:obsidian_leggings", item=>{
+    item.armorProtection = 9,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.15
+  })
+
+  event.modify("aether:obsidian_boots", item=>{
+    item.armorProtection = 4,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.15
+  })
+
+  // KNIGHTMETAL
+
+  event.modify("twilightforest:knightmetal_helmet", item=>{
+    item.armorProtection = 3.5,
+    item.armorToughness = 1,
+    item.armorKnockbackResistance = 0.15
+  })
+
+  event.modify("twilightforest:knightmetal_chestplate", item=>{
+    item.armorProtection = 8.5,
+    item.armorToughness = 1,
+    item.armorKnockbackResistance = 0.15
+  })
+
+  event.modify("twilightforest:knightmetal_leggings", item=>{
+    item.armorProtection = 7.5,
+    item.armorToughness = 1,
+    item.armorKnockbackResistance = 0.15
+  })
+
+  event.modify("twilightforest:knightmetal_boots", item=>{
+    item.armorProtection = 2.5,
+    item.armorToughness = 1,
+    item.armorKnockbackResistance = 0.15
+  })
+
+  // NEPTUNE
+
+  event.modify("aether:neptune_helmet", item=>{
+    item.armorProtection = 3.5,
+    item.armorToughness = 1
+  })
+
+  event.modify("aether:neptune_chestplate", item=>{
+    item.armorProtection = 8.5,
+    item.armorToughness = 1
+  })
+
+  event.modify("aether:neptune_leggings", item=>{
+    item.armorProtection = 7.5,
+    item.armorToughness = 1
+  })
+
+  event.modify("aether:neptune_boots", item=>{
+    item.armorProtection = 2.5,
+    item.armorToughness = 1
+  })
+
+  // PHOENIX
+
+  event.modify("aether:phoenix_helmet", item=>{
+    item.armorProtection = 3.5,
+    item.armorToughness = 3
+  })
+
+  event.modify("aether:phoenix_chestplate", item=>{
+    item.armorProtection = 10.5,
+    item.armorToughness = 3
+  })
+
+  event.modify("aether:phoenix_leggings", item=>{
+    item.armorProtection = 8.5,
+    item.armorToughness = 3
+  })
+
+  event.modify("aether:phoenix_boots", item=>{
+    item.armorProtection = 3.5,
+    item.armorToughness = 3
+  })
+
+  // STORMFORGED
+
+   event.modify("deep_aether:stormforged_helmet", item=>{
+    item.armorProtection = 5.5,
+    item.armorToughness = 3
+  })
+
+  event.modify("deep_aether:stormforged_chestplate", item=>{
+    item.armorProtection = 12.5,
+    item.armorToughness = 3
+  })
+
+  event.modify("deep_aether:stormforged_leggings", item=>{
+    item.armorProtection = 10.5,
+    item.armorToughness = 3
+  })
+
+  event.modify("deep_aether:stormforged_boots", item=>{
+    item.armorProtection = 5.5,
+    item.armorToughness = 3
+  })
+
+  // STEEL
+
+   event.modify("immersiveengineering:armor_steel_helmet", item=>{
+    item.maxDamage = -1,
+    item.armorProtection = 3.5
+    item.armorToughness = 0
+  })
+
+  event.modify("immersiveengineering:armor_steel_chestplate", item=>{
+    item.maxDamage = -1,
+    item.armorProtection = 9,
+    item.armorToughness = 0
+  })
+
+  event.modify("immersiveengineering:armor_steel_leggings", item=>{
+    item.maxDamage = -1,
+    item.armorProtection = 7,
+    item.armorToughness = 0
+  })
+
+  event.modify("immersiveengineering:armor_steel_boots", item=>{
+    item.maxDamage = -1,
+    item.armorProtection = 3.5,
     item.armorToughness = 0
   })
 
@@ -637,29 +825,6 @@ ItemEvents.modification(event => {
     item.armorProtection = 8
   })
 
-  event.modify("immersiveengineering:armor_steel_helmet", item=>{
-    item.maxDamage = -1,
-    item.armorProtection = 3
-    item.armorToughness = 0
-  })
-
-  event.modify("immersiveengineering:armor_steel_chestplate", item=>{
-    item.maxDamage = -1,
-    item.armorProtection = 7,
-    item.armorToughness = 0
-  })
-
-  event.modify("immersiveengineering:armor_steel_leggings", item=>{
-    item.maxDamage = -1,
-    item.armorProtection = 6,
-    item.armorToughness = 0
-  })
-
-  event.modify("immersiveengineering:armor_steel_boots", item=>{
-    item.maxDamage = -1,
-    item.armorProtection = 3,
-    item.armorToughness = 0
-  })
 
   event.modify('alexsmobs:tarantula_hawk_elytra', item=>{
     item.maxDamage = 1024,

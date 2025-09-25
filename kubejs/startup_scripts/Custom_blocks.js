@@ -23,6 +23,7 @@ StartupEvents.registry("block", (event) => {
 	.texture('up', 'kubejs:block/basic_magic_machine_top')
 	.texture('down', 'kubejs:block/basic_magic_machine_top')
 
+
     event.create("vine_generator") 
     .soundType("vine") 
     .hardness(1.0) 

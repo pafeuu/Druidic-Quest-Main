@@ -1,0 +1,20 @@
+{
+  "id": "aether:neptune_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 8,
+      "operation": "ADDITION",
+      "uuid": "aec1e3b8-75b2-4548-9b8b-e75a837bf99b"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "aec1e3b8-75b2-4548-9b8b-e75a837bf99b"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "aether:gravitite_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 7,
+      "operation": "ADDITION",
+      "uuid": "6fdf1d30-03d4-4069-a2c9-5b8d72c2cc52"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

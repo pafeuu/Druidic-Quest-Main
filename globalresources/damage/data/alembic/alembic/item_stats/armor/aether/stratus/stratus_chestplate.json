@@ -1,0 +1,27 @@
+{
+  "id": "deep_aether:stratus_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 8,
+      "operation": "ADDITION",
+      "uuid": "9fb52de2-cbe3-121e-9b31-8fb7d7d544ba"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.02,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "242220ff-db29-10b9-a4be-5551f83a3125"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "b1dcc7b6-0fef-4ccd-9e71-4ecdcaca38bb"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

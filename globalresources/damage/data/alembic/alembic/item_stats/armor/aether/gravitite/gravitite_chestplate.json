@@ -1,0 +1,13 @@
+{
+  "id": "aether:gravitite_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 8,
+      "operation": "ADDITION",
+      "uuid": "9fb52de2-cbe3-121e-9b31-8fb7d7d544ba"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "aether:neptune_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "dfb5ba07-ebea-4386-a1a6-c198a0e8ec03"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "d8fe80b5-0592-45e4-82c2-b7b6294e0165"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

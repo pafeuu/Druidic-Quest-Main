@@ -1,0 +1,27 @@
+{
+  "id": "deep_aether:stratus_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 7,
+      "operation": "ADDITION",
+      "uuid": "6fdf1d30-03d4-4069-a2c9-5b8d72c2cc52"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.04,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "ac06a627-ffdf-44bf-9cb4-abc3fe61708f"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "dd07396e-eee3-4c18-9d60-d4b4b2b46b0e"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "aether:neptune_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "3b479afd-b3e6-40c6-be74-3ef412bb4d45"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 1.5,
+      "operation": "ADDITION",
+      "uuid": "090ba2f3-1c8e-4105-8bea-12595e58a1a0"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

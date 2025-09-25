@@ -1,0 +1,27 @@
+{
+  "id": "deep_aether:stratus_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "6dd0fb52-1779-4433-97ce-16de55ff1a2e"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.02,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "24222011-db29-10b9-a4be-5551f83a3125"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "24b31a8a-899b-41d6-afb8-204cf1e6601b"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

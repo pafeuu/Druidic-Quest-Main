@@ -1,0 +1,20 @@
+{
+  "id": "twilightforest:knightmetal_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.02,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "9c0a0440-af55-4d53-a63a-5c7d0e3c1b05"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "5bf45711-9469-4c03-a266-1afaa3f14f5f"
+    }
+  ],
+  "equipment_slot": "FEET"
+}
