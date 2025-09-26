@@ -489,7 +489,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			F:"flint",
-			S:"#forge:rods/wooden"
+			S:"#c:rods/wooden"
 		}
 	)
 	event.recipes.create.milling("2x forbidden_arcanus:spawner_scrap","kubejs:broken_spawner")
@@ -2628,7 +2628,7 @@ ServerEvents.recipes(event => {
 	
 	event.replaceInput({id:"immersiveengineering:crafting/conveyor_basic"},"minecraft:redstone","kubejs:primitive_machine")
 	event.replaceInput({id:"immersiveengineering:crafting/conveyor_extract"},"immersiveengineering:component_iron","woodenhopper:wooden_hopper")
-	event.replaceInput({id:"immersiveengineering:crafting/hemp_fabric"},"#forge:rods/wooden","immersiveengineering:stick_treated")
+	event.replaceInput({id:"immersiveengineering:crafting/hemp_fabric"},"#c:rods/wooden","immersiveengineering:stick_treated")
 	event.replaceInput({id:"immersiveengineering:crafting/strip_curtain"},"#forge:rods/all_metal","immersiveengineering:stick_treated")
 	
 	event.remove({output:'create:belt_connector'})

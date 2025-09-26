@@ -646,7 +646,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			F: "flint",
-			S: "#forge:rods/wooden"
+			S: "#c:rods/wooden"
 		}
 	).id("kubejs:primitive_chisel")
 
@@ -670,7 +670,7 @@ ServerEvents.recipes(event => {
 			" S "
 		],
 		{
-			S: "#forge:rods/wooden",
+			S: "#c:rods/wooden",
 			F: "flint",
 			P: "#minecraft:planks"
 		}

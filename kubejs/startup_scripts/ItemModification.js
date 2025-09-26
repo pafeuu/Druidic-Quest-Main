@@ -705,6 +705,54 @@ ItemEvents.modification(event => {
     item.armorToughness = 1
   })
 
+  // SKYSEEKER
+
+  event.modify("naturesaura:sky_helmet", item=>{
+    item.armorProtection = 4,
+    item.armorToughness = 2
+  })
+
+  event.modify("naturesaura:sky_chest", item=>{
+    item.armorProtection = 11,
+    item.armorToughness = 2
+  })
+
+  event.modify("naturesaura:sky_pants", item=>{
+    item.armorProtection = 9,
+    item.armorToughness = 2
+  })
+
+  event.modify("naturesaura:sky_shoes", item=>{
+    item.armorProtection = 4,
+    item.armorToughness = 2
+  })
+
+  // DEPTH
+
+  event.modify("naturesaura:depth_helmet", item=>{
+    item.armorProtection = 6,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.25
+  })
+
+  event.modify("naturesaura:depth_chest", item=>{
+    item.armorProtection = 15,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.25
+  })
+
+  event.modify("naturesaura:depth_pants", item=>{
+    item.armorProtection = 12,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.25
+  })
+
+  event.modify("naturesaura:depth_shoes", item=>{
+    item.armorProtection = 6,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.25
+  })
+
   // PHOENIX
 
   event.modify("aether:phoenix_helmet", item=>{
@@ -773,6 +821,102 @@ ItemEvents.modification(event => {
     item.maxDamage = -1,
     item.armorProtection = 3.5,
     item.armorToughness = 0
+  })
+
+  // TYR
+
+   event.modify("forbidden_arcanus:tyr_helmet", item=>{
+    item.armorProtection = 7,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.25
+  })
+
+  event.modify("forbidden_arcanus:tyr_chestplate", item=>{
+    item.armorProtection = 20,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.25
+  })
+
+  event.modify("forbidden_arcanus:tyr_leggings", item=>{
+    item.armorProtection = 16,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.25
+  })
+
+  event.modify("forbidden_arcanus:tyr_boots", item=>{
+    item.armorProtection = 7,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.25
+  })
+
+  // DRACO ARCANUS
+
+   event.modify("forbidden_arcanus:draco_arcanus_helmet", item=>{
+    item.armorProtection = 5,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.15
+  })
+
+  event.modify("forbidden_arcanus:draco_arcanus_chestplate", item=>{
+    item.armorProtection = 14,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.15
+  })
+
+  event.modify("forbidden_arcanus:draco_arcanus_leggings", item=>{
+    item.armorProtection = 12,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.15
+  })
+
+  event.modify("forbidden_arcanus:draco_arcanus_boots", item=>{
+    item.armorProtection = 5,
+    item.armorToughness = 3,
+    item.armorKnockbackResistance = 0.15
+  })
+
+  // VALKYRUM
+
+   event.modify("ancient_aether:valkyrum_helmet", item=>{
+    item.armorProtection = 5,
+    item.armorToughness = 3
+  })
+
+  event.modify("ancient_aether:valkyrum_chestplate", item=>{
+    item.armorProtection = 15,
+    item.armorToughness = 3
+  })
+
+  event.modify("ancient_aether:valkyrum_leggings", item=>{
+    item.armorProtection = 13,
+    item.armorToughness = 3
+  })
+
+  event.modify("ancient_aether:valkyrum_boots", item=>{
+    item.armorProtection = 5,
+    item.armorToughness = 3
+  })
+
+  // ETHERIUM
+
+   event.modify("enigmaticlegacy:etherium_helmet", item=>{
+    item.armorProtection = 6,
+    item.armorToughness = 3
+  })
+
+  event.modify("enigmaticlegacy:etherium_chestplate", item=>{
+    item.armorProtection = 18,
+    item.armorToughness = 3
+  })
+
+  event.modify("enigmaticlegacy:etherium_leggings", item=>{
+    item.armorProtection = 14,
+    item.armorToughness = 3
+  })
+
+  event.modify("enigmaticlegacy:etherium_boots", item=>{
+    item.armorProtection = 6,
+    item.armorToughness = 3
   })
 
 

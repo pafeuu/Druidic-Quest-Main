@@ -34,11 +34,11 @@
       "value": 0.0,
       "interactionType": "self",
       "interactionDuration": 60,
-      "description": "Regenaration while standing on any sand block!",
+      "description": "Regenaration while standing on sand block!",
       "conditions": [
         {
           "type": "onblock",
-          "extra": "#c:sands"
+          "extra": "minecraft:sand"
         }
       ]
     }

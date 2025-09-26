@@ -4,23 +4,44 @@
     {
       "type": "append",
       "attribute": "alembic:ice_damage.resistance",
-      "value": 6,
+      "value": 5,
       "operation": "ADDITION",
-      "uuid": "3389f4e9-cc37-479b-ad9b-8b17d694056b"
+      "uuid": "3893c9fa-d381-4569-b0db-272c88e6c9e6"
     },
     {
       "type": "append",
       "attribute": "alembic:fire_damage.resistance",
-      "value": 6,
+      "value": 5,
       "operation": "ADDITION",
-      "uuid": "b989e93f-b596-4b11-91b6-063a2795f012"
+      "uuid": "28e9ba10-9027-42dc-a522-166aee865fcb"
     },
     {
       "type": "append",
       "attribute": "alembic:arcane_damage.resistance",
-      "value": 6,
+      "value": 5,
       "operation": "ADDITION",
-      "uuid": "8ac7ba31-d402-4122-90b3-addf2a7959ca"
+      "uuid": "0fd3baa3-748e-488e-ab9b-75594e76609a"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 5,
+      "operation": "ADDITION",
+      "uuid": "1dc0c9b0-4144-4ce2-a6e5-1557ce974bff"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "30acf0bf-9829-44eb-908c-4aa53ed0a963"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "900d0239-c27e-40e9-91d3-973abe7d0bb0"
     }
   ],
   "equipment_slot": "LEGS"

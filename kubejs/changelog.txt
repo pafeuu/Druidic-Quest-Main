@@ -2953,6 +2953,7 @@ Patch 0.3.2.1
     -Added for Glowsquid in Animal Spawner
     -Changed for Arcane Cloth
     -Changed for Dislocation Ring
+    -Fixed recipes for primitive chisel, primitive handle, primitive shears to correctly use twigs
     -Added for spawn eggs of:
         -Blaze
         -Zombie
@@ -2986,21 +2987,9 @@ Patch 0.3.2.1
     -All of the Twilight Forest items are no longer enchanted by default
     -Slightly Buffed Lead Armor
     -Slightly Buffed the Wandering Magician Armor
-    -Buffed the Electromancer Armor
-    -Buffed the Shadowwalker Armor
-    -Buffed the Plagued Armor
-    -Buffed the Priest Armor
-    -Buffed the Cultist Armor
-    -Buffed the Pyromancer Armor
-    -Buffed the Cryomancer Armor
-    -Buffed the Archevoker Armor
-    -Rebalanced the Diamond Armor
-    -Rebalanced the Scarecrow Armor
-    -Rebalanced the Steeleaf Armor
     -Reworked Mining Hammers and Excavators
-    -Reworked the Zanite Armor
-    -Reworked the Skyjade Armor
     -Slightly nerfed the Diving Armor ice resistance
+    -Rebalanced most of the armors in the game
     -Fixed Movement Speed nerfs/buffs on all the armor and traveler's belt
     -This Armor sets are now unbreakable:
         -Valkyrum

@@ -1,0 +1,27 @@
+{
+  "id": "naturesaura:depth_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "3442b483-85b5-4902-b7ea-e779fc7a6999"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "078bd705-d332-4881-80a8-a78de35d9251"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.max_health",
+      "value": 2.5,
+      "operation": "ADDITION",
+      "uuid": "8c43b2c5-e2fb-41ff-8ca4-6beaad1f3f7c"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

@@ -17,6 +17,13 @@
     },
     {
       "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "986b00cc-9ebd-4db6-9ff6-0870802e80ac"
+    },
+    {
+      "type": "append",
       "attribute": "minecraft:generic.movement_speed",
       "value": 0.02,
       "operation": "MULTIPLY_TOTAL",

@@ -1,0 +1,27 @@
+{
+  "id": "forbidden_arcanus:tyr_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "0015f748-f862-4ba5-8419-c0b7985c7360"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "6cd7673c-a5ca-4810-9f9c-69a6322921bb"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "9a3aa6bd-dad0-4d6a-a82c-098605acbe0a"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "naturesaura:depth_chest",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 7,
+      "operation": "ADDITION",
+      "uuid": "a5566790-2949-4d6e-8287-e6d8f8d76fc6"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 7,
+      "operation": "ADDITION",
+      "uuid": "8bbb7e16-2996-41ff-9e0c-e736cf4c78c1"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.max_health",
+      "value": 2.5,
+      "operation": "ADDITION",
+      "uuid": "041a21c2-5839-44a9-afd5-670dc42c755e"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}
