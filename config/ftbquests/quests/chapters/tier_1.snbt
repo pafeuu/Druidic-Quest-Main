@@ -1420,9 +1420,9 @@
 		{
 			dependencies: ["677C282E80275B53"]
 			description: [
-				"&b&lBlue Aercloud&r&r will launch the player that walk into them high in the air!"
+				"&b&lBlue Aercloud&r&r will launch any player who walks into them high into the air!"
 				""
-				"While &lCold Aercloud&r are great to catch your fall from a high distance"
+				"Meanwhile, &lCold Aerclouds&r are perfect for safely breaking your fall from a great height."
 			]
 			icon: "aether:blue_aercloud"
 			id: "6534B009CA155499"
@@ -1441,6 +1441,7 @@
 				}
 			]
 			shape: "pentagon"
+			subtitle: "Bounce to new heights!"
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -1448,7 +1449,7 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
-			title: "Materials for cloud \"elevator\""
+			title: "The Fluffiest Elevator"
 			x: 7.0d
 			y: 7.0d
 		}

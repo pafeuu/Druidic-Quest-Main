@@ -1650,12 +1650,14 @@
 		}
 		{
 			dependencies: ["6814EBB8BDED9EEE"]
+			description: ["Make a one-time purchase and receive your very own sturdy steed!"]
 			icon: "minecraft:leather_horse_armor"
 			id: "5F3492DDB5A1328A"
 			optional: true
 			rewards: [
 				{
 					command: "/summon minecraft:horse ~ ~ ~ {Variant:13}"
+					elevate_perms: true
 					icon: "minecraft:leather_horse_armor"
 					id: "34C6B37A47E1EAF9"
 					type: "command"
@@ -1667,6 +1669,7 @@
 				}
 			]
 			shape: "pentagon"
+			subtitle: "Pro Tip: Don't look a gift horse in the mouth."
 			tasks: [{
 				consume_items: true
 				count: 2L
@@ -1674,7 +1677,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "Get a horse for cheap!"
+			title: "Horse for Sale!"
 			x: -2.5d
 			y: -4.0d
 		}

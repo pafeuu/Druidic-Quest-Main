@@ -80,7 +80,7 @@
 				}
 			]
 			title: "Leather Set"
-			x: -7.0d
+			x: -5.5d
 			y: -2.5d
 		}
 		{
@@ -146,7 +146,7 @@
 				}
 			]
 			title: "Engineer's Set"
-			x: -1.0d
+			x: -0.5d
 			y: -2.5d
 		}
 		{
@@ -212,7 +212,7 @@
 				}
 			]
 			title: "Mortem Set"
-			x: -5.0d
+			x: -3.5d
 			y: -2.5d
 		}
 		{
@@ -278,7 +278,7 @@
 				}
 			]
 			title: "Iron Set"
-			x: -5.0d
+			x: -3.5d
 			y: -1.5d
 		}
 		{
@@ -344,7 +344,7 @@
 				}
 			]
 			title: "Chainmail Set"
-			x: 1.0d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -410,7 +410,7 @@
 				}
 			]
 			title: "Botanist Set"
-			x: 1.0d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -476,7 +476,7 @@
 				}
 			]
 			title: "Gold Set"
-			x: -5.5d
+			x: -4.5d
 			y: 0.5d
 		}
 		{
@@ -542,7 +542,7 @@
 				}
 			]
 			title: "Diamond Set"
-			x: -4.5d
+			x: -3.5d
 			y: 0.5d
 		}
 		{
@@ -608,7 +608,7 @@
 				}
 			]
 			title: "Netherite Set"
-			x: -0.5d
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -674,7 +674,7 @@
 				}
 			]
 			title: "Steel Set"
-			x: -0.5d
+			x: 0.5d
 			y: 2.5d
 		}
 		{
@@ -740,7 +740,7 @@
 				}
 			]
 			title: "Skyseeker Set"
-			x: -3.5d
+			x: -2.5d
 			y: 0.5d
 		}
 		{
@@ -757,24 +757,8 @@
 				item: "kubejs:botanist_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "5C44BA3EAEA2262B"
-			rewards: [{
-				count: 3
-				id: "01F407952D87058F"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "25EDA2D5BBAD732F"
-				item: "kubejs:gold_upgrade_smithing_template"
-				type: "item"
-			}]
-			x: -9.0d
+			title: "Botanist Upgrade"
+			x: -11.5d
 			y: -1.5d
 		}
 		{
@@ -791,8 +775,9 @@
 				item: "minecraft:netherite_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -1.0d
+			title: "Netherite Upgrade"
+			x: -11.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -808,8 +793,9 @@
 				item: "kubejs:skyseeker_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -0.5d
+			title: "Skyseeker Upgrade"
+			x: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -825,8 +811,9 @@
 				item: "forbidden_arcanus:darkstone_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 2.5d
+			title: "Apply Item Modifier"
+			x: -5.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -842,8 +829,9 @@
 				item: "kubejs:steel_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 3.0d
+			title: "Steel Upgrade"
+			x: -9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -858,8 +846,9 @@
 				item: "minecraft:sentry_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -2.5d
+			title: "Sentry Armor Trim"
+			x: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -874,8 +863,9 @@
 				item: "minecraft:vex_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -2.5d
+			title: "Vex Armor Trim"
+			x: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -890,8 +880,9 @@
 				item: "minecraft:wild_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -1.5d
+			title: "Wild Armor Trim"
+			x: -4.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -906,8 +897,9 @@
 				item: "minecraft:coast_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -2.5d
+			title: "Coast Armor Trim"
+			x: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -922,8 +914,9 @@
 				item: "minecraft:tide_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -1.5d
+			title: "Tide Armor Trim"
+			x: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -938,8 +931,9 @@
 				item: "quark:smithing_template_rune"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -2.0d
+			title: "Runic Etching"
+			x: -2.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -954,8 +948,9 @@
 				item: "minecraft:wayfinder_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -0.5d
+			title: "Wayfinder Armor Trim"
+			x: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -970,8 +965,9 @@
 				item: "minecraft:raiser_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -0.5d
+			title: "Raiser Armor Trim"
+			x: -3.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -986,8 +982,9 @@
 				item: "minecraft:shaper_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -0.5d
+			title: "Shaper Armor Trim"
+			x: -3.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1002,8 +999,9 @@
 				item: "minecraft:host_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -0.5d
+			title: "Host Armor Trim"
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1018,8 +1016,9 @@
 				item: "minecraft:silence_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 1.5d
+			title: "Silence Armor Trim"
+			x: -1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1034,8 +1033,9 @@
 				item: "minecraft:snout_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 0.5d
+			title: "Snout Armor Trim"
+			x: -2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1050,8 +1050,9 @@
 				item: "minecraft:ward_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 1.5d
+			title: "Ward Armor Trim"
+			x: -1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1066,8 +1067,9 @@
 				item: "minecraft:rib_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 0.5d
+			title: "Rib Armor Trim"
+			x: -2.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1082,8 +1084,9 @@
 				item: "minecraft:eye_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 0.5d
+			title: "Eye Armor Trim"
+			x: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1098,8 +1101,9 @@
 				item: "minecraft:dune_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -1.5d
+			title: "Dune Armor Trim"
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1114,8 +1118,9 @@
 				item: "minecraft:spire_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 0.5d
+			title: "Spire Armor Trim"
+			x: -2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1180,7 +1185,7 @@
 				}
 			]
 			title: "Copper Set"
-			x: 0.0d
+			x: 0.5d
 			y: -2.5d
 		}
 		{
@@ -1246,7 +1251,7 @@
 				}
 			]
 			title: "Silver Set"
-			x: -6.0d
+			x: -4.5d
 			y: -1.5d
 		}
 		{
@@ -1312,7 +1317,7 @@
 				}
 			]
 			title: "Lead Set"
-			x: -7.0d
+			x: -5.5d
 			y: -1.5d
 		}
 		{
@@ -1378,7 +1383,7 @@
 				}
 			]
 			title: "Draco Arcanus Set"
-			x: -4.5d
+			x: -3.5d
 			y: 3.5d
 		}
 		{
@@ -1444,7 +1449,7 @@
 				}
 			]
 			title: "Tyr Set"
-			x: -1.5d
+			x: -0.5d
 			y: 3.5d
 		}
 		{
@@ -1510,7 +1515,7 @@
 				}
 			]
 			title: "Etherium Set"
-			x: -2.5d
+			x: -1.5d
 			y: 3.5d
 		}
 		{
@@ -1576,24 +1581,7 @@
 				}
 			]
 			title: "Soulstrider Set"
-			x: -4.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "002E3C80492EE191"
-			rewards: [{
-				count: 3
-				id: "3B97E37899296B4A"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6D85F72526D546A6"
-				item: "deeperdarker:warden_upgrade_smithing_template"
-				type: "item"
-			}]
-			x: -9.0d
+			x: -3.5d
 			y: 1.5d
 		}
 		{
@@ -1609,8 +1597,9 @@
 				item: "ancient_aether:wynd_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 2.5d
+			title: "Wynd Armor Trim"
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1625,8 +1614,9 @@
 				item: "ancient_aether:whale_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 2.5d
+			title: "Whale Armor Trim"
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1641,8 +1631,9 @@
 				item: "ancient_aether:ascended_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 2.5d
+			title: "Ascended Armor Trim"
+			x: 0.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1657,8 +1648,9 @@
 				item: "ancient_aether:mysterious_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 1.5d
+			title: "Mysterious Armor Trim"
+			x: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1673,8 +1665,9 @@
 				item: "ancient_aether:mechanical_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 1.5d
+			title: "Mechanical Armor Trim"
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1689,8 +1682,9 @@
 				item: "ancient_aether:royal_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 3.0d
+			title: "Royal Armor Trim"
+			x: 1.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1705,8 +1699,9 @@
 				item: "ancient_aether:mosaic_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 3.5d
+			title: "Mosaic Armor Trim"
+			x: 1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1721,8 +1716,9 @@
 				item: "ancient_aether:solar_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 3.5d
+			title: "Solar Armor Trim"
+			x: 1.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1737,8 +1733,9 @@
 				item: "ancient_aether:ancient_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 3.5d
+			title: "Ancient Armor Trim"
+			x: 1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1793,7 +1790,7 @@
 				}
 			]
 			title: "Naga Set"
-			x: -6.0d
+			x: -4.5d
 			y: -0.5d
 		}
 		{
@@ -1879,7 +1876,7 @@
 				}
 			]
 			title: "Ironwood Set"
-			x: -7.0d
+			x: -5.5d
 			y: -0.5d
 		}
 		{
@@ -1965,7 +1962,7 @@
 				}
 			]
 			title: "Steeleaf Set"
-			x: -5.0d
+			x: -3.5d
 			y: -0.5d
 		}
 		{
@@ -2031,7 +2028,7 @@
 				}
 			]
 			title: "Arctic Set"
-			x: 0.0d
+			x: 0.5d
 			y: -0.5d
 		}
 		{
@@ -2123,7 +2120,7 @@
 				}
 			]
 			title: "Yeti Set"
-			x: 1.0d
+			x: 1.5d
 			y: -0.5d
 		}
 		{
@@ -2189,7 +2186,7 @@
 				}
 			]
 			title: "Fiery Set"
-			x: -4.0d
+			x: -2.5d
 			y: -0.5d
 		}
 		{
@@ -2254,7 +2251,7 @@
 				}
 			]
 			title: "Neptune Set"
-			x: -2.5d
+			x: -1.5d
 			y: 1.5d
 		}
 		{
@@ -2320,7 +2317,7 @@
 				}
 			]
 			title: "Gravitite Set"
-			x: -3.5d
+			x: -2.5d
 			y: 1.5d
 		}
 		{
@@ -2386,7 +2383,7 @@
 				}
 			]
 			title: "Knightmetal Set"
-			x: -1.0d
+			x: -0.5d
 			y: -0.5d
 		}
 		{
@@ -2452,7 +2449,7 @@
 				}
 			]
 			title: "Skyjade Set"
-			x: -1.5d
+			x: -0.5d
 			y: 0.5d
 		}
 		{
@@ -2518,7 +2515,7 @@
 				}
 			]
 			title: "Zanite Set"
-			x: -2.5d
+			x: -1.5d
 			y: 0.5d
 		}
 		{
@@ -2562,7 +2559,7 @@
 				}
 			]
 			title: "Phantom Set"
-			x: -2.0d
+			x: -1.5d
 			y: -0.5d
 		}
 		{
@@ -2628,7 +2625,7 @@
 				}
 			]
 			title: "Phoenix Set"
-			x: -1.5d
+			x: -0.5d
 			y: 1.5d
 		}
 		{
@@ -2693,7 +2690,7 @@
 				}
 			]
 			title: "Stratus Set"
-			x: -5.5d
+			x: -4.5d
 			y: 2.5d
 		}
 		{
@@ -2759,7 +2756,7 @@
 				}
 			]
 			title: "Obsidian Set"
-			x: -5.5d
+			x: -4.5d
 			y: 1.5d
 		}
 		{
@@ -2824,7 +2821,7 @@
 				}
 			]
 			title: "Valkyrum Set"
-			x: -4.5d
+			x: -3.5d
 			y: 2.5d
 		}
 		{
@@ -2890,7 +2887,7 @@
 				}
 			]
 			title: "Beekeeper's Set"
-			x: -6.0d
+			x: -4.5d
 			y: -2.5d
 		}
 		{
@@ -2950,7 +2947,7 @@
 				}
 			]
 			title: "Stormforged Set"
-			x: -0.5d
+			x: 0.5d
 			y: 1.5d
 		}
 		{
@@ -2967,8 +2964,9 @@
 				item: "kubejs:phoenix_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 2.0d
+			title: "Phoenix Upgrade"
+			x: -8.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3033,7 +3031,7 @@
 				}
 			]
 			title: "Diving Set"
-			x: 0.0d
+			x: 0.5d
 			y: -1.5d
 		}
 		{
@@ -3103,7 +3101,7 @@
 				}
 			]
 			title: "Arcane Gold Set"
-			x: -3.5d
+			x: -2.5d
 			y: 2.5d
 		}
 		{
@@ -3174,7 +3172,7 @@
 				}
 			]
 			title: "Inventor Wizard Set"
-			x: -2.5d
+			x: -1.5d
 			y: 2.5d
 		}
 		{
@@ -3244,7 +3242,7 @@
 				}
 			]
 			title: "Arcane Fortress Set"
-			x: -1.5d
+			x: -0.5d
 			y: 2.5d
 		}
 		{
@@ -3261,7 +3259,8 @@
 				item: "deep_aether:stratus_smithing_template"
 				type: "item"
 			}]
-			x: -9.0d
+			title: "Stratus Upgrade"
+			x: -9.5d
 			y: 0.5d
 		}
 		{
@@ -3327,7 +3326,7 @@
 				}
 			]
 			title: "Bronze Set"
-			x: -1.0d
+			x: -0.5d
 			y: -1.5d
 		}
 		{
@@ -3392,7 +3391,7 @@
 				}
 			]
 			title: "Sorcerer's Set"
-			x: 3.0d
+			x: 4.5d
 			y: -2.0d
 		}
 		{
@@ -3458,7 +3457,7 @@
 				}
 			]
 			title: "Arcanist's Set"
-			x: 4.0d
+			x: 5.5d
 			y: -2.0d
 		}
 		{
@@ -3523,7 +3522,7 @@
 				}
 			]
 			title: "Battlemage's Set"
-			x: 5.0d
+			x: 6.5d
 			y: -2.0d
 		}
 		{
@@ -3588,7 +3587,7 @@
 				}
 			]
 			title: "Wandering Magician Set"
-			x: 3.5d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
@@ -3653,7 +3652,7 @@
 				}
 			]
 			title: "Scarecrow Set"
-			x: 4.5d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -3731,7 +3730,7 @@
 				}
 			]
 			title: "Pyromancer Set"
-			x: 3.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -3809,7 +3808,7 @@
 				}
 			]
 			title: "Cryomancer Set"
-			x: 4.0d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -3887,7 +3886,7 @@
 				}
 			]
 			title: "Electromancer Set"
-			x: 5.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -3965,7 +3964,7 @@
 				}
 			]
 			title: "Archevoker Set"
-			x: 3.0d
+			x: 4.5d
 			y: 1.0d
 		}
 		{
@@ -4043,7 +4042,7 @@
 				}
 			]
 			title: "Cultist Set"
-			x: 4.0d
+			x: 5.5d
 			y: 1.0d
 		}
 		{
@@ -4121,7 +4120,7 @@
 				}
 			]
 			title: "Shadow-Walker Set"
-			x: 5.0d
+			x: 6.5d
 			y: 1.0d
 		}
 		{
@@ -4199,7 +4198,7 @@
 				}
 			]
 			title: "Priest Set"
-			x: 3.5d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
@@ -4277,7 +4276,7 @@
 				}
 			]
 			title: "Plagued Set"
-			x: 4.5d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -4354,7 +4353,7 @@
 				}
 			]
 			title: "Netherite Battlemage Set"
-			x: 4.0d
+			x: 5.5d
 			y: 3.0d
 		}
 		{
@@ -4420,7 +4419,349 @@
 				}
 			]
 			title: "Hazmat Set"
-			x: -3.5d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "54B1BE939604B9B6"
+			rewards: [{
+				count: 3
+				id: "0C17127DF7150A36"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D9D8EFD5E8CE0F5"
+				item: "kubejs:engineer_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Engineer Upgrade"
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "71556D6EEF758374"
+			rewards: [{
+				count: 3
+				id: "7AAB850943FF6646"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "427BBDF07B0A7C14"
+				item: "kubejs:wandering_magician_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Wandering Magician Upgrade"
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0C63C1D4A924F341"
+			rewards: [{
+				count: 3
+				id: "1C3CE0FE608E9D29"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0118705B677EFBCA"
+				item: "kubejs:scarecrow_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Scarecrow Upgrade"
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3DF810358D41E6A4"
+			rewards: [{
+				count: 3
+				id: "7365E8517AE7C562"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CED77F20CF0FD8C"
+				item: "kubejs:bronze_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Bronze Upgrade"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "219B182FB7C69E42"
+			rewards: [{
+				count: 3
+				id: "6BEAED4B9794C180"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34E5FB42CFCC3B7C"
+				item: "kubejs:steeleaf_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Steeleaf Upgrade"
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7B85C3E307920CF6"
+			rewards: [{
+				count: 3
+				id: "540F09136238469F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A22747593306A50"
+				item: "kubejs:knightmetal_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Knightmetal Upgrade"
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6557A4D3FC1DF01D"
+			rewards: [{
+				count: 3
+				id: "22249BAC8E1D7200"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B44A17009CC6AEF"
+				item: "kubejs:gold_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Gold Upgrade"
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "408DDAB813AF5267"
+			rewards: [{
+				count: 3
+				id: "657B376917D574CD"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69E7F6DEEB4545B0"
+				item: "kubejs:skyjade_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Skyjade Upgrade"
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "550108F64554D4C6"
+			rewards: [{
+				count: 3
+				id: "0240158F0E611C5B"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "408B6E95425D10D8"
+				item: "kubejs:zanite_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Zanite Upgrade"
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3B4DEDD05E17E12F"
+			rewards: [{
+				count: 3
+				id: "1DFEB01BE4A73634"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2989C019FA3BC618"
+				item: "kubejs:fiery_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Fiery Upgrade"
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0B5B5F34AA10813D"
+			rewards: [{
+				count: 3
+				id: "4C4E1D21C5A274F1"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68033575742EAA8F"
+				item: "kubejs:obsidian_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Obsidian Upgrade"
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "493F5C466DF0FCE1"
+			rewards: [{
+				count: 3
+				id: "64AC83C73F701939"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BEAFFBDB97A4444"
+				item: "kubejs:arcane_gold_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Arcane Gold Upgrade"
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "01E46CCB7F7A770C"
+			rewards: [{
+				count: 3
+				id: "5DCA0DFB8889AE60"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60CD214B5D76CB42"
+				item: "kubejs:netherite_battlemage_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Netherite Battlemage Upgrade"
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "38C9160765C14FFD"
+			rewards: [{
+				count: 3
+				id: "5C15125B482DB09E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C2D88EB81ACFB31"
+				item: "kubejs:arcane_fortress_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Arcane Fortress Upgrade"
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0DFB832C2639266C"
+			rewards: [{
+				count: 3
+				id: "3808E6B099EF3F7A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A287611099D4212"
+				item: "kubejs:depth_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Soulstrider Upgrade"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0EBC2E8C3D61B0E3"
+			rewards: [{
+				count: 3
+				id: "03EC9584B9C3C5E7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A0CA4E08332CC73"
+				item: "kubejs:draco_arcanus_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Draco Arcanus Upgrade"
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1B87697A22BF5AF1"
+			rewards: [{
+				count: 3
+				id: "6284E173B03CAB82"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09C0EC3253A753A5"
+				item: "kubejs:tyr_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Tyr Upgrade"
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "26D610823EA20290"
+			rewards: [{
+				count: 3
+				id: "74B510B53EF78957"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55AF47ADBBFD04AB"
+				item: "kubejs:etherium_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Etherium Upgrade"
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "16C2DAC081931510"
+			rewards: [{
+				count: 3
+				id: "7A99449CCD726B5B"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BA2A97CD3426752"
+				item: "kubejs:valkyrum_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Valkyrum Upgrade"
+			x: -10.5d
 			y: 3.5d
 		}
 	]

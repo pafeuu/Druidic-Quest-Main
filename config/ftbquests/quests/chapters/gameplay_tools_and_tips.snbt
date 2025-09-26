@@ -224,13 +224,7 @@
 				""
 				"&2Equipping yourself appropriately for various situations could make a huge difference!&r"
 			]
-			icon: {
-				Count: 1
-				id: "deeperdarker:warden_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "forbidden_arcanus:tyr_chestplate"
 			id: "23A6B7EF98592193"
 			size: 1.5d
 			subtitle: "Dress for Success!"
