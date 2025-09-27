@@ -30,7 +30,6 @@
     }
   ],
   "fullSetBonuses": [
-    
     {
       "type": "effect",
       "name": "minecraft:fire_resistance",
@@ -59,8 +58,6 @@
       "interactionType": "self",
       "interactionDuration": 300
     }
-    
-
   ],
   "hideGeneratedTooltip": false
 }

@@ -2,11 +2,11 @@
   "armorSetName": "stratus",
   "performanceMode": true,
   "head": {
-    "itemKey": "kubejs:silver_helmet",
+    "itemKey": "deep_aether:stratus_helmet",
     "mustBeEmpty": false
   },
   "chest": {
-    "itemKey": "kubejs:silver_chestplate",
+    "itemKey": "deep_aether:stratus_chestplate",
     "mustBeEmpty": false
   },
   "legs": {

@@ -2,19 +2,19 @@
   "armorSetName": "stormforged",
   "performanceMode": true,
   "head": {
-    "itemKey": "aether:phoenix_helmet",
+    "itemKey": "deep_aether:stormforged_helmet",
     "mustBeEmpty": false
   },
   "chest": {
-    "itemKey": "aether:phoenix_chestplate",
+    "itemKey": "deep_aether:stormforged_chestplate",
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "aether:phoenix_leggings",
+    "itemKey": "deep_aether:stormforged_leggings",
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "aether:phoenix_boots",
+    "itemKey": "deep_aether:stormforged_boots",
     "mustBeEmpty": false
   },
   "partialBonusRequiredAmount": 2,
