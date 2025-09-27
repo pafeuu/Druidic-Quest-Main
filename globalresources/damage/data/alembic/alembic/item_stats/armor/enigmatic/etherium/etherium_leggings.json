@@ -24,7 +24,7 @@
     },
     {
       "type": "append",
-      "attribute": "alembic:holy_damage.resistance",
+      "attribute": "alembic:arcane_damage.resistance",
       "value": 7,
       "operation": "ADDITION",
       "uuid": "18dbb31f-cd4e-411d-adb7-3a5ee6f996d4"

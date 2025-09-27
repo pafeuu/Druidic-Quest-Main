@@ -1,0 +1,27 @@
+{
+  "id": "naturesaura:sky_shoes",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "cfbfddd0-1071-47bc-af79-e568af83b2f5"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "cfbfddd0-1071-47bc-af79-e568af83b2f5"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "cfbfddd0-1071-47bc-af79-e568af83b2f5"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

@@ -18,7 +18,7 @@ ServerEvents.recipes(event=>{
         .priority(0)
     }
 
-    function binding4ingredients(output,element,amount,input1,input2,input3,input4,id){
+    function binding5ingredients(output,element,amount,input1,input2,input3,input4,input5,id){
 
         event.recipes.mbd2.elemental_binding()
         //.inputItems(input1,input2,input3,input4,input5,input6,input7,input8)
@@ -28,6 +28,7 @@ ServerEvents.recipes(event=>{
         .slotName("2", builder=> builder.inputItems(input2))
         .slotName("3", builder=> builder.inputItems(input3))
         .slotName("4", builder=> builder.inputItems(input4))
+        .slotName("5", builder=> builder.inputItems(input5))
         .slotName("output", builder=>builder.outputItems(output))
         .duration(100)
         .id(id)
@@ -103,7 +104,7 @@ ServerEvents.recipes(event=>{
         "thermal:ruby",
         "death_essence")
 
-    binding("kubejs:rainbow_magic_feather","water",250,
+    binding("kubejs:rainbow_magic_feather","water",2500,
         "ars_nouveau:fire_essence",
         "ars_nouveau:water_essence",
         "ars_nouveau:air_essence",
@@ -115,7 +116,7 @@ ServerEvents.recipes(event=>{
         "rainbow_magic_feather"
     )
 
-    binding("kubejs:elemental_cloth","water",1000,
+    binding("kubejs:elemental_cloth","water",2500,
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
@@ -126,7 +127,7 @@ ServerEvents.recipes(event=>{
         "kubejs:elemental_core",
         "cloth_water"
     )
-    binding("kubejs:elemental_cloth","fire",1000,
+    binding("kubejs:elemental_cloth","fire",2500,
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
@@ -137,7 +138,7 @@ ServerEvents.recipes(event=>{
         "kubejs:elemental_core",
         "cloth_fire"
     )
-    binding("kubejs:elemental_cloth","earth",1000,
+    binding("kubejs:elemental_cloth","earth",2500,
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
@@ -148,7 +149,7 @@ ServerEvents.recipes(event=>{
         "kubejs:elemental_core",
         "cloth_earth"
     )
-    binding("kubejs:elemental_cloth","air",1000,
+    binding("kubejs:elemental_cloth","air",2500,
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
         "irons_spellbooks:magic_cloth",
@@ -158,6 +159,63 @@ ServerEvents.recipes(event=>{
         "irons_spellbooks:magic_cloth",
         "kubejs:elemental_core",
         "cloth_air"
+    )
+
+    binding5ingredients("kubejs:arcane_gold_upgrade_parts","fire",5000,
+        "#forge:plates/arcane_gold",
+        "#forge:plates/arcane_gold",
+        "#forge:plates/arcane_gold",
+        "#forge:plates/arcane_gold",
+        "bundle",
+        "arcane_gold_parts"
+    )
+
+    binding5ingredients("kubejs:soulstrider_upgrade_parts","water",5000,
+        "#forge:plates/depth",
+        "#forge:plates/depth",
+        "#forge:plates/depth",
+        "#forge:plates/depth",
+        "bundle",
+        "soulstrider_parts"
+    )
+
+    binding5ingredients("kubejs:skyseeker_upgrade_parts","air",5000,
+        "#forge:plates/sky",
+        "#forge:plates/sky",
+        "#forge:plates/sky",
+        "#forge:plates/sky",
+        "bundle",
+        "skyseeker_parts"
+    )
+
+    binding("kubejs:arcane_plating","earth",5000,
+        "forbidden_arcanus:deorum_ingot",
+        "forbidden_arcanus:deorum_ingot",
+        "forbidden_arcanus:deorum_ingot",
+        "forbidden_arcanus:deorum_ingot",
+        "#forge:plates/arcane_gold",
+        "#forge:plates/arcane_gold",
+        "#forge:plates/arcane_gold",
+        "#forge:plates/arcane_gold",
+        "arcane_plating"
+    )
+
+    binding5ingredients("kubejs:battlemage_cloth","fire",5000,
+        "#forge:plates/netherite",
+        "#forge:plates/netherite",
+        "#forge:plates/netherite",
+        "#forge:plates/netherite",
+        "kubejs:elemental_cloth",
+        "battlemage_cloth"
+    )
+
+    binding5ingredients("kubejs:etherium_upgrade_parts","earth",5000,
+        "enigmaticlegacy:etherium_ingot",
+        "enigmaticlegacy:etherium_ingot",
+        "enigmaticlegacy:etherium_ingot",
+        "enigmaticlegacy:etherium_ingot",
+        "bundle",
+        "etherium_gold_parts"
     )
 
 })

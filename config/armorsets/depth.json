@@ -1,0 +1,74 @@
+{
+  "armorSetName": "soulstrider",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "naturesaura:depth_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "naturesaura:depth_chest",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "naturesaura:depth_pants",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "naturesaura:depth_shoes",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+    "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:water_breathing",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+    ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:conduit_power",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+        "type": "attribute",
+        "name": "minecraft:generic.max_health",
+        "value": 0.4,
+        "modifierUUID": "d5c72c88-9405-4398-b1e5-250b4c6dd218",
+        "description": "40% more health",
+        "attributeOperation": 0,
+        "interactionType": "self",
+        "interactionDuration": 300,
+        "hideBonusDescription": false,
+        "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

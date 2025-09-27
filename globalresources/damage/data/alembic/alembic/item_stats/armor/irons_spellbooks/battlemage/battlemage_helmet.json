@@ -1,0 +1,38 @@
+{
+  "id": "irons_spellbooks:netherite_mage_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "60e8016a-98bb-4da3-9f68-03eec8e79c98"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "3b63293f-fe82-4a6e-a843-0730c43b8d59"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "2d0479f8-7247-465f-a097-86baf72260ce"
+    },
+    {
+      "type": "remove",
+      "target": "minecraft:generic.armor"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 4.5,
+      "operation": "ADDITION",
+      "uuid": "ed02c139-4091-4ac7-b768-146ed2060184"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

@@ -1,0 +1,46 @@
+{
+  "armorSetName": "skyseeker",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "naturesaura:sky_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "naturesaura:sky_chest",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "naturesaura:sky_pants",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "naturesaura:sky_shoes",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+    "partialSetBonuses": [
+    {
+        "type": "attribute",
+        "name": "puffish_attributes:fall_reduction",
+        "value": 1,
+        "modifierUUID": "d5c32c88-9335-4398-b275-250b4c6dd218",
+        "description": "no fall damage",
+        "attributeOperation": 1,
+        "interactionType": "self",
+        "interactionDuration": 300
+    }
+    ],
+  "fullSetBonuses": [
+    {
+        "type": "attribute",
+        "name": "caelus:fall_flying",
+        "value": 1,
+        "modifierUUID": "d5c72c88-9335-4398-b2e5-250b4c6dd218",
+        "description": "Elytra flight",
+        "attributeOperation": 0,
+        "interactionType": "self",
+        "interactionDuration": 300
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

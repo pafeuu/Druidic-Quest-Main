@@ -177,17 +177,17 @@ ServerEvents.recipes(event=>{
 		"enigmaticlegacy:etherium_ingot"
 	)
 
-	event.smithing("ancient_aether:valkyrum_helmet","kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_helmet","kubejs:valkyrum_upgrade_parts")
-	event.smithing("ancient_aether:valkyrum_chestplate" ,"kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_chest","kubejs:valkyrum_upgrade_parts")
-	event.smithing("ancient_aether:valkyrum_leggings" ,"kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_pants","kubejs:valkyrum_upgrade_parts")
-	event.smithing("ancient_aether:valkyrum_boots" ,"kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_shoes","kubejs:valkyrum_upgrade_parts")
+	event.smithing("ancient_aether:valkyrum_helmet","kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_helmet","ancient_aether:valkyrum")
+	event.smithing("ancient_aether:valkyrum_chestplate" ,"kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_chest","ancient_aether:valkyrum")
+	event.smithing("ancient_aether:valkyrum_leggings" ,"kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_pants","ancient_aether:valkyrum")
+	event.smithing("ancient_aether:valkyrum_boots" ,"kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_shoes","ancient_aether:valkyrum")
 
 
 	const tooltype = ['hoe','sword','pickaxe','axe','shovel'];
 
 	tooltype.forEach(id => {
 		
-		event.smithing("ancient_aether:valkyrum_"+id ,"kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_"+id,"kubejs:valkyrum_upgrade_parts")
+		event.smithing("ancient_aether:valkyrum_"+id ,"kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_"+id,"ancient_aether:valkyrum")
 
 	});
 

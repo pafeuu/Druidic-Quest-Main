@@ -816,30 +816,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "60BDB25DE7605A59"
-			rewards: [
-				{
-					count: 6
-					id: "09FE708F47428B5B"
-					item: "thermal:copper_coin"
-					type: "item"
-				}
-				{
-					id: "0FB4D425B06DA485"
-					item: "minecraft:coarse_dirt"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7DC8CE98D4DE3F85"
-				item: "deeperdarker:echo_sapling"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "375B7E6A5608388C"
 			rewards: [
 				{
@@ -931,8 +907,8 @@
 				item: "aether:golden_oak_sapling"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.0d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1387,7 +1363,7 @@
 				item: "twilightforest:rainbow_oak_sapling"
 				type: "item"
 			}]
-			x: -7.5d
+			x: 0.0d
 			y: -5.0d
 		}
 		{
@@ -1649,8 +1625,8 @@
 				item: "biomeswevegone:red_maple_sapling"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.0d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]

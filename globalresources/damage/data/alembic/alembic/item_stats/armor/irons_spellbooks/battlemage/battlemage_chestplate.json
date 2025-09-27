@@ -1,0 +1,38 @@
+{
+  "id": "irons_spellbooks:netherite_mage_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "a7739e4f-dbb3-4989-86c5-44a4d416ea36"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "a7739e4f-dbb3-4989-86c5-44a4d416ea36"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "a7739e4f-dbb3-4989-86c5-44a4d416ea36"
+    },
+    {
+      "type": "remove",
+      "target": "minecraft:generic.armor"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 10.5,
+      "operation": "ADDITION",
+      "uuid": "38b04fd0-4f83-408b-9297-b236e70de0c3"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

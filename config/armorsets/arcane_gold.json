@@ -1,0 +1,57 @@
+{
+  "armorSetName": "arcane_gold",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "wizards_reborn:arcane_gold_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "wizards_reborn:arcane_gold_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "wizards_reborn:arcane_gold_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "wizards_reborn:arcane_gold_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+    "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_attributes:player.fortune",
+      "value": 0.5,
+      "modifierUUID": "d5a7dc77-1405-2393-b1e5-250b4c6dd218",
+      "description": "Half of an extra fortune level",
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+    ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_attributes:player.fortune",
+      "value": 1.0,
+      "modifierUUID": "d5a7dc88-1405-2393-b1e5-250b4c6dd218",
+      "description": "Extra fortune level!",
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

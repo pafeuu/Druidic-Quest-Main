@@ -2850,8 +2850,11 @@ Patch 0.3.2.1
     -Charm of Keeping II
     -Charm of Keeping III
     -Silent Boots Cover
-    -Removed all the new Create storage system components for now
+    -Removed all the new Create storage system components FOR NOW
     -Dragonskin
+    -Obsidian with Iron
+    -Valkyrum Ore
+
 
 ### Changed Textures:
     -Wooden Crucifix (By Señor Random)
@@ -2953,6 +2956,7 @@ Patch 0.3.2.1
     -Added for Glowsquid in Animal Spawner
     -Changed for Arcane Cloth
     -Changed for Dislocation Ring
+    -Removed recipes for sky and depth ingots for now
     -Fixed recipes for primitive chisel, primitive handle, primitive shears to correctly use twigs
     -Added for spawn eggs of:
         -Blaze

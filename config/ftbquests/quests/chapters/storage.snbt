@@ -57,6 +57,7 @@
 		}
 		{
 			dependencies: ["1CBDCC784C114148"]
+			dependency_requirement: "one_started"
 			icon: "minecraft:barrel"
 			id: "24CE8EA5A982ADED"
 			rewards: [{
@@ -118,6 +119,7 @@
 		}
 		{
 			dependencies: ["1CBDCC784C114148"]
+			dependency_requirement: "one_started"
 			id: "506A8F5F973A9DA0"
 			rewards: [{
 				count: 4

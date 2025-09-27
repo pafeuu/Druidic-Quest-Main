@@ -11,6 +11,7 @@ var wood_TF_no_mangrove = ['canopy','twilight_oak','time','transformation','mini
 
 global.nukelist = ["twigs:calcite_wall",
     "twigs:tuff_wall",
+	"ancient_aether:valkyrum_ore",
 	'forbidden_arcanus:obsidian_with_iron',
     "twigs:calcite_stairs",
     "aether:life_shard",
@@ -325,6 +326,10 @@ ServerEvents.recipes(event => {
 
 	let RemoveById = [
 		"thermal:machines/smelter/smelter_sapphire_ore",
+		"naturesaura:depth_ingot_creation",
+		"naturesaura:offering/sky_ingot",
+		"naturesaura:offering/sky_ingot_from_gold",
+		"naturesaura:calling_spirit",
 		"thermal:compat/immersiveengineering/press_ie_steel_ingot_to_plate",
 		"aether:holystone_stonecutter",
 		"vintageimprovements:pressing/uranium_ingot",

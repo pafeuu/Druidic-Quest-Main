@@ -1,0 +1,57 @@
+{
+  "armorSetName": "arcane_fortress",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "wizards_reborn:arcane_fortress_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "wizards_reborn:arcane_fortress_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "wizards_reborn:arcane_fortress_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "wizards_reborn:arcane_fortress_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+    "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_attributes:player.fortune",
+      "value": 0.5,
+      "modifierUUID": "d5a7dc77-1405-2393-b1e5-250b4c6dd218",
+      "description": "Half of an extra fortune level",
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+    ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_attributes:player.fortune",
+      "value": 1.5,
+      "modifierUUID": "d5a7dc88-1405-2393-b1e5-250b4c6dd218",
+      "description": "One and half extra fortune levels!",
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,38 @@
+{
+  "id": "irons_spellbooks:netherite_mage_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "cfbfddd0-1071-47bc-af79-e568af83b2f5"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "cfbfddd0-1071-47bc-af79-e568af83b2f5"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "cfbfddd0-1071-47bc-af79-e568af83b2f5"
+    },
+    {
+      "type": "remove",
+      "target": "minecraft:generic.armor"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 4.5,
+      "operation": "ADDITION",
+      "uuid": "8b43b5c0-c262-42ae-856c-e26003b26d88"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

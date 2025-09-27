@@ -1,0 +1,45 @@
+{
+    "armorSetName": "neptune",
+    "performanceMode": true,
+    "head": {
+      "itemKey": "aether:neptune_helmet",
+      "mustBeEmpty": false
+    },
+    "chest": {
+      "itemKey": "aether:neptune_chestplate",
+      "mustBeEmpty": false
+      
+    },
+    "legs": {
+      "itemKey": "aether:neptune_leggings",
+      "mustBeEmpty": false
+    },
+    "boots": {
+      "itemKey": "aether:neptune_boots",
+      "mustBeEmpty": false
+    },
+    "partialBonusRequiredAmount": 2,
+    "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:water_breathing",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+    ],
+    "fullSetBonuses": [
+      {
+        "type": "effect",
+        "name": "minecraft:conduit_power",
+        "value": 0.0,
+        "interactionType": "self",
+        "interactionDuration": 300,
+        "hideBonusDescription": false,
+        "onlyImmuneToNewEffects": false
+      }
+    ],
+    "hideGeneratedTooltip": false
+  }

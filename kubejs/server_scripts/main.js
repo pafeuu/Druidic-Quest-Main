@@ -737,6 +737,30 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Components =======================================================================
 	
+	event.shaped("kubejs:bronze_upgrade_parts",
+		[
+			" P ",
+			"PBP",
+			" P "
+		],
+		{
+			P: "#forge:plates/bronze",
+			B: "bundle"
+		}
+	)
+
+	event.shaped("kubejs:steeleaf_upgrade_parts",
+		[
+			"PPP",
+			"PBP",
+			"PPP"
+		],
+		{
+			P: "#forge:ingots/steeleaf",
+			B: "bundle"
+		}
+	)
+
 	event.shapeless("twilightforest:transformation_powder",["kubejs:basic_alchemical_dust","4x forbidden_arcanus:arcane_crystal_dust","bundle"])
 
 	event.shapeless("alexsmobs:lost_tentacle",["forbidden_arcanus:tentacle","forbidden_arcanus:soul"])
@@ -2660,6 +2684,30 @@ ServerEvents.recipes(event => {
 	)
 	
 	/// ======================================== Tier 2 Components ================================================================
+
+	event.shaped("kubejs:zanite_upgrade_parts",
+		[
+			"PPP",
+			"PBP",
+			"PPP"
+		],
+		{
+			P: "#forge:gems/zanite",
+			B: "bundle"
+		}
+	)
+
+	event.shaped("kubejs:skyjade_upgrade_parts",
+		[
+			"PPP",
+			"PBP",
+			"PPP"
+		],
+		{
+			P: "#forge:gems/skyjade",
+			B: "bundle"
+		}
+	)
 
 	event.shaped("kubejs:aura_generator_block",
 		[

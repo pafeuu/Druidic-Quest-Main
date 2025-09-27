@@ -575,7 +575,6 @@ StartupEvents.registry('item', item => {
   item.create("steel_upgrade_parts")
   item.create("bronze_upgrade_parts")
   item.create("steeleaf_upgrade_parts")
-  item.create("valkyrum_upgrade_parts")
   item.create("etherium_upgrade_parts")
   item.create("skyjade_upgrade_parts")
   item.create("arcane_gold_upgrade_parts")
@@ -593,6 +592,7 @@ StartupEvents.registry('item', item => {
   item.create('fiery_clay_blend').displayName('Fiery Clay Blend')
   item.create('basic_token').displayName('Basic Token')
   item.create("elemental_core").rarity("legendary")
+  
   
 })
 

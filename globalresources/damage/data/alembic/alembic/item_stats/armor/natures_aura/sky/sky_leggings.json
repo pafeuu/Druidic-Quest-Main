@@ -1,0 +1,27 @@
+{
+  "id": "naturesaura:sky_pants",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 5,
+      "operation": "ADDITION",
+      "uuid": "60e8016a-98bb-4da3-9f68-03eec8e79c98"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 5,
+      "operation": "ADDITION",
+      "uuid": "7bb57fc5-bef7-4f96-818f-680b2b8e5155"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 5,
+      "operation": "ADDITION",
+      "uuid": "b03cc504-0ef0-4759-b933-33690e1e0eab"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}
