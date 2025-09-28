@@ -123,7 +123,7 @@
             ]
         },
         {
-            "pakku_id": "3OW9RJlZQwtO7u0H",
+            "pakku_id": "WCKuE4mBScpu9E6W",
             "type": "MOD",
             "slug": {
                 "curseforge": "advanced-loot-info"
@@ -137,7 +137,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "AdvancedLootInfo-forge-1.20.1-1.2.5.jar",
+                    "file_name": "AdvancedLootInfo-forge-1.20.1-1.3.5.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -146,16 +146,16 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/6895/734/AdvancedLootInfo-forge-1.20.1-1.2.5.jar",
-                    "id": "6895734",
+                    "url": "https://edge.forgecdn.net/files/7018/898/AdvancedLootInfo-forge-1.20.1-1.3.5.jar",
+                    "id": "7018898",
                     "parent_id": "1205426",
                     "hashes": {
-                        "sha1": "ab326518cbd007e71826ccd7b5fc670cbc218ecf",
-                        "md5": "750860b84ddf0e9edabeaa123051daea"
+                        "sha1": "a828010ebe246454209b6589dc8e105f20c82f13",
+                        "md5": "bde3ce5ee748049b5b7dd200678119df"
                     },
                     "required_dependencies": [],
-                    "size": 394389,
-                    "date_published": "2025-08-17T09:05:12.163Z"
+                    "size": 587273,
+                    "date_published": "2025-09-21T12:22:28.203Z"
                 }
             ]
         },
@@ -4913,6 +4913,42 @@
                     ],
                     "size": 335525,
                     "date_published": "2025-07-19T11:20:03.180Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "pRTnK3WBgCuQ8Kql",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "in-control"
+            },
+            "name": {
+                "curseforge": "In Control!"
+            },
+            "id": {
+                "curseforge": "257356"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "incontrol-1.20-9.4.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6938/482/incontrol-1.20-9.4.1.jar",
+                    "id": "6938482",
+                    "parent_id": "257356",
+                    "hashes": {
+                        "sha1": "812aae2ac829c479433b076126c468bb4a99c40a",
+                        "md5": "9648316b378fd5238d6c778e89da5342"
+                    },
+                    "required_dependencies": [],
+                    "size": 361755,
+                    "date_published": "2025-08-28T18:19:58.717Z"
                 }
             ]
         },

@@ -2762,7 +2762,7 @@ Patch 0.3.2.1
     -Agronomic Sourcelink is now mined faster with a pickaxe
     -Steel tools are now Unbreakable for real
     
-# Patch 3.0.0 Pre-Release
+# Patch 3.0.0 
 
 ### Updated all of the mods
 
@@ -3028,3 +3028,43 @@ Patch 0.3.2.1
     -Bosses and Mini Bosses can no longer be caught with a quantum catcher
     -Waystones cant be broken with create drills and ars break spell 
     -You cant use TimeInABottle on Armorer's aid anymore
+
+
+# Patch 3.0.1
+
+### Updated Mods:
+    -AdvancedLootInfo
+    -Balm
+    -BetterAnimationCollection
+    -ChatHeads
+    -ConstantMusic
+    -EveryCompat
+    -FastAsyncWorldSave
+    -FruitsDelight
+    -GeckoLib
+    -ImmediatelyFast
+    -InControl
+    -LootJournal
+    -Lootr
+    -LowDragLib
+    -LycheeTweaker
+    -ModeratelyEnoughEffectsDescriptions
+    -ModernUI
+    -MoonlightLib
+    -OhTheBiomesWeveGone
+    -SophisticatedMods
+    -SophisticatedStorageCreateIntegration
+    -Supplementaries
+    -Tide
+    -UniversalSawmill
+
+
+### Quests:
+    -Added Druidic Bestiary as a reward in one of the early quests
+    -Fixed Gambling Quests 
+
+### Item balance:
+    -Fixed Stratus armor set bonus using silver armor
+
+###
+    -Wizard's reborn now show how much wissen, steam etc. the recipe needs to function

@@ -10,11 +10,11 @@
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "kubejs:silver_leggings",
+    "itemKey": "deep_aether:stratus_leggings",
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "kubejs:silver_boots",
+    "itemKey": "deep_aether:stratus_boots",
     "mustBeEmpty": false
   },
   "partialBonusRequiredAmount": 2,

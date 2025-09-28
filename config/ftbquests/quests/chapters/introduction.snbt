@@ -179,11 +179,24 @@
 				}
 			}
 			id: "118A5A467C0FEA36"
-			rewards: [{
-				id: "76C2C55923A44610"
-				item: "silly_oddities:rainbow_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "76C2C55923A44610"
+					item: "silly_oddities:rainbow_bundle"
+					type: "item"
+				}
+				{
+					id: "0C777ACBB99B3122"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "patchouli:druidic_beastiary"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "But are you in a condition to fight?"
 			tasks: [{
 				id: "0F3FB0935B2A1651"
