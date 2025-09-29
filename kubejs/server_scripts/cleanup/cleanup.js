@@ -326,6 +326,7 @@ ServerEvents.recipes(event => {
 
 	let RemoveById = [
 		"thermal:machines/smelter/smelter_sapphire_ore",
+		"quark:tweaks/crafting/utility/misc/charcoal_to_black_dye",
 		"naturesaura:depth_ingot_creation",
 		"naturesaura:offering/sky_ingot",
 		"naturesaura:offering/sky_ingot_from_gold",

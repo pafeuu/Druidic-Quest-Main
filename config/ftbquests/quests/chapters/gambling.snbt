@@ -189,6 +189,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["62A4387CCE7F7DD9"]
 			description: ["Gamble a gold coin on some sweets!"]
 			icon: "minecraft:cookie"
 			id: "48D1FC45C106B8A3"
@@ -218,6 +219,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["62A4387CCE7F7DD9"]
 			description: ["Gamble a gold coin on drinks!"]
 			icon: "fruitsdelight:orange_juice"
 			id: "1D0075FBA10C27FE"
@@ -249,6 +251,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["62A4387CCE7F7DD9"]
 			description: ["Gamble a gold coin on some snacks!"]
 			icon: "vintagedelight:cheese_burger"
 			id: "4E5E70E3FC52DA6D"

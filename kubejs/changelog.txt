@@ -3032,6 +3032,9 @@ Patch 0.3.2.1
 
 # Patch 3.0.1
 
+### Added Mods:
+    -InControl (Somehow it wasnt exported in the last patch)
+
 ### Updated Mods:
     -AdvancedLootInfo
     -Balm
@@ -3066,5 +3069,22 @@ Patch 0.3.2.1
 ### Item balance:
     -Fixed Stratus armor set bonus using silver armor
 
-###
+### Other
     -Wizard's reborn now show how much wissen, steam etc. the recipe needs to function
+
+
+# Patch 3.0.2
+
+### Recipes:
+    -Removed for black dye from charcoal
+
+### Loottables:
+    -Slightly buffed basic loot chest in the pyromancer tower(They should never appear empty now)
+
+### Quests:
+    -Added lore book quest for bearclaw inn
+
+### Other:
+    -Fixed incompatible mod list on server and client
+    -Crossbows now longer give block reach 
+    

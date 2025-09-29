@@ -327,6 +327,35 @@
 			x: -3.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: "kubejs:bear_totem"
+			id: "299C237FC9BAB2E3"
+			rewards: [{
+				id: "319F812FBF86E519"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11C707CED64D4BDA"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "CraisinLord"
+						filtered_title: "The Bear Hunt"
+						pages: [
+							"{\"text\":\"Journal: Day 45\\n~~~~~~~~~~~~\\nToday we discovered tracks that lead into dark and eerie cave. Tonight we plan to set multiple honey traps in hopes to draw the bear out of its cave.\"}"
+							"{\"text\":\"Journal: Day 58\\n~~~~~~~~~~~~\\nThe bear took all of the honey in our traps without setting off the traps. It seems to be very clever. We may have to try brute force to scare it away from our village.\"}"
+						]
+						title: "The Bear Hunt"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
 	]
 	title: "Lore Collector"
 }
