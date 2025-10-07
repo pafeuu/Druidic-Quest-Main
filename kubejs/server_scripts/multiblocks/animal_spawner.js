@@ -3,6 +3,7 @@ ServerEvents.recipes((event)=>{
     const MagicalCritterAuraCost = 80000;
     const RegularAnimalAuraCost = 50000
     const spawn = event.recipes.naturesaura.animal_spawner;
+
     spawn("ars_nouveau:whirlisprig",
         ["naturesaura:birth_spirit",
         "#minecraft:saplings",
@@ -272,6 +273,13 @@ ServerEvents.recipes((event)=>{
         "white_wool",
         "twigs:bronzed_seashell"
         ],RegularAnimalAuraCost,60)
+
+    spawn("alexsmobs:sunbird",
+        ["naturesaura:birth_spirit",
+        "kubejs:death_essence",
+        "kubejs:life_essence",
+        "ars_nouveau:fire_essence"
+        ],MagicalCritterAuraCost,100)
 
 
     
