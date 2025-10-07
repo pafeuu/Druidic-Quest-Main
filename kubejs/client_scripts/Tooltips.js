@@ -209,7 +209,7 @@ ItemEvents.tooltip( tooltip => {
     if (!tooltip.shift) {
       text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
     } else {
-      text.add(1, Text.gold('Applies Bleeding on hit'))
+      text.add(1, Text.gold('10% chance to apply Bleeding on hit'))
     }
   })
 
@@ -217,7 +217,7 @@ ItemEvents.tooltip( tooltip => {
     if (!tooltip.shift) {
       text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
     } else {
-      text.add(1, Text.gold('Applies Bleeding on hit'))
+      text.add(1, Text.gold('15% chance to apply Bleeding on hit'))
     }
   })
 

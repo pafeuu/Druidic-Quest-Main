@@ -10,7 +10,8 @@
       "name": "attributeslib:bleeding",
       "value": 0.0,
       "interactionType": "attack",
-      "interactionDuration": 300
+      "interactionDuration": 60,
+      "percentageChance": 15
     }
   ],
   "hideGeneratedTooltip": true
