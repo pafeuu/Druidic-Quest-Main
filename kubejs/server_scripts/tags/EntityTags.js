@@ -18,7 +18,10 @@ ServerEvents.tags("entity_type",e=>{
         "ancient_aether:mutated_aechor_plant",
         "deep_aether:eots_controller",
         "deep_aether:eots_segment",
-        "alexsmobs:void_worm"
+        "alexsmobs:void_worm",
+        "irons_spellbooks:dead_king",
+        "irons_spellbooks:dead_king_corpse"
+
     ])
 
     e.add("forge:mini_bosses",[
