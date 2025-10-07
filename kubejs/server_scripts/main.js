@@ -222,24 +222,6 @@ ServerEvents.recipes(event => {
 		P: "kubejs:packed_planks"
 	}).id("minecraft:composter")
 	
-	event.remove({output:"naturesaura:animal_spawner"})
-	event.custom({
-		type: "lychee:item_exploding",
-		 post: [
-		   {
-			 type: "drop_item",
-			 item: "naturesaura:animal_spawner",
-			 "count": 1
-		   }
-		 ],
-		 item_in: [
-		   {tag: "forge:storage_blocks/gold"},
-		   {item: "minecraft:hay_block"},
-		   {item: "minecraft:moss_block"},
-		   {item: "naturesaura:gold_leaf"}
-		 ]
-	   
-   })
 	
 	event.remove({output:'supplementaries:sack'})
 	event.shaped(
@@ -274,11 +256,7 @@ ServerEvents.recipes(event => {
 			"command": "playsound sawmill:ui.sawmill.take_result neutral @p",
 			"hide": true
 		  },
-		  {
-			"type": "execute",
-			"command": 'particle irons_spellbooks:wisp ~ ~ ~ 0.3 0.3 0.3 0.1 50 force',
-			"hide": true
-		  },
+		  ,
 		  {
 			"type": "execute",
 			"command": "advancement grant @p only naturesaura:wood_stand",
@@ -305,39 +283,6 @@ ServerEvents.recipes(event => {
 	
 
 	event.remove({output:'immersiveengineering:cokebrick'})
-	event.custom({
-		  type: "lychee:item_exploding",
-		  post: [
-			{type: "drop_item", item: "naturesaura:gold_fiber", "count": 4}
-		  ],
-		  item_in: [
-			{item: "minecraft:string",},
-			{item: "minecraft:string",},
-			{item: "minecraft:wheat_seeds",},
-			{item: "minecraft:wheat_seeds",},
-			{tag: "forge:flowers/golden",},
-			{tag: "forge:flowers/golden",},
-			{tag: "forge:flowers/golden",},
-			{tag: "forge:flowers/golden",}
-			]	
-	})
-
-	event.custom({
-		type: "naturesaura:tree_ritual",
-		ingredients: [
-			{item: "minecraft:ink_sac"},
-			{item: "minecraft:ink_sac"},
-			{item: "minecraft:ink_sac"},
-			{item: "minecraft:ink_sac"},
-			{item: "create:wheat_flour"},
-			{item: "create:wheat_flour"},
-			{item: "create:wheat_flour"},
-			{item: "create:wheat_flour"}
-		],
-		"sapling": {item: "minecraft:spruce_sapling"},
-		"output": {item: "kubejs:brick_glue","count": 1},
-		"time": 200
-	})
 
 	event.shaped("3x immersiveengineering:cokebrick",
 	[
@@ -1085,34 +1030,6 @@ ServerEvents.recipes(event => {
 		]
 	})
 
-	event.custom({
-		type: "lychee:item_exploding",
-		  post: [
-			{
-			  type: "drop_item",
-			  item: "kubejs:dimension_ripper"
-			},
-			{
-				type: "execute",
-				command: "playsound irons_spellbooks:spell.earthquake.cast neutral @p",
-				hide: "true"
-			}
-		  ],
-		  item_in: [
-			{
-			  item: "quark:diamond_heart"
-			},
-			{
-			  item: "forbidden_arcanus:ender_pearl_fragment"
-			},
-			{
-			  item:  "diamond"
-			},
-			{
-			  item: "redstone_block"
-			}
-		  ]
-	})
 	
 	event.custom({
 		type: "lychee:lightning_channeling",
@@ -1304,45 +1221,6 @@ ServerEvents.recipes(event => {
 	  }
 	)
 	
-	
-	event.remove({id:"irons_spellbooks:lightning_bottle"})
-	event.custom({
-		type: "lychee:item_exploding",
-		  "contextual": [
-			{
-			  type: "location",
-			  "predicate": {
-				"position":{ 
-				"y": {
-				 "min": 180,
-				 "max": 210
-				}
-				}
-			  }
-			}
-		  ],
-		  post: [
-			{
-			  type: "drop_item",
-			  item: "irons_spellbooks:lightning_bottle"
-			},
-			{
-				type: "execute",
-				command: "execute playsound minecraft:entity.lightning_bolt.impact neutral @p",
-				hide: true
-				
-			}
-		  ],
-		  item_in: [
-			{
-			  item: "quark:bottled_cloud"
-			},
-			{
-			  item: "minecraft:lightning_rod"
-			}
-		  ]
-	})
-	
 	event.custom({
 		type: "lychee:item_exploding",
 		  post: [
@@ -1487,7 +1365,7 @@ ServerEvents.recipes(event => {
 		{
 			S: "#c:rods/wooden",
 			X: "#c:barrels/wooden",
-			I: "#forge:plates/iron"
+			I: "#forge:rods/iron"
 		}
 	)
 	
@@ -2957,46 +2835,7 @@ ServerEvents.recipes(event => {
 			{tag: "minecraft:fishes"}
 		  ],
 		  block_in: "minecraft:water"
-	})
-	
-	event.custom({
-		type: "lychee:item_exploding",
-		contextual: [
-			{type: "location",predicate: {position:{ y: {min: -64,max: 20}}}}
-		  ],
-		  post: [
-			{type: "drop_item",item: "ars_nouveau:earth_essence"},
-			{type: "execute",command: "playsound irons_spellbooks:spell.earthquake.cast neutral @p",hide: "true"}
-		  ],
-		  item_in: [
-			{item: "kubejs:nature_essence"},
-			{item: "kubejs:earth_infused_arcanum"},
-			{item:  "ars_nouveau:source_gem"},
-			{item: "minecraft:bone"}
-		  ]
-	})
-	
-	event.custom({
-		type: "lychee:item_exploding",
-		contextual: [
-			{type: "location",predicate: {dimension: "minecraft:the_nether"}}
-		  ],
-		  post: [
-			{type: "drop_item",item: "ars_nouveau:fire_essence"},
-			{type: "execute",command: "playsound irons_spellbooks:spell.heatsurge.prepare neutral @p",hide: "true"}
-		  ],
-		  item_in: [
-			{item: "kubejs:nature_essence"},
-			{item: "kubejs:fire_infused_arcanum"},
-			{item:  "ars_nouveau:source_gem"},
-			{item: "minecraft:blaze_rod"}
-		  ]
-	})
-
-	
-
-
-	
+	})	
 
 	event.remove({output:'ars_nouveau:arcane_pedestal'})
 	event.shaped(

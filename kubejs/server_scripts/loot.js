@@ -1,6 +1,19 @@
 
 LootJS.modifiers((event) => {
     
+    if (global.nukelist.length > 0) {
+      for (const entry of global.nukelist) {
+         event.addLootTypeModifier(LootType.CHEST).removeLoot(entry)
+         event.addLootTypeModifier(LootType.BLOCK).removeLoot(entry)
+         event.addLootTypeModifier(LootType.ENTITY).removeLoot(entry)
+         event.addLootTypeModifier(LootType.FISHING).removeLoot(entry)
+         event.addLootTypeModifier(LootType.GIFT).removeLoot(entry)
+         event.addLootTypeModifier(LootType.PIGLIN_BARTER).removeLoot(entry)
+         event.addLootTypeModifier(LootType.ADVANCEMENT_ENTITY).removeLoot(entry)
+         event.addLootTypeModifier(LootType.ADVANCEMENT_REWARD).removeLoot(entry)
+         event.addLootTypeModifier(LootType.UNKNOWN).removeLoot(entry)
+      }
+   }
 
     ///==================================Enchanted Books==========================
 

@@ -104,6 +104,7 @@ JEIEvents.information(event => {
     event.addItem("forbidden_arcanus:darkstone",["Found near y56 in the overworld"])
 
     event.addItem('supplementaries:music_disc_heave_ho',["Obtained by killing a Creeper with a Cannonball"])
-    event.addItem('aether_redux:ancient_sentrite_music_disc',["Drops when Sentry kills another Sentry"])
+    
+    event.addItem("kubejs:sunbird_feather",["Periodically shed by the Sunbird"])
     
   })

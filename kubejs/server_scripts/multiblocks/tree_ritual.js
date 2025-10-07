@@ -78,6 +78,23 @@ ServerEvents.recipes(event=>{
           "ars_nouveau:blue_archwood_sapling"
      )
 
+     event.custom({
+		type: "naturesaura:tree_ritual",
+		ingredients: [
+			{item: "minecraft:ink_sac"},
+			{item: "minecraft:ink_sac"},
+			{item: "minecraft:ink_sac"},
+			{item: "minecraft:ink_sac"},
+			{item: "create:wheat_flour"},
+			{item: "create:wheat_flour"},
+			{item: "create:wheat_flour"},
+			{item: "create:wheat_flour"}
+		],
+		"sapling": {item: "minecraft:spruce_sapling"},
+		"output": {item: "kubejs:brick_glue","count": 1},
+		"time": 200
+	})
+
      //============================================= Seeds and Saplings =============================================
 
      tree_ritual("wizards_reborn:arcane_linen_seeds",

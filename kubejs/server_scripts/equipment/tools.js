@@ -1581,9 +1581,9 @@ ServerEvents.recipes(event => {
 		"#forge:plates/iron",
 		"#forge:plates/iron",
 		"iron_hoe",
-		"#forge:rods/silver",
+		"#forge:rods/iron",
 		"iron_hoe",
-		"#forge:rods/silver"],
+		"#forge:rods/iron"],
 		"minecraft:oak_sapling",200).id("kubejs:iron_scythe")
 
 	event.remove({output:"enigmaticlegacy:mining_charm"})

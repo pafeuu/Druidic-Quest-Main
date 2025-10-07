@@ -3087,4 +3087,54 @@ Patch 0.3.2.1
 ### Other:
     -Fixed incompatible mod list on server and client
     -Crossbows now longer give block reach 
+
+# Patch 3.0.3
+
+### Added mods:
+    -Tooltip Overhaul
+
+### Loot:
+    -Removed Obsidian with Iron from all LootTables
+    -Fixed Gold Dungeon chest
+
+### Recipes:
+    -Fixed furnace recipe consuming matching blocks below the initial structure
+    -Nerfed the Storage Crate recipe
+    -Iron Scythe now uses Iron rods instead of silver 
+
+### Item balance:
+    -Cactus armor set bonus now grant regeneration while in any desert type biomes
+    -Stone Claymore now has 10% chance to apply bleeding instead of on every hit
+    -Slightly Buffed the Stone Claymore attack speed
+    -Iron Scythe now has 15% chance to apply bleeding instead of on every hit
+
+### Quests:
+    -Fixed dependencies for "Fluffiest Elevator" Quest
+    -Fixed the Armor sets quest in the market
+
+### Other:
+    -Fixed missing patchouli files on server
+
+# Patch 3.0.4
+
+### New Items:
+    -Sunbird Feather
+    -Phoenix Sword
+
+### Recipes:
+    -All of the Explosion Crafts now have particle and sound effects
+    -Added for Summoning Sunbird
+    -Added for Fire Essence
+    -You can now repair shears with iron ingots in the anvil
+    -Added for Storm Sword
+    -Changed for Animal Spawner
+
+### Item Balance:
+    -Buffed Storm Sword
+
+### Quests:
+    -Opening the questbook now pauses your game
+
+### Other:
+    -Dead King can no longer be farmed with drygmies
     

@@ -34,11 +34,11 @@
       "value": 0.0,
       "interactionType": "self",
       "interactionDuration": 60,
-      "description": "Regenaration while standing on sand block!",
+      "description": "Regenaration in desert biomes!",
       "conditions": [
         {
-          "type": "onblock",
-          "extra": "minecraft:sand"
+          "type": "inBiome",
+          "extra": "#c:is_desert"
         }
       ]
     }

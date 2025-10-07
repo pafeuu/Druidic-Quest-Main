@@ -1111,6 +1111,17 @@
         "value": 1024
       }
     },
+    "alembic:void_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -1453,6 +1464,28 @@
       }
     },
     "alembic:alchemical_damage.shielding": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "alembic:void_damage.resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "alembic:void_damage.absorption": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1824,6 +1857,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "alembic:void_damage.shielding": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "irons_spellbooks:ender_magic_resist": {
