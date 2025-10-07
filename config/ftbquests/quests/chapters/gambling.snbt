@@ -207,6 +207,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "6282F8C866C7FC15"
 					item: "supplementaries:sack"
 					match_nbt: true
@@ -270,6 +271,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "6642DA791482E604"
 					item: "supplementaries:sack"
 					match_nbt: true

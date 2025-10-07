@@ -30,13 +30,7 @@
 			subtitle: "Hoarding Coke"
 			tasks: [{
 				id: "538B05A6611F41FF"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:coal_coke)"
-					}
-				}
+				item: "thermal:coal_coke"
 				title: "Any #forge:coal_coke"
 				type: "item"
 			}]
@@ -1418,7 +1412,8 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["677C282E80275B53"]
+			dependencies: ["1767BADCC1133711"]
+			dependency_requirement: "one_started"
 			description: [
 				"&b&lBlue Aercloud&r&r will launch any player who walks into them high into the air!"
 				""
