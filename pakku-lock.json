@@ -9730,6 +9730,43 @@
             ]
         },
         {
+            "pakku_id": "12dktz9JcJb60JQE",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "tooltip-overhaul"
+            },
+            "name": {
+                "curseforge": "Tooltip Overhaul"
+            },
+            "id": {
+                "curseforge": "1327508"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "tooltipoverhaul-forge-1.20.1-1.1.0.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7050/556/tooltipoverhaul-forge-1.20.1-1.1.0.jar",
+                    "id": "7050556",
+                    "parent_id": "1327508",
+                    "hashes": {
+                        "sha1": "fa651253b7119d2e91f7e07c3125d59fc3de3451",
+                        "md5": "c87b6d6d29d1cd066178eaace29bfe38"
+                    },
+                    "required_dependencies": [],
+                    "size": 316667,
+                    "date_published": "2025-09-30T19:26:42.380Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "RImih90QFAmsEyng",
             "type": "MOD",
             "slug": {
