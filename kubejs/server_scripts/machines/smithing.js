@@ -198,6 +198,10 @@ ServerEvents.recipes(event=>{
 		event.smithing("twilightforest:fiery_"+id,"kubejs:fiery_upgrade_smithing_template","iron_"+id,"vintageimprovements:fiery_sheet")
 
 	});
+
+	event.smithing("kubejs:phoenix_sword","kubejs:phoenix_upgrade_smithing_template","twilightforest:fiery_sword","kubejs:phoenix_ingot")
+	
+	event.smithing("deep_aether:storm_sword","deep_aether:stormforged_smithing_template","kubejs:phoenix_sword","deep_aether:squall_plate")
 	
 	
 

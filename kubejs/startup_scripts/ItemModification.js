@@ -284,6 +284,10 @@ ItemEvents.modification(event => {
     item.attackDamage = 1
   })
 
+  event.modify("deep_aether:storm_sword",item=>{
+    item.attackDamage = 3
+  })
+
   event.modify("tide:blazing_swordfish", item=>{
     item.maxDamage = 1024,
     item.attackSpeed = -2.0,

@@ -16,6 +16,15 @@ ItemEvents.toolTierRegistry(event => {
     tier.repairIngredient = '#forge:plates/gold'
   })
 
+  event.add('phoenix', tier => {
+    tier.uses = 2048
+    tier.speed = 6.0
+    tier.attackDamageBonus = 0.0
+    tier.level = 2
+    tier.enchantmentValue = 24
+    tier.repairIngredient = '#forge:ingots/phoenix'
+  })
+
   event.add('copper', tier => {
     tier.uses = 1024
     tier.speed = 4.0
@@ -445,8 +454,9 @@ StartupEvents.registry('item', item => {
   item.create('blade_of_grass','irons_spells_js:magic_sword').tier('grass').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:poison_splash",3).tag("dq:tier2/weapon")
   item.create('ice_blade','irons_spells_js:magic_sword').tier('ice').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:icicle",3).tag("dq:tier1/weapon").speedBaseline(-2.1)
   item.create('flint_spear','sword').tier('wood').tag('minecraft:sword').tag("forge:tools/flint").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon").maxDamage(128)
-  item.create('stone_claymore','sword').tier('stone').tag('minecraft:sword').tag("forge:tools/stone").tag('minecraft:tools').speedBaseline(-3).tag("dq:tier0/weapon").attackDamageBaseline(7).maxDamage(128)
+  item.create('stone_claymore','sword').tier('stone').tag('minecraft:sword').tag("forge:tools/stone").tag('minecraft:tools').speedBaseline(-2.8).tag("dq:tier0/weapon").attackDamageBaseline(7).maxDamage(128)
   item.create('iron_scythe','sword').tier('iron').tag('minecraft:sword').tag("forge:tools/iron").tag("minecraft:tools").tag("dq:tier1/weapon").speedBaseline(-2.8).attackDamageBaseline(7).maxDamage(512)
+  item.create('phoenix_sword','sword').tier('phoenix').tag('minecraft:sword').tag("forge:tools/phoenix").tag("minecraft:tools").tag("dq:tier3/weapon")
 
   item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("dq:tier1/weapon").tag("dq:tier1/tool")
   item.create('fiery_magic_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("dq:tier2/weapon").tag("dq:tier2/tool")
@@ -567,6 +577,7 @@ StartupEvents.registry('item', item => {
   item.create('blast_brick').tag('dq:tier3/component')
   item.create('arcane_leather').tag('dq:tier0/component')
   item.create('recipe_changed')
+  item.create("sunbird_feather")
   item.create('primitive_handle')
   item.create('pipe_sealant')
   item.create('shapeshifting_root').displayName('Shapeshifting Root')

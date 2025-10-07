@@ -1,0 +1,27 @@
+{
+  "id": "deep_aether:storm_sword",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:fire_damage",
+          "value": 3,
+          "operation": "ADDITION",
+          "uuid": "a5834ca7-80e6-49a3-a222-e052965e479b"
+      },
+      {
+          "type": "append",
+          "attribute": "alembic:alchemical_damage",
+          "value": 2,
+          "operation": "ADDITION",
+          "uuid": "a5834ca7-80e6-49a3-a333-e052965e479b"
+      },
+      {
+          "type": "append",
+          "attribute": "alembic:holy_damage",
+          "value": 2,
+          "operation": "ADDITION",
+          "uuid": "a5834ca7-80e6-49a3-a444-e052965e479b"
+      }
+  ],
+  "equipment_slot": "MAINHAND"
+}
