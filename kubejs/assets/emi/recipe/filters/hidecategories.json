@@ -33,6 +33,10 @@
         },
         {
             "category": "aether_redux:infusion"
+        },
+        {
+            "id": "/.*trim/",
+            "category": "minecraft:smithing"
         }
     ]
 }

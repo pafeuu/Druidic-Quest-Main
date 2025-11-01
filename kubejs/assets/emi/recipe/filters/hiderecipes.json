@@ -1,8 +1,77 @@
 {
     "filters": [
       {
-        "type": "minecraft:smithing",
-        "id": ".*trim"
+        "id": "/.*tree_ritual\/crushing_catalyst/"
+      },
+      {
+        "id": "/.*tree_ritual\/conversion_catalyst/"
+      },
+      {
+        "id": "/.*tree_ritual\/furnace_heater/"
+      },
+      {
+        "id": "/.*tree_ritual\/break_prevention/"
+      },
+      {
+        "id": "/ars_nouveau:enchanting_apparatus/",
+        "type": "minecraft:crafting"
+      },
+      {
+        "id": "/ars_nouveau:imbuement_chamber/",
+        "type": "minecraft:crafting"
+      },
+      {
+        "id": "/ars_nouveau:basic_spell_turret/",
+        "type": "minecraft:crafting"
+      },
+      {
+        "id": "/ars_nouveau:rotating_spell_turret/",
+        "type": "minecraft:crafting"
+      },
+      {
+        "id": "/ars_nouveau:apprentice_spell_book_upgrade/",
+        "type": "minecraft:crafting"
+      },
+      {
+        "id": "/.*imbuement_air_essence/"
+      },
+      {
+        "id": "/.*imbuement_fire_essence/"
+      },
+      {
+        "id": "/.*imbuement_earth_essence/"
+      },
+      {
+        "id": "/.*imbuement_water_essence/"
+      },
+      {
+        "id": "/.*whirlisprig_charm/"
+      },
+      {
+        "id": "/.*enchanters_shield/"
+      },
+      {
+        "id": "/.*drygmy_charm/"
+      },
+      {
+        "id": "/.*spell_turret/"
+      },
+      {
+        "id": "/.*magebloom_crop"
+      },
+      {
+        "id": "/.*dominion_wand/"
+      },
+      {
+        "id": "/.*timer_spell_turret/"
+      },
+      {
+        "id": "/.*starbuncle_charm/"
+      },
+      {
+        "id": "/.*wixie_charm/"
       }
+      
+      
     ]
   }
