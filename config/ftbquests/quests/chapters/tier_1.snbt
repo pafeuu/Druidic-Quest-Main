@@ -576,6 +576,18 @@
 					item: "kubejs:basic_magic_machine"
 					type: "item"
 				}
+				{
+					id: "04594C89017BF238"
+					item: {
+						Count: 1
+						id: "ars_nouveau:dowsing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
 			]
 			title: "Find an Amethyst Geode"
 			x: 25.5d
@@ -1294,6 +1306,7 @@
 		}
 		{
 			dependencies: ["55B81BBB0E85645E"]
+			description: ["Remember to unclaim your chunks if you want this to work"]
 			id: "6EA8230FDC9F0A72"
 			rewards: [{
 				count: 3

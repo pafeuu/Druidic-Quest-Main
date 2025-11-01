@@ -726,6 +726,29 @@
 			x: 1.0d
 			y: 15.0d
 		}
+		{
+			dependencies: ["25205D8CDA01C923"]
+			id: "21A89A8A1B7BE91C"
+			rewards: [{
+				id: "5350BC9A7E278FAC"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D08BCD915432759"
+					item: "immersiveengineering:wooden_barrel"
+					type: "item"
+				}
+				{
+					id: "4B64234A44CC1FBD"
+					item: "immersiveengineering:metal_barrel"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.0d
+		}
 	]
 	title: "Storage"
 }

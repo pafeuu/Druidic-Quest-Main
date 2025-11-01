@@ -1133,30 +1133,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"682CA83814F08244"
-				"4676E5CD619B4194"
-			]
-			icon: "quark:ancient_sapling"
-			id: "0F7A580BCFDD74BD"
-			rewards: [{
-				id: "4E386D48843FF674"
-				item: "quark:ancient_sapling"
-				type: "item"
-			}]
-			subtitle: "4 Silver Coins"
-			tasks: [{
-				consume_items: true
-				count: 4L
-				id: "1ECF6E6276ECB1AA"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			title: "Ashen Sapling"
-			x: -3.0d
-			y: -1.5d
-		}
-		{
 			dependencies: ["682CA83814F08244"]
 			icon: "minecraft:cherry_sapling"
 			id: "0BD3148137AA113D"
@@ -1261,13 +1237,13 @@
 				type: "item"
 			}]
 			title: "32 Torch Arrows"
-			x: -4.5d
+			x: -6.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["682CA83814F08244"]
 			icon: {
-				Count: 2
+				Count: 1
 				id: "supplementaries:rope_arrow"
 				tag: {
 					Damage: 0
@@ -1275,7 +1251,6 @@
 			}
 			id: "4A9A142698EC8380"
 			rewards: [{
-				count: 2
 				id: "28C7221BACB00660"
 				item: {
 					Count: 1
@@ -1286,16 +1261,16 @@
 				}
 				type: "item"
 			}]
-			subtitle: "2 Silver Coins"
+			subtitle: "5 Silver Coins"
 			tasks: [{
 				consume_items: true
-				count: 2L
+				count: 4L
 				id: "331CE130FDA2F2CF"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "2 Rope Arrows"
-			x: -6.0d
+			title: "Rope Arrow"
+			x: -4.5d
 			y: -3.0d
 		}
 		{
@@ -1341,28 +1316,6 @@
 				type: "item"
 			}]
 			title: "Wooden Hopper"
-			x: -6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["682CA83814F08244"]
-			icon: { Count: 4, id: "minecraft:raw_iron" }
-			id: "62BF25D5E1590283"
-			rewards: [{
-				count: 4
-				id: "3860194EDE0F8CDF"
-				item: "minecraft:raw_iron"
-				type: "item"
-			}]
-			subtitle: "5 Silver Coins"
-			tasks: [{
-				consume_items: true
-				count: 5L
-				id: "0E5418C72923904D"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			title: "4 Raw Iron"
 			x: -7.5d
 			y: 0.0d
 		}
@@ -1452,10 +1405,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"682CA83814F08244"
-				"32A61115C0AD8C45"
-			]
+			dependencies: ["682CA83814F08244"]
 			icon: "quark:red_blossom_sapling"
 			id: "53F39B4876F4327C"
 			rewards: [{
@@ -1465,11 +1415,11 @@
 				table_id: 5973969493168076425L
 				type: "choice"
 			}]
-			subtitle: "4 Gold Coins"
+			subtitle: "8 Gold Coins"
 			tasks: [{
-				count: 4L
+				count: 8L
 				id: "53D68AEF8CDC8B97"
-				item: { Count: 4, id: "thermal:gold_coin" }
+				item: "thermal:gold_coin"
 				type: "item"
 			}]
 			title: "Trumpet Sapling Choice"
@@ -1732,10 +1682,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"682CA83814F08244"
-				"32A61115C0AD8C45"
-			]
+			dependencies: ["682CA83814F08244"]
 			icon: "ars_nouveau:green_archwood_sapling"
 			id: "2C6CB550354953EB"
 			rewards: [{
@@ -1745,11 +1692,11 @@
 				table_id: 5484227146834532380L
 				type: "choice"
 			}]
-			subtitle: "4 Gold Coins"
+			subtitle: "8 Gold Coins"
 			tasks: [{
-				count: 4L
+				count: 8L
 				id: "35E874FFCEFBC8E9"
-				item: { Count: 4, id: "thermal:gold_coin" }
+				item: "thermal:gold_coin"
 				type: "item"
 			}]
 			title: "Archwood Sapling Choice"
@@ -1865,6 +1812,49 @@
 			title: "Wither Skeleton Skull"
 			x: 5.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "farmersdelight:cabbage"
+			id: "276AA2827857AEDA"
+			rewards: [{
+				count: 4
+				id: "146B5F4B5BA243CD"
+				item: "farmersdelight:cabbage_seeds"
+				type: "item"
+			}]
+			subtitle: "5 Silver Coins"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "59DE27CB324E6BD6"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "4 Cabbage Seeds"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "minecraft:jungle_sapling"
+			id: "479021515C42F4C8"
+			rewards: [{
+				id: "59331DFE1D3E5D77"
+				item: "minecraft:jungle_sapling"
+				type: "item"
+			}]
+			subtitle: "4 Silver Coins"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "62766A90EAF01ACD"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "Jungle Sapling"
+			x: -3.0d
+			y: -1.5d
 		}
 	]
 	title: "Market"
