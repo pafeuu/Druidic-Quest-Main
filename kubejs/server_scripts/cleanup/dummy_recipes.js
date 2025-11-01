@@ -1,4 +1,5 @@
 ServerEvents.recipes(event=>{
+
     event.custom(
         {
             "type": "wizards_reborn:arcanum_dust_transmutation",
@@ -58,6 +59,7 @@ ServerEvents.recipes(event=>{
     event.recipes.naturesaura.tree_ritual("kubejs:recipe_changed",["kubejs:recipe_changed"]).id("naturesaura:tree_ritual/conversion_catalyst")
     event.recipes.naturesaura.tree_ritual("kubejs:recipe_changed",["kubejs:recipe_changed"]).id("naturesaura:tree_ritual/crushing_catalyst")
     event.recipes.naturesaura.tree_ritual("kubejs:recipe_changed",["kubejs:recipe_changed"]).id("naturesaura:tree_ritual/furnace_heater")
+    event.recipes.naturesaura.tree_ritual("kubejs:recipe_changed",["kubejs:recipe_changed"]).id("naturesaura/tree_ritual/break_prevention")
     event.shaped('kubejs:recipe_changed',["R"],{R:"kubejs:recipe_changed"}).id('ars_nouveau:basic_spell_turret')
     event.shaped('kubejs:recipe_changed', ['kubejs:recipe_changed']).id("ars_nouveau:imbuement_chamber")
 

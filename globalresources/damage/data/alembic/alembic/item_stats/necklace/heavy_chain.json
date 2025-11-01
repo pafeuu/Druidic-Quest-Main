@@ -1,0 +1,24 @@
+{
+    "id": "irons_spellbooks:heavy_chain_necklace",
+    "modifiers": [
+      {
+        "type": "remove",
+        "target": "irons_spellbooks:spell_resist"
+      },
+      {
+        "type": "append",
+        "attribute": "alembic:arcane_damage.resistance",
+        "value": 4,
+        "operation": "ADDITION",
+        "uuid": "ee965617-19bc-4892-9ea9-2f2b1dd11edf"
+      },
+      {
+        "type": "append",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": -0.01,
+        "operation": "MULTIPLY_BASE",
+        "uuid": "d971101a-4758-44ae-bd90-520221e15bf7"
+      }
+    ],
+    "equipment_slot": "necklace"
+  }

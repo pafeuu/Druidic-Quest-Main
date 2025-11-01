@@ -3,9 +3,9 @@ ServerEvents.recipes(event=>{
      const tree_ritual = event.recipes.naturesaura.tree_ritual
     /*Ingredients order
             1
-         5     7
+         5     6
       3           4
-         6     8
+         7     8
             2
     */
      tree_ritual("wizards_reborn:arcane_workbench",
@@ -64,7 +64,17 @@ ServerEvents.recipes(event=>{
         "kubejs:infused_amethyst",
         "minecraft:amethyst_shard"],
         "ars_nouveau:purple_archwood_sapling")
-
+     
+     tree_ritual("4x twilightforest:ironwood_ingot",[
+          "#forge:ingots/gold",
+          "#forge:ingots/gold",
+          "#forge:ingots/iron",
+          "twilightforest:liveroot",
+          "#forge:ingots/iron",
+          "twilightforest:liveroot",
+          "twilightforest:liveroot",
+          "#forge:ingots/iron",
+     ],"twilightforest:twilight_oak_sapling")
      
      tree_ritual("ars_nouveau:enchanting_apparatus",
           ["quark:diamond_heart",

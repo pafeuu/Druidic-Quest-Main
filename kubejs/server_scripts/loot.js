@@ -22,19 +22,6 @@ LootJS.modifiers((event) => {
         LootType.PIGLIN_BARTER,
         LootType.FISHING
         ]).replaceLoot("minecraft:enchanted_book","kubejs:enchanting_rune")
-        
-    
-    //=======================================Charm of Keeping=======================
-
-    event.addLootTypeModifier([
-        LootType.CHEST,
-        LootType.PIGLIN_BARTER,
-        LootType.FISHING,
-        LootType.ENTITY
-        ])
-        .replaceLoot("twilightforest:charm_of_keeping_1","2x thermal:bronze_ingot")
-        .replaceLoot("twilightforest:charm_of_keeping_2","8x thermal:silver_ingot")
-        .replaceLoot("twilightforest:charm_of_keeping_3","6x thermal:bronze_ingot")
 
     ///=======================================Replacing Junk
 
@@ -78,6 +65,7 @@ LootJS.modifiers((event) => {
         .replaceLoot("supplementaries:ash","kubejs:fire_infused_arcanum")
         .replaceLoot("create:andesite_ladder","thermal:silver_ingot")
         .replaceLoot("create:brass_ladder","thermal:lead_ingot")
+        .replaceLoot("farmersdelight:rope","supplementaries:rope")
         
     // ====================================================Replacing Good Items
     event.addLootTypeModifier(LootType.CHEST)
@@ -115,6 +103,16 @@ LootJS.modifiers((event) => {
         .replaceLoot("ancient_aether:valkyrum_shovel","forbidden_arcanus:stella_arcanum")
         .replaceLoot("ancient_aether:valkyrum_sword","forbidden_arcanus:stella_arcanum")
         .replaceLoot("ancient_aether:valkyrum_hoe","forbidden_arcanus:stella_arcanum")
+        .replaceLoot("create:rose_quartz","kubejs:lemon_quartz")
+        .replaceLoot("twilightforest:steeleaf_boots","twilightforest:ironwood_boots")
+        .replaceLoot("twilightforest:steeleaf_helmet","twilightforest:ironwood_helmet")
+        .replaceLoot("twilightforest:steeleaf_chestplate","twilightforest:ironwood_chestplate")
+        .replaceLoot("twilightforest:steeleaf_leggings","twilightforest:ironwood_leggings")
+        .replaceLoot("twilightforest:steeleaf_pickaxe","twilightforest:ironwood_pickaxe")
+        .replaceLoot("twilightforest:steeleaf_sword","twilightforest:ironwood_sword")
+        .replaceLoot("twilightforest:steeleaf_hoe","twilightforest:ironwood_hoe")
+        .replaceLoot("twilightforest:steeleaf_axe","twilightforest:ironwood_axe")
+        .replaceLoot("twilightforest:steeleaf_shovel","twilightforest:ironwood_shovel")
 
     event.addLootTableModifier(/.*irons_spellbooks.*/)
     .replaceLoot("irons_spellbooks:fireward_ring","irons_spellbooks:cinder_essence")
@@ -347,6 +345,16 @@ LootJS.modifiers((event) => {
   
     event.addLootTypeModifier(LootType.CHEST)
         .replaceLoot("enigmaticlegacy:forbidden_fruit","enchanted_golden_apple")
+
+    event.addBlockLootModifier("aether:berry_bush")
+         .anyDimension("aether:the_aether")
+         .randomChance(0.001)
+         .addLoot("kubejs:heavenly_spice")
+
+    event.addBlockLootModifier("minecraft:chorus_flower")
+         .anyDimension("minecraft:the_end")
+         .randomChance(0.005)
+         .addLoot("kubejs:cosmic_spice")
     
     //============================================= Templates
 

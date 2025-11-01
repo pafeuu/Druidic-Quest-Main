@@ -696,27 +696,6 @@ ServerEvents.recipes(event=>{
         "supplementaries:sugar_cube"
     ],8000)
 
-    Enchanting("deeperdarker:catalysis",1,[
-        "kubejs:enchanting_rune_of_horror",
-        "sculk_catalyst",
-        "ars_nouveau:earth_essence"
-    ],3000)
-
-    Enchanting("deeperdarker:catalysis",2,[
-        "kubejs:enchanting_rune_of_horror",
-        "sculk_catalyst",
-        "ars_nouveau:earth_essence",
-        "ars_nouveau:earth_essence"
-    ],6000)
-
-    Enchanting("deeperdarker:catalysis",3,[
-        "kubejs:enchanting_rune_of_horror",
-        "sculk_catalyst",
-        "ars_nouveau:earth_essence",
-        "ars_nouveau:earth_essence",
-        "ars_nouveau:earth_essence"
-    ],9000)
-
     Enchanting("minecraft:soul_speed",1,[
         "kubejs:enchanting_rune_of_horror",
         "kubejs:enchanting_rune_of_speed",
@@ -810,42 +789,6 @@ ServerEvents.recipes(event=>{
         "kubejs:ivy_quartz",
         "kubejs:ivy_quartz",
         "kubejs:ivy_quartz"
-    ],10000)
-
-    Enchanting("deeperdarker:sculk_smite",1,[
-        "kubejs:big_enchanting_rune_of_horror",
-        "sculk"
-        
-    ],2000)
-
-    Enchanting("deeperdarker:sculk_smite",2,[
-        "kubejs:big_enchanting_rune_of_horror",
-        "sculk",
-        "sculk"
-    ],4000)
-
-    Enchanting("deeperdarker:sculk_smite",3,[
-        "kubejs:big_enchanting_rune_of_horror",
-        "sculk",
-        "sculk",
-        "sculk"
-    ],6000)
-
-    Enchanting("deeperdarker:sculk_smite",4,[
-        "kubejs:big_enchanting_rune_of_horror",
-        "sculk",
-        "sculk",
-        "sculk",
-        "sculk"
-    ],8000)
-
-    Enchanting("deeperdarker:sculk_smite",5,[
-        "kubejs:big_enchanting_rune_of_horror",
-        "sculk",
-        "sculk",
-        "sculk",
-        "sculk",
-        "sculk"
     ],10000)
 
     Enchanting("minecraft:thorns",1,[

@@ -5,6 +5,7 @@ ServerEvents.tags('item', event => {
   event.removeAllTagsFrom([global.nukelist])
 
   event.add("c:rods/wooden","twigs:twig")
+  event.add("dq:sturdy_tools_repair_item","minecraft:netherite_scrap")
   event.add("farmersdelight:offhand_equipment","#forge:tools/totems")
   event.add("lychee:dispenser_placement","minecraft:iron_block")
   event.add("aether:treated_as_aether_item","#forge:tools")

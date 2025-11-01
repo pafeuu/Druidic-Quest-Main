@@ -146,6 +146,6 @@ ServerEvents.tags('block', event => {
 
   event.add("dq:tiab_blacklist",["naturesaura:blast_furnace_booster"])
 
-  
+  event.add("forge:ores",["forbidden_arcanus:arcane_crystal_ore","minecraft:glowstone","forbidden_arcanus:runic_stone"])
 
 })

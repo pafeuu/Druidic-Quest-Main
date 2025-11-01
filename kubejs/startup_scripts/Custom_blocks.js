@@ -105,7 +105,7 @@ StartupEvents.registry("block", (event) => {
     .tagBlock("mineable/pickaxe") 
     .tagBlock('minecraft:needs_iron_tool') 
 	.texture('up', 'kubejs:block/steel_machine_top')
-	.texture('down', 'kubejs:block/steel_machine_bot')
+	.texture('down', 'kubejs:block/steel_machine_top')
 	
 
     event.create("gold_leaf_block")
@@ -167,6 +167,7 @@ StartupEvents.registry("block", (event) => {
     .hardness("3")
     .resistance("6")
     .tagBlock("mineable/pickaxe")
+
 
     event.create("broken_spawner")
     .textureAll("minecraft:block/spawner")
@@ -346,6 +347,15 @@ StartupEvents.registry("block", (event) => {
     .tagBlock("mineable/pickaxe")
     .tagBlock('minecraft:needs_stone_tool')
     .textureAll("forbidden_arcanus:block/clibano_combustion/clibano_center_side")
+    .renderType('cutout')
+    .box(0,0,0,16,8,16)
+    .tagItem("c:hidden_from_recipe_viewers")
+
+    event.create("incomplete_questin_ram_trophy")
+    .soundType("wool")
+    .hardness("3")
+    .resistance("4")
+    .textureAll("minecraft:block/magenta_wool")
     .renderType('cutout')
     .box(0,0,0,16,8,16)
     .tagItem("c:hidden_from_recipe_viewers")

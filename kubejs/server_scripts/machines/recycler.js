@@ -9,6 +9,16 @@ ServerEvents.recipes(event=>
         .duration(200)
     }
 
+
+    function HorseArmorRecycling(mod,material,output)
+    {
+        event.recipes.mbd2.recycling()
+        .inputItems(mod+":"+material+"_horse_armor")
+        .outputItems(output)
+        .duration(200)
+        
+    }
+
     function ArmorRecycling(mod,material,output)
     {
         event.recipes.mbd2.recycling()
@@ -60,9 +70,7 @@ ServerEvents.recipes(event=>
         .chance(0.5, builder => builder
             .outputItems(output)
         )
-        .chance(0.5, builder => builder
-            .outputItems(stick)
-        )
+        .outputItems(stick)
         .duration(200)
 
         event.recipes.mbd2.recycling()
@@ -71,9 +79,7 @@ ServerEvents.recipes(event=>
         .chance(0.5, builder => builder
             .outputItems(output)
         )
-        .chance(0.5, builder => builder
-            .outputItems(stick)
-        )
+        .outputItems(stick)
         .duration(200)
 
         event.recipes.mbd2.recycling()
@@ -91,6 +97,7 @@ ServerEvents.recipes(event=>
     ToolRecycling("kubejs","silver","thermal:silver_ingot","immersiveengineering:stick_treated")
     ToolRecycling("kubejs","lead","thermal:lead_ingot","immersiveengineering:stick_treated")
     ToolRecycling("wizards_reborn","arcane_wood","wizards_reborn:arcane_wood_planks","wizards_reborn:arcane_wood_branch")
+    ToolRecycling("twilightforest","ironwood","twilightforest:ironwood_ingot","immersiveengineering:stick_treated")
 
     ArmorRecycling("minecraft","iron","create:iron_sheet")
     ArmorRecycling("minecraft","chainmail","chain")
@@ -99,6 +106,13 @@ ServerEvents.recipes(event=>
     ArmorRecycling("kubejs","copper","create:copper_sheet")
     ArmorRecycling("kubejs","silver","vintageimprovements:silver_sheet")
     ArmorRecycling("kubejs","lead","vintageimprovements:lead_sheet")
+    ArmorRecycling("twilightforest","ironwood","vintageimprovements:ironwood_sheet")
+
+    HorseArmorRecycling("minecraft","leather","leather")
+    HorseArmorRecycling("minecraft","iron","iron_ingot")
+    HorseArmorRecycling("minecraft","golden","gold_ingot")
+    HorseArmorRecycling("minecraft","diamond","diamond")
+    //HorseArmorRecycling("minecraft","leather","leather")
     
     global.colors.forEach(color => {
         

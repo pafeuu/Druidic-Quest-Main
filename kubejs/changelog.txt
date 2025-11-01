@@ -3128,13 +3128,149 @@ Patch 0.3.2.1
     -You can now repair shears with iron ingots in the anvil
     -Added for Storm Sword
     -Changed for Animal Spawner
+    -Removed for Bone Meal from wilden horn
+    -Changed for Super Packing Tape 
+    -Changed for Token of Eir 
 
 ### Item Balance:
     -Buffed Storm Sword
+    -Buffed Super Packing Tape Durability
 
 ### Quests:
     -Opening the questbook now pauses your game
+    -Archwood and Trumpet saplings in the market now cost twice as much but they dont need to be unlocked
+    -Removed Ashen Sapling Quest in the Market
+    -Added Cabbage Seeds Quest in the Market
+    -Removed Raw Iron Quest in the Market
+    -Added Jungle Sapling Quest in the Market
 
 ### Other:
     -Dead King can no longer be farmed with drygmies
+    -Pickaxes with Veinmining enchant now correctly work on Twilight Crystal Ore and Glowstone
     
+# Patch 3.1
+
+### Updated Mods:
+    -Supplementaries
+    -AdvancedLootInfo
+    -TooltipOverhaul
+    -TooManyRecipeViewers
+    -Amendments
+    -Balm
+    -Chat Heads
+    -Collective
+    -EveryCompat
+    -FindMe
+    -FzzyConfig
+    -ImprovedMobs
+    -IDAS
+    -Konkrete
+    -Selene
+    -OhtheTreesYoullGrow
+    -RangedJS
+    -SophisticatedMods
+    -Supplementaries
+    -TenshiLib
+    -TooltipOverhaul
+    -VintageImprovements
+
+### Removed Items:
+    -Runic Deepslate
+    -Runic Darkstone
+    
+### Recipes:
+    -Buffed for Stone Gear
+    -Changed for Rope
+    -Changed for Arcane Wood Tools
+    -Changed for Safety Net
+    -Changed for Hemp Rope Coil
+    -Changed for Ironwood Tools
+    -Changed for Steeleaf Tools
+    -Added for recycling the Ironwood Tools
+    -Fixed wooden stand recipe
+
+### Loot:
+    -Replaced Rose Quartz with Lemon Quartz in loot chests
+    -Replaced all the Steeleaf Tools and Armor with Ironwood
+
+### Textures:
+    -Changed for Ironwood Tools
+    -Changed for Steeleaf Tools   
+
+### Item Balance:
+    -Buffed Pie slices slightly
+    -Apple fishing bobber hunger now matches that of apple
+    -Buffed Steeleaf Sword
+    -Buffed Ironwood Sword
+
+### Other:
+    -Runic Stone is now correctly mined with pickaxe with a vein mining enchant
+    -Hoes now correctly lose more durability when tilling in aoe mode (while sneaking)
+
+### Patch 3.2
+
+### Recipes:
+    -Added alternative recipe for the dispenser
+    -Changed for all Excavators and Mining Hammers
+    -Changed for Redstone Acid
+    -Changed for Redstone Wire Coil
+    -Changed for Fluid Sourcelink
+    -Changed for Content Observer
+    -Changed for Redstone Interface Connector
+    -Changed for Redstone Probe Connector
+    -Changed for Redstone Wire Connector
+    -Changed for Cucumber Noodles
+
+### Villagers:
+    -Reinforced tool handle is now 3 times cheaper
+
+### Loot:
+    -Cosmic Spice now rarely drops from chorus flower in the end
+    -Heavenly Spice now rarely drops from grown berry bush in the aether
+    -Buffed for Ur-Ghast
+
+### Item Balance:
+    -Reworked the Heavy Chain
+
+### Other:
+    -Fixed Book of Natural Aura
+    -Fixed weird Mining Hammers and Excavators interactions(Only on newly crafted ones :[ )
+    -Hidden all the dummy recipes
+
+### Patch 3.2.1
+
+### Removed Items:
+    -Shiny Zombie Arm
+    -Zombie Arm
+    -Blacksmith Gavel Head
+    -Wooden Blacksmith Gavel
+    -Stone Blacksmith Gavel
+    -Iron Blacksmith Gavel
+    -Golden Blacksmith Gavel
+    -Diamond Blacksmith Gavel
+    -Netherite Blacksmith Gavel
+    
+### Recipes:
+    -Changed for Blacksmith Gavel
+    -Changed for Steel Machine Casing
+    -Changed for Wooden Barrel
+    -Changed for Metal Barrel
+    -Changed for Stripped Curtain
+    -Fixed for Brass Funnel 
+    -Changed for Corrupti Dust
+
+### Item Balance:
+    -Buffed the mining speed of mining hammers and excavators
+
+### Textures:
+    -Changed for Steel Machine Casing
+
+### Patch 3.3
+
+### Recipes:
+    -Added Recycling recipes for ironwood armor
+    -Added Recycling recipes for ironwood tools
+    -Added Recycling recipes for horse armors
+
+### Other:
+    -You cant input items into the output slot of recycler anymore

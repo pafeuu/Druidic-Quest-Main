@@ -201,7 +201,24 @@ ServerEvents.recipes(event=>{
 
 	event.smithing("kubejs:phoenix_sword","kubejs:phoenix_upgrade_smithing_template","twilightforest:fiery_sword","kubejs:phoenix_ingot")
 	
-	event.smithing("deep_aether:storm_sword","deep_aether:stormforged_smithing_template","kubejs:phoenix_sword","deep_aether:squall_plate")
+	event.smithing("deep_aether:storm_sword","deep_aether:stormforged_smithing_template","kubejs:phoenix_sword","deep_aether:squall_plate").id("deep_aether:storm_sword_smithing")
+
+	const CoppperToolsUpgrade = ["pickaxe","hoe","shovel"]
+
+	CoppperToolsUpgrade.forEach(type => {
+
+		event.smithing("kubejs:bronze_"+type,"kubejs:bronze_upgrade_smithing_template","kubejs:copper_"+type,"kubejs:bronze_upgrade_parts")
+		
+	});
+
+	
+	tooltype.forEach(type => {
+		
+		event.smithing("twilightforest:steeleaf_"+type,"kubejs:steeleaf_upgrade_smithing_template","twilightforest:ironwood_"+type,"kubejs:steeleaf_upgrade_parts")
+		event.remove({id:"twilightforest:equipment/steeleaf_"+type})
+	});
+
+	event.smithing("umbral_skies:steeleaf_gloves","kubejs:steeleaf_upgrade_smithing_template","umbral_skies:ironwood_gloves","kubejs:steeleaf_upgrade_parts")
 	
 	
 

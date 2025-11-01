@@ -1,128 +1,6 @@
 /////////////
 //Based on script by 800020h
 ServerEvents.recipes(event => {
-
-
-  function LightningSquareCrafting(catalyst, output, sides, corners, middle){
-
-    event.custom({
-      "type": "lychee:lightning_channeling",
-      "hide_in_viewer": true,
-      "comment": "Needs additional blocks below the item to work. Check the ponder for details",
-      "item_in": {
-        "item": catalyst // Item that needs to be on top of the structure in the middle
-      },
-      "contextual": {
-        "type": "and",
-        "contextual": [ // Checks if the the blocks are in the correct position
-          {
-            "type": "execute",
-            "command": `execute if block ~ ~-1 ~ ${middle}`,
-            "hide": true
-          },
-          {
-            "type": "execute",
-            "command": `execute if block ~1 ~-1 ~1 ${corners}`,
-            "hide": true
-          },
-          {
-            "type": "execute",
-            "command": `execute if block ~-1 ~-1 ~-1 ${corners}`,
-            "hide": true
-          },
-          {
-            "type": "execute",
-            "command": `execute if block ~1 ~-1 ~-1 ${corners}`,
-            "hide": true
-          },
-          {
-            "type": "execute",
-            "command": `execute if block ~-1 ~-1 ~1 ${corners}`,
-            "hide": true
-          },
-          {
-            "type": "execute",
-            "command": `execute if block ~ ~-1 ~1 ${sides}`,
-            "hide": true
-          },
-          {
-            "type": "execute",
-            "command": `execute if block ~ ~-1 ~-1 ${sides}`,
-            "hide": true
-          },
-          {
-            "type": "execute",
-            "command": `execute if block ~1 ~-1 ~ ${sides}`,
-            "hide": true
-          },
-          {
-            "type": "execute",
-            "command": `execute if block ~-1 ~-1 ~ ${sides}`,
-            "hide": true
-          }
-      
-        ],
-        "hide": true
-      },
-      "post": [
-        {
-          "type": "execute",
-          "command": `fill ~1 ~-1 ~1 ~-1 ~ ~-1 minecraft:air replace ${middle}`, // Clears blocks
-          "hide": true
-        },
-        {
-          "type": "execute",
-          "command": `fill ~1 ~-1 ~1 ~-1 ~ ~-1 minecraft:air replace ${sides}`, // Clears blocks
-          "hide": true
-        },
-        {
-          "type": "execute",
-          "command": `fill ~1 ~-1 ~1 ~-1 ~ ~-1 minecraft:air replace ${corners}`, // Clears blocks
-          "hide": true
-        },
-        {
-          "type": "execute",
-          "command": 'particle irons_spellbooks:unstable_ender ~ ~-1 ~ 1.5 0.5 1.5 0.1 240 force',
-          "hide": true
-        },
-        {
-          "type": "delay",
-          "s": 1
-        },
-        {
-          "type": "drop_item",
-          "item": output
-        },
-        {
-          "type": "execute",
-          "command": 'particle irons_spellbooks:wisp ~ ~ ~ 0.3 0.3 0.3 0.1 80 force',
-          "hide": true
-        },
-        {
-          "type": "execute",
-          "command": "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @a",
-          "hide": true
-        }
-      ]
-    })
-
-    event.custom({
-      "type": "lychee:lightning_channeling",
-      "hide_in_viewer": false,
-      "ghost":true,
-      "comment": "Needs additional blocks below the item to work. Check the ponder for details",
-      "item_in": {
-        "item": catalyst // Item that needs to be on top of the structure in the middle
-      },
-      "post": [
-        {
-          "type": "drop_item",
-          "item": output
-        }
-      ]
-    })
-  }
-
   
   function Infusing(result, amount, ingredients) {
     const contextualConditions = [
@@ -236,7 +114,31 @@ ServerEvents.recipes(event => {
     { type: 'item', name: 'kubejs:sapphire' },
     { type: 'item', name: 'kubejs:sapphire' },
     { type: 'item', name: 'kubejs:sapphire' },
-    { type: 'item', name: 'kubejs:alchemical_dust' }
+    { type: 'item', name: 'kubejs:basic_alchemical_dust' }
+  ]);
+
+  Infusing("kubejs:infused_diamond",1,[
+    { type: 'item', name: 'diamond' },
+    { type: 'item', name: 'diamond' },
+    { type: 'item', name: 'diamond' },
+    { type: 'item', name: 'diamond' },
+    { type: 'item', name: 'kubejs:primitive_alchemical_dust' }
+  ]);
+
+  Infusing("kubejs:infused_emerald",1,[
+    { type: 'item', name: 'emerald' },
+    { type: 'item', name: 'emerald' },
+    { type: 'item', name: 'emerald' },
+    { type: 'item', name: 'emerald' },
+    { type: 'item', name: "wizards_reborn:arcanum_dust" }
+  ]);
+
+  Infusing("kubejs:infused_amethyst",1,[
+    { type: 'item', name: 'amethyst_shard' },
+    { type: 'item', name: 'amethyst_shard' },
+    { type: 'item', name: 'amethyst_shard' },
+    { type: 'item', name: 'amethyst_shard' },
+    { type: 'item', name: 'kubejs:basic_alchemical_dust' }
   ]);
 
   

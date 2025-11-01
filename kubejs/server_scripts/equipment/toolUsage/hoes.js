@@ -3,23 +3,14 @@ ServerEvents.recipes(event => {
     function AoeHoe(block,farmland){
         event.custom({
             "type": "lychee:block_interacting",
+            "hide_in_viewer": false,
             "contextual": {
               "type": "is_sneaking",
             },
             "post": [
-              {
-                "type": "execute",
-                "command": `fill ~-1 ~ ~-1 ~1 ~ ~1 ${farmland} replace ${block}`,
-                "hide": true
-              },
-              {
-                "type": "damage_item",
-                "amount": 5,
-              },
-              {
-                "type": "execute",
-                "command": "playsound minecraft:item.hoe.till neutral @p"
-              }
+              {"type": "execute", "command": `fill ~-1 ~ ~-1 ~1 ~ ~1 ${farmland} replace ${block}`,"hide": true},
+              {"type": "damage_item", "damage": 5, "target": "/item_in/0"},
+              {"type": "execute", "command": "playsound minecraft:item.hoe.till neutral @p"}
             ],
             "item_in": [
               {
@@ -32,23 +23,14 @@ ServerEvents.recipes(event => {
 
         event.custom({
             "type": "lychee:block_interacting",
+            "hide_in_viewer": false,
             "contextual": {
               "type": "is_sneaking",
             },
             "post": [
-              {
-                "type": "execute",
-                "command": `fill ~-2 ~ ~-2 ~2 ~ ~2 ${farmland} replace ${block}`,
-                "hide": true
-              },
-              {
-                "type": "damage_item",
-                "amount": 15,
-              },
-              {
-                "type": "execute",
-                "command": "playsound minecraft:item.hoe.till neutral @p"
-              }
+              {"type": "execute", "command": `fill ~-2 ~ ~-2 ~2 ~ ~2 ${farmland} replace ${block}`, "hide": true},
+              {"type": "damage_item", "damage": 15, "target": "/item_in/0"},
+              {"type": "execute", "command": "playsound minecraft:item.hoe.till neutral @p"}
             ],
             "item_in": [
               {
@@ -61,6 +43,7 @@ ServerEvents.recipes(event => {
 
         event.custom({
             "type": "lychee:block_interacting",
+            "hide_in_viewer": false,
             "contextual": {
               "type": "is_sneaking",
             },
@@ -70,14 +53,8 @@ ServerEvents.recipes(event => {
                 "command": `fill ~-3 ~ ~-3 ~3 ~ ~3 ${farmland} replace ${block}`,
                 "hide": true
               },
-              {
-                "type": "damage_item",
-                "amount": 30,
-              },
-              {
-                "type": "execute",
-                "command": "playsound minecraft:item.hoe.till neutral @p"
-              }
+              {"type": "damage_item", "damage": 30, "target": "/item_in/0"},
+              {"type": "execute","command": "playsound minecraft:item.hoe.till neutral @p"}
             ],
             "item_in": [
               {

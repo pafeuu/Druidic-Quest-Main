@@ -103,6 +103,7 @@ ServerEvents.recipes(event=>{
       "type": "lychee:block_interacting",
       "hide_in_viewer": false,
       "ghost":true,
+      "block_in": middle,
       "comment": "Needs additional blocks below the item to work. Check the ponder for details",
       "item_in": {
         "item": catalyst // Item that needs to be on top of the structure in the middle
@@ -126,4 +127,21 @@ ServerEvents.recipes(event=>{
     clickB("crying_obsidian",["obsidian","kubejs:cut_onions"])
     clickB("immersiveengineering:slag_glass",["glass","thermal:slag"])
     clickB("ars_nouveau:source_jar",["vintagedelight:fermenting_jar","kubejs:source_alloy_ingot"])
+
+    event.custom({
+		"type": "lychee:block_interacting",
+		"comment": "one of the items needs to be in the offhand",
+		"post": [
+		  {"type": "place", "block": "naturesaura:wood_stand"},
+		  {"type": "damage_item", "damage": 1, "target": "/item_in/0"},
+		  {"type": "execute","command": "playsound sawmill:ui.sawmill.take_result neutral @p","hide": true},
+		  {"type": "execute","command": "advancement grant @p only naturesaura:wood_stand","hide": true},
+		  {"type": "execute","command": "ftbquests change_progress @p complete 5A3EA25913807A1A","hide": true}
+		],
+		"item_in": [
+		  {"tag": "forge:tools/knives"},
+		  {"item": "naturesaura:gold_leaf"}
+		],
+		"block_in": {"tag": "forge:stripped_logs"}
+	  }).id("naturesaura:wood_stand")
 })

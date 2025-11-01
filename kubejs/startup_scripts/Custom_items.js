@@ -71,8 +71,8 @@ ItemEvents.toolTierRegistry(event => {
   })
 
   event.add('primitive', tier => {
-    tier.uses = 2048
-    tier.speed = 1.5
+    tier.uses = 512
+    tier.speed = 2.5
     tier.attackDamageBonus = 0
     tier.level = 1
     tier.enchantmentValue = 12
@@ -80,8 +80,8 @@ ItemEvents.toolTierRegistry(event => {
   })
 
   event.add('basic', tier => {
-    tier.uses = 4096
-    tier.speed = 3
+    tier.uses = 1024
+    tier.speed = 5
     tier.attackDamageBonus = 2
     tier.level = 2
     tier.enchantmentValue = 12
@@ -89,12 +89,12 @@ ItemEvents.toolTierRegistry(event => {
   })
 
   event.add('sturdy', tier => {
-    tier.uses = 8192
-    tier.speed = 5
+    tier.uses = 2048
+    tier.speed = 8
     tier.attackDamageBonus = 4
     tier.level = 3
     tier.enchantmentValue = 12
-    tier.repairIngredient = '#forge:storage_blocks/invar'
+    tier.repairIngredient = '#dq:sturdy_tools_repair_item'
   })
 
   event.add('ice', tier => {
@@ -488,18 +488,18 @@ StartupEvents.registry('item', item => {
   item.create('silver_hoe','hoe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
   item.create("silver_katana","sword").tier('silver').tag("minecraft:tools").tag("dq:tier1/weapon").tag("dq:tier1/tool").speedBaseline(-2.2).tag('forge:tools/silver')
 
-  item.createCustom('primitive_mining_hammer',() => new $HammerItem('stone', new $ItemProperties()))
-  item.createCustom('basic_mining_hammer',() => new $HammerItem('iron', new $ItemProperties()))
-  item.createCustom('sturdy_mining_hammer',() => new $HammerItem('diamond', new $ItemProperties()))
+  item.createCustom('primitive_mining_hammer',() => new $HammerItem('primitive', new $ItemProperties()))
+  item.createCustom('basic_mining_hammer',() => new $HammerItem('basic', new $ItemProperties()))
+  item.createCustom('sturdy_mining_hammer',() => new $HammerItem('sturdy', new $ItemProperties()))
   /*item.create('primitive_mining_hammer','pickaxe').tier('primitive').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier1/tool")
   item.create('basic_mining_hammer','pickaxe').tier('basic').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier2/tool")
   item.create('sturdy_mining_hammer','pickaxe').tier('sturdy').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier3/tool")
   item.create('advanced_mining_hammer','pickaxe').tier('advanced').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier4/tool")
   item.create('ultimate_mining_hammer','pickaxe').tier('ultimate').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier5/tool")*/
 
-  item.createCustom('primitive_excavator',() => new $ExcavatorItem('stone', new $ItemProperties()))
-  item.createCustom('basic_excavator',() => new $ExcavatorItem('iron', new $ItemProperties()))
-  item.createCustom('sturdy_excavator',() => new $ExcavatorItem('diamond', new $ItemProperties()))
+  item.createCustom('primitive_excavator',() => new $ExcavatorItem('primitive', new $ItemProperties()))
+  item.createCustom('basic_excavator',() => new $ExcavatorItem('basic', new $ItemProperties()))
+  item.createCustom('sturdy_excavator',() => new $ExcavatorItem('sturdy', new $ItemProperties()))
   /*item.create('advanced_excavator','shovel').tier('advanced').tag("minecraft:tools").tag('forge:tools/excavators').tag("dq:tier4/tool")
   item.create('ultimate_excavator','shovel').tier('ultimate').tag("minecraft:tools").tag('forge:tools/excavators').tag("dq:tier5/tool")*/
 

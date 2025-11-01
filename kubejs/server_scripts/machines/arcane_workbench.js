@@ -365,62 +365,6 @@ ServerEvents.recipes(event=>{
     "wissen": 500
     })
 
-    /*event.custom({
-    "type": "wizards_reborn:arcane_workbench",
-    "pattern": [
-        "RXR",
-        " S ",
-        " S",
-        "NNN"
-    ],
-    "key": {
-        "X": {
-        "item": "minecraft:stone_shovel"
-        },
-        "S": {
-        "item": "immersiveengineering:stick_treated"
-        },
-        "N": {
-        "item": "twilightforest:naga_scale"
-        },
-        "R":{
-        "item": "quark:sturdy_stone"    
-        }
-    },
-    "output": {
-        "item": Item.of('kubejs:primitive_excavator', '{Damage:0,Modifier:"forbidden_arcanus:demolishing",display:{Name:\'{"italic":false,"text":"Primitive Excavator"}\'}}'),
-    },
-    "wissen": 500
-    })
-
-    event.custom({
-    "type": "wizards_reborn:arcane_workbench",
-    "pattern": [
-        "RXR",
-        " S ",
-        " S",
-        "NNN"
-    ],
-    "key": {
-        "X": {
-        "item": "minecraft:stone_shovel"
-        },
-        "S": {
-        "item": "immersiveengineering:stick_treated"
-        },
-        "N": {
-        "item": "twilightforest:naga_scale"
-        },
-        "R":{
-        "item": "quark:sturdy_stone"    
-        }
-    },
-    "output": {
-        "item": Item.of('kubejs:primitive_mining_hammer', '{Damage:0,Modifier:"forbidden_arcanus:demolishing",display:{Name:\'{"italic":false,"text":"Primitive Mining Hammer"}\'}}')
-    },
-    "wissen": 500
-    })*/
-
     event.custom({
     "type": "wizards_reborn:arcane_workbench",
     "pattern": [
@@ -853,4 +797,124 @@ ServerEvents.recipes(event=>{
 		"alexsmobs:flying_fish",
 		"tropical_fish"
     )
+
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "BIB",
+        "ITI",
+        "BIB",
+        "BBBB"
+    ],
+    "key": {
+        "I": {
+        "tag": "forge:plates/iron"
+        },
+        "T": {
+        "item": "naturesaura:token_fear"
+        },
+        "B": {
+        "tag": "immersive_weathering:bark"
+        }
+    },
+    "output": {
+        "item": "naturesaura:break_prevention"
+    },
+    "wissen": 500
+    })//.id("naturesaura:tree_ritual/break_prevention")
+
+    function HammerAndExcavators(output,material1,material2,handle,oldTool)
+    {
+        event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "MOM",
+            " H ",
+            " H ",
+            "XXXX"
+        ],
+        "key": {
+            "H": {
+            "item": handle
+            },
+            "M": {
+            "item": material1
+            },
+            "X": {
+            "item": material2
+            },
+            "O": {
+            "item": oldTool
+            }
+        },
+        "output": {
+            "item": output
+        },
+        "wissen": 5000
+        })
+    }
+    HammerAndExcavators("kubejs:primitive_mining_hammer",
+        "twilightforest:naga_scale",
+        "quark:sturdy_stone",
+        "immersiveengineering:stick_treated",
+        "minecraft:stone_pickaxe")
+    
+    HammerAndExcavators("kubejs:primitive_excavator",
+        "twilightforest:naga_scale",
+        "quark:sturdy_stone",
+        "immersiveengineering:stick_treated",
+        "minecraft:stone_shovel")
+    
+    HammerAndExcavators("kubejs:basic_mining_hammer",
+        "thermal:lead_block",
+        "ars_nouveau:earth_essence",
+        "kubejs:zinc_tool_handle",
+        "kubejs:primitive_mining_hammer")
+    
+    HammerAndExcavators("kubejs:basic_excavator",
+        "thermal:lead_block",
+        "ars_nouveau:earth_essence",
+        "kubejs:zinc_tool_handle",
+        "kubejs:primitive_excavator")
+
+    HammerAndExcavators("kubejs:sturdy_mining_hammer",
+        "kubejs:death_essence",
+        "vintageimprovements:netherite_sheet",
+        "kubejs:zinc_tool_handle",
+        "kubejs:basic_mining_hammer")
+    
+    HammerAndExcavators("kubejs:sturdy_excavator",
+        "kubejs:death_essence",
+        "vintageimprovements:netherite_sheet",
+        "kubejs:zinc_tool_handle",
+        "kubejs:basic_excavator")
+
+    
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "III",
+            "IXI",
+            " H ",
+            "MMMM"
+        ],
+        "key": {
+            "H": {
+            "item": "immersiveengineering:stick_treated"
+            },
+            "M": {
+            "item": "forbidden_arcanus:stellarite_piece"
+            },
+            "X": {
+            "item": "immersiveengineering:hammer"
+            },
+            "I": {
+            "item": "naturesaura:tainted_gold"
+            }
+        },
+        "output": {
+            "item": "forbidden_arcanus:reinforced_deorum_blacksmith_gavel"
+        },
+        "wissen": 10000
+        })
 })

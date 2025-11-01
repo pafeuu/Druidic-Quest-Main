@@ -296,6 +296,10 @@ ItemEvents.modification(event => {
 
   ////========================================Tools
 
+  event.modify("sophisticatedstorage:super_packing_tape", item=>{
+    item.maxDamage = 2137
+  })
+
   event.modify('aether:hammer_of_kingbdogz', item=>{
     item.maxDamage = 1024
   })
@@ -361,6 +365,19 @@ ItemEvents.modification(event => {
 
     event.modify("immersiveengineering:"+id+"_steel", item=>{
       item.digSpeed = 7.5,
+      item.maxDamage = -1
+      // ??+1 block range
+    })
+
+    event.modify("twilightforest:steeleaf_sword", item=>{
+      item.attackDamage = 3
+    })
+
+    event.modify("twilightforest:ironwood_sword", item=>{
+      item.attackDamage = 4
+    })
+
+    event.modify("immersiveengineering:sword_steel", item=>{
       item.maxDamage = -1
       // ??+1 block range
     })
@@ -1041,7 +1058,7 @@ ItemEvents.modification(event => {
 
   ///======================================== Hammers & Excavators
 
-  const AoeTools = ["excavator","mining_hammer"]
+  /*const AoeTools = ["excavator","mining_hammer"]
 
   AoeTools.forEach(id => {
 
@@ -1060,45 +1077,9 @@ ItemEvents.modification(event => {
       item.digSpeed = 5
     })
     
-  });
+  });*/
 
-  /*const IronsElementalArmors = [
-    "pyromancer",
-    "priest",
-    "electromancer",
-    "shadowwalker",
-    "plagued",
-    "cryomancer",
-    "cultist",
-    "archevoker"]*/
-
-    event.modify("irons_spellbooks:electromancer_helmet", item=>{
-        item.armorProtection = 2.5
-      })
-    
-    event.modify("irons_spellbooks:electromancer_chestplate", item=>{
-        item.armorProtection = 9
-      })
-    /*
-    IronsElementalArmors.forEach(id => {
-
-      event.modify("irons_spellbooks:"+id+"_helmet", item=>{
-        item.armorProtection = 2.5
-      })
-
-      event.modify("irons_spellbooks:"+id+"_chestplate", item=>{
-        item.armorProtection = 7.5
-      })
-
-      event.modify("irons_spellbooks:"+id+"_leggings", item=>{
-        item.armorProtection = 5.5
-      })
-
-      event.modify("irons_spellbooks:"+id+"_boots", item=>{
-        item.armorProtection = 2.5
-      })
-
-    });*/
+  
   ///======================================== Other
 
   event.modify("create:sand_paper", item=>{

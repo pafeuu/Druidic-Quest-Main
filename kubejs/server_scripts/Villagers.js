@@ -240,7 +240,7 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("toolsmith", 4, "5x thermal:gold_coin", "crafting_on_a_stick:crafting_table").villagerExperience(125);
 	event.addTrade("toolsmith", 4, "3x thermal:gold_coin", "crafting_on_a_stick:stonecutter").villagerExperience(125);
 
-	event.addTrade("toolsmith", 5, ["3x thermal:netherite_coin","vintageimprovements:netherite_rod"], "kubejs:reinforced_tool_handle").villagerExperience(75);
+	event.addTrade("toolsmith", 5, ["1x thermal:netherite_coin","vintageimprovements:netherite_rod"], "kubejs:reinforced_tool_handle").villagerExperience(75);
 	event.addTrade("toolsmith", 5, ["2x thermal:gold_coin"], "naturesaura:cave_finder").villagerExperience(75);
 
 

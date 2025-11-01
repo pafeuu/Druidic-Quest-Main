@@ -123,6 +123,7 @@ ServerEvents.recipes(event=>{
 		{item: "minecraft:lightning_rod"}
     ],ParticleLightning,
     SoundEffectLightning)
+    
 	event.custom({
 		type: "lychee:item_exploding",
 		  "contextual": [

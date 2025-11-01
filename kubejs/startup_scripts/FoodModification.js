@@ -70,7 +70,8 @@ ItemEvents.modification(event=>{
         'fruitsdelight:peach',
         'fruitsdelight:orange',
         'fruitsdelight:lychee',
-        'fruitsdelight:mango']
+        'fruitsdelight:mango',
+        'tide:apple_fishing_bobber']
 
     Fruit.forEach(id => {
         event.modify(id, item => {
@@ -145,6 +146,26 @@ ItemEvents.modification(event=>{
         })
     });
 
+    const Dough = [
+        'vintagedelight:oat_dough',
+        'mynethersdelight:ghast_dough',
+        'mynethersdelight:ghast_sourdough',
+        'farmersdelight:wheat_dough',
+        'sob:cinder_dough',
+        'create:dough',
+        'farmersdelight:pie_crust',
+        'create:blaze_cake_base']
+    
+    Dough.forEach(id => {
+        event.modify(id, item => {
+            item.foodProperties = food => {
+                food.hunger(1)
+                food.saturation(0.5)
+                food.effect("minecraft:hunger",10,0,0.5)
+            }
+        })
+    });
+
     const Pie = [
         'fruitsdelight:pineapple_pie',
         'aether_redux:blueberry_pie',
@@ -190,7 +211,7 @@ ItemEvents.modification(event=>{
     PieSlice.forEach(id => {
         event.modify(id, item => {
             item.foodProperties = food => {
-                food.hunger(4)
+                food.hunger(5)
                 food.saturation(0.5)
                 food.fastToEat()
             }

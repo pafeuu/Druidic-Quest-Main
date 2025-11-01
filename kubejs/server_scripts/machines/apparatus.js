@@ -58,4 +58,15 @@ ServerEvents.recipes(event=>{
         "kubejs:arcane_leather",
     ],"forbidden_arcanus:cloth","irons_spellbooks:magic_cloth",2500).id("irons_spellbooks:magic_cloth")
 
+    apparatus([
+        "sophisticatedstorage:packing_tape",
+        "sophisticatedstorage:packing_tape",
+        "sophisticatedstorage:packing_tape",
+        "sophisticatedstorage:packing_tape",
+        "forbidden_arcanus:stellarite_piece",
+        "forbidden_arcanus:stellarite_piece",
+        "forbidden_arcanus:stellarite_piece",
+        "forbidden_arcanus:stellarite_piece",
+    ],"create:super_glue","sophisticatedstorage:super_packing_tape",2500).id("sophisticatedstorage:super_packing_tape")
+
 })
