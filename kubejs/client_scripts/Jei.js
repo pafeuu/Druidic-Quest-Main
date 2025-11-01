@@ -106,5 +106,7 @@ JEIEvents.information(event => {
     event.addItem('supplementaries:music_disc_heave_ho',["Obtained by killing a Creeper with a Cannonball"])
     
     event.addItem("kubejs:sunbird_feather",["Periodically shed by the Sunbird"])
+
+    event.addItem("mynethersdelight:ghasta",["Drops from a ghast when killed with a knife"])
     
   })
