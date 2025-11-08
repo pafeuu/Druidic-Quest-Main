@@ -160,7 +160,7 @@ ServerEvents.recipes(event=>
     TemplatesRecycling("kubejs:steel_upgrade_smithing_template","naturesaura:infused_iron","deepslate")
     TemplatesRecycling("kubejs:skyseeker_upgrade_smithing_template","netherite_ingot","calcite")
     TemplatesRecycling("kubejs:phoenix_upgrade_smithing_template","twilightforest:fiery_ingot","deep_aether:aseterite")
-    TemplatesRecycling("deep_aether:stormforged_smithing_template","deep_aether:nimbus_stone","kubejs:phoenix_ingot")
+    TemplatesRecycling("deep_aether:stormforged_smithing_template","kubejs:phoenix_ingot","deep_aether:nimbus_stone")
     TemplatesRecycling("kubejs:engineer_upgrade_smithing_template","leather","andesite")
     TemplatesRecycling("kubejs:fiery_upgrade_smithing_template","iron_ingot","granite")
     TemplatesRecycling("kubejs:bronze_upgrade_smithing_template","copper_block","stone")
