@@ -3265,12 +3265,63 @@ Patch 0.3.2.1
 ### Textures:
     -Changed for Steel Machine Casing
 
-### Patch 3.3
+### Patch 3.2.2
 
 ### Recipes:
     -Added Recycling recipes for ironwood armor
     -Added Recycling recipes for ironwood tools
     -Added Recycling recipes for horse armors
+    -Added for transforming Grizzly and Polar bears with Transformation powder
+    -Added for summoning Grizzly Bears with Altar of Birthing
+    -Changed for rose quartz related blocks
+    -Added back recipes for gold tools
+    -Added back recipes for steel tools
+    -Added for Zanite Tools
+    -Added for Skyjade Tools
+    -Fixed recycling recipe for stormforged smithing template
 
+### Loot:
+    -Buffed Hollow Hills chests loottables
+    
 ### Other:
     -You cant input items into the output slot of recycler anymore
+    -Beetroot Soup now correctly stacks to 64
+
+
+### Patch 3.3 
+
+### Added Mods:
+    -ConstructionWands
+    
+### Updated Mods:
+    -AdvancedLootInfo
+    -AlembicJadeAddon
+    -Astrological
+    -Collective
+    -Comforts
+    -Create
+    -EntityJs
+    -EveryCompat
+    -FluffyFur
+    -HellimsXaerosMapsMobIcons
+    -InventorySorter
+    -ModeratelyEnoughEffectsDescriptions
+    -ModernFix
+    -Selene
+    -OhTheBiomesWeveGone
+    -PonderJS
+    -PufferfishAttributes
+    -SillyOddities
+    -SophisticatedMods
+    -StructureLayoutOptimizer
+    -Supplementaries
+    -Tide
+    -TslatEntityStatus
+    -VintageImprovements
+
+### Removed Mods:
+    -EffortlessBuilding
+
+### Added ResourcePacks:
+    -Modded Omelete
+
