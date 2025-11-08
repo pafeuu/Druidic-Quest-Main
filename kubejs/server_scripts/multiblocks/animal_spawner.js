@@ -274,6 +274,13 @@ ServerEvents.recipes((event)=>{
         "twigs:bronzed_seashell"
         ],RegularAnimalAuraCost,60)
 
+    spawn("alexsmobs:grizzly_bear",
+        ["naturesaura:birth_spirit",
+        "honey_comb",
+        "leather",
+        "salmon"
+        ],RegularAnimalAuraCost,60)
+
     spawn("alexsmobs:sunbird",
         ["naturesaura:birth_spirit",
         "kubejs:death_essence",
