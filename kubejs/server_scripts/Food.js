@@ -141,5 +141,70 @@ ServerEvents.recipes(e => {
     }
     )
 
-    
+    e.shapeless("create:dough",["farmersdelight:wheat_dough","farmersdelight:milk_bottle","sugar"])
+
+    e.shapeless("4x create:dough",["4x farmersdelight:wheat_dough","minecraft:milk_bucket","4x sugar"])
+
+    e.remove({output:"create:dough"})
+    e.remove({output:"farmersdelight:wheat_dough"})
+    e.remove({id:"farmersdelight:wheat_dough_from_water"})
+
+    function JamsSmallFruit(output,fruit,id)
+    {
+        cooking([fruit,fruit,fruit,fruit,"sugar","fruitsdelight:lemon_slice"],output,1,200).id(id)
+    }
+
+    function Jelly(output,jam,id)
+    {
+        cooking([jam,jam,"sugar","#forge:slimeballs"],output,2,200).id(id)
+    }
+
+    const FruitsDelightFruits = [
+        "fig",
+        "lemon",
+        "pear",
+        "kiwi",
+        "blueberry",
+        "mango",
+        "mangosteen",
+        "durian",
+        "lychee",
+        "hawberry",
+        "hamimelon",
+        "peach",
+        "bayberry",
+        "orange",
+        "cranberry",
+        "persimmon",
+        "sweetberry",
+        "pineapple"]
+
+    FruitsDelightFruits.forEach(fruit => {
+        Jelly("fruitsdelight:"+fruit+"_jello","fruitsdelight:"+fruit+"_jelly","kubejs:"+fruit+"_jello")    
+    });
+
+    Jelly("fruitsdelight:melon_jello","fruitsdelight:melon_jelly","kubejs:melon_jello")
+    Jelly("fruitsdelight:chorus_jello","fruitsdelight:chorus_jelly","kubejs:chorus_jello")
+    Jelly("fruitsdelight:apple_jello","fruitsdelight:apple_jelly","kubejs:apple_jello")
+    Jelly("fruitsdelight:glowberry_jello","fruitsdelight:glowberry_jelly","kubejs:glowberry_jello")
+    Jelly("arsdelight:frostaya_jelly","arsdelight:neutralized_frostaya_jam","arsdelight:cooking/frostaya_jelly")
+    Jelly("arsdelight:source_berry_jelly","arsdelight:source_berry_jam","arsdelight:cooking/source_berry_jelly")
+    Jelly("arsdelight:bombegrante_jelly","arsdelight:neutralized_bombegrante_jam","arsdelight:cooking/bombegrante_jelly")
+    Jelly("arsdelight:bastion_jelly","arsdelight:activated_bastion_jam","arsdelight:cooking/bastion_jelly")
+    Jelly("arsdelight:mendosteen_jelly","arsdelight:activated_mendosteen_jam","arsdelight:cooking/mendosteen_jelly")
+
+    /*function JamsBigFruit(output,fruit,id)
+    {
+        cooking([fruit,fruit,"sugar","fruitsdelight:lemon_slice"],output,1,200).id(id)
+    }*/
+
+    //cooking('arsdelight:source_berry_jam',["4x ars_nouveau:sourceberry_bush","sugar","fruitsdelight:lemon_slice"],1,200)
+    JamsSmallFruit('arsdelight:source_berry_jam',"ars_nouveau:sourceberry_bush","arsdelight:cooking/source_berry_jam")
+    JamsSmallFruit('arsdelight:activated_bastion_jam',"ars_nouveau:bastion_pod","arsdelight:cooking/activated_bastion_jam")
+    JamsSmallFruit('arsdelight:activated_mendosteen_jam',"ars_nouveau:mendosteen_pod","arsdelight:cooking/activated_mendosteen_jam")
+    JamsSmallFruit('arsdelight:neutralized_bombegrante_jam',"ars_nouveau:bombegranate_pod","arsdelight:cooking/neutralized_bombegrante_jam")
+    JamsSmallFruit('arsdelight:neutralized_frostaya_jam',"ars_nouveau:frostaya_pod","arsdelight:cooking/neutralized_frostaya_jam")
+    JamsSmallFruit('vintagedelight:gearo_berry_mason_jar',"vintagedelight:gearo_berry","vintagedelight:cooking/gearo_berry_jam_jar")
+    JamsSmallFruit('vintagedelight:pepper_jam_mason_jar',"#forge:vegetables/pepper","vintagedelight:cooking/pepper_jam_jar")
+
 })

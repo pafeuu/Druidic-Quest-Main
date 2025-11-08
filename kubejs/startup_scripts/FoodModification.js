@@ -15,9 +15,84 @@ ItemEvents.modification(event=>{
         'farmersdelight:cooked_bacon',
         'arsdelight:grilled_wilden_meat_slice']
 
-    const Jam = []
+    const Jam = [
+        'fruitsdelight:durian_jelly',
+        'fruitsdelight:orange_jelly',
+        'vintagedelight:pepper_jam_mason_jar',
+        'vintagedelight:gearo_berry_mason_jar',
+        'arsdelight:source_berry_jam',
+        'arsdelight:activated_mendosteen_jam',
+        'arsdelight:activated_bastion_jam',
+        'arsdelight:neutralized_bombegrante_jam',
+        'arsdelight:neutralized_frostaya_jam',
+        'fruitsdelight:chorus_jelly',
+        'fruitsdelight:fig_jelly',
+        'fruitsdelight:kiwi_jelly',
+        'fruitsdelight:sweetberry_jelly',
+        'fruitsdelight:mangosteen_jelly',
+        'fruitsdelight:apple_jelly',
+        'fruitsdelight:blueberry_jelly',
+        'fruitsdelight:cranberry_jelly',
+        'fruitsdelight:lemon_jelly',
+        'fruitsdelight:glowberry_jelly',
+        'fruitsdelight:hamimelon_jelly',
+        'fruitsdelight:pineapple_jelly',
+        'fruitsdelight:persimmon_jelly',
+        'fruitsdelight:melon_jelly',
+        'fruitsdelight:hawberry_jelly',
+        'fruitsdelight:pear_jelly',
+        'fruitsdelight:peach_jelly',
+        'fruitsdelight:lychee_jelly',
+        'fruitsdelight:mango_jelly',
+        'fruitsdelight:bayberry_jelly']
 
-    const Jello = []
+    Jam.forEach(id => {
+        event.modify(id, item => {
+            item.foodProperties = food => {
+                food.hunger(5)
+                food.saturation(0.5)
+                food.fastToEat()
+            }
+        })
+    });
+
+    const Jello = [
+        'fruitsdelight:chorus_jello',
+        'fruitsdelight:orange_jello',
+        'fruitsdelight:melon_jello',
+        'fruitsdelight:cranberry_jello',
+        'fruitsdelight:fig_jello',
+        'fruitsdelight:persimmon_jello',
+        'fruitsdelight:sweetberry_jello',
+        'fruitsdelight:lemon_jello',
+        'fruitsdelight:pineapple_jello',
+        'arsdelight:source_berry_jelly',
+        'arsdelight:mendosteen_jelly',
+        'arsdelight:bastion_jelly',
+        'arsdelight:bombegrante_jelly',
+        'fruitsdelight:blueberry_jello',
+        'fruitsdelight:pear_jello',
+        'fruitsdelight:kiwi_jello',
+        'fruitsdelight:apple_jello',
+        'arsdelight:frostaya_jelly',
+        'fruitsdelight:bayberry_jello',
+        'fruitsdelight:glowberry_jello',
+        'fruitsdelight:peach_jello',
+        'fruitsdelight:hamimelon_jello',
+        'fruitsdelight:hawberry_jello',
+        'fruitsdelight:lychee_jello',
+        'fruitsdelight:durian_jello',
+        'fruitsdelight:mangosteen_jello',
+        'fruitsdelight:mango_jello']
+
+    Jello.forEach(id => {
+        event.modify(id, item => {
+            item.foodProperties = food => {
+                food.hunger(7)
+                food.saturation(0.4)
+            }
+        })
+    });
     
     const FruitSlices = [
         'minecraft:melon_slice',

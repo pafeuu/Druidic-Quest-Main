@@ -1,5 +1,9 @@
 ServerEvents.tags("item",e=>{
 
+  e.add("forge:vegetables/pepper",[
+    "mynethersdelight:bullet_pepper",
+    "vintagedelight:ghost_pepper"])
+    
     e.add("dq:generators/source",[
     'ars_nouveau:alchemical_sourcelink',
     'ars_nouveau:vitalic_sourcelink',
