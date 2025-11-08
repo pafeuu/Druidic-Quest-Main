@@ -42,6 +42,7 @@ ItemEvents.modification(event => {
 
   let stacking64 = ["minecraft:snowball",
     "ender_pearl",
+    'minecraft:beetroot_soup',
     "farmersdelight:cooking_pot",
     'farmersdelight:cooked_rice',
     'farmersdelight:bone_broth',
