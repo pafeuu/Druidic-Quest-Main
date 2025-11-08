@@ -26,5 +26,6 @@ ServerEvents.recipes(e=>{
     Transformation("creeper","aether:sentry")
     Transformation("alexsmobs:bison","ancient_aether:fluffalo")
     Transformation("alexsmobs:emu","aether:cockatrice")
+    Transformation("minecraft:polar_bear","alexsmobs:grizzly_bear")
     
 })
