@@ -224,7 +224,8 @@ ItemEvents.modification(event => {
   })
 
   event.modify("farmersdelight:golden_knife", item=>{
-    item.maxDamage = 512
+    item.maxDamage = 512,
+    item.digSpeed = 8
   })
 
   event.modify('farmersdelight:flint_knife', item=>{
@@ -317,6 +318,13 @@ ItemEvents.modification(event => {
         item.digSpeed = 8
         // +1 Luck and +2 looting or fortune
     })
+
+    event.modify("wizards_reborn:arcane_gold_"+id, item=>{
+        item.maxDamage = 1024,
+        item.digSpeed = 9
+        // +1 Luck and +2 looting or fortune
+    })
+
     event.modify('minecraft:stone_'+id, item => {
       item.maxDamage = 128
     })
