@@ -488,6 +488,11 @@ ServerEvents.recipes(event => {
 	event.remove({id:"thermal:storage/potato_block"})
 	event.replaceInput({id:"forbidden_arcanus:boom_arrow"},"arrow","archers_paradox:explosive_arrow")
 
+	event.stonecutting("create:rose_quartz_block","create:rose_quartz_tiles")
+	event.stonecutting("create:rose_quartz_block","create:small_rose_quartz_tiles")
+	event.stonecutting("create:rose_quartz_tiles","create:rose_quartz_block")
+	event.stonecutting("create:small_rose_quartz_tiles","create:rose_quartz_block")
+
 	event.custom({
 		"type": "patchouli:shapeless_book_recipe",
 		"ingredients": [

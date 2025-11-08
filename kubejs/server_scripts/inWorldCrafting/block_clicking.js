@@ -127,6 +127,12 @@ ServerEvents.recipes(event=>{
     clickB("crying_obsidian",["obsidian","kubejs:cut_onions"])
     clickB("immersiveengineering:slag_glass",["glass","thermal:slag"])
     clickB("ars_nouveau:source_jar",["vintagedelight:fermenting_jar","kubejs:source_alloy_ingot"])
+    clickB("create:rose_quartz_block",["minecraft:quartz_block","minecraft:rose_bush"])
+    
+    event.remove([
+      {id:"create:rose_quartz_block_from_rose_quartz_stonecutting"},
+      {id:"create:rose_quartz_tiles_from_polished_rose_quartz_stonecutting"},
+      {id:"create:small_rose_quartz_tiles_from_polished_rose_quartz_stonecutting"}])
 
     event.custom({
 		"type": "lychee:block_interacting",
