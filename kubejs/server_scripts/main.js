@@ -2608,7 +2608,7 @@ ServerEvents.recipes(event => {
 	event.remove('minecraft:dispenser')
 	event.shapeless('minecraft:dispenser', ['kubejs:primitive_machine','minecraft:bow'])
 	
-	event.remove('minecraft:piston')
+	event.remove({output:'minecraft:piston'})
 	event.shapeless('minecraft:piston', ['kubejs:primitive_machine','create:piston_extension_pole'])
 	
 	event.replaceInput({id:"immersiveengineering:crafting/conveyor_basic"},"minecraft:redstone","kubejs:primitive_machine")
