@@ -188,9 +188,16 @@ ServerEvents.recipes(event=>{
 	tooltype.forEach(id => {
 		
 		event.smithing("ancient_aether:valkyrum_"+id ,"kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_"+id,"ancient_aether:valkyrum")
+		event.smithing("minecraft:golden_"+id,"kubejs:gold_upgrade_smithing_template","kubejs:silver_"+id,"kubejs:gold_upgrade_parts")
+		event.smithing("immersiveengineering:"+id+"_steel","kubejs:steel_upgrade_smithing_template","naturesaura:infused_iron_"+id,"kubejs:steel_upgrade_parts")
+		event.smithing("deep_aether:skyjade_"+id,"kubejs:skyjade_upgrade_smithing_template","kubejs:silver_"+id,"kubejs:skyjade_upgrade_parts")
+		event.smithing("aether:zanite_"+id,"kubejs:zanite_upgrade_smithing_template","kubejs:lead_"+id,"kubejs:zanite_upgrade_parts")
+		event.smithing("wizards_reborn:arcane_gold_"+id,"kubejs:arcane_gold_upgrade_smithing_template","minecraft:golden_"+id,"kubejs:arcane_gold_upgrade_parts")
 
 	});
 
+	event.smithing("wizards_reborn:arcane_gold_knife","kubejs:arcane_gold_upgrade_smithing_template","farmersdelight:golden_knife","kubejs:arcane_gold_upgrade_parts")
+	
 	const FieryTools = ["pickaxe","sword"]
 	
 	FieryTools.forEach(id => {
