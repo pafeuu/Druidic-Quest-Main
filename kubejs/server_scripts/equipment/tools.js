@@ -681,20 +681,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	
-	event.shaped('effortlessbuilding:reach_upgrade1',
-		[
-			"CEC",
-			"BXB",
-			"CEC"
-		],
-		{
-			X: "ender_pearl",
-			E: "emerald",
-			C: "farmersdelight:canvas",
-			B: "kubejs:sapling_ball"
-		}
-	).id("effortlessbuilding:reach_upgrade1")
 
 	
 
@@ -771,9 +757,6 @@ ServerEvents.recipes(event => {
 	}
 	]
 })
-	event.remove({output:"effortlessbuilding:randomizer_bag"})
-	event.remove({output:"effortlessbuilding:golden_randomizer_bag"})
-	event.remove({output:"effortlessbuilding:diamond_randomizer_bag"})
 
 	event.remove({output:"thermal:satchel"})
 	event.shaped(
@@ -789,21 +772,6 @@ ServerEvents.recipes(event => {
 		  X: "#forge:raw_materials/tin"
 		}
 	  )
-	event.shaped(
-		Item.of('effortlessbuilding:randomizer_bag'), 
-		[
-		  'FFF',
-		  'FXF', 
-		  'FFF'
-		],
-		{
-		  F: '#forge:leather',
-		  X: "quark:trowel"
-		}
-	  )
-
-	
-
 		  	
 	  event.remove({output:"archers_paradox:lightning_arrow"})
 	  event.shaped(
@@ -1346,44 +1314,6 @@ ServerEvents.recipes(event => {
 	event.remove({id:"aether:skyroot_iron_vanilla_shield"})
 	event.remove({id:"aether:wood_zanite_vanilla_shield"})
 	event.remove({id:"aether:skyroot_zanite_vanilla_shield"})
-
-	event.shaped('effortlessbuilding:reach_upgrade2',
-		[
-			"CBC",
-			"BXB",
-			"CBC"
-		],
-		{
-			X: "effortlessbuilding:reach_upgrade1",
-			C: "#forge:storage_blocks/copper",
-			B: "twilightforest:naga_scale"
-		}
-	).id("effortlessbuilding:reach_upgrade2")
-
-	event.shaped(
-		Item.of('effortlessbuilding:golden_randomizer_bag'), 
-		[
-		  'FFF',
-		  'FXF', 
-		  'FFF'
-		],
-		{
-		  F: '#forge:plates/gold',
-		  X: "effortlessbuilding:randomizer_bag"
-		}
-	  )
-	event.shaped(
-		Item.of('effortlessbuilding:diamond_randomizer_bag'), 
-		[
-		  'FFF',
-		  'FXF', 
-		  'FFF'
-		],
-		{
-		  F: '#forge:plates/diamond',
-		  X: "effortlessbuilding:golden_randomizer_bag"
-		}
-	  )
 	
 	event.custom({
 		"type": "rubinated_nether:freezing",
@@ -1844,19 +1774,6 @@ ServerEvents.recipes(event => {
 		 I:"#forge:ingots/arcanum_alloy",
 		 X:"kubejs:primitive_mortar"}
 	).id("kubejs:basic_mortar")
-
-	event.shaped('effortlessbuilding:reach_upgrade3',
-		[
-			"CBC",
-			"BXB",
-			"CBC"
-		],
-		{
-			X: "effortlessbuilding:reach_upgrade2",
-			C: "#forge:storage_blocks/source",
-			B: "ghast_tear"
-		}
-	).id("effortlessbuilding:reach_upgrade3")
 
 	event.shaped("kubejs:blade_of_grass",
 		[
