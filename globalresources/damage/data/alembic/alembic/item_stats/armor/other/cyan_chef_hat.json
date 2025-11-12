@@ -1,0 +1,20 @@
+{
+  "id": "vintagedelight:cyan_chefs_hat",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:stamina",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "6dd0fb52-1a49-4433-97ce-16de33ff1a2e"
+    },
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:natural_regeneration",
+      "value": 1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "6dd0fb52-1a49-4433-97ce-16de33ff1a2e"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}
