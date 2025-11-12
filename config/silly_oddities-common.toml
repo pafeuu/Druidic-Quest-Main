@@ -19,6 +19,9 @@
 	#Enables lodestone Data Pack
 	#Requires a world reload
 	lodestoneDatapack = true
+	#Enables dyes Data Pack
+	#Requires a world reload
+	dyesDatapack = true
 
 	#Integrations
 	[datapacks.integrations]

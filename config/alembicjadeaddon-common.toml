@@ -9,4 +9,8 @@
 	#List of damage types that should not be displayed in tooltips
 	#Format: 'modid:damage_type'
 	blacklistedDamageTypes = []
+	#Show damage types that bypass armor/resistances (true damage)
+	showTrueDamage = true
+	#Show numerical resistance values in tooltips
+	showResistanceNumbers = true
 

@@ -60,4 +60,12 @@ ClientEvents.lang("en_us", event => {
     event.renameBlock("immersive_weathering:grassy_permafrost","Grassy Gray Permafrost")
     event.renameBlock("immersiveengineering:redstone_acid_fluid_block","Redstone Acid")
 
+    event.renameItem("create:dough","Sweet Dough")
+    event.renameItem('solonion:food_book',"Book of Diverse Diet")
+
+    event.renameItem("constructionwand:stone_wand","Primitive Building Wand")
+    event.renameItem("constructionwand:iron_wand","Basic Building Wand")
+    event.renameItem("constructionwand:diamond_wand","Sturdy Building Wand")
+    event.renameItem("constructionwand:infinity_wand","Advanced Building Wand")
+
 })

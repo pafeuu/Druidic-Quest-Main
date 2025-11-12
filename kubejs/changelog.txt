@@ -3321,11 +3321,42 @@ Patch 0.3.2.1
 
 ### Removed Mods:
     -EffortlessBuilding
+    -End Remastered
 
 ### Added ResourcePacks:
     -Modded Omelete
+
+### New Items:
+    -Cookie Dough
+
+### Removed Items:
+    -Removed 13 food items
+
+### Recipes:
+    -Changed for Jams and Jellies
+    -Changed for Pb&J Sandwich
+    -Changed for Vinegar Jar
+    -Changed for all the Cookies
+    -Changed for Oat Dough
+    -Removed the old steeleaf gloves recipe
+    -Added for recycling forgotten hat
+    -Added for recycling shield
+    -Changed for the Trowel
 
 ### Item Balance:
     -Rebalanced the Arcane Tools
     -Rebalanced all the Jam Items
     -Rebalanced all the Jello Items
+    -Xpetrified Orbs now stack to 64
+    -Steeleaf tools and armor now come with mending by default
+    -Chef's Hats now grant bonuses when worn
+
+### Mob Balance:
+    -Twilight Forest's Beetles no longer spawn with any items in their hands
+    -Death Tomes no longer spawn with items in their hands
+
+### Other:
+    -You can now get 15 hearts instead of 10 from eating unique foods(Requires server config reset)
+    -Heart gain is not 20% faster(Requires server config reset)
+    -You cant get enchanted stack upgrades in hollow hills anymore
+    -Rich soil can now be mined with Vein Mining enchantment

@@ -436,7 +436,11 @@ ItemEvents.tooltip( tooltip => {
     'ancient_aether:valkyrum_helmet',
     'ancient_aether:valkyrum_chestplate',
     'ancient_aether:valkyrum_leggings',
-    'ancient_aether:valkyrum_boots'],
+    'ancient_aether:valkyrum_boots',
+    "constructionwand:stone_wand",
+    "constructionwand:iron_wand",
+    "constructionwand:diamond_wand",
+    "constructionwand:infinity_wand"],
     (item, advanced, text) => {
     text.add(1, Text.of("Unbreakable").blue())
     })

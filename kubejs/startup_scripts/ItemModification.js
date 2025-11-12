@@ -100,7 +100,8 @@ ItemEvents.modification(event => {
     'arsdelight:bombegrante_tea',
     'arsdelight:bastion_tea',
     'arsdelight:mendosteen_tea',
-    'create:builders_tea']
+    'create:builders_tea',
+    'forbidden_arcanus:xpetrified_orb']
  
   let tooltype =['pickaxe','shovel','hoe','axe']
   
@@ -154,6 +155,13 @@ ItemEvents.modification(event => {
     "forbidden_arcanus:draco_arcanus",
     ]
 
+    let Unbreakables = [
+      "constructionwand:stone_wand",
+      "constructionwand:iron_wand",
+      "constructionwand:diamond_wand",
+      "constructionwand:infinity_wand"
+    ]
+
     let UnbreakableArmor = [
       "ancient_aether:valkyrum",
       "thermal:hazmat",
@@ -183,7 +191,12 @@ ItemEvents.modification(event => {
     "minecraft:quartz"
   ]
 
-  
+  Unbreakables.forEach(id => {
+    event.modify(id,item=>{
+      item.maxDamage = -1
+    })
+    
+  });
   
   colors.forEach(color => {
     event.modify("minecraft:"+color+"_bed", item=>{

@@ -4,6 +4,7 @@ ServerEvents.tags('item', event => {
 
   event.removeAllTagsFrom([global.nukelist])
 
+  event.remove("forge:dough","create:dough")
   event.add("c:rods/wooden","twigs:twig")
   event.add("dq:sturdy_tools_repair_item","minecraft:netherite_scrap")
   event.add("farmersdelight:offhand_equipment","#forge:tools/totems")
@@ -73,7 +74,7 @@ ServerEvents.tags('item', event => {
     "minecraft:verdant_froglight",
     "minecraft:pearlescent_froglight"]
 
-
+  
   event.add("forge:tools/chisels","elementalcraft:chisel")
   event.add("forge:tools/hammers","immersiveengineering:hammer")
   event.add("forge:ingots/andesite_alloy","create:andesite_alloy")
@@ -93,13 +94,18 @@ ServerEvents.tags('item', event => {
   event.add("quark:seed_pouch_holdable","minecraft:saplings")
 
   event.add("forge:tools","#minecraft:tools")
-  event.add("forge:tools","quark:abacus")
-  event.add("forge:tools","quark:trowel")
-  event.add("forge:tools","immersiveengineering:hammer")
-  event.add("forge:tools","supplementaries:wrench")
-  event.add("forge:tools","minecraft:shears")
-  event.add("forge:tools","minecraft:flint_and_steel")
-  event.add("forge:tools","#c:tools")
+  event.add("forge:tools",[
+    "quark:abacus",
+    "quark:trowel",
+    "immersiveengineering:hammer",
+    "constructionwand:stone_wand",
+    "constructionwand:iron_wand",
+    "supplementaries:wrench",
+    "minecraft:shears",
+    "minecraft:flint_and_steel",
+    "#c:tools",
+    "constructionwand:diamond_wand",
+    "constructionwand:infinity_wand"])
 
   event.add("immersiveengineering:toolbox/tools","#forge:tools")
   event.add("forge:storage_blocks/potato","farmersdelight:potato_crate")

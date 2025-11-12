@@ -91,7 +91,6 @@ ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event
 		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('f5e5ab33-28e7-4357-bdfd-a8ab69323d03'), 'Tool modifier', 1, 'addition'))
 	};
  
-
 	if (event.itemStack.id == "minecraft:elytra" && event.slotType == 'chest') {
 			
 		event.addModifier("minecraft:generic.armor", new $AttributeModifier(UUID.fromString('648932e8-3370-4256-80e4-50abb3ff15b3'), 'Armor modifier', 6, 'addition'))

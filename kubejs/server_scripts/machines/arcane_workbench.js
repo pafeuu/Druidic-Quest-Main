@@ -917,4 +917,127 @@ ServerEvents.recipes(event=>{
         },
         "wissen": 10000
         })
+
+    
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "  L",
+			" Y ",
+			"Z  ",
+            "____"
+        ],
+        "key": {
+            "L": {
+            "item": "kubejs:life_essence"
+            },
+            "Y": {
+            "item": "constructionwand:diamond_wand"
+            },
+            "Z": {
+            "tag": "forge:rods/arcane_gold"
+            }
+        },
+        "output": {
+            "item": "constructionwand:infinity_wand"
+        },
+        "wissen": 10000
+    }).id("constructionwand:infinity_wand")
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "  L",
+			" Y ",
+			"Z  ",
+            "____"
+        ],
+        "key": {
+            "L": {
+            "item": "quark:sturdy_stone"
+            },
+            "Y": {
+            "item": "quark:trowel"
+            },
+            "Z": {
+            "item": "wizards_reborn:arcane_wood_branch"
+            }
+        },
+        "output": {
+            "item": "constructionwand:stone_wand"
+        },
+        "wissen": 1000
+    }).id("constructionwand:stone_wand")
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "   ",
+			" Y ",
+			"   ",
+            "NNNN"
+        ],
+        "key": {
+            "Y": {
+            "item": "constructionwand:stone_wand"
+            },
+            "N": {
+            "item": "twilightforest:naga_scale"
+            }
+        },
+        "output": {
+            "item": "constructionwand:iron_wand"
+        },
+        "wissen": 2500
+    }).id("constructionwand:iron_wand")
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "   ",
+			" Y ",
+			"Z  ",
+            "NNNN"
+        ],
+        "key": {
+            "Y": {
+            "item": "constructionwand:iron_wand"
+            },
+            "Z": {
+            "item": "kubejs:zinc_tool_handle"
+            },
+            "N": {
+            "item": "ars_nouveau:conjuration_essence"
+            }
+        },
+        "output": {
+            "item": "constructionwand:diamond_wand"
+        },
+        "wissen": 5000
+    }).id("constructionwand:diamond_wand")
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "NGN",
+			"GGG",
+			"NGN",
+            "NNNN"
+        ],
+        "key": {
+            "G": {
+            "tag": "forge:ingots/gold"
+            },
+            "N": {
+            "item": "quark:bottled_cloud"
+            }
+        },
+        "output": {
+            "item": "constructionwand:core_angel"
+        },
+        "wissen": 1000
+    }).id("constructionwand:core_angel")
+
+    event.remove({id:"constructionwand:core_destruction"})
+    
 })

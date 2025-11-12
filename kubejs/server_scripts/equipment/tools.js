@@ -566,6 +566,16 @@ ServerEvents.recipes(event => {
 
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	event.shaped("quark:trowel",
+		[
+			"S  ",
+			" CC"
+		],
+		{
+			S: "#c:rods/wooden",
+			C: "cobblestone"
+		}
+	).id("quark:tools/crafting/trowel")
 	event.shaped("immersive_weathering:steel_wool",
 		[
 			" I ",
@@ -1093,7 +1103,7 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ======================================================================= Tier 1 Tools ============================================================================
-	
+
 	event.shaped("create:potato_cannon",
 		[
 			"PCP",
@@ -1224,6 +1234,7 @@ ServerEvents.recipes(event => {
 	).id("kubejs:the_ice_cube")
 
 	/// ======================================================================= Tier 2 Tools ============================================================================
+	
 	event.shaped("enigmaticlegacy:enchantment_transposer",
 		[
 			"BPB",
@@ -1420,18 +1431,6 @@ ServerEvents.recipes(event => {
 		{
 		  I: '#forge:ingots/ironwood',
 		  M: 'umbral_skies:naga_gloves'
-		}
-	  )
-
-	  event.shaped("umbral_skies:steeleaf_gloves",
-		[
-		  'III',
-		  'IMI', 
-		  'III' 
-		],
-		{
-		  I: '#forge:ingots/steeleaf',
-		  M: 'umbral_skies:ironwood_gloves'
 		}
 	  )
 
