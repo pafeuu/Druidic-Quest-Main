@@ -391,8 +391,15 @@ ItemEvents.modification(event => {
       // ??+1 block range
     })
 
-    event.modify("twilightforest:steeleaf_sword", item=>{
-      item.attackDamage = 3
+    event.modify("twilightforest:steeleaf_"+id, item=>{
+      item.maxDamage = 512
+    })
+
+   
+  })
+   event.modify("twilightforest:steeleaf_sword", item=>{
+      item.attackDamage = 3,
+      item.maxDamage = 512
     })
 
     event.modify("twilightforest:ironwood_sword", item=>{
@@ -413,8 +420,6 @@ ItemEvents.modification(event => {
       item.maxDamage = -1
       // ??+1 block range
     })
-  })
-  
   //========================================Armor
 
   /// ZANITE
