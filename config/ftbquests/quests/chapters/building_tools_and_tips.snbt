@@ -30,6 +30,12 @@
 				{
 					count: 32
 					id: "2B94A342F22C0E5F"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0A1EC4CCEF0F458A"
 					item: "minecraft:rooted_dirt"
 					type: "item"
 				}
@@ -43,60 +49,26 @@
 			}]
 			title: "Randomized Building"
 			x: -3.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6F5C7CA9C74F13E9"]
-			description: ["Seriously... You're missing out if you don't!"]
-			icon: "effortlessbuilding:muscles"
-			id: "17A9893D5FDD3F5B"
-			rewards: [{
-				id: "4D60F250F23D5D49"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			subtitle: "Press ALT to check out all the options!"
-			tasks: [{
-				id: "6E306F7B4E745B87"
-				type: "checkmark"
-			}]
-			title: "Effortless building!"
-			x: -3.0d
-			y: 3.5d
-		}
-		{
-			dependencies: [
-				"17A9893D5FDD3F5B"
-				"534D152BE1790DD2"
-			]
+			dependencies: ["534D152BE1790DD2"]
 			id: "04F83F3CC3854027"
-			rewards: [
-				{
-					id: "575BA3E2815FD939"
-					item: "thermal:silver_coin"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "28CF01DA7300CCBC"
-					table_id: 2259993594685209388L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28CF01DA7300CCBC"
+				table_id: 2259993594685209388L
+				type: "random"
+			}]
 			subtitle: "Convenient Randomization"
 			tasks: [{
-				id: "195F2778C52AFB7A"
+				id: "1957D7345BBEDE08"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Size: 5
-						}
+					id: "constructionwand:stone_wand"
+					tag: {
+						wand_options: { }
 					}
-					id: "effortlessbuilding:randomizer_bag"
 				}
 				type: "item"
 			}]
@@ -107,18 +79,21 @@
 			dependencies: ["04F83F3CC3854027"]
 			description: [""]
 			id: "08CA7F8F750C9741"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B21AEE59878CCF0"
+				table_id: 4538509838943174082L
+				type: "random"
+			}]
 			subtitle: "Need even more texture?"
 			tasks: [{
 				id: "52A4011219671EE8"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Size: 9
-						}
+					id: "constructionwand:iron_wand"
+					tag: {
+						wand_options: { }
 					}
-					id: "effortlessbuilding:golden_randomizer_bag"
 				}
 				type: "item"
 			}]
@@ -128,18 +103,21 @@
 		{
 			dependencies: ["08CA7F8F750C9741"]
 			id: "6DF2CA32E107937D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2117CFC4BE2045DA"
+				table_id: 4505272222986019558L
+				type: "random"
+			}]
 			subtitle: "This ought to do the trick!"
 			tasks: [{
-				id: "615094B02D6F5288"
+				id: "18C840653B02697C"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Size: 27
-						}
+					id: "constructionwand:diamond_wand"
+					tag: {
+						wand_options: { }
 					}
-					id: "effortlessbuilding:diamond_randomizer_bag"
 				}
 				type: "item"
 			}]
@@ -218,51 +196,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"17A9893D5FDD3F5B"
-				"70FF5891DA236DA4"
-			]
-			id: "62693CF96CA4C6DA"
-			subtitle: "I can reach a little farther..."
-			tasks: [{
-				id: "725A7AE9A319B8E1"
-				item: "effortlessbuilding:reach_upgrade1"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"41FA7D0AD437E6FB"
-				"62693CF96CA4C6DA"
-			]
-			id: "13ED6FE81EC3C2A1"
-			subtitle: "and a little farther..."
-			tasks: [{
-				id: "542F9135FF107EFB"
-				item: "effortlessbuilding:reach_upgrade2"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"13ED6FE81EC3C2A1"
-				"23D3902848A335F6"
-			]
-			id: "76EF42A8710C9F2A"
-			subtitle: "Now I've got it!"
-			tasks: [{
-				id: "64374E68EF21F8B7"
-				item: "effortlessbuilding:reach_upgrade3"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 4.5d
-		}
-		{
 			dependencies: ["6F5C7CA9C74F13E9"]
 			description: [
 				"You can now easily modify the look of your storage containers with the help of the Decoration Table. Your options are limitless!"
@@ -286,6 +219,29 @@
 			}]
 			x: -8.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["6DF2CA32E107937D"]
+			id: "745D72639D8466AD"
+			rewards: [{
+				count: 3
+				id: "2DA97CA6A27626BC"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "661DEDAE3CF98352"
+				item: {
+					Count: 1
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
 		}
 	]
 	title: "Building Tools and Tips"

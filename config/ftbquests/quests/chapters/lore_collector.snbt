@@ -356,6 +356,32 @@
 			x: -5.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: "minecraft:coarse_dirt"
+			id: "5AB88D70805DB8AF"
+			rewards: [{
+				id: "765C510C050B88AB"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F885371D77909F8"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "CraisinLord"
+						pages: ["{\"text\":\"Journal: Day 193\\nI think its time for another adventure...\\n- Bilbo Baggins\"}"]
+						title: "Adventure"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
 	]
 	title: "Lore Collector"
 }

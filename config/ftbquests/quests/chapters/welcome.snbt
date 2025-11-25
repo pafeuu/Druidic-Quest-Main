@@ -98,9 +98,8 @@
 			icon: "immersiveengineering:drillhead_iron"
 			id: "4FF8CB3EF0206C93"
 			rewards: [{
-				count: 5
 				id: "7E701B1B2BD539C1"
-				item: "thermal:copper_coin"
+				item: "thermal:silver_coin"
 				type: "item"
 			}]
 			shape: "gear"

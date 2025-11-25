@@ -1432,6 +1432,7 @@
 				""
 				"Meanwhile, &lCold Aerclouds&r are perfect for safely breaking your fall from a great height."
 			]
+			hide_details_until_startable: true
 			icon: "aether:blue_aercloud"
 			id: "6534B009CA155499"
 			optional: true

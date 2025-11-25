@@ -472,6 +472,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["51966AE20559FFA0"]
 			description: ["&4&owork in progress&r&r"]
 			id: "085506B2810635B8"
 			tasks: [{
@@ -556,6 +557,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["51966AE20559FFA0"]
 			description: ["&4&owork in progress&r&r"]
 			id: "5941068474570745"
 			tasks: [{

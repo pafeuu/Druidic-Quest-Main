@@ -28,8 +28,9 @@
 			}
 			id: "4E4E7EFB7FFC688B"
 			rewards: [{
+				count: 5
 				id: "1BA192001BDD82CC"
-				item: "thermal:silver_coin"
+				item: "thermal:copper_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -84,12 +85,6 @@
 						tag: {
 							borderColor: 14643122
 							clothColor: 14972592
-							contentsUuid: [I;
-								488902614
-								-1968553980
-								-1431729793
-								-1799299064
-							]
 							inventorySlots: 27
 							renderInfo: {
 								upgradeItems: [{

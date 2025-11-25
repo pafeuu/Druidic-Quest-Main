@@ -678,8 +678,12 @@
 			description: [
 				"The &cAlloy Kiln&r is formed by placing a 2x2x2 of kiln bricks. Right click it with an engineer's hammer to form the multiblock."
 				""
+				"Or you could create custom Alloy kiln  by crafting the Alloy Kiln block and form a multiblock with 4 alloy bricks and 18 polished darkstone."
+				"This version requires specific fire related magic fuel to function but it can create more alloys and is possible to automate"
+				""
 				"The Alloy Kiln is necessary to combine metals and magical materials into alloys. Inserting the appropriate ingots and other materials will smelt them together to give a completely new matierial!"
 			]
+			icon: "mbd2:alloy_kiln"
 			id: "0628C1A97EB1A5DB"
 			rewards: [{
 				count: 2
@@ -690,12 +694,27 @@
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Mixing Metals"
-			tasks: [{
-				count: 8L
-				id: "4BB570DEC2587D62"
-				item: "immersiveengineering:alloybrick"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 8L
+					id: "4BB570DEC2587D62"
+					item: "immersiveengineering:alloybrick"
+					type: "item"
+				}
+				{
+					id: "358B7AEC65D4C37B"
+					item: "mbd2:alloy_kiln"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "57656293D61B2C06"
+					item: { Count: 17, id: "forbidden_arcanus:polished_darkstone" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Kiln Alloy Smelter!"
 			x: 5.0d
 			y: 10.0d

@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6BCC24F77F7598FB"]
 			description: [
 				"&9Iron's Spells and Spellbooks&r gives you access to highly-specialized combat magic! Amp up your spell power and take on mobs and bosses with spells fine-tuned to hit them at their weakest!"
 				""
@@ -31,6 +32,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["6BCC24F77F7598FB"]
 			id: "2DB5DB573C8D5038"
 			subtitle: "6 Spell Slots"
 			tasks: [{
@@ -137,6 +139,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["6BCC24F77F7598FB"]
 			id: "309CF72640129A6E"
 			subtitle: "8 Spell Slots"
 			tasks: [{
@@ -159,6 +162,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["6BCC24F77F7598FB"]
 			id: "3AA48BD33DE49DE6"
 			subtitle: "10 Spell Slots"
 			tasks: [{
@@ -181,6 +185,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["6BCC24F77F7598FB"]
 			id: "1F1245466C6847C8"
 			subtitle: "10 Spell Slots"
 			tasks: [{
@@ -203,6 +208,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["6BCC24F77F7598FB"]
 			id: "53E83155D759BDAB"
 			subtitle: "10 Spell Slots"
 			tasks: [{
@@ -244,6 +250,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["6BCC24F77F7598FB"]
 			id: "43286A1BDF512133"
 			subtitle: "10 Spell Slots"
 			tasks: [{
@@ -266,6 +273,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["6BCC24F77F7598FB"]
 			id: "10503117EC1F6DC2"
 			subtitle: "10 Spell Slots"
 			tasks: [{
@@ -314,6 +322,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["6BCC24F77F7598FB"]
 			id: "626B0560A574D80B"
 			subtitle: "12 Spell Slots"
 			tasks: [{
@@ -336,6 +345,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6BCC24F77F7598FB"]
 			id: "08CF64BD740D26C6"
 			subtitle: "12 Spell Slots"
 			tasks: [{
@@ -438,6 +448,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["6BCC24F77F7598FB"]
 			description: [
 				"&5Ars Nouveau&r is your one-stop-shop for automation magic! The unique spell-building mechanic allows you to combine &5glyphs&r in multitudes of ways, limiting you only by your creativity!"
 				""
@@ -460,6 +471,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["6BCC24F77F7598FB"]
 			description: [
 				"To begin constructing spells, &5open&r the spell book by pressing &5\"C\"&r (by default). This will give you access to all your learned glyphs. Glyphs come in three types: &5form&r, &5effect&r, and &5augment&r."
 				""
@@ -502,6 +514,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["6BCC24F77F7598FB"]
 			description: [
 				"To perform a ritual, you will need a &5ritual brazier&r and a &5tablet&r to define the ritual."
 				""
@@ -521,6 +534,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["6BCC24F77F7598FB"]
 			description: [
 				"The alteration table allows you to apply threads to your magical armor. &5Threads&r provide a wide array of &5augments and effects&r, giving your armor a truly magical boost!"
 				""

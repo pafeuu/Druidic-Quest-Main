@@ -1538,10 +1538,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"682CA83814F08244"
-				"69B93BA4460E5F95"
-			]
+			dependencies: ["682CA83814F08244"]
 			description: [
 				"Emergency tools!"
 				""

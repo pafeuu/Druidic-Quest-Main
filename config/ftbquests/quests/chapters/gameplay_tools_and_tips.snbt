@@ -192,16 +192,8 @@
 				"Adventure and looting are critical components of &2Druidic Quest!&r"
 				""
 				"Loot tables have been completely reworked, so don't throw away much! Everything you find is valuable in its own way."
-				""
-				"&7&oKeep an eye out for those eyes....&r&r"
 			]
-			icon: {
-				Count: 1
-				id: "endrem:black_eye"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "thermal:ruby"
 			id: "7DF1EA9C314454F3"
 			shape: "circle"
 			size: 1.5d

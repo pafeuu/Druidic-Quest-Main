@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "sorcerer_supreme"
 	group: "6959C7C8592FBBA9"
+	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
 		id: "irons_spellbooks:netherite_mage_helmet"

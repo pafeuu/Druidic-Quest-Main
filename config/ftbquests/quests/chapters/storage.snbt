@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["4138D0D9B6F11604"]
 			description: ["&4&owork in progress&r&r"]
 			icon: "minecraft:magma_block"
 			id: "1CBDCC784C114148"
@@ -284,6 +285,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["6CDE2D6E743FAAA5"]
 			description: ["&4&owork in progress&r&r"]
 			icon: "minecraft:lava_bucket"
 			id: "25205D8CDA01C923"
