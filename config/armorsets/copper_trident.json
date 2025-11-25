@@ -1,0 +1,19 @@
+{
+  "armorSetName": "copper_trident",
+  "performanceMode": false,
+  "mainHand": {
+    "itemKey": "kubejs:copper_trident"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "irons_spellbooks:thunderstorm",
+      "value": 0.0,
+      "interactionType": "attack",
+      "interactionDuration": 100,
+      "percentageChance": 20
+      
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

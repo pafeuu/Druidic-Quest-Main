@@ -213,6 +213,14 @@ ItemEvents.tooltip( tooltip => {
     }
   })
 
+  tooltip.addAdvanced("kubejs:copper_trident", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.gold('20% chance to apply Thunderstorm on hit'))
+    }
+  })
+
   tooltip.addAdvanced("kubejs:iron_scythe", (item, advanced, text) => {
     if (!tooltip.shift) {
       text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
