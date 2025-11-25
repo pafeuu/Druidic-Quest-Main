@@ -2,6 +2,8 @@ ServerEvents.recipes(e => {
 
     const cooking = e.recipes.farmersdelight.cooking
 
+    const cutting = e.recipes.farmersdelight.cutting
+
     cooking(["honey_bottle",
         "vintagedelight:roasted_peanut",
         "vintagedelight:roasted_peanut",
@@ -207,4 +209,44 @@ ServerEvents.recipes(e => {
     JamsSmallFruit('vintagedelight:gearo_berry_mason_jar',"vintagedelight:gearo_berry","vintagedelight:cooking/gearo_berry_jam_jar")
     JamsSmallFruit('vintagedelight:pepper_jam_mason_jar',"#forge:vegetables/pepper","vintagedelight:cooking/pepper_jam_jar")
 
+    e.shapeless("sob:pbnj",["bread","#forge:jams","vintagedelight:nut_mash_bottle"]).id("sob:crafting/pbnj")
+    e.shapeless("2x sob:ants_log",["2x sob:asparagus","2x sob:dried_berries","vintagedelight:nut_mash_bottle"]).id("sob:crafting/ants_log")
+
+    e.remove({id:"vintagedelight:fermenting/vinegar_from_jam_bottles"})
+    e.custom({
+        "type": "vintagedelight:fermenting",
+        "processingTime": 1200,
+        "ingredients": [
+            {"tag": "forge:jams"},
+            {"tag": "c:mushrooms"}
+        ],
+        "output": {
+            "count": 1,
+            "item": "vintagedelight:vinegar_mason_jar"
+        },
+        "secondaryOutput": {
+            "count": 1,
+            "item": "vintagedelight:organic_mash"}
+    }).id("vintagedelight:fermenting/vinegar_from_jam")
+
+    cutting("create:dough","#c:tools/knives","3x kubejs:cookie_dough")
+    cutting("vintagedelight:oat","#c:tools/knives","farmersdelight:straw").id("vintagedelight:cutting/oat_cutting")
+    
+
+    function Cookies(cookie,addition,id)
+    {
+        e.shapeless("2x "+cookie,[addition,"sugar","2x kubejs:cookie_dough"]).id(id)
+    }
+
+    e.remove({id:"quark:tweaks/crafting/utility/bent/cookie"})
+    Cookies("minecraft:cookie","cocoa_beans","minecraft:cookie")
+    Cookies("vintagedelight:oatmeal_cookie","vintagedelight:raw_oats","vintagedelight:oatmeal_cookie")
+    Cookies("arsdelight:source_berry_cookie","ars_nouveau:sourceberry_bush","arsdelight:source_berry_cookie")
+    Cookies("fruitsdelight:persimmon_cookie","fruitsdelight:persimmon","fruitsdelight:persimmon_cookie")
+    Cookies("fruitsdelight:lemon_cookie","fruitsdelight:lemon","fruitsdelight:lemon_cookie")
+    Cookies("fruitsdelight:cranberry_cookie","fruitsdelight:cranberry","fruitsdelight:cranberry_cookie")
+    Cookies("fruitsdelight:bayberry_cookie","fruitsdelight:bayberry","fruitsdelight:bayberry_cookie")
+    Cookies("farmersdelight:sweet_berry_cookie","minecraft:sweet_berries","farmersdelight:sweet_berry_cookie")
+    Cookies("farmersdelight:honey_cookie","honey_bottle","farmersdelight:honey_cookie")
+    
 })
