@@ -1,4 +1,17 @@
+
+
 ServerEvents.recipes(event=>{
+
+	function Fuel(input, HowManyItemsItSmelts)
+	{
+		event.recipes.mbd2.alloying().duration(HowManyItemsItSmelts*205).inputItems(input).isFuel(true)
+	}
+
+	Fuel("blaze_powder",0.25)
+	Fuel("blaze_rod",0.5)
+	Fuel("ars_nouveau:fire_essence",4)
+	Fuel("kubejs:sunbird_feather",16)
+	
 
 	function spellstone(element,output)
 	{

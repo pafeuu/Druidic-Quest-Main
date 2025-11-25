@@ -12,4 +12,5 @@ ServerEvents.recipes(event=>{
             "result": "kubejs:blast_brick"
         }
     )
+
 })
