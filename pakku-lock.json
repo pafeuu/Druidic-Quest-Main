@@ -2234,6 +2234,43 @@
             ]
         },
         {
+            "pakku_id": "LtPLV71NKxRpAGLx",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "construction-wand"
+            },
+            "name": {
+                "curseforge": "Construction Wand"
+            },
+            "id": {
+                "curseforge": "399558"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "constructionwand-1.20.1-2.11.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4684/54/constructionwand-1.20.1-2.11.jar",
+                    "id": "4684054",
+                    "parent_id": "399558",
+                    "hashes": {
+                        "sha1": "80bd5223cd8984dc1038cb9f2d1cb6b97f31998a",
+                        "md5": "e17b0f6b4fa378d6750a9030a5aca9e0"
+                    },
+                    "required_dependencies": [],
+                    "size": 210312,
+                    "date_published": "2023-08-05T20:02:14.447Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "gYkO0pB7XdPFfrHB",
             "pakku_links": [
                 "qzhLVATXboQgNsUg"
@@ -3146,43 +3183,6 @@
             ]
         },
         {
-            "pakku_id": "DFG8hPLaA3Y8dVcp",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "effortless-building"
-            },
-            "name": {
-                "curseforge": "Effortless Building"
-            },
-            "id": {
-                "curseforge": "302113"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "effortlessbuilding-1.20.1-3.10.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6330/928/effortlessbuilding-1.20.1-3.10.jar",
-                    "id": "6330928",
-                    "parent_id": "302113",
-                    "hashes": {
-                        "sha1": "f71f32238e9d08e71b95941d8f69740d245f2a6a",
-                        "md5": "a57660341d13ed1cc5d4f1dae9f79e20"
-                    },
-                    "required_dependencies": [],
-                    "size": 2285317,
-                    "date_published": "2025-03-22T10:14:13.603Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "X8CscfVNOydvyDRo",
             "type": "MOD",
             "slug": {
@@ -3294,45 +3294,6 @@
                     ],
                     "size": 69476,
                     "date_published": "2024-10-28T22:30:06.733Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "pwrw7xS4cgOtxg3k",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "endremastered"
-            },
-            "name": {
-                "curseforge": "End Remastered [NeoForge/Fabric]"
-            },
-            "id": {
-                "curseforge": "404183"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "endrem_forge-5.3.3-R-1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.1",
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5598/990/endrem_forge-5.3.3-R-1.20.1.jar",
-                    "id": "5598990",
-                    "parent_id": "404183",
-                    "hashes": {
-                        "sha1": "b4df41de8439e834a493fe59842709ef33ecfa82",
-                        "md5": "1de1aa97b353be8fe243f3a60cfc902e"
-                    },
-                    "required_dependencies": [],
-                    "size": 889634,
-                    "date_published": "2024-08-05T15:49:52.210Z"
                 }
             ]
         },
@@ -6455,6 +6416,36 @@
                     "required_dependencies": [],
                     "size": 37178,
                     "date_published": "2024-02-15T10:46:05.407Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dfk4JNggCmzJQjag",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "modded-omelet"
+            },
+            "name": {
+                "curseforge": "Modded Omelet - Modern Spawn Eggs"
+            },
+            "id": {
+                "curseforge": "1296468"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Modded Omelet_1_21_1.zip",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7086/350/Modded Omelet_1_21_1.zip",
+                    "id": "7086350",
+                    "parent_id": "1296468",
+                    "hashes": {
+                        "sha1": "3838f2dd76163559e5ff3a44c2cdeb8136158811",
+                        "md5": "96eef2e044fe16b29ec0ae0180f16623"
+                    },
+                    "required_dependencies": [],
+                    "size": 876341,
+                    "date_published": "2025-10-09T12:55:40.683Z"
                 }
             ]
         },
