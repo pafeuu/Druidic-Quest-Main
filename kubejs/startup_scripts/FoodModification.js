@@ -229,7 +229,8 @@ ItemEvents.modification(event=>{
         'sob:cinder_dough',
         'create:dough',
         'farmersdelight:pie_crust',
-        'create:blaze_cake_base']
+        'create:blaze_cake_base',
+        'kubejs:cookie_dough']
     
     Dough.forEach(id => {
         event.modify(id, item => {

@@ -462,30 +462,30 @@ StartupEvents.registry('item', item => {
   item.create('fiery_magic_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("dq:tier2/weapon").tag("dq:tier2/tool")
   item.create('rainbow_magic_feather','sword').tier('netherite').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("dq:tier3/weapon").tag("dq:tier3/tool")
 
-  item.create('copper_pickaxe','pickaxe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool")
-  item.create('copper_sword','sword').tier('copper').tag("minecraft:tools").tag("dq:tier1/weapon")
-  item.create('copper_axe','axe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool")
-  item.create('copper_shovel','shovel').tier('copper').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool")
-  item.create('copper_hoe','hoe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
+  item.create('copper_pickaxe','pickaxe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool").tag("forge:tools/copper")
+  item.create('copper_sword','sword').tier('copper').tag("minecraft:tools").tag("dq:tier1/weapon").tag("forge:tools/copper")
+  item.create('copper_axe','axe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool").tag("forge:tools/copper")
+  item.create('copper_shovel','shovel').tier('copper').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool").tag("forge:tools/copper")
+  item.create('copper_hoe','hoe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool").tag("forge:tools/copper")
   item.create('copper_trident','sword').tier('copper').tag('minecraft:sword').tag("forge:tools/copper").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier1/weapon")
 
-  item.create('bronze_pickaxe','pickaxe').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool")
-  item.create('bronze_shovel','shovel').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool")
-  item.create('bronze_hoe','hoe').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
+  item.create('bronze_pickaxe','pickaxe').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool").tag("forge:tools/bronze")
+  item.create('bronze_shovel','shovel').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool").tag("forge:tools/bronze")
+  item.create('bronze_hoe','hoe').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool").tag("forge:tools/bronze")
 
-  item.create('lead_pickaxe','pickaxe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool")
-  item.create('lead_sword','sword').tier('lead').tag("minecraft:tools").tag("dq:tier1/weapon")
-  item.create('lead_axe','axe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool")
-  item.create('lead_shovel','shovel').tier('lead').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool")
-  item.create('lead_hoe','hoe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
+  item.create('lead_pickaxe','pickaxe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool").tag("forge:tools/lead")
+  item.create('lead_sword','sword').tier('lead').tag("minecraft:tools").tag("dq:tier1/weapon").tag("forge:tools/lead")
+  item.create('lead_axe','axe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool").tag("forge:tools/lead")
+  item.create('lead_shovel','shovel').tier('lead').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool").tag("forge:tools/lead")
+  item.create('lead_hoe','hoe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool").tag("forge:tools/lead")
   item.create('lead_waraxe','axe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool").speedBaseline(-3.2).tag("dq:tier1/weapon").attackDamageBaseline(10).tag("forge:tools/lead")
 
-  item.create("silver_knife","farmersdelight:knife").tier('silver').tag("minecraft:tools").tag("forge:tools/knives").tag("dq:tier1/tool")
-  item.create('silver_pickaxe','pickaxe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool")
-  item.create('silver_sword','sword').tier('silver').tag("minecraft:tools").tag("dq:tier1/weapon")
-  item.create('silver_axe','axe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool")
-  item.create('silver_shovel','shovel').tier('silver').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool")
-  item.create('silver_hoe','hoe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
+  item.create("silver_knife","farmersdelight:knife").tier('silver').tag("minecraft:tools").tag("forge:tools/knives").tag("dq:tier1/tool").tag("forge:tools/silver")
+  item.create('silver_pickaxe','pickaxe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool").tag("forge:tools/silver")
+  item.create('silver_sword','sword').tier('silver').tag("minecraft:tools").tag("dq:tier1/weapon").tag("forge:tools/silver")
+  item.create('silver_axe','axe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool").tag("forge:tools/silver")
+  item.create('silver_shovel','shovel').tier('silver').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool").tag("forge:tools/silver")
+  item.create('silver_hoe','hoe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool").tag("forge:tools/silver")
   item.create("silver_katana","sword").tier('silver').tag("minecraft:tools").tag("dq:tier1/weapon").tag("dq:tier1/tool").speedBaseline(-2.2).tag('forge:tools/silver')
 
   item.createCustom('primitive_mining_hammer',() => new $HammerItem('primitive', new $ItemProperties()))
@@ -524,6 +524,12 @@ StartupEvents.registry('item', item => {
   item.create('primitive_chisel').maxDamage(16).unstackable().tag("forge:tools/chisels").tag("dq:tier0/tool").tag("forge:tools")
   item.create('basic_chisel').maxDamage(128).tag("forge:tools/chisels").tag("dq:tier2/tool").unstackable().tag("forge:tools")
 
+  ///=======================================================Seeds======================================================
+
+  item.create('carrot_seeds')
+  item.create('potato_seeds')
+  item.create('onion_seeds')
+  item.create('peanut_seeds')
   ///==========================================================ARMOR====================================================
 
   item.create('copper_helmet','helmet').tier('copper').tag("dq:tier1/armor")
@@ -552,7 +558,10 @@ StartupEvents.registry('item', item => {
   item.create('cactus_boots','boots').tier('cactus').tag("dq:tier0/armor")
   
   ///===================================================FOOD===========================================================
-
+  item.create("cookie_dough").tag("dq:tier0/component")
+  item.create("recall_potion").food(food=>{
+    food.hunger(1).saturation(1).effect("minecraft:nausea",40,0,1)
+  })
   item.create("cut_onions").displayName("Cut Onions").food(food=>{
     food.hunger(4).saturation(1).fastToEat().effect("alexsmobs:mosquito_repellent",3000,0,1)})
     
