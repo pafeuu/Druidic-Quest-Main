@@ -2,8 +2,9 @@ ServerEvents.recipes(event=>{
 
     event.recipes.create.mixing("immersiveengineering:redstone_acid",[
     "2x minecraft:redstone_block",
-    "2x thermal:sulfur",
-    "forbidden_arcanus:arcane_crystal_dust"])
+    "2x thermal:sulfur_dust",
+    "forbidden_arcanus:arcane_crystal_dust",
+    Fluid.of('minecraft:water', 1000)]).heated()
 
     event.custom({
         "type": "immersiveengineering:mixer",
@@ -34,4 +35,16 @@ ServerEvents.recipes(event=>{
             "fluid": "immersiveengineering:redstone_acid"
         }
     })
+
+    event.recipes.create.mixing("forbidden_arcanus:corrupt_soul",[
+    "forbidden_arcanus:soul",
+    "forbidden_arcanus:rune",
+    Fluid.of("sophisticatedcore:xp_still", 2000)]).heated()
+
+    event.recipes.create.mixing("forbidden_arcanus:enchanted_soul",[
+    "forbidden_arcanus:corrupt_soul",
+    "forbidden_arcanus:rune",
+    Fluid.of("sophisticatedcore:xp_still", 4000)]).heated()
+
+    
 })

@@ -1282,6 +1282,20 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 	
+	event.shaped("wizards_reborn:experience_totem",
+		[
+			"XAX",
+			"XMX",
+			"XPX"
+		],
+		{
+			X: "forbidden_arcanus:xpetrified_orb",
+			A: "minecraft:amethyst_cluster",
+			M: "kubejs:basic_magic_machine",
+			P: "wizards_reborn:arcane_pedestal"
+		}
+	).id("wizards_reborn:arcane_workbench/experience_totem")
+
 	event.shaped("simplemagnets:basic_demagnetization_coil",
 		[
 			"RBR",
@@ -3167,7 +3181,7 @@ ServerEvents.recipes(event => {
 				M: "kubejs:basic_magic_machine",
 				B: "#forge:storage_blocks/source"
 			}
-		)
+		).id("kubejs:poop3")
 	
 	event.remove({id:'ars_nouveau:rotating_turret_to_basic_spell_turret'})
 		
@@ -3182,7 +3196,7 @@ ServerEvents.recipes(event => {
 				G: "#forge:gears/stone",
 				M: "ars_nouveau:basic_spell_turret"
 			}
-		)
+		).id("kubejs:poop2")
 		
 
 	event.shaped('ars_nouveau:spell_turret',
@@ -3196,7 +3210,7 @@ ServerEvents.recipes(event => {
 				M: "ars_nouveau:basic_spell_turret",
 				X: 'forbidden_arcanus:xpetrified_orb'
 			}
-		)
+		).id("kubejs:poop1")
 		
 	
 
@@ -3212,8 +3226,8 @@ ServerEvents.recipes(event => {
 				H: 'supplementaries:hourglass',
 				R: "create:pulse_repeater"
 			}
-		)
-
+		).id("kubejs:poop")
+	
 	event.shaped("thermal:filter_attachment",
 		[ 
 			"ISI",
@@ -3794,6 +3808,21 @@ ServerEvents.recipes(event => {
 	
 	
 	///======================================== Tier 3 Machines =======================================================================
+
+	event.shaped("mbd2:alloy_kiln",
+		[
+			"BFB",
+			"BXB",
+			"BKB"
+		],
+		{
+			B: "#forge:plates/bronze",
+			F: "ars_nouveau:fire_essence",
+			X: "minecraft:blast_furnace",
+			K: "immersiveengineering:alloybrick"
+		}
+	)
+	
 	event.shaped("naturesaura:conversion_catalyst",
 		[
 			"PSP",

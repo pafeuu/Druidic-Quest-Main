@@ -180,4 +180,14 @@ ServerEvents.recipes(event=>
     TemplatesRecycling("kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_ingot","astrological:triphylite")
     TemplatesRecycling("kubejs:etherium_upgrade_smithing_template","deep_aether:squall_plate","astrological:light_jade")
     TemplatesRecycling("deep_aether:stratus_smithing_template","aether:enchanted_gravitite","aether:holystone")
+
+    event.recipes.mbd2.recycling()
+        .inputItems("quark:forgotten_hat")
+        .outputItems("4x leather")
+        .duration(200)
+
+    event.recipes.mbd2.recycling()
+        .inputItems("shield")
+        .outputItems("2x create:iron_sheet")
+        .duration(200)
 })

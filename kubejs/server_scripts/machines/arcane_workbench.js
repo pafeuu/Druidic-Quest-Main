@@ -145,7 +145,7 @@ ServerEvents.recipes(event=>{
         "item": "forbidden_arcanus:xpetrified_orb"
         },
         "C":{
-        "item": "minecraft:amethyst_cluster"    
+        "item": "wizards_reborn:experience_totem"    
         }
     },
     "output": {
