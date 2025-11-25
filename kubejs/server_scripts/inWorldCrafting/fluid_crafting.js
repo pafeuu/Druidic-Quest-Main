@@ -87,5 +87,12 @@ ServerEvents.recipes(event=>{
         {tag:"c:eggs"},
     ],ParticleSuccess,SoundEffectWaterSplash)
 
+    event.remove({output:"vintagedelight:oat_dough"})
+    ItemFluidCrafting("water",2,"vintagedelight:oat_dough",[
+        {item:"vintagedelight:raw_oats"},
+        {item:"vintagedelight:raw_oats"},
+        {tag:"c:eggs"},
+    ],ParticleSuccess,SoundEffectWaterSplash)
+
     event.remove([{id:"immersiveengineering:mixer/redstone_acid"},{id:"immersiveengineering:crafting/redstone_acid"}])
 })
