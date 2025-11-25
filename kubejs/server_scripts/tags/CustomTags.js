@@ -3,8 +3,46 @@ ServerEvents.tags("item",e=>{
   e.add("forge:vegetables/pepper",[
     "mynethersdelight:bullet_pepper",
     "vintagedelight:ghost_pepper"])
-    
-    e.add("dq:generators/source",[
+  
+  e.add("dq:soul_harvester",[
+    'naturesaura:depth_sword',
+    'naturesaura:depth_axe',
+    'forbidden_arcanus:mystical_dagger',
+    'kubejs:sacrificial_dagger',
+  ])
+
+  e.add("forge:jams",[
+    'fruitsdelight:pear_jelly',
+    'fruitsdelight:hawberry_jelly',
+    'fruitsdelight:melon_jelly',
+    'fruitsdelight:persimmon_jelly',
+    'vintagedelight:pepper_jam_mason_jar',
+    'arsdelight:activated_bastion_jam',
+    'arsdelight:activated_mendosteen_jam',
+    'arsdelight:neutralized_bombegrante_jam',
+    'arsdelight:neutralized_frostaya_jam',
+    'fruitsdelight:chorus_jelly',
+    'fruitsdelight:fig_jelly',
+    'fruitsdelight:hamimelon_jelly',
+    'fruitsdelight:glowberry_jelly',
+    'fruitsdelight:lemon_jelly',
+    'fruitsdelight:cranberry_jelly',
+    'fruitsdelight:blueberry_jelly',
+    'fruitsdelight:apple_jelly',
+    'fruitsdelight:mangosteen_jelly',
+    'fruitsdelight:sweetberry_jelly',
+    'fruitsdelight:kiwi_jelly',
+    'fruitsdelight:pineapple_jelly',
+    'vintagedelight:gearo_berry_mason_jar',
+    'arsdelight:source_berry_jam',
+    'fruitsdelight:orange_jelly',
+    'fruitsdelight:durian_jelly',
+    'fruitsdelight:bayberry_jelly',
+    'fruitsdelight:mango_jelly',
+    'fruitsdelight:lychee_jelly',
+    'fruitsdelight:peach_jelly'])
+
+  e.add("dq:generators/source",[
     'ars_nouveau:alchemical_sourcelink',
     'ars_nouveau:vitalic_sourcelink',
     'ars_nouveau:mycelial_sourcelink',

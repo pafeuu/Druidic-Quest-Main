@@ -197,9 +197,6 @@ ServerEvents.tags('item', event => {
 
   tooltier('minecraft:wooden','flint')
   tooltier('minecraft:stone','stone')
-  tooltier('kubejs:copper','copper')
-  tooltier('kubejs:silver','silver')
-  tooltier('kubejs:lead','lead')
   
   tooltier('naturesaura:infused_iron','botanist')
   tooltier('aether:zanite','zanite')
