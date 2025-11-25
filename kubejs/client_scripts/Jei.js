@@ -108,5 +108,9 @@ JEIEvents.information(event => {
     event.addItem("kubejs:sunbird_feather",["Periodically shed by the Sunbird"])
 
     event.addItem("mynethersdelight:ghasta",["Drops from a ghast when killed with a knife"])
+
+    event.addItem("deep_aether:medal_of_honor",["Drops from Valkyrie Queen after deafeating her without taking a single hit"])
+
+    event.addItem([['forbidden_arcanus:corrupt_soul', 'forbidden_arcanus:soul', 'forbidden_arcanus:enchanted_soul'],["Drops from certain mobs when using soul harvester weapon or holding bejeweled crucifix in the offhand"]])
     
   })

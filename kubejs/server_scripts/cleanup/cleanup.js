@@ -11,6 +11,19 @@ var wood_TF_no_mangrove = ['canopy','twilight_oak','time','transformation','mini
 
 global.nukelist = ["twigs:calcite_wall",
     "twigs:tuff_wall",
+	'vintagedelight:sweet_berry_mason_jar',
+	'brewinandchewin:apple_jelly',
+	'vintagedelight:apple_sauce_mason_jar',
+	'vintagedelight:apple_sauce_bottle',
+	'brewinandchewin:sweet_berry_jam',
+	'brewinandchewin:glow_berry_marmalade',
+	'sob:peanut_butter',
+	'sob:pepper_jelly',
+	'vintagedelight:pepper_jam_bottle',
+	'vintagedelight:glow_berry_jam_bottle',
+	'vintagedelight:sweet_berry_jam_bottle',
+	'vintagedelight:gearo_berry_jam_bottle',
+	'vintagedelight:glow_berry_mason_jar',
 	"ancient_aether:valkyrum_ore",
 	'forbidden_arcanus:obsidian_with_iron',
     "twigs:calcite_stairs",
@@ -314,7 +327,10 @@ global.nukelist = ["twigs:calcite_wall",
 	'forbidden_arcanus:zombie_arm',
 	'forbidden_arcanus:shiny_zombie_arm',
 	'forbidden_arcanus:draco_arcanus_staff',
-	'forbidden_arcanus:draco_arcanus_scepter'
+	'forbidden_arcanus:draco_arcanus_scepter',
+	"immersiveengineering:deepslate_ore_aluminum",
+	"immersiveengineering:deepslate_ore_uranium",
+	"thermal:deepslate_sapphire_ore"
 	/*'create:factory_gauge',
 	'create:redstone_requester',
 	'create:stock_link',
@@ -1324,9 +1340,7 @@ ServerEvents.recipes(event => {
 	WaystoneVariants("mossy_","moss_block")
 	WaystoneVariants("end_stone_","end_stone")
 	WaystoneVariants("blackstone_","blackstone")
-	///============================ misc
-
-	event.shapeless("2x green_dye",["blue_dye","yellow_dye"])
+	
 
 	
 })

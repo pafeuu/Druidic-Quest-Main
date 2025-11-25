@@ -346,13 +346,14 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("quark:seed_pouch",Text.green("Shift-Right Click to plant in a 3x3!"))
 
   tooltip.add("ars_nouveau:experience_gem",Text.green("Grants 3 experience points!"))
+  tooltip.add("minecraft:experience_bottle",Text.green("Grants between 3 to 11 experience points!"))
   tooltip.add("ars_nouveau:greater_experience_gem",Text.green("Grants 12 experience points!"))
   tooltip.add("create:experience_nugget",Text.green("Grants 3 experience point!"))
   tooltip.add("sob:exp_candy",Text.green("Grants 10 experience point!"))
   tooltip.add("sob:bustling_brew",Text.green("Grants 50 experience point!"))
   tooltip.add("create_sa:heap_of_experience",Text.green("Grants 12 experience points!"))
-  tooltip.add("forbidden_arcanus:xpetrified_orb",[Text.green("Grants random amount of experience points!"),Text.blue("Crafting ingredient")])
-
+  tooltip.add("forbidden_arcanus:xpetrified_orb",[Text.green("Grants 91 experience points!")])
+  tooltip.add("#dq:soul_harvester"[Text.red("Harvests souls")])
   
   tooltip.add([global.nukelist],[Text.red("Item disabled"),Text.red("Report to the modpack dev if you got this")])
   tooltip.add("kubejs:recipe_changed",Text.red("This recipe has been changed! Check EMI for more information!"))

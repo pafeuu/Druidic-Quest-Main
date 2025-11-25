@@ -3326,11 +3326,20 @@ Patch 0.3.2.1
 ### Added ResourcePacks:
     -Modded Omelete
 
+### Loot:
+    -Deepslate Ores now drop extra resources
+    -Buffed Lich Tower Chest Loot
+    -Nerfed for Xpetrified Ore
+
 ### New Items:
     -Cookie Dough
+    -Alloy Kiln
 
 ### Removed Items:
     -Removed 13 food items
+    -Bauxite Deepslate Ore
+    -Uranium Deepslate Ore
+    -Sapphire Deepslate Ore
 
 ### Recipes:
     -Changed for Jams and Jellies
@@ -3342,6 +3351,16 @@ Patch 0.3.2.1
     -Added for recycling forgotten hat
     -Added for recycling shield
     -Changed for the Trowel
+    -Changed for raw oats
+    -Changed for Experience Crystal
+    -Added for Corrupt Souls
+    -Added for Enchanted Souls
+    -Fixed for Redstone Acid in the mechanical mixer
+    -Added for evaporating blocks of charcoal, coal and coal coke
+
+### Textures:
+    -Changed for trowel
+    -Added for Nutrition Charm
 
 ### Item Balance:
     -Rebalanced the Arcane Tools
@@ -3350,6 +3369,8 @@ Patch 0.3.2.1
     -Xpetrified Orbs now stack to 64
     -Steeleaf tools and armor now come with mending by default
     -Chef's Hats now grant bonuses when worn
+    -Buffed durability of steeleaf tools
+    -Fixed the lack of movement speed bonus on silver knife
 
 ### Mob Balance:
     -Twilight Forest's Beetles no longer spawn with any items in their hands
@@ -3357,6 +3378,23 @@ Patch 0.3.2.1
 
 ### Other:
     -You can now get 15 hearts instead of 10 from eating unique foods(Requires server config reset)
-    -Heart gain is not 20% faster(Requires server config reset)
+    -Heart gain is now 20% faster(Requires server config reset)
     -You cant get enchanted stack upgrades in hollow hills anymore
     -Rich soil can now be mined with Vein Mining enchantment
+    -Forbidden Arcanus souls should no longer spawn in world
+    -Fixed Primitive Shield blocking animation in first person
+
+## Patch 3.3.1
+
+### Recipes:
+    -Fixed Vinegar Recipe
+    -Spell turret recipes are no longer hidden
+    
+### Quests:
+    -Fixed Dependencies on some of the Automation and Ultimate Collector Quests
+
+
+# Patch 3.3.2
+
+### Mob Balance:
+    -Nerfed Stoneling's resistance to physical damage and buffed the blood resistance
