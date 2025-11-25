@@ -94,16 +94,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "endrem:rogue_eye"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
           "name": "kubejs:enchanting_rune_of_nature"
         }
       ],

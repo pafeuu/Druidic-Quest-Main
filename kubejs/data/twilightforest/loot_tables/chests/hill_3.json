@@ -171,16 +171,6 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "enchantments": {
-                "minecraft:efficiency": 1.0,
-                "minecraft:fortune": 1.0
-              },
-              "function": "minecraft:set_enchantments"
-            }
-          ],
           "name": "sophisticatedstorage:stack_upgrade_tier_2",
           "weight": 75
         },

@@ -21,11 +21,6 @@
           },
           {
             "type": "minecraft:item",
-            "name": "endrem:undead_soul",
-            "weight": 1
-          },
-          {
-            "type": "minecraft:item",
             "name": "kubejs:shapeshifting_root",
             "weight": 15
           },
