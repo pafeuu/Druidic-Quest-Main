@@ -1,7 +1,7 @@
 [
     {
         "mob": "forbidden_arcanus:lost_soul",
-        "mincount": 5,
+        "mincount": 0,
         "result": "deny"
     },
     {
