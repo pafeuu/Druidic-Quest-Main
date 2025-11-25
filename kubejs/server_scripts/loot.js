@@ -238,55 +238,6 @@ LootJS.modifiers((event) => {
         .randomChance(0.05)
         .addLoot("sophisticatedstorage:upgrade_base");
 
-    ///============================================= END REMASTERED
-
-    event.addLootTypeModifier(LootType.CHEST)
-        .biome("#minecraft:is_beach") 
-        .randomChance(0.025)
-        .addLoot("endrem:black_eye");
-
-    event.addLootTypeModifier(LootType.CHEST)
-        .biome("#minecraft:is_deep_ocean") 
-        .randomChance(0.025)
-        .addLoot("endrem:exotic_eye");
-
-    event.addLootTypeModifier(LootType.CHEST)
-        .biome("#minecraft:is_forest") 
-        .randomChance(0.025)
-        .addLoot("endrem:corrupted_eye");
-
-    event.addLootTypeModifier(LootType.CHEST)
-        .biome("#forge:is_cave") 
-        .randomChance(0.025)
-        .addLoot("endrem:lost_eye");
-
-     event.addLootTypeModifier(LootType.CHEST)
-        .anyDimension("minecraft:the_nether") 
-        .randomChance(0.025)
-        .addLoot("endrem:nether_eye");
-        
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyDimension("minecraft:the_nether") 
-        .randomChance(0.025)
-        .addLoot("endrem:cursed_eye");
-
-    event.addLootTypeModifier(LootType.CHEST)
-        .biome("#forge:is_sandy") 
-        .randomChance(0.025)
-        .addLoot("endrem:old_eye");
-
-    event.addLootTypeModifier(LootType.CHEST)
-        .biome("#minecraft:is_jungle") 
-        .randomChance(0.025)
-        .addLoot("endrem:rouge_eye");
-           
-    event.addLootTableModifier(/.*minecraft:chests\/village.*/)
-        .randomChance(0.025)
-        .addLoot("endrem:evil_eye");
-
-    event.addLootTableModifier(/.*minecraft:chests\/ancient.*/)
-        .randomChance(0.085)
-        .addLoot("endrem:cryptic_eye");
     //======================================================= Custom Stuff
 
     event.addLootTypeModifier([LootType.CHEST])
@@ -313,6 +264,26 @@ LootJS.modifiers((event) => {
          })
          .addLoot("kubejs:mittens")
      //================================================ MOBS
+    
+    event.addEntityLootModifier(["minecraft:pillager","minecraft:vindicator","minecraft:evoker"])
+    .or((or) => {
+            or.matchMainHand("#dq:soul_harvester").matchOffHand("kubejs:bejeweled_crucifix");
+        })
+    .addAlternativesLoot(
+            LootEntry.of("forbidden_arcanus:enchanted_soul").when((c) => c.randomChance(0.1)),
+            LootEntry.of("forbidden_arcanus:corrupt_soul").when((c) => c.randomChance(0.25)),
+            LootEntry.of("forbidden_arcanus:soul").when((c) => c.randomChance(0.5)),
+        )
+
+    event.addEntityLootModifier(["alexsmobs:soul_vulture","quark:wraith","twilightforest:wraith"])
+    .or((or) => {
+            or.matchMainHand("#dq:soul_harvester").matchOffHand("kubejs:bejeweled_crucifix");
+        })
+    .addAlternativesLoot(
+            LootEntry.of("forbidden_arcanus:enchanted_soul").when((c) => c.randomChance(0.3)),
+            LootEntry.of("forbidden_arcanus:corrupt_soul").when((c) => c.randomChance(0.6)),
+            LootEntry.of("forbidden_arcanus:soul").when((c) => c.randomChance(1)),
+        )
 
     event.addEntityLootModifier("minecraft:zombie")
         .randomChance(0.0125)
@@ -334,6 +305,15 @@ LootJS.modifiers((event) => {
     
     //================================================ BLOCKS
     
+    event.addBlockLootModifier("forbidden_arcanus:xpetrified_ore")
+    .removeLoot(Ingredient.all)
+    .addAlternativesLoot(
+            LootEntry.of("2x create:experience_nugget").when((c) => c.randomChance(0.5)),
+            LootEntry.of("4x create:experience_nugget").when((c) => c.randomChance(0.5)),
+            LootEntry.of("6x create:experience_nugget").when((c) => c.randomChance(0.5)),
+            LootEntry.of("8x create:experience_nugget").when((c) => c.randomChance(0.5)),
+            LootEntry.of("forbidden_arcanus:xpetrified_orb").when((c) => c.randomChance(1)),
+    )
     event.addBlockLootModifier("#forge:tall_grass")
         .matchMainHand("#forge:tools/knives")
         .randomChanceWithEnchantment("minecraft:looting", [0.1, 0.15, 0.2, 0.25]) 
@@ -464,5 +444,39 @@ LootJS.modifiers((event) => {
     ])
     .addLoot("kubejs:overworld_key")
 
+
+    ///=======================================Deepslate Ores
+
+    DeepslateOres('minecraft:deepslate_iron_ore',"raw_iron")
+    DeepslateOres('minecraft:deepslate_copper_ore',"raw_copper")
+    DeepslateOres('minecraft:deepslate_gold_ore',"raw_gold")
+    DeepslateOres('minecraft:deepslate_coal_ore',"raw_iron")
+    DeepslateOres('minecraft:deepslate_redstone_ore',"5x redstone_dust")
+    DeepslateOres('minecraft:deepslate_diamond_ore',"diamond")
+    DeepslateOres('minecraft:deepslate_emerald_ore',"emerald")
+    DeepslateOres('minecraft:deepslate_lapis_ore',"7x lapis_lazuli")
+    DeepslateOres('create:deepslate_zinc_ore',"create:raw_zinc")
+    DeepslateOres('thermal:deepslate_sulfur_ore',"4x thermal:sulfur")
+    DeepslateOres('thermal:deepslate_niter_ore',"4x thermal:niter")
+    DeepslateOres('thermal:deepslate_cinnabar_ore',"2x thermal:cinnabar")
+    DeepslateOres('thermal:deepslate_apatite_ore',"7x thermal:apatite")
+    DeepslateOres('wizards_reborn:deepslate_arcanum_ore',"wizards_reborn:arcanum")
+    DeepslateOres('thermal:deepslate_tin_ore',"thermal:raw_tin")
+    DeepslateOres('thermal:deepslate_lead_ore',"thermal:raw_lead")
+    DeepslateOres('thermal:deepslate_silver_ore',"thermal:raw_silver")
+    DeepslateOres('thermal:deepslate_nickel_ore',"thermal:raw_nickel")
+    
+        
+    
+    function DeepslateOres(ore,drop)
+    {
+        event.addBlockLootModifier(ore)
+        .randomChanceWithEnchantment("minecraft:fortune", [0.5, 0.6, 0.75, 0.9, 1])
+        .randomChanceWithEnchantment("minecraft:silk_touch", [0.5, 0.0])  
+        .addLoot(drop) 
+    }
+           
+    
+    
 
 })
