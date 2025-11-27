@@ -16,6 +16,15 @@ ItemEvents.toolTierRegistry(event => {
     tier.repairIngredient = '#forge:plates/gold'
   })
 
+  event.add('mycelial', tier => {
+    tier.uses = -1
+    tier.speed = 7.0
+    tier.attackDamageBonus = 1.0
+    tier.level = 4
+    tier.enchantmentValue = 24
+    tier.repairIngredient = "c:mushrooms"
+  })
+
   event.add('phoenix', tier => {
     tier.uses = 2048
     tier.speed = 6.0
@@ -460,7 +469,8 @@ StartupEvents.registry('item', item => {
 
   item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("dq:tier1/weapon").tag("dq:tier1/tool")
   item.create('fiery_magic_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("dq:tier2/weapon").tag("dq:tier2/tool")
-  item.create('rainbow_magic_feather','sword').tier('netherite').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("dq:tier3/weapon").tag("dq:tier3/tool")
+  item.create('rainbow_magic_feather','sword').tier('netherite').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("forge:tools/tier3_magic_feather").tag("dq:tier3/weapon").tag("dq:tier3/tool")
+  item.create('cosmic_magic_feather','sword').tier('netherite').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("forge:tools/tier3_magic_feather").tag("dq:tier4/weapon").tag("dq:tier4/tool")
 
   item.create('copper_pickaxe','pickaxe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool").tag("forge:tools/copper")
   item.create('copper_sword','sword').tier('copper').tag("minecraft:tools").tag("dq:tier1/weapon").tag("forge:tools/copper")
@@ -505,6 +515,8 @@ StartupEvents.registry('item', item => {
 
   item.create('the_terraformer','shovel').glow(true).rarity("epic").tier("terraformer").tag("minecraft:tools").tag("dq:tier2/tool")
   
+  item.create('mycelial_hoe','hoe').tier('mycelial').rarity('legendary').tier('mycelial').tag("mincraft:tools").tag('dq:tier3/tool')
+
   item.create('sacrificial_dagger','sword').tier('gold').tag("minecraft:tools").tag("dq:tier1/weapon").tag("dq:tier1/tool").speedBaseline(-2.0).attackDamageBaseline(1)
   
   item.create('primitive_shears',"shears").maxDamage(8).unstackable()

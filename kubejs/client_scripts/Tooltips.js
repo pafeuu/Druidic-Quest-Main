@@ -213,6 +213,14 @@ ItemEvents.tooltip( tooltip => {
     }
   })
 
+  tooltip.addAdvanced("twilightforest:glass_sword", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.gold('Applies Bleeding on hit'))
+    }
+  })
+
   tooltip.addAdvanced("kubejs:copper_trident", (item, advanced, text) => {
     if (!tooltip.shift) {
       text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
@@ -349,6 +357,14 @@ ItemEvents.tooltip( tooltip => {
     }
   })
 
+  tooltip.addAdvanced("kubejs:mycelial_hoe", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.lightPurple("Slowly replenishes hunger and saturation when held"))
+    }
+  })
+
   tooltip.add("elementalcraft:water_mill_wood_saw",Text.red("I can crash the game :("))
   tooltip.add("immersiveengineering:cushion",Text.green("Negates fall damage"))
   tooltip.add("quark:seed_pouch",Text.green("Shift-Right Click to plant in a 3x3!"))
@@ -449,7 +465,8 @@ ItemEvents.tooltip( tooltip => {
     "constructionwand:stone_wand",
     "constructionwand:iron_wand",
     "constructionwand:diamond_wand",
-    "constructionwand:infinity_wand"],
+    "constructionwand:infinity_wand",
+    "kubejs:mycelial_hoe"],
     (item, advanced, text) => {
     text.add(1, Text.of("Unbreakable").blue())
     })
