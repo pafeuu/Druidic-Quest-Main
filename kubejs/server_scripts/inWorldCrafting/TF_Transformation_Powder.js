@@ -27,5 +27,9 @@ ServerEvents.recipes(e=>{
     Transformation("alexsmobs:bison","ancient_aether:fluffalo")
     Transformation("alexsmobs:emu","aether:cockatrice")
     Transformation("minecraft:polar_bear","alexsmobs:grizzly_bear")
+    OneWayTranformation("thermal:blitz","thermal:blizz")
+    OneWayTranformation("thermal:blizz","thermal:basalz")
+    OneWayTranformation("thermal:basalz","blaze")
+    OneWayTranformation("blaze","thermal:blitz")
     
 })
