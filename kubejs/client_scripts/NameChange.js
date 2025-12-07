@@ -10,6 +10,7 @@ ClientEvents.lang("en_us", event => {
 	}
 	tools('wooden','Flint')
 
+    event.renameBlock("aether:altar","Mending Altar")
 	event.renameItem('irons_spellbooks:arcane_essence', 'Mystic Dust')
     event.renameItem('irons_spellbooks:cinder_essence', 'Cinder Dust')
     
