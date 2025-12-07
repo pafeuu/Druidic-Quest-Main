@@ -75,18 +75,6 @@ ServerEvents.recipes(event=>{
           "twilightforest:liveroot",
           "#forge:ingots/iron",
      ],"twilightforest:twilight_oak_sapling")
-     
-     tree_ritual("ars_nouveau:enchanting_apparatus",
-          ["quark:diamond_heart",
-          "#forge:plates/diamond",
-          "#forge:gears/gold",
-          "#forge:gears/gold",
-          "#forge:ingots/source_alloy",
-          "#forge:ingots/source_alloy",
-          "#forge:ingots/source_alloy",
-          "#forge:ingots/source_alloy"],
-          "ars_nouveau:blue_archwood_sapling"
-     )
 
      event.custom({
 		type: "naturesaura:tree_ritual",
@@ -261,7 +249,7 @@ ServerEvents.recipes(event=>{
 
 	tree_ritual("naturesaura:token_fear",
 	[
-          "#forge:gems/niter",
+          "#forge:gems/arcanum",
           "kubejs:basic_token",
           "carved_pumpkin",
           "carved_pumpkin",
@@ -274,7 +262,7 @@ ServerEvents.recipes(event=>{
 
 	tree_ritual("naturesaura:token_anger",
 	[
-          "#forge:gems/sulfur",
+          "#forge:gems/amethyst",
           "kubejs:basic_token",
           "immersive_weathering:vitrified_sand",
           "immersive_weathering:vitrified_sand",

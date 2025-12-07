@@ -90,7 +90,11 @@ ServerEvents.recipes(event => {
             ]
         })  
     }
-
+	
+    MillingWithExtras(1,"minecraft:blaze_powder",3,1,"minecraft:blaze_powder",0.5,'blaze_rod',8,'minecraft:blaze_powder')
+    MillingWithExtras(1,'thermal:basalz_powder',3,1,'thermal:basalz_powder',0.5,'thermal:basalz_rod',8,'thermal:basalz_powder')
+    MillingWithExtras(1,'thermal:blitz_powder',3,1,'thermal:blitz_powder',0.5,'thermal:blitz_rod',8,'thermal:blitz_powder')
+    MillingWithExtras(1,'thermal:blizz_powder',3,1,'thermal:blizz_powder',0.5,'thermal:blizz_rod',8,'thermal:blizz_powder')
     MillingWithExtras(4, "vintagedelight:salt_dust", 6, 1, "coal", 0.9, "wizards_reborn:nether_salt", 4, "wizards_reborn:salt_crushing")
     MillingWithExtras(1, "wizards_reborn:arcanum_dust", 2, 1, "wizards_reborn:arcanum_dust", 0.5, "wizards_reborn:arcanum", 4, "wizards_reborn:shapeless/arcanum_dust")
     event.remove({id:"wizards_reborn:integration/create/crushing/arcanum"})
@@ -144,6 +148,7 @@ ServerEvents.recipes(event => {
     MillingNoExtras(1, 'thermal:diamond_dust', 'diamond', 6, 'thermal:machines/pulverizer/pulverizer_diamond')
     MillingNoExtras(1, 'thermal:lapis_dust', 'lapis_lazuli', 3, 'thermal:machines/pulverizer/pulverizer_lapis')
     MillingNoExtras(1, 'thermal:quartz_dust', 'quartz', 3, 'thermal:machines/pulverizer/pulverizer_quartz')
+    MillingNoExtras(1, "thermal:sulfur_dust", "thermal:sulfur",3,"thermal:machines/pulverizer/pulverizer_sulfur")
 
 
 
@@ -164,12 +169,5 @@ ServerEvents.recipes(event => {
 
 	event.shapeless('sugar', ['sugar_cane','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',2).id('minecraft:sugar_from_sugar_cane')
 
-	event.shapeless('minecraft:blaze_powder', ['blaze_rod','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',8).id('minecraft:blaze_powder')
-
-	event.shapeless('thermal:basalz_powder', ['thermal:basalz_rod','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',8).id('thermal:basalz_powder')
-
-	event.shapeless('thermal:blitz_powder', ['thermal:blitz_rod','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',8).id('thermal:blitz_powder')
-
-	event.shapeless('thermal:blizz_powder', ['thermal:blizz_rod','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',8).id('thermal:blizz_powder')
 
 })

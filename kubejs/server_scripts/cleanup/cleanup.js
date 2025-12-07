@@ -330,7 +330,13 @@ global.nukelist = ["twigs:calcite_wall",
 	'forbidden_arcanus:draco_arcanus_scepter',
 	"immersiveengineering:deepslate_ore_aluminum",
 	"immersiveengineering:deepslate_ore_uranium",
-	"thermal:deepslate_sapphire_ore"
+	"thermal:deepslate_sapphire_ore",
+	'thermal:niter_block',
+	'thermal:niter_ore',
+	'thermal:deepslate_niter_ore',
+	'thermal:niter',
+	'thermal:niter_dust',
+	'vintagedelight:pb_j'
 	/*'create:factory_gauge',
 	'create:redstone_requester',
 	'create:stock_link',
@@ -356,6 +362,17 @@ global.nukelist = ["twigs:calcite_wall",
 ServerEvents.recipes(event => {
 
 	let RemoveById = [
+		"forbidden_arcanus:dragon_scale",
+		"naturesaura:altar/blaze",
+		"toomanyrecipeviewers:/create/kjs/dbwvu0cpsw4h9wxmrrln63nje",
+		"thermal:machines/pulverizer/pulverizer_basalz_rod",
+		"thermal:machines/pulverizer/pulverizer_blizz_rod",
+		"thermal:machines/pulverizer/pulverizer_blitz_rod",
+		"immersiveengineering:crusher/blaze_powder",
+		"mynethersdelight:cutting/bullet_pepper",
+		"mynethersdelight:cutting/balze_rod",
+		"create:crushing/blaze_rod",
+		"thermal:machines/pulverizer/pulverizer_blaze_rod",
 		"thermal:machines/smelter/smelter_sapphire_ore",
 		"quark:tweaks/crafting/utility/misc/charcoal_to_black_dye",
 		"naturesaura:depth_ingot_creation",
@@ -599,8 +616,6 @@ ServerEvents.recipes(event => {
 
 
 	//============================= Dusts
-	event.recipes.create.milling('thermal:quartz_dust','#forge:gems/quartz')
-	event.recipes.create.milling("thermal:sulfur_dust","#forge:gems/sulfur")
 
     ThermalMetals.forEach(id => {
 		event.custom(
