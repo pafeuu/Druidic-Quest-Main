@@ -43,4 +43,20 @@ ServerEvents.recipes(event=>{
         { type: 'item', name: 'chorus_flower' },
         { type: 'item', name: 'kubejs:primitive_alchemical_dust' }
     ],ParticleEnd,SoundEffectTransmutation)
+
+    event.custom({
+        type: "lychee:lightning_channeling",
+        
+        post: [
+            {type: "execute", command:"fill ~-1 ~-1 ~-1 ~1 ~1 ~1 lava replace magma_block", hide:true},
+            {type: "execute", command:"fill ~-1 ~-1 ~-1 ~1 ~1 ~1 kubejs:charged_copper_block replace copper_block", hide:true},
+            {type: "execute", command:"fill ~-1 ~-1 ~-1 ~1 ~1 ~1 kubejs:charged_copper_block replace waxed_copper_block", hide:true},
+            {type: "delay",s:1},
+            {type: "execute", command:"fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:magma_block replace stone", hide:true}
+            
+            
+        ]
+    })
+
+    
 })
