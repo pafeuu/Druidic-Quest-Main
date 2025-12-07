@@ -210,6 +210,7 @@ ServerEvents.tags('item', event => {
   tooltier('forbidden_arcanus:reinforced_obsidian','reinforced_obsidian')
   tooltier('twilightforest:ironwood','ironwood')
   tooltier('twilightforest:steeleaf','steeleaf')
+  tooltier('twilightforest:knightmetal','knightmetal')
   tooltier('wizards_reborn:arcane_wood','arcane_wood')
  
 	tool('kubejs:copper')
