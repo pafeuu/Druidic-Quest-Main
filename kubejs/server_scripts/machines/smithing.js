@@ -96,6 +96,14 @@ ServerEvents.recipes(event=>{
 		"kubejs:knightmetal_upgrade_smithing_template",
 		"vintageimprovements:knightmetal_sheet")
 
+	const KnighmetalTools = ["pickaxe","axe","sword"]
+
+	KnighmetalTools.forEach(type => {
+		
+		event.smithing("twilightforest:knightmetal_"+type,"kubejs:knightmetal_upgrade_smithing_template","kubejs:lead_"+type,"vintageimprovements:knightmetal_sheet")
+		
+	});
+
 	SmithingArmor("twilightforest:steeleaf",
 		"twilightforest:ironwood",
 		"kubejs:steeleaf_upgrade_smithing_template",
