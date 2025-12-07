@@ -346,15 +346,38 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("ars_nouveau:shady_wizard",2,"4x ars_nouveau:bombegranate_pod","4x thermal:copper_coin")
 	event.addTrade("ars_nouveau:shady_wizard",2,"4x ars_nouveau:mendosteen_pod","4x thermal:copper_coin")
 
-	/*event.addTrade("ars_nouveau:shady_wizard",3,"4x thermal:silver_coin",)
-	event.addTrade("ars_nouveau:shady_wizard",3,"4x thermal:silver_coin",)
-	event.addTrade("ars_nouveau:shady_wizard",3,"4x thermal:silver_coin",)*/
+	event.addTrade("ars_nouveau:shady_wizard",3,"8x thermal:silver_coin","arsdelight:chimera_meat")
+	event.addTrade("ars_nouveau:shady_wizard",3,"1x thermal:silver_coin","irons_spellbooks:arcane_essence")
+	
+	event.addTrade("ars_nouveau:shady_wizard",4,"6x thermal:silver_coin","forbidden_arcanus:soul")
+	event.addTrade("ars_nouveau:shady_wizard",4,"12x thermal:gold_coin","arsdelight:chimera_horn")
 
 	event.addTrade("ars_nouveau:shady_wizard",5,"8x thermal:gold_coin","ars_nouveau:music_disc_aria_biblio")
 	event.addTrade("ars_nouveau:shady_wizard",5,"8x thermal:gold_coin","ars_nouveau:music_disc_firel_the_wild_hunt")
 	event.addTrade("ars_nouveau:shady_wizard",5,"8x thermal:gold_coin","ars_nouveau:music_disc_thistle_the_sound_of_glass")
 
-	/*event.addTrade("biomeswevegone:forager")
+	//======================================================FORAGER
+
+	event.addTrade("biomeswevegone:forager",1,"8x vintagedelight:gearo_berry","3x thermal:copper_coin")
+	event.addTrade("biomeswevegone:forager",1,"12x sweet_berries","2x thermal:copper_coin")
+	event.addTrade("biomeswevegone:forager",1,"12x fruitsdelight:hawberry","2x thermal:copper_coin")
+	event.addTrade("biomeswevegone:forager",1,"12x fruitsdelight:cranberry","2x thermal:copper_coin")
+	event.addTrade("biomeswevegone:forager",1,"12x fruitsdelight:bayberry","2x thermal:copper_coin")
+	event.addTrade("biomeswevegone:forager",1,"12x fruitsdelight:blueberry","2x thermal:copper_coin")
+
+	event.addTrade("biomeswevegone:forager",2,"8x thermal:silver_coin","ender_pearl")
+	event.addTrade("biomeswevegone:forager",2,"thermal:silver_coin","2x bone")
+
+	event.addTrade("biomeswevegone:forager",3,"6x thermal:gold_coin","quark:diamond_heart")
+	event.addTrade("biomeswevegone:forager",3,"1x thermal:gold_coin","3x twilightforest:liveroot")
+
+	event.addTrade("biomeswevegone:forager",4,"1x thermal:gold_coin","24x minecraft:mycelium")
+	event.addTrade("biomeswevegone:forager",4,"1x thermal:gold_coin","6x farmersdelight:organic_compost")
+
+	event.addTrade("biomeswevegone:forager",5,"3x thermal:enderium_coin","kubejs:mycelial_hoe")
+	event.addTrade("biomeswevegone:forager",5,"1x thermal:gold_coin","forbidden_arcanus:rune")
+
+	/*
 	event.addTrade("immersiveengineering:electrician")
 	event.addTrade("immersiveengineering:engineer")
 	event.addTrade("immersiveengineering:gunsmith")
