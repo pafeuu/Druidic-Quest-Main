@@ -305,6 +305,9 @@ LootJS.modifiers((event) => {
     
     //================================================ BLOCKS
     
+    event.addLootTypeModifier(LootType.BLOCK)
+    .replaceLoot("stick","twigs:twig")
+    
     event.addBlockLootModifier("forbidden_arcanus:xpetrified_ore")
     .removeLoot(Ingredient.all)
     .addAlternativesLoot(
@@ -446,35 +449,34 @@ LootJS.modifiers((event) => {
 
 
     ///=======================================Deepslate Ores
-
-    DeepslateOres('minecraft:deepslate_iron_ore',"raw_iron")
-    DeepslateOres('minecraft:deepslate_copper_ore',"raw_copper")
-    DeepslateOres('minecraft:deepslate_gold_ore',"raw_gold")
-    DeepslateOres('minecraft:deepslate_coal_ore',"raw_iron")
-    DeepslateOres('minecraft:deepslate_redstone_ore',"5x redstone_dust")
-    DeepslateOres('minecraft:deepslate_diamond_ore',"diamond")
-    DeepslateOres('minecraft:deepslate_emerald_ore',"emerald")
-    DeepslateOres('minecraft:deepslate_lapis_ore',"7x lapis_lazuli")
-    DeepslateOres('create:deepslate_zinc_ore',"create:raw_zinc")
-    DeepslateOres('thermal:deepslate_sulfur_ore',"4x thermal:sulfur")
-    DeepslateOres('thermal:deepslate_niter_ore',"4x thermal:niter")
-    DeepslateOres('thermal:deepslate_cinnabar_ore',"2x thermal:cinnabar")
-    DeepslateOres('thermal:deepslate_apatite_ore',"7x thermal:apatite")
-    DeepslateOres('wizards_reborn:deepslate_arcanum_ore',"wizards_reborn:arcanum")
-    DeepslateOres('thermal:deepslate_tin_ore',"thermal:raw_tin")
-    DeepslateOres('thermal:deepslate_lead_ore',"thermal:raw_lead")
-    DeepslateOres('thermal:deepslate_silver_ore',"thermal:raw_silver")
-    DeepslateOres('thermal:deepslate_nickel_ore',"thermal:raw_nickel")
     
-        
-    
-    function DeepslateOres(ore,drop)
+    function DeepslateOres(ore,drop,count)
     {
         event.addBlockLootModifier(ore)
         .randomChanceWithEnchantment("minecraft:fortune", [0.5, 0.6, 0.75, 0.9, 1])
         .randomChanceWithEnchantment("minecraft:silk_touch", [0.5, 0.0])  
-        .addLoot(drop) 
+        .addLoot(drop)
+        .limitCount([count,count])
     }
+
+    DeepslateOres('minecraft:deepslate_iron_ore',"raw_iron",1)
+    DeepslateOres('minecraft:deepslate_copper_ore',"raw_copper",1)
+    DeepslateOres('minecraft:deepslate_gold_ore',"raw_gold",1)
+    DeepslateOres('minecraft:deepslate_coal_ore',"raw_iron",1)
+    DeepslateOres('minecraft:deepslate_redstone_ore','minecraft:redstone', 5)
+    DeepslateOres('minecraft:deepslate_diamond_ore',"diamond",1)
+    DeepslateOres('minecraft:deepslate_emerald_ore',"emerald",1)
+    DeepslateOres('minecraft:deepslate_lapis_ore',"minecraft:lapis_lazuli",7)
+    DeepslateOres('create:deepslate_zinc_ore',"create:raw_zinc",1)
+    DeepslateOres('thermal:deepslate_sulfur_ore',"thermal:sulfur",4)
+    DeepslateOres('thermal:deepslate_niter_ore',"thermal:niter",4)
+    DeepslateOres('thermal:deepslate_cinnabar_ore',"thermal:cinnabar",2)
+    DeepslateOres('thermal:deepslate_apatite_ore',"thermal:apatite",7)
+    DeepslateOres('wizards_reborn:deepslate_arcanum_ore',"wizards_reborn:arcanum",1)
+    DeepslateOres('thermal:deepslate_tin_ore',"thermal:raw_tin",1)
+    DeepslateOres('thermal:deepslate_lead_ore',"thermal:raw_lead",1)
+    DeepslateOres('thermal:deepslate_silver_ore',"thermal:raw_silver",1)
+    DeepslateOres('thermal:deepslate_nickel_ore',"thermal:raw_nickel",1)
            
     
     
