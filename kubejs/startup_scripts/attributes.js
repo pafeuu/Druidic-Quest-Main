@@ -75,8 +75,13 @@ ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event
 	
 	if (event.itemStack.hasTag("forge:tools/lead") && event.slotType == 'mainhand') {
 					
-		
 		event.addModifier("minecraft:generic.knockback_resistance", new $AttributeModifier(UUID.fromString('11c30003-b205-4f73-b088-c466ffda7a0c'), 'Tool modifier2', 0.5, 'addition'))
+	};
+
+	if (event.itemStack.hasTag("forge:tools/knightmetal") && event.slotType == 'mainhand') {
+		
+		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('55420437-4ad0-4664-92bb-b313b2a87a13'), 'Tool modifier', 0.5, 'addition'))
+		event.addModifier("minecraft:generic.knockback_resistance", new $AttributeModifier(UUID.fromString('11c30003-b205-4f73-b088-c466ffda7a0c'), 'Tool modifier2', 0.75, 'addition'))
 	};
 	 
 

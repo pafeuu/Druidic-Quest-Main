@@ -1,0 +1,13 @@
+{
+  "id": "twilightforest:ice_sword",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:ice_damage",
+          "value": 5,
+          "operation": "ADDITION",
+          "uuid": "a2d485b4-e1f0-4f2c-be56-7e30a8e3d43d"
+      }
+  ],
+  "equipment_slot": "MAINHAND"
+}

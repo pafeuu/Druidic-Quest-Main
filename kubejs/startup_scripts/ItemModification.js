@@ -246,6 +246,16 @@ ItemEvents.modification(event => {
   })
 
   //========================================Swords
+
+  event.modify("twilightforest:knightmetal_sword", item=>{
+    item.maxDamage = 1024
+  })
+
+  event.modify("twilightforest:glass_sword", item=>{
+    item.maxDamage = 512,
+    item.attackSpeed = -2.0,
+    item.attackDamage = 3
+  })
   event.modify('minecraft:iron_sword', item=>{
     item.maxDamage = 512
   })
@@ -303,13 +313,55 @@ ItemEvents.modification(event => {
     item.attackDamage = 3
   })
 
+  event.modify("twilightforest:ice_sword",item=>{
+    item.attackDamage = 3
+  })
+
   event.modify("tide:blazing_swordfish", item=>{
     item.maxDamage = 1024,
     item.attackSpeed = -2.0,
     item.attackDamage = 2
   })
+  ////========================================Gloves
+  function gloves(material,durability)
+  {
+    event.modify("aether:"+material+"_gloves", item=>{
+      item.maxDamage = durability
+    })
+  }
 
+  function otherGloves(mod,material,durability)
+  {
+    event.modify(mod+":"+material+"_gloves", item=>{
+      item.maxDamage = durability
+    })
+  }
+
+  gloves("golden",512)
+  gloves("iron",512)
+  gloves("chain",512)
+  gloves("leather",128)
+  gloves("diamond",2048)
+  gloves("netherite",4096)
+  gloves("zanite",512)
+  otherGloves("deep_aether","skyjade",512)
+  otherGloves("umbral_skies","ironwood",512)
+  otherGloves("umbral_skies","naga",256)
+  otherGloves("umbral_skies","steeleaf",512)
+  otherGloves("umbral_skies","knightmetal",1024)
+  otherGloves("umbral_skies","fiery",1024)
+  
   ////========================================Tools
+
+  const KnighmetalTools = ["pickaxe","axe"]
+
+  KnighmetalTools.forEach(type => {
+    event.modify("twilightforest:knightmetal_"+type, item=>{
+      item.maxDamage = 1024
+      item.digSpeed = 6
+     })
+  });
+  
 
   event.modify("sophisticatedstorage:super_packing_tape", item=>{
     item.maxDamage = 2137
