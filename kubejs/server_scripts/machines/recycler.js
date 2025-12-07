@@ -90,7 +90,7 @@ ServerEvents.recipes(event=>
         .outputItems(stick)
         .duration(200)
     }
-    
+
     ToolRecycling("minecraft","iron","iron_ingot","immersiveengineering:stick_treated")
     ToolRecycling("minecraft","diamond","diamond","kubejs:zinc_tool_handle")
     ToolRecycling("kubejs","copper","copper_ingot","immersiveengineering:stick_treated")
@@ -190,4 +190,48 @@ ServerEvents.recipes(event=>
         .inputItems("shield")
         .outputItems("2x create:iron_sheet")
         .duration(200)
+
+     function HeadRecycling(head,output)
+    {
+        event.recipes.mbd2.recycling()
+        .inputItems(head)
+        .outputItems(output)
+        .duration(200)
+    }
+
+    HeadRecycling("minecraft:skeleton_skull","8x bone_meal")
+    HeadRecycling("minecraft:zombie_head","8x minecraft:rotten_flesh")
+    HeadRecycling("minecraft:creeper_head","8x minecraft:gunpowder")
+    HeadRecycling("minecraft:piglin_head","8x minecraft:gold_ingot")
+    HeadRecycling("supplementaries:enderman_head","8x forbidden_arcanus:ender_pearl_fragment")
+    HeadRecycling("minecraft:wither_skeleton_skull","8x minecraft:wither_rose")
+    HeadRecycling("minecraft:dragon_head","8x forbidden_arcanus:dragon_scale")
+    HeadRecycling("twilightforest:naga_trophy","8x twilightforest:naga_scale")
+    HeadRecycling("twilightforest:lich_trophy","8x forbidden_arcanus:corrupt_soul")
+    HeadRecycling("twilightforest:minoshroom_trophy","8x twilightforest:meef_stroganoff")
+    HeadRecycling("twilightforest:hydra_trophy","8x twilightforest:fiery_blood")
+    HeadRecycling("twilightforest:knight_phantom_trophy","8x twilightforest:knightmetal_ingot")
+    HeadRecycling("twilightforest:ur_ghast_trophy","8x twilightforest:carminite")
+    HeadRecycling("twilightforest:alpha_yeti_trophy","8x twilightforest:alpha_yeti_fur")
+    HeadRecycling("twilightforest:snow_queen_trophy","8x thermal:blizz_rod")
+    HeadRecycling("umbral_skies:sun_spirit_trophy","32x ars_nouveau:fire_essence")
+    HeadRecycling("umbral_skies:slider_trophy","8x kubejs:aquatic_ingot")
+    HeadRecycling("umbral_skies:valkyrie_queen_trophy","8x irons_spellbooks:arcane_debris")
+
+     event.recipes.mbd2.recycling()
+        .inputItems("enigmaticlegacy:recall_potion")
+        .outputItems("minecraft:glass_bottle")
+        .chance(0.125, builder => builder
+            .outputItems("forbidden_arcanus:arcane_crystal_dust")
+        )
+        .chance(0.125, builder => builder
+            .outputItems("forbidden_arcanus:ender_pearl_fragment")
+        )
+        .duration(200)
+    
+    event.recipes.mbd2.recycling()
+        .inputItems("kubejs:wooden_crucifix")
+        .outputItems("5x wizards_reborn:arcane_wood")
+        .duration(200)
+    
 })
