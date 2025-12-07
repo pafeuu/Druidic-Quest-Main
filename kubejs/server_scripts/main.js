@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
 	event.remove({output:'#minecraft:hoes'})
 	event.remove({output:'#minecraft:swords'})
 	
-	event.replaceInput({mod:'ars_nouveau', not:{type:"minecraft:stonecutting"}}, 'ars_nouveau:sourcestone','kubejs:source_alloy_ingot')
+	event.replaceInput({mod:'ars_nouveau', not:[{type:"minecraft:stonecutting"},{id:"ars_nouveau:sourcestone_sconce"}]}, 'ars_nouveau:sourcestone','kubejs:source_alloy_ingot')
 	
 	event.replaceInput({mod:'crafting_on_a_stick'}, 'minecraft:stick','kubejs:zinc_tool_handle')
 	event.shapeless("2x minecraft:rooted_dirt",["minecraft:dirt","minecraft:mangrove_roots"])
@@ -1281,7 +1281,21 @@ ServerEvents.recipes(event => {
 	)
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
-	
+
+	event.shaped("immersiveengineering:item_batcher",
+		[
+			"SSS",
+			"PXP",
+			"PLP"
+		],
+		{
+			S: "#forge:plates/stone",
+			P: "#forge:plates/wooden",
+			X: "kubejs:primitive_machine",
+			L: "create:filter"
+		}
+	).id("immersiveengineering:crafting/item_batcher")
+
 	event.shaped("wizards_reborn:experience_totem",
 		[
 			"XAX",
@@ -2659,6 +2673,20 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================== Tier 2 Components ================================================================
 
+	event.shaped("craftingstation:crafting_station",
+		[
+			"ACA",
+			"PXP",
+			"APA"
+		],
+		{
+			P: "forbidden_arcanus:xpetrified_orb",
+			A: "wizards_reborn:arcane_wood_log",
+			C: "minecraft:crafting_table",
+			X: "kubejs:basic_magic_machine"
+		}
+	)
+
 	event.shaped("kubejs:zanite_upgrade_parts",
 		[
 			"PPP",
@@ -2952,6 +2980,19 @@ ServerEvents.recipes(event => {
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
 	
+	event.shaped("ars_nouveau:enchanting_apparatus",
+		[
+			"PPP",
+			"GBG",
+			"PXP"
+		],
+		{
+			P: "#forge:plates/source_alloy",
+			G: "#forge:gears/gold",
+			B: "quark:diamond_heart",
+			X: "kubejs:basic_magic_machine"
+		}
+	)
 	event.shaped("ars_nouveau:ritual_brazier",
 		[
 			"PPP",
@@ -3364,22 +3405,6 @@ ServerEvents.recipes(event => {
 		  A: 'kubejs:source_alloy_ingot'
 		}
 	).id("ars_nouveau:arcane_core")
-
-	event.remove({output:'minecraft:enchanting_table'})
-	event.shaped(
-	  Item.of('minecraft:enchanting_table'), 
-	  [
-		' X ',
-		'POP',
-		'OMO'
-	  ],
-	  {
-		O: "minecraft:obsidian",
-		M: "kubejs:magic_machine",
-		X: 'quark:diamond_heart',
-		P: '#forge:plates/diamond'
-	  }
-	)
 
 	event.remove({output:"ars_nouveau:source_jar"})
 
@@ -3808,6 +3833,21 @@ ServerEvents.recipes(event => {
 	
 	
 	///======================================== Tier 3 Machines =======================================================================
+
+	event.shaped("aether:altar",
+		[
+			"PGP",
+			"PXP",
+			"SMS"
+		],
+		{
+			S: "#forge:plates/stone",
+			P: "#forge:plates/ironwood",
+			G: "#forge:gears/ironwood",
+			M: "enigmaticlegacy:mending_mixture",
+			X: "kubejs:magic_machine"
+		}
+	).id("aether:altar")
 
 	event.shaped("mbd2:alloy_kiln",
 		[
