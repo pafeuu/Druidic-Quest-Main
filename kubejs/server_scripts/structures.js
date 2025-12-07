@@ -96,4 +96,14 @@ MoreJSEvents.structureLoad((event) => {
             }
         });
     });
+
+    const EnchantingTable = ["minecraft:enchanting_table","quark:matrix_enchanter"]
+
+    event.forEachPalettes((palette) => {
+        palette.forEach((blockInfo) => {
+            if (EnchantingTable.includes(`${blockInfo.id}`)) {
+                blockInfo.setBlock("ars_nouveau:arcane_core")
+            }
+        });
+    });
 }); 
