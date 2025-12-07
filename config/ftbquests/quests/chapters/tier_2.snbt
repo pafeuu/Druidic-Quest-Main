@@ -1304,6 +1304,7 @@
 				{
 					id: "092613FEE7EDE92A"
 					item: "ars_nouveau:source_jar"
+					optional_task: true
 					type: "item"
 				}
 				{

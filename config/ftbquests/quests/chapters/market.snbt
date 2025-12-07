@@ -653,7 +653,7 @@
 				}
 			]
 			title: "Empty Storage Crate"
-			x: 1.0d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -1792,11 +1792,12 @@
 				"682CA83814F08244"
 				"23D3902848A335F6"
 			]
-			icon: "minecraft:wither_skeleton_skull"
+			icon: { Count: 2, id: "minecraft:ender_pearl" }
 			id: "7E1D9080FAE3D183"
 			rewards: [{
+				count: 2
 				id: "2D2CF15762C8E827"
-				item: "minecraft:wither_skeleton_skull"
+				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
 			subtitle: "3 Gold Coins"
@@ -1806,8 +1807,8 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
-			title: "Wither Skeleton Skull"
-			x: 5.5d
+			title: "Ender pearl"
+			x: 1.0d
 			y: 0.0d
 		}
 		{

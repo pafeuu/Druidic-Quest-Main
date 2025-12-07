@@ -1210,6 +1210,8 @@
 				"To get &l&bHeart of Diamond&r&r you need to sneak up to a &l&8stoneling&r&r and kill it."
 				""
 				"Stonelings can be found in dark caves and are easily spooked. They'll disappear if they survive your first blow."
+				""
+				"Stoneling have 8 health points and they are weak to arcane damage but take less damage from blood and nature damage"
 			]
 			icon: "quark:diamond_heart"
 			id: "0E40C9B32E05AC51"
