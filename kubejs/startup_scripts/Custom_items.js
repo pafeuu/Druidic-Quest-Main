@@ -361,11 +361,13 @@ StartupEvents.registry('item', item => {
   item.create('lesser_holy_ring').displayName("Lesser Holy Magic Ring").unstackable().tag("curios:ring")
   item.create("ring_travel").displayName("Ring of Costly Travel").unstackable().tag("curios:ring")
   item.create("daybloom_ring").unstackable().tag("curios:ring")
+  item.create("bulking_ring").unstackable().displayName("Ring of Bulking").tag("curios:ring")
 
   ///====================================================BELTS==========================================================
 
   item.create("travelers_belt").displayName("Traveler's Belt").unstackable().tag("curios:belt")
   item.create("builders_belt").displayName("Builder's Belt").unstackable().tag("curios:belt")
+  item.create("evasion_belt").displayName("Belt of Evasion").unstackable().tag("curios:belt")
 
   ///===================================================GLOVES==========================================================
 
@@ -402,10 +404,16 @@ StartupEvents.registry('item', item => {
   item.create('bear_totem').unstackable().tag("forge:tools/totems")
   item.create('crab_totem').unstackable().tag("forge:tools/totems")
   item.create('leafcutter_ant_totem').unstackable().tag("forge:tools/totems")
+  item.create('anaconda_totem').unstackable().tag("forge:tools/totems")
+  item.create('blaze_totem').unstackable().tag("forge:tools/totems")
+  item.create('blizz_totem').unstackable().tag("forge:tools/totems")
+  item.create('blitz_totem').unstackable().tag("forge:tools/totems")
+  item.create('basalz_totem').unstackable().tag("forge:tools/totems")
 
   item.create('wooden_crucifix').unstackable().tag("forge:tools/totems")
   item.create('metal_crucifix').unstackable().tag("forge:tools/totems")
   item.create('bejeweled_crucifix').unstackable().tag("forge:tools/totems")
+  
 
   ///===================================================NECKLACES
 
@@ -515,7 +523,7 @@ StartupEvents.registry('item', item => {
 
   item.create('the_terraformer','shovel').glow(true).rarity("epic").tier("terraformer").tag("minecraft:tools").tag("dq:tier2/tool")
   
-  item.create('mycelial_hoe','hoe').tier('mycelial').rarity('legendary').tier('mycelial').tag("mincraft:tools").tag('dq:tier3/tool')
+  item.create('mycelial_hoe','hoe').tier('mycelial').rarity('legendary').tier('mycelial').tag("mincraft:tools").tag('dq:tier4/tool').tag("dq:advanced_hoes")
 
   item.create('sacrificial_dagger','sword').tier('gold').tag("minecraft:tools").tag("dq:tier1/weapon").tag("dq:tier1/tool").speedBaseline(-2.0).attackDamageBaseline(1)
   
@@ -535,6 +543,8 @@ StartupEvents.registry('item', item => {
 
   item.create('primitive_chisel').maxDamage(16).unstackable().tag("forge:tools/chisels").tag("dq:tier0/tool").tag("forge:tools")
   item.create('basic_chisel').maxDamage(128).tag("forge:tools/chisels").tag("dq:tier2/tool").unstackable().tag("forge:tools")
+
+  item.create('elemental_pump').maxDamage(4096).unstackable().tag("dq:tier2/components")
 
   ///=======================================================Seeds======================================================
 

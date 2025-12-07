@@ -1,0 +1,27 @@
+{
+  "id": "kubejs:basalz_totem",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage",
+      "value": 1.0,
+      "operation": "ADDITION",
+      "uuid": "07a280e9-625e-4c64-a44c-4cd6f23f17c6"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 8,
+      "operation": "ADDITION",
+      "uuid": "2a8fad4d-c28f-4e16-8bdb-c06778fe9197"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "2fb2cdd8-d294-44ae-8290-93af45753877"
+    }
+  ],
+  "equipment_slot": "OFFHAND"
+}

@@ -3406,7 +3406,7 @@ Patch 0.3.2.1
     -Buffed Copper Trident
     -Rebalanced the Glass Sword
 
-# Patch 3.3.3
+# Patch 3.4
 
 ### New Items:
     -Mycelial Hoe
@@ -3416,7 +3416,60 @@ Patch 0.3.2.1
 
 ### Villagers:
     -Added new trades to the Shady Wizard and Forager
-    
+
+### Loot:
+    -Nether Gold Ore now drops much more gold
+    -Replaced Enchanting Table in structures with Arcane Core
+    -Fixed some of the deepslate ores not dropping extra loot or not dropping enough
+    -Buffed Snow Queen Loot
+
+### Item Balance:
+    -Rebalanced the Knightmetal tools
+
 ### Recipes:
-    -Added for Ender Pearl
     -Changed for Ender Pearl in Natural Altar
+    -Unified recipes for blitz,blizz,basalz,blaze powders
+    -Added for Sulfur dust in the natural altar
+    -Added for Knightmetal tools
+    -Changed for Item Batcher
+    -Changed for Sourcestone Sconce
+    -Added for recycling mob heads
+    -Added for recycling trophies
+    -Added for recycling recall potions
+
+### Other:
+    -Lightning Strikes now convert blocks in bigger area(works for stuff like stone->magma block conversion)
+
+# Patch 3.5 Nether and Consitency Update
+
+### New Items:
+    -Elemental Pump
+    -Elemental Extractor
+    -Beacon of Ice
+    -Beacon of Fire
+
+### Removed Items:
+    -Sulfuric Quartz Blend
+    -Niter
+    -Niter Dust
+    -Niter Ore
+    -Niter Block
+    -PB & J
+
+### Item Balance:
+    -Buffed the durability of most gloves
+    -Golden Gloves now give a bit of fortune
+
+### Recipes:
+    -Changed for Enchanting Apparatus
+    -Changed for Token of Fear
+    -Changed for Token of Anger
+    -Changed for Mending Altar
+
+### Worldgen
+    -Cinnabar Ore no longer spawns in overworld
+    -Ruby geodes now generate in the nether containing molten ruby ores and cinnabar ores
+    -Sulfur no longer spawns in overworld
+
+### Other:
+    -Fixed lots of broken tooltips

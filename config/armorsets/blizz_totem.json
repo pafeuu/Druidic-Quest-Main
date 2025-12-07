@@ -1,0 +1,24 @@
+{
+  "armorSetName": "blizz_totem",
+  "performanceMode": false,
+  "offHand": {
+    "itemKey": "kubejs:blizz_totem"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "farmersdelight:comfort",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 100,
+      "conditions": [
+        {
+          "type": "inBiome",
+          "extra": "#c:is_cold"
+        }
+      ]
+      
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

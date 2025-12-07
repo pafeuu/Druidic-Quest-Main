@@ -1,0 +1,27 @@
+{
+  "id": "kubejs:blitz_totem",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage",
+      "value": 1.0,
+      "operation": "ADDITION",
+      "uuid": "07a280e9-625e-4c64-a14c-4cd6f23f17c6"
+    },
+    {
+      "type": "append",
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.2,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "2a8fad4d-c28f-4e16-8b1b-c06778fe9197"
+    },
+    {
+      "type": "append",
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.1,
+      "operation": "ADDITION",
+      "uuid": "2fb2cdd8-d234-44ae-8290-93af45753877"
+    }
+  ],
+  "equipment_slot": "OFFHAND"
+}

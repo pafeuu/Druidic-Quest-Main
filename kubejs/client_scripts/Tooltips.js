@@ -100,11 +100,26 @@ ItemEvents.tooltip( tooltip => {
     text.add(1, Text.of('Golden Flower').gold()) 
   })
 
-  tooltip.addAdvanced(['mbd2:elemental_extractor', 
+  tooltip.addAdvanced("kubejs:basalz_totem", (item, advanced, text) => {
+    text.add(2, Text.of('You can see better underground').darkPurple()) 
+  })
+
+  tooltip.addAdvanced("kubejs:blizz_totem", (item, advanced, text) => {
+    text.add(2, Text.of('You feel more comfortable in cold biomes').darkPurple()) 
+  })
+
+  tooltip.addAdvanced("kubejs:blaze_totem", (item, advanced, text) => {
+    text.add(2, Text.of('You feel more comfortable in hot biomes').darkPurple()) 
+  })
+
+  tooltip.addAdvanced("kubejs:blitz_totem", (item, advanced, text) => {
+    text.add(2, Text.of('You feel more powerful during rains and thunderstorms').darkPurple()) 
+  })
+
+  tooltip.addAdvanced([
     'kubejs:blasting_altar', 
     'kubejs:alloying_altar', 
     'kubejs:infusing_altar', 
-    'kubejs:nether_key', 
     'kubejs:end_key', 
     'kubejs:aether_key', 
     'kubejs:dark_key',
@@ -365,7 +380,8 @@ ItemEvents.tooltip( tooltip => {
     }
   })
 
-  tooltip.add("elementalcraft:water_mill_wood_saw",Text.red("I can crash the game :("))
+  tooltip.add([global.nukelist],[Text.red("Item disabled"),Text.red("Report to the modpack dev if you got this")])
+  tooltip.add("kubejs:recipe_changed",Text.red("This recipe has been changed! Check EMI for more information!"))
   tooltip.add("immersiveengineering:cushion",Text.green("Negates fall damage"))
   tooltip.add("quark:seed_pouch",Text.green("Shift-Right Click to plant in a 3x3!"))
 
@@ -377,10 +393,8 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("sob:bustling_brew",Text.green("Grants 50 experience point!"))
   tooltip.add("create_sa:heap_of_experience",Text.green("Grants 12 experience points!"))
   tooltip.add("forbidden_arcanus:xpetrified_orb",[Text.green("Grants 91 experience points!")])
-  tooltip.add("#dq:soul_harvester"[Text.red("Harvests souls")])
-  
-  tooltip.add([global.nukelist],[Text.red("Item disabled"),Text.red("Report to the modpack dev if you got this")])
-  tooltip.add("kubejs:recipe_changed",Text.red("This recipe has been changed! Check EMI for more information!"))
+  tooltip.add("#dq:soul_harvester",[Text.red("Harvests souls")])
+
 
   tooltip.add("aether:agility_cape",[Text.gold("When on back:"),Text.blue("+0.5 step height")])
   tooltip.add("aether:valkyrie_cape",[Text.gold("When on back:"),Text.blue("Grants slow falling")])

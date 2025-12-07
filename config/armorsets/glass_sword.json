@@ -1,0 +1,19 @@
+{
+  "armorSetName": "glass_sword",
+  "performanceMode": false,
+  "mainHand": {
+    "itemKey": "twilightforest:glass_sword"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "attributeslib:bleeding",
+      "value": 0.0,
+      "interactionType": "attack",
+      "interactionDuration": 60,
+      "percentageChance": 100
+      
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:anaconda_totem",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "2a8fad4d-c28f-3e16-8bdb-c06778fe9197"
+    },
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:stamina",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "2fb1cdd8-d294-44ae-8290-93af45753877"
+    }
+  ],
+  "equipment_slot": "OFFHAND"
+}

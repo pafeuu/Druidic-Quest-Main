@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:blaze_totem",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "07a280e9-625e-4c64-a44c-4cd6f23f17c6"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 4.0,
+      "operation": "ADDITION",
+      "uuid": "07a280e9-2222-4c64-a44c-4cd6f23f17c6"
+    }
+  ],
+  "equipment_slot": "OFFHAND"
+}
