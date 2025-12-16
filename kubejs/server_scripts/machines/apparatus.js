@@ -10,17 +10,6 @@ ServerEvents.recipes(event=>{
         "wizards_reborn:arcane_iterator").id("wizards_reborn:arcane_workbench/arcane_iterator")
     
     apparatus([
-        "slime_block",
-        "slime_block",
-        "slime_block",
-        "slime_block",
-        "kubejs:infused_emerald",
-        "kubejs:infused_emerald",
-        "kubejs:infused_emerald",
-        "forbidden_arcanus:edelwood_stick"
-    ],"golden_pickaxe","forbidden_arcanus:slimec_pickaxe")
-    
-    apparatus([
         "ars_nouveau:fire_essence",
         "ars_nouveau:fire_essence",
         "ars_nouveau:air_essence",
@@ -74,10 +63,10 @@ ServerEvents.recipes(event=>{
         "sophisticatedstorage:packing_tape",
         "sophisticatedstorage:packing_tape",
         "sophisticatedstorage:packing_tape",
-        "forbidden_arcanus:stellarite_piece",
-        "forbidden_arcanus:stellarite_piece",
-        "forbidden_arcanus:stellarite_piece",
-        "forbidden_arcanus:stellarite_piece",
+        "minecraft:netherite_scrap",
+        "minecraft:netherite_scrap",
+        "minecraft:netherite_scrap",
+        "minecraft:netherite_scrap",
     ],"create:super_glue","sophisticatedstorage:super_packing_tape",2500).id("sophisticatedstorage:super_packing_tape")
 
 })

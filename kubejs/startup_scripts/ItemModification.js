@@ -100,8 +100,7 @@ ItemEvents.modification(event => {
     'arsdelight:bombegrante_tea',
     'arsdelight:bastion_tea',
     'arsdelight:mendosteen_tea',
-    'create:builders_tea',
-    'forbidden_arcanus:xpetrified_orb']
+    'create:builders_tea',]
  
   let tooltype =['pickaxe','shovel','hoe','axe']
   
@@ -122,7 +121,7 @@ ItemEvents.modification(event => {
     'thermal:diving',
     'aether:zanite',
     'deep_aether:skyjade',
-    'forbidden_arcanus:mortem',
+    
     "irons_spellbooks:wandering_magician",
     "irons_spellbooks:pumpkin",
     "thermal:beekeeper",
@@ -152,7 +151,6 @@ ItemEvents.modification(event => {
     "irons_spellbooks:archevoker",
     "deep_aether:stormforged",
     "deep_aether:stratus",
-    "forbidden_arcanus:draco_arcanus",
     ]
 
     let Unbreakables = [
@@ -165,7 +163,6 @@ ItemEvents.modification(event => {
     let UnbreakableArmor = [
       "ancient_aether:valkyrum",
       "thermal:hazmat",
-      "forbidden_arcanus:tyr",
       "enigmaticlegacy:etherium"
     ]
 
@@ -353,10 +350,7 @@ ItemEvents.modification(event => {
   
   ////========================================Tools
 
-  event.modify("forbidden_arcanus:slimec_pickaxe", item=>{
-      item.maxDamage = 2048,
-      item.digSpeed = 10
-     })
+  
 
   const KnighmetalTools = ["pickaxe","axe"]
 
@@ -928,57 +922,6 @@ ItemEvents.modification(event => {
     item.armorToughness = 0
   })
 
-  // TYR
-
-   event.modify("forbidden_arcanus:tyr_helmet", item=>{
-    item.armorProtection = 7,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.25
-  })
-
-  event.modify("forbidden_arcanus:tyr_chestplate", item=>{
-    item.armorProtection = 20,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.25
-  })
-
-  event.modify("forbidden_arcanus:tyr_leggings", item=>{
-    item.armorProtection = 16,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.25
-  })
-
-  event.modify("forbidden_arcanus:tyr_boots", item=>{
-    item.armorProtection = 7,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.25
-  })
-
-  // DRACO ARCANUS
-
-   event.modify("forbidden_arcanus:draco_arcanus_helmet", item=>{
-    item.armorProtection = 5,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.15
-  })
-
-  event.modify("forbidden_arcanus:draco_arcanus_chestplate", item=>{
-    item.armorProtection = 14,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.15
-  })
-
-  event.modify("forbidden_arcanus:draco_arcanus_leggings", item=>{
-    item.armorProtection = 12,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.15
-  })
-
-  event.modify("forbidden_arcanus:draco_arcanus_boots", item=>{
-    item.armorProtection = 5,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.15
-  })
 
   // VALKYRUM
 

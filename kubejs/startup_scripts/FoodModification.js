@@ -313,7 +313,6 @@ ItemEvents.modification(event=>{
         'minecraft:salmon',
         'alexsmobs:kangaroo_meat',
         'alexsmobs:lobster_tail',
-        'forbidden_arcanus:tentacle',
         'mynethersdelight:strider_slice',
         'arsdelight:wilden_meat']
 
@@ -385,7 +384,6 @@ ItemEvents.modification(event=>{
         'alexsdelight:cooked_bison',
         'alexsdelight:cooked_bunfungus',
         'tide:cooked_fish',
-        'forbidden_arcanus:cooked_tentacle',
         'arsdelight:grilled_wilden_meat',
         'brewinandchewin:jerky']
 

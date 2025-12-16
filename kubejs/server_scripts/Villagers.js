@@ -52,7 +52,7 @@ MoreJSEvents.wandererTrades(event=>{
 	event.addTrade(2,"thermal:gold_coin",Item.of('silly_oddities:black_bundle', '{Items:[{Count:16b,id:"minecraft:snort_pottery_sherd"},{Count:16b,id:"minecraft:skull_pottery_sherd"},{Count:16b,id:"minecraft:blade_pottery_sherd"},{Count:16b,id:"minecraft:prize_pottery_sherd"}]}'))
 	event.addTrade(2,"thermal:gold_coin",Item.of('silly_oddities:black_bundle', '{Items:[{Count:16b,id:"minecraft:miner_pottery_sherd"},{Count:16b,id:"minecraft:mourner_pottery_sherd"},{Count:16b,id:"minecraft:archer_pottery_sherd"},{Count:16b,id:"minecraft:brewer_pottery_sherd"}]}'))
 	event.addTrade(2,"thermal:gold_coin",Item.of('silly_oddities:black_bundle', '{Items:[{Count:16b,id:"minecraft:arms_up_pottery_sherd"},{Count:16b,id:"minecraft:angler_pottery_sherd"},{Count:16b,id:"minecraft:plenty_pottery_sherd"},{Count:16b,id:"minecraft:sheaf_pottery_sherd"}]}'))
-	event.addTrade(2,"thermal:gold_coin",Item.of('silly_oddities:gray_bundle', '{Items:[{Count:4b,id:"minecraft:dripstone_block"},{Count:4b,id:"minecraft:pointed_dripstone"},{Count:8b,id:"forbidden_arcanus:darkstone"},{Count:8b,id:"minecraft:andesite"},{Count:8b,id:"minecraft:granite"},{Count:8b,id:"minecraft:calcite"},{Count:8b,id:"minecraft:diorite"},{Count:8b,id:"minecraft:basalt"},{Count:8b,id:"minecraft:deepslate"}]}'))
+	event.addTrade(2,"thermal:gold_coin",Item.of('silly_oddities:gray_bundle', '{Items:[{Count:4b,id:"minecraft:dripstone_block"},{Count:4b,id:"minecraft:pointed_dripstone"},{Count:8b,id:"minecraft:blackstone"},{Count:8b,id:"minecraft:andesite"},{Count:8b,id:"minecraft:granite"},{Count:8b,id:"minecraft:calcite"},{Count:8b,id:"minecraft:diorite"},{Count:8b,id:"minecraft:basalt"},{Count:8b,id:"minecraft:deepslate"}]}'))
 	event.removeVanillaTrades(2);
 
 	event.removeModdedTrades(1);
@@ -202,7 +202,7 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("mason", 4, [TradeItem.of("thermal:silver_coin", 4, 6)], "24x minecraft:bricks");
 	event.addTrade("mason", 4, [TradeItem.of("thermal:silver_coin", 4, 6)], "24x supplementaries:ash_bricks");
 	event.addTrade("mason", 4, [TradeItem.of("thermal:silver_coin", 4, 6)], "24x supplementaries:daub");
-	event.addTrade("mason", 4, [TradeItem.of("thermal:gold_coin", 1, 3)], "24x forbidden_arcanus:darkstone");
+	event.addTrade("mason", 4, [TradeItem.of("thermal:gold_coin", 1, 3)], "24x aether:holystone");
 	event.addTrade("mason", 4, [TradeItem.of("thermal:gold_coin", 1, 3)], "24x ars_nouveau:sourcestone");
 	
 	
@@ -349,7 +349,7 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("ars_nouveau:shady_wizard",3,"8x thermal:silver_coin","arsdelight:chimera_meat")
 	event.addTrade("ars_nouveau:shady_wizard",3,"1x thermal:silver_coin","irons_spellbooks:arcane_essence")
 	
-	event.addTrade("ars_nouveau:shady_wizard",4,"6x thermal:silver_coin","forbidden_arcanus:soul")
+	event.addTrade("ars_nouveau:shady_wizard",4,"6x thermal:silver_coin","quark:soul_bead")
 	event.addTrade("ars_nouveau:shady_wizard",4,"12x thermal:gold_coin","arsdelight:chimera_horn")
 
 	event.addTrade("ars_nouveau:shady_wizard",5,"8x thermal:gold_coin","ars_nouveau:music_disc_aria_biblio")

@@ -171,7 +171,7 @@ ServerEvents.recipes(event=>{
         "item": "thermal:sapphire"
         },
         "A": {
-        "item": "forbidden_arcanus:xpetrified_orb"
+        "item": "create:experience_block"
         },
         "C":{
         "item": "wizards_reborn:experience_totem"    
@@ -199,7 +199,7 @@ ServerEvents.recipes(event=>{
         "item": "aether:golden_ring"
         },
         "A": {
-        "item": "forbidden_arcanus:xpetrified_orb"
+        "item": "create:experience_block"
         },
         "N":{
         "tag": "forge:nuggets/gold"    
@@ -463,7 +463,7 @@ ServerEvents.recipes(event=>{
         "item": "enigmaticlegacy:thicc_scroll"    
         },
         "P":{
-        "item": "forbidden_arcanus:xpetrified_orb"   
+        "item": "create:experience_block"   
         }
     },
     "output": {
@@ -889,35 +889,6 @@ ServerEvents.recipes(event=>{
         "vintageimprovements:netherite_sheet",
         "kubejs:zinc_tool_handle",
         "kubejs:basic_excavator")
-
-    
-    event.custom({
-        "type": "wizards_reborn:arcane_workbench",
-        "pattern": [
-            "III",
-            "IXI",
-            " H ",
-            "MMMM"
-        ],
-        "key": {
-            "H": {
-            "item": "immersiveengineering:stick_treated"
-            },
-            "M": {
-            "item": "forbidden_arcanus:stellarite_piece"
-            },
-            "X": {
-            "item": "immersiveengineering:hammer"
-            },
-            "I": {
-            "item": "naturesaura:tainted_gold"
-            }
-        },
-        "output": {
-            "item": "forbidden_arcanus:reinforced_deorum_blacksmith_gavel"
-        },
-        "wissen": 10000
-        })
 
     
     event.custom({

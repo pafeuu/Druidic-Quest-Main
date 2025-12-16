@@ -20,7 +20,6 @@ ServerEvents.recipes(event=>{
     altar("naturesaura:tainted_gold_block","gold_block",BlockAuraAmount,BlockProcessingSpeed,"kubejs:infusion_catalyst").id("naturesaura:altar/tainted_gold_block")
 
     altar("naturesaura:infused_stone","kubejs:sturdy_deepslate",IngotAuraAmount,IngotProcessingSpeed,"kubejs:infusion_catalyst").id("naturesaura:altar/infused_stone")
-    altar("forbidden_arcanus:soul","quark:soul_bead",IngotAuraAmount,100,"kubejs:infusion_catalyst")
 
     altar("minecraft:ender_pearl","kubejs:infused_amethyst",IngotAuraAmount,100,"naturesaura:conversion_catalyst").id("naturesaura:altar/ender_pearl")
     

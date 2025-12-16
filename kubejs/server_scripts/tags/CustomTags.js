@@ -7,7 +7,6 @@ ServerEvents.tags("item",e=>{
   e.add("dq:soul_harvester",[
     'naturesaura:depth_sword',
     'naturesaura:depth_axe',
-    'forbidden_arcanus:mystical_dagger',
     'kubejs:sacrificial_dagger',
   ])
 
@@ -181,11 +180,6 @@ ServerEvents.tags("item",e=>{
       'thermal:saw_blade',
       'minecraft:amethyst_shard',
       'minecraft:diamond',
-      'forbidden_arcanus:rune',
-      'forbidden_arcanus:xpetrified_orb',
-      'forbidden_arcanus:arcane_crystal',
-      'forbidden_arcanus:arcane_crystal_dust',
-      'forbidden_arcanus:arcane_crystal_dust_speck',
       'minecraft:ender_pearl'])
 
     e.add("dq:tier0/armor",[
@@ -201,10 +195,6 @@ ServerEvents.tags("item",e=>{
       'minecraft:leather_chestplate',
       'minecraft:leather_leggings',
       'minecraft:leather_boots',
-      'forbidden_arcanus:mortem_helmet',
-      'forbidden_arcanus:mortem_chestplate',
-      'forbidden_arcanus:mortem_leggings',
-      'forbidden_arcanus:mortem_boots',
       'alexsmobs:crocodile_chestplate',
       'alexsmobs:rocky_chestplate',
       'alexsmobs:unsettling_kimono',
@@ -362,10 +352,6 @@ ServerEvents.tags("item",e=>{
     'irons_spellbooks:netherite_mage_chestplate',
     'irons_spellbooks:netherite_mage_leggings',
     'irons_spellbooks:netherite_mage_boots',
-    'forbidden_arcanus:draco_arcanus_helmet',
-    'forbidden_arcanus:draco_arcanus_chestplate',
-    'forbidden_arcanus:draco_arcanus_leggings',
-    'forbidden_arcanus:draco_arcanus_boots',
     'aether:gravitite_helmet',
     'aether:gravitite_chestplate',
     'aether:gravitite_leggings',
@@ -392,10 +378,6 @@ ServerEvents.tags("item",e=>{
     'thermal:hazmat_chestplate',
     'thermal:hazmat_leggings',
     'thermal:hazmat_boots',
-    'forbidden_arcanus:tyr_helmet',
-    'forbidden_arcanus:tyr_chestplate',
-    'forbidden_arcanus:tyr_leggings',
-    'forbidden_arcanus:tyr_boots',
     'ancient_aether:valkyrum_helmet',
     'ancient_aether:valkyrum_chestplate',
     'ancient_aether:valkyrum_leggings',
@@ -425,11 +407,10 @@ ServerEvents.tags("item",e=>{
 
   e.add("dq:advanced_hoes",[
     "minecraft:netherite_hoe",
-    "forbidden_arcanus:draco_arcanus_hoe",
-    "forbidden_arcanus:reinforced_deorum_hoe",
     "naturesaura:depth_hoe",
     "naturesaura:sky_hoe",
     "aether:valkyrie_hoe",
+    "kubejs:mycelial_hoe",
     "deep_aether:stratus_hoe",
     "ancient_aether:valkyrum_hoe",
     "ancient_aether:divine_hoe",])

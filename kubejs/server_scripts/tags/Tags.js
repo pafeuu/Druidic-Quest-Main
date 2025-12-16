@@ -25,7 +25,7 @@ ServerEvents.tags('item', event => {
     'biomeswevegone:barrel_cactus',
     'naturesaura:aura_cactus'])
   
-  event.add("aether:obsidian_repairing","forbidden_arcanus:obsidian_ingot")
+  event.add("aether:obsidian_repairing","kubejs:obsidian_ingot")
     
   event.add("minecraft:smooth_stone","smooth_stone")
 
@@ -111,7 +111,6 @@ ServerEvents.tags('item', event => {
 
   event.add("immersiveengineering:toolbox/tools","#forge:tools")
   event.add("forge:storage_blocks/potato","farmersdelight:potato_crate")
-  event.add("forge:gems",["forbidden_arcanus:rune","forbidden_arcanus:dark_rune"])
   event.add("forge:gems/zanite","#aether:gems/zanite")
   event.add("forge:gems/skyjade","deep_aether:skyjade")
   event.remove("forge:gems/sapphire","thermal:sapphire")
@@ -221,9 +220,6 @@ ServerEvents.tags('item', event => {
   armor('kubejs:bronze')
   armor('kubejs:cactus')
   armor('deep_aether:stormforged')
-  armor("forbidden_arcanus:tyr")
-  armor("forbidden_arcanus:mortem")
-  armor("forbidden_arcanus:draco_arcanus")
   natureArmor("naturesaura:infused_iron")
   natureArmor("naturesaura:sky")
   natureArmor("naturesaura:depth")
@@ -237,9 +233,6 @@ ServerEvents.tags('item', event => {
   tooltier('aether:skyroot','skyroot')
   tooltier('deep_aether:skyjade','skyjade')
   tooltier('enigmaticlegacy:etherium','etherium')
-  tooltier('forbidden_arcanus:draco_arcanus','draco_arcanus')
-  tooltier('forbidden_arcanus:reinforced_deorum','reinforced_deorum')
-  tooltier('forbidden_arcanus:reinforced_obsidian','reinforced_obsidian')
   tooltier('twilightforest:ironwood','ironwood')
   tooltier('twilightforest:steeleaf','steeleaf')
   tooltier('twilightforest:knightmetal','knightmetal')
@@ -249,8 +242,6 @@ ServerEvents.tags('item', event => {
 	tool('kubejs:silver')
   tool('kubejs:lead')
   tool('enigmaticlegacy:etherium')
-  tool('forbidden_arcanus:draco_arcanus')
-  tool('forbidden_arcanus:reinforced_deorum')
 
   event.add('forge:tools/steel', "immersiveengineering:hoe_steel")  
 	event.add('forge:tools/steel', "immersiveengineering:pickaxe_steel")  

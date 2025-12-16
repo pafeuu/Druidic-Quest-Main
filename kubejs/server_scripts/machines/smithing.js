@@ -122,7 +122,7 @@ ServerEvents.recipes(event=>{
 	SmithingArmor("aether:obsidian",
 		"twilightforest:knightmetal",
 		"kubejs:obsidian_upgrade_smithing_template",
-		"forbidden_arcanus:obsidian_ingot")
+		"kubejs:obsidian_ingot")
     
 	SmithingArmor("deep_aether:stormforged",
 		"aether:phoenix",
@@ -167,17 +167,6 @@ ServerEvents.recipes(event=>{
 		"kubejs:arcane_gold_upgrade_parts"
 	)
 
-	SmithingArmor("forbidden_arcanus:draco_arcanus",
-		"aether:obsidian",
-		"kubejs:draco_arcanus_upgrade_smithing_template",
-		"forbidden_arcanus:dragon_scale"
-	)
-
-	SmithingArmor("forbidden_arcanus:tyr",
-		"forbidden_arcanus:draco_arcanus",
-		"kubejs:tyr_upgrade_smithing_template",
-		"forbidden_arcanus:aquatic_dragon_scale"
-	)
 
 	SmithingArmor("enigmaticlegacy:etherium",
 		"deep_aether:stormforged",

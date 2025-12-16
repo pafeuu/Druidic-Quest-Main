@@ -135,7 +135,7 @@ ServerEvents.recipes(event=>{
     }
 
     pylonTag("wizards_reborn:arcane_wood_log","minecraft:logs",10)
-    TwoHandPylon("forbidden_arcanus:corrupt_soul","forbidden_arcanus:soul","forbidden_arcanus:rune",100)
-    TwoHandPylon("forbidden_arcanus:enchanted_soul","forbidden_arcanus:corrupt_soul","forbidden_arcanus:rune",200)
+    TwoHandPylon("kubejs:corrupted_soul","quark:soul_bead","kubejs:sapphire",100)
+    TwoHandPylon("kubejs:enchanted_soul","kubejs:corrupted_soul","kubejs:sapphire",200)
     
 })

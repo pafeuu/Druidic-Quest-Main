@@ -468,7 +468,7 @@ ServerEvents.recipes(event => {
 			S:"#c:rods/wooden"
 		}
 	)
-	event.recipes.create.milling("2x forbidden_arcanus:spawner_scrap","kubejs:broken_spawner")
+	
 	event.recipes.naturesaura.tree_ritual("2x naturesaura:ancient_sapling",["#forge:storage_blocks/redstone","#minecraft:saplings","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum"],"quark:red_blossom_sapling").id("naturesaura:tree_ritual/ancient_sapling")
 	event.recipes.naturesaura.tree_ritual("2x naturesaura:ancient_sapling",["#forge:storage_blocks/redstone","#minecraft:saplings","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum"],"quark:ancient_sapling")
 	
@@ -761,9 +761,8 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shapeless("twilightforest:transformation_powder",["kubejs:basic_alchemical_dust","4x forbidden_arcanus:arcane_crystal_dust","bundle"])
+	event.shapeless("twilightforest:transformation_powder",["kubejs:basic_alchemical_dust","4x thermal:lapis_dust","bundle"])
 
-	event.shapeless("alexsmobs:lost_tentacle",["forbidden_arcanus:tentacle","forbidden_arcanus:soul"])
 	event.shaped("vintagedelight:evaporator",
 		[
 			"BBB",
@@ -777,10 +776,6 @@ ServerEvents.recipes(event => {
 			X: "kubejs:primitive_machine"
 		}
 	).id("vintagedelight:evaporator")
-	
-	event.remove({id:"forbidden_arcanus:smelting/arcane_crystal_dust_from_smelting"})
-	event.remove({id:"forbidden_arcanus:blasting/arcane_crystal_dust_from_blasting"})
-	event.remove({id:"forbidden_arcanus:clibano_combustion/arcane_crystal_dust_from_clibano_combusting"})
 
 	event.shaped("end_stone",[" C ","CSC"," C "],{C:"vintagedelight:cheese_curds",S:"stone"})
 	event.shaped("naturesaura:ancient_stick",[" P","P "],{P:"naturesaura:ancient_slab"}).id("naturesaura:ancient_stick")
@@ -855,13 +850,13 @@ ServerEvents.recipes(event => {
 		"#forge:tools/mortars",
 		"kubejs:basic_alchemical_dust",
 		"#forge:dusts/silver",
-		"forbidden_arcanus:soul",
+		"kubejs:soul_bead",
 		"thermal:sapphire"]).damageIngredient("#forge:tools/mortars", 12).id("kubejs:improved_alchemical_dust")
 
 	event.shapeless('kubejs:advanced_alchemical_dust',[
 		"#forge:tools/mortars",
 		"kubejs:improved_alchemical_dust",
-		"forbidden_arcanus:mundabitur_dust",
+		"ars_nouveau:abjuration_essence",
 		"#forge:ingots/phoenix",
 		"thermal:ruby"]).damageIngredient("#forge:tools/mortars", 16).id("kubejs:advanced_alchemical_dust")
 
@@ -1084,39 +1079,6 @@ ServerEvents.recipes(event => {
 			else: {type: "execute", command: "summon minecraft:silverfish ~ ~ ~", hide: "true"}}		
 		]
 	})
-
-	
-	event.custom({
-		type: "lychee:lightning_channeling",
-		 post: [
-		   {
-			 type: "drop_item",
-			 item: "forbidden_arcanus:arcane_crystal"
-		   },
-		   {
-			   type: "execute",
-			   command: "playsound irons_spellbooks:lightning_lance_cast neutral @p",
-			   hide: "true"
-		   }
-		 ],
-		 item_in: [
-		   {
-			 item: "forbidden_arcanus:arcane_crystal_dust_speck",
-		   },
-		   {
-			item: "forbidden_arcanus:arcane_crystal_dust_speck",
-		  },
-		  {
-			item: "forbidden_arcanus:arcane_crystal_dust_speck",
-		  },
-		  {
-			item: "forbidden_arcanus:arcane_crystal_dust_speck",
-		  },
-		   {
-			 tag: "forge:gems/quartz",
-		   }
-		 ]
-   })
 	
 	event.shaped(
 		Item.of('2x kubejs:sapling_ball'), 
@@ -1407,7 +1369,7 @@ ServerEvents.recipes(event => {
 			"XPX"
 		],
 		{
-			X: "forbidden_arcanus:xpetrified_orb",
+			X: "create:experience_block",
 			A: "minecraft:amethyst_cluster",
 			M: "kubejs:basic_magic_machine",
 			P: "wizards_reborn:arcane_pedestal"
@@ -1421,7 +1383,7 @@ ServerEvents.recipes(event => {
 			"BBB"
 		],
 		{
-			B: "forbidden_arcanus:darkstone",
+			B: "deepslate",
 			M: "kubejs:primitive_machine",
 			R: "#forge:storage_blocks/redstone"
 		}
@@ -1434,7 +1396,7 @@ ServerEvents.recipes(event => {
 			"BBB"
 		],
 		{
-			B: "forbidden_arcanus:darkstone",
+			B: "deepslate",
 			X: "simplemagnets:basic_demagnetization_coil",
 			R: "#forge:rods/gold"
 		}
@@ -1551,7 +1513,7 @@ ServerEvents.recipes(event => {
 			"X",
 		],
 		{
-			D: "forbidden_arcanus:xpetrified_orb",
+			D: "create:experience_block",
 			X: "wizards_reborn:redstone_sensor"
 		}
 	).id("wizards_reborn:arcane_workbench/experience_sensor")
@@ -2853,39 +2815,38 @@ ServerEvents.recipes(event => {
 			{ type: "execute", command: "playsound irons_spellbooks:spell.poison_splash.begin neutral @p", hide: true }
 		],
 		item_in: [
-			{ item: "kubejs:sulfur_quartz_blend" },
-			{ item: "forbidden_arcanus:arcane_crystal_dust" },
+			{ item: "quartz" },
+			{ item: "thermal:lapis_dust" },
 			{ item: "fruitsdelight:lemon_juice" },
 			{ item: "fruitsdelight:lemon_juice" },
 			{ item: "fruitsdelight:lemon_juice" },
 			{ item: "fruitsdelight:lemon_juice" }
 		]
 	})
-	event.shapeless("3x kubejs:sulfur_quartz_blend",["5x #forge:dusts/sulfur","4x #forge:dusts/quartz"])
 
 	event.shapeless("minecraft:heart_of_the_sea",["ars_nouveau:water_essence","8x minecraft:prismarine_crystals"])
 
 	event.custom({
 		type: "lychee:block_crushing",
 		post: [
-			{ type: "drop_item", item: "forbidden_arcanus:mundabitur_dust" },
+			{ type: "drop_item", item: "ars_nouveau:abjuration_essence" },
 			{ type: "execute", command: "playsound minecraft:entity_blaze.hurt neutral @p", hide: true }
 		],
 		item_in: [
-			{ item: "forbidden_arcanus:arcane_crystal_dust" },
+			{ item: "thermal:lapis_dust" },
 			{ item: "wither_rose" },
 			{ tag: "forge:gems/cinnabar" }
 		]
-	}).id("forbidden_arcanus:mundabitur_dust")
+	})
 
 	event.custom({
 		type: "lychee:block_crushing",
 		post: [
-			{ type: "drop_item", item: "forbidden_arcanus:mundabitur_dust", count: 2 },
+			{ type: "drop_item", item: "ars_nouveau:abjuration_essence", count: 2 },
 			{ type: "execute", command: "playsound minecraft:entity_blaze.hurt neutral @p", hide: true }
 		],
 		item_in: [
-			{ item: "forbidden_arcanus:arcane_crystal_dust" },
+			{ item: "thermal:lapis_dust" },
 			{ item: "wither_rose" },
 			{ tag: "forge:gems/ruby" }
 		]
@@ -2894,11 +2855,11 @@ ServerEvents.recipes(event => {
 	event.custom({
 		type: "lychee:block_crushing",
 		post: [
-			{ type: "drop_item", item: "forbidden_arcanus:mundabitur_dust", count: 4 },
+			{ type: "drop_item", item: "ars_nouveau:abjuration_essence", count: 4 },
 			{ type: "execute", command: "playsound minecraft:entity_blaze.hurt neutral @p", hide: true }
 		],
 		item_in: [
-			{ item: "forbidden_arcanus:arcane_crystal_dust" },
+			{ item: "thermal:lapis_dust" },
 			{ item: "wither_rose" },
 			{ item: "thermal:ruby" }
 		]
@@ -3090,7 +3051,7 @@ ServerEvents.recipes(event => {
 			"APA"
 		],
 		{
-			P: "forbidden_arcanus:xpetrified_orb",
+			P: "create:experience_block",
 			A: "wizards_reborn:arcane_wood_log",
 			C: "minecraft:crafting_table",
 			X: "kubejs:basic_magic_machine"
@@ -3249,7 +3210,7 @@ ServerEvents.recipes(event => {
 			B: "nether_bricks",
 			T: "naturesaura:token_sorrow",
 			M: "kubejs:aura_generator_block",
-			P: "forbidden_arcanus:soul"
+			P: "quark:soul_bead"
 		}
 	).id("naturesaura:animal_generator")
 
@@ -3381,7 +3342,7 @@ ServerEvents.recipes(event => {
 			{
 				G: "#forge:gears/tainted_gold",
 				M: "ars_nouveau:basic_spell_turret",
-				X: 'forbidden_arcanus:xpetrified_orb'
+				X: "create:experience_block"
 			}
 		).id("kubejs:poop1")
 		
@@ -4293,7 +4254,7 @@ ServerEvents.recipes(event => {
 		}	
 	).id("thermal:redstone_servo")
 
-	event.recipes.create.mixing("create:rose_quartz",["kubejs:salmon_quartz","4x forbidden_arcanus:mundabitur_dust","wither_rose"]).id("create:crafting/materials/rose_quartz").heated()
+	event.recipes.create.mixing("create:rose_quartz",["kubejs:salmon_quartz","ars_nouveau:conjuration_essence","wither_rose"]).id("create:crafting/materials/rose_quartz").heated()
 	
 	event.shaped('immersiveengineering:drillhead_iron',
 		[
@@ -4650,7 +4611,7 @@ ServerEvents.recipes(event => {
 			],
 			"key": {
 			  "A": {
-				item: "forbidden_arcanus:spawner_scrap"
+				item: "kubejs:spawner_part"
 			  },
 			  "N": {
 				tag: "forge:plates/netherite"

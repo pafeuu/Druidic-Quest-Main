@@ -74,22 +74,22 @@ ServerEvents.recipes(event=>{
 
   Sacrificing("twilightforest:penguin","naturesaura:token_fear","kubejs:penguin_totem",1)
 
-  Sacrificing("minecraft:blaze","forbidden_arcanus:arcane_dragon_egg","minecraft:blaze_spawn_egg",1)
+  Sacrificing("minecraft:blaze","minecraft:dragon_egg","minecraft:blaze_spawn_egg",1)
 
-  Sacrificing("minecraft:skeleton","forbidden_arcanus:arcane_dragon_egg","minecraft:skeleton_spawn_egg",1)
+  Sacrificing("minecraft:skeleton","minecraft:dragon_egg","minecraft:skeleton_spawn_egg",1)
 
-  Sacrificing("minecraft:spider","forbidden_arcanus:arcane_dragon_egg","minecraft:spider_spawn_egg",1)
+  Sacrificing("minecraft:spider","minecraft:dragon_egg","minecraft:spider_spawn_egg",1)
 
-  Sacrificing("minecraft:zombie","forbidden_arcanus:arcane_dragon_egg","minecraft:zombie_spawn_egg",1)
+  Sacrificing("minecraft:zombie","minecraft:dragon_egg","minecraft:zombie_spawn_egg",1)
 
-  Sacrificing("minecraft:enderman","forbidden_arcanus:arcane_dragon_egg","minecraft:enderman_spawn_egg",1)
+  Sacrificing("minecraft:enderman","minecraft:dragon_egg","minecraft:enderman_spawn_egg",1)
 
-  Sacrificing("minecraft:wither_skeleton","forbidden_arcanus:arcane_dragon_egg","minecraft:wither_skeleton_spawn_egg",1)
+  Sacrificing("minecraft:wither_skeleton","minecraft:dragon_egg","minecraft:wither_skeleton_spawn_egg",1)
 
-  Sacrificing("minecraft:creeper","forbidden_arcanus:arcane_dragon_egg","minecraft:creeper_spawn_egg",1)
+  Sacrificing("minecraft:creeper","minecraft:dragon_egg","minecraft:creeper_spawn_egg",1)
 
-  Sacrificing("minecraft:slime","forbidden_arcanus:arcane_dragon_egg","minecraft:slime_spawn_egg",1)
+  Sacrificing("minecraft:slime","minecraft:dragon_egg","minecraft:slime_spawn_egg",1)
 
-  Sacrificing("minecraft:magma_cube","forbidden_arcanus:arcane_dragon_egg","minecraft:magma_cube_spawn_egg",1)
+  Sacrificing("minecraft:magma_cube","minecraft:dragon_egg","minecraft:magma_cube_spawn_egg",1)
 
 })

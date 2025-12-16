@@ -94,11 +94,11 @@ ServerEvents.recipes(event=>{
 		})
 	
 	kiln("wizards_reborn:arcane_gold_ingot",2,
-			"forbidden_arcanus:mundabitur_dust",4,
+			"ars_nouveau:abjuration_essence",4,
 			"naturesaura:tainted_gold",2
 	)
 
-	event.remove({id:"forbidden_arcanus:deorum_ingot"})
+	
 	event.remove({id:"thermal:machines/smelter/smelter_alloy_enderium"})
 	event.remove({id:"thermal:machines/smelter/smelter_alloy_lumium"})
 

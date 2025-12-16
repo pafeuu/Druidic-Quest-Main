@@ -168,15 +168,6 @@ StartupEvents.registry("block", (event) => {
     .resistance("6")
     .tagBlock("mineable/pickaxe")
 
-
-    event.create("broken_spawner")
-    .textureAll("minecraft:block/spawner")
-    .displayName("Broken Spawner")
-    .soundType("stone")
-    .hardness("3")
-    .resistance("6")
-    .tagBlock("mineable/pickaxe")
-
     event.create("rotten_flesh_block")
     .soundType("honey_block")
     .hardness("0.5")
@@ -338,17 +329,6 @@ StartupEvents.registry("block", (event) => {
     .box(0,0,0,16,8,16)
     .box(3,8,0,16,12,16)
     .box(9,12,0,16,16,16)
-    .tagItem("c:hidden_from_recipe_viewers")
-
-    event.create("incomplete_clibano_core")
-    .soundType("deepslate")
-    .hardness("3")
-    .resistance("4")
-    .tagBlock("mineable/pickaxe")
-    .tagBlock('minecraft:needs_stone_tool')
-    .textureAll("forbidden_arcanus:block/clibano_combustion/clibano_center_side")
-    .renderType('cutout')
-    .box(0,0,0,16,8,16)
     .tagItem("c:hidden_from_recipe_viewers")
 
     event.create("incomplete_questin_ram_trophy")

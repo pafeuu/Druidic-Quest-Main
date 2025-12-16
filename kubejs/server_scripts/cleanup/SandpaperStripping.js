@@ -23,7 +23,7 @@ ServerEvents.recipes(event=>{
         SandpaperStripping("deep_aether","conberry_log")
         SandpaperStripping("deep_aether","sunroot_log")
         SandpaperStripping("deep_aether","roseroot_log")
-        SandpaperStripping("forbidden_arcanus","aurum_log")
+    
         SandpaperStripping("mynethersdelight","powdery_block")
         SandpaperStripping("quark","ancient_log")
         SandpaperStripping("quark","azalea_log")
@@ -87,7 +87,6 @@ ServerEvents.recipes(event=>{
         SandpaperStripping("deep_aether","conberry_wood")
         SandpaperStripping("deep_aether","sunroot_wood")
         SandpaperStripping("deep_aether","roseroot_wood")
-        SandpaperStripping("forbidden_arcanus","aurum_wood")
         
         SandpaperStripping("quark","ancient_wood")
         SandpaperStripping("quark","azalea_wood")

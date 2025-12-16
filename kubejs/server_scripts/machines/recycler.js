@@ -203,11 +203,11 @@ ServerEvents.recipes(event=>
     HeadRecycling("minecraft:zombie_head","8x minecraft:rotten_flesh")
     HeadRecycling("minecraft:creeper_head","8x minecraft:gunpowder")
     HeadRecycling("minecraft:piglin_head","8x minecraft:gold_ingot")
-    HeadRecycling("supplementaries:enderman_head","8x forbidden_arcanus:ender_pearl_fragment")
+    HeadRecycling("supplementaries:enderman_head","8x ender_pearl")
     HeadRecycling("minecraft:wither_skeleton_skull","8x minecraft:wither_rose")
-    HeadRecycling("minecraft:dragon_head","8x forbidden_arcanus:dragon_scale")
+    HeadRecycling("minecraft:dragon_head","8x irons_spellbooks:dragonskin")
     HeadRecycling("twilightforest:naga_trophy","8x twilightforest:naga_scale")
-    HeadRecycling("twilightforest:lich_trophy","8x forbidden_arcanus:corrupt_soul")
+    HeadRecycling("twilightforest:lich_trophy","8x kubejs:corrupted_soul")
     HeadRecycling("twilightforest:minoshroom_trophy","8x twilightforest:meef_stroganoff")
     HeadRecycling("twilightforest:hydra_trophy","8x twilightforest:fiery_blood")
     HeadRecycling("twilightforest:knight_phantom_trophy","8x twilightforest:knightmetal_ingot")
@@ -222,10 +222,10 @@ ServerEvents.recipes(event=>
         .inputItems("enigmaticlegacy:recall_potion")
         .outputItems("minecraft:glass_bottle")
         .chance(0.125, builder => builder
-            .outputItems("forbidden_arcanus:arcane_crystal_dust")
+            .outputItems("lapis_dust")
         )
-        .chance(0.125, builder => builder
-            .outputItems("forbidden_arcanus:ender_pearl_fragment")
+        .chance(0.75, builder => builder
+            .outputItems("ender_pearl")
         )
         .duration(200)
     

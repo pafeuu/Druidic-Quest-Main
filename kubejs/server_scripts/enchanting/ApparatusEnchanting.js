@@ -374,10 +374,6 @@ ServerEvents.recipes(event=>{
         "minecraft:blue_ice"
     ],10000)
 
-    Enchanting("forbidden_arcanus:permafrost",1,[
-        "kubejs:enchanting_rune_of_ice",
-        "bucket"
-    ],5000)
 
     Enchanting("ars_nouveau:mana_regen",1,[
         "kubejs:enchanting_rune_of_mana",
@@ -1092,19 +1088,19 @@ ServerEvents.recipes(event=>{
 
     Enchanting("majruszsenchantments:enlightenment",1,[
         "kubejs:large_enchanting_rune_of_wisdom",
-        "forbidden_arcanus:xpetrified_orb",
-        "forbidden_arcanus:xpetrified_orb",
-        "forbidden_arcanus:xpetrified_orb"
+        "create:experience_block",
+        "create:experience_block",
+        "create:experience_block"
     ],5000)
 
     Enchanting("majruszsenchantments:enlightenment",2,[
         "kubejs:large_enchanting_rune_of_wisdom",
-        "forbidden_arcanus:xpetrified_orb",
-        "forbidden_arcanus:xpetrified_orb",
-        "forbidden_arcanus:xpetrified_orb",
-        "forbidden_arcanus:xpetrified_orb",
-        "forbidden_arcanus:xpetrified_orb",
-        "forbidden_arcanus:xpetrified_orb"
+        "create:experience_block",
+        "create:experience_block",
+        "create:experience_block",
+        "create:experience_block",
+        "create:experience_block",
+        "create:experience_block"
     ],10000)
 
     Enchanting("majruszsenchantments:fuse_cutter",1,[

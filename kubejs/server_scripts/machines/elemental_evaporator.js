@@ -42,7 +42,7 @@ ServerEvents.recipes(event=>{
     experienceEvaporating("sob:exp_candy",200)
     experienceEvaporating("create:experience_nugget",60)
     experienceEvaporating("minecraft:experience_bottle",60)
-    experienceEvaporating("forbidden_arcanus:xpetrified_orb",1820)
+    experienceEvaporating("create:experience_block",600)
 
     
 

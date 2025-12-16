@@ -76,7 +76,6 @@ ServerEvents.recipes(event=>{
     FluidCrafting("water","immersiveengineering:redstone_acid_fluid_block",[
         {tag:"forge:gems/sulfur"},
         {tag:"forge:gems/sulfur"},
-        {item:"forbidden_arcanus:arcane_crystal_dust"},
         {tag:"c:storage_blocks/redstone"},
         {tag:"c:storage_blocks/redstone"},
     ],ParticleRedstone,SoundEffectElectric)

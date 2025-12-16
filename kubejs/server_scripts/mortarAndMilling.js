@@ -107,7 +107,6 @@ ServerEvents.recipes(event => {
     MillingWithExtras(2, 'naturesaura:gold_powder', 4, 2, 'naturesaura:gold_powder', 0.5, 'naturesaura:gold_leaf', 1, 'naturesaura:gold_powder')
     event.remove({id:"naturesaura:altar/gold_powder"})
 
-    MillingWithExtras(1,"forbidden_arcanus:arcane_crystal_dust",2,1,"forbidden_arcanus:arcane_crystal_dust",0.5,"forbidden_arcanus:arcane_crystal",4,"forbidden_arcanus:arcane_crystal_dust")
     MillingWithExtras(1,'arsdelight:wilden_spike_powder',2,1,'arsdelight:wilden_spike_powder',0.5,"ars_nouveau:wilden_spike",1,"arsdelight:cutting/wilden_spike")
     MillingWithExtras(1,'arsdelight:wilden_horn_powder',2,1,'arsdelight:wilden_horn_powder',0.5,"ars_nouveau:wilden_horn",1,"arsdelight:cutting/wilden_horn")
 

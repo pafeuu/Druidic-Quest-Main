@@ -97,9 +97,9 @@ ServerEvents.recipes(event=>{
         "kubejs:dark_essence",
         "alexsdelight:maggot_salad",
         "kubejs:dark_essence",
-        "forbidden_arcanus:corrupt_soul",
+        "kubejs:corrupted_soul",
         "kubejs:dark_essence",
-        "forbidden_arcanus:corrupt_soul",
+        "kubejs:corrupted_soul",
         "kubejs:dark_essence",
         "thermal:ruby",
         "death_essence")

@@ -102,7 +102,7 @@ ServerEvents.recipes(event=>{
 
     ExplosionCrafting(1,"kubejs:dimension_ripper",[
         {item: "quark:diamond_heart"},
-		{item: "forbidden_arcanus:ender_pearl_fragment"},
+		{item: "ender_pearl"},
 		{item: "diamond"},
 		{item: "redstone_block"}
     ],ParticleEnd,

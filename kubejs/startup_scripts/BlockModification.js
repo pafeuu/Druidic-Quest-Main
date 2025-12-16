@@ -36,7 +36,6 @@ BlockEvents.modification(event => {
     logs("deep_aether","roseroot")
     logs("deeperdarker","echo")
     logs("deeperdarker","bloom")
-    logs("forbidden_arcanus","aurum")
     logs("mynethersdelight","powdery")
     logs("quark","ancient")
     logs("quark","azalea")

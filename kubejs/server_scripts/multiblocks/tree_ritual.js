@@ -10,10 +10,10 @@ ServerEvents.recipes(event=>{
     */
      
      tree_ritual("minecraft:dried_ghast",
-        ["forbidden_arcanus:soul",
+        ["quark:soul_bead",
         "supplementaries:bellows",
-        "forbidden_arcanus:tentacle",
-        "forbidden_arcanus:tentacle",
+        "ink_sac",
+        "ink_sac",
         "minecraft:bone_block",
         "minecraft:bone_block",
         "minecraft:bone_block",
@@ -149,20 +149,6 @@ ServerEvents.recipes(event=>{
           "biomeswevegone:indigo_jacaranda_sapling"
      )
 
-     tree_ritual("forbidden_arcanus:golden_orchid_seeds",
-          [
-               "wizards_reborn:arcanum_seed",
-               "#forge:storage_blocks/deorum",
-               "#forge:storage_blocks/deorum",
-               "#forge:storage_blocks/deorum",
-               "#forge:storage_blocks/deorum",
-               "#forge:storage_blocks/deorum",
-               "#forge:storage_blocks/deorum",
-               "#forge:storage_blocks/deorum",
-          ],
-          "aether:golden_oak_sapling"
-     ).id("forbidden_arcanus:golden_orchid_seeds")
-
      tree_ritual("wizards_reborn:arcane_wood_sapling",
           [
                "naturesaura:ancient_sapling",
@@ -177,20 +163,7 @@ ServerEvents.recipes(event=>{
           "biomeswevegone:blue_spruce_sapling"
      )
 
-     tree_ritual("forbidden_arcanus:aurum_sapling",
-          [
-               "golden_apple",
-               "oak_sapling",
-               "thermal:gold_dust",
-               "thermal:gold_dust",
-               "thermal:gold_dust",
-               "thermal:gold_dust",
-               "thermal:gold_dust",
-               "thermal:gold_dust",
-          ],
-          "wizards_reborn:arcane_wood_sapling"
-     )
-
+    
      tree_ritual("wizards_reborn:innocent_wood_sapling",
           [
                "wizards_reborn:arcane_wood_sapling",

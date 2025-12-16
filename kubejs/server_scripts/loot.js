@@ -248,9 +248,9 @@ LootJS.modifiers((event) => {
             or.matchMainHand("#dq:soul_harvester").matchOffHand("kubejs:bejeweled_crucifix");
         })
     .addAlternativesLoot(
-            LootEntry.of("forbidden_arcanus:enchanted_soul").when((c) => c.randomChance(0.1)),
-            LootEntry.of("forbidden_arcanus:corrupt_soul").when((c) => c.randomChance(0.25)),
-            LootEntry.of("forbidden_arcanus:soul").when((c) => c.randomChance(0.5)),
+            LootEntry.of("kubejs:enchanted_soul").when((c) => c.randomChance(0.1)),
+            LootEntry.of("kubejs:corrupted_soul").when((c) => c.randomChance(0.25)),
+            LootEntry.of("quark:soul_bead").when((c) => c.randomChance(0.5)),
         )
 
     event.addEntityLootModifier(["alexsmobs:soul_vulture","quark:wraith","twilightforest:wraith"])
@@ -258,9 +258,9 @@ LootJS.modifiers((event) => {
             or.matchMainHand("#dq:soul_harvester").matchOffHand("kubejs:bejeweled_crucifix");
         })
     .addAlternativesLoot(
-            LootEntry.of("forbidden_arcanus:enchanted_soul").when((c) => c.randomChance(0.3)),
-            LootEntry.of("forbidden_arcanus:corrupt_soul").when((c) => c.randomChance(0.6)),
-            LootEntry.of("forbidden_arcanus:soul").when((c) => c.randomChance(1)),
+            LootEntry.of("kubejs:enchanted_soul").when((c) => c.randomChance(0.3)),
+            LootEntry.of("kubejs:corrupted_soul").when((c) => c.randomChance(0.6)),
+            LootEntry.of("quark:soul_bead").when((c) => c.randomChance(1)),
         )
     event.addEntityLootModifier("twilightforest:redcap_sapper")
         .randomChance(0.2)

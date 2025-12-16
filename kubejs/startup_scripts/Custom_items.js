@@ -263,6 +263,7 @@ StartupEvents.registry('item', item => {
   item.create('arcanum_alloy_ingot').tag('forge:ingots').tag('forge:ingots/arcanum_alloy').tag("dq:tier2/component")
   item.create('storm_ingot').tag('forge:ingots').tag('forge:ingots/storm').tag("dq:tier3/component")
   item.create('wrought_iron_ingot').tag('forge:ingots').tag('forge:ingots/wrought_iron')
+  item.create('obsidian_ingot').tag('forge:ingots').tag('forge:ingots/obsidian')
   item.create('aquatic_ingot').tag('forge:ingots').tag('forge:ingots/aquatic').tag("aether:neptune_repairing")
   item.create('phoenix_ingot').tag('forge:ingots').tag('forge:ingots/phoenix')
   
@@ -604,6 +605,9 @@ StartupEvents.registry('item', item => {
   ///===================================================MISC===========================================================
 
   item.create("elemental_cloth").tag("dq:tier3/component")
+  item.create("corrupted_soul").tag("dq:tier1/component")
+  item.create("enchanted_soul").tag("dq:tier1/component")
+  item.create("spawner_part").tag("dq:tier2/component")
   item.create('natural_clay_blend').tag('dq:tier3/component')
   item.create('blast_brick').tag('dq:tier3/component')
   item.create('arcane_leather').tag('dq:tier0/component')

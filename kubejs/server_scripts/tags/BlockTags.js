@@ -41,7 +41,6 @@ ServerEvents.tags('block', event => {
     'aether_redux:stripped_blightwillow_log',
     'aether_redux:stripped_fieldsproot_log',
     'aether:stripped_skyroot_log',
-    'forbidden_arcanus:stripped_aurum_log',
     'deep_aether:stripped_sunroot_log',
     'deep_aether:stripped_conberry_log',
     'deep_aether:stripped_cruderoot_log',
@@ -66,7 +65,6 @@ ServerEvents.tags('block', event => {
     ["twigs:schist",
       "twigs:rhyolite",
       "immersiveweathering:mossy_stone",
-      "forbidden_arcanus:darkstone",
       'biomeswevegone:dacite',
       'biomeswevegone:white_dacite',
       'biomeswevegone:red_rock',
@@ -146,6 +144,6 @@ ServerEvents.tags('block', event => {
 
   event.add("dq:tiab_blacklist",["naturesaura:blast_furnace_booster"])
 
-  event.add("forge:ores",["forbidden_arcanus:arcane_crystal_ore","minecraft:glowstone","forbidden_arcanus:runic_stone"])
+  event.add("forge:ores",[,"minecraft:glowstone"])
 
 })

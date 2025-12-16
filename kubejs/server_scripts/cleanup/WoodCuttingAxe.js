@@ -41,7 +41,6 @@ ItemEvents.rightClicked(event => {
 	StrippedWoodCutting("deep_aether:roseroot_planks","deep_aether:stripped_roseroot_log")
 	StrippedWoodCutting("deeperdarker:echo_planks","deeperdarker:stripped_echo_log")
 	StrippedWoodCutting("deeperdarker:bloom_planks","deeperdarker:stripped_blooming_stem")
-	StrippedWoodCutting("forbidden_arcanus:aurum_planks","forbidden_arcanus:stripped_aurum_log")
 	StrippedWoodCutting("mynethersdelight:powdery_planks","mynethersdelight:stripped_powdery_block")
 	StrippedWoodCutting("quark:ancient_planks","quark:stripped_ancient_log")
 	StrippedWoodCutting("quark:azalea_planks","quark:stripped_azalea_log")
@@ -114,7 +113,6 @@ ItemEvents.rightClicked(event => {
 	StrippedWoodCutting("deep_aether:roseroot_planks","deep_aether:stripped_roseroot_wood")
 	StrippedWoodCutting("deeperdarker:echo_planks","deeperdarker:stripped_echo_wood")
 	StrippedWoodCutting("deeperdarker:bloom_planks","deeperdarker:stripped_blooming_stem")
-	StrippedWoodCutting("forbidden_arcanus:aurum_planks","forbidden_arcanus:stripped_aurum_wood")
 	
 	StrippedWoodCutting("quark:ancient_planks","quark:stripped_ancient_wood")
 	StrippedWoodCutting("quark:azalea_planks","quark:stripped_azalea_wood")
