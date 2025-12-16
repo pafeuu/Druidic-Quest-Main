@@ -7,7 +7,7 @@
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
-		id: "forbidden_arcanus:draco_arcanus_sword"
+		id: "aether:holy_sword"
 		tag: {
 			Damage: 0
 		}
@@ -271,24 +271,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "1EA5D3E0C009B0CC"
-			size: 0.9d
-			tasks: [{
-				id: "4619ECC4F1E198D8"
-				item: {
-					Count: 1
-					id: "forbidden_arcanus:reinforced_deorum_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.3499999999999999d
-			y: 4.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "1D523A2FBC1A9AC1"
 			rewards: [{
 				count: 2
@@ -350,24 +332,6 @@
 				type: "item"
 			}]
 			x: 4.05d
-			y: 3.5999999999999996d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "4F2C614174EABC9E"
-			size: 0.9d
-			tasks: [{
-				id: "394AEC9C1E0DCE43"
-				item: {
-					Count: 1
-					id: "forbidden_arcanus:draco_arcanus_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.25d
 			y: 3.5999999999999996d
 		}
 		{

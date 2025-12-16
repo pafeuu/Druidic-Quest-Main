@@ -24,7 +24,7 @@
 				item: "minecraft:skeleton_skull"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -40,34 +40,8 @@
 				item: "minecraft:zombie_head"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "77A71BF33540EE5D"
-			rewards: [{
-				id: "07E2F1BC15F8C650"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "064771A8DFD125F5"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							"forbidden_arcanus:tick_counter": {
-								value: 0
-							}
-						}
-					}
-					id: "forbidden_arcanus:obsidian_skull"
-				}
-				type: "item"
-			}]
 			x: -2.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -98,23 +72,7 @@
 				item: "minecraft:wither_skeleton_skull"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "21B9941560D4876E"
-			rewards: [{
-				id: "415B7C1C73C686EA"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "507C1151AC99199E"
-				item: "forbidden_arcanus:eternal_obsidian_skull"
-				type: "item"
-			}]
-			x: -2.5d
+			x: -4.0d
 			y: 1.5d
 		}
 		{

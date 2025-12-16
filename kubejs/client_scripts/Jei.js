@@ -39,6 +39,8 @@ JEIEvents.information(event => {
     event.addItem("immersive_weathering:ivy",["Found in forest biomes hanging from some trees"])
     event.addItem("enigmaticlegacy:extradimensional_eye",["Combine it with dimensional tool in the crafting grid to apply telekinesis enchant!"])
     event.addItem("kubejs:wooden_crucifix",["Rare drop from undead creatures"])
+    event.addItem("thermal:compost",["Created by Batch Composter"])
+    
     event.addItem([
         "kubejs:ring_travel",
         "kubejs:travelers_belt"],["One of the drops from Overworld Key usage"])
@@ -94,14 +96,10 @@ JEIEvents.information(event => {
     event.addItem("deep_aether:goldenleaf_berries",["Found growing on Quicksoil in Golden Heights biome"])
 
     event.addItem("wizards_reborn:arcanum_ore",["Found between y90 and y-40 in the overworld"])
-
-    event.addItem("forbidden_arcanus:xpetrified_ore",["Found between y127 and y-15 in the twilight forest"])
-    event.addItem("forbidden_arcanus:arcane_crystal_ore",["Found between y96 and y-30 in the twilight forest"])
     event.addItem("thermal:sapphire_ore",["Found between y-15 and y-30 in the twilight forest"])
-    event.addItem("forbidden_arcanus:runic_stone",["Found between y0 and y-30 in the twilight forest"])
-    event.addItem("forbidden_arcanus:stella_arcanum",["Found between y-10 and y-30 in the twilight forest"])
     event.addItem("irons_spellbooks:arcane_debris",["Found near y56 in the overworld"])
-    event.addItem("forbidden_arcanus:darkstone",["Found near y56 in the overworld"])
+    event.addItem("thermal:cinnabar_ore",["Found in Nether Geodes"])
+    event.addItem("rubinated_nether:molten_ruby_ore",["Found in Nether Geodes and Magma Veins"])
 
     event.addItem('supplementaries:music_disc_heave_ho',["Obtained by killing a Creeper with a Cannonball"])
     

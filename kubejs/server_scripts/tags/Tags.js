@@ -1,5 +1,7 @@
  priority: 0
 
+
+
 ServerEvents.tags('item', event => {
 
   event.removeAllTagsFrom([global.nukelist])
@@ -177,6 +179,21 @@ ServerEvents.tags('item', event => {
   event.add("forge:shields","kubejs:primitive_shield")
   event.add("forge:tools","kubejs:primitive_shield")
 
+  function armor(name)
+  {
+    event.add('forge:armors/helmets',name+"_helmet")
+    event.add('forge:armors/chestplates',name+"_chestplate")
+    event.add('forge:armors/leggings',name+"_leggings")
+    event.add('forge:armors/boots',name+"_boots")
+  }
+  function natureArmor(name)
+  {
+    event.add('forge:armors/helmets',name+"_helmet")
+    event.add('forge:armors/chestplates',name+"_chest")
+    event.add('forge:armors/leggings',name+"_pants")
+    event.add('forge:armors/boots',name+"_shoes")
+  }
+
   function tool(name)
   {
     event.add('minecraft:axes', name+'_axe')  
@@ -195,6 +212,21 @@ ServerEvents.tags('item', event => {
 	  event.add('forge:tools/'+tier, name+'_hoe')  
   }
 
+  armor('thermal:beekeeper')
+  armor('thermal:diving')
+  armor('thermal:hazmat')
+  armor('kubejs:copper')
+  armor('kubejs:silver')
+  armor('kubejs:lead')
+  armor('kubejs:bronze')
+  armor('kubejs:cactus')
+  armor('deep_aether:stormforged')
+  armor("forbidden_arcanus:tyr")
+  armor("forbidden_arcanus:mortem")
+  armor("forbidden_arcanus:draco_arcanus")
+  natureArmor("naturesaura:infused_iron")
+  natureArmor("naturesaura:sky")
+  natureArmor("naturesaura:depth")
   tooltier('minecraft:wooden','flint')
   tooltier('minecraft:stone','stone')
   

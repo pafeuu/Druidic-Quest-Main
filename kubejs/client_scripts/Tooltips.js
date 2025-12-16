@@ -392,7 +392,6 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("sob:exp_candy",Text.green("Grants 10 experience point!"))
   tooltip.add("sob:bustling_brew",Text.green("Grants 50 experience point!"))
   tooltip.add("create_sa:heap_of_experience",Text.green("Grants 12 experience points!"))
-  tooltip.add("forbidden_arcanus:xpetrified_orb",[Text.green("Grants 91 experience points!")])
   tooltip.add("#dq:soul_harvester",[Text.red("Harvests souls")])
 
 
@@ -456,10 +455,6 @@ ItemEvents.tooltip( tooltip => {
     "create:extendo_grip",
     "kubejs:steel_shears",
     "kubejs:steel_knife",
-    'forbidden_arcanus:tyr_helmet',
-    'forbidden_arcanus:tyr_chestplate',
-    'forbidden_arcanus:tyr_leggings',
-    'forbidden_arcanus:tyr_boots', 
     'thermal:hazmat_helmet',
     'thermal:hazmat_chestplate',
     'thermal:hazmat_leggings',
@@ -484,9 +479,7 @@ ItemEvents.tooltip( tooltip => {
     (item, advanced, text) => {
     text.add(1, Text.of("Unbreakable").blue())
     })
-  //=======================Arrows=======================
-
-  tooltip.add("forbidden_arcanus:boom_arrow",[Text.gold("Explodes on impact with entities!"),Text.gold("Deals massive amounts of damage!")])
+  
 
   //========================Enigmatic Legacy ========================
 

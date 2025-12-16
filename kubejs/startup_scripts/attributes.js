@@ -87,12 +87,12 @@ ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event
 
 	if (event.itemStack.hasTag("forge:tools/gold") && event.slotType == 'mainhand') {
 					
-		event.addModifier("minecraft:generic.luck", new $AttributeModifier(UUID.fromString('1e13b050-b12b-4bb9-baf3-c3866298c019'), 'Tool modifier', 1, 'addition'))
+		event.addModifier("puffish_attributes:fortune", new $AttributeModifier(UUID.fromString('1e13b050-b12b-4bb9-baf3-c3866298c019'), 'Tool modifier', 0.25, 'addition'))
 	};
 
 	if (event.itemStack.hasTag("wizards_reborn:arcane_gold_tools") && event.slotType == 'mainhand') {
 					
-		event.addModifier("minecraft:generic.luck", new $AttributeModifier(UUID.fromString('1e13b050-b12b-4bb9-baf3-c3866298c019'), 'Tool modifier', 1, 'addition'))
+		event.addModifier("puffish_attributes:fortune", new $AttributeModifier(UUID.fromString('1e13b050-b12b-4bb9-baf3-c3866298c019'), 'Tool modifier', 0.25, 'addition'))
 		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('f5e5ab33-28e7-4357-bdfd-a8ab69323d03'), 'Tool modifier', 1, 'addition'))
 	};
  

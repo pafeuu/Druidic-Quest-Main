@@ -54,11 +54,6 @@
 			arcane_wood = true
 			innocent_wood = true
 
-		[types.wood_type.forbidden_arcanus]
-			fungyss = true
-			aurum = true
-			edelwood = true
-
 		[types.wood_type.biomeswevegone]
 			aspen = true
 			baobab = true
@@ -84,6 +79,9 @@
 			willow = true
 			witch_hazel = true
 			zelkova = true
+
+		[types.wood_type.minecraft]
+			pale_oak = true
 
 	[types.leaves_type]
 
@@ -166,10 +164,6 @@
 			arcane_wood = true
 			innocent_wood = true
 
-		[types.leaves_type.forbidden_arcanus]
-			aurum = true
-			nuggety_aurum = true
-
 		[types.leaves_type.biomeswevegone]
 			aspen = true
 			baobab = true
@@ -229,6 +223,9 @@
 			yellow_birch = true
 			yellow_spruce = true
 			firecracker = true
+
+		[types.leaves_type.minecraft]
+			pale_oak = true
 
 #Disables specific entries
 [entries]

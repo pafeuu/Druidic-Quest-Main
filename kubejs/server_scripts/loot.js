@@ -162,10 +162,6 @@ LootJS.modifiers((event) => {
         .randomChance(0.15)
         .addLoot("enigmaticlegacy:mending_mixture");
 
-    event.addLootTableModifier("minecraft:chests/jungle_temple")
-        .randomChance(0.75)
-        .addLoot("forbidden_arcanus:nipa");
-
     event.addLootTableModifier(/idas:chests\/desert_pyramid.*/)
         .randomChance(0.9)
         .addLoot("vintageimprovements:redstone_module");
@@ -242,24 +238,6 @@ LootJS.modifiers((event) => {
 
     event.addLootTypeModifier([LootType.CHEST])
         .and((and) => {
-            and.biome("#minecraft:is_forest").randomChance(0.25)
-        })
-        .addLoot(Item.of('minecraft:leather_chestplate', '{AttributeModifiers:[{Amount:10,AttributeName:"generic.max_health",Name:"generic.max_health",Operation:0,Slot:"chest",UUID:[I;-236697065,-5617923,-2001116034,-608749569]},{Amount:1,AttributeName:"puffish_attributes:player.axe_speed",Name:"generic.attack_damage",Operation:0,Slot:"chest",UUID:[I;-189118490,-261665280,-1270797720,314376330]}],Damage:0,Trim:{material:"minecraft:lapis",pattern:"ancient_aether:royal"},display:{Name:\'{"text":"Lumberjack\\\'s Shirt","color":"dark_green","bold":true}\',color:11546150}}'))
-    
-    event.addLootTypeModifier([LootType.CHEST])
-        .and((and) => {
-            and.biome("#minecraft:is_savanna").randomChance(0.25)
-        })
-        .addLoot(Item.of('minecraft:leather_helmet', '{AttributeModifiers:[{Amount:2,AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Slot:"head",UUID:[I;2089079096,-2049685849,-1333650003,724275160]},{Amount:2,AttributeName:"alembic:lightning_damage.resistance",Name:"generic.armor_toughness",Operation:0,Slot:"head",UUID:[I;1627639245,-28031523,-1683504156,382157949]},{Amount:1,AttributeName:"alembic:lightning_damage",Name:"generic.max_health",Operation:0,Slot:"head",UUID:[I;-831823483,-1026012736,-1142156795,721857813]}],Damage:0,display:{Name:\'{"text":"Thunder Cap","color":"dark_blue","bold":true}\',color:3898306}}'))
-    
-    event.addLootTypeModifier([LootType.CHEST])
-        .and((and) => {
-            and.biome("#forge:is_snowy").randomChance(0.25)
-         })
-         .addLoot(Item.of('minecraft:leather_boots', '{AttributeModifiers:[{Amount:2,AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Slot:"feet",UUID:[I;454154958,2103133474,-1242695491,-485396269]},{Amount:2,AttributeName:"alembic:ice_damage.resistance",Name:"generic.armor_toughness",Operation:0,Slot:"feet",UUID:[I;-429574747,642403351,-1679343235,-1987867171]},{Amount:1,AttributeName:"generic.max_health",Name:"generic.max_health",Operation:0,Slot:"feet",UUID:[I;1174972107,1056001029,-1625354475,-1180550624]}],Damage:0,display:{Name:\'{"text":"Cozy Boots","color":"light_purple","bold":true}\',color:16383998}}'))
-    
-    event.addLootTypeModifier([LootType.CHEST])
-        .and((and) => {
             and.biome("#forge:is_snowy").randomChance(0.25)
          })
          .addLoot("kubejs:mittens")
@@ -284,6 +262,52 @@ LootJS.modifiers((event) => {
             LootEntry.of("forbidden_arcanus:corrupt_soul").when((c) => c.randomChance(0.6)),
             LootEntry.of("forbidden_arcanus:soul").when((c) => c.randomChance(1)),
         )
+    event.addEntityLootModifier("twilightforest:redcap_sapper")
+        .randomChance(0.2)
+        .addLoot("tnt")
+        .removeLoot("coal")
+    event.addEntityLootModifier("twilightforest:redcap")
+        .randomChance(0.04)
+        .addLoot("thermal:silver_ingot")
+        .removeLoot("coal")
+
+    event.addEntityLootModifier("minecraft:stray")
+        .randomChance(0.01)
+        .addLoot("thermal:tin_ingot")
+
+    event.addEntityLootModifier("minecraft:enderman")
+        .randomChance(0.025)
+        .addLoot("thermal:nickel_ingot")
+        .randomChance(0.0125)
+        .addLoot("kubejs:lesser_ender_ring");
+
+    event.addEntityLootModifier("minecraft:witch")
+        .randomChance(0.0125)
+        .addLoot("kubejs:lesser_arcane_ring");
+
+    event.addEntityLootModifier("minecraft:blaze")
+        .randomChance(0.0125)
+        .addLoot("kubejs:blaze_totem")
+        .randomChance(0.0125)
+        .addLoot("kubejs:lesser_fire_ring");
+
+    event.addEntityLootModifier("thermal:blizz")
+        .randomChance(0.0125)
+        .addLoot("kubejs:blizz_totem")
+        .randomChance(0.0125)
+        .addLoot("kubejs:lesser_ice_ring");
+
+    event.addEntityLootModifier("thermal:blitz")
+        .randomChance(0.0125)
+        .addLoot("kubejs:blitz_totem")
+        .randomChance(0.0125)
+        .addLoot("kubejs:lesser_lightning_ring");
+
+    event.addEntityLootModifier("thermal:basalz")
+        .randomChance(0.0125)
+        .addLoot("kubejs:basalz_totem")
+        .randomChance(0.0125)
+        .addLoot("kubejs:lesser_nature_ring");
 
     event.addEntityLootModifier("minecraft:zombie")
         .randomChance(0.0125)

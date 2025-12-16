@@ -900,7 +900,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 2.5d
 			y: 2.0d
 		}
 		{
@@ -952,7 +952,7 @@
 				}
 			]
 			title: "Assemble the Ritual"
-			x: 8.0d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -989,7 +989,7 @@
 				}
 			]
 			title: "First Jewelry"
-			x: 12.0d
+			x: 11.0d
 			y: 2.0d
 		}
 		{
@@ -1013,8 +1013,8 @@
 				type: "item"
 			}]
 			title: "Important Piece of Equipment"
-			x: 11.5d
-			y: 3.5d
+			x: 10.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["08BFA7B9435D7DCC"]
@@ -1098,9 +1098,9 @@
 		{
 			dependencies: [
 				"0A4DF24D1B2E7889"
-				"3795DEE8A3FE6814"
 				"3795D0DD18CF8363"
 				"22BF5448BA6B11AF"
+				"7846743FB0D30EAD"
 			]
 			description: ["Brick glue has 96 durability and uses one per brick block crafted."]
 			id: "78441BFCAC4CA22B"
@@ -1122,7 +1122,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.0d
 			y: -1.0d
 		}
 		{
@@ -1168,8 +1168,8 @@
 				type: "item"
 			}]
 			title: "The Big Oven"
-			x: 14.0d
-			y: -0.25d
+			x: 13.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4E4E7EFB7FFC688B"]
@@ -1319,7 +1319,7 @@
 				}
 			]
 			title: "Arcanum Ore"
-			x: 8.0d
+			x: 5.5d
 			y: 4.0d
 		}
 		{
@@ -1483,7 +1483,7 @@
 				}
 			]
 			title: "Arcane Arts"
-			x: 10.0d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -1516,8 +1516,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: 0.5d
+			x: 10.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3D782DAACBB5DE87"]
@@ -1542,8 +1542,8 @@
 				item: "wizards_reborn:white_arcane_lumos"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 5.0d
+			x: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]

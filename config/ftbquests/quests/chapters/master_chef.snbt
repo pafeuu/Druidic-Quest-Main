@@ -971,23 +971,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "5ABEAACFD90577C0"
-			rewards: [{
-				id: "35C0F1D7184CEAAD"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "34BD751108F88C96"
-				item: "forbidden_arcanus:bat_soup"
-				type: "item"
-			}]
-			x: -9.600000000000001d
-			y: -9.6d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "0D8789F98422D07F"
 			rewards: [{
 				id: "14A6B66960BED92E"

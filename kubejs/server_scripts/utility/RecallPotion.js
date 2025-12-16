@@ -1,4 +1,5 @@
-ItemEvents.foodEaten("kubejs:recall_potion",e=>{
+ItemEvents.foodEaten("kubejs:recall_potion",event=>{
 
+    
     //e.player.lastDeathLocation()
 })

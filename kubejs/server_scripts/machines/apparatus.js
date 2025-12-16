@@ -8,7 +8,18 @@ ServerEvents.recipes(event=>{
         "ars_nouveau:arcane_core"],
         "kubejs:magic_machine",
         "wizards_reborn:arcane_iterator").id("wizards_reborn:arcane_workbench/arcane_iterator")
-
+    
+    apparatus([
+        "slime_block",
+        "slime_block",
+        "slime_block",
+        "slime_block",
+        "kubejs:infused_emerald",
+        "kubejs:infused_emerald",
+        "kubejs:infused_emerald",
+        "forbidden_arcanus:edelwood_stick"
+    ],"golden_pickaxe","forbidden_arcanus:slimec_pickaxe")
+    
     apparatus([
         "ars_nouveau:fire_essence",
         "ars_nouveau:fire_essence",

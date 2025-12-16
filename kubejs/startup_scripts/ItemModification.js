@@ -1,4 +1,4 @@
-
+   
 ItemEvents.modification(event => {
   
   /*const HelmetDurabilityModifier = 13
@@ -352,6 +352,11 @@ ItemEvents.modification(event => {
   otherGloves("umbral_skies","fiery",1024)
   
   ////========================================Tools
+
+  event.modify("forbidden_arcanus:slimec_pickaxe", item=>{
+      item.maxDamage = 2048,
+      item.digSpeed = 10
+     })
 
   const KnighmetalTools = ["pickaxe","axe"]
 

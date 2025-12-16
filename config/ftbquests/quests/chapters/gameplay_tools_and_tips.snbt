@@ -76,30 +76,15 @@
 				""
 				"&4&owork in progress&r&r"
 			]
-			icon: "forbidden_arcanus:deepslate_arcane_crystal_ore"
+			icon: "immersiveengineering:ore_uranium"
 			id: "3E22C28B1CF48689"
 			shape: "circle"
 			size: 1.5d
 			subtitle: "Can't find what you're looking for?"
 			tasks: [
 				{
-					id: "730A1FB8078D7E82"
-					item: "forbidden_arcanus:xpetrified_ore"
-					type: "item"
-				}
-				{
 					id: "0B216994E8CF56AA"
 					item: "thermal:sapphire_ore"
-					type: "item"
-				}
-				{
-					id: "7F06FA8429B4A290"
-					item: "forbidden_arcanus:runic_stone"
-					type: "item"
-				}
-				{
-					id: "36B5B41B87040954"
-					item: "forbidden_arcanus:stella_arcanum"
 					type: "item"
 				}
 				{
@@ -108,8 +93,23 @@
 					type: "item"
 				}
 				{
-					id: "6B939BFF51EE6064"
-					item: "forbidden_arcanus:arcane_crystal_ore"
+					id: "79E676A993E45FC2"
+					item: "rubinated_nether:molten_ruby_ore"
+					type: "item"
+				}
+				{
+					id: "73DDC46D34F82F94"
+					item: "thermal:cinnabar_ore"
+					type: "item"
+				}
+				{
+					id: "1B60917EF8ACDDD9"
+					item: "immersiveengineering:ore_uranium"
+					type: "item"
+				}
+				{
+					id: "2F5BD1B6EFAE3BC6"
+					item: "immersiveengineering:ore_aluminum"
 					type: "item"
 				}
 			]
@@ -216,7 +216,13 @@
 				""
 				"&2Equipping yourself appropriately for various situations could make a huge difference!&r"
 			]
-			icon: "forbidden_arcanus:tyr_chestplate"
+			icon: {
+				Count: 1
+				id: "deep_aether:stormforged_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "23A6B7EF98592193"
 			size: 1.5d
 			subtitle: "Dress for Success!"

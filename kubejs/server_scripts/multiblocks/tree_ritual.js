@@ -8,17 +8,17 @@ ServerEvents.recipes(event=>{
          7     8
             2
     */
-     tree_ritual("wizards_reborn:arcane_workbench",
-        ["crafting_table",
-        "wizards_reborn:arcane_wood_planks",
-        "naturesaura:gold_leaf",
-        "naturesaura:gold_leaf",
-        "red_wool",
-        "wizards_reborn:arcane_wood_planks",
-        "red_wool",
-        "wizards_reborn:arcane_wood_planks"],
-        "birch_sapling").id("wizards_reborn:shaped/arcane_workbench")
-   
+     
+     tree_ritual("minecraft:dried_ghast",
+        ["forbidden_arcanus:soul",
+        "supplementaries:bellows",
+        "forbidden_arcanus:tentacle",
+        "forbidden_arcanus:tentacle",
+        "minecraft:bone_block",
+        "minecraft:bone_block",
+        "minecraft:bone_block",
+        "minecraft:bone_block"],
+        "jungle_sapling").id("minecraft:dried_ghast")
 
      tree_ritual("ars_nouveau:starbuncle_charm",
         ["ars_nouveau:starbuncle_shards",
@@ -76,22 +76,6 @@ ServerEvents.recipes(event=>{
           "#forge:ingots/iron",
      ],"twilightforest:twilight_oak_sapling")
 
-     event.custom({
-		type: "naturesaura:tree_ritual",
-		ingredients: [
-			{item: "minecraft:ink_sac"},
-			{item: "minecraft:ink_sac"},
-			{item: "minecraft:ink_sac"},
-			{item: "minecraft:ink_sac"},
-			{item: "create:wheat_flour"},
-			{item: "create:wheat_flour"},
-			{item: "create:wheat_flour"},
-			{item: "create:wheat_flour"}
-		],
-		"sapling": {item: "minecraft:spruce_sapling"},
-		"output": {item: "kubejs:brick_glue","count": 1},
-		"time": 200
-	})
 
      //============================================= Seeds and Saplings =============================================
 
@@ -221,17 +205,30 @@ ServerEvents.recipes(event=>{
           "cherry_sapling"
      ).id("wizards_reborn:crystal_infusion/innocent_wood_sapling")
 
+     tree_ritual("minecraft:sunflower",
+	[
+          "minecraft:grass",
+          "#minecraft:flowers",
+          "minecraft:yellow_dye",
+          "minecraft:yellow_dye",
+          "minecraft:yellow_dye",
+          "minecraft:yellow_dye",
+          "minecraft:yellow_dye",
+          "minecraft:yellow_dye",],
+          "oak_sapling",100
+     )
+
      tree_ritual("naturesaura:token_joy",
 	[
-          "#forge:gems/lapis",
+          "#forge:gems/arcanum",
           "kubejs:basic_token",
-          "create:bar_of_chocolate",
-          "create:bar_of_chocolate",
-          "create:bar_of_chocolate",
-          "create:bar_of_chocolate",
-          "create:bar_of_chocolate",
-          "create:bar_of_chocolate"],
-          "quark:yellow_blossom_sapling",100
+          "minecraft:sunflower",
+          "minecraft:sunflower",
+          "minecraft:sunflower",
+          "minecraft:sunflower",
+          "minecraft:sunflower",
+          "minecraft:sunflower"],
+          "oak_sapling",100
      ).id("naturesaura:tree_ritual/token_joy")
 
 	tree_ritual("naturesaura:token_sorrow",

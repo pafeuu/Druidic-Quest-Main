@@ -56,7 +56,34 @@ ServerEvents.recipes(event => {
 	})
 	 
 	/// ======================================================================= Tier 0 Machines ========================================================================
-	
+	event.shaped("wizards_reborn:arcane_workbench",
+		[
+			"RTR",
+			"GCG",
+			"AAA"
+		],
+		{
+			A: "wizards_reborn:arcane_wood_planks",
+			R: "red_wool",
+			G: "naturesaura:gold_leaf",
+			C: "crafting_table",
+			T: "naturesaura:token_joy"
+		}
+	).id("wizards_reborn:shaped/arcane_workbench")
+
+	event.shaped("kubejs:arcanum_pylon",
+		[
+			"GAG",
+			"GAG",
+			"ATA"
+		],
+		{
+			G:"naturesaura:gold_leaf",
+			A:"wizards_reborn:arcanum",
+			T:"naturesaura:wood_stand"
+		}
+	)
+
 	event.shaped("kubejs:arcanum_pylon",
 		[
 			"GAG",
@@ -165,11 +192,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("minecraft:chest2")*/
 
-	event.recipes.farmersdelight.cutting(
-		"ender_pearl",
-		"#forge:tools/knives",
-		["2x forbidden_arcanus:ender_pearl_fragment",
-		Item.of("forbidden_arcanus:ender_pearl_fragment").withChance(0.25)]).id("forbidden_arcanus:ender_pearl_fragment")
 
 	event.shaped("minecraft:crafting_table",
 		[
@@ -201,7 +223,7 @@ ServerEvents.recipes(event => {
 	event.custom({
 		type: "lychee:item_inside",
 		item_in: [
-			{item: "forbidden_arcanus:ender_pearl_fragment"},
+			{item: "ender_pearl"},
 			{tag: "forge:insect"},
 			{tag: "forge:storage_blocks/beetroot"},
 			{tag: "forge:storage_blocks/beetroot"}],
@@ -257,6 +279,18 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 0 Components ========================================================================
 	
+	event.shaped("8x wizards_reborn:wisestone",
+		[
+			"SSS",
+			"SXS",
+			"SSS"
+		],
+		{
+			X: "wizards_reborn:arcanum",
+			S: "quark:sturdy_stone"
+		}
+	).id("wizards_reborn:arcane_workbench/wisestone")
+
 	event.shaped("4x supplementaries:rope",
 		[
 			" SF",
@@ -679,6 +713,19 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Components =======================================================================
 	
+	event.shaped("thermal:xp_storage_augment",
+		[
+			"ITI",
+			"TXT",
+			"ITI"
+		],
+		{
+			I: "#forge:plates/invar",
+			T: "#forge:plates/tin",
+			X: "wizards_reborn:experience_totem"
+		}
+	).id("thermal:augments/xp_storage_augment")
+
 	event.shaped("immersiveengineering:strip_curtain",
 		[
 			"S",
@@ -1281,6 +1328,63 @@ ServerEvents.recipes(event => {
 	)
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
+
+	event.shaped("mbd2:elemental_extractor",
+		[
+			"HAH",
+			"AXA",
+			"HTH"
+		],
+		{
+			H: "kubejs:carbon_infused_sturdy_handle",
+			A: "#forge:plates/arcanum_alloy",
+			T: "create:fluid_tank",
+			X: "kubejs:basic_magic_machine"
+		}
+	)
+	
+	event.remove({output:"naturesaura:animal_spawner"})
+	event.shaped("naturesaura:animal_spawner",
+		[
+			"LWL",
+			"LXL",
+			"LBL"
+		],
+		{
+			L: "#forge:plates/lead",
+			W: "hay_block",
+			X: "kubejs:basic_magic_machine",
+			B: "naturesaura:birth_spirit"
+		}
+	)
+
+	event.shaped("wizards_reborn:arcane_lever",
+		[
+			"N",
+			"B",
+			"W"
+		],
+		{
+			N: "#forge:nuggets/gold",
+			B: "wizards_reborn:arcane_wood_branch",
+			W: "wizards_reborn:wisestone"
+		}
+	).id("wizards_reborn:arcane_workbench/arcane_lever")
+
+	event.shapeless("wizards_reborn:wissen_activator",["wizards_reborn:wissen_sensor","wizards_reborn:wissen_wand"]).id("wizards_reborn:arcane_workbench/wissen_activator")
+
+	event.shaped("wizards_reborn:arcane_hopper",
+		[
+			"APA",
+			"AHA",
+			" A "
+		],
+		{
+			P: "#forge:plates/gold",
+			A: "wizards_reborn:arcane_wood_planks",
+			H: "hopper"
+		}
+	).id("wizards_reborn:arcane_workbench/arcane_hopper")
 
 	event.shaped("immersiveengineering:item_batcher",
 		[
@@ -2672,18 +2776,17 @@ ServerEvents.recipes(event => {
 	)
 	
 	/// ======================================== Tier 2 Components ================================================================
-
-	event.shaped("craftingstation:crafting_station",
+	
+	event.shaped("kubejs:elemental_pump",
 		[
-			"ACA",
-			"PXP",
-			"APA"
+			"PPP",
+			"LXL",
+			"PPP"
 		],
 		{
-			P: "forbidden_arcanus:xpetrified_orb",
-			A: "wizards_reborn:arcane_wood_log",
-			C: "minecraft:crafting_table",
-			X: "kubejs:basic_magic_machine"
+			P: "#forge:plates/arcanum_alloy",
+			L: "#forge:plates/lead",
+			X: "immersiveengineering:fluid_pump"
 		}
 	)
 
@@ -2980,6 +3083,35 @@ ServerEvents.recipes(event => {
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
 	
+	event.shaped("craftingstation:crafting_station",
+		[
+			"ACA",
+			"PXP",
+			"APA"
+		],
+		{
+			P: "forbidden_arcanus:xpetrified_orb",
+			A: "wizards_reborn:arcane_wood_log",
+			C: "minecraft:crafting_table",
+			X: "kubejs:basic_magic_machine"
+		}
+	).id("craftingstation:crafting_station")
+
+	event.shaped("kubejs:pressing_catalyst",
+		[
+			"AGA",
+			"PXP",
+			"AYA"
+		],
+		{
+			P: "immersiveengineering:hammer",
+			A: "minecraft:anvil",
+			G: "#forge:gears/source_alloy",
+			Y: "#forge:gears/arcanum_alloy",
+			X: "kubejs:basic_magic_machine"
+		}
+	)
+
 	event.shaped("ars_nouveau:enchanting_apparatus",
 		[
 			"PPP",
@@ -3319,6 +3451,7 @@ ServerEvents.recipes(event => {
 	SourceGeneratorsRecipe("vitalic","kubejs:death_essence")
 	SourceGeneratorsRecipe("mycelial","quark:glow_shroom")
 	SourceGeneratorsRecipe("alchemical",'immersive_weathering:golden_moss_clump')
+
 	event.shaped("starbunclemania:fluid_sourcelink",
 			[
 				"GXG",
@@ -3331,18 +3464,6 @@ ServerEvents.recipes(event => {
 				X: "bucket"
 			}
 	).id("starbunclemania:fluid_sourcelink")
-	
-	event.recipes.naturesaura.tree_ritual("kubejs:pressing_catalyst",[
-		"#forge:gears/source_alloy",
-		"#forge:gears/arcanum_alloy",
-		"anvil",
-		"anvil",
-		"immersiveengineering:hammer",
-		"immersiveengineering:hammer",
-		"anvil",
-		"anvil"],
-		"wizards_reborn:arcane_wood_sapling")
-	
 	
 	event.shaped("mbd2:elemental_evaporator",
 		[

@@ -44,15 +44,6 @@ ClientEvents.lang("en_us", event => {
     event.renameItem("thermal:coal_coke","Coal Coke")
     event.renameBlock("thermal:coal_coke_block","Block of Coal Coke")
 
-    event.renameItem("forbidden_arcanus:arcane_crystal","Twilight Crystal")
-    event.renameItem("forbidden_arcanus:arcane_crystal_dust","Twilight Crystal Dust")
-    event.renameItem("forbidden_arcanus:arcane_crystal_dust_speck","Twilight Crystal Dust Speck")
-    event.renameItem("forbidden_arcanus:corrupted_arcane_crystal","Corrupted Twilight Crystal")
-    event.renameBlock("forbidden_arcanus:arcane_crystal_ore","Twilight Crystal Ore")
-    event.renameBlock("forbidden_arcanus:arcane_crystal_block","Twilight Crystal Block")
-    event.renameBlock("forbidden_arcanus:arcane_crystal_obelisk","Twilight Crystal Obelisk")
-    event.renameBlock("forbidden_arcanus:corrupted_arcane_crystal_block","Corrupted Twilight Crystal Block")
-    event.renameBlock("forbidden_arcanus:corrupted_arcane_crystal_obelisk","Corrupted Twilight Crystal Obelisk")
 
     event.renameItem("naturesaura:gold_powder","Gold Leaf Powder")
     event.renameItem("forbidden_arcanus:reinforced_deorum_blacksmith_gavel","Blacksmith Gavel")

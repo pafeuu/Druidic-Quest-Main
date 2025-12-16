@@ -88,15 +88,6 @@ ServerEvents.recipes(event=>{
     SoundEffectEarthquake,
     ConditionUnderground)
 
-    event.remove({output:"naturesaura:animal_spawner"})
-    ExplosionCrafting(1,"naturesaura:animal_spawner",[
-        {tag: "forge:storage_blocks/gold"},
-		{item: "minecraft:hay_block"},
-		{item: "minecraft:moss_block"},
-		{item: "kubejs:broken_spawner"}
-    ],ParticleGreenFire,
-    SoundEffectEarthquake)
-
     ExplosionCrafting(4,"naturesaura:gold_fiber",[
         {item: "minecraft:string",},
 		{item: "minecraft:string",},

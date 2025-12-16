@@ -3,6 +3,57 @@ ServerEvents.recipes(event=>{
         4---2
           3     */
 
+    
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "_W_",
+            "WWW",
+            "_W_",
+            "IIII"
+        ],
+        "key": {
+            "W": {
+            "item": "create:wheat_flour"
+            },
+            "I": {
+            "item": "ink_sac"
+            }
+        },
+        "output": {
+            "item": "kubejs:brick_glue"
+        },
+        "wissen": 250
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "GLG",
+            "GFG",
+            "GLG",
+            "IIII"
+        ],
+        "key": {
+            "F": {
+            "item": "feather"
+            },
+            "G": {
+            "tag": "forge:ingots/gold"
+            },
+            "L": {
+            "item": "lava_bucket"
+            },
+            "I": {
+            "tag": "forge:flowers/golden"
+            }
+        },
+        "output": {
+            "item": "kubejs:golden_magic_feather"
+        },
+        "wissen": 2500
+    })
+
     event.custom({
         "type": "wizards_reborn:arcane_workbench",
         "pattern": [
@@ -28,28 +79,6 @@ ServerEvents.recipes(event=>{
         "wissen": 250
     }).id("immersiveengineering:crafting/hammer")
 
-    event.custom({
-    "type": "wizards_reborn:arcane_workbench",
-    "pattern": [
-        "###",
-        "#A#",
-        "###",
-        "____"
-    ],
-    "key": {
-        "#": {
-        "item": "quark:sturdy_stone"
-        },
-        "A": {
-        "tag": "wizards_reborn:arcanum"
-        }
-    },
-    "output": {
-        "item": "wizards_reborn:wisestone",
-        "count": 8
-    },
-    "wissen": 100
-    }).id("wizards_reborn:arcane_workbench/wisestone")
 
     event.custom({
     "type": "wizards_reborn:arcane_workbench",
@@ -531,34 +560,6 @@ ServerEvents.recipes(event=>{
     "wissen": 1500
     }).id("enigmaticlegacy:mending_mixture")
 
-    event.custom({
-    "type": "wizards_reborn:arcane_workbench",
-    "pattern": [
-        "LCL",
-        "LML",
-        "L L",
-        "EEEE"
-    ],
-    "key": {
-        "L": {
-        "item": "wizards_reborn:arcane_wood_log"
-        },
-        "E": {
-        "item": "forbidden_arcanus:xpetrified_orb"
-        },
-        "C":{
-        "item": "crafting_table"   
-        },
-        "M":{
-        "item": "kubejs:basic_magic_machine"    
-        }
-    },
-    "output": {
-        "item": "craftingstation:crafting_station"
-    },
-    "wissen": 2000
-    }).id("craftingstation:crafting_station")
-
     const woodtools = ["hoe","axe","shovel","pickaxe"]
 
     woodtools.forEach(id => {
@@ -1038,6 +1039,164 @@ ServerEvents.recipes(event=>{
         "wissen": 1000
     }).id("constructionwand:core_angel")
 
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            " R ",
+			" S ",
+			" G ",
+            "RRRR"
+        ],
+        "key": {
+            "R": {
+            "tag": "forge:rods/silver"
+            },
+            "G": {
+            "tag": "forge:rods/gold"
+            },
+            "S": {
+            "item": "kubejs:silver_sword"
+            }
+        },
+        "output": {
+            "item": "kubejs:silver_katana"
+        },
+        "wissen": 5000
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "SSS",
+			" O ",
+			" O ",
+            "RRRR"
+        ],
+        "key": {
+            "R": {
+            "tag": "forge:rods/copper"
+            },
+            "O": {
+            "item": "minecraft:oxidized_copper"
+            },
+            "S": {
+            "item": "kubejs:copper_sword"
+            }
+        },
+        "output": {
+            "item": "kubejs:copper_trident"
+        },
+        "wissen": 5000
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "HSH",
+			" R ",
+			" R ",
+            "PPPP"
+        ],
+        "key": {
+            "R": {
+            "tag": "forge:rods/iron"
+            },
+            "P": {
+            "tag": "forge:plates/iron"
+            },
+            "H": {
+            "item": "minecraft:iron_hoe"
+            },
+            "S": {
+            "item": "minecraft:iron_sword"
+            }
+        },
+        "output": {
+            "item": "kubejs:iron_scythe"
+        },
+        "wissen": 5000
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "APA",
+			" S ",
+			" P ",
+            "EEEE"
+        ],
+        "key": {
+            "S": {
+            "item": "quark:sturdy_stone"
+            },
+            "P": {
+            "tag": "forge:plates/lead"
+            },
+            "E": {
+            "item": "minecraft:fermented_spider_eye"
+            },
+            "A": {
+            "item": "kubejs:lead_axe"
+            }
+        },
+        "output": {
+            "item": "kubejs:lead_waraxe"
+        },
+        "wissen": 5000
+    })
+
     event.remove({id:"constructionwand:core_destruction"})
+
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "###",
+        "#E#",
+        "###",
+        "AAAA"
+    ],
+    "key": {
+        "E": {
+        "item": "ars_nouveau:ring_of_potential"
+        },
+        "A": {
+        "tag": "forge:plates/gold"
+        },
+        "#":{
+        "item": "lapis_lazuli"    
+        }
+    },
+    "output": {
+        "item": "enigmaticlegacy:golden_ring",
+    },
+    "wissen": 500
+    })
+
+     event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "___",
+        "#E#",
+        "#_#",
+        "AAAA"
+    ],
+    "key": {
+        "E": {
+        "item": "ars_nouveau:ring_of_potential"
+        },
+        "A": {
+        "item": "kubejs:infused_emerald"
+        },
+        "#":{
+        "item": "lapis_lazuli"    
+        }
+    },
+    "output": {
+        "item": "enigmaticlegacy:golden_ring",
+    },
+    "wissen": 500
+    })
+
+
     
 })

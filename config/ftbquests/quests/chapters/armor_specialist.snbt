@@ -7,7 +7,7 @@
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
-		id: "forbidden_arcanus:tyr_chestplate"
+		id: "alexsmobs:rocky_chestplate"
 		tag: {
 			Damage: 0
 		}
@@ -147,72 +147,6 @@
 			]
 			title: "Engineer's Set"
 			x: -0.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			icon: {
-				Count: 1
-				id: "forbidden_arcanus:mortem_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "6605B32CA93F3A21"
-			rewards: [{
-				count: 2
-				id: "590504421247BF4E"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "25F788332F7C0BAA"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:mortem_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1228F7AFCE1B4C4A"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:mortem_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "75DFFD414086C4DD"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:mortem_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5617FFDD954E165A"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:mortem_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Mortem Set"
-			x: -3.5d
 			y: -2.5d
 		}
 		{
@@ -799,24 +733,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "455130A159D89C4F"
-			rewards: [{
-				count: 3
-				id: "61EAC442BB3FC2DD"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "09AE0C01A4ECB18F"
-				item: "forbidden_arcanus:darkstone_upgrade_smithing_template"
-				type: "item"
-			}]
-			title: "Apply Item Modifier"
-			x: -5.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "359AE3987801B95D"
 			rewards: [{
 				count: 3
@@ -1384,72 +1300,6 @@
 			]
 			title: "Draco Arcanus Set"
 			x: -3.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			icon: {
-				Count: 1
-				id: "forbidden_arcanus:tyr_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "6AEEE501FA35C3C6"
-			rewards: [{
-				count: 2
-				id: "78423A386EBEF83B"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "5036FD3751A39D9C"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:tyr_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "011B5B9D70B2690A"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:tyr_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0139A2436BFDF371"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:tyr_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "15764DC615CD475E"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:tyr_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Tyr Set"
-			x: -0.5d
 			y: 3.5d
 		}
 		{

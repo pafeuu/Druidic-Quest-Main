@@ -4,7 +4,7 @@ MoreJSEvents.wandererTrades(event=>{
 	event.addTrade(1,"thermal:gold_coin","kubejs:wandering_magician_upgrade_smithing_template")
 	event.addTrade(1,"3x thermal:silver_coin","diamond")
 	event.addTrade(1,"3x thermal:silver_coin","lava_bucket")
-	event.addTrade(1,"2x thermal:silver_coin","milk_bucket")
+	event.addTrade(1,"12x thermal:silver_coin","quark:monster_box")
 	event.addTrade(1,"thermal:silver_coin","8x ice")
 	event.addTrade(1,"thermal:silver_coin","emerald")
 	event.addTrade(1,"4x thermal:silver_coin",'64x supplementaries:fine_wood')

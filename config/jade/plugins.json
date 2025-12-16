@@ -75,9 +75,6 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "jadeaddons.mcjtylib": {
-    "jadeaddons": true
-  },
   "immersiveengineering": {
     "multiblock_icon": true
   },
@@ -113,5 +110,17 @@
   },
   "waystones": {
     "waystone": true
+  },
+  "goety": {
+    "block_owner": true,
+    "soul_energy": true,
+    "raider_leader": true,
+    "servant_mode": true,
+    "capture_mode": true,
+    "zombie_villager": true,
+    "villager_profession": true,
+    "train_to": true,
+    "summon_lifespan": true,
+    "trainable": true
   }
 }
