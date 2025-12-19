@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "kubejs:item/capturing_gem"
+    },
+    "overrides": [
+        {
+            "predicate": {
+            "custom_model_data": 1
+        },
+            "model": "kubejs:item/capturing_gem_full"
+        }
+    ]
+  }

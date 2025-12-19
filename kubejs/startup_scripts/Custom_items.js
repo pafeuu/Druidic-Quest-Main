@@ -582,19 +582,24 @@ StartupEvents.registry('item', item => {
   
   ///===================================================FOOD===========================================================
   item.create("cookie_dough").tag("dq:tier0/component")
-  item.create("recall_potion").food(food=>{
-    food.hunger(1).saturation(1).effect("minecraft:nausea",40,0,1)
-  })
+
+  item.create("recall_potion").useAnimation('drink').food(food=>{
+    food.hunger(1)
+    .saturation(1)
+    .effect("minecraft:nausea",100,0,1)
+    .alwaysEdible()
+  }).glow(true)
+
   item.create("cut_onions").displayName("Cut Onions").food(food=>{
     food.hunger(4).saturation(1).fastToEat().effect("alexsmobs:mosquito_repellent",3000,0,1)})
     
   ///==================================================SPICES===========================================================
 
-  item.create('nether_spice')
-  item.create('heavenly_spice')
-  item.create('aquatic_spice')
-  item.create('underground_spice')
-  item.create('cosmic_spice')
+  item.create('nether_spice').tag("dq:spices")
+  item.create('heavenly_spice').tag("dq:spices")
+  item.create('aquatic_spice').tag("dq:spices")
+  item.create('underground_spice').tag("dq:spices")
+  item.create('cosmic_spice').tag("dq:spices")
   
   ///==================================================Coal Chunks====================================================
 
@@ -604,6 +609,7 @@ StartupEvents.registry('item', item => {
 
   ///===================================================MISC===========================================================
 
+  item.create("capturing_gem")
   item.create("elemental_cloth").tag("dq:tier3/component")
   item.create("corrupted_soul").tag("dq:tier1/component")
   item.create("enchanted_soul").tag("dq:tier1/component")

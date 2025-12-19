@@ -480,7 +480,20 @@ ItemEvents.tooltip( tooltip => {
     text.add(1, Text.of("Unbreakable").blue())
     })
   
+  
+  tooltip.addAdvanced('kubejs:capturing_gem', (item, advanced, text) => {
+    const entity = item.nbt.get("entity")
+    if(item.nbt.get("captured")==true)
+    {
+      text.add(
+            Text.of("Captured: ").blue()
+            .append(Text.of(entity).red())
+        )
+    }  
+  })
 
+  tooltip.add("sob:echo_rock_candy",[Text.blue("Sets your health to 5 hearts and gives you back an Echo Shard")])
+  
   //========================Enigmatic Legacy ========================
 
   tooltip.add("enigmaticlegacy:ocean_stone",[Text.gold("When equipped as Spellstone:"),Text.blue("+10 Cold Resistance"),Text.red("-10 Fire Resistance")])

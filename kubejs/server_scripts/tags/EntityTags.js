@@ -43,7 +43,7 @@ ServerEvents.tags("entity_type",e=>{
     e.add("ars_nouveau:jar_blacklist","#forge:bosses")
     e.add("ars_nouveau:jar_blacklist","#forge:mini_bosses")
 
-    //e.add("forbidden_arcanus:quantum_catcher_blacklisted","#forge:bosses")
-    //e.add("forbidden_arcanus:quantum_catcher_blacklisted","#forge:mini_bosses")
+    e.add("dq:capturing_blacklist","#forge:bosses")
+    e.add("dq:capturing_blacklist","#forge:mini_bosses")
 
 })
