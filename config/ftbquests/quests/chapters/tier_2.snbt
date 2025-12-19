@@ -708,12 +708,9 @@
 					type: "item"
 				}
 				{
-					count: 17L
+					count: 18L
 					id: "57656293D61B2C06"
-					item: {
-						Count: 17
-						id: "forbidden_arcanus:polished_darkstone"
-					}
+					item: "immersiveengineering:cokebrick"
 					optional_task: true
 					type: "item"
 				}
@@ -776,8 +773,8 @@
 			}]
 			subtitle: "Here creeper, creeper..."
 			tasks: [{
-				id: "5A5B8E715FBEF574"
-				item: "forbidden_arcanus:quantum_catcher"
+				id: "204E876E03FAAB80"
+				item: "kubejs:capturing_gem"
 				type: "item"
 			}]
 			x: 7.0d

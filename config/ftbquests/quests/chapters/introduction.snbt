@@ -996,12 +996,23 @@
 			dependencies: ["7846743FB0D30EAD"]
 			description: ["Right click to activate. When active, the eye gives +1.5 block reach for the cost of some unholy resistance and one heart."]
 			id: "4B5BA7BEE6643B4C"
-			rewards: [{
-				count: 3
-				id: "64DDDB2734B58294"
-				item: "minecraft:beetroot_soup"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "64DDDB2734B58294"
+					item: "minecraft:beetroot_soup"
+					type: "item"
+				}
+				{
+					id: "56D8F3F2213B1FD4"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:extradimensional_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Finally! More range!"
 			tasks: [{
 				id: "5E942597BE42C797"
@@ -1300,8 +1311,8 @@
 				}
 				{
 					count: 2
-					id: "471DFA1BF2720868"
-					item: "enigmaticlegacy:recall_potion"
+					id: "3903B0E1DB9C1638"
+					item: "kubejs:recall_potion"
 					type: "item"
 				}
 			]
@@ -1358,7 +1369,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 8.0d
 			y: 4.0d
 		}
 		{

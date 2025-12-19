@@ -1729,34 +1729,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "32BF85B8760DEC78"
-			rewards: [{
-				id: "3011C0E7583DCA48"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			size: 0.9d
-			tasks: [{
-				id: "2EAFD2437347DC5D"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "forbidden_arcanus:permafrost"
-							lvl: 1s
-						}]
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			title: "Permafrost"
-			x: -0.4500000000000002d
-			y: -3.5999999999999996d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "305C12D3963EF499"
 			rewards: [{
 				id: "3C913BF74BF76C96"
@@ -2032,7 +2004,7 @@
 				type: "item"
 			}]
 			title: "Gold-Fuelled"
-			x: 0.44999999999999973d
+			x: 0.0d
 			y: -3.5999999999999996d
 		}
 		{
