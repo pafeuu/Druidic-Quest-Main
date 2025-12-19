@@ -797,47 +797,6 @@ ServerEvents.recipes(event => {
 		}
 	  )
 
-
-
-	event.custom({
-		"type": "naturesaura:tree_ritual",
-		"ingredients": [
-			{
-				"item": "ars_nouveau:ring_of_potential"
-			},
-			{
-				"tag": "forge:storage_blocks/lapis"
-			},
-			
-			{
-				"tag": "forge:plates/gold"
-			},
-			{
-				"tag": "forge:plates/gold"
-			},
-			{
-				"tag": "forge:plates/gold"
-			},
-			{
-				"tag": "forge:plates/gold"
-			},
-			{
-				"tag": "forge:plates/gold"
-			},
-			{
-				"tag": "forge:plates/gold"
-			}
-			
-		],
-		"sapling": {
-			"item": "minecraft:acacia_sapling"
-		},
-		"output": {
-			"item": "enigmaticlegacy:golden_ring",
-			"count": 1
-		},
-		"time": 200
-	})
 	event.remove({id:"enigmaticlegacy:magnet_ring"})
 	event.remove({id:"enigmaticlegacy:golden_ring"})
 	
@@ -1161,7 +1120,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			T: "#forge:plates/tin",
-			E: "forbidden_arcanus:ender_pearl_fragment",
+			E: "ender_pearl",
 			R: "minecraft:redstone_torch"
 		}
 	).id("thermal:tools/detonator")
@@ -1234,6 +1193,19 @@ ServerEvents.recipes(event => {
 	).id("kubejs:the_ice_cube")
 
 	/// ======================================================================= Tier 2 Tools ============================================================================
+	
+	event.shaped("kubejs:capturing_gem",
+		[
+			"YZY",
+			"ZXZ",
+			"YZY"
+		],
+		{
+			Y: "ars_nouveau:air_essence",
+			Z: "enigmaticlegacy:extradimensional_eye",
+			X: "supplementaries:cage"
+		}
+	)
 	
 	event.shaped("enigmaticlegacy:enchantment_transposer",
 		[
@@ -1448,53 +1420,6 @@ ServerEvents.recipes(event => {
 		}
 	  )
 
-	  event.custom({
-		"type": "naturesaura:tree_ritual",
-		"ingredients": [
-			{"item": "kubejs:copper_sword"},
-			{"item": "oxidized_copper"},
-			{"tag": "forge:rods/copper"},
-			{"tag": "forge:rods/copper"},
-			{"item": "kubejs:copper_sword"},
-			{"item": "oxidized_copper"},
-			{"item": "kubejs:copper_sword"},
-			{"item": "oxidized_copper"}	
-		],
-		"sapling": {"item": "minecraft:oak_sapling"},
-		"output": {"item": 'kubejs:copper_trident'},
-		"time": 200
-		})
-	event.recipes.naturesaura.tree_ritual(Item.of('kubejs:silver_katana').enchant('minecraft:smite', 2).enchant('minecraft:sweeping', 1),[
-		"kubejs:silver_sword",
-		"thermal:gold_gear",
-		"#forge:rods/gold",
-		"#forge:rods/gold",
-		"#forge:rods/silver",
-		"#forge:rods/silver",
-		"#forge:rods/silver",
-		"#forge:rods/silver"],
-		"minecraft:birch_sapling",200).id("kubejs:silver_katana")
-	
-	event.recipes.naturesaura.tree_ritual("kubejs:lead_waraxe",[
-		"quark:sturdy_stone",
-		"quark:sturdy_stone",
-		"fermented_spider_eye",
-		"fermented_spider_eye",
-		"kubejs:lead_axe",
-		"#forge:plates/lead",
-		"kubejs:lead_axe",
-		"#forge:plates/lead"],"minecraft:spruce_sapling",200).id("kubejs:lead_waraxe")
-	
-	event.recipes.naturesaura.tree_ritual(Item.of('kubejs:iron_scythe'),[
-		"iron_sword",
-		"#forge:rods/iron",
-		"#forge:plates/iron",
-		"#forge:plates/iron",
-		"iron_hoe",
-		"#forge:rods/iron",
-		"iron_hoe",
-		"#forge:rods/iron"],
-		"minecraft:oak_sapling",200).id("kubejs:iron_scythe")
 
 	event.remove({output:"enigmaticlegacy:mining_charm"})
 	event.custom({
@@ -1587,7 +1512,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 		  X: 'minecraft:lead',
-		  E: 'forbidden_arcanus:ender_pearl_fragment',
+		  E: 'ender_pearl',
 		  G: '#forge:plates/gold'
 		}
 	  )
@@ -1623,41 +1548,6 @@ ServerEvents.recipes(event => {
 			}
 		  ]
 	})
-
-	event.custom({
-		"type": "lychee:lightning_channeling",
-		 "post": [
-		   {
-			 "type": "drop_item",
-			 "item": "forbidden_arcanus:quantum_catcher"
-		   },
-		   {
-			   "type": "execute",
-			   "command": "playsound irons_spellbooks:cast.generic.lightning neutral @p",
-			   "hide": "true"
-		   }
-		 ],
-		 "item_in": [
-		   {
-			 "item": "ars_nouveau:mob_jar",
-		   },
-		   {
-			 "item": "enigmaticlegacy:extradimensional_eye",
-		   },
-		   {
-			 "item": "enigmaticlegacy:extradimensional_eye",
-		   },
-		   {
-			 "item": "ars_nouveau:air_essence",
-		   },
-		   {
-			 "item": "ars_nouveau:mob_jar"
-		   },
-		   {
-			 "item": "forbidden_arcanus:lens_of_veritatis"
-		   }
-		 ]
-   }).id("forbidden_arcanus:quantum_catcher")
 	
 	
 	event.remove({output:'minecraft:shears'})
@@ -1719,46 +1609,6 @@ ServerEvents.recipes(event => {
 	
 	tool('minecraft:diamond','#forge:gems/diamond','kubejs:zinc_tool_handle','alexsmobs:shed_snake_skin')
 
-
-	event.custom({
-		"type": "naturesaura:tree_ritual",
-		"ingredients": [
-			{
-				"item": "minecraft:feather"
-			},
-			{
-				"item": "minecraft:lava_bucket"
-			},
-			
-			{
-				"tag": "forge:flowers/golden"
-			},
-			{
-				"tag": "forge:flowers/golden"
-			},
-			{
-				"tag": "forge:ingots/gold"
-			},
-			{
-				"tag": "forge:ingots/gold"
-			},
-			{
-				"tag": "forge:ingots/gold"
-			},
-			{
-				"tag": "forge:ingots/gold"
-			}
-			
-		],
-		"sapling": {
-			"item": "minecraft:birch_sapling"
-		},
-		"output": {
-			"item": "kubejs:golden_magic_feather",
-			"count": 1
-		},
-		"time": 200
-	})
 	
 	
 	/// ============================================= Tier 2 Tools ===========================================================
@@ -1931,7 +1781,7 @@ ServerEvents.recipes(event => {
 			 "item": "waystones:return_scroll"
 		   },
 		   {
-			"item": "forbidden_arcanus:ender_pearl_fragment"
+			"item": "ender_pearl"
 		  },
 		   {
 			 "item": "ars_nouveau:water_essence"
@@ -2025,5 +1875,8 @@ ServerEvents.recipes(event => {
 			G: "immersiveengineering:wooden_grip"
 		}
 	).id("thermal:flux_saw")
+	
+	
+
 	
 })

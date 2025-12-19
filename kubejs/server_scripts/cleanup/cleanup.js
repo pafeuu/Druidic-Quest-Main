@@ -25,7 +25,6 @@ global.nukelist = ["twigs:calcite_wall",
 	'vintagedelight:gearo_berry_jam_bottle',
 	'vintagedelight:glow_berry_mason_jar',
 	"ancient_aether:valkyrum_ore",
-	'forbidden_arcanus:obsidian_with_iron',
     "twigs:calcite_stairs",
     "aether:life_shard",
     "immersiveengineering:shield",
@@ -295,8 +294,6 @@ global.nukelist = ["twigs:calcite_wall",
 	'enigmaticlegacy:void_pearl',
 	'enigmaticlegacy:escape_scroll',
 	'enigmaticlegacy:fabulous_scroll',
-	'forbidden_arcanus:deepslate_arcane_crystal_ore',
-	'forbidden_arcanus:obsidian_skull_shield',
 	'enigmaticlegacy:ascension_amulet',
 	'aether:freezer',
 	'twilightforest:charm_of_keeping_1',
@@ -312,22 +309,8 @@ global.nukelist = ["twigs:calcite_wall",
 	'aether:holystone_pickaxe',
 	'aether:holystone_axe',
 	'aether:holystone_hoe',
-	"irons_spellbooks:dragonskin",
-	"forbidden_arcanus:runic_deepslate",
-	"forbidden_arcanus:runic_darkstone",
 	'quark:rope',
 	'twilightforest:raw_ironwood',
-	'forbidden_arcanus:blacksmith_gavel_head',
-	'forbidden_arcanus:wooden_blacksmith_gavel',
-	'forbidden_arcanus:stone_blacksmith_gavel',
-	'forbidden_arcanus:golden_blacksmith_gavel',
-	'forbidden_arcanus:iron_blacksmith_gavel',
-	'forbidden_arcanus:diamond_blacksmith_gavel',
-	'forbidden_arcanus:netherite_blacksmith_gavel',
-	'forbidden_arcanus:zombie_arm',
-	'forbidden_arcanus:shiny_zombie_arm',
-	'forbidden_arcanus:draco_arcanus_staff',
-	'forbidden_arcanus:draco_arcanus_scepter',
 	"immersiveengineering:deepslate_ore_aluminum",
 	"immersiveengineering:deepslate_ore_uranium",
 	"thermal:deepslate_sapphire_ore",
@@ -336,7 +319,32 @@ global.nukelist = ["twigs:calcite_wall",
 	'thermal:deepslate_niter_ore',
 	'thermal:niter',
 	'thermal:niter_dust',
-	'vintagedelight:pb_j'
+	'vintagedelight:pb_j',
+	"thermal:deepslate_cinnabar_ore",
+	'minecraft:orange_bundle',
+	'minecraft:yellow_bundle',
+	'minecraft:lime_bundle',
+	'minecraft:green_bundle',
+	'minecraft:cyan_bundle',
+	'minecraft:light_blue_bundle',
+	'minecraft:blue_bundle',
+	'minecraft:purple_bundle',
+	'minecraft:magenta_bundle',
+	'minecraft:pink_bundle',
+	'minecraft:white_bundle',
+	'minecraft:light_gray_bundle',
+	'minecraft:gray_bundle',
+	'minecraft:black_bundle', 
+	'minecraft:brown_bundle',
+	'minecraft:red_bundle',
+	'minecraft:bush',
+	'minecraft:firefly_bush',
+	'minecraft:wildflowers',
+	'minecraft:leaf_litter',
+	'minecraft:cactus_flower',
+	'minecraft:short_dry_grass',
+	'minecraft:tall_dry_grass',
+	"enigmaticlegacy:recall_potion"
 	/*'create:factory_gauge',
 	'create:redstone_requester',
 	'create:stock_link',
@@ -362,7 +370,6 @@ global.nukelist = ["twigs:calcite_wall",
 ServerEvents.recipes(event => {
 
 	let RemoveById = [
-		"forbidden_arcanus:dragon_scale",
 		"naturesaura:altar/blaze",
 		"toomanyrecipeviewers:/create/kjs/dbwvu0cpsw4h9wxmrrln63nje",
 		"thermal:machines/pulverizer/pulverizer_basalz_rod",
@@ -460,7 +467,8 @@ ServerEvents.recipes(event => {
 		event.remove({id:id})
 	});
 
-	event.replaceInput({id:"irons_spellbooks:dragonskin_spell_book"},"irons_spellbooks:dragonskin","forbidden_arcanus:dragon_scale")
+	event.shaped("kubejs:recall_potion","enigmaticlegacy:recall_potion")
+	event.remove({type:"aether:enchanting"})
 	event.remove({output:[global.nukelist]})
 	event.remove({input:[global.nukelist]})
   
@@ -519,7 +527,6 @@ ServerEvents.recipes(event => {
 	event.remove({id:"quark:building/crafting/compressed/potato_crate"})
 	event.remove({id:"quark:tweaks/crafting/utility/misc/easy_sticks"})
 	event.remove({id:"thermal:storage/potato_block"})
-	event.replaceInput({id:"forbidden_arcanus:boom_arrow"},"arrow","archers_paradox:explosive_arrow")
 
 	event.stonecutting("create:rose_quartz_block","create:rose_quartz_tiles")
 	event.stonecutting("create:rose_quartz_block","create:small_rose_quartz_tiles")

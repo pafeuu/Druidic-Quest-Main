@@ -218,7 +218,6 @@ ServerEvents.recipes(event =>{
 	CuttingLogs("deep_aether:conberry_planks","deep_aether:stripped_conberry_log")
 	CuttingLogs("deep_aether:sunroot_planks","deep_aether:stripped_sunroot_log")
 	CuttingLogs("deep_aether:roseroot_planks","deep_aether:stripped_roseroot_log")
-	CuttingLogs("forbidden_arcanus:aurum_planks","forbidden_arcanus:stripped_aurum_log")
 	CuttingLogs("mynethersdelight:powdery_planks","mynethersdelight:stripped_powdery_block")
 	CuttingLogs("quark:ancient_planks","quark:stripped_ancient_log")
 	CuttingLogs("quark:azalea_planks","quark:stripped_azalea_log")
@@ -308,7 +307,6 @@ ServerEvents.recipes(event =>{
 	CuttingLogs("deep_aether:conberry_planks","deep_aether:stripped_conberry_wood")
 	CuttingLogs("deep_aether:sunroot_planks","deep_aether:stripped_sunroot_wood")
 	CuttingLogs("deep_aether:roseroot_planks","deep_aether:stripped_roseroot_wood")
-	CuttingLogs("forbidden_arcanus:aurum_planks","forbidden_arcanus:stripped_aurum_wood")
 	
 	CuttingLogs("quark:ancient_planks","quark:stripped_ancient_wood")
 	CuttingLogs("quark:azalea_planks","quark:stripped_azalea_wood")
@@ -379,7 +377,6 @@ ServerEvents.recipes(event =>{
 		SlabsAndStairs("deep_aether","conberry")
 		SlabsAndStairs("deep_aether","sunroot")
 		SlabsAndStairs("deep_aether","roseroot")
-		SlabsAndStairs("forbidden_arcanus","aurum")
 		SlabsAndStairs("mynethersdelight","powdery")
 		QuarkSlabsAndStairs("quark","ancient")
 		QuarkSlabsAndStairs("quark","azalea")
@@ -484,52 +481,6 @@ ServerEvents.recipes(event =>{
 	CraftingTable("willow")
 	CraftingTable("witch_hazel")
 	CraftingTable("zelkova")
-
-	///F&A fixes
-
-	event.shaped("forbidden_arcanus:fungyss_fence_gate",
-		[
-			"SPS",
-			"SPS"
-		],
-		{
-			S: "#c:rods/wooden",
-			P: "forbidden_arcanus:fungyss_planks"
-		}
-	).id("forbidden_arcanus:fungyss_fence_gate")
-
-	event.shaped("3x forbidden_arcanus:fungyss_fence",
-		[
-			"PSP",
-			"PSP"
-		],
-		{
-			S: "#c:rods/wooden",
-			P: "forbidden_arcanus:fungyss_planks"
-		}
-	).id("forbidden_arcanus:fungyss_fence")
-
-	event.shaped("forbidden_arcanus:edelwood_fence_gate",
-		[
-			"SPS",
-			"SPS"
-		],
-		{
-			S: "#c:rods/wooden",
-			P: "forbidden_arcanus:edelwood_planks"
-		}
-	).id("forbidden_arcanus:edelwood_fence_gate")
-
-	event.shaped("3x forbidden_arcanus:edelwood_fence",
-		[
-			"PSP",
-			"PSP"
-		],
-		{
-			S: "#c:rods/wooden",
-			P: "forbidden_arcanus:edelwood_planks"
-		}
-	).id("forbidden_arcanus:edelwood_fence")
 
 	// WR torches and campfires
 
@@ -642,9 +593,154 @@ ServerEvents.recipes(event =>{
 
 	const woodtype = ["oak","spruce","cherry","dark_oak","birch","jungle","bamboo","mangrove","acacia","warped","crimson"]
 
+	const wizardwood = ["arcane_wood","innocent_wood","cork_bamboo"]
+
+	wizardwood.forEach(id => {
+		
+		
+		event.shaped("wizards_reborn:"+id+"_frame",
+			[
+				"SNS",
+				"N N",
+				"SNS"
+			],
+			{
+				S: "minecraft:"+id+"_slab",
+				N: "#forge:nuggets/gold"
+
+			}
+		).id("wizards_reborn:arcane_workbench/"+id+"_frame")
+		
+		event.shapeless("wizards_reborn:"+id+"_casing",["wizards_reborn:"+id+"_frame","wizards_reborn:"+id+"_planks"]).id("wizards_reborn:arcane_workbench/"+id+"_casing")
+
+		event.shapeless("wizards_reborn:"+id+"_glass_frame",["wizards_reborn:"+id+"_frame","wizards_reborn:alchemy_glass"]).id("wizards_reborn:arcane_workbench/"+id+"_glass_frame")
+		
+		event.shaped("wizards_reborn:"+id+"_wissen_casing",
+			[
+				" N ",
+				"NXN",
+				" N "
+			],
+			{
+				X: "wizards_reborn:"+id+"_casing",
+				N: "wizards_reborn:wissen_translator"
+
+			}
+		).id("wizards_reborn:arcane_workbench/"+id+"_wissen_casing")
+
+		event.shaped("wizards_reborn:"+id+"_light_casing",
+			[
+				" N ",
+				"NXN",
+				" N "
+			],
+			{
+				X: "wizards_reborn:"+id+"_casing",
+				N: "wizards_reborn:light_transfer_lens"
+
+			}
+		).id("wizards_reborn:arcane_workbench/"+id+"_light_casing")
+
+		event.shaped("wizards_reborn:"+id+"_steam_casing",
+			[
+				" N ",
+				"NXN",
+				" N "
+			],
+			{
+				X: "wizards_reborn:"+id+"_casing",
+				N: "wizards_reborn:steam_pipe"
+
+			}
+		).id("wizards_reborn:arcane_workbench/"+id+"_steam_casing")
+
+
+		event.shaped("wizards_reborn:"+id+"_fluid_casing",
+			[
+				" N ",
+				"NXN",
+				" N "
+			],
+			{
+				X: "wizards_reborn:"+id+"_casing",
+				N: "wizards_reborn:fluid_pipe"
+
+			}
+		).id("silly_oddities:integration/wizards_reborn/arcane_workbench/"+id+"/"+id+"_fluid_casing")
+	});
+
 	woodtype.forEach(id => {
 		
 		event.shapeless("silly_oddities:"+id+"_pedestal",["wizards_reborn:arcane_pedestal","minecraft:"+id+"_planks"]).id("silly_oddities:integration/wizards_reborn/shaped/"+id+"/"+id+"_pedestal")
+		event.shaped("silly_oddities:"+id+"_frame",
+			[
+				"SNS",
+				"N N",
+				"SNS"
+			],
+			{
+				S: "minecraft:"+id+"_slab",
+				N: "#forge:nuggets/gold"
+
+			}
+		).id("silly_oddities:integration/wizards_reborn/arcane_workbench/"+id+"/"+id+"_frame")
+		
+		event.shapeless("silly_oddities:"+id+"_casing",["silly_oddities:"+id+"_frame","minecraft:"+id+"_planks"]).id("silly_oddities:integration/wizards_reborn/arcane_workbench/"+id+"/"+id+"_casing")
+
+		event.shapeless("silly_oddities:"+id+"_glass_frame",["silly_oddities:"+id+"_frame","wizards_reborn:alchemy_glass"]).id("silly_oddities:integration/wizards_reborn/arcane_workbench/"+id+"/"+id+"_glass_frame")
+		
+		event.shaped("silly_oddities:"+id+"_wissen_casing",
+			[
+				" N ",
+				"NXN",
+				" N "
+			],
+			{
+				X: "silly_oddities:"+id+"_casing",
+				N: "wizards_reborn:wissen_translator"
+
+			}
+		).id("silly_oddities:integration/wizards_reborn/arcane_workbench/"+id+"/"+id+"_wissen_casing")
+
+		event.shaped("silly_oddities:"+id+"_light_casing",
+			[
+				" N ",
+				"NXN",
+				" N "
+			],
+			{
+				X: "silly_oddities:"+id+"_casing",
+				N: "wizards_reborn:light_transfer_lens"
+
+			}
+		).id("silly_oddities:integration/wizards_reborn/arcane_workbench/"+id+"/"+id+"_light_casing")
+
+		event.shaped("silly_oddities:"+id+"_steam_casing",
+			[
+				" N ",
+				"NXN",
+				" N "
+			],
+			{
+				X: "silly_oddities:"+id+"_casing",
+				N: "wizards_reborn:steam_pipe"
+
+			}
+		).id("silly_oddities:integration/wizards_reborn/arcane_workbench/"+id+"/"+id+"_steam_casing")
+
+
+		event.shaped("silly_oddities:"+id+"_fluid_casing",
+			[
+				" N ",
+				"NXN",
+				" N "
+			],
+			{
+				X: "silly_oddities:"+id+"_casing",
+				N: "wizards_reborn:fluid_pipe"
+
+			}
+		).id("silly_oddities:integration/wizards_reborn/arcane_workbench/"+id+"/"+id+"_fluid_casing")
 	});
 	//event.shaped("6x wizards_reborn:arcane_salt_torch")
 

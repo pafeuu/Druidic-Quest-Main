@@ -144,6 +144,6 @@ ServerEvents.tags('block', event => {
 
   event.add("dq:tiab_blacklist",["naturesaura:blast_furnace_booster"])
 
-  event.add("forge:ores",[,"minecraft:glowstone"])
+  event.add("forge:ores",["minecraft:glowstone"])
 
 })

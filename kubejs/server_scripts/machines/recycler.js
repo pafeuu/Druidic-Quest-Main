@@ -219,7 +219,7 @@ ServerEvents.recipes(event=>
     HeadRecycling("umbral_skies:valkyrie_queen_trophy","8x irons_spellbooks:arcane_debris")
 
      event.recipes.mbd2.recycling()
-        .inputItems("enigmaticlegacy:recall_potion")
+        .inputItems("kubejs:recall_potion")
         .outputItems("minecraft:glass_bottle")
         .chance(0.125, builder => builder
             .outputItems("lapis_dust")

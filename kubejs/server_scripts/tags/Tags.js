@@ -77,12 +77,12 @@ ServerEvents.tags('item', event => {
     "minecraft:pearlescent_froglight"]
 
   
-  event.add("forge:tools/chisels","elementalcraft:chisel")
   event.add("forge:tools/hammers","immersiveengineering:hammer")
   event.add("forge:ingots/andesite_alloy","create:andesite_alloy")
-  
-  event.remove("twilightforest:portal/activator","minecraft:diamond")
  
+  event.removeAll("twilightforest:portal/activator")
+
+  event.add("twilightforest:portal/activator","kubejs:dimension_ripper")
 
   event.remove("forge:gems/ruby","thermal:ruby")
   event.remove("forge:storage_blocks/ruby","thermal:ruby_block")
