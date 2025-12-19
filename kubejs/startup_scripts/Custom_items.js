@@ -609,7 +609,7 @@ StartupEvents.registry('item', item => {
 
   ///===================================================MISC===========================================================
 
-  item.create("capturing_gem")
+  item.create("capturing_gem").rarity("epic").tag("dq:tier2/tool")
   item.create("elemental_cloth").tag("dq:tier3/component")
   item.create("corrupted_soul").tag("dq:tier1/component")
   item.create("enchanted_soul").tag("dq:tier1/component")

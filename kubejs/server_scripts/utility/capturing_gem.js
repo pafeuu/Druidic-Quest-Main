@@ -3,25 +3,42 @@
 ItemEvents.entityInteracted("kubejs:capturing_gem",event => {
 
     const entityId = event.getTarget().type;
-    //const entityTag = entityId.hasTag()("forge:bosses");
     const entityNbt = event.getTarget().getNbt()
+    const ItemNbt = event.player.getMainHandItem().getNbt()
+    const targetPosition = event.getTarget().position()   
+    
 
-    /*const blacklist = Tag.of("#forge:bosses").contains(entityId)
-
-    console.log(blacklist)
-    if(blacklist)
-    {
-        console.log("This entity cannot be captured")
+    if(ItemNbt.captured)
         return;
-    }*/
+
+    if ( event.target.entityType.tags.anyMatch(
+        (tag) => tag.location() == "dq:capturing_blacklist"
+        ) 
+    )
+    {
+        event.player.setStatusMessage("§c§lThis mob cannot be captured!");
+        event.level.spawnParticles("minecraft:angry_villager", true,
+            targetPosition.x(), targetPosition.y()+0.5, targetPosition.z(),
+            0.3, 0.3, 0.3,
+            10,
+            0.01)
+        return;
+    }
+    
+    
+    event.level.spawnParticles("minecraft:poof",true,
+            targetPosition.x(), targetPosition.y()+0.5, targetPosition.z(),
+            0.3, 0.3, 0.3,
+            30,
+            0.01)
+    
         
-    if(event.entity)
+    
     event.item.setNbt({
         captured: true,
         entity: entityId,
         data: entityNbt,
         custom_model_data: 1
-
     });// Stores entity details in the item's NBT
    
     event.getTarget().discard();// Removes Entity from the world
