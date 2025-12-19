@@ -713,6 +713,18 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Components =======================================================================
 	
+	event.shaped("wizards_reborn:alchemy_vial",
+		[
+			" S ",
+			"G G",
+			" G "
+		],
+		{
+			S: "wizards_reborn:arcane_wood_slab",
+			G: "wizards_reborn:alchemy_glass"
+		}
+	).id("wizards_reborn:arcane_workbench/alchemy_vial")
+
 	event.shaped("thermal:xp_storage_augment",
 		[
 			"ITI",
@@ -1291,20 +1303,19 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 
-	event.shaped("mbd2:elemental_extractor",
+	event.shaped("ancient_aether:wind_blower",
 		[
-			"HAH",
+			"ARA",
 			"AXA",
-			"HTH"
+			"ABA"
 		],
 		{
-			H: "kubejs:carbon_infused_sturdy_handle",
-			A: "#forge:plates/arcanum_alloy",
-			T: "create:fluid_tank",
-			X: "kubejs:basic_magic_machine"
+			A: "quark:bottled_cloud",
+			R: "redstone_torch",
+			X: "kubejs:primitive_machine",
+			B: "supplementaries:bellows"
 		}
-	)
-	
+	).id("ancient_aether:wind_blower")
 	event.remove({output:"naturesaura:animal_spawner"})
 	event.shaped("naturesaura:animal_spawner",
 		[
@@ -3043,7 +3054,20 @@ ServerEvents.recipes(event => {
 
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
-	
+	event.shaped("mbd2:elemental_extractor",
+		[
+			"HAH",
+			"AXA",
+			"HTH"
+		],
+		{
+			H: "kubejs:carbon_infused_sturdy_handle",
+			A: "#forge:plates/arcanum_alloy",
+			T: "create:fluid_tank",
+			X: "kubejs:basic_magic_machine"
+		}
+	)
+
 	event.shaped("craftingstation:crafting_station",
 		[
 			"ACA",

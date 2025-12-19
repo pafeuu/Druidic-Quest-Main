@@ -1,13 +1,8 @@
-ItemEvents.foodEaten("kubejs:recall_potion",event=>{
+ItemEvents.foodEaten("sob:echo_rock_candy",event=>{
     
     let player = event.player
     let server = event.server
-    let uuid = player.getUuid()
-    let positionX = server.getPlayer(uuid).respawnPosition.getX()
-    let positionY = server.getPlayer(uuid).respawnPosition.getY()
-    let positionZ = server.getPlayer(uuid).respawnPosition.getZ()
-    let dimension = server.getPlayer(player.getUuid()).respawnDimension
-    let angle = server.getPlayer(player.getUuid()).respawnAngle
+    //let uuid = player.getUuid()
 
     /*console.log(event.player.getName())
     console.log(event.player.getUuid())
@@ -19,9 +14,9 @@ ItemEvents.foodEaten("kubejs:recall_potion",event=>{
 
     
     server.runCommandSilent(`/execute at ${player.username} run playsound minecraft:entity.enderman.teleport player ${player.username}`)
-    player.teleportTo(dimension,positionX,positionY,positionZ,angle,1)
     server.runCommandSilent(`/execute at ${player.username} run particle alembic:ender_magic ~ ~ ~ 0.2 0.2 0.2 0.3 200 normal`)
-    player.give("wizards_reborn:alchemy_vial")
+    player.setHealth(10)
+    player.give("minecraft:echo_shard")
     //e.player.lastDeathLocation()
    
 })

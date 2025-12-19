@@ -477,6 +477,18 @@ ItemEvents.modification(event=>{
             }
         })
     });
+
+    function hunger(id,hunger,saturation)
+    {
+        event.modify(id, item => {
+            item.foodProperties = food => {
+                food.hunger(hunger)
+                food.saturation(saturation/hunger/2)
+            }
+        })
+    }
+
+    hunger("sob:echo_rock_candy",8,6)
     
     
 })

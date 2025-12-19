@@ -40,10 +40,17 @@ ServerEvents.recipes(e => {
         "fruitsdelight:apple_jelly",
         "minecraft:enchanted_book",
         "vintagedelight:ghost_pepper",
-        "vintagedelight:nut_mash_mason_jar"],"minecraft:enchanted_golden_apple",20,200).id("forbidden_arcanus:enchanted_golden_apple") 
+        "vintagedelight:nut_mash_mason_jar"],"minecraft:enchanted_golden_apple",20,200)
 
     e.remove({id:"biomeswevegone:golden_apple_from_green_apple"})
     
+    cooking([
+        "echo_shard",
+        "kubejs:recall_potion",
+        "honey_bottle",
+        "#dq:spices",
+        ],"sob:echo_rock_candy",10,200)
+
     cooking(["kubejs:aquatic_spice",
         "kubejs:aquatic_spice",
         "kubejs:underground_spice",
@@ -66,8 +73,6 @@ ServerEvents.recipes(e => {
         "honey_bottle"],"enigmaticlegacy:ichor_bottle",100,200)
     
     e.shapeless("sob:peanut_butter",["2x vintagedelight:roasted_peanut","sugar","glass_bottle"]).id("sob:crafting/peanut_butter")
-    
-    e.shapeless("sob:echo_rock_candy",["echo_shard","honey_bottle","enigmaticlegacy:recall_potion","#c:rods/wooden"])
     
     e.custom(
         {
