@@ -272,9 +272,9 @@
 
 		[entries.wood_type.twilightforest]
 			banister = true
-			hollow_log_climbable = true
-			hollow_log_horizontal = true
-			hollow_log_vertical = true
+			hollow_log_climbable = false
+			hollow_log_horizontal = false
+			hollow_log_vertical = false
 
 		[entries.wood_type.sob]
 			counter = true
