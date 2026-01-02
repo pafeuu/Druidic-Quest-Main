@@ -692,6 +692,17 @@
 			x: -6.5d
 			y: -3.0d
 		}
+		{
+			dependencies: ["7883B923A38920B9"]
+			id: "2AF3F8354BFDB785"
+			tasks: [{
+				id: "43FE87C4467A7C2B"
+				item: "quark:iron_rod"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.5d
+		}
 	]
 	title: "Automation"
 }

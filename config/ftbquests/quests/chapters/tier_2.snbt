@@ -169,11 +169,31 @@
 			}]
 			shape: "rsquare"
 			subtitle: "Elemental Fluids"
-			tasks: [{
-				id: "1FD91F231C58F791"
-				item: "mbd2:elemental_evaporator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "21B19E56C0BD9A2E"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(mbd2:elemental_extractor)item(mbd2:elemental_evaporator))"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14DD77F6B803FB70"
+					item: {
+						Count: 1
+						id: "kubejs:elemental_pump"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Distilling the Elements"
 			x: -5.5d
 			y: 4.0d

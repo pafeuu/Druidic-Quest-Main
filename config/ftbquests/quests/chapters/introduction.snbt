@@ -324,7 +324,7 @@
 			]
 			icon: {
 				Count: 1
-				id: "forbidden_arcanus:mortem_chestplate"
+				id: "thermal:beekeeper_chestplate"
 				tag: {
 					Damage: 0
 				}
@@ -339,59 +339,51 @@
 			subtitle: "Craft Your First Armor"
 			tasks: [
 				{
-					id: "6BD007076A5E453F"
+					id: "266177A6B641DF26"
 					item: {
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							display: {
-								Name: "{\"text\":\"Early Game Helmet\"}"
-							}
-							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_helmet)item(thermal:beekeeper_helmet)item(minecraft:leather_helmet)item(kubejs:cactus_helmet))"
+							"ftbfiltersystem:filter": "or(item(thermal:beekeeper_boots)item(kubejs:cactus_boots)item(minecraft:leather_boots))"
 						}
 					}
+					title: "Early Game Boots"
 					type: "item"
 				}
 				{
-					id: "3B1245FA9922A256"
+					id: "07A6BB80F013B4EA"
 					item: {
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							display: {
-								Name: "{\"text\":\"Early Game Chestplate\"}"
-							}
-							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_chestplate)item(minecraft:leather_chestplate)item(thermal:beekeeper_chestplate)item(kubejs:cactus_chestplate))"
+							"ftbfiltersystem:filter": "or(item(thermal:beekeeper_leggings)item(minecraft:leather_leggings)item(kubejs:cactus_leggings))"
 						}
 					}
+					title: "Early Game Leggings"
 					type: "item"
 				}
 				{
-					id: "2C87BDE378F498CC"
+					id: "7B9ACC502523CA25"
 					item: {
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							display: {
-								Name: "{\"text\":\"Early Game Leggings\"}"
-							}
-							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_leggings)item(minecraft:leather_leggings)item(thermal:beekeeper_leggings)item(kubejs:cactus_leggings))"
+							"ftbfiltersystem:filter": "or(item(minecraft:leather_chestplate)item(kubejs:cactus_chestplate)item(thermal:beekeeper_chestplate))"
 						}
 					}
+					title: "Early Game Chestplate"
 					type: "item"
 				}
 				{
-					id: "2CB858C2C3062557"
+					id: "0C9419835EB59C66"
 					item: {
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							display: {
-								Name: "{\"text\":\"Early Game Boots\"}"
-							}
-							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:mortem_boots)item(minecraft:leather_boots)item(thermal:beekeeper_boots)item(kubejs:cactus_boots))"
+							"ftbfiltersystem:filter": "or(item(kubejs:cactus_helmet)item(minecraft:leather_helmet)item(thermal:beekeeper_helmet))"
 						}
 					}
+					title: "Early Game Helmet"
 					type: "item"
 				}
 			]
@@ -1684,6 +1676,11 @@
 				{
 					id: "19E21D8E3E59D4AA"
 					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					id: "5F10D6EC44E672E6"
+					item: "naturesaura:pet_reviver"
 					type: "item"
 				}
 			]

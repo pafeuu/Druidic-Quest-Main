@@ -325,7 +325,7 @@
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "or(item(thermal:lightning_grenade)item(thermal:lightning_tnt)item(thermal:lightning_charge)item(archers_paradox:lightning_arrow))"
+						"ftbfiltersystem:filter": "or(item(thermal:lightning_grenade)item(thermal:lightning_tnt)item(thermal:lightning_charge)item(kubejs:lightning_arrow))"
 					}
 				}
 				title: "Summoning Lightning"

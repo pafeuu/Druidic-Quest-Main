@@ -1,0 +1,13 @@
+{
+	icon: "minecraft:chest"
+	id: "2DD2F7ABD86608A3"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ item: "kubejs:roadrunner_totem" }
+		{ item: "kubejs:leafcutter_ant_totem" }
+		{ item: "kubejs:crab_totem" }
+		{ item: "kubejs:anaconda_totem" }
+	]
+	title: "basic_totems"
+}

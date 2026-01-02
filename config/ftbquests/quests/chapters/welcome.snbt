@@ -288,6 +288,8 @@
 				""
 				"&aLeafcutter Ant Totem&r for axe speed."
 				""
+				"&9Anaconda Totem&r for slower hunger deplation"
+				""
 				"Totems are new items custom-made for the pack. They give special effects when held in the offhand. Search &d\"@druidic\"&r in EMI to check out more custom stuff!"
 			]
 			icon: {
@@ -300,9 +302,9 @@
 			id: "48BFFBF891F26E15"
 			rewards: [{
 				exclude_from_claim_all: true
-				icon: "kubejs:roadrunner_totem"
-				id: "6FCB6452436AD88E"
-				table_id: 239250073801670199L
+				icon: "kubejs:crab_totem"
+				id: "2290AE5445CF9BAE"
+				table_id: 3301973794258028707L
 				type: "choice"
 			}]
 			shape: "hexagon"
