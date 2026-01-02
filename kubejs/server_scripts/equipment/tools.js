@@ -783,19 +783,6 @@ ServerEvents.recipes(event => {
 		}
 	  )
 		  	
-	  event.remove({output:"archers_paradox:lightning_arrow"})
-	  event.shaped(
-		Item.of('2x archers_paradox:lightning_arrow'), 
-		[
-		  ' F ',
-		  'FXF',
-		  ' F '
-		],
-		{
-		  F: 'minecraft:arrow',
-		  X: 'thermal:lightning_charge'
-		}
-	  )
 
 	event.remove({id:"enigmaticlegacy:magnet_ring"})
 	event.remove({id:"enigmaticlegacy:golden_ring"})
@@ -1063,6 +1050,19 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Tools ============================================================================
 
+	event.shaped("kubejs:grafter",
+		[
+			"  B",
+			" S ",
+			"R  "
+		],
+		{
+			R: "immersiveengineering:stick_treated",
+			S: "shears",
+			B: "#forge:ingots/bronze"
+		}
+	)
+	
 	event.shaped("create:potato_cannon",
 		[
 			"PCP",
@@ -1420,88 +1420,6 @@ ServerEvents.recipes(event => {
 		}
 	  )
 
-
-	event.remove({output:"enigmaticlegacy:mining_charm"})
-	event.custom({
-		"type": "naturesaura:tree_ritual",
-		"ingredients": [
-			{
-				"item": "ars_nouveau:dull_trinket"
-			},
-			{
-				"item": "kubejs:gold_upgrade_smithing_template"
-			},
-			
-			{
-				"tag": "forge:storage_blocks/diamond"
-			},
-			{
-				"item": "enigmaticlegacy:earth_heart"
-			},
-			{
-				"tag": "forge:plates/gold"
-			},
-			{
-				"tag": "forge:plates/gold"
-			},
-			{
-				"tag": "forge:plates/gold"
-			},
-			{
-				"tag": "forge:plates/gold"
-			}
-			
-		],
-		"sapling": {
-			"item": "wizards_reborn:arcane_wood_sapling"
-		},
-		"output": {
-			"item": 'enigmaticlegacy:mining_charm',
-			"count": 1
-		},
-		"time": 200
-	})
-
-	event.custom({
-		"type": "naturesaura:tree_ritual",
-		"ingredients": [
-			{
-				"item": "ars_nouveau:dull_trinket"
-			},
-			{
-				"item": "netherite_upgrade_smithing_template"
-			},
-			
-			{
-				"item": "minecraft:golden_sword"
-			},
-			{
-				"item": "skeleton_skull"
-			},
-			{
-				"tag": "forge:plates/netherite"
-			},
-			{
-				"tag": "forge:plates/fiery"
-			},
-			{
-				"tag": "forge:plates/fiery"
-			},
-			{
-				"tag": "forge:plates/netherite"
-			}
-			
-		],
-		"sapling": {
-			"item": "minecraft:crimson_fungus"
-		},
-		"output": {
-			"item": 'enigmaticlegacy:monster_charm',
-			"count": 1
-		},
-		"time": 200
-	}).id("enigmaticlegacy:monster_charm")
-
 	event.remove({output:"enigmaticlegacy:extradimensional_eye"})
 	event.shaped(
 		Item.of('enigmaticlegacy:extradimensional_eye'), 
@@ -1702,9 +1620,6 @@ ServerEvents.recipes(event => {
 		}
 	  ).id("deep_aether:skyjade_ring")
 	
-
-	event.recipes.naturesaura.tree_ritual("kubejs:fiery_magic_feather",
-		["kubejs:golden_magic_feather","#minecraft:beds","ars_nouveau:fire_essence","ars_nouveau:fire_essence","ars_nouveau:fire_essence","ars_nouveau:fire_essence","thermal:gunpowder_block","thermal:gunpowder_block"],"minecraft:spruce_sapling")
 
 	event.shapeless("quark:pickarang",["diamond_pickaxe","quark:diamond_heart"]).id("quark:tools/crafting/pickarang_heart")
 
