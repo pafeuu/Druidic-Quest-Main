@@ -46,7 +46,6 @@ ClientEvents.lang("en_us", event => {
 
 
     event.renameItem("naturesaura:gold_powder","Gold Leaf Powder")
-    event.renameItem("forbidden_arcanus:reinforced_deorum_blacksmith_gavel","Blacksmith Gavel")
 
     event.renameBlock("immersive_weathering:permafrost","Gray Permafrost")
     event.renameBlock("immersive_weathering:grassy_permafrost","Grassy Gray Permafrost")
@@ -59,5 +58,111 @@ ClientEvents.lang("en_us", event => {
     event.renameItem("constructionwand:iron_wand","Basic Building Wand")
     event.renameItem("constructionwand:diamond_wand","Sturdy Building Wand")
     event.renameItem("constructionwand:infinity_wand","Advanced Building Wand")
+
+    let newCategories = [
+        "coral",
+        "table_cloths",
+        "coins",
+        "bars",
+        "presents",
+        "trapped_presents",
+        "stools",
+        "awnings",
+        "crystal_lamp",
+        "sleeping_bags",
+        "hammocks",
+        "ladders",
+        "sign_posts",
+        "chests/wooden",
+        "fishes",
+        "rods",
+        "bark",
+        "couches",
+        "chairs",
+        "dining_benches",
+        "side_tables",
+        "leaf_piles",
+        "bookshelves",
+        "desks",
+        "nightstands",
+        "tables",
+        "counters",
+        "cupboards",
+        "drawers",
+        "shelves",
+        "trims",
+        "plates",
+        "wires",
+        "springs",
+        "small_springs",
+        "sheetmetals",
+        "glyphs",
+        "bundles",
+        "sharestone",
+        "waystones",
+        "seats",
+        "enchanting_runes",
+        "hedges",
+        "jam_blocks",
+        "jelly_blocks",
+        "banisters",
+        "all_crystals",
+        "storage_upgrades",
+        "backpack_upgrades",
+        "smithing_templates",
+        "hook",
+        "tools/knives",
+        "pots",
+        "harnesses",
+        "trophies",
+        "cabinets",
+        "sophisticated_shulker_boxes",
+        "sophisticated_chests",
+        "sophisticated_barrels",
+        "limited_barrels",
+        "backpacks",
+        "buntings",
+        "quils",
+        "frames",
+        "glass_frames",
+        "casings",
+        "wissen_casings",
+        "light_casings",
+        "fluid_casings",
+        "steam_casings",
+        "gilded",
+        "ancient_tomes",
+        "rituals",
+        "thread_upgrades",
+        "jelly_bread",
+        "jams",
+        "salt_lamps",
+        "salt_lanterns",
+        "salt_campfires",
+        "salt_torches",
+        "copper_blocks",
+        "bobbers",
+        "hooks",
+        "lines"
+    ]
+    newCategories.forEach(name=> {
+        
+        let displayName = name.replace(/[_/]/g, " ");
+        displayName = displayName
+        .split(" ")
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ");
+            
+        event.add("stackgroup.emixx."+name,displayName)
+
+    });
+
+
+    event.renameItem("brewinandchewin:pizza","Veggie Pizza")
+    event.renameItem("brewinandchewin:pizza_slice","Veggie Pizza Slice")
+
+    
+    
+    
 
 })

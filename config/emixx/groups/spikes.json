@@ -1,0 +1,32 @@
+{
+    "id": "spikes",
+    "contents": [
+        "item:supplementaries:bamboo_spikes",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"minecraft:poison\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"minecraft:long_poison\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"minecraft:strong_poison\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"minecraft:slowness\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"minecraft:long_slowness\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"minecraft:strong_slowness\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"minecraft:harming\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"minecraft:strong_harming\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"minecraft:weakness\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"minecraft:long_weakness\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"vintagedelight:dehydrated\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"vintagedelight:long_dehydrated\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"vintagedelight:strong_dehydrated\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"ars_nouveau:blasting_potion\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"ars_nouveau:blasting_potion_long\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"ars_nouveau:blasting_potion_strong\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"ars_nouveau:freezing_potion\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"ars_nouveau:freezing_potion_strong\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"ars_nouveau:freezing_potion_long\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"fyshisattribute:shorten_in_positive_potion\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"fyshisattribute:long_shorten_in_positive_potion\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"fyshisattribute:strong_shorten_in_positive_potion\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"fyshisattribute:extend_in_negative_potion\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"fyshisattribute:long_extend_in_negative_potion\"}",
+        "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"fyshisattribute:strong_extend_in_negative_potion\"}"
+    ]
+
+}

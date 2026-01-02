@@ -1,0 +1,21 @@
+{
+    "id": "quils",
+    "contents": [
+        "item:quark:pathfinders_quill{targetBiome:\"minecraft:snowy_plains\",targetBiomeColor:8381695,targetBiomeUnderground:0b}",
+        "item:quark:pathfinders_quill{targetBiome:\"minecraft:dark_forest\",targetBiomeColor:22794,targetBiomeUnderground:0b}",
+        "item:quark:pathfinders_quill{targetBiome:\"minecraft:desert\",targetBiomeColor:13416782,targetBiomeUnderground:0b}",
+        "item:quark:pathfinders_quill{targetBiome:\"minecraft:savanna\",targetBiomeColor:10200418,targetBiomeUnderground:0b}",
+        "item:quark:pathfinders_quill{targetBiome:\"minecraft:swamp\",targetBiomeColor:2242319,targetBiomeUnderground:0b}",
+        "item:quark:pathfinders_quill{targetBiome:\"minecraft:mangrove_swamp\",targetBiomeColor:2242319,targetBiomeUnderground:0b}",
+        "item:quark:pathfinders_quill{targetBiome:\"minecraft:old_growth_pine_taiga\",targetBiomeColor:5980703,targetBiomeUnderground:0b}",
+        "item:quark:pathfinders_quill{targetBiome:\"minecraft:flower_forest\",targetBiomeColor:13518562,targetBiomeUnderground:0b}",
+        "item:quark:pathfinders_quill{targetBiome:\"minecraft:jungle\",targetBiomeColor:2274816,targetBiomeUnderground:0b}",
+        "item:quark:pathfinders_quill{targetBiome:\"minecraft:bamboo_jungle\",targetBiomeColor:4055575,targetBiomeUnderground:0b}",
+        "item:quark:pathfinders_quill{targetBiome:\"minecraft:badlands\",targetBiomeColor:13008674,targetBiomeUnderground:0b}",
+        "item:quark:pathfinders_quill{targetBiome:\"minecraft:mushroom_fields\",targetBiomeColor:5063283,targetBiomeUnderground:0b}",
+        "item:quark:pathfinders_quill{targetBiome:\"minecraft:ice_spikes\",targetBiomeColor:2015433,targetBiomeUnderground:0b}",
+        "item:quark:pathfinders_quill{targetBiome:\"minecraft:cherry_grove\",targetBiomeColor:15313384,targetBiomeUnderground:0b}",
+        "item:quark:pathfinders_quill{targetBiome:\"quark:glimmering_weald\",targetBiomeColor:3241286,targetBiomeUnderground:0b}"
+    ]
+
+}

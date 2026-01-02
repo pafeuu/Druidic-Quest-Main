@@ -1,0 +1,23 @@
+{
+    "id": "jelly_bread",
+    "contents": [
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"APPLE\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"MELON\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"PEAR\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"BLUEBERRY\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"CRANBERRY\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"LEMON\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"PERSIMMON\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"DURIAN\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"FIG\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"KIWI\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"LYCHEE\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"MANGO\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"ORANGE\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"SWEETBERRY\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"PEACH\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"GLOWBERRY\"]}",
+        "item:fruitsdelight:jelly_bread{JellyEffectRoot:[\"HAMIMELON\"]}"
+    ]
+
+}
