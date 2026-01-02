@@ -253,5 +253,18 @@ ServerEvents.recipes(e => {
     Cookies("fruitsdelight:bayberry_cookie","fruitsdelight:bayberry","fruitsdelight:bayberry_cookie")
     Cookies("farmersdelight:sweet_berry_cookie","minecraft:sweet_berries","farmersdelight:sweet_berry_cookie")
     Cookies("farmersdelight:honey_cookie","honey_bottle","farmersdelight:honey_cookie")
+
+    e.shaped("vintagedelight:cheese_pizza",
+        [
+            "AAA",
+            "BBB",
+            "CCC"
+        ],
+        {
+            A: "vintagedelight:cheese_slice",
+            B: "kubejs:pizza_sauce",
+            C: "#forge:dough"
+        }
+    ).id("vintagedelight:cheese_pizza")
     
 })
