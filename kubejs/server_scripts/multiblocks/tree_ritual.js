@@ -79,6 +79,40 @@ ServerEvents.recipes(event=>{
 
      //============================================= Seeds and Saplings =============================================
 
+     tree_ritual("nether_wart",
+          [
+               "red_mushroom",
+               "soul_sand",
+               "rotten_flesh",
+               "rotten_flesh",
+               "rotten_flesh",
+               "rotten_flesh",
+               "rotten_flesh",
+               "rotten_flesh"
+          ],
+          "minecraft:jungle_sapling"
+     )
+
+     const elements = ["water","air","fire","earth"]
+
+     elements.forEach(element => {
+
+          tree_ritual("wizards_reborn:"+element+"_crystal_seed",
+          [
+               "wizards_reborn:arcanum_seed",
+               "kubejs:"+element+"_infused_arcanum",
+               "kubejs:"+element+"_infused_arcanum",
+               "kubejs:"+element+"_infused_arcanum",
+               "kubejs:"+element+"_infused_arcanum",
+               "kubejs:"+element+"_infused_arcanum",
+               "kubejs:"+element+"_infused_arcanum",
+               "kubejs:"+element+"_infused_arcanum",
+          ],
+          "wizards_reborn:arcane_wood_sapling"
+          ).id("wizards_reborn:wissen_crystallizer/"+element+"_crystal_seed")
+          
+     });
+
      tree_ritual("wizards_reborn:arcane_linen_seeds",
           [
                "wheat_seeds",
@@ -178,18 +212,37 @@ ServerEvents.recipes(event=>{
           "cherry_sapling"
      ).id("wizards_reborn:crystal_infusion/innocent_wood_sapling")
 
-     tree_ritual("minecraft:sunflower",
-	[
-          "minecraft:grass",
-          "#minecraft:flowers",
-          "minecraft:yellow_dye",
-          "minecraft:yellow_dye",
-          "minecraft:yellow_dye",
-          "minecraft:yellow_dye",
-          "minecraft:yellow_dye",
-          "minecraft:yellow_dye",],
-          "oak_sapling",100
-     )
+     function TallFlower(output,flower,color,sapling)
+     {
+          tree_ritual(output,
+          [   
+               flower,
+               "minecraft:grass",
+               "minecraft:"+color+"_dye",
+               "minecraft:"+color+"_dye",
+               "minecraft:"+color+"_dye",
+               "minecraft:"+color+"_dye",
+               "minecraft:"+color+"_dye",
+               "minecraft:"+color+"_dye"
+          ],
+               sapling,100
+          )
+     }
+
+     TallFlower("minecraft:sunflower","#minecraft:flowers","yellow","oak_sapling")
+     TallFlower("minecraft:lilac","#minecraft:flowers","magenta","birch_sapling")
+     TallFlower("minecraft:peony","#minecraft:flowers","pink","spruce_sapling")
+     TallFlower("minecraft:rose_bush","#minecraft:flowers/roses","red","oak_sapling")
+     TallFlower("biomeswevegone:blue_rose_bush","#minecraft:flowers/roses","blue","spruce_sapling")
+     TallFlower("biomeswevegone:delphinium","#minecraft:flowers","blue","jungle_sapling")
+     TallFlower("biomeswevegone:foxglove","#minecraft:flowers","cyan","jungle_sapling")
+     TallFlower("biomeswevegone:japanese_orchid","#minecraft:flowers/orchid","pink","cherry_sapling")
+     TallFlower("biomeswevegone:tall_white_allium","#biomeswevegone:flowers/alliums","white","oak_sapling")
+     TallFlower("biomeswevegone:tall_allium","#biomeswevegone:flowers/alliums","magenta","oak_sapling")
+     TallFlower("biomeswevegone:tall_pink_allium","#biomeswevegone:flowers/alliums","pink","oak_sapling")
+     TallFlower("biomeswevegone:magenta_pitcher_plant","minecraft:pitcher_pod","pink","jungle_sapling")
+     TallFlower("biomeswevegone:cyan_pitcher_plant","minecraft:pitcher_pod","cyan","jungle_sapling")
+     
 
      tree_ritual("naturesaura:token_joy",
 	[
