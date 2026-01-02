@@ -243,6 +243,7 @@ ItemEvents.modification(event=>{
     });
 
     const Pie = [
+        'brewinandchewin:quiche',
         'fruitsdelight:pineapple_pie',
         'aether_redux:blueberry_pie',
         'aether_redux:enchanted_blueberry_pie',
@@ -489,6 +490,17 @@ ItemEvents.modification(event=>{
     }
 
     hunger("sob:echo_rock_candy",8,6)
+
+    hunger("vintagedelight:cheese_pizza",20,16)//Regular Pizza
+    hunger("vintagedelight:cheese_pizza_slice",6,7)
+
+    hunger("brewinandchewin:pizza",20,18)//Veggie Pizza
+    hunger("brewinandchewin:pizza_slice",6,8)
+    
+    hunger("vintagedelight:meat_pizza",20,18)
+    hunger("vintagedelight:meat_pizza_slice",6,8)
+
+    
     
     
 })

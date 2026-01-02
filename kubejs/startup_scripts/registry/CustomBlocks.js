@@ -331,7 +331,7 @@ StartupEvents.registry("block", (event) => {
     .box(9,12,0,16,16,16)
     .tagItem("c:hidden_from_recipe_viewers")
 
-    event.create("incomplete_questin_ram_trophy")
+    event.create("incomplete_questing_ram_trophy")
     .soundType("wool")
     .hardness("3")
     .resistance("4")
@@ -346,6 +346,17 @@ StartupEvents.registry("block", (event) => {
     .hardness("3")
     .resistance("6")
     .tagBlock("mineable/pickaxe")
+
+    event.create("experience_ore")
+    .soundType("stone")
+    .hardness("3")
+    .resistance("6")
+    .tagBlock("mineable/pickaxe")
+    .tagBlock("minecraft:needs_iron_tool")
+    .tagBoth("c:ores")
+    .lightLevel(0.5)
+
+    
 
 
 

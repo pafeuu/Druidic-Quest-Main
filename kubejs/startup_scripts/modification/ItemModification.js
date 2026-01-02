@@ -157,7 +157,11 @@ ItemEvents.modification(event => {
       "constructionwand:stone_wand",
       "constructionwand:iron_wand",
       "constructionwand:diamond_wand",
-      "constructionwand:infinity_wand"
+      "constructionwand:infinity_wand",
+      "aether:flaming_sword",
+      "ancient_aether:ancient_sword",
+      "aether:holy_sword",
+      "aether:lightning_sword"
     ]
 
     let UnbreakableArmor = [

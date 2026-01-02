@@ -70,6 +70,15 @@ ItemEvents.toolTierRegistry(event => {
     tier.repairIngredient = '#forge:ingots/lead'
   })
 
+  event.add('uranium', tier => {
+    tier.uses = 2048
+    tier.speed = 6.5
+    tier.attackDamageBonus = 0.0
+    tier.level = 3
+    tier.enchantmentValue = 14
+    tier.repairIngredient = '#forge:ingots/uranium'
+  })
+
   event.add('terraformer', tier => {
     tier.uses = 4096
     tier.speed = 8.0
@@ -173,6 +182,16 @@ ItemEvents.armorTierRegistry(event => {
     tier.equipSound = 'minecraft:item.armor.equip_leather'
     tier.repairIngredient = '#forge:cactus'
     tier.toughness = 0.0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.0
+  })
+
+  event.add('uranium', tier => {
+    tier.durabilityMultiplier = 68 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2, 4, 6, 2] // Slot indicies are [FEET, LEGS, BODY, HEAD]
+    tier.enchantmentValue = 12
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = '#forge:ingots/uranium'
+    tier.toughness = 1.0 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.0
   })
 })
@@ -306,7 +325,6 @@ StartupEvents.registry('item', item => {
   ///===================================================DUSTS============================================================
   
   item.create('zinc_dust').tag('forge:dusts').tag('forge:dusts/zinc')
-  item.create("sulfur_quartz_blend").displayName("Sulfuric Quartz Blend").tag("forge:dusts").tag("dq:tier1/component")
   item.create("primitive_alchemical_dust").tag("forge:dusts").tag("dq:tier1/component").tag("dq:alchemical_dust").glow(true)
   item.create('basic_alchemical_dust').tag('forge:dusts').tag('dq:alchemical_dust').tag("dq:tier2/component").glow(true)
   item.create('improved_alchemical_dust').tag('forge:dusts').tag('dq:alchemical_dust').tag("dq:tier3/component").glow(true)
@@ -468,12 +486,12 @@ StartupEvents.registry('item', item => {
   ///=================================================TOOLS============================================================
   item.create("mossy_sword","sword").tier('stone').tag("minecraft:swords").tag("minecraft:tools").tag("forge:tools/stone").tag("dq:tier0/weapon")
   item.create("royal_guard_sword","sword").tier('royal').tag("minecraft:swords").tag("minecraft:tools").tag("forge:tools/iron").tag("dq:tier1/weapon")
-  item.create('chill_blade','sword').displayName("Chilled Blade").tier('ice').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').tag("dq:tier1/weapon")
-  item.create('blade_of_grass','irons_spells_js:magic_sword').tier('grass').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:poison_splash",3).tag("dq:tier2/weapon")
-  item.create('ice_blade','irons_spells_js:magic_sword').tier('ice').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:icicle",3).tag("dq:tier1/weapon").speedBaseline(-2.1)
-  item.create('flint_spear','sword').tier('wood').tag('minecraft:sword').tag("forge:tools/flint").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon").maxDamage(128)
-  item.create('stone_claymore','sword').tier('stone').tag('minecraft:sword').tag("forge:tools/stone").tag('minecraft:tools').speedBaseline(-2.8).tag("dq:tier0/weapon").attackDamageBaseline(7).maxDamage(128)
-  item.create('iron_scythe','sword').tier('iron').tag('minecraft:sword').tag("forge:tools/iron").tag("minecraft:tools").tag("dq:tier1/weapon").speedBaseline(-2.8).attackDamageBaseline(7).maxDamage(512)
+  item.create('chill_blade','sword').displayName("Chilled Blade").tier('ice').tag('minecraft:swords').tag("forge:tools/iron").tag('minecraft:tools').tag("dq:tier1/weapon")
+  item.create('blade_of_grass','irons_spells_js:magic_sword').tier('grass').tag('minecraft:swords').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:poison_splash",3).tag("dq:tier2/weapon")
+  item.create('ice_blade','irons_spells_js:magic_sword').tier('ice').tag('minecraft:swords').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:icicle",3).tag("dq:tier1/weapon").speedBaseline(-2.1)
+  item.create('flint_spear','sword').tier('wood').tag("forge:tools/flint").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon").maxDamage(128)
+  item.create('stone_claymore','sword').tier('stone').tag('minecraft:swords').tag("forge:tools/stone").tag('minecraft:tools').speedBaseline(-2.8).tag("dq:tier0/weapon").attackDamageBaseline(7).maxDamage(128)
+  item.create('iron_scythe','sword').tier('iron').tag("forge:tools/iron").tag("minecraft:tools").tag("dq:tier1/weapon").speedBaseline(-2.8).attackDamageBaseline(7).maxDamage(512)
   item.create('phoenix_sword','sword').tier('phoenix').tag('minecraft:sword').tag("forge:tools/phoenix").tag("minecraft:tools").tag("dq:tier3/weapon")
 
   item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("dq:tier1/weapon").tag("dq:tier1/tool")
@@ -486,7 +504,7 @@ StartupEvents.registry('item', item => {
   item.create('copper_axe','axe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool").tag("forge:tools/copper")
   item.create('copper_shovel','shovel').tier('copper').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool").tag("forge:tools/copper")
   item.create('copper_hoe','hoe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool").tag("forge:tools/copper")
-  item.create('copper_trident','sword').tier('copper').tag('minecraft:sword').tag("forge:tools/copper").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier1/weapon")
+  item.create('copper_trident','sword').tier('copper').tag("forge:tools/copper").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier1/weapon")
 
   item.create('bronze_pickaxe','pickaxe').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool").tag("forge:tools/bronze")
   item.create('bronze_shovel','shovel').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool").tag("forge:tools/bronze")
@@ -506,6 +524,12 @@ StartupEvents.registry('item', item => {
   item.create('silver_shovel','shovel').tier('silver').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool").tag("forge:tools/silver")
   item.create('silver_hoe','hoe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool").tag("forge:tools/silver")
   item.create("silver_katana","sword").tier('silver').tag("minecraft:tools").tag("dq:tier1/weapon").tag("dq:tier1/tool").speedBaseline(-2.2).tag('forge:tools/silver')
+
+  item.create('uranium_pickaxe','pickaxe').tier('uranium').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool").tag("forge:tools/uranium")
+  item.create('uranium_sword','sword').tier('uranium').tag("minecraft:tools").tag("dq:tier1/weapon").tag("forge:tools/uranium")
+  item.create('uranium_axe','axe').tier('uranium').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool").tag("forge:tools/uranium")
+  item.create('uranium_shovel','shovel').tier('uranium').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool").tag("forge:tools/uranium")
+  item.create('uranium_hoe','hoe').tier('uranium').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool").tag("forge:tools/uranium")
 
   item.createCustom('primitive_mining_hammer',() => new $HammerItem('primitive', new $ItemProperties()))
   item.createCustom('basic_mining_hammer',() => new $HammerItem('basic', new $ItemProperties()))
@@ -547,12 +571,10 @@ StartupEvents.registry('item', item => {
 
   item.create('elemental_pump').maxDamage(4096).unstackable().tag("dq:tier2/components")
 
-  ///=======================================================Seeds======================================================
+  item.create("capturing_gem").rarity("epic").tag("dq:tier2/tool").tag("minecraft:tools").unstackable()
 
-  item.create('carrot_seeds')
-  item.create('potato_seeds')
-  item.create('onion_seeds')
-  item.create('peanut_seeds')
+  item.create("grafter","hoe").tier('bronze').rarity("rare").maxDamage(256).tag("dq:tier1/tool").tag("minecraft:tools")
+
   ///==========================================================ARMOR====================================================
 
   item.create('copper_helmet','helmet').tier('copper').tag("dq:tier1/armor")
@@ -579,14 +601,23 @@ StartupEvents.registry('item', item => {
   item.create('cactus_chestplate','chestplate').tier('cactus').tag("dq:tier0/armor")
   item.create('cactus_leggings','leggings').tier('cactus').tag("dq:tier0/armor")
   item.create('cactus_boots','boots').tier('cactus').tag("dq:tier0/armor")
+
+  item.create('uranium_helmet','helmet').tier('uranium').tag("dq:tier0/armor")
+  item.create('uranium_chestplate','chestplate').tier('uranium').tag("dq:tier0/armor")
+  item.create('uranium_leggings','leggings').tier('uranium').tag("dq:tier0/armor")
+  item.create('uranium_boots','boots').tier('uranium').tag("dq:tier0/armor")
   
   ///===================================================FOOD===========================================================
   item.create("cookie_dough").tag("dq:tier0/component")
 
+  item.create("pizza_sauce").tag("dq:tier3/component").useAnimation('drink').food(food=>{
+    food.hunger(6)
+    .saturation(0.5)
+  })
+
   item.create("recall_potion").useAnimation('drink').food(food=>{
     food.hunger(1)
     .saturation(1)
-    .effect("minecraft:nausea",100,0,1)
     .alwaysEdible()
   }).glow(true)
 
@@ -609,7 +640,7 @@ StartupEvents.registry('item', item => {
 
   ///===================================================MISC===========================================================
 
-  item.create("capturing_gem").rarity("epic").tag("dq:tier2/tool")
+  
   item.create("elemental_cloth").tag("dq:tier3/component")
   item.create("corrupted_soul").tag("dq:tier1/component")
   item.create("enchanted_soul").tag("dq:tier1/component")

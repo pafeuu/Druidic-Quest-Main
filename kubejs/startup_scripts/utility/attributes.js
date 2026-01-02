@@ -1,8 +1,5 @@
-//This all goes in startup_scripts
 
-let $Attributes = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes')
 let $AttributeModifier = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier')
-let $ISSAttributeRegistry = Java.loadClass('io.redspace.ironsspellbooks.api.registry.AttributeRegistry')
 
 ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event => {
 	 
@@ -32,6 +29,11 @@ ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event
 	if (event.itemStack.hasTag("forge:tools/botanist") && event.slotType == 'mainhand') {
 					
 		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('ce51c139-c8f1-4c2e-a5a0-66731652658c'), 'Tool modifier', 1, 'addition'))
+	};
+
+	if (event.itemStack.hasTag("forge:tools/uranium") && event.slotType == 'mainhand') {
+					
+		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('ce51c139-c8f1-4c2e-a5a0-66731652658c'), 'Tool modifier', 2, 'addition'))
 	};
 
 	if (event.itemStack.hasTag("forge:tools/steel") && event.slotType == 'mainhand') {
