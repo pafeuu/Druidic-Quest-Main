@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:uranium_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "63450c9a-94b4-4166-b6ee-0ed5e8f66901"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "f861f2a7-6698-49f1-8a48-fd01eb8e0c4f"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

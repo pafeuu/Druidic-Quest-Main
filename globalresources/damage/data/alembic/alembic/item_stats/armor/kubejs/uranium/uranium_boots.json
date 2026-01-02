@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:uranium_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "43a04660-6438-4e2a-897b-c660ae8d2e82"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "a4273b60-5bb0-4d59-a6c6-0140784e1e09"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

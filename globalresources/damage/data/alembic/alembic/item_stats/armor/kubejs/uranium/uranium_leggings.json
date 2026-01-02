@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:uranium_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "8cce1e5f-58f1-4125-a737-8f5b4bb545ac"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "ea7a7f83-2628-4eba-aeb0-c8598013258f"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

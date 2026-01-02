@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:uranium_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "2ed9620c-3527-4fd1-b9f2-c7e26adf441a"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "e1c73f28-a8c6-442e-b3ae-d6df3f950052"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}
