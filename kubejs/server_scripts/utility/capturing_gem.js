@@ -8,20 +8,20 @@ ItemEvents.entityInteracted("kubejs:capturing_gem",event => {
     const targetPosition = event.getTarget().position()   
     
 
-    if(ItemNbt.captured)
+    if(ItemNbt.captured)// Checks if the item currently holds any mob
         return;
 
     if ( event.target.entityType.tags.anyMatch(
         (tag) => tag.location() == "dq:capturing_blacklist"
         ) 
-    )
+    )//checks if the mob you are trying to capture is blacklisted
     {
-        event.player.setStatusMessage("§c§lThis mob cannot be captured!");
+        event.player.setStatusMessage("§c§lThis mob cannot be captured!");// send a message above the hotbar
         event.level.spawnParticles("minecraft:angry_villager", true,
             targetPosition.x(), targetPosition.y()+0.5, targetPosition.z(),
             0.3, 0.3, 0.3,
             10,
-            0.01)
+            0.01)// Particles to shows unsuccesful capture
         return;
     }
     
@@ -29,8 +29,8 @@ ItemEvents.entityInteracted("kubejs:capturing_gem",event => {
     event.level.spawnParticles("minecraft:poof",true,
             targetPosition.x(), targetPosition.y()+0.5, targetPosition.z(),
             0.3, 0.3, 0.3,
-            30,
-            0.01)
+            20,
+            0.01)// Particles to shows succesful capture
     
         
     
