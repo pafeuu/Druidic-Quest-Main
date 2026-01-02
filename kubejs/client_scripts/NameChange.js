@@ -61,9 +61,11 @@ ClientEvents.lang("en_us", event => {
 
     let newCategories = [
         "coral",
+        "arrows",
         "table_cloths",
         "coins",
         "bars",
+        "scrolls",
         "presents",
         "trapped_presents",
         "stools",
