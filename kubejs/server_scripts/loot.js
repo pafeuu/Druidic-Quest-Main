@@ -85,7 +85,7 @@ LootJS.modifiers((event) => {
         .replaceLoot("minecraft:golden_chestplate","3x create:golden_sheet")
         .replaceLoot("minecraft:golden_leggings","2x create:golden_sheet")
         .replaceLoot("minecraft:golden_boots","create:golden_sheet")
-        .replaceLoot("aether:golden_knife","create:golden_sheet")
+        .replaceLoot("farmersdelight:golden_knife","create:golden_sheet")
         .replaceLoot("minecraft:netherite_upgrade_smithing_template","kubejs:gold_upgrade_smithing_template")
         .replaceLoot("create:large_cogwheel","kubejs:wooden_gear")
         .replaceLoot("create:cogwheel","kubejs:wooden_gear")
@@ -243,6 +243,10 @@ LootJS.modifiers((event) => {
          .addLoot("kubejs:mittens")
      //================================================ MOBS
     
+    event.addEntityLootModifier("alexsmobs:anaconda")
+        .randomChance(0.025)
+        .addLoot("kubejs:anaconda_totem")
+
     event.addEntityLootModifier(["minecraft:pillager","minecraft:vindicator","minecraft:evoker"])
     .or((or) => {
             or.matchMainHand("#dq:soul_harvester").matchOffHand("kubejs:bejeweled_crucifix");
@@ -332,15 +336,16 @@ LootJS.modifiers((event) => {
     event.addLootTypeModifier(LootType.BLOCK)
     .replaceLoot("stick","twigs:twig")
     
-    event.addBlockLootModifier("forbidden_arcanus:xpetrified_ore")
+    event.addBlockLootModifier("kubejs:experience_ore")
     .removeLoot(Ingredient.all)
     .addAlternativesLoot(
             LootEntry.of("2x create:experience_nugget").when((c) => c.randomChance(0.5)),
             LootEntry.of("4x create:experience_nugget").when((c) => c.randomChance(0.5)),
             LootEntry.of("6x create:experience_nugget").when((c) => c.randomChance(0.5)),
             LootEntry.of("8x create:experience_nugget").when((c) => c.randomChance(0.5)),
-            LootEntry.of("forbidden_arcanus:xpetrified_orb").when((c) => c.randomChance(1)),
+            LootEntry.of("12x create:experience_nugget").when((c) => c.randomChance(1)),
     )
+    
     event.addBlockLootModifier("#forge:tall_grass")
         .matchMainHand("#forge:tools/knives")
         .randomChanceWithEnchantment("minecraft:looting", [0.1, 0.15, 0.2, 0.25]) 
@@ -501,6 +506,17 @@ LootJS.modifiers((event) => {
     DeepslateOres('thermal:deepslate_lead_ore',"thermal:raw_lead",1)
     DeepslateOres('thermal:deepslate_silver_ore',"thermal:raw_silver",1)
     DeepslateOres('thermal:deepslate_nickel_ore',"thermal:raw_nickel",1)
+
+
+    ///============================================Grafter
+
+    Ingredient.of("#minecraft:saplings").itemIds.forEach(sapling=>{
+
+        const leaves = sapling.replace("sapling","leaves")
+		event.addBlockLootModifier(leaves).matchMainHand("kubejs:grafter")
+        .addLoot(sapling)	
+        
+    })
            
     
     
