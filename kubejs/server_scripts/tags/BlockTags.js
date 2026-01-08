@@ -9,6 +9,8 @@ ServerEvents.tags('block', event => {
     "mbd2:basic_recycler"
   ])
 
+  event.add("minecraft:basalt_ore_replaceables","minecraft:basalt")
+  
   event.add("minecraft:needs_iron_tool",[
     "mbd2:elemental_binder",
     "mbd2:elemental_evaporator",
@@ -61,8 +63,8 @@ ServerEvents.tags('block', event => {
     'minecraft:stripped_spruce_log',
     'minecraft:stripped_oak_log'])
 
-  event.add("irons_spellbooks:spectral_hammer_mineable",
-    ["twigs:schist",
+  event.add("irons_spellbooks:spectral_hammer_mineable",[
+      "twigs:schist",
       "twigs:rhyolite",
       "immersiveweathering:mossy_stone",
       'biomeswevegone:dacite',

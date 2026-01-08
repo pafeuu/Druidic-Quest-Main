@@ -150,4 +150,20 @@ ServerEvents.recipes(event=>{
 		],
 		"block_in": {"tag": "forge:stripped_logs"}
 	  }).id("naturesaura:wood_stand")
+
+    /*function TallFlowers(flower)
+    {
+      event.custom({
+		"type": "lychee:block_interacting",
+		"post": [
+		  {"type": "drop_item", "item": flower},
+		],
+		"item_in": [
+		  {"item": "bone_meal"}
+		],
+		"block_in": flower
+	  })
+    }
+
+    TallFlowers("minecraft:pitcher_plant")*/
 })

@@ -3440,13 +3440,92 @@ Patch 0.3.2.1
 ### Other:
     -Lightning Strikes now convert blocks in bigger area(works for stuff like stone->magma block conversion)
 
-# Patch 3.5 Nether and Consitency Update
+# Patch 4.0 
+
+### Updated Mods:
+        -AdvancedLootInfo
+    -Amendments
+    -Balm
+    -BetterCombat
+    -BigBrain
+    -ChatHeads
+    -Create:Copycats+
+    -Create:VintageImprovements
+    -DarkModeEverywhere
+    -DrippyLoadingScreen
+    -EccentricTome
+    -EnchantmentDescription
+    -EveryCompat
+    -FancyMenu
+    -FastSuite
+    -FluffyFur
+    -FTBLibrary
+    -FTBQuests
+    -Fusion
+    -FzzyConfig
+    -ImmedietalyFast
+    -InControl
+    -Kiwi
+    -KubejsNaturesAura
+    -Lootr
+        -LdLib
+        -Multiblocked2
+    -MEED
+    -ModernFix
+    -MoonlightLib
+    -OhTheBiomesWeveGone
+    -RangedJS
+    -SmidgeonOBliss
+    -RawVisualKeybinder
+    -SophisticatedMods
+    -StructureCredits
+    -SuperMartinCoreLib
+    -Supplementaries
+    -TooManyRecipeViewers
+    -XaeroMinimap
+    -XaeroWorldMap
+    -Zeta
+
+### Removed Mods:
+    -ForbiddenArcanus
+    -ValhelsiaCore
+    -ArchersParadox
+    -Twigs
+
+### New Mods:
+    -Rehooked
+    -Platform
+    -VanillaBackport
+    -Horseman
+    -EMI++Backport
+    -NaturesAuraRenderFix
 
 ### New Items:
     -Elemental Pump
     -Elemental Extractor
-    -Beacon of Ice
-    -Beacon of Fire
+    -Blaze Totem
+    -Blitz Totem
+    -Basalz Totem
+    -Blizz Totem
+    -Anaconda Totem
+    -Corrupted Soul Bead
+    -Enchanted Soul Bead
+    -Spawner Part
+    -Uranium Helmet
+    -Uranium Chestplate
+    -Uranium Leggings
+    -Uranium Boots
+    -Uranium Pickaxe
+    -Uranium Shovel
+    -Uranium Hoe
+    -Uranium Axe
+    -Uranium Sword
+    -Explosive Arrow
+    -Lightning Arrow
+    -Pizza Sauce
+    -Belt of Evasion
+    -Infernal Smelter
+    -Infernal Bricks
 
 ### Removed Items:
     -Sulfuric Quartz Blend
@@ -3455,21 +3534,109 @@ Patch 0.3.2.1
     -Niter Ore
     -Niter Block
     -PB & J
+    -Broken Spawner
+    -TwilightForest FallenLogs Variants
 
 ### Item Balance:
     -Buffed the durability of most gloves
-    -Golden Gloves now give a bit of fortune
+    -Golden Gloves now gives a bit of fortune
+    -Exquisite ring now gives a bit of fortune instead of luck
+    -Buffed the Trident
+    -Gold and Arcane Gold tools now give a bit of fortune instead of luck
+    -Buffed the amount of blocks construction wands can place(Requires server config reset)
+    -Buffed the valkyrum ring
+    -Buffed the valkyrum pendant
+    -Quiche can now be eaten restoring 8 hunger bnars
+    -Rare Aether swords are now unbreakable
+    -Engineer's hammer now take durability when rotating things
+    -Buffed the durability of a wrench
 
 ### Recipes:
     -Changed for Enchanting Apparatus
     -Changed for Token of Fear
     -Changed for Token of Anger
     -Changed for Mending Altar
+    -Chnaged for Crafting Station
+    -Changed for Wisestone
+    -Changed for Arcane Lever
+    -Changed for Arcane Hopper
+    -Changed for Arcane Workbench
+    -Changed for Token of Joy
+    -Added for Sunflower
+    -Changed for Golden Magic Feather
+    -Changed for all of the wizards reborn frames and casings
+    -Changed for Knowledge Concentrator
+    -Changed for Exquisite Ring
+    -Changed for Slimec Pickaxe
+    -Changed for Altar of birthing
+    -All the recipes that wanted ender pearl fragments now take ender pearls
+    -All the recipes that wanted xpetrified Orb now take experience blocks
+    -Changed for Wind Blower
+    -Changed for Alchemy Vial
+    -Changed for primitive alchemical dust
+    -Changed for basic alchemical dust
+    -Added for all the tall flowers
+    -Changed for Everlasting Spring
+    -Changed for Megatorch
+    -Changed for Lamp of Sanctuary
+    -Changed for Fiery Magic Feather
+    -Changed for Bouncy Boots Cover
+    -Changed for Featherfall Boots Cover
+    -Added for Gravel
+    -Added for Sand
+    -Changed for all the Luminal Glass variants
+    -Changed for all the wooden trapdoor variants
+    -Changed for all the wooden door variants
+    -Changed for Token of Euphoria
+    -Changed for Token of Terror
+    -Changed for Token of Rage
+    -Changed for Pie Crust
+    -Added for Nether Wart
+    -Added for Sulfur
+    -Changed for Stock Ticker
+    -Changed for Factory Gauge
+    -Changed for Transmitter
+    -Changed for Stock Link
+    -Changed for Packager
+    -Changed for Repackager
+    -Changed for Earth Crystal Seeds
+    -Changed for Water Crystal Seeds
+    -Changed for Fire Crystal Seeds
+    -Changed for Air Crystal Seeds
+    -Changed for Crank
+    -Changed for all the rail variants
+    -Changed for Steam Extractor
+    -Changed for Steam Pipe
+    -Added for Ruby Glass
+    -Changed for Ruby Laser
+    -Changed for Basic Mortar
+    -Changed for Crescent Hammer
+    
 
 ### Worldgen
     -Cinnabar Ore no longer spawns in overworld
-    -Ruby geodes now generate in the nether containing molten ruby ores and cinnabar ores
-    -Sulfur no longer spawns in overworld
+    -Ruby geodes now generate in the nether containing molten ruby ore and cinnabar ore
+    -Sulfur Ore no longer spawns in overworld
+
+### Villagers:
+    -Replaced Bucket of Milk trade with Broken Spawner
+    
+### Loot:
+    -Added lesser magic rings to various entities
+    -Enderman rarely drop nickel ingots
+    -Stray rarely drop tin ingots
+    -Redcap no longer drops coal but now rarely drop silver ingots
+    -Redcap sapper no longer drops coal but now rarely drop tnt
+    -Enderman now always drop at least one pearl
+    -Changed for Archmage tower loot chests
+
+### Quest:
+    -Adjusted some Quests for removed items
+    -Added Anaconda Totem as one of the early game choices
 
 ### Other:
     -Fixed lots of broken tooltips
+    -Replaced Enigmatic Legacy's recall potion with a custom one that works in modded dimensions
+    -Fixed diamond still working as twilight forest portal activator
+    -Placed Pancakes now restores as much hunger and saturation as eaten in item form
+    -Elemental Fluids can now be picked up with buckets

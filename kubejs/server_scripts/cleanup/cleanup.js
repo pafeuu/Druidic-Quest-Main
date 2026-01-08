@@ -9,8 +9,30 @@ var wood_TF = ['canopy','mangrove','twilight_oak','time','transformation','minin
 var wood_TF_no_mangrove = ['canopy','twilight_oak','time','transformation','mining','sorting','dark']
 
 
-global.nukelist = ["twigs:calcite_wall",
+global.nukelist = [
+	"twigs:calcite_wall",
     "twigs:tuff_wall",
+	"twigs:calcite_stairs",
+	"twigs:tuff_stairs",
+	'twigs:mossy_bricks',
+	'twigs:mossy_brick_stairs',
+	'twigs:mossy_brick_slab',
+	'twigs:mossy_brick_wall',
+	'ftbquests:barrier',
+	'ftbquests:stage_barrier',
+	'ftbquests:detector',
+	'ftbquests:loot_crate_opener',
+	'ftbquests:screen_1',
+	'ftbquests:screen_3',
+	'ftbquests:screen_5',
+	'ftbquests:screen_7',
+	'ftbquests:task_screen_configurator',
+	'twilightforest:brittle_potion_flask',
+	'twilightforest:greater_potion_flask',
+	'twilightforest:cube_of_annihilation',
+	'twilightforest:candelabra',
+	'twilightforest:keepsake_casket',
+	'twilightforest:wrought_iron_fence',
 	'vintagedelight:sweet_berry_mason_jar',
 	'brewinandchewin:apple_jelly',
 	'vintagedelight:apple_sauce_mason_jar',
@@ -25,12 +47,10 @@ global.nukelist = ["twigs:calcite_wall",
 	'vintagedelight:gearo_berry_jam_bottle',
 	'vintagedelight:glow_berry_mason_jar',
 	"ancient_aether:valkyrum_ore",
-    "twigs:calcite_stairs",
     "aether:life_shard",
     "immersiveengineering:shield",
     "alexsmobs:shield_of_the_deep",
     "enigmaticlegacy:infernal_shield",
-    "forbiddenarcanus:obsidian_skull_shield",
     "immersiveengineering:toolbox",
     'vintageimprovements:refined_radiance_sheet',
 	'vintageimprovements:refined_glowstone_sheet',
@@ -89,6 +109,24 @@ global.nukelist = ["twigs:calcite_wall",
 	'vintageimprovements:small_cobalt_spring',
 	'vintageimprovements:small_hepatizon_spring',
 	'vintageimprovements:small_manyullyn_spring',
+	'twilightforest:hollow_jungle_log',
+	'twilightforest:hollow_acacia_log',
+	'twilightforest:hollow_dark_oak_log',
+	'twilightforest:hollow_crimson_stem',
+	'twilightforest:hollow_warped_stem',
+	'twilightforest:hollow_vangrove_log',
+	'twilightforest:hollow_cherry_log',
+	'twilightforest:hollow_oak_log',
+	'twilightforest:hollow_spruce_log',
+	'twilightforest:hollow_birch_log',
+	'twilightforest:hollow_sorting_log',
+	'twilightforest:hollow_mining_log',
+	'twilightforest:hollow_transformation_log',
+	'twilightforest:hollow_time_log',
+	'twilightforest:hollow_dark_log',
+	'twilightforest:hollow_mangrove_log',
+	'twilightforest:hollow_canopy_log',
+	'twilightforest:hollow_twilight_oak_log',
 	'vintageimprovements:small_osmium_spring',
 	'vintageimprovements:small_palladium_spring',
 	'vintageimprovements:small_pig_iron_spring',
@@ -217,9 +255,6 @@ global.nukelist = ["twigs:calcite_wall",
 	'thermal:quartz_gear',
 	'thermal:emerald_gear',
 	'thermal:lapis_gear',
-	'effortlessbuilding:muscles', 
-	'effortlessbuilding:elastic_hand', 
-	'effortlessbuilding:building_techniques_book',
 	'aetherdelight:veridium_knife', 
 	'create:cart_assembler', 
 	'create:mechanical_bearing',
@@ -241,14 +276,9 @@ global.nukelist = ["twigs:calcite_wall",
 	'aether:valkyrie_gloves',
 	'everycomp:tf/twilightforest/mangrove_banister',
 	"everycomp:tf/aether/skyroot_banister",
-	"twigs:tuff_stairs",
 	"quark:charcoal_block",
 	"immersiveengineering:slag",
 	"twilightforest:mangrove_chest",
-	'twigs:mossy_bricks',
-	'twigs:mossy_brick_stairs',
-	'twigs:mossy_brick_slab',
-	'twigs:mossy_brick_wall',
 	"wizards_reborn:arcane_wood_mortar",
 	"wizards_reborn:arcane_wood_scythe",
 	"wizards_reborn:arcane_wood_knife",
@@ -344,7 +374,11 @@ global.nukelist = ["twigs:calcite_wall",
 	'minecraft:cactus_flower',
 	'minecraft:short_dry_grass',
 	'minecraft:tall_dry_grass',
-	"enigmaticlegacy:recall_potion"
+	"enigmaticlegacy:recall_potion",
+	"aether:skyroot_stick",
+	'umbral_skies:hollow_skyroot_log',
+	'umbral_skies:hollow_golden_oak_log',
+	'twilightforest:uncrafting_table'
 	/*'create:factory_gauge',
 	'create:redstone_requester',
 	'create:stock_link',
@@ -370,6 +404,7 @@ global.nukelist = ["twigs:calcite_wall",
 ServerEvents.recipes(event => {
 
 	let RemoveById = [
+		"aether:skyroot_barrel",
 		"naturesaura:altar/blaze",
 		"toomanyrecipeviewers:/create/kjs/dbwvu0cpsw4h9wxmrrln63nje",
 		"thermal:machines/pulverizer/pulverizer_basalz_rod",
@@ -460,7 +495,44 @@ ServerEvents.recipes(event => {
 		"wizards_reborn:integration/farmers_delight/cutting/petals_of_innocence",
 		"farmersdelight:cutting/torchflower",
 		"thermal:machines/smelter/smelter_alloy_netherite",
-		"minecraft:netherite_ingot"
+		"minecraft:netherite_ingot",
+		"aether:skyroot_tripwire_hook",
+		"aether:skyroot_grindstone",
+		"aether:skyroot_jukebox",
+		"aether:skyroot_gravitite_jukebox",
+		"aether:skyroot_smithing_table",
+		"aether:skyroot_note_block",
+		"aether:skyroot_fletching_table",
+		"aether:skyroot_loom",
+		"aether:skyroot_beehive",
+		"aether:skyroot_grindstone_holystone_slab",
+		"aether:skyroot_cartography_table",
+		"aether:skyroot_chest",
+		"thermal:gunpowder_4",
+		"thermal:phytogro_4",
+		"thermal:phytogro_2",
+		"thermal:phytogro_8",
+		"wizards_reborn:smelting/arcane_gold_ingot",
+		"wizards_reborn:blasting/arcane_gold_ingot",
+		"thermal:furnace_430925188",
+		"create:crushing/compat/biomeswevegone/anthracite_ore",
+		"create:crushing/compat/biomeswevegone/pervaded_netherrack",
+		"create:crushing/compat/biomeswevegone/ametrine_ore",
+		"create:crushing/compat/biomeswevegone/lignite_ore",
+		"create:crushing/compat/biomeswevegone/emeraldite_ore",
+		"thermal:fuels/numismatic/numismatic_tin_coin",
+		"thermal:fuels/numismatic/numismatic_lumium_coin",
+		"thermal:fuels/numismatic/numismatic_nickel_coin",
+		"thermal:fuels/numismatic/numismatic_invar_coin",
+		"thermal:fuels/numismatic/numismatic_lead_coin",
+		"thermal:fuels/numismatic/numismatic_bronze_coin",
+		"thermal:fuels/numismatic/numismatic_electrum_coin",
+		"thermal:fuels/numismatic/numismatic_constantan_coin",
+		"thermal:fuels/numismatic/numismatic_iron_coin",
+		"thermal:fuels/numismatic/numismatic_steel_coin",
+		"thermal:fuels/numismatic/numismatic_rose_gold_coin",
+		"thermal:fuels/numismatic/numismatic_signalum_coin",
+		"farmersdelight:pie_crust"
 		]
 	
 	RemoveById.forEach(id => {
@@ -481,6 +553,8 @@ ServerEvents.recipes(event => {
 	event.remove({output:"#aether:accessories_gloves"})
 
 	event.replaceInput({input:"minecraft:stick"},"minecraft:stick","#c:rods/wooden")
+	event.replaceInput({input:"aether:skyroot_stick"},"aether:skyroot_stick","#c:rods/wooden")
+	event.replaceInput({input:"#aether:skyroot_stick"},"#aether:skyroot_stick","#c:rods/wooden")
 	event.replaceOutput({id:"vintageimprovements:craft/sulfur_nuggets_to_item"},"vintageimprovements:sulfur","thermal:sulfur")
 
 	
@@ -533,6 +607,36 @@ ServerEvents.recipes(event => {
 	event.stonecutting("create:rose_quartz_tiles","create:rose_quartz_block")
 	event.stonecutting("create:small_rose_quartz_tiles","create:rose_quartz_block")
 
+	event.shaped("9x biomeswevegone:tall_allium",
+		[
+			"B",
+			"B"
+		],
+		{
+			B: "biomeswevegone:allium_petal_block"
+		}
+	)
+
+	event.shaped("9x biomeswevegone:tall_white_allium",
+		[
+			"B",
+			"B"
+		],
+		{
+			B: "biomeswevegone:white_allium_petal_block"
+		}
+	)
+
+	event.shaped("9x biomeswevegone:tall_pink_allium",
+		[
+			"B",
+			"B"
+		],
+		{
+			B: "biomeswevegone:pink_allium_petal_block"
+		}
+	)
+
 	event.custom({
 		"type": "patchouli:shapeless_book_recipe",
 		"ingredients": [
@@ -545,6 +649,41 @@ ServerEvents.recipes(event => {
 		],
 		"book": "patchouli:druidic_beastiary"
 	})
+
+	event.shaped("aether:nature_staff",
+		[
+			"G",
+			"S"
+		],
+		{
+			S: "#c:rods/wooden",
+			G: "aether:zanite_gemstone"
+		}
+	).id("aether:nature_staff")
+
+	event.shaped("4x aether:ambrosium_torch",
+		[
+			"G",
+			"S"
+		],
+		{
+			S: "#c:rods/wooden",
+			G: "aether:ambrosium_shard"
+		}
+	).id("aether:ambrosium_torch")
+
+	event.shaped("4x aether:golden_dart",
+		[
+			"G",
+			"S",
+			"F"
+		],
+		{
+			S: "#c:rods/wooden",
+			G: "aether:golden_amber",
+			F: "feather"
+		}
+	).id("aether:golden_dart")
 
 	///Needs Chipped to work
 	/*event.shaped("3x everycomp:ch/naturesaura/overgrown_ancient_door",
@@ -592,6 +731,8 @@ ServerEvents.recipes(event => {
 		//Compacts 4 small items into 1 big item and back (used for some gems and gems blocks)
 	};
 
+	SmallStorageCompacting("cobblestone","kubejs:pebble")
+	event.shapeless("thermal:sulfur","9x #forge:nuggets/sulfur")
 	Chunks("coal","kubejs:coal_chunk")
 	Chunks("charcoal","kubejs:charcoal_chunk")
 	Chunks("thermal:coal_coke","kubejs:coke_chunk")
@@ -868,7 +1009,7 @@ ServerEvents.recipes(event => {
 			post: [
 				{ type: "drop_item", item: outputItem ,count: 1 },
 				{ type: "place", block: "air" },
-				{ type: "damage_item" }
+				{ type: "damage_item",damage: 0 }
 			]
 		});// Adds In World Plates crafting recipes 
 
@@ -951,7 +1092,7 @@ ServerEvents.recipes(event => {
 			post: [
 				{ type: "drop_item", item: outputItem,count: 3 },
 				{ type: "place", block: "air" },
-				{ type: "damage_item" }
+				{ type: "damage_item",damage: 0 }
 			]
 		});// Adds In World Plates crafting recipes
 		
@@ -1109,18 +1250,6 @@ ServerEvents.recipes(event => {
 	/// Why doesnt it work :(
 	event.recipes.thermal.rock_gen("deep_aether:aersmog","water","deep_aether:poison_fluid",30)*/
 
-	event.shaped("8x twigs:gravel_bricks",
-		[
-			"GGG",
-			"GXG",
-			"GGG"
-		],
-		{
-			G: "#forge:gravel",
-			X: "kubejs:brick_glue"
-		}
-	).damageIngredient("kubejs:brick_glue",8).id("twigs:gravel_bricks")
-
 	event.shaped("8x immersiveengineering:slag_brick",
 		[
 			"GGG",
@@ -1163,8 +1292,6 @@ ServerEvents.recipes(event => {
 			P: "#minecraft:planks",
 			S: "#forge:rods/wooden"
 		})
-
-	event.shapeless("twigs:cracked_bricks","immersive_weathering:cracked_bricks").id("twigs:cracked_bricks")
 	
 
 	event.remove({id:'supplementaries:timber_frame'})
@@ -1202,22 +1329,10 @@ ServerEvents.recipes(event => {
 		{S:"#forge:rods/wooden",P:"minecraft:planks"}
 	).id("supplementaries:item_shelf")
 
-	event.remove({output:"twigs:calcite_wall"})
-	event.remove({output:"twigs:tuff_wall"})
-	event.remove({output:"twigs:calcite_stairs"})
-	
-	event.remove({output:"twigs:mossy_bricks"})
-	event.remove({id:"immersive_weathering:charred_log"})
-
 	//Regions Unexplored
 	//event.shapeless("regions_unexplored:blackstone_cluster","blackstone").id("regions_unexplored:blackstone_cluster")
-
-	//event.shapeless("twigs:polished_basalt_bricks","architects_palette:basalt_tiles").id("twigs:polished_basalt_bricks")
-	//event.shapeless("architects_palette:basalt_tiles","twigs:polished_basalt_bricks")
-	event.shapeless("twigs:mossy_bricks","immersive_weathering:mossy_bricks")
 	
 	
-	event.shapeless("quark:mossy_cobblestone_bricks","twigs:mossy_cobblestone_bricks").id("quark:building/crafting/mossy_cobblestone_bricks")
 
 	//event.shaped("architects_palette:hadaline_tiles",["XX","XX"],{"X":"architects_palette:hadaline_bricks"}).id("architects_palette:hadaline_tiles")
 
@@ -1231,12 +1346,6 @@ ServerEvents.recipes(event => {
 	//event.shapeless("quark:calcite_bricks","architects_palette:calcite_bricks").id("architects_palette:calcite_bricks")
 	//event.shapeless("architects_palette:calcite_bricks","quark:calcite_bricks")
 
-	event.shapeless("twigs:cobblestone_bricks","quark:cobblestone_bricks").id("twigs:cobblestone_bricks")
-	event.shapeless("quark:cobblestone_bricks","twigs:cobblestone_bricks")
-	event.shapeless("twigs:gravel_bricks","supplementaries:gravel_bricks")
-	event.shapeless("supplementaries:gravel_bricks","twigs:gravel_bricks").id("supplementaries:gravel_bricks")
-
-	event.remove({id:"twigs:azalea_flowers_from_flowering_azalea"})
 
 	event.remove({id:"immersiveengineering:crafting/toolbox"})
 
@@ -1362,6 +1471,29 @@ ServerEvents.recipes(event => {
 	WaystoneVariants("mossy_","moss_block")
 	WaystoneVariants("end_stone_","end_stone")
 	WaystoneVariants("blackstone_","blackstone")
+
+	event.forEachRecipe({output:"#wizards_reborn:luminal_glass"}, r=>{
+		
+		let ingredients = r.originalRecipeIngredients
+
+		console.log("trapdoor ingredients:"+ingredients[0].itemIds[0])
+
+		let output = r.originalRecipeResult
+		
+		event.shaped("8x "+output.id,
+			[
+				"GGG",
+				"GXG",
+				"GGG"
+			],
+			{
+				G: ingredients[0].itemIds[0],
+				X: ingredients[4].itemIds[0]
+			}
+		).id(r.getId())
+	
+
+	})
 	
 
 	
