@@ -58,7 +58,7 @@
 	"Ender Watcher" = true
 	"Feeding Trough" = true
 	Gravisand = true
-	"Iron Rod" = false
+	"Iron Rod" = true
 	"Metal Buttons" = true
 	"Obsidian Plate" = true
 	"Pistons Move Tile Entities" = true
@@ -581,7 +581,7 @@
 		#List of changes to apply to repair items, format is "<item>=<repair_item>" as seen in the defualt.
 		#Multiple repair items can be applied for the same base item, and as long as at least one is provided, any vanilla option will be removed.
 		#To use multiple items, comma separate them (e.g. "minecraft:diamond_sword=minecraft:diamond,minecraft:emerald")If you want the vanilla option back, you must add it again manually.
-		"Repair Item Changes" = ["minecraft:shears=minecraft:iron_ingot", "minecraft:netherite_sword=minecraft:diamond", "minecraft:netherite_pickaxe=minecraft:diamond", "minecraft:netherite_axe=minecraft:diamond", "minecraft:netherite_shovel=minecraft:diamond", "minecraft:netherite_hoe=minecraft:diamond", "minecraft:netherite_helmet=minecraft:diamond", "minecraft:netherite_chestplate=minecraft:diamond", "minecraft:netherite_leggings=minecraft:diamond", "minecraft:netherite_boots=minecraft:diamond"]
+		"Repair Item Changes" = ["kubejs:basic_saw=minecraft:copper_ingot", "kubejs:basic_mortar=minecraft:copper_ingot", "minecraft:shears=minecraft:iron_ingot", "minecraft:netherite_sword=minecraft:diamond", "minecraft:netherite_pickaxe=minecraft:diamond", "minecraft:netherite_axe=minecraft:diamond", "minecraft:netherite_shovel=minecraft:diamond", "minecraft:netherite_hoe=minecraft:diamond", "minecraft:netherite_helmet=minecraft:diamond", "minecraft:netherite_chestplate=minecraft:diamond", "minecraft:netherite_leggings=minecraft:diamond", "minecraft:netherite_boots=minecraft:diamond"]
 		"Unrepairable Items" = []
 		"Enable Jei Hints" = false
 
@@ -622,7 +622,7 @@
 		"Display Baked Enchantments In Tooltip" = true
 		"Italic Tooltip" = true
 		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+sharpness@10".
-		"Baked Enchantments" = ["kubejs:mycelial_hoe+minecraft:fortune@3", "umbral_skies:steeleaf_gloves+minecraft:mending@1", "twilightforest:steeleaf_boots+minecraft:mending@1", "twilightforest:steeleaf_leggings+minecraft:mending@1", "twilightforest:steeleaf_chestplate+minecraft:mending@1", "twilightforest:steeleaf_helmet+minecraft:mending@1", "twilightforest:steeleaf_sword+minecraft:mending@1", "twilightforest:steeleaf_hoe+minecraft:mending@1", "twilightforest:steeleaf_shovel+minecraft:mending@1", "twilightforest:steeleaf_pickaxe+minecraft:mending@1", "wizards_reborn:arcane_gold_sword+minecraft:looting@2", "wizards_reborn:arcane_gold_knife+minecraft:fortune@2", "wizards_reborn:arcane_gold_shovel+minecraft:fortune@2", "wizards_reborn:arcane_gold_pickaxe+minecraft:fortune@2", "wizards_reborn:arcane_gold_axe+minecraft:fortune@2", "wizards_reborn:arcane_gold_hoe+minecraft:fortune@2", "kubejs:phoenix_sword+minecraft:fire_aspect@2", "kubejs:cactus_chestplate+minecraft:thorns@1", "kubejs:cactus_leggings+minecraft:thorns@1", "kubejs:cactus_boots+minecraft:thorns@1", "kubejs:cactus_helmet+minecraft:thorns@1", "kubejs:bronze_hoe+veinmining:vein_mining@2", "kubejs:bronze_shovel+veinmining:vein_mining@2", "kubejs:bronze_pickaxe+veinmining:vein_mining@2", "kubejs:silver_katana+smite@2", "kubejs:iron_scythe+bane_of_arthropods@2", "wizards_reborn:innocent_wood_pickaxe+silk_touch@1", "wizards_reborn:innocent_wood_shovel+silk_touch@1", "wizards_reborn:innocent_wood_axe+silk_touch@1", "wizards_reborn:innocent_wood_hoe+silk_touch@1", "wizards_reborn:arcane_wood_axe+silk_touch@1", "wizards_reborn:arcane_wood_pickaxe+silk_touch@1", "wizards_reborn:arcane_wood_shovel+silk_touch@1", "wizards_reborn:arcane_wood_hoe+silk_touch@1"]
+		"Baked Enchantments" = ["kubejs:uranium_helmet+minecraft:blast_protection@3", "kubejs:uranium_chestplate+minecraft:blast_protection@3", "kubejs:uranium_leggings+minecraft:blast_protection@3", "kubejs:uranium_boots+minecraft:blast_protection@3", "kubejs:mycelial_hoe+minecraft:fortune@3", "umbral_skies:steeleaf_gloves+minecraft:mending@1", "twilightforest:steeleaf_boots+minecraft:mending@1", "twilightforest:steeleaf_leggings+minecraft:mending@1", "twilightforest:steeleaf_chestplate+minecraft:mending@1", "twilightforest:steeleaf_helmet+minecraft:mending@1", "twilightforest:steeleaf_sword+minecraft:mending@1", "twilightforest:steeleaf_hoe+minecraft:mending@1", "twilightforest:steeleaf_shovel+minecraft:mending@1", "twilightforest:steeleaf_pickaxe+minecraft:mending@1", "wizards_reborn:arcane_gold_sword+minecraft:looting@2", "wizards_reborn:arcane_gold_knife+minecraft:fortune@2", "wizards_reborn:arcane_gold_shovel+minecraft:fortune@2", "wizards_reborn:arcane_gold_pickaxe+minecraft:fortune@2", "wizards_reborn:arcane_gold_axe+minecraft:fortune@2", "wizards_reborn:arcane_gold_hoe+minecraft:fortune@2", "kubejs:phoenix_sword+minecraft:fire_aspect@2", "kubejs:cactus_chestplate+minecraft:thorns@1", "kubejs:cactus_leggings+minecraft:thorns@1", "kubejs:cactus_boots+minecraft:thorns@1", "kubejs:cactus_helmet+minecraft:thorns@1", "kubejs:bronze_hoe+veinmining:vein_mining@2", "kubejs:bronze_shovel+veinmining:vein_mining@2", "kubejs:bronze_pickaxe+veinmining:vein_mining@2", "kubejs:silver_katana+smite@2", "kubejs:iron_scythe+bane_of_arthropods@2", "wizards_reborn:innocent_wood_pickaxe+silk_touch@1", "wizards_reborn:innocent_wood_shovel+silk_touch@1", "wizards_reborn:innocent_wood_axe+silk_touch@1", "wizards_reborn:innocent_wood_hoe+silk_touch@1", "wizards_reborn:arcane_wood_axe+silk_touch@1", "wizards_reborn:arcane_wood_pickaxe+silk_touch@1", "wizards_reborn:arcane_wood_shovel+silk_touch@1", "wizards_reborn:arcane_wood_hoe+silk_touch@1"]
 
 	[tweaks.grab_chickens]
 		"Needs No Helmet" = true
@@ -1353,7 +1353,7 @@
 	Shiba = false
 	Stonelings = true
 	Toretoise = true
-	Wraith = false
+	Wraith = true
 
 	[mobs.crabs]
 		"Enable Brewing" = true
