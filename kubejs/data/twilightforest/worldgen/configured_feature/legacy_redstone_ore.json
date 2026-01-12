@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "forbidden_arcanus:stella_arcanum"
+          "Name": "irons_spellbooks:arcane_debris"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
