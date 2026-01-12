@@ -346,6 +346,9 @@ LootJS.modifiers((event) => {
     
     //================================================ BLOCKS
 
+    event.addBlockLootModifier("gravel")
+    .removeLoot("twigs:pebble")
+    
     event.addLootTypeModifier(LootType.BLOCK)
     .replaceLoot("stick","twigs:twig")
 

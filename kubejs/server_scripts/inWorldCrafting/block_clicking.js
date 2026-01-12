@@ -163,7 +163,7 @@ ServerEvents.recipes(event=>{
 			"contextual": [
 				{
 				type: "chance",
-				"chance": 0.4
+				"chance": 0.8
 				}
 			],
 			item: "twigs:pebble",
