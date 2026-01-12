@@ -41,6 +41,7 @@ ItemEvents.modification(event => {
     "enigmaticlegacy:ultimate_potion_lingering"]
 
   let stacking64 = ["minecraft:snowball",
+    "twilightforest:meef_stroganoff",
     "ender_pearl",
     'minecraft:beetroot_soup',
     "farmersdelight:cooking_pot",
