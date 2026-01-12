@@ -1,0 +1,17 @@
+{
+  "type": "twilightforest:fallen_small_log",
+  "config": {
+    "hollow": {
+      "Name": "everycomp:q/twilightforest/hollow_twilight_oak_log",
+      "Properties": {
+        "axis": "x"
+      }
+    },
+    "normal": {
+      "Name": "twilightforest:twilight_oak_log",
+      "Properties": {
+        "axis": "y"
+      }
+    }
+  }
+}

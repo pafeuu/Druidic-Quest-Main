@@ -5,10 +5,6 @@
         "rolls": 1,
         "entries": [
             {
-                "type": "empty",
-                "weight": 9
-            },
-            {
                 "type": "item",
                 "weight": 1,
                 "name": "aether:leather_gloves",

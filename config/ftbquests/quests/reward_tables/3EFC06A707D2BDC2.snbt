@@ -71,32 +71,32 @@
 							{
 								Count: 32b
 								Slot: 0b
-								id: "twigs:allium_paper_lantern"
+								id: "quark:paper_lantern_sakura"
 							}
 							{
 								Count: 32b
 								Slot: 1b
-								id: "twigs:paper_lantern"
+								id: "quark:paper_lantern"
 							}
 							{
 								Count: 32b
 								Slot: 2b
-								id: "twigs:paper_lantern"
+								id: "ancient_aether:sun_lantern"
 							}
 							{
 								Count: 32b
 								Slot: 3b
-								id: "twigs:allium_paper_lantern"
+								id: "ancient_aether:ambrosium_lantern"
 							}
 							{
 								Count: 64b
 								Slot: 4b
-								id: "architects_palette:nether_brass_lantern"
+								id: "deep_aether:skyjade_lantern"
 							}
 							{
 								Count: 32b
 								Slot: 5b
-								id: "twigs:torchflower_paper_lantern"
+								id: "rubinated_nether:ruby_lantern"
 							}
 							{
 								Count: 32b
@@ -111,7 +111,7 @@
 							{
 								Count: 32b
 								Slot: 8b
-								id: "twigs:torchflower_paper_lantern"
+								id: "ancient_aether:wynd_lantern"
 							}
 						]
 					}
@@ -185,22 +185,22 @@
 							{
 								Count: 16b
 								Slot: 0b
-								id: "twigs:crimson_shroomlamp"
+								id: "minecraft:ochre_froglight"
 							}
 							{
 								Count: 16b
 								Slot: 1b
-								id: "twigs:crimson_shroomlamp"
+								id: "minecraft:ochre_froglight"
 							}
 							{
 								Count: 16b
 								Slot: 2b
-								id: "twigs:crimson_shroomlamp"
+								id: "minecraft:ochre_froglight"
 							}
 							{
 								Count: 16b
 								Slot: 3b
-								id: "twigs:crimson_shroomlamp"
+								id: "minecraft:ochre_froglight"
 							}
 							{
 								Count: 32b
@@ -210,22 +210,22 @@
 							{
 								Count: 16b
 								Slot: 5b
-								id: "twigs:warped_shroomlamp"
+								id: "minecraft:verdant_froglight"
 							}
 							{
 								Count: 16b
 								Slot: 6b
-								id: "twigs:warped_shroomlamp"
+								id: "minecraft:verdant_froglight"
 							}
 							{
 								Count: 16b
 								Slot: 7b
-								id: "twigs:warped_shroomlamp"
+								id: "minecraft:verdant_froglight"
 							}
 							{
 								Count: 16b
 								Slot: 8b
-								id: "twigs:warped_shroomlamp"
+								id: "minecraft:verdant_froglight"
 							}
 						]
 					}

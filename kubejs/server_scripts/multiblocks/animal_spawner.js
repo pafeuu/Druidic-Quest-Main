@@ -241,10 +241,10 @@ ServerEvents.recipes((event)=>{
         "alexsmobs:banana",
         "alexsmobs:maggot"],RegularAnimalAuraCost,60)
 
-    spawn("alexsmobs:capuchin_monkey",
+    spawn("alexsmobs:warped_toad",
         ["naturesaura:birth_spirit",
-        "alexsmobs:banana",
-        "alexsmobs:maggot"],RegularAnimalAuraCost,60)
+        "slime_ball",
+        "warped_fungus"],MagicalCritterAuraCost,60)
 
     spawn("alexsmobs:gorilla",
         ["naturesaura:birth_spirit",
@@ -276,7 +276,7 @@ ServerEvents.recipes((event)=>{
 
     spawn("alexsmobs:grizzly_bear",
         ["naturesaura:birth_spirit",
-        "honey_comb",
+        "honeycomb",
         "leather",
         "salmon"
         ],RegularAnimalAuraCost,60)
@@ -287,6 +287,144 @@ ServerEvents.recipes((event)=>{
         "kubejs:life_essence",
         "ars_nouveau:fire_essence"
         ],MagicalCritterAuraCost,100)
+
+    spawn("alexsmobs:moose",
+        ["naturesaura:birth_spirit",
+        "bone",
+        "leather",
+        "snow_block"
+        ],RegularAnimalAuraCost,60)
+    
+    spawn("alexsmobs:komodo_dragon",
+        ["naturesaura:birth_spirit",
+        "kubejs:rotten_flesh_block",
+        "slime_ball"
+        ],RegularAnimalAuraCost,60)
+
+    spawn("alexsmobs:roadrunner",
+        ["naturesaura:birth_spirit",
+        "feather",
+        "sand"
+        ],RegularAnimalAuraCost,60)
+
+    spawn("alexsmobs:centipede_head",
+        ["naturesaura:birth_spirit",
+        "alexsmobs:cockroach_wing_fragment",
+        "red_dye",
+        "stone"
+        ],MagicalCritterAuraCost,100)
+
+    spawn("alexsmobs:bone_serpent",
+        ["naturesaura:birth_spirit",
+        "bone_block",
+        "lava_bucket",
+        "bone"
+        ],MagicalCritterAuraCost,100)
+
+    spawn("alexsmobs:fly",
+        ["naturesaura:birth_spirit",
+        "rotten_flesh",
+        "#forge:insect"
+        ],RegularAnimalAuraCost,60)
+
+    spawn("alexsmobs:crimson_mosquito",
+        ["naturesaura:birth_spirit",
+        "rotten_flesh",
+        "#forge:insect",
+        "crimson_fungus"
+        ],MagicalCritterAuraCost,100)
+
+    spawn("alexsmobs:hummingbird",
+        ["naturesaura:birth_spirit",
+        "feather",
+        "sugar"
+        ],RegularAnimalAuraCost,60)
+
+    spawn("alexsmobs:jerboa",
+        ["naturesaura:birth_spirit",
+        "minecraft:rabbit_hide",
+        "string"
+        ],RegularAnimalAuraCost,60)
+
+    spawn("alexsmobs:snow_leopard",
+        ["naturesaura:birth_spirit",
+        "leather",
+        "snow_block",
+        "#c:foods/raw_meat"
+        ],RegularAnimalAuraCost,60)
+
+    spawn("alexsmobs:skelewag",
+        ["naturesaura:birth_spirit",
+        "bone",
+        "#minecraft:fishes"
+        ],MagicalCritterAuraCost,100)
+
+    spawn("alexsmobs:catfish",
+        ["naturesaura:birth_spirit",
+        "string",
+        "#minecraft:fishes",
+        "#minecraft:fishes"
+        ],RegularAnimalAuraCost,60)
+
+    spawn("alexsmobs:skunk",
+        ["naturesaura:birth_spirit",
+        "leather",
+        "white_wool",
+        "black_wool"
+        ],RegularAnimalAuraCost,60)
+
+    spawn("alexsmobs:rattlesnake",
+        ["naturesaura:birth_spirit",
+        "supplementaries:rope",
+        "sand"
+        ],RegularAnimalAuraCost,60)
+
+    spawn("alexsmobs:comb_jelly",
+        ["naturesaura:birth_spirit",
+        "#fruitsdelight:jello",
+        "#fruitsdelight:jello",
+        "#fruitsdelight:jello"
+        ],RegularAnimalAuraCost,60)
+
+    spawn("alexsmobs:soul_vulture",
+        ["naturesaura:birth_spirit",
+        "coal",
+        "bone",
+        "quark:soul_bead"
+        ],MagicalCritterAuraCost,100)
+
+    spawn("alexsmobs:tarantula_hawk",
+        ["naturesaura:birth_spirit",
+        "red_dye",
+        "blue_dye",
+        "sand"
+        ],MagicalCritterAuraCost,100)
+
+    spawn("alexsmobs:froststalker",
+        ["naturesaura:birth_spirit",
+        "snow_block",
+        "leather",
+        "blue_dye"
+        ],MagicalCritterAuraCost,100)
+
+    spawn("alexsmobs:leafcutter_ant",
+        ["naturesaura:birth_spirit",
+        "create:copper_nugget",
+        "#minecraft:leaves"
+        ],RegularAnimalAuraCost,60)
+
+    spawn("alexsmobs:raccoon",
+        ["naturesaura:birth_spirit",
+        "gray_wool",
+        "black_wool",
+        "leather"
+        ],RegularAnimalAuraCost,60)
+
+
+
+    
+
+    
 
 
     

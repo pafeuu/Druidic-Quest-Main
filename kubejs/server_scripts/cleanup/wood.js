@@ -743,6 +743,187 @@ ServerEvents.recipes(event =>{
 		).id("silly_oddities:integration/wizards_reborn/arcane_workbench/"+id+"/"+id+"_fluid_casing")
 	});
 	//event.shaped("6x wizards_reborn:arcane_salt_torch")
+	
+	event.forEachRecipe({input:"#minecraft:planks",output:"#minecraft:wooden_trapdoors",type:"minecraft:crafting_shaped"}, r=>{
+		
+		const archwoodColors = ["blue","purple","red"]
+		let ingredients = r.originalRecipeIngredients
 
+		console.log("trapdoor ingredients:"+ingredients[0].itemIds[0])
+
+		let plank = ingredients[0].itemIds[0]
+		let slab = plank.replace("_planks","_slab")
+		
+		let trapdoor = r.originalRecipeResult.id
+		let door = trapdoor.replace("_trapdoor","_door")
+		let log = plank.replace("_planks","_log")
+
+		if(slab=="quark:ancient_slab" || slab=="quark:azalea_slab" || slab=="quark:blossom_slab" )
+			slab = slab.replace("_slab","_planks_slab")
+		
+		event.shaped(trapdoor,
+			[
+				"S",
+				"P"
+			],
+			{
+				S: "#forge:tools/saws",
+				P: slab
+			}
+		).damageIngredient("#forge:tools/saws", 1).id(trapdoor+"_from_slabs")
+
+		event.shapeless("2x "+trapdoor,door)
+
+		event.shaped(door,
+			[
+				"P",
+				"P",
+			],
+			{
+				P: trapdoor
+			}
+		).damageIngredient("#forge:tools/saws", 1).id(door+"_from_trapdoors")
+		if(log=="minecraft:warped_log" || log=="minecraft:crimson_log" || log=="biomeswevegone:florus_log")
+			log = log.replace("_log","_stem")
+		if(log=="minecraft:bamboo_log" || log=="mynethersdelight:powdery_log" || log=="wizards_reborn:cork_bamboo_log")
+			log = log.replace("_log","_block")
+		
+		if(log=="ars_nouveau:archwood_log")
+		{
+			
+			archwoodColors.forEach(color => {
+				log = log.replace("archwood",color+"_archwood")
+				event.custom({
+					type: "sawmill:woodcutting",
+					count: 6,
+					ingredient_count: 2,
+					ingredient: {
+						item: log
+					},
+					result: trapdoor
+		 	 	})
+
+				event.custom({
+					type: "sawmill:woodcutting",
+					count: 3,
+					ingredient_count: 2,
+					ingredient: {
+						item: log
+					},
+					result: door
+				})
+
+				log = log.replace(color+"_archwood","archwood")
+			});
+		}
+		else
+		{
+			event.custom({
+				type: "sawmill:woodcutting",
+				count: 6,
+				ingredient_count: 1,
+				ingredient: {
+					item: log
+				},
+				result: trapdoor
+		 	 })
+
+			event.custom({
+				type: "sawmill:woodcutting",
+				count: 3,
+				ingredient_count: 1,
+				ingredient: {
+					item: log
+				},
+				result: door
+			})
+		}
+		
+		
+		event.custom({
+			type: "sawmill:woodcutting",
+			count: 2,
+			ingredient: {
+				item: plank
+			},
+			result: trapdoor
+		  })
+
+		event.custom({
+			type: "sawmill:woodcutting",
+			count: 1,
+			ingredient: {
+				item: plank
+			},
+			result: door
+		  })
+
+		event.custom({
+			type: "sawmill:woodcutting",
+			count: 1,
+			ingredient: {
+				item: slab
+			},
+			result: trapdoor
+		  })
+
+		event.custom({
+			type: "sawmill:woodcutting",
+			count: 2,
+			ingredient: {
+				item: slab
+			},
+			result: door
+		})
+
+		event.remove({output:door})
+		event.remove({output:trapdoor})
+
+	})
+	
+	const aetherPlanks = [
+		"aether:skyroot_planks",
+		"deep_aether:roseroot_planks",
+		"deep_aether:yagroot_planks",
+		"ancient_aether:highsproot_planks",
+		"ancient_aether:sakura_planks",
+		"deep_aether:sunroot_planks",
+		"deep_aether:cruderoot_planks",
+		"deep_aether:conberry_planks"
+	]
+
+	aetherPlanks.forEach(id => {
+
+		const fence = id.replace("planks","fence")
+		const fenceGate = id.replace("planks","fence_gate")
+
+		event.shaped(fenceGate,
+			[
+				"SPS",
+				"SPS"
+			],
+			{
+				P: id,
+				S: "#c:rods/wooden"
+			}).id(fenceGate)
+
+		event.shaped("3x "+fence,
+			[
+				"PSP",
+				"PSP"
+			],
+			{
+				P: id,
+				S: "#c:rods/wooden"
+			}).id(fence)
+		
+		
+		
+	});
+	
+	//event.remove({input: "#minecraft:planks", output: "#minecraft:wooden_trapdoors"})
+
+	
+	
     
 })

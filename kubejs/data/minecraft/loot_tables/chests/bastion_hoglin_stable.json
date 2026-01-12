@@ -217,7 +217,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "forbidden_arcanus:corrupt_soul"
+          "name": "kubejs:corrupted_soul"
         },
         {
           "type": "minecraft:item",
@@ -277,7 +277,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "archers_paradox:explosive_arrow"
+          "name": "kubejs:explosive_arrow"
         },
         {
           "type": "minecraft:item",

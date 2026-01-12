@@ -1,0 +1,24 @@
+{
+    "id": "ancient_aether:valkyrum_ring",
+    "modifiers": [
+      {
+        "type": "append",
+        "attribute": "alembic:holy_damage.resistance",
+        "value": 1,
+        "operation": "ADDITION",
+        "uuid": "e2ba06b5-f99d-4b7d-9dd1-b290201ebb1a"
+      },
+      {
+        "type": "append",
+        "attribute": "alembic:true_damage.resistance",
+        "value": 1,
+        "operation": "ADDITION",
+        "uuid": "e2ba06b5-f08d-499d-92d1-b290205ebb1a"
+      },
+      {
+      "type": "remove",
+      "target": "forge:entity_reach"
+      }
+    ],
+    "equipment_slot": "ring"
+  }

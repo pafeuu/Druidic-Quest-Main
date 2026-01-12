@@ -4,6 +4,8 @@ ServerEvents.recipes(event=>{
 
     const ParticleBubbles = {type: "execute",command: "particle deep_aether:poison_bubbles ~ ~2 ~ 0 0 0 0.1 20",hide: true}
 
+    const ParticleGreenFire = {type: "execute",command: "particle supplementaries:green_flame ~ ~ ~ 0 0 0 0.05 80",hide: true}
+
     const ParticleEnd = {type: "execute", command: "particle irons_spellbooks:unstable_ender ~ ~ ~ 0.5 0.5 0.5 0.1 80 force",hide: true}
 
     const SoundEffectLightning = {type: "execute",command: "playsound irons_spellbooks:lightning_lance_cast neutral @p",hide: true}
@@ -44,6 +46,24 @@ ServerEvents.recipes(event=>{
         { type: 'item', name: 'kubejs:primitive_alchemical_dust' }
     ],ParticleEnd,SoundEffectTransmutation)
 
+    LightningCrafting(1,"ars_nouveau:manipulation_essence",[
+        {type: 'item', name:'ars_nouveau:water_essence'},
+        {type: 'item', name:'naturesaura:token_anger'},
+        {type: 'tag', name:'forge:storage_blocks/redstone'}
+    ],ParticleGreenFire,SoundEffectTransmutation)
+
+    LightningCrafting(1,"ars_nouveau:abjuration_essence",[
+        {type: 'item', name:'ars_nouveau:water_essence'},
+        {type: 'item', name:'naturesaura:token_joy'},
+        {type: 'tag', name:'forge:storage_blocks/nether_wart'}
+    ],ParticleGreenFire,SoundEffectTransmutation)
+
+    LightningCrafting(1,"ars_nouveau:conjuration_essence",[
+        {type: 'item', name:'ars_nouveau:water_essence'},
+        {type: 'item', name:'naturesaura:token_fear'},
+        {type: 'tag', name:'forge:storage_blocks/apatite'}
+    ],ParticleGreenFire,SoundEffectTransmutation)
+
     event.custom({
         type: "lychee:lightning_channeling",
         
@@ -57,6 +77,37 @@ ServerEvents.recipes(event=>{
             
         ]
     })
+
+    function crystalizedOre(input,output)
+    {
+        LightningCrafting(1,`kubejs:crystalized_${output}_ore`,[
+            {type: 'item', name:'thermal:sulfur_dust'},
+            {type: 'item', name:input}
+        ],ParticleGreenFire,SoundEffectTransmutation)
+    }
+
+    crystalizedOre("create:crushed_raw_aluminum","aluminum")
+    crystalizedOre("create:crushed_raw_uranium","uranium")
+    crystalizedOre("create:crushed_raw_gold","gold")
+    crystalizedOre("create:crushed_raw_copper","copper")
+    crystalizedOre("create:crushed_raw_iron","iron")
+    crystalizedOre("create:crushed_raw_lead","lead")
+    crystalizedOre("create:crushed_raw_silver","silver")
+    crystalizedOre("create:crushed_raw_nickel","nickel")
+    crystalizedOre("create:crushed_raw_zinc","zinc")
+    crystalizedOre("create:crushed_raw_tin","tin")
+
+    crystalizedOre("immersiveengineering:raw_aluminum","aluminum")
+    crystalizedOre("immersiveengineering:raw_uranium","uranium")
+    crystalizedOre("minecraft:raw_gold","gold")
+    crystalizedOre("minecraft:raw_copper","copper")
+    crystalizedOre("minecraft:raw_iron","iron")
+    crystalizedOre("thermal:raw_lead","lead")
+    crystalizedOre("thermal:raw_silver","silver")
+    crystalizedOre("thermal:raw_nickel","nickel")
+    crystalizedOre("create:raw_zinc","zinc")
+    crystalizedOre("thermal:raw_tin","tin")
+    
 
     
 })

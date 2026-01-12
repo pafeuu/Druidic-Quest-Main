@@ -188,7 +188,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "archers_paradox:explosive_arrow",
+          "name": "kubejs:explosive_arrow",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -68,7 +68,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "archers_paradox:explosive_arrow",
+          "name": "kubejs:explosive_arrow",
           "weight": 10
         },
         {
@@ -476,7 +476,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "archers_paradox:lightning_arrow",
+          "name": "kubejs:lightning_arrow",
           "weight": 2
         },
         {

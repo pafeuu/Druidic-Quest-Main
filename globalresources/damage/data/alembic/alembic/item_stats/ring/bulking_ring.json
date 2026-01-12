@@ -1,0 +1,27 @@
+{
+    "id": "kubejs:bulking_ring",
+    "modifiers": [
+      {
+        "type": "append",
+        "attribute": "minecraft:generic.max_health",
+        "value": 0.25,
+        "operation": "MULTIPLY_TOTAL",
+        "uuid": "c7c9f784-10a3-4b80-9b57-529a38414e05"
+      },
+      {
+        "type": "append",
+        "attribute": "minecraft:generic.attack_damage",
+        "value": 0.1,
+        "operation": "MULTIPLY_TOTAL",
+        "uuid": "7fa3f0a5-22f6-42af-815a-cf023c763a96"
+      },
+      {
+        "type": "append",
+        "attribute": "puffish_attributes:stamina",
+        "value": -0.25,
+        "operation": "MULTIPLY_TOTAL",
+        "uuid": "5e19f6bf-911f-4c57-aadf-5d06c6edd38b"
+      }
+    ],
+    "equipment_slot": "ring"
+  }

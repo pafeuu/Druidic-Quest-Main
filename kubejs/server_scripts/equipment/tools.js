@@ -566,6 +566,19 @@ ServerEvents.recipes(event => {
 
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	event.shaped("rehooked:wood_hook",
+		[
+			"SSP",
+			" RS",
+			"R S"
+		],
+		{
+			S: "wizards_reborn:arcane_wood_branch",
+			P: "wizards_reborn:arcane_wood_pickaxe",
+			R: ["supplementaries:rope","rehooked:wood_chain"]
+		}
+	).id("rehooked:wood_hook")
+
 	event.shaped("quark:trowel",
 		[
 			"S  ",
@@ -590,6 +603,7 @@ ServerEvents.recipes(event => {
 
 	toolNoSword("wizards_reborn:arcane_wood","wizards_reborn:arcane_wood_planks","wizards_reborn:arcane_wood_branch","string")
 	tool("twilightforest:ironwood","#forge:ingots/ironwood","immersiveengineering:stick_treated","#forge:rope")
+	tool("kubejs:uranium","#forge:ingots/uranium","immersiveengineering:stick_treated","#forge:rope")
 
 	tooltype.forEach(type => {
 		event.remove({id:"twilightforest:equipment/ironwood_"+type})
@@ -642,6 +656,18 @@ ServerEvents.recipes(event => {
 		{F:"flint",
 		 S:"#c:rods/wooden"}
 	).id("kubejs:primitive_saw")
+
+	event.shaped("kubejs:basic_saw",
+		[
+			" C ",
+			"CXC",
+			" C "
+		],
+		{
+			C: "#forge:plates/copper",
+			X: "kubejs:primitive_saw"
+		}
+	)
 
 	event.shaped("kubejs:primitive_mortar",
 		[
@@ -1049,6 +1075,33 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ======================================================================= Tier 1 Tools ============================================================================
+
+	event.shaped("immersiveengineering:skyhook",
+		[
+			"PP ",
+			"PP ",
+			" HH"
+		],
+		{
+			P: "#forge:plates/iron",
+			H: "immersiveengineering:wooden_grip"
+		}
+	).id("immersiveengineering:crafting/skyhook")
+	
+	const gemHooks = [
+		["rehooked:iron_hook","kubejs:infused_amethyst"],
+		["rehooked:blaze_hook","thermal:ruby"],
+		["rehooked:diamond_hook","thermal:sapphire"]
+	]
+	gemHooks.forEach(([hook,gem])=>{
+
+		event.shaped(hook,["GGG","GXG","GGG"],
+			{
+				G: gem,
+				X: "rehooked:wood_hook"
+			}
+		).id(hook)
+	})
 
 	event.shaped("kubejs:grafter",
 		[
@@ -1533,12 +1586,11 @@ ServerEvents.recipes(event => {
 
 	event.shaped("kubejs:basic_mortar",
 		[
-			" A ",
-			"IAI",
-			"IXI"
+			" C ",
+			"CXC",
+			" C "
 		],
-		{A:"#forge:ingots/source_alloy",
-		 I:"#forge:ingots/arcanum_alloy",
+		{C:"#forge:plates/copper",
 		 X:"kubejs:primitive_mortar"}
 	).id("kubejs:basic_mortar")
 
@@ -1707,6 +1759,19 @@ ServerEvents.recipes(event => {
 	
 	/// ============================================= Tier 3 Tools ===========================================================
 	
+	event.shaped("rehooked:red_hook",
+		[
+			"GGG",
+			"GXG",
+			"GGG"
+		],
+		{
+			G: "aether:enchanted_gravitite",
+			X: ["rehooked:iron_hook","rehooked:diamond_hook","rehooked:blaze_hook"]
+		}
+	).id("rehooked:red_hook")
+
+	event.shapeless("rehooked:ender_hook",[["rehooked:iron_hook","rehooked:diamond_hook","rehooked:blaze_hook"],"thermal:enderium_ingot"]).id("rehooked:ender_hook")
 	event.remove({id:"ars_nouveau:stable_warp_scroll"})
 	event.custom(
 		{
@@ -1745,6 +1810,8 @@ ServerEvents.recipes(event => {
 	)
 
 	//=======================================================================Tier 4
+
+	event.shaped("thermal:wrench",[" P ","PXP"," P "],{P:"#forge:plates/steel",X:"supplementaries:wrench"}).id("thermal:tools/wrench")
 
 	event.shapeless(Item.of('minecraft:flint_and_steel', '{Damage:0,Unbreakable:1b}'),["kubejs:primitive_firestarter","4x #forge:plates/steel"])
 

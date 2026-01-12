@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "forbidden_arcanus:arcane_crystal_ore"
+          "Name": "kubejs:stone_ambrosium_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",

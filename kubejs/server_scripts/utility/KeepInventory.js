@@ -1,4 +1,4 @@
-const $CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi")
+
 
 ServerEvents.loaded(event => {
     const server = event.server

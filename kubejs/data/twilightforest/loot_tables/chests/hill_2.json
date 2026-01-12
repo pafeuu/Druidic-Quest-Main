@@ -80,7 +80,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "archers_paradox:lightning_arrow"
+          "name": "kubejs:lightning_arrow"
         },
         {
           "type": "minecraft:item",

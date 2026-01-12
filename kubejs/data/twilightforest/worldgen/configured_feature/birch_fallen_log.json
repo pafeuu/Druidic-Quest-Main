@@ -1,0 +1,17 @@
+{
+  "type": "twilightforest:fallen_small_log",
+  "config": {
+    "hollow": {
+      "Name": "quark:hollow_birch_log",
+      "Properties": {
+        "axis": "x"
+      }
+    },
+    "normal": {
+      "Name": "minecraft:birch_log",
+      "Properties": {
+        "axis": "y"
+      }
+    }
+  }
+}

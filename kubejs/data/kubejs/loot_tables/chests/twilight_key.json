@@ -5,10 +5,6 @@
         "rolls": 1,
         "entries": [
             {
-                "type": "empty",
-                "weight": 9
-            },
-            {
                 "type": "item",
                 "weight": 1,
                 "name": "irons_spellbooks:poisonward_ring",
@@ -301,7 +297,7 @@
           {
             "type": "item",
             "weight": 1,
-            "name": "archers_paradox:lightning_arrow",
+            "name": "kubejs:lightning_arrow",
             "functions": [
               {
                 "function": "set_count",

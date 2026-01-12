@@ -1,3 +1,4 @@
+const $CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi")
 
 LootJS.modifiers((event) => {
     
@@ -118,16 +119,22 @@ LootJS.modifiers((event) => {
     .replaceLoot("irons_spellbooks:fireward_ring","irons_spellbooks:cinder_essence")
 
     // ====================================================Iron's
+    
     event.addLootTableModifier("irons_spellbooks:chests/filler_storage_loot")
-        .randomChance(0.9).addLoot("9x wizards_reborn:arcanum")
-        .randomChance(0.1).addLoot("2x thermal:ruby");
+    .addWeightedLoot(2,[
+        Item.of("9x wizards_reborn:arcanum").withChance(19),
+        Item.of("thermal:ruby").withChance(1)
+    ])
+    
 
     event.addLootTableModifier("irons_spellbooks:chests/wheat")
-        .randomChance(0.1).addLoot('3x vintagedelight:cheese_wheel')
-        .randomChance(0.25).addLoot('4x vintagedelight:overnight_oats')
-        .randomChance(0.8).addLoot("4x vintagedelight:oatmeal")
-        .randomChance(0.01).addLoot("vintagedelight:magic_peanut")
-        .randomChance(0.05).addLoot("vintagedelight:century_egg");
+    .addWeightedLoot(5,[
+        Item.of('1x vintagedelight:cheese_wheel').withChance(60),
+        Item.of('2x vintagedelight:overnight_oats').withChance(100),
+        Item.of("2x vintagedelight:oatmeal").withChance(200),
+        Item.of("vintagedelight:magic_peanut").withChance(1),
+        Item.of("vintagedelight:century_egg").withChance(5)
+    ])
     
     event.addLootTableModifier(/.*irons_spellbooks:chests.*/)
         .replaceLoot(Item.of('minecraft:potion', '{Potion:"minecraft:water"}'), "kubejs:recall_potion");
@@ -182,14 +189,20 @@ LootJS.modifiers((event) => {
     event.addLootTableModifier(/.*dungeons_arise:chests.*/)
         .randomChance(0.5)
         .addLoot("3x kubejs:recall_potion")
-        .randomChance(0.25)
-        .addLoot("5x kubejs:recall_potion")
+
+    
+    event.addLootTableModifier(/.*dungeons_arise:chests.*/)
         .randomChance(0.05)
         .addLoot("enigmaticlegacy:mending_mixture")
+
+    event.addLootTableModifier(/.*dungeons_arise:chests.*/)
         .randomChance(0.025)
         .addLoot("3x enigmaticlegacy:mending_mixture")
+
+    event.addLootTableModifier(/.*dungeons_arise:chests.*/)
         .randomChance(0.1)
         .addLoot("aether:leather_gloves")
+
     //===================================================Rare Loot
     event.addLootTableModifier(/.*chests\/village.*/)
         .randomChance(0.1)
@@ -266,10 +279,12 @@ LootJS.modifiers((event) => {
             LootEntry.of("kubejs:corrupted_soul").when((c) => c.randomChance(0.6)),
             LootEntry.of("quark:soul_bead").when((c) => c.randomChance(1)),
         )
+
     event.addEntityLootModifier("twilightforest:redcap_sapper")
         .randomChance(0.2)
         .addLoot("tnt")
         .removeLoot("coal")
+
     event.addEntityLootModifier("twilightforest:redcap")
         .randomChance(0.04)
         .addLoot("thermal:silver_ingot")
@@ -282,6 +297,8 @@ LootJS.modifiers((event) => {
     event.addEntityLootModifier("minecraft:enderman")
         .randomChance(0.025)
         .addLoot("thermal:nickel_ingot")
+
+    event.addEntityLootModifier("minecraft:enderman")
         .randomChance(0.0125)
         .addLoot("kubejs:lesser_ender_ring");
 
@@ -292,31 +309,27 @@ LootJS.modifiers((event) => {
     event.addEntityLootModifier("minecraft:blaze")
         .randomChance(0.0125)
         .addLoot("kubejs:blaze_totem")
-        .randomChance(0.0125)
         .addLoot("kubejs:lesser_fire_ring");
 
     event.addEntityLootModifier("thermal:blizz")
         .randomChance(0.0125)
         .addLoot("kubejs:blizz_totem")
-        .randomChance(0.0125)
         .addLoot("kubejs:lesser_ice_ring");
+
 
     event.addEntityLootModifier("thermal:blitz")
         .randomChance(0.0125)
         .addLoot("kubejs:blitz_totem")
-        .randomChance(0.0125)
         .addLoot("kubejs:lesser_lightning_ring");
 
     event.addEntityLootModifier("thermal:basalz")
         .randomChance(0.0125)
         .addLoot("kubejs:basalz_totem")
-        .randomChance(0.0125)
         .addLoot("kubejs:lesser_nature_ring");
 
     event.addEntityLootModifier("minecraft:zombie")
         .randomChance(0.0125)
         .addLoot("kubejs:wooden_crucifix")
-        .randomChance(0.0125)
         .addLoot("kubejs:lesser_blood_ring");
     
     event.addEntityLootModifier("minecraft:skeleton")
@@ -332,10 +345,20 @@ LootJS.modifiers((event) => {
         .addLoot("kubejs:lesser_nature_ring")
     
     //================================================ BLOCKS
-    
+
     event.addLootTypeModifier(LootType.BLOCK)
     .replaceLoot("stick","twigs:twig")
-    
+
+    event.addEntityLootModifier("minecraft:bee")
+    .apply(context => {
+            if(context.player == null) return
+            $CuriosApi.getCuriosInventory(context.player).ifPresent(curiosInventory => {
+                if(curiosInventory["findCurios(net.minecraft.world.item.Item)"]("enigmaticlegacy:cursed_ring").length >= 1){
+                    context.addLoot("2x minecraft:honeycomb")
+                }
+            }) 
+        })
+
     event.addBlockLootModifier("kubejs:experience_ore")
     .removeLoot(Ingredient.all)
     .addAlternativesLoot(

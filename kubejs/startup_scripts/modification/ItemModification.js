@@ -1129,6 +1129,10 @@ ItemEvents.modification(event => {
     item.maxDamage = 1024
   })
 
+  event.modify("supplementaries:wrench", item=>{
+    item.maxDamage = 1024
+  })
+
 
   
 })

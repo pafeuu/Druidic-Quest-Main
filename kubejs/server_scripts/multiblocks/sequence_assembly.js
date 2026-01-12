@@ -9,16 +9,15 @@ ServerEvents.recipes(e=>{
     ]).transitionalItem("kubejs:incomplete_blast_bricks").loops(7)
     .id("immersiveengineering:crafting/blastbrick")
 
-    assembly("forbidden_arcanus:clibano_core","#forge:gears/fiery",
+    assembly("kubejs:soul_core","#forge:ingots/phoenix",
         [
-        deploying("kubejs:incomplete_clibano_core",["kubejs:incomplete_clibano_core","forbidden_arcanus:dark_rune"]),
-        deploying("kubejs:incomplete_clibano_core",["kubejs:incomplete_clibano_core","#forge:ingots/phoenix"]),
-        deploying("kubejs:incomplete_clibano_core",["kubejs:incomplete_clibano_core","forbidden_arcanus:dark_rune"]),
-        deploying("kubejs:incomplete_clibano_core",["kubejs:incomplete_clibano_core","kubejs:death_essence"]),
-        deploying("kubejs:incomplete_clibano_core",["kubejs:incomplete_clibano_core","forbidden_arcanus:dark_rune"]),
-        deploying("kubejs:incomplete_clibano_core",["kubejs:incomplete_clibano_core","immersiveengineering:alloybrick"]),
-    ]).transitionalItem("kubejs:incomplete_clibano_core").loops(8)
-    .id("forbidden_arcanus:clibano_core")
+        deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","kubejs:enchanted_soul"]),
+        deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","kubejs:enchanted_soul"]),
+        deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","kubejs:death_essence"]),
+        deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","wizards_reborn:arcane_gold_sheet"]),
+        deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","immersiveengineering:alloybrick"]),
+        deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","kubejs:infernal_bricks"])
+    ]).transitionalItem("kubejs:incomplete_soul_core").loops(24)
 
 
 })

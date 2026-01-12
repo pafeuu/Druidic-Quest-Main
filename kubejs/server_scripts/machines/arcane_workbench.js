@@ -620,42 +620,6 @@ ServerEvents.recipes(event=>{
     "wissen": 5000
     })
 
-    event.custom({
-    "type": "wizards_reborn:arcane_workbench",
-    "pattern": [
-        "ESW",
-        "YXS",
-        "WYE",
-        "AARR"
-    ],
-    "key": {
-        "A": {
-        "item": "kubejs:infused_amethyst"
-        },
-        "R": {
-        "item": "thermal:ruby"
-        },
-        "X": {
-        "item": "kubejs:fall_boots_cover"
-        },
-        "W":{
-        "item": "white_wool"   
-        },
-        "S":{
-        "item": "thermal:sapphire"   
-        },
-        "Y":{
-        "item": "kubejs:infused_emerald"   
-        },
-        "E":{
-        "tag": "forge:plates/enderium"    
-        }
-    },
-    "output": {
-        "item": "kubejs:silent_boots_cover"
-    },
-    "wissen": 5000
-    })
 
     event.custom({
     "type": "wizards_reborn:arcane_workbench",
@@ -1166,6 +1130,186 @@ ServerEvents.recipes(event=>{
         "item": "enigmaticlegacy:golden_ring",
     },
     "wissen": 500
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "SNS",
+			"NXN",
+			"SNS",
+            "EEEE"
+        ],
+        "key": {
+            "S": {
+            "tag": "c:storage_blocks/slime"
+            },
+            "N": {
+            "item": "ars_nouveau:earth_essence"
+            },
+            "E": {
+            "item": "kubejs:infused_emerald"
+            },
+            "X": {
+            "item": "kubejs:fall_boots_cover"
+            }
+        },
+        "output": {
+            "item": "kubejs:bouncy_boots_cover"
+        },
+        "wissen": 5000
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "___",
+			"NXN",
+			"S_S",
+            "EEEE"
+        ],
+        "key": {
+            "S": {
+            "tag": "handcrafted:cushions"
+            },
+            "N": {
+            "item": "immersiveengineering:cushion"
+            },
+            "E": {
+            "item": "ars_nouveau:air_essence"
+            },
+            "X": {
+            "item": "leather_boots"
+            }
+        },
+        "output": {
+            "item": "kubejs:fall_boots_cover"
+        },
+        "wissen": 5000
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "GYG",
+			"DXD",
+			"GZG",
+            "dddd"
+        ],
+        "key": {
+            "d": {
+            "tag": "forge:gems/diamond"
+            },
+            "G": {
+            "tag": "forge:plates/gold"
+            },
+            "D": {
+            "tag": "forge:plates/diamond"
+            },
+            "X": {
+            "item": "ars_nouveau:dull_trinket"
+            },
+            "Y": {
+            "item": "enigmaticlegacy:earth_heart"
+            },
+            "Z": {
+            "item": "kubejs:gold_upgrade_smithing_template"
+            }
+        },
+        "output": {
+            "item": "enigmaticlegacy:mining_charm"
+        },
+        "wissen": 10000
+    }).id("enigmaticlegacy:mining_charm")
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "GYG",
+			"DXD",
+			"GZG",
+            "BBBB"
+        ],
+        "key": {
+            "B": {
+            "item": "create:experience_block"
+            },
+            "G": {
+            "tag": "forge:plates/netherite"
+            },
+            "D": {
+            "tag": "forge:plates/fiery"
+            },
+            "X": {
+            "item": "ars_nouveau:dull_trinket"
+            },
+            "Y": {
+            "item": "skeleton_skull"
+            },
+            "Z": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
+            }
+        },
+        "output": {
+            "item": "enigmaticlegacy:monster_charm"
+        },
+        "wissen": 10000
+    }).id("enigmaticlegacy:monster_charm")
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "DAD",
+			"AXA",
+			"DAD",
+            "BBBB"
+        ],
+        "key": {
+            "B": {
+            "item": "black_dye"
+            },
+            "A": {
+            "item": "thermal:ruby"
+            },
+            "D": {
+            "item": "ars_nouveau:air_essence"
+            },
+            "X": {
+            "item": "ars_nouveau:mundane_belt"
+            }
+        },
+        "output": {
+            "item": "kubejs:evasion_belt"
+        },
+        "wissen": 2000
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "   ",
+			"AXA",
+			"D D",
+            "BBBB"
+        ],
+        "key": {
+            "B": {
+            "item": "ars_nouveau:air_essence"
+            },
+            "A": {
+            "tag": "forge:plates/source_alloy"
+            },
+            "D": {
+            "item": "thermal:sapphire"
+            },
+            "X": {
+            "item": "kubejs:fall_boots_cover"
+            }
+        },
+        "output": {
+            "item": "kubejs:gravity_boots_cover"
+        },
+        "wissen": 5000
     })
 
 

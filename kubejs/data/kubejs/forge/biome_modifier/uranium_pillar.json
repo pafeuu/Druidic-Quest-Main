@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:nether_wastes",
+  "features": "kubejs:uranium_pillar",
+  "step": "vegetal_decoration"
+}

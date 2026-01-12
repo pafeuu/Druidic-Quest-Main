@@ -1,5 +1,6 @@
 StartupEvents.registry('entity_type', event=>{
 
+    
     event.create("explosive_arrow",'entityjs:arrow')
     .setBaseDamage(2)
     .onHitBlock(context => {

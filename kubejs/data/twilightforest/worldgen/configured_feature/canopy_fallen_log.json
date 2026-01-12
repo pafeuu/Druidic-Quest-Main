@@ -1,0 +1,17 @@
+{
+  "type": "twilightforest:fallen_small_log",
+  "config": {
+    "hollow": {
+      "Name": "everycomp:q/twilightforest/hollow_canopy_log",
+      "Properties": {
+        "axis": "x"
+      }
+    },
+    "normal": {
+      "Name": "twilightforest:canopy_log",
+      "Properties": {
+        "axis": "y"
+      }
+    }
+  }
+}

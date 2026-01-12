@@ -1,0 +1,44 @@
+{
+  "item.rehooked.wood_hook": "Primitive Grappling Hook",
+  "item.rehooked.iron_hook": "Amethyst Grappling Hook",
+  "item.rehooked.diamond_hook": "Sapphire Grappling Hook",
+  "item.rehooked.red_hook": "Gravitite Grappling Hook",
+  "item.rehooked.blaze_hook": "Ruby Grappling Hook",
+  "item.rehooked.ender_hook": "Enderium Grappling Hook",
+  
+  "block.rehooked.wood_chain": "Wooden Chain",
+  "block.rehooked.diamond_chain": "Diamond Chain",
+  "block.rehooked.blaze_chain": "Blaze Chain",
+  "block.rehooked.ender_chain": "Ender Chain",
+  "item.rehooked.wood_chain": "Wooden Chain",
+  "item.rehooked.diamond_chain": "Diamond Chain",
+  "item.rehooked.blaze_chain": "Blaze Chain",
+  "item.rehooked.ender_chain": "Ender Chain",
+  
+  "creative.tab.hooks": "Hooks",
+
+  "tooltip.rehooked:wood_hook.info": "Hooks:1 Speed:12 Range:16",
+  "tooltip.rehooked:iron_hook.info": "Hooks:2 Speed:24 Range:48",
+  "tooltip.rehooked:diamond_hook.info": "Hooks:4 Speed:24 Range:64",
+  "tooltip.rehooked:red_hook.info": "Hooks:2 Speed:24 Range:32. Creative flight within the volume defined by the hooks",
+  "tooltip.rehooked:blaze_hook.info": "Hooks:3 Speed:36 Range:48",
+  "tooltip.rehooked:ender_hook.info": "Hooks:1 Speed:128 Range:96",
+  "tooltip.rehooked.press_shift_more_info": "<Press §eShift§r to see controls>",
+  "tooltip.rehooked.press_fire": "Press %1$s to fire",
+  "tooltip.rehooked.press_retract": "Press %1$s while looking at a hook to retract it",
+  "tooltip.rehooked.press_retract_all": "Press %1$s to retract all hooks",
+  "tooltip.rehooked:wood_chain.info": "Not very sturdy, should probably find some better material next time..",
+  "tooltip.rehooked:diamond_chain.info": "Very shiny, still not as fast as light.",
+  
+  "curios.identifier.hook": "Hook",
+  
+  "key.categories.rehooked": "ReHooked",
+  "key.rehooked.fire_hook_key": "Fire Hook",
+  "key.rehooked.retract_hook_key": "Retract Hook",
+  "key.rehooked.remove_all_hooks_key": "Remove All Hooks",
+  
+  "sounds.rehooked.hook_hit": "Hook Hit Surface",
+  "sounds.rehooked.hook_retract": "Hook Retracting",
+  "sounds.rehooked.hook_shoot": "Hook Shot",
+  "sounds.rehooked.hook_miss": "Hook Miss"
+}

@@ -69,4 +69,51 @@ ServerEvents.recipes(event=>{
         "minecraft:netherite_scrap",
     ],"create:super_glue","sophisticatedstorage:super_packing_tape",2500).id("sophisticatedstorage:super_packing_tape")
 
+    apparatus([
+		"kubejs:zinc_tool_handle",
+		"thermal:ruby",
+		"#forge:storage_blocks/gold",
+		"#forge:storage_blocks/gold",
+		"#forge:storage_blocks/gold",
+		"#forge:storage_blocks/gold"],
+		"bundle","kubejs:gold_upgrade_parts")
+
+	apparatus([
+		"#forge:plates/steel",
+		"#forge:plates/steel",
+		"#forge:plates/steel",
+		"#forge:plates/steel"],
+		"bundle","kubejs:steel_upgrade_parts")
+
+    apparatus([
+        "#minecraft:beds",
+        "thermal:gunpowder_block",
+        "thermal:gunpowder_block",
+        "thermal:gunpowder_block",
+        "ars_nouveau:fire_essence",
+        "ars_nouveau:fire_essence",
+        "ars_nouveau:fire_essence",
+        "ars_nouveau:fire_essence"
+    ],
+    "kubejs:golden_magic_feather",
+    "kubejs:fiery_magic_feather")
+
+    function Tokens(output,input,infusedGem,gem)
+    {
+        apparatus([
+            infusedGem,
+            gem,
+            gem,
+            gem,
+            gem,
+        ],
+        "naturesaura:token_"+input,
+        "naturesaura:token_"+output
+        )
+    }
+    Tokens("rage","anger","thermal:ruby","rubinated_nether:ruby")
+    Tokens("grief","sorrow","thermal:sapphire","kubejs:sapphire")
+    Tokens("terror","fear","kubejs:infused_emerald","emerald")
+    Tokens("euphoria","joy","kubejs:infused_amethyst","amethyst_shard")
+
 })

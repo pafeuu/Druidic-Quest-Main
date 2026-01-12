@@ -151,6 +151,35 @@ ServerEvents.recipes(event=>{
 		"block_in": {"tag": "forge:stripped_logs"}
 	  }).id("naturesaura:wood_stand")
 
+    event.custom({
+	  type: "lychee:block_interacting",
+	  post: [
+		{
+		  type: "hurt",
+		  damage: 1
+		},
+		{
+			type: "drop_item",
+			"contextual": [
+				{
+				type: "chance",
+				"chance": 0.4
+				}
+			],
+			item: "twigs:pebble",
+			"count": 1
+		},
+		{
+			type: "add_item_cooldown",
+			"s": 0.5
+	    }
+	  ],
+	  item_in: {
+		item: "minecraft:air"
+	  },
+	  block_in: "minecraft:stone"
+	})
+  
     /*function TallFlowers(flower)
     {
       event.custom({

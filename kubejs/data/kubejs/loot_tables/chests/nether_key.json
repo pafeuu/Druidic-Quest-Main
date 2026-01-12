@@ -5,10 +5,6 @@
         "rolls": 1,
         "entries": [
             {
-                "type": "empty",
-                "weight": 9
-            },
-            {
                 "type": "item",
                 "weight": 1,
                 "name": "irons_spellbooks:fireward_ring"
@@ -54,6 +50,11 @@
                 "type": "item",
                 "weight": 1,
                 "name": "kubejs:nutrition_charm"
+              },
+              {
+                "type": "item",
+                "weight": 1,
+                "name": "kubejs:bulking_ring"
               }
         ]
       },
@@ -256,7 +257,7 @@
           {
             "type": "item",
             "weight": 1,
-            "name": "archers_paradox:lightning_arrow",
+            "name": "kubejs:lightning_arrow",
             "functions": [
               {
                 "function": "set_count",

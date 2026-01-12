@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "forbidden_arcanus:xpetrified_ore"
+          "Name": "kubejs:experience_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",

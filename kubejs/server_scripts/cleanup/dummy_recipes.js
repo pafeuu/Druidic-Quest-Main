@@ -67,6 +67,9 @@ ServerEvents.recipes(event=>{
 	event.recipes.ars_nouveau.imbuement("kubejs:recipe_changed","kubejs:recipe_changed",100,[]).id("ars_nouveau:imbuement_earth_essence")
 	event.recipes.ars_nouveau.imbuement("kubejs:recipe_changed","kubejs:recipe_changed",100,[]).id("ars_nouveau:imbuement_fire_essence")
 	event.recipes.ars_nouveau.imbuement("kubejs:recipe_changed","kubejs:recipe_changed",100,[]).id("ars_nouveau:imbuement_water_essence")
+    event.recipes.ars_nouveau.imbuement("kubejs:recipe_changed","kubejs:recipe_changed",100,[]).id("ars_nouveau:imbuement_manipulation_essence")
+    event.recipes.ars_nouveau.imbuement("kubejs:recipe_changed","kubejs:recipe_changed",100,[]).id("ars_nouveau:imbuement_abjuration_essence")
+    event.recipes.ars_nouveau.imbuement("kubejs:recipe_changed","kubejs:recipe_changed",100,[]).id("ars_nouveau:imbuement_conjuration_essence")
 
     event.shaped('kubejs:recipe_changed',["R"],{R:"kubejs:recipe_changed"}).id('ars_nouveau:rotating_spell_turret')
     event.recipes.ars_nouveau.enchanting_apparatus("kubejs:recipe_changed","kubejs:recipe_changed",'kubejs:recipe_changed').id('ars_nouveau:spell_turret')
@@ -79,5 +82,11 @@ ServerEvents.recipes(event=>{
 
     event.shaped("kubejs:recipe_changed",["   "," X ","   "],{X:"kubejs:recipe_changed"}).id("ars_nouveau:apprentice_spell_book_upgrade")
     event.shaped("kubejs:recipe_changed",["   "," X ","   "],{X:"kubejs:recipe_changed"}).id("ars_nouveau:enchanting_apparatus")
+
+    let tokens = ["terror","euphoria","rage","grief"]
+    tokens.forEach(id=>{
+      event.recipes.naturesaura.offering("kubejs:recipe_changed","kubejs:recipe_changed","kubejs:recipe_changed").id("naturesaura:offering/token_"+id)  
+    })
+    
     
 })

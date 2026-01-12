@@ -56,6 +56,7 @@ MoreJSEvents.wandererTrades(event=>{
 	event.removeVanillaTrades(2);
 
 	event.removeModdedTrades(1);
+	event.removeModdedTrades(2);
 	event.removeVanillaTrades(1);
 	
 })
@@ -295,10 +296,10 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("fletcher", 2, "5x thermal:gold_coin",Item.of('minecraft:bow', '{AttributeModifiers:[{Amount:-0.3d,AttributeName:"attributeslib:draw_speed",Name:"1723313469117",Slot:"mainhand",UUID:[I;-124710,43912,20421,-87824]},{Amount:1,AttributeName:"attributeslib:arrow_damage",Name:"1723313469117",Slot:"mainhand",UUID:[I;-124710,44212,20421,-88424]},{Amount:1,AttributeName:"attributeslib:arrow_velocity",Name:"1723313469117",Slot:"mainhand",UUID:[I;-124710,44512,20421,-89024]}],Damage:0,display:{Name:\'["",{"text":"Long Bow","italic":false,"color":"dark_green"}]\'}}').enchant('mending', 1));
 
 	event.addTrade("fletcher", 3, "3x thermal:gold_coin","supplementaries:quiver" );
-	event.addTrade("fletcher", 3, "2x thermal:gold_coin",'64x archers_paradox:quartz_arrow');
+	event.addTrade("fletcher", 3, "2x thermal:gold_coin",'tide:deep_aqua_arrow');
 
-	event.addTrade("fletcher", 4, "3x thermal:gold_coin","64x archers_paradox:lightning_arrow");
-	event.addTrade("fletcher", 4, "3x thermal:gold_coin","64x archers_paradox:phantasmal_arrow");
+	event.addTrade("fletcher", 4, "3x thermal:gold_coin","64x kubejs:lightning_arrow");
+	event.addTrade("fletcher", 4, "3x thermal:gold_coin","64x kubejs:explosive_arrow");
 
 	event.addTrade("fletcher", 5, "2x thermal:netherite_coin",Item.of('minecraft:bow', '{AttributeModifiers:[{Amount:-0.3d,AttributeName:"attributeslib:draw_speed",Name:"1723313469117",Slot:"mainhand",UUID:[I;-124710,43912,20421,-87824]},{Amount:1,AttributeName:"attributeslib:arrow_damage",Name:"1723313469117",Slot:"mainhand",UUID:[I;-124710,44212,20421,-88424]},{Amount:1,AttributeName:"attributeslib:arrow_velocity",Name:"1723313469117",Slot:"mainhand",UUID:[I;-124710,44512,20421,-89024]}],Unbreakable:1,display:{Name:\'["",{"text":"Reinforced Long Bow","italic":false,"color":"dark_green"}]\'}}'));
 	
@@ -375,8 +376,35 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("biomeswevegone:forager",4,"1x thermal:gold_coin","6x farmersdelight:organic_compost")
 
 	event.addTrade("biomeswevegone:forager",5,"3x thermal:enderium_coin","kubejs:mycelial_hoe")
-	event.addTrade("biomeswevegone:forager",5,"1x thermal:gold_coin","forbidden_arcanus:rune")
+	event.addTrade("biomeswevegone:forager",5,"4x thermal:netherite_coin",Item.of("kubejs:grafter","{Unbreakable:1}"))
 
+
+	//===================================================Engineer
+
+	event.addTrade("immersiveengineering:engineer",1,"thermal:silver_coin","8x redstone")
+	event.addTrade("immersiveengineering:engineer",1,"2x thermal:silver_coin","woodenhopper:wooden_hopper")
+
+	//====================================================Machinist
+	event.addTrade("immersiveengineering:machinist",1,["6x thermal:silver_coin","3x thermal:coal_coke"],"furnace")
+	event.addTrade("immersiveengineering:machinist",1,["4x thermal:silver_coin"],"dispenser")
+
+	//====================================================Gunsmith
+
+	event.addTrade("immersiveengineering:gunsmith",1,"20x immersiveengineering:empty_casing","2x thermal:copper_coin")
+	event.addTrade("immersiveengineering:gunsmith",1,"12x gunpowder","2x thermal:copper_coin")
+
+	event.addTrade("immersiveengineering:gunsmith",2,"6x thermal:gold_coin","immersiveengineering:revolver").villagerExperience(75);
+	event.addTrade("immersiveengineering:gunsmith",2,"1x thermal:gold_coin","immersiveengineering:toolupgrade_revolver_bayonet").villagerExperience(75);
+
+	event.addTrade("immersiveengineering:gunsmith",3,"1x thermal:netherite_coin","immersiveengineering:toolupgrade_revolver_magazine").villagerExperience(150);
+	event.addTrade("immersiveengineering:gunsmith",3,"1x thermal:netherite_coin","immersiveengineering:toolupgrade_revolver_electro").villagerExperience(150);
+
+	event.addTrade("immersiveengineering:gunsmith",4,"2x thermal:netherite_coin","immersiveengineering:speedloader").villagerExperience(300);
+	event.addTrade("immersiveengineering:gunsmith",4,"2x thermal:silver_coin","24x immersiveengineering:silver").villagerExperience(300);
+
+	event.addTrade("immersiveengineering:gunsmith",5,"4x thermal:silver_coin","24x immersiveengineering:he")
+	event.addTrade("immersiveengineering:gunsmith",5,"6x thermal:silver_coin","24x immersiveengineering:homing")
+	
 	/*
 	event.addTrade("immersiveengineering:electrician")
 	event.addTrade("immersiveengineering:engineer")

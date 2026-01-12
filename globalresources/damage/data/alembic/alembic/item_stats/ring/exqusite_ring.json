@@ -7,6 +7,17 @@
         "value": -3,
         "operation": "ADDITION",
         "uuid": "e2ba06b5-f08d-4b7d-9dd1-b290205ebb1a"
+      },
+      {
+        "type": "append",
+        "attribute": "puffish_attributes:fortune",
+        "value": 0.1,
+        "operation": "ADDITION",
+        "uuid": "e2ba3315-f08d-4b4d-9dd1-b290205ebb1a"
+      },
+      {
+      "type": "remove",
+      "target": "minecraft:generic.luck"
       }
     ],
     "equipment_slot": "ring"

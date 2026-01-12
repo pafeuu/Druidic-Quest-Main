@@ -109,6 +109,12 @@ ServerEvents.recipes(event => {
 		  )
 	}
 
+	SimpleArmor("#forge:plates/uranium",
+		"kubejs:uranium_helmet",
+		"kubejs:uranium_chestplate",
+		"kubejs:uranium_leggings",
+		"kubejs:uranium_boots",
+	)
 	SimpleArmor("#forge:cactus",
 		"kubejs:cactus_helmet",
 		"kubejs:cactus_chestplate",

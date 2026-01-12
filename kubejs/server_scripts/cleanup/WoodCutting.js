@@ -1,4 +1,4 @@
-ItemEvents.rightClicked('kubejs:primitive_saw', event => {
+ItemEvents.rightClicked(['kubejs:primitive_saw',"kubejs:basic_saw"], event => {
     
     const player = event.player;
     const server = event.server;
@@ -15,6 +15,7 @@ ItemEvents.rightClicked('kubejs:primitive_saw', event => {
 
 				server.runCommandSilent(`/execute at ${player.username} run playsound sawmill:ui.sawmill.take_result player ${player.username}`);
                 player.addItemCooldown("kubejs:primitive_saw",5)
+				player.addItemCooldown("kubejs:basic_saw",5)
                 event.cancel()     
             }
     }
@@ -31,6 +32,7 @@ ItemEvents.rightClicked('kubejs:primitive_saw', event => {
 
 				server.runCommandSilent(`/execute at ${player.username} run playsound sawmill:ui.sawmill.take_result player ${player.username}`);
                 player.addItemCooldown("kubejs:primitive_saw",5)
+				player.addItemCooldown("kubejs:basic_saw",5)
                 event.cancel()     
             }
 

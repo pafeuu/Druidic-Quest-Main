@@ -1,0 +1,17 @@
+{
+  "type": "twilightforest:fallen_small_log",
+  "config": {
+    "hollow": {
+      "Name": "quark:hollow_spruce_log",
+      "Properties": {
+        "axis": "x"
+      }
+    },
+    "normal": {
+      "Name": "minecraft:spruce_log",
+      "Properties": {
+        "axis": "y"
+      }
+    }
+  }
+}

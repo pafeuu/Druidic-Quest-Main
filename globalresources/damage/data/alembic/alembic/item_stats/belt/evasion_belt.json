@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:evasion_belt",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "attributeslib:dodge_chance",
+      "value": 0.1,
+      "operation": "ADDITION",
+      "uuid": "68da98ef-b1e2-437b-a582-5bce6722ffba"
+    }
+  ],
+  "equipment_slot": "belt"
+}

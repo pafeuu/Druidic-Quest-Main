@@ -400,6 +400,10 @@ StartupEvents.registry('item', item => {
   item.create("gravity_boots_cover").tag("curios:feet").unstackable()
   item.create("sturdy_boots_cover").tag("curios:feet").unstackable()
 
+  //===================================================HEAD====================================================
+
+  item.create("star_monocle").displayName("Monocle of the Stars").unstackable().tag("dq:tier1/accessories").tag("curios:head")
+
   ///===================================================CHARMS======================================================
   
   function charm(id,tier)
@@ -492,7 +496,7 @@ StartupEvents.registry('item', item => {
   item.create('flint_spear','sword').tier('wood').tag("forge:tools/flint").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon").maxDamage(128)
   item.create('stone_claymore','sword').tier('stone').tag('minecraft:swords').tag("forge:tools/stone").tag('minecraft:tools').speedBaseline(-2.8).tag("dq:tier0/weapon").attackDamageBaseline(7).maxDamage(128)
   item.create('iron_scythe','sword').tier('iron').tag("forge:tools/iron").tag("minecraft:tools").tag("dq:tier1/weapon").speedBaseline(-2.8).attackDamageBaseline(7).maxDamage(512)
-  item.create('phoenix_sword','sword').tier('phoenix').tag('minecraft:sword').tag("forge:tools/phoenix").tag("minecraft:tools").tag("dq:tier3/weapon")
+  item.create('phoenix_sword','sword').tier('phoenix').tag('minecraft:sword').tag("forge:tools/phoenix").tag("minecraft:tools").tag("dq:tier3/weapon").tag("minecraft:swords")
 
   item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("dq:tier1/weapon").tag("dq:tier1/tool")
   item.create('fiery_magic_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("dq:tier2/weapon").tag("dq:tier2/tool")
@@ -503,12 +507,12 @@ StartupEvents.registry('item', item => {
   item.create('copper_sword','sword').tier('copper').tag("minecraft:tools").tag("dq:tier1/weapon").tag("forge:tools/copper")
   item.create('copper_axe','axe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool").tag("forge:tools/copper")
   item.create('copper_shovel','shovel').tier('copper').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool").tag("forge:tools/copper")
-  item.create('copper_hoe','hoe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool").tag("forge:tools/copper")
+  item.create('copper_hoe','hoe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool").tag("forge:tools/copper").tag("minecraft:hoes")
   item.create('copper_trident','sword').tier('copper').tag("forge:tools/copper").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier1/weapon")
 
-  item.create('bronze_pickaxe','pickaxe').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool").tag("forge:tools/bronze")
-  item.create('bronze_shovel','shovel').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool").tag("forge:tools/bronze")
-  item.create('bronze_hoe','hoe').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool").tag("forge:tools/bronze")
+  item.create('bronze_pickaxe','pickaxe').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool").tag("forge:tools/bronze").tag("minecraft:pickaxes")
+  item.create('bronze_shovel','shovel').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool").tag("forge:tools/bronze").tag("minecraft:shovels")
+  item.create('bronze_hoe','hoe').tier('bronze').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool").tag("forge:tools/bronze").tag("minecraft:hoes")
 
   item.create('lead_pickaxe','pickaxe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool").tag("forge:tools/lead")
   item.create('lead_sword','sword').tier('lead').tag("minecraft:tools").tag("dq:tier1/weapon").tag("forge:tools/lead")
@@ -525,11 +529,11 @@ StartupEvents.registry('item', item => {
   item.create('silver_hoe','hoe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool").tag("forge:tools/silver")
   item.create("silver_katana","sword").tier('silver').tag("minecraft:tools").tag("dq:tier1/weapon").tag("dq:tier1/tool").speedBaseline(-2.2).tag('forge:tools/silver')
 
-  item.create('uranium_pickaxe','pickaxe').tier('uranium').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool").tag("forge:tools/uranium")
-  item.create('uranium_sword','sword').tier('uranium').tag("minecraft:tools").tag("dq:tier1/weapon").tag("forge:tools/uranium")
-  item.create('uranium_axe','axe').tier('uranium').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool").tag("forge:tools/uranium")
-  item.create('uranium_shovel','shovel').tier('uranium').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool").tag("forge:tools/uranium")
-  item.create('uranium_hoe','hoe').tier('uranium').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool").tag("forge:tools/uranium")
+  item.create('uranium_pickaxe','pickaxe').tier('uranium').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool").tag("forge:tools/uranium").tag("minecraft:pickaxes")
+  item.create('uranium_sword','sword').tier('uranium').tag("minecraft:tools").tag("dq:tier1/weapon").tag("forge:tools/uranium").tag("minecraft:swords")
+  item.create('uranium_axe','axe').tier('uranium').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool").tag("forge:tools/uranium").tag("minecraft:axes")
+  item.create('uranium_shovel','shovel').tier('uranium').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool").tag("forge:tools/uranium").tag("minecraft:shovels")
+  item.create('uranium_hoe','hoe').tier('uranium').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool").tag("forge:tools/uranium").tag("minecraft:hoes")
 
   item.createCustom('primitive_mining_hammer',() => new $HammerItem('primitive', new $ItemProperties()))
   item.createCustom('basic_mining_hammer',() => new $HammerItem('basic', new $ItemProperties()))
@@ -565,6 +569,7 @@ StartupEvents.registry('item', item => {
   item.create('primitive_mortar').maxDamage(16).unstackable().tag("forge:tools/mortars").tag("dq:tier0/tool")
   item.create('basic_mortar').maxDamage(64).tag("forge:tools/mortars").tag("dq:tier1/tool").unstackable()
   item.create('primitive_saw').maxDamage(64).unstackable().tag("forge:tools/saws").tag("dq:tier0/tool")
+  item.create('basic_saw').maxDamage(512).unstackable().tag("forge:tools/saws").tag("dq:tier1/tool")
 
   item.create('primitive_chisel').maxDamage(16).unstackable().tag("forge:tools/chisels").tag("dq:tier0/tool").tag("forge:tools")
   item.create('basic_chisel').maxDamage(128).tag("forge:tools/chisels").tag("dq:tier2/tool").unstackable().tag("forge:tools")
@@ -638,9 +643,24 @@ StartupEvents.registry('item', item => {
   item.create("charcoal_chunk").burnTime(200)
   item.create("coke_chunk").burnTime(400).displayName("Coal Coke Chunk")
 
-  ///===================================================MISC===========================================================
-
+  ///====================================================Crystalized Ore ==============================================
   
+  //const metalOres = ["iron","gold","tin","copper","nickel","bauxite","uranium","zinc","lead","silver"]
+  function crystalizedOre(material,color)
+  {
+    item.create(`crystalized_${material}_ore`).texture("kubejs:item/crystalized_ore").color(0,color).tag(`forge:crystalized_ores/${material}`)
+  }
+  crystalizedOre("copper",0xc15a36)
+  crystalizedOre("gold",0xfad64a)
+  crystalizedOre("iron",0xe9c8b1)
+  crystalizedOre("lead",0x2f3061)
+  crystalizedOre("silver",0x4d5c6a)
+  crystalizedOre("nickel",0xc7b784)
+  crystalizedOre("tin",0xa1c6c2)
+  crystalizedOre("aluminum",0x7b5848)
+  crystalizedOre("uranium",0x5c6951)
+  crystalizedOre("zinc",0xb9e9c1)
+  ///===================================================MISC===========================================================
   item.create("elemental_cloth").tag("dq:tier3/component")
   item.create("corrupted_soul").tag("dq:tier1/component")
   item.create("enchanted_soul").tag("dq:tier1/component")

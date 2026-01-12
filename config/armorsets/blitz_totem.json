@@ -1,0 +1,23 @@
+{
+  "armorSetName": "blitz_totem",
+  "performanceMode": false,
+  "offHand": {
+    "itemKey": "kubejs:blitz_totem"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 100,
+      "conditions": [
+        {
+          "type": "inRain"
+        }
+      ]
+      
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

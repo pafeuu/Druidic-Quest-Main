@@ -41,6 +41,7 @@ ItemEvents.tooltip( tooltip => {
 
   tooltip.add("kubejs:sapphire",Text.gray("Texture by JuniDeerGirl"))
 
+  tooltip.add("kubejs:fiery_clay_blend",Text.red("Requires Infernal Smelter multiblock with a Soul Core to be smelted"))
   tooltip.add(["kubejs:bear_totem",
                "kubejs:crab_totem",
                "kubejs:frog_totem",
@@ -56,7 +57,15 @@ ItemEvents.tooltip( tooltip => {
                'kubejs:cactus_boots',
                'kubejs:cactus_leggings',
                'kubejs:cactus_helmet',
-               'kubejs:cactus_chestplate'
+               'kubejs:cactus_chestplate',
+               'kubejs:uranium_boots',
+               'kubejs:uranium_leggings',
+               'kubejs:uranium_helmet',
+               'kubejs:uranium_chestplate',
+               "kubejs:blizz_totem",
+               "kubejs:blaze_totem",
+               "kubejs:basalz_totem",
+               "kubejs:blitz_totem"
   ],Text.gray("Texture by Gyldanword"))
 
   tooltip.add(["kubejs:arcane_alloy_ingot",
@@ -475,16 +484,21 @@ ItemEvents.tooltip( tooltip => {
     "constructionwand:iron_wand",
     "constructionwand:diamond_wand",
     "constructionwand:infinity_wand",
-    "kubejs:mycelial_hoe"],
+    "kubejs:mycelial_hoe",
+    "aether:flaming_sword",
+    "ancient_aether:ancient_sword",
+    "aether:holy_sword",
+    "aether:lightning_sword"],
     (item, advanced, text) => {
     text.add(1, Text.of("Unbreakable").blue())
     })
   
   
   tooltip.addAdvanced('kubejs:capturing_gem', (item, advanced, text) => {
-    const entity = item.nbt.get("entity")
+    
     if(item.nbt.get("captured")==true)
     {
+      const entity = item.nbt.get("entity")
       text.add(
             Text.of("Captured: ").blue()
             .append(Text.of(entity).red())

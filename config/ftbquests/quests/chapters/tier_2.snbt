@@ -1346,25 +1346,6 @@
 		}
 		{
 			dependencies: ["67D119691018BD6C"]
-			description: ["Place the &2Armorer's Aid&r on top of a blast furnace for a 45% chance to double the output from raw ores!"]
-			id: "0CA987424784F703"
-			rewards: [{
-				count: 4
-				id: "7791FDF87D91672D"
-				item: "naturesaura:infused_iron"
-				type: "item"
-			}]
-			subtitle: "Better Ore Processing"
-			tasks: [{
-				id: "15EAE65347049E34"
-				item: "naturesaura:blast_furnace_booster"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 15.0d
-		}
-		{
-			dependencies: ["67D119691018BD6C"]
 			description: ["The &2Aura Generator BLock&r is a necessary component of higher-tier Aura generation."]
 			id: "189E5234B18E0B30"
 			rewards: [{
@@ -1379,7 +1360,7 @@
 				item: "kubejs:aura_generator_block"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 15.0d
 		}
 		{
@@ -1413,8 +1394,8 @@
 				item: "enigmaticlegacy:angel_blessing"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 15.0d
+			x: 7.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6237607319FF7E53"]
@@ -1431,7 +1412,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 14.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["6237607319FF7E53"]
@@ -1447,8 +1428,8 @@
 				item: "enigmaticlegacy:ocean_stone"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 14.0d
+			x: 7.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["6237607319FF7E53"]
@@ -1464,7 +1445,34 @@
 				item: "enigmaticlegacy:golem_heart"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["38ADADE5E8F17847"]
+			icon: "mbd2:infernal_smelter"
+			id: "5B063A590937C1F0"
+			rewards: [{
+				count: 4
+				id: "73050A4EC03620AB"
+				item: "kubejs:fire_element_fluid_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7EBB97CBACF64757"
+					item: "mbd2:infernal_smelter"
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "1F720CB16FE37B5F"
+					item: { Count: 26, id: "kubejs:infernal_bricks" }
+					type: "item"
+				}
+			]
+			title: "Magical Ore Doubling"
+			x: 1.5d
 			y: 15.0d
 		}
 	]

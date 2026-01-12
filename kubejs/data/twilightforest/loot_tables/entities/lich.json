@@ -61,13 +61,13 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 30.0,
-                "min": 20.0
+                "max": 10.0,
+                "min": 5.0
               },
               "treasure": false
             }
           ],
-          "name": "forbidden_arcanus:mortem_helmet"
+          "name": "kubejs:silver_helmet"
         },
         {
           "type": "minecraft:item",
@@ -76,13 +76,13 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 30.0,
-                "min": 20.0
+                "max": 10.0,
+                "min": 5.0
               },
               "treasure": false
             }
           ],
-          "name": "forbidden_arcanus:mortem_chestplate"
+          "name": "kubejs:silver_chestplate"
         },
         {
           "type": "minecraft:item",
@@ -91,13 +91,13 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 30.0,
-                "min": 20.0
+                "max": 10.0,
+                "min": 5.0
               },
               "treasure": false
             }
           ],
-          "name": "forbidden_arcanus:mortem_leggings"
+          "name": "kubejs:silver_leggings"
         },
         {
           "type": "minecraft:item",
@@ -106,13 +106,13 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 30.0,
-                "min": 20.0
+                "max": 10.0,
+                "min": 5.0
               },
               "treasure": false
             }
           ],
-          "name": "forbidden_arcanus:mortem_boots"
+          "name": "kubejs:silver_boots"
         }
       ],
       "rolls": {
@@ -174,7 +174,7 @@
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "forbidden_arcanus:corrupt_soul"
+          "name": "kubejs:corrupted_soul"
         }
       ],
       "rolls": 1.0
@@ -203,7 +203,7 @@
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "forbidden_arcanus:soul"
+          "name": "quark:soul_bead"
         }
       ],
       "rolls": 1.0

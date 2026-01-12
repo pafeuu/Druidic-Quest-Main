@@ -10,6 +10,24 @@ ServerEvents.tags("item",e=>{
     'kubejs:sacrificial_dagger',
   ])
 
+  e.add("minecraft:flowers/roses",[
+    'twilightforest:thorn_rose',
+    'biomeswevegone:rose',
+    'biomeswevegone:osiria_rose',
+    'biomeswevegone:black_rose',
+    'biomeswevegone:cyan_rose',
+    'biomeswevegone:blue_rose_bush',
+    'biomeswevegone:winter_rose',
+    'ancient_aether:sunset_rose',
+    'minecraft:rose_bush',
+    'minecraft:wither_rose',
+    'naturesaura:end_flower'])
+
+  e.add("minecraft:flowers/orchid",[
+    'minecraft:blue_orchid',
+    'deep_aether:radiant_orchid',
+    'biomeswevegone:japanese_orchid'])
+    
   e.add("forge:jams",[
     'fruitsdelight:pear_jelly',
     'fruitsdelight:hawberry_jelly',
@@ -414,4 +432,173 @@ ServerEvents.tags("item",e=>{
     "deep_aether:stratus_hoe",
     "ancient_aether:valkyrum_hoe",
     "ancient_aether:divine_hoe",])
+
+    let pipeModules = []
+
+    let backpackUpgrades = []
+
+    let storageUpgrades = []
+
+    let glassBlocks = []
+
+    let glassPanes = []
+    
+    let jamBlocks = []
+
+    let jellyBlocks = []
+
+    let smithingTemplates = []
+
+    let enchantingRunes = []
+
+    let leafPiles = []
+
+    let coral = []
+
+    let smokingPipes = []
+
+    let saltTorches = []
+
+    let saltCampfires = []
+
+    let saltLanterns = []
+
+    let glyphs = ['ars_nouveau:burst', 'ars_nouveau:reset', 'ars_nouveau:rewind', 'ars_nouveau:wololo']
+
+    let bars = ['minecraft:iron_bars', 'supplementaries:iron_gate', 'immersive_weathering:exposed_iron_bars', 'immersive_weathering:weathered_iron_bars', 'immersive_weathering:rusted_iron_bars', 'immersive_weathering:waxed_iron_bars', 'immersive_weathering:waxed_exposed_iron_bars', 'immersive_weathering:waxed_weathered_iron_bars', 'immersive_weathering:waxed_rusted_iron_bars', 'quark:gold_bars', 'supplementaries:gold_gate', 'create:andesite_bars', 'create:brass_bars', 'create:copper_bars']
+
+    Ingredient.all.itemIds.forEach(id => 
+      { 
+        if(id.endsWith("leaf_pile")) 
+          { 
+            leafPiles.push(id); 
+          }
+        if(id.includes("coral")) 
+          { 
+            coral.push(id); 
+          }
+        if(id.includes("glyph"))
+          {
+            glyphs.push(id)
+          }
+        if(id.includes("enchanting_rune"))
+          {
+            enchantingRunes.push(id)
+          }
+        if(id.includes("smithing_template"))
+          {
+            smithingTemplates.push(id)
+          }
+        if(id.includes("jello_block"))
+          {
+            jellyBlocks.push(id)
+          }
+        if(id.includes("jelly_block"))
+          {
+            jamBlocks.push(id)
+          }
+        if(id.includes("smoking_pipe"))
+          {
+            smokingPipes.push(id)
+          }
+        if(id.includes("salt_campfire"))
+          {
+            saltCampfires.push(id)
+          }
+        if(id.includes("salt_lanter"))
+          {
+            saltLanterns.push(id)
+          }
+        if(id.includes("salt_torch"))
+          {
+            saltTorches.push(id)
+          }
+        if(id.includes("prettypipes") && id.includes("module"))
+          {
+            pipeModules.push(id)
+          }
+        if(id.includes("upgrade"))
+          {
+            if(id.includes("sophisticatedbackpacks"))
+              backpackUpgrades.push(id)
+            else if(id.includes("sophisticatedstorage"))
+              storageUpgrades.push(id)
+          }
+        if(id.includes("window"))
+          {
+            if(id.includes("window_pane"))
+            {
+              glassPanes.push(id)
+            }
+            else
+            {
+              if(id=="thermal:fluid_duct_windowed")
+                return;
+              glassBlocks.push(id)
+            }
+          }
+      }
+      
+    );
+
+    
+    
+    e.add("c:glass_blocks",glassBlocks)
+    
+    e.add("c:glass_panes",glassPanes)
+    
+    e.add("c:bars",bars)
+
+    e.add("c:leaf_piles",leafPiles)
+      
+    e.add("c:glyphs",glyphs)
+      
+    e.add("c:storage_upgrades",storageUpgrades)
+   
+    e.add("c:backpack_upgrades",backpackUpgrades)
+    
+    e.add("c:coral",coral)
+
+    e.add("c:enchanting_runes",enchantingRunes)
+
+    e.add("c:smithing_templates",smithingTemplates)
+
+    e.add("c:jam_blocks",jamBlocks)
+      
+    e.add("c:jelly_blocks",jellyBlocks)
+
+    e.add("c:pipe_modules",pipeModules)
+
+    e.add("c:smoking_pipes",smokingPipes)
+
+    e.add("c:salt_torches",saltTorches)
+
+    e.add("c:salt_lanters",saltLanterns)
+
+    e.add("c:salt_campfires",saltCampfires)
+
+    e.add("c:molds",['immersiveengineering:mold_plate', 'immersiveengineering:mold_gear', 'immersiveengineering:mold_rod', 'immersiveengineering:mold_bullet_casing', 'immersiveengineering:mold_wire', 'immersiveengineering:mold_packing_4', 'immersiveengineering:mold_packing_9', 'immersiveengineering:mold_unpacking'])
+
+    e.add("c:gun_ammo",['immersiveengineering:wolfpack', 'immersiveengineering:homing', 'immersiveengineering:firework', 'immersiveengineering:flare', 'immersiveengineering:potion', 'immersiveengineering:dragons_breath', 'immersiveengineering:silver', 'immersiveengineering:he', 'immersiveengineering:buckshot', 'immersiveengineering:casull', 'immersiveengineering:armor_piercing'])
+      
+    e.add("handcrafted:trophies",['handcrafted:phantom_trophy', 'mynethersdelight:hoglin_trophy', 'mynethersdelight:zoglin_trophy', 'mynethersdelight:skoglin_trophy', 'mynethersdelight:waxed_hoglin_trophy', 'lootr:trophy'])
+
+    e.add("farmersdelight:cabinets",['mynethersdelight:red_nether_bricks_cabinet', 'mynethersdelight:blackstone_bricks_cabinet', 'arsdelight:archwood_cabinet'])
+    
+    e.add("twilightforest:banisters",['umbral_skies:skyroot_banister', 'twilightforest:cherry_banister', 'twilightforest:bamboo_banister', 'twilightforest:vangrove_banister', 'twilightforest:warped_banister', 'twilightforest:crimson_banister', 'twilightforest:dark_oak_banister', 'twilightforest:acacia_banister', 'twilightforest:jungle_banister', 'twilightforest:birch_banister', 'twilightforest:spruce_banister', 'twilightforest:oak_banister', 'twilightforest:sorting_banister', 'twilightforest:mining_banister', 'twilightforest:transformation_banister', 'twilightforest:time_banister', 'twilightforest:dark_banister', 'twilightforest:mangrove_banister', 'twilightforest:canopy_banister', 'twilightforest:twilight_oak_banister'])
+
+    e.add("c:rituals",['ars_nouveau:ritual_burrowing', 'ars_nouveau:ritual_challenge', 'ars_nouveau:ritual_binding', 'ars_nouveau:ritual_awakening', 'ars_nouveau:ritual_disintegration', 'ars_nouveau:ritual_sunrise', 'ars_nouveau:ritual_cloudshaping', 'ars_nouveau:ritual_flight', 'ars_nouveau:ritual_conjure_island_plains', 'ars_nouveau:ritual_restoration', 'ars_nouveau:ritual_conjure_island_desert', 'ars_nouveau:ritual_overgrowth', 'ars_nouveau:ritual_fertility', 'ars_nouveau:ritual_sanctuary', 'ars_nouveau:ritual_flowering', 'ars_nouveau:ritual_gravity', 'ars_nouveau:ritual_scrying', 'ars_nouveau:ritual_containment', 'ars_nouveau:ritual_moonfall', 'ars_nouveau:ritual_warping', 'ars_nouveau:ritual_forestation', 'ars_nouveau:ritual_animal_summon', 'ars_nouveau:ritual_harvest', 'ars_nouveau:ritual_wilden_summon'])
+
+    e.add("c:thread_upgrades",['ars_nouveau:thread_spellpower', 'ars_nouveau:thread_high_step', 'ars_nouveau:thread_drygmy', 'ars_nouveau:thread_whirlisprig', 'ars_nouveau:thread_heights', 'ars_nouveau:thread_depths', 'ars_nouveau:thread_wixie', 'ars_nouveau:thread_kindling', 'ars_nouveau:thread_magic_capacity', 'ars_nouveau:thread_amethyst_golem', 'ars_nouveau:thread_immolation', 'ars_nouveau:thread_gliding', 'ars_nouveau:thread_warding', 'ars_nouveau:thread_feather', 'ars_nouveau:thread_undying', 'ars_nouveau:thread_chilling', 'ars_nouveau:thread_starbuncle', 'ars_nouveau:thread_life_drain', 'ars_nouveau:thread_repairing'])
+
+    e.add("c:wooden_pedestals",['wizards_reborn:cork_bamboo_pedestal', 'wizards_reborn:arcane_pedestal', 'silly_oddities:warped_pedestal', 'wizards_reborn:innocent_pedestal', 'silly_oddities:oak_pedestal', 'silly_oddities:crimson_pedestal', 'silly_oddities:bamboo_pedestal', 'silly_oddities:cherry_pedestal', 'silly_oddities:mangrove_pedestal', 'silly_oddities:dark_oak_pedestal', 'silly_oddities:acacia_pedestal', 'silly_oddities:jungle_pedestal', 'silly_oddities:birch_pedestal', 'silly_oddities:spruce_pedestal'])
+
+    e.add("c:copper_blocks",['silly_oddities:waxed_chiseled_copper', 'silly_oddities:waxed_exposed_chiseled_copper', 'silly_oddities:waxed_weathered_chiseled_copper', 'silly_oddities:waxed_oxidized_chiseled_copper', 'silly_oddities:copper_grate', 'silly_oddities:exposed_copper_grate', 'silly_oddities:weathered_copper_grate', 'silly_oddities:oxidized_copper_grate', 'silly_oddities:waxed_oxidized_copper_bulb', 'silly_oddities:waxed_weathered_copper_bulb', 'silly_oddities:waxed_exposed_copper_bulb', 'silly_oddities:waxed_copper_bulb', 'silly_oddities:oxidized_copper_bulb', 'silly_oddities:weathered_copper_bulb', 'silly_oddities:exposed_copper_bulb', 'silly_oddities:copper_bulb', 'silly_oddities:waxed_oxidized_copper_grate', 'silly_oddities:waxed_weathered_copper_grate', 'silly_oddities:waxed_exposed_copper_grate', 'silly_oddities:waxed_copper_grate','create:waxed_copper_shingles', 'create:waxed_exposed_copper_shingles', 'create:waxed_weathered_copper_shingles', 'create:waxed_oxidized_copper_shingles', 'create:waxed_copper_tiles', 'create:waxed_exposed_copper_tiles', 'create:waxed_weathered_copper_tiles', 'create:waxed_oxidized_copper_tiles', 'kubejs:charged_copper_block', 'silly_oddities:oxidized_chiseled_copper', 'silly_oddities:weathered_chiseled_copper', 'silly_oddities:exposed_chiseled_copper', 'silly_oddities:chiseled_copper', 'create:oxidized_copper_tiles','minecraft:waxed_exposed_cut_copper', 'minecraft:waxed_weathered_copper', 'minecraft:waxed_weathered_cut_copper', 'minecraft:waxed_oxidized_copper', 'minecraft:waxed_oxidized_cut_copper', 'create:copper_shingles', 'create:exposed_copper_shingles', 'create:weathered_copper_shingles', 'create:oxidized_copper_shingles', 'create:copper_tiles', 'create:exposed_copper_tiles', 'create:weathered_copper_tiles', 'minecraft:waxed_exposed_copper', 'minecraft:waxed_cut_copper', 'minecraft:waxed_copper_block', 'minecraft:oxidized_cut_copper', 'minecraft:oxidized_copper', 'minecraft:weathered_cut_copper', 'minecraft:weathered_copper', 'minecraft:exposed_cut_copper', 'minecraft:exposed_copper', 'minecraft:cut_copper', 'minecraft:copper_block'])
+
+    e.add("minecraft:chest_boats",['deep_aether:roseroot_chest_boat', 'deep_aether:yagroot_chest_boat', 'deep_aether:cruderoot_chest_boat', 'deep_aether:conberry_chest_boat', 'deep_aether:sunroot_chest_boat', 'wizards_reborn:cork_bamboo_chest_raft'])
+
+    e.add("minecraft:boats",['deep_aether:roseroot_boat', 'deep_aether:yagroot_boat', 'deep_aether:cruderoot_boat', 'deep_aether:conberry_boat', 'deep_aether:sunroot_boat', 'wizards_reborn:cork_bamboo_raft'])
+
+    e.add("c:bookshelves","twilightforest:canopy_bookshelf")
+
 })

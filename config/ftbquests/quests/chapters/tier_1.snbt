@@ -1043,8 +1043,8 @@
 				}
 			]
 			title: "First Fluid Transportation"
-			x: 12.0d
-			y: 1.5d
+			x: 11.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["19F860FA0B4324FB"]
@@ -1117,7 +1117,7 @@
 				type: "item"
 			}]
 			title: "Plate Automation"
-			x: 10.0d
+			x: 9.5d
 			y: 1.5d
 		}
 		{
@@ -1353,7 +1353,7 @@
 				item: "craftingstation:crafting_station"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 26.5d
 			y: 1.5d
 		}
 		{
@@ -1418,11 +1418,18 @@
 				type: "item"
 			}]
 			subtitle: "Embrace the grind!"
-			tasks: [{
-				id: "5427F01E0A5EF46D"
-				item: "create:millstone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5427F01E0A5EF46D"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "22815ED0751BEEA2"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
 			x: 21.5d
 			y: -1.5d
 		}
@@ -1463,6 +1470,73 @@
 			title: "The Fluffiest Elevator"
 			x: 7.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["5C199D8DE803D331"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 2
+					}
+				}
+				id: "immersiveengineering:skyhook"
+			}
+			id: "446FE3CE5EF63B99"
+			rewards: [{
+				count: 3
+				id: "12A918F060CF95F3"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "122A635B65AEFE2B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 2
+							}
+						}
+						id: "immersiveengineering:skyhook"
+					}
+					type: "item"
+				}
+				{
+					id: "50FDD786BEEF7E36"
+					item: "immersiveengineering:connector_structural"
+					type: "item"
+				}
+				{
+					id: "553B76D81EF073B5"
+					item: "immersiveengineering:wirecoil_structure_rope"
+					type: "item"
+				}
+			]
+			title: "Ziplines!"
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37E717454A7E8792"]
+			description: ["Placing Armorer's Aid on top of a Blast Furnace sometimes makes it output more ingots from smelting raw ore"]
+			id: "30A9922DBDA79150"
+			rewards: [{
+				count: 8
+				id: "1C4C324704F438AD"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "366D19633BA5391C"
+				item: "naturesaura:blast_furnace_booster"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 1.5d
 		}
 	]
 	title: "Tier 1 - Basic Magic"

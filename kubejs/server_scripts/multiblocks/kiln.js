@@ -166,5 +166,38 @@ ServerEvents.recipes(event=>{
 		"netherite_scrap",4
 	)
 	
+	function kiln2(output,input1,input2)
+	{
+		event.recipes.mbd2.alloying()
+		.inputItems(input1)
+		.inputItems(input2)
+		.outputItems(output)
+	}
+
+	function kiln3(output,input1,input2,input3)
+	{
+		event.recipes.mbd2.alloying()
+		.inputItems(input1)
+		.inputItems(input2)
+		.inputItems(input3)
+		.outputItems(output)
+	}
+
+	kiln3("wizards_reborn:arcane_gold_ingot",
+		"naturesaura:tainted_gold",
+		"4x ars_nouveau:abjuration_essence",
+		"thermal:cinnabar")
+		
+	kiln3("wizards_reborn:arcane_gold_ingot",
+		"naturesaura:tainted_gold",
+		"2x ars_nouveau:abjuration_essence",
+		"rubinated_nether:ruby")
+
+	kiln3("2x wizards_reborn:arcane_gold_ingot",
+		"2x naturesaura:tainted_gold",
+		"2x ars_nouveau:abjuration_essence",
+		"thermal:ruby")
+
+	
 
 })

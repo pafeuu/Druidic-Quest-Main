@@ -1697,6 +1697,19 @@
 			x: -2.5d
 			y: -4.0d
 		}
+		{
+			dependencies: ["36E8803252843028"]
+			description: ["Not great but once you find some infused gems you can upgrade it!"]
+			id: "756DE0A4B031F8AB"
+			tasks: [{
+				id: "38FE560740B37DE8"
+				item: "rehooked:wood_hook"
+				type: "item"
+			}]
+			title: "Primitive Grappling Hook"
+			x: 12.0d
+			y: 6.0d
+		}
 	]
 	title: "Tier 0 - Wooden Age"
 }

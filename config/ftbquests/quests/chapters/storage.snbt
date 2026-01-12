@@ -11,6 +11,7 @@
 		{
 			dependencies: ["4138D0D9B6F11604"]
 			description: ["&4&owork in progress&r&r"]
+			hide_until_deps_complete: true
 			icon: "minecraft:magma_block"
 			id: "1CBDCC784C114148"
 			tasks: [{

@@ -252,9 +252,6 @@
 		[entries.wood_type.farmersdelight]
 			cabinet = true
 
-		[entries.wood_type.twigs]
-			table = true
-
 		[entries.wood_type.create]
 			window_pane = true
 			window = true
@@ -278,6 +275,9 @@
 
 		[entries.wood_type.sob]
 			counter = true
+
+		[entries.wood_type.twigs]
+			table = false
 
 	[entries.leaves_type]
 

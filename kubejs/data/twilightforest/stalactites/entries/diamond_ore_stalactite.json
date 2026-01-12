@@ -2,11 +2,11 @@
   "blocks": [
     {
       "block": "thermal:silver_ore",
-      "weight": 20
+      "weight": 10
     },
     {
-      "block": "forbidden_arcanus:stella_arcanum",
-      "weight": 1
+      "block": "gold_ore",
+      "weight": 10
     }
   ],
   "max_length": 4,

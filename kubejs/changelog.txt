@@ -3440,17 +3440,16 @@ Patch 0.3.2.1
 ### Other:
     -Lightning Strikes now convert blocks in bigger area(works for stuff like stone->magma block conversion)
 
-# Patch 4.0 
+# Patch 4.0Beta
 
 ### Updated Mods:
-        -AdvancedLootInfo
+    -AdvancedLootInfo
     -Amendments
     -Balm
     -BetterCombat
     -BigBrain
     -ChatHeads
     -Create:Copycats+
-    -Create:VintageImprovements
     -DarkModeEverywhere
     -DrippyLoadingScreen
     -EccentricTome
@@ -3468,8 +3467,8 @@ Patch 0.3.2.1
     -Kiwi
     -KubejsNaturesAura
     -Lootr
-        -LdLib
-        -Multiblocked2
+    -LdLib
+    -Multiblocked2
     -MEED
     -ModernFix
     -MoonlightLib
@@ -3490,14 +3489,12 @@ Patch 0.3.2.1
     -ForbiddenArcanus
     -ValhelsiaCore
     -ArchersParadox
-    -Twigs
 
 ### New Mods:
     -Rehooked
     -Platform
     -VanillaBackport
     -Horseman
-    -EMI++Backport
     -NaturesAuraRenderFix
 
 ### New Items:
@@ -3526,6 +3523,8 @@ Patch 0.3.2.1
     -Belt of Evasion
     -Infernal Smelter
     -Infernal Bricks
+    -Soul Core
+    -Bulking Ring
 
 ### Removed Items:
     -Sulfuric Quartz Blend
@@ -3536,6 +3535,8 @@ Patch 0.3.2.1
     -PB & J
     -Broken Spawner
     -TwilightForest FallenLogs Variants
+    -Thermal Dynamos
+    -VintageImprovements Springs
 
 ### Item Balance:
     -Buffed the durability of most gloves
@@ -3550,6 +3551,7 @@ Patch 0.3.2.1
     -Rare Aether swords are now unbreakable
     -Engineer's hammer now take durability when rotating things
     -Buffed the durability of a wrench
+    -Arcane wood tools no longer give negative reach
 
 ### Recipes:
     -Changed for Enchanting Apparatus
@@ -3611,6 +3613,28 @@ Patch 0.3.2.1
     -Changed for Ruby Laser
     -Changed for Basic Mortar
     -Changed for Crescent Hammer
+    -Changed for Gravity Boots Cover
+    -Changed for Engineer's Skyhook
+    -Changed for Structural Cable Connector
+    -Changed for Cinder Dough
+    -Changed for Veggie Pizza
+    -Changed for Meat Pizza
+    -Added to the Altar of birthing for:
+        -Moose
+        -Warped Toad
+        -Komodo Dragon
+        -Roadrunner
+        -Cave Centipede
+        -Bone Serpent
+        -Fly
+        -Crimson Mosquito
+        -Jerboa
+        -Skelewag
+        -Skunk
+        -Comb Jelly
+        -Soul Vulture
+        -Tarantula Hawk
+        -Froststalker
     
 
 ### Worldgen
@@ -3620,6 +3644,8 @@ Patch 0.3.2.1
 
 ### Villagers:
     -Replaced Bucket of Milk trade with Broken Spawner
+    -Added Trades to the Gunsmith
+
     
 ### Loot:
     -Added lesser magic rings to various entities
@@ -3629,10 +3655,14 @@ Patch 0.3.2.1
     -Redcap sapper no longer drops coal but now rarely drop tnt
     -Enderman now always drop at least one pearl
     -Changed for Archmage tower loot chests
+    -Buffed bonus chest
+    -Bees drop honeycombs when wearing the cursed ring
+    -Buffed Dimensional Keys Loottables
 
 ### Quest:
     -Adjusted some Quests for removed items
     -Added Anaconda Totem as one of the early game choices
+    -Added information about special drops with cursed ring equiped to the cursed ring quest
 
 ### Other:
     -Fixed lots of broken tooltips
