@@ -4713,32 +4713,6 @@ ServerEvents.recipes(event => {
 
 	//======================================================== Tier 5 Machines
 
-	function dynamo(dynamo,plateUp,plateDown,middle)
-	{
-		event.shaped(dynamo,
-			[
-				" C ",
-				"PMP",
-				"SGS"
-			],
-			{
-				C: "thermal:rf_coil",
-				P: plateUp,
-				S: plateDown,
-				G: "immersiveengineering:generator",
-				M: middle
-			}
-		).id(dynamo)
-	}
-
-	dynamo("thermal:dynamo_stirling","#forge:plates/iron","#forge:plates/steel","ars_nouveau:fire_essence")
-	dynamo("thermal:dynamo_magmatic","#forge:plates/silver","#forge:plates/steel","ars_nouveau:volcanic_sourcelink")
-	dynamo("thermal:dynamo_compression","#forge:plates/bronze","#forge:plates/steel","vintageimprovements:vacuum_chamber")
-	dynamo("thermal:dynamo_numismatic","#forge:plates/constantan","#forge:plates/steel","thermal:gold_coin")
-	dynamo("thermal:dynamo_lapidary","#forge:plates/gold","#forge:plates/steel","thermal:ruby")
-	dynamo("thermal:dynamo_disenchantment","#forge:plates/lead","#forge:plates/steel","enchanted_golden_apple")
-	dynamo("thermal:dynamo_gourmand","#forge:plates/tin","#forge:plates/steel","farmersdelight:cooking_pot")
-
 	event.shaped("thermal:energy_cell_frame",
 		[
 			"LEL",
