@@ -1424,6 +1424,29 @@ ServerEvents.recipes(event => {
 	//event.shaped("architects_palette:hadaline_tiles",["XX","XX"],{"X":"architects_palette:hadaline_bricks"}).id("architects_palette:hadaline_tiles")
 
 	//Regions Unexplored
+	//event.shapeless("regions_unexplored:blackstone_cluster","blackstone").id("regions_unexplored:blackstone_cluster")
+
+	//event.shapeless("twigs:polished_basalt_bricks","architects_palette:basalt_tiles").id("twigs:polished_basalt_bricks")
+	//event.shapeless("architects_palette:basalt_tiles","twigs:polished_basalt_bricks")
+	event.shapeless("twigs:mossy_bricks","immersive_weathering:mossy_bricks")
+	
+	event.shaped("8x twigs:gravel_bricks",
+		[
+			"GGG",
+			"GXG",
+			"GGG"
+		],
+		{
+			G: "#forge:gravel",
+			X: "kubejs:brick_glue"
+		}
+	).damageIngredient("kubejs:brick_glue",8).id("twigs:gravel_bricks")
+	
+	event.shapeless("quark:mossy_cobblestone_bricks","twigs:mossy_cobblestone_bricks").id("quark:building/crafting/mossy_cobblestone_bricks")
+
+	//event.shaped("architects_palette:hadaline_tiles",["XX","XX"],{"X":"architects_palette:hadaline_bricks"}).id("architects_palette:hadaline_tiles")
+
+	//Regions Unexplored
 	//event.shapeless("regions_unexplored:mossy_stone","immersive_weathering:mossy_stone").id("regions_unexplored:mossy_stone")
 	//event.shapeless("immersive_weathering:mossy_stone","regions_unexplored:mossy_stone")
 
@@ -1433,6 +1456,12 @@ ServerEvents.recipes(event => {
 	//event.shapeless("quark:calcite_bricks","architects_palette:calcite_bricks").id("architects_palette:calcite_bricks")
 	//event.shapeless("architects_palette:calcite_bricks","quark:calcite_bricks")
 
+	event.shapeless("twigs:cobblestone_bricks","quark:cobblestone_bricks").id("twigs:cobblestone_bricks")
+	event.shapeless("quark:cobblestone_bricks","twigs:cobblestone_bricks")
+	event.shapeless("twigs:gravel_bricks","supplementaries:gravel_bricks")
+	event.shapeless("supplementaries:gravel_bricks","twigs:gravel_bricks").id("supplementaries:gravel_bricks")
+
+	event.remove({id:"twigs:azalea_flowers_from_flowering_azalea"})
 
 	event.remove({id:"immersiveengineering:crafting/toolbox"})
 
