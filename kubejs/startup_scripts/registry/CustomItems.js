@@ -471,8 +471,8 @@ StartupEvents.registry('item', item => {
   SmithingTemplates("arcane_fortress",4)
   SmithingTemplates("skyseeker",4)
   SmithingTemplates("depth",4)
-  SmithingTemplates("draco_arcanus",4)
-  SmithingTemplates("tyr",5)
+  //SmithingTemplates("draco_arcanus",4)
+  //SmithingTemplates("tyr",5)
   SmithingTemplates("etherium",5)
   SmithingTemplates("valkyrum",5)
   
