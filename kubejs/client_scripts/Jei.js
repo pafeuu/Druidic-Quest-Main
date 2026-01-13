@@ -100,6 +100,8 @@ JEIEvents.information(event => {
     event.addItem("irons_spellbooks:arcane_debris",["Found near y56 in the overworld"])
     event.addItem("thermal:cinnabar_ore",["Found in Nether Geodes"])
     event.addItem("rubinated_nether:molten_ruby_ore",["Found in Nether Geodes and Magma Veins"])
+    event.addItem("immersiveengineering:ore_uranium",["Found in Uranium Pillars in Nether Wastes Biome"])
+    event.addItem("thermal:sulfur_ore",["Found in Basalt Deltas"])
 
     event.addItem('supplementaries:music_disc_heave_ho',["Obtained by killing a Creeper with a Cannonball"])
     
