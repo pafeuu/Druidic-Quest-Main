@@ -862,135 +862,7 @@ ServerEvents.recipes(event => {
 		"#forge:ingots/phoenix",
 		"thermal:ruby"]).damageIngredient("#forge:tools/mortars", 16).id("kubejs:advanced_alchemical_dust")
 
-	event.custom({
-			type: "lychee:lightning_channeling",
-			item_in: [
-				{tag: "twilightforest:fiery_vial"},
-				{tag: "twilightforest:fiery_vial"},
-				{tag: "twilightforest:fiery_vial"},
-				{tag: "forge:ingots/arcanum_alloy"}
-			],
-			contextual: [
-				{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}},
-			],
-			post: [
-				{
-					type: "delay",
-					s: 1
-				},
-				{
-					type: "drop_item",
-					item: "twilightforest:fiery_ingot",
-				},
-				{
-					type: "execute",
-					command: "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @p",
-					hide: "true"
-				},
-				{
-					type: "execute",
-					command: "particle deep_aether:poison_bubbles ~ ~2 ~ 0 0 0 0.1 20",
-					hide: "true"
-				}
-			]
-	})
-
-	event.custom({
-		type: "lychee:lightning_channeling",
-		item_in: [
-			{item: "kubejs:primitive_alchemical_dust"},
-			{tag: "forge:plates/silver"},
-			{tag: "forge:insect"}
-		],
-		contextual: [
-			{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}},
-		],
-		post: [
-			{
-				type: "delay",
-				s: 1
-			},
-			{
-				type: "drop_item",
-				item: "twilightforest:naga_scale",
-			},
-			{
-				type: "execute",
-				command: "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @p",
-				hide: "true"
-			},
-			{
-				type: "execute",
-				command: "particle deep_aether:poison_bubbles ~ ~2 ~ 0 0 0 0.1 20",
-				hide: "true"
-			}
-		]
-	})
-
-	event.custom({
-		type: "lychee:lightning_channeling",
-		item_in: [
-			{item: "kubejs:improved_alchemical_dust"},
-			{tag: "forge:ingots/fiery"},
-			{item: "kubejs:life_essence"},
-			{item: "kubejs:death_essence"}
-		],
-		contextual: [
-			{type: "location",predicate:{dimension: "aether:the_aether"}},
-		],
-		post: [
-			{
-				type: "delay",
-				s: 1
-			},
-			{
-				type: "drop_item",
-				item: "kubejs:phoenix_ingot",
-			},
-			{
-				type: "execute",
-				command: "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @p",
-				hide: "true"
-			},
-			{
-				type: "execute",
-				command: "particle irons_spellbooks:fire ~ ~ ~ 0 0 0 0.02 15",
-				hide: "true"
-			}
-		]
-	})
-
-	event.custom({
-		type: "lychee:lightning_channeling",
-		item_in: [
-			{item: "kubejs:basic_alchemical_dust"},
-			{item: "irons_spellbooks:blood_vial"},
-			{item: "kubejs:fire_infused_arcanum"}
-		],
-		contextual: [
-			{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}},
-		],
-		post: [
-			{
-				type: "delay",
-				s: 1
-			},
-			{
-				type: "drop_item",
-				item: "twilightforest:fiery_blood",
-			},
-			{
-				type: "execute",
-				command: "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @p",
-				hide: "true"
-			},
-			{
-				type: "execute",
-				command: "particle deep_aether:poison_bubbles ~ ~2 ~ 0 0 0 0.1 20",
-				hide: "true"
-			}
-		]
-	})
+	
 
 	
 	event.shaped('immersiveengineering:hemp_fabric',
@@ -4551,15 +4423,15 @@ ServerEvents.recipes(event => {
 	event.remove({id:'immersiveengineering:blastfurnace/steel'})
 
 	event.recipes.createMechanicalCrafting("vintageimprovements:grinder_belt",[
-		"SSSSS",
-		"SDDDS",
+		"SSDSS",
 		"SDXDS",
-		"SDDDS",
-		"SSSSS"
+		"DXXXD",
+		"SDXDS",
+		"SSDSS"
 	],{
 		S: 'create:sand_paper',
 		D: '#forge:plates/diamond',
-		X: 'forbidden_arcanus:stellarite_piece'
+		X: "irons_spellbooks:arcane_salvage"
 	}).id("vintageimprovements:craft/grinder_belt")
 
 	event.custom({
