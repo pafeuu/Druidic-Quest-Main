@@ -165,6 +165,8 @@ ClientEvents.lang("en_us", event => {
     event.renameItem("brewinandchewin:pizza","Veggie Pizza")
     event.renameItem("brewinandchewin:pizza_slice","Veggie Pizza Slice")
     event.add("block.mbd2.infernal_smelter","Infernal Smelter")
+    event.renameBlock("irons_spellbooks:arcane_debris","Eternal Debris")
+    event.renameItem("irons_spellbooks:arcane_salvage","Scrap of Eternity")
     
 
     
