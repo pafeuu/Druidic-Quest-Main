@@ -3684,9 +3684,12 @@ Patch 4.0.0
     -Ancient Debris now drops Netherite Scraps(Affected by Fortune)
     -Eternal Debris now drops Scraps of Eternity(Affected by Fortune)
     
+### Removed Items:
+    -Tyr and Draco Arcanus Smithing Templates
 
 ### Recipes:
     -Fixed some missing twigs recipe changes
+    -Changed for Grinder Belt
 
 ### Item Balance:
     -Meef Stroganof now stacks to 64
