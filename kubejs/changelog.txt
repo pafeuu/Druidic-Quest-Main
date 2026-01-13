@@ -3670,3 +3670,42 @@ Patch 0.3.2.1
     -Fixed diamond still working as twilight forest portal activator
     -Placed Pancakes now restores as much hunger and saturation as eaten in item form
     -Elemental Fluids can now be picked up with buckets
+
+
+Patch 4.0.0
+
+### Worldgen:
+    -Lapis Lazuli and Eternal Debris now correctly spawn in the twilight forest
+
+### Loot:
+    -Gravel no longer drops pebbles but you can pebbles more often when hitting stone
+    -Rebalanced Nether Gold Ore
+    -Spawners now correctly drops spawner parts
+    -Ancient Debris now drops Netherite Scraps(Affected by Fortune)
+    -Eternal Debris now drops Scraps of Eternity(Affected by Fortune)
+    
+
+### Recipes:
+    -Fixed some missing twigs recipe changes
+
+### Item Balance:
+    -Meef Stroganof now stacks to 64
+    -Cake now stacks to 64
+    -Veggie Pizza now stacks to 64
+
+### Mob Balance:
+    -Phantoms wont spawn with any items now
+
+### Textures:
+    -Changed for Dark Essence
+    -Changed for Light Essence
+    -Changed for Dimension Ripper
+    -Added for Power Arrow
+    -Fixed Uranium Helmet texture
+
+### Other:
+    -Added missing tooltip to the infernal smelter
+    -Fixed basic chest upgrades coloring
+    -Added missing credits to the obsidian ingot
+    -Both Ancient and Eternal Debris cause explosion when mined
+    -Fixed missing sound effects on some in world crafts

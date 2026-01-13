@@ -2180,15 +2180,6 @@ No stats found
 biomeswevegone:pumpkin_warden -> 
 No stats found 
 
-forbidden_arcanus: 
-forbidden_arcanus:lost_soul -> 
-    - alembic:ice_damage -> 1.0
-    - alembic:fire_damage -> 1.0
-    - alembic:physical_damage -> 1.0
-    - alembic:true_damage -> 1.0
-    - alembic:arcane_damage -> 1.0
-    - alembic:alchemical_damage -> 1.0
-    - alembic:holy_damage -> 1.0
 
 ars_nouveau: 
 ars_nouveau:ally_vex -> 
