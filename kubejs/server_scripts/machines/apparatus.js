@@ -56,7 +56,7 @@ ServerEvents.recipes(event=>{
         "kubejs:arcane_leather",
         "kubejs:arcane_leather",
         "kubejs:arcane_leather",
-    ],"forbidden_arcanus:cloth","irons_spellbooks:magic_cloth",2500).id("irons_spellbooks:magic_cloth")
+    ],"immersiveengineering:hemp_fabric","irons_spellbooks:magic_cloth",2500).id("irons_spellbooks:magic_cloth")
 
     apparatus([
         "sophisticatedstorage:packing_tape",

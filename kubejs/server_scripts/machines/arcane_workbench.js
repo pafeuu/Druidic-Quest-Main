@@ -513,7 +513,7 @@ ServerEvents.recipes(event=>{
         "item": "minecraft:glass_bottle"
         },
         "S": {
-        "item": "forbidden_arcanus:stellarite_piece"
+        "item": "irons_spellbooks:arcane_debris"
         },
         "G":{
         "tag": "forge:plates/gold"    
@@ -737,12 +737,12 @@ ServerEvents.recipes(event=>{
     )
 
     EnigmaticAmulet(0.3,
-        "forbidden_arcanus:mortem_helmet",
+        "kubejs:lead_helmet",
 		"shield",
-        "forbidden_arcanus:mortem_leggings",
-		"forbidden_arcanus:mortem_chestplate",
+        "kubejs:lead_leggings",
+		"kubejs:leadchestplate",
         "ars_nouveau:bastion_pod",
-		"forbidden_arcanus:mortem_boots"
+		"kubejs:lead_boots"
     )
 
     EnigmaticAmulet(0.4,

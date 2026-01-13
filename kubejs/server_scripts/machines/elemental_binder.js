@@ -189,10 +189,10 @@ ServerEvents.recipes(event=>{
     )
 
     binding("kubejs:arcane_plating","earth",5000,
-        "forbidden_arcanus:deorum_ingot",
-        "forbidden_arcanus:deorum_ingot",
-        "forbidden_arcanus:deorum_ingot",
-        "forbidden_arcanus:deorum_ingot",
+        "#forge:plates/arcane_gold",
+        "#forge:plates/arcane_gold",
+        "#forge:plates/arcane_gold",
+        "#forge:plates/arcane_gold",
         "#forge:plates/arcane_gold",
         "#forge:plates/arcane_gold",
         "#forge:plates/arcane_gold",

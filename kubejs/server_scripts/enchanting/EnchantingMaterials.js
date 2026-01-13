@@ -1,30 +1,6 @@
 ServerEvents.recipes(event=>{
 
-    event.custom({
-		type: "lychee:block_interacting",
-		post: [
-			{ type: "drop_item", item: "kubejs:big_enchanting_rune", count: 1 },
-			{ type: "execute", command: "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @p", hide: true },
-            { type: "place", block: "air"}
-		],
-		item_in: [
-			{ item: "forbidden_arcanus:dark_rune" }
-		],
-        block_in: "kubejs:deepslate_rune"
-	})
-
-    event.custom({
-		type: "lychee:block_interacting",
-		post: [
-			{ type: "drop_item", item: "forbidden_arcanus:dark_rune", count: 1 },
-			{ type: "execute", command: "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @p", hide: true },
-            { type: "place", block: "air"}
-		],
-		item_in: [
-			{ item: "forbidden_arcanus:corrupti_dust" }
-		],
-        block_in: "forbidden_arcanus:rune_block"
-	}).id("forbidden_arcanus:dark_rune")
+    
 
 	
 	event.shaped("kubejs:big_enchanting_rune",["AA","AA"],{A:"kubejs:medium_enchanting_rune"})
@@ -103,10 +79,10 @@ ServerEvents.recipes(event=>{
 
     RuneCrafting("kubejs:large_enchanting_rune_of_infinity",[
         {"item":"kubejs:large_enchanting_rune"},
-        {"item":"forbidden_arcanus:stellarite_piece"},
-        {"item":"forbidden_arcanus:stellarite_piece"},
-        {"item":"forbidden_arcanus:stellarite_piece"},
-        {"item":"forbidden_arcanus:stellarite_piece"},],10000,30)
+        {"item":"irons_spellbooks:arcane_salvage"},
+        {"item":"irons_spellbooks:arcane_salvage"},
+        {"item":"irons_spellbooks:arcane_salvage"},
+        {"item":"irons_spellbooks:arcane_salvage"},],10000,30)
 
     RuneCrafting("kubejs:enchanting_rune_of_speed",[
         {"item":"kubejs:enchanting_rune"},
