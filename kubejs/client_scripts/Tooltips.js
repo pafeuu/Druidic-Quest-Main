@@ -83,7 +83,11 @@ ItemEvents.tooltip( tooltip => {
                "kubejs:lead_helmet",
                "kubejs:lead_chestplate",
                "kubejs:lead_leggings",
-               "kubejs:lead_boots"],Text.gray("Texture by Farland1ng"))
+               "kubejs:lead_boots",
+              "kubejs:dark_essence",
+              "kubejs:light_essence",
+              "kubejs:dimension_ripper",
+              "kubejs:obsidian_ingot"],Text.gray("Texture by Farland1ng"))
 
   // ========================================== Villager Trading =========================================
   tooltip.add(['irons_spellbooks:common_ink',
@@ -169,21 +173,6 @@ ItemEvents.tooltip( tooltip => {
                 text.add(1, Text.of("Make sure to empty it before upgrading!").red())
                })
   //======================================= Smithing Templates ==============================
-  
-  /*function NewSmithingTemplateTooltip(Template,UpgradeTo,UpgradeFrom,Material,Color)
-  {
-    tooltip.addAdvanced(Template,(item, advanced, text) => {
-                text.clear()
-                text.add(0,Text.of("Smithing Template"))
-                text.add(1, Text.of(UpgradeTo+" Template").gray())
-                text.add(2, Text.of(" "))
-                text.add(3, Text.of("Applies To:").gray())
-                text.add(4, Text.of(" "+UpgradeFrom+" Equipment").color(Color))
-                text.add(5, Text.of("Ingredients:").gray())
-                text.add(6, Text.of(" "+Material).color(Color))
-               
-               })
-  }*/
  
   function SmithingTemplate(Template,UpgradeTo,UpgradeFrom,Material,Color)
   {
@@ -196,10 +185,6 @@ ItemEvents.tooltip( tooltip => {
                 text.add(6, Text.of(" "+Material).color(Color))
                })
   }
-
-  /*NewSmithingTemplateTooltip("minecraft:netherite_upgrade_smithing_template","Netherite","Diamond","Netherite Sheet",0x5555FF)
-  NewSmithingTemplateTooltip("deep_aether:stormforged_smithing_template","Stormforged","Phoenix","Squall Plate",0x5555FF)
-  NewSmithingTemplateTooltip("deep_aether:stratus_smithing_template","Stratus","Gravitite","Stratus Ingot",0x5555FF)*/
 
   SmithingTemplate("kubejs:phoenix_upgrade_smithing_template","Phoenix","Fiery","Phoenix Ingot",0xfc9424)
   SmithingTemplate("kubejs:gold_upgrade_smithing_template","Gold","Silver","Gold Upgrade Parts",0x64747c)
@@ -388,6 +373,8 @@ ItemEvents.tooltip( tooltip => {
       text.add(1, Text.lightPurple("Slowly replenishes hunger and saturation when held"))
     }
   })
+
+  tooltip.add("mbd2:infernal_smelter",[Text.red("Only works in the nether")])
 
   tooltip.add([global.nukelist],[Text.red("Item disabled"),Text.red("Report to the modpack dev if you got this")])
   tooltip.add("kubejs:recipe_changed",Text.red("This recipe has been changed! Check EMI for more information!"))
