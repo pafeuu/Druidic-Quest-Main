@@ -101,9 +101,9 @@ LootJS.modifiers((event) => {
         .replaceLoot("ancient_aether:valkyrum_axe","2x irons_spellbooks:arcane_debris")
         .replaceLoot("ancient_aether:valkyrum_pickaxe","2x irons_spellbooks:arcane_debris")
         .replaceLoot("ancient_aether:valkyrum_gloves","irons_spellbooks:arcane_debris")
-        .replaceLoot("ancient_aether:valkyrum_shovel","forbidden_arcanus:stella_arcanum")
-        .replaceLoot("ancient_aether:valkyrum_sword","forbidden_arcanus:stella_arcanum")
-        .replaceLoot("ancient_aether:valkyrum_hoe","forbidden_arcanus:stella_arcanum")
+        .replaceLoot("ancient_aether:valkyrum_shovel","irons_spellbooks:arcane_debris")
+        .replaceLoot("ancient_aether:valkyrum_sword","irons_spellbooks:arcane_debris")
+        .replaceLoot("ancient_aether:valkyrum_hoe","irons_spellbooks:arcane_debris")
         .replaceLoot("create:rose_quartz","kubejs:lemon_quartz")
         .replaceLoot("twilightforest:steeleaf_boots","twilightforest:ironwood_boots")
         .replaceLoot("twilightforest:steeleaf_helmet","twilightforest:ironwood_helmet")
@@ -345,6 +345,13 @@ LootJS.modifiers((event) => {
         .addLoot("kubejs:lesser_nature_ring")
     
     //================================================ BLOCKS
+    
+    event.addBlockLootModifier(["minecraft:ancient_debris","irons_spellbooks:arcane_debris"])
+    .triggerExplosion(3,"destroy",true)
+    
+
+    event.addBlockLootModifier("spawner")
+    .addLoot("kubejs:spawner_part")
 
     event.addBlockLootModifier("gravel")
     .removeLoot("twigs:pebble")

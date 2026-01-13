@@ -439,7 +439,7 @@ ServerEvents.recipes(event => {
 		type: "lychee:block_interacting",
 		"hide_in_viewer": true,
 		post: [
-		  {type: "drop_item", item:"kubejs:broken_spawner"},
+		  {type: "drop_item", item:"kubejs:spawner_part"},
 		  {type: "place", block: "air"},
 		  {type: "execute", command: "playsound design_decor:large_chain_break neutral @p", hide: true},
 		  {type: "drop_item", item:"thermal:ruby"}
@@ -460,7 +460,7 @@ ServerEvents.recipes(event => {
 			}
 		},
 		post: [
-		  {type: "drop_item", item:"kubejs:broken_spawner"},
+		  {type: "drop_item", item:"kubejs:spawner_part"},
 		  {type: "place", block: "air"},
 		  {type: "execute", command: "playsound minecraft:block.ender_chest.open neutral @p", hide: true},
 		  {type: "delay", s: 0.5},
@@ -486,7 +486,7 @@ ServerEvents.recipes(event => {
 			}
 		},
 		post: [
-		  {type: "drop_item", item:"kubejs:broken_spawner"},
+		  {type: "drop_item", item:"kubejs:spawner_part"},
 		  {type: "place", block: "air"},
 		  {type: "execute", command: "playsound minecraft:block.ender_chest.open neutral @p", hide: true},
 		  {type: "delay", s: 0.5},
@@ -512,7 +512,7 @@ ServerEvents.recipes(event => {
 			}
 		},
 		post: [
-		  {type: "drop_item", item:"kubejs:broken_spawner"},
+		  {type: "drop_item", item:"kubejs:spawner_part"},
 		  {type: "place", block: "air"},
 		  {type: "execute", command: "playsound minecraft:block.ender_chest.open neutral @p", hide: true},
 		  {type: "delay", s: 0.5},
@@ -1418,7 +1418,7 @@ ServerEvents.recipes(event => {
 		  'III' 
 		],
 		{
-		  I: 'forbidden_arcanus:cloth',
+		  I: "immersiveengineering:hemp_fabric",
 		  M: 'aether:leather_gloves'
 		}
 	  )
