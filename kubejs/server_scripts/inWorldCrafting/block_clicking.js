@@ -91,11 +91,7 @@ ServerEvents.recipes(event=>{
           "command": 'particle irons_spellbooks:wisp ~ ~ ~ 0.3 0.3 0.3 0.1 80 force',
           "hide": true
         },
-        {
-          "type": "execute",
-          "command": "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @a",
-          "hide": true
-        }
+        { type: "execute",command: "playsound wizards_reborn:arcanum_dust_transmutation neutral @p",hide: true}
       ]
     })
 
@@ -179,7 +175,22 @@ ServerEvents.recipes(event=>{
 	  },
 	  block_in: "minecraft:stone"
 	})
+
+  event.custom({
+		type: "lychee:block_interacting",
+		post: [
+			{ type: "drop_item", item: "kubejs:big_enchanting_rune", count: 1 },
+			{ type: "execute",command: "playsound wizards_reborn:arcanum_dust_transmutation neutral @p",hide: true},
+            { type: "place", block: "air"}
+		],
+		item_in: [
+			{ item: "ars_nouveau:manipulation_essence" }
+		],
+        block_in: "kubejs:deepslate_rune"
+	})
+
   
+
     /*function TallFlowers(flower)
     {
       event.custom({

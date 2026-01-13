@@ -107,6 +107,107 @@ ServerEvents.recipes(event=>{
     crystalizedOre("thermal:raw_nickel","nickel")
     crystalizedOre("create:raw_zinc","zinc")
     crystalizedOre("thermal:raw_tin","tin")
+
+    event.custom({
+			type: "lychee:lightning_channeling",
+			item_in: [
+				{tag: "twilightforest:fiery_vial"},
+				{tag: "twilightforest:fiery_vial"},
+				{tag: "twilightforest:fiery_vial"},
+				{tag: "forge:ingots/arcanum_alloy"}
+			],
+			contextual: [
+				{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}},
+			],
+			post: [
+				{
+					type: "delay",
+					s: 1
+				},
+				{
+					type: "drop_item",
+					item: "twilightforest:fiery_ingot",
+				},
+				SoundEffectTransmutation,
+				ParticleBubbles
+			]
+	})
+
+	event.custom({
+		type: "lychee:lightning_channeling",
+		item_in: [
+			{item: "kubejs:primitive_alchemical_dust"},
+			{tag: "forge:plates/silver"},
+			{tag: "forge:insect"}
+		],
+		contextual: [
+			{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}},
+		],
+		post: [
+			{
+				type: "delay",
+				s: 1
+			},
+			{
+				type: "drop_item",
+				item: "twilightforest:naga_scale",
+			},
+			SoundEffectTransmutation,
+			ParticleBubbles
+		]
+	})
+
+	event.custom({
+		type: "lychee:lightning_channeling",
+		item_in: [
+			{item: "kubejs:improved_alchemical_dust"},
+			{tag: "forge:ingots/fiery"},
+			{item: "kubejs:life_essence"},
+			{item: "kubejs:death_essence"}
+		],
+		contextual: [
+			{type: "location",predicate:{dimension: "aether:the_aether"}},
+		],
+		post: [
+			{
+				type: "delay",
+				s: 1
+			},
+			{
+				type: "drop_item",
+				item: "kubejs:phoenix_ingot",
+			},
+			SoundEffectTransmutation,
+			{
+				type: "execute",
+				command: "particle irons_spellbooks:fire ~ ~ ~ 0 0 0 0.02 15",
+				hide: "true"
+			}
+		]
+	})
+
+	event.custom({
+		type: "lychee:lightning_channeling",
+		item_in: [
+			{item: "kubejs:basic_alchemical_dust"},
+			{item: "irons_spellbooks:blood_vial"},
+			{item: "kubejs:fire_infused_arcanum"}
+		],
+		contextual: [
+			{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}},
+		],
+		post: [
+			{
+				type: "delay",
+				s: 1
+			},
+			{
+				type: "drop_item",
+				item: "twilightforest:fiery_blood",
+			},
+			SoundEffectTransmutation,ParticleBubbles
+		]
+	})
     
 
     
