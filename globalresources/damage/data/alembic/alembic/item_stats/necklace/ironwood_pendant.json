@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:ironwood_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:axe_speed",
+      "value": 0.3,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "a9a3719b-f726-48de-8adf-bcd2c123e592"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

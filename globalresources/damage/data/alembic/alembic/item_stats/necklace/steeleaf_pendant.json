@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:steeleaf_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "f7d48001-a6af-4625-9bd2-607112300eb3"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

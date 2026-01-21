@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:diamond_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:pickaxe_speed",
+      "value": 0.3,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "ad7414a1-ae8e-4168-b6d8-198cab18f927"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

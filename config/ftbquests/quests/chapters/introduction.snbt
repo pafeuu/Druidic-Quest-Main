@@ -14,7 +14,7 @@
 			description: [
 				"You can sometimes find these materials laying on the ground."
 				""
-				"If you can't find any, you can destroy leaves for a chance to drop twigs and right click stone with a empty hand to get pebbles. Mining gravel also has a chance to drop pebbles."
+				"If you can't find any, you can destroy leaves for a chance to drop twigs and right click stone with a empty hand to get pebbles. "
 				""
 				"&2If you dont want to chop down the whole tree you need to sneak while destroying the logs! Your first axe has very little durability, so it might not be able to chop down bigger trees.&r"
 			]
@@ -1676,11 +1676,6 @@
 				{
 					id: "19E21D8E3E59D4AA"
 					item: "minecraft:saddle"
-					type: "item"
-				}
-				{
-					id: "5F10D6EC44E672E6"
-					item: "naturesaura:pet_reviver"
 					type: "item"
 				}
 			]

@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:nickel_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "forge:block_reach",
+      "value": 0.6,
+      "operation": "ADDITION",
+      "uuid": "8b71930c-07ca-4707-b8d8-f4dc68be319e"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

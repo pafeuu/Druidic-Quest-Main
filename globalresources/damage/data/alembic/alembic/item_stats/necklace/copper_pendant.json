@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:copper_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "forge:swim_speed",
+      "value": 0.3,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "e33ca93d-fb20-4c05-ad7b-2a34be5d13a7"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

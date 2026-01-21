@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:sapphire_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "irons_spellbooks:mana_regen",
+      "value": 0.4,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "59eb9c62-5043-43c0-aa02-977e884490d5"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

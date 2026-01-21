@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:ruby_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "attributeslib:experience_gained",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "04081d20-dff4-478c-9337-345110b932c3"
+    }
+  ],
+  "equipment_slot": "pendant"
+}

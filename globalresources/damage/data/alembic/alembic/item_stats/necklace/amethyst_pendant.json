@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:amethyst_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage",
+      "value": 1.5,
+      "operation": "ADDITION",
+      "uuid": "749fbb92-f2f6-4695-a196-3162065fe1d3"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:gravitite_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "fyshisattribute:jump",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "3008a880-e8a1-4b80-9dca-f317428c9811"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

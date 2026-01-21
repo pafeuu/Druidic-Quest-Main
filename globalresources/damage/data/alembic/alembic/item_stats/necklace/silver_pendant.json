@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:silver_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "ac42103e-1e32-4196-b01a-d7ac0f187346"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

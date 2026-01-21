@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:zanite_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "attributeslib:mining_speed",
+      "value": 0.4,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "5db6c667-cbae-461c-923d-73fe93f1393e"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

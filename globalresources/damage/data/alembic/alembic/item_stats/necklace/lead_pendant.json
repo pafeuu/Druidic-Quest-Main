@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:lead_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.6,
+      "operation": "ADDITION",
+      "uuid": "ad25840b-7a62-40bc-87c3-bef4d5659829"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

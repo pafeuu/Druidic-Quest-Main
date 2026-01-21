@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:lapis_pendant",
+  "modifiers": [
+    {
+        "type": "append",
+        "attribute": "attributeslib:experience_gained",
+        "value": 0.15,
+        "operation": "MULTIPLY_BASE",
+        "uuid": "7364e9e6-cb67-47dc-a7e4-7d50525e857b"
+      }
+  ],
+  "equipment_slot": "necklace"
+}

@@ -1,5 +1,31 @@
 ServerEvents.recipes(event => {
 
+    function pendant(output,material)
+    {
+        event.shaped(`kubejs:${output}_pendant`,[
+            " M ",
+            "MXM",
+            " M "
+        ],
+        {
+            M: material,
+            X: "ars_nouveau:dull_trinket"
+        })
+    }
+
+    function pendantExpensive(output,material)
+    {
+        event.shaped(`kubejs:${output}_pendant`,[
+            "MMM",
+            "MXM",
+            "MMM"
+        ],
+        {
+            M: material,
+            X: "ars_nouveau:dull_trinket"
+        })
+    }
+
     function ring(output,material)
     {
         event.shaped(`kubejs:${output}_ring`,[
@@ -25,6 +51,32 @@ ServerEvents.recipes(event => {
             X: "ars_nouveau:ring_of_potential"
         })
     }
+
+    pendant("lapis","minecraft:lapis_block")
+    pendant("ruby","thermal:ruby")
+    pendantExpensive("ruby","rubinated_nether:ruby")
+    pendant("sapphire","thermal:sapphire")
+    pendantExpensive("sapphire","kubejs:sapphire")
+    pendant("diamond","kubejs:infused_diamond")
+    pendantExpensive("diamond","diamond")
+    pendant("emerald","kubejs:infused_emerald")
+    pendantExpensive("emerald","emerald")
+    pendant("amethyst","kubejs:infused_amethyst")
+    pendantExpensive("amethyst","amethyst_shard")
+    pendantExpensive("quartz","quartz_block")
+    pendantExpensive("zanite","aether:zanite_gemstone")
+    pendantExpensive("skyjade","deep_aether:skyjade")
+    pendant("lead","#forge:plates/lead")
+    pendant("silver","#forge:plates/silver")
+    pendant("tin","#forge:plates/tin")
+    pendant("nickel","#forge:plates/nickel")
+    pendantExpensive("steeleaf","twilightforest:steeleaf_ingot")
+    pendant("ironwood","#forge:plates/ironwood")
+    pendant("knightmetal","#forge:plates/knightmetal")
+    pendant("zinc","#forge:plates/zinc")
+    pendant("uranium","#forge:plates/uranium")
+    pendant("copper","#forge:plates/copper")
+    pendant("gravitite","aether:enchanted_gravitite")
 
     ring("lapis","minecraft:lapis_block")
     ring("ruby","thermal:ruby")

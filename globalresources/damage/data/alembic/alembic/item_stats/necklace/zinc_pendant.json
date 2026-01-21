@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:zinc_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:fall_reduction",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "002d8014-1438-4bb9-a7bc-9c05ae01bd2b"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:uranium_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 1.5,
+      "operation": "ADDITION",
+      "uuid": "4bd7c51e-34c1-4bb6-8b3a-56bc213afd71"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage",
+      "value": 1.5,
+      "operation": "ADDITION",
+      "uuid": "1587f5b4-0db6-4921-af78-62e83a2c93fc"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

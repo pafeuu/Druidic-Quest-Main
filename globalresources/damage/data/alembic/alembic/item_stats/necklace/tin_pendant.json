@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:tin_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:shovel_speed",
+      "value": 0.4,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "d82fae5e-eca2-478d-a377-d018e0cf10e1"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

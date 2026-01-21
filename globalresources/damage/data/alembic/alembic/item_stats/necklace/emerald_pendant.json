@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:emerald_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:stamina",
+      "value": 0.4,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "b5c7eb05-ddca-490e-adba-4a0468ac06e2"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

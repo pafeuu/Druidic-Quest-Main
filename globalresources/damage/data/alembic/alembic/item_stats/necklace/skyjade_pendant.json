@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:skyjade_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.3,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "cba2b887-4c40-42bd-9e9e-2f0d345eb2f7"
+    }
+  ],
+  "equipment_slot": "necklace"
+}

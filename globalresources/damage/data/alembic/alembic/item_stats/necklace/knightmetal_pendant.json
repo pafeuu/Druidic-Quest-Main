@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:knightmetal_pendant",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "5b9cd983-2cff-4dfa-b1f7-87f8c9f2042b"
+    }
+  ],
+  "equipment_slot": "necklace"
+}
