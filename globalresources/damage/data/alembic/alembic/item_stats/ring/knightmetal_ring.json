@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "925a1024-ed11-42ce-b8cb-2fed69a9f874"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:knightmetal_ring"
+}

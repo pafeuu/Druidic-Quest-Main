@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "6f6d3ebe-4796-4ae4-a2da-1b6413fc908e"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:quartz_ring"
+}

@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.4,
+      "operation": "ADDITION",
+      "uuid": "eaada569-a290-4be6-9640-88f6a7822479"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:lead_ring"
+}

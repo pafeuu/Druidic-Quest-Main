@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:axe_speed",
+      "value": 0.2,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "6ec019ad-3ba8-484d-8a13-ec43a9fda496"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:ironwood_ring"
+}

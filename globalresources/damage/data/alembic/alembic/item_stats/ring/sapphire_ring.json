@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "irons_spellbooks:mana_regen",
+      "value": 0.25,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "bd9a7a74-2bca-4f09-a7ac-88305c9a09af"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:sapphire_ring"
+}

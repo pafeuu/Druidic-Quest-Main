@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:stamina",
+      "value": 0.25,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "4f242a15-4e80-4d89-9273-6668b5343dd9"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:emerald_ring"
+}

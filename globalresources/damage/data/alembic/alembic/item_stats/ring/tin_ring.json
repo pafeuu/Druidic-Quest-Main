@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:shovel_speed",
+      "value": 0.25,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "2a15319c-720e-4d2d-938b-91253c8d6e8e"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:tin_ring"
+}

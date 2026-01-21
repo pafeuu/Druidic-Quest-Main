@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "157ba6af-4245-442a-8359-f840eed92669"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:steeleaf_ring"
+}

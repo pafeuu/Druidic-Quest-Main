@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "163f0751-4682-4759-98f8-da2d50814e40"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:amethyst_ring"
+}

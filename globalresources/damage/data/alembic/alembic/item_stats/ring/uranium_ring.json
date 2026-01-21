@@ -1,0 +1,20 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "06d56308-7bea-4f62-9e55-e57345eb2236"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "54e5a77d-3b3b-4183-891e-bfcb9ea49c12"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:uranium_ring"
+}

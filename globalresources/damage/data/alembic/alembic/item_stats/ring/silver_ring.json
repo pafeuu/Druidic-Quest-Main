@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "d4f22801-7d64-4dca-98b3-2ebd38c31aad"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:silver_ring"
+}

@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.2,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "d02a5aef-bdd2-4aab-aad7-6cab90bf34db"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:skyjade_ring"
+}

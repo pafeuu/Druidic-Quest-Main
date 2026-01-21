@@ -383,6 +383,30 @@ StartupEvents.registry('item', item => {
   item.create("bulking_ring").unstackable().displayName("Ring of Bulking").tag("curios:ring")
   item.create("mycelial_ring").unstackable().tag("curios:ring")
 
+  const ringMaterials = [
+    "tin",
+    "nickel",
+    "diamond",
+    "ruby",
+    "sapphire",
+    "emerald",
+    "quartz",
+    "amethyst",
+    "zanite",
+    "skyjade",
+    "lead",
+    "silver",
+    "steeleaf",
+    "ironwood",
+    "knightmetal",
+    "zinc",
+    "uranium",
+    "copper",
+    "lapis"
+  ].forEach(material=>{
+    item.create(`${material}_ring`).unstackable().tag("curios:ring")
+  })
+
   ///====================================================BELTS==========================================================
 
   item.create("travelers_belt").displayName("Traveler's Belt").unstackable().tag("curios:belt")
@@ -442,6 +466,31 @@ StartupEvents.registry('item', item => {
   ///===================================================NECKLACES
 
   item.create('cross_necklace').displayName('Cross Necklace').tag("curios:necklace").unstackable()
+
+  const pendantMaterials = [
+    "tin",
+    "nickel",
+    "diamond",
+    "ruby",
+    "sapphire",
+    "emerald",
+    "quartz",
+    "amethyst",
+    "zanite",
+    "skyjade",
+    "gravitite",
+    "lead",
+    "silver",
+    "steeleaf",
+    "ironwood",
+    "knightmetal",
+    "zinc",
+    "uranium",
+    "copper",
+    "lapis"
+  ].forEach(material=>{
+    item.create(`${material}_pendant`).unstackable().tag("curios:necklace")
+  })
 
   //==================================================CHARMS
 

@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "attributeslib:mining_speed",
+      "value": 0.25,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "2eabe4e0-7247-4303-94ba-0c0318962fa4"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:zanite_ring"
+}

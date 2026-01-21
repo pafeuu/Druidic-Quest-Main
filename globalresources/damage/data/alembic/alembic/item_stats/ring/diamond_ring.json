@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:pickaxe_speed",
+      "value": 0.2,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "04081d20-dff4-478c-9337-345110b932c3"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:diamond_ring"
+}

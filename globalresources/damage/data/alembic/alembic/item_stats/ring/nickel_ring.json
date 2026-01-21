@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "forge:block_reach",
+      "value": 0.4,
+      "operation": "ADDITION",
+      "uuid": "429a7cb8-a48f-4f75-a8fe-6988e05530d0"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:nickel_ring"
+}

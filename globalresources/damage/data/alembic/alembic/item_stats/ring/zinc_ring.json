@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:fall_reduction",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "20ba61e3-3a85-41c2-b15b-d032ed0a0fec"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "kubejs:zinc_ring"
+}

@@ -3736,6 +3736,10 @@ Patch 4.0.1
 
 # Patch 4.1.0
 
+### New Items:
+    -Added 19 new rings
+    -Added 20 new pendants
+
 ### Updated Mods:
     -AdvancedLootInfo
     -Amendments
@@ -3747,3 +3751,4 @@ Patch 4.0.1
 
 ### Other:
     -Fixed the jittering on elemental machines progress bars
+    -Luck Glyph can only be used 4 times per spell
