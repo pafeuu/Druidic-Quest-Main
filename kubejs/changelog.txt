@@ -3732,3 +3732,18 @@ Patch 4.0.1
 ### Other:
     -Aura will no longer "bonemeal" silly oddities plants that drop themselves on the ground
     -Fixed lack of water elemental fluid bucket
+    -Bees will no longer attack the cursed ring wearer
+
+# Patch 4.1.0
+
+### Updated Mods:
+    -AdvancedLootInfo
+    -Amendments
+    -Citadel
+    -CraftingStationImproved
+    -CraftingTweaks
+    -ExtremeSoundMuffler
+    -
+
+### Other:
+    -Fixed the jittering on elemental machines progress bars
