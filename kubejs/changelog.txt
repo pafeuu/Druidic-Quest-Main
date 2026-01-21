@@ -3674,6 +3674,8 @@ Patch 0.3.2.1
 
 Patch 4.0.0
 
+# REMEMBER TO BACKUP YOUR WORLD BEFORE UPDATING
+
 ### Worldgen:
     -Lapis Lazuli and Eternal Debris now correctly spawn in the twilight forest
 
@@ -3712,3 +3714,8 @@ Patch 4.0.0
     -Added missing credits to the obsidian ingot
     -Both Ancient and Eternal Debris cause explosion when mined
     -Fixed missing sound effects on some in world crafts
+
+Patch 4.0.1
+
+### Other:
+    -Aura will no longer "bonemeal" silly oddities plants that drop themselves on the ground
