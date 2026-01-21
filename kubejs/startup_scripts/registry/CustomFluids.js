@@ -19,7 +19,6 @@ StartupEvents.registry('fluid', event => {
     .thickTexture(0x15159a)
     .bucketColor(0x15159a)
     .rarity("rare")
-    .noBucket()
 
   event.create("pizza_sauce")
     .thickTexture(0xff0000)
