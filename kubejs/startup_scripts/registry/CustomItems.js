@@ -381,6 +381,7 @@ StartupEvents.registry('item', item => {
   item.create("ring_travel").displayName("Ring of Costly Travel").unstackable().tag("curios:ring")
   item.create("daybloom_ring").unstackable().tag("curios:ring")
   item.create("bulking_ring").unstackable().displayName("Ring of Bulking").tag("curios:ring")
+  item.create("mycelial_ring").unstackable().tag("curios:ring")
 
   ///====================================================BELTS==========================================================
 

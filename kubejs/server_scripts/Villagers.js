@@ -376,7 +376,7 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("biomeswevegone:forager",4,"1x thermal:gold_coin","6x farmersdelight:organic_compost")
 
 	event.addTrade("biomeswevegone:forager",5,"3x thermal:enderium_coin","kubejs:mycelial_hoe")
-	event.addTrade("biomeswevegone:forager",5,"4x thermal:netherite_coin",Item.of("kubejs:grafter","{Unbreakable:1}"))
+	event.addTrade("biomeswevegone:forager",5,"5x thermal:netherite_coin","kubejs:mycelial_ring")
 
 
 	//===================================================Engineer
