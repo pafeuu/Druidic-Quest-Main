@@ -35,230 +35,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "00F6ECE50C359F72"
-			rewards: [{
-				id: "66EFB32C7E57B43D"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "615E06AAF133F69D"
-				item: "archers_paradox:ender_arrow"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "79076E3B02D17C1C"
-			rewards: [{
-				id: "4E8731CBF4F39AD5"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "69DBBDE982A4CD9C"
-				item: "archers_paradox:shulker_arrow"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "07FB9C9BBA8B7B0B"
-			rewards: [{
-				id: "48C5183B36113119"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "43A5234956E8B1CD"
-				item: "archers_paradox:blaze_arrow"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "232A5A3943B17F86"
-			rewards: [{
-				id: "556353B24A207056"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6ADC65375BCD160D"
-				item: "archers_paradox:training_arrow"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "70F9AAE767F1DB09"
-			rewards: [{
-				id: "31FEB37BB0EE8091"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "417188640C47D4C0"
-				item: "archers_paradox:frost_arrow"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "4EC45A2F9BB4DBB6"
-			rewards: [{
-				id: "59FEE6CE53E333D1"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "71ADFEF3862623C6"
-				item: "archers_paradox:quartz_arrow"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "14AF2D7A199722F9"
-			rewards: [{
-				id: "027AD3F3E0088880"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5CACD0EE79449D6D"
-				item: "archers_paradox:explosive_arrow"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "5F9E54406D44129D"
-			rewards: [{
-				id: "75326676A769885D"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "55D8EC39BA428ACF"
-				item: "archers_paradox:slime_arrow"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "63E4C9057BA57ABB"
-			rewards: [{
-				id: "3D1D7C597A537067"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3B7CE295D1AA4AA1"
-				item: "archers_paradox:phantasmal_arrow"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "2F2E98851FC14976"
-			rewards: [{
-				id: "48A7A62F8B604734"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "66EE6A00D50736E1"
-				item: "archers_paradox:lightning_arrow"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "25BBEF6CD3B275FD"
-			rewards: [{
-				id: "6FF3077AB7496129"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7F80EF2CB4B565CE"
-				item: "archers_paradox:challenge_arrow"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "7CA79422C0EE099A"
-			rewards: [{
-				id: "3780764850BE486F"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "22032148288C2876"
-				item: "archers_paradox:diamond_arrow"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "20B2B1583BC8DC69"
-			rewards: [{
-				id: "2FE2B7885701B898"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5DC512030C0F469B"
-				item: "archers_paradox:verdant_arrow"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "334E6DF64811B55C"
-			rewards: [{
-				id: "19C5D0DF06FA3ECD"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "27000F932405D060"
-				item: "archers_paradox:spore_arrow"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "7581ADB5F0A66C2B"
 			rewards: [{
 				id: "31FD123D0AE1200A"
@@ -375,7 +151,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -546,22 +322,6 @@
 			}]
 			x: 0.5d
 			y: -2.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "626B294CEDCE39D1"
-			rewards: [{
-				id: "7DED9BD25286213F"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "665E81521DEC2784"
-				item: "archers_paradox:prismarine_arrow"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -922,7 +682,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -938,7 +698,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -954,7 +714,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -970,7 +730,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -986,7 +746,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1002,7 +762,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1018,7 +778,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1034,7 +794,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1050,7 +810,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1066,7 +826,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1082,7 +842,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1173,6 +933,70 @@
 			}]
 			x: 0.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "05C8ACFD800A8FC6"
+			rewards: [{
+				id: "0FC24B062D971F4C"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6030E038C3AA2FBC"
+				item: "tide:deep_aqua_arrow"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "055826335D5646A4"
+			rewards: [{
+				id: "7E0CEB3060EA0FF2"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "238B560769BC0123"
+				item: "kubejs:explosive_arrow"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "391929913D3C4C5F"
+			rewards: [{
+				id: "5260F7F5DB430891"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FF2656453D2C631"
+				item: "kubejs:lightning_arrow"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "364FC4D2DBF1B1EB"
+			rewards: [{
+				id: "24E5D73FF65B813E"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25698579B363AD45"
+				item: "kubejs:power_arrow"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
 		}
 	]
 	title: "Sharpshooter"

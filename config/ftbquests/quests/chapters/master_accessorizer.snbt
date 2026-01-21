@@ -1279,7 +1279,7 @@
 				type: "item"
 			}]
 			x: -3.6d
-			y: 0.39999999999999947d
+			y: 3.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2414,23 +2414,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "69B75F6EA1B07022"
-			rewards: [{
-				id: "01BC5D293E9D945E"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "7E67B0C693601E81"
-				item: "enigmaticlegacy:void_pearl"
-				type: "item"
-			}]
-			x: 6.399999999999998d
-			y: 0.8000000000000007d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "14E7481935C9F21C"
 			rewards: [{
 				id: "07358DFC98006D7E"
@@ -2460,8 +2443,8 @@
 				item: "enigmaticlegacy:golem_heart"
 				type: "item"
 			}]
-			x: 6.399999999999998d
-			y: 2.4000000000000004d
+			x: 6.4d
+			y: 0.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -2993,6 +2976,11 @@
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "677908CA803E52BC"
+			rewards: [{
+				id: "68198B0D566C00DD"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
 			size: 0.8d
 			tasks: [{
 				id: "1182AEB3C126995B"
@@ -3807,34 +3795,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			icon: "enigmaticlegacy:enchanter_pearl"
-			id: "36B0E4C893D6CA8F"
-			rewards: [{
-				id: "3A35E82B1922EA26"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [
-				{
-					icon: "enigmaticlegacy:evil_essence"
-					id: "6196B766950FAF3B"
-					stat: "enigmaticlegacy:play_time_with_seven_curses"
-					type: "stat"
-					value: 1
-				}
-				{
-					id: "206E4A009B11876F"
-					item: "enigmaticlegacy:enchanter_pearl"
-					type: "item"
-				}
-			]
-			title: "Enchanter's Pearl"
-			x: -10.8d
-			y: -4.440892098500626E-16d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			icon: "enigmaticlegacy:desolation_ring"
 			id: "64CCDCD6D49276AF"
 			rewards: [{
@@ -3859,7 +3819,7 @@
 			]
 			title: "The Burden of Desolation"
 			x: -10.8d
-			y: 0.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3895,7 +3855,7 @@
 			]
 			title: "The Testament of Contempt"
 			x: -10.8d
-			y: 1.6d
+			y: 0.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3947,6 +3907,75 @@
 			}]
 			x: -6.8d
 			y: -3.2d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "21CB3239E5C13A30"
+			rewards: [{
+				id: "46C433E61E7CBCD1"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "7035F7A4157AE6B3"
+				item: "kubejs:mycelial_ring"
+				type: "item"
+			}]
+			x: 11.2d
+			y: -4.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "525AA3FB3D04FA94"
+			rewards: [{
+				id: "205EA821D557D94F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "2B2A3252CE6AC407"
+				item: "kubejs:bulking_ring"
+				type: "item"
+			}]
+			x: 10.4d
+			y: -4.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5A2CFB92C91146DE"
+			rewards: [{
+				id: "58DAA0F229B154C4"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "31C9CB405BF5829C"
+				item: "kubejs:nutrition_charm"
+				type: "item"
+			}]
+			x: 0.4d
+			y: 2.4d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6B96A81269002E50"
+			rewards: [{
+				count: 6
+				id: "14000E3039DAC95B"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "2093CF9F3B306AB4"
+				item: "kubejs:evasion_belt"
+				type: "item"
+			}]
+			x: -3.6d
+			y: 0.4d
 		}
 	]
 	title: "Master Accessorizer"
