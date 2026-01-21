@@ -3717,5 +3717,18 @@ Patch 4.0.0
 
 Patch 4.0.1
 
+### Removed Items:
+    -Enchanter's Pearl
+
+### New Items:
+    -Mycelial Ring
+
+### Quests:
+    -Adjusted the Quests for removed and added items
+
+### Villagers:
+    -Replaced unbreakable grafter trade with mycelial ring
+
 ### Other:
     -Aura will no longer "bonemeal" silly oddities plants that drop themselves on the ground
+    -Fixed lack of water elemental fluid bucket
