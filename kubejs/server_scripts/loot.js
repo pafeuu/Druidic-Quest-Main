@@ -27,6 +27,9 @@ LootJS.modifiers((event) => {
     ///=======================================Replacing Junk
 
     event.addLootTypeModifier(LootType.CHEST)
+        .replaceLoot('aether:zanite_pendant',"kubejs:zanite_pendant")
+	    .replaceLoot('aether:zanite_ring',"kubejs:zanite_ring")
+	    .replaceLoot('deep_aether:skyjade_ring',"kubejs:skyjade_rin")
         .replaceLoot("minecraft:stick","8x thermal:compost")
         .replaceLoot("minecraft:ice","fruitsdelight:hamimelon_popsicle")
         .replaceLoot("minecraft:snow","fruitsdelight:kiwi_popsicle")
@@ -255,7 +258,7 @@ LootJS.modifiers((event) => {
          })
          .addLoot("kubejs:mittens")
      //================================================ MOBS
-    
+
     event.addEntityLootModifier("alexsmobs:anaconda")
         .randomChance(0.025)
         .addLoot("kubejs:anaconda_totem")

@@ -11,6 +11,9 @@ var wood_TF_no_mangrove = ['canopy','twilight_oak','time','transformation','mini
 
 global.nukelist = [
 	"twigs:calcite_wall",
+	'aether:zanite_pendant',
+	'aether:zanite_ring',
+	'deep_aether:skyjade_ring',
 	'enigmaticlegacy:enchanter_pearl',
 	'rehooked:diamond_chain',
 	'rehooked:blaze_chain',
