@@ -1,0 +1,13 @@
+{
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "fyshisattribute:jump",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "85faabb4-44cd-4b0a-a7d5-609dc27f005b"
+    }
+  ],
+  "equipment_slot": "ring",
+  "id": "deep_aether:gravitite_ring"
+}
