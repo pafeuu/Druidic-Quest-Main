@@ -68,15 +68,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ancient_aether:warrior_ring"
+          "name": "aether:iron_ring"
         },
         {
           "type": "minecraft:item",
-          "name": "ancient_aether:growth_ring"
+          "name": "kubejs:tin_ring"
         },
         {
           "type": "minecraft:item",
-          "name": "ancient_aether:ancient_ring"
+          "name": "kubejs:zinc_ring"
         },
         {
           "type": "minecraft:item",
@@ -84,7 +84,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "irons_spellbooks:silver_ring"
+          "name": "kubejs:silver_ring"
         },
         {
           "type": "minecraft:item",

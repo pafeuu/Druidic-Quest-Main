@@ -18,7 +18,7 @@
               {
                 "type": "item",
                 "weight": 1,
-                "name": "ancient_aether:ancient_ring",
+                "name": "kubejs:sapphire_ring",
                 "functions": [
                   {
                     "function": "set_count",
@@ -29,22 +29,7 @@
               {
                 "type": "item",
                 "weight": 1,
-                "name": "twilightforest:knightmetal_sword",
-                "functions": [
-                  {
-                    "function": "set_count",
-                    "count": 1
-                  },
-                  {
-                    "function": "set_nbt",
-                    "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
-                  }
-                ]
-              },
-              {
-                "type": "item",
-                "weight": 1,
-                "name": "ancient_aether:hermes_pendant",
+                "name": "kubejs:amethyst_ring",
                 "functions": [
                   {
                     "function": "set_count",
@@ -55,7 +40,7 @@
               {
                 "type": "item",
                 "weight": 1,
-                "name": "ancient_aether:warrior_pendant",
+                "name": "kubejs:silver_pendant",
                 "functions": [
                   {
                     "function": "set_count",
@@ -66,7 +51,18 @@
               {
                 "type": "item",
                 "weight": 1,
-                "name": "ancient_aether:growth_pendant",
+                "name": "kubejs:ironwood_pendant",
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "weight": 1,
+                "name": "kubejs:emerald_pendant",
                 "functions": [
                   {
                     "function": "set_count",
