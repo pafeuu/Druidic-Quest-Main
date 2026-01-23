@@ -2,6 +2,8 @@
 
 ServerEvents.recipes(event=>{
 
+	const alloySmelter = event.recipes.thermal.smelter
+	const arcFurnace = event.recipes.immersiveengineering.arc_furnace
 	function Fuel(input, HowManyItemsItSmelts)
 	{
 		event.recipes.mbd2.alloying().duration(HowManyItemsItSmelts*205).inputItems(input).isFuel(true)
@@ -13,191 +15,142 @@ ServerEvents.recipes(event=>{
 	Fuel("kubejs:sunbird_feather",16)
 	
 
-	function spellstone(element,output)
-	{
-		event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			base_ingredient: {
-				item: "ars_nouveau:"+element+"_essence"
-			},
-			count: 16
-		  },
-		  "input1": {
-            base_ingredient: {
-			item: "kubejs:elemental_core"
-            },
-            count: 1
-		  },
-		  "result": {
-			"base_ingredient": {
-			  item: "enigmaticlegacy:"+output
-			},
-			"count": 1
-		  },
-		  "time": 600
-		})
-	}
-
-	spellstone("fire","blazing_core")
-	spellstone("earth","golem_heart")
-	spellstone("water","ocean_stone")
-	spellstone("air","angel_blessing")
-
-	function kiln(Output,OutputAmount,Input1,InputAmount1,Input2,InputAmount2)
-	{
-		event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			base_ingredient: {
-				item: Input1
-			},
-			count: InputAmount1
-		  },
-		  "input1": {
-            base_ingredient: {
-			item: Input2
-            },
-            count: InputAmount2
-		  },
-		  "result": {
-			"base_ingredient": {
-			  item: Output
-			},
-			"count": OutputAmount
-		  },
-		  "time": 600
-		})
-	}
-
-	event.custom({
-		type: "immersiveengineering:alloy",
-		  "input0": {
-			base_ingredient: {
-				item: "kubejs:ender_essence"
-			},
-			count: 16
-		  },
-		  "input1": {
-            base_ingredient: {
-			item: "kubejs:elemental_core"
-            },
-            count: 1
-		  },
-		  "result": {
-			"base_ingredient": {
-			  item: "enigmaticlegacy:eye_of_nebula"
-			},
-			"count": 1
-		  },
-		  "time": 600
-		})
-	
-	kiln("wizards_reborn:arcane_gold_ingot",2,
-			"ars_nouveau:abjuration_essence",4,
-			"naturesaura:tainted_gold",2
-	)
-
 	
 	event.remove({id:"thermal:machines/smelter/smelter_alloy_enderium"})
 	event.remove({id:"thermal:machines/smelter/smelter_alloy_lumium"})
 
-	kiln("thermal:enderium_ingot",2,
-			"thermal:lead_ingot",2,
-			"kubejs:ender_essence",4
-	)
-
-	kiln("thermal:lumium_ingot",1,
-		"thermal:enderium_ingot",1,
-		"kubejs:light_essence",4
-	)
-	
-	kiln("twilightforest:fiery_tears",2,
-		"twilightforest:fiery_tears",1,
-		"ars_nouveau:fire_essence",4
-	)
-
-	kiln("twilightforest:fiery_blood",2,
-		"twilightforest:fiery_blood",1,
-		"ars_nouveau:fire_essence",4
-	)
-
-	kiln("kubejs:source_alloy_ingot",2,
-		"minecraft:gold_ingot",2,
-		"ars_nouveau:source_gem",3
-	)
-
-    kiln("kubejs:arcanum_alloy_ingot",2,
-		"minecraft:iron_ingot",2,
-		"wizards_reborn:arcanum",3
-	)
-
-	kiln("create:andesite_alloy",2,
-		"kubejs:natural_clay_blend",1,
-		"minecraft:andesite",1
-	)
-
     event.remove({output:'create:andesite_alloy'})
-	
-	kiln("kubejs:aquatic_ingot",2,
-		"ars_nouveau:water_essence",2,
-		"kubejs:arcanum_alloy_ingot",1
-	)
-
-	kiln("twilightforest:fiery_ingot",1,
-		"kubejs:arcanum_alloy_ingot",1,
-		"twilightforest:fiery_blood",2
-	)
-
-	kiln("twilightforest:fiery_ingot",1,
-		"kubejs:arcanum_alloy_ingot",1,
-		"twilightforest:fiery_tears",2
-	)
 
     event.remove({id:"twilightforest:equipment/fiery_ingot_crafting"})
 	
-	kiln("kubejs:storm_ingot",1,
-		"kubejs:arcanum_alloy_ingot",1,
-		"ars_nouveau:air_essence",4
-	)
-
-	kiln("netherite_ingot",1,
-		"wizards_reborn:arcane_gold_ingot",4,
-		"netherite_scrap",4
-	)
 	
-	function kiln2(output,input1,input2)
+	
+	
+	function kilnWith2Ingredients(output,input1,input2)
 	{
 		event.recipes.mbd2.alloying()
 		.inputItems(input1)
 		.inputItems(input2)
 		.outputItems(output)
+		.duration(200)
+
+		alloySmelter(output,[input1,input2])
+		arcFurnace(output,input1,[input2])
 	}
 
-	function kiln3(output,input1,input2,input3)
+	function kilnWith3Ingredients(output,input1,input2,input3)
 	{
 		event.recipes.mbd2.alloying()
 		.inputItems(input1)
 		.inputItems(input2)
 		.inputItems(input3)
 		.outputItems(output)
+		.duration(200)
+
+		alloySmelter(output,[input1,input2,input3])
+
+		arcFurnace(output,input1,[input2,input3])
 	}
 
-	kiln3("wizards_reborn:arcane_gold_ingot",
+	
+
+	kilnWith3Ingredients("wizards_reborn:arcane_gold_ingot",
 		"naturesaura:tainted_gold",
 		"4x ars_nouveau:abjuration_essence",
 		"thermal:cinnabar")
 		
-	kiln3("wizards_reborn:arcane_gold_ingot",
+	kilnWith3Ingredients("wizards_reborn:arcane_gold_ingot",
 		"naturesaura:tainted_gold",
 		"2x ars_nouveau:abjuration_essence",
 		"rubinated_nether:ruby")
 
-	kiln3("2x wizards_reborn:arcane_gold_ingot",
+	kilnWith3Ingredients("2x wizards_reborn:arcane_gold_ingot",
 		"2x naturesaura:tainted_gold",
 		"2x ars_nouveau:abjuration_essence",
 		"thermal:ruby")
 
+	kilnWith2Ingredients("netherite_ingot",
+		"4x wizards_reborn:arcane_gold_ingot",
+		"4x netherite_scrap"
+	)
+
+	kilnWith2Ingredients("kubejs:storm_ingot",
+		"kubejs:arcanum_alloy_ingot",
+		"4x ars_nouveau:air_essence"
+	)
+	kilnWith2Ingredients("kubejs:aquatic_ingot",
+		"kubejs:arcanum_alloy_ingot",
+		"4x ars_nouveau:water_essence"
+	)
+
+	kilnWith2Ingredients("twilightforest:fiery_ingot",
+		"kubejs:arcanum_alloy_ingot",
+		"2x #twilightforest:fiery_vial"
+	)
+
+	kilnWith3Ingredients("2x thermal:enderium_ingot",
+		"2x thermal:lead_ingot",
+		"4x kubejs:ender_essence",
+		"8x diamond"
+	)
+
+	kilnWith3Ingredients("thermal:lumium_ingot",
+		"thermal:enderium_ingot",
+		"4x kubejs:light_essence",
+		"8x aether:ambrosium_shard"
+	)
 	
+	kilnWith2Ingredients("2x twilightforest:fiery_tears",
+		"twilightforest:fiery_tears",
+		"4x ars_nouveau:fire_essence"
+	)
+
+	kilnWith2Ingredients("2x twilightforest:fiery_blood",
+		"twilightforest:fiery_blood",
+		"4x ars_nouveau:fire_essence"
+	)
+
+	kilnWith2Ingredients("2x kubejs:source_alloy_ingot",
+		"2x minecraft:gold_ingot",
+		"3x ars_nouveau:source_gem"
+	)
+
+    kilnWith2Ingredients("2x kubejs:arcanum_alloy_ingot",
+		"2x minecraft:iron_ingot",
+		"3x wizards_reborn:arcanum"
+	)
+
+	kilnWith3Ingredients("2x create:andesite_alloy",
+		"kubejs:natural_clay_blend",
+		"ars_nouveau:earth_essence",
+		"16x minecraft:andesite"
+	)
+
+	kilnWith2Ingredients("enigmaticlegacy:blazing_core",
+		"kubejs:elemental_core",
+		"16x ars_nouveau:fire_essence"
+	)
+	kilnWith2Ingredients("enigmaticlegacy:golem_heart",
+		"kubejs:elemental_core",
+		"16x ars_nouveau:earth_essence"
+	)
+
+	kilnWith2Ingredients("enigmaticlegacy:ocean_stone",
+		"kubejs:elemental_core",
+		"16x ars_nouveau:water_essence"
+	)
+
+	kilnWith2Ingredients("enigmaticlegacy:angel_blessing",
+		"kubejs:elemental_core",
+		"16x ars_nouveau:air_essence"
+	)
+
+	arcFurnace("kubejs:arcane_plating","4x wizards_reborn:arcane_gold_sheet",["4x netherite_ingot","8x thermal:ruby"])
+	
+	arcFurnace("ancient_aether:valkyrum","naturesaura:sky_ingot",["16x kubejs:life_essence","64x ars_nouveau:air_essence","16x thermal:sapphire"])
+
+	arcFurnace("deep_aether:stratus_ingot","16x aether:enchanted_gravitite",["8x thermal:ruby","8x thermal:sapphire"])
+
+	arcFurnace("deep_aether:stratus_ingot","16x kubejs:infused_amethyst",["16x kubejs:infused_diamond","16x thermal:ruby","16x thermal:sapphire","16x kubejs:infused_emerald"])
 
 })
