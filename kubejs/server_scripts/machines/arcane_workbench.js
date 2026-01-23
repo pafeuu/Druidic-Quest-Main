@@ -140,7 +140,7 @@ ServerEvents.recipes(event=>{
     ],
     "key": {
         "E": {
-        "item": "ars_nouveau:ring_of_potential"
+        "item": "aether:iron_ring"
         },
         "A": {
         "tag": "forge:ingots/iron"
@@ -1092,7 +1092,7 @@ ServerEvents.recipes(event=>{
     ],
     "key": {
         "E": {
-        "item": "ars_nouveau:ring_of_potential"
+        "item": "aether:golden_ring"
         },
         "A": {
         "tag": "forge:plates/gold"
@@ -1107,30 +1107,6 @@ ServerEvents.recipes(event=>{
     "wissen": 500
     })
 
-     event.custom({
-    "type": "wizards_reborn:arcane_workbench",
-    "pattern": [
-        "___",
-        "#E#",
-        "#_#",
-        "AAAA"
-    ],
-    "key": {
-        "E": {
-        "item": "ars_nouveau:ring_of_potential"
-        },
-        "A": {
-        "item": "kubejs:infused_emerald"
-        },
-        "#":{
-        "item": "lapis_lazuli"    
-        }
-    },
-    "output": {
-        "item": "enigmaticlegacy:golden_ring",
-    },
-    "wissen": 500
-    })
 
     event.custom({
         "type": "wizards_reborn:arcane_workbench",
