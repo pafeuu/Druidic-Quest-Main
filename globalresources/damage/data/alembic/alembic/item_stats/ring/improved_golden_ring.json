@@ -3,17 +3,17 @@
     "modifiers": [
       {
         "type": "append",
-        "attribute": "alembic:ice_damage.resistance",
-        "value": -3,
+        "attribute": "irons_spellbooks:max_mana",
+        "value": 40,
         "operation": "ADDITION",
-        "uuid": "e2ba06b5-f08d-4b7d-9dd1-b290205ebb1a"
+        "uuid": "5676e63e-b313-4efd-998d-ed48febf5fe5"
       },
       {
         "type": "append",
         "attribute": "puffish_attributes:fortune",
         "value": 0.1,
         "operation": "ADDITION",
-        "uuid": "e2ba3315-f08d-4b4d-9dd1-b290205ebb1a"
+        "uuid": "e1a0189f-817b-4876-8107-5e9ca07b08e8"
       },
       {
       "type": "remove",

@@ -1,0 +1,20 @@
+{
+    "id": "enigmaticlegacy:iron_ring",
+    "modifiers": [
+      {
+        "type": "append",
+        "attribute": "minecraft:generic.armor",
+        "value": 1,
+        "operation": "ADDITION",
+        "uuid": "716eb781-85ee-4610-865e-d7d489732b04"
+      },
+      {
+        "type": "append",
+        "attribute": "minecraft:generic.max_health",
+        "value": 2,
+        "operation": "ADDITION",
+        "uuid": "84733f53-eabf-47a9-b8ff-04cb9c288a9f"
+      }
+    ],
+    "equipment_slot": "ring"
+  }

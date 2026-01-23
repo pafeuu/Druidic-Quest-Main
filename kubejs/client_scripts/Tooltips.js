@@ -410,6 +410,8 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("aether:ice_ring",[Text.gold("When worn as ring:"),Text.blue("Freezes water and lava beneath you")])
   tooltip.add("kubejs:mycelial_ring",[Text.gold("When worn as ring:"),Text.blue("Very slowly replenishes hunger and saturation when held")])
   tooltip.add("aether:ice_pendant",[Text.gold("When around neck:"),Text.blue("Freezes water and lava beneath you")])
+  tooltip.add("kubejs:ruby_ring",[Text.gold("When worn as ring:"),Text.blue("Heals you very slowly")])
+  tooltip.add("kubejs:ruby_pendant",[Text.gold("When around neck:"),Text.blue("Heals you very slowly")])
 
   tooltip.add("aether:sentry_boots",Text.blue("Grants immunity to fall damage"))
   tooltip.add(["deep_aether:skyjade_boots",

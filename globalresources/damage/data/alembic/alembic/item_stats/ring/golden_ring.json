@@ -1,0 +1,13 @@
+{
+    "id": "aether:golden_ring",
+    "modifiers": [
+      {
+        "type": "append",
+        "attribute": "irons_spellbooks:max_mana",
+        "value": 40,
+        "operation": "ADDITION",
+        "uuid": "cacfe61a-03fd-4d1f-81a8-c3065f1339f8"
+      }
+    ],
+    "equipment_slot": "ring"
+  }

@@ -1,13 +1,13 @@
 {
-    "id": "aether:iron_ring",
+    "id": "aether:iron_pendant",
     "modifiers": [
       {
         "type": "append",
         "attribute": "minecraft:generic.armor",
-        "value": 2,
+        "value": 3,
         "operation": "ADDITION",
-        "uuid": "78dc5cec-911b-4f16-9b96-9e3b6df0ad02"
+        "uuid": "5278c6cd-f58b-4f88-83d8-bafa8a5a9ca7"
       }
     ],
-    "equipment_slot": "ring"
+    "equipment_slot": "necklace"
   }

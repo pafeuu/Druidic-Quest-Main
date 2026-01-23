@@ -3747,7 +3747,41 @@ Patch 4.0.1
     -CraftingStationImproved
     -CraftingTweaks
     -ExtremeSoundMuffler
+    -FTB Teams
+    -Fusion
+    -Fzzy Config
+    -MEED
+    -ModernFix
+    -MoonlightLib
+    -OhtheTreesYoullGrow
+    -SophisticatedMods
+    -Tooltip Overhaul
+    -Waystones
     -
+
+### Item Balance:
+    -Buffed the gravitite ring
+    -Rebalanced skyjade ring
+    -Rebalanced zanite ring
+    -Rebalanced zanite pendant
+    -Buffed Iron Ring
+    -Buffed Golden Ring
+    -Buffed Iron Pendant
+    -Buffed Golden Pendant
+    -Rebalanced Improved Iron Ring
+    -Rebalanced Improved Golden Ring
+
+### Recipes:
+    -Rebalanced and fixed a bunch of alloying recipes
+    -Removed arc furnace recycling functionality
+    -Changed for Arcane Plating
+    -Changed for Stratus ingot
+    -Added for Valkyrum
+    -Changed for Improved Golden Ring
+    -Changed for Improved Iron Ring
+
+### Loot:
+    -Slightly Rebalanced the dimensional keys loot table
 
 ### Other:
     -Fixed the jittering on elemental machines progress bars

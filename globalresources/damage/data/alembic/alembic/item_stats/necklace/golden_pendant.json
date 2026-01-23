@@ -1,0 +1,13 @@
+{
+    "id": "aether:golden_pendant",
+    "modifiers": [
+      {
+        "type": "append",
+        "attribute": "irons_spellbooks:max_mana",
+        "value": 60,
+        "operation": "ADDITION",
+        "uuid": "64db15c9-7922-4c3f-9d11-12c33eb0a02e"
+      }
+    ],
+    "equipment_slot": "necklace"
+  }
