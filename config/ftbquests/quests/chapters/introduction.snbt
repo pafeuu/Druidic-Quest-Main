@@ -949,13 +949,10 @@
 		}
 		{
 			dependencies: ["7846743FB0D30EAD"]
-			description: [
-				"Jewelry is a big part of the modpack. Putting together a good set of curios might be necessary to survive in this cruel world."
-				""
-				"Look at items from the Enigmatic Legacy mod and many others to see what else you could craft to make yourself stronger!"
-			]
+			description: ["Jewelry is a big part of the modpack. Putting together a good set of curios might be necessary to survive in this cruel world."]
 			icon: "enigmaticlegacy:iron_ring"
 			id: "3EDF5559C9E29ED4"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "290711AFFFE68D15"
@@ -965,18 +962,38 @@
 			subtitle: "So sparkly!"
 			tasks: [
 				{
-					id: "7DF73EC4E0586B4D"
-					item: "enigmaticlegacy:iron_ring"
-					type: "item"
-				}
-				{
 					id: "7D458C8D19406586"
 					item: "enigmaticlegacy:magnet_ring"
 					type: "item"
 				}
 				{
-					id: "49C94266C775AAD7"
-					item: "enigmaticlegacy:golden_ring"
+					id: "1380D63F5307A302"
+					item: "kubejs:tin_ring"
+					type: "item"
+				}
+				{
+					id: "72EF458EA9E7D408"
+					item: "kubejs:diamond_ring"
+					type: "item"
+				}
+				{
+					id: "024D61B6C124AA63"
+					item: "kubejs:nickel_ring"
+					type: "item"
+				}
+				{
+					id: "1749E719CEA2BD65"
+					item: "kubejs:tin_pendant"
+					type: "item"
+				}
+				{
+					id: "5BDCCDBE202F3BC0"
+					item: "kubejs:diamond_pendant"
+					type: "item"
+				}
+				{
+					id: "20E18BC1DCAA42ED"
+					item: "kubejs:nickel_pendant"
 					type: "item"
 				}
 			]
@@ -1016,7 +1033,7 @@
 				type: "item"
 			}]
 			title: "Important Piece of Equipment"
-			x: 10.5d
+			x: 10.0d
 			y: 3.0d
 		}
 		{
@@ -1172,7 +1189,7 @@
 			}]
 			title: "The Big Oven"
 			x: 13.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4E4E7EFB7FFC688B"]
