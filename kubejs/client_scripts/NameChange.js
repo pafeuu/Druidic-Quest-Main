@@ -167,6 +167,9 @@ ClientEvents.lang("en_us", event => {
     event.add("block.mbd2.infernal_smelter","Infernal Smelter")
     event.renameBlock("irons_spellbooks:arcane_debris","Eternal Debris")
     event.renameItem("irons_spellbooks:arcane_salvage","Scrap of Eternity")
+    event.renameItem("irons_spellbooks:arcane_ingot","Mystic Ingot")
+    event.renameItem("enigmaticlegacy:iron_ring","Improved Iron Ring")
+    event.renameItem("enigmaticlegacy:golden_ring","Improved Golden Ring")
     
 
     
