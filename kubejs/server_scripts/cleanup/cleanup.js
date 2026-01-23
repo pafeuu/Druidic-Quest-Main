@@ -496,6 +496,11 @@ ServerEvents.recipes(event => {
 
 	let RemoveById = [
 		"aether:skyroot_barrel",
+		"deep_aether:stratus_normal_recipe",
+		"ancient_aether:valkyrum_leggings",
+		"ancient_aether:valkyrum_helmet",
+		"ancient_aether:valkyrum_chestplate",
+		"ancient_aether:valkyrum_boots",
 		"naturesaura:altar/blaze",
 		"toomanyrecipeviewers:/create/kjs/dbwvu0cpsw4h9wxmrrln63nje",
 		"thermal:machines/pulverizer/pulverizer_basalz_rod",
