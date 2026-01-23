@@ -188,18 +188,6 @@ ServerEvents.recipes(event=>{
         "skyseeker_parts"
     )
 
-    binding("kubejs:arcane_plating","earth",5000,
-        "#forge:plates/arcane_gold",
-        "#forge:plates/arcane_gold",
-        "#forge:plates/arcane_gold",
-        "#forge:plates/arcane_gold",
-        "#forge:plates/arcane_gold",
-        "#forge:plates/arcane_gold",
-        "#forge:plates/arcane_gold",
-        "#forge:plates/arcane_gold",
-        "arcane_plating"
-    )
-
     binding5ingredients("kubejs:battlemage_cloth","fire",5000,
         "#forge:plates/netherite",
         "#forge:plates/netherite",
