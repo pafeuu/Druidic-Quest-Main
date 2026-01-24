@@ -3757,7 +3757,6 @@ Patch 4.0.1
     -SophisticatedMods
     -Tooltip Overhaul
     -Waystones
-    -
 
 ### Item Balance:
     -Buffed the gravitite ring
@@ -3786,3 +3785,13 @@ Patch 4.0.1
 ### Other:
     -Fixed the jittering on elemental machines progress bars
     -Luck Glyph can only be used 4 times per spell
+
+# Patch 4.2
+
+### Updated Mods:
+    -Tide
+    
+### Item Balance:
+    -Ruby ring and pendant now stack together
+    -Increased mining speed of the mycelial hoe
+    -Removed extra block reach of valkyrum ring and pendant in favor of increasing the invincibility time
