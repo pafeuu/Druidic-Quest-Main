@@ -18,7 +18,7 @@ ItemEvents.toolTierRegistry(event => {
 
   event.add('mycelial', tier => {
     tier.uses = -1
-    tier.speed = 7.0
+    tier.speed = 12.0
     tier.attackDamageBonus = 1.0
     tier.level = 4
     tier.enchantmentValue = 24
@@ -466,7 +466,7 @@ StartupEvents.registry('item', item => {
   ///===================================================NECKLACES
 
   item.create('cross_necklace').displayName('Cross Necklace').tag("curios:necklace").unstackable()
-
+      
   const pendantMaterials = [
     "tin",
     "nickel",
