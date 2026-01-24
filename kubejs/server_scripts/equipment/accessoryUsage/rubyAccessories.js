@@ -9,7 +9,7 @@ PlayerEvents.tick(event=>{
     {
         player.heal(2)
     }
-    else if(player.isCuriosEquipped("kubejs:ruby_pendant"))
+    if(player.isCuriosEquipped("kubejs:ruby_pendant"))
     {
         player.heal(3)
     }
