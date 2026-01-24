@@ -3,14 +3,14 @@ ServerEvents.recipes(event => {
     function AoeHoe(block,farmland){
         event.custom({
             "type": "lychee:block_interacting",
-            "hide_in_viewer": false,
+            "hide_in_viewer": true,
             "contextual": {
               "type": "is_sneaking",
             },
             "post": [
               {"type": "execute", "command": `fill ~-1 ~ ~-1 ~1 ~ ~1 ${farmland} replace ${block}`,"hide": true},
               {"type": "damage_item", "damage": 5, "target": "/item_in/0"},
-              {"type": "execute", "command": "playsound minecraft:item.hoe.till neutral @p"}
+              {"type": "execute", "command": "playsound minecraft:item.hoe.till neutral @p","hide": true}
             ],
             "item_in": [
               {
@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
 
         event.custom({
             "type": "lychee:block_interacting",
-            "hide_in_viewer": false,
+            "hide_in_viewer": true,
             "contextual": {
               "type": "is_sneaking",
             },
@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
 
         event.custom({
             "type": "lychee:block_interacting",
-            "hide_in_viewer": false,
+            "hide_in_viewer": true,
             "contextual": {
               "type": "is_sneaking",
             },
