@@ -165,11 +165,19 @@ ClientEvents.lang("en_us", event => {
     event.renameItem("brewinandchewin:pizza","Veggie Pizza")
     event.renameItem("brewinandchewin:pizza_slice","Veggie Pizza Slice")
     event.add("block.mbd2.infernal_smelter","Infernal Smelter")
+    event.add("mbd2.infernal_smelting","Infernal Smelter")
     event.renameBlock("irons_spellbooks:arcane_debris","Eternal Debris")
     event.renameItem("irons_spellbooks:arcane_salvage","Scrap of Eternity")
     event.renameItem("irons_spellbooks:arcane_ingot","Mystic Ingot")
     event.renameItem("enigmaticlegacy:iron_ring","Improved Iron Ring")
     event.renameItem("enigmaticlegacy:golden_ring","Improved Golden Ring")
+
+    event.renameBlock("quark:cocoa_beans_sack","Cocoa Bean Crate")
+    event.renameBlock("quark:nether_wart_sack","Nether Wart Crate")
+    event.renameBlock("quark:berry_sack","Sweet Berry Crate")
+    event.renameBlock("quark:glowberry_sack","Glow Berry Crate")
+    event.renameBlock("vintagedelight:gearo_berry_bag","Gearo Berry Crate")
+    event.renameBlock("ars_nouveau:sourceberry_sack","Sourceberry Crate")
     
 
     
