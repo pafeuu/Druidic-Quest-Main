@@ -219,7 +219,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: -2.5d
 		}
 		{
@@ -936,22 +936,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "05C8ACFD800A8FC6"
-			rewards: [{
-				id: "0FC24B062D971F4C"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6030E038C3AA2FBC"
-				item: "tide:deep_aqua_arrow"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "055826335D5646A4"
 			rewards: [{
 				id: "7E0CEB3060EA0FF2"
@@ -963,7 +947,7 @@
 				item: "kubejs:explosive_arrow"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -8.0d
 			y: 0.5d
 		}
 		{
@@ -979,7 +963,7 @@
 				item: "kubejs:lightning_arrow"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: 0.5d
 		}
 		{
@@ -995,8 +979,30 @@
 				item: "kubejs:power_arrow"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "096D85359F5ABCC8"
+			rewards: [{
+				id: "40C87642BA1671C4"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E5B27601955D303"
+				item: {
+					Count: 1
+					id: "tide:starlight_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
 		}
 	]
 	title: "Sharpshooter"

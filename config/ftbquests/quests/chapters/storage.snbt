@@ -82,7 +82,7 @@
 				}
 			]
 			title: "The most basic form of storage"
-			x: -4.5d
+			x: -5.0d
 			y: 3.0d
 		}
 		{
@@ -99,7 +99,7 @@
 				item: "supplementaries:sack"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 3.0d
 		}
 		{
@@ -116,7 +116,7 @@
 				item: "immersiveengineering:crate"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 4.5d
 		}
 		{
@@ -135,8 +135,8 @@
 				item: "quark:crate"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.0d
+			x: -3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1CBDCC784C114148"]
@@ -179,7 +179,7 @@
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 6.0d
 		}
 		{
@@ -196,7 +196,7 @@
 				item: "immersiveengineering:reinforced_crate"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 4.5d
 		}
 		{
@@ -213,7 +213,7 @@
 				item: "sophisticatedbackpacks:copper_backpack"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 7.5d
 		}
 		{
@@ -229,7 +229,7 @@
 				item: "sophisticatedbackpacks:iron_backpack"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 9.0d
 		}
 		{
@@ -246,7 +246,7 @@
 				item: "sophisticatedbackpacks:diamond_backpack"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 12.0d
 		}
 		{
@@ -262,7 +262,7 @@
 				item: "sophisticatedbackpacks:netherite_backpack"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 13.5d
 		}
 		{
@@ -300,18 +300,30 @@
 		}
 		{
 			dependencies: ["25205D8CDA01C923"]
+			description: ["Stores 512 buckets"]
+			icon: "immersiveengineering:tank"
 			id: "5B9D369ED404FE32"
 			rewards: [{
-				count: 3
+				count: 24
 				id: "273CFF9866A17D34"
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "04837D256E48C6F0"
-				item: "minecraft:bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 34L
+					id: "04837D256E48C6F0"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4ECC742441B8023E"
+					item: { Count: 4, id: "immersiveengineering:treated_fence" }
+					type: "item"
+				}
+			]
+			title: "Multiblock Tank"
 			x: 2.5d
 			y: 1.0d
 		}
@@ -461,10 +473,18 @@
 			}]
 			tasks: [{
 				id: "5C9FA0B891226CFE"
-				item: "create:brown_toolbox"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:toolboxes)"
+					}
+				}
+				title: "Any #create:toolboxes"
 				type: "item"
 			}]
-			x: 0.0d
+			title: "Toolboxes!"
+			x: 0.5d
 			y: 3.0d
 		}
 		{
@@ -481,7 +501,7 @@
 				item: "sophisticatedbackpacks:gold_backpack"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 10.5d
 		}
 		{
@@ -492,7 +512,7 @@
 				item: "sophisticatedstorage:basic_tier_upgrade"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.0d
 			y: 4.5d
 		}
 		{
@@ -503,7 +523,7 @@
 				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 6.0d
 		}
 		{
@@ -514,7 +534,7 @@
 				item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 7.5d
 		}
 		{
@@ -536,7 +556,7 @@
 				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 10.5d
 		}
 		{
@@ -558,7 +578,7 @@
 				item: "sophisticatedstorage:stack_upgrade_tier_1"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: 6.0d
 		}
 		{
@@ -569,7 +589,7 @@
 				item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: 7.5d
 		}
 		{
@@ -591,7 +611,7 @@
 				item: "sophisticatedstorage:stack_upgrade_tier_3"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: 10.5d
 		}
 		{
@@ -602,7 +622,7 @@
 				item: "sophisticatedstorage:stack_upgrade_tier_5"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: 13.5d
 		}
 		{
@@ -641,7 +661,7 @@
 				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -0.5d
 			y: 7.5d
 		}
 		{
@@ -658,7 +678,7 @@
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 9.0d
 		}
 		{
@@ -675,7 +695,7 @@
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -0.5d
 			y: 10.5d
 		}
 		{
@@ -692,7 +712,7 @@
 				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 12.0d
 		}
 		{
@@ -709,7 +729,7 @@
 				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -0.5d
 			y: 13.5d
 		}
 		{
@@ -726,7 +746,7 @@
 				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 15.0d
 		}
 		{
@@ -751,6 +771,102 @@
 			]
 			x: 7.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["1CBDCC784C114148"]
+			dependency_requirement: "one_started"
+			description: [
+				"Similar to Vaults they cant be accessed directly by player. Input item on the top, output items from the bottom."
+				""
+				"Can hold 648 Stacks of items"
+			]
+			icon: "immersiveengineering:silo"
+			id: "47E73C17164C8745"
+			rewards: [{
+				count: 4
+				id: "14559BC75617F9D4"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "120FF2B5032E8A4C"
+				item: "immersiveengineering:sheetmetal_iron"
+				type: "item"
+			}]
+			title: "Multiblock Silo"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E37F8D001094A5E"]
+			id: "339F7BCA2DC48A9B"
+			tasks: [{
+				id: "21953DEDB159B7AD"
+				title: "Energy Storage"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"339F7BCA2DC48A9B"
+				"4E37F8D001094A5E"
+			]
+			dependency_requirement: "one_completed"
+			id: "7C00D930A45352E2"
+			tasks: [{
+				id: "7A7F4745C5560602"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"339F7BCA2DC48A9B"
+				"4E37F8D001094A5E"
+			]
+			dependency_requirement: "one_completed"
+			id: "0C191FADAC00714C"
+			tasks: [{
+				id: "28B7E851D721492E"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"339F7BCA2DC48A9B"
+				"4E37F8D001094A5E"
+			]
+			dependency_requirement: "one_completed"
+			id: "787FB2E09A53D3C6"
+			tasks: [{
+				id: "63B4E072102D8E51"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"339F7BCA2DC48A9B"
+				"4E37F8D001094A5E"
+			]
+			dependency_requirement: "one_completed"
+			id: "1B5467E547755966"
+			tasks: [{
+				id: "513EC524CC7C2471"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
 		}
 	]
 	title: "Storage"

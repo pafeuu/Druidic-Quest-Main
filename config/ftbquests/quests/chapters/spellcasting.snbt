@@ -19,6 +19,7 @@
 				""
 				"Retrieve the scroll from the table to remove it from the book."
 			]
+			hide_until_deps_complete: true
 			id: "33E1BDC4DFEDE8B0"
 			shape: "octagon"
 			size: 1.5d
@@ -33,6 +34,7 @@
 		}
 		{
 			dependencies: ["6BCC24F77F7598FB"]
+			hide_until_deps_complete: true
 			id: "2DB5DB573C8D5038"
 			subtitle: "6 Spell Slots"
 			tasks: [{
@@ -140,6 +142,7 @@
 		}
 		{
 			dependencies: ["6BCC24F77F7598FB"]
+			hide_until_deps_complete: true
 			id: "309CF72640129A6E"
 			subtitle: "8 Spell Slots"
 			tasks: [{
@@ -163,6 +166,7 @@
 		}
 		{
 			dependencies: ["6BCC24F77F7598FB"]
+			hide_until_deps_complete: true
 			id: "3AA48BD33DE49DE6"
 			subtitle: "10 Spell Slots"
 			tasks: [{
@@ -186,6 +190,7 @@
 		}
 		{
 			dependencies: ["6BCC24F77F7598FB"]
+			hide_until_deps_complete: true
 			id: "1F1245466C6847C8"
 			subtitle: "10 Spell Slots"
 			tasks: [{
@@ -209,6 +214,7 @@
 		}
 		{
 			dependencies: ["6BCC24F77F7598FB"]
+			hide_until_deps_complete: true
 			id: "53E83155D759BDAB"
 			subtitle: "10 Spell Slots"
 			tasks: [{
@@ -251,6 +257,7 @@
 		}
 		{
 			dependencies: ["6BCC24F77F7598FB"]
+			hide_until_deps_complete: true
 			id: "43286A1BDF512133"
 			subtitle: "10 Spell Slots"
 			tasks: [{
@@ -274,6 +281,7 @@
 		}
 		{
 			dependencies: ["6BCC24F77F7598FB"]
+			hide_until_deps_complete: true
 			id: "10503117EC1F6DC2"
 			subtitle: "10 Spell Slots"
 			tasks: [{
@@ -323,6 +331,7 @@
 		}
 		{
 			dependencies: ["6BCC24F77F7598FB"]
+			hide_until_deps_complete: true
 			id: "626B0560A574D80B"
 			subtitle: "12 Spell Slots"
 			tasks: [{
@@ -346,6 +355,7 @@
 		}
 		{
 			dependencies: ["6BCC24F77F7598FB"]
+			hide_until_deps_complete: true
 			id: "08CF64BD740D26C6"
 			subtitle: "12 Spell Slots"
 			tasks: [{
@@ -458,6 +468,7 @@
 				""
 				"Once crafted, use the &5glyph&r to learn it."
 			]
+			hide_until_deps_complete: true
 			id: "149C40A3CB1F7A9C"
 			shape: "octagon"
 			size: 1.5d
@@ -479,6 +490,7 @@
 				""
 				"Press &5\"V\"&r (by default) to quick-select your spells."
 			]
+			hide_until_deps_complete: true
 			id: "78C091D917FDA212"
 			subtitle: "Teir 1 Glyphs"
 			tasks: [{
@@ -522,6 +534,7 @@
 				""
 				"Activate the ritual by interacting with the brazier with an empty hand."
 			]
+			hide_until_deps_complete: true
 			id: "6D2B1D96DF618211"
 			size: 1.5d
 			subtitle: "A Different Kind of Spell"
@@ -542,6 +555,7 @@
 				""
 				"Choose your armor wisely! The sorcerer's set gives the lowest armor value with the most thread slots, while the battlemage's set gives the highest armor value with the fewest thread slots. Check the &5Worn Notebook&r for more details!"
 			]
+			hide_until_deps_complete: true
 			id: "03CFF686F97F8F2B"
 			size: 1.5d
 			subtitle: "Mystic Embroidery"

@@ -1718,7 +1718,13 @@
 			size: 0.85d
 			tasks: [{
 				id: "6D54C1D12299EDA5"
-				item: "tide:sailfish"
+				item: {
+					Count: 1
+					id: "tide:sailfish"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 1.275d

@@ -249,7 +249,7 @@
 					type: "item"
 				}
 				{
-					id: "65EE97A9D89B0D01"
+					id: "36EF7F5D93E8F1C9"
 					item: "kubejs:shapeshifting_root"
 					type: "item"
 				}
@@ -1393,18 +1393,11 @@
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "50683194952F8508"
-			rewards: [
-				{
-					id: "5C97F8ED12099FDE"
-					item: "minecraft:coarse_dirt"
-					type: "item"
-				}
-				{
-					id: "73747849F46FB777"
-					item: "kubejs:shapeshifting_root"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5C97F8ED12099FDE"
+				item: "minecraft:coarse_dirt"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1CD23DC8CEE93CFA"
 				item: "wizards_reborn:innocent_wood_sapling"
@@ -1416,18 +1409,11 @@
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5833F3A01BAF2718"
-			rewards: [
-				{
-					id: "78A464C99A821A98"
-					item: "minecraft:coarse_dirt"
-					type: "item"
-				}
-				{
-					id: "45FAE244ED7B13F7"
-					item: "kubejs:shapeshifting_root"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "78A464C99A821A98"
+				item: "minecraft:coarse_dirt"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D7D4CCD5BB1FF2D"
 				item: "wizards_reborn:arcane_wood_sapling"
