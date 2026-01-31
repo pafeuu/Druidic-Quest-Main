@@ -469,7 +469,22 @@ global.nukelist = [
 	"aether:skyroot_stick",
 	'umbral_skies:hollow_skyroot_log',
 	'umbral_skies:hollow_golden_oak_log',
-	'twilightforest:uncrafting_table'
+	'twilightforest:uncrafting_table',
+	'irons_spellbooks:silver_ring',
+	'ancient_aether:divine_shovel',
+	'ancient_aether:divine_pickaxe',
+	'ancient_aether:divine_axe',
+	'ancient_aether:divine_hoe',
+	'quark:beetroot_crate',
+	'quark:carrot_crate',
+	'quark:potato_crate',
+	'thermal:carrot_block',
+	'thermal:potato_block',
+	'thermal:apple_block',
+	'quark:apple_crate',
+	"arsdelight:source_berry_crate",
+	"thermal:beetroot_block",
+	"vintagedelight:cutting/pitcher_plant"
 	/*'create:factory_gauge',
 	'create:redstone_requester',
 	'create:stock_link',
@@ -496,6 +511,7 @@ ServerEvents.recipes(event => {
 
 	let RemoveById = [
 		"aether:skyroot_barrel",
+		"twigs:stick_from_twig",
 		"deep_aether:stratus_normal_recipe",
 		"ancient_aether:valkyrum_leggings",
 		"ancient_aether:valkyrum_helmet",
@@ -1493,86 +1509,6 @@ ServerEvents.recipes(event => {
 	{
 		X: "calcite",
 		R: "kubejs:shapeshifting_root"
-	})
-
-	event.shaped("quark:blue_blossom_sapling",
-		[
-			"XXX",
-			"XRX",
-			"XXX"
-		],
-		{
-			X: "#forge:dyes/blue",
-			R: "kubejs:shapeshifting_root"
-	})
-
-	event.shaped("quark:red_blossom_sapling",
-		[
-			"XXX",
-			"XRX",
-			"XXX"
-		],
-		{
-			X: "#forge:dyes/red",
-			R: "kubejs:shapeshifting_root"
-	})
-
-	event.shaped("quark:lavender_blossom_sapling",
-		[
-			"XXX",
-			"XRX",
-			"XXX"
-		],
-		{
-			X: "#forge:dyes/purple",
-			R: "kubejs:shapeshifting_root"
-	})
-
-	event.shaped("quark:orange_blossom_sapling",
-		[
-			"XXX",
-			"XRX",
-			"XXX"
-		],
-		{
-			X: "#forge:dyes/orange",
-			R: "kubejs:shapeshifting_root"
-	})
-
-	event.shaped("quark:yellow_blossom_sapling",
-		[
-			"XXX",
-			"XRX",
-			"XXX"
-		],
-		{
-			X: "#forge:dyes/yellow",
-			R: "kubejs:shapeshifting_root"
-	})
-
-
-	event.shaped("quark:glow_shroom",
-		[
-			"ZXZ",
-			"ZRZ",
-			"ZZZ"
-		],
-		{
-			X: "#forge:mushrooms",
-			Z: "glow_berries",
-			R: "kubejs:shapeshifting_root"
-	})
-
-	event.shaped("biomeswevegone:blue_spruce_sapling",
-		[
-			"ZXZ",
-			"ZRZ",
-			"ZZZ"
-		],
-		{
-			X: "minecraft:spruce_sapling",
-			Z: "blue_dye",
-			R: "kubejs:shapeshifting_root"
 	})
 
 	event.shaped("lodestone",
