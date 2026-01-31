@@ -116,4 +116,28 @@ ServerEvents.recipes(event=>{
     Tokens("terror","fear","kubejs:infused_emerald","emerald")
     Tokens("euphoria","joy","kubejs:infused_amethyst","amethyst_shard")
 
+    function enchanterWeapons(output,input)
+    {
+        apparatus([
+            "#forge:gears/tainted_gold",
+            "#forge:gears/source_alloy",
+            "irons_spellbooks:weapon_parts",
+            "ars_nouveau:manipulation_essence",
+            "ars_nouveau:manipulation_essence",
+            "ars_nouveau:manipulation_essence",
+            
+        ],
+        input,
+        output)
+
+        event.remove({output:output})
+    }
+
+    enchanterWeapons("ars_nouveau:wand","irons_spellbooks:ice_staff")
+    enchanterWeapons("ars_nouveau:spell_bow","minecraft:bow")
+    enchanterWeapons("ars_nouveau:spell_crossbow","minecraft:crossbow")
+    enchanterWeapons("ars_nouveau:enchanters_sword","minecraft:diamond_sword")
+    enchanterWeapons("arsdelight:enchanters_knife","farmersdelight:diamond_knife")
+    enchanterWeapons("ars_nouveau:enchanters_mirror","#c:glass_blocks")
+
 })
