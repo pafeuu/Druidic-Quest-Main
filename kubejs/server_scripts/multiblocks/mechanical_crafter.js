@@ -1,0 +1,23 @@
+ServerEvents.recipes(event=>{
+
+    event.recipes.create.mechanical_crafting("kubejs:infusing_altar",
+        [
+            "DSARE",
+            "DSARE",
+            "DSARE",
+            "BGXGB",
+            "LBBBL"
+        ],
+        {
+            D:"kubejs:infused_diamond",
+            S:"thermal:sapphire",
+            A:"kubejs:infused_amethyst",
+            R:"thermal:ruby",
+            E:"kubejs:infused_emerald",
+            B:"rubinated_nether:altar_stone",
+            G:"#forge:gears/lumium",
+            L:"kubejs:lightning_essence",
+            X:"kubejs:steel_machine"
+        }
+    )
+})

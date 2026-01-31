@@ -141,6 +141,31 @@ ServerEvents.recipes(event => {
     { type: 'item', name: 'kubejs:basic_alchemical_dust' }
   ]);
 
+  Infusing("kubejs:electricity_essence",1,[
+    { type: 'item', name: 'thermal:sapphire' },
+    { type: 'item', name: 'thermal:sapphire' },
+    { type: 'item', name: 'thermal:sapphire' },
+    { type: 'item', name: 'thermal:sapphire' },
+    { type: 'item', name: "kubejs:berry_quartz" },
+    { type: 'item', name: "kubejs:berry_quartz" },
+    { type: 'item', name: "kubejs:berry_quartz" },
+    { type: 'item', name: "kubejs:berry_quartz" },
+    { type: 'item', name: "kubejs:lightning_essence" }
+  ]);
+
+
+  Infusing("kubejs:berry_quartz",1,[
+    { type: 'item', name: "quark:berry_sack" },
+    { type: 'item', name: "quark:glowberry_sack" },
+    { type: 'item', name: "arsdelight:source_berry_crate" },
+    { type: 'item', name: "vintagedelight:gearo_berry_bag" },
+    { type: 'item', name: "fruitsdelight:cranberry_crate" },
+    { type: 'item', name: "fruitsdelight:blueberry_crate" },
+    { type: 'item', name: "fruitsdelight:bayberry_crate" },
+    { type: 'item', name: "fruitsdelight:hawberry_crate" },
+    { type: 'item', name: "create:rose_quartz" }
+  ]);
+
   
 
 })
