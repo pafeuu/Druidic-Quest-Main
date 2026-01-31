@@ -296,6 +296,18 @@ ServerEvents.recipes(event=>{
           "quark:red_blossom_sapling",100
      ).id("naturesaura:tree_ritual/token_anger")
 
+     tree_ritual("4x kubejs:natural_clay_blend",
+          [
+               "clay",
+               "kubejs:nature_essence",
+               "kelp",
+               "kelp",
+               "#forge:dusts/iron",
+               "#forge:dusts/iron",
+               "#forge:dusts/iron",
+               "#forge:dusts/iron",
+          ]
+     )
      //==============================================Alloys===========================================
 
      tree_ritual("2x kubejs:source_alloy_ingot",
@@ -319,6 +331,19 @@ ServerEvents.recipes(event=>{
                "#forge:dusts/iron"],
                "birch_sapling",100
      )
+
+     tree_ritual("irons_spellbooks:arcane_ingot",
+          [    
+               "kubejs:arcanum_alloy_ingot",
+               "irons_spellbooks:arcane_essence",
+               "irons_spellbooks:arcane_essence",
+               "irons_spellbooks:arcane_essence",
+               "irons_spellbooks:arcane_essence",
+               "irons_spellbooks:arcane_essence",
+               "irons_spellbooks:arcane_essence",
+               "irons_spellbooks:arcane_essence"],
+               "wizards_reborn:arcane_wood_sapling",100
+     ).id("irons_spellbooks:arcane_ingot")
 
      tree_ritual("kubejs:storm_ingot",
           [
@@ -354,4 +379,379 @@ ServerEvents.recipes(event=>{
           ],
           "jungle_sapling"
      )
+
+     //========================================Shapeshifting Root================================================
+
+     tree_ritual("quark:glow_shroom",
+          [
+               "kubejs:shapeshifting_root",
+               "#c:mushrooms",
+               "glow_berries",
+               "glow_berries",
+               "glow_berries",
+               "glow_berries",
+               "glow_berries",
+               "glow_berries",
+          ],
+          "#minecraft:saplings"
+     )
+
+     const trumpetColors = ["red","orange","blue","yellow"]
+
+     trumpetColors.forEach(color => {
+          
+          tree_ritual(`quark:${color}_blossom_sapling`,
+               [
+                    "kubejs:shapeshifting_root",
+                    "#c:trumpet_saplings",
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+               ],
+               "#c:trumpet_saplings"
+          )
+     });
+
+     tree_ritual(`quark:lavender_blossom_sapling`,
+               [
+                    "kubejs:shapeshifting_root",
+                    "#c:trumpet_saplings",
+                    `#c:dyes/purple`,
+                    `#c:dyes/purple`,
+                    `#c:dyes/purple`,
+                    `#c:dyes/purple`,
+                    `#c:dyes/purple`,
+                    `#c:dyes/purple`,
+               ],
+               "#c:trumpet_saplings"
+          )
+
+     const spruceColors = ["red","yellow","blue","orange"]
+
+     spruceColors.forEach(color => {
+          
+          tree_ritual(`biomeswevegone:${color}_spruce_sapling`,
+               [
+                    "kubejs:shapeshifting_root",
+                    "spruce_sapling",
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+               ],
+               "spruce_sapling"
+          )
+     });
+
+     const birchColors = ["brown","red","yellow","orange"]
+
+     birchColors.forEach(color => {
+          
+          tree_ritual(`biomeswevegone:${color}_birch_sapling`,
+               [
+                    "kubejs:shapeshifting_root",
+                    "birch_sapling",
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+               ],
+               "birch_sapling"
+          )
+     });
+
+     const oakColors = ["brown","red","orange"]
+
+     oakColors.forEach(color => {
+          
+          tree_ritual(`biomeswevegone:${color}_oak_sapling`,
+               [
+                    "kubejs:shapeshifting_root",
+                    "oak_sapling",
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+                    `#c:dyes/${color}`,
+               ],
+               "oak_sapling"
+          )
+     });
+
+     tree_ritual(`minecraft:dark_oak_sapling`,
+               [
+                    "kubejs:shapeshifting_root",
+                    "oak_sapling",
+                    `#c:dyes/black`,
+                    `#c:dyes/black`,
+                    `#c:dyes/black`,
+                    `#c:dyes/black`,
+                    `#c:dyes/black`,
+                    `#c:dyes/black`,
+               ],
+               "oak_sapling"
+          )
+
+     tree_ritual(`minecraft:pale_oak_sapling`,
+               [
+                    "kubejs:shapeshifting_root",
+                    "oak_sapling",
+                    `#c:dyes/white`,
+                    `#c:dyes/white`,
+                    `#c:dyes/white`,
+                    `#c:dyes/white`,
+                    `#c:dyes/white`,
+                    `#c:dyes/white`,
+               ],
+               "oak_sapling"
+          )
+
+     tree_ritual("twilightforest:hollow_oak_sapling",
+               [
+                    "kubejs:greater_shapeshifting_root",
+                    "oak_sapling",
+                    "#forge:plates/lead",
+                    "#forge:plates/lead",
+                    "#forge:plates/lead",
+                    "#forge:plates/lead",
+                    "#forge:plates/lead",
+                    "#forge:plates/lead",
+               ],
+               "oak_sapling"
+          )
+
+     tree_ritual("aether:golden_oak_sapling",
+               [
+                    "kubejs:greater_shapeshifting_root",
+                    "oak_sapling",
+                    "#forge:plates/gold",
+                    "#forge:plates/gold",
+                    "#forge:plates/gold",
+                    "#forge:plates/gold",
+                    "#forge:plates/gold",
+                    "#forge:plates/gold",
+               ],
+               "oak_sapling"
+          )
+
+     tree_ritual("twilightforest:twilight_oak_sapling",
+               [
+                    "kubejs:shapeshifting_root",
+                    "oak_sapling",
+                    "minecraft:poisonous_potato",
+                    "minecraft:poisonous_potato",
+                    "minecraft:poisonous_potato",
+                    "minecraft:poisonous_potato",
+                    "minecraft:poisonous_potato",
+                    "minecraft:poisonous_potato",
+               ],
+               "oak_sapling"
+          )
+
+     tree_ritual("twilightforest:rainbow_oak_sapling",
+               [
+                    "kubejs:greater_shapeshifting_root",
+                    "oak_sapling",
+                    `#c:dyes/red`,
+                    `#c:dyes/red`,
+                    `#c:dyes/lime`,
+                    `#c:dyes/lime`,
+                    `#c:dyes/blue`,
+                    `#c:dyes/blue`,
+               ],
+               "oak_sapling"
+          )
+
+     tree_ritual("twilightforest:time_sapling",
+               [
+                    "kubejs:greater_shapeshifting_root",
+                    "#minecraft:saplings",
+                    `clock`,
+                    `clock`,
+                    `clock`,
+                    `clock`,
+                    `clock`,
+                    `clock`,
+               ],
+               "acacia_sapling"
+          )
+
+     tree_ritual("quark:ancient_sapling",
+               [
+                    "kubejs:greater_shapeshifting_root",
+                    "acacia_sapling",
+                    `calcite`,
+                    `calcite`,
+                    `calcite`,
+                    `calcite`,
+                    `calcite`,
+                    `calcite`,
+               ],
+               "acacia_sapling"
+          )
+
+     tree_ritual("twilightforest:transformation_sapling",
+               [
+                    "kubejs:greater_shapeshifting_root",
+                    "#minecraft:saplings",
+                    "twilightforest:transformation_powder",
+                    `twilightforest:transformation_powder`,
+                    `twilightforest:transformation_powder`,
+                    `twilightforest:transformation_powder`,
+                    `twilightforest:transformation_powder`,
+                    `twilightforest:transformation_powder`,
+               ],
+               "acacia_sapling"
+          )
+
+     tree_ritual("twilightforest:mining_sapling",
+               [
+                    "kubejs:greater_shapeshifting_root",
+                    "#minecraft:saplings",
+                    "iron_pickaxe",
+                    `iron_pickaxe`,
+                    `iron_pickaxe`,
+                    `iron_pickaxe`,
+                    `iron_pickaxe`,
+                    `iron_pickaxe`,
+               ],
+               "acacia_sapling"
+     )
+
+     tree_ritual("twilightforest:sorting_sapling",
+               [
+                    "kubejs:greater_shapeshifting_root",
+                    "#minecraft:saplings",
+                    "woodenhopper:wooden_hopper",
+                    `woodenhopper:wooden_hopper`,
+                    `woodenhopper:wooden_hopper`,
+                    `woodenhopper:wooden_hopper`,
+                    `woodenhopper:wooden_hopper`,
+                    `woodenhopper:wooden_hopper`,
+               ],
+               "acacia_sapling"
+          )
+
+     tree_ritual("twilightforest:canopy_sapling",
+               [
+                    "kubejs:shapeshifting_root",
+                    "acacia_sapling",
+                    `#c:dyes/black`,
+                    `#c:dyes/black`,
+                    `#c:dyes/black`,
+                    `#c:dyes/black`,
+                    `#c:dyes/black`,
+                    `#c:dyes/black`,
+               ],
+               "acacia_sapling"
+          )
+
+     tree_ritual("twilightforest:mangrove_sapling",
+               [
+                    "kubejs:shapeshifting_root",
+                    "minecraft:mangrove_propagule",
+                    `#c:dyes/white`,
+                    `#c:dyes/white`,
+                    `#c:dyes/white`,
+                    `#c:dyes/white`,
+                    `#c:dyes/white`,
+                    `#c:dyes/white`,
+               ],
+               "minecraft:mangrove_propagule"
+          )
+
+     tree_ritual("twilightforest:darkwood_sapling",
+               [
+                    "kubejs:shapeshifting_root",
+                    "minecraft:dark_oak_sapling",
+                    `#c:dyes/black`,
+                    `#c:dyes/black`,
+                    `#c:dyes/black`,
+                    `#c:dyes/black`,
+                    `#c:dyes/black`,
+                    `#c:dyes/black`
+               ],
+               "#minecraft:saplings"
+          )
+
+     tree_ritual("minecraft:flowering_azalea",
+               [
+                    "kubejs:shapeshifting_root",
+                    "minecraft:oak_sapling",
+                    "moss_block",
+                    "moss_block",
+                    "moss_block",
+                    "moss_block",
+                    "moss_block",
+                    "moss_block"
+               ],
+               "minecraft:oak_sapling"
+          )
+
+      tree_ritual("biomeswevegone:jacaranda_sapling",
+               [
+                    "kubejs:shapeshifting_root",
+                    "minecraft:flowering_azalea",
+                    "#c:dyes/magenta",
+                    "#c:dyes/magenta",
+                    "#c:dyes/magenta",
+                    "#c:dyes/magenta",
+                    "#c:dyes/magenta",
+                    "#c:dyes/magenta"
+               ],
+               "minecraft:flowering_azalea"
+          )
+
+     tree_ritual("biomeswevegone:indigo_jacaranda_sapling",
+               [
+                    "kubejs:shapeshifting_root",
+                    "biomeswevegone:jacaranda_sapling",
+                    "#c:dyes/purple",
+                    "#c:dyes/purple",
+                    "#c:dyes/purple",
+                    "#c:dyes/purple",
+                    "#c:dyes/purple",
+                    "#c:dyes/purple"
+               ],
+               "biomeswevegone:jacaranda_sapling"
+          )
+
+     tree_ritual("minecraft:crimson_fungus",
+               [
+                    "kubejs:shapeshifting_root",
+                    "#c:mushrooms",
+                    "minecraft:nether_wart",
+                    "minecraft:nether_wart",
+                    "minecraft:nether_wart",
+                    "minecraft:nether_wart",
+                    "minecraft:nether_wart",
+                    "minecraft:nether_wart"
+               ],
+               "#minecraft:saplings"
+          )
+
+     tree_ritual("minecraft:warped_fungus",
+               [
+                    "kubejs:shapeshifting_root",
+                    "minecraft:crimson_fungus",
+                    "#c:dyes/green",
+                    "#c:dyes/green",
+                    "#c:dyes/green",
+                    "#c:dyes/green",
+                    "#c:dyes/green",
+                    "#c:dyes/green"
+               ],
+               "#minecraft:saplings"
+          )
+
+     
+    
 })
