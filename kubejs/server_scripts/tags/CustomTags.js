@@ -10,6 +10,13 @@ ServerEvents.tags("item",e=>{
     'kubejs:sacrificial_dagger',
   ])
 
+  e.add("c:trumpet_saplings",[
+    'quark:yellow_blossom_sapling',
+    'quark:red_blossom_sapling',
+    'quark:blue_blossom_sapling',
+    'quark:lavender_blossom_sapling',
+    'quark:orange_blossom_sapling'])
+
   e.add("minecraft:flowers/roses",[
     'twilightforest:thorn_rose',
     'biomeswevegone:rose',

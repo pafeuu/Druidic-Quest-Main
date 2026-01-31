@@ -148,4 +148,14 @@ ServerEvents.tags('block', event => {
 
   event.add("forge:ores",["minecraft:glowstone"])
 
+  const gravityBlacklist = [
+    "minecraft:budding_amethyst",
+    "minecraft:reinforced_deepslate"
+  ]
+  event.add("aether:gravitite_ability_blacklist",gravityBlacklist)
+
+  event.add("ars_nouveau:gravity_blacklist",gravityBlacklist)
+
+  event.add("forge:relocation_not_supported",gravityBlacklist)
+
 })

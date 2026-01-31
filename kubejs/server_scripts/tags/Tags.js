@@ -7,7 +7,9 @@ ServerEvents.tags('item', event => {
   event.removeAllTagsFrom([global.nukelist])
 
   event.remove("forge:dough","create:dough")
-  event.add("c:rods/wooden","twigs:twig")
+  event.add("c:rods/wooden",["twigs:twig","minecraft:stick","aether:skyroot_stick"])
+  event.add("c:barrels/wooden","#forge:barrels/wooden")
+  event.add("c:chests/wooden","#forge:chests/wooden")
   event.add("dq:sturdy_tools_repair_item","minecraft:netherite_scrap")
   event.add("farmersdelight:offhand_equipment","#forge:tools/totems")
   event.add("lychee:dispenser_placement","minecraft:iron_block")
