@@ -260,7 +260,7 @@ StartupEvents.registry("block", (event) => {
     .box(14,3,0,16,6,16)
     .box(0,3,14,16,6,16)
 
-    event.create("blasting_altar")
+    /*event.create("blasting_altar")
     .soundType("basalt")
     .hardness("3")
     .resistance("6")
@@ -286,7 +286,7 @@ StartupEvents.registry("block", (event) => {
     .box(0,3,0,2,6,16)
     .box(0,3,0,16,6,2)
     .box(14,3,0,16,6,16)
-    .box(0,3,14,16,6,16)
+    .box(0,3,14,16,6,16)*/
 
     event.create("sacrificial_altar")
     .soundType("basalt")

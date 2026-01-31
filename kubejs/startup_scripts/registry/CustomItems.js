@@ -534,7 +534,6 @@ StartupEvents.registry('item', item => {
   item.create('nether_key').displayName('Nether Key').tag("dq:tier2/tool")
   item.create('end_key').displayName('End Key').tag("dq:tier4/tool")
   item.create('aether_key').displayName('Aether Key').tag("dq:tier3/tool")
-  item.create('dark_key').displayName('Dark Key').tag("dq:tier5/tool")
   item.create('broken_key').displayName('Broken Key').tag("dq:tier0/tool")
 
   ///=================================================TOOLS============================================================
