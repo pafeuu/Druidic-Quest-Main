@@ -3788,10 +3788,108 @@ Patch 4.0.1
 
 # Patch 4.2
 
-### Updated Mods:
-    -Tide
-    
+### Removed Items:
+    -IronsSPellsNSpellbooks Silver ring
+    -Divine Pickaxe
+    -Divine Shovel
+    -Divine Axe
+    -Divine Hoe
+
+### Recipes:
+    -Changed for Golden Pendant
+    -Changed for Iron Pendant
+    -Changed for Valkyrum Pendant
+    -Changed for Valkyrum Ring
+    -Changed for Arcanum Ring
+    -Changed for Arcanum Amulet
+    -Changed for Apprentice's Spell Book
+    -Changed for Razor Wire
+    -Changed for Enchanter's Bow
+    -Changed for Enchanter's Crossbow
+    -Changed for Enchanter's Knife
+    -Changed for Enchanter's Sword
+    -Changed for Enchanter's Mirror
+    -Changed for Natural Clay Blend
+    -Changed for Mystic Ingot
+    -Moved all the shapeshifting root recipes to tree ritual
+    -Added a lot of new shapeshifting root recipes
+
 ### Item Balance:
     -Ruby ring and pendant now stack together
     -Increased mining speed of the mycelial hoe
     -Removed extra block reach of valkyrum ring and pendant in favor of increasing the invincibility time
+
+### Spell Balance:
+    -Gravity glyph no longer works on budding amethyst and reinforced deepslate
+    -Explosion glyph no longer deals damage to entities
+    -Crush glyph no longer deals damage to entities
+    -Cut glyph no longer deals damage to entities
+    -Lightning glyph no longer deals damage to entities
+    -Removed Cold Snap glyph
+    -Removed Animate Block glyph
+    -Removed Fangs Glyph
+    -Removed Flare Glyph
+    -Removed Summon Wolves Glyph
+    -Removed Summon Vex Glyph
+    -Removed Summon Undead Glyph
+    -Removed Wind shear Glyph
+
+### Other:
+    -Fixed a bunch of tags that messed with a lot of recipes
+
+
+# Patch 4.2.1
+
+### Recipes:
+    -Changed for Light Engineering Block
+    -Changed for Heavy Engineering Block
+    -Changed for Redstone Engineering Block
+    -Changed for Iron Mechanical Component
+    -Changed for Steel Mechanical Component
+    -Added for Infusing Altar
+    -Added for Flowering Azalea Bush
+    -Added for Jacaranda Sapling
+    -Added for Indigo Jacaranda Sapling
+    -Added for Crimson Funguss
+    -Added for Warped Funguss
+
+
+### Other:
+    -Fixed broken trumpet saplings tag
+
+
+# Patch 4.3
+
+### Removed Items:
+    -Dark Key
+    -Duplicate Storage Blocks for fruits and veggies
+    -Alloying Altar
+    -Blasting Altar
+    
+### Textures:
+    -Unified the textures of veggie and fruits storage blocks
+
+### New mods:
+    -Just Enough Immersive Multiblocks
+
+### Quests:
+    -Spellcasting chapter is now properly invisible until unlocked
+    -Added Multiblock Silo and Multiblock Tank to the Storage Chapter
+    -Started work on tier 4 chapter
+
+### Recipes:
+    -Creosote can no longer be used as diesel generator fuel
+    -Source Fluid can now be used as diesel generator fuel
+    -Changed for Mechanical Crafter
+    -Changed for Infusing Altar
+    -Added for Electricity Essence
+    -Added for Berry Quartz
+    -Added for Electrum Ingot
+    -Removed Duplicate Pitcher Plant cutting recipe
+
+### Loot:
+    -Fixed for stone ambrosium ore
+
+### Other:
+    -Fixed Capturing Gem animation
+    -You no longer get the fishing journal at the start of the game

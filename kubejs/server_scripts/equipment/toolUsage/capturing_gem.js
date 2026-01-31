@@ -38,7 +38,7 @@ ItemEvents.entityInteracted("kubejs:capturing_gem",event => {
         captured: true,
         entity: entityId,
         data: entityNbt,
-        custom_model_data: 1
+        CustomModelData: 1
     });// Stores entity details in the item's NBT
    
     event.getTarget().discard();// Removes Entity from the world
@@ -63,7 +63,7 @@ ItemEvents.rightClicked("kubejs:capturing_gem",event=>{
         mob.setPosition(pos.getX()+0.5, pos.getY()+1, pos.getZ()+0.5)// Sets the position of the mob in the center on the block
         mob.spawn()
         
-        item.setNbt({ captured: false, custom_model_data: 0 })// Sets the nbt data of the item back to the original
+        item.setNbt({ captured: false, CustomModelData: 0 })// Sets the nbt data of the item back to the original
     
     }
 
