@@ -4525,7 +4525,24 @@ ServerEvents.recipes(event => {
 		}
 	  ).id("create:crafting/kinetics/empty_blaze_burner")
 	//===================================================== Tier 4 Machines
-
+	
+	event.shaped("naturesaura:offering_table",
+		[
+			"III",
+			"AXB",
+			"CWD"
+		],
+		{
+			I: "deep_aether:stratus_ingot",
+			X: "kubejs:steel_machine",
+			A: "naturesaura:token_euphoria",
+			W: "naturesaura:wood_stand",
+			B: "naturesaura:token_terror",
+			C: "naturesaura:token_grief",
+			D: "naturesaura:token_rage"
+		}
+	).id("naturesaura:offering_table")
+	
 	event.remove({output:'torchmaster:megatorch'})
 	event.shaped(
 	  Item.of('torchmaster:megatorch'), 

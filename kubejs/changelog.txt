@@ -3865,6 +3865,10 @@ Patch 4.0.1
     -Duplicate Storage Blocks for fruits and veggies
     -Alloying Altar
     -Blasting Altar
+    -Phytogenic Insolator
+
+### Added items:
+    -Phytogenic Insolator(completely remade)
     
 ### Textures:
     -Unified the textures of veggie and fruits storage blocks
@@ -3886,6 +3890,7 @@ Patch 4.0.1
     -Added for Berry Quartz
     -Added for Electrum Ingot
     -Removed Duplicate Pitcher Plant cutting recipe
+    -Changed for Offering Table
 
 ### Loot:
     -Fixed for stone ambrosium ore
@@ -3893,3 +3898,9 @@ Patch 4.0.1
 ### Other:
     -Fixed Capturing Gem animation
     -You no longer get the fishing journal at the start of the game
+
+### Mob balance:
+    -Only a select few mobs will now spawn with items in hand
+    -mobs can no longer spawn with enchanters Weapons
+    -gusters are now blacklisted from all modifiers
+    -snow queen is now correctly blacklisted from all modifiers
