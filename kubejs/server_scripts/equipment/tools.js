@@ -553,7 +553,7 @@ ServerEvents.recipes(event => {
 			P: "#forge:plates/source_alloy",
 			Y: "#forge:plates/gold"
 		}
-	)
+	).id("kubejs:magic_shield")
 
 	event.recipes.ars_nouveau.enchanting_apparatus(
         [
@@ -1707,7 +1707,7 @@ ServerEvents.recipes(event => {
 	
 	event.shapeless("irons_spellbooks:iron_spell_book",["ars_nouveau:source_gem","irons_spellbooks:copper_spell_book","enigmaticlegacy:iron_ring"]).id("irons_spellbooks:iron_spell_book")
 
-	event.shapeless("irons_spellbooks:gold_spell_book",["irons_spellbooks:arcane_ingot","irons_spellbooks:iron_spell_book","irons_spellbooks:silver_ring"]).id("irons_spellbooks:gold_spell_book")
+	event.shapeless("irons_spellbooks:gold_spell_book",["irons_spellbooks:arcane_ingot","irons_spellbooks:iron_spell_book","aether:golden_ring"]).id("irons_spellbooks:gold_spell_book")
 
 	event.shapeless("irons_spellbooks:diamond_spell_book",["irons_spellbooks:energized_core","irons_spellbooks:gold_spell_book","irons_spellbooks:mana_ring"]).id("irons_spellbooks:diamond_spell_book")
 
