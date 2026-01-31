@@ -1145,6 +1145,16 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 	
+	event.shaped("4x immersiveengineering:razor_wire",
+		[
+			"WWW",
+			"FWF"
+		],
+		{
+			W: "#forge:wires/lead",
+			F: "immersiveengineering:treated_fence"
+		}).id("immersiveengineering:crafting/razor_wire")
+		
 	event.shaped("24x immersiveengineering:connector_structural",
 		[
 			"IRI",
@@ -1544,7 +1554,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			S: "#c:rods/wooden",
-			X: "#c:barrels/wooden",
+			X: "#forge:barrels/wooden",
 			I: "#forge:rods/iron"
 		}
 	)
@@ -1909,7 +1919,7 @@ ServerEvents.recipes(event => {
 			L: "minecraft:oak_log",
 			A: "naturesaura:ancient_sapling",
 			M: "kubejs:primitive_machine",
-			E: "#c:gems/emerald",
+			E: "#forge:gems/emerald",
 			T: "naturesaura:token_fear"
 		}
 	).id("naturesaura:oak_generator")
@@ -3977,21 +3987,6 @@ ServerEvents.recipes(event => {
 	  }
 	)
 	
-	event.shaped(
-	  Item.of('4x kubejs:natural_clay_blend'), 
-	  [
-	    'IGI',
-		'CXC',
-		'IGI'
-	  ],
-	  {
-		C: 'minecraft:clay_ball',
-		I: '#forge:dusts/iron',
-		X: 'kubejs:nature_essence',
-		G: 'minecraft:kelp'
-	  }
-	)
-	
 	
 	event.shapeless('9x create:andesite_alloy', ['create:andesite_alloy_block'])
 
@@ -4346,8 +4341,8 @@ ServerEvents.recipes(event => {
 		{ A:"create:andesite_casing",X:"thermal:saw_blade",Y:"kubejs:andesite_machine",Z:"ars_nouveau:glyph_fell" }).id("create:crafting/kinetics/mechanical_saw")
 	
 	event.shaped("create:mechanical_harvester",
-		[ "XXX","AYA","AZA" ],
-		{ A:"create:andesite_casing",X:"vintageimprovements:iron_spring",Y:"kubejs:andesite_machine",Z:"ars_nouveau:glyph_harvest" }).id("create:crafting/kinetics/mechanical_harvester")
+		[ "AXA","AYA","AZA" ],
+		{ A:"create:andesite_casing",X:"immersiveengineering:razor_wire",Y:"kubejs:andesite_machine",Z:"ars_nouveau:glyph_harvest" }).id("create:crafting/kinetics/mechanical_harvester")
 	
 	event.shaped("create:mechanical_plough",
 		[ "AXA","AYA","AZA" ],
@@ -4379,7 +4374,47 @@ ServerEvents.recipes(event => {
 	
 	//============================================ Tier 4 Components ========================================================================================
 	event.remove({id:"immersiveengineering:blastfurnace/steel_block"})
+	
+	event.shaped("immersiveengineering:light_engineering",
+		[
+			"SCS",
+			"CXC",
+			"SCS"
+		],
+		{
+			C: "immersiveengineering:component_iron",
+			S: "immersiveengineering:sheetmetal_iron",
+			X: "kubejs:steel_machine"
+		}
+	).id("immersiveengineering:crafting/light_engineering")
 
+	event.shaped("immersiveengineering:heavy_engineering",
+		[
+			"SCS",
+			"CXC",
+			"SCS"
+		],
+		{
+			C: "immersiveengineering:component_steel",
+			S: "immersiveengineering:sheetmetal_steel",
+			X: "kubejs:steel_machine"
+		}
+	).id("immersiveengineering:crafting/heavy_engineering")
+
+	event.shaped("immersiveengineering:rs_engineering",
+		[
+			"SCS",
+			"CXC",
+			"SCS"
+		],
+		{
+			C: "vintageimprovements:redstone_module",
+			S: "immersiveengineering:sheetmetal_steel",
+			X: "kubejs:steel_machine"
+		}
+	).id("immersiveengineering:crafting/rs_engineering")
+
+	
 	event.shaped("thermal:redstone_servo",
 		[
 			"RGR",
@@ -4508,7 +4543,7 @@ ServerEvents.recipes(event => {
 
 	event.shaped("create:mechanical_crafter",
 		[ "AZA","AYA","AXA" ],
-		{ A:"create:brass_casing",X:"sophisticatedstorage:crafting_upgrade",Y:"kubejs:andesite_machine",Z:"#forge:gears/steel"}).id("create:crafting/kinetics/mechanical_crafter")
+		{ A:"create:brass_casing",X:"sophisticatedstorage:crafting_upgrade",Y:"kubejs:steel_machine",Z:"#forge:gears/brass"}).id("create:crafting/kinetics/mechanical_crafter")
 	
 	event.shaped("vintageimprovements:belt_grinder",
 		[ "AZA","AYA","AXA" ],
@@ -4621,7 +4656,7 @@ ServerEvents.recipes(event => {
 		{
 			S: "immersiveengineering:capacitor_lv",
 			E: "thermal:rf_coil",
-			L: "#forge:gears/electrum",
+			L: "#forge:gears/uranium",
 			X: "thermal:sapphire"
 		}
 	).id("immersiveengineering:crafting/capacitor_mv")
@@ -4649,7 +4684,7 @@ ServerEvents.recipes(event => {
 		{
 			S: "immersiveengineering:capacitor_hv",
 			E: "thermal:rf_coil",
-			L: "#forge:gears/uranium",
+			L: "#forge:gears/electrum",
 			X: "thermal:ruby"
 		}
 	).id("thermal:energy_cell")

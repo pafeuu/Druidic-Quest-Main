@@ -76,8 +76,8 @@ ServerEvents.recipes(event=>{
     FluidCrafting("water","immersiveengineering:redstone_acid_fluid_block",[
         {tag:"forge:gems/sulfur"},
         {tag:"forge:gems/sulfur"},
-        {tag:"c:storage_blocks/redstone"},
-        {tag:"c:storage_blocks/redstone"},
+        {tag:"forge:storage_blocks/redstone"},
+        {tag:"forge:storage_blocks/redstone"},
     ],ParticleRedstone,SoundEffectElectric)
 
     ItemFluidCrafting("water",2,"farmersdelight:wheat_dough",[

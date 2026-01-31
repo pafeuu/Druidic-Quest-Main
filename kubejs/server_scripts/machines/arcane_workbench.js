@@ -1118,7 +1118,7 @@ ServerEvents.recipes(event=>{
         ],
         "key": {
             "S": {
-            "tag": "c:storage_blocks/slime"
+            "tag": "forge:storage_blocks/slime"
             },
             "N": {
             "item": "ars_nouveau:earth_essence"
