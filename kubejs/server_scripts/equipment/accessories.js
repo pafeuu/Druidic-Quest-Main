@@ -103,6 +103,68 @@ ServerEvents.recipes(event => {
     ring("uranium","#forge:plates/uranium")
     ring("copper","#forge:plates/copper")
 
+    event.shaped("aether:golden_pendant",[
+            " M ",
+            "MXM",
+            " M "
+        ],
+        {
+            M: "#forge:plates/gold",
+            X: "ars_nouveau:dull_trinket"
+        }).id("aether:golden_pendant")
+
+    event.shaped("aether:iron_pendant",[
+            " M ",
+            "MXM",
+            " M "
+        ],
+        {
+            M: "#forge:plates/iron",
+            X: "ars_nouveau:dull_trinket"
+        }).id("aether:iron_pendant")
+
+    event.shaped("ancient_aether:valkyrum_pendant",[
+            " M ",
+            "MXM",
+            " M "
+        ],
+        {
+            M: "ancient_aether:valkyrum",
+            X: "ars_nouveau:dull_trinket"
+        }).id("ancient_aether:valkyrum_pendant")
+
+    event.shaped("ancient_aether:valkyrum_ring",[
+            " M ",
+            "MXM",
+            " M "
+        ],
+        {
+            M: "ancient_aether:valkyrum",
+            X: "ars_nouveau:ring_of_potential"
+        }).id("ancient_aether:valkyrum_ring")
+
+     event.shaped("wizards_reborn:arcanum_ring",[
+            "AMA",
+            "MXM",
+            "AMA"
+        ],
+        {
+            M: "#forge:plates/gold",
+            A: "wizards_reborn:arcanum",
+            X: "ars_nouveau:ring_of_potential"
+        }).id("wizards_reborn:shaped/arcanum_ring")
+
+    event.shaped("wizards_reborn:arcanum_amulet",[
+            "AMA",
+            "MXM",
+            "AMA"
+        ],
+        {
+            M: "#forge:plates/gold",
+            A: "wizards_reborn:arcanum",
+            X: "ars_nouveau:dull_trinket"
+        }).id("wizards_reborn:shaped/arcanum_amulet")
+
     event.shaped("immersiveengineering:earmuffs",[
         " S ",
         "S S",
