@@ -131,12 +131,10 @@ ItemEvents.tooltip( tooltip => {
 
   tooltip.addAdvanced([
     'kubejs:blasting_altar', 
-    'kubejs:alloying_altar', 
-    'kubejs:infusing_altar', 
+    'kubejs:alloying_altar',
     'kubejs:end_key', 
-    'kubejs:aether_key', 
-    'kubejs:dark_key',
-    'kubejs:electricity_essence',
+    'kubejs:aether_key',
+    "immersiveengineering:ore_aluminum",
     'kubejs:ultimate_alchemical_dust',
     'kubejs:berry_quartz'], (item, advanced, text) => {
     text.add(1, Text.of('Not yet properly implemented').red()) 
