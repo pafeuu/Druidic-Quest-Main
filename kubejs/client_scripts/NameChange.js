@@ -30,11 +30,9 @@ ClientEvents.lang("en_us", event => {
     event.renameItem("immersiveengineering:stick_steel","Stainless Steel Rod")
     event.renameItem("create:fluid_pipe", "Copper Fluid Pipe")
     event.renameItem("quark:copper_pipe", "Copper Item Pipe")
-    event.renameItem("prettypipes:pipe", "Steel Item Pipe")
+    event.renameItem("prettypipes:pipe", "Storm Item Pipe")
 	event.renameItem("create:chute","Iron Chute")
-    event.renameItem("effortlessbuilding:reach_upgrade1","Build Power Upgrade 1")
-    event.renameItem("effortlessbuilding:reach_upgrade2","Build Power Upgrade 2")
-    event.renameItem("effortlessbuilding:reach_upgrade3","Build Power Upgrade 3")
+    event.renameItem("immersiveengineering:ingot_steel","Stainless Steel Ingot")
 
     event.renameBlock("wizards_reborn:fluid_pipe","Wisestone Fluid Pipe")
     event.renameBlock("wizards_reborn:fluid_extractor","Wisestone Fluid Extractor")
