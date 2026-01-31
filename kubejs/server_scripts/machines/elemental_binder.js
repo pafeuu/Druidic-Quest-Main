@@ -36,6 +36,26 @@ ServerEvents.recipes(event=>{
 
     }
 
+    function binding7ingredients(output,element,amount,input1,input2,input3,input4,input5,input6,input7,id){
+
+        event.recipes.mbd2.elemental_binding()
+        //.inputItems(input1,input2,input3,input4,input5,input6,input7,input8)
+        .inputFluids("kubejs:"+element+"_element_fluid "+amount)
+        //.outputItems(output)
+        .slotName("1", builder=> builder.inputItems(input1))
+        .slotName("2", builder=> builder.inputItems(input2))
+        .slotName("3", builder=> builder.inputItems(input3))
+        .slotName("4", builder=> builder.inputItems(input4))
+        .slotName("5", builder=> builder.inputItems(input5))
+        .slotName("6", builder=> builder.inputItems(input6))
+        .slotName("7", builder=> builder.inputItems(input7))
+        .slotName("output", builder=>builder.outputItems(output))
+        .duration(100)
+        .id(id)
+        .priority(0)
+
+    }
+
     event.remove({id:"vintageimprovements:sequenced_assembly/redstone_module"})
 
     binding("kubejs:light_essence","fire",1250,
@@ -205,5 +225,31 @@ ServerEvents.recipes(event=>{
         "bundle",
         "etherium_gold_parts"
     )
+
+    binding("immersiveengineering:component_iron","earth",2500,
+        "create:electron_tube",
+        "#forge:rods/iron",
+        "piston",
+        "immersiveengineering:connector_redstone",
+        "#forge:rods/iron",
+        "piston",
+        "immersiveengineering:connector_redstone",
+        "thermal:sapphire",
+        "immersiveengineering:crafting/component_iron"
+    )
+
+    binding("immersiveengineering:component_steel","earth",2500,
+        "create:electron_tube",
+        "#forge:rods/steel",
+        "piston",
+        "immersiveengineering:connector_redstone",
+        "#forge:rods/steel",
+        "piston",
+        "immersiveengineering:connector_redstone",
+        "thermal:ruby",
+        "immersiveengineering:crafting/component_steel"
+    )
+
+    event.remove([{id:"immersiveengineering:blueprint/component_iron"},{id:"immersiveengineering:blueprint/component_steel"}])
 
 })
