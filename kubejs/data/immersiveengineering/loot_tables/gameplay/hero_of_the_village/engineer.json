@@ -1,0 +1,27 @@
+{
+   "type":"minecraft:empty",
+   "pools":[
+      {
+         "bonus_rolls":0.0,
+         "entries":[
+            {
+               "type":"minecraft:item",
+               "name":"kubejs:engineer_upgrade_smithing_template",
+               "weight": 1
+            },
+            {
+               "type":"minecraft:item",
+               "name":"immersiveengineering:conveyor_basic",
+               "weight": 4
+            },
+            {
+               "type":"minecraft:item",
+               "name":"supplementaries:cog_block",
+               "weight": 5
+            }
+         ],
+         "rolls":1.0
+      }
+   ],
+   "random_sequence":"immersiveengineering:gameplay/hero_of_the_village/engineer"
+}

@@ -1,0 +1,20 @@
+{
+   "type":"minecraft:empty",
+   "pools":[
+      {
+         "bonus_rolls":0.0,
+         "entries":[
+            {
+               "type":"minecraft:item",
+               "name":"kubejs:primitive_machine"
+            },
+            {
+               "type":"minecraft:item",
+               "name":"woodenhopper:wooden_hopper"
+            }
+         ],
+         "rolls":1.0
+      }
+   ],
+   "random_sequence":"immersiveengineering:gameplay/hero_of_the_village/machinist"
+}
