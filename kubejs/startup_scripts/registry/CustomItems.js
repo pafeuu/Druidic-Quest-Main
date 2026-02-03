@@ -744,6 +744,7 @@ StartupEvents.registry('item', item => {
   item.create('fiery_clay_blend').displayName('Fiery Clay Blend')
   item.create('basic_token').displayName('Basic Token')
   item.create("elemental_core").rarity("legendary")
+  item.create("incomplete_cake").tag("c:hidden_from_recipe_viewers")
   
   
 })

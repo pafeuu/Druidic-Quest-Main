@@ -146,7 +146,8 @@ ItemEvents.modification(event=>{
         'fruitsdelight:orange',
         'fruitsdelight:lychee',
         'fruitsdelight:mango',
-        'tide:apple_fishing_bobber']
+        'tide:apple_fishing_bobber',
+        "fruitsdelight:durian_flesh"]
 
     Fruit.forEach(id => {
         event.modify(id, item => {
@@ -283,7 +284,8 @@ ItemEvents.modification(event=>{
         'arsdelight:mendosteen_pie_slice',
         'arsdelight:source_berry_pie_slice',
         'arsdelight:bastion_pie_slice',
-        'arsdelight:frostaya_pie_slice']
+        'arsdelight:frostaya_pie_slice',
+        'arsdelight:bombegrante_pie_slice']
 
     PieSlice.forEach(id => {
         event.modify(id, item => {

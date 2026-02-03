@@ -11,6 +11,9 @@ var wood_TF_no_mangrove = ['canopy','twilight_oak','time','transformation','mini
 
 global.nukelist = [
 	"twigs:calcite_wall",
+	"ancient_aether:blue_skyroot_pine_sapling",
+	"immersive_weathering:ancient_aether/blue_skyroot_pine_leaf_pile",
+	"everycomp:q/ancient_aether/blue_skyroot_pine_hedge",
 	'aether:zanite_pendant',
 	'aether:zanite_ring',
 	'deep_aether:skyjade_ring',
@@ -484,7 +487,7 @@ global.nukelist = [
 	'quark:apple_crate',
 	"arsdelight:source_berry_crate",
 	"thermal:beetroot_block",
-	"vintagedelight:cutting/pitcher_plant"
+	"biomeswevegone:blueberries"
 	/*'create:factory_gauge',
 	'create:redstone_requester',
 	'create:stock_link',
@@ -511,6 +514,30 @@ ServerEvents.recipes(event => {
 
 	let RemoveById = [
 		"aether:skyroot_barrel",
+		"farmersdelight:shepherds_pie_block",
+		"vintagedelight:cutting/pitcher_plant",
+		"arsdelight:frostaya_pie",
+		"deep_aether:pumpkin_pie",
+		"aether:moa_egg_pumpkin_pie",
+		"minecraft:pumpkin_pie",
+		"vanillabackport:pumpkin_pie",
+		"arsdelight:bastion_pie",
+		"arsdelight:bombegrante_pie",
+		"arsdelight:mendosteen_pie",
+		"farmersdelight:chocolate_pie",
+		"aether:skyroot_milk_bucket_cake",
+		"vanillabackport:cake",
+		"deep_aether:skyroot_milk_bucket_cake",
+		"farmersdelight:cake_from_milk_bottle",
+		"deep_aether:cake",
+		"aether:moa_egg_cake",
+		"aether:skyroot_milk_bucket_moa_egg_cake",
+		"create:crafting/curiosities/cake",
+		"mynethersdelight:crafting/magma_cake",
+		"farmersdelight:integration/create/filling/chocolate_pie",
+		"farmersdelight:cooking/durian_pie",
+		"farmersdelight/cooking/pineapple_pie",
+		"farmersdelight/cooking/mangosteen_cake",
 		"twigs:stick_from_twig",
 		"deep_aether:stratus_normal_recipe",
 		"ancient_aether:valkyrum_leggings",
@@ -518,7 +545,7 @@ ServerEvents.recipes(event => {
 		"ancient_aether:valkyrum_chestplate",
 		"ancient_aether:valkyrum_boots",
 		"naturesaura:altar/blaze",
-		"toomanyrecipeviewers:/create/kjs/dbwvu0cpsw4h9wxmrrln63nje",
+		"create:kjs/dbwvu0cpsw4h9wxmrrln63nje",
 		"thermal:machines/pulverizer/pulverizer_basalz_rod",
 		"thermal:machines/pulverizer/pulverizer_blizz_rod",
 		"thermal:machines/pulverizer/pulverizer_blitz_rod",
@@ -1096,23 +1123,14 @@ ServerEvents.recipes(event => {
 	
 	//-------------------Plates---------------------
 
-	function PlatesOnetoOne(inputItem,outputItem, inputBlock)
+	
+	function PlatesOnetoOne(outputItem, inputBlock)
 	{
-		event.custom({
-			type: "create:pressing",
-			ingredients: [{ tag: inputItem }],
-			results: [{ item: outputItem }],
-		});// Adds Plates crafting recipes to the create machines
+		event.recipes.create.pressing(`2x ${outputItem}`,`2x ${inputBlock}`)// Adds Plates crafting recipes to the create machines
 	
-		event.recipes.thermal.press(outputItem,"#"+inputItem)// Adds Plates crafting recipes to the thermal machines
+		event.recipes.thermal.press(`2x ${outputItem}`,`2x ${inputBlock}`)// Adds Plates crafting recipes to the thermal machines
 	
-		event.custom({
-			type: "immersiveengineering:metal_press",
-			energy: 2400,
-			input: { tag: inputItem },
-			mold: "immersiveengineering:mold_plate",
-			result: { item: outputItem },
-		});// Adds Plates crafting recipes to the IE machines
+		event.recipes.immersiveengineering.metal_press(`2x ${outputItem}`,`2x ${inputBlock}`)// Adds Plates crafting recipes to the IE machines
 	
 		event.custom({
 			type: "lychee:block_interacting",
@@ -1183,6 +1201,10 @@ ServerEvents.recipes(event => {
 
 		event.recipes.naturesaura.altar(Item.of(outputItem,2),inputBlock,500,100,"kubejs:pressing_catalyst")
 	}
+
+	PlatesOnetoOne("kubejs:wooden_plate", "immersiveengineering:treated_wood_horizontal")
+	PlatesOnetoOne("kubejs:stone_plate", "minecraft:smooth_stone")
+
 	function plates(inputItem, outputItem, inputBlock) {// Adds Plates crafting recipes to the machines
 		
 		event.recipes.create.pressing(Item.of(outputItem,6),inputBlock)// Adds Plates crafting recipes to the create machines
@@ -1255,9 +1277,6 @@ ServerEvents.recipes(event => {
 
 		event.recipes.naturesaura.altar(Item.of(outputItem,5),inputBlock,500,100,"kubejs:pressing_catalyst")
 	}
-
-	PlatesOnetoOne("forge:treated_wood", "kubejs:wooden_plate", "immersiveengineering:treated_wood_horizontal")
-	PlatesOnetoOne("minecraft:smooth_stone","kubejs:stone_plate", "minecraft:smooth_stone")
 
 	plates("forge:ingots/source_alloy","kubejs:source_alloy_plate","kubejs:source_alloy_block")
 	plates("forge:ingots/infused_iron","kubejs:infused_iron_plate","naturesaura:infused_iron_block")
