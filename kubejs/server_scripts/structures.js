@@ -52,7 +52,7 @@ MoreJSEvents.structureLoad((event) => {
     event.forEachPalettes((palette) => {
         palette.forEach((blockInfo) => {
             if (EncasedFan.includes(`${blockInfo.id}`)) {
-                blockInfo.setBlock("supplementaries:bellows")
+                blockInfo.setBlock("supplementaries:bellows",{facing:`${blockInfo.properties.facing}`})
             }
         });
     });

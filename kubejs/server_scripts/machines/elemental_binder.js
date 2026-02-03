@@ -235,7 +235,8 @@ ServerEvents.recipes(event=>{
         "piston",
         "immersiveengineering:connector_redstone",
         "thermal:sapphire",
-        "immersiveengineering:crafting/component_iron"
+        "immersiveengineering:crafting/component_iron",
+        "iron_component"
     )
 
     binding("immersiveengineering:component_steel","earth",2500,
@@ -247,7 +248,8 @@ ServerEvents.recipes(event=>{
         "piston",
         "immersiveengineering:connector_redstone",
         "thermal:ruby",
-        "immersiveengineering:crafting/component_steel"
+        "immersiveengineering:crafting/component_steel",
+        "steel_component"
     )
 
     event.remove([{id:"immersiveengineering:blueprint/component_iron"},{id:"immersiveengineering:blueprint/component_steel"}])

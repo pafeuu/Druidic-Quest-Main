@@ -6,6 +6,8 @@ ServerEvents.tags('item', event => {
 
   event.removeAllTagsFrom([global.nukelist])
 
+  event.add("forge:storage_blocks/slime","#c:storage_blocks/slime")
+  event.add("aether:phoenix_repairing","kubejs:phoenix_ingot")
   event.remove("forge:dough","create:dough")
   event.add("c:rods/wooden",["twigs:twig","minecraft:stick","aether:skyroot_stick"])
   event.add("c:barrels/wooden","#forge:barrels/wooden")

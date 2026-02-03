@@ -1145,6 +1145,20 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 	
+	event.shaped("mbd2:phytogenic_insolator",
+		[
+			"TGT",
+			"TXT",
+			"TFT"
+		],
+		{
+			G: "thermal:phytogro",
+			T: "#forge:plates/tin",
+			F: "create:fluid_tank",
+			X: "kubejs:basic_magic_machine"
+		}
+	)
+	
 	event.shaped("4x immersiveengineering:razor_wire",
 		[
 			"WWW",
@@ -2827,6 +2841,18 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================== Tier 2 Components ================================================================
 	
+	event.shapeless("2x thermal:phytogro",["create:tree_fertilizer","immersiveengineering:fertilizer","wizards_reborn:flower_fertilizer","thermal:apatite_dust"])
+	
+	event.shapeless("2x thermal:phytogro",["thermal:phytogro","3x thermal:apatite_dust"])
+
+	event.shapeless("4x create:tree_fertilizer",["2x #minecraft:small_flowers","thermal:apatite_dust","#c:coral"]).id("create:crafting/appliances/tree_fertilizer")
+
+	event.shapeless("2x create:tree_fertilizer",["2x #minecraft:small_flowers","thermal:apatite_dust","vintagedelight:organic_mash"]).id("vintagedelight:organic_compost_tree_fertilizer")
+
+	event.shapeless("2x immersiveengineering:fertilizer",["#forge:dusts/sulfur","#forge:slag","bone_meal"]).id("immersiveengineering:crafting/fertilizer")
+
+	event.shapeless("2x immersiveengineering:fertilizer",["2x #forge:slag","2x bone_meal"])
+
 	event.shaped("create:transmitter",
 		[
 			"TTT",
@@ -4542,7 +4568,7 @@ ServerEvents.recipes(event => {
 			D: "naturesaura:token_rage"
 		}
 	).id("naturesaura:offering_table")
-	
+
 	event.remove({output:'torchmaster:megatorch'})
 	event.shaped(
 	  Item.of('torchmaster:megatorch'), 

@@ -3875,6 +3875,7 @@ Patch 4.0.1
 
 ### New mods:
     -Just Enough Immersive Multiblocks
+    -No Chat Restrictions
 
 ### Quests:
     -Spellcasting chapter is now properly invisible until unlocked
@@ -3891,16 +3892,42 @@ Patch 4.0.1
     -Added for Electrum Ingot
     -Removed Duplicate Pitcher Plant cutting recipe
     -Changed for Offering Table
+    -Added for Phytogro
+    -Changed for Industrial Fertilizer
+    -Fixed for Manipulation, Conjuration and Abjuration Essences
+    -Create, IE and Thermal pressing machines now output 2 plates from treated wood and smooth stone
+    -Changed for Tree Fertilizer
+    -Changed for all cakes and pies
 
 ### Loot:
     -Fixed for stone ambrosium ore
+    -Replaced Pumpkin Pie in chests with Apple pie slices
+    -Changed Hero of the village loottable for Engineer, Machinist and Electrician
+
+### Item balance:
+    -More Aether items were made unbreakable:
+        -Vampire Blade
+        -Hammer of kingbdogz
+        -Pig Slayer
+        -Sentry Boots
+    -Fixed the amount of hunger from bombegranate pie slice
+    -Nerfed the amount of hunger from Durian Flesh
+    
+### Mob balance:
+    -mobs can no longer spawn with enchanters Weapons
+    -gusters are now blacklisted from all modifiers
+    -snow queen is now correctly blacklisted from all modifiers
+
 
 ### Other:
     -Fixed Capturing Gem animation
     -You no longer get the fishing journal at the start of the game
+    -Fixed a bunch of alembic issues
+    -Fixed issues with some files on server
+    -Disabled Spectral Hammer spell
+    -Disabled Angel Wings spell
+    -Disabled Summon Steed spell
 
-### Mob balance:
-    -Only a select few mobs will now spawn with items in hand
-    -mobs can no longer spawn with enchanters Weapons
-    -gusters are now blacklisted from all modifiers
-    -snow queen is now correctly blacklisted from all modifiers
+Spells will only be disabled in new worlds or if you reset the server config
+    
+

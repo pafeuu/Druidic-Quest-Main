@@ -14,14 +14,17 @@ ServerEvents.recipes(event=>{
 
     function LightningCrafting(amount,output,ingredients,particle,sound)
     {
-        const itemInputs = ingredients.map(function(ingredient) {
+        /*const itemInputs = ingredients.map(function(ingredient) {
             var obj = {};
             obj[ingredient.type] = ingredient.name;
             return obj;
-        });
+        });*/
+
+		//const itemInputs = ingredients.map(i => (i.tag ? { tag: i.tag } : { item: i.item }));
+
         event.custom({    
             type: "lychee:lightning_channeling",
-            item_in: itemInputs,
+            item_in: ingredients,
             post: [
                 {
                     type: "delay",
@@ -39,29 +42,29 @@ ServerEvents.recipes(event=>{
     }
 
     LightningCrafting(2,"minecraft:shulker_shell",[
-        { type: 'item', name: 'scute' },
-        { type: 'item', name: 'scute' },
-        { type: 'item', name: 'chorus_flower' },
-        { type: 'item', name: 'chorus_flower' },
-        { type: 'item', name: 'kubejs:primitive_alchemical_dust' }
+        { item: 'scute' },
+        { item: 'scute' },
+        { item: 'chorus_flower' },
+        { item: 'chorus_flower' },
+        { item: 'kubejs:primitive_alchemical_dust' }
     ],ParticleEnd,SoundEffectTransmutation)
 
     LightningCrafting(1,"ars_nouveau:manipulation_essence",[
-        {type: 'item', name:'ars_nouveau:water_essence'},
-        {type: 'item', name:'naturesaura:token_anger'},
-        {type: 'tag', name:'forge:storage_blocks/redstone'}
+        {item:'ars_nouveau:water_essence'},
+        {item:'naturesaura:token_anger'},
+        {item:'minecraft:redstone_block'}
     ],ParticleGreenFire,SoundEffectTransmutation)
 
-    LightningCrafting(1,"ars_nouveau:abjuration_essence",[
-        {type: 'item', name:'ars_nouveau:water_essence'},
-        {type: 'item', name:'naturesaura:token_joy'},
-        {type: 'tag', name:'forge:storage_blocks/nether_wart'}
+	LightningCrafting(1,"ars_nouveau:abjuration_essence",[
+        {item:'ars_nouveau:water_essence'},
+        {item:'quark:nether_wart_sack'},
+        {item:'naturesaura:token_joy'}
     ],ParticleGreenFire,SoundEffectTransmutation)
 
     LightningCrafting(1,"ars_nouveau:conjuration_essence",[
-        {type: 'item', name:'ars_nouveau:water_essence'},
-        {type: 'item', name:'naturesaura:token_fear'},
-        {type: 'tag', name:'forge:storage_blocks/apatite'}
+        {item:'ars_nouveau:water_essence'},
+        {item:'naturesaura:token_fear'},
+        {item:'thermal:apatite_block'}
     ],ParticleGreenFire,SoundEffectTransmutation)
 
     event.custom({
@@ -81,8 +84,8 @@ ServerEvents.recipes(event=>{
     function crystalizedOre(input,output)
     {
         LightningCrafting(1,`kubejs:crystalized_${output}_ore`,[
-            {type: 'item', name:'thermal:sulfur_dust'},
-            {type: 'item', name:input}
+            {item:'thermal:sulfur_dust'},
+            {item:input}
         ],ParticleGreenFire,SoundEffectTransmutation)
     }
 

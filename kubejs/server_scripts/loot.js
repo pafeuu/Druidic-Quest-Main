@@ -74,6 +74,7 @@ LootJS.modifiers((event) => {
     // ====================================================Replacing Good Items
     event.addLootTypeModifier(LootType.CHEST)
         .replaceLoot("trident","kubejs:rusty_trident")
+        .replaceLoot("minecraft:pumpkin_pie","2x farmersdelight:apple_pie_slice")
         .replaceLoot("netherite_ingot","netherite_scrap")
         .replaceLoot("netherite_block","6x netherite_scrap")
         .replaceLoot("aether:diamond_gloves","4x kubejs:diamond_plate")

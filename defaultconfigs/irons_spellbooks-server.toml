@@ -510,7 +510,7 @@
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:summon_horse"]
-		Enabled = true
+		Enabled = false
 		School = "irons_spellbooks:evocation"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
@@ -518,10 +518,10 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 20.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."irons_spellbooks:spectral_hammer"]
-		Enabled = true
+		Enabled = false
 		School = "irons_spellbooks:evocation"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
@@ -777,7 +777,7 @@
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:angel_wing"]
-		Enabled = true
+		Enabled = false
 		School = "irons_spellbooks:holy"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
@@ -785,7 +785,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 120.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."irons_spellbooks:sunbeam"]
 		Enabled = true

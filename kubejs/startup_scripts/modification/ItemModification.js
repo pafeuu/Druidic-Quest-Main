@@ -193,7 +193,11 @@ ItemEvents.modification(event => {
       'aether:ice_pendant',
       'deep_aether:stratus_ring', 
       'deep_aether:gravitite_ring',
-      "aether:ice_ring"
+      "aether:ice_ring",
+      "aether:vampire_blade",
+      "aether:sentry_boots",
+      "aether:pig_slayer",
+      "aether:hammer_of_kingbdogz"
     ]
 
     let UnbreakableArmor = [
@@ -400,10 +404,6 @@ ItemEvents.modification(event => {
 
   event.modify("sophisticatedstorage:super_packing_tape", item=>{
     item.maxDamage = 2137
-  })
-
-  event.modify('aether:hammer_of_kingbdogz', item=>{
-    item.maxDamage = 1024
   })
   
   tooltype.forEach((id) => {
