@@ -91,18 +91,42 @@
 		}
 		{
 			dependencies: ["08E25758B817F683"]
+			icon: "kubejs:infusing_altar"
 			id: "4E37F8D001094A5E"
 			shape: "rsquare"
-			tasks: [{
-				id: "2EA4E0FE1D4F2DBB"
-				item: "kubejs:infusing_altar"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2EA4E0FE1D4F2DBB"
+					item: "kubejs:infusing_altar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4F2E589DEE7A1AA1"
+					item: { Count: 4, id: "minecraft:copper_block" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "799A53B3C15F1E5D"
+					item: { Count: 4, id: "thermal:ruby_block" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "45C79886080FB306"
+					item: { Count: 24, id: "rubinated_nether:altar_stone_tiles" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["4E37F8D001094A5E"]
+			dependencies: ["6485613B04C454C7"]
 			icon: "immersiveengineering:diesel_generator"
 			id: "3BC0E582236CAB55"
 			shape: "rsquare"
@@ -175,7 +199,7 @@
 				item: "immersiveengineering:capacitor_lv"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -191,14 +215,56 @@
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"6D9357F0B60F1B8E"
+				"3BC0E582236CAB55"
+			]
 			id: "0FC5DC947D037CAC"
+			shape: "rsquare"
 			tasks: [{
 				id: "28DDE7F09323B463"
 				item: "naturesaura:offering_table"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["7781152345F4888C"]
+			id: "6D9357F0B60F1B8E"
+			shape: "rsquare"
+			tasks: [{
+				id: "0A3E4D215EFC6A0D"
+				item: "immersiveengineering:arc_furnace"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77401119077DB15B"]
+			id: "7781152345F4888C"
+			shape: "rsquare"
+			tasks: [{
+				id: "2CDB099821D44CE1"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			title: "Stainless Steel"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E37F8D001094A5E"]
+			id: "6485613B04C454C7"
+			shape: "rsquare"
+			tasks: [{
+				id: "561590BD07F49B43"
+				item: "starbunclemania:source_condenser"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
 		}
 	]
 	title: "Tier 4 - Infusion and electricity!"

@@ -1854,40 +1854,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "5CAE3DF6B3D085C2"
-			rewards: [{
-				id: "766873A6B230E340"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "68DE5238C4E4B484"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:angel_wing"
-								index: 0
-								level: 5
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -9.2d
-			y: 1.2d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "701CEA0321A9A9E9"
 			rewards: [{
 				id: "71019315484955BC"
@@ -3039,7 +3005,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -10.0d
+			x: -3.6d
 			y: 4.0d
 		}
 		{
@@ -3282,74 +3248,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "0A7E80A27B7D9FC3"
-			rewards: [{
-				id: "5CF78EC896D9F3DD"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "7ADCDF408E271218"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:spectral_hammer"
-								index: 0
-								level: 5
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -3.6000000000000005d
-			y: 4.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "0D68A5916CFA232C"
-			rewards: [{
-				id: "47895D34E5959A7D"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "27D562A4C481466D"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:summon_horse"
-								index: 0
-								level: 5
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -2.8d
-			y: 4.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "64603CE83F3A65F7"
 			rewards: [{
 				id: "3E39937299095AC9"
@@ -3481,7 +3379,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 0.40000000000000213d
+			x: -2.8d
 			y: 4.0d
 		}
 		{
@@ -5049,8 +4947,8 @@
 				item: "ars_nouveau:glyph_leap"
 				type: "item"
 			}]
-			x: 1.2d
-			y: 0.3999999999999986d
+			x: 2.8d
+			y: 2.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -5190,23 +5088,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "7CAD723615B3D67A"
-			rewards: [{
-				id: "127C8DC32D4B9739"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "4F57C68E9D4A82EC"
-				item: "ars_nouveau:glyph_summon_wolves"
-				type: "item"
-			}]
-			x: 8.399999999999999d
-			y: 0.3999999999999986d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "524032285845FD9A"
 			rewards: [{
 				id: "5E1DA4C5DF4298EA"
@@ -5236,8 +5117,8 @@
 				item: "ars_nouveau:wololo"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.3999999999999986d
+			x: 8.4d
+			y: 0.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -5411,40 +5292,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "1792081BE55DBFA5"
-			rewards: [{
-				id: "3CC5DE9025B5EE63"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "7D53B5C4C32A13B7"
-				item: "ars_nouveau:glyph_animate_block"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.4000000000000004d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "4C11F627040ED85B"
-			rewards: [{
-				id: "0516BEECE08AF529"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "5ED83EB18991B2E8"
-				item: "ars_nouveau:glyph_cold_snap"
-				type: "item"
-			}]
-			x: 2.8000000000000007d
-			y: 2.4000000000000004d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "41B5DA12C8573EC7"
 			rewards: [{
 				id: "5BA107F7E129F93F"
@@ -5530,23 +5377,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "0DE07575D0D03B26"
-			rewards: [{
-				id: "35FF09BEB7E8BDEE"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "271F0954D8D975EB"
-				item: "ars_nouveau:glyph_flare"
-				type: "item"
-			}]
-			x: 7.6000000000000005d
-			y: 2.4000000000000004d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "7ADD6745B8A1245D"
 			rewards: [{
 				id: "67CDA2031F50B8AA"
@@ -5576,8 +5406,8 @@
 				item: "ars_nouveau:glyph_grow"
 				type: "item"
 			}]
-			x: 9.199999999999998d
-			y: 2.4000000000000004d
+			x: 7.6d
+			y: 2.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -5865,7 +5695,7 @@
 				item: "ars_nouveau:glyph_linger"
 				type: "item"
 			}]
-			x: 2.8d
+			x: 3.6d
 			y: 5.2d
 		}
 		{
@@ -5882,7 +5712,7 @@
 				item: "ars_nouveau:glyph_orbit"
 				type: "item"
 			}]
-			x: 3.6d
+			x: 5.2d
 			y: 5.2d
 		}
 		{
@@ -5899,7 +5729,7 @@
 				item: "ars_nouveau:rewind"
 				type: "item"
 			}]
-			x: 4.4d
+			x: 6.0d
 			y: 5.2d
 		}
 		{
@@ -5914,40 +5744,6 @@
 			tasks: [{
 				id: "0DBA681622CEAB0E"
 				item: "ars_nouveau:glyph_summon_decoy"
-				type: "item"
-			}]
-			x: 5.2d
-			y: 5.2d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "79D40F84D7B7B207"
-			rewards: [{
-				id: "5EB2E9D50D11DCCD"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "303912F36077B5D9"
-				item: "ars_nouveau:glyph_summon_undead"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 5.2d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "3BD6FBC03F4DEB6D"
-			rewards: [{
-				id: "0E85EE71317A050C"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "017BE632C38FACC1"
-				item: "ars_nouveau:glyph_summon_vex"
 				type: "item"
 			}]
 			x: 6.8d
@@ -5984,7 +5780,7 @@
 				item: "ars_nouveau:glyph_wither"
 				type: "item"
 			}]
-			x: 8.4d
+			x: 4.4d
 			y: 5.2d
 		}
 	]

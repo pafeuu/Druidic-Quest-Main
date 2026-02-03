@@ -1538,6 +1538,31 @@
 			x: 24.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["37E717454A7E8792"]
+			description: [
+				""
+				"Automatic wood!"
+				""
+				"Very slow but does not require much setup."
+				""
+				"Only works with sky access and during the day"
+			]
+			id: "61B4A5B170F6318C"
+			rewards: [{
+				count: 64
+				id: "333D3AB0759A4E31"
+				item: "create:tree_fertilizer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4784609796208008"
+				item: "mbd2:phytogenic_insolator"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
 	]
 	title: "Tier 1 - Basic Magic"
 }
