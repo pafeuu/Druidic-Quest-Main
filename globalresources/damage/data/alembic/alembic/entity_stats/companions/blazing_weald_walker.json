@@ -16,7 +16,7 @@
   },
   "ignored_sources": [
       "minecraft:lava",
-      "minecraft:in_fire"
+      "minecraft:in_fire",
       "minecraft:on_fire"
     ]
 }
