@@ -17,6 +17,10 @@
       "target": "forge:block_reach"
     },
     {
+      "type": "remove",
+      "target": "minecraft:generic.luck"
+    },
+    {
       "type": "append",
       "attribute": "puffish_attributes:fortune",
       "value": 1,

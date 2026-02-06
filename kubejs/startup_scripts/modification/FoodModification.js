@@ -502,6 +502,14 @@ ItemEvents.modification(event=>{
     hunger("vintagedelight:meat_pizza",20,18)
     hunger("vintagedelight:meat_pizza_slice",6,8)
 
+    hunger("arsdelight:arch_soup",8,8)
+
+    const HornBeers = ['arsdelight:bastion_hornbeer', 'arsdelight:mendosteen_hornbeer', 'arsdelight:frostaya_hornbeer', 'arsdelight:bombegrante_hornbeer', 'arsdelight:source_berry_hornbeer']
+
+    HornBeers.forEach(id => {
+        hunger(id,12,12)
+    });
+
     
     
     

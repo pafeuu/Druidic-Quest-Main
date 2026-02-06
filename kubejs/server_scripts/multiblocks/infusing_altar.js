@@ -157,7 +157,7 @@ ServerEvents.recipes(event => {
   Infusing("kubejs:berry_quartz",1,[
     { type: 'item', name: "quark:berry_sack" },
     { type: 'item', name: "quark:glowberry_sack" },
-    { type: 'item', name: "arsdelight:source_berry_crate" },
+    { type: 'item', name: "ars_nouveau:sourceberry_sack" },
     { type: 'item', name: "vintagedelight:gearo_berry_bag" },
     { type: 'item', name: "fruitsdelight:cranberry_crate" },
     { type: 'item', name: "fruitsdelight:blueberry_crate" },

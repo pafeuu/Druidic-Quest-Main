@@ -14,6 +14,27 @@ ServerEvents.recipes(event=>{
     });
 }
 
+    Enchanting("minecraft:depth_strider",1,[
+        "kubejs:enchanting_rune_of_speed",
+        "ars_nouveau:water_essence",
+        "ars_nouveau:water_essence"],6000)
+
+    Enchanting("minecraft:depth_strider",2,[
+        "kubejs:enchanting_rune_of_speed",
+        "ars_nouveau:water_essence",
+        "ars_nouveau:water_essence",
+        "ars_nouveau:water_essence",
+        "ars_nouveau:water_essence"],8000)
+
+    Enchanting("minecraft:depth_strider",3,[
+        "kubejs:enchanting_rune_of_speed",
+        "ars_nouveau:water_essence",
+        "ars_nouveau:water_essence",
+        "ars_nouveau:water_essence",
+        "ars_nouveau:water_essence",
+        "ars_nouveau:water_essence",
+        "ars_nouveau:water_essence"],10000)
+
     Enchanting("minecraft:fortune",1,[
         "kubejs:large_enchanting_rune_of_luck",
         "golden_pickaxe",

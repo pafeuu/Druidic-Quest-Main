@@ -22,9 +22,9 @@
     {
       "type": "attribute",
       "name": "puffish_attributes:fall_reduction",
-      "value": 4,
+      "value": 8,
       "modifierUUID": "d5c72c88-1135-4318-b2e5-25077c6dd218",
-      "description": "it takes 4 extra blocks of fall before you take fall damage",
+      "description": "it takes 8 extra blocks of fall before you take fall damage",
       "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300
@@ -35,7 +35,7 @@
       "type": "attribute",
       "name": "fyshisattribute:jump",
       "value": 4,
-      "modifierUUID": "d5a7dc38-9435-4398-b1e5-250b4c6dd218",
+      "modifierUUID": "aa103220-f3b5-4f2f-b01e-b543a42b6dec",
       "description": "4 extra jumps",
       "attributeOperation": 0,
       "interactionType": "self",
@@ -45,13 +45,19 @@
     },
     {
       "type": "attribute",
-      "name": "puffish_attributes:jump",
-      "value": 1,
-      "modifierUUID": "d5a7d378-9405-4398-11e5-250b4c6dd218",
+      "name": "fyshisattribute:jump_height",
+      "value": 0.75,
+      "modifierUUID": "1c85ddbf-01a7-404c-b70c-1440c4d944b5",
       "description": "Higher jumps",
-      "attributeOperation": 0,
-      "interactionType": "self",
-      "interactionDuration": 300
+      "attributeOperation": 0
+    },
+    {
+      "type": "attribute",
+      "name": "forge:step_height_addition",
+      "value": 0.5,
+      "modifierUUID": "1c85ddbf-01a7-404c-b70c-1440c4d944b5",
+      "description": "You can walk up 1 block",
+      "attributeOperation": 0
     }
   ],
   "hideGeneratedTooltip": false

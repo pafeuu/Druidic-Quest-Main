@@ -4,6 +4,33 @@ ServerEvents.recipes(e => {
 
     const cutting = e.recipes.farmersdelight.cutting
 
+    cutting("fruitsdelight:durian","#forge:tools/axes",["2x fruitsdelight:durian_flesh","fruitsdelight:durian_helmet","fruitsdelight:durian_sapling"]).id("fruitsdelight:durian_cutting")
+    
+    const arsLogs = ["green","purple","blue","red"]
+
+    arsLogs.forEach(type => {
+
+        cutting(`ars_nouveau:${type}_archwood_log`,"#forge:tools/axes",[`ars_nouveau:stripped_${type}_archwood_log`,"farmersdelight:tree_bark"])
+        cutting(`ars_nouveau:${type}_archwood_wood`,"#forge:tools/axes",[`ars_nouveau:stripped_${type}_archwood_wood`,"farmersdelight:tree_bark"])
+        
+    });
+
+    const arsFruits = ["mendosteen","bastion","bombegrante","frostaya"]
+    arsFruits.forEach(fruit => {
+
+        let pod = `ars_nouveau:${fruit}_pod`
+
+        if(fruit=="bombegrante")
+            pod = "ars_nouveau:bombegranate_pod"
+
+        cooking(["sugar","#arsdelight:leaves",pod,pod],`arsdelight:${fruit}_tea`,5,200,"glass_bottle")
+        cooking([pod,pod,"ars_nouveau:magebloom","ars_nouveau:magebloom","minecraft:honey_bottle","minecraft:honey_bottle"],`arsdelight:${fruit}_hornbeer`,10,200,"arsdelight:chimera_horn")
+    });
+    
+    cooking(["#ars_nouveau:shady_wizard_fruits","#ars_nouveau:shady_wizard_fruits","ars_nouveau:sourceberry_bush","ars_nouveau:sourceberry_bush"],"arsdelight:arch_soup",2,200,"bowl")
+    
+    cooking(["ars_nouveau:sourceberry_bush","ars_nouveau:sourceberry_bush","ars_nouveau:magebloom","ars_nouveau:magebloom","minecraft:honey_bottle","minecraft:honey_bottle"],`arsdelight:source_berry_hornbeer`,10,200,"arsdelight:chimera_horn").id("arsdelight:cooking/source_berry_hornbeer")
+    
     cooking(["honey_bottle",
         "vintagedelight:roasted_peanut",
         "vintagedelight:roasted_peanut",

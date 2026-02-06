@@ -3930,4 +3930,78 @@ Patch 4.0.1
 
 Spells will only be disabled in new worlds or if you reset the server config
     
+# Patch 4.3.1
 
+### Removed Items:
+    -Durian Shell
+    -All of the IW bark
+    -Ars Delight Bark
+    
+### Recipes:
+    -Changed for cutting Durian
+    -Fixed stainless steel block recipe
+
+### Item Balance:
+    -Giant sword now has 5.5 attack range
+
+### Worldgen
+    -Replace OhTheBiomesWeveGone blue berries with FruitsDelight blue berries
+
+### Mob Balance:
+    -Wolves and Axolotls now deal half of their damage as nature type
+
+### Other:
+    -Added missing texture for incomplete cake
+    -Fixed Gravitite armor set bonus
+    -Fixed Recycler and Kiln UI slots
+    -Alloy Kiln is now properly breakable by pickaxe
+    -Added emi info to the apatite ore
+    -turned of gamerule for spawning phantoms
+
+# Patch 4.3.2
+
+### Updated the forge version
+
+### Removed Items:
+    -Phytogenic Insolator(this time for real)
+
+### Recipes:
+    -Fixed for ArsDelight teas 
+    -Fixed for ArsDelight hornbeers
+    -Fixed for Arch Soup
+    -Fixed for Berry Quartz
+
+### Item Balance:
+    -Buffed Arch Soup
+    -Buffed Horn Beers
+    -Arch Soup and Horn Beers now stack to 64
+
+# Patch 4.3.3
+
+### Quests:
+    -Fixed dependencies on tier 4 quests
+
+### Recipes:
+    -Removed for Irons Silver Ring
+    -Added for Depth Strider Enchantment
+
+### Item Balance:
+    -Forgotten Hat no longer gives luck
+    -Buffed Blade of Grass nature damage
+
+### Loot:
+    -Bats now drop coal and experience
+
+### Other:
+    -Fixed ponder for infusing altar
+    -Removed update notifications from XaeroMinimap config
+
+# Patch 5.0
+
+### Removed mods:
+    -Ht tree chop
+    -ImprovedMobs
+
+### Added mods:
+    -scaling health
+    -

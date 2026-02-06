@@ -259,7 +259,11 @@ LootJS.modifiers((event) => {
          })
          .addLoot("kubejs:mittens")
      //================================================ MOBS
-
+    
+    event.addEntityLootModifier("minecraft:bat")
+         .addLoot("coal")
+         .dropExperience(5)
+         
     event.addEntityLootModifier("alexsmobs:anaconda")
         .randomChance(0.025)
         .addLoot("kubejs:anaconda_totem")

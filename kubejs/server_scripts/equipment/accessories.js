@@ -214,7 +214,6 @@ ServerEvents.recipes(event => {
         }
     ).id("simplemagnets:advancedmagnet")
 
-    event.shapeless("irons_spellbooks:silver_ring",["ars_nouveau:ring_of_potential","#forge:plates/silver"])
     
 
 })

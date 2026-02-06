@@ -11,6 +11,7 @@ ServerEvents.recipes(event=>{
 
 	Fuel("blaze_powder",0.25)
 	Fuel("blaze_rod",0.5)
+	Fuel("quark:blaze_lantern",2)
 	Fuel("ars_nouveau:fire_essence",4)
 	Fuel("kubejs:sunbird_feather",16)
 	

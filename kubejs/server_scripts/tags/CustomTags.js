@@ -10,6 +10,10 @@ ServerEvents.tags("item",e=>{
     'kubejs:sacrificial_dagger',
   ])
 
+  e.add("dq:recycler_fuel",["aether:ambrosium_shard","aether:ambrosium_block"])
+
+  e.add("dq:kiln_fuel",["kubejs:fire_infused_arcanum","minecraft:blaze_powder","blaze_rod","quark:blaze_lantern","kubejs:sunbird_feather","ars_nouveau:fire_essence"])
+  
   e.add("c:trumpet_saplings",[
     'quark:yellow_blossom_sapling',
     'quark:red_blossom_sapling',

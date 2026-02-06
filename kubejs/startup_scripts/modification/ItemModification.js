@@ -102,7 +102,13 @@ ItemEvents.modification(event => {
     'arsdelight:bombegrante_tea',
     'arsdelight:bastion_tea',
     'arsdelight:mendosteen_tea',
-    'create:builders_tea',]
+    'create:builders_tea',
+    'arsdelight:arch_soup',
+    'arsdelight:bastion_hornbeer',
+    'arsdelight:mendosteen_hornbeer',
+    'arsdelight:frostaya_hornbeer',
+    'arsdelight:bombegrante_hornbeer',
+    'arsdelight:source_berry_hornbeer']
  
   let tooltype =['pickaxe','shovel','hoe','axe']
   

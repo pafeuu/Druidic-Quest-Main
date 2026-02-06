@@ -67,7 +67,7 @@
 	composter_dirt = true
 	grass_over_mycelium = true
 	mycelium_over_grass = true
-	generic_bark = ""
+	generic_bark = "farmersdelight:tree_bark"
 	leggings_prevents_thorn_damage = true
 
 [leaf_piles]

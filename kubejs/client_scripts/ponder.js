@@ -23,16 +23,6 @@ Ponder.tags((event) => {
         ]
     )
 
-    event.createTag("kubejs:wizards_reborn","naturesaura:wizards_reborn","Wizard's Reborn Machines","Usage of Wissen Machinery",
-        [
-            "naturesaura:nature_altar",
-            "naturesaura:animal_spawner",
-            "naturesaura:auto_crafter",
-            "naturesaura:wood_stand",
-            "naturesaura:gold_powder",
-            "naturesaura:gold_bricks",
-        ]
-    )
 });
 
 Ponder.registry((event) => {
@@ -227,6 +217,34 @@ Ponder.registry((event) => {
         scene.idle(70)
         
     
+    });
+
+    event.create(["kubejs:infusing_altar"]).scene("sacrificial_altar","Explaining the Infusing Altar Usage","kubejs:infusing_altar",(scene, util)=>{
+        
+        scene.world.showSection([0, 0, 0, 7, 0, 7], Facing.UP);
+        scene.idle(10)
+
+        for(let i = 1; i < 5; i++){
+        scene.world.showSection([0, i, 0, 7, i, 7], Facing.DOWN);
+        scene.idle(5)
+        }
+
+        scene.idle(10)
+        scene.text(40,"Copper blocks need to be charged by lightning",[4,4,1]).attachKeyFrame().placeNearTarget()
+        scene.idle(40)
+        scene.showControls(30,[4,4,1],"down").withItem("thermal:lightning_charge")
+        scene.idle(5)
+        scene.world.replaceBlocks([0,4,0,7,5,7],"kubejs:charged_copper_block",false)
+        scene.idle(40)
+        scene.text(50,"Drop items on top of the altar",[4,1.5,4]).attachKeyFrame().placeNearTarget()
+        scene.idle(60)
+        scene.world.createItemEntity(util.vector.topOf(4, 1.5, 4), util.vector.of(0, 0.1, 0), "kubejs:infused_emerald")
+        scene.idle(20)
+        scene.text(40,"Copper blocks will loose its charge after each craft",[4,4,1]).attachKeyFrame().placeNearTarget()
+        scene.idle(50)
+        
+        //scene.world.replaceBlocks([4,4,0],"minecraft:copper_block",false)
+        
     });
 
 });

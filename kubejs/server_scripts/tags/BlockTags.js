@@ -7,7 +7,8 @@ ServerEvents.tags('block', event => {
     "mbd2:elemental_extractor",
     "mbd2:elemental_recycler",
     "mbd2:basic_recycler",
-    "mbd2:phytogenic_insolator"
+    "mbd2:phytogenic_insolator",
+    "mbd2:alloy_kiln"
   ])
 
   event.add("minecraft:basalt_ore_replaceables","minecraft:basalt")
@@ -18,7 +19,8 @@ ServerEvents.tags('block', event => {
     "mbd2:elemental_infuser",
     "mbd2:elemental_extractor",
     "mbd2:elemental_recycler",
-    "mbd2:phytogenic_insolator"
+    "mbd2:phytogenic_insolator",
+    "mbd2:alloy_kiln"
   ])
 
   event.add("minecraft:needs_stone_tool",[

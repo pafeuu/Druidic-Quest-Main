@@ -4,6 +4,7 @@ const $HammerItem = Java.loadClass('cofh.core.common.item.HammerItem')
 const $ExcavatorItem = Java.loadClass('cofh.core.common.item.ExcavatorItem')
 const $FlintAndSteelItem = Java.loadClass('net.minecraft.world.item.FlintAndSteelItem')
 const $ItemProperties = Java.loadClass('net.minecraft.world.item.Item$Properties')
+//const $GlovesItem = Java.loadClass('com.aetherteam.aether.item.accessories.gloves.GlovesItem')
 
 ItemEvents.toolTierRegistry(event => {
 
@@ -596,6 +597,7 @@ StartupEvents.registry('item', item => {
   item.createCustom('primitive_excavator',() => new $ExcavatorItem('primitive', new $ItemProperties()))
   item.createCustom('basic_excavator',() => new $ExcavatorItem('basic', new $ItemProperties()))
   item.createCustom('sturdy_excavator',() => new $ExcavatorItem('sturdy', new $ItemProperties()))
+  //item.createCustom('custom_gloves',()=>new $GlovesItem('iron',2.0,"custom_gloves",'minecraft:item.armor.equip_iron', new $ItemProperties()))
   /*item.create('advanced_excavator','shovel').tier('advanced').tag("minecraft:tools").tag('forge:tools/excavators').tag("dq:tier4/tool")
   item.create('ultimate_excavator','shovel').tier('ultimate').tag("minecraft:tools").tag('forge:tools/excavators').tag("dq:tier5/tool")*/
 
