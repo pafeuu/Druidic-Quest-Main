@@ -190,6 +190,7 @@ ServerEvents.recipes(event=>{
 		event.smithing("deep_aether:skyjade_"+id,"kubejs:skyjade_upgrade_smithing_template","kubejs:silver_"+id,"kubejs:skyjade_upgrade_parts")
 		event.smithing("aether:zanite_"+id,"kubejs:zanite_upgrade_smithing_template","kubejs:lead_"+id,"kubejs:zanite_upgrade_parts")
 		event.smithing("wizards_reborn:arcane_gold_"+id,"kubejs:arcane_gold_upgrade_smithing_template","minecraft:golden_"+id,"kubejs:arcane_gold_upgrade_parts")
+		event.smithing("minecraft:netherite_"+id,"minecraft:netherite_upgrade_smithing_template","minecraft:diamond_"+id,"netherite_ingot")
 
 	});
 

@@ -228,7 +228,15 @@ ServerEvents.recipes(event=>
     
     event.recipes.mbd2.recycling()
         .inputItems("kubejs:wooden_crucifix")
-        .outputItems("5x wizards_reborn:arcane_wood")
+        .outputItems("5x wizards_reborn:arcane_wood_log")
+        .duration(200)
+
+    event.recipes.mbd2.recycling()
+        .inputItems("kubejs:recall_potion")
+        .outputItems("2x minecraft:iron_ingot")
+        .chance(0.5, builder => builder
+            .outputItems("iron_ingot")
+        )
         .duration(200)
     
 })

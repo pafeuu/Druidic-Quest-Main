@@ -108,7 +108,17 @@ ItemEvents.modification(event => {
     'arsdelight:mendosteen_hornbeer',
     'arsdelight:frostaya_hornbeer',
     'arsdelight:bombegrante_hornbeer',
-    'arsdelight:source_berry_hornbeer']
+    'arsdelight:source_berry_hornbeer',
+    "minecraft:minecart",
+    "minecraft:tnt_minecart",
+    "minecraft:furnace_minecart",
+    "minecraft:chest_minecart",
+    "minecraft:hopper_minecart",
+    'supplementaries:dispenser_minecart',
+    'immersiveengineering:minecart_woodencrate',
+    'immersiveengineering:minecart_reinforcedcrate',
+    'immersiveengineering:minecart_woodenbarrel',
+    'naturesaura:mover_cart']
  
   let tooltype =['pickaxe','shovel','hoe','axe']
   
@@ -167,6 +177,7 @@ ItemEvents.modification(event => {
       "constructionwand:infinity_wand",
       "aether:flaming_sword",
       "ancient_aether:ancient_sword",
+      "enigmaticlegacy:enigmatic_elytra",
       "aether:holy_sword",
       "aether:lightning_sword",
       'umbral_skies:yeti_gloves',
@@ -365,34 +376,7 @@ ItemEvents.modification(event => {
     item.attackSpeed = -2.0,
     item.attackDamage = 2
   })
-  ////========================================Gloves
-  function gloves(material,durability)
-  {
-    event.modify("aether:"+material+"_gloves", item=>{
-      item.maxDamage = durability
-    })
-  }
-
-  function otherGloves(mod,material,durability)
-  {
-    event.modify(mod+":"+material+"_gloves", item=>{
-      item.maxDamage = durability
-    })
-  }
-
-  gloves("golden",512)
-  gloves("iron",512)
-  gloves("chain",512)
-  gloves("leather",128)
-  gloves("diamond",2048)
-  gloves("netherite",4096)
-  gloves("zanite",512)
-  otherGloves("deep_aether","skyjade",512)
-  otherGloves("umbral_skies","ironwood",512)
-  otherGloves("umbral_skies","naga",256)
-  otherGloves("umbral_skies","steeleaf",512)
-  otherGloves("umbral_skies","knightmetal",1024)
-  otherGloves("umbral_skies","fiery",1024)
+  
   
   ////========================================Tools
 

@@ -581,6 +581,7 @@ ServerEvents.recipes(event => {
 
 	let RemoveById = [
 		"farmersdelight:cooking/pineapple_pie",
+		"vanillabackport:bundle",
 		"aether:skyroot_barrel",
 		"arsdelight:cutting/green_archwood_log",
 		"arsdelight:cutting/green_archwood_wood",

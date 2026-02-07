@@ -15,6 +15,9 @@ ServerEvents.recipes(e => {
         
     });
 
+    e.shapeless("create:sweet_roll",["create:dough","2x sugar","#forge:milk"]).id("create:filling/sweet_roll")
+    e.shapeless("ars_nouveau:source_berry_roll",["create:dough","sugar","2x ars_nouveau:sourceberry_bush"]).id("ars_nouveau:source_berry_roll")
+    e.remove({id:"thermal:compat/create/bottler_create_sweet_roll"})
     const arsFruits = ["mendosteen","bastion","bombegrante","frostaya"]
     arsFruits.forEach(fruit => {
 
@@ -98,8 +101,6 @@ ServerEvents.recipes(e => {
         "kubejs:heavenly_spice",
         "enigmaticlegacy:astral_dust",
         "honey_bottle"],"enigmaticlegacy:ichor_bottle",100,200)
-    
-    e.shapeless("sob:peanut_butter",["2x vintagedelight:roasted_peanut","sugar","glass_bottle"]).id("sob:crafting/peanut_butter")
     
     e.custom(
         {

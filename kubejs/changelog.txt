@@ -3988,6 +3988,7 @@ Spells will only be disabled in new worlds or if you reset the server config
 ### Item Balance:
     -Forgotten Hat no longer gives luck
     -Buffed Blade of Grass nature damage
+    -Majestic Elytra is now unbreakable
 
 ### Loot:
     -Bats now drop coal and experience
@@ -3995,6 +3996,27 @@ Spells will only be disabled in new worlds or if you reset the server config
 ### Other:
     -Fixed ponder for infusing altar
     -Removed update notifications from XaeroMinimap config
+
+# Patch 4.3.4
+
+### Item Balance:
+    -All the gloves are now correctly unbreakable
+    -All the minecart variants now stack to 64
+
+### Recipes:
+    -Removed duplicate bundle recipe
+    -Removed for Sob Peanut Butter
+    -Changed for Sweet Roll
+    -Source Berry Roll
+    -Added back recipes for netherite tools
+    -Recycling Wooden Crucifix now grants arcane wood logs 
+    -Added for Recycling minecarts
+    -All the minecart variants can be processed into their ingredients in a cutting board(except regular minecart)
+    -Updated sapphire ore texture
+
+
+### Loot:
+    -OhTheBiomesWeveGone blue berry bushes will now drop frutisdelight blueberries
 
 # Patch 5.0
 
