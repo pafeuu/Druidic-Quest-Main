@@ -214,6 +214,24 @@ ServerEvents.recipes(event => {
         }
     ).id("simplemagnets:advancedmagnet")
 
+    function arrows(type,tip)
+    {
+        event.shaped(`2x kubejs:${type}_arrow`,
+        [
+            "T",
+            "S",
+            "F"
+        ],
+        {
+            T: tip,
+            S: "immersiveengineering:stick_treated",
+            F: "#forge:feathers"
+        }
+        )
+    }
+    arrows("explosive","thermal:explosive_grenade")
+    arrows("lightning","thermal:lightning_grenade")
+    arrows("power","diamond")
     
 
 })

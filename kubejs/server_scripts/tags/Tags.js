@@ -6,6 +6,18 @@ ServerEvents.tags('item', event => {
 
   event.removeAllTagsFrom([global.nukelist])
 
+  event.add("minecraft:tools/pickaxe","#forge:tools/pickaxes")
+  event.add("minecraft:tools/axe","#forge:tools/axes")
+  event.add("minecraft:tools/shovel","#forge:tools/shovels")
+  event.add("minecraft:tools/hoe","#forge:tools/hoes")
+
+  event.add("forge:tools/pickaxes","#minecraft:tools/pickaxe")
+  event.add("forge:tools/axes","#minecraft:tools/axe")
+  event.add("forge:tools/shovels","#minecraft:tools/shovel")
+  event.add("forge:tools/hoes","#minecraft:tools/hoe")
+  event.add("forge:tools/pickaxes","#minecraft:pickaxes")
+
+  
   event.add("forge:storage_blocks/slime","#c:storage_blocks/slime")
   event.add("aether:phoenix_repairing","kubejs:phoenix_ingot")
   event.remove("forge:dough","create:dough")

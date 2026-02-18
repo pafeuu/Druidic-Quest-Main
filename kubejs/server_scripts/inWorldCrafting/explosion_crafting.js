@@ -15,7 +15,7 @@ ServerEvents.recipes(event=>{
 
     const SoundEffectLightning = {type: "execute",command: "playsound irons_spellbooks:lightning_lance_cast neutral @p",hide: true}
 
-    const SoundEffectDimension = {type: "execute",command: "playsound minecraft:block.portal.travel neutral @p",hide: true} 
+    const SoundEffectDimension = {type: "execute",command: "playsound minecraft:block.portal.travel neutral @p ~ ~ ~ 0.08",hide: true} 
 
     const SoundEffectTransmutation = {type: "execute",command: "playsound wizards_reborn:arcanum_dust_transmutation neutral @p",hide: true}
 
@@ -30,14 +30,13 @@ ServerEvents.recipes(event=>{
 
     function ExplosionCrafting(amount, output, ingredients, particle, sound, condition) {
 
-        const itemInputs = ingredients.map(i => (i.tag ? { tag: i.tag } : { item: i.item }));
 
         
         const recipe = {
             type: "lychee:item_exploding",
-            item_in: itemInputs,
+            item_in: ingredients,
             post: [
-                { type: "delay", s: 2 },
+                //{ type: "delay", s: 2 },
                 { type: "drop_item", item: output, count: amount },
                 sound,
                 particle
@@ -108,17 +107,19 @@ ServerEvents.recipes(event=>{
     ],ParticleEnd,
     SoundEffectDimension)
 
+    ExplosionCrafting(1,"emerald",[
+        {item: "diamond"}
+    ],ParticleEnd,
+    SoundEffectDimension)
+
+
+
     event.remove({id:"irons_spellbooks:lightning_bottle"})
     ExplosionCrafting(1,"irons_spellbooks:lightning_bottle",[
         {item: "quark:bottled_cloud"},
-		{item: "minecraft:lightning_rod"}
+		    {item: "minecraft:lightning_rod"}
     ],ParticleLightning,
-    SoundEffectLightning)
-    
-	event.custom({
-		type: "lychee:item_exploding",
-		  "contextual": [
-			{
+    SoundEffectLightning,{
 			  type: "location",
 			  "predicate": {
 				"position":{ 
@@ -128,31 +129,23 @@ ServerEvents.recipes(event=>{
 				}
 				}
 			  }
-			}
-		  ],
-		  post: [
-			{
-			  type: "drop_item",
-			  item: "irons_spellbooks:lightning_bottle"
-			},
-			{
-				type: "execute",
-				command: "execute playsound minecraft:entity.lightning_bolt.impact neutral @p",
-				hide: true
-				
-			}
-		  ],
-		  item_in: [
-			{
-			  item: "quark:bottled_cloud"
-			},
-			{
-			  item: "minecraft:lightning_rod"
-			}
-		  ]
-	})
-
-
+			})
+    
+    ExplosionCrafting(2,"thermal:blitz_rod",[
+      {item: "irons_spellbooks:lightning_bottle"},
+			{item: "twilightforest:liveroot"},
+      {item: "twilightforest:liveroot"},
+			{item: "minecraft:snowball"},
+      {item: "minecraft:snowball"}
+    ],ParticleLightning,
+    SoundEffectLightning)
+      
+    ExplosionCrafting(1,"thermal:blitz_rod",[
+      {item: "irons_spellbooks:lightning_bottle"},
+			{item: "twilightforest:liveroot"},
+			{item: "minecraft:diamond"}
+    ],ParticleLightning,
+    SoundEffectLightning)
 
     
 })

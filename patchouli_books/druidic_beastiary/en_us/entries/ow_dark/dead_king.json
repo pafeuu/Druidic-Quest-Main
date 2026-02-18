@@ -6,8 +6,8 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Resistance:$()$(br)Blood$(2br)$(l)Weakness:$()$(br)Holy   Fire$(2br)$(l)Damage:$()$(br)Physical   Blood$(2br)$(o)Be ready for a boss battle!"
-        },
+            "text": "$(l)Resistance:$()$(br)Unholy ($(4)-100%!$())   Physical ($(4)-20%$())   Nature ($(4)-20%$())   Arcane ($(4)-10%$())   Cold ($(4)-10%$())$(2br)$(l)Weakness:$()$(br)Holy ($(2)+25%$())   Fire ($(2)+10%$())$(2br)$(l)Damage:$()$(br)Physical (50%)   Unholy (50%)$(2br)$(o)Be ready for a boss battle!" 
+        }, 
         {
             "type": "patchouli:entity",
             "entity": "irons_spellbooks:dead_king",

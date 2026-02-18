@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Resistance:$()$(br)Holy   Ice$(2br)$(l)Weakness:$()$(br)Blood   Fire$(2br)$(l)Damage:$()$(br)Physical   Holy"
+            "text": "$(l)Resistance:$()$(br)Holy ($(4)-80%!$())   Cold ($(4)-50%$())   Physical ($(4)-10%$())$(2br)$(l)Weakness:$()$(br)Unholy ($(2)+40%$()) Fire ($(2)+20%$())$(2br)$(l)Damage:$()$(br)Physical (70%)   Holy (25%)"
         },
         {
             "type": "patchouli:entity",

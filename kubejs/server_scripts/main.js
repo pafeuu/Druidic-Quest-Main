@@ -1092,29 +1092,6 @@ ServerEvents.recipes(event => {
 	  }
 	)
 	
-	event.custom({
-		type: "lychee:item_exploding",
-		  post: [
-			{
-			  type: "drop_item",
-			  item: "thermal:blitz_rod"
-			},
-			{
-				type: "execute",
-				command: "playsound irons_spellbooks:lightning_lance_cast neutral @p",
-				hide: "true"
-			}
-		  ],
-		  item_in: [
-			{item: "irons_spellbooks:lightning_bottle"},
-			{
-			  item: "twilightforest:liveroot"
-			},
-			{
-			  item: "minecraft:snowball"
-			}
-		  ]
-	})
 
 	event.custom({
 		type: "lychee:item_exploding",

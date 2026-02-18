@@ -12,33 +12,25 @@ ServerEvents.recipes(event=>{
 
     const SoundEffectTransmutation = {type: "execute",command: "playsound wizards_reborn:arcanum_dust_transmutation neutral @p",hide: true}
 
-    function LightningCrafting(amount,output,ingredients,particle,sound)
-    {
-        /*const itemInputs = ingredients.map(function(ingredient) {
-            var obj = {};
-            obj[ingredient.type] = ingredient.name;
-            return obj;
-        });*/
-
-		//const itemInputs = ingredients.map(i => (i.tag ? { tag: i.tag } : { item: i.item }));
-
-        event.custom({    
+	 function LightningCrafting(amount, output, ingredients, particle, sound, condition) {
+        
+        const recipe = {
             type: "lychee:lightning_channeling",
             item_in: ingredients,
             post: [
-                {
-                    type: "delay",
-                    s: 1
-                },
-                {
-                    type: "drop_item",
-                    item: output,
-                    count: amount
-                },
+                //{ type: "delay", s: 2 },
+                { type: "drop_item", item: output, count: amount },
                 sound,
                 particle
             ]
-        })
+        };
+
+        // Only add contextual if a condition was provided
+        if (condition) {
+            recipe.contextual = Array.isArray(condition) ? contextual : [condition];
+        }
+
+        event.custom(recipe);
     }
 
     LightningCrafting(2,"minecraft:shulker_shell",[
@@ -136,81 +128,41 @@ ServerEvents.recipes(event=>{
 			]
 	})
 
-	event.custom({
-		type: "lychee:lightning_channeling",
-		item_in: [
-			{item: "kubejs:primitive_alchemical_dust"},
-			{tag: "forge:plates/silver"},
-			{tag: "forge:insect"}
-		],
-		contextual: [
-			{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}},
-		],
-		post: [
-			{
-				type: "delay",
-				s: 1
-			},
-			{
-				type: "drop_item",
-				item: "twilightforest:naga_scale",
-			},
-			SoundEffectTransmutation,
-			ParticleBubbles
-		]
-	})
+	LightningCrafting(1,"twilightforest:fiery_ingot",[
+		{tag: "twilightforest:fiery_vial"},
+		{tag: "twilightforest:fiery_vial"},
+		{tag: "twilightforest:fiery_vial"},
+		{tag: "forge:ingots/arcanum_alloy"},	
+	],SoundEffectTransmutation,
+	ParticleBubbles,{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}})
 
-	event.custom({
-		type: "lychee:lightning_channeling",
-		item_in: [
+	LightningCrafting(1,"twilightforest:naga_scale",[
+		{item: "kubejs:primitive_alchemical_dust"},
+		{tag: "forge:plates/silver"},
+		{tag: "forge:insect"}	
+	],SoundEffectTransmutation,
+	ParticleBubbles,{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}})
+
+	
+
+	LightningCrafting(1,"kubejs:phoenix_ingot",[
 			{item: "kubejs:improved_alchemical_dust"},
 			{tag: "forge:ingots/fiery"},
 			{item: "kubejs:life_essence"},
-			{item: "kubejs:death_essence"}
-		],
-		contextual: [
-			{type: "location",predicate:{dimension: "aether:the_aether"}},
-		],
-		post: [
-			{
-				type: "delay",
-				s: 1
-			},
-			{
-				type: "drop_item",
-				item: "kubejs:phoenix_ingot",
-			},
-			SoundEffectTransmutation,
-			{
-				type: "execute",
-				command: "particle irons_spellbooks:fire ~ ~ ~ 0 0 0 0.02 15",
-				hide: "true"
-			}
-		]
-	})
+			{item: "kubejs:death_essence"}],
+		SoundEffectTransmutation,
+		ParticleFire,
+		{type: "location",predicate:{dimension: "aether:the_aether"}}
+	)
 
-	event.custom({
-		type: "lychee:lightning_channeling",
-		item_in: [
+	LightningCrafting(1,"twilightforest:fiery_blood",[
 			{item: "kubejs:basic_alchemical_dust"},
 			{item: "irons_spellbooks:blood_vial"},
-			{item: "kubejs:fire_infused_arcanum"}
-		],
-		contextual: [
-			{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}},
-		],
-		post: [
-			{
-				type: "delay",
-				s: 1
-			},
-			{
-				type: "drop_item",
-				item: "twilightforest:fiery_blood",
-			},
-			SoundEffectTransmutation,ParticleBubbles
-		]
-	})
+			{item: "kubejs:fire_infused_arcanum"}],
+		SoundEffectTransmutation,
+		ParticleFire,
+		{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}}
+	)
     
 
     

@@ -11,7 +11,7 @@
 	"isTooltipAttackRangeEnabled": true,
 	"weaponSwingSoundVolume": 100,
 	"isDebugOBBEnabled": true,
-	"swingThruGrassBlacklist": "farmersdelight|twilightdelight|aetherdelight|create_things_and_misc",
+	"swingThruGrassBlacklist": "knife",
 	"mineWithWeaponBlacklist": "",
 	"firstPersonAnimations": "AUTO"
 }

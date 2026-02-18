@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Resistance:$()$(br)Ice   Arcane$(2br)$(l)Weakness:$()$(br)Holy   Fire   Nature$(2br)$(l)Damage:$()$(br)Arcane"
+            "text": "$(l)Resistance:$()$(br)Cold ($(4)-100%!$())   Arcane ($(4)-25%$())   Physical ($(4)-20%$())$(2br)$(l)Weakness:$()$(br)Fire ($(2)+50%$())   Holy ($(2)+40%$())   Nature ($(2)+20%$())$(2br)$(l)Damage:$()$(br)Arcane (100%)"
         },
         {
             "type": "patchouli:entity",

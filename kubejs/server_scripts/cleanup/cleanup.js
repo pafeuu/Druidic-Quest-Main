@@ -1608,16 +1608,6 @@ ServerEvents.recipes(event => {
 		R: "kubejs:shapeshifting_root"
 	})
 
-	event.shaped("lodestone",
-		[
-			"ZZZ",
-			"ZRZ",
-			"ZZZ"
-		],
-		{
-			Z: "chiseled_stone_bricks",
-			R: "#forge:ingots/iron"
-	}).id("minecraft:lodestone")
 
 	function WaystoneVariants(type,block)
 	{

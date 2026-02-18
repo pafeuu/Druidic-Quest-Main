@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Resistance:$()$(br)Blood   Arcane   Nature$(2br)$(l)Weakness:$()$(br)Holy   Fire$(2br)$(l)Damage:$()$(br)Physical   Blood   Nature"
+            "text": "$(l)Resistance:$()$(br)Unholy ($(4)-50%$())   Arcane ($(4)-50%$())   Nature ($(4)-25%$())   Physical ($(4)-10%$())$(2br)$(l)Weakness:$()$(br)Holy ($(2)+50%$())   Fire ($(2)+50%$())$(2br)$(l)Damage:$()$(br)Physical (50%)   Unholy (25%)   Nature (25%)"
         },
         {
             "type": "patchouli:entity",

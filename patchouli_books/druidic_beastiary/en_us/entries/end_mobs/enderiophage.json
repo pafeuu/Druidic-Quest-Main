@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Usually Neutral$(2br)$(l)Resistance:$()$(br)Arcane   Blood$(2br)$(l)Weakness:$()$(br)Ice   Nature$(2br)$(l)Damage:$()$(br)Physical   Arcane   Blood"
+            "text": "Usually Neutral$(2br)$(l)Resistance:$()$(br)Arcane ($(4)-25%$())   Unholy ($(4)-25%$())$(2br)$(l)Weakness:$()$(br)Cold ($(2)+25%$())   Nature ($(2)+20%$())$(2br)$(l)Damage:$()$(br)Physical (50%)   Arcane (25%)   Unholy (25%)"
         },
         {
             "type": "patchouli:entity",

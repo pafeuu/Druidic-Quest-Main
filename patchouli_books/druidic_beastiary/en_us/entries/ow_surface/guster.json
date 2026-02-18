@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Resistance:$()$(br)Physical$(2br)$(l)Weakness:$()$(br)Ice$(2br)$(l)Damage:$()$(br)Physical   Fire"
+            "text": "$(l)Resistance:$()$(br)Physical ($(4)-25%$())   Fire ($(4)-10%$())$(2br)$(l)Weakness:$()$(br)Cold ($(2)+40%$())$(2br)$(l)Damage:$()$(br)Physical (75%)   Fire (25%)"
         },
         {
             "type": "patchouli:entity",

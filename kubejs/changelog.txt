@@ -4014,11 +4014,65 @@ Spells will only be disabled in new worlds or if you reset the server config
     -All the minecart variants can be processed into their ingredients in a cutting board(except regular minecart)
     -Updated sapphire ore texture
 
+# Patch 4.3.5
+
+### Recipes:
+    -Removed Duplicate Lodestone recipe
+
+### Other:
+    -Fixed Ghostly Pickaxe repair ingredient
+    -Fixed Alloy Kiln UI slots inputs
 
 ### Loot:
     -OhTheBiomesWeveGone blue berry bushes will now drop frutisdelight blueberries
 
+# Patch 4.3.6
+
+### Recipes:
+    -Removed Delay on Lightning and Explosion Crafting due to bugs
+    -Lowered volume on crafting the dimmension ripper
+
+### Loot:
+    -Fixed Golden Egg loot with silk touch
+
+### Worldgen:
+    -Reverted changed idas structures to their original form(for now)
+    -Removed Quark Blocks should no longer appear in structures
+    
+### Other:
+    -All the knifes can correctly mine tall grass now
+    -Fixed GUI slots in elemental binder
+
+# Patch 4.3.6
+
+### Recipes:
+    -Fixed duplicate recipe for bottle o` lightning
+    -Changed for Blitz Mote
+    -Added for Blitz Mote
+    -Removed delay from some missed lightning crafting recipes
+
+### Other:
+    -Primitive items(except hammer and excavator) can now be repaired with flint
+
+# Patch 4.3.7
+
+### Worldgen:
+    -Fixed replaced blocks in structures
+    -All waystones inside structures are now correctly unbreakable like the ones in villages(they are all blackstone variant for now)
+
+### Recipes:
+    -Added for Explosive Arrow
+    -Added for Lightning Arrow
+    -Added for Power Arrow
+
+### Other:
+    -Removed particles from enderium and ruby hook
+    -Fixed Broken Eye of the storm boss
+    -Updated Druidic Bestiary with specific amounts of damage and resistances(By Señor Random)
+
+
 # Patch 5.0
+
 
 ### Removed mods:
     -Ht tree chop

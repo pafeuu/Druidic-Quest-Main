@@ -1,6 +1,6 @@
 {
   "priority": 1,
-  "type": "aether:eots_controller",
+  "type": "deep_aether:eots_controller",
   "resistances": {
     "alchemical_damage": 1.25,
     "physical_damage": 1.25,

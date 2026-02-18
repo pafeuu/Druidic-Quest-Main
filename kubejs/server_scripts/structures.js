@@ -1,109 +1,83 @@
 MoreJSEvents.structureLoad((event) => {
-    const BlazeBurners = ["create:blaze_burner","create:empty_blaze_burner","create:lit_blaze_burner"]
 
-    event.forEachPalettes((palette) => {
-        palette.forEach((blockInfo) => {
-            if (BlazeBurners.includes(`${blockInfo.id}`)) {
-                blockInfo.setBlock("supplementaries:fire_pit")
-            }
-        });
+    const replacementsKeepOrientation = [
+        ["create:mechanical_drill","supplementaries:bamboo_spikes"],
+        ["create:encased_fan","supplementaries:bellows"],
+        ["create:windmill_bearing","supplementaries:bellows"],
+        ["create:mechanical_bearing","supplementaries:bellows",]
+    ]
+
+    replacementsKeepOrientation.forEach(([oldBlock,newBlock])=>{
+        event.forEachPalettes((palette)=>{
+            palette.forEach((blockInfo) => {
+                if (`${blockInfo.id}`==oldBlock) {
+                    blockInfo.setBlock(newBlock,{facing:`${blockInfo.properties.facing}`})
+                }
+            });
+        })
     });
 
-    const MechanicalPress = ["create:mechanical_press"]
-    event.forEachPalettes((palette) => {
-        palette.forEach((blockInfo) => {
-            if (MechanicalPress.includes(`${blockInfo.id}`)) {
-                blockInfo.setBlock("piston",{facing: "down"})
-            }
-        });
+    const replacementsWithProperties = [
+        ["create:mechanical_press","piston",{facing: "down"}],
+        //["waystones:waystone","waystones:waystone",{origin: "village"}]
+    ]
+
+    const waystoneVariantsInStructures = [
+        "",
+        "sandy_",
+        "mossy_"
+
+    ].forEach(type=>{
+        event.forEachPalettes((palette)=>{
+            palette.forEach((blockInfo) => {
+                if (`${blockInfo.id}`==`waystones:${type}waystone`) {
+                    blockInfo.setBlock("waystones:blackstone_waystone",{origin:"village",half:`${blockInfo.properties.half}`})
+                }
+            });
+        })
+    })
+    
+
+    replacementsWithProperties.forEach(([oldBlock,newBlock,properties])=>{
+        event.forEachPalettes((palette)=>{
+            palette.forEach((blockInfo) => {
+                if (`${blockInfo.id}`==oldBlock) {
+                    blockInfo.setBlock(newBlock,properties)
+                }
+            });
+        })
     });
 
-    const AdvancedMachinery = ["create:mechanical_arm","create:mechanical_crafter","create:crushing_wheel","create:mechanical_mixer"]
-    event.forEachPalettes((palette) => {
-        palette.forEach((blockInfo) => {
-            if (AdvancedMachinery.includes(`${blockInfo.id}`)) {
-                blockInfo.setBlock("kubejs:primitive_machine")
-            }
-        });
+    const replacements = [
+        ["quark:charcoal_block","thermal:charcoal_block"],
+        ["quark:carrot_crate","farmersdelight:carrot_crate"],
+        ["quark:potato_crate","farmersdelight:potato_crate"],
+        ["quark:apple_crate","fruitsdelight:apple_crate"]
+        ["create:blaze_burner","supplementaries:fire_pit"],
+        ["create:empty_blaze_burner","supplementaries:fire_pit"],
+        ["create:lit_blaze_burner","supplementaries:fire_pit"],
+        ["create:mechanical_arm","kubejs:primitive_machine"],
+        ["create:mechanical_crafter","kubejs:primitive_machine"],
+        ["create:crushing_wheel","kubejs:primitive_machine"],
+        ["create:mechanical_mixer","kubejs:primitive_machine"],
+        ["create:mechanical_saw","sawmill:sawmill"],
+        ["minecraft:enchanting_table","ars_nouveau:arcane_core"],
+        ["quark:matrix_enchanter","ars_nouveau:arcane_core"],
+        ["create:andesite_alloy_block","minecraft:iron_block"],
+        ["netherite_block","minecraft:ancient_debris"],
+        ["anvil","damaged_anvil"],
+        ["chipped_anvil","damaged_anvil"]
+    ]
+    replacements.forEach(([oldBlock,newBlock])=>{
+        event.forEachPalettes((palette)=>{
+            palette.forEach((blockInfo) => {
+                if (`${blockInfo.id}`==oldBlock) {
+                    blockInfo.setBlock(newBlock)
+                }
+            });
+        })
     });
 
-    const MechanicalDrill = ["create:mechanical_drill"]
 
-    event.forEachPalettes((palette) => {
-        palette.forEach((blockInfo) => {
-            if (MechanicalDrill.includes(`${blockInfo.id}`)) {
-                blockInfo.setBlock("supplementaries:bamboo_spikes",{facing:`${blockInfo.properties.facing}`})
-            }
-        });
-    });
-
-    const MechanicalSaw = ["create:mechanical_saw"]
-
-    event.forEachPalettes((palette) => {
-        palette.forEach((blockInfo) => {
-            if (MechanicalSaw.includes(`${blockInfo.id}`)) {
-                blockInfo.setBlock("sawmill:sawmill")
-            }
-        });
-    });
-
-    const EncasedFan = ["create:encased_fan"]
-
-    event.forEachPalettes((palette) => {
-        palette.forEach((blockInfo) => {
-            if (EncasedFan.includes(`${blockInfo.id}`)) {
-                blockInfo.setBlock("supplementaries:bellows",{facing:`${blockInfo.properties.facing}`})
-            }
-        });
-    });
-
-    const WindmillBearing = ["create:windmill_bearing","create:mechanical_bearing"]
-
-    event.forEachPalettes((palette) => {
-        palette.forEach((blockInfo) => {
-            if (WindmillBearing.includes(`${blockInfo.id}`)) {
-                blockInfo.setBlock("supplementaries:bellows")
-            }
-        });
-    });
-
-    const Anvils = ["minecraft:anvil","minecraft:chipped_anvil"]
-
-    event.forEachPalettes((palette) => {
-        palette.forEach((blockInfo) => {
-            if (Anvils.includes(`${blockInfo.id}`)) {
-                blockInfo.setBlock("minecraft:damaged_anvil")
-            }
-        });
-    });
-
-    const NetheriteBlock = ["netherite_block"]
-
-    event.forEachPalettes((palette) => {
-        palette.forEach((blockInfo) => {
-            if (NetheriteBlock.includes(`${blockInfo.id}`)) {
-                blockInfo.setBlock("minecraft:ancient_debris")
-            }
-        });
-    });
-
-    const AndesiteAlloyBlock = ["create:andesite_alloy_block"]
-
-    event.forEachPalettes((palette) => {
-        palette.forEach((blockInfo) => {
-            if (AndesiteAlloyBlock.includes(`${blockInfo.id}`)) {
-                blockInfo.setBlock("minecraft:iron_block")
-            }
-        });
-    });
-
-    const EnchantingTable = ["minecraft:enchanting_table","quark:matrix_enchanter"]
-
-    event.forEachPalettes((palette) => {
-        palette.forEach((blockInfo) => {
-            if (EnchantingTable.includes(`${blockInfo.id}`)) {
-                blockInfo.setBlock("ars_nouveau:arcane_core")
-            }
-        });
-    });
+    
 }); 
