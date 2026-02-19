@@ -368,7 +368,8 @@ ItemEvents.modification(event => {
   })
 
   event.modify("twilightforest:ice_sword",item=>{
-    item.attackDamage = 3
+    item.attackDamage = 3,
+    item.maxDamage = 1024
   })
 
   event.modify("tide:blazing_swordfish", item=>{
