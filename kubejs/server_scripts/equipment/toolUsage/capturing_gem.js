@@ -33,6 +33,7 @@ ItemEvents.entityInteracted("kubejs:capturing_gem",event => {
             0.01)// Particles to shows succesful capture
     
         
+
     
     event.item.setNbt({
         captured: true,

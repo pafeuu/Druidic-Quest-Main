@@ -3929,7 +3929,7 @@ Patch 4.0.1
     -Disabled Summon Steed spell
 
 Spells will only be disabled in new worlds or if you reset the server config
-    
+  
 # Patch 4.3.1
 
 ### Removed Items:
@@ -4064,13 +4064,22 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Added for Explosive Arrow
     -Added for Lightning Arrow
     -Added for Power Arrow
+    -Added for Bronze Ingot inside of the kiln and other alloy smelters
 
 ### Other:
     -Removed particles from enderium and ruby hook
     -Fixed Broken Eye of the storm boss
     -Updated Druidic Bestiary with specific amounts of damage and resistances(By Señor Random)
 
+# Patch 4.3.8
 
+### Item Balance:
+    -Buffed Ice sword's durability to 1024
+
+### Other:
+    -Fixed Capturing Gem functionality(Old capturing gems need to be put into the crafting grid to clear the nbt data)
+
+    
 # Patch 5.0
 
 

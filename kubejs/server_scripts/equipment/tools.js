@@ -1247,7 +1247,7 @@ ServerEvents.recipes(event => {
 
 	/// ======================================================================= Tier 2 Tools ============================================================================
 	
-	event.shaped("kubejs:capturing_gem",
+	event.shaped(Item.of('kubejs:capturing_gem', '{captured:0b}'),
 		[
 			"YZY",
 			"ZXZ",
@@ -1259,6 +1259,8 @@ ServerEvents.recipes(event => {
 			X: "supplementaries:cage"
 		}
 	)
+
+	event.shapeless(Item.of('kubejs:capturing_gem', '{captured:0b}'),'kubejs:capturing_gem')
 	
 	event.shaped("enigmaticlegacy:enchantment_transposer",
 		[

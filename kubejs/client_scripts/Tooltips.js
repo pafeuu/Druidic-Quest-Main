@@ -483,7 +483,7 @@ ItemEvents.tooltip( tooltip => {
   
   tooltip.addAdvanced('kubejs:capturing_gem', (item, advanced, text) => {
     
-    if(item.nbt.get("captured")==true)
+    if(item.nbt.get("entity")!=null)
     {
       const entity = item.nbt.get("entity")
       text.add(

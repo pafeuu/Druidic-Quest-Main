@@ -68,6 +68,7 @@ MoreJSEvents.structureLoad((event) => {
         ["anvil","damaged_anvil"],
         ["chipped_anvil","damaged_anvil"]
     ]
+    
     replacements.forEach(([oldBlock,newBlock])=>{
         event.forEachPalettes((palette)=>{
             palette.forEach((blockInfo) => {

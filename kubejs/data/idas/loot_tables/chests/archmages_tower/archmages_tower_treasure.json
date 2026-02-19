@@ -87,7 +87,13 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "kubejs:capturing_gem"
+          "name": "kubejs:capturing_gem",
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag": "{captured:false}"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
