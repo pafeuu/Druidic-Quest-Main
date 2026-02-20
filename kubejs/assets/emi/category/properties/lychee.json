@@ -1,0 +1,48 @@
+{   
+    "lychee:block_interacting/minecraft/default": {
+        "order": -5006,
+        "icon": {
+            "stack": "item:immersiveengineering:hammer"
+        },
+        "simplified_icon": {
+            "texture": "immersiveengineering:textures/item/tool_hammer.png"
+        }
+    },
+    "lychee:item_exploding/minecraft/default": {
+        "order": -5005,
+        "icon": {
+            "stack": "item:thermal:explosive_grenade"
+        },
+        "simplified_icon": {
+            "texture": "thermal:textures/item/explosive_grenade.png"
+        }
+    },
+    "lychee:lightning_channeling/minecraft/default": {
+        "order": -5004,
+        "icon": {
+            "stack": "item:thermal:lightning_grenade"
+        },
+        "simplified_icon": {
+            "texture": "thermal:textures/item/lightning_grenade.png"
+        }
+    },
+    "lychee:block_crushing/minecraft/default": {
+        "order": -5003,
+        "sort": "none",
+        "icon": {
+            "stack": "item:minecraft:anvil"
+        },
+        "simplified_icon": {
+            "texture": "kubejs:textures/item/stone_plate.png"
+        }
+    },
+    "lychee:item_inside/minecraft/default": {
+        "order": -5002,
+        "icon": {
+            "stack": "item:minecraft:water_bucket"
+        },
+        "simplified_icon": {
+            "texture": "minecraft:textures/item/water_bucket.png"
+        }
+    }    
+}

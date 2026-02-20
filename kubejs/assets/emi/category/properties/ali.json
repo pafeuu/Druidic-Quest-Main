@@ -1,0 +1,78 @@
+{
+  "ali:block_loot": {
+    "order": 210,
+    "icon": {
+      "stack": "item:minecraft:iron_pickaxe"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/item/iron_pickaxe.png"
+    }
+  },
+  "ali:entity_loot": {
+    "order": 211,
+    "icon": {
+      "stack": "item:minecraft:bone"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/item/bone.png"
+    }
+  },
+  "ali:archaeology_loot": {
+    "order": 216,
+    "sort": "none",
+    "icon": {
+      "stack": "item:minecraft:brush"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/item/brush.png"
+    }
+  },
+  "ali:plant_loot": {
+    "order": 217,
+    "sort": "none",
+    "icon": {
+      "stack": "item:minecraft:iron_hoe"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/item/iron_hoe.png"
+    }
+  },
+  "ali:gameplay_loot": {
+    "order": 218,
+    "sort": "none",
+    "icon": {
+      "stack": "item:minecraft:compass"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/item/compass_16.png"
+    }
+  },
+  "ali:fishing_loot": {
+    "order": 219,
+    "icon": {
+      "stack": "item:minecraft:fishing_rod"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/item/fishing_rod.png"
+    }
+  },
+  "ali:chest_loot": {
+    "order": 220,
+    "icon": {
+      "stack": "item:lootr:lootr_chest"
+    },
+    "simplified_icon": {
+      "texture": "lootr:textures/block/barrel_top.png"
+    }
+  },
+  "ali:hero_loot": {
+    "order": 221,
+    "icon": {
+      "stack": "item:minecraft:emerald"
+    },
+    "simplified_icon": {
+      "texture": "minecraft:textures/item/emerald.png"
+    }
+  }
+
+}

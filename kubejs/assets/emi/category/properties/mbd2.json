@@ -1,0 +1,62 @@
+{
+    "mbd2:infernal_smelting": {
+        "order": 40,
+        "icon": {
+        "stack": "item:mbd2:infernal_smelter"
+        },
+        "simplified_icon": {
+        "texture": "minecraft:textures/block/dirt.png"
+        }
+    },
+    "mbd2:alloying": {
+        "order": 28,
+        "sort": "none",
+        "icon": {
+            "stack": "item:mbd2:alloy_kiln"
+        },
+        "simplified_icon": {
+            "texture": "minecraft:textures/block/dirt.png"
+        }
+    },
+    "mbd2:recycling": {
+        "order": 180,
+        "sort": "none",
+        "icon": {
+            "stack": "item:mbd2:basic_recycler"
+        },
+        "simplified_icon": {
+            "texture": "minecraft:textures/block/dirt.png"
+        }
+    },
+    "mbd2:elemental_infusing": {
+        "order": 40,
+        "sort": "none",
+        "icon": {
+            "stack": "item:mbd2:elemental_infuser"
+        },
+        "simplified_icon": {
+            "texture": "minecraft:textures/block/dirt.png"
+        }
+    },
+    "mbd2:evaporating": {
+        "order": 40,
+        "sort": "none",
+        "icon": {
+            "stack": "item:mbd2:elemental_evaporator"
+        },
+        "simplified_icon": {
+            "texture": "minecraft:textures/block/dirt.png"
+        }
+    },
+    "mbd2:elemental_binding": {
+        "order": 40,
+        "sort": "none",
+        "icon": {
+            "stack": "item:mbd2:elemental_binder"
+        },
+        "simplified_icon": {
+            "texture": "minecraft:textures/block/dirt.png"
+        }
+    }
+
+}

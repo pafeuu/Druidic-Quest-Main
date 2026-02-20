@@ -3,10 +3,10 @@
     "order": 190,
     "sort": "none",
     "icon": {
-      "stack": "item:thermal:gold_coin"
+      "texture": "thermal:textures/item/gold_coin_3.png"
     },
     "simplified_icon": {
-      "texture": "minecraft:textures/block/dirt.png"
+      "texture": "thermal:textures/item/gold_coin_3.png"
     }
   }
 }
