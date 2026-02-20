@@ -401,6 +401,7 @@ ServerEvents.recipes(event => {
 		]
 	}).id("wizards_reborn:wissen_crystallizer/cosmic_arcane_lumos")
 
+	
 	event.custom({
 		"type": "lychee:lightning_channeling",
 		"post": [

@@ -27,7 +27,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/improvedmobs difficulty player @p add 10"
+					command: "/sh_difficulty add @p 30"
 					elevate_perms: true
 					id: "7B0A7910A407C42B"
 					silent: true
@@ -62,7 +62,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/improvedmobs difficulty player @p add 10"
+					command: "/sh_difficulty add @p 30"
 					elevate_perms: true
 					id: "481550F56215B8AD"
 					silent: true
@@ -97,7 +97,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/improvedmobs difficulty player @p add 10"
+					command: "/sh_difficulty add @p 50"
 					elevate_perms: true
 					id: "70965E494CE1CA18"
 					silent: true
@@ -132,7 +132,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/improvedmobs difficulty player @p add 10"
+					command: "/sh_difficulty add @p 50"
 					elevate_perms: true
 					id: "7B968046CF40D499"
 					silent: true
@@ -167,7 +167,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/improvedmobs difficulty player @p add 10"
+					command: "/sh_difficulty add @p 100"
 					elevate_perms: true
 					id: "6A700BE5349575A5"
 					silent: true

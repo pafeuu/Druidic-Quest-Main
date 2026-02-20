@@ -16,4 +16,11 @@
 	#Enables bat model and animations for Bat Resource Pack
 	#Requires a resource packs reload
 	batResourcepack = true
+	#Enables second armor layer for Leather Horse Armor Resource Pack
+	horseLeatherArmorResourcepack = false
+
+#Overlay
+[overlay]
+	#Enable empty air overlay.
+	emptyAirOverlay = true
 

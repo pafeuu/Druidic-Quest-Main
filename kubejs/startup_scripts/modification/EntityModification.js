@@ -16,3 +16,17 @@ EntityJSEvents.modifyEntity((event) => {
         })
     })
 })
+
+//attributes Startup Script
+EntityJSEvents.attributes(event => {
+    
+    const BaseHealthChange = [
+        ["minecraft:zombie",30],
+    ]
+    event.modify('minecraft:skeleton', attribute => {
+        //Overwrite an allay's max health attribute setting it to 30.
+        attribute.add("minecraft:generic.max_health", 2000)
+    })
+    
+    
+})

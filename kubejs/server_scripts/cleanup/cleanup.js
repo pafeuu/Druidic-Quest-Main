@@ -10,6 +10,18 @@ var wood_TF_no_mangrove = ['canopy','twilight_oak','time','transformation','mini
 
 
 global.nukelist = [
+	'scalinghealth:chance_heart',
+	'scalinghealth:enchanted_heart',
+	'scalinghealth:power_crystal_shard',
+	'scalinghealth:power_crystal',
+	'scalinghealth:cursed_heart',
+	'scalinghealth:heart_dust',
+	'scalinghealth:heart_crystal_shard',
+	'scalinghealth:heart_crystal',
+	'scalinghealth:deepslate_power_crystal_ore',
+	'scalinghealth:deepslate_heart_crystal_ore',
+	'scalinghealth:power_crystal_ore',
+	'scalinghealth:heart_crystal_ore',
 	"twigs:calcite_wall",
 	"ancient_aether:blue_skyroot_pine_sapling",
 	"immersive_weathering:ancient_aether/blue_skyroot_pine_leaf_pile",

@@ -22,6 +22,15 @@
 	#Enables dyes Data Pack
 	#Requires a world reload
 	dyesDatapack = true
+	#Enables horse armor Data Pack
+	#Requires a world reload
+	horseArmorDatapack = true
+	#Enables lead Data Pack
+	#Requires a world reload
+	leadDatapack = true
+	#Enables name tag Data Pack
+	#Requires a world reload
+	nameTagDatapack = true
 
 	#Integrations
 	[datapacks.integrations]

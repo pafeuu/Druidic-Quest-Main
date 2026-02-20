@@ -4079,14 +4079,66 @@ Spells will only be disabled in new worlds or if you reset the server config
 ### Other:
     -Fixed Capturing Gem functionality(Old capturing gems need to be put into the crafting grid to clear the nbt data)
 
-    
+
 # Patch 5.0
+
+### Updated Mods:
+    -SophisticatedMods
+    -ALI
+    -AttributeFix
+    -XaeroMinimap
+    -XaeroWorldMap
+    -Bookshelf
+    -Copycats+
+    -Cupboard
+    -EccentricTome
+    -EveryCompat
+    -VanillaBackport
+    -Platform
+    -FastSuite
+    -farmersdelight
+    -KubejsDelight
+    -FTBEssentials
+    -FTBQuests
+    -FzzyConfig
+    -ImmedietalyFast
+    -GeckoLib
+    -Kiwi
+    -KubejsNaturesAura
+    -LootJS
+    -ManaUnificationMod
+    -MEED
+    -ModernFix
+    -MoonlightLib
+    -PigPen
+    -PufferfishAttributes
+    -RangedJS
+    -RawVisualKeybinder
+    -SillyOddities
+    -SuperMartinCoreLib
+    -Tips
+    -ToolStats
+    -Tide
+    -TooltipOverhaul
+    -Waystones
+    -CreativeCore
+    -SillyOddities
+    
+    !-FluffyFur
+    !-IronsSPellsNSpellbooks
 
 
 ### Removed mods:
     -Ht tree chop
     -ImprovedMobs
+    -Big Brain
+    -NoNametagedPeacefulDespawn
+    -ColorfulHearts
 
 ### Added mods:
-    -scaling health
-    -
+    -ScalingHealth
+    -EnhancedAI
+    -SilentLib
+    -InsaneLib
+    -WitherReincarnated
+    -OverflowingBars
