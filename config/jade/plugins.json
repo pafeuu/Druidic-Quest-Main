@@ -56,9 +56,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "l2hostility": {
-    "mob": true
-  },
   "alembic": {
     "resistances": true,
     "damage_types": true
@@ -108,5 +105,8 @@
   },
   "waystones": {
     "waystone": true
+  },
+  "corpse": {
+    "corpse": true
   }
 }

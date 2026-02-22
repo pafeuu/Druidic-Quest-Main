@@ -13,6 +13,6 @@
   },
   "debugprint": {
     "desc:": "Set to true to enable log debug output, default: false.",
-    "debugprint": true
+    "debugprint": false
   }
 }
