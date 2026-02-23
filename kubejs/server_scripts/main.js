@@ -18,11 +18,11 @@ ServerEvents.recipes(event => {
 	event.remove({id:"explorerscompass:explorers_compass"});
 	event.remove({id:'ars_nouveau:potion_flask'})
 	event.remove({mod:'waystones'})
-	event.remove({output:'#minecraft:axes'})
+	/*event.remove({output:'#minecraft:axes'})
 	event.remove({output:'#minecraft:pickaxes'})
 	event.remove({output:'#minecraft:shovels'})
 	event.remove({output:'#minecraft:hoes'})
-	event.remove({output:'#minecraft:swords'})
+	event.remove({output:'#minecraft:swords'})*/
 	
 	event.replaceInput({mod:'ars_nouveau', not:[{type:"minecraft:stonecutting"},{id:"ars_nouveau:sourcestone_sconce"}]}, 'ars_nouveau:sourcestone','kubejs:source_alloy_ingot')
 	
@@ -70,19 +70,6 @@ ServerEvents.recipes(event => {
 			T: "naturesaura:token_joy"
 		}
 	).id("wizards_reborn:shaped/arcane_workbench")
-
-	event.shaped("kubejs:arcanum_pylon",
-		[
-			"GAG",
-			"GAG",
-			"ATA"
-		],
-		{
-			G:"naturesaura:gold_leaf",
-			A:"wizards_reborn:arcanum",
-			T:"naturesaura:wood_stand"
-		}
-	)
 
 	event.shaped("kubejs:arcanum_pylon",
 		[
@@ -4529,6 +4516,20 @@ ServerEvents.recipes(event => {
 		}
 	  ).id("create:crafting/kinetics/empty_blaze_burner")
 	//===================================================== Tier 4 Machines
+	
+	event.shaped("starbunclemania:source_condenser",
+		[
+			"PRP",
+			"PXP",
+			"PJP"
+		],
+		{
+			P: "#forge:plates/arcane_gold",
+			R: "ars_nouveau:relay",
+			X: "kubejs:steel_machine",
+			J: "starbunclemania:fluid_jar"
+		}
+	).id("starbunclemania:source_condenser")
 	
 	event.shaped("naturesaura:offering_table",
 		[

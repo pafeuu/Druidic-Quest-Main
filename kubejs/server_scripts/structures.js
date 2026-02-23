@@ -21,21 +21,6 @@ MoreJSEvents.structureLoad((event) => {
         ["create:mechanical_press","piston",{facing: "down"}],
         //["waystones:waystone","waystones:waystone",{origin: "village"}]
     ]
-
-    const waystoneVariantsInStructures = [
-        "",
-        "sandy_",
-        "mossy_"
-
-    ].forEach(type=>{
-        event.forEachPalettes((palette)=>{
-            palette.forEach((blockInfo) => {
-                if (`${blockInfo.id}`==`waystones:${type}waystone`) {
-                    blockInfo.setBlock("waystones:blackstone_waystone",{origin:"village",half:`${blockInfo.properties.half}`})
-                }
-            });
-        })
-    })
     
 
     replacementsWithProperties.forEach(([oldBlock,newBlock,properties])=>{
@@ -52,9 +37,8 @@ MoreJSEvents.structureLoad((event) => {
         ["quark:charcoal_block","thermal:charcoal_block"],
         ["quark:carrot_crate","farmersdelight:carrot_crate"],
         ["quark:potato_crate","farmersdelight:potato_crate"],
-        ["quark:apple_crate","fruitsdelight:apple_crate"]
+        ["quark:apple_crate","fruitsdelight:apple_crate"],
         ["create:blaze_burner","supplementaries:fire_pit"],
-        ["create:empty_blaze_burner","supplementaries:fire_pit"],
         ["create:lit_blaze_burner","supplementaries:fire_pit"],
         ["create:mechanical_arm","kubejs:primitive_machine"],
         ["create:mechanical_crafter","kubejs:primitive_machine"],
@@ -64,9 +48,9 @@ MoreJSEvents.structureLoad((event) => {
         ["minecraft:enchanting_table","ars_nouveau:arcane_core"],
         ["quark:matrix_enchanter","ars_nouveau:arcane_core"],
         ["create:andesite_alloy_block","minecraft:iron_block"],
-        ["netherite_block","minecraft:ancient_debris"],
-        ["anvil","damaged_anvil"],
-        ["chipped_anvil","damaged_anvil"]
+        ["minecraft:netherite_block","minecraft:ancient_debris"],
+        ["minecraft:anvil","minecraft:damaged_anvil"],
+        ["minecraft:chipped_anvil","minecraft:damaged_anvil"]
     ]
     
     replacements.forEach(([oldBlock,newBlock])=>{
@@ -78,6 +62,21 @@ MoreJSEvents.structureLoad((event) => {
             });
         })
     });
+
+    const waystoneVariantsInStructures = [
+        "",
+        "sandy_",
+        "mossy_"
+
+    ].forEach(type=>{
+        event.forEachPalettes((palette)=>{
+            palette.forEach((blockInfo) => {
+                if (`${blockInfo.id}`==`waystones:${type}waystone`) {
+                    blockInfo.setBlock("waystones:blackstone_waystone",{origin:"village",half:`${blockInfo.properties.half}`})
+                }
+            });
+        })
+    })
 
 
     

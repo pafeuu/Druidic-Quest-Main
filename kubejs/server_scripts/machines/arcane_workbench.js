@@ -29,6 +29,31 @@ ServerEvents.recipes(event=>{
     event.custom({
         "type": "wizards_reborn:arcane_workbench",
         "pattern": [
+            "__A",
+            "OA_",
+            "WO_",
+            "AAAA"
+        ],
+        "key": {
+            "W": {
+            "item": "irons_spellbooks:weapon_parts"
+            },
+            "A": {
+            "item": "kubejs:infused_amethyst"
+            },
+            "O": {
+            "item": "kubejs:obsidian_ingot"
+            }
+        },
+        "output": {
+            "item": "irons_spellbooks:amethyst_rapier"
+        },
+        "wissen": 10000
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
             "GLG",
             "GFG",
             "GLG",

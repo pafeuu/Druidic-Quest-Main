@@ -180,7 +180,7 @@ ServerEvents.recipes(event=>{
         "farmersdelight:pie_crust"
     ]
 
-    RemoveById.forEach(id => {
+    removeById.forEach(id => {
 		event.remove({id:id})
 	});
 })

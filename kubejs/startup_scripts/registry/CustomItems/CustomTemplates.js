@@ -1,0 +1,28 @@
+StartupEvents.registry('item', item => {
+  function SmithingTemplates(material,tier)
+  {
+    item.create(material+'_upgrade_smithing_template').displayName('Smithing Template').tag("dq:tier"+tier+"/component")
+  }
+  
+  SmithingTemplates("engineer",0)
+  SmithingTemplates("wandering_magician",0)
+  SmithingTemplates("bronze",1)
+  SmithingTemplates("scarecrow",1)
+  SmithingTemplates("steeleaf",1)
+  SmithingTemplates("botanist",2)
+  SmithingTemplates("knightmetal",2)
+  SmithingTemplates("gold",2)
+  SmithingTemplates("skyjade",2)
+  SmithingTemplates("zanite",2)
+  SmithingTemplates("fiery",2)
+  SmithingTemplates("steel",3)
+  SmithingTemplates("phoenix",3)
+  SmithingTemplates("obsidian",3)
+  SmithingTemplates("arcane_gold",3)
+  SmithingTemplates("netherite_battlemage",4)
+  SmithingTemplates("arcane_fortress",4)
+  SmithingTemplates("skyseeker",4)
+  SmithingTemplates("depth",4)
+  SmithingTemplates("etherium",5)
+  SmithingTemplates("valkyrum",5)
+})

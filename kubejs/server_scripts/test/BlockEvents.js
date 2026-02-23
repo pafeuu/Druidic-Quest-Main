@@ -1,10 +1,10 @@
-/*BlockEvents.broken('minecraft:stone', event => {
-	event.player.give("minecraft:stone")
-	event.block.set('minecraft:cobblestone')
-	event.cancel()
-		////Hehehe testing
-  })
-BlockEvents.broken('minecraft:dirt', event => {
+/*BlockEvents.broken('minecraft:grass_block', event => {
+
+	if (!event.player.mainHandItem.hasTag('minecraft:hoes')) return;
+	event.block.set('minecraft:dirt')
+	event.cancel()	
+})*/
+/*BlockEvents.broken('minecraft:dirt', event => {
     event.server.scheduleInTicks(1, c => event.block.set('minecraft:bedrock'))
 })		
   

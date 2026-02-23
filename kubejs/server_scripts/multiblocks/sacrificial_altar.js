@@ -50,6 +50,8 @@ ServerEvents.recipes(event=>{
 
   Sacrificing("minecraft:villager","minecraft:emerald","kubejs:infused_emerald",1)
 
+  Sacrificing("quark:stoneling","kubejs:sapphire","thermal:sapphire",1)
+
   Sacrificing("minecraft:wandering_trader","minecraft:diamond_block","kubejs:infused_diamond",4)
 
   Sacrificing("minecraft:enderman","minecraft:diamond_block","kubejs:infused_diamond",1)

@@ -1,4 +1,2 @@
 StartupEvents.registry('enchantment',event=>{
-
-
 })

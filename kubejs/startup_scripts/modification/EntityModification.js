@@ -22,11 +22,16 @@ EntityJSEvents.attributes(event => {
     
     const BaseHealthChange = [
         ["minecraft:zombie",30],
+        ["minecraft:creeper",15]
     ]
-    event.modify('minecraft:skeleton', attribute => {
-        //Overwrite an allay's max health attribute setting it to 30.
-        attribute.add("minecraft:generic.max_health", 2000)
-    })
+    
+    BaseHealthChange.forEach(([mobId,health]) => {
+        event.modify(mobId, attribute => {
+            //Overwrite health of a mob
+            attribute.add("minecraft:generic.max_health", health)
+        })    
+    });
+    
     
     
 })

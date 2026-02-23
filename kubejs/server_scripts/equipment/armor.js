@@ -169,26 +169,6 @@ ServerEvents.recipes(event => {
 		"twilightforest:ironwood_chestplate",
 		"twilightforest:ironwood_leggings",
 		"twilightforest:ironwood_boots")
-		
-    event.remove([
-        {output:"iron_helmet"},
-        {output:"iron_chestplate"},
-        {output:"iron_leggings"},
-        {output:"iron_boots"},
-        {output:"diamond_helmet"},
-        {output:"diamond_chestplate"},
-        {output:"diamond_leggings"},
-        {output:"diamond_boots"},
-		{output:"chainmail_helmet"},
-        {output:"chainmail_chestplate"},
-        {output:"chainmail_leggings"},
-        {output:"chainmail_boots"},
-        {output:"immersiveengineering:armor_faraday_helmet"},
-        {output:"immersiveengineering:armor_faraday_chestplate"},
-        {output:"immersiveengineering:armor_faraday_leggings"},
-        {output:"immersiveengineering:armor_faraday_boots"}])
-
-
 
     /// Thermal Diving Suit
 

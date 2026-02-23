@@ -4,3 +4,4 @@
     event.block.set("minecraft:air")
     }
 })*/
+
