@@ -6,7 +6,7 @@ StartupEvents.registry('item', item => {
     item.create('blade_of_grass','irons_spells_js:magic_sword').tier('grass').tag('minecraft:swords').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:poison_splash",3).tag("dq:tier2/weapon")
     item.create('ice_blade','irons_spells_js:magic_sword').tier('ice').tag('minecraft:swords').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:icicle",3).tag("dq:tier1/weapon").speedBaseline(-2.1)
     item.create('phoenix_sword','sword').tier('phoenix').tag('minecraft:sword').tag("forge:tools/phoenix").tag("minecraft:tools").tag("dq:tier3/weapon").tag("minecraft:swords")
-    
+    item.create('glass_sword','sword').tier('glass').tag('minecraft:sword').tag("forge:tools/glass").tag("minecraft:tools").tag("dq:tier2/weapon").tag("minecraft:swords").speedBaseline(-2.0)
     //Unique weapons for each material
     item.create('wooden_staff','sword').tier('wood').tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon").maxDamage(128)
     item.create('flint_spear','sword').tier('wood').tag("forge:tools/flint").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon").maxDamage(128)

@@ -305,11 +305,6 @@ ItemEvents.modification(event => {
     item.maxDamage = 1024
   })
 
-  event.modify("twilightforest:glass_sword", item=>{
-    item.maxDamage = 512,
-    item.attackSpeed = -2.0,
-    item.attackDamage = 3
-  })
   event.modify('minecraft:iron_sword', item=>{
     item.maxDamage = 512
   })

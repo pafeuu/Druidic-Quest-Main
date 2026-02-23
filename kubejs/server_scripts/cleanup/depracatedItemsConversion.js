@@ -4,7 +4,8 @@ ServerEvents.recipes(event=>{
         ["kubejs:zanite_ring","aether:zanite_ring"],
         ["kubejs:zanite_pendant","aether:zanite_pendant"],
         ["kubejs:skyjade_ring","deep_aether:skyjade_ring"],
-        ["kubejs:recall_potion","enigmaticlegacy:recall_potion"]
+        ["kubejs:recall_potion","enigmaticlegacy:recall_potion"],
+        ["kubejs:glass_sword","twilightforest:glass_sword"]
     ]
     
     Replacaments.forEach(([output,input]) => {
