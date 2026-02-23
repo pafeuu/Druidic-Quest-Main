@@ -219,7 +219,7 @@ ServerEvents.recipes(event=>
         .inputItems("kubejs:recall_potion")
         .outputItems("minecraft:glass_bottle")
         .chance(0.125, builder => builder
-            .outputItems("lapis_dust")
+            .outputItems("thermal:lapis_dust")
         )
         .chance(0.75, builder => builder
             .outputItems("ender_pearl")
