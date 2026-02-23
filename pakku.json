@@ -1,0 +1,13 @@
+{
+    "name": "Druidic Quest Expert",
+    "version": "5.0.0_Beta",
+    "overrides": [
+        "config",
+        "kubejs",
+        "!kubejs/probe",
+        "ldlib",
+        "defaultconfigs",
+        "globalresources",
+        "patchouli_books"
+    ]
+}
