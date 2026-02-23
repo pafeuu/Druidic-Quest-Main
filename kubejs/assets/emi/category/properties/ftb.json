@@ -2,7 +2,7 @@
   "ftbquests:quest": {
     "order": 215,
     "icon": {
-      "stack": "ftbquests:book"
+      "stack": "item:ftbquests:book"
     },
     "simplified_icon": {
       "texture": "ftbquests:textures/item/book.png"

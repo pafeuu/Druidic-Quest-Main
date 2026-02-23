@@ -2,7 +2,7 @@
   "emitrades:villager_trades": {
     "order": 215,
     "icon": {
-      "stack": "thermal:gold_coin"
+      "stack": "item:thermal:gold_coin"
     },
     "simplified_icon": {
       "texture": "thermal:textures/item/gold_coin_3.png"
