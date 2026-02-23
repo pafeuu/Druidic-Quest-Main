@@ -23,24 +23,24 @@ StartupEvents.registry('item', item => {
 
   function registerToolset(material,tier)
   {
-    global.toolTypes.forEach(type => {
+    global.toolTypesWithSword.forEach(type => {
 
       item.create(`${material}_${type}`,type)
       .tier(material)
       .tag("minecraft:tools")
       .tag(`minecraft:tools/${type}`)
       .tag(`minecraft:${type}s`)
-      .tag(`dq:tier1/tool`)
+      .tag(`dq:tier${tier}/tool`)
       .tag(`forge:tools/${material}`) 
 
     });
     
   }
 
-  function registerToolsetWithoutSword(material,tier)
+  /*function registerToolsetWithoutSword(material,tier)
   {
 
-  }
+  }*/
   
   registerToolset("copper",1)
   registerToolset("lead",1)
