@@ -13,7 +13,35 @@
     {
       "structure": "dungeons_arise:bathhouse",
       "factor": 3
-    }
+    },
+    {
+      "structure": "dungeons_arise:heavenly_rider",
+      "factor": 0.5
+    },
+    {
+      "structure": "dungeons_arise:heavenly_challenger",
+      "factor": 0.5
+    },
+    {
+      "structure": "dungeons_arise:heavenly_conqueror",
+      "factor": 0.5
+    },
+    {
+      "structure": "aether:silver_dungeon",
+      "factor": 0.5
+    },
+    {
+      "structure": "aether:bronze_dungeon",
+      "factor": 0.5
+    },
+    {
+      "structure": "aether:gold_dungeon",
+      "factor": 0.5
+    },
+    {
+      "structure": "deep_aether:brass_dungeon",
+      "factor": 0.5
+    },
     
   ]
 }
