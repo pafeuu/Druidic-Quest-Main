@@ -1,0 +1,1250 @@
+[Silver Helmet] -> 
+    - head -> ItemStat{items=[Silver Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3ce1460c, foundry.alembic.stats.item.modifiers.AppendItemModifier@7f43ea6b], equipmentSlots=head, }
+
+[Beekeeper's Hood] -> 
+    - head -> ItemStat{items=[Beekeeper's Hood], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@b6069ae], equipmentSlots=head, }
+
+[Zanite Chestplate] -> 
+    - chest -> ItemStat{items=[Zanite Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@23a276dd, foundry.alembic.stats.item.modifiers.AppendItemModifier@6ecf5233, foundry.alembic.stats.item.modifiers.AppendItemModifier@7ee8f424, foundry.alembic.stats.item.modifiers.AppendItemModifier@3d70ac9c], equipmentSlots=chest, }
+
+[Fiery Sword] -> 
+    - mainhand -> ItemStat{items=[Fiery Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2a075d06], equipmentSlots=mainhand, }
+
+[Shadow-Walker Armor] -> 
+    - chest -> ItemStat{items=[Shadow-Walker Armor], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6bbaf498, foundry.alembic.stats.item.modifiers.AppendItemModifier@ace7976, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@21b5b368], equipmentSlots=chest, }
+
+[Tin Ring] -> 
+    - ring -> ItemStat{items=[Tin Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@53a8b3bd], equipmentSlots=ring, }
+
+[Outback Leggings] -> 
+    - legs -> ItemStat{items=[Outback Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6b1ebe48, foundry.alembic.stats.item.modifiers.AppendItemModifier@3ce2457a], equipmentSlots=legs, }
+
+[Improved Golden Ring] -> 
+    - ring -> ItemStat{items=[Improved Golden Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7a0804d3, foundry.alembic.stats.item.modifiers.AppendItemModifier@44b378d0, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@59a3f070]], equipmentSlots=ring, }
+
+[Diamond Ring] -> 
+    - ring -> ItemStat{items=[Diamond Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6488374], equipmentSlots=ring, }
+
+[Trident] -> 
+    - mainhand -> ItemStat{items=[Trident], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3140f55e, foundry.alembic.stats.item.modifiers.ReplaceItemModifier@462e64fd], equipmentSlots=mainhand, }
+
+[Lime Chef Hat] -> 
+    - head -> ItemStat{items=[Lime Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1ee6ff3d, foundry.alembic.stats.item.modifiers.AppendItemModifier@147c5f8c], equipmentSlots=head, }
+
+[Golden Gloves] -> 
+    - hands -> ItemStat{items=[Golden Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3ed4d1da, foundry.alembic.stats.item.modifiers.AppendItemModifier@619bf163, foundry.alembic.stats.item.modifiers.AppendItemModifier@6cc74dae], equipmentSlots=hands, }
+
+[Faraday Boots] -> 
+    - feet -> ItemStat{items=[Faraday Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@f67dd1b, foundry.alembic.stats.item.modifiers.AppendItemModifier@5459fcf9], equipmentSlots=feet, }
+
+[Cross Necklace] -> 
+    - necklace -> ItemStat{items=[Cross Necklace], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2d7372fb, foundry.alembic.stats.item.modifiers.AppendItemModifier@3dff4e6c, foundry.alembic.stats.item.modifiers.AppendItemModifier@5b3ba2a9], equipmentSlots=necklace, }
+
+[§fPhoenix Chestplate] -> 
+    - chest -> ItemStat{items=[§fPhoenix Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7937f461, foundry.alembic.stats.item.modifiers.AppendItemModifier@1e754a6a, foundry.alembic.stats.item.modifiers.AppendItemModifier@2a793b7b, foundry.alembic.stats.item.modifiers.AppendItemModifier@5b0d29c8], equipmentSlots=chest, }
+
+[Valkyrum Chestplate] -> 
+    - chest -> ItemStat{items=[Valkyrum Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@403a19d2, foundry.alembic.stats.item.modifiers.AppendItemModifier@418508ef, foundry.alembic.stats.item.modifiers.AppendItemModifier@14b255b7], equipmentSlots=chest, }
+
+[Ice Blade] -> 
+    - mainhand -> ItemStat{items=[Ice Blade], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@f718aa8], equipmentSlots=mainhand, }
+
+[Diamond Chestplate] -> 
+    - chest -> ItemStat{items=[Diamond Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@69312a0b, foundry.alembic.stats.item.modifiers.AppendItemModifier@30d7c6b, foundry.alembic.stats.item.modifiers.AppendItemModifier@1d1a2a9c], equipmentSlots=chest, }
+
+[Hazmat Suit] -> 
+    - chest -> ItemStat{items=[Hazmat Suit], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@516a58ab, foundry.alembic.stats.item.modifiers.AppendItemModifier@3ef5a174, foundry.alembic.stats.item.modifiers.AppendItemModifier@6e342a55, foundry.alembic.stats.item.modifiers.AppendItemModifier@3b9ed0ec, foundry.alembic.stats.item.modifiers.AppendItemModifier@38b27834, foundry.alembic.stats.item.modifiers.AppendItemModifier@2b5f9057], equipmentSlots=chest, }
+
+[Soulstrider's Shoes] -> 
+    - feet -> ItemStat{items=[Soulstrider's Shoes], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@627f59b4, foundry.alembic.stats.item.modifiers.AppendItemModifier@490de84, foundry.alembic.stats.item.modifiers.AppendItemModifier@45ad1a42], equipmentSlots=feet, }
+
+[Lesser Holy Ring] -> 
+    - ring -> ItemStat{items=[Lesser Holy Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@21954614, foundry.alembic.stats.item.modifiers.AppendItemModifier@13ad135d], equipmentSlots=ring, }
+
+[Stratus Boots] -> 
+    - feet -> ItemStat{items=[Stratus Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@155d28ec, foundry.alembic.stats.item.modifiers.AppendItemModifier@3905d638, foundry.alembic.stats.item.modifiers.AppendItemModifier@5946e636], equipmentSlots=feet, }
+
+[Bouncy Boots Cover] -> 
+    - feet -> ItemStat{items=[Bouncy Boots Cover], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2f627d45, foundry.alembic.stats.item.modifiers.AppendItemModifier@f83ef2], equipmentSlots=feet, }
+
+[§fPhoenix Gloves] -> 
+    - hands -> ItemStat{items=[§fPhoenix Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4d5bf24d, foundry.alembic.stats.item.modifiers.AppendItemModifier@63628576], equipmentSlots=hands, }
+
+[Leather Cap] -> 
+    - head -> ItemStat{items=[Leather Cap], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@824a610], equipmentSlots=head, }
+
+[Blitz Totem] -> 
+    - offhand -> ItemStat{items=[Blitz Totem], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@11f9cee6, foundry.alembic.stats.item.modifiers.AppendItemModifier@5351ac8e, foundry.alembic.stats.item.modifiers.AppendItemModifier@6170ae79], equipmentSlots=offhand, }
+
+[Priest Mask] -> 
+    - head -> ItemStat{items=[Priest Mask], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5887eefd, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@4df4ea53], equipmentSlots=head, }
+
+[Dragon Head] -> 
+    - head -> ItemStat{items=[Dragon Head], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@34d53a15, foundry.alembic.stats.item.modifiers.AppendItemModifier@15a38656, foundry.alembic.stats.item.modifiers.AppendItemModifier@9f81ab, foundry.alembic.stats.item.modifiers.AppendItemModifier@6b656a01, foundry.alembic.stats.item.modifiers.AppendItemModifier@76fdf0ea], equipmentSlots=head, }
+
+[§fNeptune Boots] -> 
+    - feet -> ItemStat{items=[§fNeptune Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4ec75f80, foundry.alembic.stats.item.modifiers.AppendItemModifier@3a67e9e9], equipmentSlots=feet, }
+
+[Yeti Gloves] -> 
+    - hands -> ItemStat{items=[Yeti Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@288702e3, foundry.alembic.stats.item.modifiers.AppendItemModifier@3adc5424], equipmentSlots=hands, }
+
+[Lesser Blood Ring] -> 
+    - ring -> ItemStat{items=[Lesser Blood Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@48023f2e, foundry.alembic.stats.item.modifiers.AppendItemModifier@62379688], equipmentSlots=ring, }
+
+[Creeper Head] -> 
+    - head -> ItemStat{items=[Creeper Head], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@24a17436, foundry.alembic.stats.item.modifiers.AppendItemModifier@35dd6ff5, foundry.alembic.stats.item.modifiers.AppendItemModifier@b221162, foundry.alembic.stats.item.modifiers.AppendItemModifier@6d2e0da], equipmentSlots=head, }
+
+[Pyromancer Hat] -> 
+    - head -> ItemStat{items=[Pyromancer Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@618356da, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@6dce989a], equipmentSlots=head, }
+
+[Valkyrum Boots] -> 
+    - feet -> ItemStat{items=[Valkyrum Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6b70a8d8, foundry.alembic.stats.item.modifiers.AppendItemModifier@a802a89, foundry.alembic.stats.item.modifiers.AppendItemModifier@2ade692f], equipmentSlots=feet, }
+
+[Iron Gloves] -> 
+    - hands -> ItemStat{items=[Iron Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3b3b1cb5], equipmentSlots=hands, }
+
+[Iron Pendant] -> 
+    - necklace -> ItemStat{items=[Iron Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5e3f0738], equipmentSlots=necklace, }
+
+[Wandering Magician Robe] -> 
+    - chest -> ItemStat{items=[Wandering Magician Robe], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@696ec081, foundry.alembic.stats.item.modifiers.AppendItemModifier@f45c2af, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@74b13813], equipmentSlots=chest, }
+
+[Scarecrow Boots] -> 
+    - feet -> ItemStat{items=[Scarecrow Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1a25b0a, foundry.alembic.stats.item.modifiers.AppendItemModifier@7ff62989, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@4f461b52], equipmentSlots=feet, }
+
+[Knightmetal Helmet] -> 
+    - head -> ItemStat{items=[Knightmetal Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4b718830, foundry.alembic.stats.item.modifiers.AppendItemModifier@7d4c9c73], equipmentSlots=head, }
+
+[Fiery Boots] -> 
+    - feet -> ItemStat{items=[Fiery Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@72b7c38d, foundry.alembic.stats.item.modifiers.AppendItemModifier@5295fb8e, foundry.alembic.stats.item.modifiers.AppendItemModifier@602cc7], equipmentSlots=feet, }
+
+[Orange Chef Hat] -> 
+    - head -> ItemStat{items=[Orange Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@44f1c41b, foundry.alembic.stats.item.modifiers.AppendItemModifier@3d8d103a], equipmentSlots=head, }
+
+[Steeleaf Sword] -> 
+    - mainhand -> ItemStat{items=[Steeleaf Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5b5ea399], equipmentSlots=mainhand, }
+
+[Arcane Fortress Boots] -> 
+    - feet -> ItemStat{items=[Arcane Fortress Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@599cb7fe, foundry.alembic.stats.item.modifiers.AppendItemModifier@b5caec4, foundry.alembic.stats.item.modifiers.AppendItemModifier@143a3c22, foundry.alembic.stats.item.modifiers.AppendItemModifier@7b6dcb7e], equipmentSlots=feet, }
+
+[Will of the Ocean] -> 
+    - spellstone -> ItemStat{items=[Will of the Ocean], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@63218ea8, foundry.alembic.stats.item.modifiers.AppendItemModifier@178c678d], equipmentSlots=spellstone, }
+
+[Iron Helmet] -> 
+    - head -> ItemStat{items=[Iron Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@63fb29e0, foundry.alembic.stats.item.modifiers.AppendItemModifier@5a20a4ce], equipmentSlots=head, }
+
+[Amethyst Pendant] -> 
+    - necklace -> ItemStat{items=[Amethyst Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@320f9807], equipmentSlots=necklace, }
+
+[Lesser Nature Ring] -> 
+    - ring -> ItemStat{items=[Lesser Nature Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6704ec4a, foundry.alembic.stats.item.modifiers.AppendItemModifier@37290ad], equipmentSlots=ring, }
+
+[Nickel Pendant] -> 
+    - necklace -> ItemStat{items=[Nickel Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@35bf3729], equipmentSlots=necklace, }
+
+[Knightmetal Greaves] -> 
+    - legs -> ItemStat{items=[Knightmetal Greaves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1dbc684b, foundry.alembic.stats.item.modifiers.AppendItemModifier@48a50ce], equipmentSlots=legs, }
+
+[Beekeeper's Boots] -> 
+    - feet -> ItemStat{items=[Beekeeper's Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1f14deb5], equipmentSlots=feet, }
+
+[Lesser Arcane Ring] -> 
+    - ring -> ItemStat{items=[Lesser Arcane Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@35adbb4f, foundry.alembic.stats.item.modifiers.AppendItemModifier@5d61b9d2], equipmentSlots=ring, }
+
+[Bear Totem] -> 
+    - offhand -> ItemStat{items=[Bear Totem], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1f342c1a, foundry.alembic.stats.item.modifiers.AppendItemModifier@3ad92bef], equipmentSlots=offhand, }
+
+[Hydra Trophy] -> 
+    - head -> ItemStat{items=[Hydra Trophy], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@33424310, foundry.alembic.stats.item.modifiers.AppendItemModifier@169de48, foundry.alembic.stats.item.modifiers.AppendItemModifier@58934cb8, foundry.alembic.stats.item.modifiers.AppendItemModifier@d5f9375], equipmentSlots=head, }
+
+[Golden Magic Feather] -> 
+    - mainhand -> ItemStat{items=[Golden Magic Feather], , attributeData=[foundry.alembic.stats.item.modifiers.ReplaceItemModifier@3d56f8fb, foundry.alembic.stats.item.modifiers.AppendItemModifier@7f524b26], equipmentSlots=mainhand, }
+
+[Stratus Helmet] -> 
+    - head -> ItemStat{items=[Stratus Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@a72703d, foundry.alembic.stats.item.modifiers.AppendItemModifier@66a2e1e9, foundry.alembic.stats.item.modifiers.AppendItemModifier@5b6d4741], equipmentSlots=head, }
+
+[Basalz Totem] -> 
+    - offhand -> ItemStat{items=[Basalz Totem], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@275608bd, foundry.alembic.stats.item.modifiers.AppendItemModifier@21b73dfb, foundry.alembic.stats.item.modifiers.AppendItemModifier@3272d06c], equipmentSlots=offhand, }
+
+[Silver Boots] -> 
+    - feet -> ItemStat{items=[Silver Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@69a4f14, foundry.alembic.stats.item.modifiers.AppendItemModifier@5c00b4e6], equipmentSlots=feet, }
+
+[Stone Claymore] -> 
+    - mainhand -> ItemStat{items=[Stone Claymore], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7844b98c, foundry.alembic.stats.item.modifiers.AppendItemModifier@53b2eca6], equipmentSlots=mainhand, }
+
+[Penguin Totem] -> 
+    - offhand -> ItemStat{items=[Penguin Totem], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6ca1adb0, foundry.alembic.stats.item.modifiers.AppendItemModifier@631f0653], equipmentSlots=offhand, }
+
+[Beekeeper's Jacket] -> 
+    - chest -> ItemStat{items=[Beekeeper's Jacket], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@18c2663c], equipmentSlots=chest, }
+
+[Silver Chestplate] -> 
+    - chest -> ItemStat{items=[Silver Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@df096cb, foundry.alembic.stats.item.modifiers.AppendItemModifier@630c6c14], equipmentSlots=chest, }
+
+[Zanite Leggings] -> 
+    - legs -> ItemStat{items=[Zanite Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3683d2ce, foundry.alembic.stats.item.modifiers.AppendItemModifier@e42334, foundry.alembic.stats.item.modifiers.AppendItemModifier@609491f1, foundry.alembic.stats.item.modifiers.AppendItemModifier@3ab1718f], equipmentSlots=legs, }
+
+[Lapis Ring] -> 
+    - ring -> ItemStat{items=[Lapis Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3a21fc25], equipmentSlots=ring, }
+
+[Golden Helmet] -> 
+    - head -> ItemStat{items=[Golden Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2777ed39, foundry.alembic.stats.item.modifiers.AppendItemModifier@2c5d2a90, foundry.alembic.stats.item.modifiers.AppendItemModifier@30652e1b], equipmentSlots=head, }
+
+[Ironwood Boots] -> 
+    - feet -> ItemStat{items=[Ironwood Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@45b3940f, foundry.alembic.stats.item.modifiers.AppendItemModifier@58c08899], equipmentSlots=feet, }
+
+[Zanite Ring] -> 
+    - ring -> ItemStat{items=[Zanite Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4796510a], equipmentSlots=ring, }
+
+[Frog Totem] -> 
+    - offhand -> ItemStat{items=[Frog Totem], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@263c9a36, foundry.alembic.stats.item.modifiers.AppendItemModifier@5e37e967], equipmentSlots=offhand, }
+
+[Forgotten Hat] -> 
+    - head -> ItemStat{items=[Forgotten Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5c9a3dae, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@fed4746], RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@21ce662e], RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@59a3f070], foundry.alembic.stats.item.modifiers.AppendItemModifier@7dfca3f8], equipmentSlots=head, }
+
+[Zanite Sword] -> 
+    - mainhand -> ItemStat{items=[Zanite Sword], , attributeData=[foundry.alembic.stats.item.modifiers.ReplaceItemModifier@6b3d41b5, foundry.alembic.stats.item.modifiers.AppendItemModifier@a689916], equipmentSlots=mainhand, }
+
+[Arctic Mittens] -> 
+    - hands -> ItemStat{items=[Arctic Mittens], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3d6ceaf8, foundry.alembic.stats.item.modifiers.AppendItemModifier@40b76716], equipmentSlots=hands, }
+
+[Eye of the Nebula] -> 
+    - spellstone -> ItemStat{items=[Eye of the Nebula], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@41c79eeb, foundry.alembic.stats.item.modifiers.AppendItemModifier@7c3b094a], equipmentSlots=spellstone, }
+
+[Lead Ring] -> 
+    - ring -> ItemStat{items=[Lead Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3d16757b], equipmentSlots=ring, }
+
+[Zombie Head] -> 
+    - head -> ItemStat{items=[Zombie Head], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6a16e736, foundry.alembic.stats.item.modifiers.AppendItemModifier@3efdda87, foundry.alembic.stats.item.modifiers.AppendItemModifier@62a4ffea], equipmentSlots=head, }
+
+[Basic Building Wand] -> 
+    - mainhand -> ItemStat{items=[Basic Building Wand], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1856e3b5], equipmentSlots=mainhand, }
+
+[Golden Hoe] -> 
+    - mainhand -> ItemStat{items=[Golden Hoe], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6c028615], equipmentSlots=mainhand, }
+    - mainhand -> ItemStat{items=[Golden Hoe], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@39119453], equipmentSlots=mainhand, }
+
+[Golden Boots] -> 
+    - feet -> ItemStat{items=[Golden Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4e679f8e, foundry.alembic.stats.item.modifiers.AppendItemModifier@70165a05, foundry.alembic.stats.item.modifiers.AppendItemModifier@56f0c9ff], equipmentSlots=feet, }
+
+[Tiger Totem] -> 
+    - offhand -> ItemStat{items=[Tiger Totem], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4aec1d89, foundry.alembic.stats.item.modifiers.AppendItemModifier@3dccf4a4], equipmentSlots=offhand, }
+
+[Steeleaf Boots] -> 
+    - feet -> ItemStat{items=[Steeleaf Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@d8027c8, foundry.alembic.stats.item.modifiers.AppendItemModifier@37948437], equipmentSlots=feet, }
+
+[Purple Chef Hat] -> 
+    - head -> ItemStat{items=[Purple Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6b0ee4b3, foundry.alembic.stats.item.modifiers.AppendItemModifier@5fefea5], equipmentSlots=head, }
+
+[Golden Pickaxe] -> 
+    - mainhand -> ItemStat{items=[Golden Pickaxe], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1c1aa665], equipmentSlots=mainhand, }
+    - mainhand -> ItemStat{items=[Golden Pickaxe], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@95bb872], equipmentSlots=mainhand, }
+
+[Snow Queen Trophy] -> 
+    - head -> ItemStat{items=[Snow Queen Trophy], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@191348ae, foundry.alembic.stats.item.modifiers.AppendItemModifier@3fc979b4, foundry.alembic.stats.item.modifiers.AppendItemModifier@670b7ace, foundry.alembic.stats.item.modifiers.AppendItemModifier@5b9a52bc, foundry.alembic.stats.item.modifiers.AppendItemModifier@58cf2759, foundry.alembic.stats.item.modifiers.AppendItemModifier@2c3fe12d], equipmentSlots=head, }
+
+[Plagued Leggings] -> 
+    - legs -> ItemStat{items=[Plagued Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@29f5735f, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@4a6b354c], equipmentSlots=legs, }
+
+[Copper Diving Boots] -> 
+    - feet -> ItemStat{items=[Copper Diving Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@12d5f920, foundry.alembic.stats.item.modifiers.AppendItemModifier@7b7559be, foundry.alembic.stats.item.modifiers.AppendItemModifier@584c1bc8], equipmentSlots=feet, }
+
+[Knightmetal Boots] -> 
+    - feet -> ItemStat{items=[Knightmetal Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@495413af, foundry.alembic.stats.item.modifiers.AppendItemModifier@6e4afcf], equipmentSlots=feet, }
+
+[Player Head] -> 
+    - head -> ItemStat{items=[Player Head], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@60d10cd3, foundry.alembic.stats.item.modifiers.AppendItemModifier@1adef71b, foundry.alembic.stats.item.modifiers.AppendItemModifier@1e555df0], equipmentSlots=head, }
+
+[Arcane Fortress Chestplate] -> 
+    - chest -> ItemStat{items=[Arcane Fortress Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2acdda19, foundry.alembic.stats.item.modifiers.AppendItemModifier@3b8afab6, foundry.alembic.stats.item.modifiers.AppendItemModifier@560c82a2, foundry.alembic.stats.item.modifiers.AppendItemModifier@1b28417c], equipmentSlots=chest, }
+
+[Arcane Fortress Leggings] -> 
+    - legs -> ItemStat{items=[Arcane Fortress Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2c4f0531, foundry.alembic.stats.item.modifiers.AppendItemModifier@719a51ed, foundry.alembic.stats.item.modifiers.AppendItemModifier@358954a4, foundry.alembic.stats.item.modifiers.AppendItemModifier@31ab900e], equipmentSlots=legs, }
+
+[Cryomancer Boots] -> 
+    - feet -> ItemStat{items=[Cryomancer Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1c41ef3e, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@51de81fe], equipmentSlots=feet, }
+
+[Sturdy Boots Cover] -> 
+    - feet -> ItemStat{items=[Sturdy Boots Cover], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6d24158e, foundry.alembic.stats.item.modifiers.AppendItemModifier@304eb163, foundry.alembic.stats.item.modifiers.AppendItemModifier@5d8c26, foundry.alembic.stats.item.modifiers.AppendItemModifier@2b7f8a4], equipmentSlots=feet, }
+
+[Heart of the Golem] -> 
+    - spellstone -> ItemStat{items=[Heart of the Golem], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7e877e19, foundry.alembic.stats.item.modifiers.AppendItemModifier@2466601b], equipmentSlots=spellstone, }
+
+[Yellow Chef Hat] -> 
+    - head -> ItemStat{items=[Yellow Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@57e07d72, foundry.alembic.stats.item.modifiers.AppendItemModifier@2a2d81a3], equipmentSlots=head, }
+
+[Blazing Core] -> 
+    - spellstone -> ItemStat{items=[Blazing Core], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3a18c00a, foundry.alembic.stats.item.modifiers.AppendItemModifier@46c99bdb], equipmentSlots=spellstone, }
+
+[Ironwood Sword] -> 
+    - mainhand -> ItemStat{items=[Ironwood Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6fbd708e], equipmentSlots=mainhand, }
+
+[§fNeptune Gloves] -> 
+    - hands -> ItemStat{items=[§fNeptune Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6ae6d33e, foundry.alembic.stats.item.modifiers.AppendItemModifier@17521c67], equipmentSlots=hands, }
+
+[Sapphire Ring] -> 
+    - ring -> ItemStat{items=[Sapphire Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@79fd9465], equipmentSlots=ring, }
+
+[Valkyrie Queen Trophy] -> 
+    - head -> ItemStat{items=[Valkyrie Queen Trophy], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6f5ebab3, foundry.alembic.stats.item.modifiers.AppendItemModifier@30c93184, foundry.alembic.stats.item.modifiers.AppendItemModifier@57703094, foundry.alembic.stats.item.modifiers.AppendItemModifier@411b26c2, foundry.alembic.stats.item.modifiers.AppendItemModifier@5b8a8770, foundry.alembic.stats.item.modifiers.AppendItemModifier@22b6d894], equipmentSlots=head, }
+
+[Stormforged Chestplate] -> 
+    - chest -> ItemStat{items=[Stormforged Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2e2587a, foundry.alembic.stats.item.modifiers.AppendItemModifier@7dfa332f, foundry.alembic.stats.item.modifiers.AppendItemModifier@337b5337, foundry.alembic.stats.item.modifiers.AppendItemModifier@3c1b5ad1, foundry.alembic.stats.item.modifiers.AppendItemModifier@2caaf4a0], equipmentSlots=chest, }
+
+[Golden Ring] -> 
+    - ring -> ItemStat{items=[Golden Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2f9f28d5], equipmentSlots=ring, }
+
+[§fNeptune Chestplate] -> 
+    - chest -> ItemStat{items=[§fNeptune Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1d98eb1a, foundry.alembic.stats.item.modifiers.AppendItemModifier@4ed9b447], equipmentSlots=chest, }
+
+[Skyjade Boots] -> 
+    - feet -> ItemStat{items=[Skyjade Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@44343311, foundry.alembic.stats.item.modifiers.AppendItemModifier@2bd73d06, foundry.alembic.stats.item.modifiers.AppendItemModifier@483c9eb5], equipmentSlots=feet, }
+
+[Mittens] -> 
+    - hands -> ItemStat{items=[Mittens], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@55bb3ac], equipmentSlots=hands, }
+
+[Steeleaf Chestplate] -> 
+    - chest -> ItemStat{items=[Steeleaf Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@67694daa, foundry.alembic.stats.item.modifiers.AppendItemModifier@13a63598], equipmentSlots=chest, }
+
+[Arcane Gold Boots] -> 
+    - feet -> ItemStat{items=[Arcane Gold Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@22d69c46, foundry.alembic.stats.item.modifiers.AppendItemModifier@5c1cd93c, foundry.alembic.stats.item.modifiers.AppendItemModifier@57fed70f, foundry.alembic.stats.item.modifiers.AppendItemModifier@1cab94fa], equipmentSlots=feet, }
+
+[Steel Chestplate] -> 
+    - chest -> ItemStat{items=[Steel Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1e48d93e, foundry.alembic.stats.item.modifiers.AppendItemModifier@1984cb93, foundry.alembic.stats.item.modifiers.AppendItemModifier@444eaf9d, foundry.alembic.stats.item.modifiers.AppendItemModifier@17643a1c], equipmentSlots=chest, }
+
+[Fiery Leggings] -> 
+    - legs -> ItemStat{items=[Fiery Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@65b10f09, foundry.alembic.stats.item.modifiers.AppendItemModifier@22eda4d8, foundry.alembic.stats.item.modifiers.AppendItemModifier@6d10168a], equipmentSlots=legs, }
+
+[Ironwood Pendant] -> 
+    - necklace -> ItemStat{items=[Ironwood Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1730d3fe], equipmentSlots=necklace, }
+
+[Cultist Boots] -> 
+    - feet -> ItemStat{items=[Cultist Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@23942d6f, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@7424b3c4], equipmentSlots=feet, }
+
+[Leather Boots] -> 
+    - feet -> ItemStat{items=[Leather Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1f026877], equipmentSlots=feet, }
+
+[Phoenix Sword] -> 
+    - mainhand -> ItemStat{items=[Phoenix Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7f688c71], equipmentSlots=mainhand, }
+
+[Gravitite Helmet] -> 
+    - head -> ItemStat{items=[Gravitite Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3cd4bfd], equipmentSlots=head, }
+
+[Uranium Ring] -> 
+    - ring -> ItemStat{items=[Uranium Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1371861c, foundry.alembic.stats.item.modifiers.AppendItemModifier@2226b431], equipmentSlots=ring, }
+
+[Emerald Pendant] -> 
+    - necklace -> ItemStat{items=[Emerald Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@753e8871], equipmentSlots=necklace, }
+
+[Soulstrider's Headwear] -> 
+    - head -> ItemStat{items=[Soulstrider's Headwear], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@79b54b1a, foundry.alembic.stats.item.modifiers.AppendItemModifier@4405247, foundry.alembic.stats.item.modifiers.AppendItemModifier@19c3dc01], equipmentSlots=head, }
+
+[Knightmetal Chestplate] -> 
+    - chest -> ItemStat{items=[Knightmetal Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3f11aa96, foundry.alembic.stats.item.modifiers.AppendItemModifier@18fe78b1], equipmentSlots=chest, }
+
+[Sun Spirit Trophy] -> 
+    - head -> ItemStat{items=[Sun Spirit Trophy], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@526c8604, foundry.alembic.stats.item.modifiers.AppendItemModifier@11973bd8, foundry.alembic.stats.item.modifiers.AppendItemModifier@6738167, foundry.alembic.stats.item.modifiers.AppendItemModifier@2c785e9a, foundry.alembic.stats.item.modifiers.AppendItemModifier@1a12b1b7], equipmentSlots=head, }
+
+[Firefly] -> 
+    - head -> ItemStat{items=[Firefly], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7cbc29e, foundry.alembic.stats.item.modifiers.AppendItemModifier@2d11ea46, foundry.alembic.stats.item.modifiers.AppendItemModifier@50045a32, foundry.alembic.stats.item.modifiers.AppendItemModifier@b441b5a], equipmentSlots=head, }
+
+[Cryomancer Leggings] -> 
+    - legs -> ItemStat{items=[Cryomancer Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3b9e4eca, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@13ec9131], equipmentSlots=legs, }
+
+[Copper Helmet] -> 
+    - head -> ItemStat{items=[Copper Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@35c7a9b4, foundry.alembic.stats.item.modifiers.AppendItemModifier@22641d22], equipmentSlots=head, }
+
+[Amethyst Ring] -> 
+    - ring -> ItemStat{items=[Amethyst Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4dc24f81], equipmentSlots=ring, }
+
+[Phantom Helmet] -> 
+    - head -> ItemStat{items=[Phantom Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@382bc7aa, foundry.alembic.stats.item.modifiers.AppendItemModifier@3e34075e], equipmentSlots=head, }
+
+[Bronze Boots] -> 
+    - feet -> ItemStat{items=[Bronze Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@22127e95, foundry.alembic.stats.item.modifiers.AppendItemModifier@4c9daaf0], equipmentSlots=feet, }
+
+[Green Chef Hat] -> 
+    - head -> ItemStat{items=[Green Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@18b4d634, foundry.alembic.stats.item.modifiers.AppendItemModifier@711f67bd], equipmentSlots=head, }
+
+[Crocodile Chestplate] -> 
+    - chest -> ItemStat{items=[Crocodile Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@463a59f7, foundry.alembic.stats.item.modifiers.AppendItemModifier@4d109448], equipmentSlots=chest, }
+
+[Golden Axe] -> 
+    - mainhand -> ItemStat{items=[Golden Axe], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7f9374a2], equipmentSlots=mainhand, }
+    - mainhand -> ItemStat{items=[Golden Axe], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@33d0bd53], equipmentSlots=mainhand, }
+
+[Copper Trident] -> 
+    - mainhand -> ItemStat{items=[Copper Trident], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@33433932], equipmentSlots=mainhand, }
+
+[Etherium Boots] -> 
+    - feet -> ItemStat{items=[Etherium Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@174f493d, foundry.alembic.stats.item.modifiers.AppendItemModifier@36d0c79, foundry.alembic.stats.item.modifiers.AppendItemModifier@d5f6bdd, foundry.alembic.stats.item.modifiers.AppendItemModifier@585eab13], equipmentSlots=feet, }
+
+[Golden Pendant] -> 
+    - necklace -> ItemStat{items=[Golden Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@54491db5], equipmentSlots=necklace, }
+
+[Plagued Coat] -> 
+    - chest -> ItemStat{items=[Plagued Coat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@122e9199, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@4308742f], equipmentSlots=chest, }
+
+[Steeleaf Pendant] -> 
+    - necklace -> ItemStat{items=[Steeleaf Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1149175], equipmentSlots=necklace, }
+
+[Tin Pendant] -> 
+    - necklace -> ItemStat{items=[Tin Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@ac45f39], equipmentSlots=necklace, }
+
+[Phantom Gauntlets] -> 
+    - hands -> ItemStat{items=[Phantom Gauntlets], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5738daa5, foundry.alembic.stats.item.modifiers.AppendItemModifier@76490105], equipmentSlots=hands, }
+
+[Copper Boots] -> 
+    - feet -> ItemStat{items=[Copper Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6678b6cd, foundry.alembic.stats.item.modifiers.AppendItemModifier@4dfc1bdc], equipmentSlots=feet, }
+
+[Torch] -> 
+    - mainhand -> ItemStat{items=[Torch], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5a407a18], equipmentSlots=mainhand, }
+    - mainhand -> ItemStat{items=[Torch], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@42161991], equipmentSlots=mainhand, }
+
+[Skyseeker's Chestplate] -> 
+    - chest -> ItemStat{items=[Skyseeker's Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6d31b61, foundry.alembic.stats.item.modifiers.AppendItemModifier@6ed5d1f4, foundry.alembic.stats.item.modifiers.AppendItemModifier@22574878], equipmentSlots=chest, }
+
+[Iron Chestplate] -> 
+    - chest -> ItemStat{items=[Iron Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4f7d5052, foundry.alembic.stats.item.modifiers.AppendItemModifier@38d44f82], equipmentSlots=chest, }
+
+[Moonworm] -> 
+    - head -> ItemStat{items=[Moonworm], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@ef0e973, foundry.alembic.stats.item.modifiers.AppendItemModifier@63fbb199, foundry.alembic.stats.item.modifiers.AppendItemModifier@5775cacb, foundry.alembic.stats.item.modifiers.AppendItemModifier@4ff5860a], equipmentSlots=head, }
+
+[Chainmail Gloves] -> 
+    - hands -> ItemStat{items=[Chainmail Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5d62c347], equipmentSlots=hands, }
+
+[Uranium Boots] -> 
+    - feet -> ItemStat{items=[Uranium Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@53d1543f, foundry.alembic.stats.item.modifiers.AppendItemModifier@90473d7], equipmentSlots=feet, }
+
+[Shadow-Walker Boots] -> 
+    - feet -> ItemStat{items=[Shadow-Walker Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1c1b6bfc, foundry.alembic.stats.item.modifiers.AppendItemModifier@58dc59a6, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@20964e86], equipmentSlots=feet, }
+
+[Cactus Helmet] -> 
+    - head -> ItemStat{items=[Cactus Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@604b338b], equipmentSlots=head, }
+
+[Wither Skeleton Skull] -> 
+    - head -> ItemStat{items=[Wither Skeleton Skull], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7125541b, foundry.alembic.stats.item.modifiers.AppendItemModifier@1e0de061, foundry.alembic.stats.item.modifiers.AppendItemModifier@c69ee7d, foundry.alembic.stats.item.modifiers.AppendItemModifier@341a389e, foundry.alembic.stats.item.modifiers.AppendItemModifier@6fc4278a], equipmentSlots=head, }
+
+[Lead Chestplate] -> 
+    - chest -> ItemStat{items=[Lead Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@40c07f1e, foundry.alembic.stats.item.modifiers.AppendItemModifier@78adebd6], equipmentSlots=chest, }
+
+[Wandering Magician Hood] -> 
+    - head -> ItemStat{items=[Wandering Magician Hood], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@705a02c0, foundry.alembic.stats.item.modifiers.AppendItemModifier@41d97911, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@775b0fec], equipmentSlots=head, }
+
+[Rainbow Magic Feather] -> 
+    - mainhand -> ItemStat{items=[Rainbow Magic Feather], , attributeData=[foundry.alembic.stats.item.modifiers.ReplaceItemModifier@35d7e6ca, foundry.alembic.stats.item.modifiers.AppendItemModifier@53e27ac8, foundry.alembic.stats.item.modifiers.AppendItemModifier@6845f3a6], equipmentSlots=mainhand, }
+
+[Gray Chef Hat] -> 
+    - head -> ItemStat{items=[Gray Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@705a3146, foundry.alembic.stats.item.modifiers.AppendItemModifier@7b67175a], equipmentSlots=head, }
+
+[Botanist's Leggings] -> 
+    - legs -> ItemStat{items=[Botanist's Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@64aa9381, foundry.alembic.stats.item.modifiers.AppendItemModifier@bbd595a], equipmentSlots=legs, }
+
+[Fiery Gloves] -> 
+    - hands -> ItemStat{items=[Fiery Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@13fa1f78, foundry.alembic.stats.item.modifiers.AppendItemModifier@140d87bc], equipmentSlots=hands, }
+
+[Iron Ring] -> 
+    - ring -> ItemStat{items=[Iron Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@64366ee2], equipmentSlots=ring, }
+
+[Primitive Building Wand] -> 
+    - mainhand -> ItemStat{items=[Primitive Building Wand], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2d878566], equipmentSlots=mainhand, }
+
+[Zanite Helmet] -> 
+    - head -> ItemStat{items=[Zanite Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7621d556, foundry.alembic.stats.item.modifiers.AppendItemModifier@40fd24c9, foundry.alembic.stats.item.modifiers.AppendItemModifier@7541b9a7, foundry.alembic.stats.item.modifiers.AppendItemModifier@4f995f2d], equipmentSlots=head, }
+
+[Lead Axe] -> 
+    - mainhand -> ItemStat{items=[Lead Axe], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5271ed0e], equipmentSlots=mainhand, }
+
+[Quest Ram Trophy] -> 
+    - head -> ItemStat{items=[Quest Ram Trophy], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@c4b981f, foundry.alembic.stats.item.modifiers.AppendItemModifier@735e9c7e, foundry.alembic.stats.item.modifiers.AppendItemModifier@6b60d2e2, foundry.alembic.stats.item.modifiers.AppendItemModifier@3c131c39], equipmentSlots=head, }
+
+[Gravitite Ring] -> 
+    - ring -> ItemStat{items=[Gravitite Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7dc0151b], equipmentSlots=ring, }
+
+[Gravitite Boots] -> 
+    - feet -> ItemStat{items=[Gravitite Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@29b60c0e], equipmentSlots=feet, }
+
+[Skyjade Helmet] -> 
+    - head -> ItemStat{items=[Skyjade Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5ed67d2d, foundry.alembic.stats.item.modifiers.AppendItemModifier@47bce852, foundry.alembic.stats.item.modifiers.AppendItemModifier@3ef20c0f], equipmentSlots=head, }
+
+[Silver Knife] -> 
+    - mainhand -> ItemStat{items=[Silver Knife], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@659d098f], equipmentSlots=mainhand, }
+
+[The Ice Cube] -> 
+    - charm -> ItemStat{items=[The Ice Cube], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@785e1fe3, foundry.alembic.stats.item.modifiers.AppendItemModifier@746cc947], equipmentSlots=charm, }
+
+[Steeleaf Gloves] -> 
+    - hands -> ItemStat{items=[Steeleaf Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@41c26c6a, foundry.alembic.stats.item.modifiers.AppendItemModifier@6873685a], equipmentSlots=hands, }
+
+[Cactus Chestplate] -> 
+    - chest -> ItemStat{items=[Cactus Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@32785559], equipmentSlots=chest, }
+
+[Builder's Belt] -> 
+    - belt -> ItemStat{items=[Builder's Belt], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@21215a72, foundry.alembic.stats.item.modifiers.AppendItemModifier@6eb836ea], equipmentSlots=belt, }
+
+[Skeleton Skull] -> 
+    - head -> ItemStat{items=[Skeleton Skull], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@23ef1643, foundry.alembic.stats.item.modifiers.AppendItemModifier@57c07fec, foundry.alembic.stats.item.modifiers.AppendItemModifier@34fd0f15], equipmentSlots=head, }
+
+[Angel's Blessing] -> 
+    - spellstone -> ItemStat{items=[Angel's Blessing], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@780e43de, foundry.alembic.stats.item.modifiers.AppendItemModifier@154ed86], equipmentSlots=spellstone, }
+
+[Lapis Pendant] -> 
+    - necklace -> ItemStat{items=[Lapis Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5b1c6c78], equipmentSlots=necklace, }
+
+[Nickel Ring] -> 
+    - ring -> ItemStat{items=[Nickel Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2ff43e39], equipmentSlots=ring, }
+
+[Archevoker Hat] -> 
+    - head -> ItemStat{items=[Archevoker Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6c924a09, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@1fe5692], equipmentSlots=head, }
+
+[Flint Axe] -> 
+    - mainhand -> ItemStat{items=[Flint Axe], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3562e53], equipmentSlots=mainhand, }
+
+[Skyjade Sword] -> 
+    - mainhand -> ItemStat{items=[Skyjade Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7f1cdea7], equipmentSlots=mainhand, }
+
+[Stratus Chestplate] -> 
+    - chest -> ItemStat{items=[Stratus Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@46becc0e, foundry.alembic.stats.item.modifiers.AppendItemModifier@1f8724d, foundry.alembic.stats.item.modifiers.AppendItemModifier@6fcbab06], equipmentSlots=chest, }
+
+[Alpha Yeti Trophy] -> 
+    - head -> ItemStat{items=[Alpha Yeti Trophy], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6818e566, foundry.alembic.stats.item.modifiers.AppendItemModifier@271c57d9, foundry.alembic.stats.item.modifiers.AppendItemModifier@4ad5b1f6, foundry.alembic.stats.item.modifiers.AppendItemModifier@2c53cb30, foundry.alembic.stats.item.modifiers.AppendItemModifier@34f3809], equipmentSlots=head, }
+
+[Spiked Turtle Shell] -> 
+    - head -> ItemStat{items=[Spiked Turtle Shell], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@65c64bdc], equipmentSlots=head, }
+
+[Valkyrum Ring] -> 
+    - ring -> ItemStat{items=[Valkyrum Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@709d2dc8, foundry.alembic.stats.item.modifiers.AppendItemModifier@3ba843e1, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@fed4746]], equipmentSlots=ring, }
+
+[Zanite Boots] -> 
+    - feet -> ItemStat{items=[Zanite Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@e9d6f5e, foundry.alembic.stats.item.modifiers.AppendItemModifier@4ee469dc, foundry.alembic.stats.item.modifiers.AppendItemModifier@563d8e7d, foundry.alembic.stats.item.modifiers.AppendItemModifier@15b2b73a], equipmentSlots=feet, }
+
+[Diamond Leggings] -> 
+    - legs -> ItemStat{items=[Diamond Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@56836aab, foundry.alembic.stats.item.modifiers.AppendItemModifier@54e5ea01, foundry.alembic.stats.item.modifiers.AppendItemModifier@79b785d5], equipmentSlots=legs, }
+
+[Priest Boots] -> 
+    - feet -> ItemStat{items=[Priest Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@51f60af9, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@5e6c6cae], equipmentSlots=feet, }
+
+[Blaze Totem] -> 
+    - offhand -> ItemStat{items=[Blaze Totem], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@b384db5, foundry.alembic.stats.item.modifiers.AppendItemModifier@6e9f1a44], equipmentSlots=offhand, }
+
+[Cave Centipede Leggings] -> 
+    - legs -> ItemStat{items=[Cave Centipede Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4e0c05f7, foundry.alembic.stats.item.modifiers.AppendItemModifier@b3ecd99], equipmentSlots=legs, }
+
+[Blizz Totem] -> 
+    - offhand -> ItemStat{items=[Blizz Totem], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@22e98116, foundry.alembic.stats.item.modifiers.AppendItemModifier@7c026c19], equipmentSlots=offhand, }
+
+[Skyjade Chestplate] -> 
+    - chest -> ItemStat{items=[Skyjade Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@57876e8f, foundry.alembic.stats.item.modifiers.AppendItemModifier@155e6afd, foundry.alembic.stats.item.modifiers.AppendItemModifier@3fbfc87c], equipmentSlots=chest, }
+
+[Gravitite Pendant] -> 
+    - necklace -> ItemStat{items=[Gravitite Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@bac3e1b], equipmentSlots=necklace, }
+
+[Roadrunner Boots] -> 
+    - feet -> ItemStat{items=[Roadrunner Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@44d2d819, foundry.alembic.stats.item.modifiers.AppendItemModifier@49ead267], equipmentSlots=feet, }
+
+[Priest Robes] -> 
+    - chest -> ItemStat{items=[Priest Robes], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@a0637e0, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@57fe6550], equipmentSlots=chest, }
+
+[Ironwood Chestplate] -> 
+    - chest -> ItemStat{items=[Ironwood Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@b67565b, foundry.alembic.stats.item.modifiers.AppendItemModifier@2bb9d818], equipmentSlots=chest, }
+
+[Glass Sword] -> 
+    - mainhand -> ItemStat{items=[Glass Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@49290619], equipmentSlots=mainhand, }
+
+[Knightmetal Ring] -> 
+    - ring -> ItemStat{items=[Knightmetal Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@199eb422], equipmentSlots=ring, }
+
+[Blade of Grass] -> 
+    - mainhand -> ItemStat{items=[Blade of Grass], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@36474f3], equipmentSlots=mainhand, }
+
+[Electromancer Robe] -> 
+    - chest -> ItemStat{items=[Electromancer Robe], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@70a3645a, foundry.alembic.stats.item.modifiers.AppendItemModifier@28465b6, foundry.alembic.stats.item.modifiers.AppendItemModifier@29b13077, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@6c8accc8], equipmentSlots=chest, }
+
+[Bronze Helmet] -> 
+    - head -> ItemStat{items=[Bronze Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2f2eaa8, foundry.alembic.stats.item.modifiers.AppendItemModifier@3a64b769], equipmentSlots=head, }
+
+[Lead Waraxe] -> 
+    - mainhand -> ItemStat{items=[Lead Waraxe], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@381f3398], equipmentSlots=mainhand, }
+
+[Diamond Helmet] -> 
+    - head -> ItemStat{items=[Diamond Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@42cb7a15, foundry.alembic.stats.item.modifiers.AppendItemModifier@255c84b7, foundry.alembic.stats.item.modifiers.AppendItemModifier@4f90543d], equipmentSlots=head, }
+
+[Zanite Axe] -> 
+    - mainhand -> ItemStat{items=[Zanite Axe], , attributeData=[foundry.alembic.stats.item.modifiers.ReplaceItemModifier@7ac8d7fd, foundry.alembic.stats.item.modifiers.AppendItemModifier@4f8d76c3], equipmentSlots=mainhand, }
+
+[Valkyrum Helmet] -> 
+    - head -> ItemStat{items=[Valkyrum Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3b46988d, foundry.alembic.stats.item.modifiers.AppendItemModifier@ca49647, foundry.alembic.stats.item.modifiers.AppendItemModifier@219db5e5], equipmentSlots=head, }
+
+[Lesser Ice Ring] -> 
+    - ring -> ItemStat{items=[Lesser Ice Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2badb131, foundry.alembic.stats.item.modifiers.AppendItemModifier@65d97fac], equipmentSlots=ring, }
+
+[Ironwood Leggings] -> 
+    - legs -> ItemStat{items=[Ironwood Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6b722c4f, foundry.alembic.stats.item.modifiers.AppendItemModifier@6681401], equipmentSlots=legs, }
+
+[Archevoker Coat] -> 
+    - chest -> ItemStat{items=[Archevoker Coat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1cee6523, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@682f5b36], equipmentSlots=chest, }
+
+[Silver Ring] -> 
+    - ring -> ItemStat{items=[Silver Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@663d6df4], equipmentSlots=ring, }
+
+[Flint Spear] -> 
+    - mainhand -> ItemStat{items=[Flint Spear], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5d34057f], equipmentSlots=mainhand, }
+
+[Leafcutter Ant Totem] -> 
+    - offhand -> ItemStat{items=[Leafcutter Ant Totem], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@18ddf077, foundry.alembic.stats.item.modifiers.AppendItemModifier@228e8692], equipmentSlots=offhand, }
+
+[Iron Boots] -> 
+    - feet -> ItemStat{items=[Iron Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1741b268, foundry.alembic.stats.item.modifiers.AppendItemModifier@a3bf007], equipmentSlots=feet, }
+
+[Netherite Battlemage Hat] -> 
+    - head -> ItemStat{items=[Netherite Battlemage Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3740c4a3, foundry.alembic.stats.item.modifiers.AppendItemModifier@67e7ced0, foundry.alembic.stats.item.modifiers.AppendItemModifier@581a9b73, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@99f3611], equipmentSlots=head, }
+
+[Beekeeper's Pants] -> 
+    - legs -> ItemStat{items=[Beekeeper's Pants], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@502ebf39], equipmentSlots=legs, }
+
+[Piglin Head] -> 
+    - head -> ItemStat{items=[Piglin Head], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3fdaf104, foundry.alembic.stats.item.modifiers.AppendItemModifier@605ceaa2, foundry.alembic.stats.item.modifiers.AppendItemModifier@588dcab2, foundry.alembic.stats.item.modifiers.AppendItemModifier@5bad0f36], equipmentSlots=head, }
+
+[Enderman Head] -> 
+    - head -> ItemStat{items=[Enderman Head], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@177e3d69, foundry.alembic.stats.item.modifiers.AppendItemModifier@554ea467, foundry.alembic.stats.item.modifiers.AppendItemModifier@7e6641af, foundry.alembic.stats.item.modifiers.AppendItemModifier@478614ca], equipmentSlots=head, }
+
+[Light Blue Chef Hat] -> 
+    - head -> ItemStat{items=[Light Blue Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5e222e82, foundry.alembic.stats.item.modifiers.AppendItemModifier@9bf19ba], equipmentSlots=head, }
+
+[§fObsidian Leggings] -> 
+    - legs -> ItemStat{items=[§fObsidian Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@47abed8c, foundry.alembic.stats.item.modifiers.AppendItemModifier@218edd24, foundry.alembic.stats.item.modifiers.AppendItemModifier@631fb942], equipmentSlots=legs, }
+
+[Steeleaf Leggings] -> 
+    - legs -> ItemStat{items=[Steeleaf Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@58c623f, foundry.alembic.stats.item.modifiers.AppendItemModifier@18185c2d], equipmentSlots=legs, }
+
+[Lich Trophy] -> 
+    - head -> ItemStat{items=[Lich Trophy], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@26689828, foundry.alembic.stats.item.modifiers.AppendItemModifier@67a361a, foundry.alembic.stats.item.modifiers.AppendItemModifier@3cac4691], equipmentSlots=head, }
+
+[Steeleaf Ring] -> 
+    - ring -> ItemStat{items=[Steeleaf Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@22b5bd98], equipmentSlots=ring, }
+
+[Golden Sword] -> 
+    - mainhand -> ItemStat{items=[Golden Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@58621efc], equipmentSlots=mainhand, }
+    - mainhand -> ItemStat{items=[Golden Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3d91ec71], equipmentSlots=mainhand, }
+
+[Priest Leggings] -> 
+    - legs -> ItemStat{items=[Priest Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1e074c91, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@580bf62f], equipmentSlots=legs, }
+
+[Netherite Boots] -> 
+    - feet -> ItemStat{items=[Netherite Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1d8230c0, foundry.alembic.stats.item.modifiers.AppendItemModifier@6c5e3730, foundry.alembic.stats.item.modifiers.AppendItemModifier@5db822b5], equipmentSlots=feet, }
+
+[Gravitite Chestplate] -> 
+    - chest -> ItemStat{items=[Gravitite Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@769ed5d2], equipmentSlots=chest, }
+
+[Copper Backtank] -> 
+    - chest -> ItemStat{items=[Copper Backtank], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@66614d59, foundry.alembic.stats.item.modifiers.AppendItemModifier@5e868ffb, foundry.alembic.stats.item.modifiers.AppendItemModifier@23e466a9], equipmentSlots=chest, }
+
+[§fPhoenix Boots] -> 
+    - feet -> ItemStat{items=[§fPhoenix Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@33b5cccd, foundry.alembic.stats.item.modifiers.AppendItemModifier@5820ef48, foundry.alembic.stats.item.modifiers.AppendItemModifier@747e905a, foundry.alembic.stats.item.modifiers.AppendItemModifier@66774c71], equipmentSlots=feet, }
+
+[Botanist's Chestplate] -> 
+    - chest -> ItemStat{items=[Botanist's Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@172d20ef, foundry.alembic.stats.item.modifiers.AppendItemModifier@536c7d98], equipmentSlots=chest, }
+
+[Steel Boots] -> 
+    - feet -> ItemStat{items=[Steel Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1ca034c4, foundry.alembic.stats.item.modifiers.AppendItemModifier@5c86fda6, foundry.alembic.stats.item.modifiers.AppendItemModifier@4be6e963, foundry.alembic.stats.item.modifiers.AppendItemModifier@4c036702], equipmentSlots=feet, }
+
+[Wandering Magician Pants] -> 
+    - legs -> ItemStat{items=[Wandering Magician Pants], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6ed1966a, foundry.alembic.stats.item.modifiers.AppendItemModifier@6cbc7f64, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@7f6ee6ea], equipmentSlots=legs, }
+
+[Anaconda Totem] -> 
+    - offhand -> ItemStat{items=[Anaconda Totem], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@15f72067, foundry.alembic.stats.item.modifiers.AppendItemModifier@528644ba], equipmentSlots=offhand, }
+
+[Emerald Ring] -> 
+    - ring -> ItemStat{items=[Emerald Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1de5a8c4], equipmentSlots=ring, }
+
+[Golden Leggings] -> 
+    - legs -> ItemStat{items=[Golden Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2d76eb11, foundry.alembic.stats.item.modifiers.AppendItemModifier@743c115c, foundry.alembic.stats.item.modifiers.AppendItemModifier@2864db02], equipmentSlots=legs, }
+
+[Soulstrider's Leggings] -> 
+    - legs -> ItemStat{items=[Soulstrider's Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@8298c5a, foundry.alembic.stats.item.modifiers.AppendItemModifier@2f605e39, foundry.alembic.stats.item.modifiers.AppendItemModifier@12daddb2], equipmentSlots=legs, }
+
+[Electromancer Boots] -> 
+    - feet -> ItemStat{items=[Electromancer Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@68aa13ad, foundry.alembic.stats.item.modifiers.AppendItemModifier@5dca0361, foundry.alembic.stats.item.modifiers.AppendItemModifier@2f79d9b5, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@5e6ec018], equipmentSlots=feet, }
+
+[Lead Leggings] -> 
+    - legs -> ItemStat{items=[Lead Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@470acb95, foundry.alembic.stats.item.modifiers.AppendItemModifier@2d080c61], equipmentSlots=legs, }
+
+[Silver Katana] -> 
+    - mainhand -> ItemStat{items=[Silver Katana], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1d77e01e], equipmentSlots=mainhand, }
+
+[Sturdy Building Wand] -> 
+    - mainhand -> ItemStat{items=[Sturdy Building Wand], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1c2b9078], equipmentSlots=mainhand, }
+
+[Uranium Leggings] -> 
+    - legs -> ItemStat{items=[Uranium Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3e4b24fa, foundry.alembic.stats.item.modifiers.AppendItemModifier@4f32dfaa], equipmentSlots=legs, }
+
+[Cryomancer Coat] -> 
+    - chest -> ItemStat{items=[Cryomancer Coat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6d016ea, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@45aacf9e], equipmentSlots=chest, }
+
+[Archer's Glove] -> 
+    - hands -> ItemStat{items=[Archer's Glove], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@75348863, foundry.alembic.stats.item.modifiers.AppendItemModifier@4a55afd5], equipmentSlots=hands, }
+
+[Lead Boots] -> 
+    - feet -> ItemStat{items=[Lead Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@30e6e2d1, foundry.alembic.stats.item.modifiers.AppendItemModifier@11810d6d], equipmentSlots=feet, }
+
+[Ironwood Gloves] -> 
+    - hands -> ItemStat{items=[Ironwood Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2b7dd7e, foundry.alembic.stats.item.modifiers.AppendItemModifier@a5c5e86], equipmentSlots=hands, }
+
+[Bejeweled Crucifix] -> 
+    - offhand -> ItemStat{items=[Bejeweled Crucifix], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@29cd65ef, foundry.alembic.stats.item.modifiers.AppendItemModifier@4a8c214e, foundry.alembic.stats.item.modifiers.AppendItemModifier@78fd12be], equipmentSlots=offhand, }
+
+[Flint Sword] -> 
+    - mainhand -> ItemStat{items=[Flint Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@407ff9d8], equipmentSlots=mainhand, }
+
+[Arcane Gold Chestplate] -> 
+    - chest -> ItemStat{items=[Arcane Gold Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@440da4d2, foundry.alembic.stats.item.modifiers.AppendItemModifier@55cb59d0, foundry.alembic.stats.item.modifiers.AppendItemModifier@5136dac0, foundry.alembic.stats.item.modifiers.AppendItemModifier@5b989960], equipmentSlots=chest, }
+
+[Netherite Leggings] -> 
+    - legs -> ItemStat{items=[Netherite Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@401b1858, foundry.alembic.stats.item.modifiers.AppendItemModifier@66e382d0, foundry.alembic.stats.item.modifiers.AppendItemModifier@5cbb0686], equipmentSlots=legs, }
+
+[Minoshroom Trophy] -> 
+    - head -> ItemStat{items=[Minoshroom Trophy], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6e54fc4e, foundry.alembic.stats.item.modifiers.AppendItemModifier@7ed46b7d, foundry.alembic.stats.item.modifiers.AppendItemModifier@26f17df7], equipmentSlots=head, }
+
+[Netherite Battlemage Boots] -> 
+    - feet -> ItemStat{items=[Netherite Battlemage Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4a166663, foundry.alembic.stats.item.modifiers.AppendItemModifier@28e4ec24, foundry.alembic.stats.item.modifiers.AppendItemModifier@5bf32d17, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@21d16341], equipmentSlots=feet, }
+
+[Stormforged Boots] -> 
+    - feet -> ItemStat{items=[Stormforged Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1c6bdcb, foundry.alembic.stats.item.modifiers.AppendItemModifier@5f4dc9f7, foundry.alembic.stats.item.modifiers.AppendItemModifier@591d83c9, foundry.alembic.stats.item.modifiers.AppendItemModifier@70591189, foundry.alembic.stats.item.modifiers.AppendItemModifier@44c5d2ac], equipmentSlots=feet, }
+
+[Copper Diving Helmet] -> 
+    - head -> ItemStat{items=[Copper Diving Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@349962ac, foundry.alembic.stats.item.modifiers.AppendItemModifier@277f6d7, foundry.alembic.stats.item.modifiers.AppendItemModifier@31108d10], equipmentSlots=head, }
+
+[Lesser Lightning Ring] -> 
+    - ring -> ItemStat{items=[Lesser Lightning Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@73fb40f8, foundry.alembic.stats.item.modifiers.AppendItemModifier@32431b0c, foundry.alembic.stats.item.modifiers.AppendItemModifier@7fbf90c5, foundry.alembic.stats.item.modifiers.AppendItemModifier@59c341c6], equipmentSlots=ring, }
+
+[Botanist's Shoes] -> 
+    - feet -> ItemStat{items=[Botanist's Shoes], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@766ece8f, foundry.alembic.stats.item.modifiers.AppendItemModifier@32d3319], equipmentSlots=feet, }
+
+[Botanist's Handaxe] -> 
+    - mainhand -> ItemStat{items=[Botanist's Handaxe], , attributeData=[foundry.alembic.stats.item.modifiers.ReplaceItemModifier@25ed07f7, foundry.alembic.stats.item.modifiers.AppendItemModifier@1931808e], equipmentSlots=mainhand, }
+
+[Skyseeker's Leggings] -> 
+    - legs -> ItemStat{items=[Skyseeker's Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4656eddb, foundry.alembic.stats.item.modifiers.AppendItemModifier@1b5ea988, foundry.alembic.stats.item.modifiers.AppendItemModifier@160135da], equipmentSlots=legs, }
+
+[Gravitite Gloves] -> 
+    - hands -> ItemStat{items=[Gravitite Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@55037b79, foundry.alembic.stats.item.modifiers.AppendItemModifier@77f46cf3, foundry.alembic.stats.item.modifiers.AppendItemModifier@113883bf], equipmentSlots=hands, }
+
+[Zinc Ring] -> 
+    - ring -> ItemStat{items=[Zinc Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@612edc6f], equipmentSlots=ring, }
+
+[Cactus Leggings] -> 
+    - legs -> ItemStat{items=[Cactus Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@532ce295], equipmentSlots=legs, }
+
+[Silver Leggings] -> 
+    - legs -> ItemStat{items=[Silver Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6e8a8c62, foundry.alembic.stats.item.modifiers.AppendItemModifier@6f8186d3], equipmentSlots=legs, }
+
+[Bronze Chestplate] -> 
+    - chest -> ItemStat{items=[Bronze Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@402bab1, foundry.alembic.stats.item.modifiers.AppendItemModifier@7dbf28c9], equipmentSlots=chest, }
+
+[Phantom Chestplate] -> 
+    - chest -> ItemStat{items=[Phantom Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3f74f951, foundry.alembic.stats.item.modifiers.AppendItemModifier@cccf7f7], equipmentSlots=chest, }
+
+[Naga Scale Gloves] -> 
+    - hands -> ItemStat{items=[Naga Scale Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3b8b1474, foundry.alembic.stats.item.modifiers.AppendItemModifier@7bff1df7], equipmentSlots=hands, }
+
+[Sacrificial Dagger] -> 
+    - mainhand -> ItemStat{items=[Sacrificial Dagger], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@549b1b0c], equipmentSlots=mainhand, }
+
+[Advanced Magnet] -> 
+    - charm -> ItemStat{items=[Advanced Magnet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@dd1c540], equipmentSlots=charm, }
+
+[Iron Leggings] -> 
+    - legs -> ItemStat{items=[Iron Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7c2e4df, foundry.alembic.stats.item.modifiers.AppendItemModifier@520b868a], equipmentSlots=legs, }
+
+[Uranium Chestplate] -> 
+    - chest -> ItemStat{items=[Uranium Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5c751810, foundry.alembic.stats.item.modifiers.AppendItemModifier@485b9918], equipmentSlots=chest, }
+
+[Featherfall Boots Cover] -> 
+    - feet -> ItemStat{items=[Featherfall Boots Cover], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2922c429, foundry.alembic.stats.item.modifiers.AppendItemModifier@27a7ae1, foundry.alembic.stats.item.modifiers.AppendItemModifier@55f09fd1], equipmentSlots=feet, }
+
+[Ring of Costly Travel] -> 
+    - ring -> ItemStat{items=[Ring of Costly Travel], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@125e7b, foundry.alembic.stats.item.modifiers.AppendItemModifier@16224ead], equipmentSlots=ring, }
+
+[Soul Torch] -> 
+    - mainhand -> ItemStat{items=[Soul Torch], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@12432274, foundry.alembic.stats.item.modifiers.AppendItemModifier@460df098], equipmentSlots=mainhand, }
+    - mainhand -> ItemStat{items=[Soul Torch], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@63c1d819, foundry.alembic.stats.item.modifiers.AppendItemModifier@5def2deb], equipmentSlots=mainhand, }
+
+[Diving Suit] -> 
+    - chest -> ItemStat{items=[Diving Suit], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@41bb2f42], equipmentSlots=chest, }
+
+[Carved Pumpkin] -> 
+    - head -> ItemStat{items=[Carved Pumpkin], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@66e2c45b, foundry.alembic.stats.item.modifiers.AppendItemModifier@74cffa8c, foundry.alembic.stats.item.modifiers.AppendItemModifier@58aa0b96], equipmentSlots=head, }
+
+[Silver Pendant] -> 
+    - necklace -> ItemStat{items=[Silver Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@67cfcd35], equipmentSlots=necklace, }
+
+[Copper Chestplate] -> 
+    - chest -> ItemStat{items=[Copper Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@468383b6, foundry.alembic.stats.item.modifiers.AppendItemModifier@3276f3aa], equipmentSlots=chest, }
+
+[Flying Fish Boots] -> 
+    - feet -> ItemStat{items=[Flying Fish Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@36372636, foundry.alembic.stats.item.modifiers.AppendItemModifier@75f5ee57], equipmentSlots=feet, }
+
+[Improved Iron Ring] -> 
+    - ring -> ItemStat{items=[Improved Iron Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@70eab45f, foundry.alembic.stats.item.modifiers.AppendItemModifier@119dce90], equipmentSlots=ring, }
+
+[§fPhoenix Leggings] -> 
+    - legs -> ItemStat{items=[§fPhoenix Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@66d3f327, foundry.alembic.stats.item.modifiers.AppendItemModifier@2d07641c, foundry.alembic.stats.item.modifiers.AppendItemModifier@c7cc55b, foundry.alembic.stats.item.modifiers.AppendItemModifier@6b30759], equipmentSlots=legs, }
+
+[Pyromancer Robe] -> 
+    - chest -> ItemStat{items=[Pyromancer Robe], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@14e64022, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@35cc590b], equipmentSlots=chest, }
+
+[Archevoker Leggings] -> 
+    - legs -> ItemStat{items=[Archevoker Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@63f01b4f, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@21c47d05], equipmentSlots=legs, }
+
+[Steeleaf Helmet] -> 
+    - head -> ItemStat{items=[Steeleaf Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@99cc20b, foundry.alembic.stats.item.modifiers.AppendItemModifier@3b3b0677], equipmentSlots=head, }
+
+[Fiery Chestplate] -> 
+    - chest -> ItemStat{items=[Fiery Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1cf1f096, foundry.alembic.stats.item.modifiers.AppendItemModifier@21b71948, foundry.alembic.stats.item.modifiers.AppendItemModifier@204b700f], equipmentSlots=chest, }
+
+[Netherite Battlemage Robes] -> 
+    - chest -> ItemStat{items=[Netherite Battlemage Robes], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1e0e2066, foundry.alembic.stats.item.modifiers.AppendItemModifier@79dca70c, foundry.alembic.stats.item.modifiers.AppendItemModifier@2ea0afa5, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@bde8add], equipmentSlots=chest, }
+
+[Scarecrow Leggings] -> 
+    - legs -> ItemStat{items=[Scarecrow Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@f895986, foundry.alembic.stats.item.modifiers.AppendItemModifier@7bfc5d76, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@754f52df], equipmentSlots=legs, }
+
+[Heavy Chain] -> 
+    - necklace -> ItemStat{items=[Heavy Chain], , attributeData=[RemoveItemModifier[target=io.redspace.ironsspellbooks.api.attribute.MagicRangedAttribute@728a79b9], foundry.alembic.stats.item.modifiers.AppendItemModifier@4d98d36, foundry.alembic.stats.item.modifiers.AppendItemModifier@423b80a5], equipmentSlots=necklace, }
+
+[Ring of Bulking] -> 
+    - ring -> ItemStat{items=[Ring of Bulking], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2e4b14d2, foundry.alembic.stats.item.modifiers.AppendItemModifier@48bb9026, foundry.alembic.stats.item.modifiers.AppendItemModifier@56ab7098], equipmentSlots=ring, }
+
+[Cultist Leggings] -> 
+    - legs -> ItemStat{items=[Cultist Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6bd3b24d, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@667445b], equipmentSlots=legs, }
+
+[Belt of Evasion] -> 
+    - belt -> ItemStat{items=[Belt of Evasion], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@742e5712], equipmentSlots=belt, }
+
+[Rock Shell Chestplate] -> 
+    - chest -> ItemStat{items=[Rock Shell Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3c3acda9, foundry.alembic.stats.item.modifiers.AppendItemModifier@468ba2c2], equipmentSlots=chest, }
+
+[Zanite Pendant] -> 
+    - necklace -> ItemStat{items=[Zanite Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4514f008], equipmentSlots=necklace, }
+
+[Skyseeker's Headwear] -> 
+    - head -> ItemStat{items=[Skyseeker's Headwear], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5269d50a, foundry.alembic.stats.item.modifiers.AppendItemModifier@3412d8e2, foundry.alembic.stats.item.modifiers.AppendItemModifier@6e310379], equipmentSlots=head, }
+
+[Golden Shovel] -> 
+    - mainhand -> ItemStat{items=[Golden Shovel], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@842cdea], equipmentSlots=mainhand, }
+    - mainhand -> ItemStat{items=[Golden Shovel], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@66324801], equipmentSlots=mainhand, }
+
+[Storm Sword] -> 
+    - mainhand -> ItemStat{items=[Storm Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@513efd32, foundry.alembic.stats.item.modifiers.AppendItemModifier@15226c1e, foundry.alembic.stats.item.modifiers.AppendItemModifier@13b22f6f], equipmentSlots=mainhand, }
+
+[Shadow-Walker Leggings] -> 
+    - legs -> ItemStat{items=[Shadow-Walker Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5c429aae, foundry.alembic.stats.item.modifiers.AppendItemModifier@5b9fba62, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@31a91bec], equipmentSlots=legs, }
+
+[Naga Scale Tunic] -> 
+    - chest -> ItemStat{items=[Naga Scale Tunic], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@47a8363f, foundry.alembic.stats.item.modifiers.AppendItemModifier@47b292f3], equipmentSlots=chest, }
+
+[Plagued Boots] -> 
+    - feet -> ItemStat{items=[Plagued Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@770144ff, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@6cb3f27c], equipmentSlots=feet, }
+
+[Cicada] -> 
+    - head -> ItemStat{items=[Cicada], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@61bdb25a, foundry.alembic.stats.item.modifiers.AppendItemModifier@202eb6ae, foundry.alembic.stats.item.modifiers.AppendItemModifier@277f0366], equipmentSlots=head, }
+
+[Fedora] -> 
+    - head -> ItemStat{items=[Fedora], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2564a61d, foundry.alembic.stats.item.modifiers.AppendItemModifier@6d9c2fba, foundry.alembic.stats.item.modifiers.AppendItemModifier@733cb404], equipmentSlots=head, }
+
+[Stratus Leggings] -> 
+    - legs -> ItemStat{items=[Stratus Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5db7895e, foundry.alembic.stats.item.modifiers.AppendItemModifier@4dc37a2b, foundry.alembic.stats.item.modifiers.AppendItemModifier@43728acf], equipmentSlots=legs, }
+
+[Gravity Boots Cover] -> 
+    - feet -> ItemStat{items=[Gravity Boots Cover], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@f1aa2b0, foundry.alembic.stats.item.modifiers.AppendItemModifier@6c513f93], equipmentSlots=feet, }
+
+[Knightmetal Gauntlets] -> 
+    - hands -> ItemStat{items=[Knightmetal Gauntlets], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@53a70b38, foundry.alembic.stats.item.modifiers.AppendItemModifier@18469680], equipmentSlots=hands, }
+
+[Skyjade Ring] -> 
+    - ring -> ItemStat{items=[Skyjade Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@649b5118], equipmentSlots=ring, }
+
+[Magenta Chef Hat] -> 
+    - head -> ItemStat{items=[Magenta Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@50955bcf, foundry.alembic.stats.item.modifiers.AppendItemModifier@600e839c], equipmentSlots=head, }
+
+[§fObsidian Boots] -> 
+    - feet -> ItemStat{items=[§fObsidian Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1fd7c703, foundry.alembic.stats.item.modifiers.AppendItemModifier@1d66162c, foundry.alembic.stats.item.modifiers.AppendItemModifier@68a94c92], equipmentSlots=feet, }
+
+[Hazmat Helmet] -> 
+    - head -> ItemStat{items=[Hazmat Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6f5f5769, foundry.alembic.stats.item.modifiers.AppendItemModifier@64f11970, foundry.alembic.stats.item.modifiers.AppendItemModifier@1f3dd948, foundry.alembic.stats.item.modifiers.AppendItemModifier@31b99688, foundry.alembic.stats.item.modifiers.AppendItemModifier@24c86bc9, foundry.alembic.stats.item.modifiers.AppendItemModifier@481edcb9], equipmentSlots=head, }
+
+[Scarecrow Coat] -> 
+    - chest -> ItemStat{items=[Scarecrow Coat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@a8b5377, foundry.alembic.stats.item.modifiers.AppendItemModifier@289c19b, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@8641e5], equipmentSlots=chest, }
+
+[Ironwood Ring] -> 
+    - ring -> ItemStat{items=[Ironwood Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@59d2cc1b], equipmentSlots=ring, }
+
+[Valkyrum Gloves] -> 
+    - hands -> ItemStat{items=[Valkyrum Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@13819e3, foundry.alembic.stats.item.modifiers.AppendItemModifier@4d9f5b52], equipmentSlots=hands, }
+
+[Dormant Eye] -> 
+    - charm -> ItemStat{items=[Dormant Eye], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1ee00e46, foundry.alembic.stats.item.modifiers.AppendItemModifier@39cdaafe, foundry.alembic.stats.item.modifiers.AppendItemModifier@7af3e183], equipmentSlots=charm, }
+
+[Diving Flippers] -> 
+    - feet -> ItemStat{items=[Diving Flippers], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@46bcdca0], equipmentSlots=feet, }
+
+[Golden Chestplate] -> 
+    - chest -> ItemStat{items=[Golden Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@70efbb12, foundry.alembic.stats.item.modifiers.AppendItemModifier@7fe635af, foundry.alembic.stats.item.modifiers.AppendItemModifier@25bbfb52], equipmentSlots=chest, }
+
+[Netherite Gloves] -> 
+    - hands -> ItemStat{items=[Netherite Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2d56ac7c, foundry.alembic.stats.item.modifiers.AppendItemModifier@11b6d885], equipmentSlots=hands, }
+
+[Turtle Shell] -> 
+    - head -> ItemStat{items=[Turtle Shell], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7b6776a0], equipmentSlots=head, }
+
+[Mycelial Hoe] -> 
+    - mainhand -> ItemStat{items=[Mycelial Hoe], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7d904fbf], equipmentSlots=mainhand, }
+
+[Naga Trophy] -> 
+    - head -> ItemStat{items=[Naga Trophy], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1a2788a, foundry.alembic.stats.item.modifiers.AppendItemModifier@afdce55, foundry.alembic.stats.item.modifiers.AppendItemModifier@53335934, foundry.alembic.stats.item.modifiers.AppendItemModifier@6d29e494], equipmentSlots=head, }
+
+[Copper Leggings] -> 
+    - legs -> ItemStat{items=[Copper Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@744ab825, foundry.alembic.stats.item.modifiers.AppendItemModifier@5fe5883], equipmentSlots=legs, }
+
+[Light Gray Chef Hat] -> 
+    - head -> ItemStat{items=[Light Gray Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@776c5157, foundry.alembic.stats.item.modifiers.AppendItemModifier@1dffe116], equipmentSlots=head, }
+
+[Lesser Ender Ring] -> 
+    - ring -> ItemStat{items=[Lesser Ender Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2c1463c0, foundry.alembic.stats.item.modifiers.AppendItemModifier@6c69b72f, foundry.alembic.stats.item.modifiers.AppendItemModifier@4ef8a07e], equipmentSlots=ring, }
+
+[Cactus Boots] -> 
+    - feet -> ItemStat{items=[Cactus Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@fa1d72], equipmentSlots=feet, }
+
+[Faraday Leggings] -> 
+    - legs -> ItemStat{items=[Faraday Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@24584171, foundry.alembic.stats.item.modifiers.AppendItemModifier@3ca0f78d], equipmentSlots=legs, }
+
+[Knight Phantom Trophy] -> 
+    - head -> ItemStat{items=[Knight Phantom Trophy], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@48e5d862, foundry.alembic.stats.item.modifiers.AppendItemModifier@660d79c, foundry.alembic.stats.item.modifiers.AppendItemModifier@7cfbcd69, foundry.alembic.stats.item.modifiers.AppendItemModifier@4778265a, foundry.alembic.stats.item.modifiers.AppendItemModifier@2138c01f], equipmentSlots=head, }
+
+[Valkyrum Leggings] -> 
+    - legs -> ItemStat{items=[Valkyrum Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1222b214, foundry.alembic.stats.item.modifiers.AppendItemModifier@1e4fbe15, foundry.alembic.stats.item.modifiers.AppendItemModifier@8c5b54c], equipmentSlots=legs, }
+
+[§fPhoenix Helmet] -> 
+    - head -> ItemStat{items=[§fPhoenix Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6d7d0f36, foundry.alembic.stats.item.modifiers.AppendItemModifier@3d145400, foundry.alembic.stats.item.modifiers.AppendItemModifier@645d6900, foundry.alembic.stats.item.modifiers.AppendItemModifier@4bdc4194], equipmentSlots=head, }
+
+[§fObsidian Chestplate] -> 
+    - chest -> ItemStat{items=[§fObsidian Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@77a8e160, foundry.alembic.stats.item.modifiers.AppendItemModifier@2f874b19, foundry.alembic.stats.item.modifiers.AppendItemModifier@7ff8d812], equipmentSlots=chest, }
+
+[Royal Guard Sword] -> 
+    - mainhand -> ItemStat{items=[Royal Guard Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@334b407a, foundry.alembic.stats.item.modifiers.AppendItemModifier@5a727e37], equipmentSlots=mainhand, }
+
+[Etherium Helmet] -> 
+    - head -> ItemStat{items=[Etherium Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@55eb443e, foundry.alembic.stats.item.modifiers.AppendItemModifier@7989b5df, foundry.alembic.stats.item.modifiers.AppendItemModifier@75c69299, foundry.alembic.stats.item.modifiers.AppendItemModifier@5aeba7ba], equipmentSlots=head, }
+
+[Cultist Hood] -> 
+    - head -> ItemStat{items=[Cultist Hood], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2788a316, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@5124580f], equipmentSlots=head, }
+
+[Botanist's Blade] -> 
+    - mainhand -> ItemStat{items=[Botanist's Blade], , attributeData=[foundry.alembic.stats.item.modifiers.ReplaceItemModifier@65a08631, foundry.alembic.stats.item.modifiers.AppendItemModifier@6798fcda], equipmentSlots=mainhand, }
+
+[Sombrero] -> 
+    - head -> ItemStat{items=[Sombrero], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@77be0400, foundry.alembic.stats.item.modifiers.AppendItemModifier@ab48f89, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@505b1f2c], foundry.alembic.stats.item.modifiers.AppendItemModifier@480de4af], equipmentSlots=head, }
+
+[Steel Leggings] -> 
+    - legs -> ItemStat{items=[Steel Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@53d46e73, foundry.alembic.stats.item.modifiers.AppendItemModifier@580fb6ff, foundry.alembic.stats.item.modifiers.AppendItemModifier@71af1456, foundry.alembic.stats.item.modifiers.AppendItemModifier@6d558aa6], equipmentSlots=legs, }
+
+[Copper Ring] -> 
+    - ring -> ItemStat{items=[Copper Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5ed0cb9f], equipmentSlots=ring, }
+
+[Flint Knife] -> 
+    - mainhand -> ItemStat{items=[Flint Knife], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4c90adeb], equipmentSlots=mainhand, }
+
+[Faraday Chestplate] -> 
+    - chest -> ItemStat{items=[Faraday Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@62458201, foundry.alembic.stats.item.modifiers.AppendItemModifier@62dd216d], equipmentSlots=chest, }
+
+[Cryomancer Hood] -> 
+    - head -> ItemStat{items=[Cryomancer Hood], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@225eec69, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@6b424872], equipmentSlots=head, }
+
+[Botanist's Headwear] -> 
+    - head -> ItemStat{items=[Botanist's Headwear], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2811c746, foundry.alembic.stats.item.modifiers.AppendItemModifier@46f3d050], equipmentSlots=head, }
+
+[Wooden Crucifix] -> 
+    - offhand -> ItemStat{items=[Wooden Crucifix], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@182efb8b, foundry.alembic.stats.item.modifiers.AppendItemModifier@249a359e, foundry.alembic.stats.item.modifiers.AppendItemModifier@65d48051], equipmentSlots=offhand, }
+
+[Magnetic Ring] -> 
+    - ring -> ItemStat{items=[Magnetic Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@57abc875], equipmentSlots=ring, }
+
+[Leather Gloves] -> 
+    - hands -> ItemStat{items=[Leather Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@33be2988, foundry.alembic.stats.item.modifiers.AppendItemModifier@13a7149d], equipmentSlots=hands, }
+
+[Quartz Pendant] -> 
+    - necklace -> ItemStat{items=[Quartz Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@732beea6], equipmentSlots=necklace, }
+
+[Leather Tunic] -> 
+    - chest -> ItemStat{items=[Leather Tunic], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@bcc8144], equipmentSlots=chest, }
+
+[Pyromancer Leggings] -> 
+    - legs -> ItemStat{items=[Pyromancer Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@38b0ddb, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@43fe4ac9], equipmentSlots=legs, }
+
+[Pink Chef Hat] -> 
+    - head -> ItemStat{items=[Pink Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@33c65f0d, foundry.alembic.stats.item.modifiers.AppendItemModifier@1318cf5f], equipmentSlots=head, }
+
+[Netherite Chestplate] -> 
+    - chest -> ItemStat{items=[Netherite Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3d66bf16, foundry.alembic.stats.item.modifiers.AppendItemModifier@61f8e4d7, foundry.alembic.stats.item.modifiers.AppendItemModifier@31b17a70], equipmentSlots=chest, }
+
+[Pyromancer Boots] -> 
+    - feet -> ItemStat{items=[Pyromancer Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@39cd94ed, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@567609b2], equipmentSlots=feet, }
+
+[Metal Crucifix] -> 
+    - offhand -> ItemStat{items=[Metal Crucifix], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@71caf6c5, foundry.alembic.stats.item.modifiers.AppendItemModifier@4f20501a, foundry.alembic.stats.item.modifiers.AppendItemModifier@3cd59c42], equipmentSlots=offhand, }
+
+[Valkyrum Pendant] -> 
+    - necklace -> ItemStat{items=[Valkyrum Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7d92985c, foundry.alembic.stats.item.modifiers.AppendItemModifier@6125d021, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@fed4746]], equipmentSlots=necklace, }
+
+[Soulstrider's Chestplate] -> 
+    - chest -> ItemStat{items=[Soulstrider's Chestplate], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@243ccd46, foundry.alembic.stats.item.modifiers.AppendItemModifier@244065db, foundry.alembic.stats.item.modifiers.AppendItemModifier@7888b1e6], equipmentSlots=chest, }
+
+[Skyjade Leggings] -> 
+    - legs -> ItemStat{items=[Skyjade Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@31c22639, foundry.alembic.stats.item.modifiers.AppendItemModifier@1ae54811, foundry.alembic.stats.item.modifiers.AppendItemModifier@2035d548], equipmentSlots=legs, }
+
+[Scarecrow Hat] -> 
+    - head -> ItemStat{items=[Scarecrow Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5c78be6f, foundry.alembic.stats.item.modifiers.AppendItemModifier@721ebaae, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@551110de], equipmentSlots=head, }
+
+[Flower Crown] -> 
+    - head -> ItemStat{items=[Flower Crown], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7d2e0dfb], equipmentSlots=head, }
+
+[Redstone Torch] -> 
+    - mainhand -> ItemStat{items=[Redstone Torch], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@62e12041], equipmentSlots=mainhand, }
+    - mainhand -> ItemStat{items=[Redstone Torch], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@33c9084e], equipmentSlots=mainhand, }
+
+[Plagued Mask] -> 
+    - head -> ItemStat{items=[Plagued Mask], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1e1819b5, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@66ec0750], equipmentSlots=head, }
+
+[White Chef Hat] -> 
+    - head -> ItemStat{items=[White Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@798beee6, foundry.alembic.stats.item.modifiers.AppendItemModifier@2b2e668d], equipmentSlots=head, }
+
+[Arcane Gold Leggings] -> 
+    - legs -> ItemStat{items=[Arcane Gold Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1bb6414b, foundry.alembic.stats.item.modifiers.AppendItemModifier@520541f0, foundry.alembic.stats.item.modifiers.AppendItemModifier@702a0260, foundry.alembic.stats.item.modifiers.AppendItemModifier@62d952c9], equipmentSlots=legs, }
+
+[Leather Pants] -> 
+    - legs -> ItemStat{items=[Leather Pants], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@bd27e81], equipmentSlots=legs, }
+
+[Diving Helmet] -> 
+    - head -> ItemStat{items=[Diving Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@755e4b8c], equipmentSlots=head, }
+
+[Uranium Helmet] -> 
+    - head -> ItemStat{items=[Uranium Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@174f42de, foundry.alembic.stats.item.modifiers.AppendItemModifier@4ee68ca4], equipmentSlots=head, }
+
+[Blazing Swordfish] -> 
+    - mainhand -> ItemStat{items=[Blazing Swordfish], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@462f5de0], equipmentSlots=mainhand, }
+
+[Roadrunner Totem] -> 
+    - offhand -> ItemStat{items=[Roadrunner Totem], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@14735de], equipmentSlots=offhand, }
+
+[Gravitite Leggings] -> 
+    - legs -> ItemStat{items=[Gravitite Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5cdedc51], equipmentSlots=legs, }
+
+[Blue Chef Hat] -> 
+    - head -> ItemStat{items=[Blue Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@120faee0, foundry.alembic.stats.item.modifiers.AppendItemModifier@aa2d591], equipmentSlots=head, }
+
+[Copper Pendant] -> 
+    - necklace -> ItemStat{items=[Copper Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7e2ab08e], equipmentSlots=necklace, }
+
+[Electromancer Hat] -> 
+    - head -> ItemStat{items=[Electromancer Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@9298757, foundry.alembic.stats.item.modifiers.AppendItemModifier@7d03f608, foundry.alembic.stats.item.modifiers.AppendItemModifier@9e52cf1, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@55b0f2e1], equipmentSlots=head, }
+
+[Cultist Armor] -> 
+    - chest -> ItemStat{items=[Cultist Armor], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2eb9e59c, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@588e7bdc], equipmentSlots=chest, }
+
+[Diamond Gloves] -> 
+    - hands -> ItemStat{items=[Diamond Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@56161b01], equipmentSlots=hands, }
+
+[Arcane Fortress Helmet] -> 
+    - head -> ItemStat{items=[Arcane Fortress Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@616f933b, foundry.alembic.stats.item.modifiers.AppendItemModifier@3e9edc83, foundry.alembic.stats.item.modifiers.AppendItemModifier@c5e4d45, foundry.alembic.stats.item.modifiers.AppendItemModifier@770f8cdc], equipmentSlots=head, }
+
+[§fObsidian Helmet] -> 
+    - head -> ItemStat{items=[§fObsidian Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1d5c21af, foundry.alembic.stats.item.modifiers.AppendItemModifier@61e3928c, foundry.alembic.stats.item.modifiers.AppendItemModifier@663499e1], equipmentSlots=head, }
+
+[Slider Trophy] -> 
+    - head -> ItemStat{items=[Slider Trophy], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7cbbb66, foundry.alembic.stats.item.modifiers.AppendItemModifier@132abf89, foundry.alembic.stats.item.modifiers.AppendItemModifier@5ad1cb70, foundry.alembic.stats.item.modifiers.AppendItemModifier@5df348b3, foundry.alembic.stats.item.modifiers.AppendItemModifier@739d8e0], equipmentSlots=head, }
+
+[Archevoker Boots] -> 
+    - feet -> ItemStat{items=[Archevoker Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3e42b64b, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@6261ed9e], equipmentSlots=feet, }
+
+[Bunny Totem] -> 
+    - offhand -> ItemStat{items=[Bunny Totem], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1aa3e6bc, foundry.alembic.stats.item.modifiers.AppendItemModifier@30289ec4, foundry.alembic.stats.item.modifiers.AppendItemModifier@5ae379e], equipmentSlots=offhand, }
+
+[Lead Pendant] -> 
+    - necklace -> ItemStat{items=[Lead Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@76ef565b], equipmentSlots=necklace, }
+
+[Zinc Pendant] -> 
+    - necklace -> ItemStat{items=[Zinc Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@63bc126a], equipmentSlots=necklace, }
+
+[Hazmat Pants] -> 
+    - legs -> ItemStat{items=[Hazmat Pants], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@677ec9fc, foundry.alembic.stats.item.modifiers.AppendItemModifier@3339a214, foundry.alembic.stats.item.modifiers.AppendItemModifier@6649eab7, foundry.alembic.stats.item.modifiers.AppendItemModifier@af5d98a, foundry.alembic.stats.item.modifiers.AppendItemModifier@1b55d001, foundry.alembic.stats.item.modifiers.AppendItemModifier@6502f87d], equipmentSlots=legs, }
+
+[Diamond Pendant] -> 
+    - necklace -> ItemStat{items=[Diamond Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1cacc2e], equipmentSlots=necklace, }
+
+[Wandering Magician Shoes] -> 
+    - feet -> ItemStat{items=[Wandering Magician Shoes], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6baa142a, foundry.alembic.stats.item.modifiers.AppendItemModifier@5a4e528a, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@3fd228c3], equipmentSlots=feet, }
+
+[§fNeptune Helmet] -> 
+    - head -> ItemStat{items=[§fNeptune Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4ac3ad1c, foundry.alembic.stats.item.modifiers.AppendItemModifier@ad98fc1], equipmentSlots=head, }
+
+[Brown Chef Hat] -> 
+    - head -> ItemStat{items=[Brown Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1ead2685, foundry.alembic.stats.item.modifiers.AppendItemModifier@4fd525dd], equipmentSlots=head, }
+
+[Advanced Building Wand] -> 
+    - mainhand -> ItemStat{items=[Advanced Building Wand], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@481db49a], equipmentSlots=mainhand, }
+
+[Daybloom Ring] -> 
+    - ring -> ItemStat{items=[Daybloom Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2785948c, foundry.alembic.stats.item.modifiers.AppendItemModifier@3f46a28c], equipmentSlots=ring, }
+
+[§fHammer of Kingbdogz] -> 
+    - mainhand -> ItemStat{items=[§fHammer of Kingbdogz], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3d977069], equipmentSlots=mainhand, }
+
+[Ice Sword] -> 
+    - mainhand -> ItemStat{items=[Ice Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@22942a5], equipmentSlots=mainhand, }
+
+[Quartz Ring] -> 
+    - ring -> ItemStat{items=[Quartz Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1afe8470], equipmentSlots=ring, }
+
+[Silver Sword] -> 
+    - mainhand -> ItemStat{items=[Silver Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@650e14f5], equipmentSlots=mainhand, }
+
+[Ur-Ghast Trophy] -> 
+    - head -> ItemStat{items=[Ur-Ghast Trophy], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@37e97a56, foundry.alembic.stats.item.modifiers.AppendItemModifier@701e5493, foundry.alembic.stats.item.modifiers.AppendItemModifier@6928f1e7], equipmentSlots=head, }
+
+[Traveler's Belt] -> 
+    - belt -> ItemStat{items=[Traveler's Belt], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1d32119, foundry.alembic.stats.item.modifiers.AppendItemModifier@656a9684], equipmentSlots=belt, }
+
+[§fNeptune Leggings] -> 
+    - legs -> ItemStat{items=[§fNeptune Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@435d0e50, foundry.alembic.stats.item.modifiers.AppendItemModifier@622c19db], equipmentSlots=legs, }
+
+[Lead Sword] -> 
+    - mainhand -> ItemStat{items=[Lead Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@75f0188b], equipmentSlots=mainhand, }
+
+[Lesser Fire Ring] -> 
+    - ring -> ItemStat{items=[Lesser Fire Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@26fa446d, foundry.alembic.stats.item.modifiers.AppendItemModifier@47d7b12f], equipmentSlots=ring, }
+
+[Mossy Sword] -> 
+    - mainhand -> ItemStat{items=[Mossy Sword], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@345269dc], equipmentSlots=mainhand, }
+
+[Skyjade Axe] -> 
+    - mainhand -> ItemStat{items=[Skyjade Axe], , attributeData=[foundry.alembic.stats.item.modifiers.ReplaceItemModifier@552fc474, foundry.alembic.stats.item.modifiers.AppendItemModifier@7509fc71], equipmentSlots=mainhand, }
+
+[Fiery Helmet] -> 
+    - head -> ItemStat{items=[Fiery Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@eb10a7d, foundry.alembic.stats.item.modifiers.AppendItemModifier@5475a62e, foundry.alembic.stats.item.modifiers.AppendItemModifier@519be4a9], equipmentSlots=head, }
+
+[Naga Scale Leggings] -> 
+    - legs -> ItemStat{items=[Naga Scale Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@bfa6e5, foundry.alembic.stats.item.modifiers.AppendItemModifier@7a9cf04e], equipmentSlots=legs, }
+
+[Stormforged Helmet] -> 
+    - head -> ItemStat{items=[Stormforged Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4f143e57, foundry.alembic.stats.item.modifiers.AppendItemModifier@f2a07a0, foundry.alembic.stats.item.modifiers.AppendItemModifier@1615d515, foundry.alembic.stats.item.modifiers.AppendItemModifier@6e414a65, foundry.alembic.stats.item.modifiers.AppendItemModifier@c9277c], equipmentSlots=head, }
+
+[Lead Helmet] -> 
+    - head -> ItemStat{items=[Lead Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@54bad124, foundry.alembic.stats.item.modifiers.AppendItemModifier@7a61eb71], equipmentSlots=head, }
+
+[Ironwood Helmet] -> 
+    - head -> ItemStat{items=[Ironwood Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@73034b5a, foundry.alembic.stats.item.modifiers.AppendItemModifier@15c7aefa], equipmentSlots=head, }
+
+[Knightmetal Pendant] -> 
+    - necklace -> ItemStat{items=[Knightmetal Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5c018303], equipmentSlots=necklace, }
+
+[Etherium Greaves] -> 
+    - legs -> ItemStat{items=[Etherium Greaves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4545f18a, foundry.alembic.stats.item.modifiers.AppendItemModifier@64341337, foundry.alembic.stats.item.modifiers.AppendItemModifier@1938ce02, foundry.alembic.stats.item.modifiers.AppendItemModifier@4194d950], equipmentSlots=legs, }
+
+[Dislocation Ring] -> 
+    - ring -> ItemStat{items=[Dislocation Ring], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@56f24d51], equipmentSlots=ring, }
+
+[Magnet] -> 
+    - charm -> ItemStat{items=[Magnet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@43392f14], equipmentSlots=charm, }
+
+[Black Chef Hat] -> 
+    - head -> ItemStat{items=[Black Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3351a3c4, foundry.alembic.stats.item.modifiers.AppendItemModifier@4d6d75a5], equipmentSlots=head, }
+
+[Netherite Battlemage Leggings] -> 
+    - legs -> ItemStat{items=[Netherite Battlemage Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@794c4815, foundry.alembic.stats.item.modifiers.AppendItemModifier@202f460, foundry.alembic.stats.item.modifiers.AppendItemModifier@1b91b6f2, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@eb1e478], equipmentSlots=legs, }
+
+[Skyseeker's Shoes] -> 
+    - feet -> ItemStat{items=[Skyseeker's Shoes], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@19d88c7b, foundry.alembic.stats.item.modifiers.AppendItemModifier@388c95f6, foundry.alembic.stats.item.modifiers.AppendItemModifier@6b693d43], equipmentSlots=feet, }
+
+[Fiery Magic Feather] -> 
+    - mainhand -> ItemStat{items=[Fiery Magic Feather], , attributeData=[foundry.alembic.stats.item.modifiers.ReplaceItemModifier@13a87be0, foundry.alembic.stats.item.modifiers.AppendItemModifier@7a18ab54], equipmentSlots=mainhand, }
+
+[Chilled Blade] -> 
+    - mainhand -> ItemStat{items=[Chilled Blade], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@106cd797], equipmentSlots=mainhand, }
+
+[Arcane Gold Helmet] -> 
+    - head -> ItemStat{items=[Arcane Gold Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@2353eb8d, foundry.alembic.stats.item.modifiers.AppendItemModifier@3c8dc89d, foundry.alembic.stats.item.modifiers.AppendItemModifier@2b9d6401, foundry.alembic.stats.item.modifiers.AppendItemModifier@42bc11e5], equipmentSlots=head, }
+
+[Diving Leggings] -> 
+    - legs -> ItemStat{items=[Diving Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@66ee7023], equipmentSlots=legs, }
+
+[Crab Totem] -> 
+    - offhand -> ItemStat{items=[Crab Totem], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@44686706], equipmentSlots=offhand, }
+
+[Golden Knife] -> 
+    - mainhand -> ItemStat{items=[Golden Knife], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@c47b7ae], equipmentSlots=mainhand, }
+
+[Netherite Helmet] -> 
+    - head -> ItemStat{items=[Netherite Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4d859abd, foundry.alembic.stats.item.modifiers.AppendItemModifier@4a475d9, foundry.alembic.stats.item.modifiers.AppendItemModifier@73360965], equipmentSlots=head, }
+
+[Diamond Boots] -> 
+    - feet -> ItemStat{items=[Diamond Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5aa7d8f3, foundry.alembic.stats.item.modifiers.AppendItemModifier@599d42da, foundry.alembic.stats.item.modifiers.AppendItemModifier@1a93e55e], equipmentSlots=feet, }
+
+[Ruby Pendant] -> 
+    - pendant -> ItemStat{items=[Ruby Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6991d77a], equipmentSlots=pendant, }
+
+[Electromancer Leggings] -> 
+    - legs -> ItemStat{items=[Electromancer Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3593337f, foundry.alembic.stats.item.modifiers.AppendItemModifier@e91ab1a, foundry.alembic.stats.item.modifiers.AppendItemModifier@2a619b7d, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@28d057f0], equipmentSlots=legs, }
+
+[Uranium Pendant] -> 
+    - necklace -> ItemStat{items=[Uranium Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@6345d58, foundry.alembic.stats.item.modifiers.AppendItemModifier@34e4f612], equipmentSlots=necklace, }
+
+[Bronze Leggings] -> 
+    - legs -> ItemStat{items=[Bronze Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3b298fc7, foundry.alembic.stats.item.modifiers.AppendItemModifier@a7e938d], equipmentSlots=legs, }
+
+[Silver Axe] -> 
+    - mainhand -> ItemStat{items=[Silver Axe], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@746aa609], equipmentSlots=mainhand, }
+
+[Unsettling Kimono] -> 
+    - chest -> ItemStat{items=[Unsettling Kimono], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1c5fbdf5, foundry.alembic.stats.item.modifiers.AppendItemModifier@4eac3328, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@fed4746], RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@21ce662e], foundry.alembic.stats.item.modifiers.AppendItemModifier@3deea31f], equipmentSlots=chest, }
+
+[Antler Headdress] -> 
+    - head -> ItemStat{items=[Antler Headdress], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@34a29494, foundry.alembic.stats.item.modifiers.AppendItemModifier@1b7cd699], equipmentSlots=head, }
+
+[Shadow-Walker Mask] -> 
+    - head -> ItemStat{items=[Shadow-Walker Mask], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@66ae9e4b, foundry.alembic.stats.item.modifiers.AppendItemModifier@44d79492, RemoveItemModifier[target=net.minecraft.world.entity.ai.attributes.RangedAttribute@af0a980], foundry.alembic.stats.item.modifiers.AppendItemModifier@601472dd], equipmentSlots=head, }
+
+[Skyjade Pendant] -> 
+    - necklace -> ItemStat{items=[Skyjade Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@7be23a1], equipmentSlots=necklace, }
+
+[Steel Helmet] -> 
+    - head -> ItemStat{items=[Steel Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3c6b5396, foundry.alembic.stats.item.modifiers.AppendItemModifier@685d59e0, foundry.alembic.stats.item.modifiers.AppendItemModifier@31a36789, foundry.alembic.stats.item.modifiers.AppendItemModifier@2c03ec30], equipmentSlots=head, }
+
+[Etherium Cuirass] -> 
+    - chest -> ItemStat{items=[Etherium Cuirass], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@15eb731b, foundry.alembic.stats.item.modifiers.AppendItemModifier@7f56b38a, foundry.alembic.stats.item.modifiers.AppendItemModifier@64509310, foundry.alembic.stats.item.modifiers.AppendItemModifier@583ef6dd], equipmentSlots=chest, }
+
+[Red Chef Hat] -> 
+    - head -> ItemStat{items=[Red Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@28714541, foundry.alembic.stats.item.modifiers.AppendItemModifier@4badf94c], equipmentSlots=head, }
+
+[Zanite Gloves] -> 
+    - hands -> ItemStat{items=[Zanite Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3d62ca43, foundry.alembic.stats.item.modifiers.AppendItemModifier@6c9e027c], equipmentSlots=hands, }
+
+[Cyan Chef Hat] -> 
+    - head -> ItemStat{items=[Cyan Chef Hat], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3c09279f, foundry.alembic.stats.item.modifiers.AppendItemModifier@4289fe65], equipmentSlots=head, }
+
+[Faraday Helmet] -> 
+    - head -> ItemStat{items=[Faraday Helmet], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@1630d58c, foundry.alembic.stats.item.modifiers.AppendItemModifier@3cab4123], equipmentSlots=head, }
+
+[Hazmat Boots] -> 
+    - feet -> ItemStat{items=[Hazmat Boots], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@40f13127, foundry.alembic.stats.item.modifiers.AppendItemModifier@4af85348, foundry.alembic.stats.item.modifiers.AppendItemModifier@7320cdd4, foundry.alembic.stats.item.modifiers.AppendItemModifier@3b4a32fc, foundry.alembic.stats.item.modifiers.AppendItemModifier@72fb44bb, foundry.alembic.stats.item.modifiers.AppendItemModifier@7a112bbf], equipmentSlots=feet, }
+
+[Ear Defenders] -> 
+    - head -> ItemStat{items=[Ear Defenders], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@3bfbed97], equipmentSlots=head, }
+
+[Stormforged Leggings] -> 
+    - legs -> ItemStat{items=[Stormforged Leggings], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4328d438, foundry.alembic.stats.item.modifiers.AppendItemModifier@83be9ea, foundry.alembic.stats.item.modifiers.AppendItemModifier@734b0bdb, foundry.alembic.stats.item.modifiers.AppendItemModifier@45f0d221, foundry.alembic.stats.item.modifiers.AppendItemModifier@40fc47b3], equipmentSlots=legs, }
+
+[Sapphire Pendant] -> 
+    - necklace -> ItemStat{items=[Sapphire Pendant], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@4abaa07e], equipmentSlots=necklace, }
+
+[§fObsidian Gloves] -> 
+    - hands -> ItemStat{items=[§fObsidian Gloves], , attributeData=[foundry.alembic.stats.item.modifiers.AppendItemModifier@5c831ed3, foundry.alembic.stats.item.modifiers.AppendItemModifier@3c2bce40], equipmentSlots=hands, }
+

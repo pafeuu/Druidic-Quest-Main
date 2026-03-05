@@ -17,8 +17,8 @@ alembic:true_damage
 minecraft:
   -  minecraft:cramming
   -  minecraft:trident
-    - alembic:arcane_damage -> 0.25
     - alembic:physical_damage -> 0.75
+    - alembic:arcane_damage -> 0.25
   -  minecraft:sting
     - alembic:alchemical_damage -> 0.2
     - alembic:physical_damage -> 0.8
@@ -30,17 +30,12 @@ minecraft:
     - alembic:physical_damage -> 1.0
   -  minecraft:sweet_berry_bush
   -  minecraft:out_of_world
-    - alembic:void_damage -> 1.0
   -  minecraft:drown
-    - alembic:ice_damage -> 0.5
-    - alembic:alchemical_damage -> 0.25
-    - alembic:physical_damage -> 0.25
   -  minecraft:dry_out
   -  minecraft:explosion
-    - alembic:physical_damage -> 0.5
     - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 0.5
   -  minecraft:generic
-    - alembic:physical_damage -> 1.0
   -  minecraft:indirect_magic
     - alembic:arcane_damage -> 1.0
   -  minecraft:lava
@@ -48,11 +43,11 @@ minecraft:
   -  minecraft:stalagmite
   -  minecraft:mob_attack
   -  minecraft:freeze
-    - alembic:true_damage -> 1.0
+    - alembic:ice_damage -> 1.0
   -  minecraft:starve
   -  minecraft:fireworks
-    - alembic:physical_damage -> 0.5
     - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 0.5
   -  minecraft:falling_anvil
   -  minecraft:in_wall
   -  minecraft:thorns
@@ -61,15 +56,15 @@ minecraft:
   -  minecraft:hot_floor
   -  minecraft:player_attack
   -  minecraft:sonic_boom
-    - alembic:arcane_damage -> 0.5
     - alembic:physical_damage -> 0.5
+    - alembic:arcane_damage -> 0.5
   -  minecraft:mob_attack_no_aggro
   -  minecraft:fireball
-    - alembic:physical_damage -> 0.3
     - alembic:fire_damage -> 0.7
+    - alembic:physical_damage -> 0.3
   -  minecraft:player_explosion
-    - alembic:physical_damage -> 0.5
     - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 0.5
   -  minecraft:falling_stalactite
   -  minecraft:dragon_breath
     - alembic:true_damage -> 0.5
@@ -82,21 +77,19 @@ minecraft:
   -  minecraft:outside_border
   -  minecraft:wither_skull
     - alembic:true_damage -> 0.1
-    - alembic:arcane_damage -> 0.6
     - alembic:physical_damage -> 0.3
+    - alembic:arcane_damage -> 0.6
   -  minecraft:on_fire
     - alembic:fire_damage -> 1.0
   -  minecraft:in_fire
     - alembic:fire_damage -> 1.0
   -  minecraft:magic
-    - alembic:arcane_damage -> 1.0
   -  minecraft:cactus
   -  minecraft:fall
-    - alembic:physical_damage -> 1.0
   -  minecraft:lightning_bolt
     - alembic:alchemical_damage -> 0.3
-    - alembic:holy_damage -> 0.3
     - alembic:fire_damage -> 0.4
+    - alembic:holy_damage -> 0.3
 attributeslib:
   -  attributeslib:detonation
   -  attributeslib:bleeding
@@ -111,8 +104,8 @@ irons_spellbooks:
   -  irons_spellbooks:heartstop
     - alembic:true_damage -> 1.0
   -  irons_spellbooks:poison_cloud
-    - alembic:arcane_damage -> 0.2
     - alembic:alchemical_damage -> 0.8
+    - alembic:arcane_damage -> 0.2
   -  irons_spellbooks:evocation_magic
     - alembic:arcane_damage -> 1.0
   -  irons_spellbooks:blood_magic
@@ -137,12 +130,12 @@ irons_spellbooks:
     - alembic:fire_damage -> 1.0
   -  irons_spellbooks:lightning_magic
     - alembic:alchemical_damage -> 0.3
-    - alembic:holy_damage -> 0.3
     - alembic:fire_damage -> 0.4
+    - alembic:holy_damage -> 0.3
   -  irons_spellbooks:eldritch_magic
+    - alembic:alchemical_damage -> 0.3
     - alembic:true_damage -> 0.4
     - alembic:arcane_damage -> 0.3
-    - alembic:alchemical_damage -> 0.3
 wizards_reborn:
   -  wizards_reborn:arcane_magic
     - alembic:arcane_damage -> 1.0
@@ -157,13 +150,13 @@ alembic:
   -  alembic:allergy
     - alembic:alchemical_damage -> 1.0
   -  alembic:soul_fire
-    - alembic:arcane_damage -> 0.5
     - alembic:fire_damage -> 0.5
+    - alembic:arcane_damage -> 0.5
   -  alembic:alchemical
     - alembic:alchemical_damage -> 1.0
   -  alembic:evoker_fangs
-    - alembic:arcane_damage -> 0.1
     - alembic:physical_damage -> 0.9
+    - alembic:arcane_damage -> 0.1
 bookshelf:
   -  bookshelf:fake_player
 enigmaticlegacy:
@@ -219,12 +212,12 @@ aether:
     - alembic:fire_damage -> 1.0
   -  aether:thunder_crystal
     - alembic:alchemical_damage -> 0.3
-    - alembic:holy_damage -> 0.3
     - alembic:fire_damage -> 0.4
+    - alembic:holy_damage -> 0.3
   -  aether:armor_piercing_attack
   -  aether:cloud_crystal
-    - alembic:ice_damage -> 0.5
     - alembic:holy_damage -> 0.5
+    - alembic:ice_damage -> 0.5
   -  aether:crush
     - alembic:physical_damage -> 1.0
   -  aether:fire_crystal
@@ -232,10 +225,13 @@ aether:
 biomeswevegone:
   -  biomeswevegone:cattail_explosion
   -  biomeswevegone:in_quicksand
+enhancedai:
+  -  enhancedai:bite
+  -  enhancedai:shockwave
 ars_nouveau:
   -  ars_nouveau:windshear
-    - alembic:ice_damage -> 0.5
     - alembic:holy_damage -> 0.5
+    - alembic:ice_damage -> 0.5
   -  ars_nouveau:frost
     - alembic:ice_damage -> 1.0
   -  ars_nouveau:flare
@@ -251,9 +247,9 @@ thermal:
     - alembic:alchemical_damage -> 0.5
     - alembic:fire_damage -> 0.5
   -  thermal:blitz_projectile
+    - alembic:fire_damage -> 0.5
     - alembic:arcane_damage -> 0.25
     - alembic:holy_damage -> 0.25
-    - alembic:fire_damage -> 0.5
   -  thermal:blizz_projectile
     - alembic:ice_damage -> 1.0
 create:
@@ -283,9 +279,9 @@ twilightforest:
   -  twilightforest:chilling_breath
     - alembic:ice_damage -> 1.0
   -  twilightforest:lich_bomb
+    - alembic:fire_damage -> 0.2
     - alembic:true_damage -> 0.4
     - alembic:arcane_damage -> 0.4
-    - alembic:fire_damage -> 0.2
   -  twilightforest:twilight_scepter
     - alembic:arcane_damage -> 1.0
   -  twilightforest:lost_words
@@ -347,8 +343,8 @@ twilightforest:
     - alembic:fire_damage -> 1.0
 supplementaries:
   -  supplementaries:player_bomb_explosion
-    - alembic:physical_damage -> 0.5
     - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 0.5
   -  supplementaries:xp_extracting
   -  supplementaries:bamboo_spikes
     - alembic:alchemical_damage -> 0.8
@@ -357,8 +353,8 @@ supplementaries:
   -  supplementaries:slingshot
   -  supplementaries:player_cannonball
   -  supplementaries:bomb_explosion
-    - alembic:physical_damage -> 0.5
     - alembic:fire_damage -> 0.5
+    - alembic:physical_damage -> 0.5
 quark:
   -  quark:pickarang
     - alembic:physical_damage -> 1.0

@@ -75,6 +75,12 @@ ServerEvents.recipes(event=>{
   Sacrificing("alexsmobs:leafcutter_ant","naturesaura:token_joy","kubejs:leafcutter_ant_totem",1)
 
   Sacrificing("twilightforest:penguin","naturesaura:token_fear","kubejs:penguin_totem",1)
+  Sacrificing("minecraft:blaze","naturesaura:token_rage","kubejs:blaze_totem",1)
+  Sacrificing("thermal:blitz","naturesaura:token_euphoria","kubejs:blitz_totem",1)
+  Sacrificing("thermal:blizz","naturesaura:token_grief","kubejs:blizz_totem",1)
+  Sacrificing("thermal:basalz","naturesaura:token_terror","kubejs:basalz_totem",1)
+
+  
 
   Sacrificing("minecraft:blaze","minecraft:dragon_egg","minecraft:blaze_spawn_egg",1)
 

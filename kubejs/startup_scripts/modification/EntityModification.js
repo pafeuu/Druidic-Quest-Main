@@ -29,6 +29,7 @@ EntityJSEvents.attributes(event => {
         event.modify(mobId, attribute => {
             //Overwrite health of a mob
             attribute.add("minecraft:generic.max_health", health)
+            
         })    
     });
     

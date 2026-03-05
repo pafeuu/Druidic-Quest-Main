@@ -601,7 +601,7 @@ ServerEvents.recipes(event=>{
         "enigmaticlegacy:extradimensional_eye"
     ],10000)
 
-    Enchanting("minecraft:efficiency",1,[
+    /*Enchanting("minecraft:efficiency",1,[
         "kubejs:enchanting_rune_of_speed",
         "kubejs:silver_pickaxe",
         "supplementaries:sugar_cube"
@@ -639,7 +639,7 @@ ServerEvents.recipes(event=>{
         "supplementaries:sugar_cube",
         "supplementaries:sugar_cube",
         "supplementaries:sugar_cube"
-    ],10000)
+    ],10000)*/
 
     Enchanting("minecraft:swift_sneak",1,[
         "kubejs:enchanting_rune_of_speed",

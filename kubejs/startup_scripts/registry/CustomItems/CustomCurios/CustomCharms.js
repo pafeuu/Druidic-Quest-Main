@@ -9,4 +9,5 @@ StartupEvents.registry('item', item => {
     charm("spellcaster_charm",4)
     charm("nutrition_charm",2)
     charm('the_ice_cube',0)
+    charm('enchanted_clock',3)
 })

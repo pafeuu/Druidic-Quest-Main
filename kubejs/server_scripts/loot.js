@@ -71,6 +71,8 @@ LootJS.modifiers((event) => {
         .replaceLoot("create:brass_ladder","thermal:lead_ingot")
         .replaceLoot("farmersdelight:rope","supplementaries:rope")
         
+        //.replaceLoot("kubejs:silver_chestplate","kubejs:copper_chestplate")// Replacing it turns it into regular unenchanted item might be usefull later
+        
     // ====================================================Replacing Good Items
     event.addLootTypeModifier(LootType.CHEST)
         .replaceLoot("trident","kubejs:rusty_trident")
