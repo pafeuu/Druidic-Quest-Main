@@ -1737,7 +1737,7 @@ ServerEvents.recipes(event => {
 		 "post": [
 		   {
 			 "type": "drop_item",
-			 "item": 'ars_nouveau:warp_scroll', 
+			 "item": 'kubejs:warp_scroll', 
 		   },
 		   {
 			   "type": "execute",
@@ -1804,7 +1804,7 @@ ServerEvents.recipes(event => {
 			],
 			"reagent": [
 			  {
-				"item": "ars_nouveau:warp_scroll"
+				"item": "kubejs:warp_scroll"
 			  }
 			],
 			"sourceCost": 0

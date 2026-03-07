@@ -4079,8 +4079,25 @@ Spells will only be disabled in new worlds or if you reset the server config
 ### Other:
     -Fixed Capturing Gem functionality(Old capturing gems need to be put into the crafting grid to clear the nbt data)
 
+# Patch 4.3.9
+
+### Other:
+    -Fixed Quark's runic smithing template functionality
+    
+### Worldgen:
+    -Fixed replaced blocks in structures(this time for real..I hope)
 
 # Patch 5.0
+
+### New Items:
+    -Bronze Axe
+    -Bronze Sword
+    -Bronze Warhammer
+    -Wooden Staff
+    -Uranium Mace
+    -Lumber Axe
+    -Botanist Bow
+    -Enchanted Clock
 
 ### Updated Mods:
     -SophisticatedMods
@@ -4123,6 +4140,9 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Waystones
     -CreativeCore
     -SillyOddities
+    -Horseman
+    -Ldlib
+    -LycheeTweaker
     
     !-FluffyFur
     !-IronsSPellsNSpellbooks
@@ -4142,10 +4162,55 @@ Spells will only be disabled in new worlds or if you reset the server config
     -InsaneLib
     -WitherReincarnated
     -OverflowingBars
+    -Corpse
+    -Corpse x Curios Compat
+    -Corpse x CosmeticArmor Compat
+    -Baguette Lib
+    -Corpse Complex
+    -IllagersWearArmor
+    -FallingTree
+
+### Reworked Items:
+    -ArsN Warp Scroll(Put it in the crafting grid to change it into the new version) it can no longer create warp portals
 
 ### Recipes:
     -Added for Amethyst Rapier
+    -Added for Infused Sapphire in sacrificial altar
+    -Changed for Source Condenser
+    -Fixed recycling recall potion output
+    -Added for Blaze Totem
+    -Added for Blitz Totem
+    -Added for Blizz Totem
+    -Added for Basalz Totem
+
+### Worldgen:
+    -Following Structures have been moved to aether and reworked:
+        -Heavenly challanger
+        -Heavenly conqueror
+        -Heavenly rider
+        -Mechanical Nest
+    -Foundry structure has been moved to the nether
+    -Scorched mines has been moved to the nether
+    -Structures in aether are now more common
+
+### Player Balance:
+    -Player will now slowly gain arcane resistance with experience levels instead of losing it
+    -Player now starts with -1 arcane resistance
+    -Drowning damage can no longer be reduced and it no longer damages your armor
+    -Fall damage can no longer be reduced with armor and it no longer damages your armor
+
 
 ### Other:
     -Sorted emi tabs order
     -Changed the tooltip on ars nouveau essences to better represent how they are made
+    -Changed items held by stonelings
+    -KeepInventory gamerule is now off by default
+    -You will now keep your armor, curios and items in both hand on death
+    -On death your items will lose 10% od their durability
+    -Remade the glass sword because it seems hardcoded to break after couple hits
+    -Cactus Armor set bonus is no longer hidden
+    -You can no longer hold LMB to attack
+    -Logs are no longer harder to break
+    -Fixed Sculk Tentacles spell not dealing damage
+    -Disabled ars portals
+    -Fixed generation of removed ores with the powder of bountiful core

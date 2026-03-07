@@ -87,6 +87,8 @@ StartupEvents.registry('item', item => {
 
   item.create("capturing_gem").rarity("epic").tag("dq:tier2/tool").tag("minecraft:tools").unstackable()
 
+  item.create("warp_scroll").texture("ars_nouveau:item/warp_scroll")
+
   item.create("grafter","hoe").tier('bronze').rarity("rare").maxDamage(256).tag("dq:tier1/tool").tag("minecraft:tools")
   
   

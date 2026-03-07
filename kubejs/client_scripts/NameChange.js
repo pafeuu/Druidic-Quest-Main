@@ -179,9 +179,6 @@ ClientEvents.lang("en_us", event => {
     event.renameBlock("vintagedelight:gearo_berry_bag","Gearo Berry Crate")
     event.renameBlock("ars_nouveau:sourceberry_sack","Sourceberry Crate")
     
-
-    
-    
     
 
 })

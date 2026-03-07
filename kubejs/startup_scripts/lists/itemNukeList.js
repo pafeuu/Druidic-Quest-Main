@@ -1,5 +1,6 @@
 global.nukelist = [
 	'twilightforest:glass_sword',
+	"ars_nouveau:warp_scroll",
 	'scalinghealth:chance_heart',
 	'scalinghealth:enchanted_heart',
 	'scalinghealth:power_crystal_shard',

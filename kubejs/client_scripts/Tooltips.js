@@ -481,9 +481,27 @@ ItemEvents.tooltip( tooltip => {
     })
   
   
+  tooltip.addAdvanced('kubejs:warp_scroll', (item, advanced, text) => {
+    
+    const posX = item.nbt?.an_warp_scroll?.x
+    const posY = item.nbt?.an_warp_scroll?.y
+    const posZ = item.nbt?.an_warp_scroll?.z
+    const dim = item.nbt?.an_warp_scroll?.dim
+
+    if(item.nbt)
+    {
+      text.add(1,[Text.white(`X:${posX} Y:${posY} Z:${posZ}`)])
+      text.add(2,Text.of(Text.white(dim)))
+    }
+    else
+    {
+      text.add(1,Text.of(Text.white("Use while sneaking to set a location.")))
+    } 
+  })
+
   tooltip.addAdvanced('kubejs:capturing_gem', (item, advanced, text) => {
     
-    if(item.nbt.get("entity")!=null)
+    if(item.nbt)
     {
       const entity = item.nbt.get("entity")
       text.add(
