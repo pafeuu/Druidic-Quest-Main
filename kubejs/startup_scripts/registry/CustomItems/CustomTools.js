@@ -3,6 +3,7 @@
 const $ShearsItem = Java.loadClass('net.minecraft.world.item.ShearsItem')
 const $ShieldItem = Java.loadClass('net.minecraft.world.item.ShieldItem')
 const $HammerItem = Java.loadClass('cofh.core.common.item.HammerItem')
+const $LunchBoxItem = Java.loadClass('team.creative.solonion.common.item.foodcontainer.FoodContainerItem')
 const $ExcavatorItem = Java.loadClass('cofh.core.common.item.ExcavatorItem')
 const $FlintAndSteelItem = Java.loadClass('net.minecraft.world.item.FlintAndSteelItem')
 const $ItemProperties = Java.loadClass('net.minecraft.world.item.Item$Properties')
@@ -50,14 +51,16 @@ StartupEvents.registry('item', item => {
 
   
 
-  item.createCustom('primitive_mining_hammer',() => new $HammerItem('primitive', new $ItemProperties()))
-  item.createCustom('basic_mining_hammer',() => new $HammerItem('basic', new $ItemProperties()))
-  item.createCustom('sturdy_mining_hammer',() => new $HammerItem('sturdy', new $ItemProperties()))
+  item.createCustom('emerald_lunchbox',()=> new $LunchBoxItem(14,"Emerald Lunchbox"))
+
+  item.createCustom('primitive_mining_hammer',() => new $HammerItem('primitive',2.0,-3.2,1, new $ItemProperties()))
+  item.createCustom('basic_mining_hammer',() => new $HammerItem('basic',4.0,-3.2,2, new $ItemProperties()))
+  item.createCustom('sturdy_mining_hammer',() => new $HammerItem('sturdy',6.0,-3.2,3, new $ItemProperties()))
  
 
-  item.createCustom('primitive_excavator',() => new $ExcavatorItem('primitive', new $ItemProperties()))
-  item.createCustom('basic_excavator',() => new $ExcavatorItem('basic', new $ItemProperties()))
-  item.createCustom('sturdy_excavator',() => new $ExcavatorItem('sturdy', new $ItemProperties()))
+  item.createCustom('primitive_excavator',() => new $ExcavatorItem('primitive',2.0,-3.2,1, new $ItemProperties()))
+  item.createCustom('basic_excavator',() => new $ExcavatorItem('basic',4.0,-3.2,2, new $ItemProperties()))
+  item.createCustom('sturdy_excavator',() => new $ExcavatorItem('sturdy',6.0,-3.2,3, new $ItemProperties()))
   
   item.create('the_terraformer','shovel').glow(true).rarity("epic").tier("terraformer").tag("minecraft:tools").tag("dq:tier2/tool")
   
