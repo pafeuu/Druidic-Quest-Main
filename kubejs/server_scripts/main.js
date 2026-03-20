@@ -1110,6 +1110,19 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 	
+	event.shaped("2x create:nixie_tube",
+		[
+			"GG",
+			"RR",
+			"WW"
+		],
+		{
+			G: "#forge:glass",
+			R: "redstone",
+			W: "#forge:plates/wooden"
+		}
+	).id("create:crafting/kinetics/nixie_tube")
+	
 	event.shaped("mbd2:phytogenic_insolator",
 		[
 			"TGT",
@@ -3066,6 +3079,21 @@ ServerEvents.recipes(event => {
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
 
+	event.shaped("rubinated_nether:ruby_brazier",
+		[
+			"FRF",
+			"CXC",
+			"OOO"
+		],
+		{
+			F: "ars_nouveau:fire_essence",
+			C: "#forge:rods/copper",
+			X: "kubejs:magic_machine",
+			R: "thermal:ruby_block",
+			O: "minecraft:obsidian"
+		}
+	).id("rubinated_nether:ruby_brazier")
+	
 	event.shaped("create:packager",
 		[
 			" R ",
@@ -4017,6 +4045,19 @@ ServerEvents.recipes(event => {
 	
 	
 	///======================================== Tier 3 Machines =======================================================================
+
+	event.shaped("2x irons_spellbooks:portal_frame",
+		[
+			"GSG",
+			"G G",
+			"GMG"
+		],
+		{
+			G: "#forge:glass/alchemy",
+			S: "ars_nouveau:stable_warp_scroll",
+			M: "kubejs:magic_machine"
+		}
+	).id("irons_spellbooks:portal_frame")
 
 	event.shaped("mbd2:infernal_smelter",
 		[
