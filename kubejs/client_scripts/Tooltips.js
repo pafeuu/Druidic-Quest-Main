@@ -161,6 +161,7 @@ ItemEvents.tooltip( tooltip => {
   
   tooltip.addAdvanced(["solonion:lunchbag",
                "solonion:lunchbox",
+               "solonion:golden_lunchbox",
                "supplementaries:sack",
                "immersiveengineering:crate",
                "irons_spellbooks:copper_spell_book",
@@ -169,6 +170,38 @@ ItemEvents.tooltip( tooltip => {
                "irons_spellbooks:rotten_spell_book"],(item, advanced, text) => {
                 text.add(1, Text.of("Make sure to empty it before upgrading!").red())
                })
+  
+  // ======================================== AOE tools ===============================================
+
+  tooltip.addAdvanced(["kubejs:primitive_excavator",
+    "kubejs:primitive_mining_hammer"],(item, advanced, text) => {
+                text.add(1, Text.of("Mines in a 3x3.").blue())
+               })
+  
+  tooltip.addAdvanced(["kubejs:basic_excavator",
+    "kubejs:basic_mining_hammer"],(item, advanced, text) => {
+                text.add(1, Text.of("Mines in a 5x5.").blue())
+               })
+
+  tooltip.addAdvanced(["kubejs:sturdy_excavator",
+    "kubejs:sturdy_mining_hammer"],(item, advanced, text) => {
+                text.add(1, Text.of("Mines in a 7x7.").blue())
+               })
+
+  //========================================= Lunch Boxes ==============================================
+  function lunchBoxTooltip(id,slots)
+  {
+    tooltip.addAdvanced(id,(item, advanced, text) => {
+                text.add(1, Text.of(slots+" Slots").white())
+               })
+  }
+
+  lunchBoxTooltip("solonion:lunchbag",5)
+  lunchBoxTooltip("solonion:lunchbox",9)
+  lunchBoxTooltip("solonion:golden_lunchbox",14)
+  lunchBoxTooltip("kubejs:emerald_lunchbox",18)
+  lunchBoxTooltip("kubejs:life_lunchbox",18)
+  
   //======================================= Smithing Templates ==============================
  
   function SmithingTemplate(Template,UpgradeTo,UpgradeFrom,Material,Color)
@@ -517,6 +550,10 @@ ItemEvents.tooltip( tooltip => {
 
   tooltip.add("enigmaticlegacy:ocean_stone",[Text.gold("When equipped as Spellstone:"),Text.blue("+10 Cold Resistance"),Text.red("-10 Fire Resistance")])
   
+  //========================Rubinated Nether ========================
+
+  tooltip.add("rubinated_nether:ruby_brazier",[Text.blue("Grants fire resistance to nearby players")] )
+
   //=======================Generators================================
 
   tooltip.add("#dq:generators/wissen",Text.aqua("Wissen Generator"))
