@@ -3,6 +3,14 @@ ServerEvents.recipes(event=>{
     const apparatus = event.recipes.ars_nouveau.enchanting_apparatus
 
     apparatus([
+        "bone_block",
+        "kubejs:rotten_flesh_block",
+        "quark:soul_bead"],
+        "kubejs:warp_scroll",
+        "corpsecomplex:scroll",
+        1000).id("corpsecomplex:scroll")
+
+    apparatus([
         "#forge:gears/arcane_gold",
         "#forge:gears/arcane_gold",
         "ars_nouveau:arcane_core"],
