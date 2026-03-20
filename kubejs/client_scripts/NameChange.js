@@ -160,6 +160,13 @@ ClientEvents.lang("en_us", event => {
     });
 
 
+    event.renameItem("waystones:warp_scroll","Waystone Warp Scroll")
+    event.renameItem("waystones:return_scroll","Waystone Return Scroll")
+    event.renameItem("waystones:bound_scroll","Waystone Bound Scroll")
+
+    event.renameItem("kubejs:life_lunchbox","Life Infused Lunchbox")
+    event.renameItem("aether:blue_berry","Skyberry")
+    event.renameItem("aether:enchanted_berry","Enchanted Skyberry")
     event.renameItem("brewinandchewin:pizza","Veggie Pizza")
     event.renameItem("brewinandchewin:pizza_slice","Veggie Pizza Slice")
     event.add("block.mbd2.infernal_smelter","Infernal Smelter")
@@ -178,6 +185,11 @@ ClientEvents.lang("en_us", event => {
     event.renameBlock("quark:glowberry_sack","Glow Berry Crate")
     event.renameBlock("vintagedelight:gearo_berry_bag","Gearo Berry Crate")
     event.renameBlock("ars_nouveau:sourceberry_sack","Sourceberry Crate")
+
+    event.renameBlock("biomeswevegone:lush_dirt", "Verdant Dirt")
+    event.renameBlock("biomeswevegone:lush_dirt_path", "Verdant Dirt Path")
+    event.renameBlock("biomeswevegone:lush_farmland", "Verdant Farmland")
+    event.renameBlock("biomeswevegone:lush_grass_block", "Verdant Grass Block")
     
     
 
