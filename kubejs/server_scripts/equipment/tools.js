@@ -564,6 +564,58 @@ ServerEvents.recipes(event => {
 	    1000
 	).id("ars_nouveau:enchanters_shield");
 
+	///=============================================================== Lunchboxes ===========================================================
+
+	
+	event.remove({output:'solonion:lunchbox'})
+	event.shaped(
+	  Item.of('solonion:lunchbox'), 
+	  [
+		'III',
+		'ISI', 
+		'III'
+	  ],
+	  {
+		I: '#forge:plates/iron',
+		S: 'solonion:lunchbag'
+	  }
+	)
+
+	event.shaped("solonion:golden_lunchbox",
+		[
+			"GGG",
+			"GXG",
+			"GGG"
+		],
+		{
+			G: "#forge:plates/gold",
+			X: "solonion:lunchbox"
+		}
+	).id("solonion:golden_lunchbox")
+
+	event.shaped("kubejs:emerald_lunchbox",
+		[
+			" E ",
+			"EXE",
+			" E "
+		],
+		{
+			X: "solonion:lunchbox",
+			E: "kubejs:infused_emerald"
+		}
+	)
+
+	event.shaped("kubejs:emerald_lunchbox",
+		[
+			"EEE",
+			"EXE",
+			"EEE"
+		],
+		{
+			X: "solonion:golden_lunchbox",
+			E: "emerald"
+		}
+	)
 	///=============================================================== Tier 0 Tools ==========================================================
 
 	event.shaped("rehooked:wood_hook",
@@ -1247,18 +1299,8 @@ ServerEvents.recipes(event => {
 
 	/// ======================================================================= Tier 2 Tools ============================================================================
 	
-	event.shaped(Item.of('kubejs:capturing_gem', '{captured:0b}'),
-		[
-			"YZY",
-			"ZXZ",
-			"YZY"
-		],
-		{
-			Y: "ars_nouveau:air_essence",
-			Z: "enigmaticlegacy:extradimensional_eye",
-			X: "supplementaries:cage"
-		}
-	)
+	
+	
 
 	event.shapeless(Item.of('kubejs:capturing_gem', '{captured:0b}'),'kubejs:capturing_gem')
 	
@@ -1538,20 +1580,6 @@ ServerEvents.recipes(event => {
 	  }
 	)
 
-	event.remove({output:'solonion:lunchbox'})
-	event.shaped(
-	  Item.of('solonion:lunchbox'), 
-	  [
-		'III',
-		'ISI', 
-		'III'
-	  ],
-	  {
-		I: '#forge:plates/iron',
-		S: 'solonion:lunchbag'
-	  }
-	)
-
 	event.remove({output:'irons_spellbooks:copper_spell_book'})
 	event.shaped(
 	  Item.of('irons_spellbooks:copper_spell_book'), 
@@ -1622,33 +1650,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	tooltype.forEach(id => {
-		event.shaped("aether:zanite_"+id,
-			[
-				' I ',
-				'IXI', 
-				' I ' 
-			],
-			{
-				I: '#forge:gems/zanite',
-				X: 'minecraft:iron_'+id
-			}
-		)	
-	});
-
-	tooltype.forEach(id => {
-		event.shaped("deep_aether:skyjade_"+id,
-			[
-				' I ',
-				'IXI', 
-				' I ' 
-			],
-			{
-				I: '#forge:gems/skyjade',
-				X: 'minecraft:iron_'+id
-			}
-		)	
-	});
 	
 	event.shaped("aether:zanite_ring",
 		[
@@ -1692,20 +1693,14 @@ ServerEvents.recipes(event => {
 		}
 	).id("thermal:potion_quiver")
 
-	
-	event.shaped(
-		Item.of('4x waystones:return_scroll'), 
-		[
-		  'NSN',
-		  'SXS', 
-		  'NSN'
-		],
-		{
-			S: 'enigmaticlegacy:thicc_scroll',
-			X: 'minecraft:ender_pearl',
-			N: '#forge:nuggets/gold'
-		}
-	  )
+	event.shapeless("waystones:return_scroll",["enigmaticlegacy:thicc_scroll","kubejs:recall_potion","kubejs:recall_potion"])
+
+	event.shapeless("waystones:bound_scroll",["waystones:return_scroll","amethyst_shard","amethyst_shard"])
+	event.shapeless("waystones:bound_scroll",["enigmaticlegacy:thicc_scroll","kubejs:recall_potion","kubejs:recall_potion","amethyst_shard","amethyst_shard"])
+
+	event.shapeless("waystones:warp_scroll",["waystones:bound_scroll","kubejs:sapphire","kubejs:sapphire"])
+	event.shapeless("waystones:warp_scroll",["waystones:return_scroll","amethyst_shard","amethyst_shard","kubejs:sapphire","kubejs:sapphire"])
+	event.shapeless("waystones:warp_scroll",["enigmaticlegacy:thicc_scroll","kubejs:recall_potion","kubejs:recall_potion","amethyst_shard","amethyst_shard","kubejs:sapphire","kubejs:sapphire"])
 	
 	event.shapeless("irons_spellbooks:iron_spell_book",["ars_nouveau:source_gem","irons_spellbooks:copper_spell_book","enigmaticlegacy:iron_ring"]).id("irons_spellbooks:iron_spell_book")
 
