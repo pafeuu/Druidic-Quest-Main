@@ -54,6 +54,143 @@ ServerEvents.recipes(event=>{
     event.custom({
         "type": "wizards_reborn:arcane_workbench",
         "pattern": [
+            "__A",
+            "OA_",
+            "WO_",
+            "BBBB"
+        ],
+        "key": {
+            "W": {
+            "item": "irons_spellbooks:weapon_parts"
+            },
+            "A": {
+            "item": "irons_spellbooks:frosted_helve"
+            },
+            "B": {
+            "item": "thermal:sapphire"
+            },
+            "O": {
+            "item": "kubejs:aquatic_ingot"
+            }
+        },
+        "output": {
+            "item": "irons_spellbooks:boreal_blade"
+        },
+        "wissen": 10000
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "LBO",
+            "BWB",
+            "OBL",
+            "AAAA"
+        ],
+        "key": {
+            "W": {
+            "item": "irons_spellbooks:weapon_parts"
+            },
+            "A": {
+            "item": "kubejs:infused_amethyst"
+            },
+            "B": {
+            "item": "irons_spellbooks:lightning_bottle"
+            },
+            "L": {
+            "item": "kubejs:lightning_essence"
+            },
+            "O": {
+            "item": "kubejs:storm_ingot"
+            }
+        },
+        "output": {
+            "item": "irons_spellbooks:twilight_gale"
+        },
+        "wissen": 10000
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "___",
+            "_I_",
+            "W__",
+            "AAAA"
+        ],
+        "key": {
+            "W": {
+            "item": "irons_spellbooks:keeper_flamberge"
+            },
+            "A": {
+            "item": "thermal:ruby"
+            },
+            "I": {
+            "item": "irons_spellbooks:pyrium_ingot"
+            }
+        },
+        "output": {
+            "item": "irons_spellbooks:legionnaire_flamberge"
+        },
+        "wissen": 5000
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "___",
+            "_I_",
+            "W__",
+            "AAAA"
+        ],
+        "key": {
+            "W": {
+            "item": "irons_spellbooks:decrepit_scythe"
+            },
+            "A": {
+            "item": "thermal:ruby"
+            },
+            "I": {
+            "item": "irons_spellbooks:pyrium_ingot"
+            }
+        },
+        "output": {
+            "item": "irons_spellbooks:hellrazor"
+        },
+        "wissen": 5000
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "BCB",
+            "CIC",
+            "BCB",
+            "AAAA"
+        ],
+        "key": {
+            "B": {
+            "item": "thermal:ruby"
+            },
+            "C": {
+            "item": "waystones:warp_scroll"
+            },
+            "A": {
+            "item": "waystones:warp_dust"
+            },
+            "I": {
+            "item": "kubejs:ender_essence"
+            }
+        },
+        "output": {
+            "item": "waystones:warp_stone"
+        },
+        "wissen": 20000
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
             "GLG",
             "GFG",
             "GLG",
