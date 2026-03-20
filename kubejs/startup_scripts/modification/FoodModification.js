@@ -194,7 +194,8 @@ ItemEvents.modification(event=>{
         'biomeswevegone:cooked_oddion_bulb',
         'biomeswevegone:cooked_yucca_fruit',
         'sob:prickly_pear',
-        'sob:dried_berries']
+        'sob:dried_berries',
+        'fruitsdelight:baked_pear']
 
     BakedPlant.forEach(id => {
         event.modify(id, item => {
