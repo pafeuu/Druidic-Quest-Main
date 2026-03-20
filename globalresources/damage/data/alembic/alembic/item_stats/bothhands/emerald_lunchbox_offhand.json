@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:emerald_lunchbox",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:consuming_speed",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "254c54f4-5bac-4109-8e68-83a379445294"
+    }
+  ],
+  "equipment_slot": "OFFHAND"
+}
