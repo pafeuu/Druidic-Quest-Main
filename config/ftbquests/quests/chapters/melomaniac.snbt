@@ -1082,6 +1082,57 @@
 			x: 6.5d
 			y: -3.5d
 		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "03E5A6F6615D1F3B"
+			rewards: [{
+				count: 3
+				id: "6042551F931F3C4F"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6425B29C3B850D4C"
+				item: "irons_spellbooks:music_disc_whispers_of_ice"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2BDD0B35E125D836"
+			rewards: [{
+				count: 3
+				id: "66E21B81FF9C8488"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "412D28BC506FA8B9"
+				item: "irons_spellbooks:music_disc_flame_still_burns"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "14760CF69FA9CDFF"
+			rewards: [{
+				count: 3
+				id: "7F610BEA15CBA804"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0403E7308D22521B"
+				item: "irons_spellbooks:music_disc_dead_king_lullaby"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
 	]
 	title: "Melomaniac"
 }

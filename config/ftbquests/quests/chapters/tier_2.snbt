@@ -878,7 +878,7 @@
 		}
 		{
 			dependencies: ["0F250E08450A1BEC"]
-			description: ["Upgrade your AOE tools to double their durability and increase their speed by over 60%!"]
+			description: ["Upgrade your AOE tools to increase their AOE range, double their durability and increase their speed by over 60%!"]
 			icon: {
 				Count: 1
 				id: "kubejs:basic_mining_hammer"
@@ -1474,6 +1474,32 @@
 			title: "Magical Ore Doubling"
 			x: 1.5d
 			y: 15.0d
+		}
+		{
+			dependencies: [
+				"23D3902848A335F6"
+				"5E2DEB87FECEDA36"
+			]
+			id: "47808B1139C7ADD2"
+			rewards: [
+				{
+					id: "503509CD45C82373"
+					item: "kubejs:enchanting_rune_of_fire"
+					type: "item"
+				}
+				{
+					id: "79F88AB5B3891C90"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66698EDD467AAD9E"
+				item: "rubinated_nether:ruby_brazier"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.5d
 		}
 	]
 	title: "Tier 2 - Basic Elemental Infusion"

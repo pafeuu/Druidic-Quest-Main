@@ -1411,6 +1411,7 @@
 				""
 				"&o&7Note that watermills no longer generate stress units, though they will still power blocks like belts and weighted ejectors.&r&r"
 			]
+			icon: "create:millstone"
 			id: "5B2014B3B0771EB5"
 			rewards: [{
 				id: "4847A7FB290D5604"

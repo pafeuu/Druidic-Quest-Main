@@ -567,10 +567,10 @@
 						ForgeCaps: {
 							Parent: {
 								Items: [ ]
-								Size: 9
+								Size: 5
 							}
 						}
-						id: "solonion:lunchbox"
+						id: "solonion:lunchbag"
 					}
 					type: "item"
 				}
@@ -618,11 +618,27 @@
 			dependencies: ["435BD5A742C05B1E"]
 			description: ["Believe it or not, potatos are a crucial resource in the creation of machines."]
 			id: "4995F4B02484AECC"
-			rewards: [{
-				id: "3F795676BD29B946"
-				item: "farmersdelight:steak_and_potatoes"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3F795676BD29B946"
+					item: "farmersdelight:steak_and_potatoes"
+					type: "item"
+				}
+				{
+					id: "40F60AE28BE8DFDE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 5
+							}
+						}
+						id: "solonion:lunchbag"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Most unusual..."
 			tasks: [{
 				count: 18L
@@ -837,7 +853,9 @@
 				icon: "handcrafted:creeper_trophy"
 				id: "509547F8D00897E5"
 				observe_type: 5
+				optional_task: true
 				timer: 0L
+				title: "Look at the creeper"
 				to_observe: "minecraft:creeper"
 				type: "observation"
 			}]
@@ -1721,6 +1739,62 @@
 			title: "Primitive Grappling Hook"
 			x: 12.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["4995F4B02484AECC"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 9
+					}
+				}
+				id: "solonion:lunchbox"
+			}
+			id: "25CA514AD0C369FE"
+			rewards: [{
+				id: "0B3317A2CA232CA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+					id: "solonion:lunchbox"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					consume_items: true
+					id: "05B48182238B296E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 5
+							}
+						}
+						id: "solonion:lunchbag"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "66F49406287ECFD5"
+					item: { Count: 6, id: "thermal:silver_coin" }
+					type: "item"
+				}
+			]
+			title: "Lunchbag upgrade"
+			x: 5.0d
+			y: -6.0d
 		}
 	]
 	title: "Tier 0 - Wooden Age"
