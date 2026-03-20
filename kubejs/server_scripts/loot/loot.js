@@ -214,52 +214,6 @@ LootJS.modifiers((event) => {
         .randomChance(0.1)
         .addLoot("2x farmersdelight:organic_compost");
 
-    event.addLootTypeModifier([LootType.CHEST])
-        .anyBiome("#forge:is_swamp","#forge:is_wet") 
-        .randomChance(0.05)
-        .addLoot("kubejs:frog_totem")
-
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyBiome("#forge:is_swamp","#forge:is_wet") 
-        .randomChance(0.05)
-        .addLoot(Item.of('supplementaries:cage', '{BlockEntityTag:{MobHolder:{EntityData:{Pos:[0.5d,0.20009998807907103d,0.5d],id:"alexsmobs:anaconda"},Name:"Anaconda",UUID:[I;719858050,1469468379,-1314582237,-2119634646]}}}'));
-
-    event.addLootTypeModifier(LootType.CHEST) 
-        .anyBiome("#forge:is_plains","minecraft:is_forest") 
-        .randomChance(0.05)
-        .addLoot(Item.of('supplementaries:cage', '{BlockEntityTag:{MobHolder:{EntityData:{Pos:[0.5d,0.20009998807907103d,0.5d],id:"minecraft:sheep"},Name:"Sheep",UUID:[I;719838050,1469468379,-1314582237,-2119634646]}}}'));
-    
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyBiome("#forge:is_plains","minecraft:is_forest") 
-        .randomChance(0.05)
-        .addLoot(Item.of('supplementaries:cage', '{BlockEntityTag:{MobHolder:{EntityData:{Pos:[0.5d,0.20009998807907103d,0.5d],id:"minecraft:chicken"},Name:"Chicken",UUID:[I;719838050,1469468379,-1314582237,-2119634646]}}}'));
-    
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyBiome("#forge:is_plains","minecraft:is_forest")  
-        .randomChance(0.05)
-        .addLoot(Item.of('supplementaries:cage', '{BlockEntityTag:{MobHolder:{EntityData:{Pos:[0.5d,0.20009998807907103d,0.5d],id:"minecraft:pig"},Name:"Pig",UUID:[I;719838050,1469468379,-1314582237,-2119634646]}}}'));
-    
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyBiome("#forge:is_plains","minecraft:is_forest")  
-        .randomChance(0.05)
-        .addLoot(Item.of('supplementaries:cage', '{BlockEntityTag:{MobHolder:{EntityData:{Pos:[0.5d,0.20009998807907103d,0.5d],id:"minecraft:cow"},Name:"Cow",UUID:[I;719828050,1469468379,-1314582237,-2119634646]}}}'));
-
-    event.addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.02)
-        .addLoot(Item.of('naturesaura:aura_cache', '{aura:200000}'));
-    
-     event.addLootTypeModifier(LootType.CHEST)
-        .biome("#minecraft:is_forest") 
-        .randomChance(0.05)
-        .addLoot("sophisticatedstorage:upgrade_base");
-
-    //======================================================= Custom Stuff
-
-    event.addLootTypeModifier([LootType.CHEST])
-        .and((and) => {
-            and.biome("#forge:is_snowy").randomChance(0.25)
-         })
-         .addLoot("kubejs:mittens")
      //================================================ MOBS
     
     event.addEntityLootModifier("minecraft:bat")
