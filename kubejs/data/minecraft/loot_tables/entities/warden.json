@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_catalyst",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:earth_essence",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:overworld_key",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "weight": 76
+        }
+      ],
+      "rolls": 8.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/warden"
+}
