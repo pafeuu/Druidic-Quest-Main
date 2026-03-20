@@ -1,7 +1,15 @@
 StartupEvents.registry('item', item => {
-    function charm(id,tier)
+    
+    /** @type {(id: string, tier: number, glowing?: boolean) => void} */
+    function charm(id,tier,glowing)
     {
-        item.create(id).tag("curios:charm").tag("dq:tier"+tier+"/accessories").unstackable()
+        if(typeof glowing === 'undefined') glowing=false
+        
+        item.create(id)
+        .tag("curios:charm")
+        .tag("dq:tier"+tier+"/accessories")
+        .unstackable()
+        .glow(glowing)
     }
 
     charm("warrior_charm",3)
@@ -9,5 +17,5 @@ StartupEvents.registry('item', item => {
     charm("spellcaster_charm",4)
     charm("nutrition_charm",2)
     charm('the_ice_cube',0)
-    charm('enchanted_clock',3)
+    charm('enchanted_watch',3,true)
 })

@@ -3,11 +3,14 @@ StartupEvents.registry('item', item => {
     item.create("mossy_sword","sword").tier('stone').tag("minecraft:swords").tag("minecraft:tools").tag("forge:tools/stone").tag("dq:tier0/weapon")
     item.create("royal_guard_sword","sword").tier('royal').tag("minecraft:swords").tag("minecraft:tools").tag("forge:tools/iron").tag("dq:tier1/weapon")
     item.create('chill_blade','sword').displayName("Chilled Blade").tier('ice').tag('minecraft:swords').tag("forge:tools/iron").tag('minecraft:tools').tag("dq:tier1/weapon")
-    item.create('blade_of_grass','irons_spells_js:magic_sword').tier('grass').tag('minecraft:swords').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:poison_splash",3).tag("dq:tier2/weapon")
-    item.create('ice_blade','irons_spells_js:magic_sword').tier('ice').tag('minecraft:swords').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:icicle",3).tag("dq:tier1/weapon").speedBaseline(-2.1)
+    item.create('blade_of_grass','sword')//.tier('grass').tag('minecraft:swords').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:poison_splash",3).tag("dq:tier2/weapon")
+    item.create('ice_blade','sword')//.tier('ice').tag('minecraft:swords').tag("forge:tools/iron").tag('minecraft:tools').glow(true)//.addDefaultSpell("irons_spellbooks:icicle",3).tag("dq:tier1/weapon").speedBaseline(-2.1)
     item.create('phoenix_sword','sword').tier('phoenix').tag('minecraft:sword').tag("forge:tools/phoenix").tag("minecraft:tools").tag("dq:tier3/weapon").tag("minecraft:swords")
     item.create('glass_sword','sword').tier('glass').tag('minecraft:sword').tag("forge:tools/glass").tag("minecraft:tools").tag("dq:tier2/weapon").tag("minecraft:swords").speedBaseline(-2.0)
+    
+    
     //Unique weapons for each material
+
     item.create('wooden_staff','sword').tier('wood').tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon").maxDamage(128)
     item.create('flint_spear','sword').tier('wood').tag("forge:tools/flint").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon").maxDamage(128)
     item.create('stone_claymore','sword').tier('stone').tag('minecraft:swords').tag("forge:tools/stone").tag('minecraft:tools').speedBaseline(-2.8).tag("dq:tier0/weapon").attackDamageBaseline(7).maxDamage(128)
@@ -18,6 +21,9 @@ StartupEvents.registry('item', item => {
     item.create("silver_katana","sword").tier('silver').tag("minecraft:tools").tag("dq:tier1/weapon").tag("dq:tier1/tool").speedBaseline(-2.2).tag('forge:tools/silver')
     item.create("bronze_warhammer","pickaxe").tier('bronze').tag("minecraft:tools").tag("dq:tier1/tool").speedBaseline(-3.2).tag("dq:tier1/weapon").attackDamageBaseline(10).tag("forge:tools/bronze")
     item.create("uranium_mace","sword").tier('uranium').tag("minecraft:tools").tag("dq:tier1/tool").speedBaseline(-3.2).tag("dq:tier2/weapon").attackDamageBaseline(10).tag("forge:tools/uranium")
+    
+    item.create("arcane_wood_wand","irons_spells_js:staff")//.addDefaultSpell('irons_spellbooks:starfall', 1)
+    //..tag("dq:tier0/weapon").attackDamageBaseline(3).speedBaseline(-3)
     // Magic Feathers
     
     item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("dq:tier1/weapon").tag("dq:tier1/tool")
@@ -28,5 +34,6 @@ StartupEvents.registry('item', item => {
     //Bows
 
     item.create('botanist_bow','bow')
+
 
 })

@@ -10,6 +10,50 @@ ItemEvents.toolTierRegistry(event => {
 
     }
   )
+
+  event.add('lumber', tier =>
+    {
+      tier.uses = 512
+      tier.speed = 0.5
+      tier.level = 0
+      tier.attackDamageBonus = 0.0
+      tier.repairIngredient = "#minecraft:logs"
+
+    }
+  )
+
+  event.add('knightmetal', tier =>
+    {
+      tier.uses = 1024
+      tier.speed = 6
+      tier.level = 5
+      tier.attackDamageBonus = 6.0
+      tier.repairIngredient = "#forge:ingots/knightmetal"
+
+    }
+  )
+
+  event.add('obsidian', tier =>
+    {
+      tier.uses = 2048
+      tier.speed = 8
+      tier.level = 6
+      tier.attackDamageBonus = 7.0
+      tier.repairIngredient = "#forge:ingots/obsidian"
+
+    }
+  )
+
+  event.add('arcane_wood', tier =>
+    {
+      tier.uses = 512,
+      tier.speed = 2,
+      tier.attackDamageBonus = 0.0
+      tier.repairIngredient = "#forge:glass/alchemy"
+
+    }
+  )
+
   event.add('royal', tier => {
     tier.uses = 600
     tier.speed = 6.0

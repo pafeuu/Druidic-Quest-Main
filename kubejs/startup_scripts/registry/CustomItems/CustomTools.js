@@ -22,6 +22,17 @@ StartupEvents.registry('item', item => {
 
   ///=================================================TOOLS============================================================
 
+  function registerTool(name,type,material,tier)
+  {
+    item.create(name,type)
+      .tier(material)
+      .tag("minecraft:tools")
+      .tag(`minecraft:tools/${type}`)
+      .tag(`minecraft:${type}s`)
+      .tag(`dq:tier${tier}/tool`)
+      .tag(`forge:tools/${material}`) 
+  }
+
   function registerToolset(material,tier)
   {
     global.toolTypesWithSword.forEach(type => {
@@ -37,7 +48,9 @@ StartupEvents.registry('item', item => {
     });
     
   }
-
+  registerTool("lumber_axe","axe","lumber",0)
+  registerTool("knightmetal_shovel","shovel","knightmetal",2)
+  registerTool("knightmetal_hoe","hoe","knightmetal",2)
   /*function registerToolsetWithoutSword(material,tier)
   {
 
@@ -48,10 +61,13 @@ StartupEvents.registry('item', item => {
   registerToolset("silver",1)
   registerToolset("bronze",1)
   registerToolset("uranium",2)
+  registerToolset("obsidian",3)
+
 
   
 
-  item.createCustom('emerald_lunchbox',()=> new $LunchBoxItem(14,"Emerald Lunchbox"))
+  item.createCustom('emerald_lunchbox',()=> new $LunchBoxItem(18,"emerald_lunchbox"))
+  item.createCustom('life_lunchbox',()=> new $LunchBoxItem(18,"life_lunchbox"))
 
   item.createCustom('primitive_mining_hammer',() => new $HammerItem('primitive',2.0,-3.2,1, new $ItemProperties()))
   item.createCustom('basic_mining_hammer',() => new $HammerItem('basic',4.0,-3.2,2, new $ItemProperties()))
@@ -79,7 +95,7 @@ StartupEvents.registry('item', item => {
   item.create('brick_glue').maxDamage(96).unstackable().tag("forge:tools/glue").tag("dq:tier0/tool")
 
   item.create('primitive_mortar').maxDamage(16).unstackable().tag("forge:tools/mortars").tag("dq:tier0/tool")
-  item.create('basic_mortar').maxDamage(64).tag("forge:tools/mortars").tag("dq:tier1/tool").unstackable()
+  item.create('basic_mortar').maxDamage(64).unstackable().tag("forge:tools/mortars").tag("dq:tier1/tool")
   item.create('primitive_saw').maxDamage(64).unstackable().tag("forge:tools/saws").tag("dq:tier0/tool")
   item.create('basic_saw').maxDamage(512).unstackable().tag("forge:tools/saws").tag("dq:tier1/tool")
 
