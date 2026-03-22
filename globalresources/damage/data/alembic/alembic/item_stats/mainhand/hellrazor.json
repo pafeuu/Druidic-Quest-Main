@@ -1,0 +1,20 @@
+{
+  "id":"irons_spellbooks:hellrazor",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:fire_damage",
+          "value": 3,
+          "operation": "ADDITION",
+          "uuid": "4476b230-5ca2-4810-98df-e28b1abeb18b"
+      },
+      {
+          "type": "append",
+          "attribute": "minecraft:generic.attack_damage",
+          "value": -2,
+          "operation": "ADDITION",
+          "uuid": "82591120-d8de-485b-8ae7-51d97d80f944"
+      }
+  ],
+  "equipment_slot": "MAINHAND"
+}

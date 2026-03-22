@@ -4098,6 +4098,17 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Lumber Axe
     -Botanist Bow
     -Enchanted Clock
+    -Emerald Lunchbox
+    -Life Infused Lunchbox
+    -Lumber Axe
+    -Skyseeker Gloves
+    -Soulstrider Gloves
+    -Steel Gloves
+    -Botanist Gloves
+    -Lead Gloves
+    -Silver Gloves
+    -Arcane Gold Gloves
+    -Etherium Gloves
 
 ### Updated Mods:
     -SophisticatedMods
@@ -4143,9 +4154,12 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Horseman
     -Ldlib
     -LycheeTweaker
-    
+    -CreateVintageImprovements
+    -TooltipOverhaul
+    -Waystones
+    -IronsSPellsNSpellbooks
+
     !-FluffyFur
-    !-IronsSPellsNSpellbooks
 
 
 ### Removed mods:
@@ -4182,6 +4196,14 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Added for Blitz Totem
     -Added for Blizz Totem
     -Added for Basalz Totem
+    -Changed for Golden Lunchbox
+    -Changed for Waystone Return Scroll
+    -Added for Waystone Bound Scroll
+    -Added for Waystone Warp Scroll
+    -Added for Warp Stone
+    -Changed for Ruby Brazier
+    -Removed outdated recipes for zanite and skyjade tools
+
 
 ### Worldgen:
     -Following Structures have been moved to aether and reworked:
@@ -4198,7 +4220,14 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Player now starts with -1 arcane resistance
     -Drowning damage can no longer be reduced and it no longer damages your armor
     -Fall damage can no longer be reduced with armor and it no longer damages your armor
+    -You will no longer gain mana for crafting glyphs
 
+### Item Balance:
+    -Upgraded Hammers and Excavators mine more blocks
+    -All the elytra variants will no longer count as armor items in case of wearing the Heart of The Golem
+
+### Loot:
+    -Buffed Warden loottable
 
 ### Other:
     -Sorted emi tabs order
@@ -4212,5 +4241,8 @@ Spells will only be disabled in new worlds or if you reset the server config
     -You can no longer hold LMB to attack
     -Logs are no longer harder to break
     -Fixed Sculk Tentacles spell not dealing damage
-    -Disabled ars portals
     -Fixed generation of removed ores with the powder of bountiful core
+    -High Aura will no longer randomly bonemeal grass blocks and its variants
+    -High Aura will no longer randomly bonemeal mossy stone blocks
+    -IE's Alloy Kiln was completely disabled
+    -Most custom curios can now be equiped with right click(like armor)

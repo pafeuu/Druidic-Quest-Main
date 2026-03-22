@@ -1,0 +1,20 @@
+{
+  "id": "irons_spellbooks:boreal_blade",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:ice_damage",
+          "value": 8,
+          "operation": "ADDITION",
+          "uuid": "a5834ca7-80e6-49a3-a987-e052935e479b"
+      },
+      {
+          "type": "append",
+          "attribute": "minecraft:generic.attack_damage",
+          "value": -8,
+          "operation": "ADDITION",
+          "uuid": "82591120-d8de-485b-8ae7-51d97d80f944"
+      }
+  ],
+  "equipment_slot": "MAINHAND"
+}

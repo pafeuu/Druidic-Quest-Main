@@ -1,0 +1,27 @@
+{
+  "id":"irons_spellbooks:legionnaire_flamberge",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:fire_damage.resistance",
+          "value": 4,
+          "operation": "ADDITION",
+          "uuid": "9a1ba772-d1cd-4e56-a962-0b84430944fa"
+      },
+      {
+          "type": "append",
+          "attribute": "alembic:fire_damage",
+          "value": 5,
+          "operation": "ADDITION",
+          "uuid": "4476b230-5ca2-4810-98df-e28b1abeb18b"
+      },
+      {
+          "type": "append",
+          "attribute": "minecraft:generic.attack_damage",
+          "value": -4,
+          "operation": "ADDITION",
+          "uuid": "82591120-d8de-485b-8ae7-51d97d80f944"
+      }
+  ],
+  "equipment_slot": "MAINHAND"
+}
