@@ -45,12 +45,29 @@ StartupEvents.registry('item', item => {
       .tag(`dq:tier${tier}/tool`)
       .tag(`forge:tools/${material}`) 
 
-    });
-    
+    });  
+  }
+
+  function registerToolsetWithoutSword(material,tier)
+  {
+    global.toolTypes.forEach(type => {
+
+      item.create(`${material}_${type}`,type)
+      .tier(material)
+      .tag("minecraft:tools")
+      .tag(`minecraft:tools/${type}`)
+      .tag(`minecraft:${type}s`)
+      .tag(`dq:tier${tier}/tool`)
+      .tag(`forge:tools/${material}`) 
+
+    });  
   }
   registerTool("lumber_axe","axe","lumber",0)
   registerTool("knightmetal_shovel","shovel","knightmetal",2)
   registerTool("knightmetal_hoe","hoe","knightmetal",2)
+  registerTool("fiery_shovel","shovel",2)
+  registerTool("fiery_axe","axe",2)
+  registerTool("fiery_hoe","hoe",2)
   /*function registerToolsetWithoutSword(material,tier)
   {
 
@@ -62,6 +79,8 @@ StartupEvents.registry('item', item => {
   registerToolset("bronze",1)
   registerToolset("uranium",2)
   registerToolset("obsidian",3)
+  registerToolsetWithoutSword("phoenix",3)
+  registerToolsetWithoutSword("stormforged",4)
 
 
   

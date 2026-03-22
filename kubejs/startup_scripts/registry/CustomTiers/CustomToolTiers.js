@@ -26,7 +26,7 @@ ItemEvents.toolTierRegistry(event => {
     {
       tier.uses = 1024
       tier.speed = 6
-      tier.level = 5
+      tier.level = 3
       tier.attackDamageBonus = 6.0
       tier.repairIngredient = "#forge:ingots/knightmetal"
 
@@ -37,7 +37,7 @@ ItemEvents.toolTierRegistry(event => {
     {
       tier.uses = 2048
       tier.speed = 8
-      tier.level = 6
+      tier.level = 4
       tier.attackDamageBonus = 7.0
       tier.repairIngredient = "#forge:ingots/obsidian"
 
@@ -76,8 +76,16 @@ ItemEvents.toolTierRegistry(event => {
     tier.uses = 2048
     tier.speed = 6.0
     tier.attackDamageBonus = 0.0
-    tier.level = 2
+    tier.level = 4
     tier.enchantmentValue = 24
+    tier.repairIngredient = '#forge:ingots/phoenix'
+  })
+
+  event.add('stormforged', tier => {
+    tier.uses = 4096
+    tier.speed = 8.0
+    tier.attackDamageBonus = 2.0
+    tier.level = 4
     tier.repairIngredient = '#forge:ingots/phoenix'
   })
 
