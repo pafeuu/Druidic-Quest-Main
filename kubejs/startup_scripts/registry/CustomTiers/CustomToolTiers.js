@@ -33,6 +33,17 @@ ItemEvents.toolTierRegistry(event => {
     }
   )
 
+  event.add('fiery', tier =>
+    {
+      tier.uses = 1024
+      tier.speed = 9
+      tier.level = 3
+      tier.attackDamageBonus = 6.0
+      tier.repairIngredient = "#forge:ingots/iron"
+
+    }
+  )
+
   event.add('obsidian', tier =>
     {
       tier.uses = 2048
