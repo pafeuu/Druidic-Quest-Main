@@ -4225,6 +4225,9 @@ Spells will only be disabled in new worlds or if you reset the server config
 ### Item Balance:
     -Upgraded Hammers and Excavators mine more blocks
     -All the elytra variants will no longer count as armor items in case of wearing the Heart of The Golem
+    -Most custom curios can now be equiped with right click(like armor)
+    
+    !-Items that were upgraded with a smithing template will now be repaired with the material that the base item was made from(example:phoenix armor is repairable with iron ingots)
 
 ### Loot:
     -Buffed Warden loottable
@@ -4245,5 +4248,4 @@ Spells will only be disabled in new worlds or if you reset the server config
     -High Aura will no longer randomly bonemeal grass blocks and its variants
     -High Aura will no longer randomly bonemeal mossy stone blocks
     -IE's Alloy Kiln was completely disabled
-    -Most custom curios can now be equiped with right click(like armor)
     -

@@ -39,7 +39,7 @@ ItemEvents.toolTierRegistry(event => {
       tier.speed = 9
       tier.level = 3
       tier.attackDamageBonus = 6.0
-      tier.repairIngredient = "#forge:ingots/iron"
+      tier.repairIngredient = "#forge:ingots/fiery"
 
     }
   )
@@ -60,7 +60,7 @@ ItemEvents.toolTierRegistry(event => {
       tier.uses = 512,
       tier.speed = 2,
       tier.attackDamageBonus = 0.0
-      tier.repairIngredient = "#forge:glass/alchemy"
+      tier.repairIngredient = "#wizards_reborn:arcane_wood_planks"
 
     }
   )
