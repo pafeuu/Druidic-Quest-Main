@@ -16,6 +16,7 @@ ItemEvents.modification(event => {
     })
   }
 
+  
   let tooltype =['pickaxe','shovel','hoe','axe']
   
   let ArmorSlot = ['helmet','chestplate','boots','leggings']
