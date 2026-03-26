@@ -1,0 +1,9 @@
+{
+  "removed": [
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"fallingtree:chopper_fall_block\",lvl:1s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"fallingtree:chopper_fall_all_block\",lvl:1s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"fallingtree:chopper_fall_item\",lvl:1s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"fallingtree:chopper_shift_down\",lvl:1s}]}" 
+  ]
+  
+}
