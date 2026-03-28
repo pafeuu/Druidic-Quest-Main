@@ -1,5 +1,36 @@
 ServerEvents.recipes(event => {
 
+    event.shaped("aether:leather_gloves",
+        [
+            "L ",
+            "SL"
+        ],
+        {
+            L: "minecraft:leather",
+            S: "string"
+        }
+    )
+
+    function glovesRecipe(output,ingredient)
+    {
+        event.shaped(output,
+            [
+                "III",
+                "IGI",
+                "III"
+            ],
+            {
+                I: ingredient,
+                G: "aether:leather_gloves"
+            }
+        )
+    }
+
+    glovesRecipe("kubejs:lead_gloves","#forge:plates/lead")
+    glovesRecipe("kubejs:silver_gloves","#forge:plates/silver")
+    glovesRecipe("aether:diamond_gloves","#forge:plates/diamond")
+    glovesRecipe("aether:iron_gloves","#forge:plates/iron")
+
     function pendant(output,material)
     {
         event.shaped(`kubejs:${output}_pendant`,[
