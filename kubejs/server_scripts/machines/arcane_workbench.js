@@ -662,9 +662,9 @@ ServerEvents.recipes(event=>{
     event.custom({
     "type": "wizards_reborn:arcane_workbench",
     "pattern": [
-        " G ",
+        "SGS",
         "DWD",
-        " B ",
+        "SBS",
         "SSSS"
     ],
     "key": {
@@ -675,7 +675,7 @@ ServerEvents.recipes(event=>{
         "item": "minecraft:glass_bottle"
         },
         "S": {
-        "item": "irons_spellbooks:arcane_debris"
+        "item": "irons_spellbooks:arcane_salvage"
         },
         "G":{
         "tag": "forge:plates/gold"    
