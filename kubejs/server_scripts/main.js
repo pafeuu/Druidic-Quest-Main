@@ -2845,6 +2845,7 @@ ServerEvents.recipes(event => {
 			X: "comparator"
 		}
 	).id("create:crafting/materials/transmitter")
+
 	event.shaped("kubejs:elemental_pump",
 		[
 			"PPP",

@@ -1,4 +1,6 @@
 global.nukelist = [
+	'irons_spellbooks:raw_mithril', 
+	'irons_spellbooks:deepslate_mithril_ore',
 	'twilightforest:glass_sword',
 	"ars_nouveau:warp_scroll",
 	'scalinghealth:chance_heart',
