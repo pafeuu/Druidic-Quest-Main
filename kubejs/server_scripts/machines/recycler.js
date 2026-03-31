@@ -176,7 +176,7 @@ ServerEvents.recipes(event=>
     TemplatesRecycling("kubejs:arcane_fortress_upgrade_smithing_template","wizards_reborn:arcane_gold_ingot","create:veridium")
     TemplatesRecycling("kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_ingot","astrological:triphylite")
     TemplatesRecycling("kubejs:etherium_upgrade_smithing_template","deep_aether:squall_plate","astrological:light_jade")
-    TemplatesRecycling("deep_aether:stratus_smithing_template","aether:enchanted_gravitite","aether:holystone")
+    TemplatesRecycling("deep_aether:stratus_smithing_template","kubejs:gravitite_ingot","aether:holystone")
 
     event.recipes.mbd2.recycling()
         .inputItems("quark:forgotten_hat")

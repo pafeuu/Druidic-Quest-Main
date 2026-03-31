@@ -30,6 +30,7 @@ ServerEvents.recipes(event => {
     glovesRecipe("kubejs:silver_gloves","#forge:plates/silver")
     glovesRecipe("aether:diamond_gloves","#forge:plates/diamond")
     glovesRecipe("aether:iron_gloves","#forge:plates/iron")
+    glovesRecipe("aether:gravitite_gloves","#forge:plates/gravitite")
 
     function pendant(output,material)
     {
@@ -107,7 +108,7 @@ ServerEvents.recipes(event => {
     pendant("zinc","#forge:plates/zinc")
     pendant("uranium","#forge:plates/uranium")
     pendant("copper","#forge:plates/copper")
-    pendant("gravitite","aether:enchanted_gravitite")
+    pendant("gravitite","kubejs:gravitite_ingot")
 
     ring("lapis","minecraft:lapis_block")
     ring("ruby","thermal:ruby")
@@ -133,6 +134,17 @@ ServerEvents.recipes(event => {
     ring("zinc","#forge:plates/zinc")
     ring("uranium","#forge:plates/uranium")
     ring("copper","#forge:plates/copper")
+
+
+    event.shaped(`deep_aether:gravitite_ring`,[
+            " M ",
+            "MXM",
+            " M "
+        ],
+        {
+            M: "#forge:plates/gravitite",
+            X: "ars_nouveau:ring_of_potential"
+        })
 
     event.shaped("aether:golden_pendant",[
             " M ",

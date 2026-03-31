@@ -15,6 +15,7 @@ StartupEvents.registry('item', item => {
 
   
   item.create('storm_sheet').tag('forge:plates').tag('forge:plates/storm').tag("dq:tier3/component")
+  item.create('gravitite_sheet').tag('forge:plates').tag('forge:plates/gravitite').tag("dq:tier3/component")
   item.create('sky_sheet').tag('forge:plates').tag('forge:plates/sky').tag("dq:tier4/component")
 
   item.create('depth_sheet').tag('forge:plates').tag('forge:plates/depth').tag("dq:tier5/component")
@@ -28,7 +29,8 @@ StartupEvents.registry('item', item => {
   item.create('arcanum_alloy_gear').tag('forge:gears/arcanum_alloy').tag('forge:gears').tag("dq:tier2/component")
   item.create('infused_iron_gear').tag('forge:gears/infused_iron').tag('forge:gears').tag("dq:tier2/component")
   item.create('tainted_gold_gear').tag('forge:gears/tainted_gold').tag('forge:gears').tag("dq:tier2/component")
-  item.create('ironwood_gear').tag('forge:gears/ironwood').tag('forge:gears').tag("dq:tier2/component")
+  item.create('ironwood_gear').tag('forge:gears/ironwood').tag('forge:gears').tag("dq:tier2/component")  
+  item.create('uranium_gear').tag('forge:gears/uranium').tag('forge:gears').tag("dq:tier2/component")
 
   //item.create('drenched_iron_gear').tag('forge:gears/drenched_iron').tag('forge:gears').tag("dq:tier3/component")
   item.create('andesite_gear').tag('forge:gears/andesite').tag('forge:gears').tag("dq:tier3/component")
@@ -37,10 +39,10 @@ StartupEvents.registry('item', item => {
   item.create('fiery_gear').tag('forge:gears/fiery').tag('forge:gears').tag("dq:tier3/component")
   item.create('arcane_gold_gear').tag('forge:gears/arcane_gold').tag('forge:gears').tag("dq:tier3/component")
   item.create('storm_gear').tag('forge:gears/storm').tag('forge:gears').tag("dq:tier3/component")
+  item.create('gravitite_gear').tag('forge:gears/gravitite').tag('forge:gears').tag("dq:tier3/component")
 
   //item.create('swift_alloy_gear').tag('forge:gears/swift_alloy').tag('forge:gears').tag("dq:tier4/component")
   item.create('sky_gear').tag('forge:gears/sky').tag('forge:gears').tag("dq:tier4/component")
-  item.create('uranium_gear').tag('forge:gears/uranium').tag('forge:gears').tag("dq:tier4/component")
   item.create('aluminum_gear').tag('forge:gears/aluminum').tag('forge:gears').tag("dq:tier4/component")
   item.create('stainless_steel_gear').tag('forge:gears/stainless_steel').tag('forge:gears').tag("dq:tier4/component")
 
@@ -65,6 +67,7 @@ StartupEvents.registry('item', item => {
   item.create("tainted_gold_rod").tag("forge:rods").tag("forge:rods/tainted_gold").tag("dq:tier2/component")
 
   item.create('fiery_rod').tag("forge:rods").tag("forge:rods/fiery").tag("dq:tier3/component")
+  item.create('gravitite_rod').tag("forge:rods").tag("forge:rods/gravitite").tag("dq:tier3/component")
   item.create("arcane_gold_rod").tag("forge:rods").tag("forge:rods/arcane_gold").tag("dq:tier3/component")
   item.create("storm_rod").tag("forge:rods").tag("forge:rods/storm").tag("dq:tier3/component")
   //item.create("drenched_iron_rod").tag("forge:rods").tag("forge:rods/drenched_iron").tag("dq:tier3/component")
@@ -98,6 +101,7 @@ StartupEvents.registry('item', item => {
 
   item.create('andesite_alloy_nugget').tag('forge:nuggets').tag('forge:nuggets/andesite_alloy').tag("dq:tier3/component")
   item.create('fiery_nugget').tag('forge:nuggets').tag('forge:nuggets/fiery').tag("dq:tier3/component")
+  item.create('gravitite_nugget').tag('forge:nuggets').tag('forge:nuggets/gravitite').tag("dq:tier3/component")
   item.create('knightmetal_nugget').tag('forge:nuggets').tag('forge:nuggets/knightmetal').tag("dq:tier3/component")
   item.create('storm_nugget').tag('forge:nuggets').tag('forge:nuggets/storm').tag("dq:tier3/component")
 
@@ -194,6 +198,9 @@ StartupEvents.registry('item', item => {
   crystalizedOre("zinc",0xb9e9c1)
 
    ///===================================================MISC===========================================================
+  
+  item.create("raw_gravitite").tag("dq:tier3/component")
+  item.create("gravitite_ingot").tag("dq:tier3/component")
   item.create("elemental_cloth").tag("dq:tier3/component")
   item.create("corrupted_soul").tag("dq:tier1/component")
   item.create("enchanted_soul").tag("dq:tier1/component")

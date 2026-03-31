@@ -170,7 +170,7 @@ ServerEvents.recipes(event=>{
 	
 	arcFurnace("ancient_aether:valkyrum","naturesaura:sky_ingot",["16x kubejs:life_essence","64x ars_nouveau:air_essence","16x thermal:sapphire"])
 
-	arcFurnace("deep_aether:stratus_ingot","16x aether:enchanted_gravitite",["8x thermal:ruby","8x thermal:sapphire"])
+	arcFurnace("deep_aether:stratus_ingot","16x kubejs:gravitite_ingot",["8x thermal:ruby","8x thermal:sapphire"])
 
 	arcFurnace("deep_aether:stratus_ingot","16x kubejs:infused_amethyst",["16x kubejs:infused_diamond","16x thermal:ruby","16x thermal:sapphire","16x kubejs:infused_emerald"])
 

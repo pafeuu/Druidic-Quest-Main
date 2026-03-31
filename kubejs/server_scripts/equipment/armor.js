@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
     //SmithingTemplate("kubejs:depth_upgrade_smithing_template","forbidden_arcanus:obsidian_ingot","create:crimsite")
     SmithingTemplate("kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_ingot","astrological:triphylite")
     SmithingTemplate("kubejs:etherium_upgrade_smithing_template","deep_aether:squall_plate","astrological:light_jade")
-    SmithingTemplate("deep_aether:stratus_smithing_template","aether:enchanted_gravitite","aether:holystone")
+    SmithingTemplate("deep_aether:stratus_smithing_template","kubejs:gravitite_ingot","aether:holystone")
 	
 
 	event.smithing('immersiveengineering:armor_steel_helmet',"kubejs:steel_upgrade_smithing_template","naturesaura:infused_iron_helmet","kubejs:steel_upgrade_parts").id("immersiveengineering:crafting/armor_steel_helmet")
@@ -109,6 +109,12 @@ ServerEvents.recipes(event => {
 		  )
 	}
 
+	SimpleArmor("#forge:plates/gravitite",
+		"aether:gravitite_helmet",
+		"aether:gravitite_chestplate",
+		"aether:gravitite_leggings",
+		"aether:gravitite_boots"
+	)
 	SimpleArmor("#forge:plates/uranium",
 		"kubejs:uranium_helmet",
 		"kubejs:uranium_chestplate",
@@ -252,19 +258,6 @@ ServerEvents.recipes(event => {
 
 	event.remove({output:"thermal:hazmat_fabric"})
 
-	event.shaped("elytra",
-		[
-			"NGN",
-			"MNM",
-			"A A"
-		],
-		{
-			M: "minecraft:phantom_membrane",
-			G: "immersiveengineering:glider",
-			N: "#forge:ingots/netherite",
-			A: "ars_nouveau:air_essence"
-		}
-	)
 	
 	// =================================================== Tier 3 ========================================================
 
