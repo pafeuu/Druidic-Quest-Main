@@ -258,7 +258,18 @@ ServerEvents.recipes(event => {
 
 	event.remove({output:"thermal:hazmat_fabric"})
 
-	
+	event.shaped("immersiveengineering:glider",
+		[
+			"FFF",
+			"LCL",
+			" L "
+		],
+		{
+			F: "immersiveengineering:hemp_fabric",
+			C: "leather_chestplate",
+			L: "leather"
+		}
+	).id("immersiveengineering:crafting/glider")
 	// =================================================== Tier 3 ========================================================
 
 	function ScarecrowUpgrade(ArmorType,MagicSchool)

@@ -2,12 +2,27 @@ StartupEvents.registry('item', item => {
 
   function registerBootsCover(type,tier)
   {
-    item.create(`${type}_boots_cover`).tag("curios:feet").unstackable().tag(`dq:tier${tier}/accessories`)
+    item.create(`${type}_boots_cover`)
+    .tag("curios:feet")
+    .unstackable()
+    .tag(`dq:tier${tier}/accessories`)
+    .attachCuriosCapability(CuriosJSCapabilityBuilder
+                .create()
+                .canEquip(() => true)
+            )
   }
 
   function registerBootsCoverWithCustomName(type,tier,name)
   {
-    item.create(`${type}_boots_cover`).tag("curios:feet").unstackable().tag(`dq:tier${tier}/accessories`).displayName(name)
+    item.create(`${type}_boots_cover`)
+    .tag("curios:feet")
+    .unstackable()
+    .tag(`dq:tier${tier}/accessories`)
+    .displayName(name)
+    .attachCuriosCapability(CuriosJSCapabilityBuilder
+                .create()
+                .canEquip(() => true)
+            )
   }
 
   registerBootsCover("bouncy",2)

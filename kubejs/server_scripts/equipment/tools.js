@@ -1697,20 +1697,6 @@ ServerEvents.recipes(event => {
 
 	event.smithing("farmersdelight:golden_knife",'kubejs:gold_upgrade_smithing_template','kubejs:silver_knife','kubejs:gold_upgrade_parts').id("farmersdelight:golden_knife")
 
-	event.shaped(
-		Item.of("minecraft:elytra"), 
-		[
-		  ' L ',
-		  'LXL', 
-		  'LCL'
-		],
-		{
-			L: 'immersiveengineering:hemp_fabric',
-			X: "immersiveengineering:glider",
-			C: "ender_pearl"
-		}
-	  )
-
 	event.remove({id:"ars_nouveau:warp_scroll"})
 	event.custom({
 		"type": "lychee:lightning_channeling",

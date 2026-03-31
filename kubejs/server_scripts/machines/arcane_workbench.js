@@ -782,6 +782,31 @@ ServerEvents.recipes(event=>{
     "wissen": 5000
     })
 
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "EEE",
+        "EXE",
+        "EEE",
+        "AAAA"
+    ],
+    "key": {
+        "X": {
+        "item": "immersiveengineering:glider"
+        },
+        "A": {
+        "item": "ars_nouveau:air_essence"
+        },
+        "E": {
+        "item": "minecraft:ender_pearl"
+        }
+    },
+    "output": {
+        "item": "minecraft:elytra"
+    },
+    "wissen": 5000
+    })
+
 
     event.custom({
     "type": "wizards_reborn:arcane_workbench",

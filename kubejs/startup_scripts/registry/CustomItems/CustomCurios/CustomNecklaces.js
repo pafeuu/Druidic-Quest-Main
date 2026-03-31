@@ -23,7 +23,13 @@ StartupEvents.registry('item', item => {
         "copper",
         "lapis"
     ].forEach(material=>{
-        item.create(`${material}_pendant`).unstackable().tag("curios:necklace")
+        item.create(`${material}_pendant`)
+        .unstackable()
+        .tag("curios:necklace")
+        .attachCuriosCapability(CuriosJSCapabilityBuilder
+                .create()
+                .canEquip(() => true)
+            )
     })
     
 })

@@ -1,22 +1,37 @@
 StartupEvents.registry('item', item => {
 
-    function registerRing(id,tier)
+    function registerRing(id,tier,name)
     {
-        item.create(id).unstackable().tag("curios:ring").tag(`dq:tier${tier}/accessories`)
+      if(typeof name === 'undefined')
+      {
+        item.create(id)
+        .unstackable()
+        .tag("curios:ring")
+        .tag(`dq:tier${tier}/accessories`)
+        .attachCuriosCapability(CuriosJSCapabilityBuilder
+                .create()
+                .canEquip(() => true)
+            )
+      }
+      else
+      {
+        item.create(id)
+        .unstackable()
+        .tag("curios:ring")
+        .tag(`dq:tier${tier}/accessories`)
+        .displayName(name)
+        .attachCuriosCapability(CuriosJSCapabilityBuilder
+                .create()
+                .canEquip(() => true)
+            )
+      }
+        
     }
-    /*item.create('lesser_arcane_ring').displayName("Lesser Arcane Magic Ring").unstackable().tag("curios:ring")
-    item.create('lesser_fire_ring').displayName("Lesser Fire Magic Ring").unstackable().tag("curios:ring")
-    item.create('lesser_ice_ring').displayName("Lesser Ice Magic Ring").unstackable().tag("curios:ring")
-    item.create('lesser_nature_ring').displayName("Lesser Nature Magic Ring").unstackable().tag("curios:ring")
-    item.create('lesser_lightning_ring').displayName("Lesser Lightning Magic Ring").unstackable().tag("curios:ring")
-    item.create('lesser_blood_ring').displayName("Lesser Blood Magic Ring").unstackable().tag("curios:ring")
-    item.create('lesser_ender_ring').displayName("Lesser Ender Magic Ring").unstackable().tag("curios:ring")
-    item.create('lesser_holy_ring').displayName("Lesser Holy Magic Ring").unstackable().tag("curios:ring")*/
-    item.create("ring_travel").displayName("Ring of Costly Travel").unstackable().tag("curios:ring")
-    item.create("daybloom_ring").unstackable().tag("curios:ring")
-    item.create("bulking_ring").unstackable().displayName("Ring of Bulking").tag("curios:ring")
-    item.create("mycelial_ring").unstackable().tag("curios:ring")
-
+    registerRing("ring_travel",1,"Ring of Costly Travel")
+    registerRing("daybloom_ring",1)
+    registerRing("bulking_ring",3,"Ring of Bulking")
+    registerRing("mycelial_ring",2)
+    
   global.magicSchools.forEach(element => {
     if(element=="eldritch")
         return;
@@ -44,7 +59,13 @@ StartupEvents.registry('item', item => {
     "copper",
     "lapis"
   ].forEach(material=>{
-    item.create(`${material}_ring`).unstackable().tag("curios:ring")
+    item.create(`${material}_ring`)
+    .unstackable()
+    .tag("curios:ring")
+    .attachCuriosCapability(CuriosJSCapabilityBuilder
+                .create()
+                .canEquip(() => true)
+            )
   })
 
 })
