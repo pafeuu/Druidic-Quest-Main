@@ -36,7 +36,7 @@ ItemEvents.toolTierRegistry(event => {
   event.add('fiery', tier =>
     {
       tier.uses = 1024
-      tier.speed = 9
+      tier.speed = 7.5
       tier.level = 3
       tier.attackDamageBonus = 6.0
       tier.repairIngredient = "#forge:ingots/fiery"
@@ -85,7 +85,7 @@ ItemEvents.toolTierRegistry(event => {
 
   event.add('phoenix', tier => {
     tier.uses = 2048
-    tier.speed = 6.0
+    tier.speed = 9.0
     tier.attackDamageBonus = 0.0
     tier.level = 4
     tier.enchantmentValue = 24
@@ -94,7 +94,7 @@ ItemEvents.toolTierRegistry(event => {
 
   event.add('stormforged', tier => {
     tier.uses = 4096
-    tier.speed = 8.0
+    tier.speed = 11.0
     tier.attackDamageBonus = 2.0
     tier.level = 4
     tier.repairIngredient = '#forge:ingots/phoenix'
