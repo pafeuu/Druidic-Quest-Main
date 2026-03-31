@@ -6,6 +6,15 @@ ServerEvents.tags('item', event => {
 
   event.removeAllTagsFrom([global.nukelist])
 
+  function AetherGlovesTags(id)
+  {
+    event.add("aether:accessories_gloves",id)
+    event.add("aether:accessories",id)
+    event.add("curios:hands",id)
+  }
+
+  AetherGlovesTags("kubejs:test_gloves")
+  
   event.add("minecraft:tools/pickaxe","#forge:tools/pickaxes")
   event.add("minecraft:tools/axe","#forge:tools/axes")
   event.add("minecraft:tools/shovel","#forge:tools/shovels")
@@ -261,6 +270,7 @@ ServerEvents.tags('item', event => {
   tooltier('enigmaticlegacy:etherium','etherium')
   tooltier('twilightforest:ironwood','ironwood')
   tooltier('twilightforest:steeleaf','steeleaf')
+  tooltier('twilightforest:fiery','fiery')
   tooltier('twilightforest:knightmetal','knightmetal')
   tooltier('wizards_reborn:arcane_wood','arcane_wood')
  
@@ -269,11 +279,15 @@ ServerEvents.tags('item', event => {
   tool('kubejs:lead')
   tool('enigmaticlegacy:etherium')
 
-  event.add('forge:tools/steel', "immersiveengineering:hoe_steel")  
-	event.add('forge:tools/steel', "immersiveengineering:pickaxe_steel")  
-	event.add('forge:tools/steel', "immersiveengineering:axe_steel")  
-	event.add('forge:tools/steel', "immersiveengineering:shovel_steel")  
-	event.add('forge:tools/steel', "immersiveengineering:sword_steel")  
+  global.toolTypesWithSword.forEach(type => {
+    event.add('forge:tools/steel', `immersiveengineering:${type}_steel`)  
+  });
+  
+  const missingFieryTools = ["axe","shovel","hoe"]
+
+  missingFieryTools.forEach(type => {
+    event.add('forge:tools/fiery',`kubejs:fiery_${type}`)
+  });
 
   event.add("forge:storage_blocks/cobblestone","quark:sturdy_stone")
 
