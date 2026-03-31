@@ -1,0 +1,20 @@
+{
+  "type": "twilightforest:fiery_pick_smelting",
+  "conditions": [
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "items": [
+          "twilightforest:fiery_pickaxe",
+          "kubejs:fiery_shovel",
+          "kubejs:fiery_axe",
+          "kubejs:fiery_hoe",
+          "kubejs:phoenix_axe",
+          "kubejs:phoenix_pickaxe",
+          "kubejs:phoenix_hoe",
+          "kubejs:phoenix_shovel"
+        ]
+      }
+    }
+  ]
+}

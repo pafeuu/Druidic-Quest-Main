@@ -464,7 +464,7 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("aether:pig_slayer",Text.blue("Deals extra damage to pigs and piglike creatures!"))
   tooltip.add("deep_aether:afterburner",Text.blue("Hold right click to shoot a barrage of fireballs!"))
 
-  tooltip.add("#druidic_quest:dimensional_tools",[Text.darkPurple("Tool made from materials outside of the main realm!"),Text.blue("Combine it with extradimensional eye"),Text.blue("in the crafting grid to apply telekinesis enchant!")])
+  //tooltip.add("#druidic_quest:dimensional_tools",[Text.darkPurple("Tool made from materials outside of the main realm!"),Text.blue("Combine it with extradimensional eye"),Text.blue("in the crafting grid to apply telekinesis enchant!")])
   
   tooltip.add("twilightforest:transformation_powder",[Text.blue("Can be used by a Dispenser")])
   tooltip.addAdvanced([
@@ -513,6 +513,26 @@ ItemEvents.tooltip( tooltip => {
     text.add(1, Text.of("Unbreakable").blue())
     })
   
+  
+  tooltip.addAdvanced([
+    "kubejs:fiery_axe",
+    "kubejs:fiery_shovel",
+    "kubejs:fiery_hoe",
+    "kubejs:phoenix_axe",
+    "kubejs:phoenix_pickaxe",
+    "kubejs:phoenix_shovel",
+    "kubejs:phoenix_hoe"
+  ],
+  (item,advanced,text)=>{
+    text.add(1,Text.of("Auto-smelting").gray())
+  })
+
+  tooltip.addAdvanced([
+    "kubejs:phoenix_sword"
+  ],
+  (item,advanced,text)=>{
+    text.add(1,Text.of("Burns targets").gray())
+  })
   
   tooltip.addAdvanced('kubejs:warp_scroll', (item, advanced, text) => {
     
