@@ -14,7 +14,7 @@ StartupEvents.registry('item', item => {
     item.create('wooden_staff','sword').tier('wood').tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon").maxDamage(128)
     item.create('flint_spear','sword').tier('wood').tag("forge:tools/flint").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon").maxDamage(128)
     item.create('stone_claymore','sword').tier('stone').tag('minecraft:swords').tag("forge:tools/stone").tag('minecraft:tools').speedBaseline(-2.8).tag("dq:tier0/weapon").attackDamageBaseline(7).maxDamage(128)
-    item.create('iron_scythe','sword').tier('iron').tag("forge:tools/iron").tag("minecraft:tools").tag("dq:tier1/weapon").speedBaseline(-2.8).attackDamageBaseline(7).maxDamage(512)
+    item.create('iron_scythe','hoe').tier('iron').tag("forge:tools/iron").tag("minecraft:tools").tag("dq:tier1/weapon").speedBaseline(-2.8).attackDamageBaseline(7).maxDamage(512)
     item.create('copper_trident','sword').tier('copper').tag("forge:tools/copper").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier1/weapon")
     item.create('lead_waraxe','axe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool").speedBaseline(-3.2).tag("dq:tier1/weapon").attackDamageBaseline(10).tag("forge:tools/lead")
     item.create("silver_knife","farmersdelight:knife").tier('silver').tag("minecraft:tools").tag("forge:tools/knives").tag("dq:tier1/tool").tag("forge:tools/silver")
