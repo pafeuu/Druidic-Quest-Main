@@ -65,9 +65,9 @@ StartupEvents.registry('item', item => {
   registerTool("lumber_axe","axe","lumber",0)
   registerTool("knightmetal_shovel","shovel","knightmetal",2)
   registerTool("knightmetal_hoe","hoe","knightmetal",2)
-  registerTool("fiery_shovel","shovel",2)
-  registerTool("fiery_axe","axe",2)
-  registerTool("fiery_hoe","hoe",2)
+  registerTool("fiery_shovel","shovel","fiery",2)
+  registerTool("fiery_axe","axe","fiery",2)
+  registerTool("fiery_hoe","hoe","fiery",2)
   /*function registerToolsetWithoutSword(material,tier)
   {
 
