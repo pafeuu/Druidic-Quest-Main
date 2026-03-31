@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
   
 	const tooltype = ['hoe','sword','pickaxe','axe','shovel'];
 
-	let DimenstionalTools = ['twilightforest:ironwood_hoe','twilightforest:ironwood_sword','twilightforest:ironwood_pickaxe','twilightforest:ironwood_axe','twilightforest:ironwood_shovel',
+	/*let DimenstionalTools = ['twilightforest:ironwood_hoe','twilightforest:ironwood_sword','twilightforest:ironwood_pickaxe','twilightforest:ironwood_axe','twilightforest:ironwood_shovel',
 	'twilightforest:steeleaf_hoe','twilightforest:steeleaf_sword','twilightforest:steeleaf_pickaxe','twilightforest:steeleaf_axe','twilightforest:steeleaf_shovel','aether:zanite_hoe',
 	'aether:zanite_sword','aether:zanite_pickaxe','aether:zanite_axe','aether:zanite_shovel','aether:gravitite_hoe','aether:gravitite_sword','aether:gravitite_pickaxe','aether:gravitite_axe',
 	'deep_aether:skyjade_hoe','deep_aether:skyjade_sword','deep_aether:skyjade_pickaxe','deep_aether:skyjade_axe','deep_aether:skyjade_shovel','minecraft:netherite_hoe','minecraft:netherite_sword',
@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
           }
           return _tool;
         })
-    })
+    })*/
 	
 	event.remove({output:'#minecraft:axes'})
 	event.remove({output:'#minecraft:pickaxes'})
@@ -1431,26 +1431,13 @@ ServerEvents.recipes(event => {
 
 	event.shaped("aether:iron_gloves",
 		[
-		  'III',
+		  ' I ',
 		  'IMI', 
-		  'III' 
+		  ' I ' 
 		],
 		{
 		  I: '#forge:plates/iron',
 		  M: 'aether:chainmail_gloves'
-  
-		}
-	  )
-
-	event.shaped("umbral_skies:knightmetal_gloves",
-		[
-		  'III',
-		  'IMI', 
-		  'III' 
-		],
-		{
-		  I: '#forge:ingots/knightmetal',
-		  M: 'aether:iron_gloves'
   
 		}
 	  )
@@ -1710,9 +1697,8 @@ ServerEvents.recipes(event => {
 
 	event.smithing("farmersdelight:golden_knife",'kubejs:gold_upgrade_smithing_template','kubejs:silver_knife','kubejs:gold_upgrade_parts').id("farmersdelight:golden_knife")
 
-	event.remove({output:'immersiveengineering:glider'})
 	event.shaped(
-		Item.of('immersiveengineering:glider'), 
+		Item.of("minecraft:elytra"), 
 		[
 		  ' L ',
 		  'LXL', 
@@ -1720,11 +1706,10 @@ ServerEvents.recipes(event => {
 		],
 		{
 			L: 'immersiveengineering:hemp_fabric',
-			X: 'leather_chestplate',
-			C: 'ars_nouveau:air_essence'
+			X: "immersiveengineering:glider",
+			C: "ender_pearl"
 		}
 	  )
-	event.shapeless('immersiveengineering:glider',['immersiveengineering:glider','ars_nouveau:air_essence'])
 
 	event.remove({id:"ars_nouveau:warp_scroll"})
 	event.custom({
@@ -1763,7 +1748,7 @@ ServerEvents.recipes(event => {
 			"GGG"
 		],
 		{
-			G: "aether:enchanted_gravitite",
+			G: "kubejs:gravitite_sheet",
 			X: ["rehooked:iron_hook","rehooked:diamond_hook","rehooked:blaze_hook"]
 		}
 	).id("rehooked:red_hook")
