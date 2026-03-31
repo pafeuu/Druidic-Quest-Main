@@ -352,14 +352,9 @@ ItemEvents.tooltip( tooltip => {
       text.add(1, Text.gold("Right click a spawner in The Overworld to destroy it and obtain rare items and supplies!"))
     }
   })
-  
-  tooltip.addAdvanced("immersiveengineering:glider",(item, advanced, text) => {
-    text.add(1,Text.of("Weaker Elytra").red())
-  })
 
-  tooltip.addAdvanced("alexsmobs:tarantula_hawk_elytra",(item, advanced, text) => {
-    text.add(1,Text.of("Stronger Elytra").lightPurple())
-    text.add(2,Text.of("Accepts armor enchantments").gold())
+  tooltip.addAdvanced(["minecraft:elytra","immersiveengineering:glider"],(item, advanced,text)=>{
+    text.add(1, [Text.of("Cant use fireworks while wearing this").blue()])
   })
 
   tooltip.addAdvanced("supplementaries:bellows", (item, advanced, text) => {

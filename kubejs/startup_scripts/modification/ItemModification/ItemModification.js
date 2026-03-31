@@ -927,12 +927,11 @@ ItemEvents.modification(event => {
   })
 
   event.modify('minecraft:elytra', item=>{
-    item.maxDamage = 512
+    item.maxDamage = 1024
   })
 
   event.modify('alexsmobs:tarantula_hawk_elytra', item=>{
-    item.maxDamage = 1024,
-    item.armorProtection = 8
+    item.maxDamage = 2048
   })
 
 

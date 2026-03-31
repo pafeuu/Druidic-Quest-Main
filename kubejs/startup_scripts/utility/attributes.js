@@ -98,25 +98,13 @@ ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event
 		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('f5e5ab33-28e7-4357-bdfd-a8ab69323d03'), 'Tool modifier', 1, 'addition'))
 	};
  
-	if (event.itemStack.id == "minecraft:elytra" && event.slotType == 'chest') {
-			
-		event.addModifier("minecraft:generic.armor", new $AttributeModifier(UUID.fromString('648932e8-3370-4256-80e4-50abb3ff15b3'), 'Armor modifier', 6, 'addition'))
-	};
-
-	if (event.itemStack.id == "immersiveengineering:glider" && event.slotType == 'chest') {
-			
-		event.addModifier("minecraft:generic.armor", new $AttributeModifier(UUID.fromString('9ee5f8a6-c2e6-4ca7-afa6-e3ae1192f615'), 'Armor modifier', 3, 'addition'))
-	};
 
 	if (event.itemStack.id == "quark:seed_pouch" && event.slotType == 'mainhand') {
 			
 		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('9796ee80-3d24-42f4-93cc-2cd067aa3017'), 'Tool Modifier', 3, 'addition'))
 	};
 
-	if (event.itemStack.id == "alexsmobs:tarantula_hawk_elytra" && event.slotType == 'chest') {
-			
-		event.addModifier("minecraft:generic.armor", new $AttributeModifier(UUID.fromString('2df18b64-ac1b-4bf5-93ca-8a4ed7ee346a'), 'Armor modifier', 2, 'addition'))
-	};
+	
 
 	
 })
