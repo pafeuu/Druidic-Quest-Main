@@ -25,7 +25,7 @@ MoreJSEvents.wandererTrades(event=>{
 	event.addTrade(1,"6x thermal:silver_coin",'supplementaries:antique_ink')
 	event.addTrade(1,"2x thermal:gold_coin","thermal:sapphire")
 	event.addTrade(1,"2x thermal:gold_coin","thermal:ruby")
-	event.addTrade(1,"6x thermal:silver_coin",'ars_nouveau:warp_scroll')
+	event.addTrade(1,"6x thermal:silver_coin",'kubejs:warp_scroll')
 	event.addTrade(1,"2x thermal:gold_coin","sniffer_egg")
 	event.addTrade(1,"thermal:silver_coin",'2x irons_spellbooks:blood_vial')
 
