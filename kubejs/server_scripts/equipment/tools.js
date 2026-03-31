@@ -656,6 +656,7 @@ ServerEvents.recipes(event => {
 	toolNoSword("wizards_reborn:arcane_wood","wizards_reborn:arcane_wood_planks","wizards_reborn:arcane_wood_branch","string")
 	tool("twilightforest:ironwood","#forge:ingots/ironwood","immersiveengineering:stick_treated","#forge:rope")
 	tool("kubejs:uranium","#forge:ingots/uranium","immersiveengineering:stick_treated","#forge:rope")
+	tool("aether:gravitite","#forge:ingots/gravitite","kubejs:heavenly_tool_handle","aether:swet_ball")
 
 	tooltype.forEach(type => {
 		event.remove({id:"twilightforest:equipment/ironwood_"+type})

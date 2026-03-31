@@ -79,6 +79,7 @@ StartupEvents.registry('item', item => {
   //item.create("fireite_rod").tag("forge:rods").tag("forge:rods/fireite").tag("dq:tier5/component")
   
   item.create("carbon_infused_sturdy_handle").displayName("Carbon Infused Sturdy Handle").tag("forge:rods").tag("dq:tier2/component")
+  item.create("heavenly_tool_handle").tag("forge:rods").tag("dq:tier3/component")
 
   ///===================================================INGOTS===========================================================
 
@@ -200,7 +201,7 @@ StartupEvents.registry('item', item => {
    ///===================================================MISC===========================================================
   
   item.create("raw_gravitite").tag("dq:tier3/component")
-  item.create("gravitite_ingot").tag("dq:tier3/component")
+  item.create("gravitite_ingot").tag("dq:tier3/component").tag("forge:ingots").tag("forge:ingots/gravitite")
   item.create("elemental_cloth").tag("dq:tier3/component")
   item.create("corrupted_soul").tag("dq:tier1/component")
   item.create("enchanted_soul").tag("dq:tier1/component")
