@@ -1,6 +1,12 @@
 ServerEvents.recipes(event=>{
     let removeById = [
         "farmersdelight:cooking/pineapple_pie",
+        "aether:gravitite_chestplate",
+        "aether:gravitite_leggings",
+        "aether:gravitite_boots",
+        "aether:gravitite_helmet",
+        "deep_aether:gravitite_ring",
+        "wizards_reborn:integration/farmers_delight/shaped/arcane_gold_knife",
         "minecraft:diamond_helmet",
         "minecraft:diamond_chestplate",
         "minecraft:diamond_leggings",
