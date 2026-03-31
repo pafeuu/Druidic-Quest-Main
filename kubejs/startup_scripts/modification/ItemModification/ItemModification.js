@@ -15,6 +15,7 @@ ItemEvents.modification(event => {
       })
     })
   }
+  
 
   
   let tooltype =['pickaxe','shovel','hoe','axe']
@@ -278,6 +279,10 @@ ItemEvents.modification(event => {
     item.maxDamage = 2137
   })
   
+  event.modify("enigmaticlegacy:etherium_scythe", item => {
+      item.maxDamage = -1
+    })
+
   tooltype.forEach((id) => {
     
     event.modify('minecraft:wooden_'+id, item => {
@@ -299,6 +304,11 @@ ItemEvents.modification(event => {
 
     event.modify('minecraft:stone_'+id, item => {
       item.maxDamage = 128
+    })
+
+    event.modify("enigmaticlegacy:etherium_"+id, item => {
+      item.maxDamage = -1
+      item.digSpeed = 12
     })
 
     event.modify('minecraft:iron_'+id, item=>{
