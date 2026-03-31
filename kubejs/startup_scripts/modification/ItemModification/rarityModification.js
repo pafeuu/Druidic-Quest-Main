@@ -1,0 +1,345 @@
+ItemEvents.modification(event=>{
+    
+    
+    const commonItems = []
+
+    const uncommonItems = [
+        'naturesaura:infused_iron_pickaxe',
+        'naturesaura:infused_iron_axe',
+        'naturesaura:infused_iron_shovel',
+        'naturesaura:infused_iron_hoe',
+        'naturesaura:infused_iron_sword',
+        'naturesaura:infused_iron_helmet',
+        'naturesaura:infused_iron_chest',
+        'naturesaura:infused_iron_pants',
+        'naturesaura:infused_iron_shoes',
+        'kubejs:botanist_upgrade_smithing_template',
+        'kubejs:fiery_upgrade_smithing_template',
+        'kubejs:fiery_hoe',
+        'kubejs:fiery_axe',
+        'kubejs:fiery_shovel',
+        'kubejs:fiery_magic_feather',
+        'kubejs:uranium_pickaxe',
+        'kubejs:uranium_axe',
+        'kubejs:uranium_shovel',
+        'kubejs:uranium_hoe',
+        'kubejs:uranium_sword',
+        'kubejs:uranium_helmet',
+        'kubejs:uranium_chestplate',
+        'kubejs:uranium_leggings',
+        'kubejs:uranium_boots',
+        'kubejs:uranium_pendant',
+        'kubejs:uranium_ring',
+        'farmersdelight:diamond_knife',
+        'minecraft:diamond_shovel',
+        'minecraft:diamond_pickaxe',
+        'minecraft:diamond_axe',
+        'minecraft:diamond_hoe',
+        'constructionwand:diamond_wand',
+        'minecraft:diamond_sword',
+        'aether:golden_gloves',
+        'minecraft:golden_boots',
+        'minecraft:golden_leggings',
+        'minecraft:golden_chestplate',
+        'minecraft:golden_helmet',
+        'minecraft:golden_sword',
+        'minecraft:golden_hoe',
+        'minecraft:golden_axe',
+        'minecraft:golden_pickaxe',
+        'minecraft:golden_shovel',
+        'kubejs:skyjade_pendant',
+        'kubejs:skyjade_ring',
+        'kubejs:skyjade_upgrade_smithing_template',
+        'deep_aether:skyjade_gloves',
+        'deep_aether:skyjade_gloves',
+        'deep_aether:skyjade_boots',
+        'deep_aether:skyjade_leggings',
+        'deep_aether:skyjade_chestplate',
+        'deep_aether:skyjade_helmet',
+        'deep_aether:skyjade_hoe',
+        'deep_aether:skyjade_axe',
+        'deep_aether:skyjade_pickaxe',
+        'deep_aether:skyjade_shovel',
+        'deep_aether:skyjade_sword',
+        'kubejs:zanite_ring',
+        'kubejs:zanite_pendant',
+        'kubejs:zanite_upgrade_smithing_template',
+        'aether:zanite_gemstone',
+        'aether:zanite_sword',
+        'aether:zanite_shovel',
+        'aether:zanite_pickaxe',
+        'aether:zanite_axe',
+        'aether:zanite_hoe',
+        'aether:zanite_helmet',
+        'aether:zanite_chestplate',
+        'aether:zanite_leggings',
+        'aether:zanite_boots',
+        'aether:zanite_gloves',
+        'kubejs:knightmetal_ring',
+        'kubejs:knightmetal_pendant',
+        'kubejs:knightmetal_upgrade_smithing_template',
+        'kubejs:knightmetal_hoe',
+        'kubejs:knightmetal_shovel',
+        'kubejs:knightmetal_nugget',
+        'umbral_skies:knightmetal_gloves',
+        'twilightforest:knightmetal_shield',
+        'twilightforest:knightmetal_axe',
+        'twilightforest:knightmetal_pickaxe',
+        'twilightforest:knightmetal_sword',
+        'twilightforest:knightmetal_boots',
+        'twilightforest:knightmetal_leggings',
+        'twilightforest:knightmetal_helmet',
+        'twilightforest:knightmetal_chestplate',
+        'irons_spellbooks:wizard_helmet',
+        'irons_spellbooks:wizard_hat',
+        'irons_spellbooks:wizard_chestplate',
+        'irons_spellbooks:wizard_leggings',
+        'irons_spellbooks:wizard_boots'
+    ]
+
+    const rareItems = [
+        'kubejs:steel_gloves',
+        'kubejs:steel_knife',
+        'kubejs:steel_shears',
+        'immersiveengineering:pickaxe_steel',
+        'immersiveengineering:shovel_steel',
+        'immersiveengineering:axe_steel',
+        'immersiveengineering:hoe_steel',
+        'immersiveengineering:sword_steel',
+        'immersiveengineering:armor_steel_helmet',
+        'immersiveengineering:armor_steel_chestplate',
+        'immersiveengineering:armor_steel_leggings',
+        'immersiveengineering:armor_steel_boots',
+        'minecraft:netherite_shovel',
+        'minecraft:netherite_pickaxe',
+        'minecraft:netherite_axe',
+        'minecraft:netherite_hoe',
+        'minecraft:netherite_sword',
+        'minecraft:netherite_helmet',
+        'minecraft:netherite_chestplate',
+        'minecraft:netherite_boots',
+        'wizards_reborn:arcane_gold_hoe',
+        'kubejs:arcane_gold_gloves',
+        'kubejs:arcane_gold_upgrade_smithing_template',
+        'wizards_reborn:arcane_gold_shovel',
+        'wizards_reborn:arcane_gold_axe',
+        'wizards_reborn:arcane_gold_pickaxe',
+        'wizards_reborn:arcane_gold_sword',
+        'wizards_reborn:arcane_gold_knife',
+        'wizards_reborn:arcane_gold_chestplate',
+        'aether:obsidian_chestplate',
+        'aether:obsidian_helmet',
+        'aether:obsidian_gloves',
+        'aether:obsidian_boots',
+        'aether:obsidian_leggings',
+        'kubejs:obsidian_upgrade_smithing_template',
+        'wizards_reborn:arcane_gold_helmet',
+        'wizards_reborn:arcane_gold_boots',
+        'wizards_reborn:arcane_gold_leggings',
+        'kubejs:obsidian_sword',
+        'kubejs:obsidian_hoe',
+        'kubejs:obsidian_shovel',
+        'kubejs:obsidian_axe',
+        'kubejs:obsidian_pickaxe',
+        'aether:netherite_gloves',
+        'farmersdelight:netherite_knife',
+        'minecraft:netherite_leggings',
+        'minecraft:netherite_boots',
+        'kubejs:phoenix_sword',
+        'aether:phoenix_bow',
+        'aether:phoenix_helmet',
+        'aether:phoenix_chestplate',
+        'aether:phoenix_leggings',
+        'aether:phoenix_boots',
+        'aether:phoenix_gloves',
+        'kubejs:phoenix_pickaxe',
+        'kubejs:phoenix_axe',
+        'kubejs:phoenix_shovel',
+        'kubejs:phoenix_hoe',
+        'kubejs:phoenix_upgrade_smithing_template',
+        'irons_spellbooks:pyromancer_helmet',
+        'irons_spellbooks:pyromancer_chestplate',
+        'irons_spellbooks:pyromancer_leggings',
+        'irons_spellbooks:pyromancer_boots',
+        'irons_spellbooks:electromancer_helmet',
+        'irons_spellbooks:electromancer_chestplate',
+        'irons_spellbooks:electromancer_leggings',
+        'irons_spellbooks:electromancer_boots',
+        'irons_spellbooks:archevoker_helmet',
+        'irons_spellbooks:archevoker_chestplate',
+        'irons_spellbooks:archevoker_leggings',
+        'irons_spellbooks:archevoker_boots',
+        'irons_spellbooks:cultist_helmet',
+        'irons_spellbooks:cultist_chestplate',
+        'irons_spellbooks:cultist_leggings',
+        'irons_spellbooks:cultist_boots',
+        'irons_spellbooks:cryomancer_helmet',
+        'irons_spellbooks:cryomancer_chestplate',
+        'irons_spellbooks:cryomancer_leggings',
+        'irons_spellbooks:cryomancer_boots',
+        'irons_spellbooks:shadowwalker_helmet',
+        'irons_spellbooks:shadowwalker_chestplate',
+        'irons_spellbooks:shadowwalker_leggings',
+        'irons_spellbooks:shadowwalker_boots',
+        'irons_spellbooks:priest_helmet',
+        'irons_spellbooks:priest_chestplate',
+        'irons_spellbooks:priest_leggings',
+        'irons_spellbooks:priest_boots',
+        'irons_spellbooks:plagued_helmet',
+        'irons_spellbooks:plagued_chestplate',
+        'irons_spellbooks:plagued_leggings',
+        'irons_spellbooks:plagued_boots',
+        'kubejs:gravitite_pendant',
+        'deep_aether:gravitite_ring',
+        'aether:gravitite_sword',
+        'aether:gravitite_shovel',
+        'aether:gravitite_pickaxe',
+        'aether:gravitite_axe',
+        'aether:gravitite_hoe',
+        'aether:gravitite_helmet',
+        'aether:gravitite_chestplate',
+        'rehooked:red_hook',
+        'aether:gravitite_leggings',
+        'aether:gravitite_boots',
+        'aether:gravitite_gloves'
+    ]
+    
+    const epicItems = [
+        'deep_aether:storm_sword',
+        'deep_aether:storm_bow',
+        'deep_aether:stormforged_helmet',
+        'deep_aether:stormforged_chestplate',
+        'deep_aether:stormforged_leggings',
+        'deep_aether:stormforged_boots',
+        'deep_aether:stormforged_gloves',
+        'kubejs:stormforged_pickaxe',
+        'kubejs:stormforged_axe',
+        'kubejs:stormforged_shovel',
+        'kubejs:stormforged_hoe',
+        'naturesaura:depth_shoes',
+        'naturesaura:depth_pants',
+        'naturesaura:depth_pickaxe',
+        'naturesaura:depth_axe',
+        'naturesaura:depth_shovel',
+        'naturesaura:depth_hoe',
+        'naturesaura:depth_sword',
+        'naturesaura:depth_helmet',
+        'naturesaura:depth_chest',
+        'kubejs:depth_upgrade_smithing_template',
+        'kubejs:depth_gloves',
+        'wizards_reborn:arcane_fortress_helmet',
+        'wizards_reborn:arcane_fortress_chestplate',
+        'wizards_reborn:arcane_fortress_leggings',
+        'wizards_reborn:arcane_fortress_boots',
+        'kubejs:arcane_fortress_upgrade_smithing_template',
+        'naturesaura:sky_pickaxe', 
+        'naturesaura:sky_axe',
+        'naturesaura:sky_shovel',
+        'naturesaura:sky_hoe',
+        'naturesaura:sky_sword',
+        'naturesaura:sky_helmet',
+        'naturesaura:sky_chest',
+        'naturesaura:sky_pants',
+        'naturesaura:sky_shoes',
+        'kubejs:skyseeker_upgrade_smithing_template',
+        'deep_aether:stratus_sword',
+        'deep_aether:stratus_shovel',
+        'deep_aether:stratus_pickaxe',
+        'deep_aether:stratus_axe',
+        'deep_aether:stratus_hoe',
+        'deep_aether:stratus_helmet',
+        'deep_aether:stratus_chestplate',
+        'deep_aether:stratus_leggings',
+        'deep_aether:stratus_boots',
+        'deep_aether:stratus_gloves',
+        'deep_aether:stratus_ring'
+    ]
+
+    const legendaryItems = [
+        'kubejs:valkyrum_upgrade_smithing_template',
+        'kubejs:etherium_upgrade_smithing_template',
+        'thermal:hazmat_helmet',
+        'thermal:hazmat_chestplate',
+        'enigmaticlegacy:etherium_pickaxe',
+        'enigmaticlegacy:etherium_axe',
+        'enigmaticlegacy:etherium_shovel',
+        'enigmaticlegacy:etherium_sword',
+        'enigmaticlegacy:etherium_scythe',
+        'ancient_aether:valkyrum_chestplate',
+        'ancient_aether:valkyrum_leggings',
+        'ancient_aether:valkyrum_boots',
+        'ancient_aether:valkyrum_gloves',
+        'ancient_aether:valkyrum_helmet',
+        'ancient_aether:valkyrum_hoe',
+        'ancient_aether:valkyrum_axe',
+        'ancient_aether:valkyrum_pickaxe',
+        'ancient_aether:valkyrum_shovel',
+        'ancient_aether:valkyrum_lance',
+        'ancient_aether:valkyrum_sword',
+        'ancient_aether:valkyrum_pendant',
+        'ancient_aether:valkyrum_ring',
+        'kubejs:valkyrum_upgrade_smithing_template',
+        'enigmaticlegacy:etherium_helmet',
+        'enigmaticlegacy:etherium_chestplate',
+        'enigmaticlegacy:etherium_leggings',
+        'kubejs:etherium_gloves',
+        'ars_nouveau:battlemage_leggings',
+        'ars_nouveau:battlemage_boots',
+        'ars_nouveau:battlemage_hood',
+        'ars_nouveau:battlemage_robes',
+        'thermal:hazmat_leggings',
+        'thermal:hazmat_boots',
+        'enigmaticlegacy:etherium_boots',
+        'enigmaticlegacy:astral_breaker'
+    ]
+
+    commonItems.forEach(id => {
+        
+        event.modify(id, item=>{
+            item.rarity = "common"
+        })
+
+    });
+
+    uncommonItems.forEach(id => {
+        
+        event.modify(id, item=>{
+            item.rarity = "uncommon"
+        })
+
+    });
+
+    rareItems.forEach(id => {
+        
+        event.modify(id, item=>{
+            item.rarity = "rare"
+        })
+
+    });
+
+    epicItems.forEach(id => {
+        
+        event.modify(id, item=>{
+            item.rarity = "epic"
+        })
+
+    });
+
+    legendaryItems.forEach(id => {
+        
+        event.modify(id, item=>{
+            item.rarity = "legendary"
+        })
+
+    });
+    
+        
+    
+
+
+    
+
+    
+
+
+})
