@@ -204,7 +204,6 @@ ServerEvents.recipes(event=>{
     pylonTag("deep_aether:squash_seeds","forge:seeds/pumpkin",10)
     pylonTag("aether:music_disc_aether_tune","aether:accepted_music_discs",10)
     pylonTag("aether:healing_stone","aether:holystone",10)
-    pylonItem("aether:enchanted_gravitite","aether:gravitite_ore",20)
     pylonItem("ancient_aether:violet_aercloud","aether:blue_aercloud",20)
     pylonItem("deep_aether:enchanted_antidote","deep_aether:antidote",10)
     pylonItem("aether:golden_aercloud","aether:cold_aercloud",10)

@@ -36,8 +36,12 @@ ServerEvents.recipes(event=>{
         .inputItems(ingredients[0])
         .outputItems(output)
         .dimension("minecraft:the_nether")
-        
-
     })
+
+    smelting()
+        .duration(200)
+        .inputItems("kubejs:raw_gravitite")
+        .outputItems("kubejs:gravitite_ingot")
+        .dimension("minecraft:the_nether")
     
 })
