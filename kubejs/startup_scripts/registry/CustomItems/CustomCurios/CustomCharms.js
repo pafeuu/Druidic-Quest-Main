@@ -10,6 +10,10 @@ StartupEvents.registry('item', item => {
         .tag("dq:tier"+tier+"/accessories")
         .unstackable()
         .glow(glowing)
+        .attachCuriosCapability(CuriosJSCapabilityBuilder
+                .create()
+                .canEquip(() => true)
+            )
     }
 
     charm("warrior_charm",3)
@@ -18,4 +22,5 @@ StartupEvents.registry('item', item => {
     charm("nutrition_charm",2)
     charm('the_ice_cube',0)
     charm('enchanted_watch',3,true)
+    
 })
