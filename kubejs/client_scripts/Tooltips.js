@@ -135,7 +135,9 @@ ItemEvents.tooltip( tooltip => {
     "immersiveengineering:ore_aluminum",
     'kubejs:ultimate_alchemical_dust',
     'naturesaura:calling_spirit',
-    'naturesaura:rf_converter'], (item, advanced, text) => {
+    'naturesaura:rf_converter',
+    'apotheosis:library',
+    'apotheosis:ender_library'], (item, advanced, text) => {
     text.add(1, Text.of('Not yet properly implemented').red()) 
   })
 
