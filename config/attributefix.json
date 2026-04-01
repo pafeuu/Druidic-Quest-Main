@@ -176,6 +176,17 @@
         "value": 1024
       }
     },
+    "irons_spellbooks:casting_movespeed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "alembic:true_damage.resistance": {
       "enabled": false,
       "min": {

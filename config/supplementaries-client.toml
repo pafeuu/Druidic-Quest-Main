@@ -158,7 +158,7 @@
 	#Disable incompatible mods warning screen
 	no_incompatible_mods_screen = false
 	#I am very boring
-	unfunny = false
+	unfunny = true
 
 #Game tweaks
 [tweaks]
