@@ -1,4 +1,4 @@
-LootJS.modifiers(event=>{
+/*LootJS.modifiers(event=>{
 
     const randomlyEnchantedToolMaterials = [
         "minecraft:diamond",
@@ -37,4 +37,4 @@ LootJS.modifiers(event=>{
     
     
 
-})
+})*/
