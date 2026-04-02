@@ -47,6 +47,11 @@ ServerEvents.recipes(event => {
     SmithingTemplate("kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_ingot","astrological:triphylite")
     SmithingTemplate("kubejs:etherium_upgrade_smithing_template","deep_aether:squall_plate","astrological:light_jade")
     SmithingTemplate("deep_aether:stratus_smithing_template","kubejs:gravitite_ingot","aether:holystone")
+
+	SmithingTemplate("ancient_aether:whale_armor_trim_smithing_template","aether:ambrosium_shard","aether:holystone")
+	SmithingTemplate("ancient_aether:mechanical_armor_trim_smithing_template","aether:ambrosium_shard","aether:holystone")
+	SmithingTemplate("ancient_aether:ascended_armor_trim_smithing_template","aether:ambrosium_shard","aether:holystone")
+	SmithingTemplate("ancient_aether:mysterious_armor_trim_smithing_template","aether:ambrosium_shard","aether:holystone")
 	
 
 	event.smithing('immersiveengineering:armor_steel_helmet',"kubejs:steel_upgrade_smithing_template","naturesaura:infused_iron_helmet","kubejs:steel_upgrade_parts").id("immersiveengineering:crafting/armor_steel_helmet")

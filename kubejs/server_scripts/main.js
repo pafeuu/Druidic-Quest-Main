@@ -4559,6 +4559,18 @@ ServerEvents.recipes(event => {
 	  ).id("create:crafting/kinetics/empty_blaze_burner")
 	//===================================================== Tier 4 Machines
 	
+	event.shaped("immersiveengineering:redstone_breaker",
+		[
+			"CRC",
+			"SSS"
+		],
+		{
+			S: "#forge:plates/iron",
+			C: "immersiveengineering:connector_lv",
+			R: "minecraft:repeater"
+		}
+	).id("immersiveengineering:crafting/redstone_breaker")
+	
 	event.shaped("starbunclemania:source_condenser",
 		[
 			"PRP",

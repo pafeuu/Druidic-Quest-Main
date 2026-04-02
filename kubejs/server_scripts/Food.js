@@ -30,6 +30,8 @@ ServerEvents.recipes(e => {
         cooking([pod,pod,"ars_nouveau:magebloom","ars_nouveau:magebloom","minecraft:honey_bottle","minecraft:honey_bottle"],`arsdelight:${fruit}_hornbeer`,10,200,"arsdelight:chimera_horn")
     });
     
+    e.shaped("aether:candy_cane",["C","C"],{C:"supplementaries:candy"})
+    
     cooking(["#ars_nouveau:shady_wizard_fruits","#ars_nouveau:shady_wizard_fruits","ars_nouveau:sourceberry_bush","ars_nouveau:sourceberry_bush"],"arsdelight:arch_soup",2,200,"bowl")
     
     cooking(["ars_nouveau:sourceberry_bush","ars_nouveau:sourceberry_bush","ars_nouveau:magebloom","ars_nouveau:magebloom","minecraft:honey_bottle","minecraft:honey_bottle"],`arsdelight:source_berry_hornbeer`,10,200,"arsdelight:chimera_horn").id("arsdelight:cooking/source_berry_hornbeer")

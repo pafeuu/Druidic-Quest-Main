@@ -618,6 +618,18 @@ ServerEvents.recipes(event => {
 	)
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	event.shaped("aether:candy_cane_sword",
+		[
+			" C ",
+			" C ",
+			"SC "
+		],
+		{
+			C: "aether:candy_cane",
+			S: "string"
+		}
+	)
+
 	event.shaped("rehooked:wood_hook",
 		[
 			"SSP",
