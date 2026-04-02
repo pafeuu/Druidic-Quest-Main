@@ -221,18 +221,18 @@ ServerEvents.recipes(event=>{
         "enigmaticlegacy:mending_mixture"
     ],5000)
 
-    Enchanting("majruszsenchantments:harvester",1,[
+    Enchanting("apotheosis:natures_blessing",1,[
         "kubejs:enchanting_rune_of_nature",
         "thermal:compost"
     ],1000)
 
-    Enchanting("majruszsenchantments:harvester",2,[
+    Enchanting("apotheosis:natures_blessing",2,[
         "kubejs:enchanting_rune_of_nature",
         "thermal:compost",
         "thermal:compost"
     ],1000)
 
-    Enchanting("majruszsenchantments:harvester",3,[
+    Enchanting("apotheosis:natures_blessing",3,[
         "kubejs:enchanting_rune_of_nature",
         "thermal:compost",
         "thermal:compost",
@@ -243,11 +243,6 @@ ServerEvents.recipes(event=>{
         "kubejs:large_enchanting_rune_of_infinity",
         "minecraft:totem_of_undying"
     ],1000)
-
-    Enchanting("majruszsenchantments:gold_fuelled",1,[
-        "kubejs:large_enchanting_rune_of_infinity",
-        "minecraft:enchanted_golden_apple"
-    ],10000)
 
     Enchanting("minecraft:mending",1,[
         "kubejs:large_enchanting_rune_of_infinity",
@@ -1592,6 +1587,12 @@ ServerEvents.recipes(event=>{
         "twilightforest:naga_scale"
     ],10000)
 
+    event.recipes.ars_nouveau.enchantment(
+        Item.of('minecraft:enchanted_book').enchant('minecraft:unbreaking', 10),
+        "g_abun:absolutelyunbreakable",
+        1,
+        10000)
+   
     
     
 })

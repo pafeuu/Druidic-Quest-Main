@@ -53,10 +53,10 @@
       "shield_cooldown_ratio": 1.5
     },
     "gold_fuelled": {
-      "is_enabled": true
+      "is_enabled": false
     },
     "harvester": {
-      "is_enabled": true
+      "is_enabled": false
     },
     "horse_frost_walker": {
       "is_enabled": true
