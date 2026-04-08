@@ -29,7 +29,7 @@
   },
   "items": {
     "fishItemSizes": "NEVER",
-    "bucketableFishItems": "WHEN_LIVING",
+    "bucketableFishItems": "ALWAYS",
     "fishItemLifespan": 180,
     "enableBedrockBreakingItems": true,
     "pocketWatchBlacklist": []
