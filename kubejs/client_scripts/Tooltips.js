@@ -577,5 +577,16 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("#dq:generators/aura",Text.green("Aura Generator"))
   tooltip.add("#dq:generators/source",Text.darkPurple("Source Generator"))
   tooltip.add("#dq:generators/stress",Text.yellow("Stress Generator"))
+
+  //==========================Natures Aura===========================
+
+  tooltip.addAdvanced("naturesaura:grated_chute", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.blue('Apply filters by placing an item frame on the side.'))
+      text.add(1, Text.blue('Right click the hopper to reverse the filter.'))
+    }
+  })
 })
 

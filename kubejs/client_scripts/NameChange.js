@@ -41,6 +41,7 @@ ClientEvents.lang("en_us", event => {
     event.renameBlock("thermal:fluid_duct_windowed","Windowed Bronze Fluid Pipe")
     event.renameItem("thermal:coal_coke","Coal Coke")
     event.renameBlock("thermal:coal_coke_block","Block of Coal Coke")
+    event.renameBlock("naturesaura:grated_chute","Filtered Hopper")
 
 
     event.renameItem("naturesaura:gold_powder","Gold Leaf Powder")

@@ -4135,6 +4135,7 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Gravitite Sheet
 
 ### Removed Items:
+    -Starbattery
     -immersiveengineering:
         -Windmill
         -Water Wheel
@@ -4142,6 +4143,7 @@ Spells will only be disabled in new worlds or if you reset the server config
         -Kinetic Dynamo
         -Windmill Blade
         -Windmill Sail
+        -Nitrate Dust
         
 ### Updated Mods:
     -SophisticatedMods
@@ -4247,16 +4249,27 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Changed for Collapsible Glider
     -Added for Candy Cane
     -Added for Candy Cane Sword
+    -Changed for Redstone Breaker
     -Changed for decorative smithing templates:
         -Whale
         -Ascended
         -Mechanical
         -Mysterious
-
+    -Added for Blaze Instruction Manual
+    -Changed for Alchemy Boiler
+    -Changed for Alchemy Furnace
+    -Changed for Alchemy Machine
+    -Added new fertilzers into garden cloche:
+        -Create's tree fertilizer
+        -Thermal's phytogro
+        -Thermal's compost
+    -Added for Fishing Rod
+    -Changed for Filtered Hopper(Previously named Adept Hopper)
 
 ### Textures:
     -Reworked Iron Scythe Textures
     -Tweaked some tools to match their materials
+    -Reworked Filtered Hopper textures
     
 ### Worldgen:
     -Following Structures have been moved to aether and reworked:
@@ -4302,6 +4315,8 @@ Spells will only be disabled in new worlds or if you reset the server config
 
 ### Loot:
     -Buffed Warden loottable
+    -Enchantment types and levels were heavily nerfed
+    -Enchanted Books now appear in loottables
 
 ### Other:
     -Sorted emi tabs order

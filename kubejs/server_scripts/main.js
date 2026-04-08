@@ -26,6 +26,7 @@ ServerEvents.recipes(event => {
 	
 	event.replaceInput({mod:'ars_nouveau', not:[{type:"minecraft:stonecutting"},{id:"ars_nouveau:sourcestone_sconce"}]}, 'ars_nouveau:sourcestone','kubejs:source_alloy_ingot')
 	
+	event.replaceInput({id:"immersiveengineering:crafting/gunpowder_from_dusts"},"immersiveengineering:dust_saltpeter","bone_meal")
 	event.replaceInput({mod:'crafting_on_a_stick'}, 'minecraft:stick','kubejs:zinc_tool_handle')
 	event.shapeless("2x minecraft:rooted_dirt",["minecraft:dirt","minecraft:mangrove_roots"])
 	event.shapeless("minecraft:rooted_dirt",["minecraft:dirt","minecraft:hanging_roots"])
@@ -56,6 +57,8 @@ ServerEvents.recipes(event => {
 	})
 	 
 	/// ======================================================================= Tier 0 Machines ========================================================================
+	event.shapeless("create:rose_quartz_lamp",["minecraft:redstone_lamp","rose_bush","minecraft:quartz"]).id("create:crafting/kinetics/rose_quartz_lamp")
+	
 	event.shaped("wizards_reborn:arcane_workbench",
 		[
 			"RTR",
@@ -1109,6 +1112,65 @@ ServerEvents.recipes(event => {
 	)
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
+	
+	event.shaped("naturesaura:grated_chute",
+		[
+			"P P",
+			"PFP",
+			" P "
+		],
+		{
+			P: "wizards_reborn:arcane_wood_planks",
+			F: "create:filter"
+		}
+	).id("naturesaura:grated_chute")
+
+	event.shapeless("naturesaura:grated_chute",[
+		"wizards_reborn:arcane_wood_planks",
+		"woodenhopper:wooden_hopper",
+		"create:filter"])
+
+	event.shaped("wizards_reborn:alchemy_machine",
+		[
+			"BPB",
+			"BFB",
+			"BXB"
+		],
+		{
+			B: "#forge:nuggets/brass",
+			F: "wizards_reborn:orbital_fluid_retainer",
+			P: "wizards_reborn:steam_pipe",
+			X: "kubejs:primitive_machine"
+		}
+	).id("wizards_reborn:arcane_workbench/alchemy_machine")
+
+	event.shaped("wizards_reborn:alchemy_furnace",
+		[
+			"BSB",
+			"BXB",
+			"BFB"
+		],
+		{
+			B:"wizards_reborn:polished_wisestone",
+			S: "wizards_reborn:steam_pipe",
+			X: "minecraft:furnace",
+			F: "wizards_reborn:fluid_pipe"
+		}
+	).id("wizards_reborn:arcane_workbench/alchemy_furnace")
+
+	event.shaped("wizards_reborn:alchemy_boiler",
+		[
+			"NNN",
+			"BFB",
+			"BAB"
+		],
+		{
+			N: "#forge:nuggets/brass",
+			B: "wizards_reborn:polished_wisestone",
+			F: "wizards_reborn:orbital_fluid_retainer",
+			A: "wizards_reborn:wissen_altar"
+		}
+	).id("wizards_reborn:arcane_workbench/alchemy_boiler")
 	
 	event.shaped("2x create:nixie_tube",
 		[
@@ -4570,7 +4632,7 @@ ServerEvents.recipes(event => {
 			R: "minecraft:repeater"
 		}
 	).id("immersiveengineering:crafting/redstone_breaker")
-	
+
 	event.shaped("starbunclemania:source_condenser",
 		[
 			"PRP",
