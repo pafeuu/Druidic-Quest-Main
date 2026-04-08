@@ -51,6 +51,8 @@ ServerEvents.recipes(e=>{
     Pies("ars_nouveau:source_berry_pie","ars_nouveau:sourceberry_bush")
     Pies("fruitsdelight:mangosteen_cake","fruitsdelight:mangosteen")
     Pies("farmersdelight:sweet_berry_cheesecake","minecraft:sweet_berries")
+    Pies("fruitsdelight:fig_tart","fruitsdelight:fig")
+    Pies("fruitsdelight:lemon_tart","fruitsdelight:lemon")
 
     assembly("farmersdelight:shepherds_pie_block","farmersdelight:pie_crust",
         [
