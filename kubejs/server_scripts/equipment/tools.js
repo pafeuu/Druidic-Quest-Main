@@ -618,6 +618,17 @@ ServerEvents.recipes(event => {
 	)
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	event.shaped("fishing_rod",
+		[
+			"  W",
+			" WS",
+			"W S"
+		],
+		{
+			W: "#c:rods/wooden",
+			S: "string"
+		}
+	)
 	event.shaped("aether:candy_cane_sword",
 		[
 			" C ",
