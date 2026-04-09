@@ -1,4 +1,12 @@
 global.nukelist = [
+	'immersiveengineering:watermill',
+	'immersiveengineering:dust_saltpeter',
+	'immersiveengineering:thermoelectric_generator',
+	'immersiveengineering:dynamo',
+	'immersiveengineering:windmill',
+	'immersiveengineering:windmill_blade',
+	'immersiveengineering:windmill_sail',
+	'starbunclemania:star_battery',
 	'irons_spellbooks:raw_mithril',
 	'apotheosis:crystal_seashelf',
 	'apotheosis:infused_seashelf',
