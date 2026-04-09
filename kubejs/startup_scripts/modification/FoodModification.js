@@ -264,7 +264,9 @@ ItemEvents.modification(event=>{
         'arsdelight:bombegrante_pie',
         'arsdelight:frostaya_pie',
         'arsdelight:bastion_pie',
-        'arsdelight:mendosteen_pie']
+        'arsdelight:mendosteen_pie',
+        "fruitsdelight:fig_tart",
+        "fruitsdelight:lemon_tart"]
 
     Pie.forEach(id => {
         event.modify(id, item => {
