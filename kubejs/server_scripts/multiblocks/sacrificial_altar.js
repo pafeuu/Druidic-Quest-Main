@@ -82,7 +82,7 @@ ServerEvents.recipes(event=>{
   Sacrificing("thermal:blizz","naturesaura:token_grief","kubejs:blizz_totem",1)
   Sacrificing("thermal:basalz","naturesaura:token_terror","kubejs:basalz_totem",1)
 
-  
+  Sacrificing("minecraft:blaze","kubejs:magic_book","irons_spellbooks:blaze_spell_book",1)
 
   Sacrificing("minecraft:blaze","minecraft:dragon_egg","minecraft:blaze_spawn_egg",1)
 

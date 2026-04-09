@@ -1,8 +1,16 @@
 ServerEvents.recipes(event=>{
     let removeById = [
+        "deep_aether:squall_plate_from_smelting",
+        "immersiveengineering:refinery/biodiesel",
+        "immersiveengineering:fertilizer/saltpeter",
+        "farmersdelight:cooking/lemon_tart",
+        "farmersdelight:cooking/fig_tart",
         "farmersdelight:cooking/pineapple_pie",
         "aether:gravitite_chestplate",
         "aether:gravitite_leggings",
+        "irons_spellbooks:mithril_scrap_from_salvage",
+        "irons_spellbooks:mithril_scrap_from_ingot",
+        "irons_spellbooks:mithril_ingot_from_scrap",
         "aether:gravitite_boots",
         "aether:gravitite_helmet",
         "deep_aether:gravitite_ring",
