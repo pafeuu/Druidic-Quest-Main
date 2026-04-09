@@ -1,7 +1,7 @@
 ItemEvents.modification(event=>{
     
     
-    const commonItems = []
+    const commonItems = ["irons_spellbooks:lightning_rod","irons_spellbooks:ice_staff"]
 
     const uncommonItems = [
         'naturesaura:infused_iron_pickaxe',
@@ -94,10 +94,34 @@ ItemEvents.modification(event=>{
         'irons_spellbooks:wizard_hat',
         'irons_spellbooks:wizard_chestplate',
         'irons_spellbooks:wizard_leggings',
-        'irons_spellbooks:wizard_boots'
+        'irons_spellbooks:wizard_boots',
+        'twilightforest:ice_sword',
+        'farmersdelight:golden_knife',
+        'tide:blazing_swordfish',
+        'twilightforest:giant_sword',
+        'kubejs:glass_sword',
+        'aether:pig_slayer',
+        'twilightforest:gold_minotaur_axe',
+        'kubejs:uranium_mace',
+        'minecraft:trident',
+        'kubejs:blade_of_grass'
     ]
 
     const rareItems = [
+        "irons_spellbooks:spellbreaker",
+        'starbunclemania:star_sword',
+        'ars_nouveau:enchanters_sword',
+        'aether:holy_sword',
+        'aether:lightning_sword',
+        'irons_spellbooks:legionnaire_flamberge',
+        'irons_spellbooks:hellrazor',
+        'irons_spellbooks:amethyst_rapier',
+        'irons_spellbooks:pyrium_staff',
+        'kubejs:rainbow_magic_feather',
+        'aether:flaming_sword',
+        'ancient_aether:ancient_sword',
+        'arsdelight:enchanters_knife',
+        'aether:hammer_of_kingbdogz',
         'kubejs:steel_gloves',
         'kubejs:steel_knife',
         'kubejs:steel_shears',
@@ -205,6 +229,7 @@ ItemEvents.modification(event=>{
     ]
     
     const epicItems = [
+        "kubejs:cosmic_magic_feather",
         'deep_aether:storm_sword',
         'deep_aether:storm_bow',
         'deep_aether:stormforged_helmet',
