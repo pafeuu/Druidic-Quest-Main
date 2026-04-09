@@ -334,7 +334,7 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("leatherworker",4,"thermal:gold_coin","minecraft:bundle")
 	event.addTrade("leatherworker",4,"16x immersiveengineering:ersatz_leather","3x thermal:copper_coin")
 
-	event.addTrade("leatherworker",5,"thermal:netherite_coin","immersiveengineering:glider")
+	event.addTrade("leatherworker",5,"6x thermal:gold_coin","immersiveengineering:glider")
 	event.addTrade("leatherworker",5,"6x thermal:gold_coin","alexsmobs:shed_snake_skin")
 
 	//=============================================================Shady Wizard
