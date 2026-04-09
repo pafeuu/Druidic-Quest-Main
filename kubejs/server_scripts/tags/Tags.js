@@ -13,6 +13,8 @@ ServerEvents.tags('item', event => {
     event.add("curios:hands",id)
   }
 
+  event.add("forge:dusts/saltpeter","barrier")// This shit screams at me all the time so it that barrier up
+  
   AetherGlovesTags("kubejs:test_gloves")
   
   event.add("minecraft:tools/pickaxe","#forge:tools/pickaxes")
