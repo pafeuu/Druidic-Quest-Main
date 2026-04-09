@@ -133,7 +133,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "ars_nouveau:warp_scroll",
+          "name": "kubejs:warp_scroll",
           "functions": [
             {
               "function": "minecraft:set_count",
