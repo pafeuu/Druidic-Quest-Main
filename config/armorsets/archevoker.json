@@ -1,0 +1,56 @@
+{
+  "armorSetName": "archevoker",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "irons_spellbooks:archevoker_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "irons_spellbooks:archevoker_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "irons_spellbooks:archevoker_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "irons_spellbooks:archevoker_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "cofh_core:enderference",
+      "interactionDuration": 300,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "manaunification:max_mana",
+      "value": 0.5,
+      "modifierUUID": "2aaddc7f-6ba2-420e-916d-8abc217e7e59",
+      "description": "50% extra max mana",
+      "attributeOperation": 2
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "manaunification:max_mana",
+      "value": 0.5,
+      "modifierUUID": "827e4a02-d4bc-4cbb-9b65-a362ef8ce9ec",
+      "description": "50% extra max mana",
+      "attributeOperation": 2
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:ice_spell_power",
+      "value": 0.4,
+      "modifierUUID": "2e600ecd-7888-42e1-8be2-2ba415d59ec5",
+      "description": "40% extra fire spell power",
+      "attributeOperation": 2
+    }
+  ],
+  "hideGeneratedTooltip": false
+}
