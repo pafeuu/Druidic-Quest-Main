@@ -107,13 +107,6 @@ ServerEvents.recipes(event=>{
     ],ParticleEnd,
     SoundEffectDimension)
 
-    ExplosionCrafting(1,"emerald",[
-        {item: "diamond"}
-    ],ParticleEnd,
-    SoundEffectDimension)
-
-
-
     event.remove({id:"irons_spellbooks:lightning_bottle"})
     ExplosionCrafting(1,"irons_spellbooks:lightning_bottle",[
         {item: "quark:bottled_cloud"},
