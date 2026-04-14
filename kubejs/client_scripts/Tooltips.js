@@ -585,8 +585,13 @@ ItemEvents.tooltip( tooltip => {
       text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
     } else {
       text.add(1, Text.blue('Apply filters by placing an item frame on the side.'))
-      text.add(1, Text.blue('Right click the hopper to reverse the filter.'))
+      text.add(2, Text.blue('Right click the hopper to reverse the filter.'))
     }
   })
+
+  tooltip.addAdvanced("naturesaura:hopper_upgrade", (item, advanced, text) => {
+      text.add(1, Text.blue('Only works with Hoppers and Filtered Hoppers'))    
+  })
+  
 })
 

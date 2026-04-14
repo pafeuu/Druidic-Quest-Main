@@ -1113,6 +1113,21 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 	
+	event.shaped("quark:ender_watcher",
+		[
+			"DRD",
+			"RXR",
+			"DED"
+		],
+		{
+			D: "kubejs:sturdy_deepslate",
+			X: "minecraft:observer",
+			R: "minecraft:redstone",
+			E: "minecraft:ender_pearl"
+
+		}
+	).id("quark:automation/crafting/ender_watcher")
+	
 	event.shaped("naturesaura:grated_chute",
 		[
 			"P P",
@@ -3142,6 +3157,20 @@ ServerEvents.recipes(event => {
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
 
+	event.shaped("naturesaura:hopper_upgrade",
+		[
+			"DED",
+			"DXD",
+			"DND"
+		],
+		{
+			D: "kubejs:sturdy_deepslate",
+			E: "minecraft:ender_pearl",
+			N: "twilightforest:naga_scale",
+			X: "kubejs:magic_machine"
+		}
+	).id("naturesaura:hopper_upgrade")
+	
 	event.shaped("rubinated_nether:ruby_brazier",
 		[
 			"FRF",
