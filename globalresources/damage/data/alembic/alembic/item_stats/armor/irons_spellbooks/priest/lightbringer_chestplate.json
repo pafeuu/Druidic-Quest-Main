@@ -1,5 +1,5 @@
 {
-  "id": "irons_spellbooks:priest_chestplate",
+  "id": "irons_spellbooks:paladin_chestplate",
   "modifiers": [
     {
       "type": "append",
@@ -9,15 +9,11 @@
       "uuid": "b6ab1522-3fe6-4a1c-a6e4-3b32e97b9622"
     },
     {
-      "type": "remove",
-      "target": "minecraft:generic.armor"
-    },
-    {
       "type": "append",
-      "attribute": "minecraft:generic.armor",
-      "value": 7.5,
-      "operation": "ADDITION",
-      "uuid": "38b04fd0-4f83-408b-9297-b236e70de0c3"
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.05,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "0957ccee-a7db-4182-bcfd-9cdcca0d1ea8"
     }
   ],
   "equipment_slot": "CHEST"
