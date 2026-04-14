@@ -618,6 +618,18 @@ ServerEvents.recipes(event => {
 	)
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	event.shaped("kubejs:wooden_staff",
+		[
+			"  S",
+			"LS ",
+			"S  "
+		],
+		{
+			S: "#c:rods/wooden",
+			L: ["leather","string"]
+		}
+	)
+	
 	event.shaped("fishing_rod",
 		[
 			"  W",
