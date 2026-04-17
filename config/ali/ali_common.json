@@ -45,6 +45,9 @@
       "type": "GAMEPLAY",
       "icon": "minecraft:fishing_rod",
       "hide": false,
+      "catalyst": {
+        "item": "minecraft:fishing_rod"
+      },
       "pattern": [
         "^.*:gameplay/fishing.*$"
       ]
@@ -54,6 +57,17 @@
       "type": "GAMEPLAY",
       "icon": "minecraft:decorated_pot",
       "hide": false,
+      "catalyst": [
+        {
+          "item": "minecraft:brush"
+        },
+        {
+          "item": "minecraft:suspicious_sand"
+        },
+        {
+          "item": "minecraft:suspicious_gravel"
+        }
+      ],
       "pattern": [
         "^.*:archaeology/.*$"
       ]
@@ -65,6 +79,66 @@
       "hide": false,
       "pattern": [
         "^.*:gameplay/hero_of_the_village/.*$"
+      ]
+    },
+    {
+      "key": "ali:cat_morning_gift",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:phantom_membrane",
+      "hide": false,
+      "catalyst": {
+        "item": "minecraft:cat_spawn_egg"
+      },
+      "pattern": [
+        "^.*:gameplay/cat_morning_gift.*$"
+      ]
+    },
+    {
+      "key": "ali:piglin_bartering",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:gold_ingot",
+      "hide": false,
+      "catalyst": [
+        {
+          "item": "minecraft:piglin_spawn_egg"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        },
+        {
+          "item": "rubinated_nether:ruby"
+        }
+      ],
+      "pattern": [
+        "^.*:gameplay/piglin_bartering.*$"
+      ]
+    },
+    {
+      "key": "ali:sniffer_digging",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:sniffer_egg",
+      "hide": false,
+      "catalyst": {
+        "item": "minecraft:sniffer_spawn_egg"
+      },
+      "pattern": [
+        "^.*:gameplay/sniffer_digging.*$"
+      ]
+    },
+    {
+      "key": "ali:keys_loot",
+      "type": "GAMEPLAY",
+      "icon": "kubejs:overworld_key",
+      "hide": false,
+      "catalyst":[
+        {"item": "kubejs:overworld_key"},
+        {"item": "kubejs:twilight_key"},
+        {"item": "kubejs:nether_key"},
+        {"item": "kubejs:aether_key"},
+        {"item": "kubejs:end_key"}
+      ],
+      "pattern": [
+        "^kubejs:gameplay.*_key.*$"
       ]
     },
     {
@@ -82,11 +156,13 @@
       "key": "ali:trade_loot",
       "type": "TRADE",
       "icon": "minecraft:emerald_block",
-      "hide": true,
+      "hide": false,
       "pattern": [
         ".*"
       ]
     }
   ],
-  "logMoreStatistics": false
+  "disabledEntities": [],
+  "logMoreStatistics": false,
+  "showInGameNames": true
 }
