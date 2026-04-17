@@ -1,5 +1,40 @@
 ServerEvents.recipes(event=>{
 
+    function workbenchDummyRecipe(recipeID)
+    {
+        event.shapeless("kubejs:recipe_changed","kubejs:recipe_changed").id(recipeID)
+    }
+
+    workbenchDummyRecipe("apotheosis:beeshelf")
+    workbenchDummyRecipe("apotheosis:ender_lead")
+    workbenchDummyRecipe("apotheosis:hellshelf")
+    workbenchDummyRecipe("apotheosis:blazing_hellshelf")
+    workbenchDummyRecipe("apotheosis:glowing_hellshelf")
+    workbenchDummyRecipe("apotheosis:seashelf")
+    workbenchDummyRecipe("apotheosis:crystal_seashelf")
+    workbenchDummyRecipe("apotheosis:heart_seashelf")
+    workbenchDummyRecipe("apotheosis:pearl_endshelf")
+    workbenchDummyRecipe("apotheosis:draconic_endshelf")
+    workbenchDummyRecipe("apotheosis:melonshelf")
+    workbenchDummyRecipe("apotheosis:helmet_tome")
+    workbenchDummyRecipe("apotheosis:chestplate_tome")
+    workbenchDummyRecipe("apotheosis:leggings_tome")
+    workbenchDummyRecipe("apotheosis:boots_tome")
+    workbenchDummyRecipe("apotheosis:weapon_tome")
+    workbenchDummyRecipe("apotheosis:bow_tome")
+    workbenchDummyRecipe("apotheosis:pickaxe_tome")
+    workbenchDummyRecipe("apotheosis:fishing_tome")
+    workbenchDummyRecipe("apotheosis:other_tome")
+    workbenchDummyRecipe("apotheosis:scrap_tome")
+    workbenchDummyRecipe("apotheosis:prismatic_web")
+    
+    event.forEachRecipe({mod:"apotheosis"},r=>{
+
+        const ApotheosisRecipeID = r.getId()
+        //console.log("original recipe id:"+ApotheosisRecipeID)
+        //console.log("original recipe id:"+r.originalRecipe.getId())
+        event.shapeless("kubejs:recipe_changed","kubejs:recipe_changed").id(ApotheosisRecipeID)
+    })
     event.custom(
         {
             "type": "wizards_reborn:arcanum_dust_transmutation",
