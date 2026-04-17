@@ -725,21 +725,21 @@
     "curseForgeHash": 3527915803,
     "modrinthHash": "3a651dda978caf2c73504ee4d6c74ba1fb44a9df"
   },
-  "everycomp-1.20-2.9.17-forge.jar": {
-    "jarName": "everycomp-1.20-2.9.17-forge.jar",
+  "everycomp-1.20-2.9.20-forge.jar": {
+    "jarName": "everycomp-1.20-2.9.20-forge.jar",
     "modId": "everycomp",
     "name": "Every Compat",
-    "version": "1.20-2.9.17",
-    "curseForgeHash": 90477853,
-    "modrinthHash": "f916b0f9871722d56adea057111b70e4c0529866"
+    "version": "1.20-2.9.20",
+    "curseForgeHash": 3906375151,
+    "modrinthHash": "dc58614c625601b6251fa0e40fd7837d67d3f912"
   },
-  "ExplorersCompass-1.20.1-1.3.3-forge.jar": {
-    "jarName": "ExplorersCompass-1.20.1-1.3.3-forge.jar",
+  "ExplorersCompass-1.20.1-1.4.0-forge.jar": {
+    "jarName": "ExplorersCompass-1.20.1-1.4.0-forge.jar",
     "modId": "explorerscompass",
     "name": "Explorer\u0027s Compass",
-    "version": "1.20.1-1.3.3-forge",
-    "curseForgeHash": 2164055151,
-    "modrinthHash": "4c327f26a44ab8d80d73961ff12700d120c4610c"
+    "version": "1.20.1-1.4.0-forge",
+    "curseForgeHash": 517770366,
+    "modrinthHash": "23b7544ab3ebd1ab9c88255434ff9dc7f217766b"
   },
   "ExtremeSoundMuffler-3.51-forge-1.20.1.jar": {
     "jarName": "ExtremeSoundMuffler-3.51-forge-1.20.1.jar",
@@ -1061,13 +1061,21 @@
     "curseForgeHash": 3106343048,
     "modrinthHash": "fe77bda0f98df034f00ecdcb9537b31bf3800477"
   },
-  "irons_spellbooks-1.20.1-3.15.4.jar": {
-    "jarName": "irons_spellbooks-1.20.1-3.15.4.jar",
+  "irons_lib-1.20.1-1.0.2.jar": {
+    "jarName": "irons_lib-1.20.1-1.0.2.jar",
+    "modId": "irons_lib",
+    "name": "Iron\u0027s Lib",
+    "version": "1.20.1-1.0.2",
+    "curseForgeHash": 2208630244,
+    "modrinthHash": "5cf41e8d809f5e8b0173770cdb959dc7dca23ca0"
+  },
+  "irons_spellbooks-1.20.1-3.15.6.jar": {
+    "jarName": "irons_spellbooks-1.20.1-3.15.6.jar",
     "modId": "irons_spellbooks",
     "name": "Iron\u0027s Spells \u0027n Spellbooks",
-    "version": "1.20.1-3.15.4",
-    "curseForgeHash": 3373401360,
-    "modrinthHash": "db09c49487fa3ac049230bd9c28a54c37f1e053c"
+    "version": "1.20.1-3.15.6",
+    "curseForgeHash": 4081199215,
+    "modrinthHash": "07ea5760b40bdbb1854b85f144ae0d6bef915321"
   },
   "irons_spells_js-1.20.1-6.5-3.14-r2-release.jar": {
     "jarName": "irons_spells_js-1.20.1-6.5-3.14-r2-release.jar",
@@ -1410,13 +1418,13 @@
     "curseForgeHash": 2086622523,
     "modrinthHash": "c0f6e2421088f06abf5c1be2f49f39639552b1d0"
   },
-  "NaturesCompass-1.20.1-1.11.2-forge.jar": {
-    "jarName": "NaturesCompass-1.20.1-1.11.2-forge.jar",
+  "NaturesCompass-1.20.1-1.12.0-forge.jar": {
+    "jarName": "NaturesCompass-1.20.1-1.12.0-forge.jar",
     "modId": "naturescompass",
     "name": "Nature\u0027s Compass",
-    "version": "1.20.1-1.11.2-forge",
-    "curseForgeHash": 3701495044,
-    "modrinthHash": "31ae930cdbb34e8e05e1954cfb2fee3a3813e850"
+    "version": "1.20.1-1.12.0-forge",
+    "curseForgeHash": 2331946843,
+    "modrinthHash": "a8589de59cdd8fed9c29610e624063a2990e422b"
   },
   "NBTac-FORGE-1.20.1-1.3.10.jar": {
     "jarName": "NBTac-FORGE-1.20.1-1.3.10.jar",
@@ -1738,14 +1746,6 @@
     "curseForgeHash": 2056995272,
     "modrinthHash": "a22d7c1e3f6142d061f4f52447489628ebcf3e43"
   },
-  "ScalingHealth-1.20.1-8.0.2+9.jar": {
-    "jarName": "ScalingHealth-1.20.1-8.0.2+9.jar",
-    "modId": "scalinghealth",
-    "name": "Scaling Health",
-    "version": "8.0.2+9",
-    "curseForgeHash": 2338536781,
-    "modrinthHash": "d0d36837568ee1ce7511647b977f9e8402055c19"
-  },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "jarName": "Searchables-forge-1.20.1-1.0.3.jar",
     "modId": "searchables",
@@ -1761,14 +1761,6 @@
     "version": "4.0.2",
     "curseForgeHash": 2237725843,
     "modrinthHash": "0c54df6e2916e6bd0743e5650df303cdedff885b"
-  },
-  "silent-lib-1.20.1-8.0.0.jar": {
-    "jarName": "silent-lib-1.20.1-8.0.0.jar",
-    "modId": "silentlib",
-    "name": "Silent Lib",
-    "version": "8.0.0",
-    "curseForgeHash": 4127795855,
-    "modrinthHash": "6614c90b3d5b64eaa5509921ee861827c37b9bca"
   },
   "silly_oddities-1.20.1-0.1.4.jar": {
     "jarName": "silly_oddities-1.20.1-0.1.4.jar",
@@ -1954,13 +1946,13 @@
     "curseForgeHash": 2861020415,
     "modrinthHash": "9fa704bce5ef3fc2b38d1ba73cb6f6a38f10e33f"
   },
-  "supplementaries-1.20-3.1.42-forge.jar": {
-    "jarName": "supplementaries-1.20-3.1.42-forge.jar",
+  "supplementaries-1.20-3.1.43-forge.jar": {
+    "jarName": "supplementaries-1.20-3.1.43-forge.jar",
     "modId": "supplementaries",
     "name": "Supplementaries",
-    "version": "1.20-3.1.42",
-    "curseForgeHash": 2911967421,
-    "modrinthHash": "c9e2f6c813eef73843d869ff5611f155af7467fb"
+    "version": "1.20-3.1.43",
+    "curseForgeHash": 1988549846,
+    "modrinthHash": "326d65a29981de28016e3828370d68a8f63e1798"
   },
   "tenshilib-1.20.1-1.7.6-forge.jar": {
     "jarName": "tenshilib-1.20.1-1.7.6-forge.jar",
@@ -2082,13 +2074,13 @@
     "curseForgeHash": 1716140912,
     "modrinthHash": "d3e2ce89fd870d496dd0a86c635305a3f34825c1"
   },
-  "toomanyrecipeviewers-0.7.1+mc.20.1.jar": {
-    "jarName": "toomanyrecipeviewers-0.7.1+mc.20.1.jar",
+  "toomanyrecipeviewers-0.7.2+mc.20.1.jar": {
+    "jarName": "toomanyrecipeviewers-0.7.2+mc.20.1.jar",
     "modId": "toomanyrecipeviewers",
     "name": "TooManyRecipeViewers",
-    "version": "0.7.1+mc.20.1",
-    "curseForgeHash": 3793441057,
-    "modrinthHash": "29bec57f882d3a4bab4a2dc4c46e19cadcd32c67"
+    "version": "0.7.2+mc.20.1",
+    "curseForgeHash": 10623175,
+    "modrinthHash": "00b6170bdd74258c9b06432d05ca3dd63567c012"
   },
   "torchmaster-20.1.9.jar": {
     "jarName": "torchmaster-20.1.9.jar",
