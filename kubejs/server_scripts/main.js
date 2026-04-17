@@ -57,6 +57,17 @@ ServerEvents.recipes(event => {
 	})
 	 
 	/// ======================================================================= Tier 0 Machines ========================================================================
+	event.shaped("farmersdelight:cutting_board",
+		[
+			"SPP",
+			"SPP"
+		],
+		{
+			S: "#c:rods/wooden",
+			P: "#minecraft:planks"
+		}
+	)
+	
 	event.shapeless("create:rose_quartz_lamp",["minecraft:redstone_lamp","rose_bush","minecraft:quartz"]).id("create:crafting/kinetics/rose_quartz_lamp")
 	
 	event.shaped("wizards_reborn:arcane_workbench",

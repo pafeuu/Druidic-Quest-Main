@@ -618,6 +618,16 @@ ServerEvents.recipes(event => {
 	)
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	event.shaped("farmersdelight:flint_knife",
+		[
+			"F",
+			"S"
+		],
+		{
+			S: "#c:rods/wooden",
+			F: "flint"
+		}
+	)
 	event.shaped("kubejs:wooden_staff",
 		[
 			"  S",
