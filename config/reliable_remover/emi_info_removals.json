@@ -1,0 +1,15 @@
+[
+    {
+        "action": "remove_info",
+        "items": [
+            "minecraft:enchanting_table",
+            "farmersdelight:wheat_dough",
+            "irons_spellbooks:frozen_bone",
+            "irons_spellbooks:hogskin",
+            "irons_spellbooks:dragonskin",
+            "irons_spellbooks:ruined_book",
+            "irons_spellbooks:cinder_essence",
+            "irons_spellbooks:cursed_doll_spell_book"
+        ]
+    }
+]

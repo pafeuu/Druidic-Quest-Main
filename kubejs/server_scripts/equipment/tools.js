@@ -782,6 +782,7 @@ ServerEvents.recipes(event => {
 
    event.custom({
 	"type": "lychee:block_interacting",
+	"hide_in_viewer": true,
 	"item_in": {
 		"item": "ars_nouveau:ritual_cloudshaping"
 	},
