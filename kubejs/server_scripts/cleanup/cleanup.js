@@ -840,7 +840,7 @@ ServerEvents.recipes(event => {
 		
 		let ingredients = r.originalRecipeIngredients
 
-		console.log("trapdoor ingredients:"+ingredients[0].itemIds[0])
+		//console.log("trapdoor ingredients:"+ingredients[0].itemIds[0])
 
 		let output = r.originalRecipeResult
 		

@@ -749,7 +749,7 @@ ServerEvents.recipes(event =>{
 		const archwoodColors = ["blue","purple","red"]
 		let ingredients = r.originalRecipeIngredients
 
-		console.log("trapdoor ingredients:"+ingredients[0].itemIds[0])
+		//console.log("trapdoor ingredients:"+ingredients[0].itemIds[0])
 
 		let plank = ingredients[0].itemIds[0]
 		let slab = plank.replace("_planks","_slab")
