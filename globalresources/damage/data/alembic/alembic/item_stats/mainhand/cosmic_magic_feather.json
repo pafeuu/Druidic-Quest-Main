@@ -17,7 +17,7 @@
       },
       {
         "type": "append",
-        "attribute": "alembic:blood_damage",
+        "attribute": "alembic:true_damage",
         "value": 5,
         "operation": "ADDITION",
         "uuid": "be810a43-04f3-42d1-abc7-b2c524ac0700"
