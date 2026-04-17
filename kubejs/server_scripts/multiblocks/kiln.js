@@ -151,6 +151,11 @@ ServerEvents.recipes(event=>{
 		"16x ars_nouveau:air_essence"
 	)
 
+	kilnWith2Ingredients("enigmaticlegacy:eye_of_nebula",
+		"kubejs:elemental_core",
+		"8x kubejs:ender_essence"
+	)
+
 	kilnWith2Ingredients("2x irons_spellbooks:arcane_ingot",
 		"2x kubejs:arcanum_alloy_ingot",
 		"8x irons_spellbooks:arcane_essence"

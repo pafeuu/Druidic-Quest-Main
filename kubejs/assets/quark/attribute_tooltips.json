@@ -38,6 +38,19 @@
       "texture": "quark:attribute/speed",
       "compare": "higher_better"
     },
+    "puffish_attributes:stamina": {
+      "display": {
+        "mainhand": "difference",
+        "offhand": "difference",
+        "feet": "difference",
+        "legs": "difference",
+        "chest": "difference",
+        "head": "difference",
+        "potion": "difference"
+      },
+      "texture": "quark:attribute/stamina",
+      "compare": "higher_better"
+    },
     "minecraft:generic.attack_damage": {
       "display": {
         "mainhand": "flat",

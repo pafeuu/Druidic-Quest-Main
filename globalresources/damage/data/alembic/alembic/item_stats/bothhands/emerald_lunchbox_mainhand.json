@@ -7,6 +7,13 @@
       "value": 0.1,
       "operation": "MULTIPLY_TOTAL",
       "uuid": "254c54f4-5bac-4109-8e68-83a379445294"
+    },
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:stamina",
+      "value": 0.25,
+      "operation": "ADDITION",
+      "uuid": "f98cd8ba-cef6-436d-a8a2-9c4f04d4eeb0"
     }
   ],
   "equipment_slot": "MAINHAND"
