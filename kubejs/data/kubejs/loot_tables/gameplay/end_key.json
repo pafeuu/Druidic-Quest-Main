@@ -1,5 +1,5 @@
 {   
-    "type": "chest",
+    "type": "gameplay",
     "pools": [
       {
         "rolls": 1,
@@ -7,90 +7,54 @@
             {
                 "type": "item",
                 "weight": 1,
-                "name": "irons_spellbooks:poisonward_ring",
+                "name": "irons_spellbooks:fireward_ring"
+              },
+              {
+                "type": "item",
+                "weight": 1,
+                "name": "aether:regeneration_stone"
+                
+              },
+              {
+                "type": "item",
+                "weight": 1,
+                "name": "tide:blazing_swordfish",
                 "functions": [
                   {
-                    "function": "set_count",
-                    "count": 1
+                    "function": "set_nbt",
+                    "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
                   }
                 ]
               },
               {
                 "type": "item",
                 "weight": 1,
-                "name": "kubejs:sapphire_ring",
-                "functions": [
-                  {
-                    "function": "set_count",
-                    "count": 1
-                  }
-                ]
+                "name": "ancient_aether:strength_stone"
               },
               {
                 "type": "item",
                 "weight": 1,
-                "name": "kubejs:amethyst_ring",
-                "functions": [
-                  {
-                    "function": "set_count",
-                    "count": 1
-                  }
-                ]
+                "name": "aether:ice_pendant"
               },
               {
                 "type": "item",
                 "weight": 1,
-                "name": "kubejs:silver_pendant",
-                "functions": [
-                  {
-                    "function": "set_count",
-                    "count": 1
-                  }
-                ]
+                "name": "kubejs:ruby_pendant"
               },
               {
                 "type": "item",
                 "weight": 1,
-                "name": "kubejs:ironwood_pendant",
-                "functions": [
-                  {
-                    "function": "set_count",
-                    "count": 1
-                  }
-                ]
+                "name": "twilightforest:charm_of_life_2"
               },
               {
                 "type": "item",
                 "weight": 1,
-                "name": "kubejs:emerald_pendant",
-                "functions": [
-                  {
-                    "function": "set_count",
-                    "count": 1
-                  }
-                ]
+                "name": "kubejs:nutrition_charm"
               },
               {
                 "type": "item",
                 "weight": 1,
-                "name": "twilightforest:charm_of_life_1",
-                "functions": [
-                  {
-                    "function": "set_count",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "type": "item",
-                "weight": 1,
-                "name": "kubejs:cross_necklace",
-                "functions": [
-                  {
-                    "function": "set_count",
-                    "count": 1
-                  }
-                ]
+                "name": "kubejs:bulking_ring"
               }
         ]
       },
@@ -99,27 +63,27 @@
         "entries": [
             {
                 "type": "item",
-                "name": "kubejs:botanist_upgrade_smithing_template",
-                "weight": 2
+                "name": "kubejs:gold_upgrade_smithing_template",
+                "weight": 8
             },
             {
                 "type": "item",
-                "name": "kubejs:fiery_upgrade_smithing_template",
-                "weight": 2
+                "name": "kubejs:steel_upgrade_smithing_template",
+                "weight": 8
             },
             {
                 "type": "item",
-                "name": "kubejs:skyjade_upgrade_smithing_template",
+                "name": "kubejs:obsidian_upgrade_smithing_template",
                 "weight": 5
             },
             {
                 "type": "item",
-                "name": "kubejs:zanite_upgrade_smithing_template",
+                "name": "kubejs:arcane_gold_upgrade_smithing_template",
                 "weight": 5
             },
             {
                 "type": "item",
-                "name": "kubejs:knightmetal_upgrade_smithing_template",
+                "name": "kubejs:phoenix_upgrade_smithing_template",
                 "weight": 2
             }
         ]
@@ -133,7 +97,7 @@
             },
             {
               "type": "item",
-              "name": "kubejs:twilight_key",
+              "name": "kubejs:nether_key",
               "weight": 1
             }
         ]
@@ -155,7 +119,7 @@
           {
             "type": "item",
             "weight": 1,
-            "name": "thermal:sapphire",
+            "name": "thermal:ruby",
             "functions": [
               {
                 "function": "set_count",
@@ -170,48 +134,48 @@
             "functions": [
               {
                 "function": "set_count",
-                "count": 4
+                "count": 8
               }
             ]
           },
           {
             "type": "item",
             "weight": 3,
-            "name": "twilightforest:liveroot",
+            "name": "rubinated_nether:ruby",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 12,
+                  "max": 32
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 3,
+            "name": "minecraft:netherite_scrap",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 3,
+                  "max": 6
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 3,
+            "name": "minecraft:magma_cream",
             "functions": [
               {
                 "function": "set_count",
                 "count": {
                   "min": 24,
                   "max": 48
-                }
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 3,
-            "name": "minecraft:diamond",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": {
-                  "min": 5,
-                  "max": 10
-                }
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 3,
-            "name": "minecraft:slime_ball",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": {
-                  "min": 12,
-                  "max": 24
                 }
               }
             ]
@@ -227,51 +191,40 @@
           {
             "type": "item",
             "weight": 1,
-            "name": "vintagedelight:cheese_pasta",
+            "name": "farmersdelight:pasta_with_meatballs",
             "functions": [
               {
                 "function": "set_count",
-                "count": 8
+                "count": 10
               }
             ]
           },
           {
             "type": "item",
             "weight": 1,
-            "name": "vintagedelight:cheese_burger",
+            "name": "mynethersdelight:nether_burger",
             "functions": [
               {
                 "function": "set_count",
-                "count": 8
+                "count": 10
               }
             ]
           },
           {
             "type": "item",
             "weight": 1,
-            "name": "vintagedelight:pickle_soup",
+            "name": "mynethersdelight:spicy_noodle_soup",
             "functions": [
               {
                 "function": "set_count",
-                "count": 8
+                "count": 6
               }
             ]
           },
           {
             "type": "item",
             "weight": 1,
-            "name": "vintagedelight:salted_salmon",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 8
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "vintagedelight:pickled_beetroot",
+            "name": "mynethersdelight:stuffed_pepper",
             "functions": [
               {
                 "function": "set_count",
@@ -282,11 +235,22 @@
           {
             "type": "item",
             "weight": 1,
-            "name": "kubejs:wooden_gear",
+            "name": "mynethersdelight:spicy_skewer",
             "functions": [
               {
                 "function": "set_count",
-                "count": 4
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "kubejs:nature_essence",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 6
               }
             ]
           },
@@ -297,14 +261,14 @@
             "functions": [
               {
                 "function": "set_count",
-                "count": 8
+                "count": 24
               }
             ]
           },
           {
             "type": "item",
             "weight": 1,
-            "name": "minecraft:lantern",
+            "name": "supplementaries:fire_pit",
             "functions": [
               {
                 "function": "set_count",
