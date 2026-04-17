@@ -14,6 +14,10 @@
     },
     {
       "threshold": 0,
+      "benefit": "{key:\"manaunification:max_mana\",op:0,type:\"att\",val:-60.0d}"
+    },
+    {
+      "threshold": 0,
       "benefit": "{key:\"attributeslib:mining_speed\",op:0,type:\"att\",val:-0.2d}"
     },
     {
@@ -62,7 +66,7 @@
     },
     {
       "threshold": 15,
-      "benefit": "{key:\"ars_nouveau:ars_nouveau.perk.max_mana\",op:0,type:\"att\",val:150.0d}"
+      "benefit": "{key:\"manaunification:max_mana\",op:0,type:\"att\",val:100.0d}"
     },
     {
       "threshold": 15,
@@ -71,6 +75,10 @@
     {
       "threshold": 20,
       "benefit": "{key:\"minecraft:generic.attack_damage\",op:0,type:\"att\",val:1.0d}"
+    },
+    {
+      "threshold": 25,
+      "benefit": "{key:\"manaunification:max_mana\",op:0,type:\"att\",val:200.0d}"
     },
     {
       "threshold": 25,
@@ -83,6 +91,10 @@
     {
       "threshold": 30,
       "benefit": "{key:\"minecraft:generic.armor\",op:0,type:\"att\",val:6.0d}"
+    },
+    {
+      "threshold": 35,
+      "benefit": "{key:\"manaunification:max_mana\",op:0,type:\"att\",val:300.0d}"
     },
     {
       "threshold": 35,
