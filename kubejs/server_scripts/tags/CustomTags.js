@@ -154,7 +154,19 @@ ServerEvents.tags("item",e=>{
     "bone",
     "gunpowder",
     "rotten_flesh"])
-
+    
+    e.add("dq:tier0/weapon",[
+      'minecraft:wooden_sword',
+      'minecraft:stone_sword',
+      'farmersdelight:flint_knife',
+      'tide:swordfish',
+      'alexsmobs:skelewag_sword',
+      'irons_spellbooks:graybeard_staff',
+      'minecraft:stone_axe',
+      'minecraft:wooden_axe',
+      'kubejs:arcane_wood_wand'
+    ]
+    )
     e.add("dq:tier1/component",
       ['minecraft:redstone',
       'twilightforest:liveroot',
