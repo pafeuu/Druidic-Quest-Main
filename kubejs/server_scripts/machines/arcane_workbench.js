@@ -226,7 +226,7 @@ ServerEvents.recipes(event=>{
         ],
         "key": {
             "S": {
-            "item": "stick"
+            "tag": "c:rods/wooden"
             },
             "X": {
             "item": "string"
@@ -927,7 +927,7 @@ ServerEvents.recipes(event=>{
         "kubejs:lead_helmet",
 		"shield",
         "kubejs:lead_leggings",
-		"kubejs:leadchestplate",
+		"kubejs:lead_chestplate",
         "ars_nouveau:bastion_pod",
 		"kubejs:lead_boots"
     )
