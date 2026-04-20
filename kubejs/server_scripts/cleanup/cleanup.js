@@ -420,11 +420,11 @@ ServerEvents.recipes(event => {
 	
 	function PlatesOnetoOne(outputItem, inputBlock)
 	{
-		event.recipes.create.pressing(`2x ${outputItem}`,`2x ${inputBlock}`)// Adds Plates crafting recipes to the create machines
+		event.recipes.create.pressing(`2x ${outputItem}`,`${inputBlock}`)// Adds Plates crafting recipes to the create machines
 	
-		event.recipes.thermal.press(`2x ${outputItem}`,`2x ${inputBlock}`)// Adds Plates crafting recipes to the thermal machines
+		event.recipes.thermal.press(`2x ${outputItem}`,`${inputBlock}`)// Adds Plates crafting recipes to the thermal machines
 	
-		event.recipes.immersiveengineering.metal_press(`2x ${outputItem}`,`2x ${inputBlock}`)// Adds Plates crafting recipes to the IE machines
+		event.recipes.immersiveengineering.metal_press(`2x ${outputItem}`,`${inputBlock}`,"immersiveengineering:mold_plate")// Adds Plates crafting recipes to the IE machines
 	
 		event.custom({
 			type: "lychee:block_interacting",
