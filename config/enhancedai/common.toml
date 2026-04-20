@@ -420,7 +420,7 @@
 	#Make mobs flee from the target. Use the enhancedai:mobs/can_flee entity type tag to add/remove entities that are affected by this feature. Mobs like animals have they're own feature for fleeing the target due to having different conditions.
 	"Enable Flee target" = true
 	#Allows mobs to call reinforcements (like vanilla zombies can, but better) and have leaders that have a high chance to call reinforcements. Only entity types in the `enhancedai:mobs/leaders` tag can jump. PLEASE NOTE that this feature uses a custom attribute (enhancedai:spawn_reinforcements_chance) instead of the vanilla one. This feature has also an MPR condition `enhancedai:is_leader` to check if the mob is a leader.
-	"Enable Leaders" = true
+	"Enable Leaders" = false
 	#Enables a Mobs Properties Randomness data pack that adds even more buffs to mobs.
 	"Enable MPR data pack" = true
 	#Only entity types in the enhancedai:mobs/air_stealer tag are affected by this feature.
@@ -521,11 +521,11 @@
 		#Chance for a mob to have an AI to go and pick up and throw mobs.
 		[Mobs."Pick up and throw".Chance]
 			#Range: 0.0 ~ 1.0
-			"Easy/Peaceful" = 0.05
+			"Easy/Peaceful" = 0.0
 			#Range: 0.0 ~ 1.0
-			Normal = 0.05
+			Normal = 0.0
 			#Range: 0.0 ~ 1.0
-			Hard = 0.1
+			Hard = 0.0
 
 	#Prevent players from abusing water or 2 high gaps to bully endermen.
 	[Mobs."Teleport anti-cheese"]
@@ -618,7 +618,7 @@
 	[Mobs."Miner mobs"]
 		#Chance for a mob in the entity type tag enhancedai:can_be_miner to spawn with the miner ability
 		#Range: 0.0 ~ 1.0
-		"Miner chance" = 0.07
+		"Miner chance" = 1
 		#NONE: No item is required. ANY_TOOL: Any item that can break blocks in the off-hand is required. CORRECT_TOOL_FOR_REQUIRED: The mob is able to mine any blocks that don't require a tool, and require a tool for blocks that require it (e.g. can always mine dirt but can't mine stone). CORRECT_TOOL_FOR_ANY_BLOCK: The mob can only mine blocks if the tool is the right one for the block (e.g. can mine dirt only with a shovel).
 		#Allowed Values: NONE, ANY_TOOL, CORRECT_TOOL_FOR_REQUIRED, CORRECT_TOOL_FOR_ANY_BLOCK
 		"Tool requirement" = "CORRECT_TOOL_FOR_REQUIRED"
@@ -627,12 +627,12 @@
 		"Max y" = 320
 		#The maximum distance from the target at which the Mobs can mine. Set to 0 to always mine.
 		#Range: 0 ~ 128
-		"Max target distance" = 0
+		"Max target distance" = 32
 		#Multiplier for the time a mob takes to break blocks. E.g. with this set to 2, mobs will take twice the time to mine a block.
 		#Range: 0.0 ~ 128.0
 		"Time to break multiplier" = 1.25
 		#Dimensions where mobs can mine.
-		"Dimension whitelist" = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+		"Dimension whitelist" = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end", "twilightforest:twilight_forest", "aether:the_aether"]
 		#If true, the block tag `enhancedai:miner_mobs/blacklist` will be treated as a whitelist instead of blacklist
 		"Block blacklist as whitelist" = false
 		#Mobs with Miner AI will not be able to break tile entities

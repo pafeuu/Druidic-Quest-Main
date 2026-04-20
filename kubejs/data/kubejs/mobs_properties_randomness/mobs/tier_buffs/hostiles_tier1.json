@@ -1,0 +1,33 @@
+{
+    "priority": 1,
+    "target": "#dq:hostile_evolving_mobs",
+    "properties": [
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "tier1 health",
+            "amount": 0.5,
+            "operation": "multiply_total"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.attack_damage",
+            "modifier_name": "tier1 attack damage",
+            "amount": 0.4,
+            "operation": "multiply_total"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "attributeslib:arrow_damage",
+            "modifier_name": "tier1 arrow damage",
+            "amount": 0.3,
+            "operation": "multiply_total"
+        }
+    ],
+    "conditions":[
+        {"condition": "advancement","advancements":["restrictedportals:twilightforest"]},
+        {"condition": "advancement","advancements":["restrictedportals:nether"],"inverted":"true"},
+        {"condition": "advancement","advancements":["restrictedportals:aether"],"inverted":"true"},
+        {"condition": "advancement","advancements":["restrictedportals:theend"],"inverted":"true"}
+    ]
+}

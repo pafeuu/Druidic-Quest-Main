@@ -1,0 +1,68 @@
+{
+    "target": "#dq:zombies",
+    "properties":[
+        {
+            "property": "scale",
+            "scale": 1.25,
+            "scale_types": [
+                "pehkui:base"
+            ],
+            "operation": "set"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "bulky health",
+            "amount": 0.5,
+            "operation": "multiply_total"
+        },
+        {
+            "property": "equipment",
+            "slot": "head",
+            "conditions":[
+                {"condition":"chance","chance":0.99}
+            ],
+            "items": [
+                {
+                    "item":"thermal:diving_helmet",
+                    "functions": [
+                    {
+                        "function": "set_drop_chance",
+                        "drop_chance": 0.01
+                    }],
+                    "conditions":[{"condition": "advancement","advancements":["restrictedportals:twilightforest"],"inverted":"true"}]
+                },
+                {
+                    "item":"twilightforest:knightmetal_helmet",
+                    "functions": [
+                    {
+                        "function": "set_drop_chance",
+                        "drop_chance": 0.01
+                    }],
+                    "conditions":[{"condition": "advancement","advancements":["restrictedportals:twilightforest"]}]
+                }
+            ]
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.attack_damage",
+            "modifier_name": "bulky attack damage",
+            "amount": 0.25,
+            "operation": "multiply_total"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.movement_speed",
+            "modifier_name": "bulky movement speed",
+            "amount": -0.2,
+            "operation": "multiply_total"
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:pick_up_and_throw/can_pick_up",
+            "string_value": "enhancedai:mobs/pick_up_and_throw/can_be_picked_up"
+        }
+
+        
+    ]
+}

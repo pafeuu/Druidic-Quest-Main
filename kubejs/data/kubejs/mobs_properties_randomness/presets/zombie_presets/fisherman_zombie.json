@@ -1,0 +1,21 @@
+{
+    "target": "#dq:zombies",
+    "properties":[
+        {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": [
+                    {
+                        "item":"minecraft:fishing_rod",
+                        "functions": [
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.6
+                        }
+                        ]
+                    }
+                ]
+        }
+        
+    ]
+}

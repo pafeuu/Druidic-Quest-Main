@@ -1,0 +1,20 @@
+{
+    "target": "#dq:zombies",
+    "properties":[
+        {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": [
+                {
+                    "item":"kubejs:lumber_axe",
+                    "functions": [
+                    {
+                        "function": "set_drop_chance",
+                        "drop_chance": 0.6
+                    }
+            ]}
+            ]
+        }
+        
+    ]
+}

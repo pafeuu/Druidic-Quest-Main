@@ -1,0 +1,46 @@
+{
+    "priority": 999,
+    "target": "#dq:zombies",
+    "properties":[
+        {
+            "property": "presets",
+            "presets":[
+                {
+                    "preset": "kubejs:zombie_presets/lumberjack_zombie",
+                    "weight": 1,
+                    "conditions": [
+                        {"condition":"chance","chance":0.5},
+                        {"condition": "biome","biomes":["#minecraft:is_forest"]},
+                        {"condition": "deepness","y":{"min":60,"max":100}}
+                    ]
+                },
+                {
+                    "preset": "kubejs:zombie_presets/lumberjack_zombie",
+                    "weight": 1,
+                    "conditions": [
+                        {"condition":"chance","chance":0.05},
+                        {"condition":"time_played","minutes_played":{"min":60}},
+                        {"condition":"deepness","y":{"min":60,"max":100}}
+                    ]
+                },
+                {
+                    "preset": "kubejs:zombie_presets/fisherman_zombie",
+                    "weight": 1,
+                    "conditions": [
+                        {"condition":"chance","chance":0.3},
+                        {"condition": "biome","biomes":["#minecraft:is_ocean","#minecraft:is_beach","#minecraft:is_river"]},
+                        {"condition": "deepness","y":{"min":20,"max":75}}
+                    ]
+                },
+                {
+                    "preset": "kubejs:zombie_presets/bulky_zombie",
+                    "weight": 1,
+                    "conditions": [
+                        {"condition":"chance","chance":0.3}
+                    ]
+                }
+            ]
+        }
+        
+    ]
+}

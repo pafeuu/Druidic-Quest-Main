@@ -1,0 +1,30 @@
+{
+    "priority": 1,
+    "target": "#dq:hostile_evolving_mobs",
+    "properties": [
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "tier4 health",
+            "amount": 2,
+            "operation": "multiply_base"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.attack_damage",
+            "modifier_name": "tier4 attack damage",
+            "amount": 1.5,
+            "operation": "multiply_total"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "attributeslib:arrow_damage",
+            "modifier_name": "tier4 arrow velocity",
+            "amount": 1.5,
+            "operation": "multiply_total"
+        }
+    ],
+    "conditions":[
+        {"condition": "advancement","advancements":["restrictedportals:theend"]}
+    ]
+}

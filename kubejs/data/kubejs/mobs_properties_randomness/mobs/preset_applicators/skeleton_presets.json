@@ -1,0 +1,42 @@
+{
+    "priority": 999,
+    "target": "minecraft:skeleton",
+    "properties":[
+        {
+            "property": "presets",
+            "presets":[
+                {
+                    "preset": "kubejs:skeleton_presets/miner_skeleton",
+                    "weight": 1,
+                    "conditions": [
+                        {"condition": "deepness","y":{"min":-70,"max":20}},
+                        {"condition": "chance","chance":{"value":0.2,"modifiers": [
+                        {
+                            "modifier": "deepness",
+                            "operation": "add",
+                            "amount_per_step": 0.05,
+                            "step": 10,
+                            "starting_y": 20
+                        }
+                        ]}}
+                    ]
+                },
+                {
+                    "preset": "kubejs:skeleton_presets/machinegun_skeleton",
+                    "weight": 1,
+                    "conditions": [
+                        {"condition": "deepness","y":{"min":30,"max":300}},
+                        {"condition": "chance","chance":{"value":0.025,"modifiers": [
+                            {
+                                "modifier": "difficulty",
+                                "operation": "add",
+                                "hard": 0.075
+                            }
+                        ]}}
+                    ]
+                }
+            ]
+        }
+        
+    ]
+}

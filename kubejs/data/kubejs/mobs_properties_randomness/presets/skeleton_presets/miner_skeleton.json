@@ -1,0 +1,107 @@
+{
+    "target": "minecraft:skeleton",
+    "properties":[
+       {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": [
+                {
+                    "item":"minecraft:lantern",
+                    "functions": [
+                    {
+                        "function": "set_drop_chance",
+                        "drop_chance": 0.0
+                    }
+            ]}
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "offhand",
+            "items": [
+                {
+                    "item":"minecraft:stone_pickaxe",
+                    "functions": [
+                    {
+                        "function": "set_drop_chance",
+                        "drop_chance": 0.1
+                    }
+            ]}
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "head",
+            "conditions":[
+                {"condition":"chance","chance":0.3}
+            ],
+            "items": [
+                {
+                    "item":"kubejs:copper_helmet",
+                    "functions": [
+                    {
+                        "function": "set_drop_chance",
+                        "drop_chance": 0.05
+                    }
+            ]}
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "chest",
+            "items": [
+                {
+                    "item":"kubejs:copper_chestplate",
+                    "functions": [
+                    {
+                        "function": "set_drop_chance",
+                        "drop_chance": 0.05
+                    }
+            ]}
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "legs",
+            "items": [
+                {
+                    "item":"kubejs:copper_leggings",
+                    "functions": [
+                    {
+                        "function": "set_drop_chance",
+                        "drop_chance": 0.05
+                    }
+            ]}
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "feet",
+            "conditions":[
+                {"condition":"chance","chance":0.7}
+            ],
+            "items": [
+                {
+                    "item":"kubejs:copper_boots",
+                    "functions": [
+                    {
+                        "function": "set_drop_chance",
+                        "drop_chance": 0.05
+                    }
+            ]}
+            ]
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "miners health",
+            "amount": {"min":6,"max":10},
+            "operation": "addition"
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:miner_mobs/miner",
+            "value": 1
+        }
+    ]
+}
