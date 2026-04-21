@@ -609,6 +609,7 @@ ServerEvents.recipes(event => {
 	tool("twilightforest:ironwood","#forge:ingots/ironwood","immersiveengineering:stick_treated","#forge:rope")
 	tool("kubejs:uranium","#forge:ingots/uranium","immersiveengineering:stick_treated","#forge:rope")
 	tool("aether:gravitite","#forge:ingots/gravitite","kubejs:heavenly_tool_handle","aether:swet_ball")
+	tool("kubejs:aluminum","#forge:ingots/aluminum","enigmaticlegacy:ender_rod","alexsmobs:shed_snake_skin")
 
 	tooltype.forEach(type => {
 		event.remove({id:"twilightforest:equipment/ironwood_"+type})

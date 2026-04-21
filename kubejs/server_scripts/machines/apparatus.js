@@ -78,6 +78,53 @@ ServerEvents.recipes(event=>{
     ],"create:super_glue","sophisticatedstorage:super_packing_tape",2500).id("sophisticatedstorage:super_packing_tape")
 
     apparatus([
+        "kubejs:zinc_tool_handle",
+        "blaze_rod",
+        "#forge:storage_blocks/coal_coke",
+        "#forge:storage_blocks/coal_coke"],
+		"twilightforest:liveroot",
+		"kubejs:carbon_infused_sturdy_handle",
+		1000)
+
+    apparatus([
+        "kubejs:zinc_tool_handle",
+        "#forge:gems/zanite",
+        "#forge:gems/zanite",
+        "#forge:gems/zanite",
+        "#forge:gems/skyjade",
+        "#forge:gems/skyjade",
+        "#forge:gems/skyjade"],
+		"#forge:rods/storm",
+		"kubejs:heavenly_tool_handle",
+		5000)
+
+    apparatus([
+        "kubejs:zinc_tool_handle",
+        "thermal:ruby",
+        "thermal:ruby",
+        "thermal:ruby",
+        "rubinated_nether:ruby",
+        "rubinated_nether:ruby",
+        "rubinated_nether:ruby"],
+		"#forge:rods/netherite",
+		"kubejs:reinforced_tool_handle",
+		5000)
+
+    let betterRods = ["kubejs:reinforced_tool_handle","kubejs:heavenly_tool_handle"].forEach(rod => {
+        apparatus([
+            rod,
+            "enigmaticlegacy:astral_dust",
+            "enigmaticlegacy:astral_dust",
+            "thermal:ruby",
+            "thermal:sapphire",
+            "kubejs:infused_amethyst"],
+            "#forge:rods/enderium",
+            "enigmaticlegacy:ender_rod",
+            10000)
+    });
+    
+
+    apparatus([
 		"kubejs:zinc_tool_handle",
 		"thermal:ruby",
 		"#forge:storage_blocks/gold",

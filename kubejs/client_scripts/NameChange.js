@@ -20,6 +20,7 @@ ClientEvents.lang("en_us", event => {
 
     event.renameItem('enigmaticlegacy:infinimeal', 'Eternal Fertilizer')
     event.renameItem('enigmaticlegacy:evil_essence', 'Aspect of Evil')
+    event.renameItem("enigmaticlegacy:ender_rod","Ender Tool Handle")
 
     event.renameItem("immersiveengineering:fluid_pipe", "Iron Fluid Pipe")
     event.renameItem("immersiveengineering:dust_steel","Stainless Steel Dust")
