@@ -837,35 +837,6 @@ ServerEvents.recipes(event => {
 	).id("create:crafting/kinetics/fluid_pipe")
 
 	event.remove({id:"create:crafting/kinetics/fluid_pipe_vertical"})
-
-	event.shapeless('kubejs:primitive_alchemical_dust',[
-		"#forge:tools/mortars",
-		"wizards_reborn:arcanum_dust",
-		"#forge:dusts/lapis",
-		"kubejs:infused_emerald"]).damageIngredient("#forge:tools/mortars", 4).id("kubejs:primitive_alchemical_dust")
-	
-	event.shapeless('kubejs:basic_alchemical_dust',[
-		"#forge:tools/mortars",
-		"kubejs:primitive_alchemical_dust",
-		"#forge:dusts/gold",
-		"kubejs:infused_diamond"]).damageIngredient("#forge:tools/mortars", 8).id("kubejs:basic_alchemical_dust")
-
-	event.shapeless('kubejs:improved_alchemical_dust',[
-		"#forge:tools/mortars",
-		"kubejs:basic_alchemical_dust",
-		"#forge:dusts/silver",
-		"quark:soul_bead",
-		"thermal:sapphire"]).damageIngredient("#forge:tools/mortars", 12).id("kubejs:improved_alchemical_dust")
-
-	event.shapeless('kubejs:advanced_alchemical_dust',[
-		"#forge:tools/mortars",
-		"kubejs:improved_alchemical_dust",
-		"ars_nouveau:abjuration_essence",
-		"#forge:ingots/phoenix",
-		"thermal:ruby"]).damageIngredient("#forge:tools/mortars", 16).id("kubejs:advanced_alchemical_dust")
-
-	
-
 	
 	event.shaped('immersiveengineering:hemp_fabric',
 		[

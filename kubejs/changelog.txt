@@ -4193,6 +4193,9 @@ Spells will only be disabled in new worlds or if you reset the server config
     -TooltipOverhaul
     -Waystones
     -IronsSPellsNSpellbooks
+    -EveryCompat
+    -ExplorerCompass
+    -TooManyRecipeViewers
 
     !-FluffyFur
 
@@ -4204,22 +4207,29 @@ Spells will only be disabled in new worlds or if you reset the server config
     -NoNametagedPeacefulDespawn
     -ColorfulHearts
     -InControl
+    -ConnectibleChains
 
 ### Added mods:
-    -ScalingHealth
     -EnhancedAI
-    -SilentLib
     -InsaneLib
     -WitherReincarnated
     -OverflowingBars
     -Corpse
-    -Corpse x Curios Compat
-    -Corpse x CosmeticArmor Compat
-    -Baguette Lib
+    -CorpsexCuriosCompat
+    -CorpsexCosmeticArmorCompat
+    -BaguetteLib
     -Corpse Complex
     -IllagersWearArmor
     -Apotheosis
     -MobPropertiesRandomness
+    -ServerConfigUpdater
+    -RadiumReforged
+    -CrashAsistant
+    -IronsLib
+    -ReliableRemover
+    -ReliableRecipes
+    -Pehkui
+    -ReconnectibleChains
 
 ### Reworked Items:
     -ArsN Warp Scroll(Put it in the crafting grid to change it into the new version) it can no longer create warp portals
@@ -4265,6 +4275,17 @@ Spells will only be disabled in new worlds or if you reset the server config
         -Thermal's compost
     -Added for Fishing Rod
     -Changed for Filtered Hopper(Previously named Adept Hopper)
+    -Changed for Hopper Enhancment
+    -Changed for Ender Watcher
+    -Fixed on of the Enigmatic Amultes recipe
+    -Fixed recipes for wooden and stone plates in IE's metal press and Thermal's Compactor
+    -Added for Eye of the Nebula
+    -Hammer recipe now accepts every wooden rod
+    -Changed for Redstone Aura Vaporizer
+    -Fixed Looting 3 recipe not requiring golden sword
+    -Added for Reinforced Tool Handle
+    -Changed for Ender Tool Handle
+    -Changed for all the alchemical dusts
 
 ### Textures:
     -Reworked Iron Scythe Textures
@@ -4280,6 +4301,7 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Foundry structure has been moved to the nether
     -Scorched mines has been moved to the nether
     -Structures in aether are now more common
+    -Replaced Blue berry bushes in forests
 
 ### Player Balance:
     -Player will now slowly gain arcane resistance with experience levels instead of losing it
@@ -4288,6 +4310,13 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Fall damage can no longer be reduced with armor and it no longer damages your armor
     -You will no longer gain mana for crafting glyphs
 
+### Armor Sets:
+    -Added Cryomancer Set
+    -Added Pyromancer Set
+    -Added Electromancer Set
+    -Added Priest Set
+    -Added Plagued Set
+    
 ### Item Balance:
     -Upgraded Hammers and Excavators mine more blocks
     -All the elytra variants will no longer count as armor items in case of wearing the Heart of The Golem
@@ -4301,6 +4330,8 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Fiery Pickaxe is now slower
     -Etherium Tools are now faster
     -Etherium Tools are now unbreakable by default
+    -Explorer Compass now has only 8 durability and costs 3 exp levels per search
+    -Natures Compass now has only 64 durability and costs 1 exp level per search
 
     !-Items that were upgraded with a smithing template will now be repaired with the material that the base item was made from(example:phoenix armor is repairable with iron ingots)
 
@@ -4317,6 +4348,7 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Buffed Warden loottable
     -Enchantment types and levels were heavily nerfed
     -Enchanted Books now appear in loottables
+    -Changed Buried Treasure Loottable
 
 ### Other:
     -Sorted emi tabs order
