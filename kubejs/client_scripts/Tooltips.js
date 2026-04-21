@@ -137,7 +137,13 @@ ItemEvents.tooltip( tooltip => {
     'naturesaura:calling_spirit',
     'naturesaura:rf_converter',
     'apotheosis:library',
-    'apotheosis:ender_library'], (item, advanced, text) => {
+    'apotheosis:ender_library',
+    "kubejs:color_essence",
+    'kubejs:aluminum_pickaxe',
+    'kubejs:aluminum_axe',
+    'kubejs:aluminum_shovel',
+    'kubejs:aluminum_hoe',
+    'kubejs:aluminum_sword'], (item, advanced, text) => {
     text.add(1, Text.of('Not yet properly implemented').red()) 
   })
 
