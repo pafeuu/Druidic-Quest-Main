@@ -16,7 +16,7 @@
 	leftButtons = false
 	#Show tips in the Muffler screen?
 	#Default: true
-	showTip = true
+	showTip = false
 	#Whether or not use the dark theme
 	#Default: false
 	useDarkTheme = true

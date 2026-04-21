@@ -13,13 +13,13 @@
     "curseForgeHash": 3067932272,
     "modrinthHash": "0465dee428efc927a420c3760428cd34336502e1"
   },
-  "AdvancedLootInfo-forge-1.20.1-1.9.0.jar": {
-    "jarName": "AdvancedLootInfo-forge-1.20.1-1.9.0.jar",
+  "AdvancedLootInfo-forge-1.20.1-1.9.1.jar": {
+    "jarName": "AdvancedLootInfo-forge-1.20.1-1.9.1.jar",
     "modId": "ali",
     "name": "AdvancedLootInfo",
-    "version": "1.9.0",
-    "curseForgeHash": 1624253328,
-    "modrinthHash": "b69a1e7225a7db47da7c6951ff7cad1acb9b1836"
+    "version": "1.9.1",
+    "curseForgeHash": 4032253704,
+    "modrinthHash": "ef21a66c2d87b7360d63155b1035646d6e6b0f19"
   },
   "advancementframes-1.20-2.2.8.jar": {
     "jarName": "advancementframes-1.20-2.2.8.jar",
@@ -405,13 +405,13 @@
     "curseForgeHash": 3251861014,
     "modrinthHash": "065c2d287a52f52fc8d33d780192325ee6f4b6ae"
   },
-  "Connectible Chains-forge-1.20.1-1.1.1.jar": {
-    "jarName": "Connectible Chains-forge-1.20.1-1.1.1.jar",
+  "connectiblechains-forge-1.20.1-1.2.5.jar": {
+    "jarName": "connectiblechains-forge-1.20.1-1.2.5.jar",
     "modId": "connectiblechains",
-    "name": "Connectible Chains",
-    "version": "1.1.0",
-    "curseForgeHash": 2388497597,
-    "modrinthHash": "c2d46c7d488623a65df0225459231d0b0102c0f9"
+    "name": "Reconnectible Chains",
+    "version": "1.2.5",
+    "curseForgeHash": 2318953036,
+    "modrinthHash": "d9dc1dd73b28b15fb6c60fe09f461723a745e664"
   },
   "constantmusic-forge-1.0.6+mc1.20.2.jar": {
     "jarName": "constantmusic-forge-1.0.6+mc1.20.2.jar",
@@ -1546,6 +1546,14 @@
     "curseForgeHash": 2589375317,
     "modrinthHash": "a3a7008e07a27b3c831af7e4c82fbbc10a4da328"
   },
+  "Pehkui-3.8.2+1.20.1-forge.jar": {
+    "jarName": "Pehkui-3.8.2+1.20.1-forge.jar",
+    "modId": "pehkui",
+    "name": "Pehkui",
+    "version": "3.8.2+1.20.1-forge",
+    "curseForgeHash": 3398908649,
+    "modrinthHash": "4bc816efdd8e5e2a97423313674401351710e403"
+  },
   "PigPen-Forge-1.20.1-15.0.3.jar": {
     "jarName": "PigPen-Forge-1.20.1-15.0.3.jar",
     "modId": "pigpen",
@@ -1618,6 +1626,14 @@
     "curseForgeHash": 1763477494,
     "modrinthHash": "5380211b1c2891f454a136545721526b184d8513"
   },
+  "propertymodifier-1.20.1-0.1-all.jar": {
+    "jarName": "propertymodifier-1.20.1-0.1-all.jar",
+    "modId": "propertymodifier",
+    "name": "Property Modifier",
+    "version": "0.3.3",
+    "curseForgeHash": 1416918723,
+    "modrinthHash": "17258767e39ac3831bd3ca8d6674284720021dcb"
+  },
   "puffish_attributes-0.8.2-1.20-forge.jar": {
     "jarName": "puffish_attributes-0.8.2-1.20-forge.jar",
     "modId": "puffish_attributes",
@@ -1681,6 +1697,22 @@
     "version": "1.8.3-1.20.1",
     "curseForgeHash": 1592244749,
     "modrinthHash": "e4fe79c242ee562364afc7e90d280d56c068ba21"
+  },
+  "reliable_recipes-forge-1.20.1-1.10.0.jar": {
+    "jarName": "reliable_recipes-forge-1.20.1-1.10.0.jar",
+    "modId": "reliable_recipes",
+    "name": "Reliable Recipes",
+    "version": "1.10.0",
+    "curseForgeHash": 3492096062,
+    "modrinthHash": "e84b95ef7657c1b48603f61769fb8c8fb58013a5"
+  },
+  "reliable_remover-forge-1.20.1-2.2.2.jar": {
+    "jarName": "reliable_remover-forge-1.20.1-2.2.2.jar",
+    "modId": "reliable_remover",
+    "name": "Reliable Remover",
+    "version": "2.2.2",
+    "curseForgeHash": 1504091081,
+    "modrinthHash": "45150346fac1f5c6c00d0abdc912fa6120c6b777"
   },
   "resourcefulconfig-forge-1.20.1-2.1.3.jar": {
     "jarName": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
