@@ -11,6 +11,17 @@ ItemEvents.toolTierRegistry(event => {
     }
   )
 
+  event.add('aluminum', tier =>
+    {
+      tier.uses = 16384,
+      tier.speed = 12,
+      tier.level = 4
+      tier.attackDamageBonus = 6.0
+      tier.repairIngredient = "#forge:ingots/aluminum"
+
+    }
+  )
+
   event.add('lumber', tier =>
     {
       tier.uses = 512

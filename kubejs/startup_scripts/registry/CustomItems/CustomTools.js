@@ -35,6 +35,25 @@ StartupEvents.registry('item', item => {
 
   function registerToolset(material,tier)
   {
+    let tierRarity
+    switch(tier){
+      case 0:
+      case 1:
+        tierRarity="common"
+        break;
+      case 2:
+        tierRarity="uncommon"
+        break;
+      case 3:
+        tierRarity="rare"
+        break;
+      case 4:
+        tierRarity="epic"
+        break;
+      case 5:
+        tierRarity="legendary"
+      }
+
     global.toolTypesWithSword.forEach(type => {
 
       item.create(`${material}_${type}`,type)
@@ -43,13 +62,32 @@ StartupEvents.registry('item', item => {
       .tag(`minecraft:tools/${type}`)
       .tag(`minecraft:${type}s`)
       .tag(`dq:tier${tier}/tool`)
-      .tag(`forge:tools/${material}`) 
+      .tag(`forge:tools/${material}`)
+      .rarity(tierRarity) 
 
     });  
   }
 
   function registerToolsetWithoutSword(material,tier)
   {
+    let tierRarity
+    switch(tier){
+      case 0:
+      case 1:
+        tierRarity="common"
+        break;
+      case 2:
+        tierRarity="uncommon"
+        break;
+      case 3:
+        tierRarity="rare"
+        break;
+      case 4:
+        tierRarity="epic"
+        break;
+      case 5:
+        tierRarity="legendary"
+      }
     global.toolTypes.forEach(type => {
 
       item.create(`${material}_${type}`,type)
@@ -58,7 +96,9 @@ StartupEvents.registry('item', item => {
       .tag(`minecraft:tools/${type}`)
       .tag(`minecraft:${type}s`)
       .tag(`dq:tier${tier}/tool`)
-      .tag(`forge:tools/${material}`) 
+      .tag(`forge:tools/${material}`)
+      .rarity(tierRarity)
+       
 
     });  
   }
@@ -79,6 +119,7 @@ StartupEvents.registry('item', item => {
   registerToolset("bronze",1)
   registerToolset("uranium",2)
   registerToolset("obsidian",3)
+  registerToolset("aluminum",4)
   registerToolsetWithoutSword("phoenix",3)
   registerToolsetWithoutSword("stormforged",4)
 
