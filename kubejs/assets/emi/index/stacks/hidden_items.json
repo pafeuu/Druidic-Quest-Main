@@ -9,7 +9,11 @@
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"apotheosis:splitting\",lvl:1s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"apotheosis:obliteration\",lvl:1s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"apotheosis:earths_boon\",lvl:1s}]}",
-    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"majruszsenchantments:gold_fuelled\",lvl:1s}]}"
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"majruszsenchantments:gold_fuelled\",lvl:1s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"apotheosis:spearfishing\",lvl:1s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"apotheosis:miners_fervor\",lvl:1s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"apotheosis:icy_thorns\",lvl:1s}]}"
+    
 
   ]
   
