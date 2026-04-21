@@ -1124,6 +1124,21 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 	
+	event.shaped("naturesaura:aura_timer",
+		[
+			"TGT",
+			"GHG",
+			"SMS"
+		],
+		{
+			T: "#forge:plates/tin",
+			S: "#forge:plates/stone",
+			G: "#forge:glass",
+			M: "kubejs:primitive_machine",
+			H: "supplementaries:hourglass"
+		}
+	).id("naturesaura:aura_timer")
+	
 	event.shaped("quark:ender_watcher",
 		[
 			"DRD",
