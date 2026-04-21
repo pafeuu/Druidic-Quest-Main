@@ -56,22 +56,42 @@ ServerEvents.recipes(event=>{
 
     Enchanting("minecraft:looting",1,[
         "kubejs:large_enchanting_rune_of_luck",
-        "golden_sword",
+        "minecraft:golden_sword",
         "lapis_block"],6000)
 
     Enchanting("minecraft:looting",2,[
         "kubejs:large_enchanting_rune_of_luck",
         "kubejs:large_enchanting_rune_of_luck",
-        "golden_sword",
+        "minecraft:golden_sword",
         "lapis_block"],8000)
 
     Enchanting("minecraft:looting",3,[
         "kubejs:large_enchanting_rune_of_luck",
         "kubejs:large_enchanting_rune_of_luck",
         "kubejs:large_enchanting_rune_of_luck",
-        "kubejs:large_enchanting_rune_of_luck",
-        "olden_sword",
+        "minecraft:golden_sword",
+        "minecraft:golden_sword",
         "lapis_block"],10000)
+
+    Enchanting("apotheosis:scavenger",1,[
+        "kubejs:large_enchanting_rune_of_luck",
+        "wizards_reborn:arcane_gold_sword",
+        "irons_spellbooks:dragonskin"],6000)
+
+    Enchanting("apotheosis:scavenger",2,[
+        "kubejs:large_enchanting_rune_of_luck",
+        "kubejs:large_enchanting_rune_of_luck",
+        "wizards_reborn:arcane_gold_sword",
+        "irons_spellbooks:dragonskin"],8000)
+
+    Enchanting("apotheosis:scavenger",3,[
+        "kubejs:large_enchanting_rune_of_luck",
+        "kubejs:large_enchanting_rune_of_luck",
+        "kubejs:large_enchanting_rune_of_luck",
+        "wizards_reborn:arcane_gold_sword",
+        "wizards_reborn:arcane_gold_sword",
+        "irons_spellbooks:dragonskin"
+    ],10000)
 
     Enchanting("majruszsenchantments:hunter",1,[
         "kubejs:large_enchanting_rune_of_luck",
@@ -123,6 +143,17 @@ ServerEvents.recipes(event=>{
         "piston",
         "piston",
         "kubejs:lead_sword"],8000)
+
+    Enchanting("apotheosis:rebounding",1,[
+        "kubejs:enchanting_rune_of_repulsion",
+        "piston",
+        "kubejs:lead_chestplate"],6000)
+
+    Enchanting("apotheosis:rebounding",2,[
+        "kubejs:enchanting_rune_of_repulsion",
+        "piston",
+        "piston",
+        "kubejs:lead_chestplate"],8000)
     
     Enchanting("minecraft:punch",1,[
         "kubejs:enchanting_rune_of_repulsion",
@@ -221,6 +252,34 @@ ServerEvents.recipes(event=>{
         "enigmaticlegacy:mending_mixture"
     ],5000)
 
+    Enchanting("apotheosis:tempting",1,[
+        "kubejs:enchanting_rune_of_nature",
+        "naturesaura:birth_spirit"
+    ],2000)
+
+    Enchanting("apotheosis:growth_serum",1,[
+        "kubejs:enchanting_rune_of_nature",
+        "naturesaura:birth_spirit",
+        "minecraft:hay_block"
+    ],5000)
+
+    Enchanting("apotheosis:exploitation",1,[
+        "kubejs:enchanting_rune_of_nature",
+        "minecraft:lapis_block",
+        "kubejs:primitive_shears"
+    ],5000)
+
+    Enchanting("apotheosis:chainsaw",1,[
+        "kubejs:enchanting_rune_of_nature",
+        "kubejs:big_enchanting_rune_of_wisdom",
+        "kubejs:lumber_axe"
+    ],10000)
+
+    Enchanting("apotheosis:chromatic",1,[
+        "kubejs:enchanting_rune_of_nature",
+        "wizards_reborn:rainbow_arcane_lumos"
+    ],1000)
+
     Enchanting("apotheosis:natures_blessing",1,[
         "kubejs:enchanting_rune_of_nature",
         "thermal:compost"
@@ -254,6 +313,12 @@ ServerEvents.recipes(event=>{
     Enchanting("minecraft:infinity",1,[
         "kubejs:large_enchanting_rune_of_infinity",
         "bow"
+    ],10000)
+
+    Enchanting("apotheosis:endless_quiver",1,[
+        "kubejs:large_enchanting_rune_of_infinity",
+        "bow",
+        "kubejs:color_essence"
     ],10000)
 
     Enchanting("enigmaticlegacy:ceaseless",1,[
@@ -550,6 +615,15 @@ ServerEvents.recipes(event=>{
         "kubejs:enchanting_rune_of_speed"
     ],10000)
 
+    Enchanting("apotheosis:stable_footing",1,[
+        "kubejs:enchanting_rune_of_agility",
+        "kubejs:enchanting_rune_of_speed",
+        "ars_nouveau:wilden_wing",
+        "ars_nouveau:wilden_wing",
+        "ars_nouveau:wilden_wing",
+        "ars_nouveau:wilden_wing"
+    ],10000)
+
     Enchanting("minecraft:riptide",1,[
         "kubejs:enchanting_rune_of_water",
         "supplementaries:spring_launcher"
@@ -596,7 +670,14 @@ ServerEvents.recipes(event=>{
         "enigmaticlegacy:extradimensional_eye"
     ],10000)
 
-    /*Enchanting("minecraft:efficiency",1,[
+    Enchanting("corpsecomplex:soulbinding",1,[
+        "kubejs:big_enchanting_rune_of_cosmos",
+        "sob:echo_rock_candy",
+        "sob:echo_rock_candy",
+        "sob:echo_rock_candy",
+    ],10000)
+
+    Enchanting("minecraft:efficiency",1,[
         "kubejs:enchanting_rune_of_speed",
         "kubejs:silver_pickaxe",
         "supplementaries:sugar_cube"
@@ -617,24 +698,6 @@ ServerEvents.recipes(event=>{
         "supplementaries:sugar_cube"
     ],6000)
 
-    Enchanting("minecraft:efficiency",4,[
-        "kubejs:enchanting_rune_of_speed",
-        "kubejs:silver_pickaxe",
-        "supplementaries:sugar_cube",
-        "supplementaries:sugar_cube",
-        "supplementaries:sugar_cube",
-        "supplementaries:sugar_cube"
-    ],8000)
-
-    Enchanting("minecraft:efficiency",5,[
-        "kubejs:enchanting_rune_of_speed",
-        "kubejs:silver_pickaxe",
-        "supplementaries:sugar_cube",
-        "supplementaries:sugar_cube",
-        "supplementaries:sugar_cube",
-        "supplementaries:sugar_cube",
-        "supplementaries:sugar_cube"
-    ],10000)*/
 
     Enchanting("minecraft:swift_sneak",1,[
         "kubejs:enchanting_rune_of_speed",
@@ -827,6 +890,31 @@ ServerEvents.recipes(event=>{
         "quark:cactus_block"
     ],9000)
 
+    Enchanting("apotheosis:reflective",1,[
+        "kubejs:enchanting_rune_of_pain",
+        "kubejs:primitive_shield",
+        "quark:cactus_block",
+        "quark:cactus_block"
+    ],3000)
+
+    Enchanting("apotheosis:reflective",2,[
+        "kubejs:enchanting_rune_of_pain",
+        "kubejs:primitive_shield",
+        "quark:cactus_block",
+        "quark:cactus_block",
+        "quark:cactus_block"
+    ],6000)
+
+    Enchanting("apotheosis:reflective",3,[
+        "kubejs:enchanting_rune_of_pain",
+        "kubejs:primitive_shield",
+        "quark:cactus_block",
+        "quark:cactus_block",
+        "quark:cactus_block",
+        "quark:cactus_block",
+        "quark:cactus_block"
+    ],9000)
+
     Enchanting("majruszsenchantments:misanthropy",1,[
         "kubejs:enchanting_rune_of_pain",
         "kubejs:infused_emerald"
@@ -914,6 +1002,27 @@ ServerEvents.recipes(event=>{
         "fermented_spider_eye",
         "fermented_spider_eye"
     ],10000)
+
+    Enchanting("apotheosis:shield_bash",1,[
+        "kubejs:enchanting_rune_of_pain",
+        "kubejs:primitive_shield",
+        "quark:cactus_block"
+    ],2000)
+
+    Enchanting("apotheosis:shield_bash",2,[
+        "kubejs:enchanting_rune_of_pain",
+        "kubejs:primitive_shield",
+        "quark:cactus_block",
+        "quark:cactus_block"
+    ],4000)
+
+    Enchanting("apotheosis:shield_bash",3,[
+        "kubejs:enchanting_rune_of_pain",
+        "kubejs:primitive_shield",
+        "quark:cactus_block",
+        "quark:cactus_block",
+        "quark:cactus_block"
+    ],6000)
 
     Enchanting("minecraft:smite",1,[
         "kubejs:enchanting_rune_of_pain",
@@ -1119,6 +1228,25 @@ ServerEvents.recipes(event=>{
         "create:experience_block"
     ],10000)
 
+    Enchanting("apotheosis:knowledge",1,[
+        "kubejs:large_enchanting_rune_of_wisdom",
+        "sob:bustling_brew",
+        "kubejs:aluminum_sword",
+        "create:experience_block",
+        "create:experience_block"
+    ],5000)
+
+    Enchanting("apotheosis:knowledge",2,[
+        "kubejs:large_enchanting_rune_of_wisdom",
+        "sob:bustling_brew",
+        "kubejs:aluminum_sword",
+        "create:experience_block",
+        "create:experience_block",
+        "create:experience_block",
+        "create:experience_block",
+        "create:experience_block"
+    ],10000)
+
     Enchanting("majruszsenchantments:fuse_cutter",1,[
         "kubejs:big_enchanting_rune_of_wisdom",
         "shield",
@@ -1173,6 +1301,24 @@ ServerEvents.recipes(event=>{
         "kubejs:big_enchanting_rune_of_wisdom",
         "supplementaries:quiver"
     ],5000)
+
+    Enchanting("apotheosis:crescendo",1,[
+        "kubejs:big_enchanting_rune_of_wisdom",
+        "minecraft:tripwire_hook"
+    ],3000)
+    
+    Enchanting("apotheosis:crescendo",2,[
+        "kubejs:big_enchanting_rune_of_wisdom",
+        "minecraft:tripwire_hook",
+        "minecraft:tripwire_hook"
+    ],6000)
+
+    Enchanting("apotheosis:crescendo",3,[
+        "kubejs:big_enchanting_rune_of_wisdom",
+        "minecraft:tripwire_hook",
+        "minecraft:tripwire_hook",
+        "minecraft:tripwire_hook"
+    ],10000)
 
     Enchanting("majruszsenchantments:sixth_sense",1,[
         "kubejs:big_enchanting_rune_of_wisdom",
@@ -1316,6 +1462,16 @@ ServerEvents.recipes(event=>{
         "kubejs:infused_diamond",
         "kubejs:infused_diamond"
     ],9000)
+
+    Enchanting("g_abun:absolutelyunbreakable",1,[
+        "kubejs:big_enchanting_rune_of_steel",
+        "kubejs:big_enchanting_rune_of_steel",
+        "kubejs:big_enchanting_rune_of_steel",
+        "kubejs:big_enchanting_rune_of_steel",
+        "kubejs:large_enchanting_rune_of_infinity",
+        "kubejs:large_enchanting_rune_of_infinity",
+        "immersiveengineering:plate_steel"
+    ],10000)
 
     Enchanting("minecraft:feather_falling",1,[
         "kubejs:enchanting_rune_of_agility",
@@ -1551,6 +1707,24 @@ ServerEvents.recipes(event=>{
         "naturesaura:token_fear"
     ],9000)
 
+    Enchanting("apotheosis:berserkers_fury",1,[
+        "kubejs:big_enchanting_rune_of_pain",
+        "naturesaura:token_rage"
+    ],3000)
+
+    Enchanting("apotheosis:berserkers_fury",2,[
+        "kubejs:big_enchanting_rune_of_pain",
+        "naturesaura:token_rage",
+        "naturesaura:token_rage"
+    ],6000)
+
+    Enchanting("apotheosis:berserkers_fury",3,[
+        "kubejs:big_enchanting_rune_of_pain",
+        "naturesaura:token_rage",
+        "naturesaura:token_rage",
+        "naturesaura:token_rage"
+    ],9000)
+
     Enchanting("veinmining:vein_mining",1,[
         "kubejs:big_enchanting_rune_of_wisdom",
         "tnt",
@@ -1587,11 +1761,6 @@ ServerEvents.recipes(event=>{
         "twilightforest:naga_scale"
     ],10000)
 
-    event.recipes.ars_nouveau.enchantment(
-        Item.of('minecraft:enchanted_book').enchant('minecraft:unbreaking', 10),
-        "g_abun:absolutelyunbreakable",
-        1,
-        10000)
    
     
     
