@@ -4,57 +4,42 @@
       {
         "rolls": 1,
         "entries": [
-            {
+              {
                 "type": "item",
-                "weight": 1,
-                "name": "irons_spellbooks:fireward_ring"
+                "weight": 5,
+                "name": "kubejs:large_enchanting_rune_of_infinity"
               },
               {
                 "type": "item",
-                "weight": 1,
-                "name": "aether:regeneration_stone"
+                "weight": 5,
+                "name": "kubejs:large_enchanting_rune_of_wisdom"
+              },
+              {
+                "type": "item",
+                "weight": 5,
+                "name": "kubejs:large_enchanting_rune_of_luck"
+              },
+              {
+                "type": "item",
+                "weight": 3,
+                "name": "kubejs:enchanted_watch"
                 
               },
               {
                 "type": "item",
                 "weight": 1,
-                "name": "tide:blazing_swordfish",
+                "name": "minecraft:enchanted_book",
                 "functions": [
                   {
                     "function": "set_nbt",
-                    "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    "tag": "{Enchantments:[{id:\"g_abun:absolutelyunbreakable\",lvl:3s}]}"
                   }
                 ]
               },
               {
                 "type": "item",
-                "weight": 1,
-                "name": "ancient_aether:strength_stone"
-              },
-              {
-                "type": "item",
-                "weight": 1,
-                "name": "aether:ice_pendant"
-              },
-              {
-                "type": "item",
-                "weight": 1,
-                "name": "kubejs:ruby_pendant"
-              },
-              {
-                "type": "item",
-                "weight": 1,
-                "name": "twilightforest:charm_of_life_2"
-              },
-              {
-                "type": "item",
-                "weight": 1,
-                "name": "kubejs:nutrition_charm"
-              },
-              {
-                "type": "item",
-                "weight": 1,
-                "name": "kubejs:bulking_ring"
+                "weight": 3,
+                "name": "aether:iron_bubble"
               }
         ]
       },
@@ -63,28 +48,28 @@
         "entries": [
             {
                 "type": "item",
-                "name": "kubejs:gold_upgrade_smithing_template",
-                "weight": 8
-            },
-            {
-                "type": "item",
-                "name": "kubejs:steel_upgrade_smithing_template",
-                "weight": 8
-            },
-            {
-                "type": "item",
-                "name": "kubejs:obsidian_upgrade_smithing_template",
+                "name": "kubejs:depth_upgrade_smithing_template",
                 "weight": 5
             },
             {
                 "type": "item",
-                "name": "kubejs:arcane_gold_upgrade_smithing_template",
+                "name": "kubejs:netherite_battlemage_upgrade_smithing_template",
                 "weight": 5
             },
             {
                 "type": "item",
-                "name": "kubejs:phoenix_upgrade_smithing_template",
-                "weight": 2
+                "name": "kubejs:skyseeker_upgrade_smithing_template",
+                "weight": 3
+            },
+            {
+                "type": "item",
+                "name": "kubejs:arcane_fortress_upgrade_smithing_template",
+                "weight": 5
+            },
+            {
+                "type": "item",
+                "name": "deep_aether:stormforged_smithing_template",
+                "weight": 3
             }
         ]
       },
@@ -97,7 +82,7 @@
             },
             {
               "type": "item",
-              "name": "kubejs:nether_key",
+              "name": "kubejs:aether_key",
               "weight": 1
             }
         ]
@@ -112,7 +97,7 @@
             "functions": [
               {
                 "function": "set_count",
-                "count": 1
+                "count": 2
               }
             ]
           },
@@ -123,30 +108,19 @@
             "functions": [
               {
                 "function": "set_count",
-                "count": 2
+                "count": 4
               }
             ]
           },
           {
             "type": "item",
             "weight": 1,
-            "name": "minecraft:ender_pearl",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 8
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 3,
-            "name": "rubinated_nether:ruby",
+            "name": "deep_aether:skyjade",
             "functions": [
               {
                 "function": "set_count",
                 "count": {
-                  "min": 12,
+                  "min": 16,
                   "max": 32
                 }
               }
@@ -155,13 +129,13 @@
           {
             "type": "item",
             "weight": 3,
-            "name": "minecraft:netherite_scrap",
+            "name": "aether:zanite_gemstone",
             "functions": [
               {
                 "function": "set_count",
                 "count": {
-                  "min": 3,
-                  "max": 6
+                  "min": 16,
+                  "max": 32
                 }
               }
             ]
@@ -169,13 +143,27 @@
           {
             "type": "item",
             "weight": 3,
-            "name": "minecraft:magma_cream",
+            "name": "kubejs:gravitite_ingot",
             "functions": [
               {
                 "function": "set_count",
                 "count": {
-                  "min": 24,
-                  "max": 48
+                  "min": 4,
+                  "max": 12
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 3,
+            "name": "minecraft:wither_skeleton_skull",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 4,
+                  "max": 8
                 }
               }
             ]
@@ -190,85 +178,74 @@
         "entries": [
           {
             "type": "item",
-            "weight": 1,
-            "name": "farmersdelight:pasta_with_meatballs",
+            "weight": 2,
+            "name": "aether:golden_gummy_swet",
             "functions": [
               {
                 "function": "set_count",
-                "count": 10
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 2,
+            "name": "aether:blue_gummy_swet",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 2,
+            "name": "ancient_aether:festive_gummy_swet",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 2,
+            "name": "vintagedelight:cheese_pizza",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 8
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 2,
+            "name": "vintagedelight:meat_pizza",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 8
               }
             ]
           },
           {
             "type": "item",
             "weight": 1,
-            "name": "mynethersdelight:nether_burger",
+            "name": "kubejs:power_arrow",
             "functions": [
               {
                 "function": "set_count",
-                "count": 10
+                "count": 48
               }
             ]
           },
           {
             "type": "item",
             "weight": 1,
-            "name": "mynethersdelight:spicy_noodle_soup",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 6
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "mynethersdelight:stuffed_pepper",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 12
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "mynethersdelight:spicy_skewer",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 16
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "kubejs:nature_essence",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 6
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "kubejs:lightning_arrow",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 24
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "supplementaries:fire_pit",
+            "name": "deep_aether:skyjade_lantern",
             "functions": [
               {
                 "function": "set_count",

@@ -5,3 +5,8 @@
     }
 })*/
 
+ItemEvents.rightClicked("carrot_on_a_stick",event=>{
+
+    
+    //console.log(Ingredient.of("#dq:tier2/tool").itemIds)
+})
