@@ -1450,6 +1450,7 @@
 		}
 		{
 			dependencies: ["38ADADE5E8F17847"]
+			description: ["Doesn't need Soul Core like EMI might suggest"]
 			icon: "mbd2:infernal_smelter"
 			id: "5B063A590937C1F0"
 			rewards: [{
@@ -1480,6 +1481,7 @@
 				"23D3902848A335F6"
 				"5E2DEB87FECEDA36"
 			]
+			hide_until_deps_visible: true
 			id: "47808B1139C7ADD2"
 			rewards: [
 				{

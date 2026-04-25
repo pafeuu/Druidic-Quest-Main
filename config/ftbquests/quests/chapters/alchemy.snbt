@@ -86,7 +86,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["0024030A8C170534"]
+			dependencies: [
+				"0024030A8C170534"
+				"180B7C19875A9115"
+			]
 			id: "1F1B1BF62C2E14CA"
 			rewards: [{
 				id: "6D5696CFACA1C29B"
@@ -276,6 +279,45 @@
 			}]
 			x: -6.0d
 			y: -8.5d
+		}
+		{
+			dependencies: ["0FE985C7CD170DA6"]
+			icon: "wizards_reborn:alchemy_boiler"
+			id: "180B7C19875A9115"
+			rewards: [
+				{
+					count: 8
+					id: "194A4B0181AEC87D"
+					item: "wizards_reborn:alchemy_glass"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "44776EF6EDA3E54D"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "119BC86BAB567EFA"
+					item: "wizards_reborn:alchemy_furnace"
+					type: "item"
+				}
+				{
+					id: "6CCFF50DC689B171"
+					item: "wizards_reborn:alchemy_machine"
+					type: "item"
+				}
+				{
+					id: "4A60E30A16286D81"
+					item: "wizards_reborn:alchemy_boiler"
+					type: "item"
+				}
+			]
+			title: "Alchemical Machinery"
+			x: -4.0d
+			y: -0.5d
 		}
 	]
 	title: "Alchemy"

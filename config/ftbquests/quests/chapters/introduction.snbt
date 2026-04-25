@@ -59,6 +59,7 @@
 							Damage: 120
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -194,17 +195,15 @@
 			]
 			subtitle: "But are you in a condition to fight?"
 			tasks: [{
-				id: "0F3FB0935B2A1651"
+				id: "14B86732A07B83B4"
 				item: {
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						display: {
-							Name: "{\"text\":\"Early game weapon\"}"
-						}
-						"ftbfiltersystem:filter": "or(item(minecraft:stone_sword)item(kubejs:stone_claymore)item(minecraft:wooden_sword)item(kubejs:mossy_sword)item(kubejs:flint_spear)item(farmersdelight:flint_knife))"
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(dq:tier0/weapon)"
 					}
 				}
+				title: "Any #dq:tier0/weapon"
 				type: "item"
 			}]
 			title: "New Combat System!"
@@ -277,13 +276,13 @@
 			id: "7E2375F791287F5E"
 			rewards: [
 				{
-					id: "467A59459132A64C"
-					item: "farmersdelight:grilled_salmon"
+					id: "39FD7F3D9D149FA0"
+					item: "tide:angling_table"
 					type: "item"
 				}
 				{
-					id: "13BA1A1C80445289"
-					item: "tide:angler_workshop"
+					id: "68E6AD78F9C9E004"
+					item: "tide:fish_satchel"
 					type: "item"
 				}
 			]
@@ -890,8 +889,8 @@
 				}
 				{
 					count: 4
-					id: "3A25233FC71AD111"
-					item: "minecraft:mutton"
+					id: "597053002C9F28C3"
+					item: "naturesaura:gold_leaf"
 					type: "item"
 				}
 			]
@@ -899,9 +898,9 @@
 			subtitle: "All that glitters..."
 			tasks: [
 				{
-					count: 8L
+					count: 12L
 					id: "4E57D72FF6B70120"
-					item: { Count: 8, id: "naturesaura:gold_leaf" }
+					item: "naturesaura:gold_leaf"
 					type: "item"
 				}
 				{
@@ -1742,6 +1741,7 @@
 		}
 		{
 			dependencies: ["4995F4B02484AECC"]
+			description: ["&4&lMake sure you only have an empty lunchbag in your inventory before you submit it!&r&r"]
 			icon: {
 				Count: 1
 				ForgeCaps: {

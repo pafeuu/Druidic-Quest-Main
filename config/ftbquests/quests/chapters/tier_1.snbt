@@ -124,7 +124,7 @@
 				type: "item"
 			}]
 			title: "Basic Automation Material"
-			x: 7.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -272,7 +272,7 @@
 				}
 			]
 			title: "Plates"
-			x: 11.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -420,7 +420,7 @@
 				type: "item"
 			}]
 			title: "Redstone Innovations!"
-			x: 7.0d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -440,8 +440,8 @@
 				type: "item"
 			}]
 			title: "Easier Block Crafting"
-			x: 11.0d
-			y: -2.0d
+			x: 12.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["118CF02B3B3C899C"]
@@ -537,7 +537,7 @@
 				}
 			]
 			title: "New Tools"
-			x: 6.0d
+			x: 6.5d
 			y: 1.5d
 		}
 		{
@@ -649,8 +649,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -3.5d
+			x: 11.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0C52DC15B58FA6DF"]
@@ -678,8 +678,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -3.5d
+			x: 13.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2C7DD9A9CEA857D0"]
@@ -721,8 +721,8 @@
 				item: "woodenhopper:wooden_hopper"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 7.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["42453AA97CCD3970"]
@@ -740,7 +740,7 @@
 				item: "sophisticatedstorage:basic_tier_upgrade"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -2.5d
 		}
 		{
@@ -763,7 +763,7 @@
 				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -4.0d
 		}
 		{
@@ -781,7 +781,7 @@
 				item: "farmersdelight:basket"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -5.0d
 		}
 		{
@@ -800,7 +800,7 @@
 				item: "immersiveengineering:crate"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 1.5d
 		}
 		{
@@ -932,7 +932,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: -1.5d
 		}
 		{
@@ -990,7 +990,7 @@
 				item: "supplementaries:cog_block"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.5d
 			y: -2.5d
 		}
 		{
@@ -1043,7 +1043,7 @@
 				}
 			]
 			title: "First Fluid Transportation"
-			x: 11.0d
+			x: 12.0d
 			y: 2.5d
 		}
 		{
@@ -1117,7 +1117,7 @@
 				type: "item"
 			}]
 			title: "Plate Automation"
-			x: 9.5d
+			x: 13.0d
 			y: 1.5d
 		}
 		{
@@ -1283,7 +1283,7 @@
 			]
 			title: "AOE Tools"
 			x: 18.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["089147A7CE1A1DC6"]
@@ -1372,7 +1372,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5C199D8DE803D331"]
@@ -1401,7 +1401,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.0d
 			y: -1.5d
 		}
 		{
@@ -1469,11 +1469,12 @@
 				type: "item"
 			}]
 			title: "The Fluffiest Elevator"
-			x: 7.0d
-			y: 7.0d
+			x: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5C199D8DE803D331"]
+			description: ["Pretty slow but  can be very nice if your base is around hills and mountains"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1485,15 +1486,9 @@
 				id: "immersiveengineering:skyhook"
 			}
 			id: "446FE3CE5EF63B99"
-			rewards: [{
-				count: 3
-				id: "12A918F060CF95F3"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [
+			rewards: [
 				{
-					id: "122A635B65AEFE2B"
+					id: "538EC114C9648422"
 					item: {
 						Count: 1
 						ForgeCaps: {
@@ -1507,18 +1502,33 @@
 					type: "item"
 				}
 				{
-					id: "50FDD786BEEF7E36"
+					count: 12
+					id: "2563947B90181FEA"
 					item: "immersiveengineering:connector_structural"
 					type: "item"
 				}
 				{
-					id: "553B76D81EF073B5"
+					count: 12
+					id: "645AC74EFD10373F"
 					item: "immersiveengineering:wirecoil_structure_rope"
 					type: "item"
 				}
+				{
+					count: 12
+					id: "02802741082E1CB1"
+					item: "immersiveengineering:treated_post"
+					type: "item"
+				}
 			]
+			shape: "pentagon"
+			size: 1.1d
+			tasks: [{
+				id: "0D265BD9275AE200"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
 			title: "Ziplines!"
-			x: 12.5d
+			x: 11.0d
 			y: 1.5d
 		}
 		{
@@ -1563,6 +1573,44 @@
 			}]
 			x: 28.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["118CF02B3B3C899C"]
+			description: ["Gliders and Elytras will gain upwards momentum when you fly over campfires with haybales undearneath them!"]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:glider"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73843A4DDF7D11B3"
+			rewards: [
+				{
+					id: "35C850C8F01A730A"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					id: "25D12A225F8A1608"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4DFC97F06B49DE0F"
+				item: {
+					Count: 1
+					id: "immersiveengineering:glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Glider"
+			x: 7.5d
+			y: 2.5d
 		}
 	]
 	title: "Tier 1 - Basic Magic"

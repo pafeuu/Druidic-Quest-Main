@@ -711,6 +711,19 @@
 			x: 12.0d
 			y: -7.5d
 		}
+		{
+			dependencies: ["5E369306ED039634"]
+			icon: "alexsmobs:sculk_boomer"
+			id: "4454D664EEECD423"
+			tasks: [{
+				id: "0DA5FE3FE279AA9D"
+				item: "alexsmobs:sculk_boomer"
+				type: "item"
+			}]
+			title: "Alex's Mobs Way"
+			x: 10.0d
+			y: 0.5d
+		}
 	]
 	title: "Automation"
 }
