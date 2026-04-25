@@ -4208,6 +4208,13 @@ Spells will only be disabled in new worlds or if you reset the server config
     -ColorfulHearts
     -InControl
     -ConnectibleChains
+    -CoroUtil
+    -PigPen
+    -CerbonsAPI
+    -DarkGlint
+    -Athena
+    -Fusion
+    -TenshiLib
 
 ### Added mods:
     -EnhancedAI
@@ -4215,9 +4222,6 @@ Spells will only be disabled in new worlds or if you reset the server config
     -WitherReincarnated
     -OverflowingBars
     -Corpse
-    -CorpsexCuriosCompat
-    -CorpsexCosmeticArmorCompat
-    -BaguetteLib
     -Corpse Complex
     -IllagersWearArmor
     -Apotheosis
@@ -4227,7 +4231,6 @@ Spells will only be disabled in new worlds or if you reset the server config
     -CrashAsistant
     -IronsLib
     -ReliableRemover
-    -ReliableRecipes
     -Pehkui
     -ReconnectibleChains
 
@@ -4286,6 +4289,14 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Added for Reinforced Tool Handle
     -Changed for Ender Tool Handle
     -Changed for all the alchemical dusts
+    -Changed for Enchanted Calx
+    -Changed for Distant Calx
+    -Changed for Powder of Barrens
+    -Changed for Powder of Bountiful Core
+    -Changed for Powder of No Storage
+    -Changed for Powder of Steady Growth
+    -Changed for Powder of Fertility
+    -Added for Spirit of Birthing
 
 ### Textures:
     -Reworked Iron Scythe Textures
@@ -4349,6 +4360,7 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Enchantment types and levels were heavily nerfed
     -Enchanted Books now appear in loottables
     -Changed Buried Treasure Loottable
+    -Lapis ore now drops only one lapis lazuli per block(still works with fortune)
 
 ### Other:
     -Sorted emi tabs order
