@@ -492,7 +492,7 @@ LootJS.modifiers((event) => {
     DeepslateOres('minecraft:deepslate_redstone_ore','minecraft:redstone', 5)
     DeepslateOres('minecraft:deepslate_diamond_ore',"diamond",1)
     DeepslateOres('minecraft:deepslate_emerald_ore',"emerald",1)
-    DeepslateOres('minecraft:deepslate_lapis_ore',"minecraft:lapis_lazuli",7)
+    DeepslateOres('minecraft:deepslate_lapis_ore',"minecraft:lapis_lazuli",1)
     DeepslateOres('create:deepslate_zinc_ore',"create:raw_zinc",1)
     DeepslateOres('thermal:deepslate_sulfur_ore',"thermal:sulfur",4)
     DeepslateOres('thermal:deepslate_niter_ore',"thermal:niter",4)
