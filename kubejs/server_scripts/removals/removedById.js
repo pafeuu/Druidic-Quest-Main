@@ -1,6 +1,15 @@
 ServerEvents.recipes(event=>{
     let removeById = [
         "deep_aether:squall_plate_from_smelting",
+        "naturesaura:tree_ritual/nether_grass_powder",
+        "naturesaura:tree_ritual/ore_spawn_powder",
+        "naturesaura:tree_ritual/cache_powder",
+        "vintageimprovements:craft/curving_press",
+        "vintageimprovements:craft/vacuum_chamber",
+        "vintageimprovements:craft/laser",
+        "vintageimprovements:craft/centrifuge",
+        "naturesaura:tree_ritual/animal_powder",
+        "naturesaura:tree_ritual/plant_powder",
         "thermal:devices/tree_extractor/tree_extractor_spruce",
         "immersiveengineering:fermenter/sweet_berries",
         "immersiveengineering:crusher/sandstone",
