@@ -164,6 +164,47 @@ ServerEvents.recipes(event=>{
 		{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}}
 	)
     
+    event.custom({
+        "type": "lychee:lightning_channeling",
+        "contextual": [
+                {
+                "type": "chance",
+                "chance": 0.99
+                }
+            ],
+        "post": [
+            {
+            "type": "drop_item",
+            "item": "naturesaura:birth_spirit"
+            },
+            {
+            "type": "drop_item",
+            "item": "kubejs:life_essence"
+            },
+            ParticleGreenFire,
+            SoundEffectTransmutation
+        ],
+        "item_in": [
+            {
+            "item": "kubejs:life_essence"
+            },
+            {
+            "item": "minecraft:rabbit"
+            },
+            {
+            "item": "minecraft:beef"
+            },
+            {
+            "item": "minecraft:chicken"
+            },
+            {
+            "item": "minecraft:mutton"
+            },
+            {
+            "item": "minecraft:porkchop"
+            }
+        ]
+    })
 
     
 })
