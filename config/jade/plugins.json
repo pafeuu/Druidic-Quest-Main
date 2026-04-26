@@ -42,7 +42,7 @@
     "block_states": false,
     "lectern": true,
     "entity_armor": true,
-    "harvest_tool.creative": false,
+    "harvest_tool.creative": true,
     "horse_stats": true,
     "item_tooltip": true,
     "entity_health": true,
@@ -82,9 +82,7 @@
     "mod_name": true
   },
   "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
+    "ench": true
   },
   "balm": {
     "jade": true

@@ -913,17 +913,6 @@
         "value": 100
       }
     },
-    "fyshisattribute:hungersteal": {
-      "enabled": false,
-      "min": {
-        "default": -255,
-        "value": -255
-      },
-      "max": {
-        "default": 255,
-        "value": 255
-      }
-    },
     "fluffy_fur:size_scale": {
       "enabled": false,
       "min": {
@@ -933,6 +922,17 @@
       "max": {
         "default": 5,
         "value": 5
+      }
+    },
+    "fyshisattribute:hungersteal": {
+      "enabled": false,
+      "min": {
+        "default": -255,
+        "value": -255
+      },
+      "max": {
+        "default": 255,
+        "value": 255
       }
     },
     "l2damagetracker:damage_absorption": {
