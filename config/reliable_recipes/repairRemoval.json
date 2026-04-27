@@ -1,0 +1,6 @@
+[
+  {
+    "action": "prevent_repair",
+    "target": "/.*:*/"
+  }
+]
