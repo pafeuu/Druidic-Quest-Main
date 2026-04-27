@@ -4176,16 +4176,12 @@ Spells will only be disabled in new worlds or if you reset the server config
     -PigPen
     -PufferfishAttributes
     -RangedJS
-    -RawVisualKeybinder
-    -SillyOddities
-    -SuperMartinCoreLib
     -Tips
     -ToolStats
     -Tide
     -TooltipOverhaul
     -Waystones
     -CreativeCore
-    -SillyOddities
     -Horseman
     -Ldlib
     -LycheeTweaker
@@ -4196,8 +4192,29 @@ Spells will only be disabled in new worlds or if you reset the server config
     -EveryCompat
     -ExplorerCompass
     -TooManyRecipeViewers
-
-    !-FluffyFur
+    -FluffyFur
+    -ChatHeads
+    -clickableAdv
+    -Collective
+    -CupboardUtilities
+    -EntityJS
+    -farmersdelight
+    -FTBChunks
+    -FTBQuests
+    -InsaneLib
+    -IntegratedAPI
+    -IDAS
+    -Ldlib
+    -Moonlight
+    -OhtheTreesYoullGrow
+    -Patchouli
+    -Platform
+    -RawVisualKeybinder
+    -SillyOddities
+    -StructureEssential
+    -SuperMartinCoreLib
+    -VanillaBackport
+    -XaeroWaystoneCompatibility
 
 
 ### Removed mods:
