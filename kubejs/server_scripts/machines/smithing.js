@@ -148,6 +148,10 @@ ServerEvents.recipes(event=>{
 		"kubejs:etherium_upgrade_smithing_template",
 		"enigmaticlegacy:etherium_ingot"
 	)
+	event.smithing("enigmaticlegacy:etherium_scythe",
+		"kubejs:stormforged_hoe",
+		"kubejs:etherium_upgrade_smithing_template",
+		"enigmaticlegacy:etherium_ingot").id("enigmaticlegacy:etherium_scythe")
 
 	
 
