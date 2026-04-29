@@ -114,7 +114,7 @@ JEIEvents.information(event => {
 
     event.addItem("deep_aether:medal_of_honor",["Drops from Valkyrie Queen after deafeating her without taking a single hit"])
 
-    event.addItem([['kubejs:corrupted_soul', 'quark:soul_bead', 'kubejs:enchanted_soul'],["Drops from certain mobs when using soul harvester weapon or holding bejeweled crucifix in the offhand"]])
+    event.addItem(['kubejs:corrupted_soul', 'quark:soul_bead', 'kubejs:enchanted_soul'],["Drops from certain mobs when using soul harvester weapon or holding bejeweled crucifix in the offhand"])
     
   })
 
