@@ -8,4 +8,5 @@ StartupEvents.modifyCreativeTab('minecraft:redstone_blocks', event => {
 	event.addAfter('minecraft:redstone',"quark:crate")
 	event.addAfter('minecraft:redstone','deep_aether:stormforged_smithing_template')
 	event.addAfter('minecraft:redstone','deep_aether:squall_plate')
+	event.addAfter('minecraft:redstone','deep_aether:squall_block')
 })

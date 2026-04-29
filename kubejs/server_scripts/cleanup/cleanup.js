@@ -194,6 +194,7 @@ ServerEvents.recipes(event => {
 
 	SmallStorageCompacting("thermal:ruby_block","thermal:ruby")
 	SmallStorageCompacting("thermal:sapphire_block","thermal:sapphire")
+	SmallStorageCompacting("deep_aether:squall_block","deep_aether:squall_plate")
 
 
 	//============================= Dusts
