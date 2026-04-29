@@ -3,7 +3,6 @@ ServerEvents.recipes(event=>{
     Ingredient.of(["#dq:eternity_token_applicable"]).itemIds.forEach(tool=>{
 
         let recipeId = tool.replace(":","_")
-
         event.shapeless(tool, ["kubejs:eternity_token", tool])
         .id(`kubejs:eternity_token_${recipeId}`)
         .modifyResult((grid, result) => {

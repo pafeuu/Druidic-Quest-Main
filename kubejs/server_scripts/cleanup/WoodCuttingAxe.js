@@ -40,8 +40,6 @@ ItemEvents.rightClicked(event => {
 	StrippedWoodCutting("deep_aether:conberry_planks","deep_aether:stripped_conberry_log")
 	StrippedWoodCutting("deep_aether:sunroot_planks","deep_aether:stripped_sunroot_log")
 	StrippedWoodCutting("deep_aether:roseroot_planks","deep_aether:stripped_roseroot_log")
-	StrippedWoodCutting("deeperdarker:echo_planks","deeperdarker:stripped_echo_log")
-	StrippedWoodCutting("deeperdarker:bloom_planks","deeperdarker:stripped_blooming_stem")
 	StrippedWoodCutting("mynethersdelight:powdery_planks","mynethersdelight:stripped_powdery_block")
 	StrippedWoodCutting("quark:ancient_planks","quark:stripped_ancient_log")
 	StrippedWoodCutting("quark:azalea_planks","quark:stripped_azalea_log")

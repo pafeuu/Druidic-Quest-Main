@@ -196,6 +196,8 @@ ServerEvents.recipes(event =>{
 			result: planks
 		  })
 
+		  event.recipes.farmersdelight.cutting(log,"#minecraft:axes",Item.of(planks,2))
+		  
 		event.remove({output:planks, type:"minecraft:crafting_shapeless"}) // Removes default shapeless recipe recipe
 	}
 	
