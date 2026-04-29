@@ -24,8 +24,8 @@ ItemEvents.toolTierRegistry(event => {
 
   event.add('lumber', tier =>
     {
-      tier.uses = 512
-      tier.speed = 1
+      tier.uses = -1
+      tier.speed = 3
       tier.level = 0
       tier.attackDamageBonus = 0.0
       tier.repairIngredient = "#minecraft:logs"
