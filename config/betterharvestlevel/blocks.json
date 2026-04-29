@@ -1,0 +1,20 @@
+{
+  "configVersion": 1,
+  "overrides": [
+    {
+    "target": "minecraft:end_stone",
+    "type": "block",
+    "requiredTier": "aluminum"
+    },
+    {
+    "target": "aether",
+    "type": "mod",
+    "requiredTier": "netherite"
+    },
+    {
+      "target": "minecraft:deepslate",
+      "type": "block",
+      "requiredTier": "lead"
+    }
+  ]
+}

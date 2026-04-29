@@ -1,0 +1,20 @@
+{
+  "configVersion": 1,
+  "overrides": [
+    {
+      "target": "#forge:tools/bronze",
+      "type": "tag",
+      "requiredTier": "netherite"
+    },
+    {
+      "target": "#forge:tools/arcane_wood",
+      "type": "tag",
+      "requiredTier": "iron"
+    },
+    {
+      "target": "#forge:tools/innocent_wood",
+      "type": "tag",
+      "requiredTier": "lead"
+    }
+  ]
+}
