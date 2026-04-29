@@ -4320,6 +4320,7 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Added for Spirit of Birthing
     -Fixed for etherium scythe
     -Added for making planks in a cutting board allowing early game automation of planks
+    -Added for Squall Plate
 
 ### Textures:
     -Reworked Iron Scythe Textures
@@ -4376,6 +4377,8 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Removed Gold Fuelled 
     -Removed Harvester 
     -Removed Magic Protection 
+    -Removed Gloves Reach
+    -Removed Reactive
 
 ### Loot:
     -Buffed Warden loottable
