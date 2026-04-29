@@ -147,6 +147,10 @@ StartupEvents.registry('item', item => {
   item.create('death_essence').displayName('Death Essence').tag('forge:essences').tag("dq:tier3/component")
   item.create('lightning_essence').tag("forge:essences").tag("dq:tier3/component")
   item.create('electricity_essence').tag("forge:essences").tag("dq:tier4/component")
+  item.create('color_essence').tag("forge:essences").tag("dq:tier4/component")
+
+  //item.create("cosmos_essence").tag("forge:essences").tag("dq:tier5/component")
+  //item.create("creativity_essence").tag("forge:essences").tag("dq:tier5/component")
 
   ///===================================================RUNES===========================================================
   
@@ -235,6 +239,7 @@ StartupEvents.registry('item', item => {
   item.create("twilight_tome")
   item.create('fiery_clay_blend').displayName('Fiery Clay Blend')
   item.create('basic_token').displayName('Basic Token')
+  item.create('eternity_token').displayName('Token of Eternity').tag("dq:tier4/component").glow(true)
   item.create("elemental_core").rarity("legendary")
   item.create("incomplete_cake").tag("c:hidden_from_recipe_viewers")
 

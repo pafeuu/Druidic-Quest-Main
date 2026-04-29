@@ -166,6 +166,16 @@ ServerEvents.recipes(event => {
     { type: 'item', name: "create:rose_quartz" }
   ]);
 
+  Infusing("kubejs:eternity_token",1,[
+    {type:'item', name:"naturesaura:token_grief"},
+    {type:'item', name:"naturesaura:break_prevention"},
+    {type:'item', name:"irons_spellbooks:mithril_weave"},
+    {type:'item', name:"irons_spellbooks:mithril_weave"},
+    {type:'item', name:"irons_spellbooks:mithril_weave"},
+    {type:'item', name:"kubejs:large_enchanting_rune_of_infinity"},
+    {type:'item', name:"thermal:ruby_block"},
+  ])
+
   
 
 })

@@ -9,7 +9,19 @@ ServerEvents.tags("item",e=>{
     'naturesaura:depth_axe',
     'kubejs:sacrificial_dagger',
   ])
-
+  e.add("dq:eternity_token_applicable",[
+    "#minecraft:pickaxes",
+    "#minecraft:axes",
+    "#minecraft:shovels",
+    "#minecraft:hoes",
+    "#minecraft:swords",
+    "#forge:armors/helmets",
+    "#forge:armors/chestplates",
+    "#forge:armors/leggings",
+    "#forge:armors/boots",
+    "#forge:tools",
+    "#minecraft:tools"
+  ])
   e.add("dq:recycler_fuel",["aether:ambrosium_shard","aether:ambrosium_block"])
 
   e.add("dq:kiln_fuel",["kubejs:fire_infused_arcanum","minecraft:blaze_powder","blaze_rod","quark:blaze_lantern","kubejs:sunbird_feather","ars_nouveau:fire_essence"])

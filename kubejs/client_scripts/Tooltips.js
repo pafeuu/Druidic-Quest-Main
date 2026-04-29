@@ -511,7 +511,8 @@ ItemEvents.tooltip( tooltip => {
     "aether:flaming_sword",
     "ancient_aether:ancient_sword",
     "aether:holy_sword",
-    "aether:lightning_sword"],
+    "aether:lightning_sword",
+    "kubejs:lumber_axe"],
     (item, advanced, text) => {
     text.add(1, Text.of("Unbreakable").blue())
     })
@@ -597,6 +598,10 @@ ItemEvents.tooltip( tooltip => {
 
   tooltip.addAdvanced("naturesaura:hopper_upgrade", (item, advanced, text) => {
       text.add(1, Text.blue('Only works with Hoppers and Filtered Hoppers'))    
+  })
+
+  tooltip.addAdvanced("kubejs:eternity_token", (item, advanced, text) => {
+      text.add(1, Text.blue('Combine with an item enchanted with mending and unbreaking 3 to make it unbreakable!'))    
   })
   
 })

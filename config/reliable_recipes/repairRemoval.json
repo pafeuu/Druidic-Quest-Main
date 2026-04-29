@@ -1,6 +1,6 @@
 [
   {
     "action": "prevent_repair",
-    "target": "/.*:*/"
+    "target": "/.*:.*/"
   }
 ]

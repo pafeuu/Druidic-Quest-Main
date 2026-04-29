@@ -4133,6 +4133,7 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Gravitite Rod
     -Gravitite Gear
     -Gravitite Sheet
+    -Eternity Token
 
 ### Removed Items:
     -Starbattery
@@ -4250,6 +4251,9 @@ Spells will only be disabled in new worlds or if you reset the server config
     -ReliableRemover
     -Pehkui
     -ReconnectibleChains
+    -SophisticatedItemActions
+    -SophisticatedSorter
+    -Treeliable
 
 ### Reworked Items:
     -ArsN Warp Scroll(Put it in the crafting grid to change it into the new version) it can no longer create warp portals
@@ -4314,6 +4318,7 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Changed for Powder of Steady Growth
     -Changed for Powder of Fertility
     -Added for Spirit of Birthing
+    -Fixed for etherium scythe
 
 ### Textures:
     -Reworked Iron Scythe Textures
@@ -4330,6 +4335,7 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Scorched mines has been moved to the nether
     -Structures in aether are now more common
     -Replaced Blue berry bushes in forests
+    -Twigs and Pebbles are more common
 
 ### Player Balance:
     -Player will now slowly gain arcane resistance with experience levels instead of losing it
@@ -4360,14 +4366,12 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Etherium Tools are now unbreakable by default
     -Explorer Compass now has only 8 durability and costs 3 exp levels per search
     -Natures Compass now has only 64 durability and costs 1 exp level per search
-
-    !-Items that were upgraded with a smithing template will now be repaired with the material that the base item was made from(example:phoenix armor is repairable with iron ingots)
+    -Repairing is now done in the crafting table and was completely overhauled
 
 ### Enchantments Balance:
     -Lowered max level of protection to 2
     -Lowered max level of sharpness to 3
     -Lowered max level of efficiency to 3
-    -Increased max level of unbreaking to 10
     -Removed Gold Fuelled 
     -Removed Harvester 
     -Removed Magic Protection 

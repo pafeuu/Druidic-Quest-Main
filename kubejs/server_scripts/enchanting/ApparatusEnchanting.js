@@ -1463,16 +1463,6 @@ ServerEvents.recipes(event=>{
         "kubejs:infused_diamond"
     ],9000)
 
-    Enchanting("g_abun:absolutelyunbreakable",1,[
-        "kubejs:big_enchanting_rune_of_steel",
-        "kubejs:big_enchanting_rune_of_steel",
-        "kubejs:big_enchanting_rune_of_steel",
-        "kubejs:big_enchanting_rune_of_steel",
-        "kubejs:large_enchanting_rune_of_infinity",
-        "kubejs:large_enchanting_rune_of_infinity",
-        "immersiveengineering:plate_steel"
-    ],10000)
-
     Enchanting("minecraft:feather_falling",1,[
         "kubejs:enchanting_rune_of_agility",
         "immersiveengineering:cushion"
