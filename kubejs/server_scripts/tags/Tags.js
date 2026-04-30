@@ -215,19 +215,34 @@ ServerEvents.tags('item', event => {
   event.add("forge:shields","kubejs:primitive_shield")
   event.add("forge:tools","kubejs:primitive_shield")
 
-  function armor(name)
+  function armor(name, type)
   {
     event.add('forge:armors/helmets',name+"_helmet")
     event.add('forge:armors/chestplates',name+"_chestplate")
     event.add('forge:armors/leggings',name+"_leggings")
     event.add('forge:armors/boots',name+"_boots")
+
+    event.add(`forge:armor/${type}`,[
+      `${name}_helmet`,
+      `${name}_chestplate`,
+      `${name}_leggings`,
+      `${name}_boots`
+    ])
   }
-  function natureArmor(name)
+
+  function natureArmor(name, type)
   {
     event.add('forge:armors/helmets',name+"_helmet")
     event.add('forge:armors/chestplates',name+"_chest")
     event.add('forge:armors/leggings',name+"_pants")
     event.add('forge:armors/boots',name+"_shoes")
+
+    event.add(`forge:armor/${type}`,[
+      `${name}_helmet`,
+      `${name}_chest`,
+      `${name}_pants`,
+      `${name}_shoes`
+    ])
   }
 
   function tool(name)
@@ -248,21 +263,51 @@ ServerEvents.tags('item', event => {
 	  event.add('forge:tools/'+tier, name+'_hoe')  
   }
 
-  armor('thermal:beekeeper')
-  armor('thermal:diving')
-  armor('thermal:hazmat')
-  armor('kubejs:copper')
-  armor('kubejs:silver')
-  armor('kubejs:lead')
-  armor('kubejs:bronze')
-  armor('kubejs:cactus')
-  armor('deep_aether:stormforged')
-  natureArmor("naturesaura:infused_iron")
-  natureArmor("naturesaura:sky")
-  natureArmor("naturesaura:depth")
+  armor("irons_spellbooks:netherite_mage","netherite_mage")
+  armor("irons_spellbooks:wizard","wizard")
+  armor("irons_spellbooks:pumpkin","scarecrow")
+  armor("irons_spellbooks:wandering_magician","wandering_magician")
+  armor("irons_spellbooks:archevoker","archevoker")
+  armor("irons_spellbooks:pyromancer","pyromancer")
+  armor("irons_spellbooks:cryomancer","cryomancer")
+  armor("irons_spellbooks:electromancer","electromancer")
+  armor("irons_spellbooks:priest","priest")
+  armor("irons_spellbooks:shadowwalker","shadowwalker")
+  armor("irons_spellbooks:plagued","plagued")
+  armor("irons_spellbooks:cultist","cultist")
+
+  armor("aether:phoenix","phoenix")
+  armor("minecraft:leather","leather")
+  armor("minecraft:chainmail","chainmail")
+  armor("aether:zanite","zanite")
+  armor("deep_aether:skyjade","skyjade")
+  armor("twilightforest:ironwood","ironwood")
+  armor("twilightforest:steeleaf","steeleaf")
+  armor("twilightforest:knightmetal","knightmetal")
+  armor("twilightforest:fiery","fiery")
+  armor("twilightforest:arctic","arctic")
+  armor("twilightforest:yeti","yeti")
+  armor("twilightforest:naga","naga")
+  armor("twilightforest:phantom","phantom")
+  armor("enigmaticlegacy:etherium","etherium")
+  armor("kubejs:cactus","cactus")
+  armor('thermal:beekeeper',"beekeeper")
+  armor('thermal:diving',"diving")
+  armor('thermal:hazmat',"hazmat")
+  armor('kubejs:copper',"copper")
+  armor('kubejs:silver',"silver")
+  armor('kubejs:lead',"lead")
+  armor('kubejs:bronze',"bronze")
+  armor('kubejs:uranium',"uranium")
+  armor('deep_aether:stormforged',"stormforged")
+  armor("wizards_reborn:arcane_gold","arcane_gold")
+  armor("wizards_reborn:arcane_fortress","arcane_fortress")
+  natureArmor("naturesaura:infused_iron","botanist")
+  natureArmor("naturesaura:sky","sky")
+  natureArmor("naturesaura:depth","depth")
+
   tooltier('minecraft:wooden','flint')
   tooltier('minecraft:stone','stone')
-  
   tooltier('naturesaura:infused_iron','botanist')
   tooltier('aether:zanite','zanite')
   tooltier('aether:gravitite','gravitite')
@@ -280,6 +325,7 @@ ServerEvents.tags('item', event => {
 	tool('kubejs:silver')
   tool('kubejs:lead')
   tool('enigmaticlegacy:etherium')
+  event.add('forge:tools/etherium', "enigmaticlegacy:etherium_scythe") 
 
   global.toolTypesWithSword.forEach(type => {
     event.add('forge:tools/steel', `immersiveengineering:${type}_steel`)  

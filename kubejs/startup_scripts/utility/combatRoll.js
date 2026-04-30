@@ -1,4 +1,3 @@
-// requires: combat_roll
 // startup_scripts
 
 StartupEvents.init((event) => {
