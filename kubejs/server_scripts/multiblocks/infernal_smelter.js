@@ -1,3 +1,4 @@
+// priority: 0
 ServerEvents.recipes(event=>{
 
     const smelting = event.recipes.mbd2.infernal_smelting
@@ -26,10 +27,13 @@ ServerEvents.recipes(event=>{
 
     })
 
-    event.forEachRecipe({output:"#forge:ingots",type:"minecraft:smelting"},r=>{
+    event.forEachRecipe({output:"#forge:ingots",type:"minecraft:smelting",not:{input:"#c:hidden_from_recipe_viewers"}},r=>{
 
         let ingredients = r.originalRecipeIngredients
         let output = r.originalRecipeResult
+
+        if(ingredients[0]==="twilightforest:raw_ironwood")
+            return;
 
         smelting()
         .duration(200)
