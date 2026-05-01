@@ -69,7 +69,17 @@ ServerEvents.recipes(event=>{
 		"2x naturesaura:tainted_gold",
 		"2x ars_nouveau:abjuration_essence",
 		"thermal:ruby")
+	
+	kilnWith3Ingredients("4x twilightforest:ironwood_ingot",
+		"3x #forge:ingots/iron",
+		"#forge:ingots/gold",
+		"2x twilightforest:liveroot")
 
+	kilnWith3Ingredients("4x twilightforest:knightmetal_ingot",
+		"2x #forge:ingots/iron",
+		"2x #forge:ingots/lead",
+		"2x twilightforest:armor_shard_cluster")
+	
 	kilnWith2Ingredients("netherite_ingot",
 		"4x wizards_reborn:arcane_gold_ingot",
 		"4x netherite_scrap"
