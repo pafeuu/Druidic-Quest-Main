@@ -76,6 +76,17 @@ ServerEvents.recipes(event=>{
           "#forge:ingots/iron",
      ],"twilightforest:twilight_oak_sapling")
 
+     tree_ritual("3x twilightforest:knightmetal_ingot",[
+          "twilightforest:armor_shard_cluster",
+          "twilightforest:armor_shard_cluster",
+          "#forge:ingots/iron",
+          "#forge:ingots/lead",
+          "#forge:ingots/iron",
+          "#forge:ingots/lead",
+          "#forge:ingots/lead",
+          "#forge:ingots/iron",
+     ],"twilightforest:twilight_oak_sapling")
+
 
      //============================================= Seeds and Saplings =============================================
 
