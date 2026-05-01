@@ -4,6 +4,14 @@ ServerEvents.recipes(e => {
 
     const cutting = e.recipes.farmersdelight.cutting
 
+    function foodSmelting(output,input,exp,timeInSeconds)
+    {
+        e.smelting(output,input,exp,timeInSeconds*20)
+        e.campfireCooking(output,input,exp,timeInSeconds*20)
+        e.smoking(output,input,exp,timeInSeconds*20)
+    }
+    foodSmelting("farmersdelight:fried_egg","#c:eggs",1,10)
+    
     cutting("fruitsdelight:durian","#forge:tools/axes",["2x fruitsdelight:durian_flesh","fruitsdelight:durian_helmet","fruitsdelight:durian_sapling"]).id("fruitsdelight:durian_cutting")
     
     const arsLogs = ["green","purple","blue","red"]
