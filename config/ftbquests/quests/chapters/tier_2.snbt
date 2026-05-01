@@ -696,12 +696,9 @@
 				"00AEA38F60CAAE90"
 			]
 			description: [
-				"The &cAlloy Kiln&r is formed by placing a 2x2x2 of kiln bricks. Right click it with an engineer's hammer to form the multiblock."
+				"This multiblock requires specific fire related magic fuel."
 				""
-				"Or you could create custom Alloy kiln  by crafting the Alloy Kiln block and form a multiblock with 4 alloy bricks and 18 polished darkstone."
-				"This version requires specific fire related magic fuel to function but it can create more alloys and is possible to automate"
-				""
-				"The Alloy Kiln is necessary to combine metals and magical materials into alloys. Inserting the appropriate ingots and other materials will smelt them together to give a completely new matierial!"
+				"Check the uses for the alloy kiln to display how to build it correctly"
 			]
 			icon: "mbd2:alloy_kiln"
 			id: "0628C1A97EB1A5DB"
