@@ -1,0 +1,60 @@
+{
+  "armorSetName": "pyromancer",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "irons_spellbooks:pyromancer_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "irons_spellbooks:pyromancer_chestplate",
+    "mixAndMatch":[
+      "irons_spellbooks:infernal_sorcerer_chestplate"
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "irons_spellbooks:pyromancer_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "irons_spellbooks:pyromancer_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "manaunification:max_mana",
+      "value": 0.5,
+      "modifierUUID": "79ac792e-2253-4e70-b66e-014192bc1490",
+      "description": "50% extra max mana",
+      "attributeOperation": 2
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:fire_spell_power",
+      "value": 0.4,
+      "modifierUUID": "2e600ecd-7888-42e1-8be2-2ba415d59ec5",
+      "description": "40% extra fire spell power",
+      "attributeOperation": 2
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "manaunification:max_mana",
+      "value": 0.5,
+      "modifierUUID": "923a3ceb-9296-4528-9ae3-774415976514",
+      "description": "50% extra max mana",
+      "attributeOperation": 2
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300
+    }
+  ],
+  "hideGeneratedTooltip": false
+}
