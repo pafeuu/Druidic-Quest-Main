@@ -1,6 +1,13 @@
+// priority: 99
+
 ServerEvents.recipes(event=>{
     let removeById = [
+        "farmersdelight:fried_egg",
+        "farmersdelight:fried_egg_from_smoking",
+        "farmersdelight:fried_egg_from_campfire_cooking",
         "deep_aether:squall_plate_from_smelting",
+        "twilightforest:material/smelted_knightmetal_ingot",
+        "twilightforest:material/blasted_knightmetal_ingot",
         "naturesaura:tree_ritual/nether_grass_powder",
         "naturesaura:tree_ritual/ore_spawn_powder",
         "naturesaura:tree_ritual/cache_powder",
