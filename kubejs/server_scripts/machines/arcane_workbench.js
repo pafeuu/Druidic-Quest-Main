@@ -535,6 +535,43 @@ ServerEvents.recipes(event=>{
     "type": "wizards_reborn:arcane_workbench",
     "pattern": [
         "RRR",
+        "RXS",
+        "SSS",
+        "ABCD"
+    ],
+    "key": {
+        "X": {
+        "item": "ars_nouveau:apprentice_spell_book"
+        },
+        "A": {
+        "item": "kubejs:lightning_essence"
+        },
+        "B": {
+        "item": "kubejs:death_essence"
+        },
+        "C": {
+        "item": "kubejs:ender_essence"
+        },
+        "D": {
+        "item": "kubejs:life_essence"
+        },
+        "R":{
+        "item": "kubejs:light_essence"    
+        },
+        "S":{
+        "item": "kubejs:dark_essence"   
+        }
+    },
+    "output": {
+        "item": "ars_nouveau:archmage_spell_book",
+    },
+    "wissen": 5000
+    }).id("ars_nouveau:archmage_spell_book_upgrade")
+
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "RRR",
         "RXR",
         "RRR",
         "__S_"
