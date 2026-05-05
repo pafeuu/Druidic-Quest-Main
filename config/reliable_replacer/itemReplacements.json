@@ -1,0 +1,15 @@
+{
+  "inputs": ["#forge:chests"],
+  "item_replacements": [
+    {
+      "list_name": "Items",
+      "match_id": "irons_spellbooks:arcane_salvage",
+      "replace_id": "irons_spellbooks:mithril_scrap"
+    },
+    {
+      "list_name": "Items",
+      "match_id": "irons_spellbooks:arcane_debris",
+      "replace_id": "irons_spellbooks:mithril_ore"
+    }
+  ]
+}
