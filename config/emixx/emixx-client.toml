@@ -7,5 +7,5 @@
 
 [stackGroups]
 	enableStackGroups = true
-	disabledStackGroups = ["minecraft:head_armor", "minecraft:chest_armor", "minecraft:leg_armor", "minecraft:foot_armor", "minecraft:skulls", "minecraft:minecarts", "c:foods", "c:scrolls", "c:potions", "supplementaries:spikes", "minecraft:stone_buttons", "minecraft:wooden_buttons", "minecraft:copper_blocks"]
+	enableCreateStackGroupButton = true
 
