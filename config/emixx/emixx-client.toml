@@ -3,7 +3,7 @@
 	enableCreativeModeTabs = false
 	syncSelectedCreativeModeTab = true
 	disabledCreativeModeTabs = ["minecraft:op_blocks"]
-	enableBerryTheme = false
+	enableBerryTheme = true
 
 [stackGroups]
 	enableStackGroups = true
