@@ -127,20 +127,6 @@
       {
         "rolls": 1,
         "entries": [
-            {
-              "type": "empty",
-              "weight": 999
-            },
-            {
-              "type": "item",
-              "name": "kubejs:twilight_key",
-              "weight": 1
-            }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
           {
             "type": "item",
             "weight": 1,

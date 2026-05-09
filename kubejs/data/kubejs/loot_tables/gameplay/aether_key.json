@@ -1,259 +1,233 @@
-{   
-    "type": "gameplay",
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-              {
-                "type": "item",
-                "weight": 5,
-                "name": "kubejs:large_enchanting_rune_of_infinity"
-              },
-              {
-                "type": "item",
-                "weight": 5,
-                "name": "kubejs:large_enchanting_rune_of_wisdom"
-              },
-              {
-                "type": "item",
-                "weight": 5,
-                "name": "kubejs:large_enchanting_rune_of_luck"
-              },
-              {
-                "type": "item",
-                "weight": 3,
-                "name": "kubejs:enchanted_watch"
-                
-              },
-              {
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:enchanted_book",
-                "functions": [
-                  {
-                    "function": "set_nbt",
-                    "tag": "{Enchantments:[{id:\"g_abun:absolutelyunbreakable\",lvl:1s}]}"
-                  }
-                ]
-              },
-              {
-                "type": "item",
-                "weight": 3,
-                "name": "aether:iron_bubble"
-              }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
+{
+  "type": "gameplay",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "kubejs:large_enchanting_rune_of_infinity"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "kubejs:large_enchanting_rune_of_wisdom"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "kubejs:large_enchanting_rune_of_luck"
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "kubejs:enchanted_watch"
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "aether:iron_bubble"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:depth_upgrade_smithing_template",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "kubejs:netherite_battlemage_upgrade_smithing_template",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "kubejs:skyseeker_upgrade_smithing_template",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "kubejs:arcane_fortress_upgrade_smithing_template",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "deep_aether:stormforged_smithing_template",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "kubejs:greater_shapeshifting_root",
+          "functions": [
             {
-                "type": "item",
-                "name": "kubejs:depth_upgrade_smithing_template",
-                "weight": 5
-            },
-            {
-                "type": "item",
-                "name": "kubejs:netherite_battlemage_upgrade_smithing_template",
-                "weight": 5
-            },
-            {
-                "type": "item",
-                "name": "kubejs:skyseeker_upgrade_smithing_template",
-                "weight": 3
-            },
-            {
-                "type": "item",
-                "name": "kubejs:arcane_fortress_upgrade_smithing_template",
-                "weight": 5
-            },
-            {
-                "type": "item",
-                "name": "deep_aether:stormforged_smithing_template",
-                "weight": 3
+              "function": "set_count",
+              "count": 2
             }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "thermal:ruby",
+          "functions": [
             {
-              "type": "empty",
-              "weight": 999
-            },
-            {
-              "type": "item",
-              "name": "kubejs:aether_key",
-              "weight": 1
+              "function": "set_count",
+              "count": 4
             }
-        ]
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "deep_aether:skyjade",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "aether:zanite_gemstone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "kubejs:gravitite_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:wither_skeleton_skull",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 5
       },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "kubejs:greater_shapeshifting_root",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 2
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "thermal:ruby",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 4
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "deep_aether:skyjade",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": {
-                  "min": 16,
-                  "max": 32
-                }
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 3,
-            "name": "aether:zanite_gemstone",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": {
-                  "min": 16,
-                  "max": 32
-                }
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 3,
-            "name": "kubejs:gravitite_ingot",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": {
-                  "min": 4,
-                  "max": 12
-                }
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 3,
-            "name": "minecraft:wither_skeleton_skull",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": {
-                  "min": 4,
-                  "max": 8
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls":{
-            "min":2,
-            "max":5
-        }, 
-        "entries": [
-          {
-            "type": "item",
-            "weight": 2,
-            "name": "aether:golden_gummy_swet",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 5
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 2,
-            "name": "aether:blue_gummy_swet",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 5
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 2,
-            "name": "ancient_aether:festive_gummy_swet",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 5
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 2,
-            "name": "vintagedelight:cheese_pizza",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 8
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 2,
-            "name": "vintagedelight:meat_pizza",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 8
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "kubejs:power_arrow",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 48
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "deep_aether:skyjade_lantern",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 64
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "aether:golden_gummy_swet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "aether:blue_gummy_swet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "ancient_aether:festive_gummy_swet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "vintagedelight:cheese_pizza",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "vintagedelight:meat_pizza",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "kubejs:power_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 48
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "deep_aether:skyjade_lantern",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 64
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
