@@ -1,30 +1,28 @@
-ServerEvents.tags("entity_type",e=>{
+ServerEvents.tags("entity_type", (e) => {
+  e.add("forge:bosses", [
+    "minecraft:ender_dragon",
+    "minecraft:wither",
+    "twilightforest:hydra",
+    "twilightforest:naga",
+    "twilightforest:minoshroom",
+    "twilightforest:lich",
+    "twilightforest:knight_phantom",
+    "twilightforest:ur_ghast",
+    "twilightforest:alpha_yeti",
+    "twilightforest:quest_ram",
+    "twilightforest:snow_queen",
+    "aether:slider",
+    "aether:sun_spirit",
+    "aether:valkyrie_queen",
+    "ancient_aether:mutated_aechor_plant",
+    "deep_aether:eots_controller",
+    "deep_aether:eots_segment",
+    "alexsmobs:void_worm",
+    "irons_spellbooks:dead_king",
+    "irons_spellbooks:dead_king_corpse",
+  ]);
 
-    e.add("forge:bosses",[
-        "minecraft:ender_dragon",
-        "minecraft:wither",
-        "twilightforest:hydra",
-        "twilightforest:naga",
-        "twilightforest:minoshroom",
-        "twilightforest:lich",
-        "twilightforest:knight_phantom",
-        "twilightforest:ur_ghast",
-        "twilightforest:alpha_yeti",
-        "twilightforest:quest_ram",
-        "twilightforest:snow_queen",
-        "aether:slider",
-        "aether:sun_spirit",
-        "aether:valkyrie_queen",
-        "ancient_aether:mutated_aechor_plant",
-        "deep_aether:eots_controller",
-        "deep_aether:eots_segment",
-        "alexsmobs:void_worm",
-        "irons_spellbooks:dead_king",
-        "irons_spellbooks:dead_king_corpse"
-
-    ])
-
-    e.add("forge:mini_bosses",[
+  e.add("forge:mini_bosses", [
     "minecraft:evoker",
     "irons_spellbooks:archevoker",
     "irons_spellbooks:cultist",
@@ -35,139 +33,139 @@ ServerEvents.tags("entity_type",e=>{
     "minecraft:elder_guardian",
     "minecraft:warden",
     "alexsmobs:warped_mosco",
-    "irons_spellbooks:ice_spider"
-  ])
+    "irons_spellbooks:ice_spider",
+  ]);
 
-    e.add("ars_nouveau:drygmy_blacklist","#forge:bosses")
-    e.add("ars_nouveau:drygmy_blacklist","#forge:mini_bosses")
+  e.add("ars_nouveau:drygmy_blacklist", "#forge:bosses");
+  e.add("ars_nouveau:drygmy_blacklist", "#forge:mini_bosses");
 
-    e.add("ars_nouveau:jar_blacklist","#forge:bosses")
-    e.add("ars_nouveau:jar_blacklist","#forge:mini_bosses")
+  e.add("ars_nouveau:jar_blacklist", "#forge:bosses");
+  e.add("ars_nouveau:jar_blacklist", "#forge:mini_bosses");
 
-    e.add("dq:capturing_blacklist","#forge:bosses")
-    e.add("dq:capturing_blacklist","#forge:mini_bosses")
+  e.add("dq:capturing_blacklist", "#forge:bosses");
+  e.add("dq:capturing_blacklist", "#forge:mini_bosses");
 
-    e.add("dq:hostile_evolving_mobs",[
-        "minecraft:zombie",
-        "minecraft:husk",
-        "minecraft:zombie_villager",
-        "minecraft:drowned",
-        "minecraft:skeleton",
-        "minecraft:stray",
-        "minecraft:wither_skeleton",
-        "twilightforest:skeleton_druid",
-        "irons_spellbooks:necromancer",
-        "minecraft:pillager",
-        "minecraft:evoker",
-        "minecraft:vindicator",
-        "minecraft:ravager",
-        "minecraft:witch",
-        "minecraft:illusioner",
-        "minecraft:slime",
-        "minecraft:magma_cube",
-        "aether:blue_swet",
-        "aether:golden_swet",
-        "minecraft:spider",
-        "minecraft:cave_spider",
-        "twilightforest:king_spider",
-        "twilightforest:swarm_spider",
-        "twilightforest:hedge_spider",
-        "minecraft:blaze",
-        "minecraft:piglin",
-        "minecraft:piglin_brute",
-        "minecraft:zombified_piglin",
-        "minecraft:zoglin",
-        "minecraft:hoglin",
-        "minecraft:creeper",
-        "alexsmobs:centipede_head",
-        "quark:forgotten",
-        "alexsmobs:murmur",
-        "minecraft:phantom",
-        "alexsmobs:rocky_roller",
-        "alexsmobs:tiger",
-        "alexsmobs:komodo_dragon",
-        "thermal:blitz",
-        "thermal:basalz",
-        "thermal:blizz",
-        "ars_nouveau:wilden_guardian",
-        "ars_nouveau:wilden_hunter",
-        "ars_nouveau:wilden_stalker",
-        "alexsmobs:guster",
-        "alexsmobs:farseer",
-        "alexsmobs:tusklin",
-        "alexsmobs:froststalker",
-        "alexsmobs:anaconda",
-        "alexsmobs:skelewag",
-        "minecraft:guardian",
-        "alexsmobs:crocodile",
-        "alexsmobs:maned_wolf",
-        "twilightforest:mist_wolf",
-        "twilightforest:winter_wolf",
-        "twilightforest:hostile_wolf",
-        "twilightforest:kobold",
-        "twilightforest:fire_beetle",
-        "twilightforest:pinch_beetle",
-        "twilightforest:slime_beetle",
-        "twilightforest:redcap",
-        "twilightforest:redcap_sapper",
-        "twilightforest:wraith",
-        "quark:wraith",
-        "alexsmobs:stradpole",
-        "alexsmobs:warped_toad",
-        "quark:foxhound",
-        "minecraft:ghast",
-        //"alexsmobs:dropbear",
-        //"alexsmobs:crimson_mosquito",
-        //"alexsmobs:straddler",
-        "alexsmobs:bone_serpent",
-        "irons_spellbooks:citadel_keeper",
-        "ancient_aether:aeronautic_leaper",
-        //"aether:zephyr",
-        "aether:cockatrice",
-        //"ancient_aether:slammroot",
-        //"alexsmobs:enderiophage",
-        "minecraft:shulker",
-        "minecraft:endermite"
-    ])
+  e.add("dq:hostile_evolving_mobs", [
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:zombie_villager",
+    "minecraft:drowned",
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "minecraft:wither_skeleton",
+    "minecraft:enderman",
+    "twilightforest:skeleton_druid",
+    "irons_spellbooks:necromancer",
+    "minecraft:pillager",
+    "minecraft:evoker",
+    "minecraft:vindicator",
+    "minecraft:ravager",
+    "minecraft:witch",
+    "minecraft:illusioner",
+    "minecraft:slime",
+    "minecraft:magma_cube",
+    "aether:blue_swet",
+    "aether:golden_swet",
+    "minecraft:spider",
+    "minecraft:cave_spider",
+    "twilightforest:king_spider",
+    "twilightforest:swarm_spider",
+    "twilightforest:hedge_spider",
+    "minecraft:blaze",
+    "minecraft:piglin",
+    "minecraft:piglin_brute",
+    "minecraft:zombified_piglin",
+    "minecraft:zoglin",
+    "minecraft:hoglin",
+    "minecraft:creeper",
+    "alexsmobs:centipede_head",
+    "quark:forgotten",
+    "alexsmobs:murmur",
+    "minecraft:phantom",
+    "alexsmobs:rocky_roller",
+    "alexsmobs:tiger",
+    "alexsmobs:komodo_dragon",
+    "thermal:blitz",
+    "thermal:basalz",
+    "thermal:blizz",
+    "ars_nouveau:wilden_guardian",
+    "ars_nouveau:wilden_hunter",
+    "ars_nouveau:wilden_stalker",
+    "alexsmobs:guster",
+    "alexsmobs:farseer",
+    "alexsmobs:tusklin",
+    "alexsmobs:froststalker",
+    "alexsmobs:anaconda",
+    "alexsmobs:skelewag",
+    "minecraft:guardian",
+    "alexsmobs:crocodile",
+    "alexsmobs:maned_wolf",
+    "twilightforest:mist_wolf",
+    "twilightforest:winter_wolf",
+    "twilightforest:hostile_wolf",
+    "twilightforest:kobold",
+    "twilightforest:fire_beetle",
+    "twilightforest:pinch_beetle",
+    "twilightforest:slime_beetle",
+    "twilightforest:redcap",
+    "twilightforest:redcap_sapper",
+    "twilightforest:wraith",
+    "quark:wraith",
+    "alexsmobs:stradpole",
+    "alexsmobs:warped_toad",
+    "quark:foxhound",
+    "minecraft:ghast",
+    //"alexsmobs:dropbear",
+    //"alexsmobs:crimson_mosquito",
+    //"alexsmobs:straddler",
+    "alexsmobs:bone_serpent",
+    "irons_spellbooks:citadel_keeper",
+    "ancient_aether:aeronautic_leaper",
+    //"aether:zephyr",
+    "aether:cockatrice",
+    //"ancient_aether:slammroot",
+    //"alexsmobs:enderiophage",
+    "minecraft:shulker",
+    "minecraft:endermite",
+  ]);
 
-    /*e.add("enhancedai:wolves",[
+  /*e.add("enhancedai:wolves",[
         "alexsmobs:maned_wolf",
         "twilightforest:mist_wolf",
         "twilightforest:winter_wolf",
         "twilightforest:hostile_wolf"
     ])*/
 
-    e.add("dq:zombies",[
-        "minecraft:zombie",
-        "minecraft:husk",
-        "minecraft:zombie_villager",
-        "minecraft:drowned",
-    ])
-    e.add("dq:skeletons",[
-        "minecraft:skeleton",
-        "minecraft:wither_skeleton",
-        "minecraft:stray",
-        "twilightforest:skeleton_druid",
-        "irons_spellbooks:necromancer"
-    ])
+  e.add("dq:zombies", [
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:zombie_villager",
+    "minecraft:drowned",
+  ]);
+  e.add("dq:skeletons", [
+    "minecraft:skeleton",
+    "minecraft:wither_skeleton",
+    "minecraft:stray",
+    "twilightforest:skeleton_druid",
+    "irons_spellbooks:necromancer",
+  ]);
 
-    e.add("dq:renders_armor",[
-        "minecraft:piglin",
-        "minecraft:piglin_brute",
-        "minecraft:zombified_piglin",
-        "minecraft:zombie",
-        "minecraft:husk",
-        "minecraft:zombie_villager",
-        "minecraft:drowned",
-        "minecraft:skeleton",
-        "minecraft:wither_skeleton",
-        "twilightforest:skeleton_druid",
-        "irons_spellbooks:necromancer",
-        "minecraft:pillager",
-        "minecraft:evoker",
-        "minecraft:vindicator"
-    ])
+  e.add("dq:renders_armor", [
+    "minecraft:piglin",
+    "minecraft:piglin_brute",
+    "minecraft:zombified_piglin",
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:zombie_villager",
+    "minecraft:drowned",
+    "minecraft:skeleton",
+    "minecraft:wither_skeleton",
+    "twilightforest:skeleton_druid",
+    "irons_spellbooks:necromancer",
+    "minecraft:pillager",
+    "minecraft:evoker",
+    "minecraft:vindicator",
+  ]);
 
-    e.add("enhancedai:mobs/can_mine","#dq:renders_armor")
-
-})
+  e.add("enhancedai:mobs/can_mine", "#dq:renders_armor");
+});
