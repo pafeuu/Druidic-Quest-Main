@@ -259,6 +259,10 @@ ItemEvents.modification(event => {
   event.modify("irons_spellbooks:amethyst_rapier", item=>{
     item.maxDamage = 2048
   })
+
+  event.modify("minecraft:trident", item=>{
+    item.maxDamage = 2048
+  })
   
   
   ////========================================Tools
