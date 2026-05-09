@@ -23,6 +23,9 @@ ServerEvents.recipes(event=>{
     
     fullRepair("alexsmobs:crocodile_chestplate","alexsmobs:crocodile_scute")
     fullRepair("alexsmobs:rocky_chestplate","alexsmobs:rocky_shell")
+    fullRepair("alexsmobs:ghostly_pickaxe","#forge:ingots/iron")
+    fullRepair("alexsmobs:ghostly_pickaxe","quark:soul_bead")
+    
     fullRepairToolTier("yeti","twilightforest:alpha_yeti_fur")
     fullRepairToolTier("arctic","twilightforest:arctic_fur")
     fullRepairToolTier("etherium","3x #forge:ingots/fiery")
