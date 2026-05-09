@@ -712,7 +712,7 @@ ServerEvents.recipes(event=>{
         "item": "minecraft:glass_bottle"
         },
         "S": {
-        "item": "irons_spellbooks:arcane_salvage"
+        "item": "irons_spellbooks:mithril_scrap"
         },
         "G":{
         "tag": "forge:plates/gold"    

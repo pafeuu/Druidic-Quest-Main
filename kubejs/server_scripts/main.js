@@ -4587,7 +4587,7 @@ ServerEvents.recipes(event => {
 	],{
 		S: 'create:sand_paper',
 		D: '#forge:plates/diamond',
-		X: "irons_spellbooks:arcane_salvage"
+		X: "irons_spellbooks:mithril_scrap"
 	}).id("vintageimprovements:craft/grinder_belt")
 
 	event.custom({
