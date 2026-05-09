@@ -141,31 +141,6 @@
 		}
 		{
 			dependencies: ["69B93BA4460E5F95"]
-			description: ["Hold in your hand and right click to open. (There is no keybind.)"]
-			id: "3C35A64771D5DEC8"
-			rewards: [{
-				count: 3
-				id: "1D70D886EF7B9FC4"
-				item: "fruitsdelight:durian_pie"
-				type: "item"
-			}]
-			subtitle: "Expanding Your Inventory"
-			tasks: [{
-				id: "2FB0F7C121F8F93D"
-				item: {
-					Count: 1
-					id: "thermal:satchel"
-					tag: { }
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			title: "Very Early-Game Backpack"
-			x: -4.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["69B93BA4460E5F95"]
 			description: ["You begin the game weakened from starvation. Establishing stable food sources should be a main priority."]
 			icon: {
 				Count: 1
@@ -869,6 +844,8 @@
 				"Drop &82 string&r, &a2 wheat seeds&r and &e4 golden flowers&r  on the ground then explode it with tnt or a creeper to craft &6Brilliant Fiber&r."
 				""
 				"Right click the &6Brilliant Fiber&r on some leaves and wait for it to spread. Once the leaves change, they will drop &egolden leaves&r, needed for further progression."
+				""
+				"Golden leaves are ready to harvest when you see sparkles coming out of them."
 			]
 			hide_details_until_startable: false
 			hide_until_deps_visible: false
@@ -1475,7 +1452,11 @@
 				"3795DEE8A3FE6814"
 				"093161CA8E0381C0"
 			]
-			description: [""]
+			description: [
+				"Connect the arcane machinery using wissen wand . Ponder tells you more details."
+				""
+				"You can place the blocks in any pattern you want, even placing the translator on the ceilling!"
+			]
 			icon: "wizards_reborn:arcane_workbench"
 			id: "7846743FB0D30EAD"
 			rewards: [
@@ -1730,6 +1711,12 @@
 			dependencies: ["36E8803252843028"]
 			description: ["Not great but once you find some infused gems you can upgrade it!"]
 			id: "756DE0A4B031F8AB"
+			rewards: [{
+				count: 2
+				id: "609860C5A2418D37"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38FE560740B37DE8"
 				item: "rehooked:wood_hook"
