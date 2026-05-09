@@ -98,7 +98,7 @@ JEIEvents.information(event => {
     event.addItem("wizards_reborn:arcanum_ore",["Found between y90 and y-40 in the overworld"])
     event.addItem("thermal:sapphire_ore",["Found between y-15 and y-30 in the twilight forest"])
     event.addItem("thermal:apatite_ore",["Found in Obsidian Geodes in the twilight forest"])
-    event.addItem("irons_spellbooks:arcane_debris",["Found near y56 in the overworld"])
+    event.addItem("irons_spellbooks:mithril_ore",["Found near y-20 in the twilight forest"])
     event.addItem("thermal:cinnabar_ore",["Found in Nether Geodes"])
     event.addItem("rubinated_nether:molten_ruby_ore",["Found in Nether Geodes and Magma Veins"])
     event.addItem("immersiveengineering:ore_uranium",["Found in Uranium Pillars in Nether Wastes Biome"])
