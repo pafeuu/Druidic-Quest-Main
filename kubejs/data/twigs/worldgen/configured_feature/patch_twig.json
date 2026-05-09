@@ -21,7 +21,13 @@
           "type": "minecraft:block_predicate_filter",
           "predicate": {
             "type": "minecraft:matching_blocks",
-            "blocks": ["minecraft:air","minecraft:tall_grass","silly_oddities:leaf_litter","silly_oddities:wildflowers","minecraft:grass"]
+            "blocks": [
+              "minecraft:air",
+              "minecraft:tall_grass",
+              "silly_oddities:leaf_litter",
+              "silly_oddities:wildflowers",
+              "minecraft:grass"
+            ]
           }
         }
       ]
