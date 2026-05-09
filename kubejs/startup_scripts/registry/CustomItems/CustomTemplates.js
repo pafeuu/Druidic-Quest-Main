@@ -8,6 +8,7 @@ StartupEvents.registry('item', item => {
   SmithingTemplates("wandering_magician",0)
   SmithingTemplates("bronze",1)
   SmithingTemplates("scarecrow",1)
+  SmithingTemplates("wizard",1)
   SmithingTemplates("steeleaf",1)
   SmithingTemplates("botanist",2)
   SmithingTemplates("knightmetal",2)
