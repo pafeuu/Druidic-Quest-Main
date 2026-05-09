@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:bow",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:ranged_damage",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "cfbfddd0-1071-47bc-af79-e568af83b2f5"
+    }
+  ],
+  "equipment_slot": "MAINHAND"
+}

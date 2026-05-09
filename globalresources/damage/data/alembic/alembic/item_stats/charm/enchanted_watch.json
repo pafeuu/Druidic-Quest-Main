@@ -1,0 +1,69 @@
+{
+    "id": "kubejs:enchanted_watch",
+    "modifiers": [
+      {
+        "type": "append",
+        "attribute": "forge:swim_speed",
+        "value": 0.25,
+        "operation": "MULTIPLY_TOTAL",
+        "uuid": "04233330-d224-478c-9747-445120b932c3"
+      },
+      {
+        "type": "append",
+        "attribute": "puffish_attributes:consuming_speed",
+        "value": 0.5,
+        "operation": "MULTIPLY_TOTAL",
+        "uuid": "04233330-d224-478c-9747-445120b932c3"
+      },
+      {
+        "type": "append",
+        "attribute": "puffish_attributes:mining_speed",
+        "value": 0.25,
+        "operation": "MULTIPLY_TOTAL",
+        "uuid": "04233330-d224-478c-9747-445120b932c3"
+      },
+      {
+        "type": "append",
+        "attribute": "minecraft:generic.attack_speed",
+        "value": 0.25,
+        "operation": "MULTIPLY_TOTAL",
+        "uuid": "04233330-d224-478c-9747-445120b932c3"
+      },
+      {
+        "type": "append",
+        "attribute": "puffish_attributes:mount_speed",
+        "value": 0.25,
+        "operation": "MULTIPLY_TOTAL",
+        "uuid": "04233330-d224-478c-9747-445120b932c3"
+      },
+      {
+        "type": "append",
+        "attribute": "minecraft:generic.flying_speed",
+        "value": 0.25,
+        "operation": "MULTIPLY_TOTAL",
+        "uuid": "04233330-d224-478c-9747-445120b932c3"
+      },
+      {
+        "type": "append",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 0.25,
+        "operation": "MULTIPLY_TOTAL",
+        "uuid": "04233330-d224-478c-9747-445120b932c3"
+      },
+      {
+        "type": "append",
+        "attribute": "forge:step_height_addition",
+        "value": 0.5,
+        "operation": "ADDITION",
+        "uuid": "04233330-d224-478c-9747-445120b932c3"
+      },
+      {
+        "type": "append",
+        "attribute": "puffish_attributes:stamina",
+        "value": -0.5,
+        "operation": "MULTIPLY_TOTAL",
+        "uuid": "04233330-d224-478c-9747-445120b932c3"
+      }
+    ],
+    "equipment_slot": "charm"
+  }
