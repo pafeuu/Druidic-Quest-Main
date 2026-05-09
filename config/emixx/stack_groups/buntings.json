@@ -1,18 +1,7 @@
 {
-    "id": "buntings",
-    "contents": [
-        "item:supplementaries:bunting{Color:\"white\"}",
-        "item:supplementaries:bunting{Color:\"gray\"}",
-        "item:supplementaries:bunting{Color:\"red\"}",
-        "item:supplementaries:bunting{Color:\"blue\"}",
-        "item:supplementaries:bunting{Color:\"black\"}",
-        "item:supplementaries:bunting{Color:\"yello\"}",
-        "item:supplementaries:bunting{Color:\"lime\"}",
-        "item:supplementaries:bunting{Color:\"green\"}",
-        "item:supplementaries:bunting{Color:\"pink\"}",
-        "item:supplementaries:bunting{Color:\"purple\"}",
-        "item:supplementaries:bunting{Color:\"magenta\"}",
-        "item:supplementaries:bunting{Color:\"brown\"}"
-    ]
-
+  "id": "buntings",
+  "contents": [
+    "item:supplementaries:bunting{Color:\"white\"}",
+    "item:supplementaries:bunting{Color:\"gray\"}"
+  ]
 }
