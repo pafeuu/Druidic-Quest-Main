@@ -167,6 +167,7 @@ ServerEvents.recipes(event=>
     TemplatesRecycling("kubejs:obsidian_upgrade_smithing_template","twilightforest:knightmetal_ingot","twilightforest:mazestone_brick")
     TemplatesRecycling("kubejs:knightmetal_upgrade_smithing_template","thermal:lead_ingot","twilightforest:underbrick")
     TemplatesRecycling("kubejs:scarecrow_upgrade_smithing_template","kubejs:arcane_leather","hay_block")
+    TemplatesRecycling("kubejs:wizard_upgrade_smithing_template","kubejs:arcane_leather","andesite")
     TemplatesRecycling("kubejs:steeleaf_upgrade_smithing_template","twilightforest:ironwood_ingot","twilightforest:dark_log")
     TemplatesRecycling("kubejs:wandering_magician_upgrade_smithing_template","leather","white_wool")
     TemplatesRecycling("kubejs:skyjade_upgrade_smithing_template","thermal:silver_ingot","aether:holystone")
