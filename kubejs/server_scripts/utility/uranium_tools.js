@@ -1,44 +1,35 @@
-BlockEvents.broken(event=>{
+BlockEvents.broken((event) => {
+  const player = event.player;
+  const level = event.level;
 
-    const player = event.player
-    const level = event.level
-   
-    if(!player.mainHandItem.hasTag("forge:tools/uranium"))
-        return;
-    
-    if (Math.random() < 0.025) { // 5% chance
-        const pos = event.block.pos
+  if (!player.mainHandItem.hasTag("forge:tools/uranium")) return;
 
-        level.createExplosion(pos.getX(),pos.getY(),pos.getZ())
-        .strength(8)
-        .explosionMode("tnt")
-        .explode()
-    }
-    
+  if (Math.random() < 0.025) {
+    // 5% chance
+    const pos = event.block.pos;
 
-})
+    level
+      .createExplosion(pos.getX(), pos.getY(), pos.getZ())
+      .strength(8)
+      .explosionMode("tnt")
+      .explode();
+  }
+});
 
-EntityEvents.hurt(event=>{
+EntityEvents.hurt((event) => {
+  //const player = event.player
+  const level = event.level;
+  const attacker = event.source.player;
 
-    //const player = event.player
-    const level = event.level
-    const attacker = event.source.player
-    
-    if(event.getSource().getType() != "player")   
-        return;
-    console.log("attacked by player")
-    if(!attacker.mainHandItem.hasTag("forge:tools/uranium"))
-        return;
-    if (Math.random() < 0.05)
-        {
-            const pos = event.entity.position()
+  if (event.getSource().getType() != "player") return;
+  if (!attacker.mainHandItem.hasTag("forge:tools/uranium")) return;
+  if (Math.random() < 0.05) {
+    const pos = event.entity.position();
 
-            level.createExplosion(pos.x(),pos.y(),pos.z())
-                .strength(4)
-                .explosionMode("none")
-                .explode()
-        }
-    
-})
-
-
+    level
+      .createExplosion(pos.x(), pos.y(), pos.z())
+      .strength(4)
+      .explosionMode("none")
+      .explode();
+  }
+});

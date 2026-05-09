@@ -1,0 +1,11 @@
+{
+  "action": "remove",
+  "mod": ["thermal"],
+  "not": {
+    "items":["thermal:sawdust"],
+    "patterns":[
+        ".*ingot$"
+    ]
+  }
+
+}
