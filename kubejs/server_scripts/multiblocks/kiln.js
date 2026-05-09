@@ -85,6 +85,11 @@ ServerEvents.recipes(event=>{
 		"4x netherite_scrap"
 	)
 
+	kilnWith2Ingredients("irons_spellbooks:mithril_ingot",
+		"4x #forge:ingots/wrought_iron",
+		"4x irons_spellbooks:mithril_scrap"
+	)
+
 	kilnWith2Ingredients("4x thermal:bronze_ingot",
 		"1x thermal:tin_ingot",
 		"3x copper_ingot"

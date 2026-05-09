@@ -104,12 +104,12 @@ LootJS.modifiers((event) => {
         .replaceLoot("ancient_aether:valkyrum_boots","kubejs:skyseeker_upgrade_smithing_template")
         .replaceLoot("ancient_aether:valkyrum_chestplate","3x ancient_debris")
         .replaceLoot("ancient_aether:valkyrum_leggings","2x ancient_debris")
-        .replaceLoot("ancient_aether:valkyrum_axe","2x irons_spellbooks:arcane_debris")
-        .replaceLoot("ancient_aether:valkyrum_pickaxe","2x irons_spellbooks:arcane_debris")
-        .replaceLoot("ancient_aether:valkyrum_gloves","irons_spellbooks:arcane_debris")
-        .replaceLoot("ancient_aether:valkyrum_shovel","irons_spellbooks:arcane_debris")
-        .replaceLoot("ancient_aether:valkyrum_sword","irons_spellbooks:arcane_debris")
-        .replaceLoot("ancient_aether:valkyrum_hoe","irons_spellbooks:arcane_debris")
+        .replaceLoot("ancient_aether:valkyrum_axe","2x irons_spellbooks:mithril_scrap")
+        .replaceLoot("ancient_aether:valkyrum_pickaxe","2x irons_spellbooks:mithril_scrap")
+        .replaceLoot("ancient_aether:valkyrum_gloves","irons_spellbooks:mithril_scrap")
+        .replaceLoot("ancient_aether:valkyrum_shovel","irons_spellbooks:mithril_scrap")
+        .replaceLoot("ancient_aether:valkyrum_sword","irons_spellbooks:mithril_scrap")
+        .replaceLoot("ancient_aether:valkyrum_hoe","irons_spellbooks:mithril_scrap")
         .replaceLoot("create:rose_quartz","kubejs:lemon_quartz")
         .replaceLoot("twilightforest:steeleaf_boots","twilightforest:ironwood_boots")
         .replaceLoot("twilightforest:steeleaf_helmet","twilightforest:ironwood_helmet")
@@ -310,7 +310,7 @@ LootJS.modifiers((event) => {
     
     //================================================ BLOCKS
     
-    event.addBlockLootModifier(["minecraft:ancient_debris","irons_spellbooks:arcane_debris"])
+    event.addBlockLootModifier(["minecraft:ancient_debris","irons_spellbooks:mithril_scrap"])
     .triggerExplosion(3,"destroy",true)
     
 
@@ -419,8 +419,10 @@ LootJS.modifiers((event) => {
         "irons_spellbooks:cryomancer",
         "irons_spellbooks:apothecarist",
         "irons_spellbooks:archevoker"])
-    .randomChance(0.5)
-    .addLoot("kubejs:scarecrow_upgrade_smithing_template")
+    .addAlternativesLoot(
+            LootEntry.of("kubejs:wizard_upgrade_smithing_template").when((c) => c.randomChance(0.5)),
+            LootEntry.of("kubejs:scarecrow_upgrade_smithing_template").when((c) => c.randomChance(0.5)),
+    )
 
     event.addLootTableModifier(/.*twilightforest:chests\/stronghold.*/)
     .randomChance(0.15)
