@@ -45,11 +45,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "thermal:satchel"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:book",
           "functions": [
