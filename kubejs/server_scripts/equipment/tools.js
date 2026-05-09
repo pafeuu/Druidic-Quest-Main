@@ -802,21 +802,7 @@ ServerEvents.recipes(event => {
 })
 
 	event.remove({output:"thermal:satchel"})
-	event.shaped(
-		Item.of('thermal:satchel'), 
-		[
-		  'CFC',
-		  'FXF', 
-		  'CFC'
-		],
-		{
-		  C: '#forge:leather',
-		  F: '#minecraft:wool',
-		  X: "#forge:raw_materials/tin"
-		}
-	  )
 		  	
-
 	event.remove({id:"enigmaticlegacy:magnet_ring"})
 	event.remove({id:"enigmaticlegacy:golden_ring"})
 	
