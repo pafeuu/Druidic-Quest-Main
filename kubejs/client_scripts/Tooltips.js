@@ -132,7 +132,6 @@ ItemEvents.tooltip( tooltip => {
   tooltip.addAdvanced([
     'kubejs:end_key', 
     'kubejs:aether_key',
-    "immersiveengineering:ore_aluminum",
     'kubejs:ultimate_alchemical_dust',
     'naturesaura:calling_spirit',
     'naturesaura:rf_converter',
@@ -235,6 +234,7 @@ ItemEvents.tooltip( tooltip => {
   SmithingTemplate("kubejs:obsidian_upgrade_smithing_template","Obsidian","Knightmetal","Obsidian Ingot",0xa4b48c)
   SmithingTemplate("kubejs:knightmetal_upgrade_smithing_template","Knightmetal","Lead","Knightmetal Sheet",0x545c7c)
   SmithingTemplate("kubejs:scarecrow_upgrade_smithing_template","Scarecrow","Wandering Magician","Arcane Cloth",0x445c8c)
+  SmithingTemplate("kubejs:wizard_upgrade_smithing_template","Scarecrow","Wandering Magician","Arcane Cloth",0x445c8c)
   SmithingTemplate("kubejs:steeleaf_upgrade_smithing_template","Steeleaf","Ironwood","Steeleaf Upgrade Parts",0x847d6c)
   SmithingTemplate("kubejs:wandering_magician_upgrade_smithing_template","Wandering Magician","Leather","Arcane Leather",0x74492e)
   SmithingTemplate("kubejs:skyjade_upgrade_smithing_template","Skyjade","Silver","Skyjade Upgrade Parts",0x64747c)
@@ -358,6 +358,14 @@ ItemEvents.tooltip( tooltip => {
       text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
     } else {
       text.add(1, Text.gold("Right click a spawner in The Overworld to destroy it and obtain rare items and supplies!"))
+    }
+  })
+
+  tooltip.addAdvanced("kubejs:nether_key", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.gold("Right click a spawner in The Nether to destroy it and obtain rare items and supplies!"))
     }
   })
 

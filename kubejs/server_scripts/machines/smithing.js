@@ -67,6 +67,11 @@ ServerEvents.recipes(event=>{
 		"kubejs:scarecrow_upgrade_smithing_template",
 		"irons_spellbooks:magic_cloth")
 
+	SmithingArmor("irons_spellbooks:wizard",
+		"irons_spellbooks:wandering_magician",
+		"kubejs:wizard_upgrade_smithing_template",
+		"irons_spellbooks:magic_cloth")
+
 	SmithingArmor("immersiveengineering:armor_faraday",
 		"minecraft:leather",
 		"kubejs:engineer_upgrade_smithing_template",

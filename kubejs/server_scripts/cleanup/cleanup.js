@@ -803,6 +803,11 @@ ServerEvents.recipes(event => {
 	event.remove({id:"twigs:azalea_flowers_from_flowering_azalea"})
 
 	event.remove({id:"immersiveengineering:crafting/toolbox"})
+	
+	event.shapeless("minecraft:yellow_dye",["naturesaura:aura_bloom"])
+
+	event.shapeless("irons_spellbooks:wizard_hat","irons_spellbooks:wizard_helmet").id("irons_spellbooks:wizard_helmet_hat")
+	event.shapeless("irons_spellbooks:wizard_helmet","irons_spellbooks:wizard_hat")
 
 	/* Regions Unexplored
 	event.shapeless("4x regions_unexplored:blue_magnolia_flowers","4x regions_unexplored:blue_magnolia_leaves").id("regions_unexplored:blue_magnolia_flowers")
