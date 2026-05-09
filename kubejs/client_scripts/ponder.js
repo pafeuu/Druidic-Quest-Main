@@ -173,7 +173,7 @@ Ponder.registry((event) => {
 
     });
     
-    event.create(['wizards_reborn:arcane_workbench','wizards_reborn:wissen_altar','wizards_reborn:wissen_translator']).scene("wissen_basics","Explaining the wissen basics","kubejs:wissen_basics",(scene, util)=>{
+    event.create(['wizards_reborn:arcane_workbench',"wizards_reborn:wissen_wand",'wizards_reborn:wissen_altar','wizards_reborn:wissen_translator']).scene("wissen_basics","Explaining the wissen basics","kubejs:wissen_basics",(scene, util)=>{
         scene.world.showSection([0, 0, 0, 4, 0, 4], Facing.DOWN);
         scene.idle(10)
         scene.world.showSection([0, 1, 0, 4, 1, 4], Facing.DOWN);
