@@ -15,7 +15,10 @@
   },
   "boots": {
     "itemKey": "irons_spellbooks:archevoker_boots",
-    "mustBeEmpty": false
+    "mustBeEmpty": false,
+    "mixAndMatch": [
+      "irons_spellbooks:speed_boots"
+    ]
   },
   "partialBonusRequiredAmount": 2,
   "partialSetBonuses": [

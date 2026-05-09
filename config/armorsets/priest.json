@@ -7,7 +7,10 @@
   },
   "chest": {
     "itemKey": "irons_spellbooks:priest_chestplate",
-    "mustBeEmpty": false
+    "mustBeEmpty": false,
+    "mixAndMatch": [
+      "irons_spellbooks:paladin_chestplate"
+    ]
   },
   "legs": {
     "itemKey": "irons_spellbooks:priest_leggings",
