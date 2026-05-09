@@ -76,10 +76,10 @@ ServerEvents.recipes(event=>{
 
     RuneCrafting("kubejs:large_enchanting_rune_of_infinity",[
         {"item":"kubejs:large_enchanting_rune"},
-        {"item":"irons_spellbooks:arcane_salvage"},
-        {"item":"irons_spellbooks:arcane_salvage"},
-        {"item":"irons_spellbooks:arcane_salvage"},
-        {"item":"irons_spellbooks:arcane_salvage"},],10000,30)
+        {"item":"irons_spellbooks:mithril_scrap"},
+        {"item":"irons_spellbooks:mithril_scrap"},
+        {"item":"irons_spellbooks:mithril_scrap"},
+        {"item":"irons_spellbooks:mithril_scrap"},],10000,30)
 
     RuneCrafting("kubejs:enchanting_rune_of_speed",[
         {"item":"kubejs:enchanting_rune"},
