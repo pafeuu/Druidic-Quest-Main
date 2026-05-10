@@ -331,19 +331,6 @@ ServerEvents.recipes((event) => {
     })
     .id("thermal:armor/diving_boots");
 
-  event
-    .shaped("twilightforest:naga_chestplate", ["SLS", "SSS", "SSS"], {
-      S: "twilightforest:naga_scale",
-      L: "leather_chestplate",
-    })
-    .id("twilightforest:equipment/naga_chestplate");
-
-  event
-    .shaped("twilightforest:naga_leggings", ["SSS", "SLS", "S S"], {
-      S: "twilightforest:naga_scale",
-      L: "leather_leggings",
-    })
-    .id("twilightforest:equipment/naga_leggings");
 
   event.remove([
     { output: "twilightforest:ironwood_helmet" },
