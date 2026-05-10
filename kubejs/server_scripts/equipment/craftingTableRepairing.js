@@ -25,6 +25,12 @@ ServerEvents.recipes(event=>{
     fullRepair("alexsmobs:rocky_chestplate","alexsmobs:rocky_shell")
     fullRepair("alexsmobs:ghostly_pickaxe","#forge:ingots/iron")
     fullRepair("alexsmobs:ghostly_pickaxe","quark:soul_bead")
+    fullRepair("kubejs:primitive_mining_hammer","quark:sturdy_stone")
+    fullRepair("kubejs:primitive_excavator","quark:sturdy_stone")
+    fullRepair("kubejs:basic_mining_hammer","ars_nouveau:earth_essence")
+    fullRepair("kubejs:basic_excavator","ars_nouveau:earth_essence")
+    fullRepair("kubejs:sturdy_mining_hammer","minecraft:netherite_ingot")
+    fullRepair("kubejs:sturdy_excavator","minecraft:netherite_ingot")
     
     fullRepairToolTier("yeti","twilightforest:alpha_yeti_fur")
     fullRepairToolTier("arctic","twilightforest:arctic_fur")
