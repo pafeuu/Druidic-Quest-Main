@@ -6,63 +6,63 @@
         "attribute": "forge:swim_speed",
         "value": 0.25,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "04233330-d224-478c-9747-445120b932c3"
+        "uuid": "9b2730ec-2d79-490a-95fe-662de96faaf0"
       },
       {
         "type": "append",
         "attribute": "puffish_attributes:consuming_speed",
         "value": 0.5,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "04233330-d224-478c-9747-445120b932c3"
+        "uuid": "7836378f-9302-40ee-b099-519e3f3f5f44"
       },
       {
         "type": "append",
         "attribute": "puffish_attributes:mining_speed",
         "value": 0.25,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "04233330-d224-478c-9747-445120b932c3"
+        "uuid": "e2548be2-62fe-4ba3-a4ab-b13531b8a4f1"
       },
       {
         "type": "append",
         "attribute": "minecraft:generic.attack_speed",
         "value": 0.25,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "04233330-d224-478c-9747-445120b932c3"
+        "uuid": "59b067e6-e03a-4325-8902-51be5c9c243d"
       },
       {
         "type": "append",
         "attribute": "puffish_attributes:mount_speed",
         "value": 0.25,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "04233330-d224-478c-9747-445120b932c3"
+        "uuid": "ed431656-ced7-4288-8027-dc23493c3410"
       },
       {
         "type": "append",
         "attribute": "minecraft:generic.flying_speed",
         "value": 0.25,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "04233330-d224-478c-9747-445120b932c3"
+        "uuid": "f93cf67a-9995-4d03-a5d5-2e575879aedc"
       },
       {
         "type": "append",
         "attribute": "minecraft:generic.movement_speed",
         "value": 0.25,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "04233330-d224-478c-9747-445120b932c3"
+        "uuid": "38d55a29-4c2e-4154-8671-9753ac428e68"
       },
       {
         "type": "append",
         "attribute": "forge:step_height_addition",
         "value": 0.5,
         "operation": "ADDITION",
-        "uuid": "04233330-d224-478c-9747-445120b932c3"
+        "uuid": "a128c2c6-2356-4bf4-b7e4-6bd06cd9db9d"
       },
       {
         "type": "append",
         "attribute": "puffish_attributes:stamina",
         "value": -0.5,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "04233330-d224-478c-9747-445120b932c3"
+        "uuid": "abb2ec4b-4803-4ffc-b8f3-7e19d6d1ccf2"
       }
     ],
     "equipment_slot": "charm"
