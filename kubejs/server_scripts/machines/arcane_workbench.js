@@ -1042,6 +1042,12 @@ ServerEvents.recipes(event=>{
         "wissen": 5000
         })
     }
+    HammerAndExcavators("kubejs:bronze_warhammer",
+        "thermal:bronze_block",
+        'vintageimprovements:bronze_sheet',
+        "immersiveengineering:stick_treated",
+        "kubejs:copper_pickaxe")
+
     HammerAndExcavators("kubejs:primitive_mining_hammer",
         "twilightforest:naga_scale",
         "quark:sturdy_stone",
@@ -1069,13 +1075,13 @@ ServerEvents.recipes(event=>{
     HammerAndExcavators("kubejs:sturdy_mining_hammer",
         "kubejs:death_essence",
         "vintageimprovements:netherite_sheet",
-        "kubejs:zinc_tool_handle",
+        "kubejs:reinforced_tool_handle",
         "kubejs:basic_mining_hammer")
     
     HammerAndExcavators("kubejs:sturdy_excavator",
         "kubejs:death_essence",
         "vintageimprovements:netherite_sheet",
-        "kubejs:zinc_tool_handle",
+        "kubejs:reinforced_tool_handle",
         "kubejs:basic_excavator")
 
     
