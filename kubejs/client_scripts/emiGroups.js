@@ -829,88 +829,27 @@ EmiPlusPlusEvents.registerGroups((event) => {
     "wizards_reborn:engraved_wisestone_universum",
   ]);
 
-  /*
-  const storageTiers =["","iron_","copper_","gold_","diamond_"]
-  function sophisticatedGroups(mod,item)
-  event.register("sophisticated:limited_barrels_1", [
-    Item.of("sophisticatedstorage:limited_barrel_1", '{woodType:"acacia"}'),
-    Item.of("sophisticatedstorage:limited_barrel_1", '{woodType:"birch"}'),
-    Item.of("sophisticatedstorage:limited_barrel_1", '{woodType:"crimson"}'),
-    Item.of("sophisticatedstorage:limited_barrel_1", '{woodType:"dark_oak"}'),
-    Item.of("sophisticatedstorage:limited_barrel_1", '{woodType:"jungle"}'),
-    Item.of("sophisticatedstorage:limited_barrel_1", '{woodType:"oak"}'),
-    Item.of("sophisticatedstorage:limited_barrel_1", '{woodType:"spruce"}'),
-    Item.of("sophisticatedstorage:limited_barrel_1", '{woodType:"warped"}'),
-    Item.of("sophisticatedstorage:limited_barrel_1", '{woodType:"mangrove"}'),
-    Item.of("sophisticatedstorage:limited_barrel_1", '{woodType:"cherry"}'),
-    Item.of("sophisticatedstorage:limited_barrel_1", '{woodType:"bamboo"}'),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:16383998,mainColor:16383998}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:16351261,mainColor:16351261}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:13061821,mainColor:13061821}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:3847130,mainColor:3847130}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:16701501,mainColor:16701501}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:8439583,mainColor:8439583}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:15961002,mainColor:15961002}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:4673362,mainColor:4673362}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:10329495,mainColor:10329495}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:1481884,mainColor:1481884}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:8991416,mainColor:8991416}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:3949738,mainColor:3949738}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:8606770,mainColor:8606770}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:6192150,mainColor:6192150}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:11546150,mainColor:11546150}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:1908001,mainColor:1908001}",
-    ),
-    Item.of(
-      "sophisticatedstorage:limited_barrel_1",
-      "{accentColor:8439583,mainColor:16701501}",
-    ),
-  ]);*/
+  event.register(
+    "limited_barrels_1",
+    Ingredient.of(/sophisticatedstorage:limited.*barrel_1/).itemIds,
+  );
+  event.register(
+    "limited_barrels_2",
+    Ingredient.of(/sophisticatedstorage:limited.*barrel_2/).itemIds,
+  );
+  event.register(
+    "limited_barrels_3",
+    Ingredient.of(/sophisticatedstorage:limited.*barrel_3/).itemIds,
+  );
+  event.register(
+    "limited_barrels_4",
+    Ingredient.of(/sophisticatedstorage:limited.*barrel_4/).itemIds,
+  );
+  event.register(
+    "sophisticated_chests",
+    Ingredient.of(/sophisticatedstorage:.*chest/).itemIds,
+  );
+  event.register("shulker_boxes", Ingredient.of(/.*shulker_box.*/).itemIds);
+  event.register("silt_shingles", Ingredient.of(/.*silt_shingles.*/).itemIds);
+  event.register("counters", Ingredient.of(/.*counter.*/).itemIds);
 });
