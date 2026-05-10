@@ -4087,16 +4087,13 @@ Spells will only be disabled in new worlds or if you reset the server config
 ### Worldgen:
     -Fixed replaced blocks in structures(this time for real..I hope)
 
-# Patch 5.0
+# Patch 5.0 Beta
 
 ### New Items:
     -Bronze Axe
     -Bronze Sword
-    -Bronze Warhammer
     -Wooden Staff
-    -Uranium Mace
     -Lumber Axe
-    -Botanist Bow
     -Enchanted Clock
     -Emerald Lunchbox
     -Life Infused Lunchbox
@@ -4134,6 +4131,7 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Gravitite Gear
     -Gravitite Sheet
     -Eternity Token
+    -Wizard Upgrade Smithing Template
 
 ### Removed Items:
     -Starbattery
@@ -4145,6 +4143,7 @@ Spells will only be disabled in new worlds or if you reset the server config
         -Windmill Blade
         -Windmill Sail
         -Nitrate Dust
+    -Removed every unused thermal item(The mod is set to be entirely replaced in the next big patch)
         
 ### Updated Mods:
     -SophisticatedMods
@@ -4322,6 +4321,7 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Added for making planks in a cutting board allowing early game automation of planks
     -Added for Squall Plate
     -Changed for Archmage Spell Book
+    -Added for Yellow dye from Aura Bloom
 
 ### Textures:
     -Reworked Iron Scythe Textures
@@ -4370,6 +4370,7 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Explorer Compass now has only 8 durability and costs 3 exp levels per search
     -Natures Compass now has only 64 durability and costs 1 exp level per search
     -Repairing is now done in the crafting table and was completely overhauled
+    -Trident durability buffed to 2048
 
 ### Enchantments Balance:
     -Lowered max level of protection to 2
@@ -4407,3 +4408,26 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Disabled Quark's Lock Rotation Feature
     -Disabled Quark's Better Elytra Rockets Feature
     -Disabled fireworks spell glyph
+
+# Patch 5.0 Beta 2
+
+### Worldgen:
+    -Buffed twigs and pebbles generation
+
+### New Items:
+    -Bronze Warhammer
+
+### Recipes:
+    -Nerfed for Sturdy Mining Hammer and Excavator
+    -Added repairing recipe to all the mining hammers and excavators
+    -Naga Leggings and Chestplate now keep the nbt of their leather counterparts when crafted
+
+### Other:
+    -Added more Emi++ groups
+    -Fixed a bug with double chests
+    -Fixed attributes on enchanted watch
+
+### ToDo for 5.0 Release:
+    -Ponders for alchemy
+    -Balancing Gloves
+    -Balancing Loottables(mineshaft, aether, nether)
