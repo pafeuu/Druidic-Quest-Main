@@ -34,5 +34,27 @@ ServerEvents.recipes(event=>{
         return result.withNBT(input.nbt)
     }).id("irons_spellbooks:paladin_chestplate")
 
+    //This crashes the game. Probably because of colored leather armor.
+    
+    event
+    .shaped("twilightforest:naga_chestplate", ["SLS", "SSS", "SSS"], {
+      S: "twilightforest:naga_scale",
+      L: "leather_chestplate",
+    }).modifyResult((grid, result) => {
+        let input = grid.find("minecraft:leather_chestplate");
+        return result.withNBT(input.nbt)
+    })
+    .id("twilightforest:equipment/naga_chestplate");
+
+  event
+    .shaped("twilightforest:naga_leggings", ["SSS", "SLS", "S S"], {
+      S: "twilightforest:naga_scale",
+      L: "leather_leggings",
+    }).modifyResult((grid, result) => {
+        let input = grid.find("minecraft:leather_leggings");
+        return result.withNBT(input.nbt)
+    })
+    .id("twilightforest:equipment/naga_leggings");
+
 
 })
