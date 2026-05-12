@@ -14,8 +14,7 @@ ItemEvents.rightClicked(['kubejs:primitive_saw',"kubejs:basic_saw"], event => {
                 player.addExhaustion(0.15)
 
 				server.runCommandSilent(`/execute at ${player.username} run playsound sawmill:ui.sawmill.take_result player ${player.username}`);
-                player.addItemCooldown("kubejs:primitive_saw",5)
-				player.addItemCooldown("kubejs:basic_saw",5)
+                player.addItemCooldown(player.mainHandItem.id,4)
                 event.cancel()     
             }
     }
@@ -31,8 +30,7 @@ ItemEvents.rightClicked(['kubejs:primitive_saw',"kubejs:basic_saw"], event => {
                 player.addExhaustion(0.15)
 
 				server.runCommandSilent(`/execute at ${player.username} run playsound sawmill:ui.sawmill.take_result player ${player.username}`);
-                player.addItemCooldown("kubejs:primitive_saw",5)
-				player.addItemCooldown("kubejs:basic_saw",5)
+                player.addItemCooldown(player.mainHandItem.id,4)
                 event.cancel()     
             }
 

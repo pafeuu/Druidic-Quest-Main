@@ -6,6 +6,8 @@ ItemEvents.rightClicked(event => {
 
     function StrippedWoodCutting(planks,log)
     {
+		if(player.cooldowns.isOnCooldown(player.mainHandItem.id))
+			return;
         if(player.mainHandItem.hasTag('forge:tools/axes') && player.offhandItem.id == log && !player.isCrouching())
             {
                 player.give(Item.of(planks, 1));
@@ -13,7 +15,7 @@ ItemEvents.rightClicked(event => {
                 player.offHandItem.shrink(1)
                 player.damageHeldItem()
 
-                player.addItemCooldown(player.mainHandItem.id,5)
+                player.addItemCooldown(player.mainHandItem.id,6)
 				server.runCommandSilent(`/execute at ${player.username} run playsound sawmill:ui.sawmill.take_result player ${player.username}`);
                 player.addExhaustion(0.25)
                 event.cancel()     
