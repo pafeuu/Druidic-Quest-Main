@@ -91,7 +91,7 @@
     B:CurseofSorrowEnabled=true
 
     # Whether or not this mod should add any custom loot to dungeon chests' loot tables. This options is mainly for modpack developers and enables them to re-add that loot on their own terms, since no other ways of modifying what Enigmatic Legacy adds to loot tables currently exist. [default: true, synchronized: yes]
-    B:CustomDungeonLootEnabled=true
+    B:CustomDungeonLootEnabled=false
 
     # Whether or not Darkest Scroll should be enabled. [default: true, synchronized: yes]
     B:DarkestScrollEnabled=true
