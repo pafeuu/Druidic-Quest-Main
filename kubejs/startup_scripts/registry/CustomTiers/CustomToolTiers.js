@@ -1,6 +1,13 @@
 //priority: 0
 ItemEvents.toolTierRegistry(event => {
 
+  event.add('dwarven', tier=>
+    {
+      tier.uses = -1,
+      tier.speed = 4,
+      tier.attackDamageBonus = 0
+    })
+    
   event.add('glass', tier =>
     {
       tier.uses = 512,

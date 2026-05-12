@@ -252,6 +252,10 @@ ItemEvents.modification(event => {
     item.attackDamage = 2
   })
 
+  event.modify("kubejs:dwarven_sword", item=>{
+    item.attackSpeed = -2.7
+  })
+
   event.modify("irons_spellbooks:boreal_blade", item=>{
     item.maxDamage = 2048
   })

@@ -103,6 +103,8 @@ StartupEvents.registry('item', item => {
     });  
   }
   registerTool("lumber_axe","axe","lumber",0)
+  registerTool("dwarven_pickaxe","pickaxe","dwarven",1)
+  registerTool("dwarven_sword","sword","dwarven",1)
   registerTool("knightmetal_shovel","shovel","knightmetal",2)
   registerTool("knightmetal_hoe","hoe","knightmetal",2)
   registerTool("fiery_shovel","shovel","fiery",2)

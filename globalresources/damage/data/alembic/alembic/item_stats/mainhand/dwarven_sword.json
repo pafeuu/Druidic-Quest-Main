@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:dwarven_sword",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:alchemical_damage",
+          "value": 3,
+          "operation": "ADDITION",
+          "uuid": "a5834ca7-80e6-49a3-a987-e052935e479b"
+      },
+      {
+          "type": "append",
+          "attribute": "minecraft:generic.movement_speed",
+          "value": -0.05,
+          "operation": "MULTIPLY_TOTAL",
+          "uuid": "693298b4-1bf5-4c3b-8768-6f75f133cf7f"
+      }
+  ],
+  "equipment_slot": "MAINHAND"
+}
