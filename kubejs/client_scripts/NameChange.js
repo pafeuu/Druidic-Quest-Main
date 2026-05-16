@@ -49,6 +49,9 @@ ClientEvents.lang("en_us", event => {
 
     event.renameBlock("immersive_weathering:permafrost","Gray Permafrost")
     event.renameBlock("immersive_weathering:grassy_permafrost","Grassy Gray Permafrost")
+    event.renameBlock("biomeswevegone:sandy_dirt","Sturdy Sand")
+    event.renameBlock("biomeswevegone:sandy_dirt_path","Sturdy Sand Path")
+    event.renameBlock("biomeswevegone:sandy_farmland","Sturdy Sand Farmland")
     event.renameBlock("immersiveengineering:redstone_acid_fluid_block","Redstone Acid")
 
     event.renameItem("create:dough","Sweet Dough")
