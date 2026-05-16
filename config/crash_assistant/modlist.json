@@ -749,14 +749,6 @@
     "curseForgeHash": 2683111440,
     "modrinthHash": "417fb6ce8f52abf40bd9d0390371790f9576f8ba"
   },
-  "findme-3.2.3-forge.jar": {
-    "jarName": "findme-3.2.3-forge.jar",
-    "modId": "findme",
-    "name": "FindMe",
-    "version": "3.2.3",
-    "curseForgeHash": 2689955963,
-    "modrinthHash": "7b46df9e34d81bb678e9547a662cca15a04855e5"
-  },
   "fluffy_fur-1.20.1-0.2.9.jar": {
     "jarName": "fluffy_fur-1.20.1-0.2.9.jar",
     "modId": "fluffy_fur",
@@ -765,13 +757,13 @@
     "curseForgeHash": 1923152904,
     "modrinthHash": "e979ae846f5bee1797ac6c81eeecde31d1fac55f"
   },
-  "fruitsdelight-1.1.1.jar": {
-    "jarName": "fruitsdelight-1.1.1.jar",
+  "fruitsdelight-1.1.2.jar": {
+    "jarName": "fruitsdelight-1.1.2.jar",
     "modId": "fruitsdelight",
     "name": "Fruits Delight",
-    "version": "1.1.1",
-    "curseForgeHash": 4043884498,
-    "modrinthHash": "3ecef6a32c36cffd14de39c3be7c5e16463781fd"
+    "version": "1.1.2",
+    "curseForgeHash": 882862429,
+    "modrinthHash": "136d8f52d2582694dc3dc39f2ad732a8f3dde42a"
   },
   "ftb-chunks-forge-2001.3.7.jar": {
     "jarName": "ftb-chunks-forge-2001.3.7.jar",
@@ -805,13 +797,13 @@
     "curseForgeHash": 3807919150,
     "modrinthHash": "7f36ec4af42ad1d69872c58022e93a9d1b9c82b7"
   },
-  "ftb-quests-forge-2001.4.21.jar": {
-    "jarName": "ftb-quests-forge-2001.4.21.jar",
+  "ftb-quests-forge-2001.4.22.jar": {
+    "jarName": "ftb-quests-forge-2001.4.22.jar",
     "modId": "ftbquests",
     "name": "FTB Quests",
-    "version": "2001.4.21",
-    "curseForgeHash": 2340368871,
-    "modrinthHash": "928d287c016d4032d80870d9d3c5503e1ec85c21"
+    "version": "2001.4.22",
+    "curseForgeHash": 1456505092,
+    "modrinthHash": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa"
   },
   "ftb-teams-forge-2001.3.2.jar": {
     "jarName": "ftb-teams-forge-2001.3.2.jar",
@@ -860,6 +852,14 @@
     "version": "4.8.3",
     "curseForgeHash": 4092514766,
     "modrinthHash": "5428765c6c2e2135da6ee01f2f0478fa0db6aee7"
+  },
+  "gnetum-2.4.4.jar": {
+    "jarName": "gnetum-2.4.4.jar",
+    "modId": "gnetum",
+    "name": "Gnetum",
+    "version": "2.4.4",
+    "curseForgeHash": 586167816,
+    "modrinthHash": "bca1a7d6bc2d4a383ab9bfb82d6405196680c748"
   },
   "gpumemleakfix-1.20.1-1.8.jar": {
     "jarName": "gpumemleakfix-1.20.1-1.8.jar",
@@ -1265,14 +1265,6 @@
     "version": "5.27.15+mc1.20.1",
     "curseForgeHash": 2895896845,
     "modrinthHash": "958abb9df3a403f94313a2f29e7c3963290d0338"
-  },
-  "ModernUI-Forge-1.20.1-3.12.0.1-universal.jar": {
-    "jarName": "ModernUI-Forge-1.20.1-3.12.0.1-universal.jar",
-    "modId": "modernui",
-    "name": "Modern UI",
-    "version": "3.12.0.1",
-    "curseForgeHash": 2393054142,
-    "modrinthHash": "fcebe51e3c2ca34793f9b132fa05b5494ffc76a4"
   },
   "moonlight-1.20-2.16.30-forge.jar": {
     "jarName": "moonlight-1.20-2.16.30-forge.jar",
@@ -1762,21 +1754,21 @@
     "curseForgeHash": 2423313053,
     "modrinthHash": "1c8a22b8e1da93feb9a1c0e5a2c57dc805db9df7"
   },
-  "sophisticatedbackpacks-1.20.1-3.24.38.1738.jar": {
-    "jarName": "sophisticatedbackpacks-1.20.1-3.24.38.1738.jar",
+  "sophisticatedbackpacks-1.20.1-3.24.39.1743.jar": {
+    "jarName": "sophisticatedbackpacks-1.20.1-3.24.39.1743.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.24.38.1738",
-    "curseForgeHash": 1948514515,
-    "modrinthHash": "23e5158afec42fc3ac30c344d4939421bc9e2ccd"
+    "version": "3.24.39.1743",
+    "curseForgeHash": 1047788470,
+    "modrinthHash": "f9653d26c7d1e285f6f16da2ed412e94139aa8f9"
   },
-  "sophisticatedcore-1.20.1-1.3.34.1844.jar": {
-    "jarName": "sophisticatedcore-1.20.1-1.3.34.1844.jar",
+  "sophisticatedcore-1.20.1-1.3.35.1851.jar": {
+    "jarName": "sophisticatedcore-1.20.1-1.3.35.1851.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.3.34.1844",
-    "curseForgeHash": 4182035459,
-    "modrinthHash": "b78adcc6cfa85dd04d173de760e4007724e297f7"
+    "version": "1.3.35.1851",
+    "curseForgeHash": 1729400197,
+    "modrinthHash": "de1edb240fff5897f44db29f49c159fc43958559"
   },
   "sophisticateditemactions-1.20.1-0.4.3.249.jar": {
     "jarName": "sophisticateditemactions-1.20.1-0.4.3.249.jar",
@@ -1794,13 +1786,13 @@
     "curseForgeHash": 118871719,
     "modrinthHash": "65b74d7d31d572e24dc3bc41ed7c8743dc53073e"
   },
-  "sophisticatedstorage-1.20.1-1.4.43.1720.jar": {
-    "jarName": "sophisticatedstorage-1.20.1-1.4.43.1720.jar",
+  "sophisticatedstorage-1.20.1-1.4.44.1725.jar": {
+    "jarName": "sophisticatedstorage-1.20.1-1.4.44.1725.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.4.43.1720",
-    "curseForgeHash": 640025495,
-    "modrinthHash": "d08058dffcab14fbea95b6bf690e84ef0335ee76"
+    "version": "1.4.44.1725",
+    "curseForgeHash": 247221661,
+    "modrinthHash": "aa0d5dc500a01db88d98d1bba526b63d89aa0b72"
   },
   "sophisticatedstoragecreateintegration-1.20.1-0.1.19.125.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.20.1-0.1.19.125.jar",
