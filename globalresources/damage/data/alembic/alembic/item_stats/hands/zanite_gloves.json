@@ -2,18 +2,15 @@
   "id": "aether:zanite_gloves",
   "modifiers": [
     {
-      "type": "append",
-      "attribute": "minecraft:generic.armor",
-      "value": 4,
-      "operation": "ADDITION",
-      "uuid": "b88aee54-cfe7-40f3-ad97-89c668d380e6"
+      "type": "remove",
+      "target": "minecraft:generic.attack_damage"
     },
     {
       "type": "append",
-      "attribute": "alembic:holy_damage.resistance",
-      "value": 4,
+      "attribute": "alembic:true_damage",
+      "value": 2.0,
       "operation": "ADDITION",
-      "uuid": "a16ccf03-b741-4ebc-895d-1d382339e6f9"
+      "uuid": "106f6130-b799-430d-a318-67bd3bb67c3e"
     }
   ],
   "equipment_slot": "hands"

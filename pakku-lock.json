@@ -123,7 +123,7 @@
             ]
         },
         {
-            "pakku_id": "7Zst2atAUo8cJo6S",
+            "pakku_id": "I5J6iJOw4YTbEiUH",
             "type": "MOD",
             "slug": {
                 "curseforge": "advanced-loot-info"
@@ -3639,10 +3639,7 @@
             ]
         },
         {
-            "pakku_id": "gjFDMvuVpGczqfr6",
-            "pakku_links": [
-                "0fOoQDDSFdo8g3l2"
-            ],
+            "pakku_id": "2v3YpEJobJs2GRZA",
             "type": "MOD",
             "slug": {
                 "curseforge": "ftb-quests-forge"
@@ -3656,7 +3653,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ftb-quests-forge-2001.4.21.jar",
+                    "file_name": "ftb-quests-forge-2001.4.22.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3664,20 +3661,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7909/594/ftb-quests-forge-2001.4.21.jar",
-                    "id": "7909594",
+                    "url": "https://edge.forgecdn.net/files/8078/538/ftb-quests-forge-2001.4.22.jar",
+                    "id": "8078538",
                     "parent_id": "289412",
                     "hashes": {
-                        "sha1": "928d287c016d4032d80870d9d3c5503e1ec85c21",
-                        "md5": "29227c1ee220655f940f54b8c0426d1f"
+                        "sha1": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa",
+                        "md5": "a05a49243da4a2505413d74e13102b16"
                     },
                     "required_dependencies": [
                         "404468",
-                        "404465",
-                        "419699"
+                        "419699",
+                        "404465"
                     ],
-                    "size": 1254018,
-                    "date_published": "2026-04-11T11:00:43.020Z"
+                    "size": 1255469,
+                    "date_published": "2026-05-12T15:59:14.893Z"
                 }
             ]
         },
@@ -4084,44 +4081,6 @@
             ]
         },
         {
-            "pakku_id": "s1XkMDGcnHC5izle",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "findme"
-            },
-            "name": {
-                "curseforge": "FindMe"
-            },
-            "id": {
-                "curseforge": "291936"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "findme-3.2.3-forge.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7069/249/findme-3.2.3-forge.jar",
-                    "id": "7069249",
-                    "parent_id": "291936",
-                    "hashes": {
-                        "sha1": "7b46df9e34d81bb678e9547a662cca15a04855e5",
-                        "md5": "a563ab1b502b94fe033fb130a4ef4543"
-                    },
-                    "required_dependencies": [
-                        "419699"
-                    ],
-                    "size": 38674,
-                    "date_published": "2025-10-05T11:20:34.223Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "C5aa6hqqdVMmdXlN",
             "type": "MOD",
             "slug": {
@@ -4340,6 +4299,42 @@
                     "required_dependencies": [],
                     "size": 1039046,
                     "date_published": "2026-01-31T01:40:51.330Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "auVcIdntdbbysHXv",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "gnetum"
+            },
+            "name": {
+                "curseforge": "Gnetum"
+            },
+            "id": {
+                "curseforge": "1220460"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "gnetum-2.4.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8095/963/gnetum-2.4.4.jar",
+                    "id": "8095963",
+                    "parent_id": "1220460",
+                    "hashes": {
+                        "sha1": "bca1a7d6bc2d4a383ab9bfb82d6405196680c748",
+                        "md5": "ef61fa5d108e6e9f08793516899ee43a"
+                    },
+                    "required_dependencies": [],
+                    "size": 725510,
+                    "date_published": "2026-05-15T23:46:11.940Z"
                 }
             ]
         },
@@ -6433,44 +6428,6 @@
                     "required_dependencies": [],
                     "size": 93074,
                     "date_published": "2026-05-03T04:56:18.710Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "JQmZseTDZaVybaCm",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "modern-ui"
-            },
-            "name": {
-                "curseforge": "Modern UI"
-            },
-            "id": {
-                "curseforge": "352491"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ModernUI-Forge-1.20.1-3.12.0.1-universal.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6956/345/ModernUI-Forge-1.20.1-3.12.0.1-universal.jar",
-                    "id": "6956345",
-                    "parent_id": "352491",
-                    "hashes": {
-                        "sha1": "fcebe51e3c2ca34793f9b132fa05b5494ffc76a4",
-                        "md5": "5b863668f0de88993289ba098c77dcff"
-                    },
-                    "required_dependencies": [],
-                    "size": 25104473,
-                    "date_published": "2025-09-02T16:33:54.937Z"
                 }
             ]
         },
@@ -8780,9 +8737,9 @@
             ]
         },
         {
-            "pakku_id": "94ZiF5GA2bNmVK0L",
+            "pakku_id": "ZPTD6BQc0CuDKZxd",
             "pakku_links": [
-                "kI1q8dEBOwwZMrwa"
+                "9Icmeh0AQ76z3m30"
             ],
             "type": "MOD",
             "slug": {
@@ -8797,7 +8754,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedbackpacks-1.20.1-3.24.38.1738.jar",
+                    "file_name": "sophisticatedbackpacks-1.20.1-3.24.39.1743.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -8806,23 +8763,23 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8034/902/sophisticatedbackpacks-1.20.1-3.24.38.1738.jar",
-                    "id": "8034902",
+                    "url": "https://edge.forgecdn.net/files/8084/524/sophisticatedbackpacks-1.20.1-3.24.39.1743.jar",
+                    "id": "8084524",
                     "parent_id": "422301",
                     "hashes": {
-                        "sha1": "23e5158afec42fc3ac30c344d4939421bc9e2ccd",
-                        "md5": "a9c705f38693b6b4730e6a20229f6e41"
+                        "sha1": "f9653d26c7d1e285f6f16da2ed412e94139aa8f9",
+                        "md5": "0ce6dc07daaa3c65a1db1e0bd099d1c1"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 1019019,
-                    "date_published": "2026-05-03T21:59:24.430Z"
+                    "size": 1048031,
+                    "date_published": "2026-05-13T21:13:32.503Z"
                 }
             ]
         },
         {
-            "pakku_id": "kI1q8dEBOwwZMrwa",
+            "pakku_id": "9Icmeh0AQ76z3m30",
             "type": "MOD",
             "slug": {
                 "curseforge": "sophisticated-core"
@@ -8836,7 +8793,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedcore-1.20.1-1.3.33.1837.jar",
+                    "file_name": "sophisticatedcore-1.20.1-1.3.35.1851.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -8845,21 +8802,24 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8039/650/sophisticatedcore-1.20.1-1.3.33.1837.jar",
-                    "id": "8039650",
+                    "url": "https://edge.forgecdn.net/files/8084/488/sophisticatedcore-1.20.1-1.3.35.1851.jar",
+                    "id": "8084488",
                     "parent_id": "618298",
                     "hashes": {
-                        "sha1": "b22d39ff69346d598dff15ebf63235099e812910",
-                        "md5": "fc364952e2501efb796077792fdb8a32"
+                        "sha1": "de1edb240fff5897f44db29f49c159fc43958559",
+                        "md5": "e48e9e646c10f27ac71ed0e6f4cb9adc"
                     },
                     "required_dependencies": [],
-                    "size": 1473429,
-                    "date_published": "2026-05-04T18:29:00.463Z"
+                    "size": 1553125,
+                    "date_published": "2026-05-13T21:05:53.910Z"
                 }
             ]
         },
         {
             "pakku_id": "c6nd0PQkfRvfYinq",
+            "pakku_links": [
+                "9Icmeh0AQ76z3m30"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "sophisticated-item-actions"
@@ -8934,7 +8894,7 @@
             ]
         },
         {
-            "pakku_id": "GXwoOlaDpfq5bATk",
+            "pakku_id": "SpMrCKYDUlch5UQr",
             "type": "MOD",
             "slug": {
                 "curseforge": "sophisticated-storage"
@@ -8948,7 +8908,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedstorage-1.20.1-1.4.43.1720.jar",
+                    "file_name": "sophisticatedstorage-1.20.1-1.4.44.1725.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -8957,23 +8917,27 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8034/925/sophisticatedstorage-1.20.1-1.4.43.1720.jar",
-                    "id": "8034925",
+                    "url": "https://edge.forgecdn.net/files/8084/577/sophisticatedstorage-1.20.1-1.4.44.1725.jar",
+                    "id": "8084577",
                     "parent_id": "619320",
                     "hashes": {
-                        "sha1": "d08058dffcab14fbea95b6bf690e84ef0335ee76",
-                        "md5": "94c201c491e63dc0bd6c635aee864570"
+                        "sha1": "aa0d5dc500a01db88d98d1bba526b63d89aa0b72",
+                        "md5": "12f5aa90b97fe497e73065d5528a8a52"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 1671930,
-                    "date_published": "2026-05-03T22:03:39.457Z"
+                    "size": 1683996,
+                    "date_published": "2026-05-13T21:24:29.967Z"
                 }
             ]
         },
         {
             "pakku_id": "zlII1AvWbtDR0SUf",
+            "pakku_links": [
+                "9Icmeh0AQ76z3m30",
+                "SpMrCKYDUlch5UQr"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "sophisticated-storage-create-integration"

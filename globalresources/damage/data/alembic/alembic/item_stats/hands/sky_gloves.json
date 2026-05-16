@@ -1,5 +1,5 @@
 {
-  "id": "aether:diamond_gloves",
+  "id": "kubejs:sky_gloves",
   "modifiers": [
     {
       "type": "remove",
@@ -10,7 +10,14 @@
       "attribute": "minecraft:generic.attack_damage",
       "value": 2.0,
       "operation": "ADDITION",
-      "uuid": "55f5e35f-c1f3-446c-b2d5-df371d1dc6f6"
+      "uuid": "0bc1f010-47a4-45f2-ae89-757da6becf67"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "ed42b518-2ca3-48b6-9ee2-c4d8c3dc9ee1"
     }
   ],
   "equipment_slot": "hands"

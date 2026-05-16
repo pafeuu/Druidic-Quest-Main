@@ -1,5 +1,5 @@
 {
-  "id": "aether:phoenix_gloves",
+  "id": "deep_aether:stormforged_gloves",
   "modifiers": [
     {
       "type": "remove",
@@ -10,14 +10,21 @@
       "attribute": "alembic:fire_damage",
       "value": 1.5,
       "operation": "ADDITION",
-      "uuid": "f35ddec9-aa5a-4648-a821-44466247f4ba"
+      "uuid": "73b7d545-6e4f-4330-951c-439312a4436e"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage",
+      "value": 0.5,
+      "operation": "ADDITION",
+      "uuid": "71270e31-e825-429e-be55-f1b4c27e4c6b"
     },
     {
       "type": "append",
       "attribute": "alembic:fire_damage",
-      "value": 0.15,
+      "value": 0.2,
       "operation": "MULTIPLY_TOTAL",
-      "uuid": "d891e0c1-cda8-4e23-b617-d487543e3fa5"
+      "uuid": "d45b010c-3de9-45fc-813c-bcef476bd88a"
     }
   ],
   "equipment_slot": "hands"

@@ -2,18 +2,22 @@
   "id": "ancient_aether:valkyrum_gloves",
   "modifiers": [
     {
-      "type": "append",
-      "attribute": "alembic:holy_damage.resistance",
-      "value": 6,
-      "operation": "ADDITION",
-      "uuid": "c0379449-7684-4e7a-b742-df1fcb6c2d50"
+      "type": "remove",
+      "target": "minecraft:generic.attack_damage"
     },
     {
       "type": "append",
-      "attribute": "alembic:true_damage.resistance",
-      "value": 4,
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 3.0,
       "operation": "ADDITION",
-      "uuid": "9cd7584c-6eee-47c0-8c6b-81017ec8d006"
+      "uuid": "5a5e2b37-5ac3-4bba-b9f2-743cb64e7cff"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage",
+      "value": 3.0,
+      "operation": "ADDITION",
+      "uuid": "3e82b415-8275-4bb1-86c7-80e411ecf8a1"
     }
   ],
   "equipment_slot": "hands"

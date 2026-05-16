@@ -1,5 +1,5 @@
 {
-  "id": "aether:phoenix_gloves",
+  "id": "kubejs:infused_iron_gloves",
   "modifiers": [
     {
       "type": "remove",
@@ -7,17 +7,17 @@
     },
     {
       "type": "append",
-      "attribute": "alembic:fire_damage",
-      "value": 1.5,
+      "attribute": "alembic:alchemical_damage",
+      "value": 1.0,
       "operation": "ADDITION",
-      "uuid": "f35ddec9-aa5a-4648-a821-44466247f4ba"
+      "uuid": "d54d34c3-281b-4b45-80cc-b1e8e1a75633"
     },
     {
       "type": "append",
-      "attribute": "alembic:fire_damage",
-      "value": 0.15,
+      "attribute": "alembic:alchemical_damage",
+      "value": 0.1,
       "operation": "MULTIPLY_TOTAL",
-      "uuid": "d891e0c1-cda8-4e23-b617-d487543e3fa5"
+      "uuid": "e9ba003f-c5ba-4ab9-b0a7-f484aae79d62"
     }
   ],
   "equipment_slot": "hands"

@@ -2,18 +2,15 @@
   "id": "umbral_skies:arctic_gloves",
   "modifiers": [
     {
-      "type": "append",
-      "attribute": "minecraft:generic.armor",
-      "value": 2,
-      "operation": "ADDITION",
-      "uuid": "d262ce9b-514c-4511-8dbc-d15c57e10c5a"
+      "type": "remove",
+      "target": "minecraft:generic.attack_damage"
     },
     {
       "type": "append",
-      "attribute": "alembic:ice_damage.resistance",
-      "value": 2,
+      "attribute": "alembic:ice_damage",
+      "value": 0.5,
       "operation": "ADDITION",
-      "uuid": "71a6444a-143d-4f4d-a4a4-4a5ee3e0c53a"
+      "uuid": "18ef727a-34f7-4f24-8e6f-f87277492f58"
     }
   ],
   "equipment_slot": "hands"

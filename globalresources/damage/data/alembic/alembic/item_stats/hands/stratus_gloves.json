@@ -1,5 +1,5 @@
 {
-  "id": "aether:phoenix_gloves",
+  "id": "deep_aether:stratus_gloves",
   "modifiers": [
     {
       "type": "remove",
@@ -7,17 +7,17 @@
     },
     {
       "type": "append",
-      "attribute": "alembic:fire_damage",
-      "value": 1.5,
+      "attribute": "alembic:holy_damage",
+      "value": 2.0,
       "operation": "ADDITION",
-      "uuid": "f35ddec9-aa5a-4648-a821-44466247f4ba"
+      "uuid": "789f79b0-410f-4690-8a62-c1cf0893e06f"
     },
     {
       "type": "append",
-      "attribute": "alembic:fire_damage",
-      "value": 0.15,
+      "attribute": "alembic:holy_damage",
+      "value": 0.2,
       "operation": "MULTIPLY_TOTAL",
-      "uuid": "d891e0c1-cda8-4e23-b617-d487543e3fa5"
+      "uuid": "b9fef826-1927-4718-adbf-8656078a7c32"
     }
   ],
   "equipment_slot": "hands"

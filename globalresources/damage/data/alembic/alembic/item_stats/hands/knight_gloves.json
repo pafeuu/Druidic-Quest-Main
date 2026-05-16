@@ -2,18 +2,22 @@
   "id": "umbral_skies:knightmetal_gloves",
   "modifiers": [
     {
-      "type": "append",
-      "attribute": "minecraft:generic.armor",
-      "value": 2,
-      "operation": "ADDITION",
-      "uuid": "7fabb036-faa9-427f-ad54-05e825ad0c98"
+      "type": "remove",
+      "target": "minecraft:generic.attack_damage"
     },
     {
       "type": "append",
-      "attribute": "alembic:true_damage.resistance",
-      "value": 4,
+      "attribute": "alembic:true_damage",
+      "value": 1.0,
       "operation": "ADDITION",
-      "uuid": "6b4238d3-9f7b-4d8a-ba1c-210de5fc93a1"
+      "uuid": "4eac51e4-20fb-4895-a3aa-3d0e410a5672"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "d22a22dd-4e3d-493a-9008-04b98f45ea86"
     }
   ],
   "equipment_slot": "hands"

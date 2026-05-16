@@ -2,18 +2,22 @@
   "id": "umbral_skies:fiery_gloves",
   "modifiers": [
     {
-      "type": "append",
-      "attribute": "minecraft:generic.armor",
-      "value": 2,
-      "operation": "ADDITION",
-      "uuid": "d44642e3-abe2-491a-8faa-51c093d727ec"
+      "type": "remove",
+      "target": "minecraft:generic.attack_damage"
     },
     {
       "type": "append",
-      "attribute": "alembic:fire_damage.resistance",
-      "value": 4,
+      "attribute": "alembic:fire_damage",
+      "value": 1.0,
       "operation": "ADDITION",
-      "uuid": "4dc14356-a3d0-4249-9747-998bd0075cdb"
+      "uuid": "afca9017-23d0-48b6-8596-2d8cf6326a90"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "db493556-fed3-4e33-9fe1-e6b9a7d0bbe1"
     }
   ],
   "equipment_slot": "hands"

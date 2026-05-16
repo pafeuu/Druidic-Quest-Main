@@ -2,25 +2,22 @@
   "id": "aether:golden_gloves",
   "modifiers": [
     {
-      "type": "append",
-      "attribute": "alembic:fire_damage.resistance",
-      "value": 4,
-      "operation": "ADDITION",
-      "uuid": "5af15e16-45a6-424d-9d31-35a9f10907b1"
+      "type": "remove",
+      "target": "minecraft:generic.attack_damage"
     },
     {
       "type": "append",
-      "attribute": "alembic:arcane_damage.resistance",
-      "value": 4,
+      "attribute": "alembic:arcane_damage",
+      "value": 0.5,
       "operation": "ADDITION",
-      "uuid": "8e57a984-63d5-42d3-93a3-42ad77009b3e"
+      "uuid": "88102e08-3772-4d0a-bf65-45be3d361707"
     },
     {
       "type": "append",
       "attribute": "puffish_attributes:fortune",
       "value": 0.25,
       "operation": "ADDITION",
-      "uuid": "8e33a984-6335-12d1-93a3-42ad77009b3e"
+      "uuid": "cd84df6a-a9b4-4cb8-9718-e5bf69410670"
     }
   ],
   "equipment_slot": "hands"

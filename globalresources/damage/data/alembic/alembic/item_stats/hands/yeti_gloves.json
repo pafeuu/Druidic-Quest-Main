@@ -2,18 +2,22 @@
   "id": "umbral_skies:yeti_gloves",
   "modifiers": [
     {
-      "type": "append",
-      "attribute": "minecraft:generic.armor",
-      "value": 4,
-      "operation": "ADDITION",
-      "uuid": "cf172687-a99b-4cfc-888c-4914ad22030c"
+      "type": "remove",
+      "target": "minecraft:generic.attack_damage"
     },
     {
       "type": "append",
-      "attribute": "alembic:ice_damage.resistance",
-      "value": 4,
+      "attribute": "alembic:ice_damage",
+      "value": 0.75,
       "operation": "ADDITION",
-      "uuid": "1217f7f1-1444-4963-a1d4-2b87ce67c184"
+      "uuid": "61699dea-0df2-4a60-8662-beb887f02098"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage",
+      "value": 0.05,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "422fba58-e8e1-457a-b0e1-cb5718c0d75f"
     }
   ],
   "equipment_slot": "hands"

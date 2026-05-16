@@ -2,18 +2,22 @@
   "id": "aether:obsidian_gloves",
   "modifiers": [
     {
-      "type": "append",
-      "attribute": "alembic:fire_damage.resistance",
-      "value": 2,
-      "operation": "ADDITION",
-      "uuid": "88fa3ab3-6024-41f0-a7f7-6f3e7fb96e91"
+      "type": "remove",
+      "target": "minecraft:generic.attack_damage"
     },
     {
       "type": "append",
-      "attribute": "minecraft:generic.armor",
-      "value": 4,
+      "attribute": "alembic:true_damage",
+      "value": 1.5,
       "operation": "ADDITION",
-      "uuid": "5ce082e7-8baf-48bd-bed6-4eb26676fc1b"
+      "uuid": "d223282c-cdd2-4d9c-8351-1120d4f8fae4"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage",
+      "value": 0.15,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "677e0c67-373b-49e6-80ce-657d746be812"
     }
   ],
   "equipment_slot": "hands"

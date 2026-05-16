@@ -2,18 +2,22 @@
   "id": "umbral_skies:steeleaf_gloves",
   "modifiers": [
     {
+      "type": "remove",
+      "target": "minecraft:generic.attack_damage"
+    },
+    {
       "type": "append",
       "attribute": "alembic:alchemical_damage",
       "value": 0.75,
       "operation": "ADDITION",
-      "uuid": "a8df5a31-6a0f-418b-bdf8-59071af7a2c8"
+      "uuid": "9ca5b4ea-e112-4d93-b3f7-e8a996357d56"
     },
     {
       "type": "append",
-      "attribute": "alembic:alchemical_damage.resistance",
-      "value": 8,
-      "operation": "ADDITION",
-      "uuid": "1443c69e-0d2a-4857-9eb4-b66d214bcb78"
+      "attribute": "alembic:alchemical_damage",
+      "value": 0.05,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "7c546a2e-0495-44bf-a350-6d9d0e40b4e1"
     }
   ],
   "equipment_slot": "hands"

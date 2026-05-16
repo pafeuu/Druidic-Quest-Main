@@ -1,5 +1,5 @@
 {
-  "id": "aether:phoenix_gloves",
+  "id": "deep_aether:skyjade_gloves",
   "modifiers": [
     {
       "type": "remove",
@@ -7,17 +7,17 @@
     },
     {
       "type": "append",
-      "attribute": "alembic:fire_damage",
-      "value": 1.5,
+      "attribute": "alembic:holy_damage",
+      "value": 1.0,
       "operation": "ADDITION",
-      "uuid": "f35ddec9-aa5a-4648-a821-44466247f4ba"
+      "uuid": "2ccbb9ec-ccdd-4c64-8c31-7fd86b2ae13f"
     },
     {
       "type": "append",
-      "attribute": "alembic:fire_damage",
-      "value": 0.15,
+      "attribute": "alembic:holy_damage",
+      "value": 0.1,
       "operation": "MULTIPLY_TOTAL",
-      "uuid": "d891e0c1-cda8-4e23-b617-d487543e3fa5"
+      "uuid": "53138c7c-78ac-4702-9ca7-21ae8df5e733"
     }
   ],
   "equipment_slot": "hands"

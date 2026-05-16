@@ -2,11 +2,22 @@
   "id": "aether:iron_gloves",
   "modifiers": [
     {
+      "type": "remove",
+      "target": "minecraft:generic.attack_damage"
+    },
+    {
       "type": "append",
-      "attribute": "minecraft:generic.armor",
-      "value": 3,
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.5,
       "operation": "ADDITION",
-      "uuid": "f2e1a148-c610-459d-ba39-a78224ff20c7"
+      "uuid": "2b4da4a7-e8ab-4316-9741-dae4a068ed7e"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.05,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "3a4f71b2-a545-4dca-926f-fafcea5dc07b"
     }
   ],
   "equipment_slot": "hands"

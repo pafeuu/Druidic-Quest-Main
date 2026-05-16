@@ -2,18 +2,15 @@
   "id": "aether:leather_gloves",
   "modifiers": [
     {
-      "type": "append",
-      "attribute": "alembic:ice_damage.resistance",
-      "value": 1,
-      "operation": "ADDITION",
-      "uuid": "0951526f-564c-4532-a24c-9470052a82cc"
+      "type": "remove",
+      "target": "minecraft:generic.attack_damage"
     },
     {
       "type": "append",
-      "attribute": "alembic:alchemical_damage.resistance",
-      "value": 1,
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.25,
       "operation": "ADDITION",
-      "uuid": "e002468a-5e30-4f54-b8e8-7ddf801a40b8"
+      "uuid": "373b82e3-f999-418a-a3d3-ce94f9207161"
     }
   ],
   "equipment_slot": "hands"

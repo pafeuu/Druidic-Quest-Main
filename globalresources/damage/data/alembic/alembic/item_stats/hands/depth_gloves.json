@@ -1,5 +1,5 @@
 {
-  "id": "aether:phoenix_gloves",
+  "id": "kubejs:depth_gloves",
   "modifiers": [
     {
       "type": "remove",
@@ -7,17 +7,17 @@
     },
     {
       "type": "append",
-      "attribute": "alembic:fire_damage",
-      "value": 1.5,
+      "attribute": "alembic:true_damage",
+      "value": 2.0,
       "operation": "ADDITION",
-      "uuid": "f35ddec9-aa5a-4648-a821-44466247f4ba"
+      "uuid": "e322d24b-b2fd-4a11-9880-ad7cbe472b8b"
     },
     {
       "type": "append",
-      "attribute": "alembic:fire_damage",
-      "value": 0.15,
+      "attribute": "alembic:true_damage",
+      "value": 0.2,
       "operation": "MULTIPLY_TOTAL",
-      "uuid": "d891e0c1-cda8-4e23-b617-d487543e3fa5"
+      "uuid": "ed7dfc3e-5b7d-458e-808d-488a58b97ce1"
     }
   ],
   "equipment_slot": "hands"

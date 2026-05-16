@@ -1,5 +1,5 @@
 {
-  "id": "aether:netherite_gloves",
+  "id": "kubejs:silver_gloves",
   "modifiers": [
     {
       "type": "remove",
@@ -7,10 +7,10 @@
     },
     {
       "type": "append",
-      "attribute": "minecraft:generic.attack_damage",
-      "value": 3.0,
+      "attribute": "alembic:holy_damage",
+      "value": 0.5,
       "operation": "ADDITION",
-      "uuid": "b984fee0-2d6a-4266-a8b4-6e3ea241d345"
+      "uuid": "34d7345f-0949-454c-8135-1397fd389043"
     }
   ],
   "equipment_slot": "hands"
