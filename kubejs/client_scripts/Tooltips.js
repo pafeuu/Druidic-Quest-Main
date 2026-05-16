@@ -32,6 +32,8 @@ ItemEvents.tooltip( tooltip => {
 
   tooltip.add(["kubejs:travelers_belt"],Text.gray("Texture by Futureazoo"))
 
+  tooltip.add(["kubejs:cut_onions"],Text.gray("Texture by Jamiscus"))
+
   tooltip.add([
     "kubejs:the_terraformer",
     "kubejs:wooden_crucifix",
@@ -478,49 +480,7 @@ ItemEvents.tooltip( tooltip => {
   //tooltip.add("#druidic_quest:dimensional_tools",[Text.darkPurple("Tool made from materials outside of the main realm!"),Text.blue("Combine it with extradimensional eye"),Text.blue("in the crafting grid to apply telekinesis enchant!")])
   
   tooltip.add("twilightforest:transformation_powder",[Text.blue("Can be used by a Dispenser")])
-  tooltip.addAdvanced([
-    "immersiveengineering:armor_steel_helmet",
-    "immersiveengineering:armor_steel_chestplate",
-    "immersiveengineering:armor_steel_leggings",
-    "immersiveengineering:armor_steel_boots",
-    "immersiveengineering:pickaxe_steel",
-    "immersiveengineering:shovel_steel",
-    "immersiveengineering:axe_steel",
-    "immersiveengineering:hoe_steel",
-    "immersiveengineering:sword_steel",
-    'immersiveengineering:armor_faraday_helmet',
-    'immersiveengineering:armor_faraday_chestplate',
-    'immersiveengineering:armor_faraday_leggings',
-    'immersiveengineering:armor_faraday_boots',
-    "create:extendo_grip",
-    "kubejs:steel_shears",
-    "kubejs:steel_knife",
-    'thermal:hazmat_helmet',
-    'thermal:hazmat_chestplate',
-    'thermal:hazmat_leggings',
-    'thermal:hazmat_boots',
-    'enigmaticlegacy:etherium_helmet',
-    'enigmaticlegacy:etherium_chestplate',
-    'enigmaticlegacy:etherium_leggings',
-    'enigmaticlegacy:etherium_boots',
-    'deeperdarker:warden_helmet',
-    'deeperdarker:warden_chestplate',
-    'deeperdarker:warden_leggings',
-    'deeperdarker:warden_boots',
-    'ancient_aether:valkyrum_helmet',
-    'ancient_aether:valkyrum_chestplate',
-    'ancient_aether:valkyrum_leggings',
-    'ancient_aether:valkyrum_boots',
-    "constructionwand:stone_wand",
-    "constructionwand:iron_wand",
-    "constructionwand:diamond_wand",
-    "constructionwand:infinity_wand",
-    "kubejs:mycelial_hoe",
-    "aether:flaming_sword",
-    "ancient_aether:ancient_sword",
-    "aether:holy_sword",
-    "aether:lightning_sword",
-    "kubejs:lumber_axe"],
+  tooltip.addAdvanced(["#dq:unbreakables"],
     (item, advanced, text) => {
     text.add(1, Text.of("Unbreakable").blue())
     })
