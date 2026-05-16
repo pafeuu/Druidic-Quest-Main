@@ -168,4 +168,37 @@ ServerEvents.tags("block", (event) => {
   event.add("ars_nouveau:gravity_blacklist", gravityBlacklist);
 
   event.add("forge:relocation_not_supported", gravityBlacklist);
+
+  event.add("twilightforest:portal/decoration", [
+    'biomeswevegone:tall_prairie_grass',
+    'biomeswevegone:prairie_grass',
+    'biomeswevegone:tall_beach_grass',
+    'biomeswevegone:beach_grass',
+    'silly_oddities:short_dry_grass',
+    'silly_oddities:tall_dry_grass',
+    'deep_aether:tall_golden_grass',
+    'deep_aether:medium_golden_grass',
+    'deep_aether:short_golden_grass',
+    'deep_aether:mini_golden_grass',
+    'deep_aether:tall_feather_grass',
+    'deep_aether:feather_grass',
+    'ancient_aether:sky_grass',
+    'minecraft:grass',
+    'immersive_weathering:frosty_grass',
+    'immersive_weathering:dune_grass',
+    'minecraft:tall_grass',
+    'minecraft:seagrass',
+    'wizards_reborn:shiny_clover',
+    'supplementaries:wild_flax',
+    'naturesaura:end_flower',
+    'naturesaura:aura_bloom',
+    'farmersdelight:wild_cabbages',
+    'farmersdelight:wild_onions',
+    'farmersdelight:wild_tomatoes',
+    'farmersdelight:wild_carrots',
+    'farmersdelight:wild_potatoes',
+    'farmersdelight:wild_beetroots',
+    'farmersdelight:wild_rice']
+  )
+  //event.add("twilightforest:portal/decoration","#minecraft:small_flowers")
 });
