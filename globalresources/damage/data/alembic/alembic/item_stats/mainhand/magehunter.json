@@ -1,0 +1,17 @@
+{
+    "id": "irons_spellbooks:magehunter",
+    "modifiers": [
+        {
+            "type": "append",
+            "attribute": "alembic:arcane_damage.resistance",
+            "value": 5,
+            "operation": "ADDITION",
+            "uuid": "f8c3de3d-122a-4d7c-a8b0-29f632223454"
+        },
+        {
+            "type": "remove",
+            "target": "irons_spellbooks:spell_resist"
+        }
+    ],
+    "equipment_slot": "MAINHAND"
+}
