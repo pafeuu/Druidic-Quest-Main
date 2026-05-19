@@ -146,23 +146,23 @@ StartupEvents.registry('item', item => {
 
   item.create('sacrificial_dagger','sword').tier('gold').tag("minecraft:tools").tag("dq:tier1/weapon").tag("dq:tier1/tool").speedBaseline(-2.0).attackDamageBaseline(1)
   
-  item.create('primitive_shears',"shears").maxDamage(8).unstackable()
-  item.create("steel_shears","shears").maxDamage(-1).unstackable().tag("forge:tools/steel")
+  item.create('primitive_shears',"shears").maxDamage(8).unstackable().tag("forge:tools")
+  item.create("steel_shears","shears").maxDamage(-1).unstackable().tag("forge:tools/steel").tag("forge:tools")
   item.create("steel_knife","farmersdelight:knife").tag("minecraft:tools").tag("forge:tools/knives").tag("dq:tier1/tool").unstackable().tag("forge:tools/steel")
 
-  item.createCustom('primitive_firestarter',() => new $FlintAndSteelItem(new $ItemProperties().defaultDurability(8)))
+  item.createCustom('primitive_firestarter',() => new $FlintAndSteelItem(new $ItemProperties().defaultDurability(8))).tag("forge:tools/flint").tag("forge:tools")
 
   item.createCustom('primitive_shield', () => new $ShieldItem(new $ItemProperties().defaultDurability(128)))
 
   item.create('brick_glue').maxDamage(96).unstackable().tag("forge:tools/glue").tag("dq:tier0/tool")
 
-  item.create('primitive_mortar').maxDamage(16).unstackable().tag("forge:tools/mortars").tag("dq:tier0/tool")
-  item.create('basic_mortar').maxDamage(64).unstackable().tag("forge:tools/mortars").tag("dq:tier1/tool")
-  item.create('primitive_saw').maxDamage(64).unstackable().tag("forge:tools/saws").tag("dq:tier0/tool")
-  item.create('basic_saw').maxDamage(512).unstackable().tag("forge:tools/saws").tag("dq:tier1/tool")
+  item.create('primitive_mortar').maxDamage(16).unstackable().tag("forge:tools/mortars").tag("dq:tier0/tool").tag("forge:tools/flint").tag("forge:tools")
+  item.create('basic_mortar').maxDamage(64).unstackable().tag("forge:tools/mortars").tag("dq:tier1/tool").tag("forge:tools/copper").tag("forge:tools")
+  item.create('primitive_saw').maxDamage(64).unstackable().tag("forge:tools/saws").tag("dq:tier0/tool").tag("forge:tools/flint").tag("forge:tools")
+  item.create('basic_saw').maxDamage(512).unstackable().tag("forge:tools/saws").tag("dq:tier1/tool").tag("forge:tools/copper").tag("forge:tools")
 
-  item.create('primitive_chisel').maxDamage(16).unstackable().tag("forge:tools/chisels").tag("dq:tier0/tool").tag("forge:tools")
-  item.create('basic_chisel').maxDamage(128).tag("forge:tools/chisels").tag("dq:tier2/tool").unstackable().tag("forge:tools")
+  item.create('primitive_chisel').maxDamage(16).unstackable().tag("forge:tools/chisels").tag("dq:tier0/tool").tag("forge:tools").tag("forge:tools/flint").tag("forge:tools")
+  item.create('basic_chisel').maxDamage(128).tag("forge:tools/chisels").tag("dq:tier2/tool").unstackable().tag("forge:tools").tag("forge:tools/copper").tag("forge:tools")
 
   item.create('elemental_pump').maxDamage(4096).unstackable().tag("dq:tier2/components")
 
@@ -170,7 +170,7 @@ StartupEvents.registry('item', item => {
 
   item.create("warp_scroll").texture("ars_nouveau:item/warp_scroll")
 
-  item.create("grafter","hoe").tier('bronze').rarity("rare").maxDamage(256).tag("dq:tier1/tool").tag("minecraft:tools")
+  item.create("grafter","hoe").tier('bronze').rarity("rare").maxDamage(256).tag("dq:tier1/tool").tag("minecraft:tools").tag("forge:tools/bronze")
   
   
 })
