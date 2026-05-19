@@ -1273,7 +1273,13 @@
 			rewards: [
 				{
 					id: "6B2B03600720894F"
-					item: "minecraft:skeleton_skull"
+					item: {
+						Count: 1
+						id: "kubejs:primitive_shield"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
