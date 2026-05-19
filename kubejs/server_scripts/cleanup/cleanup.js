@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
 	event.replaceInput({input:"aether:skyroot_stick"},"aether:skyroot_stick","#c:rods/wooden")
 	event.replaceInput({input:"#aether:skyroot_stick"},"#aether:skyroot_stick","#c:rods/wooden")
 	event.replaceOutput({id:"vintageimprovements:craft/sulfur_nuggets_to_item"},"vintageimprovements:sulfur","thermal:sulfur")
-
+	event.replaceInput({input:"minecraft:lever",mod:"sophisticatedstorage"},"minecraft:lever","minecraft:redstone_torch")
 	
 	event.stonecutting("farmersdelight:potato_crate","thermal:potato_block")
 	event.stonecutting("farmersdelight:potato_crate","quark:potato_crate")
