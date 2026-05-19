@@ -727,37 +727,6 @@ ServerEvents.recipes(event=>{
     "wissen": 5000
     }).id("tiab:time_in_a_bottle")
 
-    event.custom({
-    "type": "wizards_reborn:arcane_workbench",
-    "pattern": [
-        "GBG",
-        "DBD",
-        "GBG",
-        "SSSS"
-    ],
-    "key": {
-        "W": {
-        "item": "minecraft:clock"
-        },
-        "B": {
-        "item": "minecraft:honey_bottle"
-        },
-        "S": {
-        "item": "ars_nouveau:magebloom"
-        },
-        "G":{
-        "tag": "forge:dusts/lapis"    
-        },
-        "D":{
-        "item": "minecraft:phantom_membrane"    
-        }
-    },
-    "output": {
-        "item": "enigmaticlegacy:mending_mixture",
-        "count": 3
-    },
-    "wissen": 1500
-    }).id("enigmaticlegacy:mending_mixture")
 
     const woodtools = ["hoe","axe","shovel","pickaxe"]
 
@@ -1517,6 +1486,68 @@ ServerEvents.recipes(event=>{
         },
         "wissen": 5000
     })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "GZG",
+			"DXD",
+			"GZG",
+            "EEEE"
+        ],
+        "key": {
+            "E": {
+            "item": "ars_nouveau:air_essence"
+            },
+            "G": {
+            "tag": "forge:plates/gravitite"
+            },
+            "D": {
+            "item": "alexsmobs:tarantula_hawk_wing"
+            },
+            "X": {
+            "item": "minecraft:elytra"
+            },
+            "Z": {
+            "item": "ars_nouveau:fire_essence"
+            }
+        },
+        "output": {
+            "item": "alexsmobs:tarantula_hawk_elytra"
+        },
+        "wissen": 12000
+    })
+
+    event.custom({
+        "type": "wizards_reborn:arcane_workbench",
+        "pattern": [
+            "GZG",
+			"DXD",
+			"GZG",
+            "EEEE"
+        ],
+        "key": {
+            "E": {
+            "item": "enigmaticlegacy:astral_dust"
+            },
+            "G": {
+            "tag": "forge:plates/enderium"
+            },
+            "D": {
+            "item": "kubejs:infused_amethyst"
+            },
+            "X": {
+            "item": "alexsmobs:tarantula_hawk_elytra"
+            },
+            "Z": {
+            "item": "enigmaticlegacy:etherium_ingot"
+            }
+        },
+        "output": {
+            "item": "enigmaticlegacy:enigmatic_elytra"
+        },
+        "wissen": 50000
+    }).id("enigmaticlegacy:enigmatic_elytra")
 
 
     
