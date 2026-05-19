@@ -1,0 +1,13 @@
+{
+  "id": "enigmaticlegacy:enigmatic_elytra",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "caelus:fall_flying",
+      "value": 1.0,
+      "operation": "ADDITION",
+      "uuid": "b7871681-422e-4d0a-8842-979c7ba41ef5"
+    }
+  ],
+  "equipment_slot": "back"
+}
