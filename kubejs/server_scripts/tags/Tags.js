@@ -3,15 +3,23 @@ priority: 0;
 ServerEvents.tags("item", (event) => {
   event.removeAllTagsFrom([global.nukelist]);
 
-  function AetherGlovesTags(id) {
-    event.add("aether:accessories_gloves", id);
-    event.add("aether:accessories", id);
-    event.add("curios:hands", id);
-  }
+  event.remove("curios:head", [
+    'twilightforest:knight_phantom_trophy',
+    'twilightforest:ur_ghast_trophy',
+    'twilightforest:alpha_yeti_trophy',
+    'twilightforest:hydra_trophy',
+    'twilightforest:minoshroom_trophy',
+    'twilightforest:lich_trophy',
+    'twilightforest:naga_trophy',
+    'umbral_skies:sun_spirit_trophy',
+    'umbral_skies:valkyrie_queen_trophy',
+    'umbral_skies:slider_trophy',
+    'twilightforest:snow_queen_trophy',
+    'twilightforest:quest_ram_trophy'
+  ])
 
   event.add("forge:dusts/saltpeter", "barrier"); // This shit screams at me all the time so it that barrier up
 
-  AetherGlovesTags("kubejs:test_gloves");
 
   event.add("minecraft:tools/pickaxe", "#forge:tools/pickaxes");
   event.add("minecraft:tools/axe", "#forge:tools/axes");
@@ -882,4 +890,5 @@ ServerEvents.tags("item", (event) => {
     "waystones:end_stone_waystone",
     "waystones:deepslate_waystone",
   ]);
+
 });
