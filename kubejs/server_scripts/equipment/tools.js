@@ -1314,7 +1314,7 @@ ServerEvents.recipes(event => {
 			" X "
 		],
 		{X:"#forge:ingots/silver",
-		 R:"aether:golden_ring",
+		 R:"ars_nouveau:ring_of_potential",
 		 F:"minecraft:dandelion"}
 	).id("kubejs:daybloom_ring")
 
