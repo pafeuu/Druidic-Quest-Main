@@ -2,7 +2,7 @@ const $CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi")
 
 LootJS.modifiers((event) => {
     
-    if (global.nukelist.length > 0) {
+    /*if (global.nukelist.length > 0) {
       for (const entry of global.nukelist) {
          event.addLootTypeModifier(LootType.CHEST).removeLoot(entry)
          event.addLootTypeModifier(LootType.BLOCK).removeLoot(entry)
@@ -14,7 +14,7 @@ LootJS.modifiers((event) => {
          event.addLootTypeModifier(LootType.ADVANCEMENT_REWARD).removeLoot(entry)
          event.addLootTypeModifier(LootType.UNKNOWN).removeLoot(entry)
       }
-   }
+   }*/
 
     ///==================================Enchanted Books==========================
 
@@ -204,10 +204,6 @@ LootJS.modifiers((event) => {
     event.addLootTableModifier(/.*dungeons_arise:chests.*/)
         .randomChance(0.025)
         .addLoot("3x enigmaticlegacy:mending_mixture")
-
-    event.addLootTableModifier(/.*dungeons_arise:chests.*/)
-        .randomChance(0.1)
-        .addLoot("aether:leather_gloves")
 
     //===================================================Rare Loot
     event.addLootTableModifier(/.*chests\/village.*/)

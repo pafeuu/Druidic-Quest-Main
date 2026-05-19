@@ -252,6 +252,8 @@ ServerEvents.recipes(event=>{
         "steel_component"
     )
 
+   
+
     event.remove([{id:"immersiveengineering:blueprint/component_iron"},{id:"immersiveengineering:blueprint/component_steel"}])
 
 })
