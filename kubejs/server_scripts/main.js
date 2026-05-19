@@ -57,6 +57,32 @@ ServerEvents.recipes(event => {
 	})
 	 
 	/// ======================================================================= Tier 0 Machines ========================================================================
+	event.shaped("minecraft:campfire",
+		[
+			" S ",
+			"SCS",
+			"LLL"
+		],
+		{
+			S: "#c:rods/wooden",
+			C: "#minecraft:coals",
+			L: "#minecraft:logs"
+		}
+	)
+
+	event.shaped("minecraft:soul_campfire",
+		[
+			" S ",
+			"SCS",
+			"LXL"
+		],
+		{
+			S: "#c:rods/wooden",
+			C: "#minecraft:coals",
+			L: "#minecraft:logs",
+			X: "#minecraft:soul_fire_base_blocks"
+		}
+	)
 	event.shaped("farmersdelight:cutting_board",
 		[
 			"SPP",

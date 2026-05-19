@@ -3,6 +3,7 @@
 ServerEvents.recipes(event=>{
     let removeById = [
         "farmersdelight:fried_egg",
+        "alexsmobs:tarantula_hawk_elytra",
         "farmersdelight:fried_egg_from_smoking",
         "farmersdelight:fried_egg_from_campfire_cooking",
         "deep_aether:squall_plate_from_smelting",
