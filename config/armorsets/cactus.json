@@ -34,11 +34,12 @@
       "value": 0.0,
       "interactionType": "self",
       "interactionDuration": 60,
-      "description": "Regenaration in desert biomes!",
+      "description": "Regeneration",
       "conditions": [
         {
           "type": "inBiome",
-          "extra": "#c:is_desert"
+          "extra": "#c:is_desert",
+          "tooltipDescription": "while in desert biomes!"
         }
       ]
     }
