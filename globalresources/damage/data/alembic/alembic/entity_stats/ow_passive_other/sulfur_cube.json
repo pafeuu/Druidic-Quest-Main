@@ -1,6 +1,6 @@
 {
   "priority": 1,
-  "type": "railways:conductor",
+  "type": "minecraft:sulfur_cube",
   "resistances": {
     "alchemical_damage": 1.0,
     "physical_damage": 1.0,
