@@ -1,6 +1,29 @@
 
 ItemEvents.tooltip(tooltip => {
 
+  // ========================================== Guide Books ==============================================
+
+  function guideBookTooltip(item,mod)
+  {
+    tooltip.add(item,Text.gray(`Documentation for the mod ${mod}`))
+  }
+
+  /*function patchouliGuideBookTooltip(item,mod)
+  {
+    tooltip.addAdvanced('kubejs:warp_scroll', (item, advanced, text) => {
+
+    const posX = item.nbt?.an_warp_scroll?.x
+
+    if (item.nbt) {
+      text.add(1,item,Text.gray(`Documentation for the mod ${mod}`))
+    }
+  })
+  }*///cba to make it
+
+
+  guideBookTooltip("immersiveengineering:manual","Immersive Engineering")
+  guideBookTooltip("wizards_reborn:arcanemicon","Wizard's Reborn")
+
   // ========================================== Texture Credits ==========================================
   tooltip.add(["kubejs:archers_glove",
     "kubejs:rotten_flesh_block",
