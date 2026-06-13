@@ -807,7 +807,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("vintagedelight:evaporator")
 
-	event.shaped("end_stone",[" C ","CSC"," C "],{C:"vintagedelight:cheese_curds",S:"stone"})
 	event.shaped("naturesaura:ancient_stick",[" P","P "],{P:"naturesaura:ancient_slab"}).id("naturesaura:ancient_stick")
 
 	event.shapeless("craftingstation:crafting_station_slab","craftingstation:crafting_station").id("craftingstation:crafting_station_slab")
@@ -1121,6 +1120,22 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 	
+	event.shaped("deep_aether:combiner",
+		[
+			"IGI",
+			"AXA",
+			"ZYZ"
+		],
+		{
+			I: "#forge:plates/ironwood",
+			G: "#forge:gears/ironwood",
+			X: "kubejs:basic_magic_machine",
+			A: "kubejs:basic_alchemical_dust",
+			Z: "#forge:plates/iron",
+			Y: "#forge:gears/iron"
+		}	
+	).id("deep_aether:combiner")
+
 	event.shaped("naturesaura:aura_timer",
 		[
 			"TGT",
