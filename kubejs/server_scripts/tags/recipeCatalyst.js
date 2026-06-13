@@ -5,14 +5,14 @@ ServerEvents.tags("item", (event) => {
     "thermal:explosive_grenade",
     "minecraft:tnt_minecart",
     "minecraft:creeper_spawn_egg",
+    "supplementaries:bomb",
+    "supplementaries:bomb_blue"
   ];
 
   const lightningCatalysts = [
     "aether:lightning_knife",
     "kubejs:lightning_arrow",
     "thermal:lightning_charge",
-    "thermal:lightning_tnt",
-    "thermal:lightning_grenade",
     "ars_nouveau:glyph_lightning",
   ];
 
