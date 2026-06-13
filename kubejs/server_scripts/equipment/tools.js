@@ -1069,6 +1069,19 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Tools ============================================================================
 
+	event.shaped("alexsmobs:vine_lasso",
+		[
+			"GVG",
+			"VXV",
+			"GVG"
+		],
+		{
+			V: "minecraft:vine",
+			G: "minecraft:slime_ball",
+			X: "minecraft:lead"
+		}
+	).id("alexsmobs:vine_lasso")
+	
 	event.shaped("immersiveengineering:skyhook",
 		[
 			"PP ",
@@ -1567,14 +1580,13 @@ ServerEvents.recipes(event => {
 	
 	event.shaped("kubejs:basic_chisel",
 		[
-			'  A',
-			' X ',
-			'H  '
+			' C ',
+			'CXC',
+			' C '
 		],
 		{
-			H: "kubejs:zinc_tool_handle",
 			X: "kubejs:primitive_chisel",
-			A: "kubejs:source_alloy_ingot"
+			C: "#forge:plates/copper"
 		}
 	)
 
