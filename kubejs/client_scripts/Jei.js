@@ -37,7 +37,6 @@ JEIEvents.information(event => {
     event.addItem("kubejs:charged_copper_block",["Created when Copper Block or Waxed Copper Block is struck by lightning"])
     event.addItem("naturesaura:birth_spirit",["Obtained by breeding animals in an area with high aura"])
     event.addItem("immersive_weathering:ivy",["Found in forest biomes hanging from some trees"])
-    event.addItem("enigmaticlegacy:extradimensional_eye",["Combine it with dimensional tool in the crafting grid to apply telekinesis enchant!"])
     event.addItem("kubejs:wooden_crucifix",["Rare drop from undead creatures"])
     event.addItem("thermal:compost",["Created by Batch Composter"])
     
