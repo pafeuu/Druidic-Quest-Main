@@ -165,6 +165,17 @@
         "value": 1024
       }
     },
+    "irons_lib:healing_received": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "minecraft:air_drag_modifier": {
       "enabled": true,
       "min": {
@@ -240,6 +251,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "irons_lib:experience_gained": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "alembic:true_damage.absorption": {
@@ -616,6 +638,17 @@
         "value": 1
       }
     },
+    "irons_lib:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "caelus:fall_flying": {
       "enabled": false,
       "min": {
@@ -924,6 +957,17 @@
         "value": 255
       }
     },
+    "irons_lib:arrow_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "alembic:fire_damage.resistance": {
       "enabled": false,
       "min": {
@@ -1021,6 +1065,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "irons_lib:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "combatroll:distance": {
@@ -1463,6 +1518,17 @@
         "value": 100
       }
     },
+    "irons_lib:armor_pierce": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "alembic:ice_damage.resistance": {
       "enabled": false,
       "min": {
@@ -1582,6 +1648,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "irons_lib:crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "attributeslib:arrow_velocity": {
