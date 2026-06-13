@@ -4431,3 +4431,192 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Ponders for alchemy
     -Balancing Gloves
     -Balancing Loottables(mineshaft, aether, nether)
+    -Add Ponder for twilight forest portal
+
+# Patch 5.0 Beta 3
+
+### Removed Mods:
+    -FindMe(SophisticatedItemActions has the same functionality)
+
+### New Items:
+    -Dwarven Pickaxe
+    -Dwarven Sword
+
+### Recipes:
+    -Added missing recipe for Depth Smithing Template
+    -Added for campfire
+    -Added for soul campfire
+
+### Loot:
+    -Reworked Dungeon loot
+    -Reworked Mineshaft loot
+    -Removed Enigmatic Legacy loot inserts
+    -Leather Gloves no longer appear in every chest
+    -Stage 3 Golden leaves now always drop gold leaf
+    -You can now harvest Golden Leaves with silk touch or shears
+
+### Spells:
+    -Brought back all the changes made prior to 5.0
+
+### Other:
+    -Enderman no longer get instantly agressive towards cursed ring users
+    -Fixed lack of cooldown when using axe to craft planks
+    -Updated default options to include SophisticatedItemActions keybind
+    -Realligned ender chest and magnet ring buttons
+
+# Patch 5.0 Beta 4
+
+### Removed Mods:
+    -Modern UI
+
+### Added Mods:
+    -Gnetum
+
+### Updated Mods:
+    -SophisticatedMods
+    -FTBQuests
+    -ReliableRemover
+    -ReliableRecipes
+    -EMI
+    -XaeroMinimap
+    -VanillaBackport
+    -Platform
+    -MoonlightLib
+    -ModernFix
+    -CreateVintageImprovements
+    -CrashAsistant
+    -CraftingStationImproved
+    -BetterAdvancements
+    -Kiwi
+
+### Recipes:
+    -Changed for Tarantula Hawk Elytra
+    -Changed for Majestic Elytra
+    -Changed for Yeti Armor
+    -Changed for Arctic Armor
+    -Changed for Daybloom Ring
+    -Added Repair Recipes for following items:
+        -Primitive Mortar
+        -Basic Mortar
+        -Primitive Chisel
+        -Basic Chisel
+        -Primitive Saw
+        -Basic Saw
+        -Sacrificial Dagger
+        -All the Magic Feathers
+        -Brick Glue
+        -Grafter
+        -Blade of Grass
+        -Ice Blade
+        -Primitive Firestarter
+        -Primitive Shield
+        -Shield
+        -Knightmetal Shield
+        -Enchanter's Shield
+        -The Terraformer
+    -Removed for Mending Mixture
+
+### Item Balance:
+    -Replaced spell resistance with arcane damage resistance in magehunter
+    -Rebalanced all the Gloves
+
+### Mobs Balance:
+    -Fixed a bug where every mob spawned with a tool in their offhand
+    
+### Textures:
+    -Changed for Cut Onions(by Jamiscus)
+    
+### Other:
+    -Different types of tall grass can now be used as decorators for TF portal
+    -Trophies can no longer be equipped in curios slots
+    -Enderman randomly teleporting and aggroing on cursed ring wearers is now 100 times less likely and has a reduced range of 8 blocks
+
+
+# Patch 5.0.0
+
+### Removed Items:
+    -Removed WIP items from mods(they will never be completed)
+    -Golden Stone Bricks
+    -Golden Nether Bricks
+    -Cheese Mold
+    -Cheese Wheel
+    -Cheese Curds
+    -Nulch
+
+### New Mods:
+    -Fragmentum
+
+### Updated Mods:
+    -Treeliable
+    -TooManyRecipeViewers
+    -ReliableReplacer
+    -FancyMenu
+    -ModernFix
+    -Loot journal
+    -ManaUnificationMod
+    -ReliableRemover
+    -BetterAdvancements
+    -DrippyLoadingScreen
+    -ALI
+    -CreativeCore
+    -ArsNFlavoursNDelight
+    -EnhancedAI
+    -Gnetum
+    -MobPropertiesRandomness
+    -XaeroWorldMap
+    -XaeroMinimap
+    -VillagerNames
+    -VanillaBackport
+    -Collective
+    -FTBChunks
+    -FTBLibrary
+    -IronsLib
+    -IronsSPells
+    -Platform
+    -JadeAddons
+    -ReliableReplacer
+    -SophisticatedMods
+    -EveryCompat
+    -MoonlightLib
+
+### Recipes:
+    -Changed for Vine Lasso
+    -Added for Capturing Gem
+    -Removed for Mending Mixture(for real this time)
+    -Added for Sulfur
+    -Added for Cinnabar
+    -Added for Sulfur Spike
+    -Added for Summoning Sulfur Cube
+    -Added for repairing Bow
+    -Added for repairing Crossbow
+    -Added for repairing Potato Cannon
+    -Added for repairing Enchanter's Equipment
+    -Changed for End Stone
+    
+
+### Tooltips:
+    -Added for IE guidebook for easier search
+    -Added for Wizard's Reborn guidebook for easier search
+
+### Loottables:
+    -Buffed sapling droprate of trumpet leaves
+
+### Quests:
+    -Adjusted the "Distilling the Elements" quest
+    -Fixed description for the Armor Sets! quest
+
+### Textures:
+    -Changed for Basic Chisel
+
+### Mob Balance:
+    -Animals will be tempted by their food again
+    -No Animal will spawn agressive
+
+### Other:
+    -Fixed cactus armor set bonus description
+    -Removed the recipe for applying the Token of Eternity to items that are already unbreakable by default
+    -Added missing forge tags to custom tools
+    -Fixed missing tags on slime blocks
+    -Fixed emi groups for ingots
+    -Updated default options with SophisticatedSorter sorting
+    -Removed all the enchanting stats from candle and bookshelves
