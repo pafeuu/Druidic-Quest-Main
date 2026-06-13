@@ -61,6 +61,10 @@ ClientEvents.lang("en_us", event => {
     event.renameItem("constructionwand:iron_wand","Basic Building Wand")
     event.renameItem("constructionwand:diamond_wand","Sturdy Building Wand")
     event.renameItem("constructionwand:infinity_wand","Advanced Building Wand")
+    event.renameItem("thermal:sulfur","Sulfur Gem")
+    event.renameItem("thermal:cinnabar","Cinnabar Gem")
+    event.renameBlock("thermal:sulfur_block","Block of Sulfur Gem")
+    event.renameBlock("thermal:cinnabar_block","Block of Cinnabar Gem")
 
     let newCategories = [
         "coral",
