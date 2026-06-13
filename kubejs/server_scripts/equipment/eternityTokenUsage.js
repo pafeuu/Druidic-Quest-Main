@@ -1,6 +1,6 @@
 ServerEvents.recipes(event=>{
 
-    Ingredient.of(["#dq:eternity_token_applicable"]).itemIds.forEach(tool=>{
+    Ingredient.of(["#dq:eternity_token_applicable"]).subtract("#dq:unbreakables").itemIds.forEach(tool=>{
 
         let recipeId = tool.replace(":","_")
         event.shapeless(tool, ["kubejs:eternity_token", tool])
