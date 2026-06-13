@@ -273,7 +273,7 @@
 
 [Animals]
 	#Makes animals not tempted by food. Use the entity type tag enhancedai:animal/can_ignore_food_temptation to change animals.
-	"Enable Not tempted animals" = true
+	"Enable Not tempted animals" = false
 	#Make animals fight back or be scared by players. Use the entity type tag enhancedai:animal/scared_attack/can_be_neutral, enhancedai:animal/scared_attack/can_be_hostile, and enhancedai:animal/scared_attack/can_be_scared_by_players to add/remove animals.
 	"Enable Animal scared attack" = true
 	#Make animals panic when one is attacked. Only entity types in `enhancedai:animal/can_panic` tag will be affected by this feature.
@@ -292,7 +292,7 @@
 		"Neutral chance" = 0.35
 		#Animals have this percentage chance to be hostile. Hostile animals are also neutral.
 		#Range: 0.0 ~ 1.0
-		"Hostile chance" = 0.1
+		"Hostile chance" = 0.0
 		#Movement speed multiplier when aggroed.
 		#Range: 0.0 ~ 4.0
 		"Speed modifier" = 1.1
