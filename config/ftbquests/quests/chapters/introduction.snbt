@@ -1699,11 +1699,6 @@
 					item: "minecraft:saddle"
 					type: "item"
 				}
-				{
-					id: "45E100250890EADF"
-					item: "naturesaura:pet_reviver"
-					type: "item"
-				}
 			]
 			shape: "pentagon"
 			subtitle: "Pro Tip: Don't look a gift horse in the mouth."
