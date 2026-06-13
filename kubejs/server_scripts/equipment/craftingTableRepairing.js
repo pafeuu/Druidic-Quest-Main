@@ -45,10 +45,17 @@ ServerEvents.recipes(event=>{
     fullRepair("ars_nouveau:enchanters_shield","#forge:plates/source_alloy")
     fullRepair("kubejs:the_terraformer","ars_nouveau:earth_essence")
     fullRepair("immersiveengineering:glider","immersiveengineering:hemp_fabric")
+    fullRepair("minecraft:bow","#c:strings")
+    fullRepair("minecraft:crossbow","#c:strings")
+    fullRepair("create:potato_cannon","#forge:plates/copper")
+    fullRepair("arsdelight:enchanters_knife","#forge:plates/tainted_gold")
+    fullRepair("ars_nouveau:enchanters_shield","#forge:plates/tainted_gold")
+    fullRepair("ars_nouveau:enchanters_sword","#forge:plates/tainted_gold")
+    fullRepair("irons_spellbooks:magehunter","kubejs:arcanum_alloy_ingot")
     
     fullRepairToolTier("yeti","twilightforest:alpha_yeti_fur")
     fullRepairToolTier("arctic","twilightforest:arctic_fur")
-    fullRepairToolTier("etherium","3x #forge:ingots/fiery")
+    //fullRepairToolTier("etherium","3x #forge:ingots/fiery")//this is already unbreakable lol
     fullRepairToolTier("diamond","minecraft:diamond")
     fullRepairToolTier("netherite","2x minecraft:diamond")
     fullRepairToolTier("leather","minecraft:leather")
