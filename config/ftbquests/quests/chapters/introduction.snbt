@@ -294,7 +294,7 @@
 				""
 				"The &eBeekeeper Set&r provides you with a few immunities to negative effects."
 				""
-				"With the &8Mortem Set&r, you get a slight increases in some stats and the armor, itself, is quite strong."
+				"While the &2Cactus Set&r is the weakest option but it does provide you with thorns as well as regeneration while in the desert biomes."
 			]
 			icon: {
 				Count: 1
@@ -1697,6 +1697,11 @@
 				{
 					id: "19E21D8E3E59D4AA"
 					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					id: "45E100250890EADF"
+					item: "naturesaura:pet_reviver"
 					type: "item"
 				}
 			]

@@ -138,6 +138,8 @@
 				"Be careful! Draining too much Aura from an area may have unwanted consequences."
 				""
 				"If this makes you nervous, you can use Create's millstone as a safer, manual alternative."
+				""
+				"Catalyst goes on top of one of the lower gem blocks."
 			]
 			icon: "naturesaura:nature_altar"
 			id: "44B9FE4B80D14F6F"
@@ -161,31 +163,43 @@
 					type: "item"
 				}
 				{
-					count: 4L
-					id: "353DED5C5F416D7A"
-					item: { Count: 4, id: "minecraft:chiseled_stone_bricks" }
+					count: 8L
+					id: "154CB0AA1B247A71"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(dq:altar_gem_blocks)"
+						}
+					}
 					optional_task: true
+					title: "Gem Blocks"
 					type: "item"
 				}
 				{
 					count: 20L
-					id: "0E075B03CC693BB2"
-					item: { Count: 20, id: "minecraft:oak_planks" }
-					optional_task: true
+					id: "7416815536AB0CED"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(dq:bricks)"
+						}
+					}
+					title: "Any #dq:bricks"
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "154CB0AA1B247A71"
-					item: { Count: 4, id: "naturesaura:gold_brick" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "612064F69C56CD98"
-					item: { Count: 16, id: "minecraft:stone_bricks" }
-					optional_task: true
+					count: 20L
+					id: "774F89E27C3A4C47"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(dq:altar_wood)"
+						}
+					}
+					title: "Any #dq:altar_wood"
 					type: "item"
 				}
 			]
@@ -320,15 +334,15 @@
 			shape: "rsquare"
 			subtitle: "Energetic!"
 			tasks: [{
-				id: "2E3621B603EF2C76"
+				id: "6DF1EDD4361EB027"
 				item: {
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "or(item(thermal:lightning_grenade)item(thermal:lightning_tnt)item(thermal:lightning_charge)item(kubejs:lightning_arrow))"
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(lychee:lightning_channeling_catalysts)"
 					}
 				}
-				title: "Summoning Lightning"
+				title: "Any #lychee:lightning_channeling_catalysts"
 				type: "item"
 			}]
 			title: "Lightning Crafting"
@@ -991,7 +1005,7 @@
 				item: "supplementaries:cog_block"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 9.0d
 			y: -2.5d
 		}
 		{
@@ -1126,7 +1140,13 @@
 				"6CDE2D6E743FAAA5"
 				"0E40C9B32E05AC51"
 			]
-			description: ["The &5&lDimension Ripper&r&r activates the Twilight Forest portal like a diamond usually would."]
+			description: [
+				"The &5&lDimension Ripper&r&r activates the Twilight Forest portal like a diamond usually would."
+				""
+				"The portal needs at least 4 water source blocks with any dirt around it with any flowers on top of the grass."
+				""
+				"Maximum size for the portal is 9x9 including the dirt frame."
+			]
 			hide_until_deps_visible: false
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "30B689B22757873D"

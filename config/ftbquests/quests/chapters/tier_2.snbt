@@ -158,6 +158,8 @@
 				"Mastering the elements is a crucial part of any magic-user's journey."
 				""
 				"Placing the appropriate items into the &9Elemental Evaporator&r will allow you to extract the elements in their liquid forms."
+				""
+				"Or you can place &9Elemental Extractor&r equipped with &9Elemental Pump&r to achieve the same result "
 			]
 			icon: "mbd2:elemental_evaporator"
 			id: "5CB418E959BA9BC4"
@@ -179,6 +181,7 @@
 							"ftbfiltersystem:filter": "or(item(mbd2:elemental_extractor)item(mbd2:elemental_evaporator))"
 						}
 					}
+					title: "Elemental generators"
 					type: "item"
 				}
 				{
@@ -729,6 +732,19 @@
 					id: "57656293D61B2C06"
 					item: "immersiveengineering:cokebrick"
 					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1D92AA33583E4A34"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(dq:kiln_fuel)"
+						}
+					}
+					optional_task: true
+					title: "Any Kiln Fuel"
 					type: "item"
 				}
 			]
