@@ -1,7 +1,6 @@
 priority: 0;
 
 ServerEvents.tags("item", (event) => {
-  event.removeAllTagsFrom([global.nukelist]);
 
   event.remove("curios:head", [
     'twilightforest:knight_phantom_trophy',
@@ -18,6 +17,8 @@ ServerEvents.tags("item", (event) => {
     'twilightforest:quest_ram_trophy'
   ])
 
+
+  event.add("forge:ancient_wood", ["naturesaura:ancient_bark", "naturesaura:ancient_log"])
   event.add("forge:dusts/saltpeter", "barrier"); // This shit screams at me all the time so it that barrier up
 
 
@@ -33,6 +34,7 @@ ServerEvents.tags("item", (event) => {
   event.add("forge:tools/pickaxes", "#minecraft:pickaxes");
 
   event.add("forge:storage_blocks/slime", "#c:storage_blocks/slime");
+  event.add("c:storage_blocks/slime", "minecraft:slime_block")
   event.add("aether:phoenix_repairing", "kubejs:phoenix_ingot");
   event.remove("forge:dough", "create:dough");
   event.add("c:rods/wooden", [
@@ -168,6 +170,17 @@ ServerEvents.tags("item", (event) => {
   ]);
   event.add("forge:tools/hammers", "immersiveengineering:hammer");
   event.add("forge:ingots/andesite_alloy", "create:andesite_alloy");
+  event.add("forge:ingots", [
+    'irons_spellbooks:arcane_ingot',
+    'immersiveengineering:ingot_steel',
+    'immersiveengineering:ingot_hop_graphite',
+    'enigmaticlegacy:evil_ingot',
+    'naturesaura:depth_ingot',
+    'enigmaticlegacy:etherium_ingot',
+    'naturesaura:tainted_gold',
+    'naturesaura:sky_ingot',
+    'naturesaura:infused_iron'
+  ])
 
   event.removeAll("twilightforest:portal/activator");
 
@@ -218,6 +231,8 @@ ServerEvents.tags("item", (event) => {
   event.add("minecraft:swords", "#forge:tools/swords");
   event.add("minecraft:shovels", "#forge:tools/shovels");
   event.add("minecraft:hoes", "#forge:tools/hoes");
+
+  event.add("minecraft:swords", ['deep_aether:storm_sword', 'starbunclemania:star_sword', "create:cardboard_sword"])
 
   event.add("forge:ingots/stainless_steel", "immersiveengineering:ingot_steel");
   event.add(
