@@ -3,6 +3,7 @@
 ServerEvents.recipes(event=>{
     let removeById = [
         "farmersdelight:fried_egg",
+        "ars_nouveau:conjuration_essence_to_end_stone",
         "naturesaura:ancient_planks",
         "naturesaura:ancient_planks_from_bark",
         "naturesaura:ancient_stick",
