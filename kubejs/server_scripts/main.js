@@ -1,61 +1,69 @@
-var colors = ['red','blue','white','gray','light_gray','black','purple','magenta','yellow','green','lime','light_blue','cyan','orange','pink','brown']
+const colors = ['red', 'blue', 'white', 'gray', 'light_gray', 'black', 'purple', 'magenta', 'yellow', 'green', 'lime', 'light_blue', 'cyan', 'orange', 'pink', 'brown']
 
-var metals = ['tin','silver','lead','gold','iron','copper','nickel','zinc','aluminum']
+const metals = ['tin', 'silver', 'lead', 'gold', 'iron', 'copper', 'nickel', 'zinc', 'aluminum']
 
-var wood = ['oak','spruce','birch','jungle','acacia','dark_oak',"crimson","warped"]
+const wood = ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak', "crimson", "warped", "cherry", "bamboo", "mangrove"]
 
-var wood_RU = ['alpha','baobab','blackwood','blue_bioshroom','brimwood','cobalt','cypress','dead','eucalyptus','joshua','green_bioshroom','kapok','larch','magnolia','maple','mauve','palm','pine','pink_bioshroom','redwood','socotra','willow','yellow_bioshroom']
+const wood_TF = ['canopy', 'mangrove', 'twilight_oak', 'time', 'transformation', 'mining', 'sorting', 'dark']
 
-var wood_FA = ['aurum','fungyss','edelwood']
+const wood_BWG = ['aspen', 'baobab', 'blue_enchanted', 'green_enchanted', 'cika', 'cypress', 'ebony', 'fir', 'florus', 'holly', 'ironwood', 'jacaranda', 'mahogany', 'maple', 'palm',
+	'pine', 'rainbow_eucalyptus', 'redwood', 'sakura', 'skyris', 'white_mangrove', 'willow', 'witch_hazel', 'zelkova'
+]
 
-var wood_TF = ['canopy','mangrove','twilight_oak','time','transformation','mining','sorting','dark']
+const wood_DA = ["sunroot","conberry","yagroot","cruderoot","roseroot"]
 
-var alloys = ['bronze','enderium','brass','invar','rose_gold','constantan','signalum','lumium']
+const wood_AA = ["sakura","highsproot"]
+
+const wood_quark = ["blossom","ancient","azalea"]
+
+const wood_WR = ["arcane_wood","innocent_wood"]
+
+const alloys = ['bronze', 'enderium', 'brass', 'invar', 'rose_gold', 'constantan', 'signalum', 'lumium']
 
 ServerEvents.recipes(event => {
-  
-	event.remove({id:"enigmaticlegacy:thicc_scroll"});
-	event.remove({id:"explorerscompass:explorers_compass"});
-	event.remove({id:'ars_nouveau:potion_flask'})
-	event.remove({mod:'waystones'})
+
+	event.remove({ id: "enigmaticlegacy:thicc_scroll" });
+	event.remove({ id: "explorerscompass:explorers_compass" });
+	event.remove({ id: 'ars_nouveau:potion_flask' })
+	event.remove({ mod: 'waystones' })
 	/*event.remove({output:'#minecraft:axes'})
 	event.remove({output:'#minecraft:pickaxes'})
 	event.remove({output:'#minecraft:shovels'})
 	event.remove({output:'#minecraft:hoes'})
 	event.remove({output:'#minecraft:swords'})*/
-	
-	event.replaceInput({mod:'ars_nouveau', not:[{type:"minecraft:stonecutting"},{id:"ars_nouveau:sourcestone_sconce"}]}, 'ars_nouveau:sourcestone','kubejs:source_alloy_ingot')
-	
-	event.replaceInput({id:"immersiveengineering:crafting/gunpowder_from_dusts"},"immersiveengineering:dust_saltpeter","bone_meal")
-	event.replaceInput({mod:'crafting_on_a_stick'}, 'minecraft:stick','kubejs:zinc_tool_handle')
-	event.shapeless("2x minecraft:rooted_dirt",["minecraft:dirt","minecraft:mangrove_roots"])
-	event.shapeless("minecraft:rooted_dirt",["minecraft:dirt","minecraft:hanging_roots"])
-	
+
+	event.replaceInput({ mod: 'ars_nouveau', not: [{ type: "minecraft:stonecutting" }, { id: "ars_nouveau:sourcestone_sconce" }] }, 'ars_nouveau:sourcestone', 'kubejs:source_alloy_ingot')
+
+	event.replaceInput({ id: "immersiveengineering:crafting/gunpowder_from_dusts" }, "immersiveengineering:dust_saltpeter", "bone_meal")
+	event.replaceInput({ mod: 'crafting_on_a_stick' }, 'minecraft:stick', 'kubejs:zinc_tool_handle')
+	event.shapeless("2x minecraft:rooted_dirt", ["minecraft:dirt", "minecraft:mangrove_roots"])
+	event.shapeless("minecraft:rooted_dirt", ["minecraft:dirt", "minecraft:hanging_roots"])
+
 
 	event.custom({
 		type: "lychee:block_interacting",
-		item_in: {tag: "forge:tools/knives"},
+		item_in: { tag: "forge:tools/knives" },
 		block_in: "farmersdelight:onion_crate",
 		post: [
-			{type: "place", block: "air"},
-			{type: "drop_item", item: "kubejs:cut_onions", "count": 3},
-			{type: "damage_item", damage: 9},
-			{type: "hurt", damage: 2, hide: true},
-			{type: "execute", command: "playsound farmersdelight:block.cutting_board.knife neutral @p",hide: true}
+			{ type: "place", block: "air" },
+			{ type: "drop_item", item: "kubejs:cut_onions", "count": 3 },
+			{ type: "damage_item", damage: 9 },
+			{ type: "hurt", damage: 2, hide: true },
+			{ type: "execute", command: "playsound farmersdelight:block.cutting_board.knife neutral @p", hide: true }
 		]
 	})
 
 	event.custom({
 		type: "lychee:block_interacting",
-		item_in: {tag: "forge:tools/knives"},
+		item_in: { tag: "forge:tools/knives" },
 		block_in: "minecraft:bone_block",
 		post: [
-			{type: "place", block: "minecraft:skeleton_skull"},
-			{type: "damage_item",damage: 1},
-			{type: "execute",command: "playsound farmersdelight:block.cutting_board.knife neutral @p",hide: true}
+			{ type: "place", block: "minecraft:skeleton_skull" },
+			{ type: "damage_item", damage: 1 },
+			{ type: "execute", command: "playsound farmersdelight:block.cutting_board.knife neutral @p", hide: true }
 		]
 	})
-	 
+
 	/// ======================================================================= Tier 0 Machines ========================================================================
 	event.shaped("minecraft:campfire",
 		[
@@ -93,9 +101,9 @@ ServerEvents.recipes(event => {
 			P: "#minecraft:planks"
 		}
 	)
-	
-	event.shapeless("create:rose_quartz_lamp",["minecraft:redstone_lamp","rose_bush","minecraft:quartz"]).id("create:crafting/kinetics/rose_quartz_lamp")
-	
+
+	event.shapeless("create:rose_quartz_lamp", ["minecraft:redstone_lamp", "rose_bush", "minecraft:quartz"]).id("create:crafting/kinetics/rose_quartz_lamp")
+
 	event.shaped("wizards_reborn:arcane_workbench",
 		[
 			"RTR",
@@ -118,9 +126,9 @@ ServerEvents.recipes(event => {
 			"ATA"
 		],
 		{
-			G:"naturesaura:gold_leaf",
-			A:"wizards_reborn:arcanum",
-			T:"naturesaura:wood_stand"
+			G: "naturesaura:gold_leaf",
+			A: "wizards_reborn:arcanum",
+			T: "naturesaura:wood_stand"
 		}
 	)
 
@@ -131,9 +139,9 @@ ServerEvents.recipes(event => {
 			"SPS"
 		],
 		{
-			S:"wizards_reborn:arcane_wood_slab",
-			P:"wizards_reborn:arcane_wood_planks",
-			T:"naturesaura:wood_stand"
+			S: "wizards_reborn:arcane_wood_slab",
+			P: "wizards_reborn:arcane_wood_planks",
+			T: "naturesaura:wood_stand"
 		}
 	).id("wizards_reborn:shaped/arcane_pedestal")
 
@@ -144,9 +152,9 @@ ServerEvents.recipes(event => {
 			"SPS"
 		],
 		{
-			S:"wizards_reborn:innocent_wood_slab",
-			P:"wizards_reborn:innocent_wood_planks",
-			T:"naturesaura:wood_stand"
+			S: "wizards_reborn:innocent_wood_slab",
+			P: "wizards_reborn:innocent_wood_planks",
+			T: "naturesaura:wood_stand"
 		}
 	).id("wizards_reborn:shaped/innocent_pedestal")
 
@@ -157,12 +165,12 @@ ServerEvents.recipes(event => {
 			"SPS"
 		],
 		{
-			S:"wizards_reborn:cork_bamboo_slab",
-			P:"wizards_reborn:cork_bamboo_planks",
-			T:"naturesaura:wood_stand"
+			S: "wizards_reborn:cork_bamboo_slab",
+			P: "wizards_reborn:cork_bamboo_planks",
+			T: "naturesaura:wood_stand"
 		}
 	).id("wizards_reborn:shaped/cork_bamboo_pedestal")
-	
+
 	event.shaped("wizards_reborn:wissen_altar",
 		[
 			"GAG",
@@ -203,10 +211,10 @@ ServerEvents.recipes(event => {
 		}
 	).id("minecraft:crafting_table")
 
-	event.remove({output:'minecraft:crafting_table'})
-	
-	event.shaped("supplementaries:bellows",["SSS","ABA","SSS"],{S:"#minecraft:wooden_slabs",A:"quark:bottled_cloud",B:"bundle"}).id("supplementaries:bellows")
-	
+	event.remove({ output: 'minecraft:crafting_table' })
+
+	event.shaped("supplementaries:bellows", ["SSS", "ABA", "SSS"], { S: "#minecraft:wooden_slabs", A: "quark:bottled_cloud", B: "bundle" }).id("supplementaries:bellows")
+
 	event.shaped("minecraft:beehive",
 		[
 			"SSS",
@@ -222,62 +230,62 @@ ServerEvents.recipes(event => {
 	event.custom({
 		type: "lychee:item_inside",
 		item_in: [
-			{item: "ender_pearl"},
-			{tag: "forge:insect"},
-			{tag: "forge:storage_blocks/beetroot"},
-			{tag: "forge:storage_blocks/beetroot"}],
+			{ item: "ender_pearl" },
+			{ tag: "forge:insect" },
+			{ tag: "forge:storage_blocks/beetroot" },
+			{ tag: "forge:storage_blocks/beetroot" }],
 		block_in: "minecraft:water",
 		post: [
-			{type: "place", block: "alexsmobs:capsid"},
+			{ type: "place", block: "alexsmobs:capsid" },
 		]
 	})
-	
-	event.shaped("composter",[
+
+	event.shaped("composter", [
 		"F F",
 		"S S",
 		"PPP"
 	],
-	{
-		F: "#minecraft:wooden_fences",
-		S: "kubejs:stacked_planks",
-		P: "kubejs:packed_planks"
-	}).id("minecraft:composter")
-	
-	
-	event.remove({output:'supplementaries:sack'})
+		{
+			F: "#minecraft:wooden_fences",
+			S: "kubejs:stacked_planks",
+			P: "kubejs:packed_planks"
+		}).id("minecraft:composter")
+
+
+	event.remove({ output: 'supplementaries:sack' })
 	event.shaped(
-	  Item.of('supplementaries:sack'), 
-	  [
-		'CSC', 
-		' C '
-	  ],
-	  {
-		C: 'farmersdelight:canvas',
-		S: '#forge:string'
-	  }
+		Item.of('supplementaries:sack'),
+		[
+			'CSC',
+			' C '
+		],
+		{
+			C: 'farmersdelight:canvas',
+			S: '#forge:string'
+		}
 	)
 
-	event.remove({id:'naturesaura:gold_fiber'})
-	
-	event.remove({output:'immersiveengineering:cokebrick'})
+	event.remove({ id: 'naturesaura:gold_fiber' })
+
+	event.remove({ output: 'immersiveengineering:cokebrick' })
 
 	event.shaped("3x immersiveengineering:cokebrick",
-	[
-		"CSC",
-		"GBG",
-		"CSC"
+		[
+			"CSC",
+			"GBG",
+			"CSC"
 
-	],
-	{
-		C: "sand",
-		G: "gravel",
-		S: "clay",
-		B: "kubejs:brick_glue"
-	}).damageIngredient("kubejs:brick_glue",3)
-	
-	
+		],
+		{
+			C: "#minecraft:sand",
+			G: "gravel",
+			S: "clay",
+			B: "kubejs:brick_glue"
+		}).damageIngredient("kubejs:brick_glue", 3)
+
+
 	/// ======================================================================= Tier 0 Components ========================================================================
-	
+
 	event.shaped("rehooked:wood_chain",
 		[
 			" LL",
@@ -285,10 +293,10 @@ ServerEvents.recipes(event => {
 			"LL "
 		],
 		{
-			L:"wizards_reborn:arcane_wood_branch"
+			L: "wizards_reborn:arcane_wood_branch"
 		}
 	).id("rehooked:wood_chain")
-	
+
 	event.shaped("8x wizards_reborn:wisestone",
 		[
 			"SSS",
@@ -339,11 +347,11 @@ ServerEvents.recipes(event => {
 		}
 	).id("farmersdelight:safety_net")
 
-	event.shapeless("supplementaries:rope","farmersdelight:rope").id("farmersdelight:rope_from_safety_net")
-	event.shapeless("farmersdelight:rope","supplementaries:rope").id("farmersdelight:rope")
+	event.shapeless("supplementaries:rope", "farmersdelight:rope").id("farmersdelight:rope_from_safety_net")
+	event.shapeless("farmersdelight:rope", "supplementaries:rope").id("farmersdelight:rope")
 
-	event.shapeless("aether:cold_aercloud","9x quark:bottled_cloud")
-	
+	event.shapeless("aether:cold_aercloud", "9x quark:bottled_cloud")
+
 	event.shaped("48x supplementaries:cannonball",
 		[
 			" C ",
@@ -366,7 +374,7 @@ ServerEvents.recipes(event => {
 			W: "naturesaura:wood_stand"
 		}
 	)
-	event.remove({id:"immersive_weathering:paper_from_birch_bark"})
+	event.remove({ id: "immersive_weathering:paper_from_birch_bark" })
 	event.shaped("paper",
 		[
 			"BBB"
@@ -377,27 +385,27 @@ ServerEvents.recipes(event => {
 	).id("farmersdelight:paper_from_tree_bark")
 
 	event.custom({
-	"type": "lychee:block_interacting",
-	"post": [
-		{
-		"type": "drop_item",
-		"item": "wizards_reborn:white_arcane_lumos",
-		"count": 16
+		"type": "lychee:block_interacting",
+		"post": [
+			{
+				"type": "drop_item",
+				"item": "wizards_reborn:white_arcane_lumos",
+				"count": 16
+			},
+			{
+				"type": "place",
+				"block": "air"
+			},
+			{
+				"type": "execute",
+				"command": "playsound wizards_reborn:arcanum_dust_transmutation neutral @p",
+				"hide": true
+			}
+		],
+		"item_in": {
+			"item": "wizards_reborn:arcanum_dust"
 		},
-		{
-			"type": "place",
-			"block": "air"
-		},
-		{
-		"type": "execute",
-		"command": "playsound wizards_reborn:arcanum_dust_transmutation neutral @p",
-		"hide": true
-		}
-	],
-	"item_in": {
-		"item": "wizards_reborn:arcanum_dust"
-	},
-	"block_in": "coal_block"
+		"block_in": "coal_block"
 	}
 	).id("wizards_reborn:wissen_crystallizer/white_arcane_lumos")
 
@@ -405,57 +413,57 @@ ServerEvents.recipes(event => {
 		"type": "lychee:lightning_channeling",
 		"post": [
 			{
-			"type": "drop_item",
-			"item": "wizards_reborn:cosmic_arcane_lumos",
-			"count": 2
+				"type": "drop_item",
+				"item": "wizards_reborn:cosmic_arcane_lumos",
+				"count": 2
 			},
 			{
-			"type": "execute",
-			"command": "playsound wizards_reborn:arcanum_dust_transmutation neutral @p",
-			"hide": true
+				"type": "execute",
+				"command": "playsound wizards_reborn:arcanum_dust_transmutation neutral @p",
+				"hide": true
 			}
 		],
 		"item_in": [
 			{
-			"item": "wizards_reborn:white_arcane_lumos"
+				"item": "wizards_reborn:white_arcane_lumos"
 			},
 			{
-			"item": "minecraft:amethyst_shard"
+				"item": "minecraft:amethyst_shard"
 			},
 			{
-			"item": "minecraft:lapis_lazuli"
+				"item": "minecraft:lapis_lazuli"
 			}
 		]
 	}).id("wizards_reborn:wissen_crystallizer/cosmic_arcane_lumos")
 
-	
+
 	event.custom({
 		"type": "lychee:lightning_channeling",
 		"post": [
 			{
-			"type": "drop_item",
-			"item": "wizards_reborn:rainbow_arcane_lumos",
-			"count": 3
+				"type": "drop_item",
+				"item": "wizards_reborn:rainbow_arcane_lumos",
+				"count": 3
 			},
 			{
-			"type": "execute",
-			"command": "playsound wizards_reborn:arcanum_dust_transmutation neutral @p",
-			"hide": true
+				"type": "execute",
+				"command": "playsound wizards_reborn:arcanum_dust_transmutation neutral @p",
+				"hide": true
 			}
 		],
 		"item_in": [
 			{
-			"item": "wizards_reborn:red_arcane_lumos"
+				"item": "wizards_reborn:red_arcane_lumos"
 			},
 			{
-			"item": "wizards_reborn:green_arcane_lumos"
+				"item": "wizards_reborn:green_arcane_lumos"
 			},
 			{
-			"item": "wizards_reborn:blue_arcane_lumos"
+				"item": "wizards_reborn:blue_arcane_lumos"
 			}
 		]
 	}).id("wizards_reborn:wissen_crystallizer/rainbow_arcane_lumos")
-	
+
 	event.shaped("kubejs:arcane_leather",
 		[
 			" F ",
@@ -463,8 +471,8 @@ ServerEvents.recipes(event => {
 			" F "
 		],
 		{
-			F:"irons_spellbooks:arcane_essence",
-			L:"leather"
+			F: "irons_spellbooks:arcane_essence",
+			L: "leather"
 		}
 	)
 
@@ -475,101 +483,101 @@ ServerEvents.recipes(event => {
 			" F "
 		],
 		{
-			F:"flint",
-			S:"#c:rods/wooden"
+			F: "flint",
+			S: "#c:rods/wooden"
 		}
 	)
-	
-	event.recipes.naturesaura.tree_ritual("2x naturesaura:ancient_sapling",["#forge:storage_blocks/redstone","#minecraft:saplings","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum"],"quark:red_blossom_sapling").id("naturesaura:tree_ritual/ancient_sapling")
-	event.recipes.naturesaura.tree_ritual("2x naturesaura:ancient_sapling",["#forge:storage_blocks/redstone","#minecraft:saplings","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum"],"quark:ancient_sapling")
-	
+
+	event.recipes.naturesaura.tree_ritual("2x naturesaura:ancient_sapling", ["#forge:storage_blocks/redstone", "#minecraft:saplings", "wizards_reborn:arcanum", "wizards_reborn:arcanum", "wizards_reborn:arcanum", "wizards_reborn:arcanum", "wizards_reborn:arcanum", "wizards_reborn:arcanum"], "quark:red_blossom_sapling").id("naturesaura:tree_ritual/ancient_sapling")
+	event.recipes.naturesaura.tree_ritual("2x naturesaura:ancient_sapling", ["#forge:storage_blocks/redstone", "#minecraft:saplings", "wizards_reborn:arcanum", "wizards_reborn:arcanum", "wizards_reborn:arcanum", "wizards_reborn:arcanum", "wizards_reborn:arcanum", "wizards_reborn:arcanum"], "quark:ancient_sapling")
+
 
 	event.custom({
 		type: "lychee:block_interacting",
-    item_in: {
-        tag: "forge:tools/knives"
-    },
-    block_in: "naturesaura:wood_stand",
-    post: [
-        {
-            type: "place",
-            block: "air"      
-        },
-		{
-			type: "drop_item",
-			item: "kubejs:basic_token",
-			count: 1
+		item_in: {
+			tag: "forge:tools/knives"
 		},
-		{
-			type: "damage_item",
-			damage: 15
-		},
-		{
-			type: "execute",
-			command: "playsound sawmill:ui.sawmill.take_result neutral @p",
-			hide: true
-		}
-    ]
+		block_in: "naturesaura:wood_stand",
+		post: [
+			{
+				type: "place",
+				block: "air"
+			},
+			{
+				type: "drop_item",
+				item: "kubejs:basic_token",
+				count: 1
+			},
+			{
+				type: "damage_item",
+				damage: 15
+			},
+			{
+				type: "execute",
+				command: "playsound sawmill:ui.sawmill.take_result neutral @p",
+				hide: true
+			}
+		]
 	})
 
-	event.remove({output:'ars_nouveau:mundane_belt'})
+	event.remove({ output: 'ars_nouveau:mundane_belt' })
 	event.shaped(
-	  Item.of('ars_nouveau:mundane_belt'), 
-	  [
-		'RIR',
-		'I I', 
-		'RIR'
-	  ],
-	  {
-		I: '#forge:leather',
-		R: '#forge:rope'
-	  }
+		Item.of('ars_nouveau:mundane_belt'),
+		[
+			'RIR',
+			'I I',
+			'RIR'
+		],
+		{
+			I: '#forge:leather',
+			R: '#forge:rope'
+		}
 	)
 
-	event.remove({output:'ars_nouveau:ring_of_potential'})
+	event.remove({ output: 'ars_nouveau:ring_of_potential' })
 	event.shaped(
-	  Item.of('ars_nouveau:ring_of_potential'), 
-	  [
-		'RIR',
-		'I I', 
-		'RIR'
-	  ],
-	  {
-		I: '#forge:ingots/iron',
-		R: '#forge:nuggets/iron'
-	  }
+		Item.of('ars_nouveau:ring_of_potential'),
+		[
+			'RIR',
+			'I I',
+			'RIR'
+		],
+		{
+			I: '#forge:ingots/iron',
+			R: '#forge:nuggets/iron'
+		}
 	)
 
-	event.remove({output:'ars_nouveau:dull_trinket'})
+	event.remove({ output: 'ars_nouveau:dull_trinket' })
 	event.shaped(
-	  Item.of('ars_nouveau:dull_trinket'), 
-	  [
-		' I ',
-		'IXI', 
-		' I '
-	  ],
-	  {
-		X: '#forge:nuggets/iron',
-		I: '#forge:rope'
-	  }
+		Item.of('ars_nouveau:dull_trinket'),
+		[
+			' I ',
+			'IXI',
+			' I '
+		],
+		{
+			X: '#forge:nuggets/iron',
+			I: '#forge:rope'
+		}
 	)
 	event.shapeless('twigs:twig', ['#minecraft:saplings'])
-	event.shapeless('stick',"twigs:twig")
-	
-	
-	
-	event.remove({output:'immersive_weathering:mulch_block'})
-	event.shapeless('2x immersive_weathering:mulch_block', ['minecraft:dirt','#immersive_weathering:bark','immersive_weathering:moss_clump','minecraft:bone_meal'])
-	
-	event.remove({output:'farmersdelight:organic_compost'})
+	event.shapeless('stick', "twigs:twig")
 
-	event.shapeless('farmersdelight:organic_compost', 
+
+
+	event.remove({ output: 'immersive_weathering:mulch_block' })
+	event.shapeless('2x immersive_weathering:mulch_block', ['minecraft:dirt', '#immersive_weathering:bark', 'immersive_weathering:moss_clump', 'minecraft:bone_meal'])
+
+	event.remove({ output: 'farmersdelight:organic_compost' })
+
+	event.shapeless('farmersdelight:organic_compost',
 		['immersive_weathering:mulch_block',
 			'2x minecraft:bone_meal',
 			'2x minecraft:rotten_flesh',
 			'2x farmersdelight:straw'])
 
-	event.shapeless('farmersdelight:organic_compost', 
+	event.shapeless('farmersdelight:organic_compost',
 		['immersive_weathering:mulch_block',
 			'thermal:compost',
 			'2x minecraft:rotten_flesh',
@@ -577,157 +585,157 @@ ServerEvents.recipes(event => {
 
 	event.custom({
 		type: "lychee:item_inside",
-		  post: [
+		post: [
 			{
-			  type: "place",
-			  block: "create:chocolate"
+				type: "place",
+				block: "create:chocolate"
 			}
-		  ],
-		  item_in: [
+		],
+		item_in: [
 			{
-			  item: "minecraft:sugar"
+				item: "minecraft:sugar"
 			},
 			{
-			  item: "minecraft:sugar"
+				item: "minecraft:sugar"
 			},
 			{
-			  item:  "minecraft:sugar"
+				item: "minecraft:sugar"
 			},
 			{
-			  item: "minecraft:cocoa_beans"
+				item: "minecraft:cocoa_beans"
 			}
-		  ],
-		  block_in: "minecraft:water"
+		],
+		block_in: "minecraft:water"
 	})
-	
+
 	event.custom({
 		type: "lychee:item_inside",
-		  post: [
+		post: [
 			{
-			  type: "drop_item",
-			  item: "create:bar_of_chocolate"
+				type: "drop_item",
+				item: "create:bar_of_chocolate"
 			},
 			{
-			  type: "place",
-			  block: "air"
+				type: "place",
+				block: "air"
 			}
-		  ],
-		  item_in: [
+		],
+		item_in: [
 			{
-			  item: "minecraft:ice"
+				item: "minecraft:ice"
 			}
-		  ],
-		  "block_in": {
+		],
+		"block_in": {
 			"blocks": ["create:chocolate"],
 			"state": {
-            "level": 0
-        }
+				"level": 0
+			}
 		}
 	})
 
 	event.shaped(
-	  Item.of('kubejs:sapling_ball'), 
-	  [
-		' S ',
-		'SSS', 
-		' S '
-	  ],
-	  {
-		S: '#minecraft:saplings'
-	  }
-	)
-	
-	event.remove({output:'minecraft:glass_bottle'})
-	event.shaped(
-	  Item.of('2x minecraft:glass_bottle'), 
-	  [
-		' B ',
-		'S S', 
-		' S '
-	  ],
-	  {
-		B: '#minecraft:wooden_buttons',
-		S: '#forge:glass'
-	  }
-	)
-	
-	event.shaped(
-	  Item.of('6x minecraft:glass_bottle'), 
-	  [
-		' B ',
-		'S S', 
-		' S '
-	  ],
-	  {
-		B: '#forge:treated_wood',
-		S: '#forge:glass'
-	  }
-	)
-	
-	event.remove({output:'farmersdelight:canvas'})
-	event.shaped(
-	  Item.of('farmersdelight:canvas'), 
-	  [
-		'CS', 
-		'SC'
-	  ],
-	  {
-		C: 'minecraft:string',
-		S: 'farmersdelight:straw',
-	  }
-	)
-	event.shaped(
-		Item.of('minecraft:string'), 
+		Item.of('kubejs:sapling_ball'),
 		[
-		  'SS', 
-		  'SS',
-		  'SS'
+			' S ',
+			'SSS',
+			' S '
 		],
 		{
-		  S: 'immersiveengineering:hemp_fiber'
+			S: '#minecraft:saplings'
 		}
-	  )
-	.id("immersiveengineering:crafting/string")
-	
-	
-	
+	)
+
+	event.remove({ output: 'minecraft:glass_bottle' })
+	event.shaped(
+		Item.of('2x minecraft:glass_bottle'),
+		[
+			' B ',
+			'S S',
+			' S '
+		],
+		{
+			B: '#minecraft:wooden_buttons',
+			S: '#forge:glass'
+		}
+	)
+
+	event.shaped(
+		Item.of('6x minecraft:glass_bottle'),
+		[
+			' B ',
+			'S S',
+			' S '
+		],
+		{
+			B: '#forge:treated_wood',
+			S: '#forge:glass'
+		}
+	)
+
+	event.remove({ output: 'farmersdelight:canvas' })
+	event.shaped(
+		Item.of('farmersdelight:canvas'),
+		[
+			'CS',
+			'SC'
+		],
+		{
+			C: 'minecraft:string',
+			S: 'farmersdelight:straw',
+		}
+	)
+	event.shaped(
+		Item.of('minecraft:string'),
+		[
+			'SS',
+			'SS',
+			'SS'
+		],
+		{
+			S: 'immersiveengineering:hemp_fiber'
+		}
+	)
+		.id("immersiveengineering:crafting/string")
+
+
+
 	event.custom({
-	  type: "lychee:block_interacting",
-	  post: [
-		{
-		  type: "hurt",
-		  damage: 1
+		type: "lychee:block_interacting",
+		post: [
+			{
+				type: "hurt",
+				damage: 1
+			},
+			{
+				type: "drop_item",
+				"contextual": [
+					{
+						type: "chance",
+						"chance": 0.4
+					}
+				],
+				item: "twigs:pebble",
+				"count": 1
+			},
+			{
+				type: "add_item_cooldown",
+				"s": 0.5
+			}
+		],
+		item_in: {
+			item: "minecraft:air"
 		},
-		{
-			type: "drop_item",
-			"contextual": [
-				{
-				type: "chance",
-				"chance": 0.4
-				}
-			],
-			item: "twigs:pebble",
-			"count": 1
-		},
-		{
-			type: "add_item_cooldown",
-			"s": 0.5
-	    }
-	  ],
-	  item_in: {
-		item: "minecraft:air"
-	  },
-	  block_in: "minecraft:stone"
+		block_in: "minecraft:stone"
 	})
 
-	
-	
+
+
 	/// ======================================================================= Tier 1 Components =======================================================================
-	
-	event.shaped("32x rubinated_nether:ruby_glass",["GGG","GRG","GGG"],
+
+	event.shaped("32x rubinated_nether:ruby_glass", ["GGG", "GRG", "GGG"],
 		{
-			G:"#c:glass_blocks",
-			R:"thermal:ruby"
+			G: "#c:glass_blocks",
+			R: "thermal:ruby"
 		}
 	)
 
@@ -791,7 +799,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shapeless("twilightforest:transformation_powder",["kubejs:basic_alchemical_dust","4x thermal:lapis_dust","bundle"])
+	event.shapeless("twilightforest:transformation_powder", ["kubejs:basic_alchemical_dust", "4x thermal:lapis_dust", "bundle"])
 
 	event.shaped("vintagedelight:evaporator",
 		[
@@ -807,11 +815,11 @@ ServerEvents.recipes(event => {
 		}
 	).id("vintagedelight:evaporator")
 
-	event.shaped("naturesaura:ancient_stick",[" P","P "],{P:"naturesaura:ancient_slab"}).id("naturesaura:ancient_stick")
+	event.shaped("naturesaura:ancient_stick", [" P", "P "], { P: "naturesaura:ancient_slab" }).id("naturesaura:ancient_stick")
 
-	event.shapeless("craftingstation:crafting_station_slab","craftingstation:crafting_station").id("craftingstation:crafting_station_slab")
-	event.shapeless("6x wizards_reborn:flower_fertilizer",["4x thermal:compost","5x wizards_reborn:petals"]).id("wizards_reborn:shapeless/flower_fertilizer")
-	
+	event.shapeless("craftingstation:crafting_station_slab", "craftingstation:crafting_station").id("craftingstation:crafting_station_slab")
+	event.shapeless("6x wizards_reborn:flower_fertilizer", ["4x thermal:compost", "5x wizards_reborn:petals"]).id("wizards_reborn:shapeless/flower_fertilizer")
+
 	event.shaped("3x create:shaft",
 		[
 			"  A",
@@ -824,19 +832,19 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped("6x torch",["C","S"],{C:"#forge:coal_coke",S:"#c:rods/wooden"})
+	event.shaped("6x torch", ["C", "S"], { C: "#forge:coal_coke", S: "#c:rods/wooden" })
 	event.custom({
 		"type": "lychee:block_crushing",
 		"post": [
-			{"type": "place","block": "air"},
-			{"type": "drop_item","item": "irons_spellbooks:blood_vial"}
+			{ "type": "place", "block": "air" },
+			{ "type": "drop_item", "item": "irons_spellbooks:blood_vial" }
 		],
 		"item_in": [
-			{"item": "minecraft:glass_bottle"}
+			{ "item": "minecraft:glass_bottle" }
 		],
 		"landing_block": "kubejs:rotten_flesh_block"
 	})
-	
+
 	event.shaped('4x immersiveengineering:fluid_pipe',
 		[
 			"III",
@@ -861,8 +869,8 @@ ServerEvents.recipes(event => {
 		}
 	).id("create:crafting/kinetics/fluid_pipe")
 
-	event.remove({id:"create:crafting/kinetics/fluid_pipe_vertical"})
-	
+	event.remove({ id: "create:crafting/kinetics/fluid_pipe_vertical" })
+
 	event.shaped('immersiveengineering:hemp_fabric',
 		[
 			"XYX",
@@ -875,7 +883,7 @@ ServerEvents.recipes(event => {
 			S: "#forge:rods/treated_wood"
 		}
 	).id("immersiveengineering:crafting/hemp_fabric")
-	
+
 	event.shaped('3x kubejs:pipe_sealant',
 		[
 			"XYX",
@@ -909,9 +917,9 @@ ServerEvents.recipes(event => {
 			"XSX"
 		],
 		{
-			S:"string",
-			X:"honeycomb"
-	})
+			S: "string",
+			X: "honeycomb"
+		})
 
 	event.shaped('thermal:diving_fabric',
 		[
@@ -920,11 +928,11 @@ ServerEvents.recipes(event => {
 			"XSX"
 		],
 		{
-			S:"immersiveengineering:hemp_fabric",
-			X:"kubejs:pipe_sealant"
-	}).id("thermal:diving_fabric")
+			S: "immersiveengineering:hemp_fabric",
+			X: "kubejs:pipe_sealant"
+		}).id("thermal:diving_fabric")
 
-	event.remove({id:"immersiveengineering:smelting/slag_glass"})
+	event.remove({ id: "immersiveengineering:smelting/slag_glass" })
 
 	event.shaped("kubejs:sturdy_basalt",
 		[
@@ -941,185 +949,187 @@ ServerEvents.recipes(event => {
 	event.custom({
 		type: "lychee:block_interacting",
 		comment: "works 25% of times",
-		item_in: [{item:"kubejs:basic_alchemical_dust"}],
+		item_in: [{ item: "kubejs:basic_alchemical_dust" }],
 		block_in: "infested_stone",
 		post: [
-			{type: "place", block: "air"},
-			{type: "execute", command: "summon minecraft:silverfish ~ ~ ~", hide: "true"},
-			{type: "if", contextual:{type: "chance", chance: 0.25}, 
-			then: {type: "drop_item", item: "thermal:silver_dust", "count": 8},
-			else: {type: "execute", command: "summon minecraft:silverfish ~ ~ ~", hide: "true"}}		
+			{ type: "place", block: "air" },
+			{ type: "execute", command: "summon minecraft:silverfish ~ ~ ~", hide: "true" },
+			{
+				type: "if", contextual: { type: "chance", chance: 0.25 },
+				then: { type: "drop_item", item: "thermal:silver_dust", "count": 8 },
+				else: { type: "execute", command: "summon minecraft:silverfish ~ ~ ~", hide: "true" }
+			}
 		]
 	})
-	
+
 	event.shaped(
-		Item.of('2x kubejs:sapling_ball'), 
+		Item.of('2x kubejs:sapling_ball'),
 		[
-		  ' S ',
-		  'SXS', 
-		  ' S '
+			' S ',
+			'SXS',
+			' S '
 		],
 		{
-		  X: '#minecraft:saplings',
-		  S: 'thermal:compost'
+			X: '#minecraft:saplings',
+			S: 'thermal:compost'
 		}
-	  )
-	
-
-	event.remove({output:'thermal:drill_head'})
-	event.shaped(
-	  Item.of('thermal:drill_head'), 
-	  [
-		' P ',
-		'IGI', 
-		'III'
-	  ],
-	  {
-		I: '#forge:plates/iron',
-		P: "minecraft:iron_pickaxe",
-		G: "#forge:gears/iron"
-	  }
 	)
 
-	event.remove({output:'thermal:saw_blade'})
-	event.shaped(
-	  Item.of('thermal:saw_blade'), 
-	  [
-		'III',
-		'ISI', 
-		'III'
-	  ],
-	  {
-		I: '#forge:ingots/iron',
-		S: 'kubejs:wooden_gear'
-	  }
-	)
 
+	event.remove({ output: 'thermal:drill_head' })
 	event.shaped(
-		Item.of('kubejs:magic_book'), 
+		Item.of('thermal:drill_head'),
 		[
-		  'ISI',
-		  'ISI', 
-		  'ISI'
+			' P ',
+			'IGI',
+			'III'
 		],
 		{
-		  I: 'irons_spellbooks:arcane_essence',
-		  S: 'minecraft:paper'
+			I: '#forge:plates/iron',
+			P: "minecraft:iron_pickaxe",
+			G: "#forge:gears/iron"
 		}
-	  )
-	
-	event.shaped(
-	  Item.of('kubejs:primitive_machine'), 
-	  [
-		'PIP',
-		'ISI', 
-		'PIP'
-	  ],
-	  {
-		I: 'quark:sturdy_stone',
-		P: '#forge:storage_blocks/potato',
-		S: 'kubejs:stone_gear'
-	  }
-	)
-	
-	event.remove({output:'minecraft:redstone_torch'})
-	event.shaped(
-	  Item.of('minecraft:redstone_torch'), 
-	  [
-		'R',
-		'S' 
-	  ],
-	  {
-		R: '#forge:dusts/redstone',
-		S: '#forge:rods/treated_wood'
-	  }
-	)
-	event.shaped(
-	  Item.of('kubejs:stone_gear'), 
-	  [
-		' I ',
-		'IGI', 
-		' I '
-	  ],
-	  {
-		I: 'kubejs:stone_plate',
-		G: 'kubejs:wooden_gear'
-	  }
-	)
-	
-	
-	event.shaped(
-	  Item.of('kubejs:basic_magic_machine'), 
-	  [
-		'IDI',
-		'DGD', 
-		'IDI'
-	  ],
-	  {
-		I: '#forge:dusts/gold',
-		D: '#forge:gems/amethyst',
-		G: 'kubejs:primitive_machine'
-	  }
-	)
-	
-	event.shaped(
-	  Item.of('2x kubejs:basic_magic_machine'), 
-	  [
-		'IDI',
-		'DGD', 
-		'IDI'
-	  ],
-	  {
-		I: '#forge:dusts/gold',
-		D: '#forge:gems/source',
-		G: 'kubejs:primitive_machine'
-	  }
 	)
 
-	
+	event.remove({ output: 'thermal:saw_blade' })
 	event.shaped(
-	  Item.of('kubejs:wooden_gear'), 
-	  [
-		' I ',
-		'IGI', 
-		' I '
-	  ],
-	  {
-		I: 'kubejs:wooden_plate',
-		G: 'minecraft:redstone_torch'
-	  }
+		Item.of('thermal:saw_blade'),
+		[
+			'III',
+			'ISI',
+			'III'
+		],
+		{
+			I: '#forge:ingots/iron',
+			S: 'kubejs:wooden_gear'
+		}
 	)
-	
+
+	event.shaped(
+		Item.of('kubejs:magic_book'),
+		[
+			'ISI',
+			'ISI',
+			'ISI'
+		],
+		{
+			I: 'irons_spellbooks:arcane_essence',
+			S: 'minecraft:paper'
+		}
+	)
+
+	event.shaped(
+		Item.of('kubejs:primitive_machine'),
+		[
+			'PIP',
+			'ISI',
+			'PIP'
+		],
+		{
+			I: 'quark:sturdy_stone',
+			P: '#forge:storage_blocks/potato',
+			S: 'kubejs:stone_gear'
+		}
+	)
+
+	event.remove({ output: 'minecraft:redstone_torch' })
+	event.shaped(
+		Item.of('minecraft:redstone_torch'),
+		[
+			'R',
+			'S'
+		],
+		{
+			R: '#forge:dusts/redstone',
+			S: '#forge:rods/treated_wood'
+		}
+	)
+	event.shaped(
+		Item.of('kubejs:stone_gear'),
+		[
+			' I ',
+			'IGI',
+			' I '
+		],
+		{
+			I: 'kubejs:stone_plate',
+			G: 'kubejs:wooden_gear'
+		}
+	)
+
+
+	event.shaped(
+		Item.of('kubejs:basic_magic_machine'),
+		[
+			'IDI',
+			'DGD',
+			'IDI'
+		],
+		{
+			I: '#forge:dusts/gold',
+			D: '#forge:gems/amethyst',
+			G: 'kubejs:primitive_machine'
+		}
+	)
+
+	event.shaped(
+		Item.of('2x kubejs:basic_magic_machine'),
+		[
+			'IDI',
+			'DGD',
+			'IDI'
+		],
+		{
+			I: '#forge:dusts/gold',
+			D: '#forge:gems/source',
+			G: 'kubejs:primitive_machine'
+		}
+	)
+
+
+	event.shaped(
+		Item.of('kubejs:wooden_gear'),
+		[
+			' I ',
+			'IGI',
+			' I '
+		],
+		{
+			I: 'kubejs:wooden_plate',
+			G: 'minecraft:redstone_torch'
+		}
+	)
+
 
 	event.custom({
 		type: "lychee:item_exploding",
-		post:[
-			{type:"drop_item", item:"thermal:blizz_rod"},
-			{type:"execute", command:"playsound twilightforest:entity.twilightforest.snow_queen.ambient neutral @p", hide:"true"}
+		post: [
+			{ type: "drop_item", item: "thermal:blizz_rod" },
+			{ type: "execute", command: "playsound twilightforest:entity.twilightforest.snow_queen.ambient neutral @p", hide: "true" }
 		],
-		item_in:[
-			{item:"thermal:blitz_rod"},
-			{item:"snow_block"},
-			{item:"irons_spellbooks:frozen_bone"}
+		item_in: [
+			{ item: "thermal:blitz_rod" },
+			{ item: "snow_block" },
+			{ item: "irons_spellbooks:frozen_bone" }
 		]
 	})
-	
-	event.remove({output:'sophisticatedstorage:upgrade_base'})
+
+	event.remove({ output: 'sophisticatedstorage:upgrade_base' })
 	event.shaped(
-	  Item.of('sophisticatedstorage:upgrade_base'), 
-	  [
-		'III',
-		'IGI', 
-		'III'
-	  ],
-	  {
-		I: 'kubejs:wooden_plate',
-		G: '#forge:gems/diamond'
-	  }
+		Item.of('sophisticatedstorage:upgrade_base'),
+		[
+			'III',
+			'IGI',
+			'III'
+		],
+		{
+			I: 'kubejs:wooden_plate',
+			G: '#forge:gems/diamond'
+		}
 	)
-	
+
 	/// ======================================================================= Tier 1 Machines =======================================================================
-	
+
 	event.shaped("deep_aether:combiner",
 		[
 			"IGI",
@@ -1133,7 +1143,7 @@ ServerEvents.recipes(event => {
 			A: "kubejs:basic_alchemical_dust",
 			Z: "#forge:plates/iron",
 			Y: "#forge:gears/iron"
-		}	
+		}
 	).id("deep_aether:combiner")
 
 	event.shaped("naturesaura:aura_timer",
@@ -1150,7 +1160,7 @@ ServerEvents.recipes(event => {
 			H: "supplementaries:hourglass"
 		}
 	).id("naturesaura:aura_timer")
-	
+
 	event.shaped("quark:ender_watcher",
 		[
 			"DRD",
@@ -1165,7 +1175,7 @@ ServerEvents.recipes(event => {
 
 		}
 	).id("quark:automation/crafting/ender_watcher")
-	
+
 	event.shaped("naturesaura:grated_chute",
 		[
 			"P P",
@@ -1178,7 +1188,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("naturesaura:grated_chute")
 
-	event.shapeless("naturesaura:grated_chute",[
+	event.shapeless("naturesaura:grated_chute", [
 		"wizards_reborn:arcane_wood_planks",
 		"woodenhopper:wooden_hopper",
 		"create:filter"])
@@ -1204,7 +1214,7 @@ ServerEvents.recipes(event => {
 			"BFB"
 		],
 		{
-			B:"wizards_reborn:polished_wisestone",
+			B: "wizards_reborn:polished_wisestone",
 			S: "wizards_reborn:steam_pipe",
 			X: "minecraft:furnace",
 			F: "wizards_reborn:fluid_pipe"
@@ -1224,7 +1234,7 @@ ServerEvents.recipes(event => {
 			A: "wizards_reborn:wissen_altar"
 		}
 	).id("wizards_reborn:arcane_workbench/alchemy_boiler")
-	
+
 	event.shaped("2x create:nixie_tube",
 		[
 			"GG",
@@ -1237,7 +1247,7 @@ ServerEvents.recipes(event => {
 			W: "#forge:plates/wooden"
 		}
 	).id("create:crafting/kinetics/nixie_tube")
-	
+
 	event.shaped("mbd2:phytogenic_insolator",
 		[
 			"TGT",
@@ -1251,7 +1261,7 @@ ServerEvents.recipes(event => {
 			X: "kubejs:basic_magic_machine"
 		}
 	)
-	
+
 	event.shaped("4x immersiveengineering:razor_wire",
 		[
 			"WWW",
@@ -1261,7 +1271,7 @@ ServerEvents.recipes(event => {
 			W: "#forge:wires/lead",
 			F: "immersiveengineering:treated_fence"
 		}).id("immersiveengineering:crafting/razor_wire")
-		
+
 	event.shaped("24x immersiveengineering:connector_structural",
 		[
 			"IRI",
@@ -1280,9 +1290,9 @@ ServerEvents.recipes(event => {
 			"POP"
 		],
 		{
-			G:"rubinated_nether:ruby_glass",
-			P:"#forge:plates/copper",
-			O:"observer"
+			G: "rubinated_nether:ruby_glass",
+			P: "#forge:plates/copper",
+			O: "observer"
 		}
 	).id("rubinated_nether:ruby_laser")
 	event.shaped("wizards_reborn:steam_thermal_storage",
@@ -1305,7 +1315,7 @@ ServerEvents.recipes(event => {
 			" B "
 		],
 		{
-			B:"#forge:nuggets/brass",
+			B: "#forge:nuggets/brass",
 			P: "wizards_reborn:fluid_extractor"
 		}
 	).id("wizards_reborn:arcane_workbench/steam_extractor")
@@ -1317,12 +1327,12 @@ ServerEvents.recipes(event => {
 			" B "
 		],
 		{
-			B:"#forge:nuggets/brass",
-			P:"wizards_reborn:fluid_pipe"
+			B: "#forge:nuggets/brass",
+			P: "wizards_reborn:fluid_pipe"
 		}
 	).id("wizards_reborn:arcane_workbench/steam_pipe")
 
-	event.shaped("wizards_reborn:steam_extractor",["A","B","C"],
+	event.shaped("wizards_reborn:steam_extractor", ["A", "B", "C"],
 		{
 			A: "supplementaries:faucet",
 			B: "wizards_reborn:steam_pipe",
@@ -1330,7 +1340,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("wizards_reborn:shapeless/steam_extractor")
 
-	
+
 
 	event.shaped("32x create:controller_rail",
 		[
@@ -1339,7 +1349,7 @@ ServerEvents.recipes(event => {
 			"GCG"
 		],
 		{
-			G:"#forge:rods/gold",
+			G: "#forge:rods/gold",
 			T: "redstone_torch",
 			S: "immersiveengineering:stick_treated",
 			C: "supplementaries:crank"
@@ -1353,7 +1363,7 @@ ServerEvents.recipes(event => {
 			"G G"
 		],
 		{
-			G:"#forge:rods/iron",
+			G: "#forge:rods/iron",
 			S: "immersiveengineering:stick_treated"
 		}
 	).id("minecraft:rail")
@@ -1365,7 +1375,7 @@ ServerEvents.recipes(event => {
 			"GPG"
 		],
 		{
-			G:"#forge:rods/iron",
+			G: "#forge:rods/iron",
 			S: "immersiveengineering:stick_treated",
 			P: "stone_pressure_plate"
 		}
@@ -1378,7 +1388,7 @@ ServerEvents.recipes(event => {
 			"GPG"
 		],
 		{
-			G:"#forge:rods/iron",
+			G: "#forge:rods/iron",
 			S: "immersiveengineering:stick_treated",
 			P: "redstone"
 		}
@@ -1391,7 +1401,7 @@ ServerEvents.recipes(event => {
 			"GTG"
 		],
 		{
-			G:"#forge:rods/gold",
+			G: "#forge:rods/gold",
 			T: "redstone_torch",
 			S: "immersiveengineering:stick_treated"
 		}
@@ -1404,8 +1414,8 @@ ServerEvents.recipes(event => {
 			"RPR"
 		],
 		{
-			R:"#forge:rods/infused_iron",
-			S:"naturesaura:ancient_stick",
+			R: "#forge:rods/infused_iron",
+			S: "naturesaura:ancient_stick",
 			P: "ender_pearl"
 		}
 	).id("naturesaura:dimension_rail_overworld")
@@ -1417,8 +1427,8 @@ ServerEvents.recipes(event => {
 			"RPR"
 		],
 		{
-			R:"#forge:rods/tainted_gold",
-			S:"naturesaura:ancient_stick",
+			R: "#forge:rods/tainted_gold",
+			S: "naturesaura:ancient_stick",
 			P: "ender_pearl"
 		}
 	).id("naturesaura:dimension_rail_nether")
@@ -1430,8 +1440,8 @@ ServerEvents.recipes(event => {
 			"RPR"
 		],
 		{
-			R:"#forge:rods/aluminum",
-			S:"naturesaura:ancient_stick",
+			R: "#forge:rods/aluminum",
+			S: "naturesaura:ancient_stick",
 			P: "ender_pearl"
 		}
 	).id("naturesaura:dimension_rail_end")
@@ -1442,12 +1452,12 @@ ServerEvents.recipes(event => {
 			"SSS"
 		],
 		{
-			S:"#forge:plates/stone",
+			S: "#forge:plates/stone",
 			R: "redstone",
 			L: "lever"
 		}
 	).id("supplementaries:crank")
-	
+
 	event.shaped("quark:iron_rod",
 		[
 			" I ",
@@ -1500,7 +1510,7 @@ ServerEvents.recipes(event => {
 			B: "supplementaries:bellows"
 		}
 	).id("ancient_aether:wind_blower")
-	event.remove({output:"naturesaura:animal_spawner"})
+	event.remove({ output: "naturesaura:animal_spawner" })
 	event.shaped("naturesaura:animal_spawner",
 		[
 			"LWL",
@@ -1528,7 +1538,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("wizards_reborn:arcane_workbench/arcane_lever")
 
-	event.shapeless("wizards_reborn:wissen_activator",["wizards_reborn:wissen_sensor","wizards_reborn:wissen_wand"]).id("wizards_reborn:arcane_workbench/wissen_activator")
+	event.shapeless("wizards_reborn:wissen_activator", ["wizards_reborn:wissen_sensor", "wizards_reborn:wissen_wand"]).id("wizards_reborn:arcane_workbench/wissen_activator")
 
 	event.shaped("wizards_reborn:arcane_hopper",
 		[
@@ -1620,10 +1630,10 @@ ServerEvents.recipes(event => {
 		],
 		{
 			S: "shulker_shell",
-			C: "#c:chests/wooden"	
+			C: "#c:chests/wooden"
 		}).id("minecraft:shulker_box")
 
-	event.replaceInput({id:"starbunclemania:fluid_jar"},"ars_nouveau:water_essence","create:fluid_tank")
+	event.replaceInput({ id: "starbunclemania:fluid_jar" }, "ars_nouveau:water_essence", "create:fluid_tank")
 
 	event.shaped("create:pulse_timer",
 		[
@@ -1652,7 +1662,7 @@ ServerEvents.recipes(event => {
 			M: "kubejs:primitive_machine",
 		}
 	)
-	
+
 	event.shaped("quark:crate",
 		[
 			"ISI",
@@ -1665,7 +1675,7 @@ ServerEvents.recipes(event => {
 			I: "#forge:rods/iron"
 		}
 	)
-	
+
 	event.shaped("alexsmobs:gustmaker",
 		[
 			"SYS",
@@ -1679,7 +1689,7 @@ ServerEvents.recipes(event => {
 			Z: "kubejs:primitive_machine"
 		}
 	).id("alexsmobs:gustmaker")
-	
+
 	event.shaped("wizards_reborn:cooldown_sensor",
 		[
 			"D",
@@ -1723,7 +1733,7 @@ ServerEvents.recipes(event => {
 			X: "wizards_reborn:redstone_sensor"
 		}
 	).id("wizards_reborn:arcane_workbench/light_sensor")
-    
+
 	event.shaped("wizards_reborn:fluid_sensor",
 		[
 			" D ",
@@ -1857,31 +1867,31 @@ ServerEvents.recipes(event => {
 		}
 	).id("create:crafting/kinetics/adjustable_chain_gearshift")
 
-	event.shaped("create:contraption_controls",["A","B","C"],
+	event.shaped("create:contraption_controls", ["A", "B", "C"],
 		{
-			A:"#minecraft:buttons",
-			B:"kubejs:primitive_machine",
-			C:"create:andesite_casing"
+			A: "#minecraft:buttons",
+			B: "kubejs:primitive_machine",
+			C: "create:andesite_casing"
 		}
 	).id("create:crafting/kinetics/contraption_controls")
 
-	event.shaped("2x create:display_board",["A","B","C"],
+	event.shaped("2x create:display_board", ["A", "B", "C"],
 		{
-			A:"create:belt_connector",
-			B:"#minecraft:signs",
-			C:"create:cogwheel"
+			A: "create:belt_connector",
+			B: "#minecraft:signs",
+			C: "create:cogwheel"
 		}
 	).id("create:crafting/kinetics/display_board")
 
-	event.shaped("create:sequenced_gearshift",["A","B","C"],
+	event.shaped("create:sequenced_gearshift", ["A", "B", "C"],
 		{
-			A:"create:cogwheel",
-			B:"create:brass_casing",
-			C:"clock"
+			A: "create:cogwheel",
+			B: "create:brass_casing",
+			C: "clock"
 		}
 	).id("create:crafting/kinetics/sequenced_gearshift")
 
-	event.shaped("2x create:mechanical_pump",["A","B","C"],
+	event.shaped("2x create:mechanical_pump", ["A", "B", "C"],
 		{
 			A: "supplementaries:faucet",
 			B: "create:fluid_pipe",
@@ -1889,7 +1899,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("create:crafting/kinetics/mechanical_pump")
 
-	event.shaped("wizards_reborn:fluid_extractor",["A","B","C"],
+	event.shaped("wizards_reborn:fluid_extractor", ["A", "B", "C"],
 		{
 			A: "supplementaries:faucet",
 			B: "wizards_reborn:fluid_pipe",
@@ -1897,7 +1907,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("wizards_reborn:shapeless/fluid_extractor")
 
-	event.shaped("immersiveengineering:fluid_pump",["A","B","C"],
+	event.shaped("immersiveengineering:fluid_pump", ["A", "B", "C"],
 		{
 			A: "supplementaries:faucet",
 			B: "immersiveengineering:fluid_pipe",
@@ -1960,7 +1970,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("immersiveengineering:crafting/connector_bundled")
 
-	event.shapeless("wizards_reborn:fluid_pipe",["immersiveengineering:fluid_pipe","wizards_reborn:wisestone"]).id("wizards_reborn:arcane_workbench/fluid_pipe")
+	event.shapeless("wizards_reborn:fluid_pipe", ["immersiveengineering:fluid_pipe", "wizards_reborn:wisestone"]).id("wizards_reborn:arcane_workbench/fluid_pipe")
 
 	event.shaped("3x thermal:fluid_duct",
 		[
@@ -1974,7 +1984,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("thermal:fluid_duct_4")
 
-	event.shapeless("thermal:fluid_duct_windowed",["thermal:fluid_duct","#forge:glass"]).id("thermal:fluid_duct_windowed_4")
+	event.shapeless("thermal:fluid_duct_windowed", ["thermal:fluid_duct", "#forge:glass"]).id("thermal:fluid_duct_windowed_4")
 
 	event.shaped("2x naturesaura:field_creator",
 		[
@@ -1989,7 +1999,7 @@ ServerEvents.recipes(event => {
 			A: "#forge:storage_blocks/arcanum"
 		}
 	).id("naturesaura:field_creator")
-	
+
 	event.shaped("naturesaura:item_distributor",
 		[
 			"CCC",
@@ -2038,7 +2048,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A: "andesite",
-			C: 'immersiveengineering:strip_curtain'	
+			C: 'immersiveengineering:strip_curtain'
 		}
 	).id("create:crafting/logistics/andesite_tunnel")
 
@@ -2164,14 +2174,14 @@ ServerEvents.recipes(event => {
 			D: "kubejs:sturdy_deepslate"
 		}
 	)
-	
+
 	event.shaped("create:pulse_repeater",
 		[
 			"SXS",
 			"BYB",
 			"SZS"
 		],
-		{	
+		{
 			S: "#forge:plates/stone",
 			B: "#forge:plates/brass",
 			X: "repeater",
@@ -2206,7 +2216,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("minecraft:repeater")
 
-	event.remove({id:"quark:tweaks/crafting/utility/misc/repeater"})
+	event.remove({ id: "quark:tweaks/crafting/utility/misc/repeater" })
 
 	event.shaped("comparator",
 		[
@@ -2250,7 +2260,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("create:crafting/logistics/powered_latch")
 
-	event.shapeless("create:powered_toggle_latch",["create:powered_latch","redstone_torch"]).id("create:crafting/logistics/powered_toggle_latch")
+	event.shapeless("create:powered_toggle_latch", ["create:powered_latch", "redstone_torch"]).id("create:crafting/logistics/powered_toggle_latch")
 
 	event.shaped("create:placard",
 		[
@@ -2322,11 +2332,11 @@ ServerEvents.recipes(event => {
 		}
 	).id("thermal:device_potion_diffuser")
 
-	event.shaped("create:chute",[" I ","ICI"," I "],{I:"#forge:plates/iron",C:"quark:chute"}).id("create:crafting/kinetics/chute")
+	event.shaped("create:chute", [" I ", "ICI", " I "], { I: "#forge:plates/iron", C: "quark:chute" }).id("create:crafting/kinetics/chute")
 
-	event.shaped("create:redstone_contact",["CIC","ROR","CCC"],{C:"quark:sturdy_stone",R:"#forge:storage_blocks/redstone",O:"observer",I:"#forge:plates/iron"}).id("create:crafting/logistics/redstone_contact")
+	event.shaped("create:redstone_contact", ["CIC", "ROR", "CCC"], { C: "quark:sturdy_stone", R: "#forge:storage_blocks/redstone", O: "observer", I: "#forge:plates/iron" }).id("create:crafting/logistics/redstone_contact")
 
-	event.replaceInput({id:"minecraft:anvil"},"iron_ingot","#forge:plates/iron")
+	event.replaceInput({ id: "minecraft:anvil" }, "iron_ingot", "#forge:plates/iron")
 
 	event.shaped("rubinated_nether:freezer",
 		[
@@ -2373,60 +2383,60 @@ ServerEvents.recipes(event => {
 		}
 	).id("immersiveengineering:crafting/fluid_sorter")
 
-	event.remove({output:'torchmaster:feral_flare_lantern'})
+	event.remove({ output: 'torchmaster:feral_flare_lantern' })
 	event.shaped(
-	  Item.of('torchmaster:feral_flare_lantern'), 
-	  [
-		'AAA',
-		'AIA', 
-		'AAA'
-	  ],
-	  {
-		A: '#forge:plates/lead',
-		I: "ars_nouveau:glyph_light"
-	  }
+		Item.of('torchmaster:feral_flare_lantern'),
+		[
+			'AAA',
+			'AIA',
+			'AAA'
+		],
+		{
+			A: '#forge:plates/lead',
+			I: "ars_nouveau:glyph_light"
+		}
 	)
 
-	event.remove({output:'supplementaries:faucet'})
+	event.remove({ output: 'supplementaries:faucet' })
 	event.shaped(
-	  Item.of('supplementaries:faucet'), 
-	  [
-		' L ',
-		'III', 
-		'  H'
-	  ],
-	  {
-		L: 'minecraft:lever',
-		I: "#forge:ingots/iron",
-		H: 'woodenhopper:wooden_hopper'
-	  }
+		Item.of('supplementaries:faucet'),
+		[
+			' L ',
+			'III',
+			'  H'
+		],
+		{
+			L: 'minecraft:lever',
+			I: "#forge:ingots/iron",
+			H: 'woodenhopper:wooden_hopper'
+		}
 	)
 
-	event.remove({output:'create:depot'})
+	event.remove({ output: 'create:depot' })
 	event.shaped(
-	  Item.of('create:depot'), 
-	  [
-		'III', 
-		'PSP'
-	  ],
-	  {
-		I: '#forge:ingots/iron',
-		P: "#minecraft:planks",
-		S: "naturesaura:wood_stand"
-	  }
+		Item.of('create:depot'),
+		[
+			'III',
+			'PSP'
+		],
+		{
+			I: '#forge:ingots/iron',
+			P: "#minecraft:planks",
+			S: "naturesaura:wood_stand"
+		}
 	)
-	event.remove({output:'create:fluid_tank'})
+	event.remove({ output: 'create:fluid_tank' })
 	event.shaped(
-	  Item.of('create:fluid_tank'), 
-	  [
-		' P ',
-		'PXP', 
-		' P '
-	  ],
-	  {
-		P: '#forge:plates/copper',
-		X: 'supplementaries:jar'
-	  }
+		Item.of('create:fluid_tank'),
+		[
+			' P ',
+			'PXP',
+			' P '
+		],
+		{
+			P: '#forge:plates/copper',
+			X: 'supplementaries:jar'
+		}
 	)
 
 	event.shaped("immersiveengineering:wooden_barrel",
@@ -2453,399 +2463,555 @@ ServerEvents.recipes(event => {
 		}
 	).id("immersiveengineering:crafting/metal_barrel")
 
-	event.remove({output:'create:spout'})
+	event.remove({ output: 'create:spout' })
 	event.shaped(
-	  Item.of('create:spout'), 
-	  [
-		'PPP',
-		'PXP', 
-		'PFP'
-	  ],
-	  {
-		P: 'minecraft:dried_kelp',
-		X: 'create:fluid_tank',
-		F: 'supplementaries:faucet'
-	  }
-	)
-	
-	event.remove({output:'naturesaura:auto_crafter'})
-	event.shaped(
-	  Item.of('2x naturesaura:auto_crafter'), 
-	  [
-		'PTP',
-		'PMP', 
-		'PCP'
-	  ],
-	  {
-		T: 'naturesaura:token_joy',
-		M: 'kubejs:primitive_machine',
-		P: 'naturesaura:ancient_planks',
-		C: 'immersiveengineering:craftingtable'
-	  }
+		Item.of('create:spout'),
+		[
+			'PPP',
+			'PXP',
+			'PFP'
+		],
+		{
+			P: 'minecraft:dried_kelp',
+			X: 'create:fluid_tank',
+			F: 'supplementaries:faucet'
+		}
 	)
 
-	event.remove({output:'supplementaries:cog_block'})
+	event.remove({ output: 'naturesaura:auto_crafter' })
 	event.shaped(
-	  Item.of('4x supplementaries:cog_block'), 
-	  [
-		'ZPZ',
-		'PXP', 
-		'ZPZ'
-	  ],
-	  {
-		Z: '#forge:ingots/copper',
-		P: '#forge:dusts/redstone',
-		X: 'kubejs:wooden_gear'
-	  }
+		Item.of('2x naturesaura:auto_crafter'),
+		[
+			'PTP',
+			'PMP',
+			'PCP'
+		],
+		{
+			T: 'naturesaura:token_joy',
+			M: 'kubejs:primitive_machine',
+			P: 'naturesaura:ancient_planks',
+			C: 'immersiveengineering:craftingtable'
+		}
 	)
 
-	event.replaceInput({id:"ars_nouveau:glyph_craft"},"minecraft:crafting_table","naturesaura:auto_crafter")
-
-	event.remove({output:'vintagedelight:fermenting_jar'})
+	event.remove({ output: 'supplementaries:cog_block' })
 	event.shaped(
-	  Item.of('vintagedelight:fermenting_jar'), 
-	  [
-		' P ',
-		'PXP', 
-		' P '
-	  ],
-	  {
-		P: '#forge:glass/tinted',
-		X: 'supplementaries:jar'
-	  }
+		Item.of('4x supplementaries:cog_block'),
+		[
+			'ZPZ',
+			'PXP',
+			'ZPZ'
+		],
+		{
+			Z: '#forge:ingots/copper',
+			P: '#forge:dusts/redstone',
+			X: 'kubejs:wooden_gear'
+		}
 	)
 
-	event.remove({output:'sawmill:sawmill'})
+	event.replaceInput({ id: "ars_nouveau:glyph_craft" }, "minecraft:crafting_table", "naturesaura:auto_crafter")
+
+	event.remove({ output: 'vintagedelight:fermenting_jar' })
 	event.shaped(
-	  Item.of('sawmill:sawmill'), 
-	  [
-		'SSS',
-		'SBS', 
-		'PPP'
-	  ],
-	  {
-		B: 'thermal:saw_blade',
-		P: '#forge:treated_wood',
-		S: '#forge:rods/treated_wood'
-	  }
+		Item.of('vintagedelight:fermenting_jar'),
+		[
+			' P ',
+			'PXP',
+			' P '
+		],
+		{
+			P: '#forge:glass/tinted',
+			X: 'supplementaries:jar'
+		}
 	)
-	
-	event.remove({output:'minecraft:dropper'})
-	event.remove({output:'minecraft:dispenser'})
-	event.shapeless('minecraft:dropper', ['kubejs:primitive_machine','minecraft:redstone_torch'])
-	event.shapeless('minecraft:dispenser', ['minecraft:dropper','minecraft:bow'])
-	event.shaped("minecraft:dispenser",[
+
+	event.remove({ output: 'sawmill:sawmill' })
+	event.shaped(
+		Item.of('sawmill:sawmill'),
+		[
+			'SSS',
+			'SBS',
+			'PPP'
+		],
+		{
+			B: 'thermal:saw_blade',
+			P: '#forge:treated_wood',
+			S: '#forge:rods/treated_wood'
+		}
+	)
+
+	event.remove({ output: 'minecraft:dropper' })
+	event.remove({ output: 'minecraft:dispenser' })
+	event.shapeless('minecraft:dropper', ['kubejs:primitive_machine', 'minecraft:redstone_torch'])
+	event.shapeless('minecraft:dispenser', ['minecraft:dropper', 'minecraft:bow'])
+	event.shaped("minecraft:dispenser", [
 		"SW ",
 		"SXW",
 		"SW "
 	],
-	{
-		S: "string",
-		W: "#c:rods/wooden",
-		X: "kubejs:primitive_machine"
-	})
-	
-	event.remove({output:'supplementaries:jar'})
+		{
+			S: "string",
+			W: "#c:rods/wooden",
+			X: "kubejs:primitive_machine"
+		})
+
+	event.remove({ output: 'supplementaries:jar' })
 	event.shaped(
-	  Item.of('supplementaries:jar'), 
-	  [
-		'PSP',
-		'P P', 
-		'PPP'
-	  ],
-	  {
-		S: '#forge:treated_wood_slab',
-		P: '#forge:glass'
-	  }
+		Item.of('supplementaries:jar'),
+		[
+			'PSP',
+			'P P',
+			'PPP'
+		],
+		{
+			S: '#forge:treated_wood_slab',
+			P: '#forge:glass'
+		}
 	)
-	
-	event.remove({output:"irons_spellbooks:scroll_forge"})
+
+	event.remove({ output: "irons_spellbooks:scroll_forge" })
 	event.shaped(
-	  Item.of("irons_spellbooks:scroll_forge"), 
-	  [
-		'PPP',
-		' B ', 
-		'OOO'
-	  ],
-	  {
-		P: 'minecraft:polished_deepslate',
-		B: 'kubejs:basic_magic_machine',
-		O: 'minecraft:crying_obsidian'
-	  }
+		Item.of("irons_spellbooks:scroll_forge"),
+		[
+			'PPP',
+			' B ',
+			'OOO'
+		],
+		{
+			P: 'minecraft:polished_deepslate',
+			B: 'kubejs:basic_magic_machine',
+			O: 'minecraft:crying_obsidian'
+		}
 	)
-	
-	event.remove({output:'create:hand_crank'})
+
+	event.remove({ output: 'create:hand_crank' })
 	event.shaped(
-	  Item.of('create:hand_crank'), 
-	  [
-		'S',
-		'P'
-	  ],
-	  {
-		S: '#forge:rods/treated_wood',
-		P: 'quark:sturdy_stone'
-	  }
+		Item.of('create:hand_crank'),
+		[
+			'S',
+			'P'
+		],
+		{
+			S: '#forge:rods/treated_wood',
+			P: 'quark:sturdy_stone'
+		}
 	)
-	
-	event.remove({output:'create:millstone'})
+
+	event.remove({ output: 'create:millstone' })
 	event.shaped(
-	  Item.of('create:millstone'), 
-	  [
-		' S ',
-		' G ', 
-		'DPD'
-	  ],
-	  {
-		G: 'kubejs:stone_gear',
-		P: 'kubejs:primitive_machine',
-		S: 'woodenhopper:wooden_hopper',
-		D: "#forge:dusts/iron"
-	  }
+		Item.of('create:millstone'),
+		[
+			' S ',
+			' G ',
+			'DPD'
+		],
+		{
+			G: 'kubejs:stone_gear',
+			P: 'kubejs:primitive_machine',
+			S: 'woodenhopper:wooden_hopper',
+			D: "#forge:dusts/iron"
+		}
 	)
-	
-	event.remove({output:'woodenhopper:wooden_hopper'})
+
+	event.remove({ output: 'woodenhopper:wooden_hopper' })
 	event.shaped(
-	  Item.of('woodenhopper:wooden_hopper'), 
-	  [
-		'P P',
-		'PTP', 
-		' P ' 
-	  ],
-	  {
-		P: '#forge:treated_wood',
-		T: 'kubejs:wooden_gear'
-	  }
+		Item.of('woodenhopper:wooden_hopper'),
+		[
+			'P P',
+			'PTP',
+			' P '
+		],
+		{
+			P: '#forge:treated_wood',
+			T: 'kubejs:wooden_gear'
+		}
 	)
-	
-	event.remove({output:'minecraft:furnace'})
-	
-	event.remove({output:'quark:deepslate_furnace'})
-	event.remove({output:'quark:blackstone_furnace'})
-	event.shapeless('quark:deepslate_furnace',['minecraft:furnace','minecraft:cobbled_deepslate'])
-	event.shapeless('quark:blackstone_furnace',['minecraft:furnace','minecraft:blackstone'])
-	
-	event.remove({output:'farmersdelight:basket'})
+
+	event.remove({ output: 'minecraft:furnace' })
+
+	event.remove({ output: 'quark:deepslate_furnace' })
+	event.remove({ output: 'quark:blackstone_furnace' })
+	event.shapeless('quark:deepslate_furnace', ['minecraft:furnace', 'minecraft:cobbled_deepslate'])
+	event.shapeless('quark:blackstone_furnace', ['minecraft:furnace', 'minecraft:blackstone'])
+
+	event.remove({ output: 'farmersdelight:basket' })
 	event.shaped(
-	  Item.of('farmersdelight:basket'), 
-	  [
-		'CHC', 
-		'CCC' 
-	  ],
-	  {
-		H: 'woodenhopper:wooden_hopper',
-		C: 'farmersdelight:canvas'
-	  }
+		Item.of('farmersdelight:basket'),
+		[
+			'CHC',
+			'CCC'
+		],
+		{
+			H: 'woodenhopper:wooden_hopper',
+			C: 'farmersdelight:canvas'
+		}
 	)
-	
-	event.remove({id:'minecraft:stonecutter'})
+
+	event.remove({ id: 'minecraft:stonecutter' })
 	event.shaped(
-	  Item.of('minecraft:stonecutter'), 
-	  [
-		' G ', 
-		'PSP', 
-		'SSS' 
-	  ],
-	  {
-		P: '#forge:treated_wood',
-		S: 'minecraft:smooth_stone',
-		G: 'thermal:saw_blade'
-	  }
+		Item.of('minecraft:stonecutter'),
+		[
+			' G ',
+			'PSP',
+			'SSS'
+		],
+		{
+			P: '#forge:treated_wood',
+			S: 'minecraft:smooth_stone',
+			G: 'thermal:saw_blade'
+		}
 	)
-	
-	event.remove({id:'minecraft:grindstone'})
+
+	event.remove({ id: 'minecraft:grindstone' })
 	event.shaped(
-	  Item.of('minecraft:grindstone'), 
-	  [
-		'PSP', 
-		'F F' 
-	  ],
-	  {
-		P: '#forge:treated_wood',
-		S: 'minecraft:smooth_stone',
-		F: 'immersiveengineering:treated_fence'
-	  }
+		Item.of('minecraft:grindstone'),
+		[
+			'PSP',
+			'F F'
+		],
+		{
+			P: '#forge:treated_wood',
+			S: 'minecraft:smooth_stone',
+			F: 'immersiveengineering:treated_fence'
+		}
 	)
-	
-	event.remove({output:'immersiveengineering:crate'})
+
+	event.remove({ output: 'immersiveengineering:crate' })
 	event.shaped(
-	  Item.of('immersiveengineering:crate'), 
-	  [
-		'PPP',
-		'PSP', 
-		'PPP' 
-	  ],
-	  {
-		P: '#forge:treated_wood',
-		S: 'supplementaries:sack'
-	  }
+		Item.of('immersiveengineering:crate'),
+		[
+			'PPP',
+			'PSP',
+			'PPP'
+		],
+		{
+			P: '#forge:treated_wood',
+			S: 'supplementaries:sack'
+		}
 	)
-	
-	event.remove({output:'irons_spellbooks:inscription_table'})
+
+	event.remove({ output: 'irons_spellbooks:inscription_table' })
 	event.shaped(
-	  Item.of('irons_spellbooks:inscription_table'), 
-	  [
-		'BBQ',
-		'PPP', 
-		'F F' 
-	  ],
-	  {
-		B: '#forge:books',
-		Q: 'minecraft:writable_book',
-		P: '#forge:treated_wood_slab',
-		F: 'immersiveengineering:treated_fence'
-	  }
+		Item.of('irons_spellbooks:inscription_table'),
+		[
+			'BBQ',
+			'PPP',
+			'F F'
+		],
+		{
+			B: '#forge:books',
+			Q: 'minecraft:writable_book',
+			P: '#forge:treated_wood_slab',
+			F: 'immersiveengineering:treated_fence'
+		}
 	)
-	
-	event.remove({output:'sophisticatedbackpacks:backpack'})
+
+	event.remove({ output: 'sophisticatedbackpacks:backpack' })
 	event.shaped(
-	  Item.of('sophisticatedbackpacks:backpack'), 
-	  [
-		'CEC',
-		'CXC', 
-		'LLL' 
-	  ],
-	  {
-		C: 'farmersdelight:canvas',
-		L: '#forge:leather',
-		X: 'immersiveengineering:crate',
-		E: 'minecraft:ender_pearl'
-	  }
+		Item.of('sophisticatedbackpacks:backpack'),
+		[
+			'CEC',
+			'CXC',
+			'LLL'
+		],
+		{
+			C: 'farmersdelight:canvas',
+			L: '#forge:leather',
+			X: 'immersiveengineering:crate',
+			E: 'minecraft:ender_pearl'
+		}
 	)
-	
+
 	event.custom({
-		 type: "lychee:lightning_channeling",
-		  post: [
+		type: "lychee:lightning_channeling",
+		post: [
 			{
-			  type: "drop_item",
-			  item: "ars_nouveau:imbuement_chamber"
+				type: "drop_item",
+				item: "ars_nouveau:imbuement_chamber"
 			},
 			{
 				type: "execute",
 				command: "playsound irons_spellbooks:lightning_lance_cast neutral @p",
 				hide: "true"
 			}
-		  ],
-		  item_in: [
+		],
+		item_in: [
 			{
-			  item: "kubejs:basic_magic_machine",
+				item: "kubejs:basic_magic_machine",
 			},
 			{
-			  item: "supplementaries:jar",
+				item: "supplementaries:jar",
 			},
 			{
-			  item: "woodenhopper:wooden_hopper",
+				item: "woodenhopper:wooden_hopper",
 			},
 			{
-			  item: "twilightforest:naga_scale"
+				item: "twilightforest:naga_scale"
 			}
-		  ]
+		]
 	})
-	
-	event.remove({output:'thermal:device_composter'})
-	event.shaped(
-	  Item.of('thermal:device_composter'), 
-	  [
-		'PCP',
-		'PMP', 
-		'PHP' 
-	  ],
-	  {
-		P: '#forge:plates/tin',
-		C: 'minecraft:composter',
-		M: 'kubejs:basic_magic_machine',
-		H: 'woodenhopper:wooden_hopper'
-	  }
-	)
-	
-	event.remove({output:'thermal:device_fisher'})
-	event.shaped(
-	  Item.of('thermal:device_fisher'), 
-	  [
-		'PCP',
-		'PMP', 
-		'PHP' 
-	  ],
-	  {
-		P: '#forge:plates/tin',
-		C: 'minecraft:fishing_rod',
-		M: 'kubejs:basic_magic_machine',
-		H: 'woodenhopper:wooden_hopper'
-	  }
-	)
-	
-	event.remove({id:"supplementaries:bed_from_feather_block"})
 
-	event.shapeless("aether:skyroot_bed",["#minecraft:beds","#aether:skyroot_repairing"]).id("aether:skyroot_bed")
+	event.remove({ output: 'thermal:device_composter' })
+	event.shaped(
+		Item.of('thermal:device_composter'),
+		[
+			'PCP',
+			'PMP',
+			'PHP'
+		],
+		{
+			P: '#forge:plates/tin',
+			C: 'minecraft:composter',
+			M: 'kubejs:basic_magic_machine',
+			H: 'woodenhopper:wooden_hopper'
+		}
+	)
+
+	event.remove({ output: 'thermal:device_fisher' })
+	event.shaped(
+		Item.of('thermal:device_fisher'),
+		[
+			'PCP',
+			'PMP',
+			'PHP'
+		],
+		{
+			P: '#forge:plates/tin',
+			C: 'minecraft:fishing_rod',
+			M: 'kubejs:basic_magic_machine',
+			H: 'woodenhopper:wooden_hopper'
+		}
+	)
+
+	event.remove({ id: "supplementaries:bed_from_feather_block" })
+
+	event.shapeless("aether:skyroot_bed", ["#minecraft:beds", "#aether:skyroot_repairing"]).id("aether:skyroot_bed")
 	colors.forEach(color => {
 		event.shaped(
-		  Item.of('comforts:sleeping_bag_'+color),
-		  [
-			'CCP',
-			'SSS'
-		  ],
-		  {
-			C: 'handcrafted:'+color+'_sheet',
-			P: 'handcrafted:'+color+'_cushion',
-			S: 'farmersdelight:canvas'
-		  }
-		).id("comforts:sleeping_bag_"+color)
+			Item.of('comforts:sleeping_bag_' + color),
+			[
+				'CCP',
+				'SSS'
+			],
+			{
+				C: 'handcrafted:' + color + '_sheet',
+				P: 'handcrafted:' + color + '_cushion',
+				S: 'farmersdelight:canvas'
+			}
+		).id("comforts:sleeping_bag_" + color)
 
 		event.shaped(
-			Item.of(color+'_bed'),
+			Item.of(color + '_bed'),
 			[
 				'CSC',
 				'III',
 				'PPP'
 			],
 			{
-				C: 'handcrafted:'+color+'_sheet',
+				C: 'handcrafted:' + color + '_sheet',
 				I: 'immersiveengineering:cushion',
 				P: 'forge:treated_wood',
-				S: 'comforts:sleeping_bag_'+color
+				S: 'comforts:sleeping_bag_' + color
 			}
-		).id("minecraft:"+color+"_bed")
+		).id("minecraft:" + color + "_bed")
 
 		event.shaped(
-			Item.of('2x handcrafted:'+color+'_sheet'),
+			Item.of('2x handcrafted:' + color + '_sheet'),
 			[
 				'XZX',
 				'ZXZ'
 			],
 			{
-				X: color+'_carpet',
+				X: color + '_carpet',
 				Z: "#forge:string"
 			}
-		).id("handcrafted:"+color+"_sheet")
-		
-		event.shaped(Item.of("handcrafted:"+color+"_cushion"),
-		[
-			"XCX",
-			"CZC",
-			"XCX"
-		],
-		{
-			X: "handcrafted:"+color+"_sheet",
-			C: "#forge:feathers",
-			Z: "#forge:string"
-		}
-		).id("handcrafted:"+color+"_cushion")
+		).id("handcrafted:" + color + "_sheet")
+
+		event.shaped(Item.of("handcrafted:" + color + "_cushion"),
+			[
+				"XCX",
+				"CZC",
+				"XCX"
+			],
+			{
+				X: "handcrafted:" + color + "_sheet",
+				C: "#forge:feathers",
+				Z: "#forge:string"
+			}
+		).id("handcrafted:" + color + "_cushion")
 	});
 
 	wood.forEach(wood => {
-		event.shaped('handcrafted:'+wood+'_fancy_bed',
-		[
-			'HP ',
-			'PXP',
-			' P '
-		],
-		{
-			H: 'handcrafted:hammer',
-			X: '#minecraft:beds',
-			P: wood+'_planks'
-		}
-		).id("handcrafted:"+wood+"_fancy_bed")
+		event.shaped('handcrafted:' + wood + '_fancy_bed',
+			[
+				'HP ',
+				'PXP',
+				' P '
+			],
+			{
+				H: 'handcrafted:hammer',
+				X: '#minecraft:beds',
+				P: wood + '_planks'
+			}
+		).id("handcrafted:" + wood + "_fancy_bed")
 	});
-	
+
+	wood_TF.forEach(wood => {
+		event.shaped(`everycomp:hc/twilightforest/${wood}_fancy_bed`,
+			[
+				'HP ',
+				'PXP',
+				' P '
+			],
+			{
+				H: 'handcrafted:hammer',
+				X: '#minecraft:beds',
+				P: `twilightforest:${wood}_planks`
+			}
+		).id(`everycomp:hc/twilightforest/${wood}_fancy_bed`)
+	});
+
+	wood_WR.forEach(wood => {
+		event.shaped(`everycomp:hc/wizards_reborn/${wood}_fancy_bed`,
+			[
+				'HP ',
+				'PXP',
+				' P '
+			],
+			{
+				H: 'handcrafted:hammer',
+				X: '#minecraft:beds',
+				P: `wizards_reborn:${wood}_planks`
+			}
+		).id(`everycomp:hc/wizards_reborn/${wood}_fancy_bed`)
+	});
+
+	wood_quark.forEach(wood => {
+		event.shaped(`everycomp:hc/quark/${wood}_fancy_bed`,
+			[
+				'HP ',
+				'PXP',
+				' P '
+			],
+			{
+				H: 'handcrafted:hammer',
+				X: '#minecraft:beds',
+				P: `quark:${wood}_planks`
+			}
+		).id(`everycomp:hc/quark/${wood}_fancy_bed`)
+	});
+
+	event.shaped(`everycomp:hc/minecraft/pale_oak_fancy_bed`,
+			[
+				'HP ',
+				'PXP',
+				' P '
+			],
+			{
+				H: 'handcrafted:hammer',
+				X: '#minecraft:beds',
+				P: `pale_oak_planks`
+			}
+		).id(`everycomp:hc/minecraft/pale_oak_fancy_bed`)
+
+	event.shaped("everycomp:hc/thermal/rubberwood_fancy_bed",
+			[
+				'HP ',
+				'PXP',
+				' P '
+			],
+			{
+				H: 'handcrafted:hammer',
+				X: '#minecraft:beds',
+				P: "thermal:rubberwood_planks"
+			}
+		).id("everycomp:hc/thermal/rubberwood_fancy_bed")
+
+	event.shaped("everycomp:hc/aether/skyroot_fancy_bed",
+			[
+				'HP ',
+				'PXP',
+				' P '
+			],
+			{
+				H: 'handcrafted:hammer',
+				X: '#minecraft:beds',
+				P: "aether:skyroot_planks"
+			}
+		).id("everycomp:hc/aether/skyroot_fancy_bed")
+
+	event.shaped("everycomp:hc/naturesaura/ancient_fancy_bed",
+			[
+				'HP ',
+				'PXP',
+				' P '
+			],
+			{
+				H: 'handcrafted:hammer',
+				X: '#minecraft:beds',
+				P: "naturesaura:ancient_planks"
+			}
+		).id("everycomp:hc/naturesaura/ancient_fancy_bed")
+
+	event.shaped("everycomp:hc/ars_nouveau/archwood_fancy_bed",
+			[
+				'HP ',
+				'PXP',
+				' P '
+			],
+			{
+				H: 'handcrafted:hammer',
+				X: '#minecraft:beds',
+				P: "ars_nouveau:archwood_planks"
+			}
+		).id("everycomp:hc/ars_nouveau/archwood_fancy_bed")
+
+	wood_AA.forEach(wood => {
+		event.shaped(`everycomp:hc/ancient_aether/${wood}_fancy_bed`,
+			[
+				'HP ',
+				'PXP',
+				' P '
+			],
+			{
+				H: 'handcrafted:hammer',
+				X: '#minecraft:beds',
+				P: `ancient_aether:${wood}_planks`
+			}
+		).id(`everycomp:hc/ancient_aether/${wood}_fancy_bed`)
+	});
+
+	wood_DA.forEach(wood => {
+		event.shaped(`everycomp:hc/deep_aether/${wood}_fancy_bed`,
+			[
+				'HP ',
+				'PXP',
+				' P '
+			],
+			{
+				H: 'handcrafted:hammer',
+				X: '#minecraft:beds',
+				P: `deep_aether:${wood}_planks`
+			}
+		).id(`everycomp:hc/deep_aether/${wood}_fancy_bed`)
+	});
+
+	wood_BWG.forEach(wood => {
+		event.shaped(`everycomp:hc/biomeswevegone/${wood}_fancy_bed`,
+			[
+				'HP ',
+				'PXP',
+				' P '
+			],
+			{
+				H: 'handcrafted:hammer',
+				X: '#minecraft:beds',
+				P: `biomeswevegone:${wood}_planks`
+			}
+		).id(`everycomp:hc/biomeswevegone/${wood}_fancy_bed`)
+	});
+
+
 
 	event.shaped('immersiveengineering:cushion',
 		[
@@ -2858,93 +3024,93 @@ ServerEvents.recipes(event => {
 			X: "#handcrafted:cushions"
 		}
 	).id("immersiveengineering:crafting/cushion")
-	
-	event.remove({output:'minecraft:smoker'})
+
+	event.remove({ output: 'minecraft:smoker' })
 	event.shaped(
-	  Item.of('minecraft:smoker'), 
-	  [
-		'PPP',
-		'PMP', 
-		'PHP' 
-	  ],
-	  {
-		P: '#minecraft:logs',
-		M: 'kubejs:primitive_machine',
-		H: 'minecraft:furnace'
-	  }
+		Item.of('minecraft:smoker'),
+		[
+			'PPP',
+			'PMP',
+			'PHP'
+		],
+		{
+			P: '#minecraft:logs',
+			M: 'kubejs:primitive_machine',
+			H: 'minecraft:furnace'
+		}
 	)
-	
-	event.remove({output:'minecraft:blast_furnace'})
+
+	event.remove({ output: 'minecraft:blast_furnace' })
 	event.shaped(
-	  Item.of('minecraft:blast_furnace'), 
-	  [
-		'PPP',
-		'PMP', 
-		'PHP' 
-	  ],
-	  {
-		P: 'minecraft:smooth_stone',
-		M: 'kubejs:primitive_machine',
-		H: 'minecraft:furnace'
-	  }
+		Item.of('minecraft:blast_furnace'),
+		[
+			'PPP',
+			'PMP',
+			'PHP'
+		],
+		{
+			P: 'minecraft:smooth_stone',
+			M: 'kubejs:primitive_machine',
+			H: 'minecraft:furnace'
+		}
 	)
 	event.remove('minecraft:observer')
-	event.shapeless('minecraft:observer', ['kubejs:primitive_machine','minecraft:spider_eye'])
-	
+	event.shapeless('minecraft:observer', ['kubejs:primitive_machine', 'minecraft:spider_eye'])
+
 	event.remove('minecraft:dropper')
-	event.shapeless('minecraft:dropper', ['kubejs:primitive_machine','quark:chute'])
-	
+	event.shapeless('minecraft:dropper', ['kubejs:primitive_machine', 'quark:chute'])
+
 	event.remove('minecraft:dispenser')
-	event.shapeless('minecraft:dispenser', ['kubejs:primitive_machine','minecraft:bow'])
-	
-	event.remove({output:'minecraft:piston'})
-	event.shapeless('minecraft:piston', ['kubejs:primitive_machine','create:piston_extension_pole'])
-	
-	event.replaceInput({id:"immersiveengineering:crafting/conveyor_basic"},"minecraft:redstone","kubejs:primitive_machine")
-	event.replaceInput({id:"immersiveengineering:crafting/conveyor_extract"},"immersiveengineering:component_iron","woodenhopper:wooden_hopper")
-	event.replaceInput({id:"immersiveengineering:crafting/hemp_fabric"},"#c:rods/wooden","immersiveengineering:stick_treated")
-	
-	event.remove({output:'create:belt_connector'})
+	event.shapeless('minecraft:dispenser', ['kubejs:primitive_machine', 'minecraft:bow'])
+
+	event.remove({ output: 'minecraft:piston' })
+	event.shapeless('minecraft:piston', ['kubejs:primitive_machine', 'create:piston_extension_pole'])
+
+	event.replaceInput({ id: "immersiveengineering:crafting/conveyor_basic" }, "minecraft:redstone", "kubejs:primitive_machine")
+	event.replaceInput({ id: "immersiveengineering:crafting/conveyor_extract" }, "immersiveengineering:component_iron", "woodenhopper:wooden_hopper")
+	event.replaceInput({ id: "immersiveengineering:crafting/hemp_fabric" }, "#c:rods/wooden", "immersiveengineering:stick_treated")
+
+	event.remove({ output: 'create:belt_connector' })
 	event.shaped(
-	  Item.of('create:belt_connector'), 
-	  [
-		'PPP',
-		'PMP', 
-		'PPP' 
-	  ],
-	  {
-		P: "immersiveengineering:conveyor_basic",
-		M: 'thermal:cured_rubber',
-	  }
+		Item.of('create:belt_connector'),
+		[
+			'PPP',
+			'PMP',
+			'PPP'
+		],
+		{
+			P: "immersiveengineering:conveyor_basic",
+			M: 'thermal:cured_rubber',
+		}
 	)
-	
+
 	event.remove('create:piston_extension_pole')
 	event.shaped(
-	  Item.of('4x create:piston_extension_pole'), 
-	  [
-		'P',
-		'M', 
-		'P' 
-	  ],
-	  {
-		P: "#minecraft:planks",
-		M: '#forge:ingots/iron'
-	  }
+		Item.of('4x create:piston_extension_pole'),
+		[
+			'P',
+			'M',
+			'P'
+		],
+		{
+			P: "#minecraft:planks",
+			M: '#forge:ingots/iron'
+		}
 	)
-	
+
 	/// ======================================== Tier 2 Components ================================================================
-	
-	event.shapeless("2x thermal:phytogro",["create:tree_fertilizer","immersiveengineering:fertilizer","wizards_reborn:flower_fertilizer","thermal:apatite_dust"])
-	
-	event.shapeless("2x thermal:phytogro",["thermal:phytogro","3x thermal:apatite_dust"])
 
-	event.shapeless("4x create:tree_fertilizer",["2x #minecraft:small_flowers","thermal:apatite_dust","#c:coral"]).id("create:crafting/appliances/tree_fertilizer")
+	event.shapeless("2x thermal:phytogro", ["create:tree_fertilizer", "immersiveengineering:fertilizer", "wizards_reborn:flower_fertilizer", "thermal:apatite_dust"])
 
-	event.shapeless("2x create:tree_fertilizer",["2x #minecraft:small_flowers","thermal:apatite_dust","vintagedelight:organic_mash"]).id("vintagedelight:organic_compost_tree_fertilizer")
+	event.shapeless("2x thermal:phytogro", ["thermal:phytogro", "3x thermal:apatite_dust"])
 
-	event.shapeless("2x immersiveengineering:fertilizer",["#forge:dusts/sulfur","#forge:slag","bone_meal"]).id("immersiveengineering:crafting/fertilizer")
+	event.shapeless("4x create:tree_fertilizer", ["2x #minecraft:small_flowers", "thermal:apatite_dust", "#c:coral"]).id("create:crafting/appliances/tree_fertilizer")
 
-	event.shapeless("2x immersiveengineering:fertilizer",["2x #forge:slag","2x bone_meal"])
+	event.shapeless("2x create:tree_fertilizer", ["2x #minecraft:small_flowers", "thermal:apatite_dust", "vintagedelight:organic_mash"]).id("vintagedelight:organic_compost_tree_fertilizer")
+
+	event.shapeless("2x immersiveengineering:fertilizer", ["#forge:dusts/sulfur", "#forge:slag", "bone_meal"]).id("immersiveengineering:crafting/fertilizer")
+
+	event.shapeless("2x immersiveengineering:fertilizer", ["2x #forge:slag", "2x bone_meal"])
 
 	event.shaped("create:transmitter",
 		[
@@ -3015,20 +3181,20 @@ ServerEvents.recipes(event => {
 
 
 	event.recipes.ars_nouveau.enchanting_apparatus(
-		["kubejs:zinc_tool_handle","blaze_rod","#forge:storage_blocks/coal_coke","#forge:storage_blocks/coal_coke"],
+		["kubejs:zinc_tool_handle", "blaze_rod", "#forge:storage_blocks/coal_coke", "#forge:storage_blocks/coal_coke"],
 		"twilightforest:liveroot",
 		"kubejs:carbon_infused_sturdy_handle",
 		1000
 	)
 
 	event.recipes.ars_nouveau.enchanting_apparatus(
-		["kubejs:ivy_block","kubejs:ivy_block","kubejs:ivy_block","kubejs:ivy_block","ars_nouveau:earth_essence","ars_nouveau:earth_essence"],
+		["kubejs:ivy_block", "kubejs:ivy_block", "kubejs:ivy_block", "kubejs:ivy_block", "ars_nouveau:earth_essence", "ars_nouveau:earth_essence"],
 		"kubejs:lemon_quartz",
 		"kubejs:ivy_quartz",
 		1000
 	)
 
-	
+
 
 	event.custom({
 		type: "lychee:lightning_channeling",
@@ -3046,153 +3212,153 @@ ServerEvents.recipes(event => {
 		]
 	})
 
-	event.shapeless("minecraft:heart_of_the_sea",["ars_nouveau:water_essence","8x minecraft:prismarine_crystals"])
+	event.shapeless("minecraft:heart_of_the_sea", ["ars_nouveau:water_essence", "8x minecraft:prismarine_crystals"])
 
 
 	event.shaped(
-	  Item.of('kubejs:magic_machine'), 
-	  [
-		'CAC',
-		'AXA',
-		'CAC'
-	  ],
-	  {
-		X: "kubejs:basic_magic_machine",
-		C: '#forge:plates/infused_iron',
-		A: "kubejs:sturdy_deepslate"
-	  }
+		Item.of('kubejs:magic_machine'),
+		[
+			'CAC',
+			'AXA',
+			'CAC'
+		],
+		{
+			X: "kubejs:basic_magic_machine",
+			C: '#forge:plates/infused_iron',
+			A: "kubejs:sturdy_deepslate"
+		}
 	)
 
 	event.shaped(
-	  Item.of('create:filter'), 
-	  [
-		'CXC'
-	  ],
-	  {
-		X: "minecraft:iron_bars",
-		C: '#minecraft:wool',
-	  }
+		Item.of('create:filter'),
+		[
+			'CXC'
+		],
+		{
+			X: "minecraft:iron_bars",
+			C: '#minecraft:wool',
+		}
 	).id("create:crafting/kinetics/filter")
 
 	event.shaped(
-		Item.of('create:attribute_filter'), 
+		Item.of('create:attribute_filter'),
 		[
-		  'CCC',
-		  'CXC',
-		  'CCC'
+			'CCC',
+			'CXC',
+			'CCC'
 		],
 		{
-		  X: "create:filter",
-		  C: '#forge:nuggets/brass',
+			X: "create:filter",
+			C: '#forge:nuggets/brass',
 		}
-	  ).id("create:crafting/kinetics/attribute_filter")
+	).id("create:crafting/kinetics/attribute_filter")
 
 	event.remove('minecraft:iron_bars')
 	event.shaped(
-	  Item.of('6x minecraft:iron_bars'), 
-	  [
-		'CCC',
-		'CCC'
-	  ],
-	  {
-		C: '#forge:rods/iron',
-	  }
+		Item.of('6x minecraft:iron_bars'),
+		[
+			'CCC',
+			'CCC'
+		],
+		{
+			C: '#forge:rods/iron',
+		}
 	)
 
 	event.shaped(
-	  Item.of('6x quark:gold_bars'), 
-	  [
-		'CCC',
-		'CCC'
-	  ],
-	  {
-		C: '#forge:rods/gold',
-	  }
+		Item.of('6x quark:gold_bars'),
+		[
+			'CCC',
+			'CCC'
+		],
+		{
+			C: '#forge:rods/gold',
+		}
 	).id("quark:building/crafting/gold_bars")
 
-	
+
 	event.custom({
 		type: "lychee:item_inside",
-		contextual:[
-			{type: "location",predicate: {biome: "minecraft:lush_caves"}}
-		  ],
-		  post: [
-			{ type: "drop_item", item: "kubejs:nature_essence"},
-			{ type: "execute", command: "playsound irons_spellbooks:spell.acid_orb.charge neutral @p", hide: "true"}
-		  ],
-		  item_in: [
-			{item: "kubejs:sapling_ball"},
-			{item: "farmersdelight:rich_soil"},
-			{item: "ars_nouveau:source_gem"},
-			{item: "minecraft:honeycomb"}
-		  ],
-		  block_in: "minecraft:water"
+		contextual: [
+			{ type: "location", predicate: { biome: "minecraft:lush_caves" } }
+		],
+		post: [
+			{ type: "drop_item", item: "kubejs:nature_essence" },
+			{ type: "execute", command: "playsound irons_spellbooks:spell.acid_orb.charge neutral @p", hide: "true" }
+		],
+		item_in: [
+			{ item: "kubejs:sapling_ball" },
+			{ item: "farmersdelight:rich_soil" },
+			{ item: "ars_nouveau:source_gem" },
+			{ item: "minecraft:honeycomb" }
+		],
+		block_in: "minecraft:water"
 	})
-	
-	
-	
+
+
+
 	event.custom({
 		type: "ars_nouveau:imbuement",
 		count: 1,
-		input: {item: "farmersdelight:canvas"},
+		input: { item: "farmersdelight:canvas" },
 		output: 'enigmaticlegacy:thicc_scroll',
 		pedestalItems: [],
 		source: 1000
 	})
-	
-	event.custom({
-		type: "lychee:item_inside",
-		contextual:[
-			{type: "location",predicate: {position:{ y: {min: 190, max: 320}}}}
-		  ],
-		  post: [
-			{type: "drop_item",item: "ars_nouveau:air_essence"},
-			{type: "execute",command: "playsound irons_spellbooks:spell.gust.cast neutral @p",hide: "true"}
-		  ],
-		  item_in: [
-			{item: "kubejs:nature_essence"},
-			{item: "kubejs:air_infused_arcanum"},
-			{item:  "ars_nouveau:source_gem"},
-			{item: "minecraft:feather"}
-		  ],
-		  block_in: "minecraft:water"
-	})
-	
+
 	event.custom({
 		type: "lychee:item_inside",
 		contextual: [
-			{type: "location",predicate: {biome: "minecraft:lush_caves"}}
-		  ],
-		  post: [
-			{type: "drop_item",item: "ars_nouveau:water_essence"},
-			{type: "execute",command: "playsound minecraft:entity.dolphin.jump neutral @p",hide: "true"}
-		  ],
-		  item_in: [
-			{item: "kubejs:nature_essence"},
-			{item: "kubejs:water_infused_arcanum"},
-			{item:  "ars_nouveau:source_gem"},
-			{tag: "minecraft:fishes"}
-		  ],
-		  block_in: "minecraft:water"
-	})	
+			{ type: "location", predicate: { position: { y: { min: 190, max: 320 } } } }
+		],
+		post: [
+			{ type: "drop_item", item: "ars_nouveau:air_essence" },
+			{ type: "execute", command: "playsound irons_spellbooks:spell.gust.cast neutral @p", hide: "true" }
+		],
+		item_in: [
+			{ item: "kubejs:nature_essence" },
+			{ item: "kubejs:air_infused_arcanum" },
+			{ item: "ars_nouveau:source_gem" },
+			{ item: "minecraft:feather" }
+		],
+		block_in: "minecraft:water"
+	})
 
-	event.remove({output:'ars_nouveau:arcane_pedestal'})
+	event.custom({
+		type: "lychee:item_inside",
+		contextual: [
+			{ type: "location", predicate: { biome: "minecraft:lush_caves" } }
+		],
+		post: [
+			{ type: "drop_item", item: "ars_nouveau:water_essence" },
+			{ type: "execute", command: "playsound minecraft:entity.dolphin.jump neutral @p", hide: "true" }
+		],
+		item_in: [
+			{ item: "kubejs:nature_essence" },
+			{ item: "kubejs:water_infused_arcanum" },
+			{ item: "ars_nouveau:source_gem" },
+			{ tag: "minecraft:fishes" }
+		],
+		block_in: "minecraft:water"
+	})
+
+	event.remove({ output: 'ars_nouveau:arcane_pedestal' })
 	event.shaped(
-		Item.of('ars_nouveau:arcane_pedestal'), 
+		Item.of('ars_nouveau:arcane_pedestal'),
 		[
-		  'WWW',
-		  'GXG', 
-		  'GWG' 
+			'WWW',
+			'GXG',
+			'GWG'
 		],
 		{
-		  X: 'irons_spellbooks:pedestal',
-		  W: 'kubejs:source_alloy_ingot',
-		  G: "#forge:rods/gold"
+			X: 'irons_spellbooks:pedestal',
+			W: 'kubejs:source_alloy_ingot',
+			G: "#forge:rods/gold"
 
 		}
 	)
 
-	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
+	event.replaceInput({ id: 'naturescompass:natures_compass' }, '#minecraft:saplings', 'kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
 
 	event.shaped("naturesaura:hopper_upgrade",
@@ -3208,7 +3374,7 @@ ServerEvents.recipes(event => {
 			X: "kubejs:magic_machine"
 		}
 	).id("naturesaura:hopper_upgrade")
-	
+
 	event.shaped("rubinated_nether:ruby_brazier",
 		[
 			"FRF",
@@ -3223,7 +3389,7 @@ ServerEvents.recipes(event => {
 			O: "minecraft:obsidian"
 		}
 	).id("rubinated_nether:ruby_brazier")
-	
+
 	event.shaped("create:packager",
 		[
 			" R ",
@@ -3249,9 +3415,9 @@ ServerEvents.recipes(event => {
 			X: "kubejs:basic_magic_machine"
 		}
 	).id("create:crafting/logistics/repackager")
-	
-	event.remove({id:"create:crafting/logistics/repackager_from_conversion"})
-	event.remove({id:"create:crafting/logistics/packager_from_conversion"})
+
+	event.remove({ id: "create:crafting/logistics/repackager_from_conversion" })
+	event.remove({ id: "create:crafting/logistics/packager_from_conversion" })
 
 	event.shaped("create:stock_link",
 		[
@@ -3553,11 +3719,11 @@ ServerEvents.recipes(event => {
 			"PWP"
 		],
 		{
-			P:"#forge:plates/stone",
-			W:"woodenhopper:wooden_hopper",
-			M:"kubejs:primitive_machine",
-			G:"#forge:gears/stone",
-			T:"naturesaura:token_anger"
+			P: "#forge:plates/stone",
+			W: "woodenhopper:wooden_hopper",
+			M: "kubejs:primitive_machine",
+			G: "#forge:gears/stone",
+			T: "naturesaura:token_anger"
 
 		}
 	)
@@ -3578,67 +3744,67 @@ ServerEvents.recipes(event => {
 
 
 	event.shaped('ars_nouveau:basic_spell_turret',
-			[
-				"RDR",
-				"GMG",
-				"RBR"
-			],
-			{
-				R: "#forge:rods/gold",
-				D: "dispenser",
-				G: "#forge:gears/gold",
-				M: "kubejs:basic_magic_machine",
-				B: "#forge:storage_blocks/source"
-			}
-		).id("kubejs:poop3")
-	
-	event.remove({id:'ars_nouveau:rotating_turret_to_basic_spell_turret'})
-		
+		[
+			"RDR",
+			"GMG",
+			"RBR"
+		],
+		{
+			R: "#forge:rods/gold",
+			D: "dispenser",
+			G: "#forge:gears/gold",
+			M: "kubejs:basic_magic_machine",
+			B: "#forge:storage_blocks/source"
+		}
+	).id("kubejs:poop3")
+
+	event.remove({ id: 'ars_nouveau:rotating_turret_to_basic_spell_turret' })
+
 
 	event.shaped('ars_nouveau:rotating_spell_turret',
-			[
-				" G ",
-				"GMG",
-				" G "
-			],
-			{
-				G: "#forge:gears/stone",
-				M: "ars_nouveau:basic_spell_turret"
-			}
-		).id("kubejs:poop2")
-		
+		[
+			" G ",
+			"GMG",
+			" G "
+		],
+		{
+			G: "#forge:gears/stone",
+			M: "ars_nouveau:basic_spell_turret"
+		}
+	).id("kubejs:poop2")
+
 
 	event.shaped('ars_nouveau:spell_turret',
-			[
-				"XXX",
-				"GMG",
-				"XXX"
-			],
-			{
-				G: "#forge:gears/tainted_gold",
-				M: "ars_nouveau:basic_spell_turret",
-				X: "create:experience_block"
-			}
-		).id("kubejs:poop1")
-		
-	
+		[
+			"XXX",
+			"GMG",
+			"XXX"
+		],
+		{
+			G: "#forge:gears/tainted_gold",
+			M: "ars_nouveau:basic_spell_turret",
+			X: "create:experience_block"
+		}
+	).id("kubejs:poop1")
+
+
 
 	event.shaped('ars_nouveau:timer_spell_turret',
-			[
-				"CRC",
-				"CMC",
-				"CHC"
-			],
-			{
-				C: "supplementaries:cog_block",
-				M: "ars_nouveau:basic_spell_turret",
-				H: 'supplementaries:hourglass',
-				R: "create:pulse_repeater"
-			}
-		).id("kubejs:poop")
-	
+		[
+			"CRC",
+			"CMC",
+			"CHC"
+		],
+		{
+			C: "supplementaries:cog_block",
+			M: "ars_nouveau:basic_spell_turret",
+			H: 'supplementaries:hourglass',
+			R: "create:pulse_repeater"
+		}
+	).id("kubejs:poop")
+
 	event.shaped("thermal:filter_attachment",
-		[ 
+		[
 			"ISI",
 			"IFI"
 		],
@@ -3666,9 +3832,8 @@ ServerEvents.recipes(event => {
 		}
 	).id("thermal:device_collector")
 
-	function SourceGeneratorsRecipe(type,ingredient)
-	{
-		event.shaped("ars_nouveau:"+type+"_sourcelink",
+	function SourceGeneratorsRecipe(type, ingredient) {
+		event.shaped("ars_nouveau:" + type + "_sourcelink",
 			[
 				"GXG",
 				"GMG",
@@ -3679,28 +3844,28 @@ ServerEvents.recipes(event => {
 				M: "kubejs:magical_generator_block",
 				X: ingredient
 			}
-		).id("ars_nouveau:"+type+"_sourcelink")
+		).id("ars_nouveau:" + type + "_sourcelink")
 	}
 
-	SourceGeneratorsRecipe("volcanic","ars_nouveau:fire_essence")
-	SourceGeneratorsRecipe("agronomic","kubejs:nature_essence")
-	SourceGeneratorsRecipe("vitalic","kubejs:death_essence")
-	SourceGeneratorsRecipe("mycelial","quark:glow_shroom")
-	SourceGeneratorsRecipe("alchemical",'immersive_weathering:golden_moss_clump')
+	SourceGeneratorsRecipe("volcanic", "ars_nouveau:fire_essence")
+	SourceGeneratorsRecipe("agronomic", "kubejs:nature_essence")
+	SourceGeneratorsRecipe("vitalic", "kubejs:death_essence")
+	SourceGeneratorsRecipe("mycelial", "quark:glow_shroom")
+	SourceGeneratorsRecipe("alchemical", 'immersive_weathering:golden_moss_clump')
 
 	event.shaped("starbunclemania:fluid_sourcelink",
-			[
-				"GXG",
-				"GMG",
-				"GXG"
-			],
-			{
-				G: "#forge:rods/gold",
-				M: "kubejs:magical_generator_block",
-				X: "bucket"
-			}
+		[
+			"GXG",
+			"GMG",
+			"GXG"
+		],
+		{
+			G: "#forge:rods/gold",
+			M: "kubejs:magical_generator_block",
+			X: "bucket"
+		}
 	).id("starbunclemania:fluid_sourcelink")
-	
+
 	event.shaped("mbd2:elemental_evaporator",
 		[
 			"CXC",
@@ -3734,446 +3899,446 @@ ServerEvents.recipes(event => {
 	*/
 
 	event.shaped(
-		Item.of('mbd2:elemental_infuser'), 
+		Item.of('mbd2:elemental_infuser'),
 		[
-		  'CIC',
-		  'IMI',
-		  'CIC'
+			'CIC',
+			'IMI',
+			'CIC'
 		],
 		{
-		  M: "kubejs:basic_magic_machine",
-		  I: '#forge:plates/arcanum_alloy',
-		  C: 'kubejs:carbon_infused_sturdy_handle'
+			M: "kubejs:basic_magic_machine",
+			I: '#forge:plates/arcanum_alloy',
+			C: 'kubejs:carbon_infused_sturdy_handle'
 		}
 	)
-	
+
 
 	event.shaped(
-		Item.of('ars_nouveau:arcane_core'), 
+		Item.of('ars_nouveau:arcane_core'),
 		[
-		  'AAA',
-		  'RXR',
-		  'AMA'
+			'AAA',
+			'RXR',
+			'AMA'
 		],
 		{
-		  M: "kubejs:basic_magic_machine",
-		  X: "quark:diamond_heart",
-		  R: '#forge:rods/gold',
-		  A: 'kubejs:source_alloy_ingot'
+			M: "kubejs:basic_magic_machine",
+			X: "quark:diamond_heart",
+			R: '#forge:rods/gold',
+			A: 'kubejs:source_alloy_ingot'
 		}
 	).id("ars_nouveau:arcane_core")
 
-	event.remove({output:"ars_nouveau:source_jar"})
+	event.remove({ output: "ars_nouveau:source_jar" })
 
 	event.remove('irons_spellbooks:pedestal')
 	event.shaped(
-	  Item.of('irons_spellbooks:pedestal'), 
-	  [
-		'H',
-		'F',
-		'H'
-	  ],
-	  {
-		
-		F: "create:depot",
-		H: 'minecraft:andesite'
-	  }
+		Item.of('irons_spellbooks:pedestal'),
+		[
+			'H',
+			'F',
+			'H'
+		],
+		{
+
+			F: "create:depot",
+			H: 'minecraft:andesite'
+		}
 	)
 
-	event.remove({output:'create:schematicannon'})
+	event.remove({ output: 'create:schematicannon' })
 	event.shaped(
-	  Item.of('create:schematicannon'), 
-	  [
-		' BB',
-		'WDW',
-		'SFS'
-	  ],
-	  {
-		S: "minecraft:smooth_stone",
-		W: "#minecraft:logs",
-		D: "minecraft:dispenser",
-		B: '#forge:storage_blocks/iron',
-		F: "ars_nouveau:fire_essence"
-	  }
-	)
-	
-	
-	event.remove({output:"ars_nouveau:mob_jar"})
-	event.shapeless("ars_nouveau:mob_jar",["ars_nouveau:source_jar","supplementaries:cage"])
-	event.shaped(
-	  Item.of('3x quark:pipe'), 
-	  [
-		'CGC'
-	  ],
-	  {
-		C: '#forge:ingots/copper',
-		G: 'wizards_reborn:alchemy_glass'
-	  }
-	)
-	
-	event.remove({output:'quark:feeding_trough'})
-	event.shaped(
-	  Item.of('quark:feeding_trough'), 
-	  [
-		'CGC',
-		'CCC'
-	  ],
-	  {
-		C: '#forge:treated_wood',
-		G: 'kubejs:nature_essence'
-	  }
-	)
-	
-	event.remove({output:'irons_spellbooks:arcane_anvil'})
-	event.shaped(
-	  Item.of('irons_spellbooks:arcane_anvil'), 
-	  [
-	    'DMD',
-		' A ',
-		'GGG'
-	  ],
-	  {
-		D: '#forge:gems/diamond',
-		A: 'minecraft:anvil',
-		M: 'kubejs:magic_machine',
-		G: 'minecraft:polished_deepslate'
-	  }
+		Item.of('create:schematicannon'),
+		[
+			' BB',
+			'WDW',
+			'SFS'
+		],
+		{
+			S: "minecraft:smooth_stone",
+			W: "#minecraft:logs",
+			D: "minecraft:dispenser",
+			B: '#forge:storage_blocks/iron',
+			F: "ars_nouveau:fire_essence"
+		}
 	)
 
-	event.remove({output:"naturesaura:nature_altar"})
-	
 
-	event.remove({output:'kubejs:zinc_tool_handle'})
+	event.remove({ output: "ars_nouveau:mob_jar" })
+	event.shapeless("ars_nouveau:mob_jar", ["ars_nouveau:source_jar", "supplementaries:cage"])
+	event.shaped(
+		Item.of('3x quark:pipe'),
+		[
+			'CGC'
+		],
+		{
+			C: '#forge:ingots/copper',
+			G: 'wizards_reborn:alchemy_glass'
+		}
+	)
+
+	event.remove({ output: 'quark:feeding_trough' })
+	event.shaped(
+		Item.of('quark:feeding_trough'),
+		[
+			'CGC',
+			'CCC'
+		],
+		{
+			C: '#forge:treated_wood',
+			G: 'kubejs:nature_essence'
+		}
+	)
+
+	event.remove({ output: 'irons_spellbooks:arcane_anvil' })
+	event.shaped(
+		Item.of('irons_spellbooks:arcane_anvil'),
+		[
+			'DMD',
+			' A ',
+			'GGG'
+		],
+		{
+			D: '#forge:gems/diamond',
+			A: 'minecraft:anvil',
+			M: 'kubejs:magic_machine',
+			G: 'minecraft:polished_deepslate'
+		}
+	)
+
+	event.remove({ output: "naturesaura:nature_altar" })
+
+
+	event.remove({ output: 'kubejs:zinc_tool_handle' })
 	event.custom({
 		type: "ars_nouveau:enchanting_apparatus",
 		"keepNbtOfReagent": false,
-		"output": {item: "kubejs:zinc_tool_handle"},
+		"output": { item: "kubejs:zinc_tool_handle" },
 		"pedestalItems": [
-		  {item: "minecraft:leather"},
-		  {item: "minecraft:string"},
-		  {item: "naturesaura:ancient_stick"},
-		  {tag: "forge:ingots/zinc"},
-		  {tag: "forge:ingots/zinc"},
-		  {tag: "forge:ingots/zinc"}
+			{ item: "minecraft:leather" },
+			{ item: "minecraft:string" },
+			{ item: "naturesaura:ancient_stick" },
+			{ tag: "forge:ingots/zinc" },
+			{ tag: "forge:ingots/zinc" },
+			{ tag: "forge:ingots/zinc" }
 		],
 		"reagent": [
-		  {item: 'immersiveengineering:stick_treated'}
+			{ item: 'immersiveengineering:stick_treated' }
 		],
 		"sourceCost": 0
 	})
-	
+
 	///========================================= Tier 3 Components ================================================================
 
 	event.shaped(
-		Item.of('wither_skeleton_skull'), 
+		Item.of('wither_skeleton_skull'),
 		[
-		  'BBB',
-		  'BFB', 
-		  'BBB' 
+			'BBB',
+			'BFB',
+			'BBB'
 		],
 		{
-		  F: "minecraft:skeleton_skull",
-		  B: "wither_rose",
+			F: "minecraft:skeleton_skull",
+			B: "wither_rose",
 		}
-	  )
-	
+	)
+
 	event.shaped(
-		Item.of('enigmaticlegacy:infinimeal'), 
+		Item.of('enigmaticlegacy:infinimeal'),
 		[
-		  'BXB',
-		  'XFX', 
-		  'BXB' 
+			'BXB',
+			'XFX',
+			'BXB'
 		],
 		{
-		  F: "enigmaticlegacy:earth_heart",
-		  B: "thermal:compost",
-		  X: "kubejs:nature_essence"
+			F: "enigmaticlegacy:earth_heart",
+			B: "thermal:compost",
+			X: "kubejs:nature_essence"
 		}
 	).id("enigmaticlegacy:infinimeal")
-	
 
-	event.recipes.farmersdelight.cutting("deep_aether:goldenleaf_berries","#forge:tools/knives",Item.of("naturesaura:gold_leaf")
-	.withChance(0.5))
+
+	event.recipes.farmersdelight.cutting("deep_aether:goldenleaf_berries", "#forge:tools/knives", Item.of("naturesaura:gold_leaf")
+		.withChance(0.5))
 
 	event.custom(
 		{
 			type: "lychee:block_crushing",
-			post:[
-				{type: "drop_item", item: "sophisticatedstorage:storage_link"},
-				{type: "execute", command: "playsound immersiveengineering:metal_press_smash neutral @p", hide: true}
+			post: [
+				{ type: "drop_item", item: "sophisticatedstorage:storage_link" },
+				{ type: "execute", command: "playsound immersiveengineering:metal_press_smash neutral @p", hide: true }
 			],
-			item_in:[
-				{item: "ender_pearl"},
-				{item: "sophisticatedstorage:advanced_pickup_upgrade"},
-				{tag: "forge:plates/nickel"},
-				{item: "kubejs:ivy_quartz"}
+			item_in: [
+				{ item: "ender_pearl" },
+				{ item: "sophisticatedstorage:advanced_pickup_upgrade" },
+				{ tag: "forge:plates/nickel" },
+				{ item: "kubejs:ivy_quartz" }
 			]
 		}
 	).id("sophisticatedstorage:storage_link")
-	event.remove({id:"sophisticatedstorage:storage_link_from_controller"})
+	event.remove({ id: "sophisticatedstorage:storage_link_from_controller" })
 
 	event.shaped(
-		Item.of('create:brass_hand'), 
+		Item.of('create:brass_hand'),
 		[
-		  ' A ',
-		  'BCB',
-		  ' B '
+			' A ',
+			'BCB',
+			' B '
 		],
 		{
-		  C: 'alexsmobs:falconry_glove',
-		  B: '#forge:plates/brass',
-		  A: 'create:andesite_alloy'
-		  
+			C: 'alexsmobs:falconry_glove',
+			B: '#forge:plates/brass',
+			A: 'create:andesite_alloy'
+
 		}
-	  ).id("create:crafting/kinetics/brass_hand")
+	).id("create:crafting/kinetics/brass_hand")
 
 	event.custom({
 		type: "create:sequenced_assembly",
-		ingredient: {item: "kubejs:ivy_quartz"},
+		ingredient: { item: "kubejs:ivy_quartz" },
 		loops: 12,
 		results: [
-		  {item: "kubejs:salmon_quartz"}
+			{ item: "kubejs:salmon_quartz" }
 		],
 		"sequence": [
 			{
 				type: "create:deploying",
 				ingredients: [
-				  {item: "kubejs:unstable_ivy_quartz"},
-				  {tag: "forge:raw_fishes/salmon" }
+					{ item: "kubejs:unstable_ivy_quartz" },
+					{ tag: "forge:raw_fishes/salmon" }
 				],
 				results: [
-				  {item: "kubejs:unstable_ivy_quartz"}
+					{ item: "kubejs:unstable_ivy_quartz" }
 				]
-			  },
+			},
 			{
 				type: "create:deploying",
 				ingredients: [
-				  {item: "kubejs:unstable_ivy_quartz"},
-				  {tag: "forge:raw_fishes/salmon"}
+					{ item: "kubejs:unstable_ivy_quartz" },
+					{ tag: "forge:raw_fishes/salmon" }
 				],
 				results: [
-				  {item: "kubejs:unstable_ivy_quartz"}
+					{ item: "kubejs:unstable_ivy_quartz" }
 				]
-			  },
-		  {
-			type: "create:deploying",
-			ingredients: [
-			  {item: "kubejs:unstable_ivy_quartz"},
-			  {item: "farmersdelight:salmon_roll"}
-			],
-			results: [
-			  {item: "kubejs:unstable_ivy_quartz"}
-			]
-		  },
-		  {
-			type: "create:deploying",
-			ingredients: [
-			  {item: "kubejs:unstable_ivy_quartz"},
-			  {item: "farmersdelight:grilled_salmon"}
-			],
-			results: [
-			  {item: "kubejs:unstable_ivy_quartz"}
-			]
-		  },
+			},
+			{
+				type: "create:deploying",
+				ingredients: [
+					{ item: "kubejs:unstable_ivy_quartz" },
+					{ item: "farmersdelight:salmon_roll" }
+				],
+				results: [
+					{ item: "kubejs:unstable_ivy_quartz" }
+				]
+			},
+			{
+				type: "create:deploying",
+				ingredients: [
+					{ item: "kubejs:unstable_ivy_quartz" },
+					{ item: "farmersdelight:grilled_salmon" }
+				],
+				results: [
+					{ item: "kubejs:unstable_ivy_quartz" }
+				]
+			},
 		],
-		"transitionalItem": {item: "kubejs:unstable_ivy_quartz"}
+		"transitionalItem": { item: "kubejs:unstable_ivy_quartz" }
 	})
 
-	
-	event.remove({output:"minecraft:clock"})
+
+	event.remove({ output: "minecraft:clock" })
 	event.custom({
 		type: "create:sequenced_assembly",
 		"ingredient": {
-		  tag: "forge:plates/gold"
+			tag: "forge:plates/gold"
 		},
 		"loops": 1,
 		results: [
-		  {
-			item: "minecraft:clock"
-		  }
+			{
+				item: "minecraft:clock"
+			}
 		],
 		"sequence": [
-		  {
-			type: "create:deploying",
-			ingredients: [
-			  {
-				item: "kubejs:unassembled_clock"
-			  },
-			  {
-				item: "vintageimprovements:redstone_module"
-			  }
-			],
-			results: [
-			  {
-				item: "kubejs:unassembled_clock"
-			  }
-			]
-		  },
-		  {
-			type: "create:pressing",
-			ingredients: [
-			  {
-				item: "kubejs:unassembled_clock"
-			  }
-			],
-			results: [
-			  {
-				item: "kubejs:unassembled_clock"
-			  }
-			]
-		  },
-		  {
-			type: "create:deploying",
-			ingredients: [
-			  {
-				item: "kubejs:unassembled_clock"
-			  },
-			  {
-				tag: "forge:rods/gold"
-			  }
-			],
-			results: [
-			  {
-				item: "kubejs:unassembled_clock"
-			  }
-			]
-		  },
-		  {
-			type: "create:pressing",
-			ingredients: [
-			  {
-				item: "kubejs:unassembled_clock"
-			  }
-			],
-			results: [
-			  {
-				item: "kubejs:unassembled_clock"
-			  }
-			]
-		  }
+			{
+				type: "create:deploying",
+				ingredients: [
+					{
+						item: "kubejs:unassembled_clock"
+					},
+					{
+						item: "vintageimprovements:redstone_module"
+					}
+				],
+				results: [
+					{
+						item: "kubejs:unassembled_clock"
+					}
+				]
+			},
+			{
+				type: "create:pressing",
+				ingredients: [
+					{
+						item: "kubejs:unassembled_clock"
+					}
+				],
+				results: [
+					{
+						item: "kubejs:unassembled_clock"
+					}
+				]
+			},
+			{
+				type: "create:deploying",
+				ingredients: [
+					{
+						item: "kubejs:unassembled_clock"
+					},
+					{
+						tag: "forge:rods/gold"
+					}
+				],
+				results: [
+					{
+						item: "kubejs:unassembled_clock"
+					}
+				]
+			},
+			{
+				type: "create:pressing",
+				ingredients: [
+					{
+						item: "kubejs:unassembled_clock"
+					}
+				],
+				results: [
+					{
+						item: "kubejs:unassembled_clock"
+					}
+				]
+			}
 		],
 		"transitionalItem": {
-		  item: "kubejs:unassembled_clock"
+			item: "kubejs:unassembled_clock"
 		}
-	  }
+	}
 	)
 
-	event.remove({output:"minecraft:compass"})
+	event.remove({ output: "minecraft:compass" })
 	event.custom({
 		type: "create:sequenced_assembly",
 		"ingredient": {
-		  tag: "forge:plates/iron"
+			tag: "forge:plates/iron"
 		},
 		"loops": 1,
 		results: [
-		  {
-			item: "minecraft:compass"
-		  }
+			{
+				item: "minecraft:compass"
+			}
 		],
 		"sequence": [
-		  {
-			type: "create:deploying",
-			ingredients: [
-			  {
-				item: "kubejs:unassembled_compass"
-			  },
-			  {
-				item: "vintageimprovements:redstone_module"
-			  }
-			],
-			results: [
-			  {
-				item: "kubejs:unassembled_compass"
-			  }
-			]
-		  },
-		  {
-			type: "create:pressing",
-			ingredients: [
-			  {
-				item: "kubejs:unassembled_compass"
-			  }
-			],
-			results: [
-			  {
-				item: "kubejs:unassembled_compass"
-			  }
-			]
-		  },
-		  {
-			type: "create:deploying",
-			ingredients: [
-			  {
-				item: "kubejs:unassembled_compass"
-			  },
-			  {
-				tag: "forge:rods/iron"
-			  }
-			],
-			results: [
-			  {
-				item: "kubejs:unassembled_compass"
-			  }
-			]
-		  },
-		  {
-			type: "create:pressing",
-			ingredients: [
-			  {
-				item: "kubejs:unassembled_compass"
-			  }
-			],
-			results: [
-			  {
-				item: "kubejs:unassembled_compass"
-			  }
-			]
-		  }
+			{
+				type: "create:deploying",
+				ingredients: [
+					{
+						item: "kubejs:unassembled_compass"
+					},
+					{
+						item: "vintageimprovements:redstone_module"
+					}
+				],
+				results: [
+					{
+						item: "kubejs:unassembled_compass"
+					}
+				]
+			},
+			{
+				type: "create:pressing",
+				ingredients: [
+					{
+						item: "kubejs:unassembled_compass"
+					}
+				],
+				results: [
+					{
+						item: "kubejs:unassembled_compass"
+					}
+				]
+			},
+			{
+				type: "create:deploying",
+				ingredients: [
+					{
+						item: "kubejs:unassembled_compass"
+					},
+					{
+						tag: "forge:rods/iron"
+					}
+				],
+				results: [
+					{
+						item: "kubejs:unassembled_compass"
+					}
+				]
+			},
+			{
+				type: "create:pressing",
+				ingredients: [
+					{
+						item: "kubejs:unassembled_compass"
+					}
+				],
+				results: [
+					{
+						item: "kubejs:unassembled_compass"
+					}
+				]
+			}
 		],
 		"transitionalItem": {
-		  item: "kubejs:unassembled_compass"
+			item: "kubejs:unassembled_compass"
 		}
-	  }
+	}
 	)
-	
-	
+
+
 	event.shapeless('9x create:andesite_alloy', ['create:andesite_alloy_block'])
 
 
-	
-	event.remove({output:'minecraft:cauldron'})
+
+	event.remove({ output: 'minecraft:cauldron' })
 	event.shaped(
-	  Item.of('minecraft:cauldron'), 
-	  [
-		' I ',
-		'IXI', 
-		' I ' 
-	  ],
-	  {
-		X: 'create:basin',
-		I: '#forge:ingots/iron'
-	  }
+		Item.of('minecraft:cauldron'),
+		[
+			' I ',
+			'IXI',
+			' I '
+		],
+		{
+			X: 'create:basin',
+			I: '#forge:ingots/iron'
+		}
 	)
-	
+
 	event.shaped(
-	  Item.of('kubejs:andesite_machine'), 
-	  [
-		'AYA',
-		'GXG', 
-		'AZA' 
-	  ],
-	  {
-		X: 'minecraft:dispenser',
-		Z: 'vintageimprovements:redstone_module',
-		A: 'create:andesite_casing',
-		Y: 'minecraft:hopper',
-		G: '#forge:gears/andesite'
-	  }
+		Item.of('kubejs:andesite_machine'),
+		[
+			'AYA',
+			'GXG',
+			'AZA'
+		],
+		{
+			X: 'minecraft:dispenser',
+			Z: 'vintageimprovements:redstone_module',
+			A: 'create:andesite_casing',
+			Y: 'minecraft:hopper',
+			G: '#forge:gears/andesite'
+		}
 	)
 
 
-	
-	
+
+
 	///======================================== Tier 3 Machines =======================================================================
 
 	event.shaped("2x irons_spellbooks:portal_frame",
@@ -4196,7 +4361,7 @@ ServerEvents.recipes(event => {
 			"GZG"
 		],
 		{
-			G:"#forge:gears/uranium",
+			G: "#forge:gears/uranium",
 			F: "ars_nouveau:fire_essence",
 			X: "blast_furnace",
 			Z: "kubejs:magic_machine",
@@ -4204,7 +4369,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped("kubejs:infernal_bricks",["PFP","FXF","PFP"],
+	event.shaped("kubejs:infernal_bricks", ["PFP", "FXF", "PFP"],
 		{
 			P: "#forge:plates/uranium",
 			F: "ars_nouveau:fire_essence",
@@ -4255,7 +4420,7 @@ ServerEvents.recipes(event => {
 			K: "immersiveengineering:alloybrick"
 		}
 	)
-	
+
 	event.shaped("naturesaura:conversion_catalyst",
 		[
 			"PSP",
@@ -4263,11 +4428,11 @@ ServerEvents.recipes(event => {
 			"PTP"
 		],
 		{
-			P:"#forge:plates/ironwood",
-			S:"#forge:gears/infused_iron",
-			M:"kubejs:magic_machine",
-			G:"kubejs:improved_alchemical_dust",
-			T:"naturesaura:token_sorrow"
+			P: "#forge:plates/ironwood",
+			S: "#forge:gears/infused_iron",
+			M: "kubejs:magic_machine",
+			G: "kubejs:improved_alchemical_dust",
+			T: "naturesaura:token_sorrow"
 
 		}
 	)
@@ -4287,20 +4452,20 @@ ServerEvents.recipes(event => {
 	)
 
 	event.shaped("kubejs:vine_generator",
-			[
-				"MGM",
-				"SXS",
-				"MZM"
-			],
-			{
-				M: "kubejs:ivy_block",
-				G: "immersive_weathering:golden_moss_clump",
-				X: "kubejs:magic_machine",
-				Z: "#forge:gears/tainted_gold",
-				S: "shears"
-			}
-		)
-	
+		[
+			"MGM",
+			"SXS",
+			"MZM"
+		],
+		{
+			M: "kubejs:ivy_block",
+			G: "immersive_weathering:golden_moss_clump",
+			X: "kubejs:magic_machine",
+			Z: "#forge:gears/tainted_gold",
+			S: "shears"
+		}
+	)
+
 	event.shaped("create:mechanical_arm",
 		[
 			"GRA",
@@ -4384,7 +4549,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("create:crafting/logistics/andesite_funnel")
 
-	
+
 	event.shaped("create:steam_engine",
 		[
 			"PFP",
@@ -4413,130 +4578,130 @@ ServerEvents.recipes(event => {
 	).id("create:crafting/logistics/redstone_link")
 
 	event.shaped(
-		Item.of('create:mechanical_press'), 
+		Item.of('create:mechanical_press'),
 		[
-		  'PXP',
-		  'PYP', 
-		  'PZP'
+			'PXP',
+			'PYP',
+			'PZP'
 		],
 		{
-		  P: 'create:andesite_casing',
-		  X: 'kubejs:andesite_machine',
-		  Y: "piston",
-		  Z: "kubejs:pressing_catalyst"
+			P: 'create:andesite_casing',
+			X: 'kubejs:andesite_machine',
+			Y: "piston",
+			Z: "kubejs:pressing_catalyst"
 		}
-	  ).id("create:crafting/kinetics/mechanical_press")
-	
+	).id("create:crafting/kinetics/mechanical_press")
+
 	event.shaped(
-	  Item.of('sophisticatedstorage:controller'), 
-	  [
-		'PXP',
-		'LYL', 
-		'PZP'
-	  ],
-	  {
-		P: '#forge:plates/silver',
-		X: 'kubejs:ender_essence',
-		Y: "sophisticatedstorage:gold_barrel",
-		Z: "vintageimprovements:redstone_module",
-		L: "sophisticatedstorage:storage_link"
-	  }
+		Item.of('sophisticatedstorage:controller'),
+		[
+			'PXP',
+			'LYL',
+			'PZP'
+		],
+		{
+			P: '#forge:plates/silver',
+			X: 'kubejs:ender_essence',
+			Y: "sophisticatedstorage:gold_barrel",
+			Z: "vintageimprovements:redstone_module",
+			L: "sophisticatedstorage:storage_link"
+		}
 	).id("sophisticatedstorage:controller")
-	
-	event.remove({output:'thermal:device_rock_gen'})
+
+	event.remove({ output: 'thermal:device_rock_gen' })
 	event.shaped(
-	  Item.of('thermal:device_rock_gen'), 
-	  [
-	    'SBS',
-		'WXL',
-		'IGI'
-	  ],
-	  {
-		L: 'minecraft:lava_bucket',
-		B: 'ars_nouveau:glyph_break',
-		I: '#forge:plates/tin',
-		X: 'kubejs:andesite_machine',
-		W: 'minecraft:water_bucket',
-		S: '#forge:plates/lead',
-		G: '#forge:gears/tin'
-	  }
+		Item.of('thermal:device_rock_gen'),
+		[
+			'SBS',
+			'WXL',
+			'IGI'
+		],
+		{
+			L: 'minecraft:lava_bucket',
+			B: 'ars_nouveau:glyph_break',
+			I: '#forge:plates/tin',
+			X: 'kubejs:andesite_machine',
+			W: 'minecraft:water_bucket',
+			S: '#forge:plates/lead',
+			G: '#forge:gears/tin'
+		}
 	)
-	
-	event.remove({output:'farmersdelight:cooking_pot'})
+
+	event.remove({ output: 'farmersdelight:cooking_pot' })
 	event.shaped(
-	  Item.of('farmersdelight:cooking_pot'), 
-	  [
-		' Y ',
-		' Z ', 
-		'IXI' 
-	  ],
-	  {
-		X: 'minecraft:cauldron',
-		Y: 'minecraft:iron_shovel',
-		Z: 'minecraft:heart_of_the_sea',
-		I: 'minecraft:brick'
-	  }
+		Item.of('farmersdelight:cooking_pot'),
+		[
+			' Y ',
+			' Z ',
+			'IXI'
+		],
+		{
+			X: 'minecraft:cauldron',
+			Y: 'minecraft:iron_shovel',
+			Z: 'minecraft:heart_of_the_sea',
+			I: 'minecraft:brick'
+		}
 	)
-	
-	event.remove({output:'irons_spellbooks:alchemist_cauldron'})
+
+	event.remove({ output: 'irons_spellbooks:alchemist_cauldron' })
 	event.shaped(
-	  Item.of('irons_spellbooks:alchemist_cauldron'), 
-	  [
-		'ICI',
-		'IMI', 
-		'IFI' 
-	  ],
-	  {
-		I: '#forge:ingots/iron',
-		C: 'minecraft:cauldron',
-		M: 'kubejs:andesite_machine',
-		F: 'ars_nouveau:fire_essence'
-	  }
+		Item.of('irons_spellbooks:alchemist_cauldron'),
+		[
+			'ICI',
+			'IMI',
+			'IFI'
+		],
+		{
+			I: '#forge:ingots/iron',
+			C: 'minecraft:cauldron',
+			M: 'kubejs:andesite_machine',
+			F: 'ars_nouveau:fire_essence'
+		}
 	)
 
 	event.shaped("create:mechanical_drill",
-		[ "AXA","AYA","AZA" ],
-		{ A:"create:andesite_casing",X:"thermal:drill_head",Y:"kubejs:andesite_machine",Z:"ars_nouveau:glyph_break" }).id("create:crafting/kinetics/mechanical_drill")
-	
+		["AXA", "AYA", "AZA"],
+		{ A: "create:andesite_casing", X: "thermal:drill_head", Y: "kubejs:andesite_machine", Z: "ars_nouveau:glyph_break" }).id("create:crafting/kinetics/mechanical_drill")
+
 	event.shaped("create:mechanical_saw",
-		[ "AXA","AYA","AZA" ],
-		{ A:"create:andesite_casing",X:"thermal:saw_blade",Y:"kubejs:andesite_machine",Z:"ars_nouveau:glyph_fell" }).id("create:crafting/kinetics/mechanical_saw")
-	
+		["AXA", "AYA", "AZA"],
+		{ A: "create:andesite_casing", X: "thermal:saw_blade", Y: "kubejs:andesite_machine", Z: "ars_nouveau:glyph_fell" }).id("create:crafting/kinetics/mechanical_saw")
+
 	event.shaped("create:mechanical_harvester",
-		[ "AXA","AYA","AZA" ],
-		{ A:"create:andesite_casing",X:"immersiveengineering:razor_wire",Y:"kubejs:andesite_machine",Z:"ars_nouveau:glyph_harvest" }).id("create:crafting/kinetics/mechanical_harvester")
-	
+		["AXA", "AYA", "AZA"],
+		{ A: "create:andesite_casing", X: "immersiveengineering:razor_wire", Y: "kubejs:andesite_machine", Z: "ars_nouveau:glyph_harvest" }).id("create:crafting/kinetics/mechanical_harvester")
+
 	event.shaped("create:mechanical_plough",
-		[ "AXA","AYA","AZA" ],
-		{ A:"create:andesite_casing",X:"tombstone:grave_plate",Y:"kubejs:andesite_machine",Z:"ars_nouveau:glyph_touch" }).id("create:crafting/kinetics/mechanical_plough")
-	
+		["AXA", "AYA", "AZA"],
+		{ A: "create:andesite_casing", X: "tombstone:grave_plate", Y: "kubejs:andesite_machine", Z: "ars_nouveau:glyph_touch" }).id("create:crafting/kinetics/mechanical_plough")
+
 	event.shaped("create:encased_fan",
-		[ "AXA","AYA","AZA" ],
-		{ A:"create:andesite_casing",X:"create:propeller",Y:"kubejs:andesite_machine",Z:"ars_nouveau:glyph_gust" }).id("create:crafting/kinetics/encased_fan")
-	
+		["AXA", "AYA", "AZA"],
+		{ A: "create:andesite_casing", X: "create:propeller", Y: "kubejs:andesite_machine", Z: "ars_nouveau:glyph_gust" }).id("create:crafting/kinetics/encased_fan")
+
 	event.shaped("create:mechanical_mixer",
-		[ "AXA","AYA","AZA" ],
-		{ A:"create:andesite_casing",X:"create:whisk",Y:"kubejs:andesite_machine",Z:"create:cogwheel" }).id("create:crafting/kinetics/mechanical_mixer")
-	
+		["AXA", "AYA", "AZA"],
+		{ A: "create:andesite_casing", X: "create:whisk", Y: "kubejs:andesite_machine", Z: "create:cogwheel" }).id("create:crafting/kinetics/mechanical_mixer")
+
 	event.shaped("create:mechanical_roller",
-		[ "AXA","AYA","AZA" ],
-		{ A:"create:andesite_casing",X:"create:crushing_wheel",Y:"kubejs:andesite_machine",Z:"ars_nouveau:glyph_exchange" }).id("create:crafting/kinetics/mechanical_roller")
-	
+		["AXA", "AYA", "AZA"],
+		{ A: "create:andesite_casing", X: "create:crushing_wheel", Y: "kubejs:andesite_machine", Z: "ars_nouveau:glyph_exchange" }).id("create:crafting/kinetics/mechanical_roller")
+
 	event.shaped("create:weighted_ejector",
-		[ "AXA","AYA","AZA" ],
-		{ A:"create:andesite_casing",X:"create:depot",Y:"supplementaries:spring_launcher",Z:"create:cogwheel" }).id("create:crafting/kinetics/weighted_ejector")
+		["AXA", "AYA", "AZA"],
+		{ A: "create:andesite_casing", X: "create:depot", Y: "supplementaries:spring_launcher", Z: "create:cogwheel" }).id("create:crafting/kinetics/weighted_ejector")
 
 	event.shaped("create:deployer",
-		[ "AXA","AYA","AZA" ],
-		{ A:"create:andesite_casing",X:"create:brass_hand",Y:"kubejs:andesite_machine",Z:"ars_nouveau:glyph_interact" }).id("create:crafting/kinetics/deployer")
+		["AXA", "AYA", "AZA"],
+		{ A: "create:andesite_casing", X: "create:brass_hand", Y: "kubejs:andesite_machine", Z: "ars_nouveau:glyph_interact" }).id("create:crafting/kinetics/deployer")
 
 	event.shaped("create:portable_storage_interface",
-		[ "AXA","AYA","AXA" ],
-		{ A:"create:andesite_casing",X:"create:chute",Y:"kubejs:andesite_machine",}).id("create:crafting/kinetics/portable_storage_interface")
-	
+		["AXA", "AYA", "AXA"],
+		{ A: "create:andesite_casing", X: "create:chute", Y: "kubejs:andesite_machine", }).id("create:crafting/kinetics/portable_storage_interface")
+
 	//============================================ Tier 4 Components ========================================================================================
-	event.remove({id:"immersiveengineering:blastfurnace/steel_block"})
-	
+	event.remove({ id: "immersiveengineering:blastfurnace/steel_block" })
+
 	event.shaped("immersiveengineering:light_engineering",
 		[
 			"SCS",
@@ -4576,7 +4741,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("immersiveengineering:crafting/rs_engineering")
 
-	
+
 	event.shaped("thermal:redstone_servo",
 		[
 			"RGR",
@@ -4587,11 +4752,11 @@ ServerEvents.recipes(event => {
 			R: "repeater",
 			P: "create:mechanical_piston",
 			G: "#forge:gears/iron"
-		}	
+		}
 	).id("thermal:redstone_servo")
 
-	event.recipes.create.mixing("create:rose_quartz",["kubejs:salmon_quartz","ars_nouveau:conjuration_essence","wither_rose"]).id("create:crafting/materials/rose_quartz").heated()
-	
+	event.recipes.create.mixing("create:rose_quartz", ["kubejs:salmon_quartz", "ars_nouveau:conjuration_essence", "wither_rose"]).id("create:crafting/materials/rose_quartz").heated()
+
 	event.shaped('immersiveengineering:drillhead_iron',
 		[
 			"DP ",
@@ -4617,15 +4782,15 @@ ServerEvents.recipes(event => {
 		}
 	).id("immersiveengineering:crafting/drillhead_steel")
 
-	event.remove({id:'immersiveengineering:blastfurnace/steel'})
+	event.remove({ id: 'immersiveengineering:blastfurnace/steel' })
 
-	event.recipes.createMechanicalCrafting("vintageimprovements:grinder_belt",[
+	event.recipes.createMechanicalCrafting("vintageimprovements:grinder_belt", [
 		"SSDSS",
 		"SDXDS",
 		"DXXXD",
 		"SDXDS",
 		"SSDSS"
-	],{
+	], {
 		S: 'create:sand_paper',
 		D: '#forge:plates/diamond',
 		X: "irons_spellbooks:mithril_scrap"
@@ -4647,47 +4812,47 @@ ServerEvents.recipes(event => {
 	})
 
 	event.shaped(
-		Item.of('kubejs:steel_machine'), 
+		Item.of('kubejs:steel_machine'),
 		[
-		  'IGI',
-		  'RMR', 
-		  'IGI' 
+			'IGI',
+			'RMR',
+			'IGI'
 		],
 		{
-		  I: '#forge:plates/steel',
-		  M: 'kubejs:andesite_machine',
-		  R: "create:polished_rose_quartz",
-		  G: '#forge:gears/steel'
+			I: '#forge:plates/steel',
+			M: 'kubejs:andesite_machine',
+			R: "create:polished_rose_quartz",
+			G: '#forge:gears/steel'
 
 		}
-	  )
-	event.recipes.create.compacting("prettypipes:blank_module",["#forge:storage_blocks/zinc","3x prettypipes:pipe","vintageimprovements:redstone_module"]).id("prettypipes:blank_module")
+	)
+	event.recipes.create.compacting("prettypipes:blank_module", ["#forge:storage_blocks/zinc", "3x prettypipes:pipe", "vintageimprovements:redstone_module"]).id("prettypipes:blank_module")
 
-	event.recipes.create.compacting("prettypipes:low_crafting_module",["prettypipes:blank_module","create:mechanical_arm","sophisticatedstorage:crafting_upgrade"]).id("prettypipes:low_crafting_module")
+	event.recipes.create.compacting("prettypipes:low_crafting_module", ["prettypipes:blank_module", "create:mechanical_arm", "sophisticatedstorage:crafting_upgrade"]).id("prettypipes:low_crafting_module")
 
-	event.recipes.create.compacting("prettypipes:low_filter_module",["prettypipes:blank_module","sophisticatedstorage:filter_upgrade","3x prettypipes:pipe"]).id("prettypipes:low_filter_module")
-	
-	event.recipes.create.mixing("2x kubejs:fiery_clay_blend",["8x #forge:dusts/coal_coke","4x ars_nouveau:fire_essence","4x ars_nouveau:earth_essence","2x clay_ball","8x wizards_reborn:nether_salt"]).heated()
+	event.recipes.create.compacting("prettypipes:low_filter_module", ["prettypipes:blank_module", "sophisticatedstorage:filter_upgrade", "3x prettypipes:pipe"]).id("prettypipes:low_filter_module")
 
-	event.recipes.create.mixing("kubejs:wrought_iron_ingot",["2x ars_nouveau:earth_essence","2x ars_nouveau:fire_essence","4x supplementaries:ash","#forge:ingots/iron"]).heated()
-	
+	event.recipes.create.mixing("2x kubejs:fiery_clay_blend", ["8x #forge:dusts/coal_coke", "4x ars_nouveau:fire_essence", "4x ars_nouveau:earth_essence", "2x clay_ball", "8x wizards_reborn:nether_salt"]).heated()
+
+	event.recipes.create.mixing("kubejs:wrought_iron_ingot", ["2x ars_nouveau:earth_essence", "2x ars_nouveau:fire_essence", "4x supplementaries:ash", "#forge:ingots/iron"]).heated()
+
 	event.shaped(
-		Item.of('create:empty_blaze_burner'), 
+		Item.of('create:empty_blaze_burner'),
 		[
-		  'BBB',
-		  'FDF', 
-		  'BNB' 
+			'BBB',
+			'FDF',
+			'BNB'
 		],
 		{
-		  B: 'iron_bars',
-		  D: 'kubejs:death_essence',
-		  F: "ars_nouveau:fire_essence",
-		  N: "netherrack"
+			B: 'iron_bars',
+			D: 'kubejs:death_essence',
+			F: "ars_nouveau:fire_essence",
+			N: "netherrack"
 
 		}
-	  ).id("create:crafting/kinetics/empty_blaze_burner")
+	).id("create:crafting/kinetics/empty_blaze_burner")
 	//===================================================== Tier 4 Machines
-	
+
 	event.shaped("immersiveengineering:redstone_breaker",
 		[
 			"CRC",
@@ -4713,7 +4878,7 @@ ServerEvents.recipes(event => {
 			J: "starbunclemania:fluid_jar"
 		}
 	).id("starbunclemania:source_condenser")
-	
+
 	event.shaped("naturesaura:offering_table",
 		[
 			"III",
@@ -4731,84 +4896,84 @@ ServerEvents.recipes(event => {
 		}
 	).id("naturesaura:offering_table")
 
-	event.remove({output:'torchmaster:megatorch'})
+	event.remove({ output: 'torchmaster:megatorch' })
 	event.shaped(
-	  Item.of('torchmaster:megatorch'), 
-	  [
-		'AXA',
-		'XLX', 
-		'AXA'
-	  ],
-	  {
-		A: '#forge:plates/steel',
-		X: 'kubejs:light_essence',
-		L: "naturesaura:spawn_lamp"
-	  }
+		Item.of('torchmaster:megatorch'),
+		[
+			'AXA',
+			'XLX',
+			'AXA'
+		],
+		{
+			A: '#forge:plates/steel',
+			X: 'kubejs:light_essence',
+			L: "naturesaura:spawn_lamp"
+		}
 	)
 
 	event.shaped("create:mechanical_crafter",
-		[ "AZA","AYA","AXA" ],
-		{ A:"create:brass_casing",X:"sophisticatedstorage:crafting_upgrade",Y:"kubejs:steel_machine",Z:"#forge:gears/brass"}).id("create:crafting/kinetics/mechanical_crafter")
-	
+		["AZA", "AYA", "AXA"],
+		{ A: "create:brass_casing", X: "sophisticatedstorage:crafting_upgrade", Y: "kubejs:steel_machine", Z: "#forge:gears/brass" }).id("create:crafting/kinetics/mechanical_crafter")
+
 	event.shaped("vintageimprovements:belt_grinder",
-		[ "AZA","AYA","AXA" ],
-		{ A:"create:andesite_casing",Z:"vintageimprovements:grinder_belt",Y:"kubejs:andesite_machine",X:"#forge:gears/steel"}).id("vintageimprovements:craft/belt_grinder")
-	
+		["AZA", "AYA", "AXA"],
+		{ A: "create:andesite_casing", Z: "vintageimprovements:grinder_belt", Y: "kubejs:andesite_machine", X: "#forge:gears/steel" }).id("vintageimprovements:craft/belt_grinder")
 
-	event.remove({id:'ars_nouveau:storage_lectern'})
-		event.custom({
-			type: "ars_nouveau:imbuement",
-			"count": 1,
-			"input": {
-				item: "prettypipes:crafting_terminal"
-			},
-			"output": 'ars_nouveau:storage_lectern',
-			"pedestalItems": [],
-			"source": 10000
-		})
 
-	  event.remove({output:'minecraft:hopper'})
-	  event.shaped(
-		Item.of('2x minecraft:hopper'), 
+	event.remove({ id: 'ars_nouveau:storage_lectern' })
+	event.custom({
+		type: "ars_nouveau:imbuement",
+		"count": 1,
+		"input": {
+			item: "prettypipes:crafting_terminal"
+		},
+		"output": 'ars_nouveau:storage_lectern',
+		"pedestalItems": [],
+		"source": 10000
+	})
+
+	event.remove({ output: 'minecraft:hopper' })
+	event.shaped(
+		Item.of('2x minecraft:hopper'),
 		[
-		  ' I ',
-		  'IMI', 
-		  ' I ' 
+			' I ',
+			'IMI',
+			' I '
 		],
 		{
-		  I: '#forge:plates/steel',
-		  M: 'woodenhopper:wooden_hopper'
+			I: '#forge:plates/steel',
+			M: 'woodenhopper:wooden_hopper'
 
 		}
-	  )
+	)
 
-	  event.shaped(
-		Item.of('minecraft:hopper'), 
+	event.shaped(
+		Item.of('minecraft:hopper'),
 		[
-		  'III',
-		  'IMI', 
-		  'III' 
+			'III',
+			'IMI',
+			'III'
 		],
 		{
-		  I: '#forge:plates/iron',
-		  M: 'woodenhopper:wooden_hopper',
+			I: '#forge:plates/iron',
+			M: 'woodenhopper:wooden_hopper',
 
 		}
-	  )
+	)
 
-	  event.remove({output:"prettypipes:pipe"})
-	  event.shaped(
-		Item.of('prettypipes:pipe'), 
+	event.remove({ output: "prettypipes:pipe" })
+	event.shaped(
+		Item.of('prettypipes:pipe'),
 		[
-		  'IMI' 
-	 
+			'IMI'
+
 		],
 		{
-		  I: '#forge:nuggets/steel',
-		  M: 'quark:pipe'
+			I: '#forge:nuggets/steel',
+			M: 'quark:pipe'
 
 		}
-	  )
+	)
 
 	event.shaped("ars_creo:starbuncle_wheel",
 		[
@@ -4907,104 +5072,104 @@ ServerEvents.recipes(event => {
 		}
 	).id("thermal:rf_coil")
 
-	
-	
+
+
 	//======================================================== placeholder endgame
 
-	event.remove({output:"thermal:machine_frame"})
+	event.remove({ output: "thermal:machine_frame" })
 	event.custom(
 		{
 			type: "create:mechanical_crafting",
 			"pattern": [
-			  "AAAAAAA",
-			  "ABCHCBA",
-			  "ACGEGCA",
-			  "APXYXPA",
-			  "ACGNGCA",
-			  "ABCHCBA",
-			  "AAAAAAA"
+				"AAAAAAA",
+				"ABCHCBA",
+				"ACGEGCA",
+				"APXYXPA",
+				"ACGNGCA",
+				"ABCHCBA",
+				"AAAAAAA"
 			],
 			"key": {
-			  "C": {
-				item: "thermal:rf_coil"
-			  },
-			  "B": {
-				item: "thermal:redstone_servo"
-			  },
-			  "H": {
-				item: "minecraft:hopper"
-			  },
-			  "P": {
-				item: "immersiveengineering:capacitor_hv"
-			  },
-			  "G": {
-				item: "create:large_cogwheel"
-			  },
-			  "X": {
-				item: "create:mechanical_arm"
-			  },
-			  "Y": {
-				item: "minecraft:nether_star"
-			  },
-			  "N": {
-				tag: "forge:gears/netherite"
-			  },
-			  "E": {
-				tag: "forge:gears/enderium"
-			  },
-			  "A": {
-				tag: "forge:plates/sky"
-			  }
+				"C": {
+					item: "thermal:rf_coil"
+				},
+				"B": {
+					item: "thermal:redstone_servo"
+				},
+				"H": {
+					item: "minecraft:hopper"
+				},
+				"P": {
+					item: "immersiveengineering:capacitor_hv"
+				},
+				"G": {
+					item: "create:large_cogwheel"
+				},
+				"X": {
+					item: "create:mechanical_arm"
+				},
+				"Y": {
+					item: "minecraft:nether_star"
+				},
+				"N": {
+					tag: "forge:gears/netherite"
+				},
+				"E": {
+					tag: "forge:gears/enderium"
+				},
+				"A": {
+					tag: "forge:plates/sky"
+				}
 			},
 			"result": {
-			  item: "thermal:machine_frame",
-			  "count": 1
+				item: "thermal:machine_frame",
+				"count": 1
 			},
 			"acceptMirrored": true
-		  }
+		}
 	)
 
-	event.remove({output:"thermal:machine_frame"})
+	event.remove({ output: "thermal:machine_frame" })
 	event.custom(
 		{
 			type: "create:mechanical_crafting",
 			"pattern": [
-			  "AAAAAAA",
-			  "ANNNNNA",
-			  "ANDXDNA",
-			  "ANGYGNA",
-			  "ANDZDNA",
-			  "ANNNNNA",
-			  "AAAAAAA"
+				"AAAAAAA",
+				"ANNNNNA",
+				"ANDXDNA",
+				"ANGYGNA",
+				"ANDZDNA",
+				"ANNNNNA",
+				"AAAAAAA"
 			],
 			"key": {
-			  "A": {
-				item: "kubejs:spawner_part"
-			  },
-			  "N": {
-				tag: "forge:plates/netherite"
-			  },
-			  "D": {
-				item: "kubejs:death_essence"
-			  },
-			  "G": {
-				tag: "forge:gears/depth"
-			  },
-			  "X": {
-				item: "quark:monster_box"
-			  },
-			  "Y": {
-				item: "kubejs:steel_machine"
-			  },
-			  "Z": {
-				item: "naturesaura:animal_spawner"
-			  }
+				"A": {
+					item: "kubejs:spawner_part"
+				},
+				"N": {
+					tag: "forge:plates/netherite"
+				},
+				"D": {
+					item: "kubejs:death_essence"
+				},
+				"G": {
+					tag: "forge:gears/depth"
+				},
+				"X": {
+					item: "quark:monster_box"
+				},
+				"Y": {
+					item: "kubejs:steel_machine"
+				},
+				"Z": {
+					item: "naturesaura:animal_spawner"
+				}
 			},
 			"result": {
-			  item: "minecraft:spawner",
-			  "count": 1
+				item: "minecraft:spawner",
+				"count": 1
 			},
 			"acceptMirrored": true
-		  }
+		}
 	)
 })
