@@ -337,4 +337,31 @@ ServerEvents.recipes(e=>{
   e.remove({id:"sophisticatedstorage:advanced_magnet_ring"})
   e.shapeless("sophisticatedstorage:advanced_magnet_upgrade",["sophisticatedstorage:magnet_upgrade","enigmaticlegacy:super_magnet_ring"])
   e.shapeless("sophisticatedstorage:advanced_magnet_upgrade",["sophisticatedstorage:magnet_upgrade","naturesaura:hopper_upgrade"])
+
+  e.shaped("sophisticatedbackpacks:mob_catcher_upgrade",
+    [
+      "CEC",
+      "CXC",
+      "CLC"
+    ],
+    {
+      C: "supplementaries:cage",
+      E: "enigmaticlegacy:extradimensional_eye",
+      L: "alexsmobs:vine_lasso",
+      X: "sophisticatedbackpacks:upgrade_base"
+    }
+  ).id("sophisticatedbackpacks:mob_catcher_upgrade")
+
+  e.shaped("sophisticatedbackpacks:advanced_mob_catcher_upgrade",
+    [
+      "BCB",
+      "CXC",
+      "BCB"
+    ],
+    {
+      C: "kubejs:capturing_gem",
+      B: "#forge:ingots/obsidian",
+      X: "sophisticatedbackpacks:mob_catcher_upgrade"
+    }
+  ).id("sophisticatedbackpacks:advanced_mob_catcher_upgrade")
 })
