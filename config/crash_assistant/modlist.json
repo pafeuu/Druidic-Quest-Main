@@ -293,13 +293,13 @@
     "curseForgeHash": 1958342223,
     "modrinthHash": "bcd51694634275ed8920832f04da6b178df2046b"
   },
-  "chat_heads-0.15.1-forge-1.20.jar": {
-    "jarName": "chat_heads-0.15.1-forge-1.20.jar",
+  "chat_heads-0.15.2-forge-1.20.jar": {
+    "jarName": "chat_heads-0.15.2-forge-1.20.jar",
     "modId": "chat_heads",
     "name": "Chat Heads",
-    "version": "0.15.1",
-    "curseForgeHash": 1886210089,
-    "modrinthHash": "6eebd1479d11d3ed8fbb18b866ba43b470743e00"
+    "version": "0.15.2",
+    "curseForgeHash": 2721917406,
+    "modrinthHash": "fe49c0f42f21f4c0ea71c3cda7757914cb875ae7"
   },
   "citadel-2.6.3-1.20.1.jar": {
     "jarName": "citadel-2.6.3-1.20.1.jar",
@@ -612,6 +612,14 @@
     "version": "1.1.24+1.20.1+forge",
     "curseForgeHash": 573012167,
     "modrinthHash": "ea320200878e4a49196760234a22da763671520a"
+  },
+  "emi_ores-1.2+1.20.1+forge.jar": {
+    "jarName": "emi_ores-1.2+1.20.1+forge.jar",
+    "modId": "emi_ores",
+    "name": "EMI Ores",
+    "version": "1.2+1.20.1+forge",
+    "curseForgeHash": 1182642266,
+    "modrinthHash": "c821f26e4a00c14fb453bfdb7628aec59fd2acf1"
   },
   "emitrades-forge-1.2.1+mc1.20.1.jar": {
     "jarName": "emitrades-forge-1.2.1+mc1.20.1.jar",
@@ -964,6 +972,14 @@
     "version": "1.20.1-10.2.0-183",
     "curseForgeHash": 1984535685,
     "modrinthHash": "b6e403e0e5be1802268be366ad1a7791f07fb793"
+  },
+  "incontrol-1.20-9.4.6.jar": {
+    "jarName": "incontrol-1.20-9.4.6.jar",
+    "modId": "incontrol",
+    "name": "InControl",
+    "version": "1.20-9.4.6",
+    "curseForgeHash": 438981801,
+    "modrinthHash": "0d324b97af98938f28f58f696e0b992c42eb8f31"
   },
   "insanelib-1.23.4.4.jar": {
     "jarName": "insanelib-1.23.4.4.jar",
@@ -1337,6 +1353,14 @@
     "version": "39.4",
     "curseForgeHash": 2086622523,
     "modrinthHash": "c0f6e2421088f06abf5c1be2f49f39639552b1d0"
+  },
+  "naturesaura_plus-0.1.1-alpha-1.20.1.jar": {
+    "jarName": "naturesaura_plus-0.1.1-alpha-1.20.1.jar",
+    "modId": "naturesaura_plus",
+    "name": "NaturesAuraPlus",
+    "version": "0.1.1-alpha-1.20.1",
+    "curseForgeHash": 383401140,
+    "modrinthHash": "96676706fc4660dba3d6c74d220c417d85b1464d"
   },
   "NaturesCompass-1.20.1-1.12.0-forge.jar": {
     "jarName": "NaturesCompass-1.20.1-1.12.0-forge.jar",
@@ -1762,21 +1786,21 @@
     "curseForgeHash": 2423313053,
     "modrinthHash": "1c8a22b8e1da93feb9a1c0e5a2c57dc805db9df7"
   },
-  "sophisticatedbackpacks-1.20.1-3.24.53.1877.jar": {
-    "jarName": "sophisticatedbackpacks-1.20.1-3.24.53.1877.jar",
+  "sophisticatedbackpacks-1.20.1-3.24.55.1891.jar": {
+    "jarName": "sophisticatedbackpacks-1.20.1-3.24.55.1891.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.24.53.1877",
-    "curseForgeHash": 1132816965,
-    "modrinthHash": "483a26fab9b394a100a0670bf955412ca7ae3bd6"
+    "version": "3.24.55.1891",
+    "curseForgeHash": 3900339140,
+    "modrinthHash": "05dfecd6c554ea9acdca3c225b55cb066e8280b3"
   },
-  "sophisticatedcore-1.20.1-1.3.50.2005.jar": {
-    "jarName": "sophisticatedcore-1.20.1-1.3.50.2005.jar",
+  "sophisticatedcore-1.20.1-1.3.52.2018.jar": {
+    "jarName": "sophisticatedcore-1.20.1-1.3.52.2018.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.3.50.2005",
-    "curseForgeHash": 2005196536,
-    "modrinthHash": "582994a4b6ed5575487f51b57b278cd673b08a62"
+    "version": "1.3.52.2018",
+    "curseForgeHash": 3344616997,
+    "modrinthHash": "49741d7f75e0e8304aeb8e35f4720758327a1607"
   },
   "sophisticateditemactions-1.20.1-0.4.7.303.jar": {
     "jarName": "sophisticateditemactions-1.20.1-0.4.7.303.jar",
@@ -1794,13 +1818,13 @@
     "curseForgeHash": 3677184411,
     "modrinthHash": "026826a3bb9945dce1c5d3346dd524639df2aeeb"
   },
-  "sophisticatedstorage-1.20.1-1.4.55.1832.jar": {
-    "jarName": "sophisticatedstorage-1.20.1-1.4.55.1832.jar",
+  "sophisticatedstorage-1.20.1-1.4.56.1840.jar": {
+    "jarName": "sophisticatedstorage-1.20.1-1.4.56.1840.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.4.55.1832",
-    "curseForgeHash": 1991733567,
-    "modrinthHash": "2a434b847f3a045667914dbc994c882cdac6a589"
+    "version": "1.4.56.1840",
+    "curseForgeHash": 2280819996,
+    "modrinthHash": "e3ab0b33f5c7556cbce2e17972c66607af361223"
   },
   "sophisticatedstoragecreateintegration-1.20.1-0.1.20.164.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.20.1-0.1.20.164.jar",

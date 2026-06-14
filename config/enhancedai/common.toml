@@ -44,7 +44,7 @@
 	#Creepers will ignite when they take explosion damage. Only entity types in the enhancedai:creeper/tnt_like tag will be affected by this feature.
 	"Enable Tnt like creepers" = true
 	#Creepers can ignite and throw themselves at players. Only entity types in the enhancedai:creeper/can_launch tag will be affected by this feature.
-	"Enable Creeper launch" = true
+	"Enable Creeper launch" = false
 	#Various changes to Creepers exploding. Ignoring Walls, Walking Fuse and smarter exploding based off explosion size. Only creepers in the enhancedai:creeper/change_swell entity type tag are affected by this feature.
 	"Enable Creeper swell" = true
 	#Creepers will no longer ignite when falling. Only entity types in the enhancedai:creeper/disable_falling_swelling tag will be affected by this feature.
@@ -82,7 +82,7 @@
 		"Ignore walls chance" = 0.65
 		#Makes creepers blow up on death like when they were added back in 0.30
 		#Allowed Values: NONE, CHARGED, ALL
-		"Blow up on death" = "CHARGED"
+		"Blow up on death" = "NONE"
 		#If Insane's Survival Overhaul is installed and Explosion Overhaul feature is enabled, Angry creeper will deal more knockback and break more blocks, breaching creepers will break more blocks
 		"Insane survival overhaul integration" = true
 
@@ -97,7 +97,7 @@
 		[Creepers."Creeper swell".Breach]
 			#Breaching creepers will try to open a hole in the wall to let mobs in.
 			#Range: 0.0 ~ 1.0
-			Chance = 0.075
+			Chance = 0.0
 			#How far away (horizontally) from the target breaching creepers can breach.
 			#Range: > 0
 			"Horizontal range" = 24
@@ -213,7 +213,7 @@
 			#Range: 1.0 ~ 64.0
 			Minimum = 24.0
 			#Range: 1.0 ~ 64.0
-			Maximum = 32.0
+			Maximum = 24.0
 
 		#The ticks cooldown after shooting
 		[Skeletons."Skeleton shoot"."Shooting cooldown"]
@@ -395,7 +395,7 @@
 	#Makes mobs be able to climb ladders and similar blocks. Only entity types in `enhancedai:mobs/can_climb` tag are affected by this feature.
 	"Enable Climbing" = true
 	#Changes mobs attack range to use the 1.20.2 mechanic. Only entities in the `enhancedai:mobs/melee_attacking` entity type tag will be affected.
-	"Enable Melee attacking" = true
+	"Enable Melee attacking" = false
 	#Let mobs use Fishing Rods, reeling players in. Either put a Fishing Rod in main or off hand and when near enough from the target they will use it. Only mobs in enhancedai:mobs/can_equip_fishing_rod entity type tag are affected by this feature.
 	"Enable Fisher mobs" = true
 	#Only entity types in `enhancedai:mobs/can_open_doors` tag are affected by this feature.
