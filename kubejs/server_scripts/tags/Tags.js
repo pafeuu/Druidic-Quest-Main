@@ -84,6 +84,9 @@ ServerEvents.tags("item", (event) => {
     "vintagedelight:wild_ghost_peppers",
     "vintagedelight:wild_peanuts",
     "supplementaries:wild_flax",
+    'biomeswevegone:allium_flower_bush',
+    'biomeswevegone:pink_allium_flower_bush',
+    'biomeswevegone:white_allium_flower_bush'
   ]);
   event.remove("minecraft:small_flowers", [
     "farmersdelight:wild_potatoes",
@@ -97,6 +100,9 @@ ServerEvents.tags("item", (event) => {
     "vintagedelight:wild_ghost_peppers",
     "vintagedelight:wild_peanuts",
     "supplementaries:wild_flax",
+    'biomeswevegone:allium_flower_bush',
+    'biomeswevegone:pink_allium_flower_bush',
+    'biomeswevegone:white_allium_flower_bush'
   ]);
   event.remove("minecraft:tall_flowers", "farmersdelight:wild_rice");
   event.add("c:hidden_from_recipe_viewers", [global.nukelist]);
@@ -167,6 +173,7 @@ ServerEvents.tags("item", (event) => {
     "deep_aether:yagroot_planks",
     "deep_aether:cruderoot_planks",
     "deep_aether:conberry_planks",
+    "deep_aether:sunroot_planks"
   ]);
   event.add("forge:tools/hammers", "immersiveengineering:hammer");
   event.add("forge:ingots/andesite_alloy", "create:andesite_alloy");
