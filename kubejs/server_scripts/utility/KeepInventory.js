@@ -10,11 +10,11 @@ ServerEvents.loaded(event => {
 PlayerEvents.respawned(event =>{
    
     const player = event.player
-
-    player.foodLevel = 10
-    player.saturation = 0
     player.experienceLevel = 0
     player.experienceProgress = 0
-   
-    
+    if(!player.isAdvancementDone("restrictedportals:twilightforest"))
+        return;
+    player.foodLevel = 10
+    player.saturation = 0
+       
 })
