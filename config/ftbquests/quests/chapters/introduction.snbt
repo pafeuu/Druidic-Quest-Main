@@ -661,7 +661,7 @@
 				table_id: 4681511814997660015L
 				type: "random"
 			}]
-			shape: "gear"
+			shape: "circle"
 			subtitle: "Slicing and Dicing"
 			tasks: [{
 				id: "1D531E57A7A23F0E"
@@ -914,9 +914,9 @@
 					type: "item"
 				}
 				{
-					count: 16
-					id: "5FD2403C0CAC2E6C"
-					item: "minecraft:bone_meal"
+					count: 4
+					id: "322E8E6215CE060B"
+					item: "create:tree_fertilizer"
 					type: "item"
 				}
 			]
@@ -1187,11 +1187,7 @@
 		}
 		{
 			dependencies: ["4E4E7EFB7FFC688B"]
-			description: [
-				"To get planks, right click with an axe in one hand and stripped logs in the other."
-				""
-				"&4&oCurrently the cooldown on the axe is broken so you can make planks very quickly&r&r"
-			]
+			description: ["To get planks, right click with an axe in one hand and stripped logs in the other."]
 			icon: "minecraft:spruce_planks"
 			id: "4138D0D9B6F11604"
 			rewards: [{
@@ -1263,11 +1259,7 @@
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]
-			description: [
-				"Be sure to keep upgrading your equipment if you want to survive this cruel world! The difficulty will increase each time you obtain the appropriate materials."
-				""
-				"&4Mobs in this modpack can spawn with almost any equipment in the game. But they will not drop any of that equipment!&r"
-			]
+			description: ["Be sure to keep upgrading your equipment if you want to survive this cruel world! The difficulty will increase each time you obtain the appropriate materials."]
 			icon: "minecraft:skeleton_skull"
 			id: "2910627A1D09A447"
 			rewards: [
@@ -1321,7 +1313,7 @@
 				{
 					count: 2
 					id: "3903B0E1DB9C1638"
-					item: "kubejs:recall_potion"
+					item: "naturesaura_plus:aura_coffee"
 					type: "item"
 				}
 			]
@@ -1697,6 +1689,11 @@
 				{
 					id: "19E21D8E3E59D4AA"
 					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					id: "498CDAE6EF1DA5AB"
+					item: "naturesaura:pet_reviver"
 					type: "item"
 				}
 			]

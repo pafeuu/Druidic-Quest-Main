@@ -560,8 +560,8 @@
 				type: "item"
 			}]
 			title: "Empty Sack"
-			x: 1.0d
-			y: -4.5d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["682CA83814F08244"]
@@ -680,17 +680,15 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"682CA83814F08244"
-				"0FC4FA79D5AB30AE"
-			]
-			icon: { Count: 4, id: "alexsdelight:bunfungus_sandwich" }
+			dependencies: ["682CA83814F08244"]
+			icon: "farmersdelight:bacon_sandwich"
 			id: "6A79B93F3DD0D744"
 			rewards: [{
-				count: 4
-				id: "38E71F1099B58DB9"
-				item: "alexsdelight:bunfungus_sandwich"
-				type: "item"
+				exclude_from_claim_all: true
+				icon: "brewinandchewin:ham_and_cheese_sandwich"
+				id: "7453937B5B380805"
+				table_id: 1857392932974853966L
+				type: "choice"
 			}]
 			subtitle: "1 Gold Coin"
 			tasks: [{
@@ -698,9 +696,9 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
-			title: "4 Bunfungus Sandwiches"
-			x: 4.0d
-			y: -3.0d
+			title: "Emergency Sandwiches"
+			x: 1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["682CA83814F08244"]

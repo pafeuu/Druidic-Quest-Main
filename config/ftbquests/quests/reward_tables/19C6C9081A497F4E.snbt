@@ -1,0 +1,15 @@
+{
+	icon: "minecraft:chest"
+	id: "19C6C9081A497F4E"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{ count: 4, item: "sob:pbnj" }
+		{ count: 4, item: "alexsdelight:bunfungus_sandwich" }
+		{ count: 4, item: "farmersdelight:bacon_sandwich" }
+		{ count: 4, item: "farmersdelight:chicken_sandwich" }
+		{ count: 6, item: "farmersdelight:egg_sandwich" }
+		{ count: 5, item: "brewinandchewin:ham_and_cheese_sandwich" }
+	]
+	title: "EmergencyFood"
+}

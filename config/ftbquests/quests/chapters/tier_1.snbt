@@ -12,7 +12,11 @@
 	quests: [
 		{
 			dependencies: ["51966AE20559FFA0"]
-			description: ["You may find yourself needing a &omassive&r amount of coal coke later on."]
+			description: [
+				"You may find yourself needing a &omassive&r amount of coal coke later on."
+				"&l"
+				"&4From now on you will lose hunger on death.&r&r"
+			]
 			hide_details_until_startable: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
