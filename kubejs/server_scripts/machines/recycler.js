@@ -217,7 +217,7 @@ ServerEvents.recipes(event=>
     HeadRecycling("umbral_skies:valkyrie_queen_trophy","8x irons_spellbooks:arcane_debris")
 
      event.recipes.mbd2.recycling()
-        .inputItems("kubejs:recall_potion")
+        .inputItems("naturesaura_plus:aura_coffee")
         .outputItems("minecraft:glass_bottle")
         .chance(0.125, builder => builder
             .outputItems("thermal:lapis_dust")
@@ -232,12 +232,5 @@ ServerEvents.recipes(event=>
         .outputItems("5x wizards_reborn:arcane_wood_log")
         .duration(200)
 
-    event.recipes.mbd2.recycling()
-        .inputItems("kubejs:recall_potion")
-        .outputItems("2x minecraft:iron_ingot")
-        .chance(0.5, builder => builder
-            .outputItems("iron_ingot")
-        )
-        .duration(200)
     
 })

@@ -1,4 +1,4 @@
-ItemEvents.foodEaten("kubejs:recall_potion",event=>{
+/*ItemEvents.foodEaten("kubejs:recall_potion",event=>{
     
     let player = event.player
     let server = event.server
@@ -30,4 +30,4 @@ ItemEvents.foodEaten("kubejs:recall_potion",event=>{
         player.give("wizards_reborn:alchemy_vial")
     }  
    
-})
+})*/

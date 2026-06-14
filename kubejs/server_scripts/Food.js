@@ -86,7 +86,7 @@ ServerEvents.recipes(e => {
     
     cooking([
         "echo_shard",
-        "kubejs:recall_potion",
+        "naturesaura_plus:aura_coffee",
         "honey_bottle",
         "#dq:spices",
         ],"sob:echo_rock_candy",10,200)

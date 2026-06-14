@@ -143,11 +143,11 @@ LootJS.modifiers((event) => {
     ])
     
     event.addLootTableModifier(/.*irons_spellbooks:chests.*/)
-        .replaceLoot(Item.of('minecraft:potion', '{Potion:"minecraft:water"}'), "kubejs:recall_potion");
+        .replaceLoot(Item.of('minecraft:potion', '{Potion:"minecraft:water"}'), "naturesaura_plus:aura_coffee");
     
     event.addLootTableModifier(/.*irons_spellbooks:chests.*/)
         .randomChance(0.4)
-        .addLoot("2x kubejs:recall_potion");
+        .addLoot("2x naturesaura_plus:aura_coffee");
 
     event.addLootTableModifier(/.*irons_spellbooks:chests.*/)
         .randomChance(0.10)
@@ -169,7 +169,7 @@ LootJS.modifiers((event) => {
 
     event.addLootTableModifier(/.*idas:chests.*/)
         .randomChance(0.5)
-        .addLoot("3x kubejs:recall_potion");
+        .addLoot("3x naturesaura_plus:aura_coffee");
 
     event.addLootTableModifier(/.*idas:chests.*/)
         .randomChance(0.15)
@@ -194,7 +194,7 @@ LootJS.modifiers((event) => {
 
     event.addLootTableModifier(/.*dungeons_arise:chests.*/)
         .randomChance(0.5)
-        .addLoot("3x kubejs:recall_potion")
+        .addLoot("3x naturesaura_plus:aura_coffee")
 
     
     event.addLootTableModifier(/.*dungeons_arise:chests.*/)

@@ -1,11 +1,20 @@
 
 ItemEvents.tooltip(tooltip => {
 
+  // ========================================== Deprecated Items =
+
+  const deprecatedItems = [
+    "kubejs:recall_potion",
+  ]
+
+  
+  tooltip.add(deprecatedItems, Text.red("Item to be removed in next patch. Put it in the crafting grid to obtain the replacement"))
+  
+
   // ========================================== Guide Books ==============================================
 
-  function guideBookTooltip(item,mod)
-  {
-    tooltip.add(item,Text.gray(`Documentation for the mod ${mod}`))
+  function guideBookTooltip(item, mod) {
+    tooltip.add(item, Text.gray(`Documentation for the mod ${mod}`))
   }
 
   /*function patchouliGuideBookTooltip(item,mod)
@@ -21,8 +30,8 @@ ItemEvents.tooltip(tooltip => {
   }*///cba to make it
 
 
-  guideBookTooltip("immersiveengineering:manual","Immersive Engineering")
-  guideBookTooltip("wizards_reborn:arcanemicon","Wizard's Reborn")
+  guideBookTooltip("immersiveengineering:manual", "Immersive Engineering")
+  guideBookTooltip("wizards_reborn:arcanemicon", "Wizard's Reborn")
 
   // ========================================== Texture Credits ==========================================
   tooltip.add(["kubejs:archers_glove",
@@ -524,6 +533,11 @@ ItemEvents.tooltip(tooltip => {
   ],
     (item, advanced, text) => {
       text.add(1, Text.of("Auto-smelting").gray())
+    })
+
+  tooltip.addAdvanced("rehooked:red_hook",
+    (item, advanced, text) => {
+      text.add(1, Text.of("Creative flight within the volume defined by the hooks").lightPurple())
     })
 
   tooltip.addAdvanced([

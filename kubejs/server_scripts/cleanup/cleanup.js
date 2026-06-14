@@ -819,18 +819,6 @@ ServerEvents.recipes(event => {
 
 	//============================= Shapeshifting Root
 
-	event.shaped("quark:ancient_sapling",
-	[
-		"XXX",
-		"XRX",
-		"XXX"
-	],
-	{
-		X: "calcite",
-		R: "kubejs:shapeshifting_root"
-	})
-
-
 	function WaystoneVariants(type,block)
 	{
 		event.shapeless("waystones:"+type+"waystone",["#waystones:waystones",block])
