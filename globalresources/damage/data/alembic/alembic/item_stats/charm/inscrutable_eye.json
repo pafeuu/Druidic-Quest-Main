@@ -2,9 +2,13 @@
     "id": "enigmaticlegacy:enigmatic_eye",
     "modifiers": [
       {
+        "type": "remove",
+        "target": "forge:block_reach"
+      },
+      {
         "type": "append",
         "attribute": "forge:block_reach",
-        "value": -1.5,
+        "value": 1.5,
         "operation": "ADDITION",
         "uuid": "3c1b2603-f240-462d-bdda-b16576aeefcc"
       },
