@@ -1,6 +1,6 @@
 // Based on the script by .mbninja
 
-var invultick = true // Var to reset invulnerable time
+/*var invultick = true // Var to reset invulnerable time
 
 EntityEvents.hurt("minecraft:player",event => {
     const { entity } = event
@@ -22,4 +22,4 @@ EntityEvents.hurt("minecraft:player",event => {
     if ( entity.invulnerableTime <= 10 ) {
     invultick = true //if your iframes are less then 10, you will take damage. This will let you get hit once.
     }
-})
+})*/
