@@ -3,5 +3,9 @@
         "mob": "alexsmobs:dropbear",
         "mincount": 5,
         "result": "deny"
+    },
+    {
+        "mob": "irons_spellbooks:necromancer",
+        "result": "deny"
     }
 ]
