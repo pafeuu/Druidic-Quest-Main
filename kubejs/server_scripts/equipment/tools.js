@@ -1633,14 +1633,14 @@ ServerEvents.recipes(event => {
 		}
 	).id("thermal:potion_quiver")
 
-	event.shapeless("waystones:return_scroll",["enigmaticlegacy:thicc_scroll","kubejs:recall_potion","kubejs:recall_potion"])
+	event.shapeless("waystones:return_scroll",["enigmaticlegacy:thicc_scroll","naturesaura_plus:aura_coffee","naturesaura_plus:aura_coffee"])
 
 	event.shapeless("waystones:bound_scroll",["waystones:return_scroll","amethyst_shard","amethyst_shard"])
-	event.shapeless("waystones:bound_scroll",["enigmaticlegacy:thicc_scroll","kubejs:recall_potion","kubejs:recall_potion","amethyst_shard","amethyst_shard"])
+	event.shapeless("waystones:bound_scroll",["enigmaticlegacy:thicc_scroll","naturesaura_plus:aura_coffee","naturesaura_plus:aura_coffee","amethyst_shard","amethyst_shard"])
 
 	event.shapeless("waystones:warp_scroll",["waystones:bound_scroll","kubejs:sapphire","kubejs:sapphire"])
 	event.shapeless("waystones:warp_scroll",["waystones:return_scroll","amethyst_shard","amethyst_shard","kubejs:sapphire","kubejs:sapphire"])
-	event.shapeless("waystones:warp_scroll",["enigmaticlegacy:thicc_scroll","kubejs:recall_potion","kubejs:recall_potion","amethyst_shard","amethyst_shard","kubejs:sapphire","kubejs:sapphire"])
+	event.shapeless("waystones:warp_scroll",["enigmaticlegacy:thicc_scroll","naturesaura_plus:aura_coffee","naturesaura_plus:aura_coffee","amethyst_shard","amethyst_shard","kubejs:sapphire","kubejs:sapphire"])
 	
 	event.shapeless("irons_spellbooks:iron_spell_book",["ars_nouveau:source_gem","irons_spellbooks:copper_spell_book","enigmaticlegacy:iron_ring"]).id("irons_spellbooks:iron_spell_book")
 
