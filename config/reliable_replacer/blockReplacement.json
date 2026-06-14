@@ -1,4 +1,27 @@
-{
-  "inputs": ["irons_spellbooks:arcane_debris"],
-  "output": "irons_spellbooks:mithril_ore"
-}
+[
+  {
+    "inputs": [
+      "irons_spellbooks:arcane_debris"
+    ],
+    "output": "irons_spellbooks:mithril_ore"
+  },
+  {
+    "inputs": [
+      "vintagedelight:cheese_wheel"
+    ],
+    "output": "brewinandchewin:flaxen_cheese_wheel"
+  },
+  {
+    "inputs": [
+      "vintagedelight:cheese_mold"
+    ],
+    "output": "brewinandchewin:keg"
+  },
+  {
+    "inputs": [
+      "naturesaura:gold_brick",
+      "naturesaura:gold_nether_brick"
+    ],
+    "output": "wizards_reborn:arcanum_block"
+  }
+]
