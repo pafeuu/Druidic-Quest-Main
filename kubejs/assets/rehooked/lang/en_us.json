@@ -17,12 +17,12 @@
   
   "creative.tab.hooks": "Hooks",
 
-  "tooltip.rehooked:wood_hook.info": "Hooks:1 Speed:12 Range:16",
-  "tooltip.rehooked:iron_hook.info": "Hooks:2 Speed:24 Range:48",
-  "tooltip.rehooked:diamond_hook.info": "Hooks:4 Speed:24 Range:64",
-  "tooltip.rehooked:red_hook.info": "Hooks:2 Speed:24 Range:32. Creative flight within the volume defined by the hooks",
-  "tooltip.rehooked:blaze_hook.info": "Hooks:3 Speed:36 Range:48",
-  "tooltip.rehooked:ender_hook.info": "Hooks:1 Speed:128 Range:96",
+  "tooltip.rehooked:wood_hook.info": "Hooks:1, Speed:12, Pull Speed:12, Range:16.",
+  "tooltip.rehooked:iron_hook.info": "Hooks:2, Speed:24, Pull Speed:18, Range:48.",
+  "tooltip.rehooked:diamond_hook.info": "Hooks:4, Speed:24, Pull Speed:18, Range:64.",
+  "tooltip.rehooked:red_hook.info": "Hooks:2, Speed:24, Pull Speed:12, Range:32.",
+  "tooltip.rehooked:blaze_hook.info": "Hooks:3, Speed:36, Pull Speed:24, Range:48.",
+  "tooltip.rehooked:ender_hook.info": "Hooks:1, Speed:3840, Pull Speed:128, Range:96.",
   "tooltip.rehooked.press_shift_more_info": "<Press §eShift§r to see controls>",
   "tooltip.rehooked.press_fire": "Press %1$s to fire",
   "tooltip.rehooked.press_retract": "Press %1$s while looking at a hook to retract it",

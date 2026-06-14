@@ -12,7 +12,7 @@ Ponder.tags((event) => {
         "minecraft:furnace",
     ]);
 
-    event.createTag("kubejs:nature_aura","naturesaura:nature_altar","Nature's aura Multiblocks","Building guide for natures aura multiblocks",
+    event.createTag("kubejs:nature_aura", "naturesaura:nature_altar", "Nature's aura Multiblocks", "Building guide for natures aura multiblocks",
         [
             "naturesaura:nature_altar",
             "naturesaura:animal_spawner",
@@ -23,21 +23,33 @@ Ponder.tags((event) => {
         ]
     )
 
+    event.createTag("kubejs:wissen_magic", "wizards_reborn:arcanum", "Wissen Magic", "A guide to Wissen magic usage",
+        [
+            'wizards_reborn:arcane_workbench',
+            "wizards_reborn:wissen_wand",
+            'wizards_reborn:wissen_altar',
+            'wizards_reborn:wissen_translator',
+            "wizards_reborn:alchemy_furnace",
+            "wizards_reborn:alchemy_machine",
+            "wizards_reborn:alchemy_boiler"
+        ]
+    )
+
 });
 
 Ponder.registry((event) => {
 
-    event.create("minecraft:furnace").scene("furnace_crafting", "Furnace Crafting","kubejs:furnace", (scene, util) => {
+    event.create("minecraft:furnace").scene("furnace_crafting", "Furnace Crafting", "kubejs:furnace", (scene, util) => {
         scene.world.showSection([0, 0, 0, 4, 0, 4], Facing.DOWN);
         scene.idle(10);
-        
-        for(let i = 1; i < 4; i++){
-        scene.world.showSection([i, 1, 1, i, 1, 4], Facing.DOWN);
-        scene.idle(5)
+
+        for (let i = 1; i < 4; i++) {
+            scene.world.showSection([i, 1, 1, i, 1, 4], Facing.DOWN);
+            scene.idle(5)
         }
 
-        scene.text(20,"Right click the middle block with Coal Coke in hand ",[3.0,1.5,3.0]).attachKeyFrame();
-        scene.showControls(20,[3.0,1.5,3.0],"down").withItem("thermal:coal_coke").rightClick();
+        scene.text(20, "Right click the middle block with Coal Coke in hand ", [3.0, 1.5, 3.0]).attachKeyFrame();
+        scene.showControls(20, [3.0, 1.5, 3.0], "down").withItem("thermal:coal_coke").rightClick();
 
         scene.idle(80);
 
@@ -47,18 +59,18 @@ Ponder.registry((event) => {
         scene.idle(20);
     });
 
-    event.create("kubejs:magical_generator_block").scene("magical_generator_crafting", "Magical Generator Crafting","kubejs:magical_generator", (scene, util) => {
-        
+    event.create("kubejs:magical_generator_block").scene("magical_generator_crafting", "Magical Generator Crafting", "kubejs:magical_generator", (scene, util) => {
+
         scene.world.showSection([0, 0, 0, 4, 0, 4], Facing.DOWN);
         scene.idle(10);
-        
-        for(let i = 1; i < 4; i++){
-        scene.world.showSection([i, 1, 1, i, 1, 4], Facing.DOWN);
-        scene.idle(5)
+
+        for (let i = 1; i < 4; i++) {
+            scene.world.showSection([i, 1, 1, i, 1, 4], Facing.DOWN);
+            scene.idle(5)
         }
 
-        scene.text(20,"Right Click the middle block with Lemon Quartz in hand",[3.0,1.5,3.0]).attachKeyFrame();
-        scene.showControls(20,[3.0,1.5,3.0],"down").withItem("kubejs:lemon_quartz").rightClick();;
+        scene.text(20, "Right Click the middle block with Lemon Quartz in hand", [3.0, 1.5, 3.0]).attachKeyFrame();
+        scene.showControls(20, [3.0, 1.5, 3.0], "down").withItem("kubejs:lemon_quartz").rightClick();;
 
         scene.idle(30);
 
@@ -68,183 +80,222 @@ Ponder.registry((event) => {
         scene.idle(20);
     });
 
-    event.create(["naturesaura:wood_stand","naturesaura:gold_powder"]).scene("tree_ritual","Tree ritual usage","kubejs:tree_ritual",(scene, util)=>{
-        
+    event.create(["naturesaura:wood_stand", "naturesaura:gold_powder"]).scene("tree_ritual", "Tree ritual usage", "kubejs:tree_ritual", (scene, util) => {
+
         scene.showStructure();
-        scene.text(40,"It doesnt matter which block you use for the floor, except for the middle which need to be able to plant sapling on",[5.5,0,5.5]).placeNearTarget().attachKeyFrame();
+        scene.text(40, "It doesnt matter which block you use for the floor, except for the middle which need to be able to plant sapling on", [5.5, 0, 5.5]).placeNearTarget().attachKeyFrame();
         scene.idle(50);
 
-        scene.text(20,"Place items on the wooden stand",[5.5,0,5.5]).placeNearTarget().attachKeyFrame();
+        scene.text(20, "Place items on the wooden stand", [5.5, 0, 5.5]).placeNearTarget().attachKeyFrame();
         scene.idle(25);
-        scene.showControls(30,[1,2,1],"down").withItem("create:wheat_flour").rightClick()
-        scene.showControls(30,[4,2,0],"down").withItem("minecraft:ink_sac").rightClick()
-        scene.showControls(30,[7,2,1],"down").withItem("create:wheat_flour").rightClick()
-        scene.showControls(30,[8,2,4],"down").withItem("minecraft:ink_sac").rightClick()
-        scene.showControls(30,[1,2,7],"down").withItem("create:wheat_flour").rightClick()
-        scene.showControls(30,[0,2,4],"down").withItem("minecraft:ink_sac").rightClick()
-        scene.showControls(30,[4,2,8],"down").withItem("minecraft:ink_sac").rightClick()
-        scene.showControls(30,[7,2,7],"down").withItem("create:wheat_flour").rightClick()
-        
+        scene.showControls(30, [1, 2, 1], "down").withItem("create:wheat_flour").rightClick()
+        scene.showControls(30, [4, 2, 0], "down").withItem("minecraft:ink_sac").rightClick()
+        scene.showControls(30, [7, 2, 1], "down").withItem("create:wheat_flour").rightClick()
+        scene.showControls(30, [8, 2, 4], "down").withItem("minecraft:ink_sac").rightClick()
+        scene.showControls(30, [1, 2, 7], "down").withItem("create:wheat_flour").rightClick()
+        scene.showControls(30, [0, 2, 4], "down").withItem("minecraft:ink_sac").rightClick()
+        scene.showControls(30, [4, 2, 8], "down").withItem("minecraft:ink_sac").rightClick()
+        scene.showControls(30, [7, 2, 7], "down").withItem("create:wheat_flour").rightClick()
+
 
         scene.idle(40);
 
 
-        scene.world.setBlock([4,1,4],"minecraft:spruce_sapling",false);
-        scene.text(20,"Make the sapling grow to finish the craft!",[5.5,0,5.5]).placeNearTarget().attachKeyFrame();
+        scene.world.setBlock([4, 1, 4], "minecraft:spruce_sapling", false);
+        scene.text(20, "Make the sapling grow to finish the craft!", [5.5, 0, 5.5]).placeNearTarget().attachKeyFrame();
         scene.idle(30)
         scene.world.replaceBlocks([2, 1, 2, 6, 1, 6], "minecraft:air", false);
         scene.world.createItemEntity(util.vector.topOf(4.5, 1.5, 4.5), util.vector.of(0, 0, 0), "immersiveengineering:cokebrick");
-        scene.text(20,"Gold powder is consumed in the process",[5.5,0,5.5]).placeNearTarget().attachKeyFrame();
+        scene.text(20, "Gold powder is consumed in the process", [5.5, 0, 5.5]).placeNearTarget().attachKeyFrame();
 
     });
 
-    event.create(["naturesaura:nature_altar","naturesaura:gold_brick"]).scene("nature_altar","Building nature altar in the overworld","kubejs:natural_altar",(scene, util)=>{
-        
+    event.create(["naturesaura:nature_altar", "naturesaura:gold_brick"]).scene("nature_altar", "Building nature altar in the overworld", "kubejs:natural_altar", (scene, util) => {
+
         scene.world.showSection([0, 0, 0, 8, 0, 8], Facing.DOWN);
-        for(let i = 1; i < 8; i++){
+        for (let i = 1; i < 8; i++) {
             scene.world.showSection([i, 1, 1, i, 1, 8], Facing.DOWN);
             scene.idle(3)
         }
-        for(let y = 2; y < 5; y++){
-            scene.world.showSection([0,y , 0, 8, y, 8], Facing.DOWN);
+        for (let y = 2; y < 5; y++) {
+            scene.world.showSection([0, y, 0, 8, y, 8], Facing.DOWN);
             scene.idle(5)
         }
-        
+
     });
 
-    event.create(["naturesaura:animal_spawner"]).scene("animal_spawner","Building Animal Spawner","kubejs:animal_spawner",(scene, util)=>{
+    event.create(["naturesaura:animal_spawner"]).scene("animal_spawner", "Building Animal Spawner", "kubejs:animal_spawner", (scene, util) => {
         scene.world.showSection([0, 0, 0, 6, 0, 6], Facing.DOWN);
-        for(let i = 0; i < 7; i++){
+        for (let i = 0; i < 7; i++) {
             scene.world.showSection([i, 1, 0, i, 1, 6], Facing.DOWN);
             scene.idle(3)
         }
         scene.world.showSection([0, 2, 0, 6, 2, 6], Facing.DOWN);
     });
 
-    event.create(["naturesaura:auto_crafter"]).scene("autocrafter","Building the autocrafter structure","kubejs:automatic_constructor",(scene, util)=>{
+    event.create(["naturesaura:auto_crafter"]).scene("autocrafter", "Building the autocrafter structure", "kubejs:automatic_constructor", (scene, util) => {
         scene.world.showSection([0, 0, 0, 6, 0, 6], Facing.DOWN);
-        for(let i = 0; i < 7; i++){
+        for (let i = 0; i < 7; i++) {
             scene.world.showSection([i, 1, 0, i, 1, 6], Facing.DOWN);
             scene.idle(3)
         }
     });
 
-    event.create("kubejs:vine_generator").scene("vine_generator", "Vine Generator Usage","kubejs:vine_generator", (scene, util) => {
+    event.create("kubejs:vine_generator").scene("vine_generator", "Vine Generator Usage", "kubejs:vine_generator", (scene, util) => {
         //scene.showStructure();
-        scene.world.showSection([0,0,0,4,0,4], Facing.DOWN);
+        scene.world.showSection([0, 0, 0, 4, 0, 4], Facing.DOWN);
         scene.idle(10);
-        scene.world.showSection([2,1,2,2,2,2], Facing.DOWN)
-        scene.text(40,"Vine Generator needs Mossy Cobblestone below to work!",[2.5,1,2.5]).placeNearTarget().attachKeyFrame()
+        scene.world.showSection([2, 1, 2, 2, 2, 2], Facing.DOWN)
+        scene.text(40, "Vine Generator needs Mossy Cobblestone below to work!", [2.5, 1, 2.5]).placeNearTarget().attachKeyFrame()
         scene.idle(40);
 
-        scene.world.showSection([1,2,2], Facing.DOWN);
+        scene.world.showSection([1, 2, 2], Facing.DOWN);
         scene.idle(1);
-        scene.world.showSection([2,2,1], Facing.DOWN);
+        scene.world.showSection([2, 2, 1], Facing.DOWN);
         scene.idle(1);
-        scene.world.showSection([2,2,3], Facing.DOWN);
+        scene.world.showSection([2, 2, 3], Facing.DOWN);
         scene.idle(1);
-        scene.world.showSection([3,2,2], Facing.DOWN);
-        scene.text(40,"Vine Generator will produce either Ivy or Vines depending what its covered in",[2.5,2,2.5]).placeNearTarget().attachKeyFrame()
+        scene.world.showSection([3, 2, 2], Facing.DOWN);
+        scene.text(40, "Vine Generator will produce either Ivy or Vines depending what its covered in", [2.5, 2, 2.5]).placeNearTarget().attachKeyFrame()
         scene.idle(50);
-        scene.world.showSection([1,1,1],Facing.DOWN)
+        scene.world.showSection([1, 1, 1], Facing.DOWN)
         scene.idle(1);
-        scene.world.showSection([1,1,2],Facing.DOWN)
+        scene.world.showSection([1, 1, 2], Facing.DOWN)
         scene.idle(1);
-        scene.world.showSection([1,1,3],Facing.DOWN)
+        scene.world.showSection([1, 1, 3], Facing.DOWN)
         scene.idle(1);
-        scene.world.showSection([2,1,1],Facing.DOWN)
+        scene.world.showSection([2, 1, 1], Facing.DOWN)
         scene.idle(1);
-        scene.world.showSection([3,1,1],Facing.DOWN)
+        scene.world.showSection([3, 1, 1], Facing.DOWN)
         scene.idle(1);
-        scene.world.showSection([2,1,3],Facing.DOWN)
+        scene.world.showSection([2, 1, 3], Facing.DOWN)
         scene.idle(1);
-        scene.world.showSection([3,1,3],Facing.DOWN)
+        scene.world.showSection([3, 1, 3], Facing.DOWN)
         scene.idle(1);
-        scene.world.showSection([3,1,2],Facing.DOWN)
+        scene.world.showSection([3, 1, 2], Facing.DOWN)
         scene.idle(1);
-        scene.text(60,"Vine Generator will produce items and drain nearby moss in random intervals of time",[2.5,2,2.5]).placeNearTarget().attachKeyFrame()
+        scene.text(60, "Vine Generator will produce items and drain nearby moss in random intervals of time", [2.5, 2, 2.5]).placeNearTarget().attachKeyFrame()
         scene.idle(70);
         scene.world.createItemEntity(util.vector.topOf(2.5, 2.5, 2.5), util.vector.of(-0.1, 0.3, -0.1), "minecraft:vine");
-        scene.world.replaceBlocks([1,1,1,3,1,3],"minecraft:cobblestone",false)
+        scene.world.replaceBlocks([1, 1, 1, 3, 1, 3], "minecraft:cobblestone", false)
         scene.idle(20);
-        scene.showControls(50,[3.5,2,3.5],"down").withItem("ars_nouveau:earth_essence").rightClick()
-        scene.text(40,"You can also use earth essence to cause instant generation!",[2.5,2,2.5]).placeNearTarget().attachKeyFrame()
+        scene.showControls(50, [3.5, 2, 3.5], "down").withItem("ars_nouveau:earth_essence").rightClick()
+        scene.text(40, "You can also use earth essence to cause instant generation!", [2.5, 2, 2.5]).placeNearTarget().attachKeyFrame()
         scene.idle(60)
 
     });
-    
-    event.create(['wizards_reborn:arcane_workbench',"wizards_reborn:wissen_wand",'wizards_reborn:wissen_altar','wizards_reborn:wissen_translator']).scene("wissen_basics","Explaining the wissen basics","kubejs:wissen_basics",(scene, util)=>{
+
+    event.create(['wizards_reborn:arcane_workbench', "wizards_reborn:wissen_wand", 'wizards_reborn:wissen_altar', 'wizards_reborn:wissen_translator']).scene("wissen_basics", "Explaining the wissen basics", "kubejs:wissen_basics", (scene, util) => {
         scene.world.showSection([0, 0, 0, 4, 0, 4], Facing.DOWN);
         scene.idle(10)
         scene.world.showSection([0, 1, 0, 4, 1, 4], Facing.DOWN);
 
-        scene.text(60,"Wissen altar creates Wissen from Arcanum and Arcanum Dust",[4,2,0]).placeNearTarget().attachKeyFrame()
-        scene.showControls(60,[4,2.5,0],"down").withItem("wizards_reborn:arcanum").rightClick()
+        scene.text(60, "Wissen altar creates Wissen from Arcanum and Arcanum Dust", [4, 2, 0]).placeNearTarget().attachKeyFrame()
+        scene.showControls(60, [4, 2.5, 0], "down").withItem("wizards_reborn:arcanum").rightClick()
         scene.idle(70)
-        scene.text(60,"First use your wand in Recieve Connect Mode on the altar",[4,2,0]).placeNearTarget().attachKeyFrame()
-        scene.showControls(60,[4,2.5,0],"down").withItem("wizards_reborn:wissen_wand").rightClick()
+        scene.text(60, "First use your wand in Recieve Connect Mode on the altar", [4, 2, 0]).placeNearTarget().attachKeyFrame()
+        scene.showControls(60, [4, 2.5, 0], "down").withItem("wizards_reborn:wissen_wand").rightClick()
         scene.idle(70)
-        scene.text(60,"Then use your wand on Wissen Translator in the same mode",[2,2,2]).placeNearTarget().attachKeyFrame()
-        scene.showControls(60,[2,2.5,2],"down").withItem("wizards_reborn:wissen_wand").rightClick()
+        scene.text(60, "Then use your wand on Wissen Translator in the same mode", [2, 2, 2]).placeNearTarget().attachKeyFrame()
+        scene.showControls(60, [2, 2.5, 2], "down").withItem("wizards_reborn:wissen_wand").rightClick()
         scene.idle(70)
-        scene.text(60,"Now lets do the same but with Arcane Workbench and Send Connect Mode",[0,2,4]).placeNearTarget().attachKeyFrame()
-        scene.showControls(60,[0,2.5,4],"down").withItem("wizards_reborn:wissen_wand").rightClick()
+        scene.text(60, "Now lets do the same but with Arcane Workbench and Send Connect Mode", [0, 2, 4]).placeNearTarget().attachKeyFrame()
+        scene.showControls(60, [0, 2.5, 4], "down").withItem("wizards_reborn:wissen_wand").rightClick()
         scene.idle(70)
-        scene.showControls(20,[2,2.5,2],"down").withItem("wizards_reborn:wissen_wand").rightClick()
+        scene.showControls(20, [2, 2.5, 2], "down").withItem("wizards_reborn:wissen_wand").rightClick()
         scene.idle(30)
-        scene.text(50,"Arcane Workbench should be getting wissen now",[0,2,4]).placeNearTarget().attachKeyFrame()
+        scene.text(50, "Arcane Workbench should be getting wissen now", [0, 2, 4]).placeNearTarget().attachKeyFrame()
         scene.idle(55)
-        scene.text(50,"Now place your items like in normal workbench and right click it with a wand in a Functional Mode",[0,2,4]).placeNearTarget()
-        scene.showControls(60,[0,2.5,4],"down").withItem("wizards_reborn:wissen_wand").rightClick()
-            
-        
+        scene.text(50, "Now place your items like in normal workbench and right click it with a wand in a Functional Mode", [0, 2, 4]).placeNearTarget()
+        scene.showControls(60, [0, 2.5, 4], "down").withItem("wizards_reborn:wissen_wand").rightClick()
+
+
     });
 
-    event.create(["kubejs:sacrificial_altar"]).scene("sacrificial_altar","Explaining the Sacrificial Altar Usage","kubejs:sacrificial_altar",(scene, util)=>{
+    event.create(["wizards_reborn:alchemy_furnace"]).scene("alchemy_furnace", "Creation of Steam", "kubejs:alchemy_furnace", (scene, util) => {
+        scene.world.showSection([0, 0, 0, 4, 0, 4], Facing.DOWN);
+        scene.idle(2)
+        scene.world.showSection([2, 1, 2], Facing.DOWN);
+        scene.text(40, "Alchemy Furnace creates steam from fuel and water", [2, 1.5, 2],).attachKeyFrame().placeNearTarget()
+        scene.idle(42)
+        scene.world.showSection([3, 1, 2], Facing.DOWN);
+        scene.text(60, "Like normal furnace it takes fuel from the side and outputs smelted items from the bottom", [3.5, 1.5, 2],).attachKeyFrame().placeNearTarget()
+        scene.idle(62)
+        scene.world.showSection([4, 1, 2], Facing.DOWN)
+        scene.world.showSection([4, 1, 3, 2, 1, 3], Facing.DOWN)
+        scene.text(30, "Water gets pumped through the back", [4.5, 1.5, 2],).attachKeyFrame().placeNearTarget()
+        scene.idle(32)
+        scene.world.showSection([0, 2, 0, 4, 2, 4], Facing.DOWN)
+        scene.world.showSection([0, 1, 2], Facing.DOWN)
+        scene.text(30, "Steam comes out of the top", [0, 1.5, 2],).attachKeyFrame().placeNearTarget()
+
+    });
+
+    event.create(["wizards_reborn:alchemy_machine", "wizards_reborn:alchemy_boiler"]).scene("alchemy_machine", "Explaining the usage of Alchemy Machine", "kubejs:alchemy_machine", (scene, util) => {
+        scene.world.showSection([0, 0, 0, 4, 0, 4], Facing.DOWN)
+        scene.idle(2);
+        scene.world.showSection([2, 2, 2, 2, 3, 2], Facing.DOWN);
+        scene.idle(5);
+        scene.text(30, "Alchemy machine requires alchemy boiler on top", [2, 3, 2]).attachKeyFrame().placeNearTarget();
+        scene.idle(30);
+        scene.world.showSection([2, 1, 3, 2, 3, 4], Facing.NORTH);
+        scene.text(30, "Alchemy boiler takes steam from the back", [2, 4, 2]).attachKeyFrame().placeNearTarget();
+        scene.idle(30);
+        scene.text(50, "Alchemy machine can take or output item and fluids from any side", [2, 2, 2]).attachKeyFrame().placeNearTarget();
+        scene.world.showSection([0, 1, 2, 1, 2, 2], Facing.EAST);
+        scene.idle(5);
+        scene.world.showSection([4, 1, 2, 3, 2, 2], Facing.WEST);
+        scene.idle(5);
+        scene.world.showSection([2, 1, 2, 2, 1, 2], Facing.UP)
+        scene.idle(40);
+
+    });
+
+    event.create(["kubejs:sacrificial_altar"]).scene("sacrificial_altar", "Explaining the Sacrificial Altar Usage", "kubejs:sacrificial_altar", (scene, util) => {
         scene.world.showSection([0, 0, 0, 2, 0, 2], Facing.DOWN);
         scene.idle(10)
         scene.world.showSection([0, 1, 0, 2, 1, 2], Facing.DOWN);
-        scene.world.createEntity("villager",[0.5,1,2.5])
-        scene.text(40,"For the altar to work we need a specific sacrifice",[0.5,2,2.5],).attachKeyFrame().placeNearTarget()
+        scene.world.createEntity("villager", [0.5, 1, 2.5])
+        scene.text(40, "For the altar to work we need a specific sacrifice", [0.5, 2, 2.5],).attachKeyFrame().placeNearTarget()
         scene.idle(50)
-        scene.showControls(60,[1,1.5,1],"down").withItem("kubejs:sacrificial_dagger").rightClick()
-        scene.showControls(60,[1,2.7,1],"down").withItem("emerald")
-        scene.text(60,"Right click with the sacrificial dagger on the altar with the other item in your offhand",[1,2,1]).attachKeyFrame().placeNearTarget()
+        scene.showControls(60, [1, 1.5, 1], "down").withItem("kubejs:sacrificial_dagger").rightClick()
+        scene.showControls(60, [1, 2.7, 1], "down").withItem("emerald")
+        scene.text(60, "Right click with the sacrificial dagger on the altar with the other item in your offhand", [1, 2, 1]).attachKeyFrame().placeNearTarget()
         scene.idle(70)
-        scene.text(60,"It will result in new item created and the death of our sacrifice",[0.5,1,2.5]).attachKeyFrame().placeNearTarget()
-        scene.showControls(70,[0.5,2,2.5],"down").withItem("kubejs:death_essence")
+        scene.text(60, "It will result in new item created and the death of our sacrifice", [0.5, 1, 2.5]).attachKeyFrame().placeNearTarget()
+        scene.showControls(70, [0.5, 2, 2.5], "down").withItem("kubejs:death_essence")
         scene.world.createItemEntity(util.vector.topOf(1, 1.5, 1), util.vector.of(0, 0, 0), "kubejs:infused_emerald");
         scene.idle(70)
-        
-    
+
+
     });
 
-    event.create(["kubejs:infusing_altar"]).scene("sacrificial_altar","Explaining the Infusing Altar Usage","kubejs:infusing_altar",(scene, util)=>{
-        
+    event.create(["kubejs:infusing_altar"]).scene("infusing_altar", "Explaining the Infusing Altar Usage", "kubejs:infusing_altar", (scene, util) => {
+
         scene.world.showSection([0, 0, 0, 7, 0, 7], Facing.UP);
         scene.idle(10)
 
-        for(let i = 1; i < 5; i++){
-        scene.world.showSection([0, i, 0, 7, i, 7], Facing.DOWN);
-        scene.idle(5)
+        for (let i = 1; i < 5; i++) {
+            scene.world.showSection([0, i, 0, 7, i, 7], Facing.DOWN);
+            scene.idle(5)
         }
 
         scene.idle(10)
-        scene.text(40,"Copper blocks need to be charged by lightning",[4,4,1]).attachKeyFrame().placeNearTarget()
+        scene.text(40, "Copper blocks need to be charged by lightning", [4, 4, 1]).attachKeyFrame().placeNearTarget()
         scene.idle(40)
-        scene.showControls(30,[4,4,1],"down").withItem("thermal:lightning_charge")
+        scene.showControls(30, [4, 4, 1], "down").withItem("thermal:lightning_charge")
         scene.idle(5)
-        scene.world.replaceBlocks([0,4,0,7,5,7],"kubejs:charged_copper_block",false)
+        scene.world.replaceBlocks([0, 4, 0, 7, 5, 7], "kubejs:charged_copper_block", false)
         scene.idle(40)
-        scene.text(50,"Drop items on top of the altar",[4,1.5,4]).attachKeyFrame().placeNearTarget()
+        scene.text(50, "Drop items on top of the altar", [4, 1.5, 4]).attachKeyFrame().placeNearTarget()
         scene.idle(60)
         scene.world.createItemEntity(util.vector.topOf(4, 1.5, 4), util.vector.of(0, 0.1, 0), "kubejs:infused_emerald")
         scene.idle(20)
-        scene.text(40,"Copper blocks will loose its charge after each craft",[4,4,1]).attachKeyFrame().placeNearTarget()
+        scene.text(40, "Copper blocks will loose its charge after each craft", [4, 4, 1]).attachKeyFrame().placeNearTarget()
         scene.idle(50)
-        
+
         //scene.world.replaceBlocks([4,4,0],"minecraft:copper_block",false)
-        
+
     });
 
 });
