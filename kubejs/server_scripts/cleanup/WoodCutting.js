@@ -385,10 +385,5 @@ ItemEvents.rightClicked(['kubejs:primitive_saw',"kubejs:basic_saw"], event => {
 	WoodCutting("naturesaura:ancient_planks","naturesaura:ancient_log")
 	WoodCutting("naturesaura:ancient_planks","naturesaura:ancient_bark")
 	WoodCutting("wizards_reborn:cork_bamboo_planks","wizards_reborn:cork_bamboo_block")
-    event.remove([{id:"naturesaura:ancient_planks"},{id:"naturesaura:ancient_planks_from_bark"}])
-
-    
-    
-    
-     
+  
 });
