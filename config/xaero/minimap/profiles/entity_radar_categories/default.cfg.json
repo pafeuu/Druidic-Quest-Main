@@ -4,8 +4,11 @@
   "includeListInSuperCategory": true,
   "excludeMode": "ONLY",
   "excludeList": [
+    "lootr:lootr_minecart",
     "minecraft:glow_item_frame",
-    "minecraft:item_frame"
+    "minecraft:item_frame",
+    "minecraft:tnt_minecart",
+    "quark:glass_frame"
   ],
   "name": "gui.xaero_entity_category_root",
   "protection": true,
@@ -18,8 +21,8 @@
     "displayNameWhenIconFails": true,
     "entityNumber": 1000.0,
     "alwaysDisplayNametags": false,
-    "dotSize": 2.0,
     "startFadingAt": 0.0,
+    "dotSize": 2.0,
     "renderOverMinimapFrame": 1.0,
     "icons": 2.0,
     "heightLimit": 20.0,
@@ -54,8 +57,8 @@
           "protection": true,
           "settingOverrides": {
             "renderOrder": 6.0,
-            "heightLimit": 2050.0,
-            "color": 15.0
+            "color": 15.0,
+            "heightLimit": 2050.0
           },
           "subCategories": [
             {

@@ -313,7 +313,7 @@
 		"Flee speed near" = 1.2
 		#Animals' knockback attribute will be set to this value multiplied by their bounding box size (bigger mobs have higher knockback). 0 disables this and lets you customize knockback per mob with attribute modifiers.
 		#Range: 0.0 ~ 128.0
-		Knockback = 1.4
+		Knockback = 0.2
 		#Animals' knockback attribute will be increased/decreased based on the size of the mob.
 		"Knockback size based" = true
 
@@ -381,7 +381,7 @@
 
 [Mobs]
 	#Makes mobs throw a web at a player, slowing them. Only entity types in the `enhancedai:mobs/throwing_web/can_throw_webs` tag will be affected. Entity types in `enhancedai:mobs/throwing_web/poisonous_webs` will throw poisonous webs and apply poison the same way as when a cave spider attacks an entity.
-	"Enable Throwing web" = true
+	"Enable Throwing web" = false
 	#Only entity types in `enhancedai:mobs/random_stroll` tag are affected by this feature.
 	"Enable Random stroll" = true
 	#Makes mobs pick up targets to drown them. Only entity types in the enhancedai:mobs/drowning_targets tag are affected by this feature.
@@ -639,18 +639,6 @@
 		"Blacklist tile entities" = true
 		#Mobs with Miner AI will spawn with a Stone Pickaxe that never drops.
 		"Equip stone pick" = true
-
-		[Mobs."Miner mobs"."Block respawn"]
-			#Time in ticks for a mined block to respawn. Set to 0 for no respawn. (20 ticks = 1 second)
-			Time = 0
-			#If true, block respawn time will scale based on the block's hardness.
-			"Scale time by hardness" = false
-			#Base respawn time in ticks for a block (used if scaling by hardness is enabled).
-			"Respawn by hardness base time" = 200
-			#Multiplier applied to the block's hardness when calculating respawn time (used if scaling by hardness is enabled).
-			"Hardness respawn multiplier" = 100.0
-			#If true, when a respawning block respawns on top of an obstructing block, the obstructing block will drop as if mined with a pickaxe (by default the obstructing block drops itself).
-			"Use pickaxe drop" = false
 
 	#Makes mobs follow range actually affected by blindness effect. Only entity types in `enhancedai:mobs/blindness_range_multiplier` tag will be affected by this.
 	[Mobs."Actual blindness"]

@@ -2,10 +2,10 @@
 ["Iron's Spells Integration"]
 	#Multiplier for Iron's Spells mana costs
 	#Range: 0.1 ~ 10.0
-	ironSpellsManaCostMultiplier = 1.5
+	ironSpellsManaCostMultiplier = 1.0
 	#Multiplier when converting Iron's Spells max mana bonuses
 	#Range: 0.1 ~ 10.0
-	ironSpellsMaxManaMultiplier = 0.6
+	ironSpellsMaxManaMultiplier = 1.0
 	#Multiplier when converting Iron's Spells mana regen bonuses
 	#Range: 0.1 ~ 10.0
 	ironSpellsManaRegenMultiplier = 0.6

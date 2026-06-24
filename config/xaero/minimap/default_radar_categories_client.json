@@ -5,7 +5,10 @@
   "excludeMode": "ONLY",
   "excludeList": [
     "minecraft:glow_item_frame",
-    "minecraft:item_frame"
+    "minecraft:item_frame",
+    "lootr:lootr_minecart",
+    "minecraft:tnt_minecart",
+    "quark:glass_frame"
   ],
   "name": "gui.xaero_entity_category_root",
   "protection": true,
