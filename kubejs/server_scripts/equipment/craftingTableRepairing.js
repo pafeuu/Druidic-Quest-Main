@@ -83,7 +83,6 @@ ServerEvents.recipes(event=>{
     fullRepairToolTier("botanist","naturesaura:infused_iron")
     fullRepairToolTier("phoenix","#forge:ingots/fiery")
     fullRepairToolTier("stormforged","2x #forge:ingots/fiery")
-    fullRepairToolTier("steel","2x naturesaura:infused_iron")
     fullRepairToolTier("obsidian","twilightforest:knightmetal_ingot")
     fullRepairToolTier("depth","2x twilightforest:knightmetal_ingot")
     fullRepairToolTier("arcane_gold","3x #forge:ingots/gold")

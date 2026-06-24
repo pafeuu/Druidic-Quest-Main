@@ -1736,8 +1736,6 @@ ServerEvents.recipes(event => {
 
 	event.shapeless(Item.of('minecraft:flint_and_steel', '{Damage:0,Unbreakable:1b}'),["kubejs:primitive_firestarter","4x #forge:plates/steel"])
 
-	event.smithing("kubejs:steel_shears",'kubejs:steel_upgrade_smithing_template',"shears",'kubejs:steel_upgrade_parts')
-
 	event.smithing("kubejs:steel_knife",'kubejs:steel_upgrade_smithing_template',"farmersdelight:iron_knife",'kubejs:steel_upgrade_parts')
 	
 	

@@ -975,7 +975,7 @@ ServerEvents.recipes(event => {
             }
         },
         "output": {
-            "item": "naturesaura:break_prevention"
+            "item": "naturesaura_plus:break_prevention_token"
         },
         "wissen": 500
     })//.id("naturesaura:tree_ritual/break_prevention")
