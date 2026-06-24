@@ -5,6 +5,7 @@ ServerEvents.tags("item", (e) => {
   ]);
 
   e.add("dq:unbreakables", [
+    "kubejs:capturing_gem",
     "immersiveengineering:armor_steel_helmet",
     "immersiveengineering:armor_steel_chestplate",
     "immersiveengineering:armor_steel_leggings",
@@ -19,7 +20,6 @@ ServerEvents.tags("item", (e) => {
     'immersiveengineering:armor_faraday_leggings',
     'immersiveengineering:armor_faraday_boots',
     "create:extendo_grip",
-    "kubejs:steel_shears",
     "kubejs:steel_knife",
     'thermal:hazmat_helmet',
     'thermal:hazmat_chestplate',

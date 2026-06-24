@@ -54,6 +54,7 @@ ServerEvents.tags("item", (event) => {
     "fruitsdelight:persimmon_cookie",
     "fruitsdelight:bayberry_cookie",
     "fruitsdelight:lemon_cookie",
+    'arsdelight:source_berry_cookie'
   ]);
 
   event.add("forge:cactus", [
@@ -83,11 +84,15 @@ ServerEvents.tags("item", (event) => {
     "vintagedelight:wild_cucumbers",
     "vintagedelight:wild_ghost_peppers",
     "vintagedelight:wild_peanuts",
-    "supplementaries:wild_flax",
+    "supplementaries:wild_flax"
+  ]);
+
+  event.add("minecraft:flowers",[
     'biomeswevegone:allium_flower_bush',
     'biomeswevegone:pink_allium_flower_bush',
-    'biomeswevegone:white_allium_flower_bush'
-  ]);
+    'biomeswevegone:white_allium_flower_bush',
+  ])
+
   event.remove("minecraft:small_flowers", [
     "farmersdelight:wild_potatoes",
     "farmersdelight:wild_beetroots",
@@ -99,11 +104,14 @@ ServerEvents.tags("item", (event) => {
     "vintagedelight:wild_cucumbers",
     "vintagedelight:wild_ghost_peppers",
     "vintagedelight:wild_peanuts",
-    "supplementaries:wild_flax",
+    "supplementaries:wild_flax"
+  ]);
+
+  event.add("minecraft:small_flowers",[
     'biomeswevegone:allium_flower_bush',
     'biomeswevegone:pink_allium_flower_bush',
     'biomeswevegone:white_allium_flower_bush'
-  ]);
+  ])
   event.remove("minecraft:tall_flowers", "farmersdelight:wild_rice");
   event.add("c:hidden_from_recipe_viewers", [global.nukelist]);
 
@@ -136,17 +144,7 @@ ServerEvents.tags("item", (event) => {
   ];
 
   let flower = [
-    "minecraft:sunflower",
-    "minecraft:dandelion",
-    "naturesaura:aura_bloom",
-    "bloomingnature:wild_sunflower",
-    "biomeswevegone:firecracker_flower_bush",
-    "biomeswevegone:orange_amaranth",
-    "biomeswevegone:lollipop_flower",
-    "biomeswevegone:guzmania",
-    "biomeswevegone:yellow_sakura_petals",
-    "biomeswevegone:yellow_tulip",
-    "silly_oddities:wildflowers",
+    
     /*'regions_unexplored:yellow_snowbelle',*/
     /*,'regions_unexplored:alpha_dandelion'*/
   ];
@@ -296,9 +294,24 @@ ServerEvents.tags("item", (event) => {
     event.add("forge:froglights", id);
   });
 
-  flower.forEach((id) => {
-    event.add("forge:flowers/golden", id);
-  });
+  
+  event.add("forge:flowers/golden",[
+    "minecraft:sunflower",
+    "minecraft:dandelion",
+    "naturesaura:aura_bloom",
+    "bloomingnature:wild_sunflower",
+    "biomeswevegone:firecracker_flower_bush",
+    "biomeswevegone:orange_amaranth",
+    "biomeswevegone:lollipop_flower",
+    "biomeswevegone:guzmania",
+    "biomeswevegone:yellow_sakura_petals",
+    "biomeswevegone:yellow_tulip",
+    "silly_oddities:wildflowers",
+    'deep_aether:golden_aspess',
+    'deep_aether:enchanted_blossom',
+    'deep_aether:golden_flower'
+  ]);
+  
 
   seed.forEach((id) => {
     event.add("quark:seed_pouch_holdable", id);
@@ -912,5 +925,12 @@ ServerEvents.tags("item", (event) => {
     "waystones:end_stone_waystone",
     "waystones:deepslate_waystone",
   ]);
+
+  event.add("minecraft:bookshelf_books", [
+    'solcarrot:food_book',
+    'solonion:food_book',
+    'ftbquests:book',
+    'kubejs:magic_book'
+  ])
 
 });

@@ -22,6 +22,12 @@ ServerEvents.tags("block", (event) => {
     "mbd2:alloy_kiln",
   ]);
 
+  event.add("treeliable:leaves_like",[
+    "biomeswevegone:allium_petal_block",
+    "biomeswevegone:pink_allium_petal_block",
+    "biomeswevegone:white_allium_petal_block"
+  ])
+
   event.add("minecraft:needs_stone_tool", ["mbd2:basic_recycler"]);
 
   event.add("druidic_quest:terraformer", "#forge:stone");
@@ -200,5 +206,6 @@ ServerEvents.tags("block", (event) => {
     'farmersdelight:wild_beetroots',
     'farmersdelight:wild_rice']
   )
+
   //event.add("twilightforest:portal/decoration","#minecraft:small_flowers")
 });
