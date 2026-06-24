@@ -75,7 +75,6 @@ ItemEvents.tooltip(tooltip => {
 
   tooltip.add("kubejs:sapphire", Text.gray("Texture by JuniDeerGirl"))
 
-  tooltip.add("kubejs:fiery_clay_blend", Text.red("Requires Infernal Smelter multiblock with a Soul Core to be smelted"))
   tooltip.add(["kubejs:bear_totem",
     "kubejs:crab_totem",
     "kubejs:frog_totem",
@@ -129,13 +128,6 @@ ItemEvents.tooltip(tooltip => {
     'explorerscompass:explorerscompass',
     'enigmaticlegacy:cosmic_cake',
     'enigmaticlegacy:mending_mixture'], Text.green('Available through villager trading'))
-
-  // ========================================== Effortless Building ======================================
-
-  tooltip.add(["effortlessbuilding:reach_upgrade1",
-    "effortlessbuilding:reach_upgrade2",
-    "effortlessbuilding:reach_upgrade3"
-  ], Text.green("Only works in effortless building mode!"))
 
   ///=========================================== Offhand ===============================================
 
@@ -272,7 +264,7 @@ ItemEvents.tooltip(tooltip => {
   SmithingTemplate("kubejs:obsidian_upgrade_smithing_template", "Obsidian", "Knightmetal", "Obsidian Ingot", 0xa4b48c)
   SmithingTemplate("kubejs:knightmetal_upgrade_smithing_template", "Knightmetal", "Lead", "Knightmetal Sheet", 0x545c7c)
   SmithingTemplate("kubejs:scarecrow_upgrade_smithing_template", "Scarecrow", "Wandering Magician", "Arcane Cloth", 0x445c8c)
-  SmithingTemplate("kubejs:wizard_upgrade_smithing_template", "Scarecrow", "Wandering Magician", "Arcane Cloth", 0x445c8c)
+  SmithingTemplate("kubejs:wizard_upgrade_smithing_template", "Wizard", "Wandering Magician", "Arcane Cloth", 0x445c8c)
   SmithingTemplate("kubejs:steeleaf_upgrade_smithing_template", "Steeleaf", "Ironwood", "Steeleaf Upgrade Parts", 0x847d6c)
   SmithingTemplate("kubejs:wandering_magician_upgrade_smithing_template", "Wandering Magician", "Leather", "Arcane Leather", 0x74492e)
   SmithingTemplate("kubejs:skyjade_upgrade_smithing_template", "Skyjade", "Silver", "Skyjade Upgrade Parts", 0x64747c)
@@ -283,8 +275,6 @@ ItemEvents.tooltip(tooltip => {
   SmithingTemplate("kubejs:arcane_fortress_upgrade_smithing_template", "Arcane Fortress", "Arcane Gold", "Arcane Plating", 0xb67b66)
   SmithingTemplate("kubejs:valkyrum_upgrade_smithing_template", "Valkyrum", "Skyseeker", "Valkyrum Upgrade Parts", 0x05efd6)
   SmithingTemplate("kubejs:etherium_upgrade_smithing_template", "Etherium", "Stormforged", "Etherium Upgrade Parts", 0x6c94b4)
-  SmithingTemplate("kubejs:tyr_upgrade_smithing_template", "Tyr", "Draco Arcanus", "Aquatic Dragon Scale", 0x9d1faa)
-  SmithingTemplate("kubejs:draco_arcanus_upgrade_smithing_template", "Draco Arcanus", "Obsidian", "Dragon Scale", 0x543474)
 
 
 
@@ -453,9 +443,10 @@ ItemEvents.tooltip(tooltip => {
     }
   })
 
+  tooltip.add("kubejs:fiery_clay_blend", Text.red("Requires Infernal Smelter multiblock with a Soul Core to be smelted"))
   tooltip.add("mbd2:infernal_smelter", [Text.red("Only works in the nether")])
 
-  tooltip.add([global.nukelist], [Text.red("Item disabled"), Text.red("Report to the modpack dev if you got this")])
+  
   tooltip.add("kubejs:recipe_changed", Text.red("This recipe has been changed! Check EMI for more information!"))
   tooltip.add("immersiveengineering:cushion", Text.green("Negates fall damage"))
   tooltip.add("quark:seed_pouch", Text.green("Shift-Right Click to plant in a 3x3!"))
