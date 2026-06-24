@@ -23,5 +23,29 @@
       "naturesaura:gold_nether_brick"
     ],
     "output": "wizards_reborn:arcanum_block"
+  },
+  {
+    "inputs":[
+      "quark:charcoal_block"
+    ],
+    "output": "thermal:charcoal_block"
+  },
+  {
+    "inputs":[
+      "quark:carrot_crate"
+    ],
+    "output": "farmersdelight:carrot_crate"
+  },
+  {
+    "inputs":[
+      "quark:potato_crate"
+    ],
+    "output": "farmersdelight:potato_crate"
+  },
+  {
+    "inputs":[
+      "quark:apple_crate"
+    ],
+    "output": "fruitsdelight:apple_crate"
   }
 ]
