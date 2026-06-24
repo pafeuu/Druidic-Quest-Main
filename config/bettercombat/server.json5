@@ -18,7 +18,10 @@
 	   (Note all hostile mobs hittable by default, this config is to fix faulty mobs)
 	*/
 	"hostile_player_vehicles": [
-		"alexsmobs:crocodile"
+		"alexsmobs:crocodile",
+		"aether:golden_swet",
+		"aether:blue_swet",
+		"ancient_aether:festive_swet"
 	],
 	// Allows vanilla sweeping mechanic to work and Sweeping Edge enchantment
 	"allow_vanilla_sweeping": false,
