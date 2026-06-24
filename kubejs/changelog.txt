@@ -4620,3 +4620,152 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Fixed emi groups for ingots
     -Updated default options with SophisticatedSorter sorting
     -Removed all the enchanting stats from candle and bookshelves
+
+# Patch 5.1.0
+
+### New Mods:
+    -InControl
+    -EMI Ores
+    -NaturesAuraPlus
+
+### Updated Mods:
+    -SophisticatedMods
+    -ChatHeads
+
+### Mobs Balance:
+    -Creepers will no longer launch themselves
+    -Creepers will no longer try to open up path for other mobs by destroying walls
+    -Nerfed Creeper's health and speed
+    -Nerfed Zombie's speed
+    -Nerfed Skeleton's Maximum shooting range to 24
+    -Necromancers will no longer spawn
+    -Dropbears mob cap is now set to 5
+
+### Item Balance:
+    -Nerfed the pull speed on the hooks
+
+### Player Balance:
+    -You will now keep your entire hotbar on death
+    -You will no longer lose hunger on death in Tier 0
+
+### Recipes:
+    -Removed Duplicate recipe for Ashen Sapling
+    -Changed for Mob Catcher Upgrade
+    -Changed for Advanced Mob Catcher Upgrade
+
+### Quests:
+    -Added token of the undying friendship as an additional reward for the "Horse for sale!" quest
+    -Replaced bonemeal with tree fertilizer in "Assemble the ritual" quest (Tree fertilizer now works with tree ritual thanks to Wkhan)
+    -Replaced Sandwich quest with "Emergency Sandwich" quest in the market chapter also no longer requires cutting board to buy
+
+### Other:
+    -Lowered pickup notifier volume by a half
+    -Dormant Eye no longer displays negative block reach
+    -Adjusted Mob Catcher Upgrades
+
+# Patch 5.2
+
+### Updated Mods:
+    -SophisticatedMods
+    -BiomeMusic
+    -Collective
+    -CrashAsistant
+    -EMIores
+    -Emi++
+    -FluffyFur
+    -Gnetum
+    -IllagersWearArmor
+    -ModernFix
+    -MoonlightLib
+    -OhTheBiomesWeveGone
+    -OhtheTreesYoullGrow
+    -ReconnectibleChains
+
+### New Mods:
+    -FTBChunksXXaeroCompat
+
+### Removed Items:
+    -Steel Shears
+
+### Recipes:
+    -Coke bricks now take any sand
+    -Removed useless recipes for repairing steel tools
+
+### Mob Balance:
+    -Removed Melee attack changes
+    -Swets can now be hit when its on your face
+
+### Worldgen:
+    -Changed Blocks in structures:
+        -Tinkers Citadel
+        -Archmages Tower
+        -Tinkers Workshop
+        -Enchanting Tower
+        
+### Item Balance:
+    -Naga armor set bonus no longer grants shrinking
+
+### Other:
+    -Added missing flower tags to alliums
+    -Added missing tags to Sunroot planks
+    -Removed Other wood variants of SophisticatedStorage chests and barells from EMI 
+    -Fixed broken rename of the solonion foodbook
+    -Food Book, Book of Diverse Diet, Magic Book, Quest Book can now be put inside of a chiseled bookshelf
+    -Fixed right click harvest on oddions and ars_nouveau fruit pods
+    -Sourceberry cookies can now be put inside a jar
+    -Tnt Minecarts, Chest Minecarts and glass item frames are now invisible on the minimap
+    -Fixed Florus trees not working with treeliable
+
+# Patch 5.2.1
+
+### New mods:
+    -Chronos Backup
+
+### Removed Mods:
+    -FTB backups
+
+### Updated Mods:
+    -Tide
+    -NaturesAuraPlus
+    -BiomeMusic
+    -Collective
+    -CreativeCore
+    -EntityJS
+    -EnhancedAI
+    -GeckoLib
+    -Horseman
+    -InsaneLib
+    -ItemPhysicsLite
+    -ReconnectibleChains
+    -SophisticatedMods
+    -XaeroWorldMap
+
+### Worldgen:
+    -Fixed a couple missing block swaps from tinkers citadel
+
+### Mob Balance:
+    -Removed Web throwing spiders
+    -Machinegun skeletons now only spawn after unlocking the nether
+
+### Recipes:
+    -You can now get pebbles by right clicking stone with a pickaxe
+
+### Quests:
+    -Reworked Archfisher Quest Chapter
+    -Removed Lore Collector Quest Chapter
+    -Removed Headhunter Quest Chapter
+    -Added missing spells for Sorcerer Supreme Quest Chapter
+    -Added missing weapons for Bladesmith Quest Chapter
+    -Disabled completion toast for all the Ultimate Collector Quests, Automation and storage Quests 
+
+### Villagers:
+    -Wandering Trader will no longer sell pathfinder's quills
+
+### Player Balance:
+    -Irons mana is now equal to mana unification mana(this is a buff)
+    
+### Other:
+    -Flower Boxes can now hold 3 flowers instead of one
+    -Added missing golden flower tag to aether flowers
+    -Fixed Wizard smithing template tooltip
+    -Fixed Herbivorous Absorber aura generation amounts
