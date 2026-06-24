@@ -124,7 +124,6 @@ ItemEvents.modification(event=>{
         'aether:hammer_of_kingbdogz',
         'kubejs:steel_gloves',
         'kubejs:steel_knife',
-        'kubejs:steel_shears',
         'immersiveengineering:pickaxe_steel',
         'immersiveengineering:shovel_steel',
         'immersiveengineering:axe_steel',

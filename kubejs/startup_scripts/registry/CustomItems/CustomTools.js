@@ -144,12 +144,11 @@ StartupEvents.registry('item', item => {
   
   item.create('the_terraformer','shovel').glow(true).rarity("epic").tier("terraformer").tag("minecraft:tools").tag("dq:tier2/tool")
   
-  item.create('mycelial_hoe','hoe').tier('mycelial').rarity('legendary').tier('mycelial').tag("mincraft:tools").tag('dq:tier4/tool').tag("dq:advanced_hoes")
+  item.create('mycelial_hoe','hoe').tier('mycelial').rarity('legendary').tier('mycelial').tag("mincraft:tools").tag('dq:tier4/tool').tag("dq:advanced_hoes").tag("minecraft:hoes")
 
   item.create('sacrificial_dagger','sword').tier('gold').tag("minecraft:tools").tag("dq:tier1/weapon").tag("dq:tier1/tool").speedBaseline(-2.0).attackDamageBaseline(1)
   
   item.create('primitive_shears',"shears").maxDamage(8).unstackable().tag("forge:tools")
-  item.create("steel_shears","shears").maxDamage(-1).unstackable().tag("forge:tools/steel").tag("forge:tools")
   item.create("steel_knife","farmersdelight:knife").tag("minecraft:tools").tag("forge:tools/knives").tag("dq:tier1/tool").unstackable().tag("forge:tools/steel")
 
   item.createCustom('primitive_firestarter',() => new $FlintAndSteelItem(new $ItemProperties().defaultDurability(8))).tag("forge:tools/flint").tag("forge:tools")
