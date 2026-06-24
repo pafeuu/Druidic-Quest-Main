@@ -19,13 +19,6 @@
     },
     {
       "type": "effect",
-      "name": "fruitsdelight:shrinking",
-      "value": 0.0,
-      "interactionType": "self",
-      "interactionDuration": 300
-    },
-    {
-      "type": "effect",
       "name": "alexsmobs:bug_pheromones",
       "value": 0.0,
       "interactionType": "self",
