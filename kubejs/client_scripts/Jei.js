@@ -1,51 +1,25 @@
-JEIEvents.removeRecipes(event => {  
+JEIEvents.removeRecipes(event => {
     event.remove('minecraft:crafting', 'ars_nouveau:imbuement_chamber')
-    event.remove('minecraft:crafting',"quark:tweaks/crafting/slab_to_block")
-    event.remove('ars_nouveau:imbuement',"ars_nouveau:imbuement_air_essence")
-    event.remove('ars_nouveau:imbuement',"ars_nouveau:imbuement_fire_essence")
-    event.remove('ars_nouveau:imbuement',"ars_nouveau:imbuement_water_essence")
-    event.remove('ars_nouveau:imbuement',"ars_nouveau:imbuement_earth_essence")
-    event.remove('ars_nouveau:enchanting_apparatus',"ars_nouveau:enchanters_shield") 
+    event.remove('minecraft:crafting', "quark:tweaks/crafting/slab_to_block")
+    event.remove('ars_nouveau:imbuement', "ars_nouveau:imbuement_air_essence")
+    event.remove('ars_nouveau:imbuement', "ars_nouveau:imbuement_fire_essence")
+    event.remove('ars_nouveau:imbuement', "ars_nouveau:imbuement_water_essence")
+    event.remove('ars_nouveau:imbuement', "ars_nouveau:imbuement_earth_essence")
+    event.remove('ars_nouveau:enchanting_apparatus', "ars_nouveau:enchanters_shield")
 })
 
 JEIEvents.information(event => {
-    /*event.addItem(['regions_unexplored:alpha_slab',
-                   'regions_unexplored:baobab_slab',
-                   'regions_unexplored:larch_slab',
-                   'regions_unexplored:magnolia_slab',
-                   'regions_unexplored:maple_slab',
-                   'regions_unexplored:cobalt_slab',
-                   'regions_unexplored:brimwood_slab',
-                   'regions_unexplored:blue_bioshroom_slab',
-                   'regions_unexplored:blackwood_slab',
-                   'regions_unexplored:kapok_slab',
-                   'regions_unexplored:joshua_slab',
-                   'regions_unexplored:green_bioshroom_slab',
-                   'regions_unexplored:eucalyptus_slab',
-                   'regions_unexplored:dead_slab',
-                   'regions_unexplored:cypress_slab',
-                   'regions_unexplored:mauve_slab',
-                   'regions_unexplored:yellow_bioshroom_slab',
-                   'regions_unexplored:willow_slab',
-                   'regions_unexplored:socotra_slab',
-                   'regions_unexplored:redwood_slab',
-                   'regions_unexplored:pink_bioshroom_slab',
-                   'regions_unexplored:pine_slab',
-                   'regions_unexplored:palm_slab',
-                   'ars_nouveau:archwood_slab'], ['If you cant see recipe for this', 'Try restarting your game', "It's a known issue, Sorry for the inconvenience"])*/
 
-    event.addItem("kubejs:charged_copper_block",["Created when Copper Block or Waxed Copper Block is struck by lightning"])
-    event.addItem("naturesaura:birth_spirit",["Obtained by breeding animals in an area with high aura"])
-    event.addItem("immersive_weathering:ivy",["Found in forest biomes hanging from some trees"])
-    event.addItem("kubejs:wooden_crucifix",["Rare drop from undead creatures"])
-    event.addItem("thermal:compost",["Created by Batch Composter"])
-    
-    event.addItem([
-        "kubejs:ring_travel",
-        "kubejs:travelers_belt"],["One of the drops from Overworld Key usage"])
-    event.addItem("kubejs:mittens",["Common loot in chests in snowy biomes"])
-    event.addItem("supplementaries:ash",["Created in world after blocks burn"])
-    event.addItem("minecraft:netherite_upgrade_smithing_template",["Drops from The Wither"])
+    event.addItem("kubejs:charged_copper_block", ["Created when Copper Block or Waxed Copper Block is struck by lightning"])
+    event.addItem("naturesaura:birth_spirit", ["Obtained by breeding animals in an area with high aura"])
+    event.addItem("immersive_weathering:ivy", ["Found in forest biomes hanging from some trees"])
+    event.addItem("kubejs:wooden_crucifix", ["Rare drop from undead creatures"])
+    event.addItem("kubejs:lumber_axe", ["Drops from lumberjack zombies spawned in the forest biomes"])
+    event.addItem("thermal:compost", ["Created by Batch Composter"])
+
+    event.addItem("kubejs:mittens", ["Common loot in chests in snowy biomes"])
+    event.addItem("supplementaries:ash", ["Created in world after blocks burn"])
+    event.addItem("minecraft:netherite_upgrade_smithing_template", ["Drops from The Wither"])
     event.addItem(['wizards_reborn:arcane_salt_torch',
         'wizards_reborn:innocent_salt_torch',
         'wizards_reborn:cork_bamboo_salt_torch',
@@ -90,30 +64,30 @@ JEIEvents.information(event => {
         'silly_oddities:crimson_salt_campfire',
         'silly_oddities:warped_salt_torch',
         'silly_oddities:warped_salt_lantern',
-        'silly_oddities:warped_salt_campfire'],["Can be dyed with Arcane Lumos"])
+        'silly_oddities:warped_salt_campfire'], ["Can be dyed with Arcane Lumos"])
 
-    event.addItem("deep_aether:goldenleaf_berries",["Found growing on Quicksoil in Golden Heights biome"])
+    event.addItem("deep_aether:goldenleaf_berries", ["Found growing on Quicksoil in Golden Heights biome"])
 
-    event.addItem("wizards_reborn:arcanum_ore",["Found between y90 and y-40 in the overworld"])
-    event.addItem("thermal:sapphire_ore",["Found between y-15 and y-30 in the twilight forest"])
-    event.addItem("thermal:apatite_ore",["Found in Obsidian Geodes in the twilight forest"])
-    event.addItem("irons_spellbooks:mithril_ore",["Found near y-20 in the twilight forest"])
-    event.addItem("thermal:cinnabar_ore",["Found in Nether Geodes"])
-    event.addItem("rubinated_nether:molten_ruby_ore",["Found in Nether Geodes and Magma Veins"])
-    event.addItem("immersiveengineering:ore_uranium",["Found in Uranium Pillars in Nether Wastes Biome"])
-    event.addItem("thermal:sulfur_ore",["Found in Basalt Deltas"])
+    event.addItem("wizards_reborn:arcanum_ore", ["Found between y90 and y-40 in the overworld"])
+    event.addItem("thermal:sapphire_ore", ["Found between y-15 and y-30 in the twilight forest"])
+    event.addItem("thermal:apatite_ore", ["Found in Obsidian Geodes in the twilight forest"])
+    event.addItem("irons_spellbooks:mithril_ore", ["Found near y-20 in the twilight forest"])
+    event.addItem("thermal:cinnabar_ore", ["Found in Nether Geodes"])
+    event.addItem("rubinated_nether:molten_ruby_ore", ["Found in Nether Geodes and Magma Veins"])
+    event.addItem("immersiveengineering:ore_uranium", ["Found in Uranium Pillars in Nether Wastes Biome"])
+    event.addItem("thermal:sulfur_ore", ["Found in Basalt Deltas"])
 
-    event.addItem('supplementaries:music_disc_heave_ho',["Obtained by killing a Creeper with a Cannonball"])
-    
-    event.addItem("kubejs:sunbird_feather",["Periodically shed by the Sunbird"])
+    event.addItem('supplementaries:music_disc_heave_ho', ["Obtained by killing a Creeper with a Cannonball"])
 
-    event.addItem("alexsmobs:shed_snake_skin",["Shed by anaconda after eating 3 animals"])
+    event.addItem("kubejs:sunbird_feather", ["Periodically shed by the Sunbird"])
 
-    event.addItem("mynethersdelight:ghasta",["Drops from a ghast when killed with a knife"])
+    event.addItem("alexsmobs:shed_snake_skin", ["Shed by anaconda after eating 3 animals"])
 
-    event.addItem("deep_aether:medal_of_honor",["Drops from Valkyrie Queen after deafeating her without taking a single hit"])
+    event.addItem("mynethersdelight:ghasta", ["Drops from a ghast when killed with a knife"])
 
-    event.addItem(['kubejs:corrupted_soul', 'quark:soul_bead', 'kubejs:enchanted_soul'],["Drops from certain mobs when using soul harvester weapon or holding bejeweled crucifix in the offhand"])
-    
-  })
+    event.addItem("deep_aether:medal_of_honor", ["Drops from Valkyrie Queen after deafeating her without taking a single hit"])
+
+    event.addItem(['kubejs:corrupted_soul', 'quark:soul_bead', 'kubejs:enchanted_soul'], ["Drops from certain mobs when using soul harvester weapon or holding bejeweled crucifix in the offhand"])
+
+})
 
