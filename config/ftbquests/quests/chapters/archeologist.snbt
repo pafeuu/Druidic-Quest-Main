@@ -1,17 +1,19 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "archeologist"
 	group: "6959C7C8592FBBA9"
 	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: "minecraft:heart_pottery_sherd"
 	id: "56CF7D2F7932B4BB"
-	order_index: 12
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "562E62AB1621DDC7"
 			rewards: [{
 				count: 3
@@ -29,6 +31,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "09BAC76F313EF764"
 			rewards: [{
 				count: 3
@@ -46,6 +49,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "5ACC96502FA26682"
 			rewards: [{
 				count: 3
@@ -63,6 +67,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "13B35380E03DA817"
 			rewards: [{
 				count: 3
@@ -80,6 +85,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "35589A253ACEDBC2"
 			rewards: [{
 				count: 3
@@ -97,6 +103,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "4902FB6A50891551"
 			rewards: [{
 				count: 3
@@ -114,6 +121,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "51EDF4AB2AC0D22A"
 			rewards: [{
 				count: 3
@@ -131,6 +139,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "64B4015F36770C6B"
 			rewards: [{
 				count: 3
@@ -148,6 +157,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "44F3829714A3B5F8"
 			rewards: [{
 				count: 3
@@ -165,6 +175,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1244A790AA2C5445"
 			rewards: [{
 				count: 3
@@ -182,6 +193,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0CC19952A172115F"
 			rewards: [{
 				count: 3
@@ -199,6 +211,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "3B18A43C0679CCB0"
 			rewards: [{
 				count: 3
@@ -216,6 +229,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "051DF8B55534D4B2"
 			rewards: [{
 				count: 3
@@ -233,6 +247,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "096CB15F3C6FA9B2"
 			rewards: [{
 				count: 3
@@ -250,6 +265,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "432AC22DB5080275"
 			rewards: [{
 				count: 3
@@ -267,6 +283,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "2F85AACA60753BDB"
 			rewards: [{
 				count: 3
@@ -284,6 +301,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "2E971CC29DD10356"
 			rewards: [{
 				count: 3
@@ -301,6 +319,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "20E2A04F7D41F756"
 			rewards: [{
 				count: 3
@@ -318,6 +337,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "4D44397ECF5AD9FD"
 			rewards: [{
 				count: 3
@@ -335,6 +355,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "311934283FE1688F"
 			rewards: [{
 				count: 3
@@ -352,6 +373,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "24CA7FC41DCBF555"
 			rewards: [{
 				count: 3

@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "weaponry_owner"
 	group: "6959C7C8592FBBA9"
 	hide_quest_until_deps_complete: true
@@ -19,6 +20,7 @@
 	quests: [
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "7A9E3E9898E3EBE0"
 			rewards: [{
 				id: "6780257E768EF204"
@@ -42,6 +44,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1AA4BE7DECFE87BF"
 			rewards: [{
 				id: "1CBE074109C68D46"
@@ -65,6 +68,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0D87A2F28D7EE7AE"
 			rewards: [{
 				id: "497DEBC198BE419F"
@@ -88,6 +92,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "5F6C67A721C80FAD"
 			rewards: [{
 				id: "0EDF8E57D074CF3B"
@@ -111,6 +116,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1640CE5FAD0DD72B"
 			rewards: [{
 				id: "7438E688B506C573"
@@ -134,6 +140,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "5A1CD942EB88BC55"
 			rewards: [{
 				count: 3
@@ -158,6 +165,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0D8D3C08C9EF08A7"
 			rewards: [{
 				id: "4D446AD7968F72AB"
@@ -181,6 +189,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "3CD55EC86487C152"
 			rewards: [{
 				count: 2
@@ -205,6 +214,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "50FEE060885F8945"
 			size: 0.9d
 			tasks: [{
@@ -223,6 +233,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "712B3D0F1DE2D534"
 			rewards: [{
 				count: 2
@@ -247,6 +258,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "2506CBC63B3C5292"
 			rewards: [{
 				count: 2
@@ -271,6 +283,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1D523A2FBC1A9AC1"
 			rewards: [{
 				count: 2
@@ -295,6 +308,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1482F1EDAC107B9B"
 			rewards: [{
 				id: "6118FD041621277A"
@@ -318,6 +332,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "452C582BC38D18CA"
 			size: 0.9d
 			tasks: [{
@@ -336,37 +351,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			icon: {
-				Count: 1
-				id: "aether:holystone_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "5EDA71B486850C62"
-			rewards: [{
-				count: 3
-				id: "4472BE7BE78F7F20"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			size: 0.9d
-			tasks: [{
-				id: "2B0E50004C5ABDF6"
-				item: {
-					Count: 1
-					id: "aether:holystone_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.15d
-			y: 9.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "78813B42D30B29D7"
 			rewards: [{
 				count: 3
@@ -391,6 +376,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "37AB1573AAA873C3"
 			rewards: [{
 				count: 3
@@ -415,6 +401,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "142687F22F010A7F"
 			rewards: [{
 				count: 3
@@ -439,6 +426,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "275D1A1344569484"
 			size: 0.9d
 			tasks: [{
@@ -457,6 +445,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "5F7EF950FF465750"
 			rewards: [{
 				count: 3
@@ -481,6 +470,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1D39B199FF533615"
 			rewards: [{
 				count: 3
@@ -505,6 +495,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "36533B225101713E"
 			size: 0.9d
 			tasks: [{
@@ -523,6 +514,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1D8ED8DA92914D24"
 			rewards: [{
 				count: 3
@@ -547,6 +539,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "7111E7537BA9DED5"
 			size: 0.9d
 			tasks: [{
@@ -565,6 +558,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "140857C56D3D5163"
 			rewards: [{
 				id: "45AE1B28B3E4EC79"
@@ -592,6 +586,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "7B978C4E9C83C082"
 			rewards: [{
 				count: 3
@@ -644,6 +639,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "6294F1306E2C5630"
 			rewards: [{
 				count: 2
@@ -668,6 +664,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1AC1CC40F9D1427E"
 			rewards: [{
 				id: "3E7DA8842B0DD8F8"
@@ -691,6 +688,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "51F7D43DE31E0520"
 			rewards: [{
 				count: 3
@@ -715,6 +713,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "786E1EB05004E3E2"
 			rewards: [{
 				id: "47478E5E327F713A"
@@ -738,6 +737,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "4976210550EBDDF3"
 			rewards: [{
 				count: 3
@@ -762,6 +762,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "50B09C2E8A821B66"
 			rewards: [{
 				count: 3
@@ -786,6 +787,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "3C0D801200B2751A"
 			rewards: [{
 				count: 3
@@ -810,6 +812,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "2A0E8B3D024944C7"
 			rewards: [{
 				id: "368932E18F4804F3"
@@ -833,6 +836,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "2AB9261291CFB19D"
 			rewards: [{
 				count: 2
@@ -857,6 +861,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "3D906F8A9AC34B9F"
 			rewards: [{
 				id: "6BCFC284894D423E"
@@ -880,6 +885,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "17D9702B53DA6766"
 			rewards: [{
 				count: 6
@@ -904,6 +910,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "7DCF0A0D7658A963"
 			rewards: [{
 				count: 6
@@ -928,6 +935,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0693F0E18433AE87"
 			rewards: [{
 				count: 6
@@ -940,7 +948,7 @@
 				id: "03B01C337AD44335"
 				item: {
 					Count: 1
-					id: "twilightforest:glass_sword"
+					id: "kubejs:glass_sword"
 					tag: {
 						Damage: 0
 					}
@@ -952,6 +960,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "43313E74CC6F234B"
 			rewards: [{
 				id: "7A57D3883DE415B4"
@@ -975,6 +984,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "2372C228166B5E4C"
 			rewards: [{
 				count: 2
@@ -1010,6 +1020,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1ABA433776543A4E"
 			rewards: [{
 				count: 2
@@ -1045,6 +1056,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "39176E2DCFFD60ED"
 			rewards: [{
 				count: 2
@@ -1069,6 +1081,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "5B3C2E7AB45C64DD"
 			rewards: [{
 				id: "16C43C5488B35664"
@@ -1093,6 +1106,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "19FED34EB62F8444"
 			rewards: [{
 				id: "6282A1CBECF43A75"
@@ -1116,6 +1130,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "56A4555325298E41"
 			rewards: [{
 				count: 3
@@ -1140,6 +1155,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "379950B58C983277"
 			rewards: [{
 				id: "33BFCD57A735BD7D"
@@ -1163,29 +1179,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "4DBEE2ACE2BE9821"
-			rewards: [{
-				id: "6F619A213F4CF2F4"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.9d
-			tasks: [{
-				id: "04B861ED75FD1D8F"
-				item: {
-					Count: 1
-					id: "immersive_weathering:ice_sickle"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.85d
-			y: 14.399999999999999d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1AD0D3B1F3A476CA"
 			rewards: [{
 				count: 3
@@ -1210,6 +1204,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "6926BC4CC756B7CF"
 			rewards: [{
 				id: "26A601B7473B42CF"
@@ -1233,6 +1228,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "740FBD8A3D0605C8"
 			rewards: [{
 				count: 3
@@ -1257,6 +1253,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "4E78D845B0AF99DA"
 			rewards: [{
 				count: 6
@@ -1281,6 +1278,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "20B6204336AABE36"
 			rewards: [{
 				count: 3
@@ -1305,48 +1303,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "4AEDF08C1D59BF35"
-			size: 0.9d
-			tasks: [{
-				id: "4BF8ED70C92FA70E"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:etherium_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.15d
-			y: 3.5999999999999996d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "7DB223BD531644FA"
-			rewards: [{
-				count: 2
-				id: "0ABD3A8A7BBD2837"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			size: 0.9d
-			tasks: [{
-				id: "211B1F5E58F76B22"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:etherium_scythe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.05d
-			y: 4.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "5DD2986DB5CA8254"
 			size: 0.9d
 			tasks: [{
@@ -1365,6 +1322,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "4D7BA1B696E40F19"
 			rewards: [{
 				id: "7BB0D889E1C3FFEC"
@@ -1388,6 +1346,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "31767BA483BF0AAF"
 			rewards: [{
 				id: "60FEA76D8ED27F0E"
@@ -1411,6 +1370,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "574F4553C061E082"
 			size: 0.9d
 			tasks: [{
@@ -1429,6 +1389,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "724918FE8D46754F"
 			size: 0.9d
 			tasks: [{
@@ -1447,7 +1408,13 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "26470E884A5BA709"
+			rewards: [{
+				id: "2389836A5F21F041"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "425894EC80DF0AFB"
@@ -1465,6 +1432,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "4FA4DFCBCE1411E4"
 			size: 0.9d
 			tasks: [{
@@ -1494,6 +1462,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "27B5A701F48D8C75"
 			size: 0.9d
 			tasks: [{
@@ -1523,24 +1492,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "0FC34563C2951937"
-			rewards: [{
-				count: 3
-				id: "2C33639FFBA05CE0"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			size: 0.9d
-			tasks: [{
-				id: "092952C05CAE8C75"
-				item: "aether:lightning_knife"
-				type: "item"
-			}]
-			x: -0.44999999999999996d
-			y: 9.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "enigmaticlegacy:ender_slayer"
@@ -1576,11 +1528,12 @@
 				}
 			]
 			title: "The Ender Slayer"
-			x: -8.549999999999999d
-			y: 12.149999999999999d
+			x: 2.25d
+			y: 3.5999999999999996d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "enigmaticlegacy:eldritch_pan"
@@ -1616,8 +1569,260 @@
 				}
 			]
 			title: "The Voracious Pan"
-			x: -4.05d
-			y: 15.75d
+			x: 1.3499999999999999d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
+			id: "12929F25E670A53B"
+			rewards: [{
+				count: 6
+				id: "4AC3F892E474D50A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "3A01431688EC90C9"
+				item: "kubejs:dwarven_sword"
+				type: "item"
+			}]
+			x: -5.85d
+			y: 14.399999999999999d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
+			id: "7469C834B5630C02"
+			rewards: [{
+				count: 6
+				id: "783E0427308C93B4"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "6E2BEE4DCF7F2C58"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:boreal_blade"
+					tag: {
+						Damage: 0
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:frostbite"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.15d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
+			id: "18752B0E91174BC3"
+			rewards: [{
+				count: 2
+				id: "6369E552212E4490"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "23EB0EF35B4344AC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:legionnaire_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
+			id: "24B734C374FCE35A"
+			rewards: [{
+				count: 2
+				id: "6A00B9AA79D64526"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "666A438A4CAA10D7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:decrepit_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: 6.3d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
+			id: "60EF2CB7D4E778B1"
+			rewards: [{
+				count: 2
+				id: "60321B8F73C43BC0"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "73943EADBBF1607A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:twilight_gale"
+					tag: {
+						Damage: 0
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:volt_strike"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.3499999999999999d
+			y: 5.3999999999999995d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
+			id: "39EBA13DF542A1D8"
+			rewards: [{
+				count: 2
+				id: "406EB141D2A81293"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "0B52267854066A9A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:hellrazor"
+					tag: {
+						Damage: 0
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:raise_hell"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.15d
+			y: 5.3999999999999995d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
+			id: "35827040EB40D810"
+			rewards: [{
+				count: 6
+				id: "10233FB4430AF9B1"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "70EA8FB3234910B4"
+				item: {
+					Count: 1
+					id: "kubejs:obsidian_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
+			id: "1B1ECE5E9C109E69"
+			rewards: [{
+				count: 6
+				id: "7C57D1C39384CA70"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "49C783939E750FAB"
+				item: {
+					Count: 1
+					id: "kubejs:obsidian_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.15d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
+			id: "3CA7B73EA9EB2A92"
+			rewards: [{
+				count: 6
+				id: "48108D28049DC93F"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "569DB224941C6EFB"
+				item: {
+					Count: 1
+					id: "kubejs:aluminum_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
 		}
 	]
 	title: "Bladesmith"

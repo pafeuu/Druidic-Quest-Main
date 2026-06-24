@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "storage"
 	group: "3234F6E6AE6DF6F9"
 	icon: "quark:crate"

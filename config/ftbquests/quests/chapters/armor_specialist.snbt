@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "armor_specialist"
 	group: "6959C7C8592FBBA9"
 	hide_quest_until_deps_complete: true
@@ -19,6 +20,7 @@
 	quests: [
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "minecraft:leather_chestplate"
@@ -85,6 +87,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "immersiveengineering:armor_faraday_chestplate"
@@ -151,6 +154,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "minecraft:iron_chestplate"
@@ -217,6 +221,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "minecraft:chainmail_chestplate"
@@ -283,6 +288,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "naturesaura:infused_iron_chest"
@@ -349,6 +355,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "minecraft:golden_chestplate"
@@ -415,6 +422,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "minecraft:diamond_chestplate"
@@ -481,6 +489,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "minecraft:netherite_chestplate"
@@ -547,6 +556,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "immersiveengineering:armor_steel_chestplate"
@@ -613,6 +623,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "naturesaura:sky_chest"
@@ -679,6 +690,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0036A138AF4B3988"
 			rewards: [{
 				count: 3
@@ -697,6 +709,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "5B4E8FFDA72584D1"
 			rewards: [{
 				count: 3
@@ -715,6 +728,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "660B491C5FBA4BF8"
 			rewards: [{
 				count: 3
@@ -733,6 +747,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "359AE3987801B95D"
 			rewards: [{
 				count: 3
@@ -751,6 +766,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "37FAAA874DBE347B"
 			rewards: [{
 				id: "799081A2AFC438BF"
@@ -768,6 +784,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "429F9BF56FAA898B"
 			rewards: [{
 				id: "79659F470D968AC4"
@@ -785,6 +802,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "391B930B6DDA0FC3"
 			rewards: [{
 				id: "4A738F8C4785F985"
@@ -802,6 +820,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "370B2E7FF5C22BFC"
 			rewards: [{
 				id: "4D330BC2F5D0CA88"
@@ -819,6 +838,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0BE7C36AFF3106A1"
 			rewards: [{
 				id: "4CA62C0AF70927EB"
@@ -836,6 +856,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0F0AC65B0197F2D6"
 			rewards: [{
 				id: "7FA7462EDA2A1579"
@@ -853,6 +874,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "22A445F37C9CD96B"
 			rewards: [{
 				id: "3F592ACBC43EEE2D"
@@ -870,6 +892,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "5DBF383FB751A2F1"
 			rewards: [{
 				id: "01B325F6BC5F9E91"
@@ -887,6 +910,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "417A7B73A7827498"
 			rewards: [{
 				id: "771AC002514192DE"
@@ -904,6 +928,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "6F591EB654A367CB"
 			rewards: [{
 				id: "0EA76B13E8B82765"
@@ -921,6 +946,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "5853B5BEA26EB9D3"
 			rewards: [{
 				id: "1C7DDAF84D56EB26"
@@ -938,6 +964,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "3EC12A33F40FA715"
 			rewards: [{
 				id: "3412AE5A2783A9B8"
@@ -955,6 +982,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0900ECEA2937E8A4"
 			rewards: [{
 				id: "5E792100DDBB23F7"
@@ -972,6 +1000,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "3DDABCC9623C2498"
 			rewards: [{
 				id: "359C0E270BDB785B"
@@ -989,6 +1018,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "291D09473456BF5C"
 			rewards: [{
 				id: "3FAA852AE89DE5DB"
@@ -1006,6 +1036,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "78FCB572199DFA70"
 			rewards: [{
 				id: "2A45C21D03B0DF43"
@@ -1023,6 +1054,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "35C9A413BCCCA8CA"
 			rewards: [{
 				id: "643BACAF7F0877B0"
@@ -1040,6 +1072,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "kubejs:copper_chestplate"
@@ -1106,6 +1139,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "kubejs:silver_chestplate"
@@ -1172,6 +1206,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "kubejs:lead_chestplate"
@@ -1238,6 +1273,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "enigmaticlegacy:etherium_chestplate"
@@ -1304,6 +1340,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "naturesaura:depth_chest"
@@ -1370,6 +1407,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1B28DFF587981D90"
 			rewards: [{
 				id: "66C6CE51283C6830"
@@ -1387,6 +1425,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "4061DD58F638AC6B"
 			rewards: [{
 				id: "558DE8F1EA755459"
@@ -1404,6 +1443,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "5B18692A50FAA37C"
 			rewards: [{
 				id: "2DCC53D2E2EE7871"
@@ -1421,6 +1461,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0988A0F79DD6C6FF"
 			rewards: [{
 				id: "4475B5AB5E3CE04A"
@@ -1438,6 +1479,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "051CBA938A4C892D"
 			rewards: [{
 				id: "373CDA1E4C0B39A9"
@@ -1455,6 +1497,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "3578DBF68C568076"
 			rewards: [{
 				id: "76B0E942070E5758"
@@ -1472,6 +1515,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "5E2ECAC9B6E6E1E9"
 			rewards: [{
 				id: "08D644F9103B89C4"
@@ -1506,6 +1550,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "536FA00862F3E100"
 			rewards: [{
 				id: "655765522ACC1553"
@@ -1523,6 +1568,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "twilightforest:naga_chestplate"
@@ -1579,6 +1625,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "twilightforest:ironwood_chestplate"
@@ -1665,6 +1712,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "twilightforest:steeleaf_chestplate"
@@ -1751,6 +1799,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "twilightforest:arctic_chestplate"
@@ -1817,6 +1866,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "twilightforest:yeti_chestplate"
@@ -1909,6 +1959,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "twilightforest:fiery_chestplate"
@@ -1975,6 +2026,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "aether:neptune_chestplate"
@@ -2040,6 +2092,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "aether:gravitite_chestplate"
@@ -2106,6 +2159,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "twilightforest:knightmetal_chestplate"
@@ -2172,6 +2226,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "deep_aether:skyjade_chestplate"
@@ -2238,6 +2293,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "aether:zanite_chestplate"
@@ -2304,6 +2360,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "twilightforest:phantom_chestplate"
@@ -2348,6 +2405,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "aether:phoenix_chestplate"
@@ -2414,6 +2472,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "deep_aether:stratus_chestplate"
@@ -2479,6 +2538,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "aether:obsidian_chestplate"
@@ -2545,6 +2605,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ancient_aether:valkyrum_chestplate"
@@ -2676,6 +2737,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "deep_aether:stormforged_chestplate"
@@ -2736,6 +2798,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1EC6F62D392CAC6A"
 			rewards: [{
 				count: 3
@@ -2754,6 +2817,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2820,6 +2884,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "wizards_reborn:arcane_gold_chestplate"
@@ -2890,6 +2955,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "wizards_reborn:inventor_wizard_costume"
@@ -2961,6 +3027,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "wizards_reborn:arcane_fortress_chestplate"
@@ -3031,6 +3098,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "60BF72F86B1889AD"
 			rewards: [{
 				count: 3
@@ -3049,6 +3117,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "kubejs:bronze_chestplate"
@@ -3115,6 +3184,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ars_nouveau:sorcerer_robes"
@@ -3180,6 +3250,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ars_nouveau:arcanist_robes"
@@ -3246,6 +3317,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ars_nouveau:battlemage_robes"
@@ -3311,6 +3383,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:wandering_magician_chestplate"
@@ -3371,11 +3444,12 @@
 				}
 			]
 			title: "Wandering Magician Set"
-			x: 5.0d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:pumpkin_chestplate"
@@ -3436,11 +3510,12 @@
 				}
 			]
 			title: "Scarecrow Set"
-			x: 6.0d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:pyromancer_chestplate"
@@ -3519,6 +3594,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:cryomancer_chestplate"
@@ -3597,6 +3673,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:electromancer_chestplate"
@@ -3675,6 +3752,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:archevoker_chestplate"
@@ -3753,6 +3831,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:cultist_chestplate"
@@ -3831,6 +3910,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:shadowwalker_chestplate"
@@ -3909,6 +3989,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:priest_chestplate"
@@ -3987,6 +4068,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:plagued_chestplate"
@@ -4065,6 +4147,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:netherite_mage_chestplate"
@@ -4142,6 +4225,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "thermal:hazmat_chestplate"
@@ -4208,6 +4292,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "54B1BE939604B9B6"
 			rewards: [{
 				count: 3
@@ -4226,6 +4311,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "71556D6EEF758374"
 			rewards: [{
 				count: 3
@@ -4244,6 +4330,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0C63C1D4A924F341"
 			rewards: [{
 				count: 3
@@ -4262,6 +4349,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "3DF810358D41E6A4"
 			rewards: [{
 				count: 3
@@ -4280,6 +4368,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "219B182FB7C69E42"
 			rewards: [{
 				count: 3
@@ -4294,10 +4383,11 @@
 			}]
 			title: "Steeleaf Upgrade"
 			x: -12.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "7B85C3E307920CF6"
 			rewards: [{
 				count: 3
@@ -4316,6 +4406,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "6557A4D3FC1DF01D"
 			rewards: [{
 				count: 3
@@ -4334,6 +4425,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "408DDAB813AF5267"
 			rewards: [{
 				count: 3
@@ -4352,6 +4444,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "550108F64554D4C6"
 			rewards: [{
 				count: 3
@@ -4366,10 +4459,11 @@
 			}]
 			title: "Zanite Upgrade"
 			x: -12.5d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "3B4DEDD05E17E12F"
 			rewards: [{
 				count: 3
@@ -4388,6 +4482,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0B5B5F34AA10813D"
 			rewards: [{
 				count: 3
@@ -4406,6 +4501,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "493F5C466DF0FCE1"
 			rewards: [{
 				count: 3
@@ -4419,11 +4515,12 @@
 				type: "item"
 			}]
 			title: "Arcane Gold Upgrade"
-			x: -12.5d
-			y: 0.5d
+			x: -12.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "01E46CCB7F7A770C"
 			rewards: [{
 				count: 3
@@ -4437,11 +4534,12 @@
 				type: "item"
 			}]
 			title: "Netherite Battlemage Upgrade"
-			x: -12.0d
-			y: 1.5d
+			x: -11.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "38C9160765C14FFD"
 			rewards: [{
 				count: 3
@@ -4460,6 +4558,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0DFB832C2639266C"
 			rewards: [{
 				count: 3
@@ -4478,42 +4577,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "0EBC2E8C3D61B0E3"
-			rewards: [{
-				count: 3
-				id: "03EC9584B9C3C5E7"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5A0CA4E08332CC73"
-				item: "kubejs:draco_arcanus_upgrade_smithing_template"
-				type: "item"
-			}]
-			title: "Draco Arcanus Upgrade"
-			x: -11.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "1B87697A22BF5AF1"
-			rewards: [{
-				count: 3
-				id: "6284E173B03CAB82"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "09C0EC3253A753A5"
-				item: "kubejs:tyr_upgrade_smithing_template"
-				type: "item"
-			}]
-			title: "Tyr Upgrade"
-			x: -10.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "26D610823EA20290"
 			rewards: [{
 				count: 3
@@ -4532,6 +4596,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "16C2DAC081931510"
 			rewards: [{
 				count: 3
@@ -4547,6 +4612,163 @@
 			title: "Valkyrum Upgrade"
 			x: -10.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
+			id: "3AC1DA740FA5BA05"
+			rewards: [{
+				count: 3
+				id: "03C51F0626F2AFBC"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4649F553B73EF347"
+				item: "kubejs:wizard_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Wizard Upgrade"
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "kubejs:cactus_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "65DE3E6171E139C1"
+			rewards: [{
+				count: 2
+				id: "415E7B7B6D83E984"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "537A201852434787"
+					item: {
+						Count: 1
+						id: "kubejs:cactus_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D6ED4F135551430"
+					item: {
+						Count: 1
+						id: "kubejs:cactus_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "415790F83895BF9C"
+					item: {
+						Count: 1
+						id: "kubejs:cactus_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A9A6E4CBCCF0D6B"
+					item: {
+						Count: 1
+						id: "kubejs:cactus_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cactus Set"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:wizard_chestplate"
+				tag: {
+					Damage: 0
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "3A0CA5DE2BD7B50C"
+			rewards: [{
+				id: "2727C9762E4371EA"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "175C4A10135DF4EC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F0231194F84BC4B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C9E3F35C30E7852"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58483ADE6C3AC0EE"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wizard Set"
+			x: 6.5d
+			y: -1.0d
 		}
 	]
 	title: "Armorsmith"
