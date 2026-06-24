@@ -1,0 +1,10 @@
+[
+    {
+        "inputs":["create:mechanical_press"],
+        "output": "minecraft:piston",
+        "structures":[
+            "idas:desert_ruins",
+            "integrated_stronghold:stronghold"
+        ]
+    }
+]

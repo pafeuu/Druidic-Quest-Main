@@ -1,0 +1,11 @@
+[
+    {
+        "inputs": ["create:millstone"],
+        "output": "kubejs:primitive_machine",
+        "structures":[
+            "idas:farmhouse",
+            "idas:ruined_church",
+            "integrated_stronghold:stronghold"
+        ]
+    }
+]

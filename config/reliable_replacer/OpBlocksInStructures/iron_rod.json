@@ -1,0 +1,11 @@
+[
+    {
+        "inputs":["quark:iron_rod"],
+        "output": "quark:oak_post",
+        "structures":[
+            "idas:dig_site/dig_site_desert",
+            "idas:dig_site/dig_site",
+            "integrated_stronghold:stronghold"
+        ]
+    }
+]

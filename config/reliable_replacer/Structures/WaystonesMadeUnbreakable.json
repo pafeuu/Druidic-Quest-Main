@@ -1,0 +1,44 @@
+[
+    {
+        "inputs": [
+            "waystones:waystone"
+        ],
+
+        "output": "waystones:waystone",
+        "output_state_properties": {
+            "origin": "village"
+        },
+        "structures": [
+            "idas:tinkers_citadel",
+            "idas:ancient_mines",
+            "idas:castle"
+        ]
+    },
+    {
+        "inputs": [
+            "waystones:sandy_waystone"
+        ],
+        "output": "waystones:sandy_waystone",
+        "output_state_properties": {
+            "origin": "village"
+        },
+        "structures": [
+            "idas:bazaar",
+            "idas:desert_market/desert_market_orange",
+            "idas:desert_market/desert_market_red",
+            "idas:desert_market/desert_market"
+        ]
+    },
+    {
+        "inputs": [
+            "waystones:mossy_waystone"
+        ],
+        "output": "waystones:mossy_waystone",
+        "output_state_properties": {
+            "origin": "village"
+        },
+        "structures": [
+            "idas:collectors_museum"
+        ]
+    }
+]

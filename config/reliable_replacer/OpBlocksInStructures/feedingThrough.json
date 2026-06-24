@@ -1,0 +1,12 @@
+[
+    {
+        "inputs": [
+            "quark:feeding_trough"
+        ],
+        "output": "minecraft:composter",
+        "structures": [
+            "idas:castle",
+            "integrated_stronghold:stronghold"
+        ]
+    }
+]

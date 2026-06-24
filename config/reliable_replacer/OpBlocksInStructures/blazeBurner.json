@@ -1,0 +1,15 @@
+[
+    {
+        "inputs": ["create:blaze_burner","create:lit_blaze_burner"],
+        "output": "supplementaries:fire_pit",
+        "structures":[
+            "idas:ars_nouveau/archmages_tower",
+            "idas:collectors_museum",
+            "idas:necromancers_spire",
+            "idas:castle",
+            "idas:ruins_of_the_deep",
+            "idas:witches_treestump",
+            "integrated_stronghold:stronghold"
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "inputs": ["create:mechanical_bearing"],
+        "output": "kubejs:primitive_machine",
+        "structures":[
+            "idas:pillager_camp",
+            "integrated_stronghold:stronghold"
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "inputs":["create:mechanical_harvester"],
+        "output": "kubejs:primitive_machine",
+        "structures":[
+            "idas:haunted_manor",
+            "integrated_stronghold:stronghold"
+        ]
+    }
+]

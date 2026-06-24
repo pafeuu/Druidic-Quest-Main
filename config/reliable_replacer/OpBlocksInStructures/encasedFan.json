@@ -1,0 +1,14 @@
+[
+    {
+        "inputs":["create:encased_fan"],
+        "output": "supplementaries:bellows",
+        "structures":[
+            "idas:collectors_museum",
+            "idas:washing_camp",
+            "idas:desert_pyramid",
+            "idas:labyrinth",
+            "idas:windswept_shrine",
+            "integrated_stronghold:stronghold"
+        ]
+    }
+]
