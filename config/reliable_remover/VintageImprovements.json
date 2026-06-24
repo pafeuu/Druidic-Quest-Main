@@ -1,0 +1,15 @@
+{
+  "action": "remove",
+  "mod": ["vintageimprovements"],
+  "not": {
+    "tags": [
+      "#forge:rods",
+      "#forge:plates"
+    ],
+    "items": [
+      "vintageimprovements:grinder_belt",
+      "vintageimprovements:belt_grinder",
+      "vintageimprovements:redstone_module"
+    ]
+  }
+}
