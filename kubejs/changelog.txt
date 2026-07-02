@@ -4769,3 +4769,32 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Added missing golden flower tag to aether flowers
     -Fixed Wizard smithing template tooltip
     -Fixed Herbivorous Absorber aura generation amounts
+
+# Patch 5.2.2
+
+### Updated Mods: 
+    -TooManyRecipeViewers
+    -UniversalSawmill
+    -SophisticatedMods +
+    -NaturesAuraPlus +
+    -BiomeMusic
+    -Collective
+    -EveryCompat
+    -FancyMenu
+    -ImmediatelyFast
+    -Kiwi
+    -ModernFix
+    -ReliableReplacer
+    
+
+### Item Balance:
+    -Fixed Phantom and Naga gloves lack of stats
+
+### Quests:
+    -Fixed "Flimsy Journal" quest only working with empty book
+    -Added rewards for "Wixie Charm" and "Canopy Dimnisher" quests
+    -Fixed "Ziplines!" Quest not consuming gold coins
+
+### Patchouli Books:
+    -Fixed a Blaze entry in Druidic Bestiary
+    -Added an entry for Stonelings in Druidic Bestiary
