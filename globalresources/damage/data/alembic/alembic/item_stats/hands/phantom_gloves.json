@@ -4,7 +4,21 @@
     {
       "type": "remove",
       "target": "minecraft:generic.attack_damage"
-    }
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage",
+      "value": 0.5,
+      "operation": "ADDITION",
+      "uuid": "1f5c8e86-9821-45c5-87f0-da34fbb2a25f"
+    },
+    {
+      "type": "append",
+      "attribute": "attributeslib:dodge_chance",
+      "value": 0.05,
+      "operation": "ADDITION",
+      "uuid": "7e30e778-28f2-48b0-9ce7-56a1a53a191b"
+    } 
   ],
   "equipment_slot": "hands"
 }

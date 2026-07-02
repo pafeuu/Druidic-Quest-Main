@@ -4,7 +4,21 @@
     {
       "type": "remove",
       "target": "minecraft:generic.attack_damage"
-    }
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage",
+      "value": 0.5,
+      "operation": "ADDITION",
+      "uuid": "77dd86a0-7b84-4848-835f-370cc109907f"
+    },
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:stamina",
+      "value": 0.25,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "30c25fdb-64c5-4489-966d-dbfc7e94e956"
+    } 
   ],
   "equipment_slot": "hands"
 }
