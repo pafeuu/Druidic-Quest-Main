@@ -1354,6 +1354,12 @@
 			dependencies: ["0773DBD92BA8845A"]
 			description: [""]
 			id: "63EF6558322E13C4"
+			rewards: [{
+				count: 4
+				id: "65852A988C6DBAE2"
+				item: "kubejs:infused_amethyst"
+				type: "item"
+			}]
 			subtitle: "The cutest autocrafting around!"
 			tasks: [{
 				id: "0C3BA23C6D5F02AE"
@@ -1390,6 +1396,19 @@
 				"The &6Canopy Diminisher&r converts excess growth energy from tall oak trees into Aura, replenishing the surrounding area while preventing the oaks from growing too tall."
 			]
 			id: "5B1A108E8E4B3DBF"
+			rewards: [
+				{
+					id: "4FFF9737B52490A0"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5AE3F47A31574E47"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
 			subtitle: "More Reliable Aura Generation"
 			tasks: [{
 				id: "0D008B8344F3BC49"
@@ -1424,6 +1443,7 @@
 						}
 					}
 				}
+				match_nbt: false
 				type: "item"
 			}]
 			x: 11.0d
@@ -1548,6 +1568,7 @@
 			shape: "pentagon"
 			size: 1.1d
 			tasks: [{
+				consume_items: true
 				id: "0D265BD9275AE200"
 				item: "thermal:gold_coin"
 				type: "item"

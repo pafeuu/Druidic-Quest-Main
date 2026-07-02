@@ -1,0 +1,19 @@
+#Maximum number of logs/stems the Tree Ritual will map. (Default: 500)
+#Range: 10 ~ 10000
+maxRitualLogs = 500
+#Maximum number of leaves the Tree Ritual will search for to destroy. (Default: 2,500)
+#Range: 10 ~ 15000
+maxRitualLeaves = 2500
+#The aura cost of using the loot finder item. (Default: 100,000)
+#Range: 0 ~ 1200000
+lootFinderAuraCost = 100000
+#Maximum range (in blocks) upto which loot finder item can detect treasure. (Default: 64)
+#Range: 0 ~ 1024
+lootFinderRange = 64
+#Cooldown set on loot finder item upon use, in ticks. (Default: 1,200)
+#Range: 0 ~ 72000
+lootFinderUseCooldownInTicks = 1200
+#How long the loot finder particles stay, in ticks. (Default: 1,200)
+#Range: 0 ~ 72000
+lootFinderLightLifeInTicks = 1200
+
