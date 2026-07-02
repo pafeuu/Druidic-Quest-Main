@@ -1,0 +1,18 @@
+{
+    "name": "Stoneling",
+    "category": "patchouli:ow_dark",
+    "icon": "quark:stoneling_spawn_egg",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Resistance:$()$(br)Nature ($(4)-20%$())   Unholy ($(4)-20%$())$(2br)$(l)Weakness:$()$(br)Arcane ($(2)+25%$())   $(2br)$(l)Damage:$()$(br)Physical (100%)"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "quark:stoneling",
+            "rotate": "false",
+            "default_rotation": "35"
+        }
+    ]
+}
