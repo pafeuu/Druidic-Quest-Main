@@ -17,7 +17,7 @@
     },
     {
       "type": "append",
-      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "attribute": "manaunification:max_mana",
       "value": 0.4,
       "operation": "MULTIPLY_TOTAL",
       "uuid": "4958f7c1-88b4-4606-81ee-c74109ff258a"

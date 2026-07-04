@@ -24,7 +24,7 @@
     },
     {
       "type": "append",
-      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "attribute": "manaunification:max_mana",
       "value": 75,
       "operation": "ADDITION",
       "uuid": "7f222768-1052-4d5a-a0bb-1a09fdc50396"

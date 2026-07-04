@@ -2,7 +2,7 @@
   "modifiers": [
     {
       "type": "append",
-      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "attribute": "manaunification:mana_regen",
       "value": 0.25,
       "operation": "MULTIPLY_TOTAL",
       "uuid": "bd9a7a74-2bca-4f09-a7ac-88305c9a09af"
