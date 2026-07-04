@@ -4776,7 +4776,7 @@ Spells will only be disabled in new worlds or if you reset the server config
     -TooManyRecipeViewers
     -UniversalSawmill
     -SophisticatedMods +
-    -NaturesAuraPlus +
+    -NaturesAuraPlus 
     -BiomeMusic
     -Collective
     -EveryCompat
@@ -4798,3 +4798,14 @@ Spells will only be disabled in new worlds or if you reset the server config
 ### Patchouli Books:
     -Fixed a Blaze entry in Druidic Bestiary
     -Added an entry for Stonelings in Druidic Bestiary
+
+
+# Patch 5.2.3
+
+### Other:
+    -Fixed all the items that gave max mana or mana regen
+
+### Loottables:
+    -Reworked TF basement loottable
+    -Reworked TF fancy well loottable
+

@@ -293,6 +293,14 @@
     "curseForgeHash": 1958342223,
     "modrinthHash": "bcd51694634275ed8920832f04da6b178df2046b"
   },
+  "certain_questing_additions-forge-1.2.0.2+mc1.20.1.jar": {
+    "jarName": "certain_questing_additions-forge-1.2.0.2+mc1.20.1.jar",
+    "modId": "certain_questing_additions",
+    "name": "Certain Questing Additions",
+    "version": "1.2.0.2",
+    "curseForgeHash": 3798241293,
+    "modrinthHash": "4fda004986d58562ac62e8d61b60c7d66be4115c"
+  },
   "chat_heads-0.15.2-forge-1.20.jar": {
     "jarName": "chat_heads-0.15.2-forge-1.20.jar",
     "modId": "chat_heads",
@@ -1362,13 +1370,13 @@
     "curseForgeHash": 2086622523,
     "modrinthHash": "c0f6e2421088f06abf5c1be2f49f39639552b1d0"
   },
-  "naturesaura_plus-0.2.1-alpha-1.20.1.jar": {
-    "jarName": "naturesaura_plus-0.2.1-alpha-1.20.1.jar",
+  "naturesaura_plus-0.2.2-beta-1.20.1.jar": {
+    "jarName": "naturesaura_plus-0.2.2-beta-1.20.1.jar",
     "modId": "naturesaura_plus",
     "name": "NaturesAuraPlus",
-    "version": "0.2.1-alpha-1.20.1",
-    "curseForgeHash": 2235436751,
-    "modrinthHash": "af4e684ef3a9352722372cbc8b4af81679cb15fa"
+    "version": "0.2.2-beta-1.20.1",
+    "curseForgeHash": 2641458687,
+    "modrinthHash": "6472d6fa54a7e8adbec5d6fa17ad7535b65b28a6"
   },
   "NaturesCompass-1.20.1-1.12.0-forge.jar": {
     "jarName": "NaturesCompass-1.20.1-1.12.0-forge.jar",
