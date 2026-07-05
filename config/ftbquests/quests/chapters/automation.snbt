@@ -174,30 +174,6 @@
 		}
 		{
 			dependencies: ["5171A92A9587D551"]
-			id: "75139B4B416A0216"
-			tasks: [
-				{
-					id: "04341096198C924F"
-					item: "prettypipes:pipe"
-					type: "item"
-				}
-				{
-					id: "33078575D09CB70A"
-					item: "prettypipes:low_extraction_module"
-					type: "item"
-				}
-				{
-					id: "6EEBEE1C0B2A789F"
-					item: "prettypipes:pressurizer"
-					type: "item"
-				}
-			]
-			title: "Pretty Pipes Item Transportation"
-			x: -3.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5171A92A9587D551"]
 			id: "2922282787F18DF9"
 			tasks: [
 				{
