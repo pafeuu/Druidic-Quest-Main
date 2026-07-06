@@ -27,8 +27,6 @@
                     "conditions": [
                         {"condition": "deepness","y":{"min":30,"max":300}},
                         {"condition": "advancement","advancements":["restrictedportals:nether"]},
-                        {"condition": "advancement","advancements":["restrictedportals:aether"],"inverted":"true"},
-                        {"condition": "advancement","advancements":["restrictedportals:theend"],"inverted":"true"},
                         {"condition": "chance","chance":{"value":0.025,"modifiers": [
                             {
                                 "modifier": "difficulty",
