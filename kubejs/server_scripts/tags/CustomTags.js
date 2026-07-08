@@ -623,9 +623,6 @@ ServerEvents.tags("item", (e) => {
     if (id.includes("salt_torch")) {
       saltTorches.push(id);
     }
-    if (id.includes("prettypipes") && id.includes("module")) {
-      pipeModules.push(id);
-    }
     if (id.includes("upgrade")) {
       if (id.includes("sophisticatedbackpacks")) backpackUpgrades.push(id);
       else if (id.includes("sophisticatedstorage")) storageUpgrades.push(id);

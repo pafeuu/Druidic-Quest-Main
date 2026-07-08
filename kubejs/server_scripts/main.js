@@ -815,8 +815,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("vintagedelight:evaporator")
 
-	event.shaped("naturesaura:ancient_stick", [" P", "P "], { P: "naturesaura:ancient_slab" }).id("naturesaura:ancient_stick")
-
 	event.shapeless("craftingstation:crafting_station_slab", "craftingstation:crafting_station").id("craftingstation:crafting_station_slab")
 	event.shapeless("6x wizards_reborn:flower_fertilizer", ["4x thermal:compost", "5x wizards_reborn:petals"]).id("wizards_reborn:shapeless/flower_fertilizer")
 
@@ -4826,11 +4824,6 @@ ServerEvents.recipes(event => {
 
 		}
 	)
-	event.recipes.create.compacting("prettypipes:blank_module", ["#forge:storage_blocks/zinc", "3x prettypipes:pipe", "vintageimprovements:redstone_module"]).id("prettypipes:blank_module")
-
-	event.recipes.create.compacting("prettypipes:low_crafting_module", ["prettypipes:blank_module", "create:mechanical_arm", "sophisticatedstorage:crafting_upgrade"]).id("prettypipes:low_crafting_module")
-
-	event.recipes.create.compacting("prettypipes:low_filter_module", ["prettypipes:blank_module", "sophisticatedstorage:filter_upgrade", "3x prettypipes:pipe"]).id("prettypipes:low_filter_module")
 
 	event.recipes.create.mixing("2x kubejs:fiery_clay_blend", ["8x #forge:dusts/coal_coke", "4x ars_nouveau:fire_essence", "4x ars_nouveau:earth_essence", "2x clay_ball", "8x wizards_reborn:nether_salt"]).heated()
 
@@ -4921,16 +4914,7 @@ ServerEvents.recipes(event => {
 
 
 	event.remove({ id: 'ars_nouveau:storage_lectern' })
-	event.custom({
-		type: "ars_nouveau:imbuement",
-		"count": 1,
-		"input": {
-			item: "prettypipes:crafting_terminal"
-		},
-		"output": 'ars_nouveau:storage_lectern',
-		"pedestalItems": [],
-		"source": 10000
-	})
+	
 
 	event.remove({ output: 'minecraft:hopper' })
 	event.shaped(
@@ -4957,20 +4941,6 @@ ServerEvents.recipes(event => {
 		{
 			I: '#forge:plates/iron',
 			M: 'woodenhopper:wooden_hopper',
-
-		}
-	)
-
-	event.remove({ output: "prettypipes:pipe" })
-	event.shaped(
-		Item.of('prettypipes:pipe'),
-		[
-			'IMI'
-
-		],
-		{
-			I: '#forge:nuggets/steel',
-			M: 'quark:pipe'
 
 		}
 	)
