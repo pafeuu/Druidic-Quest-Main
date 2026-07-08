@@ -19,7 +19,6 @@ JEIEvents.information(event => {
 
     event.addItem("kubejs:mittens", ["Common loot in chests in snowy biomes"])
     event.addItem("supplementaries:ash", ["Created in world after blocks burn"])
-    event.addItem("minecraft:netherite_upgrade_smithing_template", ["Drops from The Wither"])
     event.addItem(['wizards_reborn:arcane_salt_torch',
         'wizards_reborn:innocent_salt_torch',
         'wizards_reborn:cork_bamboo_salt_torch',

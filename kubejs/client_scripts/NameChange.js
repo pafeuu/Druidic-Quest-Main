@@ -10,7 +10,6 @@ ClientEvents.lang("en_us", event => {
 	}
 	tools('wooden','Flint')
 
-    event.renameBlock("aether:altar","Mending Altar")
 	event.renameItem('irons_spellbooks:arcane_essence', 'Mystic Dust')
     event.renameItem('irons_spellbooks:cinder_essence', 'Cinder Dust')
     
@@ -29,10 +28,8 @@ ClientEvents.lang("en_us", event => {
     event.renameItem("immersiveengineering:storage_steel","Stainless Steel Block")
     event.renameItem("immersiveengineering:slab_storage_steel","Stainless Steel Slab")
     event.renameItem("immersiveengineering:stick_steel","Stainless Steel Rod")
-    event.renameItem("create:fluid_pipe", "Copper Fluid Pipe")
+  
     event.renameItem("quark:copper_pipe", "Copper Item Pipe")
-    event.renameItem("prettypipes:pipe", "Storm Item Pipe")
-	event.renameItem("create:chute","Iron Chute")
     event.renameItem("immersiveengineering:ingot_steel","Stainless Steel Ingot")
 
     event.renameBlock("wizards_reborn:fluid_pipe","Wisestone Fluid Pipe")
@@ -65,7 +62,7 @@ ClientEvents.lang("en_us", event => {
     event.renameBlock("thermal:sulfur_block","Block of Sulfur Gem")
     event.renameBlock("thermal:cinnabar_block","Block of Cinnabar Gem")
 
-    let newCategories = [
+    /*let newCategories = [
         "coral",
         "arrows",
         "table_cloths",
@@ -165,7 +162,7 @@ ClientEvents.lang("en_us", event => {
             
         event.add("stackgroup.emixx."+name,displayName)
 
-    });
+    });*/
 
 
     event.renameItem("waystones:warp_scroll","Waystone Warp Scroll")
