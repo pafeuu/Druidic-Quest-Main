@@ -116,7 +116,9 @@
       "thermal:phytogro",
       "thermal:junk_net",
       "thermal:aquachow",
-      "thermal:deep_aquachow"
+      "thermal:deep_aquachow",
+      "thermal:servo_attachment",
+      "thermal:turbo_servo_attachment"
     ]
   }
 }

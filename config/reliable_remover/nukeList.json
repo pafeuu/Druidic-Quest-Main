@@ -323,22 +323,6 @@
         "immersiveengineering:plate_nickel",
         "immersiveengineering:plate_silver",
         "immersiveengineering:plate_lead",
-        "thermal:iron_plate",
-        "thermal:gold_plate",
-        "thermal:copper_plate",
-        "thermal:tin_plate",
-        "thermal:lead_plate",
-        "thermal:silver_plate",
-        "thermal:netherite_plate",
-        "thermal:nickel_plate",
-        "thermal:enderium_plate",
-        "thermal:lumium_plate",
-        "thermal:signalum_plate",
-        "thermal:constantan_plate",
-        "thermal:invar_plate",
-        "thermal:electrum_plate",
-        "thermal:bronze_plate",
-        "thermal:rose_gold_plate",
         "vintageimprovements:shadow_steel_wire",
         "vintageimprovements:shadow_steel_sheet",
         "vintageimprovements:shadow_steel_rod",
@@ -624,6 +608,7 @@
         "vintagedelight:cheese_wheel",
         "naturesaura:gold_brick",
         "naturesaura:gold_nether_brick",
-        "immersive_weathering:nulch_block"
+        "immersive_weathering:nulch_block",
+        "create:golden_sheet"
     ]
 }
