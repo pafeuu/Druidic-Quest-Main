@@ -1,0 +1,9 @@
+{
+  "remaps": [
+    {
+      "source": "vintageimprovements:silver_sheet",
+      "target": "thermal:silver_plate",
+      "types": ["item"]
+    }
+  ]
+}
