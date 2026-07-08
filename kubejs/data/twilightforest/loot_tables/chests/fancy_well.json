@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries":[
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:infused_diamond",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:sapphire",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thermal:sapphire",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:diamond_heart",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thermal:gold_coin",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thermal:silver_coin",
+          "weight": 20
+        }
+      ],
+      "rolls": {"min":2,"max":4}
+    },
+    {
+      "entries":[
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thermal:copper_coin"
+        }
+      ],
+      "rolls": 8
+    }
+  ],
+  "random_sequence": "twilightforest:chests/fancy_well"
+}
