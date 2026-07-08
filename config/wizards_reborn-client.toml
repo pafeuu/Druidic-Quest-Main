@@ -58,6 +58,8 @@
 	monogramRays = true
 	#Enable centered value in config.
 	configCenter = true
+	#Enable censorship of explicit language in Arcanemicon.
+	arcanemiconCensorship = false
 
 #Numerical
 [numerical]
