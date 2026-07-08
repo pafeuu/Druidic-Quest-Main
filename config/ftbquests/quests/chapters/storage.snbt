@@ -38,8 +38,8 @@
 				item: "ars_nouveau:repository"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1CBDCC784C114148"]
@@ -137,7 +137,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1CBDCC784C114148"]
@@ -163,8 +163,8 @@
 				type: "item"
 			}]
 			title: "Bundles"
-			x: -1.0d
-			y: -1.0d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6CD01F8C044E9250"]
@@ -267,26 +267,6 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["1CBDCC784C114148"]
-			id: "4F6B3472311B022F"
-			rewards: [{
-				id: "2805739F59B63294"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2C55D8CFCF63D108"
-				item: {
-					Count: 1
-					id: "thermal:satchel"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -0.5d
-			y: 1.0d
-		}
-		{
 			dependencies: ["6CDE2D6E743FAAA5"]
 			description: ["&4&owork in progress&r&r"]
 			icon: "minecraft:lava_bucket"
@@ -330,26 +310,6 @@
 		}
 		{
 			dependencies: ["25205D8CDA01C923"]
-			id: "7ADBACC2256AE817"
-			rewards: [{
-				id: "0E4B8224159EA1C2"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "16377D7A31FAD52A"
-				item: {
-					Count: 1
-					id: "thermal:fluid_reservoir"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["25205D8CDA01C923"]
 			id: "5D9784871E2DC5FC"
 			rewards: [{
 				count: 3
@@ -362,8 +322,8 @@
 				item: "starbunclemania:fluid_jar"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["25205D8CDA01C923"]
@@ -426,22 +386,6 @@
 			}]
 			x: 7.5d
 			y: 1.0d
-		}
-		{
-			dependencies: ["6398E76C0FB41209"]
-			id: "43EFCDA4C8EA8139"
-			rewards: [{
-				id: "23FF17A06271F6C1"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5BEA6D517106E9C8"
-				item: "thermal:fluid_tank_augment"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 5.5d
 		}
 		{
 			dependencies: ["25205D8CDA01C923"]
