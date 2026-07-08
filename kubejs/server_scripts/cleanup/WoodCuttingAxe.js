@@ -166,4 +166,6 @@ ItemEvents.rightClicked(event => {
 	StrippedWoodCutting("biomeswevegone:palm_planks","biomeswevegone:stripped_palm_wood")
 	StrippedWoodCutting("biomeswevegone:maple_planks","biomeswevegone:stripped_maple_wood")
 	StrippedWoodCutting("biomeswevegone:florus_planks","biomeswevegone:stripped_florus_wood")
+	StrippedWoodCutting("naturesaura:ancient_planks","naturesaura:stripped_ancient_bark")
+	StrippedWoodCutting("naturesaura:ancient_planks","naturesaura:stripped_ancient_log")
 })

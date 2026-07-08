@@ -352,8 +352,8 @@ ServerEvents.recipes(event => {
 	CuttingLogs("biomeswevegone:palm_planks", "biomeswevegone:stripped_palm_wood")
 	CuttingLogs("biomeswevegone:maple_planks", "biomeswevegone:stripped_maple_wood")
 	CuttingLogs("biomeswevegone:florus_planks", "biomeswevegone:stripped_florus_wood")
-	CuttingLogs("naturesaura:ancient_planks", "naturesaura:ancient_log")
-	CuttingLogs("naturesaura:ancient_planks", "naturesaura:ancient_bark")
+	CuttingLogs("naturesaura:ancient_planks", "naturesaura:stripped_ancient_log")
+	CuttingLogs("naturesaura:ancient_planks", "naturesaura:stripped_ancient_bark")
 	CuttingLogs("wizards_reborn:cork_bamboo_planks", "wizards_reborn:cork_bamboo_block")
 
 
@@ -918,27 +918,8 @@ ServerEvents.recipes(event => {
 	});
 
 	event.shaped("naturesaura:ancient_stick",["L "," L"],{L:"#forge:ancient_wood"})
-	event.shaped("naturesaura:ancient_stick",["L","L"],{L:"#forge:ancient_wood"})
-	function woodcutting(output, outputAmount,input, amount) {
-
-		if(typeof amount === 'undefined')
-			amount = 1;
-
-		event.custom({
-			type: "sawmill:woodcutting",
-			ingredient_count: amount,
-			count: outputAmount,
-			ingredient: {
-				item: input
-			},
-			result: output
-		})
-	}
-	//woodcutting("naturesaura:ancient_stick",1,"naturesaura:ancient_log",2)
-
-	//event.remove({input: "#minecraft:planks", output: "#minecraft:wooden_trapdoors"})
-
-
+	event.shaped("naturesaura:ancient_stick",["L","L"],{L:"#forge:ancient_wood"}).id("naturesaura:ancient_stick")
+	
 
 
 })
