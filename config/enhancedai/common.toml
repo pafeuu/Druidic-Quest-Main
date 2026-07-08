@@ -581,7 +581,7 @@
 		"Equip fishing rod chance" = 0.07
 		#Chance for a fisher mob to steal an entity item in the hands instead of reeling the player.
 		#Range: 0.0 ~ 1.0
-		"Hook hands chance" = 0.4
+		"Hook hands chance" = 0.0
 		#After how many ticks a mob will be forced to reel in the bobber.
 		#Range: > 0
 		"Force reel in" = 60
