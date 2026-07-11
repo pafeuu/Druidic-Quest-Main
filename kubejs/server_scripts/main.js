@@ -2710,13 +2710,28 @@ ServerEvents.recipes(event => {
 		[
 			'CEC',
 			'CXC',
-			'LLL'
+			'LPL'
 		],
 		{
 			C: 'farmersdelight:canvas',
 			L: '#forge:leather',
-			X: 'immersiveengineering:crate',
-			E: 'minecraft:ender_pearl'
+			X: "supplementaries:sack",
+			E: 'minecraft:ender_pearl',
+			P: "#forge:plates/wooden"
+		}
+	)
+	event.shaped(
+		Item.of('sophisticatedbackpacks:backpack'),
+		[
+			'CLC',
+			'CXC',
+			'LPL'
+		],
+		{
+			C: 'farmersdelight:canvas',
+			L: '#forge:leather',
+			X: "#minecraft:shulker_boxes",
+			P: "#forge:plates/wooden"
 		}
 	)
 
@@ -4163,7 +4178,7 @@ ServerEvents.recipes(event => {
 						item: "kubejs:unassembled_clock"
 					},
 					{
-						item: "vintageimprovements:redstone_module"
+						item: "kubejs:redstone_core"
 					}
 				],
 				results: [
@@ -4241,7 +4256,7 @@ ServerEvents.recipes(event => {
 						item: "kubejs:unassembled_compass"
 					},
 					{
-						item: "vintageimprovements:redstone_module"
+						item: "kubejs:redstone_core"
 					}
 				],
 				results: [
@@ -4327,7 +4342,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			X: 'minecraft:dispenser',
-			Z: 'vintageimprovements:redstone_module',
+			Z: 'kubejs:redstone_core',
 			A: 'create:andesite_casing',
 			Y: 'minecraft:hopper',
 			G: '#forge:gears/andesite'
@@ -4601,7 +4616,7 @@ ServerEvents.recipes(event => {
 			P: '#forge:plates/silver',
 			X: 'kubejs:ender_essence',
 			Y: "sophisticatedstorage:gold_barrel",
-			Z: "vintageimprovements:redstone_module",
+			Z: "kubejs:redstone_core",
 			L: "sophisticatedstorage:storage_link"
 		}
 	).id("sophisticatedstorage:controller")
@@ -4733,7 +4748,7 @@ ServerEvents.recipes(event => {
 			"SCS"
 		],
 		{
-			C: "vintageimprovements:redstone_module",
+			C: "kubejs:redstone_core",
 			S: "immersiveengineering:sheetmetal_steel",
 			X: "kubejs:steel_machine"
 		}

@@ -87,7 +87,7 @@ ServerEvents.tags("item", (event) => {
     "supplementaries:wild_flax"
   ]);
 
-  event.add("minecraft:flowers",[
+  event.add("minecraft:flowers", [
     'biomeswevegone:allium_flower_bush',
     'biomeswevegone:pink_allium_flower_bush',
     'biomeswevegone:white_allium_flower_bush',
@@ -107,7 +107,7 @@ ServerEvents.tags("item", (event) => {
     "supplementaries:wild_flax"
   ]);
 
-  event.add("minecraft:small_flowers",[
+  event.add("minecraft:small_flowers", [
     'biomeswevegone:allium_flower_bush',
     'biomeswevegone:pink_allium_flower_bush',
     'biomeswevegone:white_allium_flower_bush'
@@ -135,16 +135,23 @@ ServerEvents.tags("item", (event) => {
     "wizards_reborn:creative_wissen_keychain",
   ]);
 
-  let seed = [
-    "vintagedelight:oat_seeds",
-    "vintagedelight:ghost_pepper_seeds",
-    "ars_nouveau:sourceberry_bush",
-    "biomeswevegone:blueberries",
-    "biomeswevegone:oddion_bulb",
-  ];
+  event.add("c:seeds", [
+    'vintagedelight:oat_seeds',
+    'minecraft:torchflower_seeds',
+    'wizards_reborn:cork_bamboo_seed',
+    'wizards_reborn:arcanum_seed',
+    'vintagedelight:ghost_pepper_seeds',
+    'vintagedelight:cucumber_seeds',
+    'fruitsdelight:lemon_seeds',
+    'fruitsdelight:hamimelon_seeds',
+    'deep_aether:squash_seeds',
+    'deep_aether:golden_grass_seeds',
+    'wizards_reborn:shiny_clover_seed'
+  ])
+  
 
   let flower = [
-    
+
     /*'regions_unexplored:yellow_snowbelle',*/
     /*,'regions_unexplored:alpha_dandelion'*/
   ];
@@ -294,8 +301,8 @@ ServerEvents.tags("item", (event) => {
     event.add("forge:froglights", id);
   });
 
-  
-  event.add("forge:flowers/golden",[
+
+  event.add("forge:flowers/golden", [
     "minecraft:sunflower",
     "minecraft:dandelion",
     "naturesaura:aura_bloom",
@@ -311,11 +318,6 @@ ServerEvents.tags("item", (event) => {
     'deep_aether:enchanted_blossom',
     'deep_aether:golden_flower'
   ]);
-  
-
-  seed.forEach((id) => {
-    event.add("quark:seed_pouch_holdable", id);
-  });
 
   event.add("c:hidden_from_recipe_viewers", "#forge:tools/skyroot");
   event.add(

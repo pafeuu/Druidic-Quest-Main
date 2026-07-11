@@ -1,0 +1,6 @@
+{
+    "type": "minecraft:crafting_transmute",
+    "input": {"item":"minecraft:wooden_pickaxe"},
+    "material": {"item":"minecraft:diamond"},
+    "result": {"item":"minecraft:diamond_pickaxe"}
+}
