@@ -1,18 +1,18 @@
-ServerEvents.recipes(e=>{
+ServerEvents.recipes(e => {
 
-  e.replaceInput({mod:"sophisticatedstorage"},"minecraft:iron_ingot","#forge:plates/iron")
-  e.replaceInput({mod:"sophisticatedbackpacks"},"minecraft:iron_ingot","#forge:plates/iron")
+  e.replaceInput({ mod: "sophisticatedstorage" }, "minecraft:iron_ingot", "#forge:plates/iron")
+  e.replaceInput({ mod: "sophisticatedbackpacks" }, "minecraft:iron_ingot", "#forge:plates/iron")
 
-  e.remove({output:"sophisticatedstorage:packing_tape"})
-  e.shapeless(Item.of('sophisticatedstorage:packing_tape', '{Damage:7}'),["#forge:slimeballs","paper"])
+  e.remove({ output: "sophisticatedstorage:packing_tape" })
+  e.shapeless(Item.of('sophisticatedstorage:packing_tape', '{Damage:7}'), ["#forge:slimeballs", "paper"])
 
-  e.replaceInput({mod:"sophisticatedstorage"},"minecraft:gold_ingot","naturesaura:tainted_gold")
-  e.replaceInput({mod:"sophisticatedbackpacks"},"minecraft:gold_ingot","naturesaura:tainted_gold")
+  e.replaceInput({ mod: "sophisticatedstorage" }, "minecraft:gold_ingot", "naturesaura:tainted_gold")
+  e.replaceInput({ mod: "sophisticatedbackpacks" }, "minecraft:gold_ingot", "naturesaura:tainted_gold")
 
-  e.replaceInput({mod:"sophisticatedstorage"},"#forge:gems/diamond","#forge:plates/diamond")
-  e.replaceInput({mod:"sophisticatedbackpacks"},"#forge:gems/diamond","#forge:plates/diamond")
+  e.replaceInput({ mod: "sophisticatedstorage" }, "#forge:gems/diamond", "#forge:plates/diamond")
+  e.replaceInput({ mod: "sophisticatedbackpacks" }, "#forge:gems/diamond", "#forge:plates/diamond")
   //============================CHESTS AND BARRELS
-  
+
   /*e.custom({
     "type": "sophisticatedstorage:storage_tier_upgrade",
     "conditions": [
@@ -170,11 +170,11 @@ ServerEvents.recipes(e=>{
   })
   */
   //============================BACKPACKS
-  e.remove({id:"sophisticatedbackpacks:gold_backpack"})
-  e.remove({id:"sophisticatedbackpacks:iron_backpack"})
-  e.remove({id:"sophisticatedbackpacks:diamond_backpack"})
-  e.remove({id:"sophisticatedbackpacks:iron_backpack_from_copper"})
- 
+  e.remove({ id: "sophisticatedbackpacks:gold_backpack" })
+  e.remove({ id: "sophisticatedbackpacks:iron_backpack" })
+  e.remove({ id: "sophisticatedbackpacks:diamond_backpack" })
+  e.remove({ id: "sophisticatedbackpacks:iron_backpack_from_copper" })
+
   e.custom({
     "type": "sophisticatedbackpacks:backpack_upgrade",
     "conditions": [
@@ -199,8 +199,6 @@ ServerEvents.recipes(e=>{
     "result": {
       "item": "sophisticatedbackpacks:gold_backpack"
     }
-
-
   })
 
   e.custom({
@@ -256,59 +254,90 @@ ServerEvents.recipes(e=>{
   }
 
   )
-  e.remove({id:"sophisticatedbackpacks:upgrade_base"})
+  e.remove({ id: "sophisticatedbackpacks:upgrade_base" })
   e.shaped(
-	  Item.of('sophisticatedbackpacks:upgrade_base'), 
-	  [
+    Item.of('sophisticatedbackpacks:upgrade_base'),
+    [
       'XIX',
-      'IGI', 
+      'IGI',
       'XIX'
-	  ],
-	  {
+    ],
+    {
       I: '#forge:ingots/iron',
       X: '#forge:leather',
       G: '#forge:gems/diamond'
-	  }
-	)
+    }
+  )
 
-  function exch(item)
-  {
-    e.remove({id:"sophisticatedstorage:backpack_"+item+"_upgrade_from_storage_"+item+"_upgrade"})
-    e.remove({id:"sophisticatedstorage:storage_"+item+"_upgrade_from_backpack_"+item+"_upgrade"})
-    e.remove({id:"sophisticatedbackpacks:"+item+"_upgrade"})
+  e.custom({
+    "type": "sophisticatedbackpacks:backpack_upgrade",
+    "pattern": [
+      "GGG",
+      "GBG",
+      "GGG"
+    ],
+    "key": {
+      "G": {
+        "tag": "forge:plates/tainted_gold"
+      },
+      "B": {
+        "item": "solonion:lunchbag"
+      }
+    },
+    "result": {
+      "item": "solonion:lunchbox"
+    }
+  })
+
+  e.custom({
+    "type": "minecraft:crafting_transmute",
+    "input": [
+      "minecraft:wooden_pickaxe"
+    ],
+    "material": [
+      "minecraft:diamond"
+    ],
+    "material_count": 1,
+    "result": "minecraft:diamond_pickaxe"
+  }
+  )
+
+  function exch(item) {
+    e.remove({ id: "sophisticatedstorage:backpack_" + item + "_upgrade_from_storage_" + item + "_upgrade" })
+    e.remove({ id: "sophisticatedstorage:storage_" + item + "_upgrade_from_backpack_" + item + "_upgrade" })
+    e.remove({ id: "sophisticatedbackpacks:" + item + "_upgrade" })
     e.shaped(
-      Item.of('sophisticatedbackpacks:'+item+'_upgrade'), 
+      Item.of('sophisticatedbackpacks:' + item + '_upgrade'),
       [
         'XIX',
-        'IGI', 
+        'IGI',
         'XIX'
       ],
       {
         I: '#forge:ingots/iron',
         X: '#forge:leather',
-        G: 'sophisticatedstorage:'+item+'_upgrade'
+        G: 'sophisticatedstorage:' + item + '_upgrade'
       }
     )
 
     e.shaped(
-      Item.of('sophisticatedstorage:'+item+'_upgrade'), 
+      Item.of('sophisticatedstorage:' + item + '_upgrade'),
       [
         'XXX',
-        'XGX', 
+        'XGX',
         'XXX'
       ],
       {
         I: 'forge:ingots/iron',
         X: 'kubejs:wooden_plate',
-        G: 'sophisticatedbackpacks:'+item+'_upgrade'
+        G: 'sophisticatedbackpacks:' + item + '_upgrade'
       }
     )
   }
 
-  function easy(output,input)
-  {
-    e.remove({id:"sophisticatedstorage:"+output+"_upgrade"})
-    e.shapeless("sophisticatedstorage:"+output+"_upgrade",["sophisticatedstorage:upgrade_base",input])
+  function easy(output, input) {
+    e.remove({ id: "sophisticatedstorage:" + output + "_upgrade" })
+    e.shapeless("sophisticatedstorage:" + output + "_upgrade", ["sophisticatedstorage:upgrade_base", input])
   }
 
   exch("crafting")
@@ -321,22 +350,22 @@ ServerEvents.recipes(e=>{
   exch("advanced_filter")
   exch("pump")
   exch("advanced_pump")
-  easy("jukebox","minecraft:jukebox")
-  easy("crafting","ars_nouveau:glyph_craft")
-  easy("smelting","ars_nouveau:glyph_smelt")
-  easy("pickup","minecraft:hopper")
-  easy("filter","create:filter")
+  easy("jukebox", "minecraft:jukebox")
+  easy("crafting", "ars_nouveau:glyph_craft")
+  easy("smelting", "ars_nouveau:glyph_smelt")
+  easy("pickup", "minecraft:hopper")
+  easy("filter", "create:filter")
 
-  e.remove({id:"sophisticatedstorage:advanced_filter_upgrade"})
-  e.shapeless("sophisticatedstorage:advanced_filter_upgrade",["sophisticatedstorage:filter_upgrade","create:attribute_filter"])
+  e.remove({ id: "sophisticatedstorage:advanced_filter_upgrade" })
+  e.shapeless("sophisticatedstorage:advanced_filter_upgrade", ["sophisticatedstorage:filter_upgrade", "create:attribute_filter"])
 
-  e.remove({id:"sophisticatedstorage:magnet_upgrade"})
-  e.shapeless("sophisticatedstorage:magnet_upgrade",["sophisticatedstorage:pickup_upgrade","enigmaticlegacy:magnet_ring"])
-  e.shapeless("sophisticatedstorage:magnet_upgrade",["sophisticatedstorage:pickup_upgrade","naturesaura:hopper_upgrade"])
+  e.remove({ id: "sophisticatedstorage:magnet_upgrade" })
+  e.shapeless("sophisticatedstorage:magnet_upgrade", ["sophisticatedstorage:pickup_upgrade", "enigmaticlegacy:magnet_ring"])
+  e.shapeless("sophisticatedstorage:magnet_upgrade", ["sophisticatedstorage:pickup_upgrade", "naturesaura:hopper_upgrade"])
 
-  e.remove({id:"sophisticatedstorage:advanced_magnet_ring"})
-  e.shapeless("sophisticatedstorage:advanced_magnet_upgrade",["sophisticatedstorage:magnet_upgrade","enigmaticlegacy:super_magnet_ring"])
-  e.shapeless("sophisticatedstorage:advanced_magnet_upgrade",["sophisticatedstorage:magnet_upgrade","naturesaura:hopper_upgrade"])
+  e.remove({ id: "sophisticatedstorage:advanced_magnet_ring" })
+  e.shapeless("sophisticatedstorage:advanced_magnet_upgrade", ["sophisticatedstorage:magnet_upgrade", "enigmaticlegacy:super_magnet_ring"])
+  e.shapeless("sophisticatedstorage:advanced_magnet_upgrade", ["sophisticatedstorage:magnet_upgrade", "naturesaura:hopper_upgrade"])
 
   e.shaped("sophisticatedbackpacks:mob_catcher_upgrade",
     [
