@@ -47,5 +47,18 @@
       "quark:apple_crate"
     ],
     "output": "fruitsdelight:apple_crate"
+  },
+  {
+    "inputs":[
+      "immersiveengineering:crate",
+      "immersiveengineering:reinforced_crate"
+    ],
+    "output": "minecraft:brown_shulker_box"
+  },
+  {
+    "inputs":[
+      "immersiveengineering:reinforced_crate"
+    ],
+    "output": "minecraft:black_shulker_box"
   }
 ]

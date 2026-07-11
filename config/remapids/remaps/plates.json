@@ -1,0 +1,139 @@
+{
+  "remaps": [
+    {
+      "source": "vintageimprovements:aluminum_sheet",
+      "target": "kubejs:aluminum_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:andesite_sheet",
+      "target": "kubejs:andesite_alloy_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "wizards_reborn:arcane_gold_sheet",
+      "target": "kubejs:arcane_gold_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "create:brass_sheet",
+      "target": "kubejs:brass_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:bronze_sheet",
+      "target": "thermal:bronze_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "create:copper_sheet",
+      "target": "thermal:copper_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "kubejs:depth_sheet",
+      "target": "kubejs:depth_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "immersiveengineering:plate_electrum",
+      "target": "thermal:electrum_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:enderium_sheet",
+      "target": "thermal:enderium_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:fiery_sheet",
+      "target": "kubejs:fiery_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:nickel_sheet",
+      "target": "thermal:nickel_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "create:golden_sheet",
+      "target": "thermal:gold_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "kubejs:gravitite_sheet",
+      "target": "kubejs:gravitite_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "create:iron_sheet",
+      "target": "thermal:iron_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:ironwood_sheet",
+      "target": "kubejs:ironwood_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:knightmetal_sheet",
+      "target": "kubejs:knightmetal_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:lead_sheet",
+      "target": "thermal:lead_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:lumium_sheet",
+      "target": "thermal:lumium_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:netherite_sheet",
+      "target": "thermal:netherite_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:nickel_sheet",
+      "target": "thermal:nickel_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:silver_sheet",
+      "target": "thermal:silver_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "kubejs:sky_sheet",
+      "target": "kubejs:sky_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "kubejs:storm_sheet",
+      "target": "kubejs:storm_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "kubejs:tainted_gold_sheet",
+      "target": "kubejs:tainted_gold_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:tin_sheet",
+      "target": "thermal:tin_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:uranium_sheet",
+      "target": "kubejs:uranium_plate",
+      "types": ["item"]
+    },
+    {
+      "source": "vintageimprovements:zinc_sheet",
+      "target": "kubejs:zinc_plate",
+      "types": ["item"]
+    }
+  ]
+}

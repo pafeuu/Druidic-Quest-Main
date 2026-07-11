@@ -1,0 +1,24 @@
+{
+    "remaps": [
+        {
+            "source": "kubejs:recall_potion",
+            "target": "naturesaura_plus:aura_coffee",
+            "types": ["item"]
+        },
+        {
+            "source": "naturesaura:break_prevention",
+            "target": "naturesaura_plus:break_prevention_token",
+            "types": ["item"]
+        },
+        {
+            "source": "naturesaura:stripped_ancient_bark",
+            "target": "naturesaura_plus:stripped_ancient_bark",
+            "types": ["item"]
+        },
+        {
+            "source": "naturesaura:stripped_ancient_log",
+            "target": "naturesaura_plus:stripped_ancient_log",
+            "types": ["item"]
+        }
+    ]
+}

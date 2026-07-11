@@ -1,0 +1,84 @@
+{
+    "remaps": [
+        {
+            "source": "vintageimprovements:nickel_rod",
+            "target": "kubejs:nickel_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "vintageimprovements:bronze_rod",
+            "target": "kubejs:bronze_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "vintageimprovements:andesite_rod",
+            "target": "kubejs:andesite_alloy_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "vintageimprovements:aluminum_rod",
+            "target": "kubejs:aluminum_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "vintageimprovements:zinc_rod",
+            "target": "kubejs:zinc_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:stick_iron",
+            "target": "kubejs:iron_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "vintageimprovements:netherite_rod",
+            "target": "kubejs:netherite_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "vintageimprovements:tin_rod",
+            "target": "kubejs:tin_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "vintageimprovements:steel_rod",
+            "target": "kubejs:steel_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "vintageimprovements:silver_rod",
+            "target": "kubejs:silver_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "vintageimprovements:lead_rod",
+            "target": "kubejs:lead_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "vintageimprovements:uranium_rod",
+            "target": "kubejs:uranium_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "vintageimprovements:lumium_rod",
+            "target": "kubejs:lumium_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "vintageimprovements:knightmetal_rod",
+            "target": "kubejs:knightmetal_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "vintageimprovements:ironwood_rod",
+            "target": "kubejs:ironwood_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "vintageimprovements:enderium_rod",
+            "target": "kubejs:enderium_rod",
+            "types": ["item"]
+        }
+    ]
+}
