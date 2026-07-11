@@ -189,13 +189,13 @@
     "curseForgeHash": 753944455,
     "modrinthHash": "34b4ae0b51fe8bb55529dd20968bf58e20b4a21e"
   },
-  "balm-forge-1.20.1-7.3.39-all.jar": {
-    "jarName": "balm-forge-1.20.1-7.3.39-all.jar",
+  "balm-forge-1.20.1-7.3.41-all.jar": {
+    "jarName": "balm-forge-1.20.1-7.3.41-all.jar",
     "modId": "balm",
     "name": "Balm",
-    "version": "7.3.39",
-    "curseForgeHash": 1291647419,
-    "modrinthHash": "8746afe54616cad01514e6f1c6a16dc0839ea5c4"
+    "version": "7.3.41",
+    "curseForgeHash": 1503215837,
+    "modrinthHash": "fde6edd5f3f2aa412a1ba5fccad20ea4348fdcf2"
   },
   "better_smithing_table-2.1.0+1.20-forge.jar": {
     "jarName": "better_smithing_table-2.1.0+1.20-forge.jar",
@@ -2146,14 +2146,6 @@
     "curseForgeHash": 2092555550,
     "modrinthHash": "c660325ae276cf000253143dd1f58fd22a8e7d33"
   },
-  "vintage_kubejs-1.20.1-1.0.0rc-2.jar": {
-    "jarName": "vintage_kubejs-1.20.1-1.0.0rc-2.jar",
-    "modId": "vintage_kubejs",
-    "name": "Vintage KubeJS",
-    "version": "1.20.1-1.0.0rc-2",
-    "curseForgeHash": 2388627373,
-    "modrinthHash": "ca49a4163794cc0f94a31a17f6956be11979db53"
-  },
   "vintagedelight-0.1.6.jar": {
     "jarName": "vintagedelight-0.1.6.jar",
     "modId": "vintagedelight",
@@ -2202,13 +2194,13 @@
     "curseForgeHash": 1552879784,
     "modrinthHash": "9f5214d27734a8c433a66579c28322a25a3f8858"
   },
-  "xaerominimap-forge-1.20.1-26.1.0.jar": {
-    "jarName": "xaerominimap-forge-1.20.1-26.1.0.jar",
+  "xaerominimap-forge-1.20.1-26.2.0.jar": {
+    "jarName": "xaerominimap-forge-1.20.1-26.2.0.jar",
     "modId": "xaerominimap",
     "name": "Xaero\u0027s Minimap",
-    "version": "26.1.0",
-    "curseForgeHash": 3263469048,
-    "modrinthHash": "5b2be59a71add73676596d0d3350b832552bac70"
+    "version": "26.2.0",
+    "curseForgeHash": 761487974,
+    "modrinthHash": "f8368d4a9240c02ed7355cdead43e31ec0f3c1f4"
   },
   "xaeros_waystones_compatibility-1.1 - 1.20.1.jar": {
     "jarName": "xaeros_waystones_compatibility-1.1 - 1.20.1.jar",
@@ -2218,13 +2210,13 @@
     "curseForgeHash": 3489900467,
     "modrinthHash": "d88355bcf6d731c067ed49146a090758356bd028"
   },
-  "xaeroworldmap-forge-1.20.1-1.41.2.jar": {
-    "jarName": "xaeroworldmap-forge-1.20.1-1.41.2.jar",
+  "xaeroworldmap-forge-1.20.1-1.42.0.jar": {
+    "jarName": "xaeroworldmap-forge-1.20.1-1.42.0.jar",
     "modId": "xaeroworldmap",
     "name": "Xaero\u0027s World Map",
-    "version": "1.41.2",
-    "curseForgeHash": 856638396,
-    "modrinthHash": "a60d4c8e04a65ffe82f1ac89ab28a52f357fbbf2"
+    "version": "1.42.0",
+    "curseForgeHash": 3812594463,
+    "modrinthHash": "e15c0ab067a92b64d8cb1952fa0d8e9e1342a2c4"
   },
   "YungsApi-1.20-Forge-4.0.6.jar": {
     "jarName": "YungsApi-1.20-Forge-4.0.6.jar",
