@@ -201,6 +201,7 @@ ItemEvents.tooltip(tooltip => {
   tooltip.addAdvanced(["solonion:lunchbag",
     "solonion:lunchbox",
     "solonion:golden_lunchbox",
+    "kubejs:emerald_lunchbox",
     "supplementaries:sack",
     "immersiveengineering:crate",
     "irons_spellbooks:copper_spell_book",
