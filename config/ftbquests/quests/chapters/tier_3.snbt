@@ -83,7 +83,7 @@
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
-			description: ["The &4Redstone Module&r is a powerful crafting component which will open up many new automation opportunities!"]
+			description: ["The &4Redstone Core&r is a powerful crafting component which will open up many new automation opportunities!"]
 			hide_until_deps_visible: false
 			id: "6E30DFF0F2B9B811"
 			rewards: [{
@@ -96,7 +96,7 @@
 			subtitle: "Magical Mechanicals"
 			tasks: [{
 				id: "0941647D52678290"
-				item: "vintageimprovements:redstone_module"
+				item: "kubejs:redstone_core"
 				type: "item"
 			}]
 			x: -3.5d

@@ -81,7 +81,6 @@ LootJS.modifiers((event) => {
         .replaceLoot("netherite_block","6x netherite_scrap")
         .replaceLoot("aether:diamond_gloves","4x kubejs:diamond_plate")
         .replaceLoot("aether:iron_gloves","4x create:iron_sheet")
-        .replaceLoot("vintageimprovements:redstone_module","comparator")
         .replaceLoot("minecraft:diamond_horse_armor", "create:iron_sheet")
         .replaceLoot("minecraft:golden_sword","create:golden_sheet")
         .replaceLoot("minecraft:golden_shovel","create:golden_sheet")
@@ -174,10 +173,6 @@ LootJS.modifiers((event) => {
     event.addLootTableModifier(/.*idas:chests.*/)
         .randomChance(0.15)
         .addLoot("enigmaticlegacy:mending_mixture");
-
-    event.addLootTableModifier(/idas:chests\/desert_pyramid.*/)
-        .randomChance(0.9)
-        .addLoot("vintageimprovements:redstone_module");
 
     //======================================================== Dungeons Arise
 

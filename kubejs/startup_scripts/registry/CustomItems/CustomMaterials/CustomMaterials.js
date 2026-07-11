@@ -214,6 +214,7 @@ StartupEvents.registry('item', item => {
 
    ///===================================================MISC===========================================================
   
+  item.create("redstone_core").tag("dq:tier3/component")
   item.create("raw_gravitite").tag("dq:tier3/component")
   item.create("gravitite_ingot").tag("dq:tier3/component").tag("forge:ingots").tag("forge:ingots/gravitite")
   item.create("elemental_cloth").tag("dq:tier3/component")

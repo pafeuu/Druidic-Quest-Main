@@ -56,7 +56,6 @@ ServerEvents.recipes(event=>{
 
     }
 
-    event.remove({id:"vintageimprovements:sequenced_assembly/redstone_module"})
 
     binding("kubejs:light_essence","fire",1250,
         "quark:glowberry_sack",

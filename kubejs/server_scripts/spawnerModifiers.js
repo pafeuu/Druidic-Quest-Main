@@ -62,7 +62,7 @@ ServerEvents.recipes(event=>{
     event.custom({
         "type": "apotheosis:spawner_modifier",
         "mainhand": {
-            "item": "vintageimprovements:redstone_module"
+            "item": "kubejs:redstone_core"
         },
         "stat_changes": [{
             "id": "redstone_control",
