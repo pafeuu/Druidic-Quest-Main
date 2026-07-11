@@ -458,7 +458,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["6BCC24F77F7598FB"]
+			dependencies: [
+				"6BCC24F77F7598FB"
+				"78C091D917FDA212"
+			]
 			description: [
 				"&5Ars Nouveau&r is your one-stop-shop for automation magic! The unique spell-building mechanic allows you to combine &5glyphs&r in multitudes of ways, limiting you only by your creativity!"
 				""

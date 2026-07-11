@@ -4809,3 +4809,47 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Reworked TF basement loottable
     -Reworked TF fancy well loottable
 
+# Patch 5.3
+
+### Added Mods:
+    -CertainQuestAdditions
+    
+### Removed Mods:
+    -Pretty Pipes
+    -VintageKubejs
+    
+### Removed Items:
+    -Vilenium stuff
+    -Sarcon stuff
+    -Constantan stuff
+    -Invar stuff
+    -Singalum stuff
+    -Rose Gold stuff
+
+### Updated Mods:
+    -Balm
+    -EntityJS
+    -IronsLib
+    -IronsSPellsNSpellbooks
+    -SophisticatedMods
+    -TooltipOverhaul
+    -ReliableRecipes
+    -NaturesAuraPlus
+    -WizardsReborn
+    -XaeroMinimap
+    -XaeroWorldMap
+
+### Item Balance:
+    -Increased range of bellows from 5 to 12 and power from 2 to 3.5
+
+### Recipes:
+    -removed duplicate recipe for Token of Fortitute
+    -Changed for backpack
+    
+### Mob balance:
+    -Machinegun skeletons now spawn in every tier after unlocking the nether(previously they stopped spawning upon unlocking the aether)
+    -Fishing mobs can no longer steal your items
+
+### Other:
+    -Fixed missing hydra entries in druidic bestiary
+    -Removed Quests that required removed items

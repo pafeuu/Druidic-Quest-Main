@@ -232,7 +232,11 @@
 				"35BF841735837D97"
 				"3A94BCF22852A627"
 			]
-			description: ["You are going to need 27 brick blocks which will cost you 216 bricks in total."]
+			description: [
+				"You are going to need 27 brick blocks which will cost you 216 bricks in total."
+				""
+				"&4&lEverything after this point is extremely unfinished and will most likely be completely changed!&r&r"
+			]
 			id: "6EC46F530F70BFBF"
 			rewards: [{
 				count: 3
@@ -509,6 +513,11 @@
 				{
 					id: "475B3949AF141EAB"
 					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "3F2BFA41E4501155"
+					item: "create:blaze_burner"
 					type: "item"
 				}
 			]

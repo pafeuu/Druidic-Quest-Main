@@ -1064,8 +1064,8 @@
 				item: "vintagedelight:nut_mash_mason_jar"
 				type: "item"
 			}]
-			x: 2.800000000000002d
-			y: 1.6000000000000005d
+			x: 4.8d
+			y: 1.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1086,23 +1086,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "0E708C1F36695E16"
-			rewards: [{
-				id: "4A915C292103F7F8"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "47E54214B26F6B0C"
-				item: "vintagedelight:apple_sauce_mason_jar"
-				type: "item"
-			}]
-			x: 4.4d
-			y: 1.6000000000000005d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "5B80106824B75EB6"
 			rewards: [{
 				id: "443B99C66024BD0C"
@@ -1115,42 +1098,8 @@
 				item: "vintagedelight:gearo_berry_mason_jar"
 				type: "item"
 			}]
-			x: 5.200000000000003d
-			y: 1.6000000000000005d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "6F7CF464B3989A5B"
-			rewards: [{
-				id: "2C36994CAC31DC34"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "44A884FA23FB9F72"
-				item: "vintagedelight:sweet_berry_mason_jar"
-				type: "item"
-			}]
-			x: 6.0000000000000036d
-			y: 1.6000000000000005d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "2C7905E4E8764FDF"
-			rewards: [{
-				id: "6566E05169E1E17A"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "764762021AEEF144"
-				item: "vintagedelight:glow_berry_mason_jar"
-				type: "item"
-			}]
-			x: 6.800000000000004d
-			y: 1.6000000000000005d
+			x: 6.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -3127,40 +3076,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "671A05E07DB36FB0"
-			rewards: [{
-				id: "5B6B2F62DA81C985"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "59E70D965AE152E5"
-				item: "brewinandchewin:apple_jelly"
-				type: "item"
-			}]
-			x: 4.000000000000002d
-			y: 0.8000000000000007d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "11616FA6C0A4CF8A"
-			rewards: [{
-				id: "5343803CCE2CD54E"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "3A3380F60A0D1ADE"
-				item: "sob:peanut_butter"
-				type: "item"
-			}]
-			x: 3.2000000000000006d
-			y: 0.8000000000000007d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "54A109EFF837DA62"
 			rewards: [{
 				id: "22692196866DB205"
@@ -3328,57 +3243,6 @@
 			}]
 			x: -0.8000000000000007d
 			y: 1.6d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "5886F3A7D5E2D01F"
-			rewards: [{
-				id: "2BB973A1F1664551"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "1BEFF4E3BA340A68"
-				item: "brewinandchewin:sweet_berry_jam"
-				type: "item"
-			}]
-			x: 4.800000000000001d
-			y: 0.8000000000000007d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "2844DAD3EA368BA8"
-			rewards: [{
-				id: "6C361E5798632802"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "63089BE1A7511DBF"
-				item: "brewinandchewin:glow_berry_marmalade"
-				type: "item"
-			}]
-			x: 5.600000000000001d
-			y: 0.8000000000000007d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "0B8112727C5F1067"
-			rewards: [{
-				id: "458E3C410B6BC2EA"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "0D72798C5DAF5198"
-				item: "sob:pepper_jelly"
-				type: "item"
-			}]
-			x: 6.4d
-			y: 0.8000000000000007d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]

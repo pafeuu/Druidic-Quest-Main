@@ -253,23 +253,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "51420D9286477592"
-			rewards: [{
-				id: "41AE0CDAE0A52837"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "7ABBF976BF9FF443"
-				item: "vintagedelight:cheese_curds"
-				type: "item"
-			}]
-			x: -17.2d
-			y: -6.8d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2628CC63CEE6FF72"
 			rewards: [{
 				id: "1E17EA2F6134A484"
@@ -1510,23 +1493,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "7DA5609058406A29"
-			rewards: [{
-				id: "0DFC78FAD4DB50BE"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "3FF8EB7C30EBBFD6"
-				item: "vintagedelight:pb_j"
-				type: "item"
-			}]
-			x: -9.999999999999998d
-			y: -3.2d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "47156D12B569F1DA"
 			rewards: [{
 				id: "762C30FDADA167F5"
@@ -2505,7 +2471,7 @@
 				item: "brewinandchewin:ham_and_cheese_sandwich"
 				type: "item"
 			}]
-			x: -13.2d
+			x: -10.0d
 			y: -3.2d
 		}
 		{
@@ -2608,7 +2574,7 @@
 				item: "sob:pbnj"
 				type: "item"
 			}]
-			x: -10.799999999999999d
+			x: -10.8d
 			y: -3.2d
 		}
 		{

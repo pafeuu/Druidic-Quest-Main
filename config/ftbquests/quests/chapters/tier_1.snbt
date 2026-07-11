@@ -1201,6 +1201,7 @@
 				"If you don't like fighting the Twilight Forest bosses, there are ways to synthesize their drops using alchemy!"
 				""
 				"Check out the &3Alchemy&r quest tab for more info!"
+				"{image:entity:twilightforest:naga width:96 height:96 align:center}"
 			]
 			hide_until_deps_visible: false
 			id: "41FA7D0AD437E6FB"
@@ -1237,6 +1238,7 @@
 				"Stonelings can be found in dark caves and are easily spooked. They'll disappear if they survive your first blow."
 				""
 				"Stoneling have 8 health points and they are weak to arcane damage but take less damage from blood and nature damage"
+				"{image:entity:quark:stoneling width:96 height:96 align:center}"
 			]
 			icon: "quark:diamond_heart"
 			id: "0E40C9B32E05AC51"

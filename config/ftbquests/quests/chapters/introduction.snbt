@@ -803,6 +803,7 @@
 				"To get to the next chapter, you're gonna need to blow some stuff up."
 				""
 				"You can use either mobs or tnt to complete explosion crafting recipes."
+				"{image:entity:minecraft:creeper[rotate=true] width:96 height:96 align:center}"
 			]
 			hide_until_deps_visible: false
 			icon: "minecraft:creeper_head"
@@ -1259,7 +1260,10 @@
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]
-			description: ["Be sure to keep upgrading your equipment if you want to survive this cruel world! The difficulty will increase each time you obtain the appropriate materials."]
+			description: [
+				"Be sure to keep upgrading your equipment if you want to survive this cruel world! The difficulty will increase each time you obtain the appropriate materials."
+				"{image:entity:minecraft:zombie[rotate=true] width:96 height:96 align:center}"
+			]
 			icon: "minecraft:skeleton_skull"
 			id: "2910627A1D09A447"
 			rewards: [

@@ -2903,7 +2903,7 @@
 			size: 0.85d
 			tasks: [{
 				id: "777F991101D242A5"
-				item: "tide:fishing_line"
+				item: "tide:copper_line"
 				type: "item"
 			}]
 			x: -3.4d
@@ -2921,7 +2921,7 @@
 			size: 0.85d
 			tasks: [{
 				id: "3E4F7227D03E123C"
-				item: "tide:fishing_line"
+				item: "tide:iron_line"
 				type: "item"
 			}]
 			x: -2.55d
@@ -2939,7 +2939,7 @@
 			size: 0.85d
 			tasks: [{
 				id: "4E108AADAD5D0A2A"
-				item: "tide:fishing_line"
+				item: "tide:diamond_line"
 				type: "item"
 			}]
 			x: -2.975d
@@ -2957,7 +2957,7 @@
 			size: 0.85d
 			tasks: [{
 				id: "49C5DE3367AF0968"
-				item: "tide:fishing_line"
+				item: "tide:golden_line"
 				type: "item"
 			}]
 			x: -3.8249999999999997d
