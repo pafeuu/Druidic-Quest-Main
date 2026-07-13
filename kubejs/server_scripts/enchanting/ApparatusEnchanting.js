@@ -626,7 +626,7 @@ ServerEvents.recipes((event) => {
     [
       "kubejs:enchanting_rune_of_fire",
       "kubejs:big_enchanting_rune_of_steel",
-      "vintageimprovements:fiery_sheet",
+      "kubejs:fiery_plate",
     ],
     4000,
   );
@@ -637,8 +637,8 @@ ServerEvents.recipes((event) => {
     [
       "kubejs:enchanting_rune_of_fire",
       "kubejs:big_enchanting_rune_of_steel",
-      "vintageimprovements:fiery_sheet",
-      "vintageimprovements:fiery_sheet",
+      "kubejs:fiery_plate",
+      "kubejs:fiery_plate",
     ],
     6000,
   );
@@ -649,9 +649,9 @@ ServerEvents.recipes((event) => {
     [
       "kubejs:enchanting_rune_of_fire",
       "kubejs:big_enchanting_rune_of_steel",
-      "vintageimprovements:fiery_sheet",
-      "vintageimprovements:fiery_sheet",
-      "vintageimprovements:fiery_sheet",
+      "kubejs:fiery_plate",
+      "kubejs:fiery_plate",
+      "kubejs:fiery_plate",
     ],
     8000,
   );
@@ -2090,7 +2090,7 @@ ServerEvents.recipes((event) => {
     [
       "kubejs:big_enchanting_rune_of_steel",
       "minecraft:iron_horse_armor",
-      "create:iron_sheet",
+      "thermal:iron_plate",
     ],
     2500,
   );
@@ -2101,8 +2101,8 @@ ServerEvents.recipes((event) => {
     [
       "kubejs:big_enchanting_rune_of_steel",
       "minecraft:iron_horse_armor",
-      "create:iron_sheet",
-      "create:iron_sheet",
+      "thermal:iron_plate",
+      "thermal:iron_plate",
     ],
     5000,
   );
@@ -2113,9 +2113,9 @@ ServerEvents.recipes((event) => {
     [
       "kubejs:big_enchanting_rune_of_steel",
       "minecraft:iron_horse_armor",
-      "create:iron_sheet",
-      "create:iron_sheet",
-      "create:iron_sheet",
+      "thermal:iron_plate",
+      "thermal:iron_plate",
+      "thermal:iron_plate",
     ],
     7500,
   );
@@ -2126,10 +2126,10 @@ ServerEvents.recipes((event) => {
     [
       "kubejs:big_enchanting_rune_of_steel",
       "minecraft:iron_horse_armor",
-      "create:iron_sheet",
-      "create:iron_sheet",
-      "create:iron_sheet",
-      "create:iron_sheet",
+      "thermal:iron_plate",
+      "thermal:iron_plate",
+      "thermal:iron_plate",
+      "thermal:iron_plate",
     ],
     10000,
   );

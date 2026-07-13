@@ -186,7 +186,7 @@ ServerEvents.recipes(event=>{
 		"immersiveengineering:ingot_aluminum",
 		"8x kubejs:infused_amethyst")
 
-	arcFurnace("kubejs:arcane_plating","4x wizards_reborn:arcane_gold_sheet",["4x netherite_ingot","8x thermal:ruby"])
+	arcFurnace("kubejs:arcane_plating","4x kubejs:arcane_gold_plate",["4x netherite_ingot","8x thermal:ruby"])
 	
 	arcFurnace("ancient_aether:valkyrum","naturesaura:sky_ingot",["16x kubejs:life_essence","64x ars_nouveau:air_essence","16x thermal:sapphire"])
 

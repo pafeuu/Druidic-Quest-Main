@@ -16,7 +16,7 @@ ServerEvents.recipes(e=>{
             deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","kubejs:enchanted_soul"]),
             deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","kubejs:enchanted_soul"]),
             deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","kubejs:death_essence"]),
-            deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","wizards_reborn:arcane_gold_sheet"]),
+            deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","kubejs:arcane_gold_plate"]),
             deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","immersiveengineering:alloybrick"]),
             deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","kubejs:infernal_bricks"])
         ]).transitionalItem("kubejs:incomplete_soul_core").loops(24)

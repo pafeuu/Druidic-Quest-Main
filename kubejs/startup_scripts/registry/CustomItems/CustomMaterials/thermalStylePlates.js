@@ -29,10 +29,4 @@ StartupEvents.registry('item', item => {
     plate("aluminum",4)
     plate("depth",5)
     
-
-    item.create('tainted_gold_sheet').tag('forge:plates').tag('forge:plates/tainted_gold').tag("dq:tier2/component")
-    item.create('storm_sheet').tag('forge:plates').tag('forge:plates/storm').tag("dq:tier3/component")
-    item.create('gravitite_sheet').tag('forge:plates').tag('forge:plates/gravitite').tag("dq:tier3/component")
-    item.create('sky_sheet').tag('forge:plates').tag('forge:plates/sky').tag("dq:tier4/component")
-    item.create('depth_sheet').tag('forge:plates').tag('forge:plates/depth')
 })

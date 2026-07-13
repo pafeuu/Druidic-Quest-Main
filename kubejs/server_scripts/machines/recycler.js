@@ -99,14 +99,14 @@ ServerEvents.recipes(event=>
     ToolRecycling("wizards_reborn","arcane_wood","wizards_reborn:arcane_wood_planks","wizards_reborn:arcane_wood_branch")
     ToolRecycling("twilightforest","ironwood","twilightforest:ironwood_ingot","immersiveengineering:stick_treated")
 
-    ArmorRecycling("minecraft","iron","create:iron_sheet")
+    ArmorRecycling("minecraft","iron","thermal:iron_plate")
     ArmorRecycling("minecraft","chainmail","chain")
     ArmorRecycling("minecraft","leather","leather")
     ArmorRecycling("minecraft","diamond","kubejs:diamond_plate")
-    ArmorRecycling("kubejs","copper","create:copper_sheet")
-    ArmorRecycling("kubejs","silver","vintageimprovements:silver_sheet")
-    ArmorRecycling("kubejs","lead","vintageimprovements:lead_sheet")
-    ArmorRecycling("twilightforest","ironwood","vintageimprovements:ironwood_sheet")
+    ArmorRecycling("kubejs","copper","thermal:copper_plate")
+    ArmorRecycling("kubejs","silver","thermal:silver_plate")
+    ArmorRecycling("kubejs","lead","thermal:lead_plate")
+    ArmorRecycling("twilightforest","ironwood","kubejs:ironwood_plate")
 
     HorseArmorRecycling("minecraft","leather","leather")
     HorseArmorRecycling("minecraft","iron","iron_ingot")
@@ -186,7 +186,7 @@ ServerEvents.recipes(event=>
 
     event.recipes.mbd2.recycling()
         .inputItems("shield")
-        .outputItems("2x create:iron_sheet")
+        .outputItems("2x thermal:iron_plate")
         .duration(200)
 
      function HeadRecycling(head,output)

@@ -1011,7 +1011,7 @@ ServerEvents.recipes(event => {
     }
     HammerAndExcavators("kubejs:bronze_warhammer",
         "thermal:bronze_block",
-        'vintageimprovements:bronze_sheet',
+        "thermal:bronze_plate",
         "immersiveengineering:stick_treated",
         "kubejs:copper_pickaxe")
 
@@ -1041,13 +1041,13 @@ ServerEvents.recipes(event => {
 
     HammerAndExcavators("kubejs:sturdy_mining_hammer",
         "kubejs:death_essence",
-        "vintageimprovements:netherite_sheet",
+        "thermal:netherite_plate",
         "kubejs:reinforced_tool_handle",
         "kubejs:basic_mining_hammer")
 
     HammerAndExcavators("kubejs:sturdy_excavator",
         "kubejs:death_essence",
-        "vintageimprovements:netherite_sheet",
+        "thermal:netherite_plate",
         "kubejs:reinforced_tool_handle",
         "kubejs:basic_excavator")
 

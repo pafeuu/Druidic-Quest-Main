@@ -90,12 +90,12 @@ ServerEvents.recipes(event=>{
 	SmithingArmor("twilightforest:fiery",
 		"minecraft:iron",
 		"kubejs:fiery_upgrade_smithing_template",
-		"vintageimprovements:fiery_sheet")
+		"#forge:plates/fiery")
 
 	SmithingArmor("twilightforest:knightmetal",
 		"kubejs:lead",
 		"kubejs:knightmetal_upgrade_smithing_template",
-		"vintageimprovements:knightmetal_sheet")
+		"#forge:plates/knightmetal")
 
 	SmithingArmor("twilightforest:steeleaf",
 		"twilightforest:ironwood",
@@ -197,14 +197,14 @@ ServerEvents.recipes(event=>{
 
 	newFieryTools.forEach(id => {
 		
-		event.smithing("kubejs:fiery_"+id,"kubejs:fiery_upgrade_smithing_template","iron_"+id,"vintageimprovements:fiery_sheet")
+		event.smithing("kubejs:fiery_"+id,"kubejs:fiery_upgrade_smithing_template","iron_"+id,"#forge:plates/fiery")
 		event.smithing("kubejs:phoenix_"+id,"kubejs:phoenix_upgrade_smithing_template","kubejs:fiery_"+id,"kubejs:phoenix_ingot")
 
 	});
 
 	FieryTools.forEach(id => {
 		
-		event.smithing("twilightforest:fiery_"+id,"kubejs:fiery_upgrade_smithing_template","iron_"+id,"vintageimprovements:fiery_sheet")
+		event.smithing("twilightforest:fiery_"+id,"kubejs:fiery_upgrade_smithing_template","iron_"+id,"#forge:plates/fiery")
 		event.smithing("kubejs:phoenix_"+id,"kubejs:phoenix_upgrade_smithing_template","twilightforest:fiery_"+id,"kubejs:phoenix_ingot")
 
 	});
@@ -213,7 +213,7 @@ ServerEvents.recipes(event=>{
 
 	KnighmetalTools.forEach(type => {
 		
-		event.smithing("twilightforest:knightmetal_"+type,"kubejs:knightmetal_upgrade_smithing_template","kubejs:lead_"+type,"vintageimprovements:knightmetal_sheet")
+		event.smithing("twilightforest:knightmetal_"+type,"kubejs:knightmetal_upgrade_smithing_template","kubejs:lead_"+type,"#forge:plates/knightmetal")
 		event.smithing("kubejs:obsidian_"+type,"kubejs:obsidian_upgrade_smithing_template","twilightforest:knightmetal_"+type,"kubejs:obsidian_ingot")
 		
 	});
@@ -221,7 +221,7 @@ ServerEvents.recipes(event=>{
 	const newKnightmetalTools = ["hoe","shovel"]
 
 	newKnightmetalTools.forEach(type => {
-		event.smithing("kubejs:knightmetal_"+type,"kubejs:knightmetal_upgrade_smithing_template","kubejs:lead_"+type,"vintageimprovements:knightmetal_sheet")
+		event.smithing("kubejs:knightmetal_"+type,"kubejs:knightmetal_upgrade_smithing_template","kubejs:lead_"+type,"#forge:plates/knightmetal")
 		event.smithing("kubejs:obsidian_"+type,"kubejs:obsidian_upgrade_smithing_template","kubejs:knightmetal_"+type,"kubejs:obsidian_ingot")
 	});
 	
@@ -255,7 +255,7 @@ ServerEvents.recipes(event=>{
 	event.smithing("umbral_skies:fiery_gloves",
 		"kubejs:fiery_upgrade_smithing_template",
 		"aether:iron_gloves",
-		"vintageimprovements:fiery_sheet")
+		"#forge:plates/fiery")
 
 	event.smithing("aether:phoenix_gloves",
 		"kubejs:phoenix_upgrade_smithing_template",
@@ -333,7 +333,7 @@ ServerEvents.recipes(event=>{
 	event.smithing("umbral_skies:knightmetal_gloves",
 		"kubejs:knightmetal_upgrade_smithing_template",
 		"kubejs:lead_gloves",
-		"vintageimprovements:knightmetal_sheet"
+		"#forge:plates/knightmetal"
 	)
 
 	event.smithing("aether:obsidian_gloves",

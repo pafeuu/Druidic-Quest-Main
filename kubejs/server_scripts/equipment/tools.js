@@ -1687,7 +1687,7 @@ ServerEvents.recipes(event => {
 			"GGG"
 		],
 		{
-			G: "kubejs:gravitite_sheet",
+			G: "kubejs:gravitite_plate",
 			X: ["rehooked:iron_hook","rehooked:diamond_hook","rehooked:blaze_hook"]
 		}
 	).id("rehooked:red_hook")
