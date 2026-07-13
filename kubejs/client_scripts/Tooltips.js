@@ -399,7 +399,7 @@ ItemEvents.tooltip(tooltip => {
   })
 
   tooltip.addAdvanced(["minecraft:elytra", "immersiveengineering:glider"], (item, advanced, text) => {
-    text.add(1, [Text.of("Cant use fireworks while wearing this").blue()])
+    text.add(1, [Text.of("Can't use fireworks while wearing this").blue()])
   })
 
   tooltip.addAdvanced("supplementaries:bellows", (item, advanced, text) => {
