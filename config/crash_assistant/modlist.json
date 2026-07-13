@@ -445,14 +445,6 @@
     "curseForgeHash": 4282386808,
     "modrinthHash": "843b16ca88bc5c390bb22a2a84437e6bffdd43dd"
   },
-  "CorpseComplexUnoffical-1.20.1-1.0.jar": {
-    "jarName": "CorpseComplexUnoffical-1.20.1-1.0.jar",
-    "modId": "corpsecomplex",
-    "name": "Corpse Complex Unoffical",
-    "version": "1.20.1-1.0",
-    "curseForgeHash": 31656557,
-    "modrinthHash": "b584d5bdcdeaf5fa255bb3a24105d04c80a63dbe"
-  },
   "cosmeticarmorreworked-1.20.1-v1a.jar": {
     "jarName": "cosmeticarmorreworked-1.20.1-v1a.jar",
     "modId": "cosmeticarmorreworked",
@@ -1610,14 +1602,6 @@
     "curseForgeHash": 1231694275,
     "modrinthHash": "a9b9e2e2aaf7aafe74a3e00aa90ddd514f20245b"
   },
-  "RapidLeafDecay-1.20.1-2.0.2.jar": {
-    "jarName": "RapidLeafDecay-1.20.1-2.0.2.jar",
-    "modId": "rapid_leaf_decay",
-    "name": "Rapid Leaf Decay",
-    "version": "2.0.2",
-    "curseForgeHash": 3932246265,
-    "modrinthHash": "b364543e2a2609608d69b9c957be554c5ac58486"
-  },
   "rehooked-1.8.3-1.20.1.jar": {
     "jarName": "rehooked-1.8.3-1.20.1.jar",
     "modId": "rehooked",
@@ -1649,6 +1633,14 @@
     "version": "1.5.7",
     "curseForgeHash": 1867606919,
     "modrinthHash": "2961835ec9e6230ecd2c2fbd2c6cbfda7abf241c"
+  },
+  "reliable_requiem-forge-1.20.1-1.1.1.jar": {
+    "jarName": "reliable_requiem-forge-1.20.1-1.1.1.jar",
+    "modId": "reliable_requiem",
+    "name": "Reliable Requiem",
+    "version": "1.1.1",
+    "curseForgeHash": 1269597839,
+    "modrinthHash": "e4915546d31b416b482d99232e47e0936be10d7c"
   },
   "remapids-forge-1.20.1-2.0.0.jar": {
     "jarName": "remapids-forge-1.20.1-2.0.0.jar",
@@ -1810,13 +1802,13 @@
     "curseForgeHash": 3615057103,
     "modrinthHash": "c2982089001508ecba463a28c768c39ed004603c"
   },
-  "sophisticatedcore-1.20.1-1.3.65.2126.jar": {
-    "jarName": "sophisticatedcore-1.20.1-1.3.65.2126.jar",
+  "sophisticatedcore-1.20.1-1.3.66.2138.jar": {
+    "jarName": "sophisticatedcore-1.20.1-1.3.66.2138.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.3.65.2126",
-    "curseForgeHash": 524953849,
-    "modrinthHash": "719eb6b0b1d5e677af0dfc57df8ddfae5b9485e9"
+    "version": "1.3.66.2138",
+    "curseForgeHash": 3374749903,
+    "modrinthHash": "acf83e6a567be86c7f2c4fc574bf16e027faa55b"
   },
   "sophisticateditemactions-1.20.1-0.4.10.331.jar": {
     "jarName": "sophisticateditemactions-1.20.1-0.4.10.331.jar",
@@ -1834,13 +1826,13 @@
     "curseForgeHash": 3677184411,
     "modrinthHash": "026826a3bb9945dce1c5d3346dd524639df2aeeb"
   },
-  "sophisticatedstorage-1.20.1-1.4.66.1939.jar": {
-    "jarName": "sophisticatedstorage-1.20.1-1.4.66.1939.jar",
+  "sophisticatedstorage-1.20.1-1.4.67.1953.jar": {
+    "jarName": "sophisticatedstorage-1.20.1-1.4.67.1953.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.4.66.1939",
-    "curseForgeHash": 3064239940,
-    "modrinthHash": "44f7e3ebd4e781ba42c835e4679e8926d488ed9a"
+    "version": "1.4.67.1953",
+    "curseForgeHash": 653201193,
+    "modrinthHash": "f5153864c3cd1ae5bc552bb5d775657476e8c3ad"
   },
   "sophisticatedstoragecreateintegration-1.20.1-0.1.21.176.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.20.1-0.1.21.176.jar",
