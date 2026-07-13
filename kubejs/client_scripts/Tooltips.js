@@ -260,7 +260,7 @@ ItemEvents.tooltip(tooltip => {
   SmithingTemplate("kubejs:depth_upgrade_smithing_template", "Soulstrider", "Obsidian", "Soulstrider Upgrade Parts", 0x543474)
   SmithingTemplate("kubejs:engineer_upgrade_smithing_template", "Engineer", "Leather", "Tough Fabric", 0x74492e)
   SmithingTemplate("kubejs:botanist_upgrade_smithing_template", "Botanist", "Iron", "Infused Ingot", 0xb8b8b8)
-  SmithingTemplate("kubejs:fiery_upgrade_smithing_template", "Fiery", "Iron", "Fiery Sheet", 0xb8b8b8)
+  SmithingTemplate("kubejs:fiery_upgrade_smithing_template", "Fiery", "Iron", "Fiery Plate", 0xb8b8b8)
   SmithingTemplate("kubejs:bronze_upgrade_smithing_template", "Bronze", "Copper", "Bronze Upgrade Parts", 0xd5714d)
   SmithingTemplate("kubejs:obsidian_upgrade_smithing_template", "Obsidian", "Knightmetal", "Obsidian Ingot", 0xa4b48c)
   SmithingTemplate("kubejs:knightmetal_upgrade_smithing_template", "Knightmetal", "Lead", "Knightmetal Sheet", 0x545c7c)
