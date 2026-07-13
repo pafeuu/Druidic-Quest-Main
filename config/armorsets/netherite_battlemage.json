@@ -1,0 +1,68 @@
+{
+  "armorSetName": "netherite_battle_mage",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "irons_spellbooks:netherite_mage_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "irons_spellbooks:netherite_mage_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "irons_spellbooks:netherite_mage_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "irons_spellbooks:netherite_mage_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "manaunification:max_mana",
+      "value": 0.5,
+      "modifierUUID": "2aaddc7f-6ba2-420e-916d-8abc217e7e59",
+      "description": "50% extra max mana",
+      "attributeOperation": 2
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "manaunification:max_mana",
+      "value": 0.5,
+      "modifierUUID": "827e4a02-d4bc-4cbb-9b65-a362ef8ce9ec",
+      "description": "50% extra max mana",
+      "attributeOperation": 2
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": 0.25,
+      "modifierUUID": "2e600ecd-7888-42e1-8be2-2ba415d59ec5",
+      "description": "25% extra spell power",
+      "attributeOperation": 2
+    }
+  ],
+  "hideGeneratedTooltip": false
+}
