@@ -137,6 +137,19 @@ ServerEvents.recipes(event => {
         })
     }
 
+    function alchemyMachineNoLiquid(output, amount, items, wissen) {
+        event.custom({
+            "type": "wizards_reborn:alchemy_machine",
+            "outputItem": {
+                "item": output,
+                "count": amount
+            },
+            "steam": 100,
+            "wissen": wissen,
+            "ingredients": items
+        })
+    }
+
     function alchemyEffectPowders(output, items, wissen, oil) {
         event.custom({
             "type": "wizards_reborn:alchemy_machine",
@@ -153,11 +166,11 @@ ServerEvents.recipes(event => {
         })
     }
 
-    alchemyMachine("kubejs:primitive_alchemical_dust", 1, [
+    alchemyMachineNoLiquid("kubejs:primitive_alchemical_dust", 1, [
         { item: "wizards_reborn:arcanum_dust" },
         { item: "thermal:lapis_dust" },
         { item: "kubejs:infused_emerald" }
-    ], 500, 100)
+    ], 500)
 
     alchemyMachine("kubejs:basic_alchemical_dust", 1, [
         { item: "kubejs:primitive_alchemical_dust" },
