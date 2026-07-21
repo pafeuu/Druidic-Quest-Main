@@ -2216,7 +2216,7 @@ ServerEvents.recipes(event => {
 
 	event.remove({ id: "quark:tweaks/crafting/utility/misc/repeater" })
 
-	event.shaped("comparator",
+	event.shaped("3x comparator",
 		[
 			"STS",
 			"TDT",
@@ -2230,7 +2230,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("minecraft:comparator")
 
-	event.shaped("2x comparator",
+	event.shaped("comparator",
 		[
 			"STS",
 			"TDT",
