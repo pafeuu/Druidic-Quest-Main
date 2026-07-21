@@ -10,13 +10,13 @@ const wood_BWG = ['aspen', 'baobab', 'blue_enchanted', 'green_enchanted', 'cika'
 	'pine', 'rainbow_eucalyptus', 'redwood', 'sakura', 'skyris', 'white_mangrove', 'willow', 'witch_hazel', 'zelkova'
 ]
 
-const wood_DA = ["sunroot","conberry","yagroot","cruderoot","roseroot"]
+const wood_DA = ["sunroot", "conberry", "yagroot", "cruderoot", "roseroot"]
 
-const wood_AA = ["sakura","highsproot"]
+const wood_AA = ["sakura", "highsproot"]
 
-const wood_quark = ["blossom","ancient","azalea"]
+const wood_quark = ["blossom", "ancient", "azalea"]
 
-const wood_WR = ["arcane_wood","innocent_wood"]
+const wood_WR = ["arcane_wood", "innocent_wood"]
 
 const alloys = ['bronze', 'enderium', 'brass', 'invar', 'rose_gold', 'constantan', 'signalum', 'lumium']
 
@@ -2225,7 +2225,7 @@ ServerEvents.recipes(event => {
 		{
 			S: "#forge:plates/stone",
 			T: "redstone_torch",
-			D: "redstone",
+			D: "repeater",
 			Q: "#forge:storage_blocks/quartz"
 		}
 	).id("minecraft:comparator")
@@ -2915,69 +2915,69 @@ ServerEvents.recipes(event => {
 	});
 
 	event.shaped(`everycomp:hc/minecraft/pale_oak_fancy_bed`,
-			[
-				'HP ',
-				'PXP',
-				' P '
-			],
-			{
-				H: 'handcrafted:hammer',
-				X: '#minecraft:beds',
-				P: `pale_oak_planks`
-			}
-		).id(`everycomp:hc/minecraft/pale_oak_fancy_bed`)
+		[
+			'HP ',
+			'PXP',
+			' P '
+		],
+		{
+			H: 'handcrafted:hammer',
+			X: '#minecraft:beds',
+			P: `pale_oak_planks`
+		}
+	).id(`everycomp:hc/minecraft/pale_oak_fancy_bed`)
 
 	event.shaped("everycomp:hc/thermal/rubberwood_fancy_bed",
-			[
-				'HP ',
-				'PXP',
-				' P '
-			],
-			{
-				H: 'handcrafted:hammer',
-				X: '#minecraft:beds',
-				P: "thermal:rubberwood_planks"
-			}
-		).id("everycomp:hc/thermal/rubberwood_fancy_bed")
+		[
+			'HP ',
+			'PXP',
+			' P '
+		],
+		{
+			H: 'handcrafted:hammer',
+			X: '#minecraft:beds',
+			P: "thermal:rubberwood_planks"
+		}
+	).id("everycomp:hc/thermal/rubberwood_fancy_bed")
 
 	event.shaped("everycomp:hc/aether/skyroot_fancy_bed",
-			[
-				'HP ',
-				'PXP',
-				' P '
-			],
-			{
-				H: 'handcrafted:hammer',
-				X: '#minecraft:beds',
-				P: "aether:skyroot_planks"
-			}
-		).id("everycomp:hc/aether/skyroot_fancy_bed")
+		[
+			'HP ',
+			'PXP',
+			' P '
+		],
+		{
+			H: 'handcrafted:hammer',
+			X: '#minecraft:beds',
+			P: "aether:skyroot_planks"
+		}
+	).id("everycomp:hc/aether/skyroot_fancy_bed")
 
 	event.shaped("everycomp:hc/naturesaura/ancient_fancy_bed",
-			[
-				'HP ',
-				'PXP',
-				' P '
-			],
-			{
-				H: 'handcrafted:hammer',
-				X: '#minecraft:beds',
-				P: "naturesaura:ancient_planks"
-			}
-		).id("everycomp:hc/naturesaura/ancient_fancy_bed")
+		[
+			'HP ',
+			'PXP',
+			' P '
+		],
+		{
+			H: 'handcrafted:hammer',
+			X: '#minecraft:beds',
+			P: "naturesaura:ancient_planks"
+		}
+	).id("everycomp:hc/naturesaura/ancient_fancy_bed")
 
 	event.shaped("everycomp:hc/ars_nouveau/archwood_fancy_bed",
-			[
-				'HP ',
-				'PXP',
-				' P '
-			],
-			{
-				H: 'handcrafted:hammer',
-				X: '#minecraft:beds',
-				P: "ars_nouveau:archwood_planks"
-			}
-		).id("everycomp:hc/ars_nouveau/archwood_fancy_bed")
+		[
+			'HP ',
+			'PXP',
+			' P '
+		],
+		{
+			H: 'handcrafted:hammer',
+			X: '#minecraft:beds',
+			P: "ars_nouveau:archwood_planks"
+		}
+	).id("everycomp:hc/ars_nouveau/archwood_fancy_bed")
 
 	wood_AA.forEach(wood => {
 		event.shaped(`everycomp:hc/ancient_aether/${wood}_fancy_bed`,
@@ -3117,9 +3117,24 @@ ServerEvents.recipes(event => {
 
 	event.shapeless("2x thermal:phytogro", ["thermal:phytogro", "3x thermal:apatite_dust"])
 
-	event.shapeless("4x create:tree_fertilizer", ["2x #minecraft:small_flowers", "thermal:apatite_dust", "#c:coral"]).id("create:crafting/appliances/tree_fertilizer")
+	event.shapeless("6x create:tree_fertilizer", [
+		"2x #minecraft:small_flowers",
+		"thermal:apatite_dust",
+		"#c:coral",
+		"vintagedelight:organic_mash"]
+	)
 
-	event.shapeless("2x create:tree_fertilizer", ["2x #minecraft:small_flowers", "thermal:apatite_dust", "vintagedelight:organic_mash"]).id("vintagedelight:organic_compost_tree_fertilizer")
+	event.shapeless("4x create:tree_fertilizer", [
+		"2x #minecraft:small_flowers",
+		"thermal:apatite_dust",
+		"#c:coral"]
+	).id("create:crafting/appliances/tree_fertilizer")
+
+	event.shapeless("2x create:tree_fertilizer", [
+		"2x #minecraft:small_flowers",
+		"thermal:apatite_dust",
+		"vintagedelight:organic_mash"]
+	).id("vintagedelight:organic_compost_tree_fertilizer")
 
 	event.shapeless("2x immersiveengineering:fertilizer", ["#forge:dusts/sulfur", "#forge:slag", "bone_meal"]).id("immersiveengineering:crafting/fertilizer")
 
@@ -4929,7 +4944,7 @@ ServerEvents.recipes(event => {
 
 
 	event.remove({ id: 'ars_nouveau:storage_lectern' })
-	
+
 
 	event.remove({ output: 'minecraft:hopper' })
 	event.shaped(
