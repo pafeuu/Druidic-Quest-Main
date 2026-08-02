@@ -320,7 +320,7 @@ ServerEvents.recipes(event => {
 	CustomGears("source_alloy","kubejs:source_alloy_gear")
 	CustomGears("arcanum_alloy","kubejs:arcanum_alloy_gear")
 	CustomGears("aluminum","kubejs:aluminum_gear")
-	CustomGears("andesite","kubejs:andesite_gear")
+	CustomGears("andesite_alloy","kubejs:andesite_gear")
 	CustomGears("zinc","kubejs:zinc_gear")
 	CustomGears("uranium","kubejs:uranium_gear")
 	CustomGears("stainless_steel","kubejs:stainless_steel_gear")
@@ -394,10 +394,9 @@ ServerEvents.recipes(event => {
 	rods("nickel","kubejs:nickel_rod")
 	rods("silver","kubejs:silver_rod")
 	rods("steel","kubejs:steel_rod")
-	rods("tin","vintageimprovements:tin_rod")
-
-	rods("uranium","vintageimprovements:uranium_rod")
-	rods("zinc","vintageimprovements:zinc_rod")
+	rods("tin","kubejs:tin_rod")
+	rods("uranium","kubejs:uranium_rod")
+	rods("zinc","kubejs:zinc_rod")
 	
 	//-------------------Plates---------------------
 
