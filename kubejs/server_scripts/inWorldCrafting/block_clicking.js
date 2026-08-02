@@ -204,7 +204,7 @@ ServerEvents.recipes(event => {
       }
     ],
     item_in: {
-      tag: "minecraft:pickaxe"
+      tag: "minecraft:pickaxes"
     },
     block_in: "minecraft:stone"
   })
