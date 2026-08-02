@@ -22,7 +22,7 @@ ServerEvents.tags("block", (event) => {
     "mbd2:alloy_kiln",
   ]);
 
-  event.add("treeliable:leaves_like",[
+  event.add("treeliable:leaves_like", [
     "biomeswevegone:allium_petal_block",
     "biomeswevegone:pink_allium_petal_block",
     "biomeswevegone:white_allium_petal_block"
@@ -82,17 +82,6 @@ ServerEvents.tags("block", (event) => {
   ]);
 
   let grass = [
-    /*"regions_unexplored:medium_grass",
-    "regions_unexplored:ashen_grass",
-    "regions_unexplored:bladed_grass",
-    "regions_unexplored:frozen_grass",
-    "regions_unexplored:sandy_grass",
-    "regions_unexplored:steppe_grass",
-    "regions_unexplored:mycotoxic_grass",
-    "regions_unexplored:bladed_tall_grass",
-    "regions_unexplored:sandy_tall_grass",
-    "regions_unexplored:steppe_tall_grass",
-    "regions_unexplored:windswept_grass",*/
     "immersive_weathering:frosty_grass",
     "immersive_weathering:dune_grass",
     "biomeswevegone:prairie_grass",
@@ -107,7 +96,7 @@ ServerEvents.tags("block", (event) => {
     "skeleton_skull",
     "wither_skeleton_skull",
     "player_head",
-    "ars_nouveau:agronomic_sourcelink" /*,"elementalcraft:burnt_glass"*/,
+    "ars_nouveau:agronomic_sourcelink",
   ];
 
   let axeable = [
@@ -207,5 +196,20 @@ ServerEvents.tags("block", (event) => {
     'farmersdelight:wild_rice']
   )
 
-  //event.add("twilightforest:portal/decoration","#minecraft:small_flowers")
+  event.add("brewinandchewin:freeze_sources", [
+    'rubinated_nether:frosted_ice',
+    'minecraft:frosted_ice',
+    'aether:icestone',
+    'aether:icestone_stairs',
+    'aether:icestone_slab',
+    'aether:icestone_wall',
+    'ancient_aether:wynd_ice',
+    'immersive_weathering:thin_ice',
+    'rubinated_nether:dry_ice',
+    'biomeswevegone:borealis_ice',
+    'biomeswevegone:packed_borealis_ice',
+    'biomeswevegone:packed_black_ice',
+    'biomeswevegone:black_ice'
+  ])
+
 });
