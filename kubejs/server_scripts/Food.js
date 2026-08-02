@@ -299,7 +299,7 @@ ServerEvents.recipes(e => {
             "CCC"
         ],
         {
-            A: "vintagedelight:cheese_slice",
+            A: "#forge:cheese",
             B: "kubejs:pizza_sauce",
             C: "#forge:dough"
         }
