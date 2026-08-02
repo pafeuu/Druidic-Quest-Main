@@ -11,6 +11,8 @@ ServerEvents.recipes(e => {
 
   e.replaceInput({ mod: "sophisticatedstorage" }, "#forge:gems/diamond", "#forge:plates/diamond")
   e.replaceInput({ mod: "sophisticatedbackpacks" }, "#forge:gems/diamond", "#forge:plates/diamond")
+  e.replaceInput({mod:"sophisticatedbackpacks"},"minecraft:lever","minecraft:redstone_torch")
+  e.replaceInput({mod:"sophisticatedstorage"},"minecraft:lever","minecraft:redstone_torch")
   //============================CHESTS AND BARRELS
 
   /*e.custom({
@@ -267,39 +269,6 @@ ServerEvents.recipes(e => {
       X: '#forge:leather',
       G: '#forge:gems/diamond'
     }
-  )
-
-  e.custom({
-    "type": "sophisticatedbackpacks:backpack_upgrade",
-    "pattern": [
-      "GGG",
-      "GBG",
-      "GGG"
-    ],
-    "key": {
-      "G": {
-        "tag": "forge:plates/tainted_gold"
-      },
-      "B": {
-        "item": "solonion:lunchbag"
-      }
-    },
-    "result": {
-      "item": "solonion:lunchbox"
-    }
-  })
-
-  e.custom({
-    "type": "minecraft:crafting_transmute",
-    "input": [
-      "minecraft:wooden_pickaxe"
-    ],
-    "material": [
-      "minecraft:diamond"
-    ],
-    "material_count": 1,
-    "result": "minecraft:diamond_pickaxe"
-  }
   )
 
   function exch(item) {
