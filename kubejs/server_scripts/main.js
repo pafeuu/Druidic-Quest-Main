@@ -2803,8 +2803,8 @@ ServerEvents.recipes(event => {
 		event.shaped(
 			Item.of('comforts:sleeping_bag_' + color),
 			[
-				'CCP',
-				'SSS'
+				'CP',
+				'SS'
 			],
 			{
 				C: 'handcrafted:' + color + '_sheet',
@@ -2816,14 +2816,11 @@ ServerEvents.recipes(event => {
 		event.shaped(
 			Item.of(color + '_bed'),
 			[
-				'CSC',
-				'III',
-				'PPP'
+				'S',
+				'P'
 			],
 			{
-				C: 'handcrafted:' + color + '_sheet',
-				I: 'immersiveengineering:cushion',
-				P: 'forge:treated_wood',
+				P: "#minecraft:wooden_slabs",
 				S: 'comforts:sleeping_bag_' + color
 			}
 		).id("minecraft:" + color + "_bed")
@@ -4738,7 +4735,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			C: "immersiveengineering:component_iron",
-			S: "immersiveengineering:sheetmetal_iron",
+			S: "thermal:iron_plate",
 			X: "kubejs:steel_machine"
 		}
 	).id("immersiveengineering:crafting/light_engineering")
@@ -4751,7 +4748,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			C: "immersiveengineering:component_steel",
-			S: "immersiveengineering:sheetmetal_steel",
+			S: "thermal:steel_plate",
 			X: "kubejs:steel_machine"
 		}
 	).id("immersiveengineering:crafting/heavy_engineering")
@@ -4812,17 +4809,6 @@ ServerEvents.recipes(event => {
 
 	event.remove({ id: 'immersiveengineering:blastfurnace/steel' })
 
-	event.recipes.createMechanicalCrafting("vintageimprovements:grinder_belt", [
-		"SSDSS",
-		"SDXDS",
-		"DXXXD",
-		"SDXDS",
-		"SSDSS"
-	], {
-		S: 'create:sand_paper',
-		D: '#forge:plates/diamond',
-		X: "irons_spellbooks:mithril_scrap"
-	}).id("vintageimprovements:craft/grinder_belt")
 
 	event.custom({
 
@@ -4937,10 +4923,6 @@ ServerEvents.recipes(event => {
 	event.shaped("create:mechanical_crafter",
 		["AZA", "AYA", "AXA"],
 		{ A: "create:brass_casing", X: "sophisticatedstorage:crafting_upgrade", Y: "kubejs:steel_machine", Z: "#forge:gears/brass" }).id("create:crafting/kinetics/mechanical_crafter")
-
-	event.shaped("vintageimprovements:belt_grinder",
-		["AZA", "AYA", "AXA"],
-		{ A: "create:andesite_casing", Z: "vintageimprovements:grinder_belt", Y: "kubejs:andesite_machine", X: "#forge:gears/steel" }).id("vintageimprovements:craft/belt_grinder")
 
 
 	event.remove({ id: 'ars_nouveau:storage_lectern' })
