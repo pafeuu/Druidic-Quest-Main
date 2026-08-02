@@ -1,6 +1,7 @@
 # Chronos Backup
 #
-# These values load once when Minecraft starts (client or dedicated server). Editing this file requires a full restart-reloading the world does not apply changes.
+# These values load once when Minecraft starts (client or dedicated server).
+# Editing this file requires a full restart. Reloading the world does not apply changes.
 #
 # The name of the folder that will contain the backups.
 # Example: "chronos"
@@ -15,7 +16,7 @@ pruneChunks = true
 pruneTimeRequirementSeconds = 120
 
 # Max worker threads used by native pruning.
-# 0 uses auto thread selection, positive values cap parallelism.
+# 0 uses auto thread selection, positive values set the maximum parallelism.
 pruneMaxWorkerThreads = 0
 
 # Whether to run backups on a timer. If false, only manual /chronos backups run.
@@ -26,14 +27,23 @@ scheduleBackups = true
 backupIntervalSeconds = 7200
 
 # Maximum backups kept per world.
-# After a successful backup, oldest snapshots are removed if this would be exceeded.
-# Recommended value: 5. Values lower than 3 can be used to save space, but risks data loss if a catastrophic error occured several backups ago.
+# After a successful backup, oldest local snapshots are removed if this would be exceeded.
+# Cloud sync also trims remote Chronos backups to this cap.
+# Recommended value: 5. Values lower than 3 save space but risk losing older restore points.
 # Values below 1 disable automatic removal.
 maxStoredBackups = 3
 
 # Snapshot storage: "zip" or "none".
 # "zip" uses zip for compression. "none" stores an uncompressed folder.
 compressionMethod = "zip"
+
+# Whether backups should be uploaded to Google Drive.
+# Requires OAuth credentials to be set up. On mod startup, check the console for instructions.
+googleDriveEnabled = false
+
+# When true, keep local backups after a successful cloud upload.
+# When false, each backup is deleted locally once it has been uploaded.
+shouldKeepLocalBackups = true
 
 # Paths to exclude from the backup snapshot copy (names anywhere under the world, or relative paths
 # with /).
@@ -53,4 +63,4 @@ copyBlacklist = [
 commandRequiredPermissionLevel = 4
 
 # Internal: Config format version (updated automatically when the layout changes).
-configVersion = 1
+configVersion = 2

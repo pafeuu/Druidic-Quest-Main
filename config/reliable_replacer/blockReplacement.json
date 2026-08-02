@@ -60,5 +60,11 @@
       "immersiveengineering:reinforced_crate"
     ],
     "output": "minecraft:black_shulker_box"
+  },
+  {
+    "inputs":[
+      "*sheetmetal*"
+    ],
+    "output": "quark:iron_plate"
   }
 ]

@@ -27,7 +27,7 @@ slimeGenRange = 8
 #Cubical size radius (half-length) for range of the chorus generator to check for valid plants in blocks. (Default: 2)
 #Range: 1 ~ 10
 chorusGenRange = 2
-#Cubical size radius (half-length) for range of the oak generator to check for tree/feature placements. (Default: 10)
+#Cubical size radius (half-length) for range of the firework generator to check for dropped fireworks. (Default: 10)
 #Range: 1 ~ 32
 oakGenRange = 10
 #Cubical size radius (half-length) for range of the potion generator to check for lingering potions. (Default: 2)
@@ -37,4 +37,6 @@ potionGenRange = 2
 #Set to -1 to remove the cap. (Default: 2)
 #Range: -1 ~ 100
 potionCapForGenPerTick = 2
+#Whether the potion generator needs its multiblock to function or not. (Default: true)
+checkMultiForPotionGen = true
 
