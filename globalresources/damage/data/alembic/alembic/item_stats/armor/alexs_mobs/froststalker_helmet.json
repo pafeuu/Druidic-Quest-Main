@@ -1,0 +1,17 @@
+{
+  "id": "alexsmobs:froststalker_helmet",
+  "modifiers": [
+    {
+      "type": "remove",
+      "target": "minecraft:generic.armor_toughness"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "fddb9f0d-80ff-47cd-9abb-277c27adce1a"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}
