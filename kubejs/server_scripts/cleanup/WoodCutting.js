@@ -35,7 +35,7 @@ ItemEvents.rightClicked(['kubejs:primitive_saw',"kubejs:basic_saw"], event => {
             }
 
     }
-
+	StrippedWoodCutting("minecraft:pale_oak_planks","minecraft:stripped_pale_oak_log")
     StrippedWoodCutting("minecraft:oak_planks","minecraft:stripped_oak_log")
 	StrippedWoodCutting("minecraft:spruce_planks","minecraft:stripped_spruce_log")
 	StrippedWoodCutting("minecraft:birch_planks","minecraft:stripped_birch_log")
@@ -54,8 +54,6 @@ ItemEvents.rightClicked(['kubejs:primitive_saw',"kubejs:basic_saw"], event => {
 	StrippedWoodCutting("deep_aether:conberry_planks","deep_aether:stripped_conberry_log")
 	StrippedWoodCutting("deep_aether:sunroot_planks","deep_aether:stripped_sunroot_log")
 	StrippedWoodCutting("deep_aether:roseroot_planks","deep_aether:stripped_roseroot_log")
-	StrippedWoodCutting("deeperdarker:echo_planks","deeperdarker:stripped_echo_log")
-	StrippedWoodCutting("deeperdarker:bloom_planks","deeperdarker:stripped_blooming_stem")
 	StrippedWoodCutting("mynethersdelight:powdery_planks","mynethersdelight:stripped_powdery_block")
 	StrippedWoodCutting("quark:ancient_planks","quark:stripped_ancient_log")
 	StrippedWoodCutting("quark:azalea_planks","quark:stripped_azalea_log")
@@ -186,7 +184,7 @@ ItemEvents.rightClicked(['kubejs:primitive_saw',"kubejs:basic_saw"], event => {
 	
 
 
-
+	WoodCutting("minecraft:pale_oak_planks","minecraft:pale_oak_log")
     WoodCutting("minecraft:oak_planks","minecraft:oak_log")
 	WoodCutting("minecraft:spruce_planks","minecraft:spruce_log")
 	WoodCutting("minecraft:birch_planks","minecraft:birch_log")

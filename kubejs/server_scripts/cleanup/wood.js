@@ -198,7 +198,7 @@ ServerEvents.recipes(event => {
 
 		event.remove({ output: planks, type: "minecraft:crafting_shapeless" }) // Removes default shapeless recipe recipe
 	}
-
+	CuttingLogs("minecraft:pale_oak_planks", "minecraft:stripped_pale_oak_log")
 	CuttingLogs("minecraft:oak_planks", "minecraft:stripped_oak_log")
 	CuttingLogs("minecraft:spruce_planks", "minecraft:stripped_spruce_log")
 	CuttingLogs("minecraft:birch_planks", "minecraft:stripped_birch_log")
@@ -210,7 +210,6 @@ ServerEvents.recipes(event => {
 	CuttingLogs("minecraft:mangrove_planks", "minecraft:stripped_mangrove_log")
 	CuttingLogs("minecraft:cherry_planks", "minecraft:stripped_cherry_log")
 	CuttingLogs("minecraft:bamboo_planks", "minecraft:stripped_bamboo_block")
-	//CuttingLogs("architects_palette:twisted_planks","architects_palette:stripped_twisted_log")
 	CuttingLogs("ancient_aether:highsproot_planks", "ancient_aether:stripped_highsproot_log")
 	CuttingLogs("ancient_aether:sakura_planks", "ancient_aether:stripped_sakura_log")
 	CuttingLogs("deep_aether:yagroot_planks", "deep_aether:stripped_yagroot_log")
@@ -222,32 +221,6 @@ ServerEvents.recipes(event => {
 	CuttingLogs("quark:ancient_planks", "quark:stripped_ancient_log")
 	CuttingLogs("quark:azalea_planks", "quark:stripped_azalea_log")
 	CuttingLogs("quark:blossom_planks", "quark:stripped_blossom_log")
-
-	/*CuttingLogs("minecraft:bamboo_planks","regions_unexplored:stripped_bamboo_log")
-	CuttingLogs("minecraft:oak_planks","regions_unexplored:stripped_small_oak_log")
-	CuttingLogs("regions_unexplored:baobab_planks","regions_unexplored:stripped_baobab_log")
-	CuttingLogs("regions_unexplored:alpha_planks","regions_unexplored:alpha_log")
-	CuttingLogs("regions_unexplored:blackwood_planks","regions_unexplored:stripped_blackwood_log")
-	CuttingLogs("regions_unexplored:blue_bioshroom_planks","regions_unexplored:stripped_blue_bioshroom_stem")
-	CuttingLogs("regions_unexplored:yellow_bioshroom_planks","regions_unexplored:stripped_yellow_bioshroom_stem")
-	CuttingLogs("regions_unexplored:pink_bioshroom_planks","regions_unexplored:stripped_pink_bioshroom_stem")
-	CuttingLogs("regions_unexplored:green_bioshroom_planks","regions_unexplored:stripped_green_bioshroom_stem")
-	CuttingLogs("regions_unexplored:brimwood_planks","regions_unexplored:stripped_brimwood_log")
-	CuttingLogs("regions_unexplored:cobalt_planks","regions_unexplored:stripped_cobalt_log")
-	CuttingLogs("regions_unexplored:cypress_planks","regions_unexplored:stripped_cypress_log")
-	CuttingLogs("regions_unexplored:dead_planks","regions_unexplored:stripped_dead_log")
-	CuttingLogs("regions_unexplored:eucalyptus_planks","regions_unexplored:stripped_eucalyptus_log")
-	CuttingLogs("regions_unexplored:joshua_planks","regions_unexplored:stripped_joshua_log")
-	CuttingLogs("regions_unexplored:kapok_planks","regions_unexplored:stripped_kapok_log")
-	CuttingLogs("regions_unexplored:larch_planks","regions_unexplored:stripped_larch_log")
-	CuttingLogs("regions_unexplored:magnolia_planks","regions_unexplored:stripped_magnolia_log")
-	CuttingLogs("regions_unexplored:maple_planks","regions_unexplored:stripped_maple_log")
-	CuttingLogs("regions_unexplored:mauve_planks","regions_unexplored:stripped_mauve_log")
-	CuttingLogs("regions_unexplored:palm_planks","regions_unexplored:stripped_palm_log")
-	CuttingLogs("regions_unexplored:pine_planks","regions_unexplored:stripped_pine_log")
-	CuttingLogs("regions_unexplored:redwood_planks","regions_unexplored:stripped_redwood_log")
-	CuttingLogs("regions_unexplored:socotra_planks","regions_unexplored:stripped_socotra_log")
-	CuttingLogs("regions_unexplored:willow_planks","regions_unexplored:stripped_willow_log")*/
 	CuttingLogs("aether:skyroot_planks", "aether:stripped_skyroot_log")
 	CuttingLogs("twilightforest:twilight_oak_planks", "twilightforest:stripped_twilight_oak_log")
 	CuttingLogs("twilightforest:canopy_planks", "twilightforest:stripped_canopy_log")
@@ -356,9 +329,7 @@ ServerEvents.recipes(event => {
 	CuttingLogs("naturesaura:ancient_planks", "naturesaura:stripped_ancient_bark")
 	CuttingLogs("wizards_reborn:cork_bamboo_planks", "wizards_reborn:cork_bamboo_block")
 
-
-
-	SlabsAndStairs("naturesaura", "ancient")
+	SlabsAndStairs("minecraft","pale_oak")
 	SlabsAndStairs("minecraft", "oak")
 	SlabsAndStairs("minecraft", "spruce")
 	SlabsAndStairs("minecraft", "birch")
@@ -370,7 +341,6 @@ ServerEvents.recipes(event => {
 	SlabsAndStairs("minecraft", "mangrove")
 	SlabsAndStairs("minecraft", "cherry")
 	SlabsAndStairs("minecraft", "bamboo")
-	//SlabsAndStairs("architects_palette","twisted")
 	SlabsAndStairs("ancient_aether", "highsproot")
 	SlabsAndStairs("ancient_aether", "sakura")
 	SlabsAndStairs("deep_aether", "yagroot")
@@ -382,37 +352,7 @@ ServerEvents.recipes(event => {
 	QuarkSlabsAndStairs("quark", "ancient")
 	QuarkSlabsAndStairs("quark", "azalea")
 	QuarkSlabsAndStairs("quark", "blossom")
-
-	/*SlabAndStairs("regions_unexplored","baobab")
-	SlabAndStairs("regions_unexplored","alpha")
-	SlabAndStairs("regions_unexplored","blackwood")
-	SlabAndStairs("regions_unexplored","blue_bioshroom")
-	SlabAndStairs("regions_unexplored","yellow_bioshroom")
-	SlabAndStairs("regions_unexplored","pink_bioshroom")
-	SlabAndStairs("regions_unexplored","green_bioshroom")
-	SlabAndStairs("regions_unexplored","brimwood")
-	SlabAndStairs("regions_unexplored","cobalt")
-	SlabAndStairs("regions_unexplored","cypress")
-	SlabAndStairs("regions_unexplored","dead")
-	SlabAndStairs("regions_unexplored","eucalyptus")
-	SlabAndStairs("regions_unexplored","joshua")
-	SlabAndStairs("regions_unexplored","kapok")
-	SlabAndStairs("regions_unexplored","larch")
-	SlabAndStairs("regions_unexplored","magnolia")
-	SlabAndStairs("regions_unexplored","maple")
-	SlabAndStairs("regions_unexplored","mauve")
-	SlabAndStairs("regions_unexplored","palm")
-	SlabAndStairs("regions_unexplored","pine")
-	SlabAndStairs("regions_unexplored","redwood")
-	SlabAndStairs("regions_unexplored","socotra")
-	SlabAndStairs("regions_unexplored","willow")
-	var colors = ['red','blue','white','gray','light_gray','black','purple','magenta','yellow','green','lime','light_blue','cyan','orange','pink','brown']
-	colors.forEach(color => {
-		SlabAndStairs("regions_unexplored",color+"_painted")
-	});*/
-
 	SlabsAndStairs("aether", "skyroot")
-
 	SlabsAndStairs("twilightforest", "twilight_oak")
 	SlabsAndStairs("twilightforest", "canopy")
 	SlabsAndStairs("twilightforest", "mangrove")

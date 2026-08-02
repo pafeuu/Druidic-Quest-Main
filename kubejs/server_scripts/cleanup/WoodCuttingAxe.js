@@ -22,7 +22,7 @@ ItemEvents.rightClicked(event => {
             }
     }
 
-
+	StrippedWoodCutting("minecraft:pale_oak_planks","minecraft:stripped_pale_oak_log")
     StrippedWoodCutting("minecraft:oak_planks","minecraft:stripped_oak_log")
 	StrippedWoodCutting("minecraft:spruce_planks","minecraft:stripped_spruce_log")
 	StrippedWoodCutting("minecraft:birch_planks","minecraft:stripped_birch_log")
