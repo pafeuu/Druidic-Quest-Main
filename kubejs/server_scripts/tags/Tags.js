@@ -2,6 +2,37 @@ priority: 0;
 
 ServerEvents.tags("item", (event) => {
 
+  event.removeAllTagsFrom(["ancient_aether:highsproot_wood_wall", "ancient_aether:stripped_sakura_log_wall", "ancient_aether:sakura_log_wall", "ancient_aether:stripped_sakura_wood_wall", "ancient_aether:sakura_wood_wall", "ancient_aether:stripped_highsproot_wood_wall", "ancient_aether:stripped_highsproot_log_wall", "ancient_aether:highsproot_log_wall"])
+  event.add("minecraft:bundles", "#silly_oddities:bundles")
+
+  event.add("forge:stripped_blocks", ["#forge:stripped_logs", "#forge:stripped_wood"])
+
+  event.add("forge:stripped_logs", [
+    'aether:stripped_skyroot_log',
+    'ancient_aether:stripped_highsproot_log',
+    'ancient_aether:stripped_sakura_log',
+    'deep_aether:stripped_roseroot_log',
+    'deep_aether:stripped_yagroot_log',
+    'deep_aether:stripped_cruderoot_log',
+    'deep_aether:stripped_conberry_log',
+    'deep_aether:stripped_sunroot_log',
+    'naturesaura:stripped_ancient_log',
+    'thermal:stripped_rubberwood_log'
+  ])
+
+  event.add("forge:stripped_wood", [
+    'aether:stripped_skyroot_wood',
+    'ancient_aether:stripped_highsproot_wood',
+    'ancient_aether:stripped_sakura_wood',
+    'deep_aether:stripped_roseroot_wood',
+    'deep_aether:stripped_yagroot_wood',
+    'deep_aether:stripped_cruderoot_wood',
+    'deep_aether:stripped_conberry_wood',
+    'deep_aether:stripped_sunroot_wood',
+    'naturesaura:stripped_ancient_bark',
+    'thermal:stripped_rubberwood_wood'
+  ])
+
   event.remove("curios:head", [
     'twilightforest:knight_phantom_trophy',
     'twilightforest:ur_ghast_trophy',
@@ -17,8 +48,22 @@ ServerEvents.tags("item", (event) => {
     'twilightforest:quest_ram_trophy'
   ])
 
+  event.add("forge:cooked_eggs", "alexsmobs:boiled_emu_egg")
 
-  event.add("forge:ancient_wood", ["naturesaura:ancient_bark", "naturesaura:ancient_log"])
+  event.add("forge:cheese", [
+    'brewinandchewin:flaxen_cheese_wedge',
+    'brewinandchewin:scarlet_cheese_wedge',
+    'brewinandchewin:scarlet_cheese_wheel',
+    'brewinandchewin:flaxen_cheese_wheel'
+  ])
+
+  event.add("forge:ancient_wood", [
+    "naturesaura:ancient_bark",
+    "naturesaura:ancient_log",
+    "naturesaura:stripped_ancient_bark",
+    "naturesaura:stripped_ancient_log"
+  ])
+
   event.add("forge:dusts/saltpeter", "barrier"); // This shit screams at me all the time so it that barrier up
 
 
@@ -148,20 +193,7 @@ ServerEvents.tags("item", (event) => {
     'deep_aether:golden_grass_seeds',
     'wizards_reborn:shiny_clover_seed'
   ])
-  
 
-  let flower = [
-
-    /*'regions_unexplored:yellow_snowbelle',*/
-    /*,'regions_unexplored:alpha_dandelion'*/
-  ];
-
-  /*let wiring = ['minecraft:repeater', 'minecraft:calibrated_sculk_sensor', 'minecraft:tripwire_hook', 'minecraft:daylight_detector', 'minecraft:string', 'minecraft:activator_rail', 'minecraft:detector_rail', 'minecraft:powered_rail', 'minecraft:rail', 
-                'minecraft:redstone', 'minecraft:piston', 'minecraft:composter', 'create:redstone_link', 'minecraft:sticky_piston', 'minecraft:dispenser', 'minecraft:redstone_lamp', 'minecraft:redstone_torch', 'minecraft:dropper',
-                 'minecraft:hopper', 'ars_nouveau:redstone_relay', 'minecraft:lever', 'minecraft:target', 'quark:redstone_randomizer', 'minecraft:comparator','create:controller_rail', 'create:large_cogwheel', 'create:shaft', 'create:cogwheel', 'create:gearbox', 
-                 'create:vertical_gearbox', 'create:clutch', 'create:gearshift', 'create:encased_chain_drive', 'create:adjustable_chain_gearshift', 'create:belt_connector', 'create:fluid_pipe', 'create:mechanical_pump', 'create:smart_fluid_pipe', 'create:fluid_valve', 
-                 'create:piston_extension_pole', 'create:gantry_shaft', 'create:analog_lever', 'create:pulse_repeater', 'create:pulse_extender', 'create:powered_latch', 'create:powered_toggle_latch', 'create:track','supplementaries:hourglass', 'supplementaries:crank', 
-                 'supplementaries:wind_vane', 'supplementaries:cog_block', 'supplementaries:turn_table', 'supplementaries:spring_launcher', 'supplementaries:faucet']*/
 
   let froglights = [
     "minecraft:ochre_froglight",
@@ -286,7 +318,6 @@ ServerEvents.tags("item", (event) => {
 
   event.add("forge:ingots/andesite", "create:andesite_alloy");
   event.add("forge:storage_blocks/andesite", "create:andesite_alloy_block");
-  event.add("forge:plates/andesite", "vintageimprovements:andesite_sheet");
 
   event.add("c:music_discs", "#minecraft:music_discs");
   event.add("immersive_weathering:bark", "farmersdelight:tree_bark");
