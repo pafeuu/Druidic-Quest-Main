@@ -122,8 +122,8 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("shepherd", 3, [TradeItem.of("thermal:copper_coin", 4, 12)], "3x minecraft:mutton");
 	event.addTrade("shepherd", 3, [TradeItem.of("thermal:copper_coin", 8, 24)], "20x minecraft:white_carpet");
 	
-	event.addTrade("shepherd", 4, [TradeItem.of("thermal:silver_coin", 2, 6)], "4x vintagedelight:cheese_slice");
-	event.addTrade("shepherd", 4, [TradeItem.of("thermal:silver_coin", 2, 6)], "vintagedelight:cheese_wheel");
+	event.addTrade("shepherd", 4, [TradeItem.of("thermal:silver_coin", 2, 6)], "brewinandchewin:flaxen_cheese_wedge");
+	event.addTrade("shepherd", 4, [TradeItem.of("thermal:silver_coin", 2, 6)], "brewinandchewin:flaxen_cheese_wheel");
 	
 	
 	event.addTrade("shepherd", 5, "8x thermal:netherite_coin",Item.of('minecraft:shears', '{AttributeModifiers:[{Amount:0.02d,AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Slot:"mainhand",UUID:[I;-12436,35926,205856,-71852]}],Damage:0,Unbreakable:1,display:{Name:\'{"text":"Expert shepherd\\\'s shears"}\'}}'));
@@ -169,7 +169,7 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("cleric", 1, [TradeItem.of("minecraft:rotten_flesh", 10, 20)], "2x thermal:copper_coin");
 	event.addTrade("cleric", 1, [TradeItem.of("minecraft:redstone", 4, 12)], "2x thermal:copper_coin");
 	
-	event.addTrade("cleric", 2, [TradeItem.of("#forge:gems/lapis", 4, 8)], "4x thermal:copper_coin");
+	event.addTrade("cleric", 2, [TradeItem.of("#forge:gems/lapis", 1, 2)], "4x thermal:copper_coin");
 	event.addTrade("cleric", 2, [TradeItem.of("minecraft:nether_wart", 8, 12)], "4x thermal:copper_coin");
 	
 	event.addTrade("cleric", 3, [TradeItem.of("thermal:silver_coin", 8, 24)], "16x minecraft:glowstone");
@@ -209,7 +209,7 @@ MoreJSEvents.villagerTrades((event) => {
 	
 	event.addTrade("mason", 5, [TradeItem.of("thermal:netherite_coin", 3, 6)], Item.of('minecraft:leather_chestplate', '{AttributeModifiers:[{Amount:2,AttributeName:"forge:block_reach",Name:"forge:block_reach",Slot:"chest",UUID:[I;-12465,23062,11154,-46124]}],Damage:0,Unbreakable:1,display:{Name:\'["",{"text":"Mason\\\'s Shirt","italic":false}]\',color:7698297}}'));
 	event.addTrade("mason", 5, [TradeItem.of("thermal:netherite_coin", 2, 4)], Item.of('minecraft:leather_leggings', '{AttributeModifiers:[{Amount:1,AttributeName:"forge:block_reach",Name:"forge:block_reach",Slot:"chest",UUID:[I;-12435,24062,12154,-46124]}],Damage:0,Unbreakable:1,display:{Name:\'["",{"text":"Mason\\\'s Pants","italic":false}]\',color:7698297}}'));
-
+	
 	///============================================================Weaponsmith
 
 	event.addTrade("weaponsmith", 1, [TradeItem.of("thermal:steel_ingot", 2, 4)], "2x thermal:silver_coin").villagerExperience(5);
@@ -241,7 +241,7 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("toolsmith", 4, "5x thermal:gold_coin", "crafting_on_a_stick:crafting_table").villagerExperience(125);
 	event.addTrade("toolsmith", 4, "3x thermal:gold_coin", "crafting_on_a_stick:stonecutter").villagerExperience(125);
 
-	event.addTrade("toolsmith", 5, ["1x thermal:netherite_coin","vintageimprovements:netherite_rod"], "kubejs:reinforced_tool_handle").villagerExperience(75);
+	event.addTrade("toolsmith", 5, ["1x thermal:netherite_coin","kubejs:netherite_rod"], "kubejs:reinforced_tool_handle").villagerExperience(75);
 	event.addTrade("toolsmith", 5, ["2x thermal:gold_coin"], "naturesaura:cave_finder").villagerExperience(75);
 
 
@@ -340,7 +340,7 @@ MoreJSEvents.villagerTrades((event) => {
 	//=============================================================Shady Wizard
 
 	event.addTrade("ars_nouveau:shady_wizard",1,"8x ars_nouveau:sourceberry_bush","2x thermal:copper_coin")
-	event.addTrade("ars_nouveau:shady_wizard",1,"wizards_reborn:arcane_linen_hay","2x thermal:copper_coin")
+	event.addTrade("ars_nouveau:shady_wizard",1,"wizards_reborn:arcane_linen_bale","2x thermal:copper_coin")
 
 	event.addTrade("ars_nouveau:shady_wizard",2,"4x ars_nouveau:bastion_pod","4x thermal:copper_coin")
 	event.addTrade("ars_nouveau:shady_wizard",2,"4x ars_nouveau:frostaya_pod","4x thermal:copper_coin")
@@ -356,7 +356,7 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("ars_nouveau:shady_wizard",5,"8x thermal:gold_coin","ars_nouveau:music_disc_aria_biblio")
 	event.addTrade("ars_nouveau:shady_wizard",5,"8x thermal:gold_coin","ars_nouveau:music_disc_firel_the_wild_hunt")
 	event.addTrade("ars_nouveau:shady_wizard",5,"8x thermal:gold_coin","ars_nouveau:music_disc_thistle_the_sound_of_glass")
-
+	
 	//======================================================FORAGER
 
 	event.addTrade("biomeswevegone:forager",1,"8x vintagedelight:gearo_berry","3x thermal:copper_coin")
