@@ -2487,23 +2487,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "4DAAF4301B5F56E8"
-			rewards: [{
-				id: "05D3BAD8FA20BB69"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "1390B4B671349662"
-				item: "enigmaticlegacy:fabulous_scroll"
-				type: "item"
-			}]
-			x: 5.6d
-			y: 2.8000000000000007d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "4A2CE74A3834EEE3"
 			rewards: [{
 				id: "781C77F0FA7743DA"
