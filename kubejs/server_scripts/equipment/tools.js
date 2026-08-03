@@ -523,8 +523,33 @@ ServerEvents.recipes(event => {
 			E: "emerald"
 		}
 	)
+
+	event.shaped("kubejs:life_lunchbox",
+		[
+			" E ",
+			"EXE",
+			" E "
+		],
+		{
+			X: "kubejs:emerald_lunchbox",
+			E: "kubejs:life_essence"
+		}
+	)
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	event.shaped("enigmaticlegacy:soul_compass",
+		[
+			"RBR",
+			"BCB",
+			"RBR"
+		],
+		{
+			R: "minecraft:rotten_flesh",
+			B: "minecraft:bone",
+			C: "minecraft:compass"
+		}
+	).id("enigmaticlegacy:soul_compass")
+	
 	event.shaped("farmersdelight:flint_knife",
 		[
 			"F",
