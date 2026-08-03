@@ -1,0 +1,20 @@
+{
+  "id": "irons_spellbooks:diamond_spell_book",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "4af9a8e0-b6bc-42b4-bb84-7e9142987a64"
+    },
+    {
+      "type": "append",
+      "attribute": "irons_spellbooks:cast_time_reduction",
+      "value": 0.2,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "eb8a8115-a890-4ebb-82d9-00580860778b"
+    }
+  ],
+  "equipment_slot": "spellbook"
+}
