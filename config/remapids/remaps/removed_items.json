@@ -1,0 +1,14 @@
+{
+    "remaps":[
+        {
+           "source": "sob:pitcher_tuber_bundle",
+           "target": "wizards_reborn:pitcher_turnip_block",
+           "types": ["item"]
+        },
+        {
+           "source": "sob:pitcher_tuber",
+           "target": "wizards_reborn:pitcher_turnip",
+           "types": ["item"]
+        }
+    ]
+}
