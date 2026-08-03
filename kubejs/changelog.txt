@@ -4813,6 +4813,7 @@ Spells will only be disabled in new worlds or if you reset the server config
 
 ### Added Mods:
     -CertainQuestAdditions
+    -RemapIds
     
 ### Removed Mods:
     -Pretty Pipes
@@ -4842,10 +4843,17 @@ Spells will only be disabled in new worlds or if you reset the server config
 ### Item Balance:
     -Increased range of bellows from 5 to 12 and power from 2 to 3.5
 
+### Villagers:
+    -Fixed shephard cheese trades
+    -Buffed lapis trade
+
 ### Recipes:
-    -removed duplicate recipe for Token of Fortitute
+    -Removed duplicate recipe for Token of Fortitute
+    -Changed for Arcacite
+    -Changed for Arcacite Polishing Mixture
     -Changed for backpack
     -Changed for Polished Rose Quartz
+    -Fixed clicking with pickaxes on stone granting pebbles
 
 ### Mob balance:
     -Machinegun skeletons now spawn in every tier after unlocking the nether(previously they stopped spawning upon unlocking the aether)
@@ -4854,3 +4862,98 @@ Spells will only be disabled in new worlds or if you reset the server config
 ### Other:
     -Fixed missing hydra entries in druidic bestiary
     -Removed Quests that required removed items
+
+### Known bugs:
+    -Sophisticatedstorage new wood variants shows recipe with the lever but it needs redstone torch to craft
+
+# Patch 5.3.1
+
+### Updated all the resourcepacks
+
+### Updated Mods:
+    -WizardsReborn
+    -SillyOddities
+    -ReconnectibleChains
+    -ReliableRemover
+    -SophisticatedStorage
+    -XaeroMinimap
+    -XaeroWorldMap
+    -FancyMenu
+
+### New Mods:
+    -ReliableRequiem
+
+### Removed Mods:
+    -RapidLeafDecay
+    -VintageImprovements
+    -CorpseComplex
+
+### Recipes:
+    -Fixed all the rods and plates recipes
+    -Beds and Sleeping Bags are now cheaper 
+
+### Item Balance:
+    -Added Froststalker Helmet and Unsettling Kimono to the hunter armor set
+    -Added missing armor set bonuses:
+        -Netherite Battlemage
+        -Cultist
+    -Rebalanced Froststalker Helmet
+    -Guide to Animal Companionship is now always kept on death
+
+# Patch 5.4
+
+### Removed Mods:
+    -XaeroWaystoneCompatibility
+
+### Updated Mods:
+    -Treeliable
+    -XaeroMinimap
+    -XaeroWorldMap
+    -SuperMartinCoreLib
+    -SophisticatedMods
+    -ReliableRemover
+    -ReliableRecipes
+    -ReconnectibleChains
+    -Multiblocked2
+    -FancyMenu
+    -LdLib
+    -MouseTweaks
+    -MEED
+    -ModernFix
+    -ChronosBackups
+    -Jade
+    -Fragmentum
+    -Gnetum
+    -Horseman
+    -EntityJS
+    -CrashAsistant
+    -ChatHeads
+    -Balm
+    -DrippyLoadingScreen
+
+### Removed Items:
+    -Pitcher Root
+    -Pitcher Root Bundle
+    -Create's Copper Sheet
+    -Create's Golden Sheet
+    -WR's Arcane Gold Sheet
+    -Create's Brass Sheet
+    -Create's Iron Sheet
+    
+### Recipes
+    -Fixed Pale Oak wood related recipes
+    -Fixed Andesite Alloy gear recipe
+    -Changed for WizardsReborn Pies
+    -Added for Life Infused Lunchbox
+    -Changed for Wayfinder of the Damned
+
+### Item Balance:
+    -Changed hunger and saturation for WizardsReborn Pies and Pie slices
+    -TwilightForest's Bugs cannot be worn in the curios head slot anymore
+    -Asparagus Seeds and Shelf Fungi are now compostable
+    -Phantom Armor no longer loses durability on death
+    -Buffed The Enchanted Spellbook
+
+### Other:
+    -You can now right click harvest just the top block of hemp crop
+    -Reenabled different wood types for soph storage blocks in EMI
