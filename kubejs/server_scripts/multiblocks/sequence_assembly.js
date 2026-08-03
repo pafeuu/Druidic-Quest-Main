@@ -53,6 +53,10 @@ ServerEvents.recipes(e=>{
     Pies("farmersdelight:sweet_berry_cheesecake","minecraft:sweet_berries")
     Pies("fruitsdelight:fig_tart","fruitsdelight:fig")
     Pies("fruitsdelight:lemon_tart","fruitsdelight:lemon")
+    Pies("wizards_reborn:pitcher_turnip_pie","wizards_reborn:pitcher_turnip")
+    Pies("wizards_reborn:mor_pie","wizards_reborn:mor")
+    Pies("wizards_reborn:elder_mor_pie","wizards_reborn:elder_mor")
+    Pies("wizards_reborn:carrot_pie","minecraft:carrot")
 
     assembly("farmersdelight:shepherds_pie_block","farmersdelight:pie_crust",
         [

@@ -266,7 +266,11 @@ ItemEvents.modification(event=>{
         'arsdelight:bastion_pie',
         'arsdelight:mendosteen_pie',
         "fruitsdelight:fig_tart",
-        "fruitsdelight:lemon_tart"]
+        "fruitsdelight:lemon_tart",
+        'wizards_reborn:pitcher_turnip_pie',
+        'wizards_reborn:carrot_pie',
+        'wizards_reborn:elder_mor_pie',
+        'wizards_reborn:mor_pie']
 
     Pie.forEach(id => {
         event.modify(id, item => {
@@ -288,7 +292,11 @@ ItemEvents.modification(event=>{
         'arsdelight:source_berry_pie_slice',
         'arsdelight:bastion_pie_slice',
         'arsdelight:frostaya_pie_slice',
-        'arsdelight:bombegrante_pie_slice']
+        'arsdelight:bombegrante_pie_slice',
+        'wizards_reborn:pitcher_turnip_pie_slice',
+        'wizards_reborn:carrot_pie_slice',
+        'wizards_reborn:elder_mor_pie_slice',
+        'wizards_reborn:mor_pie_slice']
 
     PieSlice.forEach(id => {
         event.modify(id, item => {
