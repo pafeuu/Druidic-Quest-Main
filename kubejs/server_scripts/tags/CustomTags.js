@@ -619,6 +619,7 @@ ServerEvents.tags("item", (e) => {
     }
   });
 
+  e.add("c:glass_blocks","#forge:glass")
   e.add("c:glass_blocks", glassBlocks);
 
   e.add("c:glass_panes", glassPanes);
