@@ -3,7 +3,7 @@ priority: 0;
 ServerEvents.tags("item", (event) => {
 
   event.removeAllTagsFrom(["ancient_aether:highsproot_wood_wall", "ancient_aether:stripped_sakura_log_wall", "ancient_aether:sakura_log_wall", "ancient_aether:stripped_sakura_wood_wall", "ancient_aether:sakura_wood_wall", "ancient_aether:stripped_highsproot_wood_wall", "ancient_aether:stripped_highsproot_log_wall", "ancient_aether:highsproot_log_wall"])
-  event.add("minecraft:bundles", "#silly_oddities:bundles")
+ 
 
   event.add("forge:stripped_blocks", ["#forge:stripped_logs", "#forge:stripped_wood"])
 
@@ -45,7 +45,15 @@ ServerEvents.tags("item", (event) => {
     'umbral_skies:valkyrie_queen_trophy',
     'umbral_skies:slider_trophy',
     'twilightforest:snow_queen_trophy',
-    'twilightforest:quest_ram_trophy'
+    'twilightforest:quest_ram_trophy',
+    'twilightforest:moonworm',
+    'twilightforest:cicada',
+    'twilightforest:firefly'
+  ])
+
+  event.add("reliable_requiem:retained_on_death",[
+    "twilightforest:phantom_chestplate",
+    "twilightforest:phantom_helmet"
   ])
 
   event.add("forge:cooked_eggs", "alexsmobs:boiled_emu_egg")
