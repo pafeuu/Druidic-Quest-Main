@@ -40,9 +40,29 @@ ServerEvents.recipes(e => {
     
     e.shaped("aether:candy_cane",["C","C"],{C:"supplementaries:candy"})
     
-    cooking(["#ars_nouveau:shady_wizard_fruits","#ars_nouveau:shady_wizard_fruits","ars_nouveau:sourceberry_bush","ars_nouveau:sourceberry_bush"],"arsdelight:arch_soup",2,200,"bowl")
+    cooking(["golden_carrot",
+        "golden_carrot",
+        "golden_carrot",
+        "golden_carrot",
+        "thermal:ruby",
+        "ars_nouveau:abjuration_essence"],"4x wizards_reborn:arcane_gold_carrot",2,100).id("wizards_reborn:shaped/arcane_gold_carrot")
+
+    cooking(["golden_carrot",
+        "golden_carrot",
+        "rubinated_nether:ruby",
+        "ars_nouveau:abjuration_essence"],"2x wizards_reborn:arcane_gold_carrot",2,100)
+
+    cooking(["#ars_nouveau:shady_wizard_fruits",
+        "#ars_nouveau:shady_wizard_fruits",
+        "ars_nouveau:sourceberry_bush",
+        "ars_nouveau:sourceberry_bush"],"arsdelight:arch_soup",2,200,"bowl")
     
-    cooking(["ars_nouveau:sourceberry_bush","ars_nouveau:sourceberry_bush","ars_nouveau:magebloom","ars_nouveau:magebloom","minecraft:honey_bottle","minecraft:honey_bottle"],`arsdelight:source_berry_hornbeer`,10,200,"arsdelight:chimera_horn").id("arsdelight:cooking/source_berry_hornbeer")
+    cooking(["ars_nouveau:sourceberry_bush",
+        "ars_nouveau:sourceberry_bush",
+        "ars_nouveau:magebloom",
+        "ars_nouveau:magebloom",
+        "minecraft:honey_bottle",
+        "minecraft:honey_bottle"],`arsdelight:source_berry_hornbeer`,10,200,"arsdelight:chimera_horn").id("arsdelight:cooking/source_berry_hornbeer")
     
     cooking(["honey_bottle",
         "vintagedelight:roasted_peanut",
@@ -74,6 +94,9 @@ ServerEvents.recipes(e => {
     
     cooking(["minecraft:carrot",
         "#forge:dusts/gold"],"minecraft:golden_carrot",2,100).id("minecraft:golden_carrot")
+
+    cooking(["#forge:boiled_egg",
+        "#forge:dusts/gold"],"mynethersdelight:golden_egg",2,100).id("mynethersdelight:crafting/golden_egg")
     
     cooking(["minecraft:golden_apple",
         "naturesaura:tainted_gold_block",
