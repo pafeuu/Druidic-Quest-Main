@@ -44,6 +44,7 @@ ServerEvents.tags("entity_type", (e) => {
 
   e.add("dq:capturing_blacklist", "#forge:bosses");
   e.add("dq:capturing_blacklist", "#forge:mini_bosses");
+  e.add("dq:capturing_blacklist","corpse:corpse")
 
   e.add("dq:hostile_evolving_mobs", [
     "minecraft:zombie",
