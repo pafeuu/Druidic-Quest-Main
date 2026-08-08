@@ -1,0 +1,42 @@
+{
+  "armorSetName": "chainmail",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecraft:chainmail_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "minecraft:chainmail_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "minecraft:chainmail_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "minecraft:chainmail_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+    "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "modifierUUID": "08d63328-6a33-4db4-bf24-739720779f22",
+      "description": "Increased movement speed by 10%",
+      "attributeOperation": 2
+    }
+    ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:arrow_velocity",
+      "value": 0.25,
+      "modifierUUID": "d9e4a96c-fe02-431a-be3d-c10c84e8bcab",
+      "description": "Increased arrow velocity by 25%",
+      "attributeOperation": 2
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

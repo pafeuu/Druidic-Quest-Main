@@ -17,13 +17,24 @@
     "itemKey": "irons_spellbooks:pumpkin_boots",
     "mustBeEmpty": false
   },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [  
+    {
+      "type": "attribute",
+      "name": "alembic:arcane_damage",
+      "value": 1.5,
+      "modifierUUID": "2e600ecd-7888-42e1-8be2-2ba415d59ec5",
+      "description": "+1.5 arcane damage",
+      "attributeOperation": 0
+    }
+  ],
   "fullSetBonuses": [
     {
       "type": "effect",
-      "name": "alexsmobs:fear",
-      "value": 1.0,
+      "name": "minecraft:slowness",
+      "value": 0.0,
       "interactionType": "attack",
-      "interactionDuration": 60,
+      "interactionDuration": 160,
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
     }
