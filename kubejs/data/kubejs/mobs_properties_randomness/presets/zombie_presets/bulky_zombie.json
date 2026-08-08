@@ -19,9 +19,6 @@
         {
             "property": "equipment",
             "slot": "head",
-            "conditions":[
-                {"condition":"chance","chance":0.99}
-            ],
             "items": [
                 {
                     "item":"thermal:diving_helmet",
@@ -61,8 +58,6 @@
             "property": "enhancedai:change_data",
             "data": "enhancedai:pick_up_and_throw/can_pick_up",
             "string_value": "enhancedai:mobs/pick_up_and_throw/can_be_picked_up"
-        }
-
-        
+        }   
     ]
 }

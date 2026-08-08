@@ -20,7 +20,7 @@
             "slot": "offhand",
             "items": [
                 {
-                    "item":"minecraft:stone_pickaxe",
+                    "item":"kubejs:copper_pickaxe",
                     "functions": [
                     {
                         "function": "set_drop_chance",

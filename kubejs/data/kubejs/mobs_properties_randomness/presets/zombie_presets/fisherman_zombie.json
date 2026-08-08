@@ -6,6 +6,21 @@
             "slot": "mainhand",
             "items": [
                     {
+                        "item":"farmersdelight:flint_knife",
+                        "functions": [
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.6
+                        }
+                        ]
+                    }
+                ]
+        },
+        {
+            "property": "equipment",
+            "slot": "offhand",
+            "items": [
+                    {
                         "item":"minecraft:fishing_rod",
                         "functions": [
                         {
