@@ -222,7 +222,7 @@ ServerEvents.recipes(event => {
 			"SSS"
 		],
 		{
-			S: "kubejs:polished_planks",
+			S: "druidic_quest_core:polished_planks",
 			X: "honeycomb"
 		}
 	).id("minecraft:beehive")
@@ -247,8 +247,8 @@ ServerEvents.recipes(event => {
 	],
 		{
 			F: "#minecraft:wooden_fences",
-			S: "kubejs:stacked_planks",
-			P: "kubejs:packed_planks"
+			S: "druidic_quest_core:stacked_planks",
+			P: "druidic_quest_core:packed_planks"
 		}).id("minecraft:composter")
 
 
@@ -811,7 +811,7 @@ ServerEvents.recipes(event => {
 			B: "bricks",
 			L: "#minecraft:logs",
 			C: "campfire",
-			X: "kubejs:primitive_machine"
+			X: "druidic_quest_core:primitive_machine"
 		}
 	).id("vintagedelight:evaporator")
 
@@ -840,7 +840,7 @@ ServerEvents.recipes(event => {
 		"item_in": [
 			{ "item": "minecraft:glass_bottle" }
 		],
-		"landing_block": "kubejs:rotten_flesh_block"
+		"landing_block": "druidic_quest_core:rotten_flesh_block"
 	})
 
 	event.shaped('4x immersiveengineering:fluid_pipe',
@@ -1017,7 +1017,7 @@ ServerEvents.recipes(event => {
 	)
 
 	event.shaped(
-		Item.of('kubejs:primitive_machine'),
+		Item.of('druidic_quest_core:primitive_machine'),
 		[
 			'PIP',
 			'ISI',
@@ -1066,7 +1066,7 @@ ServerEvents.recipes(event => {
 		{
 			I: '#forge:dusts/gold',
 			D: '#forge:gems/amethyst',
-			G: 'kubejs:primitive_machine'
+			G: 'druidic_quest_core:primitive_machine'
 		}
 	)
 
@@ -1080,7 +1080,7 @@ ServerEvents.recipes(event => {
 		{
 			I: '#forge:dusts/gold',
 			D: '#forge:gems/source',
-			G: 'kubejs:primitive_machine'
+			G: 'druidic_quest_core:primitive_machine'
 		}
 	)
 
@@ -1154,7 +1154,7 @@ ServerEvents.recipes(event => {
 			T: "#forge:plates/tin",
 			S: "#forge:plates/stone",
 			G: "#forge:glass",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			H: "supplementaries:hourglass"
 		}
 	).id("naturesaura:aura_timer")
@@ -1166,7 +1166,7 @@ ServerEvents.recipes(event => {
 			"DED"
 		],
 		{
-			D: "kubejs:sturdy_deepslate",
+			D: "druidic_quest_core:sturdy_deepslate",
 			X: "minecraft:observer",
 			R: "minecraft:redstone",
 			E: "minecraft:ender_pearl"
@@ -1201,7 +1201,7 @@ ServerEvents.recipes(event => {
 			B: "#forge:nuggets/brass",
 			F: "wizards_reborn:orbital_fluid_retainer",
 			P: "wizards_reborn:steam_pipe",
-			X: "kubejs:primitive_machine"
+			X: "druidic_quest_core:primitive_machine"
 		}
 	).id("wizards_reborn:arcane_workbench/alchemy_machine")
 
@@ -1464,8 +1464,8 @@ ServerEvents.recipes(event => {
 		],
 		{
 			I: "#forge:rods/iron",
-			X: "kubejs:primitive_machine",
-			D: "kubejs:sturdy_deepslate"
+			X: "druidic_quest_core:primitive_machine",
+			D: "druidic_quest_core:sturdy_deepslate"
 		}
 	).id("quark:automation/crafting/iron_rod_pre_end")
 
@@ -1504,7 +1504,7 @@ ServerEvents.recipes(event => {
 		{
 			A: "quark:bottled_cloud",
 			R: "redstone_torch",
-			X: "kubejs:primitive_machine",
+			X: "druidic_quest_core:primitive_machine",
 			B: "supplementaries:bellows"
 		}
 	).id("ancient_aether:wind_blower")
@@ -1560,7 +1560,7 @@ ServerEvents.recipes(event => {
 		{
 			S: "#forge:plates/stone",
 			P: "#forge:plates/wooden",
-			X: "kubejs:primitive_machine",
+			X: "druidic_quest_core:primitive_machine",
 			L: "create:filter"
 		}
 	).id("immersiveengineering:crafting/item_batcher")
@@ -1587,7 +1587,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			B: "deepslate",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			R: "#forge:storage_blocks/redstone"
 		}
 	).id("simplemagnets:basic_demagnetization_coil")
@@ -1657,7 +1657,7 @@ ServerEvents.recipes(event => {
 			P: "#forge:plates/wooden",
 			H: "woodenhopper:wooden_hopper",
 			X: "#forge:gears/nickel",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 		}
 	)
 
@@ -1684,7 +1684,7 @@ ServerEvents.recipes(event => {
 			S: "sandstone",
 			X: "supplementaries:bellows",
 			Y: "alexsmobs:guster_eye",
-			Z: "kubejs:primitive_machine"
+			Z: "druidic_quest_core:primitive_machine"
 		}
 	).id("alexsmobs:gustmaker")
 
@@ -1807,7 +1807,7 @@ ServerEvents.recipes(event => {
 		{
 			N: "twilightforest:naga_scale",
 			S: "#forge:plates/stone",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			H: "woodenhopper:wooden_hopper"
 		}
 	)
@@ -1868,7 +1868,7 @@ ServerEvents.recipes(event => {
 	event.shaped("create:contraption_controls", ["A", "B", "C"],
 		{
 			A: "#minecraft:buttons",
-			B: "kubejs:primitive_machine",
+			B: "druidic_quest_core:primitive_machine",
 			C: "create:andesite_casing"
 		}
 	).id("create:crafting/kinetics/contraption_controls")
@@ -2007,7 +2007,7 @@ ServerEvents.recipes(event => {
 		{
 			C: "cobblestone",
 			H: "woodenhopper:wooden_hopper",
-			M: "kubejs:primitive_machine"
+			M: "druidic_quest_core:primitive_machine"
 		}
 	).id("naturesaura:item_distributor")
 
@@ -2020,7 +2020,7 @@ ServerEvents.recipes(event => {
 		{
 			C: "cobblestone",
 			S: "slime_ball",
-			M: "kubejs:primitive_machine"
+			M: "druidic_quest_core:primitive_machine"
 		}
 	).id("naturesaura:pickup_stopper")
 
@@ -2033,7 +2033,7 @@ ServerEvents.recipes(event => {
 		{
 			L: "minecraft:oak_log",
 			A: "naturesaura:ancient_sapling",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			E: "#forge:gems/emerald",
 			T: "naturesaura:token_fear"
 		}
@@ -2123,7 +2123,7 @@ ServerEvents.recipes(event => {
 		{
 			T: "#forge:plates/tin",
 			L: "#forge:plates/lead",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			Z: "create:attribute_filter",
 			X: "woodenhopper:wooden_hopper"
 		}
@@ -2138,7 +2138,7 @@ ServerEvents.recipes(event => {
 		{
 			C: "#forge:gears/copper",
 			L: "#forge:plates/lead",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			Z: "immersiveengineering:fluid_pipe",
 			X: "immersiveengineering:fluid_pump"
 		}
@@ -2167,9 +2167,9 @@ ServerEvents.recipes(event => {
 		],
 		{
 			Z: "#forge:plates/zinc",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			X: "irons_spellbooks:blood_vial",
-			D: "kubejs:sturdy_deepslate"
+			D: "druidic_quest_core:sturdy_deepslate"
 		}
 	)
 
@@ -2294,7 +2294,7 @@ ServerEvents.recipes(event => {
 			G: "#forge:gears/tin",
 			F: "supplementaries:faucet",
 			W: "#forge:plates/wooden",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			S: "#forge:plates/tin",
 			B: "bucket"
 		}
@@ -2308,7 +2308,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			L: "#forge:plates/lead",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			S: "#forge:plates/tin",
 			C: "#forge:storage_blocks/cactus"
 		}
@@ -2324,7 +2324,7 @@ ServerEvents.recipes(event => {
 			L: "#forge:plates/lead",
 			G: "#forge:gears/lead",
 			W: "glass_bottle",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			S: "#forge:plates/tin",
 			J: "supplementaries:jar"
 		}
@@ -2345,7 +2345,7 @@ ServerEvents.recipes(event => {
 		{
 			P: "#forge:plates/copper",
 			R: "#forge:rods/copper",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			B: "kubejs:sturdy_basalt",
 			X: "thermal:blizz_rod"
 		}
@@ -2360,7 +2360,7 @@ ServerEvents.recipes(event => {
 		{
 			C: "comparator",
 			H: "woodenhopper:wooden_hopper",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			B: "kubejs:sturdy_basalt",
 			F: "sophisticatedstorage:filter_upgrade"
 		}
@@ -2375,7 +2375,7 @@ ServerEvents.recipes(event => {
 		{
 			C: "comparator",
 			H: "supplementaries:faucet",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			B: "kubejs:sturdy_basalt",
 			F: "sophisticatedstorage:filter_upgrade"
 		}
@@ -2486,7 +2486,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			T: 'naturesaura:token_joy',
-			M: 'kubejs:primitive_machine',
+			M: 'druidic_quest_core:primitive_machine',
 			P: 'naturesaura:ancient_planks',
 			C: 'immersiveengineering:craftingtable'
 		}
@@ -2540,7 +2540,7 @@ ServerEvents.recipes(event => {
 
 	event.remove({ output: 'minecraft:dropper' })
 	event.remove({ output: 'minecraft:dispenser' })
-	event.shapeless('minecraft:dropper', ['kubejs:primitive_machine', 'minecraft:redstone_torch'])
+	event.shapeless('minecraft:dropper', ['druidic_quest_core:primitive_machine', 'minecraft:redstone_torch'])
 	event.shapeless('minecraft:dispenser', ['minecraft:dropper', 'minecraft:bow'])
 	event.shaped("minecraft:dispenser", [
 		"SW ",
@@ -2550,7 +2550,7 @@ ServerEvents.recipes(event => {
 		{
 			S: "string",
 			W: "#c:rods/wooden",
-			X: "kubejs:primitive_machine"
+			X: "druidic_quest_core:primitive_machine"
 		})
 
 	event.remove({ output: 'supplementaries:jar' })
@@ -2605,7 +2605,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			G: 'kubejs:stone_gear',
-			P: 'kubejs:primitive_machine',
+			P: 'druidic_quest_core:primitive_machine',
 			S: 'woodenhopper:wooden_hopper',
 			D: "#forge:dusts/iron"
 		}
@@ -3045,7 +3045,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			P: '#minecraft:logs',
-			M: 'kubejs:primitive_machine',
+			M: 'druidic_quest_core:primitive_machine',
 			H: 'minecraft:furnace'
 		}
 	)
@@ -3060,23 +3060,23 @@ ServerEvents.recipes(event => {
 		],
 		{
 			P: 'minecraft:smooth_stone',
-			M: 'kubejs:primitive_machine',
+			M: 'druidic_quest_core:primitive_machine',
 			H: 'minecraft:furnace'
 		}
 	)
 	event.remove('minecraft:observer')
-	event.shapeless('minecraft:observer', ['kubejs:primitive_machine', 'minecraft:spider_eye'])
+	event.shapeless('minecraft:observer', ['druidic_quest_core:primitive_machine', 'minecraft:spider_eye'])
 
 	event.remove('minecraft:dropper')
-	event.shapeless('minecraft:dropper', ['kubejs:primitive_machine', 'quark:chute'])
+	event.shapeless('minecraft:dropper', ['druidic_quest_core:primitive_machine', 'quark:chute'])
 
 	event.remove('minecraft:dispenser')
-	event.shapeless('minecraft:dispenser', ['kubejs:primitive_machine', 'minecraft:bow'])
+	event.shapeless('minecraft:dispenser', ['druidic_quest_core:primitive_machine', 'minecraft:bow'])
 
 	event.remove({ output: 'minecraft:piston' })
-	event.shapeless('minecraft:piston', ['kubejs:primitive_machine', 'create:piston_extension_pole'])
+	event.shapeless('minecraft:piston', ['druidic_quest_core:primitive_machine', 'create:piston_extension_pole'])
 
-	event.replaceInput({ id: "immersiveengineering:crafting/conveyor_basic" }, "minecraft:redstone", "kubejs:primitive_machine")
+	event.replaceInput({ id: "immersiveengineering:crafting/conveyor_basic" }, "minecraft:redstone", "druidic_quest_core:primitive_machine")
 	event.replaceInput({ id: "immersiveengineering:crafting/conveyor_extract" }, "immersiveengineering:component_iron", "woodenhopper:wooden_hopper")
 	event.replaceInput({ id: "immersiveengineering:crafting/hemp_fabric" }, "#c:rods/wooden", "immersiveengineering:stick_treated")
 
@@ -3199,7 +3199,7 @@ ServerEvents.recipes(event => {
 			I: "#forge:plates/infused_iron",
 			G: '#forge:gears/infused_iron',
 			M: "kubejs:magical_generator_block",
-			E: "kubejs:nature_essence"
+			E: "druidic_quest_core:nature_essence"
 		}
 	).id("kubejs:aura_generator_block")
 
@@ -3213,7 +3213,7 @@ ServerEvents.recipes(event => {
 	)
 
 	event.recipes.ars_nouveau.enchanting_apparatus(
-		["kubejs:ivy_block", "kubejs:ivy_block", "kubejs:ivy_block", "kubejs:ivy_block", "ars_nouveau:earth_essence", "ars_nouveau:earth_essence"],
+		["druidic_quest_core:ivy_block", "druidic_quest_core:ivy_block", "druidic_quest_core:ivy_block", "druidic_quest_core:ivy_block", "ars_nouveau:earth_essence", "ars_nouveau:earth_essence"],
 		"kubejs:lemon_quartz",
 		"kubejs:ivy_quartz",
 		1000
@@ -3250,7 +3250,7 @@ ServerEvents.recipes(event => {
 		{
 			X: "kubejs:basic_magic_machine",
 			C: '#forge:plates/infused_iron',
-			A: "kubejs:sturdy_deepslate"
+			A: "druidic_quest_core:sturdy_deepslate"
 		}
 	)
 
@@ -3308,7 +3308,7 @@ ServerEvents.recipes(event => {
 			{ type: "location", predicate: { biome: "minecraft:lush_caves" } }
 		],
 		post: [
-			{ type: "drop_item", item: "kubejs:nature_essence" },
+			{ type: "drop_item", item: "druidic_quest_core:nature_essence" },
 			{ type: "execute", command: "playsound irons_spellbooks:spell.acid_orb.charge neutral @p", hide: "true" }
 		],
 		item_in: [
@@ -3341,7 +3341,7 @@ ServerEvents.recipes(event => {
 			{ type: "execute", command: "playsound irons_spellbooks:spell.gust.cast neutral @p", hide: "true" }
 		],
 		item_in: [
-			{ item: "kubejs:nature_essence" },
+			{ item: "druidic_quest_core:nature_essence" },
 			{ item: "kubejs:air_infused_arcanum" },
 			{ item: "ars_nouveau:source_gem" },
 			{ item: "minecraft:feather" }
@@ -3359,7 +3359,7 @@ ServerEvents.recipes(event => {
 			{ type: "execute", command: "playsound minecraft:entity.dolphin.jump neutral @p", hide: "true" }
 		],
 		item_in: [
-			{ item: "kubejs:nature_essence" },
+			{ item: "druidic_quest_core:nature_essence" },
 			{ item: "kubejs:water_infused_arcanum" },
 			{ item: "ars_nouveau:source_gem" },
 			{ tag: "minecraft:fishes" }
@@ -3383,7 +3383,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.replaceInput({ id: 'naturescompass:natures_compass' }, '#minecraft:saplings', 'kubejs:nature_essence')
+	event.replaceInput({ id: 'naturescompass:natures_compass' }, '#minecraft:saplings', 'druidic_quest_core:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
 
 	event.shaped("naturesaura:hopper_upgrade",
@@ -3393,7 +3393,7 @@ ServerEvents.recipes(event => {
 			"DND"
 		],
 		{
-			D: "kubejs:sturdy_deepslate",
+			D: "druidic_quest_core:sturdy_deepslate",
 			E: "minecraft:ender_pearl",
 			N: "twilightforest:naga_scale",
 			X: "kubejs:magic_machine"
@@ -3746,7 +3746,7 @@ ServerEvents.recipes(event => {
 		{
 			P: "#forge:plates/stone",
 			W: "woodenhopper:wooden_hopper",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			G: "#forge:gears/stone",
 			T: "naturesaura:token_anger"
 
@@ -3873,7 +3873,7 @@ ServerEvents.recipes(event => {
 	}
 
 	SourceGeneratorsRecipe("volcanic", "ars_nouveau:fire_essence")
-	SourceGeneratorsRecipe("agronomic", "kubejs:nature_essence")
+	SourceGeneratorsRecipe("agronomic", "druidic_quest_core:nature_essence")
 	SourceGeneratorsRecipe("vitalic", "kubejs:death_essence")
 	SourceGeneratorsRecipe("mycelial", "quark:glow_shroom")
 	SourceGeneratorsRecipe("alchemical", 'immersive_weathering:golden_moss_clump')
@@ -4010,7 +4010,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			C: '#forge:treated_wood',
-			G: 'kubejs:nature_essence'
+			G: 'druidic_quest_core:nature_essence'
 		}
 	)
 
@@ -4077,7 +4077,7 @@ ServerEvents.recipes(event => {
 		{
 			F: "enigmaticlegacy:earth_heart",
 			B: "thermal:compost",
-			X: "kubejs:nature_essence"
+			X: "druidic_quest_core:nature_essence"
 		}
 	).id("enigmaticlegacy:infinimeal")
 
@@ -4483,7 +4483,7 @@ ServerEvents.recipes(event => {
 			"MZM"
 		],
 		{
-			M: "kubejs:ivy_block",
+			M: "druidic_quest_core:ivy_block",
 			G: "immersive_weathering:golden_moss_clump",
 			X: "kubejs:magic_machine",
 			Z: "#forge:gears/tainted_gold",
@@ -4541,7 +4541,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			C: "#c:cobblestones",
-			M: "kubejs:primitive_machine",
+			M: "druidic_quest_core:primitive_machine",
 			S: "slime_block",
 			R: "supplementaries:cog_block"
 		}

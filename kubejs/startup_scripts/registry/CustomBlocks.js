@@ -1,6 +1,6 @@
 StartupEvents.registry("block", (event) => {
 
-    event.create("primitive_machine") // Create a new block
+    /*event.create("primitive_machine") // Create a new block
         .displayName("Primitive Machine Casing") // Set a custom name
         .soundType("stone") // Set a material (affects the sounds and some properties)
         .hardness(1.0) // Set hardness (affects mining time)
@@ -8,7 +8,7 @@ StartupEvents.registry("block", (event) => {
         .tagBoth("tier1/component") // Tag the block with `#minecraft:my_custom_tag` (can have multiple tags)
         .requiresTool(true) // Requires a tool or it won't drop (see tags below)
         .tagBlock("mineable/pickaxe") // or a pickaxe
-        .tagBlock('minecraft:needs_stone_tool') // the tool tier must be at least iron
+        .tagBlock('minecraft:needs_stone_tool') // the tool tier must be at least iron*/
 
 
     event.create("basic_magic_machine")
@@ -108,7 +108,7 @@ StartupEvents.registry("block", (event) => {
         .texture('down', 'kubejs:block/steel_machine_top')
 
 
-    event.create("gold_leaf_block")
+    /*event.create("gold_leaf_block")
         .displayName("Gold Leaf Block")
         .soundType("moss")
         .hardness("0.2")
@@ -130,13 +130,13 @@ StartupEvents.registry("block", (event) => {
         .hardness("3")
         .resistance("6")
         .tagBlock("mineable/pickaxe")
-
+    
     event.create("sturdy_deepslate_slab", "slab")
         .textureAll("minecraft:block/blast_furnace_top")
         .soundType("polished_deepslate")
         .hardness("3")
         .resistance("6")
-        .tagBlock("mineable/pickaxe")
+        .tagBlock("mineable/pickaxe")*/
 
     event.create("sturdy_deepslate_plate")
         .textureAll("minecraft:block/blast_furnace_top")
@@ -168,13 +168,13 @@ StartupEvents.registry("block", (event) => {
         .resistance("6")
         .tagBlock("mineable/pickaxe")
 
-    event.create("rotten_flesh_block")
+    /*event.create("rotten_flesh_block")
         .soundType("honey_block")
         .hardness("0.5")
         .resistance("1")
-        .tagBlock("mineable/hoe")
+        .tagBlock("mineable/hoe")*/
 
-    event.create("polished_planks")
+    /*event.create("polished_planks")
         .textureAll("minecraft:block/beehive_end")
         .displayName("Polished Planks")
         .soundType("wood")
@@ -196,7 +196,7 @@ StartupEvents.registry("block", (event) => {
         .soundType("wood")
         .hardness("1")
         .resistance("3")
-        .tagBlock("mineable/axe")
+        .tagBlock("mineable/axe")*/
 
     event.create("sturdy_basalt")
         .textureAll("rubinated_nether:block/freezer/freezer_bottom")
@@ -259,34 +259,6 @@ StartupEvents.registry("block", (event) => {
         .box(0, 3, 0, 16, 6, 2)
         .box(14, 3, 0, 16, 6, 16)
         .box(0, 3, 14, 16, 6, 16)
-
-    /*event.create("blasting_altar")
-    .soundType("basalt")
-    .hardness("3")
-    .resistance("6")
-    .tagBlock("mineable/pickaxe")
-    .tagBlock('minecraft:needs_iron_tool')
-    .textureAll("immersiveengineering:block/stone_decoration/blastbrick_reinforced")
-    .renderType('cutout')
-    .box(0,0,0,16,3,16)
-    .box(0,3,0,2,6,16)
-    .box(0,3,0,16,6,2)
-    .box(14,3,0,16,6,16)
-    .box(0,3,14,16,6,16)
-
-    event.create("alloying_altar")
-    .soundType("basalt")
-    .hardness("3")
-    .resistance("6")
-    .tagBlock("mineable/pickaxe")
-    .tagBlock('minecraft:needs_iron_tool')
-    .textureAll("immersiveengineering:block/stone_decoration/alloybrick")
-    .renderType('cutout')
-    .box(0,0,0,16,3,16)
-    .box(0,3,0,2,6,16)
-    .box(0,3,0,16,6,2)
-    .box(14,3,0,16,6,16)
-    .box(0,3,14,16,6,16)*/
 
     event.create("sacrificial_altar")
         .soundType("basalt")
@@ -354,7 +326,6 @@ StartupEvents.registry("block", (event) => {
         .tagBlock("mineable/pickaxe")
         .tagBlock("minecraft:needs_iron_tool")
         .tagBoth("c:ores")
-        .lightLevel(0.1)
 
     event.create("stone_ambrosium_ore")
         .soundType("stone")
@@ -363,7 +334,6 @@ StartupEvents.registry("block", (event) => {
         .tagBlock("mineable/pickaxe")
         .tagBlock("minecraft:needs_iron_tool")
         .tagBoth("c:ores")
-        .lightLevel(0.1)
 
     event.create("infernal_bricks")
         .soundType("nether_bricks")
@@ -398,51 +368,5 @@ StartupEvents.registry("block", (event) => {
         .tagItem("c:hidden_from_recipe_viewers")
         .tagBlock("mineable/pickaxe")
         .tagBlock("minecraft:needs_iron_tool")
-
-    /*
-    event.create("pebble")
-    .soundType("stone")
-    .renderType('cutout')
-    .hardness("0")
-    .resistance("0")
-    .textureAll("minecraft:block/andesite")
-    .box(6,0,6,10,1,10)
-    .box(7,0,5,9,1,6)
-    .box(5,0,7,6,1,9)
-    .box(7,0,10,9,1,11)
-    .box(10,0,7,11,1,9)
-    .box(7,1,7,9,2,9)
-    .box(7,1,9,9,2,10)
-    .box(9,1,7,10,2,9)
-    .box(6,1,7,7,2,9)
-    .box(7,1,6,9,2,7)
-
-
-    event.create("twig","cardinal")
-    .soundType("wood")
-    .model('kubejs:block/twig')
-    .hardness("0")
-    .resistance("0")
-    .textureAll("minecraft:block/oak_log")
-    .renderType('cutout')
-    .box(2,0,2,3,1,3)
-    .box(2,0,3,4,1,4)
-    .box(3,0,4,5,1,5)
-    .box(4,0,5,6,1,6)
-    .box(5,0,6,7,1,7)
-    .box(6,0,7,8,1,8)
-    .box(7,0,8,9,1,9)
-    .box(8,0,9,10,1,10)
-    .box(9,0,10,11,1,11)
-    .box(10,0,11,12,1,12)
-    .box(11,0,12,13,1,13)
-    .box(12,0,13,14,1,14)*/
-
-
-
-
-
-
-
 
 })

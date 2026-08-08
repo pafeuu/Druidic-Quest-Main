@@ -37,7 +37,7 @@ ServerEvents.recipes(event=>{
     fullRepair("kubejs:rainbow_magic_feather","kubejs:lightning_essence")
     fullRepair("kubejs:wooden_staff","#c:rods/wooden")
     fullRepair("kubejs:brick_glue","create:wheat_flour")
-    fullRepair("kubejs:blade_of_grass","kubejs:nature_essence")
+    fullRepair("kubejs:blade_of_grass","druidic_quest_core:nature_essence")
     fullRepair("kubejs:ice_blade","2x #forge:ingots/iron")
     fullRepair("minecraft:shield","#forge:plates/iron")
     fullRepair("kubejs:primitive_shield","3x minecraft:flint")

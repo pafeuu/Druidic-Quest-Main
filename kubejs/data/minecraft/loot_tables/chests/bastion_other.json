@@ -295,7 +295,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "create:golden_sheet"
+          "name": "thermal:gold_plate"
         },
         {
           "type": "minecraft:item",
@@ -317,7 +317,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "create:golden_sheet"
+          "name": "thermal:gold_plate"
         },
         {
           "type": "minecraft:item",

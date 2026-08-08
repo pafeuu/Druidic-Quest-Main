@@ -1,34 +1,33 @@
-   
+
 ItemEvents.modification(event => {
-  
+
   /*const HelmetDurabilityModifier = 13
   const ChestplateDurabilityModifier = 15
   const LeggingsDurabilityModifier = 16
   const BootsDurabilityModifier = 11*/
 
 
-  function repairIngredient(id,ingredient)
-  {
-    event.modify(id, item=>{
+  function repairIngredient(id, ingredient) {
+    event.modify(id, item => {
       item.setTier(tier => {
         tier.setRepairIngredient(ingredient)
       })
     })
   }
-  
 
-  
-  let tooltype =['pickaxe','shovel','hoe','axe']
-  
-  let ArmorSlot = ['helmet','chestplate','boots','leggings']
 
-  let NatureArmorSlot = ['helmet','chest','pants','shoes']
 
-  let ArsArmorSlot =['hood','robes','leggings','boots']
+  let tooltype = ['pickaxe', 'shovel', 'hoe', 'axe']
 
-  let ArsDurabilityBuffs = ['sorcerer','arcanist','battlemage']
+  let ArmorSlot = ['helmet', 'chestplate', 'boots', 'leggings']
 
-  let DurabilityBuffs= ['minecraft:iron',
+  let NatureArmorSlot = ['helmet', 'chest', 'pants', 'shoes']
+
+  let ArsArmorSlot = ['hood', 'robes', 'leggings', 'boots']
+
+  let ArsDurabilityBuffs = ['sorcerer', 'arcanist', 'battlemage']
+
+  let DurabilityBuffs = ['minecraft:iron',
     'minecraft:leather',
     'minecraft:chainmail',
     'minecraft:diamond',
@@ -66,66 +65,66 @@ ItemEvents.modification(event => {
     "irons_spellbooks:archevoker",
     "deep_aether:stormforged",
     "deep_aether:stratus",
-    ]
+  ]
 
-    let Unbreakables = [
-      "constructionwand:stone_wand",
-      "constructionwand:iron_wand",
-      "constructionwand:diamond_wand",
-      "constructionwand:infinity_wand",
-      "aether:flaming_sword",
-      "ancient_aether:ancient_sword",
-      "enigmaticlegacy:enigmatic_elytra",
-      "aether:holy_sword",
-      "aether:lightning_sword",
-      'umbral_skies:yeti_gloves',
-      'umbral_skies:arctic_gloves',
-      'umbral_skies:phantom_gloves',
-      'umbral_skies:knightmetal_gloves',
-      'umbral_skies:steeleaf_gloves',
-      'umbral_skies:fiery_gloves',
-      'umbral_skies:ironwood_gloves',
-      'umbral_skies:naga_gloves',
-      'aether:obsidian_gloves',
-      'aether:phoenix_gloves',
-      'deep_aether:stormforged_gloves',
-      'aether:neptune_gloves',
-      'deep_aether:stratus_gloves',
-      'ancient_aether:valkyrum_gloves',
-      'aether:gravitite_gloves',
-      'deep_aether:skyjade_gloves',
-      'aether:zanite_gloves',
-      'aether:netherite_gloves',
-      'aether:diamond_gloves',
-      'aether:golden_gloves',
-      'aether:iron_gloves',
-      'aether:chainmail_gloves',
-      'aether:leather_gloves',
-      'deep_aether:wind_shield',
-      'deep_aether:slider_eye',
-      'aether:shield_of_repulsion',
-      'deep_aether:spooky_ring',
-      'aether:ice_pendant',
-      'deep_aether:stratus_ring', 
-      'deep_aether:gravitite_ring',
-      "aether:ice_ring",
-      "aether:vampire_blade",
-      "aether:sentry_boots",
-      "aether:pig_slayer",
-      "aether:hammer_of_kingbdogz"
-    ]
+  let Unbreakables = [
+    "constructionwand:stone_wand",
+    "constructionwand:iron_wand",
+    "constructionwand:diamond_wand",
+    "constructionwand:infinity_wand",
+    "aether:flaming_sword",
+    "ancient_aether:ancient_sword",
+    "enigmaticlegacy:enigmatic_elytra",
+    "aether:holy_sword",
+    "aether:lightning_sword",
+    'umbral_skies:yeti_gloves',
+    'umbral_skies:arctic_gloves',
+    'umbral_skies:phantom_gloves',
+    'umbral_skies:knightmetal_gloves',
+    'umbral_skies:steeleaf_gloves',
+    'umbral_skies:fiery_gloves',
+    'umbral_skies:ironwood_gloves',
+    'umbral_skies:naga_gloves',
+    'aether:obsidian_gloves',
+    'aether:phoenix_gloves',
+    'deep_aether:stormforged_gloves',
+    'aether:neptune_gloves',
+    'deep_aether:stratus_gloves',
+    'ancient_aether:valkyrum_gloves',
+    'aether:gravitite_gloves',
+    'deep_aether:skyjade_gloves',
+    'aether:zanite_gloves',
+    'aether:netherite_gloves',
+    'aether:diamond_gloves',
+    'aether:golden_gloves',
+    'aether:iron_gloves',
+    'aether:chainmail_gloves',
+    'aether:leather_gloves',
+    'deep_aether:wind_shield',
+    'deep_aether:slider_eye',
+    'aether:shield_of_repulsion',
+    'deep_aether:spooky_ring',
+    'aether:ice_pendant',
+    'deep_aether:stratus_ring',
+    'deep_aether:gravitite_ring',
+    "aether:ice_ring",
+    "aether:vampire_blade",
+    "aether:sentry_boots",
+    "aether:pig_slayer",
+    "aether:hammer_of_kingbdogz"
+  ]
 
-    let UnbreakableArmor = [
-      "ancient_aether:valkyrum",
-      "thermal:hazmat",
-      "enigmaticlegacy:etherium"
-    ]
+  let UnbreakableArmor = [
+    "ancient_aether:valkyrum",
+    "thermal:hazmat",
+    "enigmaticlegacy:etherium"
+  ]
 
-    let NatureDurabilityBuffs = [
-      'infused_iron',
-      'sky',
-      'depth']
-  
+  let NatureDurabilityBuffs = [
+    'infused_iron',
+    'sky',
+    'depth']
+
   let FireResistant = ["rubinated_nether:ruby",
     "rubinated_nether:ruby_shard",
     "rubinated_nether:molten_ruby",
@@ -144,823 +143,838 @@ ItemEvents.modification(event => {
   ]
 
   Unbreakables.forEach(id => {
-    event.modify(id,item=>{
+    event.modify(id, item => {
       item.maxDamage = -1
     })
-    
+
   });
-  
+
   global.colors.forEach(color => {
-    event.modify("minecraft:"+color+"_bed", item=>{
+    event.modify("minecraft:" + color + "_bed", item => {
       item.maxStackSize = 64
     })
   });
   FireResistant.forEach(id => {
-    event.modify(id, item=>{
+    event.modify(id, item => {
       item.fireResistant = true
     })
   });
 
   //==========================================Knives
-  event.modify("farmersdelight:iron_knife", item=>{
+  event.modify("farmersdelight:iron_knife", item => {
     item.maxDamage = 512
   })
 
-  event.modify("farmersdelight:diamond_knife", item=>{
+  event.modify("farmersdelight:diamond_knife", item => {
     item.maxDamage = 2048
   })
 
-  event.modify("farmersdelight:netherite_knife", item=>{
+  event.modify("farmersdelight:netherite_knife", item => {
     item.maxDamage = 4096
   })
 
-  event.modify("farmersdelight:golden_knife", item=>{
+  event.modify("farmersdelight:golden_knife", item => {
     item.maxDamage = 512,
-    item.digSpeed = 8
+      item.digSpeed = 8
   })
 
-  event.modify('farmersdelight:flint_knife', item=>{
+  event.modify('farmersdelight:flint_knife', item => {
     item.maxDamage = 128
   })
 
   //========================================Swords
 
-  event.modify("twilightforest:knightmetal_sword", item=>{
+  event.modify("twilightforest:knightmetal_sword", item => {
     item.maxDamage = 1024
   })
 
-  event.modify('minecraft:iron_sword', item=>{
+  event.modify('minecraft:iron_sword', item => {
     item.maxDamage = 512
   })
 
-  event.modify('minecraft:golden_sword', item=>{
+  event.modify('minecraft:golden_sword', item => {
     item.maxDamage = 512
   })
 
-  event.modify('minecraft:wooden_sword', item=>{
+  event.modify('minecraft:wooden_sword', item => {
     item.maxDamage = 128
   })
 
-  event.modify('minecraft:stone_sword', item=>{
+  event.modify('minecraft:stone_sword', item => {
     item.maxDamage = 128
   })
 
-  event.modify('naturesaura:infused_iron_sword', item=>{
+  event.modify('naturesaura:infused_iron_sword', item => {
     item.maxDamage = 1536
   })
 
-  event.modify('deep_aether:skyjade_sword', item=>{
+  event.modify('deep_aether:skyjade_sword', item => {
     item.maxDamage = 1024,
-    item.attackDamage = 4
+      item.attackDamage = 4
   })
 
-  event.modify('aether:zanite_sword', item=>{
+  event.modify('aether:zanite_sword', item => {
     item.maxDamage = 1024
   })
 
-  event.modify('kubejs:golden_magic_feather', item=>{
+  event.modify('kubejs:golden_magic_feather', item => {
     item.maxDamage = 64
   })
 
-  event.modify('kubejs:fiery_magic_feather', item=>{
+  event.modify('kubejs:fiery_magic_feather', item => {
     item.maxDamage = 512
   })
 
-  event.modify('kubejs:rainbow_magic_feather', item=>{
+  event.modify('kubejs:rainbow_magic_feather', item => {
     item.maxDamage = 1024
   })
 
-  event.modify('minecraft:diamond_sword', item=>{
+  event.modify('minecraft:diamond_sword', item => {
     item.maxDamage = 2048
   })
 
-  event.modify('minecraft:netherite_sword', item=>{
+  event.modify('minecraft:netherite_sword', item => {
     item.maxDamage = 4096
   })
 
-  event.modify("twilightforest:fiery_sword",item=>{
+  event.modify("twilightforest:fiery_sword", item => {
     item.attackDamage = 1
   })
 
-  event.modify("deep_aether:storm_sword",item=>{
+  event.modify("deep_aether:storm_sword", item => {
     item.attackDamage = 3
   })
 
-  event.modify("tide:blazing_swordfish", item=>{
+  event.modify("tide:blazing_swordfish", item => {
     item.maxDamage = 1024,
-    item.attackSpeed = -2.0,
-    item.attackDamage = 2
+      item.attackSpeed = -2.0,
+      item.attackDamage = 2
   })
 
-  event.modify("kubejs:dwarven_sword", item=>{
+  event.modify("kubejs:dwarven_sword", item => {
     item.attackSpeed = -2.7
   })
 
-  event.modify("irons_spellbooks:boreal_blade", item=>{
+  event.modify("irons_spellbooks:boreal_blade", item => {
     item.maxDamage = 2048
   })
 
-  event.modify("irons_spellbooks:amethyst_rapier", item=>{
+  event.modify("irons_spellbooks:amethyst_rapier", item => {
     item.maxDamage = 2048
   })
 
-  event.modify("minecraft:trident", item=>{
+  event.modify("minecraft:trident", item => {
     item.maxDamage = 2048
   })
-  
-  
+
+
   ////========================================Tools
 
-  
 
-  const KnighmetalTools = ["pickaxe","axe"]
+
+  const KnighmetalTools = ["pickaxe", "axe"]
 
   KnighmetalTools.forEach(type => {
-    event.modify("twilightforest:knightmetal_"+type, item=>{
+    event.modify("twilightforest:knightmetal_" + type, item => {
       item.maxDamage = 1024
       item.digSpeed = 6
-     })
+    })
   });
-  
 
-  event.modify("sophisticatedstorage:super_packing_tape", item=>{
+
+  event.modify("sophisticatedstorage:super_packing_tape", item => {
     item.maxDamage = 2137
   })
-  
+
   event.modify("enigmaticlegacy:etherium_scythe", item => {
-      item.maxDamage = -1
-    })
+    item.maxDamage = -1
+  })
 
   tooltype.forEach((id) => {
-    
-    event.modify('minecraft:wooden_'+id, item => {
+
+    event.modify('minecraft:wooden_' + id, item => {
       item.digSpeed = 6,
-      item.maxDamage = 128
+        item.maxDamage = 128
     })
 
-    event.modify('minecraft:golden_'+id, item=>{
-        item.maxDamage = 512,
+    event.modify('minecraft:golden_' + id, item => {
+      item.maxDamage = 512,
         item.digSpeed = 8
-        // +1 Luck and +2 looting or fortune
+      // +1 Luck and +2 looting or fortune
     })
 
-    event.modify("wizards_reborn:arcane_gold_"+id, item=>{
-        item.maxDamage = 1024,
+    event.modify("wizards_reborn:arcane_gold_" + id, item => {
+      item.maxDamage = 1024,
         item.digSpeed = 9
-        // +1 Luck and +2 looting or fortune
+      // +1 Luck and +2 looting or fortune
     })
 
-    event.modify('minecraft:stone_'+id, item => {
+    event.modify('minecraft:stone_' + id, item => {
       item.maxDamage = 128
     })
 
-    event.modify("enigmaticlegacy:etherium_"+id, item => {
+    event.modify("enigmaticlegacy:etherium_" + id, item => {
       item.maxDamage = -1
       item.digSpeed = 12
     })
 
-    event.modify('minecraft:iron_'+id, item=>{
+    event.modify('minecraft:iron_' + id, item => {
       item.maxDamage = 512
       // +0.5 block range
     })
 
-    event.modify('naturesaura:infused_iron_'+id, item=>{
+    event.modify('naturesaura:infused_iron_' + id, item => {
       item.maxDamage = 1536,
-      item.digSpeed = 7
+        item.digSpeed = 7
       // +1 block range
     })
 
-    event.modify('deep_aether:skyjade_'+id, item=>{
+    event.modify('deep_aether:skyjade_' + id, item => {
       item.maxDamage = 1024
       // +0.5 block range
     })
 
-    event.modify('aether:zanite_'+id, item=>{
+    event.modify('aether:zanite_' + id, item => {
       item.maxDamage = 1024
       // +1 block range
     })
 
-    event.modify('minecraft:diamond_'+id, item=>{
+    event.modify('minecraft:diamond_' + id, item => {
       item.maxDamage = 2048
       // ??+1 block range
     })
 
-    event.modify('minecraft:netherite_'+id, item=>{
+    event.modify('minecraft:netherite_' + id, item => {
       item.maxDamage = 4096
       // ??+1 block range
     })
 
-    event.modify('wizards_reborn:arcane_wood_'+id, item=>{
+    event.modify('wizards_reborn:arcane_wood_' + id, item => {
       item.digSpeed = 3,
-      item.maxDamage = 16
-      
+        item.maxDamage = 16
+
     })
 
-    event.modify('wizards_reborn:innocent_wood_'+id, item=>{
+    event.modify('wizards_reborn:innocent_wood_' + id, item => {
       item.digSpeed = 5,
-      item.maxDamage = 256
-      
+        item.maxDamage = 256
+
     })
 
-    event.modify("immersiveengineering:"+id+"_steel", item=>{
+    event.modify("immersiveengineering:" + id + "_steel", item => {
       item.digSpeed = 7.5,
-      item.maxDamage = -1
+        item.maxDamage = -1
       // ??+1 block range
     })
 
-    event.modify("twilightforest:steeleaf_"+id, item=>{
+    event.modify("twilightforest:steeleaf_" + id, item => {
       item.maxDamage = 512
     })
 
-   
+
   })
-   event.modify("twilightforest:steeleaf_sword", item=>{
-      item.attackDamage = 3,
+  event.modify("twilightforest:steeleaf_sword", item => {
+    item.attackDamage = 3,
       item.maxDamage = 512
-    })
+  })
 
-    event.modify("twilightforest:ironwood_sword", item=>{
-      item.attackDamage = 4
-    })
+  event.modify("twilightforest:ironwood_sword", item => {
+    item.attackDamage = 4
+  })
 
-    event.modify("immersiveengineering:sword_steel", item=>{
-      item.maxDamage = -1
-      // ??+1 block range
-    })
+  event.modify("immersiveengineering:sword_steel", item => {
+    item.maxDamage = -1
+    // ??+1 block range
+  })
 
-    event.modify("immersiveengineering:sword_steel", item=>{
-      item.maxDamage = -1
-      // ??+1 block range
-    })
+  event.modify("immersiveengineering:sword_steel", item => {
+    item.maxDamage = -1
+    // ??+1 block range
+  })
 
-    event.modify("kubejs:steel_knife", item=>{
-      item.maxDamage = -1
-      // ??+1 block range
-    })
+  event.modify("kubejs:steel_knife", item => {
+    item.maxDamage = -1
+    // ??+1 block range
+  })
   //========================================Armor
 
   /// ZANITE
-  event.modify("aether:zanite_helmet", item=>{
+  event.modify("minecraft:chainmail_helmet", item => {
+    item.armorProtection = 1
+  })
+
+  event.modify("minecraft:chainmail_chestplate", item => {
+    item.armorProtection = 3
+  })
+
+  event.modify("minecraft:chainmail_leggings", item => {
+    item.armorProtection = 2
+  })
+
+  
+
+  /// ZANITE
+  event.modify("aether:zanite_helmet", item => {
     item.armorProtection = 3,
-    item.armorKnockbackResistance = 0.1
+      item.armorKnockbackResistance = 0.1
     item.armorToughness = 0.5
   })
 
-  event.modify("aether:zanite_chestplate", item=>{
+  event.modify("aether:zanite_chestplate", item => {
     item.armorProtection = 6,
-    item.armorKnockbackResistance = 0.1
+      item.armorKnockbackResistance = 0.1
     item.armorToughness = 0.5
   })
 
-  event.modify("aether:zanite_leggings", item=>{
+  event.modify("aether:zanite_leggings", item => {
     item.armorProtection = 4,
-    item.armorKnockbackResistance = 0.1
-    item.armorToughness = 0.5
+      item.armorKnockbackResistance = 0.1,
+      item.armorToughness = 0.5
   })
 
-  event.modify("aether:zanite_boots", item=>{
+  event.modify("aether:zanite_boots", item => {
     item.armorProtection = 3,
-    item.armorKnockbackResistance = 0.1
-    item.armorToughness = 0.5
+      item.armorKnockbackResistance = 0.1,
+      item.armorToughness = 0.5
   })
 
   /// SKYJADE
-  event.modify("deep_aether:skyjade_helmet", item=>{
+  event.modify("deep_aether:skyjade_helmet", item => {
     item.armorProtection = 2
-  
+
   })
 
-  event.modify("deep_aether:skyjade_chestplate", item=>{
+  event.modify("deep_aether:skyjade_chestplate", item => {
     item.armorProtection = 6.5
-   
+
   })
 
-  event.modify("deep_aether:skyjade_leggings", item=>{
+  event.modify("deep_aether:skyjade_leggings", item => {
     item.armorProtection = 4.5
-    
+
   })
 
-  event.modify("deep_aether:skyjade_boots", item=>{
+  event.modify("deep_aether:skyjade_boots", item => {
     item.armorProtection = 2
-    
+
   })
 
 
   /// DIAMOND
-  event.modify("minecraft:diamond_helmet", item=>{
+  event.modify("minecraft:diamond_helmet", item => {
     item.armorProtection = 2,
-    item.armorToughness = 1
-  })  
+      item.armorToughness = 1
+  })
 
-  event.modify("minecraft:diamond_chestplate", item=>{
+  event.modify("minecraft:diamond_chestplate", item => {
     item.armorProtection = 7,
-    item.armorToughness = 1
-  }) 
-  
-  event.modify("minecraft:diamond_leggings", item=>{
-    item.armorProtection = 5,
-    item.armorToughness = 1
-  }) 
+      item.armorToughness = 1
+  })
 
-  event.modify("minecraft:diamond_boots", item=>{
+  event.modify("minecraft:diamond_leggings", item => {
+    item.armorProtection = 5,
+      item.armorToughness = 1
+  })
+
+  event.modify("minecraft:diamond_boots", item => {
     item.armorProtection = 2,
-    item.armorToughness = 1
+      item.armorToughness = 1
   })
 
   /// NETHERITE
-   event.modify("minecraft:netherite_helmet", item=>{
-    
-    item.armorToughness = 1
-  })  
+  event.modify("minecraft:netherite_helmet", item => {
 
-  event.modify("minecraft:netherite_chestplate", item=>{
-    
     item.armorToughness = 1
-  }) 
-  
-  event.modify("minecraft:netherite_leggings", item=>{
-    
-    item.armorToughness = 1
-  }) 
+  })
 
-  event.modify("minecraft:netherite_boots", item=>{
-    
+  event.modify("minecraft:netherite_chestplate", item => {
+
+    item.armorToughness = 1
+  })
+
+  event.modify("minecraft:netherite_leggings", item => {
+
+    item.armorToughness = 1
+  })
+
+  event.modify("minecraft:netherite_boots", item => {
+
     item.armorToughness = 1
   })
 
   /// IRONWOOD
-  event.modify("twilightforest:ironwood_helmet", item=>{
+  event.modify("twilightforest:ironwood_helmet", item => {
     item.armorProtection = 1,
-    item.armorKnockbackResistance = 0.05
+      item.armorKnockbackResistance = 0.05
 
   })
 
-  event.modify("twilightforest:ironwood_chestplate", item=>{
+  event.modify("twilightforest:ironwood_chestplate", item => {
     item.armorProtection = 4,
-    item.armorKnockbackResistance = 0.05
+      item.armorKnockbackResistance = 0.05
   })
 
-  event.modify("twilightforest:ironwood_leggings", item=>{
+  event.modify("twilightforest:ironwood_leggings", item => {
     item.armorProtection = 3,
-    item.armorKnockbackResistance = 0.05
+      item.armorKnockbackResistance = 0.05
   })
 
-  event.modify("twilightforest:ironwood_boots", item=>{
+  event.modify("twilightforest:ironwood_boots", item => {
     item.armorProtection = 1,
-    item.armorKnockbackResistance = 0.05
+      item.armorKnockbackResistance = 0.05
   })
 
-  event.modify("twilightforest:steeleaf_helmet", item=>{
+  event.modify("twilightforest:steeleaf_helmet", item => {
     item.armorProtection = 2,
-    item.armorKnockbackResistance = 0.05
+      item.armorKnockbackResistance = 0.05
 
   })
 
 
   /// STEELEAF
-  event.modify("twilightforest:steeleaf_chestplate", item=>{
+  event.modify("twilightforest:steeleaf_chestplate", item => {
     item.armorProtection = 7,
-    item.armorKnockbackResistance = 0.05
+      item.armorKnockbackResistance = 0.05
   })
 
-  event.modify("twilightforest:steeleaf_leggings", item=>{
+  event.modify("twilightforest:steeleaf_leggings", item => {
     item.armorProtection = 5,
-    item.armorKnockbackResistance = 0.05
+      item.armorKnockbackResistance = 0.05
   })
 
-  event.modify("twilightforest:steeleaf_boots", item=>{
+  event.modify("twilightforest:steeleaf_boots", item => {
     item.armorProtection = 2,
-    item.armorKnockbackResistance = 0.05
+      item.armorKnockbackResistance = 0.05
   })
 
-  event.modify("twilightforest:steeleaf_helmet", item=>{
+  event.modify("twilightforest:steeleaf_helmet", item => {
     item.armorProtection = 2,
-    item.armorToughness = 0
+      item.armorToughness = 0
   })
 
   /// PHANTOM
-  event.modify("twilightforest:phantom_chestplate", item=>{
+  event.modify("twilightforest:phantom_chestplate", item => {
     item.armorKnockbackResistance = 0.1
   })
 
-  event.modify("twilightforest:phantom_helmet", item=>{
+  event.modify("twilightforest:phantom_helmet", item => {
     item.armorKnockbackResistance = 0.1
   })
 
   /// FIERY
 
-  event.modify("twilightforest:fiery_boots", item=>{
+  event.modify("twilightforest:fiery_boots", item => {
     item.armorProtection = 3,
-    item.armorToughness = 0
+      item.armorToughness = 0
   })
 
-  event.modify("twilightforest:fiery_chestplate", item=>{
+  event.modify("twilightforest:fiery_chestplate", item => {
     item.armorProtection = 7,
-    item.armorToughness = 0
+      item.armorToughness = 0
   })
 
-  event.modify("twilightforest:fiery_leggings", item=>{
+  event.modify("twilightforest:fiery_leggings", item => {
     item.armorProtection = 6,
-    item.armorToughness = 0
+      item.armorToughness = 0
   })
 
-  event.modify("twilightforest:fiery_boots", item=>{
+  event.modify("twilightforest:fiery_boots", item => {
     item.armorProtection = 2,
-    item.armorToughness = 0
+      item.armorToughness = 0
   })
 
   /// BOTANIST/INFUSED IRON
-  event.modify("naturesaura:infused_iron_helmet", item=>{
+  event.modify("naturesaura:infused_iron_helmet", item => {
     item.armorProtection = 3,
-    item.armorToughness = 0
+      item.armorToughness = 0
   })
 
-  event.modify("naturesaura:infused_iron_chest", item=>{
+  event.modify("naturesaura:infused_iron_chest", item => {
     item.armorProtection = 7,
-    item.armorToughness = 0
+      item.armorToughness = 0
   })
 
-   event.modify("naturesaura:infused_iron_pants", item=>{
+  event.modify("naturesaura:infused_iron_pants", item => {
     item.armorProtection = 6,
-    item.armorToughness = 0
+      item.armorToughness = 0
   })
 
-  event.modify("naturesaura:infused_iron_shoes", item=>{
+  event.modify("naturesaura:infused_iron_shoes", item => {
     item.armorProtection = 3,
-    item.armorToughness = 0
+      item.armorToughness = 0
   })
 
   // ARCANE GOLD
 
-  event.modify("wizards_reborn:arcane_gold_helmet", item=>{
+  event.modify("wizards_reborn:arcane_gold_helmet", item => {
     item.armorProtection = 3,
-    item.armorToughness = 1
+      item.armorToughness = 1
   })
 
-  event.modify("wizards_reborn:arcane_gold_chestplate", item=>{
+  event.modify("wizards_reborn:arcane_gold_chestplate", item => {
     item.armorProtection = 7.5,
-    item.armorToughness = 1
+      item.armorToughness = 1
   })
 
-  event.modify("wizards_reborn:arcane_gold_leggings", item=>{
+  event.modify("wizards_reborn:arcane_gold_leggings", item => {
     item.armorProtection = 6.5,
-    item.armorToughness = 1
+      item.armorToughness = 1
   })
 
-  event.modify("wizards_reborn:arcane_gold_boots", item=>{
+  event.modify("wizards_reborn:arcane_gold_boots", item => {
     item.armorProtection = 2,
-    item.armorToughness = 1
+      item.armorToughness = 1
   })
 
   // GRAVITITE
 
-  event.modify("aether:gravitite_helmet", item=>{
+  event.modify("aether:gravitite_helmet", item => {
     item.armorProtection = 4,
-    item.armorToughness = 2
+      item.armorToughness = 2
   })
 
-  event.modify("aether:gravitite_chestplate", item=>{
+  event.modify("aether:gravitite_chestplate", item => {
     item.armorProtection = 11,
-    item.armorToughness = 2
+      item.armorToughness = 2
   })
 
-  event.modify("aether:gravitite_leggings", item=>{
+  event.modify("aether:gravitite_leggings", item => {
     item.armorProtection = 9,
-    item.armorToughness = 2
+      item.armorToughness = 2
   })
 
-  event.modify("aether:gravitite_boots", item=>{
+  event.modify("aether:gravitite_boots", item => {
     item.armorProtection = 4,
-    item.armorToughness = 2
+      item.armorToughness = 2
   })
 
   // STRATUS
 
-  event.modify("deep_aether:stratus_helmet", item=>{
+  event.modify("deep_aether:stratus_helmet", item => {
     item.armorProtection = 5,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("deep_aether:stratus_chestplate", item=>{
+  event.modify("deep_aether:stratus_chestplate", item => {
     item.armorProtection = 14,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("deep_aether:stratus_leggings", item=>{
+  event.modify("deep_aether:stratus_leggings", item => {
     item.armorProtection = 12,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("deep_aether:stratus_boots", item=>{
+  event.modify("deep_aether:stratus_boots", item => {
     item.armorProtection = 5,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
   // OBSIDIAN
 
-  event.modify("aether:obsidian_helmet", item=>{
+  event.modify("aether:obsidian_helmet", item => {
     item.armorProtection = 5,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.15
+      item.armorToughness = 3,
+      item.armorKnockbackResistance = 0.15
   })
 
-  event.modify("aether:obsidian_chestplate", item=>{
+  event.modify("aether:obsidian_chestplate", item => {
     item.armorProtection = 12,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.15
+      item.armorToughness = 3,
+      item.armorKnockbackResistance = 0.15
   })
 
-  event.modify("aether:obsidian_leggings", item=>{
+  event.modify("aether:obsidian_leggings", item => {
     item.armorProtection = 9,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.15
+      item.armorToughness = 3,
+      item.armorKnockbackResistance = 0.15
   })
 
-  event.modify("aether:obsidian_boots", item=>{
+  event.modify("aether:obsidian_boots", item => {
     item.armorProtection = 4,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.15
+      item.armorToughness = 3,
+      item.armorKnockbackResistance = 0.15
   })
 
   // KNIGHTMETAL
 
-  event.modify("twilightforest:knightmetal_helmet", item=>{
+  event.modify("twilightforest:knightmetal_helmet", item => {
     item.armorProtection = 3.5,
-    item.armorToughness = 1,
-    item.armorKnockbackResistance = 0.15
+      item.armorToughness = 1,
+      item.armorKnockbackResistance = 0.15
   })
 
-  event.modify("twilightforest:knightmetal_chestplate", item=>{
+  event.modify("twilightforest:knightmetal_chestplate", item => {
     item.armorProtection = 8.5,
-    item.armorToughness = 1,
-    item.armorKnockbackResistance = 0.15
+      item.armorToughness = 1,
+      item.armorKnockbackResistance = 0.15
   })
 
-  event.modify("twilightforest:knightmetal_leggings", item=>{
+  event.modify("twilightforest:knightmetal_leggings", item => {
     item.armorProtection = 7.5,
-    item.armorToughness = 1,
-    item.armorKnockbackResistance = 0.15
+      item.armorToughness = 1,
+      item.armorKnockbackResistance = 0.15
   })
 
-  event.modify("twilightforest:knightmetal_boots", item=>{
+  event.modify("twilightforest:knightmetal_boots", item => {
     item.armorProtection = 2.5,
-    item.armorToughness = 1,
-    item.armorKnockbackResistance = 0.15
+      item.armorToughness = 1,
+      item.armorKnockbackResistance = 0.15
   })
 
   // NEPTUNE
 
-  event.modify("aether:neptune_helmet", item=>{
+  event.modify("aether:neptune_helmet", item => {
     item.armorProtection = 3.5,
-    item.armorToughness = 1
+      item.armorToughness = 1
   })
 
-  event.modify("aether:neptune_chestplate", item=>{
+  event.modify("aether:neptune_chestplate", item => {
     item.armorProtection = 8.5,
-    item.armorToughness = 1
+      item.armorToughness = 1
   })
 
-  event.modify("aether:neptune_leggings", item=>{
+  event.modify("aether:neptune_leggings", item => {
     item.armorProtection = 7.5,
-    item.armorToughness = 1
+      item.armorToughness = 1
   })
 
-  event.modify("aether:neptune_boots", item=>{
+  event.modify("aether:neptune_boots", item => {
     item.armorProtection = 2.5,
-    item.armorToughness = 1
+      item.armorToughness = 1
   })
 
   // SKYSEEKER
 
-  event.modify("naturesaura:sky_helmet", item=>{
+  event.modify("naturesaura:sky_helmet", item => {
     item.armorProtection = 4,
-    item.armorToughness = 2
+      item.armorToughness = 2
   })
 
-  event.modify("naturesaura:sky_chest", item=>{
+  event.modify("naturesaura:sky_chest", item => {
     item.armorProtection = 11,
-    item.armorToughness = 2
+      item.armorToughness = 2
   })
 
-  event.modify("naturesaura:sky_pants", item=>{
+  event.modify("naturesaura:sky_pants", item => {
     item.armorProtection = 9,
-    item.armorToughness = 2
+      item.armorToughness = 2
   })
 
-  event.modify("naturesaura:sky_shoes", item=>{
+  event.modify("naturesaura:sky_shoes", item => {
     item.armorProtection = 4,
-    item.armorToughness = 2
+      item.armorToughness = 2
   })
 
   // DEPTH
 
-  event.modify("naturesaura:depth_helmet", item=>{
+  event.modify("naturesaura:depth_helmet", item => {
     item.armorProtection = 6,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.25
+      item.armorToughness = 3,
+      item.armorKnockbackResistance = 0.25
   })
 
-  event.modify("naturesaura:depth_chest", item=>{
+  event.modify("naturesaura:depth_chest", item => {
     item.armorProtection = 15,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.25
+      item.armorToughness = 3,
+      item.armorKnockbackResistance = 0.25
   })
 
-  event.modify("naturesaura:depth_pants", item=>{
+  event.modify("naturesaura:depth_pants", item => {
     item.armorProtection = 12,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.25
+      item.armorToughness = 3,
+      item.armorKnockbackResistance = 0.25
   })
 
-  event.modify("naturesaura:depth_shoes", item=>{
+  event.modify("naturesaura:depth_shoes", item => {
     item.armorProtection = 6,
-    item.armorToughness = 3,
-    item.armorKnockbackResistance = 0.25
+      item.armorToughness = 3,
+      item.armorKnockbackResistance = 0.25
   })
 
   // PHOENIX
 
-  event.modify("aether:phoenix_helmet", item=>{
+  event.modify("aether:phoenix_helmet", item => {
     item.armorProtection = 3.5,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("aether:phoenix_chestplate", item=>{
+  event.modify("aether:phoenix_chestplate", item => {
     item.armorProtection = 10.5,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("aether:phoenix_leggings", item=>{
+  event.modify("aether:phoenix_leggings", item => {
     item.armorProtection = 8.5,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("aether:phoenix_boots", item=>{
+  event.modify("aether:phoenix_boots", item => {
     item.armorProtection = 3.5,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
   // STORMFORGED
 
-   event.modify("deep_aether:stormforged_helmet", item=>{
+  event.modify("deep_aether:stormforged_helmet", item => {
     item.armorProtection = 5.5,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("deep_aether:stormforged_chestplate", item=>{
+  event.modify("deep_aether:stormforged_chestplate", item => {
     item.armorProtection = 12.5,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("deep_aether:stormforged_leggings", item=>{
+  event.modify("deep_aether:stormforged_leggings", item => {
     item.armorProtection = 10.5,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("deep_aether:stormforged_boots", item=>{
+  event.modify("deep_aether:stormforged_boots", item => {
     item.armorProtection = 5.5,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
   // STEEL
 
-   event.modify("immersiveengineering:armor_steel_helmet", item=>{
+  event.modify("immersiveengineering:armor_steel_helmet", item => {
     item.maxDamage = -1,
-    item.armorProtection = 3.5
+      item.armorProtection = 3.5
     item.armorToughness = 0
   })
 
-  event.modify("immersiveengineering:armor_steel_chestplate", item=>{
+  event.modify("immersiveengineering:armor_steel_chestplate", item => {
     item.maxDamage = -1,
-    item.armorProtection = 9,
-    item.armorToughness = 0
+      item.armorProtection = 9,
+      item.armorToughness = 0
   })
 
-  event.modify("immersiveengineering:armor_steel_leggings", item=>{
+  event.modify("immersiveengineering:armor_steel_leggings", item => {
     item.maxDamage = -1,
-    item.armorProtection = 7,
-    item.armorToughness = 0
+      item.armorProtection = 7,
+      item.armorToughness = 0
   })
 
-  event.modify("immersiveengineering:armor_steel_boots", item=>{
+  event.modify("immersiveengineering:armor_steel_boots", item => {
     item.maxDamage = -1,
-    item.armorProtection = 3.5,
-    item.armorToughness = 0
+      item.armorProtection = 3.5,
+      item.armorToughness = 0
   })
 
 
   // VALKYRUM
 
-   event.modify("ancient_aether:valkyrum_helmet", item=>{
+  event.modify("ancient_aether:valkyrum_helmet", item => {
     item.armorProtection = 5,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("ancient_aether:valkyrum_chestplate", item=>{
+  event.modify("ancient_aether:valkyrum_chestplate", item => {
     item.armorProtection = 15,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("ancient_aether:valkyrum_leggings", item=>{
+  event.modify("ancient_aether:valkyrum_leggings", item => {
     item.armorProtection = 13,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("ancient_aether:valkyrum_boots", item=>{
+  event.modify("ancient_aether:valkyrum_boots", item => {
     item.armorProtection = 5,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
   // ETHERIUM
 
-   event.modify("enigmaticlegacy:etherium_helmet", item=>{
+  event.modify("enigmaticlegacy:etherium_helmet", item => {
     item.armorProtection = 6,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("enigmaticlegacy:etherium_chestplate", item=>{
+  event.modify("enigmaticlegacy:etherium_chestplate", item => {
     item.armorProtection = 18,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("enigmaticlegacy:etherium_leggings", item=>{
+  event.modify("enigmaticlegacy:etherium_leggings", item => {
     item.armorProtection = 14,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
-  event.modify("enigmaticlegacy:etherium_boots", item=>{
+  event.modify("enigmaticlegacy:etherium_boots", item => {
     item.armorProtection = 6,
-    item.armorToughness = 3
+      item.armorToughness = 3
   })
 
 
-  event.modify("quark:forgotten_hat", item=>{
+  event.modify("quark:forgotten_hat", item => {
     item.maxDamage = 110
   })
 
-  event.modify("deep_aether:skyjade_helmet", item=>{
+  event.modify("deep_aether:skyjade_helmet", item => {
     item.maxDamage = 165
   })
 
-  event.modify("deep_aether:skyjade_boots", item=>{
+  event.modify("deep_aether:skyjade_boots", item => {
     item.maxDamage = 195
   })
 
-  event.modify("deep_aether:skyjade_leggings", item=>{
+  event.modify("deep_aether:skyjade_leggings", item => {
     item.maxDamage = 225
   })
-  
-  event.modify("deep_aether:skyjade_chestplate", item=>{
+
+  event.modify("deep_aether:skyjade_chestplate", item => {
     item.maxDamage = 240
   })
 
-  event.modify("minecraft:golden_helmet", item=>{
+  event.modify("minecraft:golden_helmet", item => {
     item.maxDamage = 165
   })
 
-  event.modify("minecraft:golden_boots", item=>{
+  event.modify("minecraft:golden_boots", item => {
     item.maxDamage = 195
   })
 
-  event.modify("minecraft:golden_leggings", item=>{
+  event.modify("minecraft:golden_leggings", item => {
     item.maxDamage = 225
   })
-  
-  event.modify("minecraft:golden_chestplate", item=>{
+
+  event.modify("minecraft:golden_chestplate", item => {
     item.maxDamage = 240
   })
 
-  event.modify('immersiveengineering:glider', item=>{
+  event.modify('immersiveengineering:glider', item => {
     item.maxDamage = 512
   })
 
-  event.modify('minecraft:elytra', item=>{
+  event.modify('minecraft:elytra', item => {
     item.maxDamage = 1024
   })
 
-  event.modify('alexsmobs:tarantula_hawk_elytra', item=>{
+  event.modify('alexsmobs:tarantula_hawk_elytra', item => {
     item.maxDamage = 2048
   })
 
 
-  event.modify('alexsmobs:tarantula_hawk_elytra', item=>{
+  event.modify('alexsmobs:tarantula_hawk_elytra', item => {
     item.maxDamage = 1024,
-    item.armorProtection = 8
+      item.armorProtection = 8
   })
 
-  event.modify("immersiveengineering:armor_faraday_helmet", item=>{
+  event.modify("immersiveengineering:armor_faraday_helmet", item => {
     item.maxDamage = -1
   })
 
-  event.modify("immersiveengineering:armor_faraday_chestplate", item=>{
+  event.modify("immersiveengineering:armor_faraday_chestplate", item => {
     item.maxDamage = -1
   })
 
-  event.modify("immersiveengineering:armor_faraday_leggings", item=>{
+  event.modify("immersiveengineering:armor_faraday_leggings", item => {
     item.maxDamage = -1
   })
 
-  event.modify("immersiveengineering:armor_faraday_boots", item=>{
+  event.modify("immersiveengineering:armor_faraday_boots", item => {
     item.maxDamage = -1
   })
 
@@ -968,9 +982,9 @@ ItemEvents.modification(event => {
 
     ArmorSlot.forEach(slot => {
 
-      event.modify(id+"_"+slot, item=>{
+      event.modify(id + "_" + slot, item => {
 
-        item.maxDamage = item.maxDamage*2
+        item.maxDamage = item.maxDamage * 2
       })
     });
   });
@@ -979,7 +993,7 @@ ItemEvents.modification(event => {
 
     ArmorSlot.forEach(slot => {
 
-      event.modify(id+"_"+slot, item=>{
+      event.modify(id + "_" + slot, item => {
 
         item.maxDamage = -1
       })
@@ -990,9 +1004,9 @@ ItemEvents.modification(event => {
 
     NatureArmorSlot.forEach(slot => {
 
-      event.modify("naturesaura:"+id+"_"+slot, item=>{
+      event.modify("naturesaura:" + id + "_" + slot, item => {
 
-        item.maxDamage = item.maxDamage*2
+        item.maxDamage = item.maxDamage * 2
       })
     });
   });
@@ -1001,9 +1015,9 @@ ItemEvents.modification(event => {
 
     ArsArmorSlot.forEach(slot => {
 
-      event.modify("ars_nouveau:"+id+"_"+slot, item=>{
+      event.modify("ars_nouveau:" + id + "_" + slot, item => {
 
-        item.maxDamage = item.maxDamage*2
+        item.maxDamage = item.maxDamage * 2
       })
     });
   });
@@ -1031,29 +1045,29 @@ ItemEvents.modification(event => {
     
   });*/
 
-  
+
   ///======================================== Other
 
-  event.modify("create:sand_paper", item=>{
+  event.modify("create:sand_paper", item => {
     item.maxDamage = 256
   })
 
-  event.modify("create:red_sand_paper", item=>{
+  event.modify("create:red_sand_paper", item => {
     item.maxDamage = 312
   })
 
-  event.modify("create:extendo_grip", item=>{
+  event.modify("create:extendo_grip", item => {
     item.maxDamage = -1
   })
 
-  event.modify("create:potato_cannon", item=>{
+  event.modify("create:potato_cannon", item => {
     item.maxDamage = 1024
   })
 
-  event.modify("supplementaries:wrench", item=>{
+  event.modify("supplementaries:wrench", item => {
     item.maxDamage = 1024
   })
 
 
-  
+
 })

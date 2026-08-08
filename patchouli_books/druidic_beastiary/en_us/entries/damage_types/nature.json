@@ -1,7 +1,7 @@
 {
     "name": "Nature Damage",
     "category": "patchouli:damage_types",
-    "icon": "kubejs:nature_essence",
+    "icon": "druidic_quest_core:nature_essence",
     "entry_color": "004d00",
     "sortnum": 4,
     "pages": [

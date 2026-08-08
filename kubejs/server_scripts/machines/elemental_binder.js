@@ -129,8 +129,8 @@ ServerEvents.recipes(event=>{
         "ars_nouveau:air_essence",
         "ars_nouveau:earth_essence",
         "kubejs:lightning_essence",
-        "kubejs:nature_essence",
-        "kubejs:nature_essence",
+        "druidic_quest_core:nature_essence",
+        "druidic_quest_core:nature_essence",
         "kubejs:fiery_magic_feather",
         "rainbow_magic_feather"
     )

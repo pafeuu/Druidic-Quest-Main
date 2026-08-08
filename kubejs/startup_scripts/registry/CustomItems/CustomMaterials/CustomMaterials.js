@@ -149,7 +149,7 @@ StartupEvents.registry('item', item => {
   
   ///===================================================ESSENCE==========================================================
 
-  item.create('nature_essence').displayName('Nature essence').tag('forge:essences').tag("dq:tier2/component")
+  //item.create('nature_essence').displayName('Nature essence').tag('forge:essences').tag("dq:tier2/component")
   item.create('ender_essence').displayName('Ender Essence').tag('forge:essences').tag("dq:tier3/component")
   item.create('light_essence').displayName('Light Essence').tag('forge:essences').tag("dq:tier3/component")
   item.create('dark_essence').displayName('Dark Essence').tag('forge:essences').tag("dq:tier3/component")

@@ -506,7 +506,7 @@
 			rewards: [
 				{
 					id: "2B44D24A8D87DC88"
-					item: "kubejs:nature_essence"
+					item: "druidic_quest_core:nature_essence"
 					type: "item"
 				}
 				{
@@ -520,7 +520,7 @@
 			subtitle: "Smells Earthy..."
 			tasks: [{
 				id: "42BC429CB79BA598"
-				item: "kubejs:nature_essence"
+				item: "druidic_quest_core:nature_essence"
 				type: "item"
 			}]
 			title: "Nature Essence"

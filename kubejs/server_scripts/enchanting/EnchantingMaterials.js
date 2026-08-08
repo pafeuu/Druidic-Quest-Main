@@ -62,10 +62,10 @@ ServerEvents.recipes(event=>{
 
     RuneCrafting("kubejs:enchanting_rune_of_nature",[
         {"item":"kubejs:enchanting_rune"},
-        {"item":"kubejs:nature_essence"},
-        {"item":"kubejs:nature_essence"},
-        {"item":"kubejs:nature_essence"},
-        {"item":"kubejs:nature_essence"},],1000,5)
+        {"item":"druidic_quest_core:nature_essence"},
+        {"item":"druidic_quest_core:nature_essence"},
+        {"item":"druidic_quest_core:nature_essence"},
+        {"item":"druidic_quest_core:nature_essence"},],1000,5)
 
     RuneCrafting("kubejs:enchanting_rune_of_mana",[
         {"item":"kubejs:enchanting_rune"},
@@ -105,9 +105,9 @@ ServerEvents.recipes(event=>{
     RuneCrafting("kubejs:enchanting_rune_of_horror",[
         {"item":"kubejs:enchanting_rune"},
         {"item":"kubejs:death_essence"},
-        {"item":"kubejs:rotten_flesh_block"},
-        {"item":"kubejs:rotten_flesh_block"},
-        {"item":"kubejs:rotten_flesh_block"},],3000,15)
+        {"item":"druidic_quest_core:rotten_flesh_block"},
+        {"item":"druidic_quest_core:rotten_flesh_block"},
+        {"item":"druidic_quest_core:rotten_flesh_block"},],3000,15)
 
     RuneCrafting("kubejs:big_enchanting_rune_of_horror",[
         {"item":"kubejs:big_enchanting_rune"},

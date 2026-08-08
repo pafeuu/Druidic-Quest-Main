@@ -296,7 +296,7 @@
 		{
 			dependencies: ["5C199D8DE803D331"]
 			description: ["More innovations to play with!"]
-			icon: "kubejs:primitive_machine"
+			icon: "druidic_quest_core:primitive_machine"
 			id: "2C7DD9A9CEA857D0"
 			rewards: [{
 				count: 3
@@ -308,7 +308,7 @@
 			subtitle: "New Stuff!"
 			tasks: [{
 				id: "5776DECF331133A6"
-				item: "kubejs:primitive_machine"
+				item: "druidic_quest_core:primitive_machine"
 				type: "item"
 			}]
 			title: "First Machine Casing"
@@ -961,7 +961,7 @@
 				""
 				"You can buy map to this biome for just &e4 gold coins!&r"
 			]
-			icon: "kubejs:nature_essence"
+			icon: "druidic_quest_core:nature_essence"
 			id: "1EC8670D9091464A"
 			optional: true
 			rewards: [{
@@ -1462,7 +1462,7 @@
 			id: "5B2014B3B0771EB5"
 			rewards: [{
 				id: "4847A7FB290D5604"
-				item: "kubejs:primitive_machine"
+				item: "druidic_quest_core:primitive_machine"
 				type: "item"
 			}]
 			subtitle: "Embrace the grind!"

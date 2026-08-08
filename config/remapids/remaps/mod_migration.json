@@ -1,0 +1,9 @@
+{
+    "remaps":[
+        {
+            "source": "kubejs:*",
+            "target": "druidic_quest_core:*",
+            "types": ["item"]
+        }
+    ]
+}

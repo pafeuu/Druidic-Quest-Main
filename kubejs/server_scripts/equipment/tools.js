@@ -279,9 +279,9 @@ ServerEvents.recipes(event => {
 	event.custom({
 		type: "lychee:block_interacting",
 		item_in: {tag: "forge:tools/hammers"},
-		block_in: "kubejs:sturdy_deepslate",
+		block_in: "druidic_quest_core:sturdy_deepslate",
 		post: [
-			{type: "place", block: "kubejs:sturdy_deepslate_slab"},
+			{type: "place", block: "druidic_quest_core:sturdy_deepslate_slab"},
 			{type: "damage_item", damage: 8},
 			{type: "execute", command: "playsound minecraft:block.deepslate.break neutral @p", hide: true}
 		]
@@ -290,7 +290,7 @@ ServerEvents.recipes(event => {
 	event.custom({
 		type: "lychee:block_interacting",
 		item_in: {tag: "forge:tools/hammers"},
-		block_in: "kubejs:sturdy_deepslate_slab",
+		block_in: "druidic_quest_core:sturdy_deepslate_slab",
 		post: [
 			{type: "place", block: "kubejs:sturdy_deepslate_plate"},
 			{type: "damage_item", damage: 4},
@@ -1597,7 +1597,7 @@ ServerEvents.recipes(event => {
 			'XXX'
 		],
 		{
-			X: "kubejs:nature_essence",
+			X: "druidic_quest_core:nature_essence",
 			A: "kubejs:mossy_sword"
 		}
 	)

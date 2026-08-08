@@ -49,7 +49,7 @@
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "create:iron_sheet",
+                    "name": "thermal:iron_plate",
                     "weight": 6
                 },
                 {
@@ -65,7 +65,7 @@
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "vintageimprovements:nickel_rod",
+                    "name": "thermal:nickel_rod",
                     "weight": 10
                 },
                 {
@@ -113,7 +113,7 @@
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "create:iron_sheet",
+                    "name": "thermal:iron_plate",
                     "weight": 8
                 },
                 {

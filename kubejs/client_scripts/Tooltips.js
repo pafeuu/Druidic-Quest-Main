@@ -35,7 +35,7 @@ ItemEvents.tooltip(tooltip => {
 
   // ========================================== Texture Credits ==========================================
   tooltip.add(["kubejs:archers_glove",
-    "kubejs:rotten_flesh_block",
+    "druidic_quest_core:rotten_flesh_block",
     'immersiveengineering:armor_steel_helmet',
     'immersiveengineering:armor_steel_chestplate',
     'immersiveengineering:armor_steel_leggings',
@@ -180,7 +180,7 @@ ItemEvents.tooltip(tooltip => {
 
   tooltip.addAdvanced([
     "thermal:coal_coke",
-    "kubejs:nature_essence",
+    "druidic_quest_core:nature_essence",
     "wizards_reborn:arcane_gold_ingot",
     "thermal:steel_ingot"], (item, advanced, text) => {
       text.add(1, Text.of('Picking up this item for the first time increases the difficulty and unlocks new dimension').red())

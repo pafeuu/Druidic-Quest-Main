@@ -1,7 +1,7 @@
 [
     {
         "inputs": ["create:millstone"],
-        "output": "kubejs:primitive_machine",
+        "output": "druidic_quest_core:primitive_machine",
         "structures":[
             "idas:farmhouse",
             "idas:ruined_church",

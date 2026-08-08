@@ -52,10 +52,10 @@ ServerEvents.recipes(event=>{
     }
 
     ExplosionCrafting(12,"ars_nouveau:fire_essence",[
-        { item: "kubejs:nature_essence" },
-        { item: "kubejs:nature_essence" },
-        { item: "kubejs:nature_essence" },
-        { item: "kubejs:nature_essence" },
+        { item: "druidic_quest_core:nature_essence" },
+        { item: "druidic_quest_core:nature_essence" },
+        { item: "druidic_quest_core:nature_essence" },
+        { item: "druidic_quest_core:nature_essence" },
         { item: "kubejs:fire_infused_arcanum" },
         { item: "kubejs:fire_infused_arcanum" },
         { item: "kubejs:fire_infused_arcanum" },
@@ -69,7 +69,7 @@ ServerEvents.recipes(event=>{
     SoundEffectTransmutation)
 
     ExplosionCrafting(1,"ars_nouveau:fire_essence",[
-        { item: "kubejs:nature_essence" },
+        { item: "druidic_quest_core:nature_essence" },
         { item: "kubejs:fire_infused_arcanum" },
         { item: "ars_nouveau:source_gem" },
         { item: 'blaze_rod' }
@@ -79,7 +79,7 @@ ServerEvents.recipes(event=>{
 
 
     ExplosionCrafting(1,"ars_nouveau:earth_essence",[
-        {item: "kubejs:nature_essence"},
+        {item: "druidic_quest_core:nature_essence"},
 		{item: "kubejs:earth_infused_arcanum"},
 		{item: "ars_nouveau:source_gem"},
 		{item: "minecraft:bone"}

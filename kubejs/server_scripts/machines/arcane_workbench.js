@@ -770,7 +770,7 @@ ServerEvents.recipes(event => {
                 "item": "ars_nouveau:earth_essence"
             },
             "E": {
-                "item": "kubejs:nature_essence"
+                "item": "druidic_quest_core:nature_essence"
             },
             "X": {
                 "item": "iron_shovel"

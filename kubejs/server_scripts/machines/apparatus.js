@@ -4,7 +4,7 @@ ServerEvents.recipes(event=>{
 
     /*apparatus([
         "bone_block",
-        "kubejs:rotten_flesh_block",
+        "druidic_quest_core:rotten_flesh_block",
         "quark:soul_bead"],
         "kubejs:warp_scroll",
         "corpsecomplex:scroll",
@@ -52,10 +52,10 @@ ServerEvents.recipes(event=>{
 
     apparatus([
         "naturesaura:token_joy",
-        "kubejs:nature_essence",
-        "kubejs:nature_essence",
-        "kubejs:nature_essence",
-        "kubejs:nature_essence"
+        "druidic_quest_core:nature_essence",
+        "druidic_quest_core:nature_essence",
+        "druidic_quest_core:nature_essence",
+        "druidic_quest_core:nature_essence"
     ],"kubejs:basic_magic_machine","kubejs:infusion_catalyst",5000)
 
     apparatus([

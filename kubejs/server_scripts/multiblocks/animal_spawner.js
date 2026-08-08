@@ -7,22 +7,22 @@ ServerEvents.recipes((event) => {
     spawn("ars_nouveau:whirlisprig",
         ["naturesaura:birth_spirit",
             "#minecraft:saplings",
-            "kubejs:nature_essence"], MagicalCritterAuraCost, 60)
+            "druidic_quest_core:nature_essence"], MagicalCritterAuraCost, 60)
 
     spawn("ars_nouveau:drygmy",
         ["naturesaura:birth_spirit",
             "ars_nouveau:wilden_horn",
-            "kubejs:nature_essence"], MagicalCritterAuraCost, 60)
+            "druidic_quest_core:nature_essence"], MagicalCritterAuraCost, 60)
 
     spawn("ars_nouveau:starbuncle",
         ["naturesaura:birth_spirit",
             "#forge:nuggets/gold",
-            "kubejs:nature_essence"], MagicalCritterAuraCost, 60)
+            "druidic_quest_core:nature_essence"], MagicalCritterAuraCost, 60)
 
     spawn("allay",
         ["naturesaura:birth_spirit",
             "amethyst_shard",
-            "kubejs:nature_essence"], MagicalCritterAuraCost, 60)
+            "druidic_quest_core:nature_essence"], MagicalCritterAuraCost, 60)
 
     spawn("irons_spellbooks:pyromancer",
         ["naturesaura:birth_spirit",

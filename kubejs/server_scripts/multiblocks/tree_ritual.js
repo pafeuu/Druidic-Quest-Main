@@ -62,10 +62,10 @@ ServerEvents.recipes(event => {
                "enigmaticlegacy:infinimeal",
                "kubejs:life_essence",
                "kubejs:life_essence",
-               "kubejs:nature_essence",
-               "kubejs:nature_essence",
-               "kubejs:nature_essence",
-               "kubejs:nature_essence"],
+               "druidic_quest_core:nature_essence",
+               "druidic_quest_core:nature_essence",
+               "druidic_quest_core:nature_essence",
+               "druidic_quest_core:nature_essence"],
           "ars_nouveau:green_archwood_sapling")
 
      tree_ritual("ars_nouveau:drygmy_charm",
@@ -334,7 +334,7 @@ ServerEvents.recipes(event => {
      tree_ritual("4x kubejs:natural_clay_blend",
           [
                "clay",
-               "kubejs:nature_essence",
+               "druidic_quest_core:nature_essence",
                "kelp",
                "kelp",
                "#forge:dusts/iron",

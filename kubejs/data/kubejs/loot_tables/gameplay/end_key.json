@@ -231,7 +231,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "kubejs:nature_essence",
+          "name": "druidic_quest_core:nature_essence",
           "functions": [
             {
               "function": "set_count",

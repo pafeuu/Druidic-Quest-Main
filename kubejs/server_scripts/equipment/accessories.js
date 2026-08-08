@@ -227,7 +227,7 @@ ServerEvents.recipes(event => {
     {
         S: "#forge:ropes",
         P: "#forge:plates/lead",
-        D: "kubejs:sturdy_deepslate",
+        D: "druidic_quest_core:sturdy_deepslate",
     }
     )
 
