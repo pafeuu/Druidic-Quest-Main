@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:chainmail_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "attributeslib:draw_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "64ffbd2f-4afa-4676-8df7-e9cfe5c9188a"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:chainmail_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "attributeslib:draw_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "6d958161-4b05-47aa-892d-0ff7c417cde2"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

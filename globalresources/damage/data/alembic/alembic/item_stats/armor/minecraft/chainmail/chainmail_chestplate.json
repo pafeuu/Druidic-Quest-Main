@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:chainmail_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "attributeslib:draw_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "349e399b-d522-4125-94b3-f7b98133a06d"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

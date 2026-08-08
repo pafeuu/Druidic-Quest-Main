@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:chainmail_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "attributeslib:draw_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "c6650883-3d08-4b4d-b5de-ada68d99743b"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}
