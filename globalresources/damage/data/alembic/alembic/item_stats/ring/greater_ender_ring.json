@@ -1,26 +1,26 @@
 {
-    "id": "kubejs:lesser_ender_ring",
+    "id": "kubejs:greater_ender_ring",
     "modifiers": [
       {
         "type": "append",
         "attribute": "alembic:true_damage.resistance",
-        "value": 1,
+        "value": 1.5,
         "operation": "ADDITION",
-        "uuid": "b1af8c67-bf8c-4cf2-ab16-24303614852c"
+        "uuid": "b247f1fa-4f39-42f7-a400-97194f1de71e"
       },
       {
         "type": "append",
         "attribute": "alembic:arcane_damage.resistance",
-        "value": 1,
+        "value": 1.5,
         "operation": "ADDITION",
-        "uuid": "f3721d32-f116-4204-8375-b2d84ab8aa10"
+        "uuid": "c9c0f3cd-92a0-47f0-9ecc-a4b4716a4206"
       },
       {
         "type": "append",
         "attribute": "irons_spellbooks:ender_spell_power",
-        "value": 0.1,
+        "value": 0.15,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "f3721d32-f556-4204-8375-b2d84ab8aa10"
+        "uuid": "42d6a76d-b805-4fd4-a57c-74fa85f728cf"
       }
     ],
     "equipment_slot": "ring"

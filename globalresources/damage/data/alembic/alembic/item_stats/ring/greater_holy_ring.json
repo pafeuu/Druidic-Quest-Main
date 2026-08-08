@@ -1,19 +1,19 @@
 {
-    "id": "kubejs:lesser_holy_ring",
+    "id": "kubejs:greater_holy_ring",
     "modifiers": [
       {
         "type": "append",
         "attribute": "alembic:holy_damage.resistance",
-        "value": 2,
+        "value": 3,
         "operation": "ADDITION",
-        "uuid": "9b0887ee-7760-4164-bed9-cc7675fbd4a7"
+        "uuid": "7aac5cdb-ae6a-4544-8bd9-86e926364b62"
       },
       {
         "type": "append",
         "attribute": "irons_spellbooks:holy_spell_power",
-        "value": 0.1,
+        "value": 0.15,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "3865f087-9dc1-4fbd-9d3c-2f9d8ffdb7af"
+        "uuid": "a3c5e23c-0ed9-4f38-bf08-7aed7f5ca6d6"
       }
     ],
     "equipment_slot": "ring"

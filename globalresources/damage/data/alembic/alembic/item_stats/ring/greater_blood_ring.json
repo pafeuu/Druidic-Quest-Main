@@ -1,19 +1,19 @@
 {
-    "id": "kubejs:lesser_blood_ring",
+    "id": "kubejs:greater_blood_ring",
     "modifiers": [
       {
         "type": "append",
         "attribute": "alembic:true_damage.resistance",
-        "value": 2,
+        "value": 3,
         "operation": "ADDITION",
-        "uuid": "c50a32b5-5490-45fa-bf10-a98c8f929ca6"
+        "uuid": "cb446d75-f9a0-4138-b832-6bf1cbba7667"
       },
       {
         "type": "append",
         "attribute": "irons_spellbooks:blood_spell_power",
-        "value": 0.1,
+        "value": 0.15,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "1b123927-3123-42e8-ae76-a103964a354a"
+        "uuid": "d0e72d71-eafa-4dd6-8523-85302431c51e"
       }
     ],
     "equipment_slot": "ring"

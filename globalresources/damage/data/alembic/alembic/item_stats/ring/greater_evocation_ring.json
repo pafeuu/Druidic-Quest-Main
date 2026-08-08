@@ -1,19 +1,19 @@
 {
-    "id": "kubejs:lesser_arcane_ring",
+    "id": "kubejs:greater_evocation_ring",
     "modifiers": [
       {
         "type": "append",
         "attribute": "alembic:arcane_damage.resistance",
-        "value": 1,
+        "value": 3,
         "operation": "ADDITION",
-        "uuid": "a2ac32e3-623e-4f75-98bf-07e15c58acbd"
+        "uuid": "6d8b27c1-55e4-4d5a-9d40-b758c0f05dc1"
       },
       {
         "type": "append",
-        "attribute": "irons_spellbooks:spell_power",
-        "value": 0.05,
+        "attribute": "irons_spellbooks:evocation_spell_power",
+        "value": 0.15,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "3f0c89f5-98fd-4f1d-b90c-3c40fe371d47"
+        "uuid": "cdc3d8d5-1cd6-484d-ae9b-6d9d6f2bfc52"
       }
     ],
     "equipment_slot": "ring"

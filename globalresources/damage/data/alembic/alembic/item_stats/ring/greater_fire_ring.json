@@ -1,19 +1,19 @@
 {
-    "id": "kubejs:lesser_fire_ring",
+    "id": "kubejs:greater_fire_ring",
     "modifiers": [
       {
         "type": "append",
         "attribute": "alembic:fire_damage.resistance",
-        "value": 2,
+        "value": 3,
         "operation": "ADDITION",
-        "uuid": "c4ce31b6-b401-403d-9ae9-d92f75c5a0c3"
+        "uuid": "1ec5ad45-027c-4628-bed1-1b9d15c81d48"
       },
       {
         "type": "append",
         "attribute": "irons_spellbooks:fire_spell_power",
-        "value": 0.1,
+        "value": 0.15,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "433ba03f-e115-4397-a7bb-613848bc11cb"
+        "uuid": "91a719c1-1214-41dd-a912-d773df789b8b"
       }
     ],
     "equipment_slot": "ring"

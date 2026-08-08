@@ -1,19 +1,19 @@
 {
-    "id": "kubejs:lesser_nature_ring",
+    "id": "kubejs:greater_nature_ring",
     "modifiers": [
       {
         "type": "append",
         "attribute": "alembic:alchemical_damage.resistance",
-        "value": 2,
+        "value": 3,
         "operation": "ADDITION",
-        "uuid": "fc46f709-c3e6-452e-a25f-1b0ad08e15f1"
+        "uuid": "5c0b66d2-9b2a-4e23-8d58-2a51e7e711f4"
       },
       {
         "type": "append",
         "attribute": "irons_spellbooks:nature_spell_power",
-        "value": 0.1,
+        "value": 0.15,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "fc46f709-c3e6-452e-a25f-1b0ad08e15f9"
+        "uuid": "6d7e4195-1157-4a5c-9aea-70665adda1ce"
       }
     ],
     "equipment_slot": "ring"

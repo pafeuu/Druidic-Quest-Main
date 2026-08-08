@@ -1,33 +1,33 @@
 {
-    "id": "kubejs:lesser_lightning_ring",
+    "id": "kubejs:greater_lightning_ring",
     "modifiers": [
       {
         "type": "append",
         "attribute": "alembic:holy_damage.resistance",
-        "value": 0.5,
+        "value": 0.75,
         "operation": "ADDITION",
-        "uuid": "e56cc564-e246-4d38-a438-4ee6c0646c49"
+        "uuid": "088715cf-1d5d-473a-89df-452554e2d435"
       },
       {
         "type": "append",
         "attribute": "alembic:fire_damage.resistance",
-        "value": 1.0,
+        "value": 1.5,
         "operation": "ADDITION",
-        "uuid": "fa634953-5038-4dec-99da-953e12f0e426"
+        "uuid": "02f3f5b6-0cd9-4d5b-a1f2-1fe17327e9a0"
       },
       {
         "type": "append",
         "attribute": "alembic:alchemical_damage.resistance",
-        "value": 0.5,
+        "value": 0.75,
         "operation": "ADDITION",
-        "uuid": "f2dcb3ee-f6ae-412b-bf81-916b3ba052b1"
+        "uuid": "72af79d3-3ffe-4139-a5ed-a1415bca7d31"
       },
       {
         "type": "append",
         "attribute": "irons_spellbooks:lightning_spell_power",
-        "value": 0.1,
+        "value": 0.15,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "84657017-bb69-4b56-9e4b-b0043e41d7e6"
+        "uuid": "91d3544c-46a0-410e-b69c-17d3250ddf6f"
       }
     ],
     "equipment_slot": "ring"

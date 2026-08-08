@@ -35,7 +35,8 @@ StartupEvents.registry('item', item => {
   global.magicSchools.forEach(element => {
     if(element=="eldritch")
         return;
-    registerRing(`lesser_${element}_ring`,1)  
+    registerRing(`lesser_${element}_ring`,1)
+    registerRing(`greater_${element}_ring`,2)   
   });
   
   const ringMaterials = [
