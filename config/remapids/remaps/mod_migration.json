@@ -1,8 +1,48 @@
 {
     "remaps":[
         {
-            "source": "kubejs:*",
-            "target": "druidic_quest_core:*",
+            "source": "kubejs:rotten_flesh_block",
+            "target": "druidic_quest_core:rotten_flesh_block",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:nature_essence",
+            "target": "druidic_quest_core:nature_essence",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:sturdy_deepslate",
+            "target": "druidic_quest_core:sturdy_deepslate",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:primitive_machine",
+            "target": "druidic_quest_core:primitive_machine",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:gold_leaf_block",
+            "target": "druidic_quest_core:gold_leaf_block",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:packed_planks",
+            "target": "druidic_quest_core:packed_planks",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:stacked_planks",
+            "target": "druidic_quest_core:stacked_planks",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:stacked_planks",
+            "target": "druidic_quest_core:polished_planks",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:ivy_block",
+            "target": "druidic_quest_core:ivy_block",
             "types": ["item"]
         }
     ]
