@@ -4957,3 +4957,45 @@ Spells will only be disabled in new worlds or if you reset the server config
 ### Other:
     -You can now right click harvest just the top block of hemp crop
     -Reenabled different wood types for soph storage blocks in EMI
+
+### Patch 5.5.0
+
+### New Items:
+    -Greater variants of the lesser rings
+
+### New Mods:
+    -DruidicQuestCore
+
+### Updated Mods:
+    -
+
+### Removed Item:
+    -Electrum Plate
+    
+### Recipes:
+    -Changed for Arcane Gold Carrot
+
+### Block Changes:
+    -Changed the Gold Leaf Block texture
+    -Sturdy Deepslate and Sturdy Deepslate Slab are now immovable by pistons
+
+### Mob Changes:
+    -Bulky Zombies no longer have 1% chance to not spawn with any helmet
+
+### Item Changes:
+    -Nerfed Wandering Magician Hood
+    -Buffed Scarecrow Hat
+    -Buffed Scarecrow Boots
+    -Added Scarecrow Partial Armor Set Bonus
+    -Scarecrow Armor Set Bonus now applies slowness for 8 seconds to your attack targets
+    -Rebalanced Wizard Armor
+    -Completely Reworked Chainmail Armor
+    -Changed textures for lesser rings
+    -Buffed all the lesser rings
+    -Replaced lesser arcane ring with lesser evocation ring
+    -Capturing Gem can no longer capture corpses
+
+### Other:
+    -Arcenomicon is no longer granted after certain amount of time
+    -You can get more hearts from eating unique foods
+    -Removed Cheese curds from the list of unique foods
