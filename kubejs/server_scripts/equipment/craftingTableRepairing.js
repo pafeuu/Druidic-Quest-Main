@@ -64,6 +64,12 @@ ServerEvents.recipes(event=>{
     fullRepair("alexsmobs:spiked_turtle_shell","alexsmobs:spiked_scute")
     fullRepair("alexsmobs:fedora","minecraft:leather")
     fullRepair("alexsmobs:froststalker_helmet","alexsmobs:froststalker_horn")
+    fullRepair("druidic_quest_core:golden_flower_staff","#c:rods/wooden")
+    fullRepair("druidic_quest_core:pure_flower_staff","#c:rods/wooden")
+    fullRepair("druidic_quest_core:ebony_flower_staff","#c:rods/wooden")
+    fullRepair("druidic_quest_core:crimson_flower_staff","#c:rods/wooden")
+    fullRepair("druidic_quest_core:cobalt_flower_staff","#c:rods/wooden")
+    fullRepair("druidic_quest_core:lush_flower_staff","#c:rods/wooden")
     
     fullRepairToolTier("yeti","twilightforest:alpha_yeti_fur")
     fullRepairToolTier("arctic","twilightforest:arctic_fur")

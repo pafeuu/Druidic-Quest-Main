@@ -3,7 +3,7 @@ priority: 0;
 ServerEvents.tags("item", (event) => {
 
   event.removeAllTagsFrom(["ancient_aether:highsproot_wood_wall", "ancient_aether:stripped_sakura_log_wall", "ancient_aether:sakura_log_wall", "ancient_aether:stripped_sakura_wood_wall", "ancient_aether:sakura_wood_wall", "ancient_aether:stripped_highsproot_wood_wall", "ancient_aether:stripped_highsproot_log_wall", "ancient_aether:highsproot_log_wall"])
- 
+
 
   event.add("forge:stripped_blocks", ["#forge:stripped_logs", "#forge:stripped_wood"])
 
@@ -51,7 +51,7 @@ ServerEvents.tags("item", (event) => {
     'twilightforest:firefly'
   ])
 
-  event.add("reliable_requiem:retained_on_death",[
+  event.add("reliable_requiem:retained_on_death", [
     "twilightforest:phantom_chestplate",
     "twilightforest:phantom_helmet"
   ])
@@ -71,8 +71,8 @@ ServerEvents.tags("item", (event) => {
     "naturesaura:stripped_ancient_bark",
     "naturesaura:stripped_ancient_log"
   ])
-
-  event.add("forge:dusts/saltpeter", "barrier"); // This shit screams at me all the time so it that barrier up
+  event.add("forge:dusts/steel", "barrier");
+  event.add("forge:dusts/saltpeter", "barrier"); // This shit screams at me all the time so fuck you have a barrier
 
 
   event.add("minecraft:tools/pickaxe", "#forge:tools/pickaxes");
@@ -357,6 +357,135 @@ ServerEvents.tags("item", (event) => {
     'deep_aether:enchanted_blossom',
     'deep_aether:golden_flower'
   ]);
+
+  event.add("forge:flowers/lush", [
+    'biomeswevegone:incan_lily',
+    'biomeswevegone:green_tulip',
+    'biomeswevegone:flower_patch',
+    'immersive_weathering:azalea_flowers',
+    'deep_aether:aerlavender',
+    'minecraft:pink_petals',
+    'minecraft:pink_tulip',
+    'biomeswevegone:tall_allium',
+    'biomeswevegone:tall_pink_allium',
+    'biomeswevegone:pink_anemone',
+    'biomeswevegone:pink_allium_flower_bush',
+    'biomeswevegone:pink_allium',
+    'minecraft:peony',
+    'wizards_reborn:old_paeonia',
+    'minecraft:white_tulip',
+    'minecraft:lilac',
+    'wizards_reborn:shiny_clover',
+    'aether:purple_flower',
+    'biomeswevegone:purple_tulip',
+    'minecraft:allium',
+    'biomeswevegone:allium_flower_bush',
+    'biomeswevegone:iris',
+    'deep_aether:echaisy',
+    'biomeswevegone:crocus',
+    'biomeswevegone:alpine_bellflower',
+    'biomeswevegone:purple_sage',
+    'deep_aether:radiant_orchid',
+    'ancient_aether:elevetia',
+    'biomeswevegone:purple_amaranth'
+  ])
+
+  event.add("forge:flowers/pure", [
+    'aether:white_flower',
+    'minecraft:open_eyeblossom',
+    'biomeswevegone:snowdrops',
+    'biomeswevegone:japanese_orchid',
+    'wizards_reborn:petals_of_innocence',
+    'biomeswevegone:richea',
+    'biomeswevegone:silver_vase_flower',
+    'minecraft:lily_of_the_valley',
+    'alexsmobs:acacia_blossom',
+    'biomeswevegone:yellow_daffodil',
+    'biomeswevegone:daffodil',
+    'biomeswevegone:white_sage',
+    'biomeswevegone:white_anemone',
+    'biomeswevegone:bistort',
+    'minecraft:azure_bluet',
+    'biomeswevegone:winter_rose',
+    'biomeswevegone:angelica',
+    'biomeswevegone:foxglove',
+    'minecraft:oxeye_daisy',
+    'biomeswevegone:white_allium_flower_bush',
+    'biomeswevegone:tall_white_allium',
+    'biomeswevegone:white_sakura_petals',
+    'wizards_reborn:old_sunrise_blossom',
+    'biomeswevegone:white_allium'
+  ])
+
+  event.add("forge:flowers/ebony", [
+    'minecraft:allium',
+    'biomeswevegone:purple_tulip',
+    'aether:purple_flower',
+    'biomeswevegone:black_rose',
+    'minecraft:wither_rose',
+    'minecraft:closed_eyeblossom',
+    'ancient_aether:elevetia',
+    'deep_aether:radiant_orchid',
+    'biomeswevegone:purple_sage',
+    'biomeswevegone:purple_amaranth',
+    'biomeswevegone:alpine_bellflower',
+    'biomeswevegone:crocus',
+    'deep_aether:echaisy',
+    'biomeswevegone:iris',
+    'biomeswevegone:allium_flower_bush'
+  ])
+
+  event.add("forge:flowers/cobalt",
+    [
+      'minecraft:blue_orchid',
+      'minecraft:cornflower',
+      'biomeswevegone:blue_sage',
+      'biomeswevegone:violet_leather_flower',
+      'biomeswevegone:cyan_pitcher_plant',
+      'wizards_reborn:old_blue_rose',
+      'biomeswevegone:winter_scilla',
+      'biomeswevegone:winter_cyclamen',
+      'wizards_reborn:old_moonlight_bloom',
+      'biomeswevegone:cyan_amaranth',
+      'biomeswevegone:delphinium',
+      'biomeswevegone:cyan_tulip',
+      'biomeswevegone:cyan_rose',
+      'biomeswevegone:blue_rose_bush',
+      'deep_aether:iaspove',
+      'deep_aether:aether_cattails',
+      'ancient_aether:wynd_thistle',
+      'ancient_aether:sky_blues',
+      'minecraft:pitcher_plant'
+    ])
+
+  event.add("forge:flowers/crimson", [
+    'biomeswevegone:osiria_rose',
+    'biomeswevegone:california_poppy',
+    'biomeswevegone:rose',
+    'biomeswevegone:begonia',
+    'biomeswevegone:pink_daffodil',
+    'biomeswevegone:magenta_tulip',
+    'biomeswevegone:amaranth',
+    'biomeswevegone:orange_daisy',
+    'biomeswevegone:protea_flower',
+    'minecraft:poppy',
+    'minecraft:rose_bush',
+    'ancient_aether:sunset_rose',
+    'deep_aether:sky_tulips',
+    'twilightforest:thorn_rose',
+    'minecraft:torchflower',
+    'minecraft:red_tulip',
+    'minecraft:orange_tulip',
+    'biomeswevegone:foxglove',
+    'biomeswevegone:lazarus_bellflower',
+    'biomeswevegone:fairy_slipper',
+    'biomeswevegone:peach_leather_flower',
+    'silly_oddities:cactus_flower',
+    'biomeswevegone:kovan_flower',
+    'wizards_reborn:old_rose',
+    'biomeswevegone:magenta_amaranth',
+    'biomeswevegone:magenta_pitcher_plant'
+  ])
 
   event.add("c:hidden_from_recipe_viewers", "#forge:tools/skyroot");
   event.add(

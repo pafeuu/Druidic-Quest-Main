@@ -4,6 +4,15 @@ ServerEvents.tags("item", (e) => {
     "vintagedelight:ghost_pepper",
   ]);
 
+  e.add("dq:flower_staffs",[
+    "druidic_quest_core:pure_flower_staff",
+    "druidic_quest_core:golden_flower_staff",
+    "druidic_quest_core:lush_flower_staff",
+    "druidic_quest_core:crimson_flower_staff",
+    "druidic_quest_core:cobalt_flower_staff",
+    "druidic_quest_core:ebony_flower_staff",
+  ])
+  
   e.add("dq:unbreakables", [
     "kubejs:capturing_gem",
     "immersiveengineering:armor_steel_helmet",

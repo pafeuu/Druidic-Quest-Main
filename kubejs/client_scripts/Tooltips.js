@@ -1,16 +1,6 @@
 
 ItemEvents.tooltip(tooltip => {
 
-  // ========================================== Deprecated Items =
-
-  const deprecatedItems = [
-    "kubejs:recall_potion",
-  ]
-
-  
-  tooltip.add(deprecatedItems, Text.red("Item to be removed in next patch. Put it in the crafting grid to obtain the replacement"))
-  
-
   // ========================================== Guide Books ==============================================
 
   function guideBookTooltip(item, mod) {
@@ -138,6 +128,21 @@ ItemEvents.tooltip(tooltip => {
   tooltip.addAdvanced("#forge:flowers/golden", (item, advanced, text) => {
     text.add(1, Text.of('Golden Flower').gold())
   })
+  tooltip.addAdvanced("#forge:flowers/pure", (item, advanced, text) => {
+    text.add(1, Text.of('Pure Flower').white())
+  })
+  tooltip.addAdvanced("#forge:flowers/ebony", (item, advanced, text) => {
+    text.add(1, Text.of('Ebony Flower').darkPurple())
+  })
+  tooltip.addAdvanced("#forge:flowers/cobalt", (item, advanced, text) => {
+    text.add(1, Text.of('Cobalt Flower').darkAqua())
+  })
+  tooltip.addAdvanced("#forge:flowers/crimson", (item, advanced, text) => {
+    text.add(1, Text.of('Crimson Flower').darkRed())
+  })
+  tooltip.addAdvanced("#forge:flowers/lush", (item, advanced, text) => {
+    text.add(1, Text.of('Lush Flower').lightPurple())
+  })
 
   tooltip.addAdvanced("kubejs:basalz_totem", (item, advanced, text) => {
     text.add(2, Text.of('You can see better underground').darkPurple())
@@ -182,7 +187,7 @@ ItemEvents.tooltip(tooltip => {
     "thermal:coal_coke",
     "druidic_quest_core:nature_essence",
     "wizards_reborn:arcane_gold_ingot",
-    "thermal:steel_ingot"], (item, advanced, text) => {
+    "druidic_quest_core:steel_ingot"], (item, advanced, text) => {
       text.add(1, Text.of('Picking up this item for the first time increases the difficulty and unlocks new dimension').red())
     })
 
@@ -447,7 +452,7 @@ ItemEvents.tooltip(tooltip => {
   tooltip.add("kubejs:fiery_clay_blend", Text.red("Requires Infernal Smelter multiblock with a Soul Core to be smelted"))
   tooltip.add("mbd2:infernal_smelter", [Text.red("Only works in the nether")])
 
-  
+
   tooltip.add("kubejs:recipe_changed", Text.red("This recipe has been changed! Check EMI for more information!"))
   tooltip.add("immersiveengineering:cushion", Text.green("Negates fall damage"))
   tooltip.add("quark:seed_pouch", Text.green("Shift-Right Click to plant in a 3x3!"))
@@ -511,6 +516,19 @@ ItemEvents.tooltip(tooltip => {
   tooltip.addAdvanced(["#dq:unbreakables"],
     (item, advanced, text) => {
       text.add(1, Text.of("Unbreakable").blue())
+    })
+
+  tooltip.addAdvanced([
+    'thermal:lightning_grenade',
+    'thermal:lightning_tnt',
+    'thermal:lightning_charge'],
+    (item, advanced, text) => {
+      text.add(1, Text.of("Needs access to the sky for the lightning to strike").red())
+    })
+
+  tooltip.addAdvanced(["alexsmobs:novelty_hat"],
+    (item, advanced, text) => {
+      text.add(1, Text.of("Grants immunity to the hunger effect").blue())
     })
 
 
