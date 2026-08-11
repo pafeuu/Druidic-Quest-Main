@@ -439,7 +439,7 @@ ItemEvents.modification(event=>{
         event.modify(id, item => {
             item.foodProperties = food => {
                 food.hunger(6)
-                food.saturation(0.4)
+                food.saturation(0.5)
             }
         })
     });
