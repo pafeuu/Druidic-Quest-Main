@@ -1,0 +1,27 @@
+{
+  "id": "alexsmobs:novelty_hat",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "f4147328-5d86-4a41-b458-95477cdcdabd"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "6648b411-ecb8-4228-9306-ef82fcfbf22b"
+    },
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:consuming_speed",
+      "value": 0.2,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "05074e4d-c9ae-4bd8-a9f4-5df7ae70bc90"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

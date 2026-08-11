@@ -1,0 +1,15 @@
+{
+  "armorSetName": "novelty_hat",
+  "performanceMode": false,
+  "head": {
+    "itemKey": "alexsmobs:novelty_hat"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:hunger",
+      "interactionType": "immunity"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}
