@@ -179,39 +179,6 @@ ServerEvents.recipes(event => {
   event.custom({
     type: "lychee:block_interacting",
     post: [
-      {
-        type: "damage_item",
-        damage: 1
-      },
-      {
-      "type": "place",
-      "contextual": [
-          {
-            type: "chance",
-            "chance": 0.1
-          }
-        ],
-      "block": "cobblestone"
-      },
-      {
-        type: "drop_item",
-        item: "twigs:pebble",
-        count: 1
-      },
-      {
-        type: "add_item_cooldown",
-        "s": 0.5
-      }
-    ],
-    item_in: {
-      tag: "minecraft:pickaxes"
-    },
-    block_in: "minecraft:stone"
-  })
-
-  event.custom({
-    type: "lychee:block_interacting",
-    post: [
       { type: "drop_item", item: "kubejs:big_enchanting_rune", count: 1 },
       { type: "execute", command: "playsound wizards_reborn:arcanum_dust_transmutation neutral @p", hide: true },
       { type: "place", block: "air" }
