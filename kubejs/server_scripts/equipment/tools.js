@@ -1182,19 +1182,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("farmersdelight:iron_knife")
 	
-	event.shaped("thermal:fluid_reservoir",
-		[
-			"CRC",
-			"TBT",
-			"TTT"
-		],
-		{
-			C: "#forge:gears/copper",
-			R: "thermal:cured_rubber",
-			T: "create:fluid_tank",
-			B: "bucket"
-		}
-	).id("thermal:fluid_reservoir")
 
 	event.shaped("thermal:detonator",
 		[
@@ -1643,21 +1630,6 @@ ServerEvents.recipes(event => {
 
 	event.shapeless("quark:pickarang",["diamond_pickaxe","quark:diamond_heart"]).id("quark:tools/crafting/pickarang_heart")
 
-	event.shaped("thermal:potion_quiver",
-		[
-			"PFP",
-			"PQP",
-			"SPB"
-		],
-		{
-			P: "#forge:plates/bronze",
-			F: "ars_nouveau:potion_flask",
-			Q: "supplementaries:quiver",
-			S: "ars_nouveau:magebloom_fiber",
-			B: "create:belt_connector"
-		}
-	).id("thermal:potion_quiver")
-
 	event.shapeless("waystones:return_scroll",["enigmaticlegacy:thicc_scroll","naturesaura_plus:aura_coffee","naturesaura_plus:aura_coffee"])
 
 	event.shapeless("waystones:bound_scroll",["waystones:return_scroll","amethyst_shard","amethyst_shard"])
@@ -1763,44 +1735,7 @@ ServerEvents.recipes(event => {
 
 	event.smithing("kubejs:steel_knife",'kubejs:steel_upgrade_smithing_template',"farmersdelight:iron_knife",'kubejs:steel_upgrade_parts')
 	
-	
-	event.recipes.create.mechanical_crafting("thermal:flux_drill",
-		[
-			"DI   ",
-			"ICIS ",
-			" IXIS",
-			" IPIS",
-			" IGI "
-		],
-		{
-			D: "immersiveengineering:drillhead_steel",
-			I: "#forge:plates/invar",
-			C: "thermal:rf_coil",
-			S: "immersiveengineering:wirecoil_steel",
-			X: "thermal:energy_cell",
-			P: "netherite_pickaxe",
-			G: "immersiveengineering:wooden_grip"
-		}
-	).id("thermal:flux_drill")
 
-	event.recipes.create.mechanical_crafting("thermal:flux_saw",
-		[
-			"DI   ",
-			"ICIS ",
-			" IXIS",
-			" IPIS",
-			" IGI "
-		],
-		{
-			D: "immersiveengineering:sawblade",
-			I: "#forge:plates/invar",
-			C: "thermal:rf_coil",
-			S: "immersiveengineering:wirecoil_steel",
-			X: "thermal:energy_cell",
-			P: "netherite_axe",
-			G: "immersiveengineering:wooden_grip"
-		}
-	).id("thermal:flux_saw")
 	
 	
 

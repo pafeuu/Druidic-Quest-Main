@@ -212,7 +212,7 @@ MoreJSEvents.villagerTrades((event) => {
 	
 	///============================================================Weaponsmith
 
-	event.addTrade("weaponsmith", 1, [TradeItem.of("thermal:steel_ingot", 2, 4)], "2x thermal:silver_coin").villagerExperience(5);
+	event.addTrade("weaponsmith", 1, [TradeItem.of("druidic_quest_core:steel_ingot", 2, 4)], "2x thermal:silver_coin").villagerExperience(5);
 	event.addTrade("weaponsmith", 1, [TradeItem.of("quartz", 8, 16)], "2x thermal:copper_coin")
 
 	event.addTrade("weaponsmith", 2, ["thermal:gold_coin","iron_sword"], "kubejs:chill_blade").villagerExperience(30);

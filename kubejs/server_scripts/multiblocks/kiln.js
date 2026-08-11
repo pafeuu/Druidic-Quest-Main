@@ -2,7 +2,6 @@
 
 ServerEvents.recipes(event=>{
 
-	const alloySmelter = event.recipes.thermal.smelter
 	const arcFurnace = event.recipes.immersiveengineering.arc_furnace
 	function Fuel(input, HowManyItemsItSmelts)
 	{
@@ -35,7 +34,6 @@ ServerEvents.recipes(event=>{
 		.outputItems(output)
 		.duration(200)
 
-		alloySmelter(output,[input1,input2])
 		arcFurnace(output,input1,[input2])
 	}
 
@@ -47,8 +45,6 @@ ServerEvents.recipes(event=>{
 		.inputItems(input3)
 		.outputItems(output)
 		.duration(200)
-
-		alloySmelter(output,[input1,input2,input3])
 
 		arcFurnace(output,input1,[input2,input3])
 	}
@@ -182,7 +178,7 @@ ServerEvents.recipes(event=>{
 		"wizards_reborn:arcane_gold_ingot")
 
 	kilnWith3Ingredients("immersiveengineering:ingot_steel",
-		"thermal:steel_ingot",
+		"druidic_quest_core:steel_ingot",
 		"immersiveengineering:ingot_aluminum",
 		"8x kubejs:infused_amethyst")
 
@@ -194,7 +190,7 @@ ServerEvents.recipes(event=>{
 
 	arcFurnace("deep_aether:stratus_ingot","16x kubejs:infused_amethyst",["16x kubejs:infused_diamond","16x thermal:ruby","16x thermal:sapphire","16x kubejs:infused_emerald"])
 
-	arcFurnace("2x immersiveengineering:ingot_steel","thermal:steel_ingot",[
+	arcFurnace("2x immersiveengineering:ingot_steel","druidic_quest_core:steel_ingot",[
 		"immersiveengineering:ingot_aluminum",
 		"8x kubejs:infused_amethyst",
 		"thermal:nickel_ingot"

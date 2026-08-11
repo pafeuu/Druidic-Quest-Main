@@ -248,7 +248,6 @@ ServerEvents.recipes(event => {
 	//-------------------Gears----------------------
 
 	function CustomGears(material, id) {
-		event.recipes.thermal.press(id, ["4x #forge:ingots/" + material, "thermal:press_gear_die"])//Thermal Press Recipe
 
 		event.shaped(id,
 			[
@@ -304,8 +303,7 @@ ServerEvents.recipes(event => {
 	ThermalGears("silver")
 	ThermalGears("bronze")
 	ThermalGears("nickel")
-	ThermalGears("steel")
-	ThermalGears("rose_gold")
+	CustomGears("steel", "druidic_quest_core:steel_gear")
 	ThermalGears("electrum")
 	ThermalGears("invar")
 	ThermalGears("constantan")
@@ -320,7 +318,6 @@ ServerEvents.recipes(event => {
 	CustomGears("andesite_alloy", "kubejs:andesite_gear")
 	CustomGears("zinc", "kubejs:zinc_gear")
 	CustomGears("uranium", "kubejs:uranium_gear")
-	CustomGears("stainless_steel", "kubejs:stainless_steel_gear")
 	CustomGears("ironwood", "kubejs:ironwood_gear")
 	CustomGears("knightmetal", "kubejs:knightmetal_gear")
 	CustomGears("arcane_gold", "kubejs:arcane_gold_gear")
@@ -358,7 +355,6 @@ ServerEvents.recipes(event => {
 			result: { item: output },
 		});
 
-		event.recipes.thermal.press(output, ["#forge:plates/" + material, "immersiveengineering:mold_rod"])
 		event.remove({ output: output })
 		event.remove({ output: "#forge:rods/" + material })
 	}
@@ -399,8 +395,6 @@ ServerEvents.recipes(event => {
 
 	function PlatesOnetoOne(outputItem, inputBlock) {
 		event.recipes.create.pressing(`2x ${outputItem}`, `${inputBlock}`)// Adds Plates crafting recipes to the create machines
-
-		event.recipes.thermal.press(`2x ${outputItem}`, `${inputBlock}`)// Adds Plates crafting recipes to the thermal machines
 
 		event.recipes.immersiveengineering.metal_press(`2x ${outputItem}`, `${inputBlock}`, "immersiveengineering:mold_plate")// Adds Plates crafting recipes to the IE machines
 
@@ -478,10 +472,6 @@ ServerEvents.recipes(event => {
 	PlatesOnetoOne("kubejs:stone_plate", "minecraft:smooth_stone")
 
 	function plates(inputItem, outputItem, inputBlock) {// Adds Plates crafting recipes to the machines
-
-		event.recipes.create.pressing(Item.of(outputItem, 6), inputBlock)// Adds Plates crafting recipes to the create machines
-
-		event.recipes.thermal.press(outputItem, "#" + inputItem)// Adds Plates crafting recipes to the thermal machines
 
 		event.custom({
 			type: "immersiveengineering:metal_press",
@@ -567,7 +557,7 @@ ServerEvents.recipes(event => {
 	plates("forge:ingots/bronze", "thermal:bronze_plate", "thermal:bronze_block")
 
 	plates("forge:ingots/uranium", "kubejs:uranium_plate", 'immersiveengineering:storage_uranium')
-	plates("forge:ingots/steel", "thermal:steel_plate", "thermal:steel_block")
+	plates("forge:ingots/steel", "druidic_quest_core:steel_plate", "druidic_quest_core:steel_block")
 	plates("forge:ingots/electrum", "thermal:electrum_plate", "thermal:electrum_block")
 	plates("forge:ingots/arcane_gold", "kubejs:arcane_gold_plate", "wizards_reborn:arcane_gold_block")
 
@@ -636,13 +626,21 @@ ServerEvents.recipes(event => {
 		}
 	).id("immersiveengineering:crafting/sawdust")
 
-	event.recipes.thermal.rock_gen("create:limestone", "air", "create:honey", 30)
+	event.custom({
+		"type": "thermal:rock_gen",
+		"adjacent": "create:honey",
+		"result": {
+			"item": "create:limestone"
+		}
+	})
 
-	event.recipes.thermal.rock_gen("create:scoria", "air", "create:chocolate", 30)
-
-	/*event.recipes.thermal.rock_gen("minecraft:crying_obsidian","air","deep_aether:poison_fluid",30)
-	/// Why doesnt it work :(
-	event.recipes.thermal.rock_gen("deep_aether:aersmog","water","deep_aether:poison_fluid",30)*/
+	event.custom({
+		"type": "thermal:rock_gen",
+		"adjacent": "create:chocolate",
+		"result": {
+			"item": "create:scoria"
+		}
+	})
 
 	event.shaped("8x immersiveengineering:slag_brick",
 		[

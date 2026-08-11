@@ -2140,7 +2140,7 @@ ServerEvents.recipes((event) => {
     [
       "kubejs:big_enchanting_rune_of_steel",
       "minecraft:iron_chestplate",
-      "thermal:steel_plate",
+      "druidic_quest_core:steel_plate",
     ],
     5000,
   );
@@ -2151,10 +2151,10 @@ ServerEvents.recipes((event) => {
     [
       "kubejs:big_enchanting_rune_of_steel",
       "minecraft:iron_chestplate",
-      "thermal:steel_plate",
-      "thermal:steel_plate",
-      "thermal:steel_plate",
-      "thermal:steel_plate",
+      "druidic_quest_core:steel_plate",
+      "druidic_quest_core:steel_plate",
+      "druidic_quest_core:steel_plate",
+      "druidic_quest_core:steel_plate",
     ],
     10000,
   );

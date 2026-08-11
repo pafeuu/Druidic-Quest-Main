@@ -30,7 +30,7 @@ StartupEvents.registry('item', item => {
 
   item.create('sky_gear').tag('forge:gears/sky').tag('forge:gears').tag("dq:tier4/component")
   item.create('aluminum_gear').tag('forge:gears/aluminum').tag('forge:gears').tag("dq:tier4/component")
-  item.create('stainless_steel_gear').tag('forge:gears/stainless_steel').tag('forge:gears').tag("dq:tier4/component")
+  item.create('steel_gear').tag('forge:gears/steel').tag('forge:gears').tag("dq:tier4/component")
 
   item.create('depth_gear').tag('forge:gears/depth').tag('forge:gears').tag("dq:tier5/component") 
   
@@ -98,6 +98,7 @@ StartupEvents.registry('item', item => {
   item.create('storm_ingot').tag('forge:ingots').tag('forge:ingots/storm').tag("dq:tier3/component")
   item.create('wrought_iron_ingot').tag('forge:ingots').tag('forge:ingots/wrought_iron')
   item.create('obsidian_ingot').tag('forge:ingots').tag('forge:ingots/obsidian')
+  item.create('steel_ingot').tag('forge:ingots').tag('forge:ingots/steel').tag("dq:tier4/component")
   item.create('aquatic_ingot').tag('forge:ingots').tag('forge:ingots/aquatic').tag("aether:neptune_repairing")
   item.create('phoenix_ingot').tag('forge:ingots').tag('forge:ingots/phoenix')
   
@@ -117,6 +118,7 @@ StartupEvents.registry('item', item => {
   item.create('storm_nugget').tag('forge:nuggets').tag('forge:nuggets/storm').tag("dq:tier3/component")
 
   item.create('sky_nugget').tag('forge:nuggets').tag('forge:nuggets/sky').tag("dq:tier4/component")
+  item.create('steel_nugget').tag('forge:nuggets').tag('forge:nuggets/steel').tag("dq:tier4/component")
 
   item.create('depth_nugget').tag('forge:nuggets').tag('forge:nuggets/depth').tag("dq:tier5/component")
 

@@ -10,8 +10,6 @@ ServerEvents.recipes(event => {
 
         event.recipes.create.milling(count+"x "+output, input)
 
-        event.recipes.thermal.pulverizer(count+"x "+output, input)
-
         event.custom({
             "type": "immersiveengineering:crusher",
             "energy": 1600,
@@ -36,8 +34,6 @@ ServerEvents.recipes(event => {
         event.recipes.create.crushing(count+"x "+output, input)
 
         event.recipes.create.milling(count+"x "+output, input)
-
-        event.recipes.thermal.pulverizer(count+"x "+output, input).id(id)
 
         event.custom({
             "type": "immersiveengineering:crusher",
@@ -65,8 +61,6 @@ ServerEvents.recipes(event => {
         event.recipes.create.crushing([count+"x "+output, Item.of(extras, extrasCount).withChance(chance)], input)
 
         event.recipes.create.milling([count+"x "+output, Item.of(extras, extrasCount).withChance(chance)], input)
-
-        event.recipes.thermal.pulverizer([count+"x "+output,Item.of(extras, extrasCount).withChance(chance)], input)
 
         event.custom({
             "type": "immersiveengineering:crusher",

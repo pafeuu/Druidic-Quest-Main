@@ -751,19 +751,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("wizards_reborn:arcane_workbench/alchemy_vial")
 
-	event.shaped("thermal:xp_storage_augment",
-		[
-			"ITI",
-			"TXT",
-			"ITI"
-		],
-		{
-			I: "#forge:plates/invar",
-			T: "#forge:plates/tin",
-			X: "wizards_reborn:experience_totem"
-		}
-	).id("thermal:augments/xp_storage_augment")
-
 	event.shaped("immersiveengineering:strip_curtain",
 		[
 			"S",
@@ -1913,19 +1900,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("immersiveengineering:crafting/fluid_pump")
 
-	event.shaped("thermal:servo_attachment",
-		[
-			" C ",
-			"PFP",
-			" A "
-		],
-		{
-			A: "supplementaries:faucet",
-			F: "thermal:fluid_duct",
-			P: "#forge:plates/tin",
-			C: "redstone_torch"
-		}
-	).id("thermal:servo_attachment_2")
 
 	event.shaped("2x immersiveengineering:connector_redstone",
 		[
@@ -1969,20 +1943,6 @@ ServerEvents.recipes(event => {
 	).id("immersiveengineering:crafting/connector_bundled")
 
 	event.shapeless("wizards_reborn:fluid_pipe", ["immersiveengineering:fluid_pipe", "wizards_reborn:wisestone"]).id("wizards_reborn:arcane_workbench/fluid_pipe")
-
-	event.shaped("3x thermal:fluid_duct",
-		[
-			"BBB",
-			"SSS",
-			"BBB"
-		],
-		{
-			B: "#forge:plates/bronze",
-			S: "kubejs:pipe_sealant"
-		}
-	).id("thermal:fluid_duct_4")
-
-	event.shapeless("thermal:fluid_duct_windowed", ["thermal:fluid_duct", "#forge:glass"]).id("thermal:fluid_duct_windowed_4")
 
 	event.shaped("2x naturesaura:field_creator",
 		[
@@ -2113,21 +2073,6 @@ ServerEvents.recipes(event => {
 			D: "dispenser"
 		}
 	).id("naturesaura:placer")
-
-	event.shaped("thermal:item_buffer",
-		[
-			"TZT",
-			"LML",
-			"TXT"
-		],
-		{
-			T: "#forge:plates/tin",
-			L: "#forge:plates/lead",
-			M: "druidic_quest_core:primitive_machine",
-			Z: "create:attribute_filter",
-			X: "woodenhopper:wooden_hopper"
-		}
-	).id("thermal:item_buffer")
 
 	event.shaped("thermal:device_water_gen",
 		[
@@ -3828,18 +3773,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("kubejs:poop")
 
-	event.shaped("thermal:filter_attachment",
-		[
-			"ISI",
-			"IFI"
-		],
-		{
-			I: "#forge:plates/iron",
-			S: "#forge:gems/sapphire",
-			F: "create:filter"
-		}
-	).id("thermal:filter_attachment_2")
-
 	event.shaped("thermal:device_collector",
 		[
 			"LYL",
@@ -4748,7 +4681,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			C: "immersiveengineering:component_steel",
-			S: "thermal:steel_plate",
+			S: "druidic_quest_core:steel_plate",
 			X: "kubejs:steel_machine"
 		}
 	).id("immersiveengineering:crafting/heavy_engineering")
@@ -4817,7 +4750,7 @@ ServerEvents.recipes(event => {
 			item: "kubejs:wrought_iron_ingot"
 		},
 		"result": {
-			item: "thermal:steel_ingot"
+			item: "druidic_quest_core:steel_ingot"
 		},
 		"slag": {
 			item: "thermal:slag"
@@ -5058,60 +4991,6 @@ ServerEvents.recipes(event => {
 
 	//======================================================== placeholder endgame
 
-	event.remove({ output: "thermal:machine_frame" })
-	event.custom(
-		{
-			type: "create:mechanical_crafting",
-			"pattern": [
-				"AAAAAAA",
-				"ABCHCBA",
-				"ACGEGCA",
-				"APXYXPA",
-				"ACGNGCA",
-				"ABCHCBA",
-				"AAAAAAA"
-			],
-			"key": {
-				"C": {
-					item: "thermal:rf_coil"
-				},
-				"B": {
-					item: "thermal:redstone_servo"
-				},
-				"H": {
-					item: "minecraft:hopper"
-				},
-				"P": {
-					item: "immersiveengineering:capacitor_hv"
-				},
-				"G": {
-					item: "create:large_cogwheel"
-				},
-				"X": {
-					item: "create:mechanical_arm"
-				},
-				"Y": {
-					item: "minecraft:nether_star"
-				},
-				"N": {
-					tag: "forge:gears/netherite"
-				},
-				"E": {
-					tag: "forge:gears/enderium"
-				},
-				"A": {
-					tag: "forge:plates/sky"
-				}
-			},
-			"result": {
-				item: "thermal:machine_frame",
-				"count": 1
-			},
-			"acceptMirrored": true
-		}
-	)
-
-	event.remove({ output: "thermal:machine_frame" })
 	event.custom(
 		{
 			type: "create:mechanical_crafting",
@@ -5154,4 +5033,6 @@ ServerEvents.recipes(event => {
 			"acceptMirrored": true
 		}
 	)
+
+	
 })
