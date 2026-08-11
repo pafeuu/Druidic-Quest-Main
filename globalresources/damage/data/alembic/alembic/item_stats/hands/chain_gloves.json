@@ -7,10 +7,17 @@
     },
     {
       "type": "append",
-      "attribute": "minecraft:generic.attack_damage",
-      "value": 0.5,
-      "operation": "ADDITION",
-      "uuid": "4d062362-29ad-4001-98d1-d289504893c3"
+      "attribute": "attributeslib:draw_speed",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "773bf325-4645-41c9-9af4-f1b59df67329"
+    },
+    {
+      "type": "append",
+      "attribute": "attributeslib:arrow_velocity",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "c5271513-21c4-43b6-8f06-67fde73ab508"
     }
   ],
   "equipment_slot": "hands"
