@@ -35,8 +35,6 @@ ClientEvents.lang("en_us", event => {
     event.renameBlock("wizards_reborn:fluid_pipe","Wisestone Fluid Pipe")
     event.renameBlock("wizards_reborn:fluid_extractor","Wisestone Fluid Extractor")
 
-    event.renameBlock("thermal:fluid_duct","Bronze Fluid Pipe")
-    event.renameBlock("thermal:fluid_duct_windowed","Windowed Bronze Fluid Pipe")
     event.renameItem("thermal:coal_coke","Coal Coke")
     event.renameBlock("thermal:coal_coke_block","Block of Coal Coke")
     event.renameBlock("naturesaura:grated_chute","Filtered Hopper")
@@ -61,108 +59,6 @@ ClientEvents.lang("en_us", event => {
     event.renameItem("thermal:cinnabar","Cinnabar Gem")
     event.renameBlock("thermal:sulfur_block","Block of Sulfur Gem")
     event.renameBlock("thermal:cinnabar_block","Block of Cinnabar Gem")
-
-    /*let newCategories = [
-        "coral",
-        "arrows",
-        "table_cloths",
-        "coins",
-        "bars",
-        "scrolls",
-        "presents",
-        "trapped_presents",
-        "stools",
-        "awnings",
-        "crystal_lamp",
-        "sleeping_bags",
-        "hammocks",
-        "ladders",
-        "sign_posts",
-        "chests/wooden",
-        "fishes",
-        "rods",
-        "bark",
-        "couches",
-        "chairs",
-        "dining_benches",
-        "side_tables",
-        "leaf_piles",
-        "bookshelves",
-        "desks",
-        "nightstands",
-        "tables",
-        "counters",
-        "cupboards",
-        "drawers",
-        "shelves",
-        "trims",
-        "plates",
-        "wires",
-        "springs",
-        "small_springs",
-        "sheetmetals",
-        "glyphs",
-        "bundles",
-        "sharestone",
-        "waystones",
-        "seats",
-        "enchanting_runes",
-        "hedges",
-        "jam_blocks",
-        "jelly_blocks",
-        "banisters",
-        "all_crystals",
-        "storage_upgrades",
-        "backpack_upgrades",
-        "smithing_templates",
-        "hook",
-        "tools/knives",
-        "pots",
-        "harnesses",
-        "trophies",
-        "cabinets",
-        "sophisticated_shulker_boxes",
-        "sophisticated_chests",
-        "sophisticated_barrels",
-        "limited_barrels",
-        "backpacks",
-        "buntings",
-        "quils",
-        "frames",
-        "glass_frames",
-        "casings",
-        "wissen_casings",
-        "light_casings",
-        "fluid_casings",
-        "steam_casings",
-        "gilded",
-        "ancient_tomes",
-        "rituals",
-        "thread_upgrades",
-        "jelly_bread",
-        "jams",
-        "salt_lamps",
-        "salt_lanterns",
-        "salt_campfires",
-        "salt_torches",
-        "copper_blocks",
-        "bobbers",
-        "hooks",
-        "lines",
-        "baulks",
-        "cross_baulks"
-    ]
-    newCategories.forEach(name=> {
-        
-        let displayName = name.replace(/[_/]/g, " ");
-        displayName = displayName
-        .split(" ")
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(" ");
-            
-        event.add("stackgroup.emixx."+name,displayName)
-
-    });*/
 
 
     event.renameItem("waystones:warp_scroll","Waystone Warp Scroll")

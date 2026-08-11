@@ -20,6 +20,41 @@
             "types": [
                 "item"
             ]
+        },
+        {
+            "source": "thermal:steel_plate",
+            "target": "druidic_quest_core:steel_plate",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "kubejs:steel_rod",
+            "target": "druidic_quest_core:steel_plate",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "thermal:steel_ingot",
+            "target": "druidic_quest_core:steel_ingot",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "thermal:steel_block",
+            "target": "druidic_quest_core:steel_block",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "thermal:steel_gear",
+            "target": "druidic_quest_core:steel_gear",
+            "types": [
+                "item"
+            ]
         }
     ]
 }
