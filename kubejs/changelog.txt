@@ -4967,7 +4967,14 @@ Spells will only be disabled in new worlds or if you reset the server config
     -DruidicQuestCore
 
 ### Updated Mods:
-    -
+    -MEED
+    -SophisticatedBackpacks
+    -SophisticatedStorage
+    -ChatHeads
+    -SuperMartinCoreLib
+    -CorgiLib
+    -Tide
+    -BetterAdvancements
 
 ### Removed Item:
     -Electrum Plate
@@ -4999,3 +5006,65 @@ Spells will only be disabled in new worlds or if you reset the server config
     -Arcenomicon is no longer granted after certain amount of time
     -You can get more hearts from eating unique foods
     -Removed Cheese curds from the list of unique foods
+
+
+# Patch 5.6.0
+
+### Removed Mods:
+    -ThermalIntegration
+    -ThermalDynamics
+    -ThermalExpansion
+    -ThermalInnovation
+    -KubejsThermal
+
+### Updated Mods:
+    -DruidicQuestCore
+    -MEED
+    -ChatHeads
+    -ModernFix
+    -SophisticatedMods
+
+### Recipes:
+    -Changed for all the bombs, grenades and tnt variants
+    -Changed for Aquachow, Deep Aquachow and Junk Net
+    -Fixed the Redstone Core Recipe
+
+### Item Changes:
+    -All the steel materials have been readded with different textures
+    -Rebalanced Archer's Glove
+    -Rebalanced Chainmail Glove
+    -Buffed the Novelty Hat
+    
+### Other:
+    -Gamerule KeepInventory is no longer being set to off after logging in
+
+
+# Patch 5.6.1
+
+### Updated Mods:
+    -SuperMartinCoreLib
+    -CupboardUtilities
+    -Druidic Quest Core
+    *Adds 6 new early game wands and changes the nature missile spell
+
+### Removed Mods:
+    -InGameNBTedit
+
+### Removed Items:
+    -Skelewag Sword
+
+### Loot:
+    -Increased chance to drop novelty hat from skelewags
+
+### Quests:
+    -Dimensional Ripper is now an optional task in "Visit the Twilight Forest!" Quest
+    -Fixed a typo in "Staff of Baldur" Quest
+
+### Worldgen:
+    -Alchemist Cauldron in Mangrove Hut has been replaced with regular Cauldron
+
+### Recipes:
+    -Removed for pebbles with pickaxe clicking on the stone
+
+### Item Changes:
+    -Buffed saturation of all the cookies
