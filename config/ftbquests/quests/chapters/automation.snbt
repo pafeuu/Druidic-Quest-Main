@@ -44,8 +44,8 @@
 				}
 			]
 			title: "Hoppers!"
-			x: -4.5d
-			y: 0.5d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["18F180938E232223"]
@@ -56,8 +56,8 @@
 				type: "item"
 			}]
 			title: "Supplementaries Fluid Transportation"
-			x: -6.5d
-			y: 6.0d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["18F180938E232223"]
@@ -141,35 +141,6 @@
 				type: "checkmark"
 			}]
 			x: -5.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["18F180938E232223"]
-			id: "088994ED32EAB559"
-			tasks: [
-				{
-					id: "24804F0427A847BC"
-					item: "thermal:fluid_duct"
-					type: "item"
-				}
-				{
-					id: "15967B25CA6678C7"
-					item: "thermal:servo_attachment"
-					type: "item"
-				}
-				{
-					id: "5AFC5E4F1AB2B475"
-					item: "thermal:turbo_servo_attachment"
-					type: "item"
-				}
-				{
-					id: "00A75BF347A2BF1A"
-					item: "thermal:fluid_duct_windowed"
-					type: "item"
-				}
-			]
-			title: "Thermal Fluid Transportation"
-			x: -3.0d
 			y: 4.5d
 		}
 		{
@@ -308,8 +279,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 0.5d
+			x: -6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["51966AE20559FFA0"]
@@ -452,7 +423,7 @@
 			]
 			title: "Vanilla Ways"
 			x: -3.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["51966AE20559FFA0"]

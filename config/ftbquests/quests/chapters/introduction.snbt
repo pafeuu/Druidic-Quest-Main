@@ -876,6 +876,19 @@
 			subtitle: "All that glitters..."
 			tasks: [
 				{
+					id: "4F4146272AA22628"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:flowers/golden)"
+						}
+					}
+					optional_task: true
+					title: "Golden Flower"
+					type: "item"
+				}
+				{
 					count: 12L
 					id: "4E57D72FF6B70120"
 					item: "naturesaura:gold_leaf"
@@ -1789,6 +1802,36 @@
 			title: "Lunchbag upgrade"
 			x: 5.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["2BB4A388858E481A"]
+			description: [
+				"While holding the wand you will be able to cast the spell imbued inside it by pressing \"Z\""
+				""
+				"&oIf you've reset the keybinds provided by the pack its going to be \"V\" instead&r"
+			]
+			id: "4F8AD3FF4475A1C6"
+			rewards: [{
+				id: "6313D22DB6C61D95"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "4642CFF9F4C1808C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(dq:flower_staffs)"
+					}
+				}
+				title: "Any #dq:flower_staffs"
+				type: "item"
+			}]
+			title: "Crafts some REAL weapons"
+			x: 0.5d
+			y: 0.5d
 		}
 	]
 	title: "Tier 0 - Wooden Age"

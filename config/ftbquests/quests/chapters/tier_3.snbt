@@ -5,7 +5,7 @@
 	filename: "tier_3"
 	group: "23A1FEBD04C34E2E"
 	hide_quest_details_until_startable: true
-	icon: "thermal:steel_ingot"
+	icon: "druidic_quest_core:steel_ingot"
 	id: "7E23A9DCE0AEE0AE"
 	order_index: 3
 	quest_links: [ ]

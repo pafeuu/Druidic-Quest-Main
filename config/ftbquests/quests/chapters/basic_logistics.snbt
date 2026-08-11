@@ -17,14 +17,14 @@
 			rewards: [{
 				count: 4
 				id: "21B52AD5A3EB3117"
-				item: "thermal:steel_ingot"
+				item: "druidic_quest_core:steel_ingot"
 				type: "item"
 			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "49201B302F825E54"
-				item: "thermal:steel_ingot"
+				item: "druidic_quest_core:steel_ingot"
 				type: "item"
 			}]
 			x: -6.5d

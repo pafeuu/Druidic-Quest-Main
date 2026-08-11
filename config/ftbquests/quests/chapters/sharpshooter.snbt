@@ -183,26 +183,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "7BE7BA08754E1CE8"
-			rewards: [{
-				id: "237D1A5964C75623"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4C67FA31000DA750"
-				item: {
-					Count: 1
-					id: "thermal:potion_quiver"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "039824B7098E9F13"
 			rewards: [{
 				id: "7752E01100B39B4C"

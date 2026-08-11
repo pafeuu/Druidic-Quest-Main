@@ -1067,7 +1067,7 @@
 		}
 		{
 			dependencies: ["19F860FA0B4324FB"]
-			description: ["Uses aura from you aura cache to create light on right click!"]
+			description: ["Uses aura from your aura cache to create light on right click!"]
 			id: "490B9B2E3CFE4E94"
 			rewards: [{
 				id: "55EF0E66B15F2BE2"
@@ -1185,6 +1185,7 @@
 				{
 					id: "0542796E6A778F39"
 					item: "kubejs:dimension_ripper"
+					optional_task: true
 					type: "item"
 				}
 			]
