@@ -2,7 +2,6 @@
 
 ServerEvents.loaded(event => {
     const server = event.server
-    server.gameRules.set("keepInventory", false)
     server.gameRules.set("doInsomnia",false)
     
 })
