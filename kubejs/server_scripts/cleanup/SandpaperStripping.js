@@ -7,11 +7,8 @@ ServerEvents.recipes(event => {
             let StrippedLog = id.replace(":", ":stripped_")
             if(Log.startsWith("aether:golden_oak"))
             {
-                console.log("logged")
                 StrippedLog = StrippedLog.replace("golden_oak","skyroot")
-            }
-                
-            console.log(StrippedLog)
+            }  
             event.shapeless(StrippedLog, ["#create:sandpaper", Log])
                 .damageIngredient("#create:sandpaper", 1)
         });
