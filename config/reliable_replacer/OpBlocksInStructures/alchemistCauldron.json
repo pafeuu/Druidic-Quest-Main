@@ -1,0 +1,9 @@
+[
+    {
+        "inputs":["irons_spellbooks:alchemist_cauldron"],
+        "output": "minecraft:cauldron",
+        "structures":[
+            "irons_spellbooks:mangrove_hut"
+        ]
+    }
+]
