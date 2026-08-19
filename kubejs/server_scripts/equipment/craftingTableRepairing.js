@@ -71,6 +71,13 @@ ServerEvents.recipes(event=>{
     fullRepair("druidic_quest_core:cobalt_flower_staff","#c:rods/wooden")
     fullRepair("druidic_quest_core:lush_flower_staff","#c:rods/wooden")
     
+    fullRepair("kubejs:silver_knife","#forge:ingots/silver")
+    fullRepair("wizards_reborn:arcane_gold_knife","wizards_reborn:arcane_gold_ingot")
+    fullRepair("farmersdelight:golden_knife","#forge:ingots/gold")
+    fullRepair("farmersdelight:iron_knife","#forge:ingots/iron")
+    fullRepair("farmersdelight:flint_knife","flint")
+    fullRepair("farmersdelight:diamond_knife","diamond")
+    fullRepair("farmersdelight:netherite_knife","2x diamond")
     fullRepairToolTier("yeti","twilightforest:alpha_yeti_fur")
     fullRepairToolTier("arctic","twilightforest:arctic_fur")
     //fullRepairToolTier("etherium","3x #forge:ingots/fiery")//this is already unbreakable lol
