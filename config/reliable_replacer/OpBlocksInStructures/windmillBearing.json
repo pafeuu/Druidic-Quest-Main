@@ -1,0 +1,7 @@
+[
+    {
+        "inputs": ["create:windmill_bearing"],
+        "output": "create:andesite_casing",
+        "structures":["idas:brickhouse"]
+    }
+]
