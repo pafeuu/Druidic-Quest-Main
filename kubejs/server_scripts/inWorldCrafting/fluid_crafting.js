@@ -86,13 +86,12 @@ ServerEvents.recipes(event=>{
         {tag:"c:eggs"},
     ],ParticleSuccess,SoundEffectWaterSplash)
 
-    ItemFluidCrafting("water",2,"sob:cinder_dough",[
+    /*ItemFluidCrafting("water",2,"sob:cinder_dough",[
         {item:"create:cinder_flour"},
         {item:"create:cinder_flour"},
         {tag:"c:eggs"},
-    ],ParticleSuccess,SoundEffectWaterSplash)
+    ],ParticleSuccess,SoundEffectWaterSplash)*/
 
-    event.remove({output:"sob:cinder_dough"})
 
     event.remove({output:"vintagedelight:oat_dough"})
     ItemFluidCrafting("water",2,"vintagedelight:oat_dough",[

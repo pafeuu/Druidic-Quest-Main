@@ -583,58 +583,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "096D5AF3F4F384B0"
-			rewards: [{
-				count: 2
-				id: "177C07C4A41B406C"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6BB24C6607C6A039"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Size: 21
-						}
-					}
-					id: "immersiveengineering:revolver"
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "45828A725D8DBE75"
-			rewards: [{
-				count: 2
-				id: "68CAED30CC418F63"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4D22966BC2BCE7DE"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Size: 3
-						}
-					}
-					id: "immersiveengineering:railgun"
-				}
-				type: "item"
-			}]
-			x: 7.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "055826335D5646A4"
 			rewards: [{
 				id: "7E0CEB3060EA0FF2"

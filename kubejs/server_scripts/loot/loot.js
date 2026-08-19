@@ -2,28 +2,6 @@ const $CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi")
 
 LootJS.modifiers((event) => {
     
-    /*if (global.nukelist.length > 0) {
-      for (const entry of global.nukelist) {
-         event.addLootTypeModifier(LootType.CHEST).removeLoot(entry)
-         event.addLootTypeModifier(LootType.BLOCK).removeLoot(entry)
-         event.addLootTypeModifier(LootType.ENTITY).removeLoot(entry)
-         event.addLootTypeModifier(LootType.FISHING).removeLoot(entry)
-         event.addLootTypeModifier(LootType.GIFT).removeLoot(entry)
-         event.addLootTypeModifier(LootType.PIGLIN_BARTER).removeLoot(entry)
-         event.addLootTypeModifier(LootType.ADVANCEMENT_ENTITY).removeLoot(entry)
-         event.addLootTypeModifier(LootType.ADVANCEMENT_REWARD).removeLoot(entry)
-         event.addLootTypeModifier(LootType.UNKNOWN).removeLoot(entry)
-      }
-   }*/
-
-    ///==================================Enchanted Books==========================
-
-    /*event.addLootTypeModifier([
-        LootType.CHEST,
-        LootType.PIGLIN_BARTER,
-        LootType.FISHING
-        ]).replaceLoot("minecraft:enchanted_book","kubejs:enchanting_rune")*/
-
     ///=======================================Replacing Junk
 
     event.addLootTypeModifier(LootType.CHEST)
@@ -204,6 +182,10 @@ LootJS.modifiers((event) => {
     event.addLootTableModifier(/.*chests\/village.*/)
         .randomChance(0.1)
         .addLoot("2x farmersdelight:organic_compost");
+
+    event.addLootTableModifier("minecraft:chests/bastion_treasure")
+        .randomChance(0.5)
+        .addLoot("enigmaticlegacy:darkest_scroll")
 
      //================================================ MOBS
     

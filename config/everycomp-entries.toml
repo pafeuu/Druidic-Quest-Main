@@ -83,6 +83,10 @@
 		[types.wood_type.minecraft]
 			pale_oak = true
 
+		[types.wood_type.botania]
+			livingwood = true
+			dreamwood = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.ars_nouveau]
@@ -272,9 +276,6 @@
 			hollow_log_climbable = false
 			hollow_log_horizontal = false
 			hollow_log_vertical = false
-
-		[entries.wood_type.sob]
-			counter = true
 
 		[entries.wood_type.twigs]
 			table = false

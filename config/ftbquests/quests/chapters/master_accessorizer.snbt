@@ -1166,23 +1166,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "3CF337ACF5569354"
-			rewards: [{
-				id: "0ACAD8A063E07ED0"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "2577A71A5EE203E3"
-				item: "immersiveengineering:earmuffs"
-				type: "item"
-			}]
-			x: -6.8d
-			y: -2.4d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "56E5D48BEC0F47E8"
 			rewards: [{
 				id: "4F1356CCB4612C0E"
@@ -1319,23 +1302,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "54B9D01CC3A71440"
-			rewards: [{
-				id: "04497D43D4D4C6E5"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "548E454B35BAEAE8"
-				item: "immersiveengineering:toolupgrade_shield_magnet"
-				type: "item"
-			}]
-			x: -6.8d
-			y: -1.6d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "4F3DE307BE278E4D"
 			rewards: [{
 				id: "2AE11F94D05D7AAA"
@@ -1419,7 +1385,7 @@
 			size: 0.8d
 			tasks: [{
 				id: "4233A4961631EBE8"
-				item: "kubejs:lesser_arcane_ring"
+				item: "kubejs:lesser_evocation_ring"
 				type: "item"
 			}]
 			x: -2.7999999999999994d

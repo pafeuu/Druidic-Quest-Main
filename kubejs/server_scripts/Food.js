@@ -64,12 +64,12 @@ ServerEvents.recipes(e => {
         "minecraft:honey_bottle",
         "minecraft:honey_bottle"],`arsdelight:source_berry_hornbeer`,10,200,"arsdelight:chimera_horn").id("arsdelight:cooking/source_berry_hornbeer")
     
-    cooking(["honey_bottle",
+    /*cooking(["honey_bottle",
         "vintagedelight:roasted_peanut",
         "vintagedelight:roasted_peanut",
         "vintagedelight:roasted_peanut",
         "sugar",
-        "vintagedelight:salt_dust"],"sob:candied_peanuts",1,200).id("sob:cooking/candied_peanuts")
+        "vintagedelight:salt_dust"],"sob:candied_peanuts",1,200).id("sob:cooking/candied_peanuts")*/
 
     cooking(["minecraft:apple",
         "#forge:dusts/gold",
@@ -107,12 +107,6 @@ ServerEvents.recipes(e => {
 
     e.remove({id:"biomeswevegone:golden_apple_from_green_apple"})
     
-    cooking([
-        "echo_shard",
-        "naturesaura_plus:aura_coffee",
-        "honey_bottle",
-        "#dq:spices",
-        ],"sob:echo_rock_candy",10,200)
 
     cooking(["kubejs:aquatic_spice",
         "kubejs:aquatic_spice",
@@ -275,8 +269,7 @@ ServerEvents.recipes(e => {
     JamsSmallFruit('vintagedelight:gearo_berry_mason_jar',"vintagedelight:gearo_berry","vintagedelight:cooking/gearo_berry_jam_jar")
     JamsSmallFruit('vintagedelight:pepper_jam_mason_jar',"#forge:vegetables/pepper","vintagedelight:cooking/pepper_jam_jar")
 
-    e.shapeless("sob:pbnj",["bread","#forge:jams","vintagedelight:nut_mash_bottle"]).id("sob:crafting/pbnj")
-    e.shapeless("2x sob:ants_log",["2x sob:asparagus","2x sob:dried_berries","vintagedelight:nut_mash_bottle"]).id("sob:crafting/ants_log")
+    //e.shapeless("sob:pbnj",["bread","#forge:jams","vintagedelight:nut_mash_bottle"]).id("sob:crafting/pbnj")
 
     e.remove({id:"vintagedelight:fermenting/vinegar_from_jam_bottles"})
     e.custom({

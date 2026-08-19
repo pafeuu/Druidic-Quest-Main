@@ -39,7 +39,6 @@ ServerEvents.recipes(event=>{
     evaporating("#minecraft:fishes","water",25)
     evaporating("seagrass","water",50)
 
-    experienceEvaporating("sob:exp_candy",200)
     experienceEvaporating("create:experience_nugget",60)
     experienceEvaporating("minecraft:experience_bottle",60)
     experienceEvaporating("create:experience_block",600)

@@ -104,23 +104,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["07C47993064F01F0"]
-			id: "6CD01F8C044E9250"
-			rewards: [{
-				count: 3
-				id: "0DBFF48ABEBB626D"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "42BCE0C0A330B971"
-				item: "immersiveengineering:crate"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 4.5d
-		}
-		{
 			dependencies: ["1CBDCC784C114148"]
 			dependency_requirement: "one_started"
 			id: "506A8F5F973A9DA0"
@@ -167,7 +150,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["6CD01F8C044E9250"]
 			id: "5071D5A0B03CCD10"
 			rewards: [{
 				count: 4
@@ -182,23 +164,6 @@
 			}]
 			x: -1.0d
 			y: 6.0d
-		}
-		{
-			dependencies: ["6CD01F8C044E9250"]
-			id: "514A2C14F477B7E3"
-			rewards: [{
-				count: 12
-				id: "321641467EACA057"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "684DB7B0478F7D47"
-				item: "immersiveengineering:reinforced_crate"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 4.5d
 		}
 		{
 			dependencies: ["5071D5A0B03CCD10"]
@@ -277,35 +242,6 @@
 				type: "checkmark"
 			}]
 			x: 5.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["25205D8CDA01C923"]
-			description: ["Stores 512 buckets"]
-			icon: "immersiveengineering:tank"
-			id: "5B9D369ED404FE32"
-			rewards: [{
-				count: 24
-				id: "273CFF9866A17D34"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 34L
-					id: "04837D256E48C6F0"
-					item: "immersiveengineering:sheetmetal_iron"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "4ECC742441B8023E"
-					item: { Count: 4, id: "immersiveengineering:treated_fence" }
-					type: "item"
-				}
-			]
-			title: "Multiblock Tank"
-			x: 2.5d
 			y: 1.0d
 		}
 		{
@@ -693,54 +629,6 @@
 			}]
 			x: 0.0d
 			y: 15.0d
-		}
-		{
-			dependencies: ["25205D8CDA01C923"]
-			id: "21A89A8A1B7BE91C"
-			rewards: [{
-				id: "5350BC9A7E278FAC"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "2D08BCD915432759"
-					item: "immersiveengineering:wooden_barrel"
-					type: "item"
-				}
-				{
-					id: "4B64234A44CC1FBD"
-					item: "immersiveengineering:metal_barrel"
-					type: "item"
-				}
-			]
-			x: 7.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["1CBDCC784C114148"]
-			dependency_requirement: "one_started"
-			description: [
-				"Similar to Vaults they cant be accessed directly by player. Input item on the top, output items from the bottom."
-				""
-				"Can hold 648 Stacks of items"
-			]
-			icon: "immersiveengineering:silo"
-			id: "47E73C17164C8745"
-			rewards: [{
-				count: 4
-				id: "14559BC75617F9D4"
-				item: "thermal:iron_plate"
-				type: "item"
-			}]
-			tasks: [{
-				id: "120FF2B5032E8A4C"
-				item: "immersiveengineering:sheetmetal_iron"
-				type: "item"
-			}]
-			title: "Multiblock Silo"
-			x: -5.5d
-			y: 1.0d
 		}
 	]
 	title: "Storage"

@@ -661,7 +661,10 @@
 				"682CA83814F08244"
 				"118CF02B3B3C899C"
 			]
-			icon: { Count: 64, id: "immersiveengineering:treated_wood_horizontal" }
+			icon: {
+				Count: 64
+				id: "immersiveengineering:treated_wood_horizontal"
+			}
 			id: "5BE7FF2B2D088B6D"
 			rewards: [{
 				count: 64
@@ -724,7 +727,10 @@
 				"682CA83814F08244"
 				"51966AE20559FFA0"
 			]
-			icon: { Count: 16, id: "immersiveengineering:conveyor_basic" }
+			icon: {
+				Count: 16
+				id: "immersiveengineering:conveyor_basic"
+			}
 			id: "4645C85B2E78545C"
 			rewards: [{
 				count: 16

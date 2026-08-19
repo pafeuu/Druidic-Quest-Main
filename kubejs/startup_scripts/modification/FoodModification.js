@@ -169,9 +169,8 @@ ItemEvents.modification(event=>{
         'biomeswevegone:white_puffball_cap',
         'vintagedelight:peanut',
         'vintagedelight:ghost_pepper',
-        'vintagedelight:cucumber',
-        'sob:asparagus',
-        'sob:nopal']
+        'vintagedelight:cucumber'
+    ]
 
     Veggie.forEach(id => {
         event.modify(id, item => {
@@ -193,8 +192,6 @@ ItemEvents.modification(event=>{
         'fruitsdelight:dried_persimmon',
         'biomeswevegone:cooked_oddion_bulb',
         'biomeswevegone:cooked_yucca_fruit',
-        'sob:prickly_pear',
-        'sob:dried_berries',
         'fruitsdelight:baked_pear']
 
     BakedPlant.forEach(id => {
@@ -211,8 +208,8 @@ ItemEvents.modification(event=>{
         'create:chocolate_glazed_berries',
         'create:honeyed_apple',
         'vintagedelight:honey_roasted_peanut',
-        'minecraft:golden_carrot',
-        'sob:golden_prickly_pear']
+        'minecraft:golden_carrot'
+    ]
 
     SweetenPlant.forEach(id => {
         event.modify(id, item => {
@@ -228,7 +225,6 @@ ItemEvents.modification(event=>{
         'mynethersdelight:ghast_dough',
         'mynethersdelight:ghast_sourdough',
         'farmersdelight:wheat_dough',
-        'sob:cinder_dough',
         'create:dough',
         'farmersdelight:pie_crust',
         'create:blaze_cake_base',
@@ -465,14 +461,12 @@ ItemEvents.modification(event=>{
     const Juice = [
         'fruitsdelight:mangosteen_tea',
         'biomeswevegone:aloe_vera_juice',
-        'sob:cactus_juice',
         'fruitsdelight:lychee_cherry_tea',
         'fruitsdelight:kiwi_juice',
         'fruitsdelight:pear_juice',
         'fruitsdelight:lemon_juice', 
         'fruitsdelight:orange_juice',
         'fruitsdelight:hamimelon_juice',
-        'sob:glittering_gloop',
         'fruitsdelight:peach_tea',
         'fruitsdelight:mango_tea',
         'fruitsdelight:hawberry_tea',
@@ -502,7 +496,6 @@ ItemEvents.modification(event=>{
         })
     }
 
-    hunger("sob:echo_rock_candy",8,6)
 
     hunger("vintagedelight:cheese_pizza",20,16)//Regular Pizza
     hunger("vintagedelight:cheese_pizza_slice",6,7)

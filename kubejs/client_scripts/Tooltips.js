@@ -461,8 +461,6 @@ ItemEvents.tooltip(tooltip => {
   tooltip.add("minecraft:experience_bottle", Text.green("Grants between 3 to 11 experience points!"))
   tooltip.add("ars_nouveau:greater_experience_gem", Text.green("Grants 12 experience points!"))
   tooltip.add("create:experience_nugget", Text.green("Grants 3 experience point!"))
-  tooltip.add("sob:exp_candy", Text.green("Grants 10 experience point!"))
-  tooltip.add("sob:bustling_brew", Text.green("Grants 50 experience point!"))
   tooltip.add("create_sa:heap_of_experience", Text.green("Grants 12 experience points!"))
   tooltip.add("#dq:soul_harvester", [Text.red("Harvests souls")])
 
@@ -584,7 +582,6 @@ ItemEvents.tooltip(tooltip => {
     }
   })
 
-  tooltip.add("sob:echo_rock_candy", [Text.blue("Sets your health to 5 hearts and gives you back an Echo Shard")])
 
   //========================Enigmatic Legacy ========================
 

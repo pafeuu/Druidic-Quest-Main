@@ -12,20 +12,13 @@
 [filtering]
 	#Foods in this list won't affect the player's health nor show up in the food book.
 	blacklist = ['vintagedelight:sweet_berry_mason_jar',
-	'brewinandchewin:apple_jelly',
 	'vintagedelight:apple_sauce_mason_jar',
 	'vintagedelight:apple_sauce_bottle',
-	'brewinandchewin:sweet_berry_jam',
-	'brewinandchewin:glow_berry_marmalade',
-	'sob:peanut_butter',
-	'sob:pepper_jelly',
 	'vintagedelight:pepper_jam_bottle',
 	'vintagedelight:glow_berry_jam_bottle',
 	'vintagedelight:sweet_berry_jam_bottle',
 	'vintagedelight:gearo_berry_jam_bottle',
 	'vintagedelight:glow_berry_mason_jar',
-	'sob:peanut',
-	'sob:roasted_peanuts',
 	'vintagedelight:pb_j',
 	'biomeswevegone:blueberries',
 	'vintagedelight:cheese_curds']

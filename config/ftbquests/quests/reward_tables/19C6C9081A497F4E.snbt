@@ -4,7 +4,7 @@
 	loot_size: 1
 	order_index: 24
 	rewards: [
-		{ count: 4, item: "sob:pbnj" }
+		{ count: 4, item: "vintagedelight:pb_j" }
 		{ count: 4, item: "alexsdelight:bunfungus_sandwich" }
 		{ count: 4, item: "farmersdelight:bacon_sandwich" }
 		{ count: 4, item: "farmersdelight:chicken_sandwich" }

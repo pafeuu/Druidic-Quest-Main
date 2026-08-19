@@ -1192,7 +1192,10 @@
 			tasks: [{
 				count: 27L
 				id: "7DE2C8EC522E5848"
-				item: { Count: 27, id: "immersiveengineering:cokebrick" }
+				item: {
+					Count: 27
+					id: "immersiveengineering:cokebrick"
+				}
 				type: "item"
 			}]
 			title: "The Big Oven"
@@ -1829,7 +1832,7 @@
 				title: "Any #dq:flower_staffs"
 				type: "item"
 			}]
-			title: "Crafts some REAL weapons"
+			title: "Craft some REAL weapons"
 			x: 0.5d
 			y: 0.5d
 		}

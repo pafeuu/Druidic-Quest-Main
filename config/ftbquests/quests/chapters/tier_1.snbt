@@ -124,7 +124,10 @@
 			tasks: [{
 				count: 8L
 				id: "56053AA077C386CB"
-				item: { Count: 8, id: "immersiveengineering:treated_wood_horizontal" }
+				item: {
+					Count: 8
+					id: "immersiveengineering:treated_wood_horizontal"
+				}
 				type: "item"
 			}]
 			title: "Basic Automation Material"
@@ -797,7 +800,7 @@
 			subtitle: "Kind of like a hopper..."
 			tasks: [{
 				id: "2418415C9A8B0F8F"
-				item: "farmersdelight:basket"
+				item: "farmersdelight:bamboo_basket"
 				type: "item"
 			}]
 			x: 7.5d
@@ -1243,18 +1246,11 @@
 			]
 			icon: "quark:diamond_heart"
 			id: "0E40C9B32E05AC51"
-			rewards: [
-				{
-					id: "666A5F5D61E4B77E"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					id: "4E37FD50054B978B"
-					item: "sob:echo_rock_candy"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "666A5F5D61E4B77E"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "A warm, beating... diamond?"
 			tasks: [{

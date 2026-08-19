@@ -1064,18 +1064,6 @@ ServerEvents.recipes((event) => {
   );
 
   Enchanting(
-    "corpsecomplex:soulbinding",
-    1,
-    [
-      "kubejs:big_enchanting_rune_of_cosmos",
-      "sob:echo_rock_candy",
-      "sob:echo_rock_candy",
-      "sob:echo_rock_candy",
-    ],
-    10000,
-  );
-
-  Enchanting(
     "minecraft:efficiency",
     1,
     [
@@ -1940,7 +1928,6 @@ ServerEvents.recipes((event) => {
     1,
     [
       "kubejs:large_enchanting_rune_of_wisdom",
-      "sob:bustling_brew",
       "kubejs:aluminum_sword",
       "create:experience_block",
       "create:experience_block",
@@ -1953,7 +1940,6 @@ ServerEvents.recipes((event) => {
     2,
     [
       "kubejs:large_enchanting_rune_of_wisdom",
-      "sob:bustling_brew",
       "kubejs:aluminum_sword",
       "create:experience_block",
       "create:experience_block",

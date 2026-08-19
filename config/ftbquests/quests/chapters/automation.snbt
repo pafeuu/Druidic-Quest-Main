@@ -11,25 +11,6 @@
 	quests: [
 		{
 			dependencies: ["5171A92A9587D551"]
-			dependency_requirement: "one_completed"
-			id: "4AB693E41C1E98EA"
-			tasks: [
-				{
-					id: "147071169A9557E5"
-					item: "immersiveengineering:conveyor_basic"
-					type: "item"
-				}
-				{
-					id: "4CD2A3701B228E01"
-					item: "immersiveengineering:conveyor_extract"
-					type: "item"
-				}
-			]
-			x: -7.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["5171A92A9587D551"]
 			id: "7D8E452FDD5F9A5E"
 			tasks: [
 				{
@@ -96,25 +77,6 @@
 			title: "Wizards Reborn Fluid Transportation"
 			x: -7.0d
 			y: 4.5d
-		}
-		{
-			dependencies: ["18F180938E232223"]
-			id: "775A9821ACC21BE5"
-			tasks: [
-				{
-					id: "174F680CC7D29EC9"
-					item: "immersiveengineering:fluid_pipe"
-					type: "item"
-				}
-				{
-					id: "24FE0268F9B22380"
-					item: "immersiveengineering:fluid_pump"
-					type: "item"
-				}
-			]
-			title: "Immersive Engineering Fluid Transportation"
-			x: -5.0d
-			y: 2.5d
 		}
 		{
 			dependencies: ["51966AE20559FFA0"]
@@ -279,8 +241,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.0d
+			x: -7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["51966AE20559FFA0"]
