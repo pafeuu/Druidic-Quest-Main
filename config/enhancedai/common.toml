@@ -426,9 +426,9 @@
 	#Only entity types in the enhancedai:mobs/air_stealer tag are affected by this feature.
 	"Enable Air steal" = true
 	#Mobs can bite if are attacked with non-weapons. Only mobs in the enhancedai:mobs/biting_mobs/can_bite entity type tag can bite. Entity types in `mobs/biting_mobs/unaffected_by_bite` tag are unaffected by bites. Damage types in `biting_mobs/doesnt_trigger_bite` tag don't trigger biting mobs.
-	"Enable Biting mobs" = true
+	"Enable Biting mobs" = false
 	#Makes mobs panic when on fire.
-	"Enable Panic" = true
+	"Enable Panic" = false
 	#Makes mobs be able to jump in place when their target is a few blocks above them. Only entity types in the `enhancedai:mobs/can_jump_in_place` tag can jump
 	"Enable Jump" = true
 	#Makes drowned swim speed based off swim speed attribute instead of movement speed.
