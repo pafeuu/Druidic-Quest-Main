@@ -4991,6 +4991,8 @@ ServerEvents.recipes(event => {
 
 	//======================================================== placeholder endgame
 
+	event.shapeless("enigmaticlegacy:darkest_scroll",["enigmaticlegacy:thicc_scroll","kubejs:dark_essence"])
+	
 	event.custom(
 		{
 			type: "create:mechanical_crafting",
