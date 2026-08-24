@@ -63,11 +63,6 @@
       "interactionType": "immunity"
     },
     {
-      "type": "effect",
-      "name": "brewinandchewin:tipsy",
-      "interactionType": "immunity"
-    },
-    {
       "type": "attribute",
       "name": "manaunification:max_mana",
       "value": 0.5,

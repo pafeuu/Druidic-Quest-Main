@@ -2,17 +2,16 @@
   "armorSetName": "steel",
   "performanceMode": true,
   "head": {
-    "itemKey": "immersiveengineering:armor_steel_helmet"
+    "itemKey": "druidic_quest_core:steel_helmet"
   },
   "chest": {
-    "itemKey": "immersiveengineering:armor_steel_chestplate"
+    "itemKey": "druidic_quest_core:steel_chestplate"
   },
   "legs": {
-    "itemKey": "immersiveengineering:armor_steel_leggings",
-    "mustBeEmpty": false
+    "itemKey": "druidic_quest_core:steel_leggings"
   },
   "boots": {
-    "itemKey": "immersiveengineering:armor_steel_boots"
+    "itemKey": "druidic_quest_core:steel_boots"
   },
   "partialBonusRequiredAmount": 2,
   "partialSetBonuses": [
