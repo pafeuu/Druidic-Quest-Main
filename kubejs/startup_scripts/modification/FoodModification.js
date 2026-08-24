@@ -48,11 +48,11 @@ ItemEvents.modification(event=>{
 
     Jam.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(5)
                 food.saturation(0.5)
                 food.fastToEat()
-            }
+            })
         })
     });
 
@@ -87,10 +87,10 @@ ItemEvents.modification(event=>{
 
     Jello.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(7)
                 food.saturation(0.4)
-            }
+            })
         })
     });
     
@@ -117,11 +117,11 @@ ItemEvents.modification(event=>{
 
     FruitSlices.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(1)
                 food.saturation(0.5)
                 food.fastToEat()
-            }
+            })
         })
     });
 
@@ -151,10 +151,10 @@ ItemEvents.modification(event=>{
 
     Fruit.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(2)
                 food.saturation(0.4)
-            }
+            })
         })
     });
 
@@ -174,10 +174,10 @@ ItemEvents.modification(event=>{
 
     Veggie.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(2)
                 food.saturation(0.5)
-            }
+            })
         })
     });
 
@@ -196,10 +196,10 @@ ItemEvents.modification(event=>{
 
     BakedPlant.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(5)
                 food.saturation(0.5)
-            }
+            })
         })
     });
 
@@ -213,10 +213,10 @@ ItemEvents.modification(event=>{
 
     SweetenPlant.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(7)
                 food.saturation(0.5)
-            }
+            })
         })
     });
 
@@ -232,11 +232,11 @@ ItemEvents.modification(event=>{
     
     Dough.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(1)
                 food.saturation(0.5)
                 food.effect("minecraft:hunger",10,0,0.5)
-            }
+            })
         })
     });
 
@@ -270,10 +270,10 @@ ItemEvents.modification(event=>{
 
     Pie.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(16)
                 food.saturation(0.5)
-            }
+            })
         })
     });
 
@@ -296,11 +296,11 @@ ItemEvents.modification(event=>{
 
     PieSlice.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(5)
                 food.saturation(0.5)
                 food.fastToEat()
-            }
+            })
         })
     });
 
@@ -325,16 +325,16 @@ ItemEvents.modification(event=>{
         'alexsmobs:lobster_tail',
         'mynethersdelight:strider_slice',
         'arsdelight:wilden_meat']
-
+        
     RawMeat.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(2)
                 food.saturation(0.2)
-            }
+            })
         })
     });
-
+    
     const RawMeatSlices = [
         'tide:fish_slice',
         'alexsdelight:raw_catfish_slice',
@@ -353,21 +353,21 @@ ItemEvents.modification(event=>{
 
     RawMeatSlices.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(1)
                 food.saturation(0.2)
                 food.fastToEat()
-            }
+            })
         })
     });
-
+    
     CookedMeatSlices.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(2)
                 food.saturation(0.4)
                 food.fastToEat()
-            }
+            })
         })
     });
 
@@ -399,10 +399,10 @@ ItemEvents.modification(event=>{
 
     CookedMeat.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(4)
                 food.saturation(0.4)
-            }
+            })
         })
     });
 
@@ -412,10 +412,10 @@ ItemEvents.modification(event=>{
 
     BetterMeat.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(7)
                 food.saturation(0.4)
-            }
+            })
         })
     });
 
@@ -433,10 +433,10 @@ ItemEvents.modification(event=>{
 
     Cookie.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(6)
                 food.saturation(0.5)
-            }
+            })
         })
     });
 
@@ -451,10 +451,10 @@ ItemEvents.modification(event=>{
 
     PickledStuff.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(8)
                 food.saturation(0.4)
-            }
+            })
         })
     });
 
@@ -479,29 +479,26 @@ ItemEvents.modification(event=>{
 
     Juice.forEach(id => {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(5)
                 food.saturation(0.7)
-            }
+            })
         })
     });
 
     function hunger(id,hunger,saturation)
     {
         event.modify(id, item => {
-            item.foodProperties = food => {
+            item.setFoodProperties(food => {
                 food.hunger(hunger)
                 food.saturation(saturation/hunger/2)
-            }
+            })
         })
     }
 
 
     hunger("vintagedelight:cheese_pizza",20,16)//Regular Pizza
     hunger("vintagedelight:cheese_pizza_slice",6,7)
-
-    hunger("brewinandchewin:pizza",20,18)//Veggie Pizza
-    hunger("brewinandchewin:pizza_slice",6,8)
     
     hunger("vintagedelight:meat_pizza",20,18)
     hunger("vintagedelight:meat_pizza_slice",6,8)
@@ -514,7 +511,4 @@ ItemEvents.modification(event=>{
         hunger(id,12,12)
     });
 
-    
-    
-    
 })
