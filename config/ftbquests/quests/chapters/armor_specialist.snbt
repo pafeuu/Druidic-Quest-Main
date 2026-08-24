@@ -490,13 +490,7 @@
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			disable_toast: true
-			icon: {
-				Count: 1
-				id: "immersiveengineering:armor_steel_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "druidic_quest_core:steel_chestplate"
 			id: "6C01D955BBED2130"
 			rewards: [{
 				count: 2
@@ -507,46 +501,22 @@
 			tasks: [
 				{
 					id: "5ADB3FBDD616E877"
-					item: {
-						Count: 1
-						id: "immersiveengineering:armor_steel_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "druidic_quest_core:steel_helmet"
 					type: "item"
 				}
 				{
 					id: "7EA31EFA80FBE769"
-					item: {
-						Count: 1
-						id: "immersiveengineering:armor_steel_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "druidic_quest_core:steel_chestplate"
 					type: "item"
 				}
 				{
 					id: "62F3421811F0BB8D"
-					item: {
-						Count: 1
-						id: "immersiveengineering:armor_steel_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "druidic_quest_core:steel_leggings"
 					type: "item"
 				}
 				{
 					id: "5B7C5B796D728A87"
-					item: {
-						Count: 1
-						id: "immersiveengineering:armor_steel_boots"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "druidic_quest_core:steel_boots"
 					type: "item"
 				}
 			]

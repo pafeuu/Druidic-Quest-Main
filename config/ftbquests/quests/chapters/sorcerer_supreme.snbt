@@ -6577,6 +6577,41 @@
 			x: -2.0d
 			y: 5.2d
 		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
+			id: "079637DF68CE08B6"
+			rewards: [{
+				id: "5CA2445879BAEFAA"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "0B35EBC570143E4D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "druidic_quest_core:nature_missile"
+								index: 0
+								level: 10
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
 	]
 	title: "Sorcerer Supreme"
 }

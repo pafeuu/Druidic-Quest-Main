@@ -674,13 +674,7 @@
 			size: 0.9d
 			tasks: [{
 				id: "5C1FD09717941294"
-				item: {
-					Count: 1
-					id: "immersiveengineering:sword_steel"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "druidic_quest_core:steel_sword"
 				type: "item"
 			}]
 			x: 0.44999999999999996d

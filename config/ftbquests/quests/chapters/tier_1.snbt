@@ -20,7 +20,7 @@
 			hide_details_until_startable: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
-			icon: "immersiveengineering:coal_coke"
+			icon: "thermal:coal_coke"
 			id: "1651F797382E34A2"
 			min_required_dependencies: 1
 			rewards: [{
@@ -124,10 +124,7 @@
 			tasks: [{
 				count: 8L
 				id: "56053AA077C386CB"
-				item: {
-					Count: 8
-					id: "immersiveengineering:treated_wood_horizontal"
-				}
+				item: "druidic_quest_core:treated_planks"
 				type: "item"
 			}]
 			title: "Basic Automation Material"
@@ -638,7 +635,7 @@
 			subtitle: "Slip, slidin' away..."
 			tasks: [{
 				id: "489246BED37D714B"
-				item: "immersiveengineering:conveyor_basic"
+				item: "botania:light_relay"
 				type: "item"
 			}]
 			title: "Basic Entity Transportation"
@@ -808,7 +805,7 @@
 		}
 		{
 			dependencies: ["118CF02B3B3C899C"]
-			description: ["Keeps it's contents just like a shulker box!"]
+			description: ["Shulker Boxes now cheaper than ever"]
 			id: "4BE9468347CCD7B1"
 			rewards: [{
 				id: "0EECED4BD477DA1B"
@@ -819,7 +816,7 @@
 			subtitle: "Moving Day!"
 			tasks: [{
 				id: "7DC0AD7A50AB7512"
-				item: "immersiveengineering:crate"
+				item: "minecraft:brown_shulker_box"
 				type: "item"
 			}]
 			x: 8.5d
@@ -1618,44 +1615,6 @@
 			}]
 			x: 28.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["118CF02B3B3C899C"]
-			description: ["Gliders and Elytras will gain upwards momentum when you fly over campfires with haybales undearneath them!"]
-			icon: {
-				Count: 1
-				id: "immersiveengineering:glider"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "73843A4DDF7D11B3"
-			rewards: [
-				{
-					id: "35C850C8F01A730A"
-					item: "minecraft:hay_block"
-					type: "item"
-				}
-				{
-					id: "25D12A225F8A1608"
-					item: "minecraft:campfire"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4DFC97F06B49DE0F"
-				item: {
-					Count: 1
-					id: "immersiveengineering:glider"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Glider"
-			x: 7.5d
-			y: 2.5d
 		}
 	]
 	title: "Tier 1 - Basic Magic"
