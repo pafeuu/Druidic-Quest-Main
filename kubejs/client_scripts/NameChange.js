@@ -68,8 +68,6 @@ ClientEvents.lang("en_us", event => {
     event.renameItem("kubejs:life_lunchbox","Life Infused Lunchbox")
     event.renameItem("aether:blue_berry","Skyberry")
     event.renameItem("aether:enchanted_berry","Enchanted Skyberry")
-    event.renameItem("brewinandchewin:pizza","Veggie Pizza")
-    event.renameItem("brewinandchewin:pizza_slice","Veggie Pizza Slice")
     event.add("block.mbd2.infernal_smelter","Infernal Smelter")
     event.add("block.mbd2.phytogenic_insolator","Phytogenic Insolator")
     event.add("mbd2.growing","Growing")

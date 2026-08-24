@@ -321,7 +321,6 @@ ServerEvents.recipes(e => {
         }
     ).id("vintagedelight:cheese_pizza")
 
-    e.shapeless("brewinandchewin:pizza",["vintagedelight:cheese_pizza","#forge:vegetables","#forge:vegetables"]).id("brewinandchewin:pizza")
     e.shapeless("vintagedelight:meat_pizza",["vintagedelight:cheese_pizza","#forge:foods/meat/cooked","#forge:foods/meat/cooked"]).id("vintagedelight:meat_pizza")
     
 })

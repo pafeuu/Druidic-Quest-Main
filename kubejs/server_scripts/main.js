@@ -34,7 +34,6 @@ ServerEvents.recipes(event => {
 
 	event.replaceInput({ mod: 'ars_nouveau', not: [{ type: "minecraft:stonecutting" }, { id: "ars_nouveau:sourcestone_sconce" }] }, 'ars_nouveau:sourcestone', 'kubejs:source_alloy_ingot')
 
-	event.replaceInput({ id: "immersiveengineering:crafting/gunpowder_from_dusts" }, "immersiveengineering:dust_saltpeter", "bone_meal")
 	event.replaceInput({ mod: 'crafting_on_a_stick' }, 'minecraft:stick', 'kubejs:zinc_tool_handle')
 	event.shapeless("2x minecraft:rooted_dirt", ["minecraft:dirt", "minecraft:mangrove_roots"])
 	event.shapeless("minecraft:rooted_dirt", ["minecraft:dirt", "minecraft:hanging_roots"])
@@ -267,9 +266,7 @@ ServerEvents.recipes(event => {
 
 	event.remove({ id: 'naturesaura:gold_fiber' })
 
-	event.remove({ output: 'immersiveengineering:cokebrick' })
-
-	event.shaped("3x immersiveengineering:cokebrick",
+	/*event.shaped("3x immersiveengineering:cokebrick",
 		[
 			"CSC",
 			"GBG",
@@ -281,7 +278,7 @@ ServerEvents.recipes(event => {
 			G: "gravel",
 			S: "clay",
 			B: "kubejs:brick_glue"
-		}).damageIngredient("kubejs:brick_glue", 3)
+		}).damageIngredient("kubejs:brick_glue", 3)*/
 
 
 	/// ======================================================================= Tier 0 Components ========================================================================
@@ -321,19 +318,6 @@ ServerEvents.recipes(event => {
 			X: "immersiveengineering:hemp_fabric"
 		}
 	).id("supplementaries:rope")
-
-	event.shaped("4x immersiveengineering:wirecoil_structure_rope",
-		[
-			"SRS",
-			"RXR",
-			"SRS"
-		],
-		{
-			S: "string",
-			R: "#forge:rope",
-			X: "immersiveengineering:stick_treated"
-		}
-	).id("immersiveengineering:crafting/wirecoil_structure_rope")
 
 	event.shaped("4x farmersdelight:safety_net",
 		[
@@ -684,20 +668,6 @@ ServerEvents.recipes(event => {
 			S: 'farmersdelight:straw',
 		}
 	)
-	event.shaped(
-		Item.of('minecraft:string'),
-		[
-			'SS',
-			'SS',
-			'SS'
-		],
-		{
-			S: 'immersiveengineering:hemp_fiber'
-		}
-	)
-		.id("immersiveengineering:crafting/string")
-
-
 
 	event.custom({
 		type: "lychee:block_interacting",
@@ -750,17 +720,6 @@ ServerEvents.recipes(event => {
 			G: "wizards_reborn:alchemy_glass"
 		}
 	).id("wizards_reborn:arcane_workbench/alchemy_vial")
-
-	event.shaped("immersiveengineering:strip_curtain",
-		[
-			"S",
-			"F"
-		],
-		{
-			F: "immersiveengineering:hemp_fabric",
-			S: "immersiveengineering:stick_treated"
-		}
-	).id("immersiveengineering:crafting/strip_curtain")
 
 	event.shaped("kubejs:bronze_upgrade_parts",
 		[
@@ -830,18 +789,6 @@ ServerEvents.recipes(event => {
 		"landing_block": "druidic_quest_core:rotten_flesh_block"
 	})
 
-	event.shaped('4x immersiveengineering:fluid_pipe',
-		[
-			"III",
-			"SSS",
-			"III"
-		],
-		{
-			I: "#forge:plates/iron",
-			S: "kubejs:pipe_sealant"
-		}
-	).id("immersiveengineering:crafting/fluid_pipe")
-
 	event.shaped('3x create:fluid_pipe',
 		[
 			"III",
@@ -855,19 +802,6 @@ ServerEvents.recipes(event => {
 	).id("create:crafting/kinetics/fluid_pipe")
 
 	event.remove({ id: "create:crafting/kinetics/fluid_pipe_vertical" })
-
-	event.shaped('immersiveengineering:hemp_fabric',
-		[
-			"XYX",
-			"YSY",
-			"XYX"
-		],
-		{
-			X: "immersiveengineering:hemp_fiber",
-			Y: "farmersdelight:canvas",
-			S: "#forge:rods/treated_wood"
-		}
-	).id("immersiveengineering:crafting/hemp_fabric")
 
 	event.shaped('3x kubejs:pipe_sealant',
 		[
@@ -916,8 +850,6 @@ ServerEvents.recipes(event => {
 			S: "immersiveengineering:hemp_fabric",
 			X: "kubejs:pipe_sealant"
 		}).id("thermal:diving_fabric")
-
-	event.remove({ id: "immersiveengineering:smelting/slag_glass" })
 
 	event.shaped("kubejs:sturdy_basalt",
 		[
@@ -1247,27 +1179,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped("4x immersiveengineering:razor_wire",
-		[
-			"WWW",
-			"FWF"
-		],
-		{
-			W: "#forge:wires/lead",
-			F: "immersiveengineering:treated_fence"
-		}).id("immersiveengineering:crafting/razor_wire")
-
-	event.shaped("24x immersiveengineering:connector_structural",
-		[
-			"IRI",
-			"I I"
-		],
-		{
-			I: "#forge:plates/iron",
-			R: "#forge:rods/iron"
-		}
-	).id("immersiveengineering:crafting/connector_structural")
-
 	event.shaped("rubinated_nether:ruby_laser",
 		[
 			" G ",
@@ -1537,20 +1448,6 @@ ServerEvents.recipes(event => {
 			H: "hopper"
 		}
 	).id("wizards_reborn:arcane_workbench/arcane_hopper")
-
-	event.shaped("immersiveengineering:item_batcher",
-		[
-			"SSS",
-			"PXP",
-			"PLP"
-		],
-		{
-			S: "#forge:plates/stone",
-			P: "#forge:plates/wooden",
-			X: "druidic_quest_core:primitive_machine",
-			L: "create:filter"
-		}
-	).id("immersiveengineering:crafting/item_batcher")
 
 	event.shaped("wizards_reborn:experience_totem",
 		[
@@ -1891,56 +1788,6 @@ ServerEvents.recipes(event => {
 			C: "redstone_torch"
 		}
 	).id("wizards_reborn:shapeless/fluid_extractor")
-
-	event.shaped("immersiveengineering:fluid_pump", ["A", "B", "C"],
-		{
-			A: "supplementaries:faucet",
-			B: "immersiveengineering:fluid_pipe",
-			C: "redstone_torch"
-		}
-	).id("immersiveengineering:crafting/fluid_pump")
-
-
-	event.shaped("2x immersiveengineering:connector_redstone",
-		[
-			"SBS",
-			"CRC",
-			"SRS"
-		],
-		{
-			S: "#forge:plates/stone",
-			B: "#forge:plates/bronze",
-			C: "supplementaries:cog_block",
-			R: "immersiveengineering:wirecoil_redstone"
-		}
-	).id("immersiveengineering:crafting/connector_redstone")
-
-	event.shaped("immersiveengineering:connector_probe",
-		[
-			"RIR",
-			"RSR",
-			"WCW"
-		],
-		{
-			W: "#forge:plates/wooden",
-			I: "immersiveengineering:connector_redstone",
-			S: "wizards_reborn:redstone_sensor",
-			C: "supplementaries:cog_block",
-			R: "immersiveengineering:wirecoil_redstone"
-		}
-	).id("immersiveengineering:crafting/connector_probe")
-
-	event.shaped("immersiveengineering:connector_bundled",
-		[
-			" R ",
-			"RXR",
-			" R "
-		],
-		{
-			R: "immersiveengineering:wirecoil_redstone",
-			X: "immersiveengineering:connector_redstone"
-		}
-	).id("immersiveengineering:crafting/connector_bundled")
 
 	event.shapeless("wizards_reborn:fluid_pipe", ["immersiveengineering:fluid_pipe", "wizards_reborn:wisestone"]).id("wizards_reborn:arcane_workbench/fluid_pipe")
 
@@ -2296,36 +2143,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("rubinated_nether:freezer_crafting")
 
-	event.shaped("immersiveengineering:sorter",
-		[
-			"BCB",
-			"HFH",
-			"BMB"
-		],
-		{
-			C: "comparator",
-			H: "woodenhopper:wooden_hopper",
-			M: "druidic_quest_core:primitive_machine",
-			B: "kubejs:sturdy_basalt",
-			F: "sophisticatedstorage:filter_upgrade"
-		}
-	).id("immersiveengineering:crafting/sorter")
-
-	event.shaped("immersiveengineering:fluid_sorter",
-		[
-			"BCB",
-			"HFH",
-			"BMB"
-		],
-		{
-			C: "comparator",
-			H: "supplementaries:faucet",
-			M: "druidic_quest_core:primitive_machine",
-			B: "kubejs:sturdy_basalt",
-			F: "sophisticatedstorage:filter_upgrade"
-		}
-	).id("immersiveengineering:crafting/fluid_sorter")
-
 	event.remove({ output: 'torchmaster:feral_flare_lantern' })
 	event.shaped(
 		Item.of('torchmaster:feral_flare_lantern'),
@@ -2381,30 +2198,6 @@ ServerEvents.recipes(event => {
 			X: 'supplementaries:jar'
 		}
 	)
-
-	event.shaped("immersiveengineering:wooden_barrel",
-		[
-			" P ",
-			"PXP",
-			" P "
-		],
-		{
-			P: "#forge:plates/wooden",
-			X: "create:fluid_tank"
-		}
-	).id("immersiveengineering:crafting/wooden_barrel")
-
-	event.shaped("immersiveengineering:metal_barrel",
-		[
-			" I ",
-			"IXI",
-			" I "
-		],
-		{
-			I: "#forge:ingots/iron",
-			X: "immersiveengineering:wooden_barrel"
-		}
-	).id("immersiveengineering:crafting/metal_barrel")
 
 	event.remove({ output: 'create:spout' })
 	event.shaped(
@@ -2616,20 +2409,6 @@ ServerEvents.recipes(event => {
 			P: '#forge:treated_wood',
 			S: 'minecraft:smooth_stone',
 			F: 'immersiveengineering:treated_fence'
-		}
-	)
-
-	event.remove({ output: 'immersiveengineering:crate' })
-	event.shaped(
-		Item.of('immersiveengineering:crate'),
-		[
-			'PPP',
-			'PSP',
-			'PPP'
-		],
-		{
-			P: '#forge:treated_wood',
-			S: 'supplementaries:sack'
 		}
 	)
 
@@ -2966,20 +2745,6 @@ ServerEvents.recipes(event => {
 		).id(`everycomp:hc/biomeswevegone/${wood}_fancy_bed`)
 	});
 
-
-
-	event.shaped('immersiveengineering:cushion',
-		[
-			"FFF",
-			"FXF",
-			"FFF"
-		],
-		{
-			F: "immersiveengineering:hemp_fabric",
-			X: "#handcrafted:cushions"
-		}
-	).id("immersiveengineering:crafting/cushion")
-
 	event.remove({ output: 'minecraft:smoker' })
 	event.shaped(
 		Item.of('minecraft:smoker'),
@@ -3020,10 +2785,6 @@ ServerEvents.recipes(event => {
 
 	event.remove({ output: 'minecraft:piston' })
 	event.shapeless('minecraft:piston', ['druidic_quest_core:primitive_machine', 'create:piston_extension_pole'])
-
-	event.replaceInput({ id: "immersiveengineering:crafting/conveyor_basic" }, "minecraft:redstone", "druidic_quest_core:primitive_machine")
-	event.replaceInput({ id: "immersiveengineering:crafting/conveyor_extract" }, "immersiveengineering:component_iron", "woodenhopper:wooden_hopper")
-	event.replaceInput({ id: "immersiveengineering:crafting/hemp_fabric" }, "#c:rods/wooden", "immersiveengineering:stick_treated")
 
 	event.remove({ output: 'create:belt_connector' })
 	event.shaped(
@@ -3077,10 +2838,6 @@ ServerEvents.recipes(event => {
 		"thermal:apatite_dust",
 		"vintagedelight:organic_mash"]
 	).id("vintagedelight:organic_compost_tree_fertilizer")
-
-	event.shapeless("2x immersiveengineering:fertilizer", ["#forge:dusts/sulfur", "#forge:slag", "bone_meal"]).id("immersiveengineering:crafting/fertilizer")
-
-	event.shapeless("2x immersiveengineering:fertilizer", ["2x #forge:slag", "2x bone_meal"])
 
 	event.shaped("create:transmitter",
 		[
@@ -3980,7 +3737,7 @@ ServerEvents.recipes(event => {
 			{ tag: "forge:ingots/zinc" }
 		],
 		"reagent": [
-			{ item: 'immersiveengineering:stick_treated' }
+			{ item: "druidic_quest_core:treated_stick" }
 		],
 		"sourceCost": 0
 	})
@@ -4022,8 +3779,7 @@ ServerEvents.recipes(event => {
 		{
 			type: "lychee:block_crushing",
 			post: [
-				{ type: "drop_item", item: "sophisticatedstorage:storage_link" },
-				{ type: "execute", command: "playsound immersiveengineering:metal_press_smash neutral @p", hide: true }
+				{ type: "drop_item", item: "sophisticatedstorage:storage_link" }
 			],
 			item_in: [
 				{ item: "ender_pearl" },
@@ -4658,91 +4414,11 @@ ServerEvents.recipes(event => {
 		{ A: "create:andesite_casing", X: "create:chute", Y: "kubejs:andesite_machine", }).id("create:crafting/kinetics/portable_storage_interface")
 
 	//============================================ Tier 4 Components ========================================================================================
-	event.remove({ id: "immersiveengineering:blastfurnace/steel_block" })
-
-	event.shaped("immersiveengineering:light_engineering",
-		[
-			"SCS",
-			"CXC",
-			"SCS"
-		],
-		{
-			C: "immersiveengineering:component_iron",
-			S: "thermal:iron_plate",
-			X: "kubejs:steel_machine"
-		}
-	).id("immersiveengineering:crafting/light_engineering")
-
-	event.shaped("immersiveengineering:heavy_engineering",
-		[
-			"SCS",
-			"CXC",
-			"SCS"
-		],
-		{
-			C: "immersiveengineering:component_steel",
-			S: "druidic_quest_core:steel_plate",
-			X: "kubejs:steel_machine"
-		}
-	).id("immersiveengineering:crafting/heavy_engineering")
-
-	event.shaped("immersiveengineering:rs_engineering",
-		[
-			"SCS",
-			"CXC",
-			"SCS"
-		],
-		{
-			C: "kubejs:redstone_core",
-			S: "immersiveengineering:sheetmetal_steel",
-			X: "kubejs:steel_machine"
-		}
-	).id("immersiveengineering:crafting/rs_engineering")
-
-
-	event.shaped("thermal:redstone_servo",
-		[
-			"RGR",
-			"PGP",
-			"RGR"
-		],
-		{
-			R: "repeater",
-			P: "create:mechanical_piston",
-			G: "#forge:gears/iron"
-		}
-	).id("thermal:redstone_servo")
 
 	event.recipes.create.mixing("create:rose_quartz", ["kubejs:salmon_quartz", "ars_nouveau:conjuration_essence", "wither_rose"]).id("create:crafting/materials/rose_quartz").heated()
 
-	event.shaped('immersiveengineering:drillhead_iron',
-		[
-			"DP ",
-			"PGP",
-			" PP"
-		],
-		{
-			D: "thermal:drill_head",
-			P: "#forge:plates/iron",
-			G: "ars_nouveau:glyph_break"
-		}
-	).id("immersiveengineering:crafting/drillhead_iron")
-
-	event.shaped("immersiveengineering:drillhead_steel",
-		[
-			"SSS",
-			"SDS",
-			"SSS"
-		],
-		{
-			S: "#forge:plates/steel",
-			D: "immersiveengineering:drillhead_iron"
-		}
-	).id("immersiveengineering:crafting/drillhead_steel")
-
-	event.remove({ id: 'immersiveengineering:blastfurnace/steel' })
-
-
+	//TODO Replace the blast furnace
+	/*
 	event.custom({
 
 		type: "immersiveengineering:blast_furnace",
@@ -4756,7 +4432,7 @@ ServerEvents.recipes(event => {
 			item: "thermal:slag"
 		},
 		"time": 600
-	})
+	})*/
 
 	event.shaped(
 		Item.of('kubejs:steel_machine'),
@@ -4794,18 +4470,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("create:crafting/kinetics/empty_blaze_burner")
 	//===================================================== Tier 4 Machines
-
-	event.shaped("immersiveengineering:redstone_breaker",
-		[
-			"CRC",
-			"SSS"
-		],
-		{
-			S: "#forge:plates/iron",
-			C: "immersiveengineering:connector_lv",
-			R: "minecraft:repeater"
-		}
-	).id("immersiveengineering:crafting/redstone_breaker")
 
 	event.shaped("starbunclemania:source_condenser",
 		[
@@ -4917,77 +4581,6 @@ ServerEvents.recipes(event => {
 			X: "kubejs:electricity_essence"
 		}
 	).id("thermal:energy_cell_frame")
-
-	event.shaped("immersiveengineering:capacitor_lv",
-		[
-			"LEL",
-			"SXS",
-			"LEL"
-		],
-		{
-			S: "#forge:plates/steel",
-			E: "thermal:rf_coil",
-			L: "#forge:plates/wooden",
-			X: "thermal:energy_cell_frame"
-		}
-	).id("immersiveengineering:crafting/capacitor_lv")
-
-	event.shaped("immersiveengineering:capacitor_mv",
-		[
-			"LEL",
-			"SXS",
-			"LEL"
-		],
-		{
-			S: "immersiveengineering:capacitor_lv",
-			E: "thermal:rf_coil",
-			L: "#forge:gears/uranium",
-			X: "thermal:sapphire"
-		}
-	).id("immersiveengineering:crafting/capacitor_mv")
-
-	event.shaped("immersiveengineering:capacitor_hv",
-		[
-			"LEL",
-			"SXS",
-			"LEL"
-		],
-		{
-			S: "immersiveengineering:capacitor_mv",
-			E: "thermal:rf_coil",
-			L: "#forge:gears/aluminum",
-			X: "thermal:sapphire"
-		}
-	).id("immersiveengineering:crafting/capacitor_hv")
-
-	event.shaped("thermal:energy_cell",
-		[
-			"LEL",
-			"SXS",
-			"LEL"
-		],
-		{
-			S: "immersiveengineering:capacitor_hv",
-			E: "thermal:rf_coil",
-			L: "#forge:gears/electrum",
-			X: "thermal:ruby"
-		}
-	).id("thermal:energy_cell")
-
-	event.shaped("thermal:rf_coil",
-		[
-			" RG",
-			"RER",
-			"GR "
-		],
-		{
-			R: "#forge:storage_blocks/redstone",
-			E: "kubejs:electricity_essence",
-			G: "#forge:gears/gold"
-		}
-	).id("thermal:rf_coil")
-
-
 
 	//======================================================== placeholder endgame
 

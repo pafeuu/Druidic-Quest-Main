@@ -6,9 +6,6 @@ ServerEvents.recipes(event => {
 	event.remove({ type: "minecraft:crafting_shapeless", mod: "thermal", output: "#forge:dusts" })
 	event.remove({ type: "minecraft:crafting_shapeless", mod: "thermal", output: "#forge:ingots", input: "minecraft:fire_charge" })
 
-	event.remove({ input: 'immersiveengineering:hammer' })
-	event.remove({ mod: "immersiveengineering", output: "#forge:rods/all_metal" })
-
 	event.remove({ output: "#aether:accessories_gloves" })
 
 	event.replaceInput({ input: "minecraft:stick" }, "minecraft:stick", "#c:rods/wooden")
@@ -166,8 +163,6 @@ ServerEvents.recipes(event => {
 		//Compacts 4 small items into 1 big item and back (used for some gems and gems blocks)
 	};
 
-	event.shapeless("immersiveengineering:storage_steel", "9x immersiveengineering:ingot_steel").id("immersiveengineering:crafting/ingot_steel_to_storage_steel")
-
 	event.shapeless("thermal:sulfur", "9x #forge:nuggets/sulfur")
 	Chunks("coal", "kubejs:coal_chunk")
 	Chunks("charcoal", "kubejs:charcoal_chunk")
@@ -262,20 +257,6 @@ ServerEvents.recipes(event => {
 			}
 		)// Crafting Table recipe
 
-		event.custom({
-			"type": "immersiveengineering:metal_press",
-			"energy": 2400,
-			"input": {
-				"base_ingredient": {
-					"tag": "forge:ingots/" + material
-				},
-				"count": 4
-			},
-			"mold": "immersiveengineering:mold_gear",
-			"result": {
-				"item": id
-			}
-		})// IE Press Recipe
 	}
 
 	function ThermalGears(material) {
@@ -347,14 +328,6 @@ ServerEvents.recipes(event => {
 				X: "#forge:plates/" + material
 			})
 
-		event.custom({
-			type: "immersiveengineering:metal_press",
-			energy: 2400,
-			input: { "base_ingredient": { "tag": "forge:plates/" + material }, "count": 2 },
-			mold: "immersiveengineering:mold_rod",
-			result: { item: output },
-		});
-
 		event.remove({ output: output })
 		event.remove({ output: "#forge:rods/" + material })
 	}
@@ -395,8 +368,6 @@ ServerEvents.recipes(event => {
 
 	function PlatesOnetoOne(outputItem, inputBlock) {
 		event.recipes.create.pressing(`2x ${outputItem}`, `${inputBlock}`)// Adds Plates crafting recipes to the create machines
-
-		event.recipes.immersiveengineering.metal_press(`2x ${outputItem}`, `${inputBlock}`, "immersiveengineering:mold_plate")// Adds Plates crafting recipes to the IE machines
 
 		event.custom({
 			type: "lychee:block_interacting",
@@ -468,18 +439,10 @@ ServerEvents.recipes(event => {
 		event.recipes.naturesaura.altar(Item.of(outputItem, 2), inputBlock, 500, 100, "kubejs:pressing_catalyst")
 	}
 
-	PlatesOnetoOne("kubejs:wooden_plate", "immersiveengineering:treated_wood_horizontal")
+	PlatesOnetoOne("kubejs:wooden_plate", "druidic_quest_core:treated_planks")
 	PlatesOnetoOne("kubejs:stone_plate", "minecraft:smooth_stone")
 
 	function plates(inputItem, outputItem, inputBlock) {// Adds Plates crafting recipes to the machines
-
-		event.custom({
-			type: "immersiveengineering:metal_press",
-			energy: 2400,
-			input: { tag: inputItem },
-			mold: "immersiveengineering:mold_plate",
-			result: { item: outputItem },
-		});// Adds Plates crafting recipes to the IE machines
 
 		event.custom({
 			type: "lychee:block_interacting",
@@ -556,7 +519,7 @@ ServerEvents.recipes(event => {
 	plates("forge:ingots/nickel", "thermal:nickel_plate", "thermal:nickel_block")
 	plates("forge:ingots/bronze", "thermal:bronze_plate", "thermal:bronze_block")
 
-	plates("forge:ingots/uranium", "kubejs:uranium_plate", 'immersiveengineering:storage_uranium')
+	plates("forge:ingots/uranium", "druidic_quest_core:uranium_plate", "druidic_quest_core:uranium_block")
 	plates("forge:ingots/steel", "druidic_quest_core:steel_plate", "druidic_quest_core:steel_block")
 	plates("forge:ingots/electrum", "thermal:electrum_plate", "thermal:electrum_block")
 	plates("forge:ingots/arcane_gold", "kubejs:arcane_gold_plate", "wizards_reborn:arcane_gold_block")
@@ -565,7 +528,7 @@ ServerEvents.recipes(event => {
 	plates("forge:ingots/lumium", "thermal:lumium_plate", "thermal:lumium_block")
 	plates("forge:ingots/zinc", "kubejs:zinc_plate", "create:zinc_block")
 
-	plates("forge:ingots/aluminum", "kubejs:aluminum_plate", "immersiveengineering:storage_aluminum")
+	plates("forge:ingots/platinum", "druidic_quest_core:platinum_plate", "druidic_quest_core:platinum_block")
 	plates("forge:ingots/andesite_alloy", "kubejs:andesite_alloy_plate", 'create:andesite_alloy_block')
 	plates("forge:ingots/copper", "thermal:copper_plate", "minecraft:copper_block")
 	plates("forge:ingots/iron", "thermal:iron_plate", "minecraft:iron_block")
@@ -749,18 +712,6 @@ ServerEvents.recipes(event => {
 
 	event.shapeless("quark:mossy_cobblestone_bricks", "twigs:mossy_cobblestone_bricks").id("quark:building/crafting/mossy_cobblestone_bricks")
 
-	//event.shaped("architects_palette:hadaline_tiles",["XX","XX"],{"X":"architects_palette:hadaline_bricks"}).id("architects_palette:hadaline_tiles")
-
-	//Regions Unexplored
-	//event.shapeless("regions_unexplored:mossy_stone","immersive_weathering:mossy_stone").id("regions_unexplored:mossy_stone")
-	//event.shapeless("immersive_weathering:mossy_stone","regions_unexplored:mossy_stone")
-
-	//event.shapeless("quark:dripstone_bricks","architects_palette:dripstone_bricks").id("architects_palette:dripstone_bricks")
-	//event.shapeless("architects_palette:dripstone_bricks","quark:dripstone_bricks")
-
-	//event.shapeless("quark:calcite_bricks","architects_palette:calcite_bricks").id("architects_palette:calcite_bricks")
-	//event.shapeless("architects_palette:calcite_bricks","quark:calcite_bricks")
-
 	event.shapeless("twigs:cobblestone_bricks", "quark:cobblestone_bricks").id("twigs:cobblestone_bricks")
 	event.shapeless("quark:cobblestone_bricks", "twigs:cobblestone_bricks")
 	event.shapeless("twigs:gravel_bricks", "supplementaries:gravel_bricks")
@@ -768,20 +719,10 @@ ServerEvents.recipes(event => {
 
 	event.remove({ id: "twigs:azalea_flowers_from_flowering_azalea" })
 
-	event.remove({ id: "immersiveengineering:crafting/toolbox" })
-
 	event.shapeless("minecraft:yellow_dye", ["naturesaura:aura_bloom"])
 
 	event.shapeless("irons_spellbooks:wizard_hat", "irons_spellbooks:wizard_helmet").id("irons_spellbooks:wizard_helmet_hat")
 	event.shapeless("irons_spellbooks:wizard_helmet", "irons_spellbooks:wizard_hat")
-
-	/* Regions Unexplored
-	event.shapeless("4x regions_unexplored:blue_magnolia_flowers","4x regions_unexplored:blue_magnolia_leaves").id("regions_unexplored:blue_magnolia_flowers")
-	event.shapeless("4x regions_unexplored:pink_magnolia_flowers","4x regions_unexplored:pink_magnolia_leaves").id("regions_unexplored:pink_magnolia_flowers")
-	event.shapeless("4x regions_unexplored:white_magnolia_flowers","4x regions_unexplored:white_magnolia_leaves").id("regions_unexplored:white_magnolia_flowers")*/
-
-
-	event.replaceInput({ id: "immersiveengineering:crafting/wirecutter" }, "#forge:rods/wooden", "immersiveengineering:stick_treated")
 
 	//============================= Shapeshifting Root
 
