@@ -87,6 +87,9 @@
 			livingwood = true
 			dreamwood = true
 
+		[types.wood_type.druidic_quest_core]
+			treated = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.ars_nouveau]
