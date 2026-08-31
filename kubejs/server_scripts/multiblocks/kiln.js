@@ -2,7 +2,6 @@
 
 ServerEvents.recipes(event=>{
 
-	const arcFurnace = event.recipes.immersiveengineering.arc_furnace
 	function Fuel(input, HowManyItemsItSmelts)
 	{
 		event.recipes.mbd2.alloying().duration(HowManyItemsItSmelts*205).inputItems(input).isFuel(true)
@@ -15,16 +14,9 @@ ServerEvents.recipes(event=>{
 	Fuel("kubejs:sunbird_feather",16)
 	
 
-	
-	event.remove({id:"thermal:machines/smelter/smelter_alloy_enderium"})
-	event.remove({id:"thermal:machines/smelter/smelter_alloy_lumium"})
-
     event.remove({output:'create:andesite_alloy'})
 
     event.remove({id:"twilightforest:equipment/fiery_ingot_crafting"})
-	
-	
-	
 	
 	function kilnWith2Ingredients(output,input1,input2)
 	{
@@ -33,8 +25,6 @@ ServerEvents.recipes(event=>{
 		.inputItems(input2)
 		.outputItems(output)
 		.duration(200)
-
-		arcFurnace(output,input1,[input2])
 	}
 
 	function kilnWith3Ingredients(output,input1,input2,input3)
@@ -45,8 +35,6 @@ ServerEvents.recipes(event=>{
 		.inputItems(input3)
 		.outputItems(output)
 		.duration(200)
-
-		arcFurnace(output,input1,[input2,input3])
 	}
 
 	
@@ -182,7 +170,7 @@ ServerEvents.recipes(event=>{
 		"immersiveengineering:ingot_aluminum",
 		"8x kubejs:infused_amethyst")
 
-	arcFurnace("kubejs:arcane_plating","4x kubejs:arcane_gold_plate",["4x netherite_ingot","8x thermal:ruby"])
+	/*arcFurnace("kubejs:arcane_plating","4x kubejs:arcane_gold_plate",["4x netherite_ingot","8x thermal:ruby"])
 	
 	arcFurnace("ancient_aether:valkyrum","naturesaura:sky_ingot",["16x kubejs:life_essence","64x ars_nouveau:air_essence","16x thermal:sapphire"])
 
@@ -194,6 +182,6 @@ ServerEvents.recipes(event=>{
 		"immersiveengineering:ingot_aluminum",
 		"8x kubejs:infused_amethyst",
 		"thermal:nickel_ingot"
-	])
+	])*/
 
 })

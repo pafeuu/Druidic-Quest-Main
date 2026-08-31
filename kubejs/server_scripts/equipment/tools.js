@@ -1107,18 +1107,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("alexsmobs:vine_lasso")
 	
-	event.shaped("immersiveengineering:skyhook",
-		[
-			"PP ",
-			"PP ",
-			" HH"
-		],
-		{
-			P: "#forge:plates/iron",
-			H: "immersiveengineering:wooden_grip"
-		}
-	).id("immersiveengineering:crafting/skyhook")
-	
 	const gemHooks = [
 		["rehooked:iron_hook","kubejs:infused_amethyst"],
 		["rehooked:blaze_hook","thermal:ruby"],

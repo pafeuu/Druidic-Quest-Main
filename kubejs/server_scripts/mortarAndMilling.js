@@ -9,21 +9,7 @@ ServerEvents.recipes(event => {
         event.recipes.create.crushing(count+"x "+output, input)
 
         event.recipes.create.milling(count+"x "+output, input)
-
-        event.custom({
-            "type": "immersiveengineering:crusher",
-            "energy": 1600,
-            "input": {
-                "item": input
-            },
-            "result": {
-                "base_ingredient": {
-                    "item": output
-                },
-                "count": count
-            },
-            "secondaries": []
-        })  
+  
     }
 
     function MillingMetal(count, output, input, id)
@@ -34,21 +20,7 @@ ServerEvents.recipes(event => {
         event.recipes.create.crushing(count+"x "+output, input)
 
         event.recipes.create.milling(count+"x "+output, input)
-
-        event.custom({
-            "type": "immersiveengineering:crusher",
-            "energy": 1600,
-            "input": {
-                "item": input
-            },
-            "result": {
-                "base_ingredient": {
-                    "item": output
-                },
-                "count": count
-            },
-            "secondaries": []
-        })  
+ 
     }
 
     function MillingWithExtras(count, output, magicCount, extrasCount, extras ,chance , input, damage, id)
@@ -61,28 +33,7 @@ ServerEvents.recipes(event => {
         event.recipes.create.crushing([count+"x "+output, Item.of(extras, extrasCount).withChance(chance)], input)
 
         event.recipes.create.milling([count+"x "+output, Item.of(extras, extrasCount).withChance(chance)], input)
-
-        event.custom({
-            "type": "immersiveengineering:crusher",
-            "energy": 1600,
-            "input": {
-                "item": input
-            },
-            "result": {
-                "base_ingredient": {
-                    "item": output
-                },
-                "count": count
-            },
-            "secondaries": [
-                {
-                    "chance": chance,
-                    "output": {
-                      "item": extras
-                    }
-                  }
-            ]
-        })  
+ 
     }
 	
     MillingWithExtras(1,"minecraft:blaze_powder",3,1,"minecraft:blaze_powder",0.5,'blaze_rod',8,'minecraft:blaze_powder')
@@ -128,11 +79,8 @@ ServerEvents.recipes(event => {
     MillingMetal(1, 'thermal:netherite_dust', 'netherite_ingot','thermal:machines/pulverizer/pulverizer_netherite_ingot_to_dust')
     MillingMetal(1, 'thermal:copper_dust', 'copper_ingot','thermal:machines/pulverizer/pulverizer_copper_ingot_to_dust')
 
-    
-    event.remove({id: 'immersiveengineering:crusher/ingot_zinc'})
 
    
-    MillingNoExtras(1, 'immersiveengineering:dust_coke', 'thermal:coal_coke', 6, 'immersiveengineering:crusher/coke')
     MillingNoExtras(1, 'thermal:apatite_dust', 'thermal:apatite', 6, 'thermal:machines/pulverizer/pulverizer_apatite')
     MillingNoExtras(1, 'thermal:ruby_dust', 'rubinated_nether:ruby', 6, 'thermal:ruby_dust_from_ruby')
     MillingNoExtras(1, 'thermal:sapphire_dust', 'kubejs:sapphire', 6, 'thermal:sapphire_dust_from_sapphire')

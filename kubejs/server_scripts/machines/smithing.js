@@ -72,11 +72,6 @@ ServerEvents.recipes(event=>{
 		"kubejs:wizard_upgrade_smithing_template",
 		"irons_spellbooks:magic_cloth")
 
-	SmithingArmor("immersiveengineering:armor_faraday",
-		"minecraft:leather",
-		"kubejs:engineer_upgrade_smithing_template",
-		"immersiveengineering:hemp_fabric")
-
 	SmithingArmor("irons_spellbooks:wandering_magician",
 		"minecraft:leather",
 		"kubejs:wandering_magician_upgrade_smithing_template",
@@ -153,6 +148,7 @@ ServerEvents.recipes(event=>{
 		"kubejs:etherium_upgrade_smithing_template",
 		"enigmaticlegacy:etherium_ingot"
 	)
+
 	event.smithing("enigmaticlegacy:etherium_scythe",
 		"kubejs:stormforged_hoe",
 		"kubejs:etherium_upgrade_smithing_template",
@@ -172,7 +168,7 @@ ServerEvents.recipes(event=>{
 		
 		event.smithing("ancient_aether:valkyrum_"+type ,"kubejs:valkyrum_upgrade_smithing_template","naturesaura:sky_"+type,"ancient_aether:valkyrum")
 		event.smithing("minecraft:golden_"+type,"kubejs:gold_upgrade_smithing_template","kubejs:silver_"+type,"kubejs:gold_upgrade_parts")
-		event.smithing("immersiveengineering:"+type+"_steel","kubejs:steel_upgrade_smithing_template","naturesaura:infused_iron_"+type,"kubejs:steel_upgrade_parts")
+		event.smithing("druidic_quest_core:steel_"+type,"kubejs:steel_upgrade_smithing_template","naturesaura:infused_iron_"+type,"kubejs:steel_upgrade_parts")
 		event.smithing("deep_aether:skyjade_"+type,"kubejs:skyjade_upgrade_smithing_template","kubejs:silver_"+type,"kubejs:skyjade_upgrade_parts")
 		event.smithing("aether:zanite_"+type,"kubejs:zanite_upgrade_smithing_template","kubejs:lead_"+type,"kubejs:zanite_upgrade_parts")
 		event.smithing("wizards_reborn:arcane_gold_"+type,"kubejs:arcane_gold_upgrade_smithing_template","minecraft:golden_"+type,"kubejs:arcane_gold_upgrade_parts")

@@ -208,17 +208,6 @@ ServerEvents.recipes(event => {
             X: "ars_nouveau:dull_trinket"
         }).id("wizards_reborn:shaped/arcanum_amulet")
 
-    event.shaped("immersiveengineering:earmuffs",[
-        " S ",
-        "S S",
-        "W W"
-    ],
-    {
-        S: "#forge:string",
-        W: "#minecraft:wool"
-    }
-    ).id("immersiveengineering:crafting/earmuffs")
-
     event.shaped("kubejs:sturdy_boots_cover",[
         "S S",
         "P P",

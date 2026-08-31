@@ -291,7 +291,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "sob:peanut",
+          "name": "vintagedelight:peanut",
           "functions": [
             {
               "add": false,

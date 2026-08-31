@@ -371,7 +371,7 @@ ServerEvents.recipes(event => {
 
 		event.custom({
 			type: "lychee:block_interacting",
-			item_in: { item: "immersiveengineering:hammer" },
+			item_in: { item: "druidic_quest_core:arcanist_hammer" },
 			block_in: inputBlock,
 			post: [
 				{ type: "drop_item", item: outputItem, count: 1 },
@@ -568,26 +568,6 @@ ServerEvents.recipes(event => {
 
 	///=======================================Building blocks=======================================///
 
-	event.shaped("12x tinted_glass",
-		[
-			"LAL",
-			"AGA",
-			"LAL"
-		],
-		{
-			L: "#forge:wires/lead",
-			A: "#forge:gems/amethyst",
-			G: "#forge:glass/colorless"
-		}
-	).id("immersiveengineering:crafting/tinted_glass_lead_wire")
-	event.shaped("immersiveengineering:sawdust",
-		[
-			"SS"
-		],
-		{
-			S: "#forge:dusts/wood"
-		}
-	).id("immersiveengineering:crafting/sawdust")
 
 	event.custom({
 		"type": "thermal:rock_gen",
@@ -605,18 +585,6 @@ ServerEvents.recipes(event => {
 		}
 	})
 
-	event.shaped("8x immersiveengineering:slag_brick",
-		[
-			"GGG",
-			"GXG",
-			"GGG"
-		],
-		{
-			G: "#forge:slag",
-			X: "kubejs:brick_glue"
-		}
-	).damageIngredient("kubejs:brick_glue", 8).id("immersiveengineering:crafting/slag_brick")
-
 	event.shaped("2x druidic_quest_core:polished_planks",
 		[
 			"PX",
@@ -627,6 +595,7 @@ ServerEvents.recipes(event => {
 			X: "#forge:rods/wooden"
 		}
 	)
+
 	event.shaped("2x druidic_quest_core:stacked_planks",
 		[
 			"PP",

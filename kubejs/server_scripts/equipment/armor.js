@@ -1,38 +1,35 @@
 ServerEvents.recipes((event) => {
   const ArmorSlot = ["helmet", "chestplate", "leggings", "boots"];
 
+
   event
     .smithing(
-      "immersiveengineering:armor_steel_helmet",
+      "druidic_quest_core:steel_helmet",
       "kubejs:steel_upgrade_smithing_template",
       "naturesaura:infused_iron_helmet",
       "kubejs:steel_upgrade_parts",
-    )
-    .id("immersiveengineering:crafting/armor_steel_helmet");
+    ).id("druidic_quest_core:steel_helmet")
   event
     .smithing(
-      "immersiveengineering:armor_steel_chestplate",
+      "druidic_quest_core:steel_chestplate",
       "kubejs:steel_upgrade_smithing_template",
       "naturesaura:infused_iron_chest",
       "kubejs:steel_upgrade_parts",
-    )
-    .id("immersiveengineering:crafting/armor_steel_chestplate");
+    ).id("druidic_quest_core:steel_chestplate")
   event
     .smithing(
-      "immersiveengineering:armor_steel_leggings",
+      "druidic_quest_core:steel_leggings",
       "kubejs:steel_upgrade_smithing_template",
       "naturesaura:infused_iron_pants",
       "kubejs:steel_upgrade_parts",
-    )
-    .id("immersiveengineering:crafting/armor_steel_leggings");
+    ).id("druidic_quest_core:steel_leggings")
   event
     .smithing(
-      "immersiveengineering:armor_steel_boots",
+      "druidic_quest_core:steel_boots",
       "kubejs:steel_upgrade_smithing_template",
       "naturesaura:infused_iron_shoes",
       "kubejs:steel_upgrade_parts",
-    )
-    .id("immersiveengineering:crafting/armor_steel_boots");
+    ).id("druidic_quest_core:steel_boots")
 
   event.remove({
     output: [
@@ -186,13 +183,6 @@ ServerEvents.recipes((event) => {
 
   event.remove({ output: "thermal:hazmat_fabric" });
 
-  event
-    .shaped("immersiveengineering:glider", ["FFF", "LCL", " L "], {
-      F: "immersiveengineering:hemp_fabric",
-      C: "leather_chestplate",
-      L: "leather",
-    })
-    .id("immersiveengineering:crafting/glider");
   // =================================================== Tier 3 ========================================================
 
   function ScarecrowUpgrade(ArmorType, MagicSchool) {

@@ -44,7 +44,6 @@ ServerEvents.recipes(event=>{
     fullRepair("twilightforest:knightmetal_shield","#forge:plates/knightmetal")
     fullRepair("ars_nouveau:enchanters_shield","#forge:plates/source_alloy")
     fullRepair("kubejs:the_terraformer","ars_nouveau:earth_essence")
-    fullRepair("immersiveengineering:glider","immersiveengineering:hemp_fabric")
     fullRepair("minecraft:bow","#c:strings")
     fullRepair("minecraft:crossbow","#c:strings")
     fullRepair("create:potato_cannon","#forge:plates/copper")
