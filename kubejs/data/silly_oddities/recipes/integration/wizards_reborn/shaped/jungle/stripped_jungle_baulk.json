@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cross_baulk",
+  "category": "building",
+  "pattern": [
+    "  #",
+    " # ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_jungle_log"
+    }
+  },
+  "result": {
+    "item": "silly_oddities:stripped_jungle_baulk",
+    "count": 6
+  }
+}

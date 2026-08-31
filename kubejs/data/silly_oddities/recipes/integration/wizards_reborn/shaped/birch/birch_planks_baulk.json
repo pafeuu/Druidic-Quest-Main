@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cross_baulk",
+  "category": "building",
+  "pattern": [
+    "  #",
+    " # ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "result": {
+    "item": "silly_oddities:birch_planks_baulk",
+    "count": 6
+  }
+}

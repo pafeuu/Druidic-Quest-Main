@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cross_baulk",
+  "category": "building",
+  "pattern": [
+    "  #",
+    " # ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_spruce_log"
+    }
+  },
+  "result": {
+    "item": "silly_oddities:stripped_spruce_baulk",
+    "count": 6
+  }
+}

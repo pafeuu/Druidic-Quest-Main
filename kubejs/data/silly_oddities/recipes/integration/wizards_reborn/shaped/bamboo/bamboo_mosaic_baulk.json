@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cross_baulk",
+  "category": "building",
+  "pattern": [
+    "  #",
+    " # ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo_mosaic"
+    }
+  },
+  "result": {
+    "item": "silly_oddities:bamboo_mosaic_baulk",
+    "count": 6
+  }
+}
