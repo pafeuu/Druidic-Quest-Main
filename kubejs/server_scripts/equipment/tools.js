@@ -631,8 +631,8 @@ ServerEvents.recipes(event => {
 	)
 
 	toolNoSword("wizards_reborn:arcane_wood","wizards_reborn:arcane_wood_planks","wizards_reborn:arcane_wood_branch","string")
-	tool("twilightforest:ironwood","#forge:ingots/ironwood","immersiveengineering:stick_treated","#forge:rope")
-	tool("kubejs:uranium","#forge:ingots/uranium","immersiveengineering:stick_treated","#forge:rope")
+	tool("twilightforest:ironwood","#forge:ingots/ironwood","botania:livingwood_twig","#forge:rope")
+	tool("kubejs:uranium","#forge:ingots/uranium","botania:livingwood_twig","#forge:rope")
 	tool("aether:gravitite","#forge:ingots/gravitite","kubejs:heavenly_tool_handle","aether:swet_ball")
 	tool("kubejs:aluminum","#forge:ingots/aluminum","enigmaticlegacy:ender_rod","alexsmobs:shed_snake_skin")
 
@@ -1129,7 +1129,7 @@ ServerEvents.recipes(event => {
 			"R  "
 		],
 		{
-			R: "immersiveengineering:stick_treated",
+			R: "botania:livingwood_twig",
 			S: "shears",
 			B: "#forge:ingots/bronze"
 		}
@@ -1156,7 +1156,7 @@ ServerEvents.recipes(event => {
 		"BS"
 		],
 		{
-			S: "immersiveengineering:stick_treated",
+			S: "botania:livingwood_twig",
 			I: "#forge:ingots/silver",
 			B: "string"
 		}
@@ -1164,7 +1164,7 @@ ServerEvents.recipes(event => {
 
 	event.shaped("farmersdelight:iron_knife",[" I","BS"],
 		{
-			S: "immersiveengineering:stick_treated",
+			S: "botania:livingwood_twig",
 			I: "#forge:ingots/iron",
 			B: "string"
 		}

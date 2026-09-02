@@ -78,21 +78,6 @@ ServerEvents.recipes(event=>{
         )
         .light(0,15,0,15,true)
         .dayTime(true)
-
-        event.recipes.mbd2.growing()
-        .inputAura(50)
-        .duration(BaseTime*0.25)
-        .inputItems("immersiveengineering:fertilizer")
-        .inputFluids("minecraft:water 1000")
-        .chance(0.01, builder => builder
-            .inputItems(input)
-        )
-        .outputItems(output)
-        .chance(0.02, builder => builder
-            .outputItems(input)
-        )
-        .light(0,15,0,15,true)
-        .dayTime(true)
     }
 
     Ingredient.of("#minecraft:saplings").itemIds.forEach(sapling=>{

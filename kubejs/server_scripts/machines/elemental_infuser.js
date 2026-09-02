@@ -10,7 +10,6 @@ ServerEvents.recipes(event=>{
         .duration(duration)
     }
 
-    infusing("wizards_reborn:wisestone","earth",100,"quark:sturdy_stone","sturdy_stone_to_wisestone",100)
     infusing("2x wizards_reborn:wisestone","earth",200,"druidic_quest_core:sturdy_deepslate","sturdy_deepslate_to_wisestone",100)
     infusing("wizards_reborn:alchemy_glass","air",100,"#forge:glass","glass_to_alchemy_glass",100)
     

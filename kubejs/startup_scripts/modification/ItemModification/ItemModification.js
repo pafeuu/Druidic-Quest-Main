@@ -136,8 +136,6 @@ ItemEvents.modification(event => {
     "thermal:ruby_block",
     "minecraft:glowstone",
     "minecraft:glowstone_dust",
-    "immersiveengineering:ore_uranium",
-    "immersiveengineering:raw_uranium",
     "minecraft:nether_quartz_ore",
     "minecraft:quartz"
   ]
@@ -361,11 +359,7 @@ ItemEvents.modification(event => {
 
     })
 
-    event.modify("immersiveengineering:" + id + "_steel", item => {
-      item.digSpeed = 7.5,
-        item.maxDamage = -1
-      // ??+1 block range
-    })
+    
 
     event.modify("twilightforest:steeleaf_" + id, item => {
       item.maxDamage = 512
@@ -382,15 +376,9 @@ ItemEvents.modification(event => {
     item.attackDamage = 4
   })
 
-  event.modify("immersiveengineering:sword_steel", item => {
-    item.maxDamage = -1
-    // ??+1 block range
-  })
+  
 
-  event.modify("immersiveengineering:sword_steel", item => {
-    item.maxDamage = -1
-    // ??+1 block range
-  })
+  
 
   event.modify("kubejs:steel_knife", item => {
     item.maxDamage = -1
@@ -836,33 +824,6 @@ ItemEvents.modification(event => {
       item.armorToughness = 3
   })
 
-  // STEEL
-
-  event.modify("immersiveengineering:armor_steel_helmet", item => {
-    item.maxDamage = -1,
-      item.armorProtection = 3.5
-    item.armorToughness = 0
-  })
-
-  event.modify("immersiveengineering:armor_steel_chestplate", item => {
-    item.maxDamage = -1,
-      item.armorProtection = 9,
-      item.armorToughness = 0
-  })
-
-  event.modify("immersiveengineering:armor_steel_leggings", item => {
-    item.maxDamage = -1,
-      item.armorProtection = 7,
-      item.armorToughness = 0
-  })
-
-  event.modify("immersiveengineering:armor_steel_boots", item => {
-    item.maxDamage = -1,
-      item.armorProtection = 3.5,
-      item.armorToughness = 0
-  })
-
-
   // VALKYRUM
 
   event.modify("ancient_aether:valkyrum_helmet", item => {
@@ -944,10 +905,6 @@ ItemEvents.modification(event => {
     item.maxDamage = 240
   })
 
-  event.modify('immersiveengineering:glider', item => {
-    item.maxDamage = 512
-  })
-
   event.modify('minecraft:elytra', item => {
     item.maxDamage = 1024
   })
@@ -962,19 +919,19 @@ ItemEvents.modification(event => {
       item.armorProtection = 8
   })
 
-  event.modify("immersiveengineering:armor_faraday_helmet", item => {
+  event.modify("wizards_reborn:inventor_wizard_hat", item => {
     item.maxDamage = -1
   })
 
-  event.modify("immersiveengineering:armor_faraday_chestplate", item => {
+  event.modify("wizards_reborn:inventor_wizard_costume", item => {
     item.maxDamage = -1
   })
 
-  event.modify("immersiveengineering:armor_faraday_leggings", item => {
+  event.modify("wizards_reborn:inventor_wizard_trousers", item => {
     item.maxDamage = -1
   })
 
-  event.modify("immersiveengineering:armor_faraday_boots", item => {
+  event.modify("wizards_reborn:inventor_wizard_boots", item => {
     item.maxDamage = -1
   })
 

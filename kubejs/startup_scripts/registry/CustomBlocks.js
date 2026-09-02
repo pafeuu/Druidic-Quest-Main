@@ -225,7 +225,7 @@ StartupEvents.registry("block", (event) => {
         .resistance("4")
         .tagBlock("mineable/pickaxe")
         .tagBlock('minecraft:needs_stone_tool')
-        .textureAll("immersiveengineering:block/stone_decoration/blastbrick")
+        .textureAll("kubejs:block/arcane_bricks")
         .renderType('cutout')
         .box(0, 0, 0, 16, 8, 16)
         .box(3, 8, 0, 16, 12, 16)

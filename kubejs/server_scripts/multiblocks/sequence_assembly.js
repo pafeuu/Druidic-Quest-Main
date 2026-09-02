@@ -9,7 +9,7 @@ ServerEvents.recipes(e=>{
             deploying("kubejs:incomplete_blast_bricks",["kubejs:incomplete_blast_bricks","kubejs:brick_glue"]),
             deploying("kubejs:incomplete_blast_bricks",["kubejs:incomplete_blast_bricks","kubejs:blast_brick"])
         ]).transitionalItem("kubejs:incomplete_blast_bricks").loops(7)
-        .id("immersiveengineering:crafting/blastbrick")
+        
 
     assembly("kubejs:soul_core","#forge:ingots/phoenix",
         [
@@ -17,7 +17,7 @@ ServerEvents.recipes(e=>{
             deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","kubejs:enchanted_soul"]),
             deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","kubejs:death_essence"]),
             deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","kubejs:arcane_gold_plate"]),
-            deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","immersiveengineering:alloybrick"]),
+            deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","druidic_quest_core:alloy_bricks"]),
             deploying("kubejs:incomplete_soul_core",["kubejs:incomplete_soul_core","kubejs:infernal_bricks"])
         ]).transitionalItem("kubejs:incomplete_soul_core").loops(24)
 

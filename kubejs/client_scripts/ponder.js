@@ -105,7 +105,7 @@ Ponder.registry((event) => {
         scene.text(20, "Make the sapling grow to finish the craft!", [5.5, 0, 5.5]).placeNearTarget().attachKeyFrame();
         scene.idle(30)
         scene.world.replaceBlocks([2, 1, 2, 6, 1, 6], "minecraft:air", false);
-        scene.world.createItemEntity(util.vector.topOf(4.5, 1.5, 4.5), util.vector.of(0, 0, 0), "immersiveengineering:cokebrick");
+        scene.world.createItemEntity(util.vector.topOf(4.5, 1.5, 4.5), util.vector.of(0, 0, 0), "naturesaura_plus:auric_oven_brick");
         scene.text(20, "Gold powder is consumed in the process", [5.5, 0, 5.5]).placeNearTarget().attachKeyFrame();
 
     });

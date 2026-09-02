@@ -121,7 +121,6 @@ ServerEvents.recipes(event => {
 
   clickB("twilightforest:liveroot_block", ["twilightforest:root", "druidic_quest_core:nature_essence"])
   clickB("crying_obsidian", ["obsidian", "kubejs:cut_onions"])
-  clickB("immersiveengineering:slag_glass", ["glass", "thermal:slag"])
   clickB("ars_nouveau:source_jar", ["vintagedelight:fermenting_jar", "kubejs:source_alloy_ingot"])
   clickB("create:rose_quartz_block", ["minecraft:quartz_block", "minecraft:rose_bush"])
 

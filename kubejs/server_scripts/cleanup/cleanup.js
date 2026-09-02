@@ -439,14 +439,14 @@ ServerEvents.recipes(event => {
 		event.recipes.naturesaura.altar(Item.of(outputItem, 2), inputBlock, 500, 100, "kubejs:pressing_catalyst")
 	}
 
-	PlatesOnetoOne("kubejs:wooden_plate", "druidic_quest_core:treated_planks")
-	PlatesOnetoOne("kubejs:stone_plate", "minecraft:smooth_stone")
+	PlatesOnetoOne("kubejs:wooden_plate", "botania:livingwood")
+	PlatesOnetoOne("kubejs:stone_plate", "botania:livingrock")
 
 	function plates(inputItem, outputItem, inputBlock) {// Adds Plates crafting recipes to the machines
 
 		event.custom({
 			type: "lychee:block_interacting",
-			item_in: { item: "immersiveengineering:hammer" },
+			item_in: { item: "druidic_quest_core:arcanist_hammer" },
 			block_in: inputBlock,
 			post: [
 				{ type: "drop_item", item: outputItem, count: 3 },

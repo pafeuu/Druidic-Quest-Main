@@ -232,14 +232,14 @@ ServerEvents.recipes(event => {
                 "item": "string"
             },
             "C": {
-                "item": "quark:sturdy_stone"
+                "item": "wizards_reborn:wisestone"
             }
         },
         "output": {
-            "item": "immersiveengineering:hammer"
+            "item": "druidic_quest_core:arcanist_hammer"
         },
         "wissen": 250
-    }).id("immersiveengineering:crafting/hammer")
+    })
 
 
     event.custom({
@@ -684,7 +684,7 @@ ServerEvents.recipes(event => {
                 "item": "minecraft:amethyst_shard"
             },
             "S": {
-                "item": "immersiveengineering:stick_treated"
+                "item": "botania:livingwood_twig"
             },
             "G": {
                 "tag": "forge:ingots/gold"
@@ -798,7 +798,7 @@ ServerEvents.recipes(event => {
         ],
         "key": {
             "X": {
-                "item": "immersiveengineering:glider"
+                "item": "minecraft:leather_chestplate"
             },
             "A": {
                 "item": "ars_nouveau:air_essence"
@@ -836,7 +836,7 @@ ServerEvents.recipes(event => {
                 "item": "create:cogwheel"
             },
             "S": {
-                "item": "immersiveengineering:stick_treated"
+                "item": "botania:livingwood_twig"
             }
         },
         "output": {
@@ -1012,19 +1012,19 @@ ServerEvents.recipes(event => {
     HammerAndExcavators("kubejs:bronze_warhammer",
         "thermal:bronze_block",
         "thermal:bronze_plate",
-        "immersiveengineering:stick_treated",
+        "botania:livingwood_twig",
         "kubejs:copper_pickaxe")
 
     HammerAndExcavators("kubejs:primitive_mining_hammer",
         "twilightforest:naga_scale",
         "quark:sturdy_stone",
-        "immersiveengineering:stick_treated",
+        "botania:livingwood_twig",
         "minecraft:stone_pickaxe")
 
     HammerAndExcavators("kubejs:primitive_excavator",
         "twilightforest:naga_scale",
         "quark:sturdy_stone",
-        "immersiveengineering:stick_treated",
+        "botania:livingwood_twig",
         "minecraft:stone_shovel")
 
     HammerAndExcavators("kubejs:basic_mining_hammer",
@@ -1337,16 +1337,13 @@ ServerEvents.recipes(event => {
         "type": "wizards_reborn:arcane_workbench",
         "pattern": [
             "___",
-            "NXN",
+            "SXS",
             "S_S",
             "EEEE"
         ],
         "key": {
             "S": {
                 "tag": "handcrafted:cushions"
-            },
-            "N": {
-                "item": "immersiveengineering:cushion"
             },
             "E": {
                 "item": "ars_nouveau:air_essence"

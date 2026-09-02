@@ -9,7 +9,8 @@ JEIEvents.removeRecipes(event => {
 })
 
 JEIEvents.information(event => {
-
+  event.addItem('botania:ender_eye_block', ["Emits redstone singal of strength 15 when looked at"])
+  event.addItem('quark:ender_watcher', ["Emits redstone singal when looked at. Strength depends of how close to the center you look at"])
     event.addItem("kubejs:charged_copper_block", ["Created when Copper Block or Waxed Copper Block is struck by lightning"])
     event.addItem("naturesaura:birth_spirit", ["Obtained by breeding animals in an area with high aura"])
     event.addItem("immersive_weathering:ivy", ["Found in forest biomes hanging from some trees"])
@@ -73,7 +74,7 @@ JEIEvents.information(event => {
     event.addItem("irons_spellbooks:mithril_ore", ["Found near y-20 in the twilight forest"])
     event.addItem("thermal:cinnabar_ore", ["Found in Nether Geodes"])
     event.addItem("rubinated_nether:molten_ruby_ore", ["Found in Nether Geodes and Magma Veins"])
-    event.addItem("immersiveengineering:ore_uranium", ["Found in Uranium Pillars in Nether Wastes Biome"])
+    event.addItem("druidic_quest_core:uranium_ore", ["Found in Uranium Pillars in Nether Wastes Biome"])
     event.addItem("thermal:sulfur_ore", ["Found in Basalt Deltas"])
 
     event.addItem('supplementaries:music_disc_heave_ho', ["Obtained by killing a Creeper with a Cannonball"])
@@ -86,7 +87,10 @@ JEIEvents.information(event => {
 
     event.addItem("deep_aether:medal_of_honor", ["Drops from Valkyrie Queen after deafeating her without taking a single hit"])
 
-    event.addItem(['kubejs:corrupted_soul', 'quark:soul_bead', 'kubejs:enchanted_soul'], ["Drops from certain mobs when using soul harvester weapon or holding bejeweled crucifix in the offhand"])
+    event.addItem(['kubejs:corrupted_soul',   'quark:soul_bead', 'kubejs:enchanted_soul'], ["Drops from certain mobs when using soul     harvester weapon or holding bejeweled crucifix in the offhand"])
+    
+    event.addItem('fruitsdelight:pineapple_sapling', ["Planted on sand blocks"])
+    
 
 })
 

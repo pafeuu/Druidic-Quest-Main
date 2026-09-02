@@ -20,17 +20,8 @@ ClientEvents.lang("en_us", event => {
     event.renameItem('enigmaticlegacy:infinimeal', 'Eternal Fertilizer')
     event.renameItem('enigmaticlegacy:evil_essence', 'Aspect of Evil')
     event.renameItem("enigmaticlegacy:ender_rod","Ender Tool Handle")
-
-    event.renameItem("immersiveengineering:fluid_pipe", "Iron Fluid Pipe")
-    event.renameItem("immersiveengineering:dust_steel","Stainless Steel Dust")
-    event.renameItem("immersiveengineering:plate_steel","Stainless Steel Plate")
-    event.renameItem("immersiveengineering:nugget_steel","Stainless Steel Nugget")
-    event.renameItem("immersiveengineering:storage_steel","Stainless Steel Block")
-    event.renameItem("immersiveengineering:slab_storage_steel","Stainless Steel Slab")
-    event.renameItem("immersiveengineering:stick_steel","Stainless Steel Rod")
   
     event.renameItem("quark:copper_pipe", "Copper Item Pipe")
-    event.renameItem("immersiveengineering:ingot_steel","Stainless Steel Ingot")
 
     event.renameBlock("wizards_reborn:fluid_pipe","Wisestone Fluid Pipe")
     event.renameBlock("wizards_reborn:fluid_extractor","Wisestone Fluid Extractor")
@@ -47,7 +38,6 @@ ClientEvents.lang("en_us", event => {
     event.renameBlock("biomeswevegone:sandy_dirt","Sturdy Sand")
     event.renameBlock("biomeswevegone:sandy_dirt_path","Sturdy Sand Path")
     event.renameBlock("biomeswevegone:sandy_farmland","Sturdy Sand Farmland")
-    event.renameBlock("immersiveengineering:redstone_acid_fluid_block","Redstone Acid")
 
     event.renameItem("create:dough","Sweet Dough")
 

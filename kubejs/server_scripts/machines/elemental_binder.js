@@ -225,34 +225,4 @@ ServerEvents.recipes(event=>{
         "etherium_gold_parts"
     )
 
-    binding("immersiveengineering:component_iron","earth",2500,
-        "create:electron_tube",
-        "#forge:rods/iron",
-        "piston",
-        "immersiveengineering:connector_redstone",
-        "#forge:rods/iron",
-        "piston",
-        "immersiveengineering:connector_redstone",
-        "thermal:sapphire",
-        "immersiveengineering:crafting/component_iron",
-        "iron_component"
-    )
-
-    binding("immersiveengineering:component_steel","earth",2500,
-        "create:electron_tube",
-        "#forge:rods/steel",
-        "piston",
-        "immersiveengineering:connector_redstone",
-        "#forge:rods/steel",
-        "piston",
-        "immersiveengineering:connector_redstone",
-        "thermal:ruby",
-        "immersiveengineering:crafting/component_steel",
-        "steel_component"
-    )
-
-   
-
-    event.remove([{id:"immersiveengineering:blueprint/component_iron"},{id:"immersiveengineering:blueprint/component_steel"}])
-
 })

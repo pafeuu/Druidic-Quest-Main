@@ -528,7 +528,7 @@
 							itemCount: 16
 							storedItem: {
 								Count: 1b
-								id: "immersiveengineering:seed"
+								id: "supplementaries:flax_seeds"
 							}
 						}
 					}
@@ -1172,30 +1172,20 @@
 			]
 			hide_details_until_startable: false
 			hide_until_deps_visible: false
-			icon: "immersiveengineering:coke_oven"
+			icon: "naturesaura_plus:auric_oven_brick"
 			id: "51966AE20559FFA0"
-			rewards: [
-				{
-					id: "29DC6958A4800B95"
-					item: "thermal:netherite_coin"
-					type: "item"
-				}
-				{
-					id: "00FEE0CB37CD6321"
-					item: "immersiveengineering:manual"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "29DC6958A4800B95"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Heatin' Up!"
 			tasks: [{
 				count: 27L
 				id: "7DE2C8EC522E5848"
-				item: {
-					Count: 27
-					id: "immersiveengineering:cokebrick"
-				}
+				item: "naturesaura_plus:auric_oven_brick"
 				type: "item"
 			}]
 			title: "The Big Oven"
@@ -1356,37 +1346,25 @@
 		}
 		{
 			dependencies: ["3D782DAACBB5DE87"]
-			description: [
-				"The &b&lArcanum Pylon&r&r takes xp from a player who right clicks it with certain items in hand."
-				""
-				"It will take any log and approximately 1 lvl to obtain 1 arcane wood log."
-			]
-			icon: "kubejs:arcanum_pylon"
+			description: ["The Pure Daisy will convert placed logs around it (including diagonally) into arcane wood logs after 1 minute."]
+			icon: "botania:pure_daisy"
 			id: "093161CA8E0381C0"
-			rewards: [
-				{
-					count: 4
-					id: "272D3683672164AE"
-					item: "wizards_reborn:arcane_wood_branch"
-					type: "item"
-				}
-				{
-					id: "56AC5A9CB5791D91"
-					item: "minecraft:birch_sapling"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "56AC5A9CB5791D91"
+				item: "minecraft:birch_sapling"
+				type: "item"
+			}]
 			subtitle: "Magic Wood"
 			tasks: [
 				{
 					id: "04635584CE7DCF6A"
-					item: "kubejs:arcanum_pylon"
+					item: "botania:pure_daisy"
 					type: "item"
 				}
 				{
-					count: 5L
+					count: 8L
 					id: "31BC8EFBE25D2D59"
-					item: { Count: 4, id: "wizards_reborn:arcane_wood_log" }
+					item: "wizards_reborn:arcane_wood_log"
 					type: "item"
 				}
 			]
@@ -1542,10 +1520,10 @@
 			shape: "rsquare"
 			subtitle: "Pound it!"
 			tasks: [{
-				id: "4AEB70C69BA35CA1"
+				id: "689B997BCC77B0D9"
 				item: {
 					Count: 1
-					id: "immersiveengineering:hammer"
+					id: "druidic_quest_core:arcanist_hammer"
 					tag: {
 						Damage: 0
 					}

@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
 
     MillingWithExtras(1, 'create:wheat_flour', 2, 1, 'create:wheat_flour', 0.5, 'minecraft:wheat', 2, 'create:milling/wheat')
     MillingWithExtras(1, "vintagedelight:raw_oats", 2, 1, "vintagedelight:raw_oats", 0.5, 'vintagedelight:oat', 2, 'vintagedelight:create/milling/oat')
-    event.remove({id:"vintagedelight:immersiveengineering/crusher/oat"})
+    
     
     MillingWithExtras(2, 'naturesaura:gold_powder', 4, 2, 'naturesaura:gold_powder', 0.5, 'naturesaura:gold_leaf', 1, 'naturesaura:gold_powder')
     event.remove({id:"naturesaura:altar/gold_powder"})

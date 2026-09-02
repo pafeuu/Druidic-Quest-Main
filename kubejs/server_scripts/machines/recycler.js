@@ -91,13 +91,13 @@ ServerEvents.recipes(event=>
         .duration(200)
     }
 
-    ToolRecycling("minecraft","iron","iron_ingot","immersiveengineering:stick_treated")
+    ToolRecycling("minecraft","iron","iron_ingot","botania:livingwood_twig")
     ToolRecycling("minecraft","diamond","diamond","kubejs:zinc_tool_handle")
-    ToolRecycling("kubejs","copper","copper_ingot","immersiveengineering:stick_treated")
-    ToolRecycling("kubejs","silver","thermal:silver_ingot","immersiveengineering:stick_treated")
-    ToolRecycling("kubejs","lead","thermal:lead_ingot","immersiveengineering:stick_treated")
+    ToolRecycling("kubejs","copper","copper_ingot","botania:livingwood_twig")
+    ToolRecycling("kubejs","silver","thermal:silver_ingot","botania:livingwood_twig")
+    ToolRecycling("kubejs","lead","thermal:lead_ingot","botania:livingwood_twig")
     ToolRecycling("wizards_reborn","arcane_wood","wizards_reborn:arcane_wood_planks","wizards_reborn:arcane_wood_branch")
-    ToolRecycling("twilightforest","ironwood","twilightforest:ironwood_ingot","immersiveengineering:stick_treated")
+    ToolRecycling("twilightforest","ironwood","twilightforest:ironwood_ingot","botania:livingwood_twig")
 
     ArmorRecycling("minecraft","iron","thermal:iron_plate")
     ArmorRecycling("minecraft","chainmail","chain")
@@ -116,7 +116,7 @@ ServerEvents.recipes(event=>
     
     global.colors.forEach(color => {
         
-        RecyclingWith2(color+"_bed","4x handcrafted:"+color+"_sheet",'immersiveengineering:cushion')
+        RecyclingWith2(color+"_bed","1x handcrafted:"+color+"_sheet","1x handcrafted:"+color+"_cushion")
         
     });
 

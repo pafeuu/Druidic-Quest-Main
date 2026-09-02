@@ -630,6 +630,16 @@
 			x: 0.0d
 			y: 15.0d
 		}
+		{
+			id: "3891F7E8C10DDD59"
+			tasks: [{
+				id: "53D79BB4AC3A7421"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
 	]
 	title: "Storage"
 }

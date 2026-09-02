@@ -1,5 +1,5 @@
 StartupEvents.registry('fluid', event => {
-    
+
   event.create('fire_element_fluid')
     .thickTexture(0xff8000)
     .bucketColor(0xff8000)
@@ -14,7 +14,7 @@ StartupEvents.registry('fluid', event => {
     .thickTexture(0x563311)
     .bucketColor(0x563311)
     .rarity("rare")
-  
+
   event.create('water_element_fluid')
     .thickTexture(0x15159a)
     .bucketColor(0x15159a)
@@ -23,6 +23,10 @@ StartupEvents.registry('fluid', event => {
   event.create("pizza_sauce")
     .thickTexture(0xff0000)
     .bucketColor(0xff0000)
-    
+
+  event.create('liquid_coal_essence')
+    .thinTexture(0x18181a)
+    .bucketColor(0x18181a)
+
 
 })

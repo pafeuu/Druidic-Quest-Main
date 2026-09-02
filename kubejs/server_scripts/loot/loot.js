@@ -21,7 +21,7 @@ LootJS.modifiers((event) => {
         .replaceLoot("minecraft:jungle_sapling","2x immersive_weathering:mulch_block")
         .replaceLoot("minecraft:cherry_sapling","3x immersive_weathering:mulch_block")
         .replaceLoot("minecraft:cobbled_deepslate","alexsmobs:rocky_shell")
-        .replaceLoot(/.*carpet.*/,"immersiveengineering:hemp_fabric")
+        .replaceLoot(/.*carpet.*/,"farmersdelight:canvas")
         .replaceLoot("minecraft:rotten_flesh","immersive_weathering:mulch_block")
         .replaceLoot("minecraft:sand","farmersdelight:cod_roll")
         .replaceLoot("minecraft:stick","farmersdelight:organic_compost")
@@ -351,10 +351,6 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier("#minecraft:logs")
     .randomChance(0.005)
     .addLoot("kubejs:steeleaf_upgrade_smithing_template")
-
-    event.addLootTableModifier("immersiveengineering:chests/engineers_house")
-    .randomChance(0.25)
-    .addLoot("kubejs:engineer_upgrade_smithing_template")
 
     event.addLootTableModifier(/.*idas:chests\/tinkers_workshop\/tinkers_workshop.*/)
     .randomChance(0.25)

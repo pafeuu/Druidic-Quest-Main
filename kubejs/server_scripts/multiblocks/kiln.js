@@ -162,13 +162,13 @@ ServerEvents.recipes(event=>{
 	
 	kilnWith3Ingredients("thermal:electrum_ingot",
 		"4x kubejs:lightning_essence",
-		"immersiveengineering:ingot_aluminum",
+		"druidic_quest_core:platinum_ingot",
 		"wizards_reborn:arcane_gold_ingot")
 
-	kilnWith3Ingredients("immersiveengineering:ingot_steel",
+	/*kilnWith3Ingredients("stainless steel?",
 		"druidic_quest_core:steel_ingot",
-		"immersiveengineering:ingot_aluminum",
-		"8x kubejs:infused_amethyst")
+		"druidic_quest_core:platinum_ingot",
+		"8x kubejs:infused_amethyst")*/
 
 	/*arcFurnace("kubejs:arcane_plating","4x kubejs:arcane_gold_plate",["4x netherite_ingot","8x thermal:ruby"])
 	
@@ -178,8 +178,8 @@ ServerEvents.recipes(event=>{
 
 	arcFurnace("deep_aether:stratus_ingot","16x kubejs:infused_amethyst",["16x kubejs:infused_diamond","16x thermal:ruby","16x thermal:sapphire","16x kubejs:infused_emerald"])
 
-	arcFurnace("2x immersiveengineering:ingot_steel","druidic_quest_core:steel_ingot",[
-		"immersiveengineering:ingot_aluminum",
+	arcFurnace("2x stainless steel?","druidic_quest_core:steel_ingot",[
+		"druidic_quest_core:platinum_ingot",
 		"8x kubejs:infused_amethyst",
 		"thermal:nickel_ingot"
 	])*/

@@ -159,7 +159,7 @@ ServerEvents.recipes((event) => {
 
     spawn("alexsmobs:hammerhead_shark",
         ["naturesaura:birth_spirit",
-            "immersiveengineering:hammer",
+            "druidic_quest_core:arcanist_hammer",
             "#minecraft:fishes"], RegularAnimalAuraCost, 60)
 
     spawn("alexsmobs:toucan",

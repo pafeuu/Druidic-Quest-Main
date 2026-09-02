@@ -266,7 +266,7 @@ ServerEvents.recipes(event => {
 
 	event.remove({ id: 'naturesaura:gold_fiber' })
 
-	/*event.shaped("3x immersiveengineering:cokebrick",
+	event.shaped("3x naturesaura_plus:auric_oven_brick",
 		[
 			"CSC",
 			"GBG",
@@ -278,7 +278,7 @@ ServerEvents.recipes(event => {
 			G: "gravel",
 			S: "clay",
 			B: "kubejs:brick_glue"
-		}).damageIngredient("kubejs:brick_glue", 3)*/
+		}).damageIngredient("kubejs:brick_glue", 3)
 
 
 	/// ======================================================================= Tier 0 Components ========================================================================
@@ -294,18 +294,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("rehooked:wood_chain")
 
-	event.shaped("8x wizards_reborn:wisestone",
-		[
-			"SSS",
-			"SXS",
-			"SSS"
-		],
-		{
-			X: "wizards_reborn:arcanum",
-			S: "quark:sturdy_stone"
-		}
-	).id("wizards_reborn:arcane_workbench/wisestone")
-
 	event.shaped("4x supplementaries:rope",
 		[
 			" SF",
@@ -315,7 +303,7 @@ ServerEvents.recipes(event => {
 		{
 			S: "string",
 			F: "supplementaries:flax",
-			X: "immersiveengineering:hemp_fabric"
+			X: "farmersdelight:canvas"
 		}
 	).id("supplementaries:rope")
 
@@ -327,7 +315,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			R: "#forge:rope",
-			X: "immersiveengineering:cushion"
+			X: "farmersdelight:canvas"
 		}
 	).id("farmersdelight:safety_net")
 
@@ -847,7 +835,7 @@ ServerEvents.recipes(event => {
 			"XSX"
 		],
 		{
-			S: "immersiveengineering:hemp_fabric",
+			S: "farmersdelight:canvas",
 			X: "kubejs:pipe_sealant"
 		}).id("thermal:diving_fabric")
 
@@ -1247,7 +1235,7 @@ ServerEvents.recipes(event => {
 		{
 			G: "#forge:rods/gold",
 			T: "redstone_torch",
-			S: "immersiveengineering:stick_treated",
+			S: "druidic_quest_core:treated_stick",
 			C: "supplementaries:crank"
 		}
 	).id("create:crafting/kinetics/controller_rail")
@@ -1260,7 +1248,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			G: "#forge:rods/iron",
-			S: "immersiveengineering:stick_treated"
+			S: "druidic_quest_core:treated_stick"
 		}
 	).id("minecraft:rail")
 
@@ -1272,7 +1260,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			G: "#forge:rods/iron",
-			S: "immersiveengineering:stick_treated",
+			S: "druidic_quest_core:treated_stick",
 			P: "stone_pressure_plate"
 		}
 	).id("minecraft:detector_rail")
@@ -1285,7 +1273,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			G: "#forge:rods/iron",
-			S: "immersiveengineering:stick_treated",
+			S: "druidic_quest_core:treated_stick",
 			P: "redstone"
 		}
 	).id("minecraft:activator_rail")
@@ -1299,7 +1287,7 @@ ServerEvents.recipes(event => {
 		{
 			G: "#forge:rods/gold",
 			T: "redstone_torch",
-			S: "immersiveengineering:stick_treated"
+			S: "druidic_quest_core:treated_stick"
 		}
 	).id("minecraft:powered_rail")
 
@@ -1704,7 +1692,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			B: "#forge:plates/brass",
-			X: "immersiveengineering:connector_probe",
+			X: "druidic_quest_core:primitive_machine",
 			Z: "observer"
 		}
 	).id("create:crafting/logistics/content_observer")
@@ -1848,12 +1836,13 @@ ServerEvents.recipes(event => {
 
 	event.shaped("create:andesite_tunnel",
 		[
-			"AAA",
+			"ABA",
 			"ACA"
 		],
 		{
 			A: "andesite",
-			C: 'immersiveengineering:strip_curtain'
+			B: "woodenhopper:wooden_hopper",
+			C: 'leather'
 		}
 	).id("create:crafting/logistics/andesite_tunnel")
 
@@ -1931,8 +1920,8 @@ ServerEvents.recipes(event => {
 			C: "#forge:gears/copper",
 			L: "#forge:plates/lead",
 			M: "druidic_quest_core:primitive_machine",
-			Z: "immersiveengineering:fluid_pipe",
-			X: "immersiveengineering:fluid_pump"
+			Z: "wizards_reborn:fluid_pipe",
+			X: "wizards_reborn:fluid_extractor"
 		}
 	).id("thermal:device_water_gen")
 
@@ -2226,7 +2215,7 @@ ServerEvents.recipes(event => {
 			T: 'naturesaura:token_joy',
 			M: 'druidic_quest_core:primitive_machine',
 			P: 'naturesaura:ancient_planks',
-			C: 'immersiveengineering:craftingtable'
+			C: "minecraft:crafting_table"
 		}
 	)
 
@@ -2408,7 +2397,7 @@ ServerEvents.recipes(event => {
 		{
 			P: '#forge:treated_wood',
 			S: 'minecraft:smooth_stone',
-			F: 'immersiveengineering:treated_fence'
+			F: "botania:livingwood_fence"
 		}
 	)
 
@@ -2424,7 +2413,7 @@ ServerEvents.recipes(event => {
 			B: '#forge:books',
 			Q: 'minecraft:writable_book',
 			P: '#forge:treated_wood_slab',
-			F: 'immersiveengineering:treated_fence'
+			F: "botania:livingwood_fence"
 		}
 	)
 
@@ -2788,14 +2777,14 @@ ServerEvents.recipes(event => {
 
 	event.remove({ output: 'create:belt_connector' })
 	event.shaped(
-		Item.of('create:belt_connector'),
+		Item.of('2x create:belt_connector'),
 		[
 			'PPP',
 			'PMP',
 			'PPP'
 		],
 		{
-			P: "immersiveengineering:conveyor_basic",
+			P: "botania:light_relay",
 			M: 'thermal:cured_rubber',
 		}
 	)
@@ -2816,7 +2805,7 @@ ServerEvents.recipes(event => {
 
 	/// ======================================== Tier 2 Components ================================================================
 
-	event.shapeless("2x thermal:phytogro", ["create:tree_fertilizer", "immersiveengineering:fertilizer", "wizards_reborn:flower_fertilizer", "thermal:apatite_dust"])
+	event.shapeless("2x thermal:phytogro", ["create:tree_fertilizer", "botania:fertilizer", "wizards_reborn:flower_fertilizer", "thermal:apatite_dust"])
 
 	event.shapeless("2x thermal:phytogro", ["thermal:phytogro", "3x thermal:apatite_dust"])
 
@@ -2863,7 +2852,7 @@ ServerEvents.recipes(event => {
 		{
 			P: "#forge:plates/arcanum_alloy",
 			L: "#forge:plates/lead",
-			X: "immersiveengineering:fluid_pump"
+			X: "wizards_reborn:fluid_extractor"
 		}
 	)
 
@@ -3195,7 +3184,7 @@ ServerEvents.recipes(event => {
 			W: "ars_nouveau:water_essence",
 			T: "create:fluid_tank",
 			X: "kubejs:magic_machine",
-			P: "immersiveengineering:fluid_pump"
+			P: "thermal:device_water_gen"
 		}
 	).id("naturesaura:spring")
 
@@ -3234,7 +3223,7 @@ ServerEvents.recipes(event => {
 			"AYA"
 		],
 		{
-			P: "immersiveengineering:hammer",
+			P: "druidic_quest_core:arcanist_hammer",
 			A: "minecraft:anvil",
 			G: "#forge:gears/source_alloy",
 			Y: "#forge:gears/arcanum_alloy",
@@ -3595,23 +3584,6 @@ ServerEvents.recipes(event => {
 			G: "#forge:plates/arcanum_alloy"
 		}
 	)
-
-	/*
-	event.shaped(
-		Item.of('elementalcraft:extractor'), 
-		[
-		  'CAC',
-		  'AMA',
-		  'CXC'
-		],
-		{
-		  M: "kubejs:basic_magic_machine",
-		  X: "immersiveengineering:fluid_pump",
-		  C: 'kubejs:carbon_infused_sturdy_handle',
-		  A: '#forge:plates/arcanum_alloy',
-		}
-	).id("elementalcraft:extractor")
-	*/
 
 	event.shaped(
 		Item.of('mbd2:elemental_infuser'),
@@ -4087,7 +4059,7 @@ ServerEvents.recipes(event => {
 		{
 			P: "#forge:plates/uranium",
 			F: "ars_nouveau:fire_essence",
-			X: "immersiveengineering:cokebrick"
+			X: "naturesaura_plus:auric_oven_brick"
 		}
 	)
 
@@ -4131,7 +4103,7 @@ ServerEvents.recipes(event => {
 			B: "#forge:plates/bronze",
 			F: "ars_nouveau:fire_essence",
 			X: "minecraft:blast_furnace",
-			K: "immersiveengineering:alloybrick"
+			K: "druidic_quest_core:alloy_bricks"
 		}
 	)
 
@@ -4259,7 +4231,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A: "andesite",
-			C: "immersiveengineering:conveyor_extract"
+			C: "woodenhopper:wooden_hopper"
 		}
 	).id("create:crafting/logistics/andesite_funnel")
 

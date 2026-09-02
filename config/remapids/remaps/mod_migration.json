@@ -13,36 +13,296 @@
         {
             "source": "kubejs:sturdy_deepslate",
             "target": "druidic_quest_core:sturdy_deepslate",
-            "types": ["item"]
+            "types": ["item","block"]
         },
         {
             "source": "kubejs:primitive_machine",
             "target": "druidic_quest_core:primitive_machine",
-            "types": ["item"]
+            "types": ["item","block"]
         },
         {
             "source": "kubejs:gold_leaf_block",
             "target": "druidic_quest_core:gold_leaf_block",
-            "types": ["item"]
+            "types": ["item","block"]
         },
         {
             "source": "kubejs:packed_planks",
             "target": "druidic_quest_core:packed_planks",
-            "types": ["item"]
+            "types": ["item","block"]
         },
         {
             "source": "kubejs:stacked_planks",
             "target": "druidic_quest_core:stacked_planks",
-            "types": ["item"]
+            "types": ["item","block"]
         },
         {
             "source": "kubejs:stacked_planks",
             "target": "druidic_quest_core:polished_planks",
-            "types": ["item"]
+            "types": ["item","block"]
         },
         {
             "source": "kubejs:ivy_block",
             "target": "druidic_quest_core:ivy_block",
+            "types": ["item","block"]
+        },
+        {
+            "source": "kubejs:arcanum_pylon",
+            "target": "botania:floating_pure_daisy",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:ore_uranium",
+            "target": "druidic_quest_core:uranium_ore",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:raw_block_uranium",
+            "target": "druidic_quest_core:raw_uranium_block",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:storage_uranium",
+            "target": "druidic_quest_core:",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:raw_uranium",
+            "target": "druidic_quest_core:raw_uranium",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:ingot_uranium",
+            "target": "druidic_quest_core:uranium_ingot",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:nugget_uranium",
+            "target": "druidic_quest_core:uranium_nugget",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:uranium_plate",
+            "target": "druidic_quest_core:uranium_plate",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:uranium_gear",
+            "target": "druidic_quest_core:uranium_gear",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:uranium_rod",
+            "target": "druidic_quest_core:uranium_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:stick_treated",
+            "target": "botania:livingwood_twig",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:treated_fence",
+            "target": "botania:livingwood_fence",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:treated_scaffold",
+            "target": "botania:livingwood_planks",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:treated_wood_horizontal",
+            "target": "botania:livingwood_planks",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:treated_wood_vertical",
+            "target": "botania:livingwood_planks",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:treated_wood_packaged",
+            "target": "botania:livingwood_planks",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:slab_treated_wood_horizontal",
+            "target": "botania:livingwood_slab",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:slab_treated_wood_vertical",
+            "target": "botania:livingwood_slab",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:slab_treated_wood_packaged",
+            "target": "botania:livingwood_slab",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:stairs_treated_wood_horizontal",
+            "target": "botania:livingwood_stairs",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:stairs_treated_wood_vertical",
+            "target": "botania:livingwood_stairs",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:stairs_treated_wood_packaged",
+            "target": "botania:livingwood_stairs",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:cokebrick",
+            "target": "naturesaura_plus:auric_oven_brick",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:ore_aluminum",
+            "target": "druidic_quest_core:platinum_ore",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:storage_aluminum",
+            "target": "druidic_quest_core:platinum_block",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:raw_block_aluminum",
+            "target": "druidic_quest_core:raw_platinum_block",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:nugget_aluminum",
+            "target": "druidic_quest_core:platinum_nugget",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:ingot_aluminum",
+            "target": "druidic_quest_core:platinum_ingot",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:raw_aluminum",
+            "target": "druidic_quest_core:raw_platinum",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:aluminum_gear",
+            "target": "druidic_quest_core:platinum_gear",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:aluminum_rod",
+            "target": "druidic_quest_core:platinum_rod",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:aluminum_plate",
+            "target": "druidic_quest_core:platinum_plate",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:aluminum_hoe",
+            "target": "druidic_quest_core:platinum_hoe",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:aluminum_sword",
+            "target": "druidic_quest_core:platinum_sword",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:aluminum_shovel",
+            "target": "druidic_quest_core:platinum_shovel",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:aluminum_pickaxe",
+            "target": "druidic_quest_core:platinum_pickaxe",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:aluminum_axe",
+            "target": "druidic_quest_core:platinum_axe",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:pickaxe_steel",
+            "target": "druidic_quest_core:steel_pickaxe",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:axe_steel",
+            "target": "druidic_quest_core:steel_axe",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:shovel_steel",
+            "target": "druidic_quest_core:steel_shovel",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:hoe_steel",
+            "target": "druidic_quest_core:steel_hoe",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:sword_steel",
+            "target": "druidic_quest_core:steel_sword",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:armor_steel_helmet",
+            "target": "druidic_quest_core:steel_helmet",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:armor_steel_chestplate",
+            "target": "druidic_quest_core:steel_chestplate",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:armor_steel_leggings",
+            "target": "druidic_quest_core:steel_leggings",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:armor_steel_boots",
+            "target": "druidic_quest_core:steel_boots",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:armor_faraday_helmet",
+            "target": "wizards_reborn:inventor_wizard_hat",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:armor_faraday_chestplate",
+            "target": "wizards_reborn:inventor_wizard_costume",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:armor_faraday_leggings",
+            "target": "wizards_reborn:inventor_wizard_trousers",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:armor_faraday_boots",
+            "target": "wizards_reborn:inventor_wizard_boots",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:seed",
+            "target": "supplementaries:flax_seeds",
+            "types": ["item"]
+        },
+        {
+            "source": "immersiveengineering:hemp_fiber",
+            "target": "supplementaries:flax",
             "types": ["item"]
         }
     ]

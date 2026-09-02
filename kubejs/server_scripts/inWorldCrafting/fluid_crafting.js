@@ -10,7 +10,6 @@ ServerEvents.recipes(event=>{
 
     const SoundEffectWaterSplash = {type: "execute",command: "playsound minecraft:ambient.underwater.exit neutral @p",hide: true}
 
-    const SoundEffectElectric = {type: "execute",command: "playsound immersiveengineering:spark neutral @p",hide: true}
 
     function ItemFluidCrafting(fluid,amount, output, ingredients, particle, sound, condition) {
 
@@ -20,7 +19,10 @@ ServerEvents.recipes(event=>{
         const recipe = {
             type: "lychee:item_inside",
             item_in: itemInputs,
-            block_in: fluid,
+            block_in: {
+			blocks: [fluid],
+			state: {level: 0}
+            },
             post: [
                 //{ type: "delay", s: 1 },
                 { type: "drop_item", item: output, count: amount },
@@ -65,20 +67,6 @@ ServerEvents.recipes(event=>{
         event.custom(recipe);
     }
 
-    event.remove({id:"immersiveengineering:crafting/wirecoil_redstone"})
-    ItemFluidCrafting("immersiveengineering:redstone_acid_fluid_block",4,"immersiveengineering:wirecoil_redstone",[
-        {item:"immersiveengineering:wirecoil_structure_rope"},
-        {item:"immersiveengineering:wirecoil_structure_rope"},
-        {item:"immersiveengineering:wirecoil_structure_rope"},
-        {item:"immersiveengineering:wirecoil_structure_rope"},
-    ],ParticleRedstone,SoundEffectElectric)
-
-    FluidCrafting("water","immersiveengineering:redstone_acid_fluid_block",[
-        {tag:"forge:gems/sulfur"},
-        {tag:"forge:gems/sulfur"},
-        {tag:"forge:storage_blocks/redstone"},
-        {tag:"forge:storage_blocks/redstone"},
-    ],ParticleRedstone,SoundEffectElectric)
 
     ItemFluidCrafting("water",2,"farmersdelight:wheat_dough",[
         {item:"create:wheat_flour"},
@@ -100,5 +88,26 @@ ServerEvents.recipes(event=>{
         {tag:"c:eggs"},
     ],ParticleSuccess,SoundEffectWaterSplash)
 
-    event.remove([{id:"immersiveengineering:mixer/redstone_acid"},{id:"immersiveengineering:crafting/redstone_acid"}])
+    ItemFluidCrafting("kubejs:liquid_coal_essence",4,"botania:livingrock",[
+        {item:"wizards_reborn:wisestone"},
+        {item:"wizards_reborn:wisestone"},
+        {item:"wizards_reborn:wisestone"},
+        {item:"wizards_reborn:wisestone"}
+    ],ParticleSuccess,SoundEffectWaterSplash)
+
+    ItemFluidCrafting("kubejs:liquid_coal_essence",1,"botania:livingwood_log",[
+        {item:"wizards_reborn:arcane_wood_log"}
+    ],ParticleSuccess,SoundEffectWaterSplash)
+
+    ItemFluidCrafting("kubejs:liquid_coal_essence",1,"botania:stripped_livingwood_log",[
+        {item:"wizards_reborn:stripped_arcane_wood_log"}
+    ],ParticleSuccess,SoundEffectWaterSplash)
+
+    ItemFluidCrafting("kubejs:liquid_coal_essence",1,"botania:livingwood",[
+        {item:"wizards_reborn:arcane_wood"}
+    ],ParticleSuccess,SoundEffectWaterSplash)
+
+    ItemFluidCrafting("kubejs:liquid_coal_essence",1,"botania:stripped_livingwood",[
+        {item:"wizards_reborn:stripped_arcane_wood"}
+    ],ParticleSuccess,SoundEffectWaterSplash)
 })

@@ -27,7 +27,7 @@ ServerEvents.recipes(event=>{
     event.custom({
         "type": "apotheosis:spawner_modifier",
         "mainhand": {
-            "item": "immersiveengineering:earmuffs"
+            "tag": "minecraft:wool"
         },
         "stat_changes": [{
             "id": "silent",

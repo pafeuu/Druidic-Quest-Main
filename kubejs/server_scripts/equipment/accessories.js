@@ -256,7 +256,7 @@ ServerEvents.recipes(event => {
         ],
         {
             T: tip,
-            S: "immersiveengineering:stick_treated",
+            S: "botania:livingwood_twig",
             F: "#forge:feathers"
         }
         )

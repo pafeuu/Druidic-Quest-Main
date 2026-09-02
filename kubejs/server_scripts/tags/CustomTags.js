@@ -15,19 +15,15 @@ ServerEvents.tags("item", (e) => {
   
   e.add("dq:unbreakables", [
     "kubejs:capturing_gem",
-    "immersiveengineering:armor_steel_helmet",
-    "immersiveengineering:armor_steel_chestplate",
-    "immersiveengineering:armor_steel_leggings",
-    "immersiveengineering:armor_steel_boots",
-    "immersiveengineering:pickaxe_steel",
-    "immersiveengineering:shovel_steel",
-    "immersiveengineering:axe_steel",
-    "immersiveengineering:hoe_steel",
-    "immersiveengineering:sword_steel",
-    'immersiveengineering:armor_faraday_helmet',
-    'immersiveengineering:armor_faraday_chestplate',
-    'immersiveengineering:armor_faraday_leggings',
-    'immersiveengineering:armor_faraday_boots',
+    "druidic_quest_core:steel_axe",
+    "druidic_quest_core:steel_pickaxe",
+    "druidic_quest_core:steel_hoe",
+    "druidic_quest_core:steel_shovel",
+    "druidic_quest_core:steel_sword",
+    "druidic_quest_core:steel_helmet",
+    "druidic_quest_core:steel_chestplate",
+    "druidic_quest_core:steel_leggings",
+    "druidic_quest_core:steel_boots",
     "create:extendo_grip",
     "kubejs:steel_knife",
     'thermal:hazmat_helmet',
@@ -208,7 +204,7 @@ ServerEvents.tags("item", (e) => {
   e.add("dq:tier0/machine", [
     "minecraft:campfire",
     "minecraft:crafting_table",
-    "immersiveengineering:cokebrick",
+    "naturesaura_plus:auric_oven_brick",
     "farmersdelight:cutting_board",
     "wizards_reborn:arcane_workbench",
     "wizards_reborn:wissen_altar",
@@ -322,10 +318,6 @@ ServerEvents.tags("item", (e) => {
     "kubejs:silver_chestplate",
     "kubejs:silver_leggings",
     "kubejs:silver_boots",
-    "immersiveengineering:armor_faraday_helmet",
-    "immersiveengineering:armor_faraday_chestplate",
-    "immersiveengineering:armor_faraday_leggings",
-    "immersiveengineering:armor_faraday_boots",
     "minecraft:chainmail_helmet",
     "minecraft:chainmail_chestplate",
     "minecraft:chainmail_leggings",
@@ -451,10 +443,6 @@ ServerEvents.tags("item", (e) => {
     "naturesaura:depth_chest",
     "naturesaura:depth_pants",
     "naturesaura:depth_shoes",
-    "immersiveengineering:armor_steel_helmet",
-    "immersiveengineering:armor_steel_chestplate",
-    "immersiveengineering:armor_steel_leggings",
-    "immersiveengineering:armor_steel_boots",
     "irons_spellbooks:netherite_mage_helmet",
     "irons_spellbooks:netherite_mage_chestplate",
     "irons_spellbooks:netherite_mage_leggings",
@@ -497,13 +485,13 @@ ServerEvents.tags("item", (e) => {
     "minecraft:stone_hoe",
     "kubejs:copper_hoe",
     "aether:holystone_hoe",
-    "immersiveengineering:steel_hoe",
   ]);
 
   e.add("dq:basic_hoes", [
     "kubejs:silver_hoe",
     "kubejs:lead_hoe",
     "minecraft:iron_hoe",
+    "druidic_quest_core:steel_hoe",
     "minecraft:golden_hoe",
     "minecraft:diamond_hoe",
     "naturesaura:infused_iron_hoe",
@@ -662,31 +650,6 @@ ServerEvents.tags("item", (e) => {
   e.add("c:salt_lanters", saltLanterns);
 
   e.add("c:salt_campfires", saltCampfires);
-
-  e.add("c:molds", [
-    "immersiveengineering:mold_plate",
-    "immersiveengineering:mold_gear",
-    "immersiveengineering:mold_rod",
-    "immersiveengineering:mold_bullet_casing",
-    "immersiveengineering:mold_wire",
-    "immersiveengineering:mold_packing_4",
-    "immersiveengineering:mold_packing_9",
-    "immersiveengineering:mold_unpacking",
-  ]);
-
-  e.add("c:gun_ammo", [
-    "immersiveengineering:wolfpack",
-    "immersiveengineering:homing",
-    "immersiveengineering:firework",
-    "immersiveengineering:flare",
-    "immersiveengineering:potion",
-    "immersiveengineering:dragons_breath",
-    "immersiveengineering:silver",
-    "immersiveengineering:he",
-    "immersiveengineering:buckshot",
-    "immersiveengineering:casull",
-    "immersiveengineering:armor_piercing",
-  ]);
 
   e.add("handcrafted:trophies", [
     "handcrafted:phantom_trophy",

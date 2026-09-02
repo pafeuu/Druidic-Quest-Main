@@ -16,7 +16,7 @@
         "provider": {
           "type": "minecraft:weighted_state_provider",
             "entries":[
-                {"data":{"Name":"immersiveengineering:ore_uranium"},"weight":1},
+                {"data":{"Name":"druidic_quest_core:uranium_ore"},"weight":1},
                 {"data":{"Name":"wizards_reborn:nether_salt_ore"},"weight":1},
                 {"data":{"Name":"minecraft:netherrack"},"weight":6}
             ]
@@ -33,7 +33,7 @@
     "leaves_provider": {
       "type": "minecraft:weighted_state_provider",
         "entries":[
-          {"data":{"Name":"immersiveengineering:ore_uranium"},"weight":1},
+          {"data":{"Name":"druidic_quest_core:uranium_ore"},"weight":1},
           {"data":{"Name":"wizards_reborn:nether_salt_ore"},"weight":1},
           {"data":{"Name":"minecraft:netherrack"},"weight":3}
         ]
@@ -44,8 +44,8 @@
     "log_provider": {
       "type": "minecraft:weighted_state_provider",
         "entries":[
-          {"data":{"Name":"immersiveengineering:ore_uranium"},"weight":9},
-          {"data":{"Name":"immersiveengineering:raw_block_uranium"},"weight":1},
+          {"data":{"Name":"druidic_quest_core:uranium_ore"},"weight":9},
+          {"data":{"Name":"druidic_quest_core:raw_uranium_block"},"weight":1},
           {"data":{"Name":"wizards_reborn:nether_salt_ore"},"weight":10},
           {"data":{"Name":"minecraft:netherrack"},"weight":60}
         ]

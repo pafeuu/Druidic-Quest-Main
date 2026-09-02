@@ -90,9 +90,6 @@ ItemEvents.modification(event=>{
     "minecraft:chest_minecart",
     "minecraft:hopper_minecart",
     'supplementaries:dispenser_minecart',
-    'immersiveengineering:minecart_woodencrate',
-    'immersiveengineering:minecart_reinforcedcrate',
-    'immersiveengineering:minecart_woodenbarrel',
     'naturesaura:mover_cart']
 
     stacking16.forEach((id)=>{

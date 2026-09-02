@@ -12,8 +12,8 @@ ServerEvents.recipes(event=>{
         ["thermal:silver_ingot","kubejs:crystalized_silver_ore","create:crushed_raw_silver"],
         ["thermal:lead_ingot","kubejs:crystalized_lead_ore","create:crushed_raw_lead"],
         ["create:zinc_ingot","kubejs:crystalized_zinc_ore","create:crushed_raw_zinc"],
-        ["immersiveengineering:ingot_uranium","kubejs:crystalized_uranium_ore","create:crushed_raw_uranium"],
-        ["immersiveengineering:ingot_aluminum","kubejs:crystalized_aluminum_ore","create:crushed_raw_aluminum"],
+        ["druidic_quest_core:uranium_ingot","kubejs:crystalized_uranium_ore","create:crushed_raw_uranium"],
+        ["druidic_quest_core:platinum_ingot","kubejs:crystalized_platinum_ore","create:crushed_raw_platinum"],
     ]
 
     materials.forEach(([ingot,crystal])=>{

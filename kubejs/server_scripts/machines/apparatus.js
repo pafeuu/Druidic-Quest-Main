@@ -40,15 +40,13 @@ ServerEvents.recipes(event=>{
         "ars_nouveau:earth_essence"
     ],"quark:diamond_heart","kubejs:elemental_core",2000)
 
-    event.remove({output:"immersiveengineering:alloybrick"})
-
     apparatus([
         "ars_nouveau:air_essence",
         "ars_nouveau:water_essence",
         "ars_nouveau:fire_essence",
         "ars_nouveau:earth_essence",
         "#forge:plates/tainted_gold"
-    ],"kubejs:magic_machine","immersiveengineering:alloybrick",5000)
+    ],"kubejs:magic_machine","druidic_quest_core:alloy_bricks",5000)
 
     apparatus([
         "naturesaura:token_joy",
@@ -59,13 +57,13 @@ ServerEvents.recipes(event=>{
     ],"kubejs:basic_magic_machine","kubejs:infusion_catalyst",5000)
 
     apparatus([
-        "immersiveengineering:hemp_fabric",
-        "immersiveengineering:hemp_fabric",
-        "immersiveengineering:hemp_fabric",
+        "botania:manaweave_cloth",
+        "botania:manaweave_cloth",
+        "botania:manaweave_cloth",
         "kubejs:arcane_leather",
         "kubejs:arcane_leather",
         "kubejs:arcane_leather",
-    ],"immersiveengineering:hemp_fabric","irons_spellbooks:magic_cloth",2500).id("irons_spellbooks:magic_cloth")
+    ],"botania:manaweave_cloth","irons_spellbooks:magic_cloth",2500).id("irons_spellbooks:magic_cloth")
 
     apparatus([
         "sophisticatedstorage:packing_tape",

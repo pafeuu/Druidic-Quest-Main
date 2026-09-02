@@ -2,10 +2,10 @@
     "lychee:block_interacting/minecraft/default": {
         "order": -5006,
         "icon": {
-            "stack": "item:immersiveengineering:hammer"
+            "stack": "item:druidic_quest_core:arcanist_hammer"
         },
         "simplified_icon": {
-            "texture": "immersiveengineering:textures/item/tool_hammer.png"
+            "texture": "druidic_quest_core:textures/item/arcanist_hammer.png"
         }
     },
     "lychee:item_exploding/minecraft/default": {

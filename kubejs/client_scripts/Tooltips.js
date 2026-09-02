@@ -19,17 +19,11 @@ ItemEvents.tooltip(tooltip => {
   })
   }*///cba to make it
 
-
-  guideBookTooltip("immersiveengineering:manual", "Immersive Engineering")
   guideBookTooltip("wizards_reborn:arcanemicon", "Wizard's Reborn")
 
   // ========================================== Texture Credits ==========================================
   tooltip.add(["kubejs:archers_glove",
-    "druidic_quest_core:rotten_flesh_block",
-    'immersiveengineering:armor_steel_helmet',
-    'immersiveengineering:armor_steel_chestplate',
-    'immersiveengineering:armor_steel_leggings',
-    'immersiveengineering:armor_steel_boots'], Text.gray("Texture by Qwerty"))
+    "druidic_quest_core:rotten_flesh_block"], Text.gray("Texture by Qwerty"))
 
   tooltip.add(["kubejs:inert_alloy_ingot",
     "kubejs:ring_travel",
@@ -208,7 +202,6 @@ ItemEvents.tooltip(tooltip => {
     "solonion:golden_lunchbox",
     "kubejs:emerald_lunchbox",
     "supplementaries:sack",
-    "immersiveengineering:crate",
     "irons_spellbooks:copper_spell_book",
     "irons_spellbooks:iron_spell_book",
     "irons_spellbooks:gold_spell_book",
@@ -403,7 +396,7 @@ ItemEvents.tooltip(tooltip => {
     }
   })
 
-  tooltip.addAdvanced(["minecraft:elytra", "immersiveengineering:glider"], (item, advanced, text) => {
+  tooltip.addAdvanced(["minecraft:elytra"], (item, advanced, text) => {
     text.add(1, [Text.of("Can't use fireworks while wearing this").blue()])
   })
 
@@ -454,7 +447,6 @@ ItemEvents.tooltip(tooltip => {
 
 
   tooltip.add("kubejs:recipe_changed", Text.red("This recipe has been changed! Check EMI for more information!"))
-  tooltip.add("immersiveengineering:cushion", Text.green("Negates fall damage"))
   tooltip.add("quark:seed_pouch", Text.green("Shift-Right Click to plant in a 3x3!"))
 
   tooltip.add("ars_nouveau:experience_gem", Text.green("Grants 3 experience points!"))
@@ -514,6 +506,12 @@ ItemEvents.tooltip(tooltip => {
   tooltip.addAdvanced(["#dq:unbreakables"],
     (item, advanced, text) => {
       text.add(1, Text.of("Unbreakable").blue())
+    })
+
+  tooltip.addAdvanced(['create:water_wheel', 'create:large_water_wheel'],
+    (item, advanced, text) => {
+      text.add(1, Text.of("Does not generate any stress units!").red())
+      text.add(2, Text.of("Can be used to move machines that do not require stress!").blue())
     })
 
   tooltip.addAdvanced([

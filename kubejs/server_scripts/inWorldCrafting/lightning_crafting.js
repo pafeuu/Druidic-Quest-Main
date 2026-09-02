@@ -92,8 +92,8 @@ ServerEvents.recipes(event=>{
     crystalizedOre("create:crushed_raw_zinc","zinc")
     crystalizedOre("create:crushed_raw_tin","tin")
 
-    crystalizedOre("immersiveengineering:raw_aluminum","aluminum")
-    crystalizedOre("immersiveengineering:raw_uranium","uranium")
+    crystalizedOre("druidic_quest_core:raw_platinum","platinum")
+    crystalizedOre("druidic_quest_core:raw_uranium","uranium")
     crystalizedOre("minecraft:raw_gold","gold")
     crystalizedOre("minecraft:raw_copper","copper")
     crystalizedOre("minecraft:raw_iron","iron")
