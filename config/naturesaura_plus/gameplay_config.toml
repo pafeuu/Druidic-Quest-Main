@@ -1,55 +1,100 @@
-#The aura cost of using the loot finder item. (Default: 100,000)
-#Range: 0 ~ 1200000
-lootFinderAuraCost = 100000
-#Maximum range (in blocks) upto which loot finder item can detect treasure. (Default: 64)
-#Range: 0 ~ 1024
-lootFinderRange = 64
-#Cooldown set on loot finder item upon use, in ticks. (Default: 1,200)
-#Range: 0 ~ 72000
-lootFinderUseCooldownInTicks = 1200
-#How long the loot finder particles stay, in ticks. (Default: 1,200)
-#Range: 0 ~ 72000
-lootFinderLightLifeInTicks = 1200
-#Levels cost required to apply Token of Fortitude to an item. (Default: 30)
-#Range: 1 ~ 1000
-breakPreventionApplyCost = 30
-#Maximum range upto which pets are selected to be teleported alongside owner upon using aura coffee. (Default: 4)
-#Range: 1 ~ 64
-petRecallRange = 4
-#Aura capacity for the Naturalist Sash. (Default: 1,200,000)
-#Range: > 1
-sashAuraCapacity = 1200000
-#Mana capacity for the Naturalist Sash. (Default: 2,000,000)
-#Range: > 1
-sashManaCapacity = 2000000
-#The aura cost per recipe for the furnace booster block. (Default: 6,500)
-#Range: 0 ~ 1000000
-furnaceBoosterAuraCost = 6500
-#Whether the furnace booster should check the input item in furnace against the tag #naturesaura_plus:valid_smeltable_to_boost,
-# to decide whether to double the smelted output or not (Default: false)
-allowAllForFurnaceBoost = false
-#The aura cost per recipe for the furnace booster block. (Default: 45)
-#Range: 0 ~ 100
-furnaceBoosterChance = 45
-#Whether the ore spawning from Powder of the Bountiful Core applies to a cubical range (else spherical range). (Default: true)
-isOreEffectCubical = true
-#The minimum environmental aura required for Powder of the Bountiful Core to function. (Default: 2,000,000)
-#Range: > 0
-minAuraForOreSpawn = 2000000
-#Maximum number of ores the Powder of the Bountiful Core attempts to place per operation. (Default: 20)
-#Range: > 1
-maxIterationForOreSpawn = 20
-#Value of oreSpawnIterationCalcScale in the formula: AuraNearby / (AuraSpotsNearby * oreSpawnIterationCalcScale),
-# to determine the number of ores the Powder of the Bountiful Core attempts to place per operation. (Default: 300,000)
-#Range: 0.0 ~ 2.147483647E9
-oreSpawnIterationCalcScale = 300000.0
-#Value of oreSpawnRangeScale in the formula: AuraNearby / oreSpawnRangeScale, to determine the range of the Powder of the Bountiful Core. (Default: 150,000)
-#Range: 1.0 ~ 2.147483647E9
-oreSpawnRangeScale = 150000.0
-#Minimum radius for range of the of the Powder of the Bountiful Core. (Default: 5)
-#Range: > 1
-minOreSpawnRange = 5
-#Maximum attempts for the Powder of the Bountiful Core to place an ore, before failing and passing. (Default: 10)
-#Range: 1 ~ 100
-maxOreSpawnRange = 10
+
+#Tools
+[Tools]
+	#Levels cost required to apply Token of Fortitude to an item. (Default: 30)
+	#Range: 1 ~ 1000
+	breakPreventionApplyCost = 30
+	#The aura cost of using the loot finder item. (Default: 100,000)
+	#Range: 0 ~ 1200000
+	lootFinderAuraCost = 100000
+	#Maximum range (in blocks) upto which loot finder item can detect treasure. (Default: 64)
+	#Range: 0 ~ 1024
+	lootFinderRange = 64
+	#Cooldown set on loot finder item upon use, in ticks. (Default: 1,200)
+	#Range: 0 ~ 72000
+	lootFinderUseCooldownInTicks = 1200
+	#How long the loot finder particles stay, in ticks. (Default: 1,200)
+	#Range: 0 ~ 72000
+	lootFinderLightLifeInTicks = 1200
+	#Maximum range upto which pets are selected to be teleported alongside owner upon using aura coffee. (Default: 4)
+	#Range: 1 ~ 64
+	petRecallRange = 4
+	#Aura capacity for the Naturalist Sash. (Default: 1,200,000)
+	#Range: > 1
+	sashAuraCapacity = 1200000
+	#Mana capacity for the Naturalist Sash. (Default: 2,000,000)
+	#Range: > 1
+	sashManaCapacity = 2000000
+
+#Furnace Booster
+[Furnace-Booster]
+	#The aura cost per recipe for the furnace booster block. (Default: 6,500)
+	#Range: 0 ~ 1000000
+	furnaceBoosterAuraCost = 6500
+	#Whether the furnace booster should check the input item in furnace against the tag #naturesaura_plus:valid_smeltable_to_boost,
+	# to decide whether to double the smelted output or not (Default: false)
+	allowAllForFurnaceBoost = false
+	#The aura cost per recipe for the furnace booster block. (Default: 45)
+	#Range: 0 ~ 100
+	furnaceBoosterChance = 45
+
+#Powder of the Bountiful Core
+[BountifulCore]
+	#Whether the ore spawning from Powder of the Bountiful Core applies to a cubical range (else spherical range). (Default: true)
+	isOreEffectCubical = true
+	#The minimum environmental aura required for Powder of the Bountiful Core to function. (Default: 2,000,000)
+	#Range: > 0
+	minAuraForOreSpawn = 2000000
+	#Maximum number of ores the Powder of the Bountiful Core attempts to place per operation. (Default: 20)
+	#Range: > 1
+	maxIterationForOreSpawn = 20
+	#Value of oreSpawnIterationCalcScale in the formula: AuraNearby / (AuraSpotsNearby * oreSpawnIterationCalcScale),
+	# to determine the number of ores the Powder of the Bountiful Core attempts to place per operation. (Default: 300,000)
+	#Range: 0.0 ~ 2.147483647E9
+	oreSpawnIterationCalcScale = 300000.0
+	#Value of oreSpawnRangeScale in the formula: AuraNearby / oreSpawnRangeScale, to determine the range of the Powder of the Bountiful Core. (Default: 150,000)
+	#Range: 1.0 ~ 2.147483647E9
+	oreSpawnRangeScale = 150000.0
+	#Minimum radius for range of the Powder of the Bountiful Core. (Default: 5)
+	#Range: > 1
+	minOreSpawnRange = 5
+	#Maximum radius for range of the Powder of the Bountiful Core. (Default: 20)
+	#Range: > 1
+	maxOreSpawnRange = 20
+	#Maximum attempts for the Powder of the Bountiful Core to place an ore, before failing and passing. (Default: 10)
+	#Range: 1 ~ 100
+	maxOrePlaceAttempts = 10
+
+#Environmental Aura Bone-Meal
+[Aura-BoneMeal]
+	#Whether the tag #naturesaura_plus:aura_bonemeal_whitelist is checked before allowing environmental bone-mealing due aura excess.
+	#The tag #naturesaura_plus:aura_bonemeal_blacklist, however, still takes precedence. (Default: false)
+	useAuraBoneMealWhiteList = false
+	#The aura cost per environmental aura bonemeal effect occurrence. (Default: 3500)
+	#Range: > 1
+	auraBoneMealCost = 3500
+
+#Auric Concentrator
+[AuricConcentrator]
+	#Whether forming the Auric-Concentrator requires aura (true), or requires a specific item (false). (Default: true)
+	ifAuraConsumeForOven = true
+	#Amount of aura forming the Auric-Concentrator takes, if aura consume for oven formation is enabled. (Default: 100,000)
+	#Range: > 1
+	auraConsumeForOven = 100000
+	#How many items to be consumed for forming Auric-Concentrator. (Default: 0)
+	#Range: 0 ~ 64
+	amountItemConsumedOnAuraOvenForm = 0
+	#The aura capacity for the Auric Concentrator multiblock. (Default: 500,000)
+	#Range: > 1
+	ovenAuraCapacity = 500000
+	#The fluid-tank capacity (in mB) for the Auric Concentrator multiblock. (Default: 5,000)
+	#Range: > 1
+	ovenFluidTankCapacity = 5000
+	#The number of ticks per which Auric Concentrator multiblock drains aura from the surrounding. 
+	#Note, lower values may adversely affect performance. (Default: 20)
+	#Range: > 1
+	ovenTickRateForAuraDrain = 20
+	#The amount of aura that the Auric Concentrator multiblock drains per attempt to recharge its internal aura reserve. (Default: 10,000)
+	#Range: > 1
+	ovenAuraDrainAmountPerDrain = 10000
 

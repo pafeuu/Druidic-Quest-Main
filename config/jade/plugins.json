@@ -82,6 +82,12 @@
     "ench": true,
     "spawner": true
   },
+  "botania_editor": {
+    "botania_spreader": true,
+    "botania_spreader_advanced": true,
+    "botania_mana": true,
+    "botania_flower": true
+  },
   "balm": {
     "jade": true
   },

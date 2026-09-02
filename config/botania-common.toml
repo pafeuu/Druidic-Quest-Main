@@ -5,7 +5,7 @@ flowerBindingForceCheck = true
 #Set to false to disable the ability for the Hand of Ender to pickpocket other players' ender chests
 enderPickpocket = true
 #Set this to false to disable the Mana Enchanter. Since some people find it OP or something. This only disables the entry and creation. Old ones that are already in the world will stay.
-manaEnchanter = true
+manaEnchanter = false
 #Set this to false to disable the Relic System. This only disables the entries, drops and achievements. Old ones that are already in the world will stay.
 relics = true
 #Set this to true to invert the Ring of Magnetization's controls (from shift to stop to shift to work)
@@ -27,10 +27,10 @@ invertMagnetRing = false
 [harvestLevels]
 	#The harvest level of the Mana Lens: Weight. 3 is diamond level. Defaults to 2 (iron level)
 	#Range: > 0
-	weightLens = 2
+	weightLens = 3
 	#The harvest level of the Mana Lens: Bore. 3 is diamond level. Defaults to 3
 	#Range: > 0
-	boreLens = 3
+	boreLens = 4
 
 [gardenOfGlass]
 	#Set this to false to disable spawning with a Lexica Botania in Garden of Glass worlds, if you are modifying the modpack's progression to not start with Botania.
