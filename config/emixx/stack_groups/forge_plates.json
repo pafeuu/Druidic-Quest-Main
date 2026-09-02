@@ -1,4 +1,6 @@
 {
+  "type": "emixx:tag",
   "id": "forge:plates",
-  "enabled": false
+  "tag": "forge:plates",
+  "enabled": true
 }
