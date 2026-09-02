@@ -5068,3 +5068,113 @@ Spells will only be disabled in new worlds or if you reset the server config
 
 ### Item Changes:
     -Buffed saturation of all the cookies
+
+# Patch 5.6.2
+
+### Updated Mods:
+    -ReliableRemover
+    -RemapIds
+    -Emi++
+    -SuperMartinCoreLib
+    -CrashAsistant
+    -InControl
+    -MEED
+    -ChatHeads
+    -IntegratedAPI
+    -SophisticatedMods
+
+### Recipes:
+    -Added recipes for repairing knives
+    
+### Quests:
+    -Fixed a quest in master accessorizer
+    
+### Worldgen:
+    -Replaced Windmill bearing in the Brickhouse stracture with andesite casing
+
+### Other:
+    -Basic Tier Upgrade now works on every chest and double chest
+
+### Mob Balance:
+    -Disabled Biting Mobs(hitting back when you hit them)
+    -Disabled Panic when on fire
+
+# Patch 5.6.3
+
+### Loot:
+    -Added Darkest Scroll to the Treasure Bastion loot table
+
+### Recipes:
+    -Added Darkest Scroll Recipe
+
+### Quests:
+    -Moved Ruby Brazier Quest to avoid confusion
+    
+# Patch 6.0
+
+### Removed Mods:
+    -immersiveengineering
+    -KubejsImmersivengineering
+    -JustEnoughtImmersiveMultiblocks
+    -SmidgeonOBliss
+    -BrewinNChewin
+    -SmoothBoot
+    -FTBChunks
+    -FTBChunksXXaeroCompat
+    -OverloadedArmorBar
+    -BetterAdvancements
+    -clickableAdv
+    -EMIores
+
+### Added Mods:
+    -KubejsStudio
+    -Recreative
+    -ReliableAdvancements
+    -Botania
+    -InteractiveCorporeaReinfused
+    -KaleidoscopeTavern
+    -AdvancedCoreInfo
+    -OpenPartiesAndClaims
+    -ZiplinesRezipped
+    -BetterCombatAttributes
+    -BetterSpellCasting
+    -AdvancedWorldgenInfo
+
+### Advancements:
+    -Removed Apotheosis Advancements about enchanting
+
+### Updated Mods:
+    -AdvancedLootInfo
+    -Amendments
+    -ArsNFlavoursNDelight
+    -CopyCats
+    -IronsSPellsNSpellbooks
+    -DruidicQuestCore
+    -MEED
+    -JEED
+    -Kubejs
+    -SophisticatedMods
+    -FancyMenu
+    -CupboardUtilities
+    -ChronosBackups
+    -farmersdelight
+    -Treeliable
+    -modernfix
+    -MyNetherDelight
+    -ReliableRecipes
+    
+
+### Item Balance:
+    -Flower Staffs can now cast spells on right click
+
+### Recipes:
+    -Lots of changes due to added/removed mods
+    -Removed Logs/Wood to 4 Chests recipes
+    -Changed for Wisestone
+    -Changed for Arcane Wood
+    
+
+### Other:
+    -Fixed Primitive Shield Animation in the offhand
+    -Added EMI info page about pineapple sapling
+    -Added Tooltip to the watermills about the stress generation
