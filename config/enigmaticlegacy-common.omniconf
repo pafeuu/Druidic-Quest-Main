@@ -554,7 +554,6 @@
         minecraft:elytra
         enigmaticlegacy:enigmatic_elytra
         alexsmobs:tarantula_hawk_elytra
-        immersiveengineering:glider
      >
 
     # Resistance to explosion damage provided by Heart of the Golem. Defined as percentage. [range: 0 ~ 100, default: 40, synchronized: yes]
