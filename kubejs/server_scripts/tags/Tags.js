@@ -5,6 +5,13 @@ ServerEvents.tags("item", (event) => {
   event.removeAllTagsFrom(["ancient_aether:highsproot_wood_wall", "ancient_aether:stripped_sakura_log_wall", "ancient_aether:sakura_log_wall", "ancient_aether:stripped_sakura_wood_wall", "ancient_aether:sakura_wood_wall", "ancient_aether:stripped_highsproot_wood_wall", "ancient_aether:stripped_highsproot_log_wall", "ancient_aether:highsproot_log_wall"])
 
 
+  event.add("connectiblechains:chain_connectible",[
+    "#c:chains",
+    "#minecraft:walls",
+    "#forge:fences",
+    "#quark:posts",
+    "quark:gold_bars"
+  ])
   event.add("forge:stripped_blocks", ["#forge:stripped_logs", "#forge:stripped_wood"])
 
   event.add("forge:stripped_logs", [
@@ -17,7 +24,11 @@ ServerEvents.tags("item", (event) => {
     'deep_aether:stripped_conberry_log',
     'deep_aether:stripped_sunroot_log',
     'naturesaura:stripped_ancient_log',
-    'thermal:stripped_rubberwood_log'
+    'thermal:stripped_rubberwood_log',
+    'botania:glimmering_stripped_livingwood_log',
+    'botania:stripped_dreamwood_log',
+    'botania:glimmering_stripped_dreamwood_log',
+    'botania:stripped_livingwood_log'
   ])
 
   event.add("forge:stripped_wood", [
@@ -30,7 +41,11 @@ ServerEvents.tags("item", (event) => {
     'deep_aether:stripped_conberry_wood',
     'deep_aether:stripped_sunroot_wood',
     'naturesaura:stripped_ancient_bark',
-    'thermal:stripped_rubberwood_wood'
+    'thermal:stripped_rubberwood_wood',
+    'botania:glimmering_stripped_dreamwood',
+    'botania:stripped_livingwood',
+    'botania:stripped_dreamwood',
+    'botania:glimmering_stripped_livingwood'
   ])
 
   event.remove("curios:head", [
@@ -123,7 +138,6 @@ ServerEvents.tags("item", (event) => {
   event.add("minecraft:smooth_stone", "smooth_stone");
 
   event.remove("forge:rods/wooden", "naturesaura:ancient_stick");
-  event.remove("forge:rods/wooden", "immersiveengineering:stick_treated");
 
   event.remove("minecraft:flowers", [
     "farmersdelight:wild_potatoes",
@@ -220,12 +234,10 @@ ServerEvents.tags("item", (event) => {
     "deep_aether:conberry_planks",
     "deep_aether:sunroot_planks"
   ]);
-  event.add("forge:tools/hammers", "immersiveengineering:hammer");
+  event.add("forge:tools/hammers", "druidic_quest_core:arcanist_hammer");
   event.add("forge:ingots/andesite_alloy", "create:andesite_alloy");
   event.add("forge:ingots", [
     'irons_spellbooks:arcane_ingot',
-    'immersiveengineering:ingot_steel',
-    'immersiveengineering:ingot_hop_graphite',
     'enigmaticlegacy:evil_ingot',
     'naturesaura:depth_ingot',
     'enigmaticlegacy:etherium_ingot',
@@ -257,7 +269,7 @@ ServerEvents.tags("item", (event) => {
   event.add("forge:tools", [
     "quark:abacus",
     "quark:trowel",
-    "immersiveengineering:hammer",
+    "druidic_quest_core:arcanist_hammer",
     "constructionwand:stone_wand",
     "constructionwand:iron_wand",
     "supplementaries:wrench",
@@ -268,7 +280,6 @@ ServerEvents.tags("item", (event) => {
     "constructionwand:infinity_wand",
   ]);
 
-  event.add("immersiveengineering:toolbox/tools", "#forge:tools");
   event.add("forge:storage_blocks/potato", "farmersdelight:potato_crate");
   event.add("forge:gems/zanite", "#aether:gems/zanite");
   event.add("forge:gems/skyjade", "deep_aether:skyjade");
@@ -286,19 +297,6 @@ ServerEvents.tags("item", (event) => {
 
   event.add("minecraft:swords", ['deep_aether:storm_sword', 'starbunclemania:star_sword', "create:cardboard_sword"])
 
-  event.add("forge:ingots/stainless_steel", "immersiveengineering:ingot_steel");
-  event.add(
-    "forge:nuggets/stainless_steel",
-    "immersiveengineering:nugget_steel",
-  );
-  event.add(
-    "forge:storage_blocks/stainless_steel",
-    "immersiveengineering:storage_steel",
-  );
-  event.add("forge:rods/stainless_steel", "immersiveengineering:stick_steel");
-  event.add("forge:plates/stainless_steel", "immersiveengineering:plate_steel");
-  event.add("forge:dusts/stainless_steel", "immersiveengineering:dust_steel");
-
   event.add("forge:ingots/sky", "naturesaura:sky_ingot");
   event.add("forge:ingots/depth", "naturesaura:depth_ingot");
   event.add("forge:ingots/tainted_gold", "naturesaura:tainted_gold");
@@ -313,16 +311,6 @@ ServerEvents.tags("item", (event) => {
   );
   event.add("forge:storage_blocks/sky", "naturesaura:sky_ingot_block");
   event.add("forge:storage_blocks/depth", "naturesaura:depth_ingot_block");
-
-  event.remove("forge:ingots/steel", "immersiveengineering:ingot_steel");
-  event.remove("forge:nuggets/steel", "immersiveengineering:nugget_steel");
-  event.remove(
-    "forge:storage_blocks/steel",
-    "immersiveengineering:storage_steel",
-  );
-  event.remove("forge:rods/steel", "immersiveengineering:stick_steel");
-  event.remove("forge:plates/steel", "immersiveengineering:plate_steel");
-  event.remove("forge:dusts/steel", "immersiveengineering:dust_steel");
 
   event.add("forge:ingots/andesite", "create:andesite_alloy");
   event.add("forge:storage_blocks/andesite", "create:andesite_alloy_block");
@@ -487,12 +475,7 @@ ServerEvents.tags("item", (event) => {
     'biomeswevegone:magenta_pitcher_plant'
   ])
 
-  event.add("c:hidden_from_recipe_viewers", "#forge:tools/skyroot");
-  event.add(
-    "c:hidden_from_recipe_viewers",
-    "immersiveengineering:potion_bucket",
-  );
-  event.add("c:hidden_from_recipe_viewers", "immersiveengineering:shader");
+  event.add("c:hidden_from_recipe_viewers", "#forge:tools/skyroot");;
   event.add("c:hidden_from_recipe_viewers", "kubejs:depleted_ruby_block");
   event.add("c:hidden_from_recipe_viewers", "kubejs:unassembled_clock");
   event.add("c:hidden_from_recipe_viewers", "kubejs:unassembled_compass");
@@ -617,7 +600,7 @@ ServerEvents.tags("item", (event) => {
   event.add("forge:tools/etherium", "enigmaticlegacy:etherium_scythe");
 
   global.toolTypesWithSword.forEach((type) => {
-    event.add("forge:tools/steel", `immersiveengineering:${type}_steel`);
+    event.add("forge:tools/steel", `druidic_quest_core:steel_${type}`);
   });
 
   const missingFieryTools = ["axe", "shovel", "hoe"];
@@ -909,17 +892,12 @@ ServerEvents.tags("item", (event) => {
     "immersive_weathering:snowy_cobblestone_wall",
     "copycats:copycat_wall",
     "astrological:selenite_wall",
-    "immersiveengineering:wall_slag_brick",
-    "immersiveengineering:wall_clinker_brick",
     "deep_aether:raw_clorite_wall",
   ]);
 
   event.add("minecraft:fences", [
     "immersive_weathering:charred_fence",
     "supplementaries:wicker_fence",
-    "immersiveengineering:steel_fence",
-    "immersiveengineering:alu_fence",
-    "immersiveengineering:treated_fence",
     "copycats:copycat_fence",
     "twilightforest:wrought_iron_fence",
   ]);
@@ -1005,11 +983,6 @@ ServerEvents.tags("item", (event) => {
     "enigmaticlegacy:soul_dust",
     "enigmaticlegacy:astral_dust",
     "vintagedelight:salt_dust",
-    "immersiveengineering:dust_coke",
-    "immersiveengineering:dust_hop_graphite",
-    "immersiveengineering:dust_saltpeter",
-    "immersiveengineering:dust_steel",
-    "immersiveengineering:fertilizer",
     "waystones:warp_dust",
   ]);
 
@@ -1020,9 +993,7 @@ ServerEvents.tags("item", (event) => {
     "naturesaura:infused_iron",
     "naturesaura:sky_ingot",
     "naturesaura:tainted_gold",
-    "naturesaura:depth_ingot",
-    "immersiveengineering:ingot_hop_graphite",
-    "immersiveengineering:ingot_steel",
+    "naturesaura:depth_ingot"
   ]);
 
   event.add("minecraft:buttons", [
