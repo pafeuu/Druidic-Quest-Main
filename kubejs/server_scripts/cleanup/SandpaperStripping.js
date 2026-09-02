@@ -5,6 +5,10 @@ ServerEvents.recipes(event => {
         .getItemIds().forEach(id => {
             let Log = id
             let StrippedLog = id.replace(":", ":stripped_")
+            if(Log.startsWith("botania:glimmering"))
+            {
+                StrippedLog = StrippedLog.replace("stripped_glimmering","glimmering_stripped")
+            }
             if(Log.startsWith("aether:golden_oak"))
             {
                 StrippedLog = StrippedLog.replace("golden_oak","skyroot")
