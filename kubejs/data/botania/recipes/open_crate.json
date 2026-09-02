@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " # ",
+    "#A#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "botania:livingwood_planks"
+    },
+    "A": {
+      "item": "quark:chute"
+    }
+  },
+  "result": {
+    "item": "botania:open_crate",
+    "count": 1
+  }
+}

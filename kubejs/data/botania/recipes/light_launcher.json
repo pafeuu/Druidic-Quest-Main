@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " # ",
+    "AAA",
+    "ABA"
+  ],
+  "key": {
+    "#": {
+      "item": "botania:light_relay"
+    },
+    "A": {
+      "tag": "wizards_reborn:arcane_wood_planks"
+    },
+    "B": {
+      "item": "druidic_quest_core:primitive_machine"
+    }
+  },
+  "result": {
+    "item": "botania:light_launcher",
+    "count": 1
+  }
+}

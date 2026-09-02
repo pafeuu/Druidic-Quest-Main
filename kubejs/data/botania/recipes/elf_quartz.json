@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "botania:quartz_block",
+  "category": "building",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz_block"
+    },
+    "A": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "botania:elf_quartz",
+    "count": 8
+  }
+}

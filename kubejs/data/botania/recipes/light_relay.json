@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "wizards_reborn:arcane_lumos"
+    },
+    "A": {
+      "tag": "c:glass_blocks"
+    }
+  },
+  "result": {
+    "item": "botania:light_relay",
+    "count": 2
+  }
+}

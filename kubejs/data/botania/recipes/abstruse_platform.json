@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "botania:livingwood_planks"
+    },
+    "A": {
+      "item": "botania:spectral_platform"
+    }
+  },
+  "result": {
+    "item": "botania:abstruse_platform",
+    "count": 8
+  }
+}

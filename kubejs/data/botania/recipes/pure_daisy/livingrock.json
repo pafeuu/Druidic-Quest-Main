@@ -1,0 +1,10 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "block",
+    "block": "quark:sturdy_stone"
+  },
+  "output": {
+    "name": "wizards_reborn:wisestone"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "botania:quartz_block",
+  "category": "building",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "botania:blaze_quartz"
+    },
+    "A": {
+      "tag": "forge:flowers/golden"
+    }
+  },
+  "result": {
+    "item": "botania:sunny_quartz",
+    "count": 1
+  }
+}

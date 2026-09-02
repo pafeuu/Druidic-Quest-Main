@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "#A#",
+    "#B#",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "item": "botania:livingwood_planks"
+    },
+    "A": {
+      "item": "minecraft:crafting_table"
+    },
+    "B": {
+      "item": "druidic_quest_core:primitive_machine"
+    },
+    "C": {
+      "item": "botania:open_crate"
+    }
+  },
+  "result": {
+    "item": "botania:crafty_crate",
+    "count": 1
+  }
+}

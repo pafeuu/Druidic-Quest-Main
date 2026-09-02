@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wizards_reborn:arcane_wood_planks"
+    },
+    "A": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result": {
+    "item": "botania:spectral_platform",
+    "count": 8
+  }
+}

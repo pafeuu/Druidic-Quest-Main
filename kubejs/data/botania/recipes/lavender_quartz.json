@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "botania:quartz_block",
+  "category": "building",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz_block"
+    },
+    "A": [
+      {
+        "item": "deep_aether:aerlavender"
+      },
+      {
+        "item": "deep_aether:tall_aerlavender"
+      },
+      {
+        "item": "minecraft:peony"
+      },
+      {
+        "item": "minecraft:allium"
+      }
+    ]
+  },
+  "result": {
+    "item": "botania:lavender_quartz",
+    "count": 8
+  }
+}
