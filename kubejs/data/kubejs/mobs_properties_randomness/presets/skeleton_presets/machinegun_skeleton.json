@@ -17,27 +17,10 @@
         },
         {
             "property": "equipment",
-            "slot": "head",
-            "conditions":[
-                {"condition":"chance","chance":0.1}
-            ],
-            "items": [
-                {
-                    "item":"immersiveengineering:armor_faraday_helmet",
-                    "functions": [
-                    {
-                        "function": "set_drop_chance",
-                        "drop_chance": 0.01
-                    }
-            ]}
-            ]
-        },
-        {
-            "property": "equipment",
             "slot": "chest",
             "items": [
                 {
-                    "item":"immersiveengineering:armor_faraday_chestplate",
+                    "item":"kubejs:lead_chestplate",
                     "functions": [
                     {
                         "function": "set_drop_chance",
@@ -51,7 +34,7 @@
             "slot": "legs",
             "items": [
                 {
-                    "item":"immersiveengineering:armor_faraday_leggings",
+                    "item":"kubejs:lead_chestplate",
                     "functions": [
                     {
                         "function": "set_drop_chance",
@@ -68,7 +51,7 @@
             ],
             "items": [
                 {
-                    "item":"immersiveengineering:armor_faraday_boots",
+                    "item":"kubejs:lead_boots",
                     "functions": [
                     {
                         "function": "set_drop_chance",

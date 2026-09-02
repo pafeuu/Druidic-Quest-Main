@@ -18,10 +18,10 @@
         },
         {
             "property": "equipment",
-            "slot": "head",
+            "slot": "chest",
             "items": [
                 {
-                    "item":"thermal:diving_helmet",
+                    "item":"thermal:diving_chestplate",
                     "functions": [
                     {
                         "function": "set_drop_chance",
@@ -30,7 +30,7 @@
                     "conditions":[{"condition": "advancement","advancements":["restrictedportals:twilightforest"],"inverted":"true"}]
                 },
                 {
-                    "item":"twilightforest:knightmetal_helmet",
+                    "item":"twilightforest:knightmetal_chestplate",
                     "functions": [
                     {
                         "function": "set_drop_chance",
