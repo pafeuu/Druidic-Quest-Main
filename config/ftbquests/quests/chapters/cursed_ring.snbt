@@ -8,6 +8,7 @@
 	order_index: 5
 	quest_links: [ ]
 	quests: [{
+		description: ["&4Nothing here yet&r"]
 		id: "7709F06AFF8698E8"
 		tasks: [{
 			icon: "enigmaticlegacy:cursed_ring"

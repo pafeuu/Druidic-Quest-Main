@@ -124,7 +124,7 @@
 			tasks: [{
 				count: 8L
 				id: "56053AA077C386CB"
-				item: "druidic_quest_core:treated_planks"
+				item: "botania:livingwood_planks"
 				type: "item"
 			}]
 			title: "Basic Automation Material"
@@ -255,7 +255,7 @@
 			description: ["To get plates, smash &lTreated Wood Planks&r and &lSmooth Stone&r with an &lEngineer's Hammer&r."]
 			icon: {
 				Count: 1
-				id: "immersiveengineering:hammer"
+				id: "druidic_quest_core:arcanist_hammer"
 				tag: {
 					Damage: 0
 				}
@@ -617,27 +617,45 @@
 			description: [
 				"Most basic item transportation aside from water channels."
 				""
-				"Press \"U\" while hovering over the conveyor belt in your inventory or EMI to check other types to craft."
+				"Items need to be put on the Luminizer Launcher to be transported through the luminizer connections."
+				""
+				"Use wand of the forest to connect Luminizers by shift-rightclicking."
+				""
+				"Right click a Luminizer to be transported through connections."
 			]
+			icon: "botania:light_relay"
 			id: "089147A7CE1A1DC6"
-			rewards: [
-				{
-					id: "6B0D2E2DAC916558"
-					item: "quark:bonded_leather"
-					type: "item"
-				}
-				{
-					id: "1E6726FABD05912E"
-					item: "thermal:silver_coin"
-					type: "item"
-				}
-			]
-			subtitle: "Slip, slidin' away..."
-			tasks: [{
-				id: "489246BED37D714B"
-				item: "botania:light_relay"
+			rewards: [{
+				id: "1E6726FABD05912E"
+				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			subtitle: "Slip, slidin' away..."
+			tasks: [
+				{
+					count: 2L
+					id: "2C41F1704C50AE10"
+					item: { Count: 2, id: "botania:light_relay" }
+					type: "item"
+				}
+				{
+					id: "3DBCCA9BC98B5152"
+					item: "botania:light_launcher"
+					type: "item"
+				}
+				{
+					id: "232F155C31AD6E12"
+					item: {
+						Count: 1
+						id: "botania:twig_wand"
+						tag: {
+							color1: 14
+							color2: 14
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "Basic Entity Transportation"
 			x: 15.0d
 			y: -1.5d
@@ -841,29 +859,17 @@
 		}
 		{
 			dependencies: ["2C7DD9A9CEA857D0"]
-			description: [
-				"Requires a multiblock structure to function."
-				""
-				"Check out the &eBook of Natural Aura&r for more info."
-			]
+			description: [""]
 			id: "0773DBD92BA8845A"
-			rewards: [
-				{
-					id: "72F13B06F7A4C3A0"
-					item: "thermal:gold_coin"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "222B295447C37902"
-					item: "naturesaura:ancient_planks"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "72F13B06F7A4C3A0"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
 			subtitle: "Basic Magical Crafting"
 			tasks: [{
-				id: "6750DCDFC06D37C3"
-				item: "naturesaura:auto_crafter"
+				id: "62B4504CD4CD802D"
+				item: "botania:crafty_crate"
 				type: "item"
 			}]
 			title: "First Autocrafter"
@@ -1062,8 +1068,8 @@
 				}
 			]
 			title: "First Fluid Transportation"
-			x: 12.0d
-			y: 2.5d
+			x: 11.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19F860FA0B4324FB"]
@@ -1514,66 +1520,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["5C199D8DE803D331"]
-			description: ["Pretty slow but  can be very nice if your base is around hills and mountains"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					Parent: {
-						Items: [ ]
-						Size: 2
-					}
-				}
-				id: "immersiveengineering:skyhook"
-			}
-			id: "446FE3CE5EF63B99"
-			rewards: [
-				{
-					id: "538EC114C9648422"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: {
-								Items: [ ]
-								Size: 2
-							}
-						}
-						id: "immersiveengineering:skyhook"
-					}
-					type: "item"
-				}
-				{
-					count: 12
-					id: "2563947B90181FEA"
-					item: "immersiveengineering:connector_structural"
-					type: "item"
-				}
-				{
-					count: 12
-					id: "645AC74EFD10373F"
-					item: "immersiveengineering:wirecoil_structure_rope"
-					type: "item"
-				}
-				{
-					count: 12
-					id: "02802741082E1CB1"
-					item: "immersiveengineering:treated_post"
-					type: "item"
-				}
-			]
-			shape: "pentagon"
-			size: 1.1d
-			tasks: [{
-				consume_items: true
-				id: "0D265BD9275AE200"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
-			title: "Ziplines!"
-			x: 11.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["37E717454A7E8792"]
 			description: ["Placing Armorer's Aid on top of a Blast Furnace sometimes makes it output more ingots from smelting raw ore"]
 			id: "30A9922DBDA79150"
@@ -1615,6 +1561,53 @@
 			}]
 			x: 28.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["00F6FC5B3A511000"]
+			description: ["Connect your ropelike items to the walls and hold right click with a zipline attachment item to move around!"]
+			icon: "minecraft:chain"
+			id: "5234208B4A6DDBFA"
+			tasks: [
+				{
+					id: "43436F0FCC8DBECF"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(connectiblechains:catenary_items)"
+						}
+					}
+					title: "Rope like items"
+					type: "item"
+				}
+				{
+					id: "7A12C383E60918FD"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(zipline:attachment)"
+						}
+					}
+					title: "zipline attachment"
+					type: "item"
+				}
+				{
+					id: "1DBE14D0CCEA40D4"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(connectiblechains:chain_connectible)"
+						}
+					}
+					title: "walls and stuff"
+					type: "item"
+				}
+			]
+			title: "Ziplining through the air!"
+			x: 2.0d
+			y: -2.0d
 		}
 	]
 	title: "Tier 1 - Basic Magic"

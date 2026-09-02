@@ -1134,6 +1134,40 @@
 			x: 4.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "51DE4545FD5DBA9E"
+			rewards: [{
+				count: 3
+				id: "570EBC0BEB59235A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A48896FD65BCDC5"
+				item: "botania:record_gaia_1"
+				type: "item"
+			}]
+			x: -3.25d
+			y: 2.0535714285714235d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "059128063CED4F6C"
+			rewards: [{
+				count: 3
+				id: "0A21F3F24F2D8946"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60C6ED1D3B495D0E"
+				item: "botania:record_gaia_2"
+				type: "item"
+			}]
+			x: -1.357142857142854d
+			y: 1.0535714285714235d
+		}
 	]
 	title: "Melomaniac"
 }

@@ -718,7 +718,7 @@
 				{
 					count: 8L
 					id: "4BB570DEC2587D62"
-					item: "immersiveengineering:alloybrick"
+					item: "druidic_quest_core:alloy_bricks"
 					type: "item"
 				}
 				{
@@ -730,7 +730,7 @@
 				{
 					count: 18L
 					id: "57656293D61B2C06"
-					item: "immersiveengineering:cokebrick"
+					item: "naturesaura_plus:auric_oven_brick"
 					optional_task: true
 					type: "item"
 				}

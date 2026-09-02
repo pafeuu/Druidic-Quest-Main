@@ -247,12 +247,11 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				count: 27L
-				id: "1C37B9C1339F766F"
-				item: "immersiveengineering:blastbrick"
+				id: "37B5B286DF819F7C"
+				item: "botania:runic_altar"
 				type: "item"
 			}]
-			title: "Blast Furnace"
+			title: "Runic Altar"
 			x: 0.0d
 			y: -6.0d
 		}
