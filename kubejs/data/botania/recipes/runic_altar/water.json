@@ -1,0 +1,34 @@
+{
+  "type": "botania:runic_altar",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    }
+  ],
+  "mana": 5200,
+  "output": {
+    "count": 2,
+    "item": "botania:rune_water"
+  }
+}
