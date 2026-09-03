@@ -293,14 +293,6 @@
     "curseForgeHash": 3553506890,
     "modrinthHash": "ccef027af81977ed0ab9b5eaddd778d15a0a7786"
   },
-  "BotaniaEditor-1.20.1-1.0.9.jar": {
-    "jarName": "BotaniaEditor-1.20.1-1.0.9.jar",
-    "modId": "botania_editor",
-    "name": "Botania Editor",
-    "version": "1.20.1-1.0.9",
-    "curseForgeHash": 2692206164,
-    "modrinthHash": "1655964298bc4726e86864703ad10632c40a6dd7"
-  },
   "brightnessslider-forge-1.0-1.20.jar": {
     "jarName": "brightnessslider-forge-1.0-1.20.jar",
     "modId": "brightnessslider",
@@ -597,13 +589,13 @@
     "curseForgeHash": 3920786595,
     "modrinthHash": "a33d48809db8a2f1eb3667fe140d7a4104d80dca"
   },
-  "druidic_quest_core-0.3.5.jar": {
-    "jarName": "druidic_quest_core-0.3.5.jar",
+  "druidic_quest_core-0.3.6.jar": {
+    "jarName": "druidic_quest_core-0.3.6.jar",
     "modId": "druidic_quest_core",
     "name": "Druidic Quest Core",
-    "version": "0.3.5",
-    "curseForgeHash": 1433205837,
-    "modrinthHash": "e34be7edcb33dbbaed5e6b63a4688ee438bb57cc"
+    "version": "0.3.6",
+    "curseForgeHash": 3692634168,
+    "modrinthHash": "86599d60bfcd8ae0b0298669b316fd8a990d1e2c"
   },
   "DungeonsArise-1.20.x-2.1.58-release.jar": {
     "jarName": "DungeonsArise-1.20.x-2.1.58-release.jar",
@@ -1093,14 +1085,6 @@
     "curseForgeHash": 105446657,
     "modrinthHash": "19dc0c1f9f0a97fae7037f271651300b6850fb92"
   },
-  "kaleidoscopetavern-1.2.0-forge+mc1.20.1.jar": {
-    "jarName": "kaleidoscopetavern-1.2.0-forge+mc1.20.1.jar",
-    "modId": "kaleidoscope_tavern",
-    "name": "Kaleidoscope Tavern",
-    "version": "1.2.0-forge+mc1.20.1",
-    "curseForgeHash": 2841580089,
-    "modrinthHash": "2e8f6370fb4acae9796705b6e84716c4a398b9c5"
-  },
   "Kiwi-1.20.1-Forge-11.10.3.jar": {
     "jarName": "Kiwi-1.20.1-Forge-11.10.3.jar",
     "modId": "kiwi",
@@ -1177,14 +1161,6 @@
     "version": "1.1.5",
     "curseForgeHash": 2962365485,
     "modrinthHash": "67177099105fa6769c12c5484854c25742f1ab5e"
-  },
-  "kubejsstudio-forge-1.20.1-1.1.0.jar": {
-    "jarName": "kubejsstudio-forge-1.20.1-1.1.0.jar",
-    "modId": "kubejsstudio",
-    "name": "KubeJS Studio",
-    "version": "1.1.0",
-    "curseForgeHash": 1408074985,
-    "modrinthHash": "3e6987d8ead885a934af4bf587849b87b7f6ff52"
   },
   "ldlib-forge-1.20.1-1.0.52.jar": {
     "jarName": "ldlib-forge-1.20.1-1.0.52.jar",
@@ -1378,13 +1354,13 @@
     "curseForgeHash": 2331946843,
     "modrinthHash": "a8589de59cdd8fed9c29610e624063a2990e422b"
   },
-  "NBTac-FORGE-1.20.1-1.3.10.jar": {
-    "jarName": "NBTac-FORGE-1.20.1-1.3.10.jar",
-    "modId": "nbt_ac",
+  "NBTac-FORGE-1.20.1-2.0.1.jar": {
+    "jarName": "NBTac-FORGE-1.20.1-2.0.1.jar",
+    "modId": "nbtac",
     "name": "NBT Autocomplete",
-    "version": "1.3.10",
-    "curseForgeHash": 1580737701,
-    "modrinthHash": "280485e7654dd3e45445356ae22d5966b4e85242"
+    "version": "2.0.1+mc1.20.1",
+    "curseForgeHash": 3041974259,
+    "modrinthHash": "f89e4c42a8655f58f6c3eefff4e133505b90efdc"
   },
   "NekosEnchantedBooks-1.19.3-2.0.3.jar": {
     "jarName": "NekosEnchantedBooks-1.19.3-2.0.3.jar",
@@ -1634,13 +1610,13 @@
     "curseForgeHash": 3273318340,
     "modrinthHash": "de1955ff4f23e0fab2817e4bb8ff5cb6d5c6f573"
   },
-  "reliable_replacer-forge-1.20.1-1.5.7.jar": {
-    "jarName": "reliable_replacer-forge-1.20.1-1.5.7.jar",
+  "reliable_replacer-forge-1.20.1-1.7.1.jar": {
+    "jarName": "reliable_replacer-forge-1.20.1-1.7.1.jar",
     "modId": "reliable_replacer",
     "name": "Reliable Replacer",
-    "version": "1.5.7",
-    "curseForgeHash": 1867606919,
-    "modrinthHash": "2961835ec9e6230ecd2c2fbd2c6cbfda7abf241c"
+    "version": "1.7.1",
+    "curseForgeHash": 2737703063,
+    "modrinthHash": "2365fbe67f8c7a3b1e6ba239e03c146052fdda6e"
   },
   "reliable_requiem-forge-1.20.1-1.1.1.jar": {
     "jarName": "reliable_requiem-forge-1.20.1-1.1.1.jar",
