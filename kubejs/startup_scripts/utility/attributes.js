@@ -36,7 +36,7 @@ ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event
 		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('ce51c139-c8f1-4c2e-a5a0-66731652658c'), 'Tool modifier', 2, 'addition'))
 	};
 
-	if (event.itemStack.hasTag("forge:tools/aluminum") && event.slotType == 'mainhand') {
+	if (event.itemStack.hasTag("forge:tools/platinum") && event.slotType == 'mainhand') {
 					
 		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('ce51c139-c8f1-4c2e-a5a0-66731652658c'), 'Tool modifier', 2, 'addition'))
 	};
