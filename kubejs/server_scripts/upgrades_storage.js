@@ -6,171 +6,14 @@ ServerEvents.recipes(e => {
   e.remove({ output: "sophisticatedstorage:packing_tape" })
   e.shapeless(Item.of('sophisticatedstorage:packing_tape', '{Damage:7}'), ["#forge:slimeballs", "paper"])
 
-  e.replaceInput({ mod: "sophisticatedstorage" }, "minecraft:gold_ingot", "naturesaura:tainted_gold")
-  e.replaceInput({ mod: "sophisticatedbackpacks" }, "minecraft:gold_ingot", "naturesaura:tainted_gold")
+  e.replaceInput({ mod: "sophisticatedstorage" }, "minecraft:gold_ingot", "#forge:plates/tainted_gold")
+  e.replaceInput({ mod: "sophisticatedbackpacks" }, "minecraft:gold_ingot", "#forge:plates/tainted_gold")
 
-  e.replaceInput({ mod: "sophisticatedstorage" }, "#forge:gems/diamond", "#forge:plates/diamond")
-  e.replaceInput({ mod: "sophisticatedbackpacks" }, "#forge:gems/diamond", "#forge:plates/diamond")
+  e.replaceInput({ mod: "sophisticatedstorage" }, "#forge:gems/diamond", "#forge:plates/gravitite")
+  e.replaceInput({ mod: "sophisticatedbackpacks" }, "#forge:gems/diamond", "#forge:plates/gravitite")
   e.replaceInput({mod:"sophisticatedbackpacks"},"minecraft:lever","minecraft:redstone_torch")
   e.replaceInput({mod:"sophisticatedstorage"},"minecraft:lever","minecraft:redstone_torch")
-  //============================CHESTS AND BARRELS
 
-  /*e.custom({
-    "type": "sophisticatedstorage:storage_tier_upgrade",
-    "conditions": [
-      {
-        "itemRegistryName": "sophisticatedstorage:iron_chest",
-        "type": "sophisticatedcore:item_enabled"
-      }
-    ],
-    "pattern": [
-      "III",
-      "ISI",
-      "III"
-    ],
-    "key": {
-      "I": {
-        "tag": "forge:plates/iron"
-      },
-      "S": {
-        "item": "sophisticatedstorage:chest"
-      }
-    },
-    "result": {
-      "item": "sophisticatedstorage:iron_chest"
-    }
-  })
-
-  e.custom({
-    "type": "sophisticatedstorage:storage_tier_upgrade",
-    "conditions": [
-      {
-        "itemRegistryName": "sophisticatedstorage:iron_barrel",
-        "type": "sophisticatedcore:item_enabled"
-      }
-    ],
-    "pattern": [
-      "III",
-      "ISI",
-      "III"
-    ],
-    "key": {
-      "I": {
-        "tag": "forge:plates/iron"
-      },
-      "S": {
-        "item": "sophisticatedstorage:barrel"
-      }
-    },
-    "result": {
-      "item": "sophisticatedstorage:iron_barrel"
-    }
-  })
-
-  e.custom({
-    "type": "sophisticatedstorage:storage_tier_upgrade",
-    "conditions": [
-      {
-        "itemRegistryName": "sophisticatedstorage:gold_chest",
-        "type": "sophisticatedcore:item_enabled"
-      }
-    ],
-    "pattern": [
-      "III",
-      "ISI",
-      "III"
-    ],
-    "key": {
-      "I": {
-        "item": "naturesaura:tainted_gold"
-      },
-      "S": {
-        "item": "sophisticatedstorage:iron_chest"
-      }
-    },
-    "result": {
-      "item": "sophisticatedstorage:gold_chest"
-    }
-  })
-
-  e.custom({
-    "type": "sophisticatedstorage:storage_tier_upgrade",
-    "conditions": [
-      {
-        "itemRegistryName": "sophisticatedstorage:gold_barrel",
-        "type": "sophisticatedcore:item_enabled"
-      }
-    ],
-    "pattern": [
-      "III",
-      "ISI",
-      "III"
-    ],
-    "key": {
-      "I": {
-        "item": "naturesaura:tainted_gold"
-      },
-      "S": {
-        "item": "sophisticatedstorage:iron_barrel"
-      }
-    },
-    "result": {
-      "item": "sophisticatedstorage:gold_barrel"
-    }
-  })
-
-  e.custom({
-    "type": "sophisticatedstorage:storage_tier_upgrade",
-    "conditions": [
-      {
-        "itemRegistryName": "sophisticatedstorage:diamond_chest",
-        "type": "sophisticatedcore:item_enabled"
-      }
-    ],
-    "pattern": [
-      "III",
-      "ISI",
-      "III"
-    ],
-    "key": {
-      "I": {
-        "item": "naturesaura:tainted_gold"
-      },
-      "S": {
-        "item": "kubejs:diamond_plate"
-      }
-    },
-    "result": {
-      "item": "sophisticatedstorage:diamond_chest"
-    }
-  })
-
-  e.custom({
-    "type": "sophisticatedstorage:storage_tier_upgrade",
-    "conditions": [
-      {
-        "itemRegistryName": "sophisticatedstorage:diamond_barrel",
-        "type": "sophisticatedcore:item_enabled"
-      }
-    ],
-    "pattern": [
-      "III",
-      "ISI",
-      "III"
-    ],
-    "key": {
-      "I": {
-        "item": "kubejs:diamond_plate"
-      },
-      "S": {
-        "item": "sophisticatedstorage:gold_barrel"
-      }
-    },
-    "result": {
-      "item": "sophisticatedstorage:diamond_barrel"
-    }
-  })
-  */
   //============================BACKPACKS
   e.remove({ id: "sophisticatedbackpacks:gold_backpack" })
   e.remove({ id: "sophisticatedbackpacks:iron_backpack" })
@@ -244,7 +87,7 @@ ServerEvents.recipes(e => {
     ],
     "key": {
       "D": {
-        "tag": "forge:plates/diamond"
+        "tag": "forge:plates/gravitite"
       },
       "B": {
         "item": "sophisticatedbackpacks:gold_backpack"
