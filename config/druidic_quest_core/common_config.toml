@@ -1,0 +1,7 @@
+
+#Config for Luminizer from Botania
+[Luminizer]
+	#Speed of items ejected by luminizer in blocks per tick. (Default: 0.5)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	luminizerItemSpeed = 0.3
+
