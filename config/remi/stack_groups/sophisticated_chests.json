@@ -1,0 +1,12 @@
+{
+  "id": "sophisticatedstorage:sophisticated_chests",
+  "type": "remi:group",
+  "contents": [
+    "sophisticatedstorage:chest",
+    "sophisticatedstorage:copper_chest",
+    "sophisticatedstorage:iron_chest",
+    "sophisticatedstorage:gold_chest",
+    "sophisticatedstorage:diamond_chest",
+    "sophisticatedstorage:netherite_chest"
+  ]
+}

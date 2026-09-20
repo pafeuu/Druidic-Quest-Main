@@ -1,0 +1,12 @@
+{
+  "id": "sophisticatedstorage:sophisticated_shulker_boxes",
+  "type": "remi:group",
+  "contents": [
+    "sophisticatedstorage:shulker_box",
+    "sophisticatedstorage:copper_shulker_box",
+    "sophisticatedstorage:iron_shulker_box",
+    "sophisticatedstorage:gold_shulker_box",
+    "sophisticatedstorage:diamond_shulker_box",
+    "sophisticatedstorage:netherite_shulker_box"
+  ]
+}

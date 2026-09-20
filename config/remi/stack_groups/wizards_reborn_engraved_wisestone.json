@@ -1,0 +1,7 @@
+{
+  "type": "remi:regex",
+  "id": "wizards_reborn:engraved_wisestones",
+  "regex": "wizards_reborn:engraved_wisestone_.*",
+  "registry": "minecraft:item",
+  "enabled": true
+}

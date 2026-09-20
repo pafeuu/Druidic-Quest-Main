@@ -1,0 +1,12 @@
+{
+  "id": "sophisticatedstorage:sophisticated_barrels",
+  "type": "remi:group",
+  "contents": [
+    "sophisticatedstorage:barrel",
+    "sophisticatedstorage:copper_barrel",
+    "sophisticatedstorage:iron_barrel",
+    "sophisticatedstorage:gold_barrel",
+    "sophisticatedstorage:diamond_barrel",
+    "sophisticatedstorage:netherite_barrel"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "remi:regex",
+  "id": "minecraft:mob_buckets",
+  "regex": "tide:.*_bucket",
+  "registry": "minecraft:item",
+  "enabled": true
+}
