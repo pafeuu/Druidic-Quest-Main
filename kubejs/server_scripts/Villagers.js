@@ -1,6 +1,6 @@
 MoreJSEvents.wandererTrades(event=>{
 
-	event.addTrade(1,"thermal:silver_coin","2x wizards_reborn:arcanum")
+	event.addTrade(1,"3x thermal:silver_coin","18x wizards_reborn:arcanum")
 	event.addTrade(1,"thermal:gold_coin","kubejs:wandering_magician_upgrade_smithing_template")
 	event.addTrade(1,"3x thermal:silver_coin","diamond")
 	event.addTrade(1,"3x thermal:silver_coin","lava_bucket")
@@ -59,7 +59,7 @@ MoreJSEvents.wandererTrades(event=>{
 	event.removeModdedTrades(2);
 	event.removeVanillaTrades(1);
 	
-})
+});
 
 MoreJSEvents.villagerTrades((event) => {
    
@@ -158,8 +158,8 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("armorer", 4, [TradeItem.of("thermal:gold_coin", 4, 8)], "kubejs:steel_upgrade_smithing_template").villagerExperience(125);
 	event.addTrade("armorer", 4, [TradeItem.of("thermal:gold_coin", 8, 16)], "kubejs:steel_upgrade_parts").villagerExperience(125);
 	
-	event.addTrade("armorer", 5, [TradeItem.of("thermal:netherite_coin", 2, 4)], "kubejs:arcane_fortress_upgrade_smithing_template");
-	event.addTrade("armorer", 5, [TradeItem.of("thermal:netherite_coin", 2, 4)], "kubejs:depth_upgrade_smithing_template");
+	event.addTrade("armorer", 5, [TradeItem.of("thermal:netherite_coin", 1, 3),"3x wizards_reborn:arcane_gold_ingot"], "kubejs:arcane_fortress_upgrade_smithing_template");
+	event.addTrade("armorer", 5, [TradeItem.of("thermal:netherite_coin", 1, 3),"3x kubejs:obsidian_ingot"], "kubejs:depth_upgrade_smithing_template");
 
 
     ///===========================================================Cleric
@@ -177,8 +177,8 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("cleric", 4, [TradeItem.of("thermal:gold_coin", 10, 20)], Item.of('ars_nouveau:potion_flask', '{Damage:8,an_potion_flask:{PotionData:{Potion:"minecraft:night_vision",includedPotions:["minecraft:strong_strength"]},count:8}}'));
 	
 	
-	event.addTrade("cleric", 5, [TradeItem.of("thermal:gold_coin", 4, 8)], '2x enigmaticlegacy:mending_mixture');
-	event.addTrade("cleric", 5, [TradeItem.of("thermal:gold_coin", 1, 2)], 'enigmaticlegacy:cosmic_cake');
+	event.addTrade("cleric", 5, [TradeItem.of("thermal:gold_coin", 2, 3)], '2x enigmaticlegacy:mending_mixture');
+	event.addTrade("cleric", 5, [TradeItem.of("thermal:gold_coin", 4, 12)], 'enigmaticlegacy:cosmic_cake');
 
 	///==============================================================Mason
 
@@ -206,7 +206,7 @@ MoreJSEvents.villagerTrades((event) => {
 	
 	
 	event.addTrade("mason", 5, [TradeItem.of("thermal:netherite_coin", 3, 6)], Item.of('minecraft:leather_chestplate', '{AttributeModifiers:[{Amount:2,AttributeName:"forge:block_reach",Name:"forge:block_reach",Slot:"chest",UUID:[I;-12465,23062,11154,-46124]}],Damage:0,Unbreakable:1,display:{Name:\'["",{"text":"Mason\\\'s Shirt","italic":false}]\',color:7698297}}'));
-	event.addTrade("mason", 5, [TradeItem.of("thermal:netherite_coin", 2, 4)], Item.of('minecraft:leather_leggings', '{AttributeModifiers:[{Amount:1,AttributeName:"forge:block_reach",Name:"forge:block_reach",Slot:"chest",UUID:[I;-12435,24062,12154,-46124]}],Damage:0,Unbreakable:1,display:{Name:\'["",{"text":"Mason\\\'s Pants","italic":false}]\',color:7698297}}'));
+	event.addTrade("mason", 5, [TradeItem.of("thermal:netherite_coin", 2, 4)], Item.of('minecraft:leather_leggings', '{AttributeModifiers:[{Amount:1,AttributeName:"forge:block_reach",Name:"forge:block_reach",Slot:"legs",UUID:[I;-12435,24062,12154,-46124]}],Damage:0,Unbreakable:1,display:{Name:\'["",{"text":"Mason\\\'s Pants","italic":false}]\',color:7698297}}'));
 	
 	///============================================================Weaponsmith
 
@@ -303,20 +303,21 @@ MoreJSEvents.villagerTrades((event) => {
 	
 	///================================================================Carpenter
 
-	event.addTrade("sawmill:carpenter",1, "4x mangrove_log", "thermal:copper_coin");
-	event.addTrade("sawmill:carpenter",1, "4x oak_log", "thermal:copper_coin");
-	event.addTrade("sawmill:carpenter",1, "4x jungle_log", "thermal:copper_coin");
-	event.addTrade("sawmill:carpenter",1, "4x birch_log", "thermal:copper_coin");
+	event.addTrade("sawmill:carpenter",1, "12x mangrove_log", "thermal:copper_coin");
+	event.addTrade("sawmill:carpenter",1, "12x oak_log", "thermal:copper_coin");
+	event.addTrade("sawmill:carpenter",1, "12x jungle_log", "thermal:copper_coin");
+	event.addTrade("sawmill:carpenter",1, "12x birch_log", "thermal:copper_coin");
 
-	event.addTrade("sawmill:carpenter",2,"3x thermal:gold_coin","64x mangrove_log");
-	event.addTrade("sawmill:carpenter",2,"2x thermal:gold_coin","64x jungle_log");
-	event.addTrade("sawmill:carpenter",2,"2x thermal:gold_coin","64x dark_oak_log");
+	event.addTrade("sawmill:carpenter",2,"6x thermal:silver_coin","64x mangrove_log");
+	event.addTrade("sawmill:carpenter",2,"4x thermal:silver_coin","64x jungle_log");
+	event.addTrade("sawmill:carpenter",2,"4x thermal:silver_coin","64x dark_oak_log");
 
-	event.addTrade("sawmill:carpenter",3,"3x thermal:gold_coin","64x crimson_stem");
-	event.addTrade("sawmill:carpenter",3,"3x thermal:gold_coin","64x warped_stem");
+	event.addTrade("sawmill:carpenter",3,"6x thermal:silver_coin","64x crimson_stem");
+	event.addTrade("sawmill:carpenter",3,"6x thermal:silver_coin","64x warped_stem");
 
-	event.addTrade("sawmill:carpenter",4,"1x thermal:netherite_coin",Item.of('minecraft:iron_axe', "{Damage:0,display:{Name:'[\"\",{\"text\":\"Sharp Lumber Axe\",\"italic\":false,\"color\":\"dark_red\"}]'}}").enchant('mending', 1).enchant('minecraft:efficiency', 3));
-	event.addTrade("sawmill:carpenter",5,"3x thermal:netherite_coin",Item.of('minecraft:stone_axe', "{Damage:0,Unbreakable:1,display:{Name:'[\"\",{\"text\":\"Sharp Lumber Axe\",\"italic\":false,\"color\":\"dark_red\"}]'}}").enchant('minecraft:efficiency', 5));
+	event.addTrade("sawmill:carpenter",4,"3x thermal:gold_coin","64x wizards_reborn:arcane_wood");
+
+	event.addTrade("sawmill:carpenter",5,"3x thermal:netherite_coin",Item.of('kubejs:lumber_axe', '{AttributeModifiers:[{Amount:0.6d,AttributeName:"attributeslib:mining_speed",Name:"generic.max_health",Operation:2,Slot:"mainhand",UUID:[I;-585840180,349193464,-1489034464,-1287431813]}]}').enchant('minecraft:efficiency', 3))
 
 	//================================================================Leatherworker
 
@@ -329,10 +330,10 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("leatherworker",3,"4x alexsmobs:kangaroo_hide","4x thermal:copper_coin")
 	event.addTrade("leatherworker",3,"4x irons_spellbooks:hogskin","3x thermal:copper_coin")
 
-	event.addTrade("leatherworker",4,"thermal:gold_coin","minecraft:bundle")
-	//event.addTrade("leatherworker",4,"16x immersiveengineering:ersatz_leather","3x thermal:copper_coin")
+	event.addTrade("leatherworker",4,"5x thermal:gold_coin","kubejs:engineer_upgrade_smithing_template")
+	event.addTrade("leatherworker",4,"thermal:gold_coin","botania:manaweave_cloth")
 
-	//event.addTrade("leatherworker",5,"6x thermal:gold_coin","immersiveengineering:glider")
+	event.addTrade("leatherworker",5,"12x thermal:gold_coin","minecraft:elytra")
 	event.addTrade("leatherworker",5,"6x thermal:gold_coin","alexsmobs:shed_snake_skin")
 
 	//=============================================================Shady Wizard
