@@ -9,6 +9,9 @@
   "apiBrowserCollapsed": false,
   "previewCollapsed": false,
   "filesFavoritesCollapsed": true,
+  "pickerInventoryCollapsed": false,
+  "pickerRecentCollapsed": false,
+  "pickerBookmarksCollapsed": false,
   "filesConsoleCollapsed": false,
   "filesFilterFolders": false,
   "filesExplorerW": 303,
@@ -35,6 +38,10 @@
   "tooltipEditH": 0,
   "tooltipSplit": 65,
   "dropdownH": 180,
+  "windowX": -2147483648,
+  "windowY": -2147483648,
+  "windowW": 1280,
+  "windowH": 800,
   "pinnedFiles": [],
   "pinnedFolders": [
     "C:\\Users\\Admin\\AppData\\Roaming\\PrismLauncher\\instances\\1.20.1\\minecraft\\kubejs",
@@ -49,8 +56,8 @@
   "tagsSearch": "trump",
   "lootSelected": "",
   "lootSearch": "",
-  "propsSelected": "",
-  "propsSearch": "",
+  "propsSelected": "aether:valkyrie_pickaxe",
+  "propsSearch": "pickax",
   "createRegistry": "fluid",
   "createSelected": "",
   "createSearch": "",
@@ -61,5 +68,6 @@
     "C:\\Users\\Admin\\AppData\\Roaming\\PrismLauncher\\instances\\1.20.1\\minecraft\\kubejs\\server_scripts\\Villagers.js",
     "C:\\Users\\Admin\\AppData\\Roaming\\PrismLauncher\\instances\\1.20.1\\minecraft\\config\\reliable_remover\\botaniaNukeList.json"
   ],
+  "recentPicks": [],
   "filesActive": 4
 }

@@ -5,3 +5,12 @@
 	#Range: 0.0 ~ 1.7976931348623157E308
 	luminizerItemSpeed = 0.3
 
+#Config for Huge Source Jars
+[SourceJars]
+	#Capacity of Big Source Jars. (Default: 100000)
+	#Range: > 10000
+	bigJarCapacity = 100000
+	#Capacity of Big Source Jars. (Default: 1000000)
+	#Range: > 10000
+	hugeJarCapacity = 1000000
+

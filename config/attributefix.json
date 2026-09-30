@@ -473,6 +473,17 @@
         "value": 1024
       }
     },
+    "irons_lib:projectile_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "fyshisattribute:regeneration_speed": {
       "enabled": false,
       "min": {
@@ -1705,17 +1716,6 @@
         "value": 1024
       }
     },
-    "l2hostility:extra_difficulty": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1000,
-        "value": 1000
-      }
-    },
     "alembic:fire_damage": {
       "enabled": false,
       "min": {
@@ -1824,17 +1824,6 @@
       "max": {
         "default": 10,
         "value": 10
-      }
-    },
-    "sortilege:generic.staff_range": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 512,
-        "value": 512
       }
     },
     "attributeslib:life_steal": {
