@@ -34,6 +34,20 @@ ServerEvents.recipes(event => {
           "time": 400
      })*/
     
+     tree_ritual("botania:pure_daisy",
+          [
+               "wizards_reborn:arcanum_block",
+               "#forge:flowers/pure",
+               "druidic_quest_core:gold_leaf_block",
+               "druidic_quest_core:gold_leaf_block",
+               "wizards_reborn:arcanum",
+               "wizards_reborn:arcanum",
+               "wizards_reborn:arcanum",
+               "wizards_reborn:arcanum",
+          ],
+          "oak_sapling"
+     ).id("botania:petal_apothecary/pure_daisy")
+
      tree_ritual("minecraft:dried_ghast",
           ["quark:soul_bead",
                "supplementaries:bellows",
@@ -345,7 +359,7 @@ ServerEvents.recipes(event => {
      )
      //==============================================Alloys===========================================
 
-     tree_ritual("2x kubejs:source_alloy_ingot",
+     tree_ritual("2x botania:manasteel_ingot",
           [
                "ars_nouveau:source_gem",
                "ars_nouveau:source_gem",
@@ -353,7 +367,7 @@ ServerEvents.recipes(event => {
                "#forge:dusts/gold",
                "#forge:dusts/gold",
                "#forge:dusts/gold"],
-          "ars_nouveau:purple_archwood_sapling", 100
+          "ars_nouveau:blue_archwood_sapling", 100
      )
 
      tree_ritual("2x kubejs:arcanum_alloy_ingot",

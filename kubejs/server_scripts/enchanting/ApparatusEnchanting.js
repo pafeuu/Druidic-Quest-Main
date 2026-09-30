@@ -1404,7 +1404,7 @@ ServerEvents.recipes((event) => {
     1,
     [
       "kubejs:enchanting_rune_of_pain",
-      "kubejs:primitive_shield",
+      "druidic_quest_core:primitive_shield",
       "quark:cactus_block",
       "quark:cactus_block",
     ],
@@ -1416,7 +1416,7 @@ ServerEvents.recipes((event) => {
     2,
     [
       "kubejs:enchanting_rune_of_pain",
-      "kubejs:primitive_shield",
+      "druidic_quest_core:primitive_shield",
       "quark:cactus_block",
       "quark:cactus_block",
       "quark:cactus_block",
@@ -1429,7 +1429,7 @@ ServerEvents.recipes((event) => {
     3,
     [
       "kubejs:enchanting_rune_of_pain",
-      "kubejs:primitive_shield",
+      "druidic_quest_core:primitive_shield",
       "quark:cactus_block",
       "quark:cactus_block",
       "quark:cactus_block",
@@ -1588,7 +1588,7 @@ ServerEvents.recipes((event) => {
     1,
     [
       "kubejs:enchanting_rune_of_pain",
-      "kubejs:primitive_shield",
+      "druidic_quest_core:primitive_shield",
       "quark:cactus_block",
     ],
     2000,
@@ -1599,7 +1599,7 @@ ServerEvents.recipes((event) => {
     2,
     [
       "kubejs:enchanting_rune_of_pain",
-      "kubejs:primitive_shield",
+      "druidic_quest_core:primitive_shield",
       "quark:cactus_block",
       "quark:cactus_block",
     ],
@@ -1611,7 +1611,7 @@ ServerEvents.recipes((event) => {
     3,
     [
       "kubejs:enchanting_rune_of_pain",
-      "kubejs:primitive_shield",
+      "druidic_quest_core:primitive_shield",
       "quark:cactus_block",
       "quark:cactus_block",
       "quark:cactus_block",
@@ -1928,7 +1928,7 @@ ServerEvents.recipes((event) => {
     1,
     [
       "kubejs:large_enchanting_rune_of_wisdom",
-      "kubejs:aluminum_sword",
+      "druidic_quest_core:platinum_sword",
       "create:experience_block",
       "create:experience_block",
     ],
@@ -1940,7 +1940,7 @@ ServerEvents.recipes((event) => {
     2,
     [
       "kubejs:large_enchanting_rune_of_wisdom",
-      "kubejs:aluminum_sword",
+      "druidic_quest_core:platinum_sword",
       "create:experience_block",
       "create:experience_block",
       "create:experience_block",
@@ -2274,7 +2274,7 @@ ServerEvents.recipes((event) => {
   Enchanting(
     "minecraft:feather_falling",
     1,
-    ["kubejs:enchanting_rune_of_agility", "immersiveengineering:cushion"],
+    ["kubejs:enchanting_rune_of_agility", "farmersdelight:safety_net"],
     2500,
   );
 
@@ -2283,8 +2283,8 @@ ServerEvents.recipes((event) => {
     2,
     [
       "kubejs:enchanting_rune_of_agility",
-      "immersiveengineering:cushion",
-      "immersiveengineering:cushion",
+      "farmersdelight:safety_net",
+      "farmersdelight:safety_net",
     ],
     5000,
   );
@@ -2294,9 +2294,9 @@ ServerEvents.recipes((event) => {
     3,
     [
       "kubejs:enchanting_rune_of_agility",
-      "immersiveengineering:cushion",
-      "immersiveengineering:cushion",
-      "immersiveengineering:cushion",
+      "farmersdelight:safety_net",
+      "farmersdelight:safety_net",
+      "farmersdelight:safety_net",
     ],
     7500,
   );
@@ -2306,10 +2306,10 @@ ServerEvents.recipes((event) => {
     4,
     [
       "kubejs:enchanting_rune_of_agility",
-      "immersiveengineering:cushion",
-      "immersiveengineering:cushion",
-      "immersiveengineering:cushion",
-      "immersiveengineering:cushion",
+      "farmersdelight:safety_net",
+      "farmersdelight:safety_net",
+      "farmersdelight:safety_net",
+      "farmersdelight:safety_net",
     ],
     10000,
   );

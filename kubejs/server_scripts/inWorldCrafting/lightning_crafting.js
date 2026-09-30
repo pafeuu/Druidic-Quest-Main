@@ -81,7 +81,7 @@ ServerEvents.recipes(event=>{
         ],ParticleGreenFire,SoundEffectTransmutation)
     }
 
-    crystalizedOre("create:crushed_raw_aluminum","aluminum")
+    crystalizedOre("create:crushed_raw_platinum","platinum")
     crystalizedOre("create:crushed_raw_uranium","uranium")
     crystalizedOre("create:crushed_raw_gold","gold")
     crystalizedOre("create:crushed_raw_copper","copper")

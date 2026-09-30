@@ -402,41 +402,10 @@ ServerEvents.recipes(event => {
             }
         },
         "output": {
-            "item": 'enigmaticlegacy:magnet_ring',
+            "item": 'botania:magnet_ring',
         },
         "wissen": 500
-    }).id("enigmaticlegacy:magnet_ring")
-
-    event.custom({
-        "type": "wizards_reborn:arcane_workbench",
-        "pattern": [
-            "NNZ",
-            "NX ",
-            "NNZ",
-            "BBAA"
-        ],
-        "key": {
-            "Z": {
-                "item": "lodestone"
-            },
-            "X": {
-                "tag": "forge:gems/diamond"
-            },
-            "A": {
-                "tag": "forge:storage_blocks/lapis"
-            },
-            "B": {
-                "tag": "forge:storage_blocks/redstone"
-            },
-            "N": {
-                "tag": "forge:plates/iron"
-            }
-        },
-        "output": {
-            "item": 'simplemagnets:basicmagnet',
-        },
-        "wissen": 500
-    }).id("simplemagnets:basicmagnet")
+    }).id("botania:magnet_ring")
 
     event.custom({
         "type": "wizards_reborn:arcane_workbench",
@@ -1467,7 +1436,7 @@ ServerEvents.recipes(event => {
                 "item": "ars_nouveau:air_essence"
             },
             "A": {
-                "tag": "forge:plates/source_alloy"
+                "tag": "forge:plates/manasteel"
             },
             "D": {
                 "item": "thermal:sapphire"

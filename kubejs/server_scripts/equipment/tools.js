@@ -457,7 +457,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			X: "twilightforest:knightmetal_shield",
-			P: "#forge:plates/source_alloy",
+			P: "#forge:plates/manasteel",
 			Y: "#forge:plates/gold"
 		}
 	).id("kubejs:magic_shield")
@@ -536,6 +536,18 @@ ServerEvents.recipes(event => {
 		}
 	)
 	///=============================================================== Tier 0 Tools ==========================================================
+
+	event.shaped("botania:sextant",
+		[
+			" SP",
+			" SS",
+			"PPP"
+		],
+		{
+			S: "wizards_reborn:arcane_wood_branch",
+			P: "wizards_reborn:arcane_wood_planks"
+		}
+	).id("botania:sextant")
 
 	event.shaped("enigmaticlegacy:soul_compass",
 		[
@@ -634,7 +646,7 @@ ServerEvents.recipes(event => {
 	tool("twilightforest:ironwood","#forge:ingots/ironwood","botania:livingwood_twig","#forge:rope")
 	tool("kubejs:uranium","#forge:ingots/uranium","botania:livingwood_twig","#forge:rope")
 	tool("aether:gravitite","#forge:ingots/gravitite","kubejs:heavenly_tool_handle","aether:swet_ball")
-	tool("kubejs:aluminum","#forge:ingots/aluminum","enigmaticlegacy:ender_rod","alexsmobs:shed_snake_skin")
+	tool("druidic_quest_core:platinum","#forge:ingots/platinum","enigmaticlegacy:ender_rod","alexsmobs:shed_snake_skin")
 
 	tooltype.forEach(type => {
 		event.remove({id:"twilightforest:equipment/ironwood_"+type})
@@ -722,7 +734,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("kubejs:primitive_chisel")
 
-	event.shaped('kubejs:primitive_shield',
+	event.shaped('druidic_quest_core:primitive_shield',
 		[
 			"FPF",
 			"PHP",
@@ -775,61 +787,6 @@ ServerEvents.recipes(event => {
 			B: "quark:sturdy_stone"
 		}
 	)
-	
-	event.custom({
-		"type": "lychee:item_exploding",
-		 "post": [
-		   {
-			 "type": "drop_item",
-			 "item": "ars_nouveau:ritual_cloudshaping",
-			 "count": 2
-		   }
-		 ],
-		 "item_in": [
-		   {
-			 "tag": "forge:ingots/gold",
-		   },
-		   {
-			 "item": "naturesaura:ancient_log",
-		   },
-		   {
-			 "item": "naturesaura:ancient_log",
-		   },
-		   {
-			 "tag": "forge:flowers/golden",
-		   },
-		   {
-			 "tag": "forge:flowers/golden",
-		   }
-		   
-		 ]
-	   
-   })
-
-   event.custom({
-	"type": "lychee:block_interacting",
-	"hide_in_viewer": true,
-	"item_in": {
-		"item": "ars_nouveau:ritual_cloudshaping"
-	},
-	"block_in": "minecraft:sunflower",
-	"post": [
-	{
-		"type": "execute",
-		"command": "weather clear"      
-	},
-	{
-		"type": "execute",
-		"command": "playsound irons_spellbooks:cast.generic.holy neutral @p",
-		"secret": true
-	}
-	]
-})
-
-	event.remove({output:"thermal:satchel"})
-		  	
-	event.remove({id:"enigmaticlegacy:magnet_ring"})
-	event.remove({id:"enigmaticlegacy:golden_ring"})
 	
 	event.shaped(
 	  Item.of('minecraft:stone_axe', '{Damage:110}'), 
@@ -903,7 +860,7 @@ ServerEvents.recipes(event => {
 		' S '
 	  ],
 	  {
-		F: '#forge:cobblestone',
+		F: "#quark:stone_tool_materials",
 		S: "#c:rods/wooden"
 	  }
 	)
@@ -916,7 +873,7 @@ ServerEvents.recipes(event => {
 		' S '
 	  ],
 	  {
-		F: '#forge:cobblestone',
+		F: '#quark:stone_tool_materials',
 		S: "#c:rods/wooden"
 	  }
 	)
@@ -929,7 +886,7 @@ ServerEvents.recipes(event => {
 		' S '
 	  ],
 	  {
-		F: '#forge:cobblestone',
+		F: '#quark:stone_tool_materials',
 		S: "#c:rods/wooden"
 	  }
 	)
@@ -942,7 +899,7 @@ ServerEvents.recipes(event => {
 		' S '
 	  ],
 	  {
-		F: '#forge:cobblestone',
+		F: '#quark:stone_tool_materials',
 		S: "#c:rods/wooden"
 	  }
 	)
@@ -954,7 +911,7 @@ ServerEvents.recipes(event => {
 		' S '
 	  ],
 	  {
-		F: '#forge:cobblestone',
+		F: '#quark:stone_tool_materials',
 		S: "#c:rods/wooden"
 	  }
 	)
@@ -1094,6 +1051,18 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Tools ============================================================================
 
+	event.shaped("botania:astrolabe",
+		[
+			" P ",
+			"PXP",
+			" P "
+		],
+		{
+			P: "botania:livingwood_planks",
+			X: "constructionwand:stone_wand"
+		}
+	).id("botania:astrolabe")
+
 	event.shaped("alexsmobs:vine_lasso",
 		[
 			"GVG",
@@ -1218,7 +1187,7 @@ ServerEvents.recipes(event => {
 		{
 			C: "#forge:nuggets/iron",
 			P: "paper",
-			W: "#forge:plates/wooden"
+			W: "#forge:plates/livingwood"
 		}
 	).id("create:crafting/appliances/clipboard")
 
@@ -1229,17 +1198,17 @@ ServerEvents.recipes(event => {
 			"WWW"
 		],
 		{
-			W: "#forge:plates/wooden",
+			W: "#forge:plates/livingwood",
 			S: "supplementaries:sack",
 			G: "#forge:plates/gold",
 			R: "#forge:rods/gold"
 		}
 	).id("create:crafting/curiosities/brown_toolbox")
 
-	tool('minecraft:iron','#forge:ingots/iron','#forge:rods/treated_wood','string')
-	tool('kubejs:copper','#forge:ingots/copper','#forge:rods/treated_wood','string')
-	tool('kubejs:silver','#forge:ingots/silver','#forge:rods/treated_wood','string')
-	tool('kubejs:lead','#forge:ingots/lead','#forge:rods/treated_wood','string')
+	tool('minecraft:iron','#forge:ingots/iron','botania:livingwood_twig','string')
+	tool('kubejs:copper','#forge:ingots/copper','botania:livingwood_twig','string')
+	tool('kubejs:silver','#forge:ingots/silver','botania:livingwood_twig','string')
+	tool('kubejs:lead','#forge:ingots/lead','botania:livingwood_twig','string')
 	
 
 	event.shaped("kubejs:the_ice_cube",
@@ -1253,7 +1222,8 @@ ServerEvents.recipes(event => {
 
 	/// ======================================================================= Tier 2 Tools ============================================================================
 	
-	
+	event.shapeless("botania:crafting_halo",["crafting_on_a_stick:crafting_table","#forge:plates/manasteel"]).id("botania:crafting_halo")
+	event.shapeless("botania:auto_crafting_halo",["crafting_on_a_stick:crafting_table","#forge:plates/infused_iron"]).id("botania:auto_crafting_halo")
 	
 
 	event.shapeless(Item.of('kubejs:capturing_gem', '{captured:0b}'),'kubejs:capturing_gem')
@@ -1340,7 +1310,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			W: "#minecraft:planks",
-			S: "kubejs:primitive_shield",
+			S: "druidic_quest_core:primitive_shield",
 			P: "#forge:plates/iron"
 		}
 	).id("minecraft:shield")
@@ -1403,7 +1373,7 @@ ServerEvents.recipes(event => {
 		  'III' 
 		],
 		{
-		  I: "immersiveengineering:hemp_fabric",
+		  I: "botania:manaweave_cloth",
 		  M: 'aether:leather_gloves'
 		}
 	  )
@@ -1716,8 +1686,6 @@ ServerEvents.recipes(event => {
 	)
 
 	//=======================================================================Tier 4
-
-	event.shaped("thermal:wrench",[" P ","PXP"," P "],{P:"#forge:plates/steel",X:"supplementaries:wrench"}).id("thermal:tools/wrench")
 
 	event.shapeless(Item.of('minecraft:flint_and_steel', '{Damage:0,Unbreakable:1b}'),["kubejs:primitive_firestarter","4x #forge:plates/steel"])
 

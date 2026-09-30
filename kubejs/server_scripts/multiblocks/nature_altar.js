@@ -9,6 +9,7 @@ ServerEvents.recipes(event => {
     //const DustAuraAmount = 500
     altar("aether:zanite_gemstone", "diamond", IngotAuraAmount, IngotProcessingSpeed, "kubejs:infusion_catalyst")
     altar("aether:zanite_block", "diamond_block", BlockAuraAmount, BlockProcessingSpeed, "kubejs:infusion_catalyst")
+    altar("irons_spellbooks:rare_ink", "supplementaries:antique_ink", IngotAuraAmount, IngotProcessingSpeed, "kubejs:infusion_catalyst")
 
     altar("deep_aether:skyjade", "emerald", IngotAuraAmount, IngotProcessingSpeed, "kubejs:infusion_catalyst")
     altar("deep_aether:skyjade_block", "emerald_block", BlockAuraAmount, BlockProcessingSpeed, "kubejs:infusion_catalyst")

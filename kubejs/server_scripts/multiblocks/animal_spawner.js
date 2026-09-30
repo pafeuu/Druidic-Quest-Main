@@ -209,7 +209,7 @@ ServerEvents.recipes((event) => {
         ["naturesaura:birth_spirit",
             "#minecraft:fishes",
             "red_dye",
-            "#forge:plates/stone"], RegularAnimalAuraCost, 60)
+            "#forge:plates/livingrock"], RegularAnimalAuraCost, 60)
 
     spawn("alexsmobs:seal",
         ["naturesaura:birth_spirit",
@@ -220,7 +220,7 @@ ServerEvents.recipes((event) => {
     spawn("alexsmobs:rhinoceros",
         ["naturesaura:birth_spirit",
             "ars_nouveau:wilden_horn",
-            "#forge:plates/stone"], RegularAnimalAuraCost, 60)
+            "#forge:plates/livingrock"], RegularAnimalAuraCost, 60)
 
     spawn("alexsmobs:alligator_snapping_turtle",
         ["naturesaura:birth_spirit",

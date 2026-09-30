@@ -4,11 +4,11 @@ ServerEvents.recipes(e=>{
     const deploying = e.recipes.create.deploying
     const filling = e.recipes.create.filling
     
-    assembly("immersiveengineering:blastbrick","kubejs:blast_brick",
+    assembly("druidic_quest_core:arcane_bricks","kubejs:arcane_brick",
         [
-            deploying("kubejs:incomplete_blast_bricks",["kubejs:incomplete_blast_bricks","kubejs:brick_glue"]),
-            deploying("kubejs:incomplete_blast_bricks",["kubejs:incomplete_blast_bricks","kubejs:blast_brick"])
-        ]).transitionalItem("kubejs:incomplete_blast_bricks").loops(7)
+            deploying("kubejs:incomplete_arcane_bricks",["kubejs:incomplete_arcane_bricks","kubejs:brick_glue"]),
+            deploying("kubejs:incomplete_arcane_bricks",["kubejs:incomplete_arcane_bricks","kubejs:arcane_brick"])
+        ]).transitionalItem("kubejs:incomplete_arcane_bricks").loops(7)
         
 
     assembly("kubejs:soul_core","#forge:ingots/phoenix",

@@ -6,13 +6,14 @@ ServerEvents.recipes(e => {
   e.remove({ output: "sophisticatedstorage:packing_tape" })
   e.shapeless(Item.of('sophisticatedstorage:packing_tape', '{Damage:7}'), ["#forge:slimeballs", "paper"])
 
-  e.replaceInput({ mod: "sophisticatedstorage" }, "minecraft:gold_ingot", "#forge:plates/tainted_gold")
-  e.replaceInput({ mod: "sophisticatedbackpacks" }, "minecraft:gold_ingot", "#forge:plates/tainted_gold")
+  e.replaceInput([{ mod: "sophisticatedstorage" }, { mod: "sophisticatedbackpacks" }], "minecraft:gold_ingot", "#forge:plates/tainted_gold")
 
-  e.replaceInput({ mod: "sophisticatedstorage" }, "#forge:gems/diamond", "#forge:plates/gravitite")
-  e.replaceInput({ mod: "sophisticatedbackpacks" }, "#forge:gems/diamond", "#forge:plates/gravitite")
-  e.replaceInput({mod:"sophisticatedbackpacks"},"minecraft:lever","minecraft:redstone_torch")
-  e.replaceInput({mod:"sophisticatedstorage"},"minecraft:lever","minecraft:redstone_torch")
+  e.replaceInput([{ mod: "sophisticatedstorage" }, { mod: "sophisticatedbackpacks" }], "#forge:gems/diamond", "#forge:plates/gravitite")
+
+  e.replaceInput([{ mod: "sophisticatedstorage" }, { mod: "sophisticatedbackpacks" }], "#forge:ingots/netherite", "#forge:plates/steel")
+
+  e.replaceInput({ mod: "sophisticatedbackpacks" }, "minecraft:lever", "minecraft:redstone_torch")
+  e.replaceInput({ mod: "sophisticatedstorage" }, "minecraft:lever", "minecraft:redstone_torch")
 
   //============================BACKPACKS
   e.remove({ id: "sophisticatedbackpacks:gold_backpack" })
@@ -172,11 +173,11 @@ ServerEvents.recipes(e => {
   e.shapeless("sophisticatedstorage:advanced_filter_upgrade", ["sophisticatedstorage:filter_upgrade", "create:attribute_filter"])
 
   e.remove({ id: "sophisticatedstorage:magnet_upgrade" })
-  e.shapeless("sophisticatedstorage:magnet_upgrade", ["sophisticatedstorage:pickup_upgrade", "enigmaticlegacy:magnet_ring"])
+  e.shapeless("sophisticatedstorage:magnet_upgrade", ["sophisticatedstorage:pickup_upgrade", "botania:magnet_ring"])
   e.shapeless("sophisticatedstorage:magnet_upgrade", ["sophisticatedstorage:pickup_upgrade", "naturesaura:hopper_upgrade"])
 
   e.remove({ id: "sophisticatedstorage:advanced_magnet_ring" })
-  e.shapeless("sophisticatedstorage:advanced_magnet_upgrade", ["sophisticatedstorage:magnet_upgrade", "enigmaticlegacy:super_magnet_ring"])
+  e.shapeless("sophisticatedstorage:advanced_magnet_upgrade", ["sophisticatedstorage:magnet_upgrade", "botania:magnet_ring_greater"])
   e.shapeless("sophisticatedstorage:advanced_magnet_upgrade", ["sophisticatedstorage:magnet_upgrade", "naturesaura:hopper_upgrade"])
 
   e.shaped("sophisticatedbackpacks:mob_catcher_upgrade",

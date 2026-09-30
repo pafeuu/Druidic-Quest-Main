@@ -1,6 +1,6 @@
 const colors = ['red', 'blue', 'white', 'gray', 'light_gray', 'black', 'purple', 'magenta', 'yellow', 'green', 'lime', 'light_blue', 'cyan', 'orange', 'pink', 'brown']
 
-const metals = ['tin', 'silver', 'lead', 'gold', 'iron', 'copper', 'nickel', 'zinc', 'aluminum']
+const metals = ['tin', 'silver', 'lead', 'gold', 'iron', 'copper', 'nickel', 'zinc', 'platinum']
 
 const wood = ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak', "crimson", "warped", "cherry", "bamboo", "mangrove"]
 
@@ -32,7 +32,8 @@ ServerEvents.recipes(event => {
 	event.remove({output:'#minecraft:hoes'})
 	event.remove({output:'#minecraft:swords'})*/
 
-	event.replaceInput({ mod: 'ars_nouveau', not: [{ type: "minecraft:stonecutting" }, { id: "ars_nouveau:sourcestone_sconce" }] }, 'ars_nouveau:sourcestone', 'kubejs:source_alloy_ingot')
+	event.replaceInput({ mod: 'ars_nouveau', not: [{ type: "minecraft:stonecutting" }, { id: "ars_nouveau:sourcestone_sconce" }] },
+		 'ars_nouveau:sourcestone', 'botania:manasteel_ingot')
 
 	event.replaceInput({ mod: 'crafting_on_a_stick' }, 'minecraft:stick', 'kubejs:zinc_tool_handle')
 	event.shapeless("2x minecraft:rooted_dirt", ["minecraft:dirt", "minecraft:mangrove_roots"])
@@ -64,6 +65,33 @@ ServerEvents.recipes(event => {
 	})
 
 	/// ======================================================================= Tier 0 Machines ========================================================================
+
+	event.shaped("botania:cocoon",
+		[
+			" F ",
+			"CRC",
+			"CRC"
+		],
+		{
+			R: "minecraft:rotten_flesh",
+			C: "botania:manaweave_cloth",
+			F: "botania:fel_pumpkin"
+		}
+	).id("botania:cocoon")
+
+	event.shaped("botania:teru_teru_bozu",
+		[
+			" C ",
+			"CTC",
+			"CSC"
+		],
+		{
+			C: "botania:manaweave_cloth",
+			T: "ars_nouveau:ritual_cloudshaping",
+			S: "minecraft:sunflower"
+		}
+	).id("botania:teru_teru_bozu")
+
 	event.shaped("minecraft:campfire",
 		[
 			" S ",
@@ -282,6 +310,31 @@ ServerEvents.recipes(event => {
 
 
 	/// ======================================================================= Tier 0 Components ========================================================================
+	event.shaped("ars_nouveau:ritual_cloudshaping",
+		[
+			"GPG",
+			"PXP",
+			"GPG"
+		],
+		{
+			G: "#forge:flowers/golden",
+			P: "#forge:flowers/pure",
+			X: "wizards_reborn:arcane_wood_log"
+		}
+	)
+
+	event.shaped("botania:manaweave_cloth",
+		[
+			"XYX",
+			"YWY",
+			"XYX"
+		],
+		{
+			X: "supplementaries:flax",
+			W: "white_wool",
+			Y: "farmersdelight:canvas"
+		}
+	).id("botania:manaweave_cloth")
 
 	event.shaped("rehooked:wood_chain",
 		[
@@ -639,7 +692,7 @@ ServerEvents.recipes(event => {
 			' S '
 		],
 		{
-			B: '#forge:treated_wood',
+			B: "botania:livingwood_planks",
 			S: '#forge:glass'
 		}
 	)
@@ -906,7 +959,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			I: '#forge:ingots/iron',
-			S: 'kubejs:wooden_gear'
+			S: 'druidic_quest_core:livingwood_gear'
 		}
 	)
 
@@ -933,7 +986,7 @@ ServerEvents.recipes(event => {
 		{
 			I: 'quark:sturdy_stone',
 			P: '#forge:storage_blocks/potato',
-			S: 'kubejs:stone_gear'
+			S: 'druidic_quest_core:livingrock_gear'
 		}
 	)
 
@@ -946,19 +999,19 @@ ServerEvents.recipes(event => {
 		],
 		{
 			R: '#forge:dusts/redstone',
-			S: '#forge:rods/treated_wood'
+			S: 'botania:livingwood_twig'
 		}
 	)
 	event.shaped(
-		Item.of('kubejs:stone_gear'),
+		Item.of("druidic_quest_core:livingrock_gear"),
 		[
 			' I ',
 			'IGI',
 			' I '
 		],
 		{
-			I: 'kubejs:stone_plate',
-			G: 'kubejs:wooden_gear'
+			I: 'druidic_quest_core:livingrock_plate',
+			G: 'druidic_quest_core:livingwood_gear'
 		}
 	)
 
@@ -993,14 +1046,14 @@ ServerEvents.recipes(event => {
 
 
 	event.shaped(
-		Item.of('kubejs:wooden_gear'),
+		Item.of('druidic_quest_core:livingwood_gear'),
 		[
 			' I ',
 			'IGI',
 			' I '
 		],
 		{
-			I: 'kubejs:wooden_plate',
+			I: 'druidic_quest_core:livingwood_plate',
 			G: 'minecraft:redstone_torch'
 		}
 	)
@@ -1028,7 +1081,7 @@ ServerEvents.recipes(event => {
 			'III'
 		],
 		{
-			I: 'kubejs:wooden_plate',
+			I: 'druidic_quest_core:livingwood_plate',
 			G: '#forge:gems/diamond'
 		}
 	)
@@ -1059,7 +1112,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			T: "#forge:plates/tin",
-			S: "#forge:plates/stone",
+			S: "#forge:plates/livingrock",
 			G: "#forge:glass",
 			M: "druidic_quest_core:primitive_machine",
 			H: "supplementaries:hourglass"
@@ -1149,7 +1202,7 @@ ServerEvents.recipes(event => {
 		{
 			G: "#forge:glass",
 			R: "redstone",
-			W: "#forge:plates/wooden"
+			W: "#forge:plates/livingwood"
 		}
 	).id("create:crafting/kinetics/nixie_tube")
 
@@ -1235,7 +1288,7 @@ ServerEvents.recipes(event => {
 		{
 			G: "#forge:rods/gold",
 			T: "redstone_torch",
-			S: "druidic_quest_core:treated_stick",
+			S: "botania:livingwood_twig",
 			C: "supplementaries:crank"
 		}
 	).id("create:crafting/kinetics/controller_rail")
@@ -1248,7 +1301,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			G: "#forge:rods/iron",
-			S: "druidic_quest_core:treated_stick"
+			S: "botania:livingwood_twig"
 		}
 	).id("minecraft:rail")
 
@@ -1260,7 +1313,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			G: "#forge:rods/iron",
-			S: "druidic_quest_core:treated_stick",
+			S: "botania:livingwood_twig",
 			P: "stone_pressure_plate"
 		}
 	).id("minecraft:detector_rail")
@@ -1273,7 +1326,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			G: "#forge:rods/iron",
-			S: "druidic_quest_core:treated_stick",
+			S: "botania:livingwood_twig",
 			P: "redstone"
 		}
 	).id("minecraft:activator_rail")
@@ -1287,7 +1340,7 @@ ServerEvents.recipes(event => {
 		{
 			G: "#forge:rods/gold",
 			T: "redstone_torch",
-			S: "druidic_quest_core:treated_stick"
+			S: "botania:livingwood_twig"
 		}
 	).id("minecraft:powered_rail")
 
@@ -1324,7 +1377,7 @@ ServerEvents.recipes(event => {
 			"RPR"
 		],
 		{
-			R: "#forge:rods/aluminum",
+			R: "#forge:rods/platinum",
 			S: "naturesaura:ancient_stick",
 			P: "ender_pearl"
 		}
@@ -1336,7 +1389,7 @@ ServerEvents.recipes(event => {
 			"SSS"
 		],
 		{
-			S: "#forge:plates/stone",
+			S: "#forge:plates/livingrock",
 			R: "redstone",
 			L: "lever"
 		}
@@ -1451,32 +1504,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("wizards_reborn:arcane_workbench/experience_totem")
 
-	event.shaped("simplemagnets:basic_demagnetization_coil",
-		[
-			"RBR",
-			"RMR",
-			"BBB"
-		],
-		{
-			B: "deepslate",
-			M: "druidic_quest_core:primitive_machine",
-			R: "#forge:storage_blocks/redstone"
-		}
-	).id("simplemagnets:basic_demagnetization_coil")
-
-	event.shaped("simplemagnets:advanced_demagnetization_coil",
-		[
-			"RBR",
-			"RXR",
-			"BBB"
-		],
-		{
-			B: "deepslate",
-			X: "simplemagnets:basic_demagnetization_coil",
-			R: "#forge:rods/gold"
-		}
-	).id("simplemagnets:advanced_demagnetization_coil")
-
 	event.shaped("quark:redstone_randomizer",
 		[
 			"STS",
@@ -1484,7 +1511,7 @@ ServerEvents.recipes(event => {
 			"SRS"
 		],
 		{
-			S: "#forge:plates/stone",
+			S: "#forge:plates/livingrock",
 			R: "#forge:dusts/redstone",
 			T: "redstone_torch",
 			G: "#forge:gems/prismarine"
@@ -1513,7 +1540,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			R: "create:pulse_repeater",
-			S: "#forge:plates/stone",
+			S: "#forge:plates/livingrock",
 			A: "amethyst_shard",
 			B: "#forge:plates/brass"
 		}
@@ -1526,7 +1553,7 @@ ServerEvents.recipes(event => {
 			"PMP"
 		],
 		{
-			P: "#forge:plates/wooden",
+			P: "#forge:plates/livingwood",
 			H: "woodenhopper:wooden_hopper",
 			X: "#forge:gears/nickel",
 			M: "druidic_quest_core:primitive_machine",
@@ -1678,7 +1705,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			N: "twilightforest:naga_scale",
-			S: "#forge:plates/stone",
+			S: "#forge:plates/livingrock",
 			M: "druidic_quest_core:primitive_machine",
 			H: "woodenhopper:wooden_hopper"
 		}
@@ -1777,7 +1804,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("wizards_reborn:shapeless/fluid_extractor")
 
-	event.shapeless("wizards_reborn:fluid_pipe", ["immersiveengineering:fluid_pipe", "wizards_reborn:wisestone"]).id("wizards_reborn:arcane_workbench/fluid_pipe")
+	event.shapeless("wizards_reborn:fluid_pipe", ["create:fluid_pipe", "wizards_reborn:wisestone"]).id("wizards_reborn:arcane_workbench/fluid_pipe")
 
 	event.shaped("2x naturesaura:field_creator",
 		[
@@ -1903,7 +1930,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			S: "cobblestone",
-			G: "kubejs:stone_gear",
+			G: "druidic_quest_core:livingrock_gear",
 			E: "#forge:gems/emerald",
 			W: "woodenhopper:wooden_hopper",
 			D: "dispenser"
@@ -1961,7 +1988,7 @@ ServerEvents.recipes(event => {
 			"SZS"
 		],
 		{
-			S: "#forge:plates/stone",
+			S: "#forge:plates/livingrock",
 			B: "#forge:plates/brass",
 			X: "repeater",
 			Z: "comparator",
@@ -1976,7 +2003,7 @@ ServerEvents.recipes(event => {
 			"SRS"
 		],
 		{
-			S: "#forge:plates/stone",
+			S: "#forge:plates/livingrock",
 			B: "#forge:plates/brass",
 			R: "repeater"
 		}
@@ -1989,7 +2016,7 @@ ServerEvents.recipes(event => {
 			"STS"
 		],
 		{
-			S: "#forge:plates/stone",
+			S: "#forge:plates/livingrock",
 			T: "redstone_torch",
 			R: "redstone"
 		}
@@ -2004,7 +2031,7 @@ ServerEvents.recipes(event => {
 			"SQS"
 		],
 		{
-			S: "#forge:plates/stone",
+			S: "#forge:plates/livingrock",
 			T: "redstone_torch",
 			D: "repeater",
 			Q: "#forge:storage_blocks/quartz"
@@ -2018,7 +2045,7 @@ ServerEvents.recipes(event => {
 			"SQS"
 		],
 		{
-			S: "#forge:plates/stone",
+			S: "#forge:plates/livingrock",
 			T: "redstone_torch",
 			D: "repeater",
 			Q: "#forge:storage_blocks/sapphire"
@@ -2032,7 +2059,7 @@ ServerEvents.recipes(event => {
 			"SPS"
 		],
 		{
-			S: "#forge:plates/stone",
+			S: "#forge:plates/livingrock",
 			L: "lever",
 			R: "repeater",
 			P: "piston"
@@ -2041,29 +2068,10 @@ ServerEvents.recipes(event => {
 
 	event.shapeless("create:powered_toggle_latch", ["create:powered_latch", "redstone_torch"]).id("create:crafting/logistics/powered_toggle_latch")
 
-	event.shaped("create:placard",
-		[
-			" P ",
-			"PFP",
-			" P "
-		],
-		{
-			P: "#forge:plates/copper",
-			F: "item_frame"
-		}
-	)
+	event.shapeless("create:placard",["#forge:plates/copper","item_frame"])
 
-	event.shaped("3x create:placard",
-		[
-			" P ",
-			"PFP",
-			" P "
-		],
-		{
-			P: "#forge:plates/brass",
-			F: "item_frame"
-		}
-	).id("create:crafting/kinetics/placard")
+	event.shapeless("2x create:placard",["#forge:plates/brass","item_frame"])
+	.id("create:crafting/kinetics/placard")
 
 	event.shaped("thermal:device_tree_extractor",
 		[
@@ -2074,7 +2082,7 @@ ServerEvents.recipes(event => {
 		{
 			G: "#forge:gears/tin",
 			F: "supplementaries:faucet",
-			W: "#forge:plates/wooden",
+			W: "#forge:plates/livingwood",
 			M: "druidic_quest_core:primitive_machine",
 			S: "#forge:plates/tin",
 			B: "bucket"
@@ -2230,7 +2238,7 @@ ServerEvents.recipes(event => {
 		{
 			Z: '#forge:ingots/copper',
 			P: '#forge:dusts/redstone',
-			X: 'kubejs:wooden_gear'
+			X: 'druidic_quest_core:livingwood_gear'
 		}
 	)
 
@@ -2260,8 +2268,8 @@ ServerEvents.recipes(event => {
 		],
 		{
 			B: 'thermal:saw_blade',
-			P: '#forge:treated_wood',
-			S: '#forge:rods/treated_wood'
+			P: 'botania:livingwood_planks',
+			S: 'botania:livingwood_twig'
 		}
 	)
 
@@ -2289,7 +2297,7 @@ ServerEvents.recipes(event => {
 			'PPP'
 		],
 		{
-			S: '#forge:treated_wood_slab',
+			S: 'botania:livingwood_planks_slab',
 			P: '#forge:glass'
 		}
 	)
@@ -2317,7 +2325,7 @@ ServerEvents.recipes(event => {
 			'P'
 		],
 		{
-			S: '#forge:rods/treated_wood',
+			S: 'botania:livingwood_twig',
 			P: 'quark:sturdy_stone'
 		}
 	)
@@ -2331,7 +2339,7 @@ ServerEvents.recipes(event => {
 			'DPD'
 		],
 		{
-			G: 'kubejs:stone_gear',
+			G: 'druidic_quest_core:livingrock_gear',
 			P: 'druidic_quest_core:primitive_machine',
 			S: 'woodenhopper:wooden_hopper',
 			D: "#forge:dusts/iron"
@@ -2347,8 +2355,8 @@ ServerEvents.recipes(event => {
 			' P '
 		],
 		{
-			P: '#forge:treated_wood',
-			T: 'kubejs:wooden_gear'
+			P: 'botania:livingwood_planks',
+			T: 'druidic_quest_core:livingwood_gear'
 		}
 	)
 
@@ -2359,9 +2367,9 @@ ServerEvents.recipes(event => {
 	event.shapeless('quark:deepslate_furnace', ['minecraft:furnace', 'minecraft:cobbled_deepslate'])
 	event.shapeless('quark:blackstone_furnace', ['minecraft:furnace', 'minecraft:blackstone'])
 
-	event.remove({ output: 'farmersdelight:basket' })
+	
 	event.shaped(
-		Item.of('farmersdelight:basket'),
+		Item.of('farmersdelight:wooden_basket'),
 		[
 			'CHC',
 			'CCC'
@@ -2370,7 +2378,9 @@ ServerEvents.recipes(event => {
 			H: 'woodenhopper:wooden_hopper',
 			C: 'farmersdelight:canvas'
 		}
-	)
+	).id("farmersdelight:wooden_basket")
+
+	event.shapeless("farmersdelight:bamboo_basket",["farmersdelight:wooden_basket","minecraft:bamboo_planks"]).id("farmersdelight:bamboo_basket")
 
 	event.remove({ id: 'minecraft:stonecutter' })
 	event.shaped(
@@ -2381,7 +2391,7 @@ ServerEvents.recipes(event => {
 			'SSS'
 		],
 		{
-			P: '#forge:treated_wood',
+			P: 'botania:livingwood_planks',
 			S: 'minecraft:smooth_stone',
 			G: 'thermal:saw_blade'
 		}
@@ -2395,7 +2405,7 @@ ServerEvents.recipes(event => {
 			'F F'
 		],
 		{
-			P: '#forge:treated_wood',
+			P: 'botania:livingwood_planks',
 			S: 'minecraft:smooth_stone',
 			F: "botania:livingwood_fence"
 		}
@@ -2412,7 +2422,7 @@ ServerEvents.recipes(event => {
 		{
 			B: '#forge:books',
 			Q: 'minecraft:writable_book',
-			P: '#forge:treated_wood_slab',
+			P: 'botania:livingwood_planks_slab',
 			F: "botania:livingwood_fence"
 		}
 	)
@@ -2430,7 +2440,7 @@ ServerEvents.recipes(event => {
 			L: '#forge:leather',
 			X: "supplementaries:sack",
 			E: 'minecraft:ender_pearl',
-			P: "#forge:plates/wooden"
+			P: "#forge:plates/livingwood"
 		}
 	)
 	event.shaped(
@@ -2444,7 +2454,7 @@ ServerEvents.recipes(event => {
 			C: 'farmersdelight:canvas',
 			L: '#forge:leather',
 			X: "#minecraft:shulker_boxes",
-			P: "#forge:plates/wooden"
+			P: "#forge:plates/livingwood"
 		}
 	)
 
@@ -3068,7 +3078,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			X: 'irons_spellbooks:pedestal',
-			W: 'kubejs:source_alloy_ingot',
+			W: '#forge:ingots/manasteel',
 			G: "#forge:rods/gold"
 
 		}
@@ -3225,7 +3235,7 @@ ServerEvents.recipes(event => {
 		{
 			P: "druidic_quest_core:arcanist_hammer",
 			A: "minecraft:anvil",
-			G: "#forge:gears/source_alloy",
+			G: "#forge:gears/manasteel",
 			Y: "#forge:gears/arcanum_alloy",
 			X: "kubejs:basic_magic_machine"
 		}
@@ -3238,7 +3248,7 @@ ServerEvents.recipes(event => {
 			"PXP"
 		],
 		{
-			P: "#forge:plates/source_alloy",
+			P: "#forge:plates/manasteel",
 			G: "#forge:gears/gold",
 			B: "quark:diamond_heart",
 			X: "kubejs:basic_magic_machine"
@@ -3251,7 +3261,7 @@ ServerEvents.recipes(event => {
 			"RTR"
 		],
 		{
-			P: "#forge:plates/source_alloy",
+			P: "#forge:plates/manasteel",
 			R: "#forge:rods/gold",
 			M: "kubejs:basic_magic_machine",
 			T: "ars_nouveau:arcane_pedestal"
@@ -3296,7 +3306,7 @@ ServerEvents.recipes(event => {
 			A: "naturesaura:token_anger",
 			X: "kubejs:basic_magic_machine",
 			T: "naturesaura:token_sorrow",
-			S: "#forge:plates/stone",
+			S: "#forge:plates/livingrock",
 			G: "thermal:ruby_block"
 		}
 	).id("naturesaura:blast_furnace_booster")
@@ -3435,7 +3445,7 @@ ServerEvents.recipes(event => {
 			"PWP"
 		],
 		{
-			P: "#forge:plates/stone",
+			P: "#forge:plates/livingrock",
 			W: "woodenhopper:wooden_hopper",
 			M: "druidic_quest_core:primitive_machine",
 			G: "#forge:gears/stone",
@@ -3451,7 +3461,7 @@ ServerEvents.recipes(event => {
 			"GPG"
 		],
 		{
-			P: "#forge:plates/source_alloy",
+			P: "#forge:plates/manasteel",
 			G: "#forge:plates/gold",
 			R: "#forge:rods/gold",
 			T: "wizards_reborn:wissen_translator"
@@ -3611,7 +3621,7 @@ ServerEvents.recipes(event => {
 			M: "kubejs:basic_magic_machine",
 			X: "quark:diamond_heart",
 			R: '#forge:rods/gold',
-			A: 'kubejs:source_alloy_ingot'
+			A: '#forge:ingots/manasteel'
 		}
 	).id("ars_nouveau:arcane_core")
 
@@ -3671,7 +3681,7 @@ ServerEvents.recipes(event => {
 			'CCC'
 		],
 		{
-			C: '#forge:treated_wood',
+			C: 'botania:livingwood_planks',
 			G: 'druidic_quest_core:nature_essence'
 		}
 	)
@@ -3709,7 +3719,7 @@ ServerEvents.recipes(event => {
 			{ tag: "forge:ingots/zinc" }
 		],
 		"reagent": [
-			{ item: "druidic_quest_core:treated_stick" }
+			{ item: "botania:livingwood_twig" }
 		],
 		"sourceCost": 0
 	})
@@ -4027,6 +4037,21 @@ ServerEvents.recipes(event => {
 
 	///======================================== Tier 3 Machines =======================================================================
 
+	event.shaped("botania:terra_plate",
+		[
+			"AAA",
+			"GXG",
+			"YZY"
+		],
+		{
+			A: "druidic_quest_core:arcane_bricks",
+			G: "#forge:gears/arcane_gold",
+			X: "kubejs:andesite_machine",
+			Y: "druidic_quest_core:alloy_bricks",
+			Z: "#forge:gears/gravitite"
+		}
+	).id("botania:terra_plate")
+
 	event.shaped("2x irons_spellbooks:portal_frame",
 		[
 			"GSG",
@@ -4085,7 +4110,7 @@ ServerEvents.recipes(event => {
 			"SMS"
 		],
 		{
-			S: "#forge:plates/stone",
+			S: "#forge:plates/livingrock",
 			P: "#forge:plates/ironwood",
 			G: "#forge:gears/ironwood",
 			M: "enigmaticlegacy:mending_mixture",
@@ -4355,7 +4380,7 @@ ServerEvents.recipes(event => {
 
 	event.shaped("create:mechanical_harvester",
 		["AXA", "AYA", "AZA"],
-		{ A: "create:andesite_casing", X: "immersiveengineering:razor_wire", Y: "kubejs:andesite_machine", Z: "ars_nouveau:glyph_harvest" }).id("create:crafting/kinetics/mechanical_harvester")
+		{ A: "create:andesite_casing", X: "minecraft:iron_hoe", Y: "kubejs:andesite_machine", Z: "ars_nouveau:glyph_harvest" }).id("create:crafting/kinetics/mechanical_harvester")
 
 	event.shaped("create:mechanical_plough",
 		["AXA", "AYA", "AZA"],
@@ -4389,7 +4414,7 @@ ServerEvents.recipes(event => {
 
 	event.recipes.create.mixing("create:rose_quartz", ["kubejs:salmon_quartz", "ars_nouveau:conjuration_essence", "wither_rose"]).id("create:crafting/materials/rose_quartz").heated()
 
-	//TODO Replace the blast furnace
+	
 	/*
 	event.custom({
 
@@ -4422,7 +4447,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.recipes.create.mixing("2x kubejs:fiery_clay_blend", ["8x #forge:dusts/coal_coke", "4x ars_nouveau:fire_essence", "4x ars_nouveau:earth_essence", "2x clay_ball", "8x wizards_reborn:nether_salt"]).heated()
+	event.recipes.create.mixing("2x druidic_quest_core:arcane_clay_blend", ["8x thermal:coal_coke", "4x ars_nouveau:conjuration_essence", "4x ars_nouveau:earth_essence", "2x clay_ball", "8x wizards_reborn:nether_salt"]).heated()
 
 	event.recipes.create.mixing("kubejs:wrought_iron_ingot", ["2x ars_nouveau:earth_essence", "2x ars_nouveau:fire_essence", "4x supplementaries:ash", "#forge:ingots/iron"]).heated()
 
@@ -4534,7 +4559,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			S: "#forge:plates/steel",
-			P: "#forge:plates/wooden",
+			P: "#forge:plates/livingwood",
 			C: "ars_nouveau:starbuncle_charm"
 		}
 	).id("ars_creo:starbuncle_wheel")
@@ -4556,8 +4581,8 @@ ServerEvents.recipes(event => {
 
 	//======================================================== placeholder endgame
 
-	event.shapeless("enigmaticlegacy:darkest_scroll",["enigmaticlegacy:thicc_scroll","kubejs:dark_essence"])
-	
+	event.shapeless("enigmaticlegacy:darkest_scroll", ["enigmaticlegacy:thicc_scroll", "kubejs:dark_essence"])
+
 	event.custom(
 		{
 			type: "create:mechanical_crafting",
@@ -4601,5 +4626,5 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	
+
 })

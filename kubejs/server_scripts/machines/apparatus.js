@@ -27,7 +27,7 @@ ServerEvents.recipes(event=>{
         "ars_nouveau:water_essence",
         "ars_nouveau:earth_essence",
         "ars_nouveau:earth_essence"
-    ],"kubejs:infused_diamond","kubejs:elemental_core",5000)
+    ],"kubejs:infused_diamond","kubejs:elemental_core",50000)
 
     apparatus([
         "ars_nouveau:fire_essence",
@@ -174,7 +174,7 @@ ServerEvents.recipes(event=>{
     {
         apparatus([
             "#forge:gears/tainted_gold",
-            "#forge:gears/source_alloy",
+            "#forge:gears/manasteel",
             "irons_spellbooks:weapon_parts",
             "ars_nouveau:manipulation_essence",
             "ars_nouveau:manipulation_essence",

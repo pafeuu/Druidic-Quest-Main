@@ -12,8 +12,9 @@ ServerEvents.tags("item", (e) => {
     "druidic_quest_core:cobalt_flower_staff",
     "druidic_quest_core:ebony_flower_staff",
   ])
-  
-  e.add("dq:unbreakables", [
+  e.add("dq:unbreakables",global.Unbreakables)
+
+  /*e.add("dq:unbreakables", [
     "kubejs:capturing_gem",
     "druidic_quest_core:steel_axe",
     "druidic_quest_core:steel_pickaxe",
@@ -50,7 +51,7 @@ ServerEvents.tags("item", (e) => {
     "kubejs:lumber_axe",
     "kubejs:dwarven_pickaxe",
     "kubejs:dwarven_sword"
-  ])
+  ])*/
 
   e.add("dq:soul_harvester", [
     "naturesaura:depth_sword",

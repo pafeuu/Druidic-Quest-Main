@@ -4,7 +4,7 @@ ServerEvents.tags("item", (event) => {
 
   event.removeAllTagsFrom(["ancient_aether:highsproot_wood_wall", "ancient_aether:stripped_sakura_log_wall", "ancient_aether:sakura_log_wall", "ancient_aether:stripped_sakura_wood_wall", "ancient_aether:sakura_wood_wall", "ancient_aether:stripped_highsproot_wood_wall", "ancient_aether:stripped_highsproot_log_wall", "ancient_aether:highsproot_log_wall"])
 
-
+  event.removeAll('botania:petals')
   event.add("connectiblechains:chain_connectible",[
     "#c:chains",
     "#minecraft:walls",
@@ -13,6 +13,9 @@ ServerEvents.tags("item", (event) => {
     "quark:gold_bars"
   ])
   event.add("forge:stripped_blocks", ["#forge:stripped_logs", "#forge:stripped_wood"])
+
+  event.add("naturesaura_plus:oven_hammer","druidic_quest_core:arcanist_hammer")
+  event.remove("quark:stone_tool_materials","flint")
 
   event.add("forge:stripped_logs", [
     'aether:stripped_skyroot_log',
@@ -68,7 +71,8 @@ ServerEvents.tags("item", (event) => {
 
   event.add("reliable_requiem:retained_on_death", [
     "twilightforest:phantom_chestplate",
-    "twilightforest:phantom_helmet"
+    "twilightforest:phantom_helmet",
+    "eccentrictome:tome"
   ])
 
   event.add("forge:cooked_eggs", "alexsmobs:boiled_emu_egg")
@@ -180,7 +184,6 @@ ServerEvents.tags("item", (event) => {
     'biomeswevegone:white_allium_flower_bush'
   ])
   event.remove("minecraft:tall_flowers", "farmersdelight:wild_rice");
-  event.add("c:hidden_from_recipe_viewers", [global.nukelist]);
 
   event.add("c:hidden_from_recipe_viewers", [
     "kubejs:recipe_changed",
@@ -343,7 +346,12 @@ ServerEvents.tags("item", (event) => {
     "silly_oddities:wildflowers",
     'deep_aether:golden_aspess',
     'deep_aether:enchanted_blossom',
-    'deep_aether:golden_flower'
+    'deep_aether:golden_flower',
+    'botania:yellow_floating_flower',
+    'botania:yellow_mystical_flower',
+    'botania:yellow_shiny_flower',
+    'botania:yellow_double_flower',
+    'wizards_reborn:old_dandelion'
   ]);
 
   event.add("forge:flowers/lush", [
@@ -375,7 +383,25 @@ ServerEvents.tags("item", (event) => {
     'biomeswevegone:purple_sage',
     'deep_aether:radiant_orchid',
     'ancient_aether:elevetia',
-    'biomeswevegone:purple_amaranth'
+    'biomeswevegone:purple_amaranth',
+    'botania:pink_double_flower',
+    'botania:magenta_double_flower',
+    'botania:lime_double_flower',
+    'botania:purple_mystical_flower',
+    'botania:pink_mystical_flower',
+    'botania:magenta_mystical_flower',
+    'botania:green_double_flower',
+    'botania:lime_mystical_flower',
+    'botania:green_mystical_flower',
+    'botania:lime_floating_flower',
+    'botania:green_floating_flower',
+    'botania:pink_floating_flower',
+    'botania:magenta_floating_flower',
+    'botania:lime_shiny_flower',
+    'botania:green_shiny_flower',
+    'botania:purple_shiny_flower',
+    'botania:magenta_shiny_flower',
+    'botania:pink_shiny_flower'
   ])
 
   event.add("forge:flowers/pure", [
@@ -402,7 +428,15 @@ ServerEvents.tags("item", (event) => {
     'biomeswevegone:tall_white_allium',
     'biomeswevegone:white_sakura_petals',
     'wizards_reborn:old_sunrise_blossom',
-    'biomeswevegone:white_allium'
+    'biomeswevegone:white_allium',
+    'botania:light_gray_floating_flower',
+    'botania:white_floating_flower',
+    'botania:white_shiny_flower',
+    'botania:light_gray_shiny_flower',
+    'botania:light_gray_mystical_flower',
+    'botania:light_gray_double_flower',
+    'botania:white_mystical_flower',
+    'botania:white_double_flower'
   ])
 
   event.add("forge:flowers/ebony", [
@@ -420,7 +454,21 @@ ServerEvents.tags("item", (event) => {
     'biomeswevegone:crocus',
     'deep_aether:echaisy',
     'biomeswevegone:iris',
-    'biomeswevegone:allium_flower_bush'
+    'biomeswevegone:allium_flower_bush',
+    'botania:brown_double_flower',
+    'botania:brown_floating_flower',
+    'botania:purple_double_flower',
+    'botania:gray_double_flower',
+    'botania:black_mystical_flower',
+    'botania:black_double_flower',
+    'botania:gray_mystical_flower',
+    'botania:gray_floating_flower',
+    'botania:black_floating_flower',
+    'botania:purple_floating_flower',
+    'botania:brown_mystical_flower',
+    'botania:gray_shiny_flower',
+    'botania:black_shiny_flower',
+    'botania:brown_shiny_flower'
   ])
 
   event.add("forge:flowers/cobalt",
@@ -443,7 +491,20 @@ ServerEvents.tags("item", (event) => {
       'deep_aether:aether_cattails',
       'ancient_aether:wynd_thistle',
       'ancient_aether:sky_blues',
-      'minecraft:pitcher_plant'
+      'minecraft:pitcher_plant',
+      'botania:hydroangeas_motif',
+      'botania:cyan_floating_flower',
+      'botania:light_blue_floating_flower',
+      'botania:blue_floating_flower',
+      'botania:light_blue_double_flower',
+      'botania:cyan_double_flower',
+      'botania:light_blue_mystical_flower',
+      'botania:blue_double_flower',
+      'botania:cyan_mystical_flower',
+      'botania:blue_mystical_flower',
+      'botania:cyan_shiny_flower',
+      'botania:light_blue_shiny_flower',
+      'botania:blue_shiny_flower'
     ])
 
   event.add("forge:flowers/crimson", [
@@ -472,7 +533,15 @@ ServerEvents.tags("item", (event) => {
     'biomeswevegone:kovan_flower',
     'wizards_reborn:old_rose',
     'biomeswevegone:magenta_amaranth',
-    'biomeswevegone:magenta_pitcher_plant'
+    'biomeswevegone:magenta_pitcher_plant',
+    'botania:red_floating_flower',
+    'botania:orange_floating_flower',
+    'botania:orange_shiny_flower',
+    'botania:red_shiny_flower',
+    'botania:orange_mystical_flower',
+    'botania:orange_double_flower',
+    'botania:red_double_flower',
+    'botania:red_mystical_flower'
   ])
 
   event.add("c:hidden_from_recipe_viewers", "#forge:tools/skyroot");;
@@ -480,9 +549,9 @@ ServerEvents.tags("item", (event) => {
   event.add("c:hidden_from_recipe_viewers", "kubejs:unassembled_clock");
   event.add("c:hidden_from_recipe_viewers", "kubejs:unassembled_compass");
 
-  event.add("forge:tools/shields", "kubejs:primitive_shield");
-  event.add("forge:shields", "kubejs:primitive_shield");
-  event.add("forge:tools", "kubejs:primitive_shield");
+  event.add("forge:tools/shields", "druidic_quest_core:primitive_shield");
+  event.add("forge:shields", "druidic_quest_core:primitive_shield");
+  event.add("forge:tools", "druidic_quest_core:primitive_shield");
 
   function armor(name, type) {
     event.add("forge:armors/helmets", name + "_helmet");
@@ -592,6 +661,7 @@ ServerEvents.tags("item", (event) => {
   tooltier("twilightforest:fiery", "fiery");
   tooltier("twilightforest:knightmetal", "knightmetal");
   tooltier("wizards_reborn:arcane_wood", "arcane_wood");
+  tooltier("wizards_reborn:arcane_gold", "arcane_gold");
 
   tool("kubejs:copper");
   tool("kubejs:silver");

@@ -163,7 +163,6 @@ ServerEvents.recipes(event => {
 		//Compacts 4 small items into 1 big item and back (used for some gems and gems blocks)
 	};
 
-	event.shapeless("thermal:sulfur", "9x #forge:nuggets/sulfur")
 	Chunks("coal", "kubejs:coal_chunk")
 	Chunks("charcoal", "kubejs:charcoal_chunk")
 	Chunks("thermal:coal_coke", "kubejs:coke_chunk")
@@ -173,9 +172,7 @@ ServerEvents.recipes(event => {
 	StorageCompacting("kubejs:sapphire_block", "kubejs:sapphire")
 	StorageCompacting("thermal:gunpowder_block", "quark:gunpowder_sack")
 	StorageCompacting("kubejs:arcanum_alloy_block", "kubejs:arcanum_alloy_ingot")
-	StorageCompacting("kubejs:source_alloy_block", "kubejs:source_alloy_ingot")
 	StorageCompacting("kubejs:arcanum_alloy_ingot", "kubejs:arcanum_alloy_nugget")
-	StorageCompacting("kubejs:source_alloy_ingot", "kubejs:source_alloy_nugget")
 	StorageCompacting("twilightforest:ironwood_ingot", "kubejs:ironwood_nugget")
 	StorageCompacting("twilightforest:knightmetal_ingot", "kubejs:knightmetal_nugget")
 	StorageCompacting("naturesaura:tainted_gold", "kubejs:tainted_gold_nugget")
@@ -214,8 +211,6 @@ ServerEvents.recipes(event => {
 	});
 
 	function metal(material) {
-		event.remove({ id: 'thermal:machines/press/press_' + material + '_ingot_to_coin' })
-		event.remove({ id: 'thermal:machines/press/press_' + material + '_nugget_to_coin' }) /// Removes Coins crafting recipes
 
 		event.custom(
 			{
@@ -253,7 +248,7 @@ ServerEvents.recipes(event => {
 			{
 				P: "#forge:plates/" + material,
 				R: "#forge:rods/" + material,
-				G: "kubejs:stone_gear"
+				G: "druidic_quest_core:livingrock_gear"
 			}
 		)// Crafting Table recipe
 
@@ -270,7 +265,7 @@ ServerEvents.recipes(event => {
 			{
 				P: "#forge:plates/" + material,
 				R: "#forge:rods/" + material,
-				G: "kubejs:stone_gear"
+				G: "druidic_quest_core:livingrock_gear"
 			}
 		)// Adds crafting recipes for gears from thermal
 	}
@@ -293,12 +288,12 @@ ServerEvents.recipes(event => {
 	ThermalGears("enderium")
 	ThermalGears("diamond")
 	CustomGears("infused_iron", "kubejs:infused_iron_gear")
-	CustomGears("source_alloy", "kubejs:source_alloy_gear")
+	CustomGears("manasteel", "druidic_quest_core:manasteel_gear")
 	CustomGears("arcanum_alloy", "kubejs:arcanum_alloy_gear")
-	CustomGears("aluminum", "kubejs:aluminum_gear")
+	CustomGears("platinum", "druidic_quest_core:platinum_gear")
 	CustomGears("andesite_alloy", "kubejs:andesite_gear")
 	CustomGears("zinc", "kubejs:zinc_gear")
-	CustomGears("uranium", "kubejs:uranium_gear")
+	CustomGears("uranium", "druidic_quest_core:uranium_gear")
 	CustomGears("ironwood", "kubejs:ironwood_gear")
 	CustomGears("knightmetal", "kubejs:knightmetal_gear")
 	CustomGears("arcane_gold", "kubejs:arcane_gold_gear")
@@ -333,7 +328,7 @@ ServerEvents.recipes(event => {
 	}
 
 	rods("infused_iron", "kubejs:infused_iron_rod")
-	rods("source_alloy", "kubejs:source_alloy_rod")
+	rods("manasteel", "druidic_quest_core:manasteel_rod")
 	rods("arcanum_alloy", "kubejs:arcanum_alloy_rod")
 	rods("copper", "kubejs:copper_rod")
 	rods("electrum", "kubejs:electrum_rod")
@@ -347,7 +342,7 @@ ServerEvents.recipes(event => {
 	rods("fiery", "kubejs:fiery_rod")
 	rods("storm", "kubejs:storm_rod")
 	rods("iron", "kubejs:iron_rod")
-	rods("aluminum", "kubejs:aluminum_rod")
+	rods("platinum", "druidic_quest_core:platinum_rod")
 	rods("andesite_alloy", "kubejs:andesite_alloy_rod")
 	rods("bronze", "kubejs:bronze_rod")
 	rods("enderium", "kubejs:enderium_rod")
@@ -360,7 +355,7 @@ ServerEvents.recipes(event => {
 	rods("silver", "kubejs:silver_rod")
 	rods("steel", "kubejs:steel_rod")
 	rods("tin", "kubejs:tin_rod")
-	rods("uranium", "kubejs:uranium_rod")
+	rods("uranium", "druidic_quest_core:uranium_rod")
 	rods("zinc", "kubejs:zinc_rod")
 
 	//-------------------Plates---------------------
@@ -439,8 +434,8 @@ ServerEvents.recipes(event => {
 		event.recipes.naturesaura.altar(Item.of(outputItem, 2), inputBlock, 500, 100, "kubejs:pressing_catalyst")
 	}
 
-	PlatesOnetoOne("kubejs:wooden_plate", "botania:livingwood")
-	PlatesOnetoOne("kubejs:stone_plate", "botania:livingrock")
+	PlatesOnetoOne("druidic_quest_core:livingwood_plate", "botania:livingwood")
+	PlatesOnetoOne("druidic_quest_core:livingrock_plate", "botania:livingrock")
 
 	function plates(inputItem, outputItem, inputBlock) {// Adds Plates crafting recipes to the machines
 
@@ -503,7 +498,7 @@ ServerEvents.recipes(event => {
 		event.recipes.naturesaura.altar(Item.of(outputItem, 5), inputBlock, 500, 100, "kubejs:pressing_catalyst")
 	}
 
-	plates("forge:ingots/source_alloy", "kubejs:source_alloy_plate", "kubejs:source_alloy_block")
+	plates("forge:ingots/manasteel", "druidic_quest_core:manasteel_plate", "botania:manasteel_block")
 	plates("forge:ingots/infused_iron", "kubejs:infused_iron_plate", "naturesaura:infused_iron_block")
 	plates("forge:ingots/arcanum_alloy", "kubejs:arcanum_alloy_plate", "kubejs:arcanum_alloy_block")
 	plates("forge:gems/diamond", "kubejs:diamond_plate", "minecraft:diamond_block")
@@ -556,7 +551,6 @@ ServerEvents.recipes(event => {
 	event.shapeless('9x thermal:netherite_coin', ['thermal:enderium_coin'])
 
 	metal('enderium')
-	metal('steel')
 	metal('invar')
 	metal('bronze')
 	metal('electrum')
