@@ -323,6 +323,19 @@
       "texture": "quark:attribute/reach_distance",
       "compare": "higher_better"
     },
+    "puffish_attributes:fall_reduction": {
+      "display": {
+        "mainhand": "difference",
+        "offhand": "difference",
+        "feet": "difference",
+        "legs": "difference",
+        "chest": "difference",
+        "head": "difference",
+        "potion": "difference"
+      },
+      "texture": "quark:attribute/fall_reduction",
+      "compare": "higher_better"
+    },
     "forge:entity_reach": {
       "display": {
         "mainhand": "difference",
