@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:carrot_on_a_stick",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "attributeslib:draw_speed",
+      "value": 10.0,
+      "operation": "ADDITION",
+      "uuid": "988047d1-e8d5-4222-a2d1-468da650d72b"
+    }
+  ],
+  "equipment_slot": "MAINHAND"
+}

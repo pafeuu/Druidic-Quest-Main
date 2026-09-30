@@ -1,0 +1,13 @@
+{
+  "id": "alexsmobs:squid_grapple",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:fall_reduction",
+      "value": 10.0,
+      "operation": "ADDITION",
+      "uuid": "988047d1-e8d5-4222-a2d1-468da650d72b"
+    }
+  ],
+  "equipment_slot": "OFFHAND"
+}
