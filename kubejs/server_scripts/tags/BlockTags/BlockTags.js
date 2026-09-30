@@ -10,6 +10,7 @@ ServerEvents.tags("block", (event) => {
     "mbd2:alloy_kiln",
   ]);
 
+  event.removeAll("create:passive_boiler_heaters")
   event.add("minecraft:basalt_ore_replaceables", "minecraft:basalt");
 
   event.add("minecraft:needs_iron_tool", [
