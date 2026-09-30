@@ -16,7 +16,7 @@ ServerEvents.recipes(event=>{
 			"kubejs:engineer_upgrade_smithing_template",
 			`minecraft:leather_${leatherSlot}`,
 			"botania:manaweave_cloth"
-		)
+		).id(`wizards_reborn:arcane_workbench/inventor_wizard_${inventorSlot}`)
 	}
 
 	
