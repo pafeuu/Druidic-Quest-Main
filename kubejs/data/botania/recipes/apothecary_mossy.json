@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "botania:apothecary_livingrock"
+    },
+    [
+      {
+        "item": "minecraft:mossy_cobblestone"
+      },
+      {
+        "item": "biomeswevegone:mossy_stone"
+      },
+      {
+        "item": "immersive_weathering:mossy_stone"
+      }
+    ]
+  ],
+  "result": {
+    "item": "botania:apothecary_mossy",
+    "count": 1
+  }
+}

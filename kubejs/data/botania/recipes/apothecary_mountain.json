@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "botania:apothecary_livingrock"
+    },
+    [
+      {
+        "item": "botania:metamorphic_mountain_cobblestone"
+      },
+      {
+        "item": "botania:metamorphic_mountain_stone"
+      }
+    ]
+  ],
+  "result": {
+    "item": "botania:apothecary_mountain",
+    "count": 1
+  }
+}

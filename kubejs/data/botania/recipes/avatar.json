@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "#A#",
+    "#B#",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:plates/livingwood"
+    },
+    "A": {
+      "item": "minecraft:emerald"
+    },
+    "B": [
+      {
+        "item": "naturesaura:token_joy"
+      },
+      {
+        "item": "naturesaura:token_sorrow"
+      },
+      {
+        "item": "naturesaura:token_fear"
+      },
+      {
+        "item": "naturesaura:token_anger"
+      }
+    ],
+    "C": {
+      "item": "druidic_quest_core:primitive_machine"
+    }
+  },
+  "result": {
+    "item": "botania:avatar",
+    "count": 1
+  }
+}

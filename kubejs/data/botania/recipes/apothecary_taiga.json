@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "botania:apothecary_livingrock"
+    },
+    [
+      {
+        "item": "botania:metamorphic_taiga_cobblestone"
+      },
+      {
+        "item": "botania:metamorphic_taiga_stone"
+      }
+    ]
+  ],
+  "result": {
+    "item": "botania:apothecary_taiga",
+    "count": 1
+  }
+}

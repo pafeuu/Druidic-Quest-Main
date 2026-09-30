@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#A"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:wool"
+    },
+    "A": {
+      "tag": "minecraft:flowers"
+    }
+  },
+  "result": {
+    "item": "botania:flower_bag",
+    "count": 1
+  }
+}

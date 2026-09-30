@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "botania:apothecary_default"
+    },
+    [
+      {
+        "item": "minecraft:deepslate"
+      },
+      {
+        "item": "minecraft:cobbled_deepslate"
+      }
+    ]
+  ],
+  "result": {
+    "item": "botania:apothecary_deepslate",
+    "count": 1
+  }
+}

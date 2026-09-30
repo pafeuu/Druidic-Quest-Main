@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A#",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:plates/livingrock"
+    },
+    "A": {
+      "item": "minecraft:bucket"
+    },
+    "B": {
+      "item": "druidic_quest_core:primitive_machine"
+    }
+  },
+  "result": {
+    "item": "botania:apothecary_livingrock",
+    "count": 1
+  }
+}
