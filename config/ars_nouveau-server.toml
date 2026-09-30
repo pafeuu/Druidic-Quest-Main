@@ -12,10 +12,10 @@
 	updateInterval = 5
 	#Max mana bonus per glyph
 	#Range: > 0
-	glyphmax = 15
+	glyphmax = 0
 	#Max mana bonus for tier of book
 	#Range: > 0
-	tierMax = 50
+	tierMax = 0
 	#Mana regen bonus for tier of book
 	#Range: > 0
 	tierRegen = 1
