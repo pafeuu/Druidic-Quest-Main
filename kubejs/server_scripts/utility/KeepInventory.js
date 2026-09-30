@@ -1,11 +1,3 @@
-
-
-ServerEvents.loaded(event => {
-    const server = event.server
-    server.gameRules.set("doInsomnia",false)
-    
-})
-
 PlayerEvents.respawned(event =>{
    
     const player = event.player
