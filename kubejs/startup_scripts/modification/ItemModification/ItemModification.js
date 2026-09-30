@@ -1,21 +1,9 @@
-
 ItemEvents.modification(event => {
 
   /*const HelmetDurabilityModifier = 13
   const ChestplateDurabilityModifier = 15
   const LeggingsDurabilityModifier = 16
   const BootsDurabilityModifier = 11*/
-
-
-  function repairIngredient(id, ingredient) {
-    event.modify(id, item => {
-      item.setTier(tier => {
-        tier.setRepairIngredient(ingredient)
-      })
-    })
-  }
-
-
 
   let tooltype = ['pickaxe', 'shovel', 'hoe', 'axe']
 
@@ -67,53 +55,6 @@ ItemEvents.modification(event => {
     "deep_aether:stratus",
   ]
 
-  let Unbreakables = [
-    "constructionwand:stone_wand",
-    "constructionwand:iron_wand",
-    "constructionwand:diamond_wand",
-    "constructionwand:infinity_wand",
-    "aether:flaming_sword",
-    "ancient_aether:ancient_sword",
-    "enigmaticlegacy:enigmatic_elytra",
-    "aether:holy_sword",
-    "aether:lightning_sword",
-    'umbral_skies:yeti_gloves',
-    'umbral_skies:arctic_gloves',
-    'umbral_skies:phantom_gloves',
-    'umbral_skies:knightmetal_gloves',
-    'umbral_skies:steeleaf_gloves',
-    'umbral_skies:fiery_gloves',
-    'umbral_skies:ironwood_gloves',
-    'umbral_skies:naga_gloves',
-    'aether:obsidian_gloves',
-    'aether:phoenix_gloves',
-    'deep_aether:stormforged_gloves',
-    'aether:neptune_gloves',
-    'deep_aether:stratus_gloves',
-    'ancient_aether:valkyrum_gloves',
-    'aether:gravitite_gloves',
-    'deep_aether:skyjade_gloves',
-    'aether:zanite_gloves',
-    'aether:netherite_gloves',
-    'aether:diamond_gloves',
-    'aether:golden_gloves',
-    'aether:iron_gloves',
-    'aether:chainmail_gloves',
-    'aether:leather_gloves',
-    'deep_aether:wind_shield',
-    'deep_aether:slider_eye',
-    'aether:shield_of_repulsion',
-    'deep_aether:spooky_ring',
-    'aether:ice_pendant',
-    'deep_aether:stratus_ring',
-    'deep_aether:gravitite_ring',
-    "aether:ice_ring",
-    "aether:vampire_blade",
-    "aether:sentry_boots",
-    "aether:pig_slayer",
-    "aether:hammer_of_kingbdogz"
-  ]
-
   let UnbreakableArmor = [
     "ancient_aether:valkyrum",
     "thermal:hazmat",
@@ -140,7 +81,7 @@ ItemEvents.modification(event => {
     "minecraft:quartz"
   ]
 
-  Unbreakables.forEach(id => {
+  global.Unbreakables.forEach(id => {
     event.modify(id, item => {
       item.maxDamage = -1
     })
@@ -1020,11 +961,5 @@ ItemEvents.modification(event => {
   event.modify("create:potato_cannon", item => {
     item.maxDamage = 1024
   })
-
-  event.modify("supplementaries:wrench", item => {
-    item.maxDamage = 1024
-  })
-
-
 
 })
