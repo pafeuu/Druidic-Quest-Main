@@ -4,6 +4,23 @@ ServerEvents.recipes(event=>{
 
 	const NatureAuraArmorSlot = ["helmet","chest","pants","shoes"]
 
+	const LeatherToInventorSlots = {
+		"helmet":"hat",
+		"chestplate":"costume",
+		"leggings":"trousers",
+		"boots":"boots"
+	}
+
+	for (const [leatherSlot,inventorSlot] of Object.entries(LeatherToInventorSlots)){
+		event.smithing(`wizards_reborn:inventor_wizard_${inventorSlot}`,
+			"kubejs:engineer_upgrade_smithing_template",
+			`minecraft:leather_${leatherSlot}`,
+			"botania:manaweave_cloth"
+		)
+	}
+
+	
+
     function SmithingArmor(OutputArmor,InputArmor,SmithingTemplate,UpgradeMaterial)
 	{
 		ArmorSlot.forEach(id=>{
