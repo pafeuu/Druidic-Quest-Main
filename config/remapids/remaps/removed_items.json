@@ -1,6 +1,46 @@
 {
     "remaps": [
         {
+          "source": "ars_nouveau:relay",
+          "target": "botania:mana_spreader",
+          "types": [
+            "item",
+            "block"
+          ]
+        },
+        {
+          "source": "ars_nouveau:relay_splitter",
+          "target": "botania:mana_spreader",
+          "types": [
+            "item",
+            "block"
+          ]
+        },
+        {
+          "source": "ars_nouveau:relay_collector",
+          "target": "botania:mana_spreader",
+          "types": [
+            "item",
+            "block"
+          ]
+        },
+        {
+          "source": "ars_nouveau:relay_deposit",
+          "target": "botania:mana_spreader",
+          "types": [
+            "item",
+            "block"
+          ]
+        },
+        {
+          "source": "ars_nouveau:relay_warp",
+          "target": "botania:mana_spreader",
+          "types": [
+            "item",
+            "block"
+          ]
+        },
+        {
             "source": "sob:pitcher_tuber_bundle",
             "target": "wizards_reborn:pitcher_turnip_block",
             "types": [
@@ -10,6 +50,134 @@
         {
             "source": "sob:pitcher_tuber",
             "target": "wizards_reborn:pitcher_turnip",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "ars_nouveau:sorcerer_boots",
+            "target": "irons_spellbooks:wizard_boots",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "ars_nouveau:sorcerer_leggings",
+            "target": "irons_spellbooks:wizard_leggings",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "ars_nouveau:sorcerer_robes",
+            "target": "irons_spellbooks:wizard_chestplate",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "ars_nouveau:sorcerer_hood",
+            "target": "irons_spellbooks:wizard_helmet",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "ars_nouveau:arcanist_boots",
+            "target": "irons_spellbooks:wizard_boots",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "ars_nouveau:arcanist_leggings",
+            "target": "irons_spellbooks:wizard_leggings",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "ars_nouveau:arcanist_robes",
+            "target": "irons_spellbooks:wizard_chestplate",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "ars_nouveau:arcanist_hood",
+            "target": "irons_spellbooks:wizard_helmet",
+            "types": [
+                "item"
+            ]
+        },
+        
+        {
+            "source": "ars_nouveau:battlemage_boots",
+            "target": "irons_spellbooks:wizard_boots",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "ars_nouveau:battlemage_leggings",
+            "target": "irons_spellbooks:wizard_leggings",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "ars_nouveau:battlemage_robes",
+            "target": "irons_spellbooks:wizard_chestplate",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "ars_nouveau:battlemage_hood",
+            "target": "irons_spellbooks:wizard_helmet",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "kubejs:source_alloy_block",
+            "target": "botania:manasteel_block",
+            "types": [
+                "item",
+                "block"
+            ]
+        },
+        {
+            "source": "kubejs:source_alloy_ingot",
+            "target": "botania:manasteel_ingot",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "kubejs:source_alloy_nugget",
+            "target": "botania:manasteel_nugget",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "kubejs:source_alloy_gear",
+            "target": "druidic_quest_core:manasteel_gear",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "kubejs:source_alloy_rod",
+            "target": "druidic_quest_core:manasteel_rod",
+            "types": [
+                "item"
+            ]
+        },
+        {
+            "source": "kubejs:source_alloy_plate",
+            "target": "druidic_quest_core:manasteel_plate",
             "types": [
                 "item"
             ]

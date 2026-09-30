@@ -156,8 +156,33 @@
             "types": ["item","block"]
         },
         {
+            "source": "immersiveengineering:alloybrick",
+            "target": "druidic_quest_core:alloy_bricks",
+            "types": ["item","block"]
+        },
+        {
             "source": "immersiveengineering:cokebrick",
             "target": "naturesaura_plus:auric_oven_brick",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:coke_oven",
+            "target": "naturesaura_plus:auric_oven_brick",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:blastbrick",
+            "target": "druidic_quest_core:arcane_bricks",
+            "types": ["item","block"]
+        },
+        {
+            "source": "kubejs:incomplete_blast_bricks",
+            "target": "kubejs:incomplete_arcane_bricks",
+            "types": ["item","block"]
+        },
+        {
+            "source": "immersiveengineering:blast_furnace",
+            "target": "druidic_quest_core:arcane_bricks",
             "types": ["item","block"]
         },
         {
@@ -276,6 +301,31 @@
             "types": ["item"]
         },
         {
+            "source": "kubejs:steel_gear",
+            "target": "druidic_quest_core:steel_gear",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:steel_plate",
+            "target": "druidic_quest_core:steel_plate",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:steel_ingot",
+            "target": "druidic_quest_core:steel_ingot",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:steel_nugget",
+            "target": "druidic_quest_core:steel_nugget",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:steel_rod",
+            "target": "druidic_quest_core:steel_rod",
+            "types": ["item"]
+        },
+        {
             "source": "immersiveengineering:armor_faraday_helmet",
             "target": "wizards_reborn:inventor_wizard_hat",
             "types": ["item"]
@@ -304,6 +354,72 @@
             "source": "immersiveengineering:hemp_fiber",
             "target": "supplementaries:flax",
             "types": ["item"]
+        },
+        {
+            "source": "kubejs:fiery_clay_blend",
+            "target": "druidic_quest_core:arcane_clay_blend",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:fiery_brick",
+            "target": "druidic_quest_core:arcane_brick",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:primitive_shield",
+            "target": "druidic_quest_core:primitive_shield",
+            "types": ["item"]
+        },
+        {
+            "source": "enigmaticlegacy:magnet_ring",
+            "target": "botania:magnet_ring",
+            "types": ["item"]
+        },
+        {
+            "source": "enigmaticlegacy:super_magnet_ring",
+            "target": "botania:magnet_ring_greater",
+            "types": ["item"]
+        },
+        {
+            "source": "simplemagnets:basicmagnet",
+            "target": "botania:magnet_ring",
+            "types": ["item"]
+        },
+        {
+            "source": "simplemagnets:advancedmagnet",
+            "target": "botania:magnet_ring_greater",
+            "types": ["item"]
+        },
+        {
+            "source": "simplemagnets:basic_demagnetization_coil",
+            "target": "botania:floating_solegnolia_chibi",
+            "types": ["item","block"]
+        },
+        {
+            "source": "simplemagnets:advanced_demagnetization_coil",
+            "target": "botania:floating_solegnolia",
+            "types": ["item","block"]
+        },
+        {
+            "source": "kubejs:wooden_gear",
+            "target": "druidic_quest_core:livingwood_gear",
+            "types": ["item"]
+        }, 
+        {
+            "source": "kubejs:stone_gear",
+            "target": "druidic_quest_core:livingrock_gear",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:wooden_plate",
+            "target": "druidic_quest_core:livingwood_plate",
+            "types": ["item"]
+        },
+        {
+            "source": "kubejs:stone_plate",
+            "target": "druidic_quest_core:livingrock_plate",
+            "types": ["item"]
         }
+        
     ]
 }
