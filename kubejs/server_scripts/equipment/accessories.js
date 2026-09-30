@@ -220,31 +220,18 @@ ServerEvents.recipes(event => {
     }
     )
 
-    event.shaped("enigmaticlegacy:super_magnet_ring",
+    event.shaped("botania:magnet_ring_greater",
         [
             "GEG",
             "EXE",
             "GEG"
         ],
         {
-            X: "enigmaticlegacy:magnet_ring",
+            X: "botania:magnet_ring",
             E: "ender_pearl",
             G: "#forge:plates/gold"
         }
-    ).id("enigmaticlegacy:super_magnet_ring")
-
-    event.shaped("simplemagnets:advancedmagnet",
-        [
-            "GEG",
-            "EXE",
-            "GEG"
-        ],
-        {
-            X: "simplemagnets:basicmagnet",
-            E: "ender_pearl",
-            G: "#forge:plates/gold"
-        }
-    ).id("simplemagnets:advancedmagnet")
+    ).id("botania:magnet_ring_greater")
 
     function arrows(type,tip)
     {
@@ -265,5 +252,20 @@ ServerEvents.recipes(event => {
     arrows("lightning","thermal:lightning_grenade")
     arrows("power","diamond")
     
+    global.magicSchools.forEach(id=>{
+        if(id=="eldritch")
+            return;
+        event.shaped(`kubejs:greater_${id}_ring`,
+            [
+                " G ",
+                "GXG",
+                " G "
+            ],
+            {
+                G: "#forge:plates/gold",
+                X: `kubejs:lesser_${id}_ring`
+            }
+        )
+    })
 
 })
