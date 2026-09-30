@@ -70,7 +70,7 @@ ServerEvents.recipes(event=>{
     RuneCrafting("kubejs:enchanting_rune_of_mana",[
         {"item":"kubejs:enchanting_rune"},
         {"item":"irons_spellbooks:arcane_ingot"},
-        {"item":"kubejs:source_alloy_ingot"},
+        {"item":"botania:manasteel_ingot"},
         {"item":"ars_nouveau:source_berry_pie"},
         {"item":"ars_nouveau:source_berry_pie"},],1000,5)
 

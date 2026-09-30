@@ -115,13 +115,13 @@ ServerEvents.recipes(event => {
 
   ClickingSquareCrafting("thermal:coal_coke", "minecraft:furnace", "quark:sturdy_stone", "quark:sturdy_stone", "minecraft:coal_block")
 
-  ClickingSquareCrafting("kubejs:lemon_quartz", "kubejs:magical_generator_block", "kubejs:source_alloy_block", "kubejs:arcanum_alloy_block", "kubejs:source_alloy_block")
+  ClickingSquareCrafting("kubejs:lemon_quartz", "kubejs:magical_generator_block", "botania:manasteel_block", "kubejs:arcanum_alloy_block", "botania:manasteel_block")
 
   const clickB = event.recipes.create.item_application
 
   clickB("twilightforest:liveroot_block", ["twilightforest:root", "druidic_quest_core:nature_essence"])
   clickB("crying_obsidian", ["obsidian", "kubejs:cut_onions"])
-  clickB("ars_nouveau:source_jar", ["vintagedelight:fermenting_jar", "kubejs:source_alloy_ingot"])
+  clickB("ars_nouveau:source_jar", ["vintagedelight:fermenting_jar", "botania:manasteel_ingot"])
   clickB("create:rose_quartz_block", ["minecraft:quartz_block", "minecraft:rose_bush"])
 
   event.remove([

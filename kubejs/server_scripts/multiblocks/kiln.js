@@ -115,7 +115,7 @@ ServerEvents.recipes(event=>{
 		"4x ars_nouveau:fire_essence"
 	)
 
-	kilnWith2Ingredients("2x kubejs:source_alloy_ingot",
+	kilnWith2Ingredients("2x botania:manasteel_ingot",
 		"2x minecraft:gold_ingot",
 		"3x ars_nouveau:source_gem"
 	)
