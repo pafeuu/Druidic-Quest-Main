@@ -3,7 +3,6 @@ ItemEvents.modification(event=>{
     let stacking16 = ['minecraft:potion',
     'minecraft:saddle',
     "minecraft:writable_book",
-    "enigmaticlegacy:recall_potion",
     "enigmaticlegacy:mending_mixture",
     "minecraft:splash_potion",
     "minecraft:lingering_potion",

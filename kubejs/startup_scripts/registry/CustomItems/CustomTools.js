@@ -123,7 +123,6 @@ StartupEvents.registry('item', item => {
   registerToolset("bronze",1)
   registerToolset("uranium",2)
   registerToolset("obsidian",3)
-  registerToolset("aluminum",4)
   registerToolsetWithoutSword("phoenix",3)
   registerToolsetWithoutSword("stormforged",4)
 
@@ -152,8 +151,6 @@ StartupEvents.registry('item', item => {
   item.create("steel_knife","farmersdelight:knife").tag("minecraft:tools").tag("forge:tools/knives").tag("dq:tier1/tool").unstackable().tag("forge:tools/steel")
 
   item.createCustom('primitive_firestarter',() => new $FlintAndSteelItem(new $ItemProperties().defaultDurability(8))).tag("forge:tools/flint").tag("forge:tools")
-
-  item.createCustom('primitive_shield', () => new $ShieldItem(new $ItemProperties().defaultDurability(128)))
 
   item.create('brick_glue').maxDamage(96).unstackable().tag("forge:tools/glue").tag("dq:tier0/tool")
 

@@ -15,7 +15,6 @@ StartupEvents.registry('item', item => {
     plate("ironwood",1)
     plate("knightmetal",1)
 
-    plate("source_alloy",2)
     plate("arcanum_alloy",2)
     plate("infused_iron",2)
     plate("tainted_gold",2)
@@ -26,7 +25,6 @@ StartupEvents.registry('item', item => {
     plate("andesite_alloy",3)
     plate("arcane_gold",3)
     plate("sky",4)
-    plate("aluminum",4)
     plate("depth",5)
     
 })

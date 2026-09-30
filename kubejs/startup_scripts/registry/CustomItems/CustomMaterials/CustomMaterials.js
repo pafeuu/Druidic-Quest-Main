@@ -2,18 +2,9 @@
 
 StartupEvents.registry('item', item => {
 
-     ///===================================================PLATES===========================================================
-
-  item.create('stone_plate').tag("forge:plates/stone").tag("dq:tier1/component")
-  item.create('wooden_plate').tag("forge:plates/wooden").tag("dq:tier1/component")
-
-
   ///===================================================GEARS===========================================================
-  item.create('wooden_gear').tag('forge:gears/wooden').tag('forge:gears').tag("dq:tier1/component")
-  item.create('stone_gear').tag('forge:gears/stone').tag('forge:gears').tag("dq:tier1/component")
   item.create('zinc_gear').tag('forge:gears/zinc').tag('forge:gears').tag("dq:tier1/component")
 
-  item.create('source_alloy_gear').tag('forge:gears/source_alloy').tag('forge:gears').tag("dq:tier2/component")
   item.create('arcanum_alloy_gear').tag('forge:gears/arcanum_alloy').tag('forge:gears').tag("dq:tier2/component")
   item.create('infused_iron_gear').tag('forge:gears/infused_iron').tag('forge:gears').tag("dq:tier2/component")
   item.create('tainted_gold_gear').tag('forge:gears/tainted_gold').tag('forge:gears').tag("dq:tier2/component")
@@ -29,8 +20,6 @@ StartupEvents.registry('item', item => {
   item.create('gravitite_gear').tag('forge:gears/gravitite').tag('forge:gears').tag("dq:tier3/component")
 
   item.create('sky_gear').tag('forge:gears/sky').tag('forge:gears').tag("dq:tier4/component")
-  item.create('aluminum_gear').tag('forge:gears/aluminum').tag('forge:gears').tag("dq:tier4/component")
-  item.create('steel_gear').tag('forge:gears/steel').tag('forge:gears').tag("dq:tier4/component")
 
   item.create('depth_gear').tag('forge:gears/depth').tag('forge:gears').tag("dq:tier5/component") 
   
@@ -63,7 +52,6 @@ StartupEvents.registry('item', item => {
 
 
   registerRod("arcanum_alloy",2)
-  registerRod("source_alloy",2)
   registerRod("infused_iron",2)
   registerRod("tainted_gold",2)
   registerRod("uranium",2)
@@ -76,9 +64,6 @@ StartupEvents.registry('item', item => {
   registerRod("arcane_gold",3)
   registerRod("lumium",3)
   registerRod("enderium",3)
-
-  registerRod("steel",4)
-  registerRod("aluminum",4)
   registerRod("electrum",4)
   registerRod("sky",4)
   registerRod("depth",5)
@@ -93,12 +78,10 @@ StartupEvents.registry('item', item => {
 
   ///===================================================INGOTS===========================================================
 
-  item.create('source_alloy_ingot').tag('forge:ingots').tag('forge:ingots/source_alloy').tag("dq:tier2/component")
   item.create('arcanum_alloy_ingot').tag('forge:ingots').tag('forge:ingots/arcanum_alloy').tag("dq:tier2/component")
   item.create('storm_ingot').tag('forge:ingots').tag('forge:ingots/storm').tag("dq:tier3/component")
   item.create('wrought_iron_ingot').tag('forge:ingots').tag('forge:ingots/wrought_iron')
   item.create('obsidian_ingot').tag('forge:ingots').tag('forge:ingots/obsidian')
-  item.create('steel_ingot').tag('forge:ingots').tag('forge:ingots/steel').tag("dq:tier4/component")
   item.create('aquatic_ingot').tag('forge:ingots').tag('forge:ingots/aquatic').tag("aether:neptune_repairing")
   item.create('phoenix_ingot').tag('forge:ingots').tag('forge:ingots/phoenix')
   
@@ -108,7 +91,6 @@ StartupEvents.registry('item', item => {
   item.create('ironwood_nugget').tag('forge:nuggets').tag('forge:nuggets/ironwood').tag("dq:tier2/component")
   item.create('infused_iron_nugget').tag('forge:nuggets').tag('forge:nuggets/infused_iron').tag("dq:tier2/component")
   item.create('arcanum_alloy_nugget').tag('forge:nuggets').tag('forge:nuggets/arcanum_alloy').tag("dq:tier2/component")
-  item.create('source_alloy_nugget').tag('forge:nuggets').tag('forge:nuggets/source_alloy').tag("dq:tier2/component")
   item.create('tainted_gold_nugget').tag('forge:nuggets').tag('forge:nuggets/tainted_gold').tag("dq:tier2/component")
 
   item.create('andesite_alloy_nugget').tag('forge:nuggets').tag('forge:nuggets/andesite_alloy').tag("dq:tier3/component")
@@ -118,7 +100,6 @@ StartupEvents.registry('item', item => {
   item.create('storm_nugget').tag('forge:nuggets').tag('forge:nuggets/storm').tag("dq:tier3/component")
 
   item.create('sky_nugget').tag('forge:nuggets').tag('forge:nuggets/sky').tag("dq:tier4/component")
-  item.create('steel_nugget').tag('forge:nuggets').tag('forge:nuggets/steel').tag("dq:tier4/component")
 
   item.create('depth_nugget').tag('forge:nuggets').tag('forge:nuggets/depth').tag("dq:tier5/component")
 
@@ -210,7 +191,7 @@ StartupEvents.registry('item', item => {
   crystalizedOre("silver",0x4d5c6a)
   crystalizedOre("nickel",0xc7b784)
   crystalizedOre("tin",0xa1c6c2)
-  crystalizedOre("aluminum",0x7b5848)
+  crystalizedOre("platinum",0x8f60c0)
   crystalizedOre("uranium",0x5c6951)
   crystalizedOre("zinc",0xb9e9c1)
 
@@ -224,7 +205,7 @@ StartupEvents.registry('item', item => {
   item.create("enchanted_soul").tag("dq:tier1/component")
   item.create("spawner_part").tag("dq:tier2/component")
   item.create('natural_clay_blend').tag('dq:tier3/component')
-  item.create('blast_brick').tag('dq:tier3/component')
+  item.create('arcane_brick').tag('dq:tier3/component')
   item.create('arcane_leather').tag('dq:tier0/component')
   item.create('recipe_changed')
   item.create("sunbird_feather")
@@ -250,7 +231,6 @@ StartupEvents.registry('item', item => {
   item.create('sapling_ball').displayName('Sapling Ball')
   item.create('magic_book').displayName('Magical Book')
   item.create("twilight_tome")
-  item.create('fiery_clay_blend').displayName('Fiery Clay Blend')
   item.create('basic_token').displayName('Basic Token')
   item.create('eternity_token').displayName('Token of Eternity').tag("dq:tier4/component").glow(true)
   item.create("elemental_core").rarity("legendary")
