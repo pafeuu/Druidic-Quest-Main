@@ -77,7 +77,7 @@
 #Auric Concentrator
 [AuricConcentrator]
 	#Whether forming the Auric-Concentrator requires aura (true), or requires a specific item (false). (Default: true)
-	ifAuraConsumeForOven = true
+	ifAuraConsumeForOven = false
 	#Amount of aura forming the Auric-Concentrator takes, if aura consume for oven formation is enabled. (Default: 100,000)
 	#Range: > 1
 	auraConsumeForOven = 100000
@@ -87,7 +87,8 @@
 	#The aura capacity for the Auric Concentrator multiblock. (Default: 500,000)
 	#Range: > 1
 	ovenAuraCapacity = 500000
-	#The fluid-tank capacity (in mB) for the Auric Concentrator multiblock. (Default: 5,000)
+	#The fluid-tank capacity (in mB) for the Auric Concentrator multiblock. 
+	#Note, for reflecting the change in this value, running worlds have to be restarted. (Default: 5,000)
 	#Range: > 1
 	ovenFluidTankCapacity = 5000
 	#The number of ticks per which Auric Concentrator multiblock drains aura from the surrounding. 
@@ -97,4 +98,11 @@
 	#The amount of aura that the Auric Concentrator multiblock drains per attempt to recharge its internal aura reserve. (Default: 10,000)
 	#Range: > 1
 	ovenAuraDrainAmountPerDrain = 10000
+	#The amount of durability damage that the hammer building the Auric Concentrator multiblock takes, only if said item has durability. (Default: 1)
+	#Range: > 0
+	itemDurabilityConsumedOnAuraOvenForm = 1
+	#Whether the output bucket slot can be extracted via hoppers, pipes, etc. (Default: true)
+	allowBucketOutputExtraction = true
+	#Whether the auric concentrator tank's fluid can be extracted via buckets/tanks on right click by a player. (Default: true)
+	allowFluidExtractionByBucket = true
 
