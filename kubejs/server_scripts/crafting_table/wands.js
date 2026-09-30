@@ -14,6 +14,18 @@ ServerEvents.recipes(event=>{
                 A: additive
             }
         )
+
+        event.shaped(`druidic_quest_core:improved_${type}_flower_staff`,
+            [
+                "  F",
+                " S ",
+                "S  "
+            ],
+            {
+                F: `druidic_quest_core:${type}_flower_staff`,
+                S: "wizards_reborn:arcane_wood_branch"
+            }
+        )
     }
 
     flowerWandRecipe("crimson","coal")
