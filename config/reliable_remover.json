@@ -12,7 +12,7 @@
   "removeItemsFromInfoTabs": true,
   "removeItemsFromTrades": true,
   "removeMobEquipment": true,
-  "enableEmiRemoval": false,
+  "enableEmiRemoval": true,
   "showEmiToast": true,
   "showEmiChatMessages": true,
   "reloadAfterRemoval": false,

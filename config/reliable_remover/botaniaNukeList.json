@@ -1,8 +1,7 @@
 {
     "action": "remove",
     "patterns": [
-        "/.*petal.*/",
-        "/.*mushroom.*/"
+        "/.*petal.*/"
     ],
     "items": [
         "botania:mana_fluxfield",
@@ -60,6 +59,19 @@
         "botania:incense_plate",
         "botania:infrangible_platform",
         "botania:living_root",
-        "botania:root"
+        "botania:root",
+        "botania:spark_upgrade_isolated",
+        "botania:itemfinder",
+        "botania:pool_minecart",
+        "botania:mana_pool",
+        "botania:creative_pool",
+        "botania:diluted_pool",
+        "botania:fabulous_pool",
+        "botania:pebble",
+        "botania:spark_changer",
+        "botania:spark",
+        "botania:spark_upgrade_dispersive",
+        "botania:spark_upgrade_dominant",
+        "botania:spark_upgrade_recessive"
     ]
 }

@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "action": "remove_recipe",
+    "id": [
+      "botania:terra_plate/terrasteel_ingot",
+      "druidic_quest_core:steel_shovel",
+      "druidic_quest_core:steel_pickaxe",
+      "druidic_quest_core:steel_hoe",
+      "druidic_quest_core:steel_axe",
+      "druidic_quest_core:steel_sword"
+    ]
+  }
+]
