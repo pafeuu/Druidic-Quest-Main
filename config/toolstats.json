@@ -1,7 +1,7 @@
 {
-  "showEnchantability": true,
+  "showEnchantability": false,
   "alwaysShowEnchantability": false,
-  "showRepairCost": true,
+  "showRepairCost": false,
   "alwaysShowRepairCost": false,
   "showHarvestLevel": true,
   "showEfficiency": true,
