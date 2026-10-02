@@ -22,17 +22,6 @@
         "value": 512
       }
     },
-    "sortilege:generic.staff_pierce": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 512,
-        "value": 512
-      }
-    },
     "attributeslib:ghost_health": {
       "enabled": false,
       "min": {
@@ -152,17 +141,6 @@
       "max": {
         "default": 100,
         "value": 100
-      }
-    },
-    "sortilege:generic.staff_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 512,
-        "value": 512
       }
     },
     "minecraft:generic.luck": {

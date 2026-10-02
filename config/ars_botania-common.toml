@@ -1,7 +1,7 @@
 #One source mana(Ars) to X Mana(Bot)
-mana_convert = 15.0
+mana_convert = 1.0
 #Max rate of mana transfer
-max_rate = 1000
+max_rate = 100000
 
 [player_mana_convert]
 	#Enable player mana convert
