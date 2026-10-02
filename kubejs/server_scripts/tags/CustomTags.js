@@ -145,7 +145,7 @@ ServerEvents.tags("item", (e) => {
     "fruitsdelight:peach_jelly",
   ]);
 
-  e.add("dq:generators/source", [
+  e.add("dq:generators/source_weak", [
     "ars_nouveau:alchemical_sourcelink",
     "ars_nouveau:vitalic_sourcelink",
     "ars_nouveau:mycelial_sourcelink",
@@ -153,6 +153,13 @@ ServerEvents.tags("item", (e) => {
     "ars_nouveau:agronomic_sourcelink",
     "starbunclemania:fluid_sourcelink",
   ]);
+  
+  e.add("dq:generators/source", [
+    "#botania:generating_floating_flowers",
+    "#botania:generating_special_flowers"
+  ]);
+  
+  
 
   e.add("dq:generators/wissen", [
     "wizards_reborn:altar_of_drought",

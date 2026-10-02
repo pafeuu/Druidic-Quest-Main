@@ -593,7 +593,8 @@ ItemEvents.tooltip(tooltip => {
 
   tooltip.add("#dq:generators/wissen", Text.aqua("Wissen Generator"))
   tooltip.add("#dq:generators/aura", Text.green("Aura Generator"))
-  tooltip.add("#dq:generators/source", Text.darkPurple("Source Generator"))
+  tooltip.add("#dq:generators/source_weak", Text.aqua('')Aqua("Weak Source Generator"))
+  tooltip.add("#dq:generators/source", Text.aqua("Source Generator"))
   tooltip.add("#dq:generators/stress", Text.yellow("Stress Generator"))
 
   //==========================Natures Aura===========================
