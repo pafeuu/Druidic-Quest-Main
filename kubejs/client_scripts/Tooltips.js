@@ -163,11 +163,11 @@ ItemEvents.tooltip(tooltip => {
     'apotheosis:library',
     'apotheosis:ender_library',
     "kubejs:color_essence",
-    'kubejs:aluminum_pickaxe',
-    'kubejs:aluminum_axe',
-    'kubejs:aluminum_shovel',
-    'kubejs:aluminum_hoe',
-    'kubejs:aluminum_sword',
+    'druidic_quest_core:platinum_pickaxe',
+    'druidic_quest_core:platinum_axe',
+    'druidic_quest_core:platinum_shovel',
+    'druidic_quest_core:platinum_hoe',
+    'druidic_quest_core:platinum_sword',
     'kubejs:warrior_charm',
     'kubejs:tank_charm',
     'kubejs:spellcaster_charm',
@@ -256,7 +256,7 @@ ItemEvents.tooltip(tooltip => {
   SmithingTemplate("kubejs:gold_upgrade_smithing_template", "Gold", "Silver", "Gold Upgrade Parts", 0x64747c)
   SmithingTemplate("kubejs:skyseeker_upgrade_smithing_template", "Skyseeker", "Netherite", "Skyseeker Upgrade Parts", 0x473c3e)
   SmithingTemplate("kubejs:depth_upgrade_smithing_template", "Soulstrider", "Obsidian", "Soulstrider Upgrade Parts", 0x543474)
-  SmithingTemplate("kubejs:engineer_upgrade_smithing_template", "Engineer", "Leather", "Tough Fabric", 0x74492e)
+  SmithingTemplate("kubejs:engineer_upgrade_smithing_template", "Inventor", "Leather", "Cloth", 0x74492e)
   SmithingTemplate("kubejs:botanist_upgrade_smithing_template", "Botanist", "Iron", "Infused Ingot", 0xb8b8b8)
   SmithingTemplate("kubejs:fiery_upgrade_smithing_template", "Fiery", "Iron", "Fiery Plate", 0xb8b8b8)
   SmithingTemplate("kubejs:bronze_upgrade_smithing_template", "Bronze", "Copper", "Bronze Upgrade Parts", 0xd5714d)
@@ -442,7 +442,7 @@ ItemEvents.tooltip(tooltip => {
     }
   })
 
-  tooltip.add("kubejs:fiery_clay_blend", Text.red("Requires Infernal Smelter multiblock with a Soul Core to be smelted"))
+  tooltip.add("druidic_quest_core:arcane_clay_blend", Text.red("Requires Infernal Smelter multiblock with a Soul Core to be smelted"))
   tooltip.add("mbd2:infernal_smelter", [Text.red("Only works in the nether")])
 
 
@@ -605,10 +605,6 @@ ItemEvents.tooltip(tooltip => {
       text.add(1, Text.blue('Apply filters by placing an item frame on the side.'))
       text.add(2, Text.blue('Right click the hopper to reverse the filter.'))
     }
-  })
-
-  tooltip.addAdvanced("naturesaura:hopper_upgrade", (item, advanced, text) => {
-    text.add(1, Text.blue('Only works with Hoppers and Filtered Hoppers'))
   })
 
   tooltip.addAdvanced("kubejs:eternity_token", (item, advanced, text) => {
