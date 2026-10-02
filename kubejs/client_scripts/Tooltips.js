@@ -25,7 +25,7 @@ ItemEvents.tooltip(tooltip => {
   tooltip.add(["kubejs:archers_glove",
     "druidic_quest_core:rotten_flesh_block"], Text.gray("Texture by Qwerty"))
 
-  tooltip.add(["kubejs:inert_alloy_ingot",
+  tooltip.add([
     "kubejs:ring_travel",
     "kubejs:copper_pickaxe",
     "kubejs:copper_shovel",
@@ -85,8 +85,7 @@ ItemEvents.tooltip(tooltip => {
     "kubejs:blitz_totem"
   ], Text.gray("Texture by Gyldanword"))
 
-  tooltip.add(["kubejs:arcane_alloy_ingot",
-    "kubejs:neptun_ingot",
+  tooltip.add([
     "kubejs:phoenix_ingot",
     "kubejs:obsidian_ingot",
     "kubejs:copper_helmet",
@@ -426,14 +425,6 @@ ItemEvents.tooltip(tooltip => {
     }
   })
 
-  tooltip.addAdvanced("kubejs:silent_boots_cover", (item, advanced, text) => {
-    if (!tooltip.shift) {
-      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
-    } else {
-      text.add(1, Text.lightPurple("Grants the Sculk Affinity effect when worn"))
-    }
-  })
-
   tooltip.addAdvanced("kubejs:mycelial_hoe", (item, advanced, text) => {
     if (!tooltip.shift) {
       text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
@@ -453,7 +444,6 @@ ItemEvents.tooltip(tooltip => {
   tooltip.add("minecraft:experience_bottle", Text.green("Grants between 3 to 11 experience points!"))
   tooltip.add("ars_nouveau:greater_experience_gem", Text.green("Grants 12 experience points!"))
   tooltip.add("create:experience_nugget", Text.green("Grants 3 experience point!"))
-  tooltip.add("create_sa:heap_of_experience", Text.green("Grants 12 experience points!"))
   tooltip.add("#dq:soul_harvester", [Text.red("Harvests souls")])
 
 
@@ -499,8 +489,6 @@ ItemEvents.tooltip(tooltip => {
 
   tooltip.add("aether:pig_slayer", Text.blue("Deals extra damage to pigs and piglike creatures!"))
   tooltip.add("deep_aether:afterburner", Text.blue("Hold right click to shoot a barrage of fireballs!"))
-
-  //tooltip.add("#druidic_quest:dimensional_tools",[Text.darkPurple("Tool made from materials outside of the main realm!"),Text.blue("Combine it with extradimensional eye"),Text.blue("in the crafting grid to apply telekinesis enchant!")])
 
   tooltip.add("twilightforest:transformation_powder", [Text.blue("Can be used by a Dispenser")])
   tooltip.addAdvanced(["#dq:unbreakables"],
@@ -593,7 +581,7 @@ ItemEvents.tooltip(tooltip => {
 
   tooltip.add("#dq:generators/wissen", Text.aqua("Wissen Generator"))
   tooltip.add("#dq:generators/aura", Text.green("Aura Generator"))
-  tooltip.add("#dq:generators/source_weak", Text.aqua('')Aqua("Weak Source Generator"))
+  tooltip.add("#dq:generators/source_weak", Text.aqua("Weak Source Generator"))
   tooltip.add("#dq:generators/source", Text.aqua("Source Generator"))
   tooltip.add("#dq:generators/stress", Text.yellow("Stress Generator"))
 
