@@ -13,7 +13,13 @@ ServerEvents.recipes(event=>{
         {type:"thermal:compression_fuel"},
         {type:"thermal:stirling_fuel"},
         {type:"thermal:insolator_catalyst"},
-        {type:"aether:enchanting"}
+        {type:"aether:enchanting"},
+        {type:"botania:elven_trade"},
+        {type:"botania:elven_trade_lexicon"},
+        {type:"botania:mana_infusion"},
+        {type:"botania:runic_altar"},
+        {type:"botania:petal_apothecary"},
+        {type:"wizards_reborn:mortar"}
         
         
         
