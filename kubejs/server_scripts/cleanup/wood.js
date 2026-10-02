@@ -860,6 +860,24 @@ ServerEvents.recipes(event => {
 	event.shaped("naturesaura:ancient_stick",["L "," L"],{L:"#forge:ancient_wood"})
 	event.shaped("naturesaura:ancient_stick",["L","L"],{L:"#forge:ancient_wood"}).id("naturesaura:ancient_stick")
 	
+	const goldKegMaterials = ["cork_bamboo","innocent_wood","arcane_wood"]
+
+	goldKegMaterials.forEach(woodType => {
+
+		event.shaped(`wizards_reborn:${woodType}_keg`,
+			[
+				"PSP",
+				"PGP",
+				"PSP"
+			],
+			{
+				G: "#forge:nuggets/gold",
+				P: `wizards_reborn:${woodType}_planks`,
+				S: `wizards_reborn:${woodType}_slab`
+			}
+		).id(`wizards_reborn:arcane_workbench/${woodType}_keg`)
+		
+	});
 
 
 })
