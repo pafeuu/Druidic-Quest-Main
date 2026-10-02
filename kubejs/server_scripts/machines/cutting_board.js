@@ -9,5 +9,7 @@ ServerEvents.recipes(event=>{
     cutting("chest_minecart","#forge:tools/pickaxes",["minecart","chest"])
     cutting("supplementaries:dispenser_minecart","#forge:tools/pickaxes",["minecart","dispenser"])
     cutting("naturesaura:mover_cart","#forge:tools/pickaxes",["minecart","3x naturesaura:infused_brick","naturesaura:infused_iron_block"])
+    cutting("naturesaura:ancient_log","#forge:tools/axes",["naturesaura:stripped_ancient_log","farmersdelight:tree_bark"]).id("everycomp:fd/naturesaura/cutting/ancient_log")
+    cutting("naturesaura:ancient_bark","#forge:tools/axes",["naturesaura:stripped_ancient_bark","farmersdelight:tree_bark"]).id("everycomp:fd/naturesaura/cutting/ancient_wood")
 
 })
