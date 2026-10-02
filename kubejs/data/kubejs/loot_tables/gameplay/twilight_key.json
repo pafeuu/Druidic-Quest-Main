@@ -268,7 +268,7 @@
           {
             "type": "item",
             "weight": 1,
-            "name": "kubejs:wooden_gear",
+            "name": "druidic_quest_core:livingwood_gear",
             "functions": [
               {
                 "function": "set_count",

@@ -109,7 +109,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:wooden_gear",
+          "name": "druidic_quest_core:livingwood_gear",
           "functions": [
             {
               "function": "minecraft:set_count",

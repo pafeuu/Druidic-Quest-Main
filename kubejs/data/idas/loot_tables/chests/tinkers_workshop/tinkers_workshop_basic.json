@@ -363,7 +363,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "kubejs:stone_plate",
+          "name": "druidic_quest_core:livingrock_plate",
           "functions": [
             {
               "function": "minecraft:set_count",

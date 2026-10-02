@@ -10,7 +10,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "create:iron_sheet",
+          "name": "thermal:iron_plate",
           "functions": [
             {
               "function": "minecraft:set_count",
