@@ -79,24 +79,36 @@ ServerEvents.recipes(event=>{
 
 
     ExplosionCrafting(1,"ars_nouveau:earth_essence",[
-        {item: "druidic_quest_core:nature_essence"},
-		{item: "kubejs:earth_infused_arcanum"},
-		{item: "ars_nouveau:source_gem"},
-		{item: "minecraft:bone"}
+      {item: "druidic_quest_core:nature_essence"},
+      {item: "kubejs:earth_infused_arcanum"},
+      {item: "ars_nouveau:source_gem"},
+      {item: "minecraft:bone"}
     ],ParticleGreenFire,
     SoundEffectEarthquake,
     ConditionUnderground)
 
     ExplosionCrafting(4,"naturesaura:gold_fiber",[
-        {item: "minecraft:string",},
-		{item: "minecraft:string",},
-		{item: "minecraft:wheat_seeds",},
-		{item: "minecraft:wheat_seeds",},
-		{tag: "forge:flowers/golden",},
-		{tag: "forge:flowers/golden",},
-		{tag: "forge:flowers/golden",},
-		{tag: "forge:flowers/golden",}
+        {item: "minecraft:string"},
+        {item: "minecraft:string"},
+        {item: "minecraft:wheat_seeds"},
+        {item: "minecraft:wheat_seeds"},
+        {tag: "forge:flowers/golden"},
+        {tag: "forge:flowers/golden"},
+        {tag: "forge:flowers/golden"},
+        {tag: "forge:flowers/golden"}
     ],ParticleGold,
+    SoundEffectTransmutation)
+    
+    ExplosionCrafting(2,"botania:grass_seeds",[
+        {item: "naturesaura:gold_fiber",},
+        {item: "naturesaura:gold_fiber",},
+        {item: "minecraft:wheat_seeds",},
+        {item: "minecraft:wheat_seeds",},
+        {tag: "forge:flowers/lush"},
+        {tag: "forge:flowers/lush",},
+        {tag: "forge:flowers/lush",},
+        {tag: "forge:flowers/lush",}
+    ],ParticleGreenFire,
     SoundEffectTransmutation)
 
     ExplosionCrafting(1,"kubejs:dimension_ripper",[
