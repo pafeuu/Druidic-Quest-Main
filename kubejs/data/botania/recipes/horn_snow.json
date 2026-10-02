@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "wizards_reborn:arcane_wood_logs"
+    },
+    "A": {
+      "item": "minecraft:snowball"
+    }
+  },
+  "result": {
+    "item": "botania:horn_snow",
+    "count": 1
+  }
+}

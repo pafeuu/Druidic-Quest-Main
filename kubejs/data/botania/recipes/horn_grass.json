@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  #",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "wizards_reborn:arcane_wood_logs"
+    },
+    "A": {
+      "tag": "forge:seeds"
+    }
+  },
+  "result": {
+    "item": "botania:horn_grass",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "wizards_reborn:arcane_wood_logs"
+    },
+    "A": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "botania:horn_leaves",
+    "count": 1
+  }
+}
