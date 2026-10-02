@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mossy_stone",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "immersive_weathering:mossy_stone"
+    }
+  ],
+  "result": {
+    "item": "biomeswevegone:mossy_stone",
+    "count": 1
+  }
+}
