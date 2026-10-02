@@ -55,7 +55,7 @@
 			rewards: [{
 				count: 5
 				id: "1FC7447856C8E31D"
-				item: "thermal:silver_coin"
+				item: "thermal:copper_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -96,7 +96,7 @@
 			rewards: [{
 				count: 5
 				id: "0BEF6D1048578CCE"
-				item: "thermal:silver_coin"
+				item: "thermal:copper_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -148,9 +148,9 @@
 			icon: "naturesaura:nature_altar"
 			id: "44B9FE4B80D14F6F"
 			rewards: [{
-				count: 2
+				count: 6
 				id: "6996A56CC953FAD5"
-				item: "thermal:gold_coin"
+				item: "thermal:copper_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -226,19 +226,12 @@
 				"While &5source&r is not necessary for full function, it will greatly speed up the process."
 			]
 			id: "769C5B75D85F81FC"
-			rewards: [
-				{
-					id: "6EF7E6D3D5F51A0F"
-					item: "thermal:netherite_coin"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "106D953E540E5EBF"
-					table_id: 4856103064949265470L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "106D953E540E5EBF"
+				table_id: 4856103064949265470L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Magical Transformation"
@@ -280,12 +273,12 @@
 			tasks: [
 				{
 					id: "60CDFF7D510560AB"
-					item: "kubejs:wooden_plate"
+					item: "druidic_quest_core:livingwood_plate"
 					type: "item"
 				}
 				{
 					id: "40D81269E54BA9EA"
-					item: "kubejs:stone_plate"
+					item: "druidic_quest_core:livingrock_plate"
 					type: "item"
 				}
 			]
@@ -332,7 +325,7 @@
 			id: "19F860FA0B4324FB"
 			rewards: [{
 				id: "0405A97A52146EC1"
-				item: "thermal:gold_coin"
+				item: "thermal:silver_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -627,7 +620,7 @@
 			id: "089147A7CE1A1DC6"
 			rewards: [{
 				id: "1E6726FABD05912E"
-				item: "thermal:silver_coin"
+				item: "thermal:gold_coin"
 				type: "item"
 			}]
 			subtitle: "Slip, slidin' away..."
@@ -894,7 +887,7 @@
 				{
 					count: 3
 					id: "7F1150B74C2F36FD"
-					item: "thermal:copper_coin"
+					item: "thermal:silver_coin"
 					type: "item"
 				}
 			]
@@ -924,7 +917,7 @@
 				{
 					count: 3
 					id: "486F4FB3C6603EC2"
-					item: "thermal:copper_coin"
+					item: "thermal:silver_coin"
 					type: "item"
 				}
 			]
@@ -1075,17 +1068,25 @@
 			dependencies: ["19F860FA0B4324FB"]
 			description: ["Uses aura from your aura cache to create light on right click!"]
 			id: "490B9B2E3CFE4E94"
-			rewards: [{
-				id: "55EF0E66B15F2BE2"
-				item: {
-					Count: 1
-					id: "naturesaura:aura_cache"
-					tag: {
-						aura: 400000
+			rewards: [
+				{
+					id: "55EF0E66B15F2BE2"
+					item: {
+						Count: 1
+						id: "naturesaura:aura_cache"
+						tag: {
+							aura: 400000
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 3
+					id: "3F24D24FD3C42184"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+			]
 			subtitle: "That's one lit staff!"
 			tasks: [{
 				id: "78FA8BABA3D9EB7B"
@@ -1460,11 +1461,19 @@
 			]
 			icon: "create:millstone"
 			id: "5B2014B3B0771EB5"
-			rewards: [{
-				id: "4847A7FB290D5604"
-				item: "druidic_quest_core:primitive_machine"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4847A7FB290D5604"
+					item: "druidic_quest_core:primitive_machine"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "48DBDEB4D3C9C50C"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+			]
 			subtitle: "Embrace the grind!"
 			tasks: [
 				{
@@ -1548,12 +1557,20 @@
 				"Only works with sky access and during the day"
 			]
 			id: "61B4A5B170F6318C"
-			rewards: [{
-				count: 64
-				id: "333D3AB0759A4E31"
-				item: "create:tree_fertilizer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "333D3AB0759A4E31"
+					item: "create:tree_fertilizer"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "421A93980D65B3B0"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4784609796208008"
 				item: "mbd2:phytogenic_insolator"
@@ -1567,6 +1584,12 @@
 			description: ["Connect your ropelike items to the walls and hold right click with a zipline attachment item to move around!"]
 			icon: "minecraft:chain"
 			id: "5234208B4A6DDBFA"
+			rewards: [{
+				count: 3
+				id: "7CC1090EBF60A4E1"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "43436F0FCC8DBECF"

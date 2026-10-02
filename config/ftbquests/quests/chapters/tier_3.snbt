@@ -211,9 +211,9 @@
 					type: "item"
 				}
 				{
-					count: 2
+					count: 6
 					id: "2F09F1A67B8B7C05"
-					item: "thermal:silver_coin"
+					item: "thermal:copper_coin"
 					type: "item"
 				}
 			]
@@ -233,25 +233,26 @@
 				"3A94BCF22852A627"
 			]
 			description: [
-				"You are going to need 27 brick blocks which will cost you 216 bricks in total."
+				""
 				""
 				"&4&lEverything after this point is extremely unfinished and will most likely be completely changed!&r&r"
 			]
 			id: "6EC46F530F70BFBF"
 			rewards: [{
-				count: 3
-				id: "7198F5413E0331E1"
-				item: "thermal:netherite_coin"
-				type: "item"
+				exclude_from_claim_all: true
+				icon: "waystones:end_stone_waystone"
+				id: "585AFD4C482D68FB"
+				table_id: 1066304236049326643L
+				type: "choice"
 			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "37B5B286DF819F7C"
-				item: "botania:runic_altar"
+				item: "botania:terra_plate"
 				type: "item"
 			}]
-			title: "Runic Altar"
+			title: "Agglomeration Plate"
 			x: 0.0d
 			y: -6.0d
 		}
@@ -264,9 +265,9 @@
 			icon: "create:mechanical_mixer"
 			id: "35BF841735837D97"
 			rewards: [{
-				count: 3
+				count: 6
 				id: "2C6DA5EE33FE2488"
-				item: "thermal:silver_coin"
+				item: "thermal:copper_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -357,8 +358,9 @@
 					type: "item"
 				}
 				{
+					count: 5
 					id: "35E6A36DFF6FEA08"
-					item: "thermal:gold_coin"
+					item: "thermal:copper_coin"
 					type: "item"
 				}
 			]
@@ -408,8 +410,9 @@
 			dependencies: ["0D87D09C792CBD96"]
 			id: "47CA7121501C2397"
 			rewards: [{
+				count: 5
 				id: "4B96B8FAF2F061E1"
-				item: "thermal:gold_coin"
+				item: "thermal:copper_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -424,8 +427,9 @@
 			dependencies: ["0546AB4A107ED496"]
 			id: "0D87D09C792CBD96"
 			rewards: [{
+				count: 6
 				id: "307525BF75D22644"
-				item: "thermal:gold_coin"
+				item: "thermal:copper_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -493,7 +497,11 @@
 				"598CB97D6AAE242D"
 				"47CA7121501C2397"
 			]
-			description: ["For many processes going forward, you are going to need to generate &cstress units&r. Steam engines will give you access to this crucial energy source!"]
+			description: [
+				"In this pack you can only heat up boilers with blaze burners."
+				""
+				"For many processes going forward, you are going to need to generate &cstress units&r. Steam engines will give you access to this crucial energy source!"
+			]
 			icon: "create:steam_engine"
 			id: "309BD32733CE043D"
 			rewards: [{
@@ -528,12 +536,20 @@
 			dependencies: ["720EAE83846D3178"]
 			description: ["Using items from nearby pedestals, the &6Arcane Iterator&r takes wissen, health, and experience to create &5Enchantment Runes&r or to enchant &6Arcane Tools.&r"]
 			id: "4ECC6F65A0C69B47"
-			rewards: [{
-				count: 4
-				id: "5B2F6446F945ECBD"
-				item: "kubejs:large_enchanting_rune"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "5B2F6446F945ECBD"
+					item: "kubejs:large_enchanting_rune"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6B957B614148FDC3"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
 			subtitle: "A different sort of enchanting..."
 			tasks: [{
 				id: "2134367EE6F8E15B"

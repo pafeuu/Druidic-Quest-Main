@@ -6,6 +6,7 @@
 	icon: "ars_nouveau:creative_spell_book"
 	id: "55AA3C7867C6D62D"
 	order_index: 1
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{

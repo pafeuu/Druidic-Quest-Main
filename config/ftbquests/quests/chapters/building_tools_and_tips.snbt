@@ -243,6 +243,27 @@
 			x: 5.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["6F5C7CA9C74F13E9"]
+			description: [""]
+			icon: "botania:sextant"
+			id: "76A9798DCCA3F9D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "583F06881D4BC188"
+				table_id: 4538509838943174082L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1851B7A3E896B8B6"
+				item: "botania:sextant"
+				type: "item"
+			}]
+			title: "Sextant"
+			x: -10.5d
+			y: 0.5d
+		}
 	]
 	title: "Building Tools and Tips"
 }

@@ -13,7 +13,7 @@
 		}
 	}
 	id: "7F5A1ACBDD116BA9"
-	order_index: 8
+	order_index: 7
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -166,7 +166,7 @@
 				id: "3148ACA56EE533B4"
 				item: {
 					Count: 1
-					id: "kubejs:primitive_shield"
+					id: "druidic_quest_core:primitive_shield"
 					tag: {
 						Damage: 0
 					}
@@ -1145,7 +1145,7 @@
 				type: "item"
 			}]
 			x: -6.8d
-			y: -4.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1162,7 +1162,7 @@
 				type: "item"
 			}]
 			x: -6.8d
-			y: -0.7999999999999998d
+			y: -1.6d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1901,7 +1901,7 @@
 			size: 0.8d
 			tasks: [{
 				id: "5B24B055019580A3"
-				item: "enigmaticlegacy:magnet_ring"
+				item: "botania:magnet_ring"
 				type: "item"
 			}]
 			x: 5.6d
@@ -1952,7 +1952,7 @@
 			size: 0.8d
 			tasks: [{
 				id: "1254A3D8AC10D70C"
-				item: "enigmaticlegacy:super_magnet_ring"
+				item: "botania:magnet_ring_greater"
 				type: "item"
 			}]
 			x: 5.6d

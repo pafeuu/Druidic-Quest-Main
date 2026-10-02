@@ -146,10 +146,11 @@
 				type: "item"
 			}]
 			title: "Bundles"
-			x: -0.5d
-			y: 1.0d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["3891F7E8C10DDD59"]
 			id: "5071D5A0B03CCD10"
 			rewards: [{
 				count: 4
@@ -258,8 +259,8 @@
 				item: "starbunclemania:fluid_jar"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["25205D8CDA01C923"]
@@ -304,8 +305,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["25205D8CDA01C923"]
@@ -340,8 +341,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["07C47993064F01F0"]
@@ -631,6 +632,7 @@
 			y: 15.0d
 		}
 		{
+			dependencies: ["07C47993064F01F0"]
 			id: "3891F7E8C10DDD59"
 			tasks: [{
 				id: "53D79BB4AC3A7421"

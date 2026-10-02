@@ -73,7 +73,7 @@
 				{
 					count: 24
 					id: "27E0DA17B7722F2D"
-					item: "wizards_reborn:arcane_salt_torch"
+					item: "minecraft:torch"
 					type: "item"
 				}
 			]
@@ -347,6 +347,8 @@
 		{
 			dependencies: ["23878BB2C97470D0"]
 			description: [
+				"&4&lTHIS IS NOT RECOMMENDED FOR A FIRST PLAYTHROUGH&r&r"
+				""
 				"&4The Ring of Seven Curses..."
 				"&r"
 				"You've found a ring with a strange, dark allure..."

@@ -7,10 +7,13 @@
 	icon: "kubejs:infused_iron_gear"
 	id: "5CB7677DFE3231B7"
 	order_index: 2
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["5171A92A9587D551"]
+			dependency_requirement: "one_started"
+			disable_toast: true
 			id: "7D8E452FDD5F9A5E"
 			tasks: [
 				{
@@ -30,6 +33,7 @@
 		}
 		{
 			dependencies: ["18F180938E232223"]
+			disable_toast: true
 			id: "59579B12207DD310"
 			tasks: [{
 				id: "79C3063F2C56AFF2"
@@ -42,6 +46,7 @@
 		}
 		{
 			dependencies: ["18F180938E232223"]
+			disable_toast: true
 			id: "192F4A1B7714BA44"
 			tasks: [
 				{
@@ -61,6 +66,7 @@
 		}
 		{
 			dependencies: ["18F180938E232223"]
+			disable_toast: true
 			id: "2BB2936431BC8F06"
 			tasks: [
 				{
@@ -81,6 +87,7 @@
 		{
 			dependencies: ["51966AE20559FFA0"]
 			description: ["&4&owork in progress&r&r"]
+			disable_toast: true
 			hide_until_deps_complete: true
 			id: "5171A92A9587D551"
 			tasks: [{
@@ -95,6 +102,7 @@
 		{
 			dependencies: ["51966AE20559FFA0"]
 			description: ["&4&owork in progress&r&r"]
+			disable_toast: true
 			hide_until_deps_complete: true
 			id: "18F180938E232223"
 			tasks: [{
@@ -107,6 +115,7 @@
 		}
 		{
 			dependencies: ["5171A92A9587D551"]
+			disable_toast: true
 			id: "2922282787F18DF9"
 			tasks: [
 				{
@@ -141,6 +150,7 @@
 		{
 			dependencies: ["51966AE20559FFA0"]
 			description: ["&4&owork in progress&r&r"]
+			disable_toast: true
 			hide_until_deps_complete: true
 			id: "20647356BD02AC51"
 			tasks: [{
@@ -168,6 +178,7 @@
 		}
 		{
 			dependencies: ["20647356BD02AC51"]
+			disable_toast: true
 			icon: "minecraft:dispenser"
 			id: "586EFA581591FD72"
 			tasks: [
@@ -187,6 +198,7 @@
 		}
 		{
 			dependencies: ["20647356BD02AC51"]
+			disable_toast: true
 			id: "37F91090FC3DF586"
 			tasks: [{
 				id: "79D76693D36E09C7"
@@ -198,6 +210,7 @@
 		}
 		{
 			dependencies: ["7883B923A38920B9"]
+			disable_toast: true
 			id: "5BB69BE094871C04"
 			tasks: [
 				{
@@ -231,6 +244,7 @@
 		}
 		{
 			dependencies: ["5171A92A9587D551"]
+			disable_toast: true
 			id: "41A8C3AE12F51850"
 			tasks: [{
 				id: "31FACBC2DA9C516C"
@@ -261,6 +275,7 @@
 		{
 			dependencies: ["51966AE20559FFA0"]
 			description: ["&4&owork in progress&r&r"]
+			disable_toast: true
 			hide_until_deps_complete: true
 			id: "6961CE9521EE5279"
 			tasks: [{
@@ -274,6 +289,7 @@
 		}
 		{
 			dependencies: ["6961CE9521EE5279"]
+			disable_toast: true
 			id: "7754CD311DA6DAA4"
 			tasks: [{
 				id: "61757A5898297443"
@@ -285,6 +301,7 @@
 		}
 		{
 			dependencies: ["6961CE9521EE5279"]
+			disable_toast: true
 			id: "10E2AF6AA0DE1957"
 			tasks: [{
 				id: "6DDBDC545F38389F"
@@ -296,6 +313,7 @@
 		}
 		{
 			dependencies: ["7883B923A38920B9"]
+			disable_toast: true
 			id: "5F799BA28BF9C24E"
 			tasks: [{
 				id: "388FA794CB87683C"
@@ -307,6 +325,7 @@
 		}
 		{
 			dependencies: ["5E369306ED039634"]
+			disable_toast: true
 			id: "6296700FA5E5CF98"
 			tasks: [{
 				id: "571D349AD9A62ADD"
@@ -318,6 +337,7 @@
 		}
 		{
 			dependencies: ["5171A92A9587D551"]
+			disable_toast: true
 			icon: "quark:pipe"
 			id: "3D5C9D562E85514E"
 			tasks: [
@@ -338,6 +358,7 @@
 		}
 		{
 			dependencies: ["5E369306ED039634"]
+			disable_toast: true
 			icon: "minecraft:magma_block"
 			id: "2B04B54C341F195D"
 			tasks: [
@@ -364,6 +385,7 @@
 		{
 			dependencies: ["5171A92A9587D551"]
 			dependency_requirement: "one_completed"
+			disable_toast: true
 			icon: "minecraft:water_bucket"
 			id: "2CD803C91158A465"
 			tasks: [
@@ -402,6 +424,7 @@
 		}
 		{
 			dependencies: ["085506B2810635B8"]
+			disable_toast: true
 			id: "2B312995F2B9457A"
 			tasks: [{
 				id: "2C17F2AF513FC85F"
@@ -413,6 +436,7 @@
 		}
 		{
 			dependencies: ["085506B2810635B8"]
+			disable_toast: true
 			id: "6E51BD3392DBC5D6"
 			tasks: [{
 				id: "53020C69E2A7F2CF"
@@ -424,6 +448,7 @@
 		}
 		{
 			dependencies: ["085506B2810635B8"]
+			disable_toast: true
 			id: "3E3602BF68F5C926"
 			tasks: [{
 				id: "50C1E58C6A7AEA1B"
@@ -440,6 +465,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["Supplementaries Cannon can shoot any projectile! also any tnt type while turning it on!"]
+			disable_toast: true
 			icon: "supplementaries:cannon"
 			id: "5A68495E8322FC72"
 			tasks: [
@@ -476,6 +502,7 @@
 		{
 			dependencies: ["51966AE20559FFA0"]
 			description: ["&4&owork in progress&r&r"]
+			disable_toast: true
 			hide_until_deps_complete: true
 			id: "5941068474570745"
 			tasks: [{
@@ -488,6 +515,7 @@
 		}
 		{
 			dependencies: ["5941068474570745"]
+			disable_toast: true
 			id: "79518721DA4D4560"
 			tasks: [{
 				id: "7C09C83891E2A0CF"
@@ -499,6 +527,7 @@
 		}
 		{
 			dependencies: ["5941068474570745"]
+			disable_toast: true
 			id: "064B99D930A004C4"
 			tasks: [
 				{
@@ -547,6 +576,7 @@
 		}
 		{
 			dependencies: ["5941068474570745"]
+			disable_toast: true
 			id: "4BD524EDFDA5FFF5"
 			tasks: [{
 				id: "0AF1B140BE4C50BD"
@@ -563,6 +593,7 @@
 				""
 				"&l&5Capsid&r&r will transport items up if it ends on a container it will deposit said item."
 			]
+			disable_toast: true
 			id: "1FB2E22555CD36CB"
 			tasks: [
 				{
@@ -582,6 +613,7 @@
 		}
 		{
 			dependencies: ["5171A92A9587D551"]
+			disable_toast: true
 			id: "3BB8FF2ED7F5B76B"
 			tasks: [{
 				id: "45A2E7A4267139B3"
@@ -593,6 +625,7 @@
 		}
 		{
 			dependencies: ["5171A92A9587D551"]
+			disable_toast: true
 			id: "106F774ECF29F3ED"
 			tasks: [
 				{
@@ -612,6 +645,7 @@
 		}
 		{
 			dependencies: ["7883B923A38920B9"]
+			disable_toast: true
 			id: "2AF3F8354BFDB785"
 			tasks: [{
 				id: "43FE87C4467A7C2B"
@@ -623,6 +657,7 @@
 		}
 		{
 			dependencies: ["5E369306ED039634"]
+			disable_toast: true
 			icon: "alexsmobs:sculk_boomer"
 			id: "4454D664EEECD423"
 			tasks: [{
@@ -633,6 +668,153 @@
 			title: "Alex's Mobs Way"
 			x: 10.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["5941068474570745"]
+			disable_toast: true
+			icon: "botania:hopperhock"
+			id: "05B4C89BA68F75C3"
+			tasks: [
+				{
+					id: "6A636604258E0DC2"
+					item: "botania:hopperhock"
+					type: "item"
+				}
+				{
+					id: "73C01CB924A959DF"
+					item: "botania:hopperhock_chibi"
+					type: "item"
+				}
+				{
+					id: "2BD6458B061A9121"
+					item: "botania:floating_hopperhock"
+					type: "item"
+				}
+				{
+					id: "27FFFDD6A089509A"
+					item: "botania:floating_hopperhock_chibi"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6961CE9521EE5279"]
+			disable_toast: true
+			icon: "botania:mana_spreader"
+			id: "5F34DD73C82B6A3B"
+			tasks: [
+				{
+					id: "67D69E7CE2DA35A1"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "1BA47B232640E736"
+					item: "botania:lens_mine"
+					type: "item"
+				}
+				{
+					id: "41C08C55DE284D7B"
+					item: "botania:lens_explosive"
+					type: "item"
+				}
+				{
+					id: "1ADA868EBF5FDA72"
+					item: "botania:lens_damage"
+					type: "item"
+				}
+				{
+					id: "44659232B1827A0E"
+					item: "botania:lens_influence"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["20647356BD02AC51"]
+			disable_toast: true
+			icon: "botania:rannuncarpus"
+			id: "03F6FC0E6976F9F7"
+			tasks: [
+				{
+					id: "3A43F6CD4051154B"
+					item: "botania:rannuncarpus"
+					type: "item"
+				}
+				{
+					id: "25D6E53C15A0D4ED"
+					item: "botania:rannuncarpus_chibi"
+					type: "item"
+				}
+				{
+					id: "61B1BA6D58FC130B"
+					item: "botania:floating_rannuncarpus"
+					type: "item"
+				}
+				{
+					id: "019805A35A5B8064"
+					item: "botania:floating_rannuncarpus_chibi"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["085506B2810635B8"]
+			disable_toast: true
+			id: "73D1B900F8142A13"
+			tasks: [{
+				id: "0DBCAB29A3707424"
+				item: "botania:crafty_crate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5171A92A9587D551"]
+			disable_toast: true
+			icon: "botania:light_relay"
+			id: "4794EC1E30E1B38C"
+			tasks: [
+				{
+					id: "54385C010ED842F6"
+					item: "botania:light_relay"
+					type: "item"
+				}
+				{
+					id: "5F746C883C944D1D"
+					item: "botania:light_launcher"
+					type: "item"
+				}
+				{
+					id: "0BE66E168C11725A"
+					item: "botania:detector_light_relay"
+					type: "item"
+				}
+				{
+					id: "655A931393D168F8"
+					item: "botania:fork_light_relay"
+					type: "item"
+				}
+				{
+					id: "32F56CD62B212DE0"
+					item: "botania:toggle_light_relay"
+					type: "item"
+				}
+				{
+					id: "7A75066139AD54DA"
+					item: "botania:spectranthemum"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 0.0d
 		}
 	]
 	title: "Automation"

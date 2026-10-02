@@ -14,6 +14,7 @@
 	quests: [
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "2926BDF2DE615D5A"
 			rewards: [{
 				count: 3
@@ -31,6 +32,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "40EE2D038B69E0F1"
 			rewards: [{
 				count: 3
@@ -48,6 +50,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "21DF7EAED93AA72F"
 			rewards: [{
 				count: 3
@@ -65,6 +68,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "5E0149AE74A83911"
 			rewards: [{
 				count: 3
@@ -82,6 +86,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "76D1127547EB09BC"
 			rewards: [{
 				count: 3
@@ -99,6 +104,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "25E08013F2410EAA"
 			rewards: [{
 				count: 3
@@ -116,6 +122,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "4F9F66CCB43FF3D0"
 			rewards: [{
 				count: 3
@@ -133,6 +140,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "4944C7E7F44FA5B8"
 			rewards: [{
 				count: 3
@@ -150,6 +158,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "2B35FE7A64AFC850"
 			rewards: [{
 				count: 3
@@ -167,6 +176,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "485A9FF09E80C42F"
 			rewards: [{
 				count: 3
@@ -184,6 +194,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "038DF0F6D17CE06F"
 			rewards: [{
 				count: 3
@@ -201,6 +212,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "5EF489C4DE846B47"
 			rewards: [{
 				count: 3
@@ -218,6 +230,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "02BFA9DF626D19E5"
 			rewards: [{
 				count: 3
@@ -235,6 +248,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "46B1A782B6B2334C"
 			rewards: [{
 				count: 3
@@ -252,6 +266,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "5C412EFD1437E66F"
 			rewards: [{
 				count: 3
@@ -269,6 +284,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "7F9178CB0E1BB166"
 			rewards: [{
 				count: 3
@@ -286,6 +302,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "579489C19F1286D5"
 			rewards: [{
 				count: 3
@@ -303,6 +320,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "7FA7AD8370CE277D"
 			rewards: [{
 				count: 3
@@ -320,6 +338,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0E6CAF74A4C0D7CD"
 			rewards: [{
 				count: 3
@@ -337,6 +356,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "3B207B5EC8EFBFE1"
 			rewards: [{
 				count: 3
@@ -354,6 +374,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "6819DD50B08BE2DA"
 			rewards: [{
 				count: 3
@@ -371,6 +392,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "523E92E4ACE86786"
 			rewards: [{
 				count: 3
@@ -388,6 +410,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "73ECDC6D29EDB142"
 			rewards: [{
 				count: 3
@@ -405,6 +428,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "7AF62D1CD5DF1F5C"
 			rewards: [{
 				count: 3
@@ -422,6 +446,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "4D0C06C854F07B71"
 			rewards: [{
 				count: 3
@@ -439,6 +464,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "2868D89CCD875674"
 			rewards: [{
 				count: 3
@@ -456,6 +482,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "59C1DDB54F67FADD"
 			rewards: [{
 				count: 3
@@ -473,6 +500,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "450AAEE5E363A3F9"
 			rewards: [{
 				count: 3
@@ -490,6 +518,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "774A376FE76975FE"
 			rewards: [{
 				count: 3
@@ -507,6 +536,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "541119C68FBB503E"
 			rewards: [{
 				count: 3
@@ -524,6 +554,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1D00BE0CC8B6FF2B"
 			rewards: [{
 				count: 3
@@ -541,6 +572,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "328FA4E557BF1280"
 			rewards: [{
 				count: 3
@@ -558,6 +590,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "4398128157A3110A"
 			rewards: [{
 				count: 3
@@ -575,6 +608,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "320BF534A95464B0"
 			rewards: [{
 				count: 3
@@ -592,6 +626,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "6B22F442FF434A97"
 			rewards: [{
 				count: 3
@@ -609,6 +644,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "2BE82E14E7E3C01C"
 			rewards: [{
 				count: 3
@@ -626,6 +662,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "3B55264CC744E310"
 			rewards: [{
 				count: 3
@@ -643,6 +680,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "090B5B38D6F507F3"
 			rewards: [{
 				count: 3
@@ -660,6 +698,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "642A481A78E727E9"
 			rewards: [{
 				count: 3
@@ -677,6 +716,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "11630C988DAA6A7B"
 			rewards: [{
 				count: 3
@@ -694,6 +734,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "6E88A1EE4420462C"
 			rewards: [{
 				count: 3
@@ -711,6 +752,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "26CF873FB50BD567"
 			rewards: [{
 				count: 3
@@ -728,6 +770,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "2FACC58632D7D6BA"
 			rewards: [{
 				count: 3
@@ -745,6 +788,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "3BA1DA6D3CF63393"
 			rewards: [{
 				count: 3
@@ -762,6 +806,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "157D41F858D2FA4B"
 			rewards: [{
 				count: 3
@@ -779,6 +824,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "4044A98F452FA495"
 			rewards: [{
 				count: 3
@@ -796,6 +842,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0D92A8EFFBF5DAAE"
 			rewards: [{
 				count: 3
@@ -813,6 +860,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "2F97E8B333E4CFAB"
 			rewards: [{
 				count: 3
@@ -830,6 +878,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "02483C6BD929F3DC"
 			rewards: [{
 				count: 3
@@ -847,6 +896,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "25B64E04A30503CE"
 			rewards: [{
 				count: 3
@@ -864,6 +914,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "4C09AE7C098D2703"
 			rewards: [{
 				count: 3
@@ -881,6 +932,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "7A5732F7F0C16B21"
 			rewards: [{
 				count: 3
@@ -898,6 +950,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "79701F775FE3CCB5"
 			rewards: [{
 				count: 3
@@ -915,6 +968,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "6469987C488CB95D"
 			rewards: [{
 				count: 3
@@ -932,6 +986,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "58E90376551EB9FB"
 			rewards: [{
 				count: 3
@@ -949,6 +1004,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "7C9A1B54A083DF8F"
 			rewards: [{
 				count: 3
@@ -966,6 +1022,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1451DD5ECFF01A5E"
 			rewards: [{
 				count: 3
@@ -983,6 +1040,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0A67306E052852D9"
 			rewards: [{
 				count: 3
@@ -1000,6 +1058,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "1B1FBBBC7ACCD9DB"
 			rewards: [{
 				count: 3
@@ -1017,6 +1076,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "41FDA2598B32252B"
 			rewards: [{
 				count: 3
@@ -1034,6 +1094,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "23F5997E58E8EC24"
 			rewards: [{
 				count: 3
@@ -1051,6 +1112,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "0F0EE4AFEA96173C"
 			rewards: [{
 				count: 3
@@ -1068,6 +1130,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "405D2F24EEF8C4C9"
 			rewards: [{
 				count: 3
@@ -1085,6 +1148,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "03E5A6F6615D1F3B"
 			rewards: [{
 				count: 3
@@ -1102,6 +1166,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "2BDD0B35E125D836"
 			rewards: [{
 				count: 3
@@ -1119,6 +1184,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "14760CF69FA9CDFF"
 			rewards: [{
 				count: 3
@@ -1136,6 +1202,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "51DE4545FD5DBA9E"
 			rewards: [{
 				count: 3
@@ -1153,6 +1220,7 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
+			disable_toast: true
 			id: "059128063CED4F6C"
 			rewards: [{
 				count: 3

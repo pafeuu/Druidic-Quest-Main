@@ -164,14 +164,6 @@
 		}
 		{
 			height: 1.5d
-			image: "minecraft:block/netherite_block"
-			rotation: 0.0d
-			width: 1.5d
-			x: 7.0d
-			y: 0.0d
-		}
-		{
-			height: 1.5d
 			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
@@ -255,7 +247,7 @@
 			image: "minecraft:block/netherite_block"
 			rotation: 0.0d
 			width: 1.5d
-			x: 8.5d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -661,15 +653,12 @@
 				"682CA83814F08244"
 				"118CF02B3B3C899C"
 			]
-			icon: {
-				Count: 64
-				id: "druidic_quest_core:treated_planks"
-			}
+			icon: { Count: 16, id: "botania:livingwood_log" }
 			id: "5BE7FF2B2D088B6D"
 			rewards: [{
-				count: 64
+				count: 16
 				id: "0DF67295E3AB5B3F"
-				item: "druidic_quest_core:treated_planks"
+				item: "botania:livingwood_log"
 				type: "item"
 			}]
 			subtitle: "1 Gold Coin"
@@ -678,7 +667,7 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
-			title: "64 Treated Wood Planks"
+			title: "16 Livingwood"
 			x: 4.0d
 			y: -4.5d
 		}
@@ -1366,27 +1355,6 @@
 		}
 		{
 			dependencies: ["682CA83814F08244"]
-			icon: "waystones:waystone"
-			id: "29E1BA7E7C50F113"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "53413C31C0DCEBFC"
-				table_id: 1066304236049326643L
-				type: "choice"
-			}]
-			subtitle: "2 Netherite Coins"
-			tasks: [{
-				count: 2L
-				id: "4FFC1E673923941E"
-				item: "thermal:netherite_coin"
-				type: "item"
-			}]
-			title: "Waystone Choice"
-			x: 7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["682CA83814F08244"]
 			icon: "enigmaticlegacy:mending_mixture"
 			id: "369F2CA9B00535CD"
 			rewards: [{
@@ -1590,16 +1558,26 @@
 					}
 					type: "item"
 				}
+				{
+					id: "315DC30D8D8E97EA"
+					item: "naturesaura_plus:aura_coffee"
+					type: "item"
+				}
+				{
+					id: "695543CC5F45A36A"
+					item: "farmersdelight:bacon_sandwich"
+					type: "item"
+				}
 			]
 			subtitle: "5 Silver Coins"
 			tasks: [{
 				consume_items: true
-				count: 5L
+				count: 6L
 				id: "39C3A9A2AB133C50"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "Emergency Axe and Pickaxe"
+			title: "Emergency Items"
 			x: -1.0d
 			y: 1.5d
 		}
@@ -1638,7 +1616,7 @@
 				type: "item"
 			}]
 			title: "Mending Enchanted Book"
-			x: 8.5d
+			x: 7.0d
 			y: 0.0d
 		}
 		{

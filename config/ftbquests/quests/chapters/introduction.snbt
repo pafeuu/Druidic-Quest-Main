@@ -64,7 +64,7 @@
 				}
 			]
 			title: "Before You Punch a Tree"
-			x: -9.0d
+			x: -11.0d
 			y: -1.0d
 		}
 		{
@@ -107,7 +107,7 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: -1.0d
 		}
 		{
@@ -182,7 +182,7 @@
 				type: "item"
 			}]
 			title: "New Combat System!"
-			x: -4.5d
+			x: -5.5d
 			y: 1.0d
 		}
 		{
@@ -238,8 +238,8 @@
 				}
 			]
 			title: "Exploration "
-			x: -3.0d
-			y: 2.5d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]
@@ -279,8 +279,8 @@
 				type: "item"
 			}]
 			title: "New Fishing!"
-			x: -4.5d
-			y: 3.0d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]
@@ -304,12 +304,19 @@
 				}
 			}
 			id: "7FA124A98B532194"
-			rewards: [{
-				count: 2
-				id: "03830C80F8D06F67"
-				item: "alexsdelight:bison_burger"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "03830C80F8D06F67"
+					item: "alexsdelight:bison_burger"
+					type: "item"
+				}
+				{
+					id: "497A9CA5EF382FC7"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
 			subtitle: "Craft Your First Armor"
 			tasks: [
 				{
@@ -362,8 +369,8 @@
 				}
 			]
 			title: "Armour Sets!"
-			x: -6.0d
-			y: 2.5d
+			x: -7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["090099B8B3800BAE"]
@@ -381,7 +388,6 @@
 					type: "item"
 				}
 				{
-					count: 4
 					id: "1EEF4F647DB9FDBD"
 					item: "thermal:gold_coin"
 					type: "item"
@@ -418,7 +424,7 @@
 				{
 					count: 16
 					id: "7350AF715A9EDD4C"
-					item: "wizards_reborn:arcane_salt_torch"
+					item: "minecraft:torch"
 					type: "item"
 				}
 				{
@@ -621,7 +627,7 @@
 				type: "item"
 			}]
 			title: "Potato Farming"
-			x: 3.0d
+			x: 5.0d
 			y: -6.0d
 		}
 		{
@@ -655,12 +661,19 @@
 				"&8&oCan be automated with a hopper and dispenser in the next chapter.&r&r"
 			]
 			id: "0FC4FA79D5AB30AE"
-			rewards: [{
-				icon: "farmersdelight:chicken_sandwich"
-				id: "4AA8215B8C603A6A"
-				table_id: 4681511814997660015L
-				type: "random"
-			}]
+			rewards: [
+				{
+					icon: "farmersdelight:chicken_sandwich"
+					id: "4AA8215B8C603A6A"
+					table_id: 4681511814997660015L
+					type: "random"
+				}
+				{
+					id: "2187F7BD29A26ED0"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			subtitle: "Slicing and Dicing"
 			tasks: [{
@@ -708,8 +721,9 @@
 			id: "2A0A25E7A7AA7334"
 			rewards: [
 				{
+					count: 4
 					id: "7CCA13CD53E8C684"
-					item: "thermal:silver_coin"
+					item: "thermal:copper_coin"
 					type: "item"
 				}
 				{
@@ -780,8 +794,9 @@
 			]
 			id: "22BF5448BA6B11AF"
 			rewards: [{
+				count: 4
 				id: "778C9A624F904899"
-				item: "thermal:silver_coin"
+				item: "thermal:copper_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -835,7 +850,7 @@
 				type: "observation"
 			}]
 			title: "Explosive Mobs"
-			x: -0.5d
+			x: -2.5d
 			y: 2.0d
 		}
 		{
@@ -900,7 +915,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 0.5d
 			y: 2.0d
 		}
 		{
@@ -952,7 +967,7 @@
 				}
 			]
 			title: "Assemble the Ritual"
-			x: 5.5d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -971,7 +986,7 @@
 			tasks: [
 				{
 					id: "7D458C8D19406586"
-					item: "enigmaticlegacy:magnet_ring"
+					item: "botania:magnet_ring"
 					type: "item"
 				}
 				{
@@ -1053,7 +1068,7 @@
 			id: "3795D0DD18CF8363"
 			rewards: [{
 				id: "50EC389AE9E2B1A7"
-				item: "thermal:gold_coin"
+				item: "thermal:silver_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -1134,7 +1149,7 @@
 			id: "78441BFCAC4CA22B"
 			rewards: [{
 				id: "77F7DC3CC498A66A"
-				item: "thermal:silver_coin"
+				item: "thermal:copper_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -1160,7 +1175,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The &cCoke Oven&r is built by making a 3x3x3 cube of Coke Bricks. To form the multiblock, right click it with an engineer's hammer."
+				"The &2&lAuric Concetrator&r&r is built by making a 3x3x3 cube of Auric Infused Bricks. To form the multiblock, right click it with an Arcanist's Hammer."
 				""
 				"It will take coal and transform it into coal coke and creosote oil, both necessary for further progression."
 				""
@@ -1175,9 +1190,11 @@
 			icon: "naturesaura_plus:auric_oven_brick"
 			id: "51966AE20559FFA0"
 			rewards: [{
-				id: "29DC6958A4800B95"
-				item: "thermal:netherite_coin"
-				type: "item"
+				exclude_from_claim_all: true
+				icon: "waystones:deepslate_waystone"
+				id: "752BBF661A8CA970"
+				table_id: 1066304236049326643L
+				type: "choice"
 			}]
 			shape: "rsquare"
 			size: 2.0d
@@ -1218,7 +1235,7 @@
 				type: "item"
 			}]
 			title: "Cutting Planks"
-			x: -6.5d
+			x: -8.0d
 			y: -1.0d
 		}
 		{
@@ -1277,7 +1294,7 @@
 					id: "6B2B03600720894F"
 					item: {
 						Count: 1
-						id: "kubejs:primitive_shield"
+						id: "druidic_quest_core:primitive_shield"
 						tag: {
 							Damage: 0
 						}
@@ -1306,8 +1323,8 @@
 				}
 			]
 			title: "Mob Difficulty Changes"
-			x: -7.0d
-			y: 1.5d
+			x: -7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3795DEE8A3FE6814"]
@@ -1341,7 +1358,7 @@
 				}
 			]
 			title: "Arcanum Ore"
-			x: 5.5d
+			x: 3.5d
 			y: 4.0d
 		}
 		{
@@ -1349,11 +1366,24 @@
 			description: ["The Pure Daisy will convert placed logs around it (including diagonally) into arcane wood logs after 1 minute."]
 			icon: "botania:pure_daisy"
 			id: "093161CA8E0381C0"
-			rewards: [{
-				id: "56AC5A9CB5791D91"
-				item: "minecraft:birch_sapling"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "56AC5A9CB5791D91"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "31FF815C44365318"
+					item: {
+						Count: 1
+						id: "botania:lexicon"
+						tag: {
+							"botania:elven_unlock": 1b
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Magic Wood"
 			tasks: [
 				{
@@ -1384,63 +1414,26 @@
 			}
 			id: "36E8803252843028"
 			rewards: [{
+				count: 3
 				id: "3D317275358458EE"
-				item: "thermal:gold_coin"
+				item: "thermal:silver_coin"
 				type: "item"
 			}]
 			subtitle: "Early Silk Touch"
-			tasks: [
-				{
-					id: "1E37D420682B21CD"
-					item: {
-						Count: 1
-						id: "wizards_reborn:arcane_wood_pickaxe"
-						tag: {
-							Damage: 0
-							arcaneEnchantments: { }
-						}
+			tasks: [{
+				id: "1E37D420682B21CD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/arcane_wood)"
 					}
-					type: "item"
 				}
-				{
-					id: "3331129BA9585B19"
-					item: {
-						Count: 1
-						id: "wizards_reborn:arcane_wood_axe"
-						tag: {
-							Damage: 0
-							arcaneEnchantments: { }
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3A1CD3EF744D18D4"
-					item: {
-						Count: 1
-						id: "wizards_reborn:arcane_wood_shovel"
-						tag: {
-							Damage: 0
-							arcaneEnchantments: { }
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "79699028CB509BF5"
-					item: {
-						Count: 1
-						id: "wizards_reborn:arcane_wood_hoe"
-						tag: {
-							Damage: 0
-							arcaneEnchantments: { }
-						}
-					}
-					type: "item"
-				}
-			]
+				title: "Any #forge:tools/arcane_wood"
+				type: "item"
+			}]
 			title: "Arcane Tools"
-			x: 10.0d
+			x: 7.0d
 			y: 6.0d
 		}
 		{
@@ -1513,7 +1506,7 @@
 				{
 					count: 2
 					id: "2AB4A113C5F6829F"
-					item: "thermal:silver_coin"
+					item: "thermal:copper_coin"
 					type: "item"
 				}
 			]
@@ -1545,6 +1538,7 @@
 			]
 			id: "34A2ED5D35107D50"
 			rewards: [{
+				count: 4
 				id: "15259D7383A2E361"
 				item: "thermal:silver_coin"
 				type: "item"
@@ -1556,7 +1550,7 @@
 				item: "wizards_reborn:white_arcane_lumos"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 2.5d
 			y: 6.0d
 		}
 		{
@@ -1624,8 +1618,8 @@
 				}
 			]
 			title: "Spellcasting"
-			x: -2.0d
-			y: 1.5d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3D782DAACBB5DE87"]
@@ -1649,26 +1643,8 @@
 				item: "naturesaura:ancient_sapling"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 4.5d
 			y: 6.0d
-		}
-		{
-			dependencies: ["32A61115C0AD8C45"]
-			description: ["Right click a sunflower while holding the tablet to clear rainy weather."]
-			id: "4629A647F810AA19"
-			rewards: [{
-				id: "725BED1D7C4CD018"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			subtitle: "Controlling the Weather"
-			tasks: [{
-				id: "5589B439251D443A"
-				item: "ars_nouveau:ritual_cloudshaping"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 7.5d
 		}
 		{
 			dependencies: ["6814EBB8BDED9EEE"]
@@ -1709,7 +1685,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["36E8803252843028"]
+			dependencies: ["093161CA8E0381C0"]
 			description: ["Not great but once you find some infused gems you can upgrade it!"]
 			id: "756DE0A4B031F8AB"
 			rewards: [{
@@ -1724,7 +1700,7 @@
 				type: "item"
 			}]
 			title: "Primitive Grappling Hook"
-			x: 12.0d
+			x: 9.0d
 			y: 6.0d
 		}
 		{
@@ -1782,12 +1758,12 @@
 			]
 			title: "Lunchbag upgrade"
 			x: 5.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["2BB4A388858E481A"]
+			dependencies: ["6814EBB8BDED9EEE"]
 			description: [
-				"While holding the wand you will be able to cast the spell imbued inside it by pressing \"Z\""
+				"While holding the wand you will be able to cast the spell imbued inside it by right clicking or pressing \"Z\""
 				""
 				"&oIf you've reset the keybinds provided by the pack its going to be \"V\" instead&r"
 			]
@@ -1811,8 +1787,38 @@
 				type: "item"
 			}]
 			title: "Craft some REAL weapons"
-			x: 0.5d
-			y: 0.5d
+			x: -1.25d
+			y: 0.625d
+		}
+		{
+			dependencies: ["3F2E2B483880F030"]
+			description: [
+				"Tigerseye will scare off any creepers and stop them from exploding!"
+				""
+				"{image:entity:minecraft:creeper[rotate=true] width:96 height:96 align:center}"
+			]
+			id: "49B93B2608800A22"
+			rewards: [
+				{
+					count: 4
+					id: "0DA3E6BA6EE88C22"
+					item: "botania:tigerseye"
+					type: "item"
+				}
+				{
+					id: "4E3EFA7BC3EDC9E8"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "52083D97ED916DC7"
+				type: "kill"
+				value: 5L
+			}]
+			x: -0.5d
+			y: 3.5d
 		}
 	]
 	title: "Tier 0 - Wooden Age"

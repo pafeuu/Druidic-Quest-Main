@@ -20,8 +20,9 @@
 			hide_until_deps_complete: true
 			id: "4E33A6524A987E23"
 			rewards: [{
+				count: 8
 				id: "4FBC16708C07D75D"
-				item: "thermal:gold_coin"
+				item: "thermal:copper_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -29,7 +30,7 @@
 			subtitle: "Magic Metal"
 			tasks: [{
 				id: "3AD0E0A9B87DBD1E"
-				item: "kubejs:source_alloy_ingot"
+				item: "botania:manasteel_ingot"
 				type: "item"
 			}]
 			x: -11.0d
@@ -113,7 +114,7 @@
 				{
 					count: 6
 					id: "48795A42E11DCFAB"
-					item: "thermal:copper_coin"
+					item: "thermal:silver_coin"
 					type: "item"
 				}
 				{
@@ -164,9 +165,9 @@
 			icon: "mbd2:elemental_evaporator"
 			id: "5CB418E959BA9BC4"
 			rewards: [{
-				count: 2
+				count: 6
 				id: "72235FFF9E75C8E7"
-				item: "thermal:silver_coin"
+				item: "thermal:copper_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -208,9 +209,9 @@
 			id: "23D3902848A335F6"
 			rewards: [
 				{
-					count: 2
+					count: 4
 					id: "3897A22B4C6DD658"
-					item: "thermal:gold_coin"
+					item: "thermal:copper_coin"
 					type: "item"
 				}
 				{
@@ -510,8 +511,9 @@
 					type: "item"
 				}
 				{
+					count: 8
 					id: "2A83CB24AB8C2BD7"
-					item: "thermal:gold_coin"
+					item: "thermal:copper_coin"
 					type: "item"
 				}
 			]
@@ -598,9 +600,9 @@
 			description: ["You'll need the power of the &aInfusion Catalyst&r in the Natural Altar to infuse mundane materials with magical properties!"]
 			id: "400EBA15A5B82A93"
 			rewards: [{
-				count: 2
+				count: 5
 				id: "7AF9F6A5B76D1577"
-				item: "thermal:silver_coin"
+				item: "thermal:copper_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -699,6 +701,10 @@
 				"00AEA38F60CAAE90"
 			]
 			description: [
+				"As you can see you will need a lot of essences to craft the whole Kiln."
+				""
+				"You might be tempted to bite the bullet and do it by hand but you will need much more in the future so it might be a good time to automate the basic essences."
+				""
 				"This multiblock requires specific fire related magic fuel."
 				""
 				"Check the uses for the alloy kiln to display how to build it correctly"
@@ -706,17 +712,18 @@
 			icon: "mbd2:alloy_kiln"
 			id: "0628C1A97EB1A5DB"
 			rewards: [{
-				count: 2
-				id: "3196E5B713538FA1"
-				item: "thermal:netherite_coin"
-				type: "item"
+				exclude_from_claim_all: true
+				icon: "waystones:mossy_waystone"
+				id: "00545F600997A8F4"
+				table_id: 1066304236049326643L
+				type: "choice"
 			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Mixing Metals"
 			tasks: [
 				{
-					count: 8L
+					count: 27L
 					id: "4BB570DEC2587D62"
 					item: "druidic_quest_core:alloy_bricks"
 					type: "item"
@@ -724,13 +731,6 @@
 				{
 					id: "358B7AEC65D4C37B"
 					item: "mbd2:alloy_kiln"
-					optional_task: true
-					type: "item"
-				}
-				{
-					count: 18L
-					id: "57656293D61B2C06"
-					item: "naturesaura_plus:auric_oven_brick"
 					optional_task: true
 					type: "item"
 				}
@@ -757,9 +757,9 @@
 			description: ["Does the machine make the magic? Or is it the magic that makes the machine?"]
 			id: "38ADADE5E8F17847"
 			rewards: [{
-				count: 2
+				count: 6
 				id: "2A4CDCB40EAF2C96"
-				item: "thermal:gold_coin"
+				item: "thermal:copper_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -824,11 +824,7 @@
 			subtitle: "Instant Transportation"
 			tasks: [{
 				id: "30CC463EE66F3D18"
-				item: {
-					Count: 1
-					id: "ars_nouveau:warp_scroll"
-					tag: { }
-				}
+				item: "kubejs:warp_scroll"
 				type: "item"
 			}]
 			x: 7.0d
@@ -1022,11 +1018,19 @@
 				"Be careful, though! It doesn't have much durability."
 			]
 			id: "2E527B86FB2AE87D"
-			rewards: [{
-				id: "3624748F1BF55ECC"
-				item: "alexsmobs:mosquito_repellent_stew"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3624748F1BF55ECC"
+					item: "alexsmobs:mosquito_repellent_stew"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "39C381B6662A87FF"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+			]
 			subtitle: "Nether Portal Help?"
 			tasks: [{
 				id: "74805E94D6333EB9"
@@ -1300,7 +1304,7 @@
 				{
 					count: 5L
 					id: "449F2B715C218621"
-					item: { Count: 5, id: "kubejs:source_alloy_block" }
+					item: { Count: 5, id: "botania:manasteel_block" }
 					optional_task: true
 					type: "item"
 				}
@@ -1328,7 +1332,7 @@
 			id: "2841B26876F416EE"
 			rewards: [{
 				id: "6DC1AB6D64321E0E"
-				item: "thermal:gold_coin"
+				item: "thermal:silver_coin"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -1466,12 +1470,20 @@
 			description: ["Doesn't need Soul Core like EMI might suggest"]
 			icon: "mbd2:infernal_smelter"
 			id: "5B063A590937C1F0"
-			rewards: [{
-				count: 4
-				id: "73050A4EC03620AB"
-				item: "kubejs:fire_element_fluid_bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "73050A4EC03620AB"
+					item: "kubejs:fire_element_fluid_bucket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "61863E05FFA42B43"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "7EBB97CBACF64757"

@@ -14,7 +14,7 @@
 		}
 	}
 	id: "2D31A9CB6776879E"
-	order_index: 6
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -1413,8 +1413,8 @@
 				type: "item"
 			}]
 			title: "Royal Armor Trim"
-			x: 1.0d
-			y: -7.5d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
