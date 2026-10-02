@@ -7,5 +7,9 @@
     {
         "mob": "irons_spellbooks:necromancer",
         "result": "deny"
+    },
+    {
+        "mob": "minecraft:bat",
+        "result": "deny"
     }
 ]

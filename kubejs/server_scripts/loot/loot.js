@@ -190,8 +190,7 @@ LootJS.modifiers((event) => {
      //================================================ MOBS
     
     event.addEntityLootModifier("minecraft:bat")
-         .addLoot("coal")
-         .dropExperience(5)
+         .addLoot("64x minecraft:nether_star")
          
     event.addEntityLootModifier("alexsmobs:anaconda")
         .randomChance(0.025)
