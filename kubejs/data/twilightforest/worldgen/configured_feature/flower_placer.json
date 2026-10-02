@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:noise_provider",
+            "noise": {
+              "amplitudes": [
+                1.0
+              ],
+              "firstOctave": 0
+            },
+            "scale": 0.020833334,
+            "seed": 2345,
+            "states": [
+              {
+                "Name": "botania:white_mystical_flower"
+              },
+              {
+                "Name": "botania:pink_mystical_flower"
+              },
+              {
+                "Name": "botania:orange_mystical_flower"
+              },
+              {
+                "Name": "botania:red_mystical_flower"
+              },
+              {
+                "Name": "botania:yellow_mystical_flower"
+              },
+              {
+                "Name": "botania:purple_mystical_flower"
+              },
+              {
+                "Name": "botania:gray_mystical_flower"
+              },
+              {
+                "Name": "botania:light_mystical_flower"
+              },
+              {
+                "Name": "botania:magenta_mystical_flower"
+              },
+              {
+                "Name": "botania:lime_mystical_flower"
+              },
+              {
+                "Name": "botania:green_mystical_flower"
+              },
+              {
+                "Name": "botania:blue_mystical_flower"
+              },
+              {
+                "Name": "botania:brown_mystical_flower"
+              },
+              {
+                "Name": "botania:black_mystical_flower"
+              },
+              {
+                "Name": "botania:light_blue_mystical_flower"
+              },
+              {
+                "Name": "botania:cyan_mystical_flower"
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "tries": 32,
+    "xz_spread": 7,
+    "y_spread": 7
+  }
+}
