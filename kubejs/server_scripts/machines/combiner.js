@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
     combiner("minecraft:sulfur_spike",1,"minecraft:pointed_dripstone","thermal:sulfur_block","thermal:sulfur_block")
     combiner("minecraft:sulfur",64,"minecraft:stone","ars_nouveau:earth_essence","thermal:sulfur_dust")
     combiner("minecraft:cinnabar",64,"minecraft:stone","ars_nouveau:earth_essence","thermal:cinnabar_dust")
-    combiner("minecraft:end_stone",24,"minecraft:tuff","ars_nouveau:earth_essence","brewinandchewin:flaxen_cheese_wheel")
+    combiner("minecraft:end_stone",24,"minecraft:tuff","ars_nouveau:earth_essence","vintagedelight:cheese_wheel")
 
 
 })

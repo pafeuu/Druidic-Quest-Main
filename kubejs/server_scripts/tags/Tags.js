@@ -77,13 +77,6 @@ ServerEvents.tags("item", (event) => {
 
   event.add("forge:cooked_eggs", "alexsmobs:boiled_emu_egg")
 
-  event.add("forge:cheese", [
-    'brewinandchewin:flaxen_cheese_wedge',
-    'brewinandchewin:scarlet_cheese_wedge',
-    'brewinandchewin:scarlet_cheese_wheel',
-    'brewinandchewin:flaxen_cheese_wheel'
-  ])
-
   event.add("forge:ancient_wood", [
     "naturesaura:ancient_bark",
     "naturesaura:ancient_log",
