@@ -13,6 +13,18 @@ ServerEvents.tags("item", (e) => {
     "druidic_quest_core:ebony_flower_staff",
   ])
   e.add("dq:unbreakables",global.Unbreakables)
+  
+  e.add("dq:source_storage",[
+    "botania:mana_tablet",
+    "botania:mana_ring",
+    "botania:mana_ring_greater",
+    "naturesaura_plus:aura_mana_holder"
+    ])
+    
+  e.add("dq:big_source_storage",[
+    "botania:mana_ring_greater",
+    "naturesaura_plus:aura_mana_holder"
+  ])
 
   /*e.add("dq:unbreakables", [
     "kubejs:capturing_gem",
