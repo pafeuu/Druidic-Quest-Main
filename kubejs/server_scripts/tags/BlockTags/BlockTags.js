@@ -197,20 +197,4 @@ ServerEvents.tags("block", (event) => {
     'farmersdelight:wild_rice']
   )
 
-  event.add("brewinandchewin:freeze_sources", [
-    'rubinated_nether:frosted_ice',
-    'minecraft:frosted_ice',
-    'aether:icestone',
-    'aether:icestone_stairs',
-    'aether:icestone_slab',
-    'aether:icestone_wall',
-    'ancient_aether:wynd_ice',
-    'immersive_weathering:thin_ice',
-    'rubinated_nether:dry_ice',
-    'biomeswevegone:borealis_ice',
-    'biomeswevegone:packed_borealis_ice',
-    'biomeswevegone:packed_black_ice',
-    'biomeswevegone:black_ice'
-  ])
-
 });
