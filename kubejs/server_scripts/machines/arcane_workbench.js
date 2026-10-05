@@ -226,10 +226,10 @@ ServerEvents.recipes(event => {
         ],
         "key": {
             "S": {
-                "tag": "c:rods/wooden"
+                "item": "wizards_reborn:arcane_wood_branch"
             },
             "X": {
-                "item": "string"
+                "tag": "forge:storage_blocks/arcanum"
             },
             "C": {
                 "item": "wizards_reborn:wisestone"
@@ -238,7 +238,7 @@ ServerEvents.recipes(event => {
         "output": {
             "item": "druidic_quest_core:arcanist_hammer"
         },
-        "wissen": 250
+        "wissen": 500
     })
 
 
