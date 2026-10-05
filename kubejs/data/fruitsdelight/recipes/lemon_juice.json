@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:fruits/lemon"
+    },
+    {
+      "tag": "forge:fruits/lemon"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:lemon_juice",
+    "count": 1
+  }
+}
