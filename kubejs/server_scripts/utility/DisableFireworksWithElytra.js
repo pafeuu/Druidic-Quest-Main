@@ -11,5 +11,4 @@ ItemEvents.rightClicked("firework_rocket", event=>{
         event.cancel()
     }
 
-    "advancementframes:advancement_frame"
 })
