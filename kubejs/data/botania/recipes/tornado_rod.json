@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " #A",
+    " B#",
+    "B  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:feather"
+    },
+    "A": {
+      "item": "ars_nouveau:air_essence"
+    },
+    "B": {
+      "item": "botania:livingwood_twig"
+    }
+  },
+  "result": {
+    "item": "botania:tornado_rod",
+    "count": 1
+  }
+}

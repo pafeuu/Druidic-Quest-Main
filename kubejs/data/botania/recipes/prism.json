@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A#",
+    "#B#",
+    "#A#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:glass/colorless"
+    },
+    "A": {
+      "item": "ars_nouveau:source_gem"
+    },
+    "B": {
+      "item": "botania:spectral_platform"
+    }
+  },
+  "result": {
+    "item": "botania:prism",
+    "count": 1
+  }
+}

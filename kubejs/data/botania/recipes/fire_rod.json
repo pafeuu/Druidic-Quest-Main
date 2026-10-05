@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " ##",
+    " A#",
+    "A  "
+  ],
+  "key": {
+    "#": {
+      "item": "ars_nouveau:fire_essence"
+    },
+    "A": {
+      "item": "botania:livingwood_twig"
+    }
+  },
+  "result": {
+    "item": "botania:fire_rod",
+    "count": 1
+  }
+}

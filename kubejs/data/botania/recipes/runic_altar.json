@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A#",
+    "#B#",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "item": "druidic_quest_core:arcane_bricks"
+    },
+    "A": {
+      "item": "botania:terra_plate"
+    },
+    "B": {
+      "item": "kubejs:steel_machine"
+    },
+    "C": {
+      "item": "druidic_quest_core:platinum_gear"
+    }
+  },
+  "result": {
+    "item": "botania:runic_altar",
+    "count": 1
+  }
+}

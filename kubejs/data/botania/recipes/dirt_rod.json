@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " #A",
+    " B#",
+    "B  "
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:dirt"
+    },
+    "A": {
+      "item": "ars_nouveau:earth_essence"
+    },
+    "B": {
+      "item": "botania:livingwood_twig"
+    }
+  },
+  "result": {
+    "item": "botania:dirt_rod",
+    "count": 1
+  }
+}

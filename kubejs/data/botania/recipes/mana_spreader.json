@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "ABC",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "botania:livingwood_logs"
+    },
+    "A": {
+      "item": "wizards_reborn:wissen_translator"
+    },
+    "B": {
+      "item": "kubejs:basic_magic_machine"
+    },
+    "C": {
+      "item": "botania:lens_normal"
+    }
+  },
+  "result": {
+    "item": "botania:mana_spreader",
+    "count": 1
+  }
+}

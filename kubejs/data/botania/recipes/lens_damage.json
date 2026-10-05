@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "botania:lens_normal"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "supplementaries:bamboo_spikes"
+    }
+  ],
+  "result": {
+    "item": "botania:lens_damage",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "A": {
+      "item": "botania:prism"
+    }
+  },
+  "result": {
+    "item": "botania:piston_relay",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "kubejs:infused_amethyst"
+    },
+    "A": {
+      "item": "ars_nouveau:ring_of_potential"
+    }
+  },
+  "result": {
+    "item": "botania:aura_ring",
+    "count": 1
+  }
+}

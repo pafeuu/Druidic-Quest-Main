@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "quark:iron_rod"
+    },
+    {
+      "item": "botania:lens_normal"
+    }
+  ],
+  "result": {
+    "item": "botania:lens_mine",
+    "count": 1
+  }
+}

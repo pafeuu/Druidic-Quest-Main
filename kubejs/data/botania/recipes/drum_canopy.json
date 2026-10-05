@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A#",
+    "#B#",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "tag": "botania:livingwood_logs"
+    },
+    "A": {
+      "item": "minecraft:leather"
+    },
+    "B": {
+      "item": "botania:horn_leaves"
+    },
+    "C": {
+      "item": "druidic_quest_core:primitive_machine"
+    }
+  },
+  "result": {
+    "item": "botania:drum_canopy",
+    "count": 1
+  }
+}
