@@ -7,6 +7,11 @@ ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event
 					
 		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('8de60aa9-1d4b-459f-b075-48e1c37523ce'), 'Tool modifier', 0.5, 'addition'))
 	};
+  if (event.itemStack.hasTag("forge:tools/knives") && event.slotType == 'mainhand') {
+    
+  		event.addModifier("combatroll:count", new $AttributeModifier(UUID.fromString('4cb771f0-6d16-404c-a321-c31f2f9980a7'), 'Tool modifier', 1.0, 'addition'))
+  		event.addModifier("combatroll:recharge", new $AttributeModifier(UUID.fromString('4cb771f0-6d16-404c-a321-c31f2f9980a7'), 'Tool modifier', 0.2, 'multiply_total'))
+	};
 		
 	if (event.itemStack.hasTag("forge:tools/iron") && event.slotType == 'mainhand') {
 					

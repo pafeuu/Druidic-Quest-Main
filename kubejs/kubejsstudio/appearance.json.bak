@@ -1,0 +1,20 @@
+{
+  "item": {
+    "twigs:cracked_bricks": {
+      "key": "block.twigs.cracked_bricks",
+      "name": "Dirty Cracked Bricks"
+    },
+    "botania:aura_ring": {
+      "key": "item.botania.aura_ring",
+      "name": "Band of Source Generation"
+    },
+    "botania:aura_ring_greater": {
+      "key": "item.botania.aura_ring_greater",
+      "name": "Greater Band of Source Generation"
+    },
+    "aether:enchanted_gravitite": {
+      "key": "block.aether.enchanted_gravitite",
+      "name": "Gravitite Block"
+    }
+  }
+}

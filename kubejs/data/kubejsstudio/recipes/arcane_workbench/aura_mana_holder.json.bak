@@ -1,0 +1,30 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "IYS",
+    "IZS",
+    "IXS",
+    "SIIS"
+  ],
+  "key": {
+    "Y": {
+      "item": "botania:mana_ring_greater"
+    },
+    "Z": {
+      "item": "ars_nouveau:mundane_belt"
+    },
+    "X": {
+      "item": "naturesaura:aura_trove"
+    },
+    "S": {
+      "tag": "forge:plates/manasteel"
+    },
+    "I": {
+      "tag": "forge:plates/infused_iron"
+    }
+  },
+  "output": {
+    "item": "naturesaura_plus:aura_mana_holder"
+  },
+  "wissen": 10000
+}
