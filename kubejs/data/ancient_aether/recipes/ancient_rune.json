@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A#",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "kubejs:gravitite_ingot"
+    },
+    "A": {
+      "item": "ancient_aether:ancient_rune"
+    },
+    "B": {
+      "item": "aether:aerogel"
+    }
+  },
+  "result": {
+    "item": "ancient_aether:ancient_rune",
+    "count": 2
+  }
+}

@@ -182,6 +182,8 @@ ServerEvents.recipes(event => {
 	StorageCompacting("create:andesite_alloy", "kubejs:andesite_alloy_nugget")
 	StorageCompacting("kubejs:storm_block", "kubejs:storm_ingot")
 	StorageCompacting("kubejs:storm_ingot", "kubejs:storm_nugget")
+  StorageCompacting("aether:enchanted_gravitite","kubejs:gravitite_ingot")
+  StorageCompacting("kubejs:gravitite_ingot","kubejs:gravitite_nugget")
 
 	SmallStorageCompacting("thermal:ruby_block", "thermal:ruby")
 	SmallStorageCompacting("thermal:sapphire_block", "thermal:sapphire")
