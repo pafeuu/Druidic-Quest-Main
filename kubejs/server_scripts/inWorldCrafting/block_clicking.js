@@ -149,35 +149,6 @@ ServerEvents.recipes(event => {
   event.custom({
     type: "lychee:block_interacting",
     post: [
-      {
-        type: "hurt",
-        damage: 1
-      },
-      {
-        type: "drop_item",
-        "contextual": [
-          {
-            type: "chance",
-            "chance": 0.8
-          }
-        ],
-        item: "twigs:pebble",
-        "count": 1
-      },
-      {
-        type: "add_item_cooldown",
-        "s": 0.5
-      }
-    ],
-    item_in: {
-      item: "minecraft:air"
-    },
-    block_in: "minecraft:stone"
-  })
-
-  event.custom({
-    type: "lychee:block_interacting",
-    post: [
       { type: "drop_item", item: "kubejs:big_enchanting_rune", count: 1 },
       { type: "execute", command: "playsound wizards_reborn:arcanum_dust_transmutation neutral @p", hide: true },
       { type: "place", block: "air" }
@@ -205,4 +176,21 @@ ServerEvents.recipes(event => {
   }
 
   TallFlowers("minecraft:pitcher_plant")*/
+  
+})
+
+BlockEvents.rightClicked("minecraft:stone",event=>{
+  
+  if(event.hand!="MAIN_HAND")  return;
+  if(!event.player.getMainHandItem().isEmpty())  return;
+  //if(event.player.hand != "mainhand") return;
+  if(Math.random()<1)
+    event.block.popItemFromFace('twigs:pebble',event.facing) 
+  
+  console.log(event.facing)
+  if(event.player.findCurio('hands', 1).isPresent()===true)  return;
+  if(event.player.findCurio('hands', 0).isPresent()===true)  return;
+  
+  event.player.attack(1)
+  
 })
