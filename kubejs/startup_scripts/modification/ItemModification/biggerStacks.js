@@ -19,7 +19,6 @@ ItemEvents.modification(event=>{
     "twilightforest:meef_stroganoff",
     "ender_pearl",
     "minecraft:cake",
-    "brewinandchewin:pizza",
     'minecraft:beetroot_soup',
     "farmersdelight:cooking_pot",
     'farmersdelight:cooked_rice',

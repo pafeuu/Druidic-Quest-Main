@@ -241,7 +241,6 @@ ItemEvents.modification(event=>{
     });
 
     const Pie = [
-        'brewinandchewin:quiche',
         'fruitsdelight:pineapple_pie',
         'aether_redux:blueberry_pie',
         'aether_redux:enchanted_blueberry_pie',
@@ -394,8 +393,7 @@ ItemEvents.modification(event=>{
         'alexsdelight:cooked_bison',
         'alexsdelight:cooked_bunfungus',
         'tide:cooked_fish',
-        'arsdelight:grilled_wilden_meat',
-        'brewinandchewin:jerky']
+        'arsdelight:grilled_wilden_meat']
 
     CookedMeat.forEach(id => {
         event.modify(id, item => {
@@ -446,8 +444,7 @@ ItemEvents.modification(event=>{
         'vintagedelight:pickled_onion',
         'vintagedelight:pickled_beetroot',
         'vintagedelight:pickled_egg',
-        'vintagedelight:pickled_pitcher_pod',
-        'brewinandchewin:pickled_pickles']
+        'vintagedelight:pickled_pitcher_pod',]
 
     PickledStuff.forEach(id => {
         event.modify(id, item => {
