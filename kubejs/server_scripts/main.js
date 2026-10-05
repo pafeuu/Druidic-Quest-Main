@@ -710,37 +710,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.custom({
-		type: "lychee:block_interacting",
-		post: [
-			{
-				type: "hurt",
-				damage: 1
-			},
-			{
-				type: "drop_item",
-				"contextual": [
-					{
-						type: "chance",
-						"chance": 0.4
-					}
-				],
-				item: "twigs:pebble",
-				"count": 1
-			},
-			{
-				type: "add_item_cooldown",
-				"s": 0.5
-			}
-		],
-		item_in: {
-			item: "minecraft:air"
-		},
-		block_in: "minecraft:stone"
-	})
-
-
-
 	/// ======================================================================= Tier 1 Components =======================================================================
 
 	event.shaped("32x rubinated_nether:ruby_glass", ["GGG", "GRG", "GGG"],
@@ -1019,26 +988,28 @@ ServerEvents.recipes(event => {
 	event.shaped(
 		Item.of('kubejs:basic_magic_machine'),
 		[
-			'IDI',
+			'IPI',
 			'DGD',
-			'IDI'
+			'IPI'
 		],
 		{
 			I: '#forge:dusts/gold',
-			D: '#forge:gems/amethyst',
+    P: '#forge:plates/gold',
+			D: '#forge:gems/diamond',
 			G: 'druidic_quest_core:primitive_machine'
 		}
 	)
 
 	event.shaped(
-		Item.of('2x kubejs:basic_magic_machine'),
+		Item.of('kubejs:basic_magic_machine'),
 		[
 			'IDI',
 			'DGD',
-			'IDI'
+			'IPI'
 		],
 		{
 			I: '#forge:dusts/gold',
+    P: '#forge:plates/gold',
 			D: '#forge:gems/source',
 			G: 'druidic_quest_core:primitive_machine'
 		}
@@ -3453,21 +3424,6 @@ ServerEvents.recipes(event => {
 
 		}
 	)
-
-	event.shaped("ars_nouveau:relay",
-		[
-			"GPG",
-			"RTR",
-			"GPG"
-		],
-		{
-			P: "#forge:plates/manasteel",
-			G: "#forge:plates/gold",
-			R: "#forge:rods/gold",
-			T: "wizards_reborn:wissen_translator"
-		}
-	).id("ars_nouveau:relay")
-
 
 	event.shaped('ars_nouveau:basic_spell_turret',
 		[
