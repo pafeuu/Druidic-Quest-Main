@@ -1,0 +1,36 @@
+ItemEvents.tooltip(event => {
+
+    function SmithingTemplate(Template, UpgradeTo, UpgradeFrom, Material, Color) {
+        event.addAdvanced(Template, (item, advanced, text) => {
+            text.add(1, Text.of(UpgradeTo + " Template").gray())
+            text.add(2, Text.of(" "))
+            text.add(3, Text.of("Applies To:").gray())
+            text.add(4, Text.of(" " + UpgradeFrom + " Equipment").color(Color))
+            text.add(5, Text.of("Ingredients:").gray())
+            text.add(6, Text.of(" " + Material).color(Color))
+        })
+    }
+
+    SmithingTemplate("kubejs:phoenix_upgrade_smithing_template", "Phoenix", "Fiery", "Phoenix Ingot", 0xfc9424)
+    SmithingTemplate("kubejs:gold_upgrade_smithing_template", "Gold", "Silver", "Gold Upgrade Parts", 0x64747c)
+    SmithingTemplate("kubejs:skyseeker_upgrade_smithing_template", "Skyseeker", "Netherite", "Skyseeker Upgrade Parts", 0x473c3e)
+    SmithingTemplate("kubejs:depth_upgrade_smithing_template", "Soulstrider", "Obsidian", "Soulstrider Upgrade Parts", 0x543474)
+    SmithingTemplate("kubejs:engineer_upgrade_smithing_template", "Inventor", "Leather", "Cloth", 0x74492e)
+    SmithingTemplate("kubejs:botanist_upgrade_smithing_template", "Botanist", "Iron", "Infused Ingot", 0xb8b8b8)
+    SmithingTemplate("kubejs:fiery_upgrade_smithing_template", "Fiery", "Iron", "Fiery Plate", 0xb8b8b8)
+    SmithingTemplate("kubejs:bronze_upgrade_smithing_template", "Bronze", "Copper", "Bronze Upgrade Parts", 0xd5714d)
+    SmithingTemplate("kubejs:obsidian_upgrade_smithing_template", "Obsidian", "Knightmetal", "Obsidian Ingot", 0xa4b48c)
+    SmithingTemplate("kubejs:knightmetal_upgrade_smithing_template", "Knightmetal", "Lead", "Knightmetal Plate", 0x545c7c)
+    SmithingTemplate("kubejs:scarecrow_upgrade_smithing_template", "Scarecrow", "Wandering Magician", "Arcane Cloth", 0x445c8c)
+    SmithingTemplate("kubejs:wizard_upgrade_smithing_template", "Wizard", "Wandering Magician", "Arcane Cloth", 0x445c8c)
+    SmithingTemplate("kubejs:steeleaf_upgrade_smithing_template", "Steeleaf", "Ironwood", "Steeleaf Upgrade Parts", 0x847d6c)
+    SmithingTemplate("kubejs:wandering_magician_upgrade_smithing_template", "Wandering Magician", "Leather", "Arcane Leather", 0x74492e)
+    SmithingTemplate("kubejs:skyjade_upgrade_smithing_template", "Skyjade", "Silver", "Skyjade Upgrade Parts", 0x64747c)
+    SmithingTemplate("kubejs:zanite_upgrade_smithing_template", "Zanite", "Lead", "Zanite Upgrade Parts", 0x545c7c)
+    SmithingTemplate("kubejs:steel_upgrade_smithing_template", "Steel", "Botanist", "Steel Upgrade Parts", 0x2ea633)
+    SmithingTemplate("kubejs:arcane_gold_upgrade_smithing_template", "Arcane Gold", "Gold", "Arcane Gold Upgrade Parts", 0xe8dd48)
+    SmithingTemplate("kubejs:netherite_battlemage_upgrade_smithing_template", "Netherite Battlemage", "Netherite", "Battlemage Cloth", 0x473c3e)
+    SmithingTemplate("kubejs:arcane_fortress_upgrade_smithing_template", "Arcane Fortress", "Arcane Gold", "Arcane Plating", 0xb67b66)
+    SmithingTemplate("kubejs:valkyrum_upgrade_smithing_template", "Valkyrum", "Skyseeker", "Valkyrum Upgrade Parts", 0x05efd6)
+    SmithingTemplate("kubejs:etherium_upgrade_smithing_template", "Etherium", "Stormforged", "Etherium Upgrade Parts", 0x6c94b4)
+})
