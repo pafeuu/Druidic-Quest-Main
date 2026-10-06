@@ -264,6 +264,25 @@
 			x: -10.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["04F83F3CC3854027"]
+			description: [""]
+			id: "3568DDDD8FA9909C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B8025BFFDA6E4E8"
+				table_id: 4538509838943174082L
+				type: "random"
+			}]
+			subtitle: "Different kind of building wand"
+			tasks: [{
+				id: "068CE082F4785FAC"
+				item: "botania:astrolabe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
 	]
 	title: "Building Tools and Tips"
 }

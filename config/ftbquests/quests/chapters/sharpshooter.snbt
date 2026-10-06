@@ -178,8 +178,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.0d
+			x: -9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]

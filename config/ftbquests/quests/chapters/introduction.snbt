@@ -1177,7 +1177,7 @@
 			description: [
 				"The &2&lAuric Concetrator&r&r is built by making a 3x3x3 cube of Auric Infused Bricks. To form the multiblock, right click it with an Arcanist's Hammer."
 				""
-				"It will take coal and transform it into coal coke and creosote oil, both necessary for further progression."
+				"It will take coal and transform it into coal coke and liquid coal essence, both necessary for further progression."
 				""
 				"&2✨ Congratulations on finishing your first chapter!&r"
 				""
@@ -1796,18 +1796,29 @@
 				"Tigerseye will scare off any creepers and stop them from exploding!"
 				""
 				"{image:entity:minecraft:creeper[rotate=true] width:96 height:96 align:center}"
+				""
+				""
+				"&4Note: Currently Tigerseye can run out of mana this won't happen in full release&r"
 			]
 			id: "49B93B2608800A22"
 			rewards: [
 				{
-					count: 4
-					id: "0DA3E6BA6EE88C22"
-					item: "botania:tigerseye"
+					id: "4E3EFA7BC3EDC9E8"
+					item: "thermal:silver_coin"
 					type: "item"
 				}
 				{
-					id: "4E3EFA7BC3EDC9E8"
-					item: "thermal:silver_coin"
+					id: "3D18573876FDCFB4"
+					item: {
+						Count: 1
+						id: "botania:tigerseye"
+						tag: {
+							BlockEntityTag: {
+								id: "botania:tigerseye"
+								mana: 10000
+							}
+						}
+					}
 					type: "item"
 				}
 			]
