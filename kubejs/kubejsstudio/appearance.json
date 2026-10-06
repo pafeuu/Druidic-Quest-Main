@@ -3,6 +3,162 @@
     "twigs:cracked_bricks": {
       "key": "block.twigs.cracked_bricks",
       "name": "Dirty Cracked Bricks"
+    },
+    "botania:aura_ring": {
+      "key": "item.botania.aura_ring",
+      "name": "Band of Source Generation"
+    },
+    "botania:aura_ring_greater": {
+      "key": "item.botania.aura_ring_greater",
+      "name": "Greater Band of Source Generation"
+    },
+    "aether:enchanted_gravitite": {
+      "key": "block.aether.enchanted_gravitite",
+      "name": "Gravitite Block"
+    },
+    "botania:manasteel_axe": {
+      "key": "item.botania.manasteel_axe",
+      "name": "Source Alloy Axe"
+    },
+    "botania:manasteel_block": {
+      "key": "block.botania.manasteel_block",
+      "name": "Block of Source Alloy"
+    },
+    "botania:manasteel_boots": {
+      "key": "item.botania.manasteel_boots",
+      "name": "Source Alloy Boots"
+    },
+    "botania:manasteel_chestplate": {
+      "key": "item.botania.manasteel_chestplate",
+      "name": "Source Alloy Chestplate"
+    },
+    "botania:manasteel_helmet": {
+      "key": "item.botania.manasteel_helmet",
+      "name": "Source Alloy Helmet"
+    },
+    "botania:manasteel_hoe": {
+      "key": "item.botania.manasteel_hoe",
+      "name": "Source Alloy Hoe"
+    },
+    "botania:manasteel_ingot": {
+      "key": "item.botania.manasteel_ingot",
+      "name": "Source Alloy Ingot"
+    },
+    "botania:manasteel_leggings": {
+      "key": "item.botania.manasteel_leggings",
+      "name": "Source Alloy Leggings"
+    },
+    "botania:manasteel_nugget": {
+      "key": "item.botania.manasteel_nugget",
+      "name": "Source Alloy Nugget"
+    },
+    "botania:manasteel_pick": {
+      "key": "item.botania.manasteel_pick",
+      "name": "Source Alloy Pickaxe"
+    },
+    "botania:manasteel_shears": {
+      "key": "item.botania.manasteel_shears",
+      "name": "Source Alloy Shears"
+    },
+    "botania:manasteel_shovel": {
+      "key": "item.botania.manasteel_shovel",
+      "name": "Source Alloy Shovel"
+    },
+    "botania:manasteel_sword": {
+      "key": "item.botania.manasteel_sword",
+      "name": "Source Alloy Sword"
+    },
+    "druidic_quest_core:manasteel_gear": {
+      "key": "item.druidic_quest_core.manasteel_gear",
+      "name": "Source Alloy Gear"
+    },
+    "druidic_quest_core:manasteel_plate": {
+      "key": "item.druidic_quest_core.manasteel_plate",
+      "name": "Source Alloy Plate"
+    },
+    "druidic_quest_core:manasteel_rod": {
+      "key": "item.druidic_quest_core.manasteel_rod",
+      "name": "Source Alloy Rod"
+    },
+    "botania:mana_ring": {
+      "key": "item.botania.mana_ring",
+      "name": "Band of Source"
+    },
+    "create:cut_limestone": {
+      "key": "block.create.cut_limestone",
+      "name": "Cut Pale Limestone"
+    },
+    "create:cut_limestone_brick_slab": {
+      "key": "block.create.cut_limestone_brick_slab",
+      "name": "Cut Pale Limestone Brick Slab"
+    },
+    "create:cut_limestone_brick_stairs": {
+      "key": "block.create.cut_limestone_brick_stairs",
+      "name": "Cut Pale Limestone Brick Stairs"
+    },
+    "create:cut_limestone_brick_wall": {
+      "key": "block.create.cut_limestone_brick_wall",
+      "name": "Cut Pale Limestone Brick Wall"
+    },
+    "create:cut_limestone_bricks": {
+      "key": "block.create.cut_limestone_bricks",
+      "name": "Cut Pale Limestone Bricks"
+    },
+    "create:cut_limestone_slab": {
+      "key": "block.create.cut_limestone_slab",
+      "name": "Cut Pale Limestone Slab"
+    },
+    "create:cut_limestone_stairs": {
+      "key": "block.create.cut_limestone_stairs",
+      "name": "Cut Pale Limestone Stairs"
+    },
+    "create:cut_limestone_wall": {
+      "key": "block.create.cut_limestone_wall",
+      "name": "Cut Pale Limestone Wall"
+    },
+    "create:layered_limestone": {
+      "key": "block.create.layered_limestone",
+      "name": "Layered Pale Limestone"
+    },
+    "create:limestone": {
+      "key": "block.create.limestone",
+      "name": "Pale Limestone"
+    },
+    "create:limestone_pillar": {
+      "key": "block.create.limestone_pillar",
+      "name": "Pale Limestone Pillar"
+    },
+    "create:polished_cut_limestone_wall": {
+      "key": "block.create.polished_cut_limestone_wall",
+      "name": "Polished Cut Pale Limestone Wall"
+    },
+    "create:polished_cut_limestone_stairs": {
+      "key": "block.create.polished_cut_limestone_stairs",
+      "name": "Polished Cut Pale Limestone Stairs"
+    },
+    "create:polished_cut_limestone_slab": {
+      "key": "block.create.polished_cut_limestone_slab",
+      "name": "Polished Cut Pale Limestone Slab"
+    },
+    "create:polished_cut_limestone": {
+      "key": "block.create.polished_cut_limestone",
+      "name": "Polished Cut Pale Limestone"
+    },
+    "create:small_limestone_brick_slab": {
+      "key": "block.create.small_limestone_brick_slab",
+      "name": "Small Pale Limestone Brick Slab"
+    },
+    "create:small_limestone_brick_stairs": {
+      "key": "block.create.small_limestone_brick_stairs",
+      "name": "Small Pale Limestone Brick Stairs"
+    },
+    "create:small_limestone_brick_wall": {
+      "key": "block.create.small_limestone_brick_wall",
+      "name": "Small Pale Limestone Brick Wall"
+    },
+    "create:small_limestone_bricks": {
+      "key": "block.create.small_limestone_bricks",
+      "name": "Small Pale Limestone Bricks"
     }
   }
 }

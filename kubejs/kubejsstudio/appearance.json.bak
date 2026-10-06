@@ -15,6 +15,74 @@
     "aether:enchanted_gravitite": {
       "key": "block.aether.enchanted_gravitite",
       "name": "Gravitite Block"
+    },
+    "botania:manasteel_axe": {
+      "key": "item.botania.manasteel_axe",
+      "name": "Source Alloy Axe"
+    },
+    "botania:manasteel_block": {
+      "key": "block.botania.manasteel_block",
+      "name": "Block of Source Alloy"
+    },
+    "botania:manasteel_boots": {
+      "key": "item.botania.manasteel_boots",
+      "name": "Source Alloy Boots"
+    },
+    "botania:manasteel_chestplate": {
+      "key": "item.botania.manasteel_chestplate",
+      "name": "Source Alloy Chestplate"
+    },
+    "botania:manasteel_helmet": {
+      "key": "item.botania.manasteel_helmet",
+      "name": "Source Alloy Helmet"
+    },
+    "botania:manasteel_hoe": {
+      "key": "item.botania.manasteel_hoe",
+      "name": "Source Alloy Hoe"
+    },
+    "botania:manasteel_ingot": {
+      "key": "item.botania.manasteel_ingot",
+      "name": "Source Alloy Ingot"
+    },
+    "botania:manasteel_leggings": {
+      "key": "item.botania.manasteel_leggings",
+      "name": "Source Alloy Leggings"
+    },
+    "botania:manasteel_nugget": {
+      "key": "item.botania.manasteel_nugget",
+      "name": "Source Alloy Nugget"
+    },
+    "botania:manasteel_pick": {
+      "key": "item.botania.manasteel_pick",
+      "name": "Source Alloy Pickaxe"
+    },
+    "botania:manasteel_shears": {
+      "key": "item.botania.manasteel_shears",
+      "name": "Source Alloy Shears"
+    },
+    "botania:manasteel_shovel": {
+      "key": "item.botania.manasteel_shovel",
+      "name": "Source Alloy Shovel"
+    },
+    "botania:manasteel_sword": {
+      "key": "item.botania.manasteel_sword",
+      "name": "Source Alloy Sword"
+    },
+    "druidic_quest_core:manasteel_gear": {
+      "key": "item.druidic_quest_core.manasteel_gear",
+      "name": "Source Alloy Gear"
+    },
+    "druidic_quest_core:manasteel_plate": {
+      "key": "item.druidic_quest_core.manasteel_plate",
+      "name": "Source Alloy Plate"
+    },
+    "druidic_quest_core:manasteel_rod": {
+      "key": "item.druidic_quest_core.manasteel_rod",
+      "name": "Source Alloy Rod"
+    },
+    "botania:mana_ring": {
+      "key": "item.botania.mana_ring",
+      "name": "Band of Source"
     }
   }
 }
