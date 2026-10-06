@@ -1,181 +1,248 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-      {
-        "bonus_rolls": 0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 3,
-                  "min": 1
-                },
-                "function": "minecraft:set_count"
-              }
-            ],
-            "name": "minecraft:diamond",
-            "weight": 3
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 5,
-                  "min": 1
-                },
-                "function": "minecraft:set_count"
-              }
-            ],
-            "name": "minecraft:iron_ingot",
-            "weight": 10
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 7,
-                  "min": 2
-                },
-                "function": "minecraft:set_count"
-              }
-            ],
-            "name": "kubejs:infused_iron_nugget",
-            "weight": 15
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 3,
-                  "min": 1
-                },
-                "function": "minecraft:set_count"
-              }
-            ],
-            "name": "thermal:compost",
-            "weight": 15
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 3,
-                  "min": 1
-                },
-                "function": "minecraft:set_count"
-              }
-            ],
-            "name": "minecraft:emerald",
-            "weight": 2
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 6,
-                  "min": 4
-                },
-                "function": "minecraft:set_count"
-              }
-            ],
-            "name": "minecraft:bone",
-            "weight": 20
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 3,
-                  "min": 1
-                },
-                "function": "minecraft:set_count"
-              }
-            ],
-            "name": "enigmaticlegacy:mending_mixture",
-            "weight": 5
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:saddle",
-            "weight": 3
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:iron_horse_armor"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "kubejs:overworld_key"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "thermal:ruby"
-          }
-        ],
-        "rolls": {
-          "type": "minecraft:uniform",
-          "max": 6,
-          "min": 2
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether:leather_gloves",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 20
         }
-      },
-      {
-        "bonus_rolls": 0,
-        "entries": [
-          {
-            "type": "minecraft:empty",
-            "weight": 2
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": 2,
-                "function": "minecraft:set_count"
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:copper_axe",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:tiger_totem",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:thorn_chakram",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:common_ink",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:arcane_essence",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:scroll",
+          "functions": [
+            {
+              "function": "irons_spellbooks:randomize_spell",
+              "quality": {
+                "min": 0.0,
+                "max": 0.0
+              },
+              "spell_filter": {
+                "school": "irons_spellbooks:nature"
               }
-            ],
-            "name": "minecraft:wild_armor_trim_smithing_template"
-          }
-        ],
-        "rolls": 1
-      },
-      {
-        "bonus_rolls": 0,
-        "entries": [
-          {
-                "type": "minecraft:item",
-                "name": "kubejs:tiger_totem"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "kubejs:mossy_sword",
-            "weight": 4
-          }
-        ],
-        "rolls": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:scroll",
+          "functions": [
+            {
+              "function": "irons_spellbooks:randomize_spell",
+              "quality": {
+                "min": 0.0,
+                "max": 0.0
+              },
+              "spell_filter": {
+                "school": "irons_spellbooks:fire"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "count": 2,
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:infused_emerald",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enigmaticlegacy:earth_heart",
+          "count": 1,
+          "weight": 3
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3.0,
+        "min": 2.0
       }
-    ],
-    "random_sequence": "minecraft:chests/jungle_temple"
-  }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:melon_juice",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:bar_of_chocolate",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fruitsdelight:kiwi",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fruitsdelight:pear",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:chocolate_glazed_berries",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 5.0,
+        "min": 2.0
+      }
+    }
+  ],
+  "random_sequence": "minecraft:chests/jungle_temple"
+}
