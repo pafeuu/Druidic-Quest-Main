@@ -112,7 +112,7 @@ LootJS.modifiers((event) => {
 
     event.addLootTableModifier("irons_spellbooks:chests/wheat")
     .addWeightedLoot(5,[
-        Item.of('1x brewinandchewin:flaxen_cheese_wheel').withChance(60),
+        Item.of("vintagedelight:cheese_wheel").withChance(60),
         Item.of('2x vintagedelight:overnight_oats').withChance(100),
         Item.of("2x vintagedelight:oatmeal").withChance(200),
         Item.of("vintagedelight:magic_peanut").withChance(1),
