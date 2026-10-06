@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:plates/steel"
+    },
+    "T": {
+      "item": "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DTD",
+    "DDD"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:gold_to_netherite_tier_upgrade"
+  }
+}

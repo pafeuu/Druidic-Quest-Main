@@ -1,0 +1,19 @@
+{
+  "type": "sophisticatedstorage:storage_tier_upgrade",
+  "key": {
+    "D": {
+      "tag": "forge:plates/steel"
+    },
+    "S": {
+      "item": "sophisticatedstorage:diamond_chest"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DSD",
+    "DDD"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:netherite_chest"
+  }
+}
