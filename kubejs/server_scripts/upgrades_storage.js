@@ -20,7 +20,33 @@ ServerEvents.recipes(e => {
   e.remove({ id: "sophisticatedbackpacks:iron_backpack" })
   e.remove({ id: "sophisticatedbackpacks:diamond_backpack" })
   e.remove({ id: "sophisticatedbackpacks:iron_backpack_from_copper" })
-
+  
+  e.custom({
+    "type": "sophisticatedbackpacks:backpack_upgrade",
+    "conditions": [
+      {
+        "itemRegistryName": "sophisticatedbackpacks:gold_backpack",
+        "type": "sophisticatedcore:item_enabled"
+      }
+    ],
+    "pattern": [
+      "GGG",
+      "GBG",
+      "GGG"
+    ],
+    "key": {
+      "G": {
+        "tag": "forge:plates/steel"
+      },
+      "B": {
+        "item": "sophisticatedbackpacks:diamond_backpack"
+      }
+    },
+    "result": {
+      "item": "sophisticatedbackpacks:netherite_backpack"
+    }
+  }).id("sophisticatedbackpacks:backpack_smithing_upgrade_grouped/netherite_backpack/0")
+  
   e.custom({
     "type": "sophisticatedbackpacks:backpack_upgrade",
     "conditions": [
