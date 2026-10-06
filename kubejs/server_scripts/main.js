@@ -1252,9 +1252,9 @@ ServerEvents.recipes(event => {
 
 	event.shaped("32x create:controller_rail",
 		[
-			"GTG",
+			" T ",
 			"GSG",
-			"GCG"
+			" C "
 		],
 		{
 			G: "#forge:rods/gold",
@@ -1266,9 +1266,7 @@ ServerEvents.recipes(event => {
 
 	event.shaped("64x minecraft:rail",
 		[
-			"G G",
-			"GSG",
-			"G G"
+			"GSG"
 		],
 		{
 			G: "#forge:rods/iron",
@@ -1278,9 +1276,9 @@ ServerEvents.recipes(event => {
 
 	event.shaped("32x minecraft:detector_rail",
 		[
-			"GPG",
+			" P ",
 			"GSG",
-			"GPG"
+			" P "
 		],
 		{
 			G: "#forge:rods/iron",
@@ -1291,9 +1289,9 @@ ServerEvents.recipes(event => {
 
 	event.shaped("32x minecraft:activator_rail",
 		[
-			"GPG",
+			" P ",
 			"GSG",
-			"GPG"
+			" P "
 		],
 		{
 			G: "#forge:rods/iron",
@@ -1304,9 +1302,9 @@ ServerEvents.recipes(event => {
 
 	event.shaped("48x minecraft:powered_rail",
 		[
-			"GTG",
+			" T ",
 			"GSG",
-			"GTG"
+			" T "
 		],
 		{
 			G: "#forge:rods/gold",
@@ -1317,9 +1315,9 @@ ServerEvents.recipes(event => {
 
 	event.shaped("8x naturesaura:dimension_rail_overworld",
 		[
-			"RPR",
+			" P ",
 			"RSR",
-			"RPR"
+			" P "
 		],
 		{
 			R: "#forge:rods/infused_iron",
@@ -1330,9 +1328,9 @@ ServerEvents.recipes(event => {
 
 	event.shaped("8x naturesaura:dimension_rail_nether",
 		[
-			"RPR",
+			" P ",
 			"RSR",
-			"RPR"
+			" P "
 		],
 		{
 			R: "#forge:rods/tainted_gold",
@@ -1343,9 +1341,9 @@ ServerEvents.recipes(event => {
 
 	event.shaped("8x naturesaura:dimension_rail_end",
 		[
-			"RPR",
+			" P ",
 			"RSR",
-			"RPR"
+			" P "
 		],
 		{
 			R: "#forge:rods/platinum",
@@ -3580,8 +3578,6 @@ ServerEvents.recipes(event => {
 			A: '#forge:ingots/manasteel'
 		}
 	).id("ars_nouveau:arcane_core")
-
-	event.remove({ output: "ars_nouveau:source_jar" })
 
 	event.remove('irons_spellbooks:pedestal')
 	event.shaped(

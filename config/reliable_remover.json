@@ -23,6 +23,7 @@
   "reloadAfterRemoval": false,
   "blacklistedItems": [
     "botania:mana_distributor",
-    "botania:pump"
+    "botania:pump",
+    "botania:mana_mirror"
   ]
 }
