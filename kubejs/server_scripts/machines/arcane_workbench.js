@@ -34,6 +34,57 @@ ServerEvents.recipes(event => {
       },
       "wissen": 10000
     })
+    
+    event.custom({
+      "type": "wizards_reborn:arcane_workbench",
+      "pattern": [
+        "PLP",
+        "LEL",
+        "PLP",
+        "PPPP"
+      ],
+      "key": {
+        "E": {
+          "item": "druidic_quest_core:nature_essence"
+        },
+        "L": {
+          "tag": "forge:gems/lapis"
+        },
+        "P": {
+          "tag": "forge:plates/livingrock"
+        }
+      },
+      "output": {
+        "item": "naturesaura:aura_cache"
+      },
+      "wissen": 1000
+    }).id("naturesaura:aura_cache")
+    
+    event.custom({
+      "type": "wizards_reborn:arcane_workbench",
+      "pattern": [
+        "PLP",
+        "LEL",
+        "PLP",
+        "PPPP"
+      ],
+      "key": {
+        "E": {
+          "item": "naturesaura:aura_cache"
+        },
+        "L": {
+          "item": "druidic_quest_core:nature_essence"
+        },
+        "P": {
+          "tag": "forge:plates/infused_iron"
+        }
+      },
+      "output": {
+        "item": "naturesaura:aura_trove"
+      },
+      "wissen": 5000
+    }).id("naturesaura:aura_trove")
+    
     event.custom({
         "type": "wizards_reborn:arcane_workbench",
         "pattern": [
