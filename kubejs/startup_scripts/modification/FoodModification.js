@@ -494,7 +494,7 @@ ItemEvents.modification(event=>{
     }
 
 
-    hunger("vintagedelight:cheese_pizza",20,16)//Regular Pizza
+    hunger("vintagedelight:cheese_pizza",20,16)
     hunger("vintagedelight:cheese_pizza_slice",6,7)
     
     hunger("vintagedelight:meat_pizza",20,18)
@@ -507,5 +507,7 @@ ItemEvents.modification(event=>{
     HornBeers.forEach(id => {
         hunger(id,12,12)
     });
+    
+    hunger("minecraft:glistering_melon_slice",1,8)
 
 })
