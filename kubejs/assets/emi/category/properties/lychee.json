@@ -33,7 +33,7 @@
             "stack": "item:minecraft:anvil"
         },
         "simplified_icon": {
-            "texture": "kubejs:textures/item/stone_plate.png"
+            "texture": "druidic_quest_core:textures/item/livingrock_plate.png"
         }
     },
     "lychee:item_inside/minecraft/default": {
