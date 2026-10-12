@@ -64,12 +64,20 @@ ServerEvents.recipes(event=>{
     fullRepair("alexsmobs:spiked_turtle_shell","alexsmobs:spiked_scute")
     fullRepair("alexsmobs:fedora","minecraft:leather")
     fullRepair("alexsmobs:froststalker_helmet","alexsmobs:froststalker_horn")
+
     fullRepair("druidic_quest_core:golden_flower_staff","#c:rods/wooden")
     fullRepair("druidic_quest_core:pure_flower_staff","#c:rods/wooden")
     fullRepair("druidic_quest_core:ebony_flower_staff","#c:rods/wooden")
     fullRepair("druidic_quest_core:crimson_flower_staff","#c:rods/wooden")
     fullRepair("druidic_quest_core:cobalt_flower_staff","#c:rods/wooden")
     fullRepair("druidic_quest_core:lush_flower_staff","#c:rods/wooden")
+
+    fullRepair("druidic_quest_core:improved_golden_flower_staff","wizards_reborn:arcane_wood_branch")
+    fullRepair("druidic_quest_core:improved_pure_flower_staff","wizards_reborn:arcane_wood_branch")
+    fullRepair("druidic_quest_core:improved_ebony_flower_staff","wizards_reborn:arcane_wood_branch")
+    fullRepair("druidic_quest_core:improved_crimson_flower_staff","wizards_reborn:arcane_wood_branch")
+    fullRepair("druidic_quest_core:improved_cobalt_flower_staff","wizards_reborn:arcane_wood_branch")
+    fullRepair("druidic_quest_core:improved_lush_flower_staff","wizards_reborn:arcane_wood_branch")
     
     fullRepair("kubejs:silver_knife","#forge:ingots/silver")
     fullRepair("wizards_reborn:arcane_gold_knife","wizards_reborn:arcane_gold_ingot")
