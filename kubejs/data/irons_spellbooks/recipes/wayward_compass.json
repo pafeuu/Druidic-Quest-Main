@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:compass"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "druidic_quest_core:rotten_flesh_block"
+    },
+    {
+      "item": "quark:gunpowder_sack"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:wayward_compass",
+    "count": 1
+  }
+}
