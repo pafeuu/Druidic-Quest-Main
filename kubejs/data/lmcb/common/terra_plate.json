@@ -1,0 +1,30 @@
+{
+  "type": "multiblock_structure",
+  "structure": "lmcb:terrestrial_agglomeration_plate",
+  "layout": {
+    "0": {
+      "0": "_______",
+      "1": "_______",
+      "2": "_______",
+      "3": "___P___",
+      "4": "_______",
+      "5": "_______",
+      "6": "_______"
+    },
+    "1": {
+      "0": "__XXX__",
+      "1": "_XLLLX_",
+      "2": "XLLLLLX",
+      "3": "XLL0LLX",
+      "4": "XLLLLLX",
+      "5": "_XLLLX_",
+      "6": "__XXX__"
+    }
+  },
+  "symbol_map": {
+    "P": "botania:terra_plate",
+    "X": "druidic_quest_core:alloy_bricks",
+    "0": "druidic_quest_core:arcane_bricks",
+    "L": "druidic_quest_core:arcane_bricks"
+  }
+}
