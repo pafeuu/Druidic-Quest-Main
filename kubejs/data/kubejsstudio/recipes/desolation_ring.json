@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:ring_of_potential"
+    },
+    {
+      "item": "enigmaticlegacy:darkest_scroll"
+    }
+  ],
+  "result": {
+    "item": "enigmaticlegacy:desolation_ring",
+    "count": 1
+  }
+}
