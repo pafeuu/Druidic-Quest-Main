@@ -119,6 +119,14 @@ ServerEvents.recipes((event) => {
   );
 
   SimpleArmor(
+    "#forge:plates/manasteel",
+    "botania:manasteel_helmet",
+    "botania:manasteel_chestplate",
+    "botania:manasteel_leggings",
+    "botania:manasteel_boots",
+  );
+
+  SimpleArmor(
     "#forge:plates/diamond",
     "diamond_helmet",
     "diamond_chestplate",

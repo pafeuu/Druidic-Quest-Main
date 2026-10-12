@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
     })*/
 	
 	event.remove({output:'#minecraft:axes'})
-	event.remove({output:'#minecraft:pickaxes'})
+	event.remove({output:'#minecraft:pick1axes'})
 	event.remove({output:'#minecraft:shovels'})
 	event.remove({output:'#minecraft:hoes'})
 	event.remove({output:'#minecraft:swords'})
@@ -30,19 +30,38 @@ ServerEvents.recipes(event => {
 
 	function tool(output,material,rod,binding){// Creates simple workbench recipes with bindings and tool rods
 
-		event.shaped(
-			Item.of(output+'_pickaxe'), 
-			[
-			  'FFF',
-			  'XS ', 
-			  ' S '
-			],
-			{
-				F: material,
-				X: binding,
-				S: rod
-			}
-		  )
+		if(output=="botania:manasteel")
+		{
+			event.shaped(
+				Item.of(output+'_pick'), 
+				[
+					'FFF',
+					'XS ', 
+					' S '
+				],
+				{
+					F: material,
+					X: binding,
+					S: rod
+				}
+			)
+		}
+		else
+		{
+			event.shaped(
+				Item.of(output+'_pickaxe'), 
+				[
+					'FFF',
+					'XS ', 
+					' S '
+				],
+				{
+					F: material,
+					X: binding,
+					S: rod
+				}
+			)
+		}
 		  
 		  event.shaped(
 			Item.of(output+'_axe'), 
@@ -647,6 +666,7 @@ ServerEvents.recipes(event => {
 	tool("kubejs:uranium","#forge:ingots/uranium","botania:livingwood_twig","#forge:rope")
 	tool("aether:gravitite","#forge:ingots/gravitite","kubejs:heavenly_tool_handle","aether:swet_ball")
 	tool("druidic_quest_core:platinum","#forge:ingots/platinum","enigmaticlegacy:ender_rod","alexsmobs:shed_snake_skin")
+	tool("botania:manasteel","#forge:ingots/manasteel","botania:livingwood_twig","botania:mana_string")
 
 	tooltype.forEach(type => {
 		event.remove({id:"twilightforest:equipment/ironwood_"+type})
@@ -1475,8 +1495,6 @@ ServerEvents.recipes(event => {
 		  ]
 	})
 	
-	
-	event.remove({output:'minecraft:shears'})
 	event.shaped(
 	  Item.of('minecraft:shears'), 
 	  [
@@ -1489,7 +1507,21 @@ ServerEvents.recipes(event => {
 		P: 'kubejs:wooden_plate',
 		S: 'kubejs:primitive_shears'
 	  }
-	)
+	).id("minecraft:shears")
+
+	event.shaped(
+	  Item.of('botania:manasteel_shears'), 
+	  [
+		' I ',
+		'PSI', 
+		'IP '
+	  ],
+	  {
+		I: '#forge:plates/manasteel',
+		P: 'kubejs:wooden_plate',
+		S: 'kubejs:primitive_shears'
+	  }
+	).id("botania:manasteel_shears")
 
 	event.remove({output:'irons_spellbooks:copper_spell_book'})
 	event.shaped(
