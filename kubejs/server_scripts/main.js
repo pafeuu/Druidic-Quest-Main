@@ -32,8 +32,6 @@ ServerEvents.recipes(event => {
 	event.remove({output:'#minecraft:hoes'})
 	event.remove({output:'#minecraft:swords'})*/
 
-	event.replaceInput({ mod: 'ars_nouveau', not: [{ type: "minecraft:stonecutting" }, { id: "ars_nouveau:sourcestone_sconce" }] },
-		 'ars_nouveau:sourcestone', 'botania:manasteel_ingot')
 
 	event.replaceInput({ mod: 'crafting_on_a_stick' }, 'minecraft:stick', 'kubejs:zinc_tool_handle')
 	event.shapeless("2x minecraft:rooted_dirt", ["minecraft:dirt", "minecraft:mangrove_roots"])
@@ -3417,7 +3415,7 @@ ServerEvents.recipes(event => {
 			P: "#forge:plates/livingrock",
 			W: "woodenhopper:wooden_hopper",
 			M: "druidic_quest_core:primitive_machine",
-			G: "#forge:gears/stone",
+			G: "#forge:gears/livingrock",
 			T: "naturesaura:token_anger"
 
 		}
@@ -3448,7 +3446,7 @@ ServerEvents.recipes(event => {
 			" G "
 		],
 		{
-			G: "#forge:gears/stone",
+			G: "#forge:gears/livingrock",
 			M: "ars_nouveau:basic_spell_turret"
 		}
 	).id("kubejs:poop2")
@@ -3519,7 +3517,6 @@ ServerEvents.recipes(event => {
 	SourceGeneratorsRecipe("agronomic", "druidic_quest_core:nature_essence")
 	SourceGeneratorsRecipe("vitalic", "kubejs:death_essence")
 	SourceGeneratorsRecipe("mycelial", "quark:glow_shroom")
-	SourceGeneratorsRecipe("alchemical", 'immersive_weathering:golden_moss_clump')
 
 	event.shaped("starbunclemania:fluid_sourcelink",
 		[
@@ -3614,16 +3611,7 @@ ServerEvents.recipes(event => {
 
 	event.remove({ output: "ars_nouveau:mob_jar" })
 	event.shapeless("ars_nouveau:mob_jar", ["ars_nouveau:source_jar", "supplementaries:cage"])
-	event.shaped(
-		Item.of('3x quark:pipe'),
-		[
-			'CGC'
-		],
-		{
-			C: '#forge:ingots/copper',
-			G: 'wizards_reborn:alchemy_glass'
-		}
-	)
+
 
 	event.remove({ output: 'quark:feeding_trough' })
 	event.shaped(
@@ -4302,7 +4290,7 @@ ServerEvents.recipes(event => {
 			X: 'minecraft:cauldron',
 			Y: 'minecraft:iron_shovel',
 			Z: 'minecraft:heart_of_the_sea',
-			I: 'minecraft:brick'
+			I: '#forge:ingots/copper'
 		}
 	)
 
@@ -4365,23 +4353,6 @@ ServerEvents.recipes(event => {
 	//============================================ Tier 4 Components ========================================================================================
 
 	event.recipes.create.mixing("create:rose_quartz", ["kubejs:salmon_quartz", "ars_nouveau:conjuration_essence", "wither_rose"]).id("create:crafting/materials/rose_quartz").heated()
-
-	
-	/*
-	event.custom({
-
-		type: "immersiveengineering:blast_furnace",
-		"input": {
-			item: "kubejs:wrought_iron_ingot"
-		},
-		"result": {
-			item: "druidic_quest_core:steel_ingot"
-		},
-		"slag": {
-			item: "thermal:slag"
-		},
-		"time": 600
-	})*/
 
 	event.shaped(
 		Item.of('kubejs:steel_machine'),
