@@ -91,5 +91,5 @@
 	#allow Wanderer traders to sell contents from Chaos Cubed
 	do_merchant_trade_chaos_cubed_contents = false
 	#allows the bounce music disc to generate on abandoned mineshafts
-	has_bounce_music_disc = true
+	has_bounce_music_disc = false
 
