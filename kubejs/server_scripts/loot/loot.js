@@ -1,3 +1,4 @@
+// priority: 10
 const $CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi")
 
 LootJS.modifiers((event) => {
@@ -191,7 +192,7 @@ LootJS.modifiers((event) => {
     
     event.addEntityLootModifier("minecraft:bat")
          .addLoot("64x minecraft:nether_star")
-         
+    
     event.addEntityLootModifier("alexsmobs:anaconda")
         .randomChance(0.025)
         .addLoot("kubejs:anaconda_totem")
