@@ -165,6 +165,18 @@ ServerEvents.recipes(event=>{
 		"druidic_quest_core:platinum_ingot",
 		"wizards_reborn:arcane_gold_ingot")
 
+	kilnWith3Ingredients("8x botania:dreamwood",
+		"8x botania:livingwood",
+		"ars_nouveau:air_essence",
+		"ars_nouveau:conjuration_essence"
+	)
+
+	kilnWith3Ingredients("8x botania:dreamwood_log",
+		"8x botania:livingwood_log",
+		"ars_nouveau:air_essence",
+		"ars_nouveau:conjuration_essence"
+	)
+
 	/*kilnWith3Ingredients("stainless steel?",
 		"druidic_quest_core:steel_ingot",
 		"druidic_quest_core:platinum_ingot",
