@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#AB",
+    "#CB",
+    "#AB"
+  ],
+  "key": {
+    "#": {
+      "item": "ars_nouveau:air_essence"
+    },
+    "A": {
+      "tag": "botania:manasteel_ingots"
+    },
+    "B": {
+      "item": "ars_nouveau:earth_essence"
+    },
+    "C": {
+      "item": "ars_nouveau:mundane_belt"
+    }
+  },
+  "result": {
+    "item": "botania:travel_belt",
+    "count": 1
+  }
+}

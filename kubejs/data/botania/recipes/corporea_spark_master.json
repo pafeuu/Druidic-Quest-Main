@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "botania:corporea_spark"
+    },
+    {
+      "item": "botania:corporea_spark"
+    },
+    {
+      "item": "botania:corporea_spark"
+    },
+    {
+      "item": "botania:corporea_spark"
+    },
+    {
+      "item": "druidic_quest_core:manasteel_gear"
+    },
+    {
+      "item": "botania:corporea_spark"
+    },
+    {
+      "item": "botania:corporea_spark"
+    },
+    {
+      "item": "botania:corporea_spark"
+    },
+    {
+      "item": "botania:corporea_spark"
+    }
+  ],
+  "result": {
+    "item": "botania:corporea_spark_master",
+    "count": 1
+  }
+}

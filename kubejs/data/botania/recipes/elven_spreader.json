@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "botania:spreader",
+  "category": "redstone",
+  "pattern": [
+    "###",
+    "ABA",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "botania:dreamwood_logs"
+    },
+    "A": {
+      "tag": "forge:plates/arcane_gold"
+    },
+    "B": {
+      "item": "botania:mana_spreader"
+    }
+  },
+  "result": {
+    "item": "botania:elven_spreader",
+    "count": 1
+  }
+}

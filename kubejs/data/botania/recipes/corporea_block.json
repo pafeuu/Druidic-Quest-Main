@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "botania:livingrock"
+    },
+    {
+      "item": "botania:livingrock"
+    },
+    {
+      "item": "botania:livingrock"
+    },
+    {
+      "item": "botania:livingrock"
+    },
+    {
+      "item": "botania:corporea_spark"
+    },
+    {
+      "item": "botania:livingrock"
+    },
+    {
+      "item": "botania:livingrock"
+    },
+    {
+      "item": "botania:livingrock"
+    },
+    {
+      "item": "botania:livingrock"
+    }
+  ],
+  "result": {
+    "item": "botania:corporea_block",
+    "count": 8
+  }
+}

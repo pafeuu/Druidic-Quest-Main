@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:glass/colorless"
+    },
+    "A": {
+      "item": "ars_nouveau:source_gem"
+    }
+  },
+  "result": {
+    "item": "botania:mana_glass",
+    "count": 8
+  }
+}
