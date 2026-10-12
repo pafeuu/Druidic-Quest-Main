@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "ABA",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:glass/colorless"
+    },
+    "A": {
+      "tag": "forge:plates/copper"
+    },
+    "B": {
+      "item": "woodenhopper:wooden_hopper"
+    }
+  },
+  "result": {
+    "item": "quark:pipe",
+    "count": 6
+  }
+}
