@@ -159,6 +159,126 @@
     "create:small_limestone_bricks": {
       "key": "block.create.small_limestone_bricks",
       "name": "Small Pale Limestone Bricks"
+    },
+    "botania:mana_glass": {
+      "key": "block.botania.mana_glass",
+      "name": "Source Glass"
+    },
+    "botania:mana_glass_pane": {
+      "key": "block.botania.mana_glass_pane",
+      "name": "Source Glass Pane"
+    },
+    "naturesaura:sky_ingot": {
+      "key": "item.naturesaura.sky_ingot",
+      "name": "Skysteel Ingot"
+    },
+    "naturesaura:sky_ingot_block": {
+      "key": "block.naturesaura.sky_ingot_block",
+      "name": "Skysteel Block"
+    },
+    "kubejs:depth_gear": {
+      "key": "item.kubejs.depth_gear",
+      "name": "Depthsteel Gear"
+    },
+    "kubejs:depth_gloves": {
+      "key": "item.kubejs.depth_gloves",
+      "name": "Depthsteel Gloves"
+    },
+    "kubejs:depth_nugget": {
+      "key": "item.kubejs.depth_nugget",
+      "name": "Depthsteel Nugget"
+    },
+    "kubejs:depth_plate": {
+      "key": "item.kubejs.depth_plate",
+      "name": "Depthsteel Plate"
+    },
+    "kubejs:depth_rod": {
+      "key": "item.kubejs.depth_rod",
+      "name": "Depthsteel Rod"
+    },
+    "naturesaura:depth_ingot": {
+      "key": "item.naturesaura.depth_ingot",
+      "name": "Depthsteel Ingot"
+    },
+    "naturesaura:depth_ingot_block": {
+      "key": "block.naturesaura.depth_ingot_block",
+      "name": "Depthsteel Block"
+    },
+    "botania:elementium_axe": {
+      "key": "item.botania.elementium_axe",
+      "name": "Arcanesteel Axe"
+    },
+    "botania:elementium_block": {
+      "key": "block.botania.elementium_block",
+      "name": "Arcanesteel Block"
+    },
+    "botania:elementium_boots": {
+      "key": "item.botania.elementium_boots",
+      "name": "Arcanesteel Boots"
+    },
+    "botania:elementium_chestplate": {
+      "key": "item.botania.elementium_chestplate",
+      "name": "Arcanesteel Chestplate"
+    },
+    "botania:elementium_helmet": {
+      "key": "item.botania.elementium_helmet",
+      "name": "Arcanesteel Helmet"
+    },
+    "botania:elementium_hoe": {
+      "key": "item.botania.elementium_hoe",
+      "name": "Arcanesteel Hoe"
+    },
+    "botania:elementium_ingot": {
+      "key": "item.botania.elementium_ingot",
+      "name": "Arcanesteel Ingot"
+    },
+    "botania:elementium_leggings": {
+      "key": "item.botania.elementium_leggings",
+      "name": "Arcanesteel Leggings"
+    },
+    "botania:elementium_nugget": {
+      "key": "item.botania.elementium_nugget",
+      "name": "Arcanesteel Nugget"
+    },
+    "botania:elementium_pickaxe": {
+      "key": "item.botania.elementium_pickaxe",
+      "name": "Arcanesteel Pickaxe"
+    },
+    "botania:elementium_shears": {
+      "key": "item.botania.elementium_shears",
+      "name": "Arcanesteel Shears"
+    },
+    "botania:elementium_shovel": {
+      "key": "item.botania.elementium_shovel",
+      "name": "Arcanesteel Shovel"
+    },
+    "botania:elementium_sword": {
+      "key": "item.botania.elementium_sword",
+      "name": "Arcanesteel Sword"
+    },
+    "kubejs:sky_gear": {
+      "key": "item.kubejs.sky_gear",
+      "name": "Skysteel Gear"
+    },
+    "kubejs:sky_gloves": {
+      "key": "item.kubejs.sky_gloves",
+      "name": "Skysteel Gloves"
+    },
+    "kubejs:sky_nugget": {
+      "key": "item.kubejs.sky_nugget",
+      "name": "Skysteel Nugget"
+    },
+    "kubejs:sky_plate": {
+      "key": "item.kubejs.sky_plate",
+      "name": "Skysteel Plate"
+    },
+    "kubejs:sky_rod": {
+      "key": "item.kubejs.sky_rod",
+      "name": "Skysteel Rod"
+    },
+    "botania:mana_string": {
+      "key": "item.botania.mana_string",
+      "name": "Source Infused String"
     }
   }
 }
