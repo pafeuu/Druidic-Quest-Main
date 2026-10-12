@@ -59,6 +59,31 @@ ServerEvents.recipes(event => {
       },
       "wissen": 1000
     }).id("naturesaura:aura_cache")
+
+    event.custom({
+      "type": "wizards_reborn:arcane_workbench",
+      "pattern": [
+        "PLP",
+        "LEL",
+        "PLP",
+        "PPPP"
+      ],
+      "key": {
+        "E": {
+          "item": "ars_nouveau:source_jar"
+        },
+        "L": {
+          "tag": "forge:plates/manasteel"
+        },
+        "P": {
+          "tag": "forge:plates/livingrock"
+        }
+      },
+      "output": {
+        "item": "botania:mana_tablet"
+      },
+      "wissen": 10000
+    }).id("botania:mana_tablet")
     
     event.custom({
       "type": "wizards_reborn:arcane_workbench",
