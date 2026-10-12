@@ -1,0 +1,16 @@
+
+#Config for Tigerseye
+[Tigerseye]
+	#Minimum mana required by Tigerseye to function. (Default: 70)
+	#Range: > 0
+	tigerseyeMinMana = 0
+	#Mana cost for Tigerseye per tick. (Default: 70)
+	#Range: > 0
+	tigerseyeManaCost = 0
+	#Max internal mana storage for Tigerseye. (Default: 1000)
+	#Range: > 0
+	tigerseyeMaxMana = 1000
+	#Max radius for Tigerseye functioning. (Default: 10)
+	#Range: > 0
+	tigerseyeRadius = 10
+
