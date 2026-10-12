@@ -1,4 +1,4 @@
-priority: 0;
+//priority: 0
 
 ServerEvents.tags("item", (event) => {
 
@@ -83,24 +83,9 @@ ServerEvents.tags("item", (event) => {
     "naturesaura:stripped_ancient_bark",
     "naturesaura:stripped_ancient_log"
   ])
-  event.add("forge:dusts/steel", "barrier");
-  event.add("forge:dusts/saltpeter", "barrier"); // This shit screams at me all the time so fuck you have a barrier
-
-
-  event.add("minecraft:tools/pickaxe", "#forge:tools/pickaxes");
-  event.add("minecraft:tools/axe", "#forge:tools/axes");
-  event.add("minecraft:tools/shovel", "#forge:tools/shovels");
-  event.add("minecraft:tools/hoe", "#forge:tools/hoes");
-
-  event.add("forge:tools/pickaxes", "#minecraft:tools/pickaxe");
-  event.add("forge:tools/axes", "#minecraft:tools/axe");
-  event.add("forge:tools/shovels", "#minecraft:tools/shovel");
-  event.add("forge:tools/hoes", "#minecraft:tools/hoe");
-  event.add("forge:tools/pickaxes", "#minecraft:pickaxes");
 
   event.add("forge:storage_blocks/slime", "#c:storage_blocks/slime");
   event.add("c:storage_blocks/slime", "minecraft:slime_block")
-  event.add("aether:phoenix_repairing", "kubejs:phoenix_ingot");
   event.remove("forge:dough", "create:dough");
   event.add("c:rods/wooden", [
     "twigs:twig",
@@ -109,7 +94,7 @@ ServerEvents.tags("item", (event) => {
   ]);
   event.add("c:barrels/wooden", "#forge:barrels/wooden");
   event.add("c:chests/wooden", "#forge:chests/wooden");
-  event.add("dq:sturdy_tools_repair_item", "minecraft:netherite_scrap");
+  
   event.add("farmersdelight:offhand_equipment", "#forge:tools/totems");
   event.add("lychee:dispenser_placement", "minecraft:iron_block");
   event.add("aether:treated_as_aether_item", "#forge:tools");
@@ -129,8 +114,6 @@ ServerEvents.tags("item", (event) => {
     "biomeswevegone:barrel_cactus",
     "naturesaura:aura_cactus",
   ]);
-
-  event.add("aether:obsidian_repairing", "kubejs:obsidian_ingot");
 
   event.add("minecraft:smooth_stone", "smooth_stone");
 
@@ -230,7 +213,7 @@ ServerEvents.tags("item", (event) => {
     "deep_aether:conberry_planks",
     "deep_aether:sunroot_planks"
   ]);
-  event.add("forge:tools/hammers", "druidic_quest_core:arcanist_hammer");
+  
   event.add("forge:ingots/andesite_alloy", "create:andesite_alloy");
   event.add("forge:ingots", [
     'irons_spellbooks:arcane_ingot',
@@ -261,37 +244,12 @@ ServerEvents.tags("item", (event) => {
   event.add("quark:seed_pouch_holdable", "forge:seeds");
   event.add("quark:seed_pouch_holdable", "minecraft:saplings");
 
-  event.add("forge:tools", "#minecraft:tools");
-  event.add("forge:tools", [
-    "quark:abacus",
-    "quark:trowel",
-    "druidic_quest_core:arcanist_hammer",
-    "constructionwand:stone_wand",
-    "constructionwand:iron_wand",
-    "supplementaries:wrench",
-    "minecraft:shears",
-    "minecraft:flint_and_steel",
-    "#c:tools",
-    "constructionwand:diamond_wand",
-    "constructionwand:infinity_wand",
-  ]);
-
   event.add("forge:storage_blocks/potato", "farmersdelight:potato_crate");
   event.add("forge:gems/zanite", "#aether:gems/zanite");
   event.add("forge:gems/skyjade", "deep_aether:skyjade");
   event.remove("forge:gems/sapphire", "thermal:sapphire");
   event.remove("forge:storage_blocks/sapphire", "thermal:sapphire_block");
   event.add("forge:storage_blocks/sapphire", "kubejs:sapphire_block");
-
-  event.add("minecraft:axes", "#forge:tools/axes");
-  event.add("minecraft:axes", "twilightforest:gold_minotaur_axe");
-  event.add("minecraft:axes", "twilightforest:diamond_minotaur_axe");
-  event.add("minecraft:pickaxes", "#forge:tools/pickaxes");
-  event.add("minecraft:swords", "#forge:tools/swords");
-  event.add("minecraft:shovels", "#forge:tools/shovels");
-  event.add("minecraft:hoes", "#forge:tools/hoes");
-
-  event.add("minecraft:swords", ['deep_aether:storm_sword', 'starbunclemania:star_sword', "create:cardboard_sword"])
 
   event.add("forge:ingots/sky", "naturesaura:sky_ingot");
   event.add("forge:ingots/depth", "naturesaura:depth_ingot");
@@ -541,136 +499,6 @@ ServerEvents.tags("item", (event) => {
   event.add("c:hidden_from_recipe_viewers", "kubejs:depleted_ruby_block");
   event.add("c:hidden_from_recipe_viewers", "kubejs:unassembled_clock");
   event.add("c:hidden_from_recipe_viewers", "kubejs:unassembled_compass");
-
-  event.add("forge:tools/shields", "druidic_quest_core:primitive_shield");
-  event.add("forge:shields", "druidic_quest_core:primitive_shield");
-  event.add("forge:tools", "druidic_quest_core:primitive_shield");
-
-  function armor(name, type) {
-    event.add("forge:armors/helmets", name + "_helmet");
-    event.add("forge:armors/chestplates", name + "_chestplate");
-    event.add("forge:armors/leggings", name + "_leggings");
-    event.add("forge:armors/boots", name + "_boots");
-
-    event.add(`forge:armor/${type}`, [
-      `${name}_helmet`,
-      `${name}_chestplate`,
-      `${name}_leggings`,
-      `${name}_boots`,
-    ]);
-  }
-
-  function natureArmor(name, type) {
-    event.add("forge:armors/helmets", name + "_helmet");
-    event.add("forge:armors/chestplates", name + "_chest");
-    event.add("forge:armors/leggings", name + "_pants");
-    event.add("forge:armors/boots", name + "_shoes");
-
-    event.add(`forge:armor/${type}`, [
-      `${name}_helmet`,
-      `${name}_chest`,
-      `${name}_pants`,
-      `${name}_shoes`,
-    ]);
-  }
-
-  function tool(name) {
-    event.add("minecraft:axes", name + "_axe");
-    event.add("minecraft:pickaxes", name + "_pickaxe");
-    event.add("minecraft:swords", name + "_sword");
-    event.add("minecraft:shovels", name + "_shovel");
-    event.add("minecraft:hoes", name + "_hoe");
-  }
-
-  function tooltier(name, tier) {
-    event.add("forge:tools/" + tier, name + "_axe");
-    event.add("forge:tools/" + tier, name + "_pickaxe");
-    event.add("forge:tools/" + tier, name + "_sword");
-    event.add("forge:tools/" + tier, name + "_shovel");
-    event.add("forge:tools/" + tier, name + "_hoe");
-  }
-
-  event.add(`forge:armor/priest`, "irons_spellbooks:paladin_chestplate");
-  event.add(
-    `forge:armor/pyromancer`,
-    "irons_spellbooks:infernal_sorcerer_chestplate",
-  );
-  event.add(`forge:armor/archevoker`, "irons_spellbooks:speed_boots");
-
-  armor("irons_spellbooks:netherite_mage", "netherite_mage");
-  armor("irons_spellbooks:wizard", "wizard");
-  armor("irons_spellbooks:pumpkin", "scarecrow");
-  armor("irons_spellbooks:wandering_magician", "wandering_magician");
-  armor("irons_spellbooks:archevoker", "archevoker");
-  armor("irons_spellbooks:pyromancer", "pyromancer");
-  armor("irons_spellbooks:cryomancer", "cryomancer");
-  armor("irons_spellbooks:electromancer", "electromancer");
-  armor("irons_spellbooks:priest", "priest");
-  armor("irons_spellbooks:shadowwalker", "shadowwalker");
-  armor("irons_spellbooks:plagued", "plagued");
-  armor("irons_spellbooks:cultist", "cultist");
-
-  armor("aether:phoenix", "phoenix");
-  armor("minecraft:leather", "leather");
-  armor("minecraft:chainmail", "chainmail");
-  armor("aether:zanite", "zanite");
-  armor("deep_aether:skyjade", "skyjade");
-  armor("twilightforest:ironwood", "ironwood");
-  armor("twilightforest:steeleaf", "steeleaf");
-  armor("twilightforest:knightmetal", "knightmetal");
-  armor("twilightforest:fiery", "fiery");
-  armor("twilightforest:arctic", "arctic");
-  armor("twilightforest:yeti", "yeti");
-  armor("twilightforest:naga", "naga");
-  armor("twilightforest:phantom", "phantom");
-  armor("enigmaticlegacy:etherium", "etherium");
-  armor("kubejs:cactus", "cactus");
-  armor("thermal:beekeeper", "beekeeper");
-  armor("thermal:diving", "diving");
-  armor("thermal:hazmat", "hazmat");
-  armor("kubejs:copper", "copper");
-  armor("kubejs:silver", "silver");
-  armor("kubejs:lead", "lead");
-  armor("kubejs:bronze", "bronze");
-  armor("kubejs:uranium", "uranium");
-  armor("deep_aether:stormforged", "stormforged");
-  armor("wizards_reborn:arcane_gold", "arcane_gold");
-  armor("wizards_reborn:arcane_fortress", "arcane_fortress");
-  natureArmor("naturesaura:infused_iron", "botanist");
-  natureArmor("naturesaura:sky", "sky");
-  natureArmor("naturesaura:depth", "depth");
-
-  tooltier("minecraft:wooden", "flint");
-  tooltier("minecraft:stone", "stone");
-  tooltier("naturesaura:infused_iron", "botanist");
-  tooltier("aether:zanite", "zanite");
-  tooltier("aether:gravitite", "gravitite");
-  tooltier("aether:holystone", "holystone");
-  tooltier("aether:skyroot", "skyroot");
-  tooltier("deep_aether:skyjade", "skyjade");
-  tooltier("enigmaticlegacy:etherium", "etherium");
-  tooltier("twilightforest:ironwood", "ironwood");
-  tooltier("twilightforest:steeleaf", "steeleaf");
-  tooltier("twilightforest:fiery", "fiery");
-  tooltier("twilightforest:knightmetal", "knightmetal");
-  tooltier("wizards_reborn:arcane_wood", "arcane_wood");
-  tooltier("wizards_reborn:arcane_gold", "arcane_gold");
-
-  tool("kubejs:copper");
-  tool("kubejs:silver");
-  tool("kubejs:lead");
-  tool("enigmaticlegacy:etherium");
-  event.add("forge:tools/etherium", "enigmaticlegacy:etherium_scythe");
-
-  global.toolTypesWithSword.forEach((type) => {
-    event.add("forge:tools/steel", `druidic_quest_core:steel_${type}`);
-  });
-
-  const missingFieryTools = ["axe", "shovel", "hoe"];
-
-  missingFieryTools.forEach((type) => {
-    event.add("forge:tools/fiery", `kubejs:fiery_${type}`);
-  });
 
   event.add("forge:storage_blocks/cobblestone", "quark:sturdy_stone");
 
