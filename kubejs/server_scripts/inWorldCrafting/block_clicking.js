@@ -186,10 +186,10 @@ BlockEvents.rightClicked("minecraft:stone",event=>{
   if(Math.random()<1)
     event.block.popItemFromFace('twigs:pebble',event.facing) 
   
-  console.log(event.facing)
   if(event.player.findCurio('hands', 1).isPresent()===true)  return;
   if(event.player.findCurio('hands', 0).isPresent()===true)  return;
   
   event.player.attack(1)
+  event.player.swing()
   
 })
