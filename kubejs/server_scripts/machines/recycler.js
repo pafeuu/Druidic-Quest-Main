@@ -91,6 +91,7 @@ ServerEvents.recipes(event=>
         .duration(200)
     }
 
+    RecyclingWith2("kubejs:lumber_axe","2x iron_ingot","stick")
     ToolRecycling("minecraft","iron","iron_ingot","botania:livingwood_twig")
     ToolRecycling("minecraft","diamond","diamond","kubejs:zinc_tool_handle")
     ToolRecycling("kubejs","copper","copper_ingot","botania:livingwood_twig")
