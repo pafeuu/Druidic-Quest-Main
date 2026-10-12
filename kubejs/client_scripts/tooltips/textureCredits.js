@@ -1,9 +1,9 @@
-ItemEvents.tooltips(event=>{
+ItemEvents.tooltip(event=>{
 
-    tooltip.add(["kubejs:archers_glove",
+    event.add(["kubejs:archers_glove",
     "druidic_quest_core:rotten_flesh_block"], Text.gray("Texture by Qwerty"))
 
-  tooltip.add([
+  event.add([
     "kubejs:ring_travel",
     "kubejs:copper_pickaxe",
     "kubejs:copper_shovel",
@@ -24,20 +24,20 @@ ItemEvents.tooltips(event=>{
     "kubejs:big_enchanting_rune",
     "kubejs:large_enchanting_rune"], Text.gray("Texture by MalcomRiley"))
 
-  tooltip.add(["kubejs:travelers_belt"], Text.gray("Texture by Futureazoo"))
+  event.add(["kubejs:travelers_belt"], Text.gray("Texture by Futureazoo"))
 
-  tooltip.add(["kubejs:cut_onions"], Text.gray("Texture by Jamiscus"))
+  event.add(["kubejs:cut_onions"], Text.gray("Texture by Jamiscus"))
 
-  tooltip.add([
+  event.add([
     "kubejs:the_terraformer",
     "kubejs:wooden_crucifix",
     "kubejs:metal_crucifix",
     "kubejs:bejeweled_crucifix"
   ], Text.gray("Texture by SenorRandom"))
 
-  tooltip.add("kubejs:sapphire", Text.gray("Texture by JuniDeerGirl"))
+  event.add("kubejs:sapphire", Text.gray("Texture by JuniDeerGirl"))
 
-  tooltip.add(["kubejs:bear_totem",
+  event.add(["kubejs:bear_totem",
     "kubejs:crab_totem",
     "kubejs:frog_totem",
     "kubejs:bunny_totem",
@@ -63,7 +63,7 @@ ItemEvents.tooltips(event=>{
     "kubejs:blitz_totem"
   ], Text.gray("Texture by Gyldanword"))
 
-  tooltip.add([
+  event.add([
     "kubejs:phoenix_ingot",
     "kubejs:obsidian_ingot",
     "kubejs:copper_helmet",

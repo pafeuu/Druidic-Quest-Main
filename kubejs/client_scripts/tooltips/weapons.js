@@ -1,4 +1,4 @@
-ItemEvents.event(event=>{
+ItemEvents.tooltip(event=>{
     
     event.addAdvanced("kubejs:stone_claymore", (item, advanced, text) => {
     if (!event.shift) {
