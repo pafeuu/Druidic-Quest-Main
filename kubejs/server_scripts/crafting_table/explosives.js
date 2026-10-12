@@ -2,7 +2,7 @@ ServerEvents.recipes(event=>{
     
     event.shapeless("thermal:phyto_grenade",["thermal:explosive_grenade","thermal:phytogro"])
 
-    event.shapeless("thermal:nuke_grenade",["thermal:explosive_grenade","#forge:dusts/uranium"])
+    event.shapeless("thermal:nuke_grenade",["thermal:explosive_grenade","#forge:ingots/uranium"])
 
     event.shapeless("thermal:earth_grenade",["thermal:explosive_grenade","thermal:earth_charge"])
 
@@ -14,7 +14,7 @@ ServerEvents.recipes(event=>{
 
     event.shapeless("thermal:phyto_tnt",["minecraft:tnt","thermal:phytogro"])
 
-    event.shapeless("thermal:nuke_tnt",["minecraft:tnt","#forge:dusts/uranium"])
+    event.shapeless("thermal:nuke_tnt",["minecraft:tnt","#forge:ingots/uranium"])
 
     event.shapeless("thermal:earth_tnt",["minecraft:tnt","thermal:earth_charge"])
 
@@ -27,7 +27,7 @@ ServerEvents.recipes(event=>{
     event.shapeless("supplementaries:bomb_blue",[
         "supplementaries:bomb",
         ["minecraft:lapis_lazuli","irons_spellbooks:arcane_essence"],
-        "#forge:dusts/uranium"])
+        "#forge:ingots/uranium"])
 
     event.shaped("4x thermal:explosive_grenade",
         [

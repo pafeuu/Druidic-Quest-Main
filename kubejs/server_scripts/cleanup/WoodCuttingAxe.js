@@ -1,4 +1,3 @@
-
 ItemEvents.rightClicked(event => {
     
     const player = event.player;
