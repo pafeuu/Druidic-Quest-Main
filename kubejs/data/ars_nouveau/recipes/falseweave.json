@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ars_nouveau:magebloom_block"
+    },
+    "A": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result": {
+    "item": "ars_nouveau:falseweave",
+    "count": 8
+  }
+}
