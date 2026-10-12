@@ -18,7 +18,14 @@
       "ars_nouveau:relay_splitter",
       "ars_nouveau:relay_collector",
       "ars_nouveau:relay_warp",
-      "sophisticatedbackpacks:/backpack_smithing_upgrade_grouped/netherite_backpack/0"
+      "sophisticatedbackpacks:/backpack_smithing_upgrade_grouped/netherite_backpack/0",
+      "supplementaries:ash_soot",
+      "botania:mana_tablet_alt",
+      "botania:manasteel_chestplate",
+      "botania:manasteel_helmet",
+      "botania:manasteel_leggings",
+      "botania:manasteel_boots",
+      "botania:manasteel_pick"
     ]
   }
 ]

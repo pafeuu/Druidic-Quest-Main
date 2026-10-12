@@ -1,6 +1,16 @@
 {
     "remaps":[
         {
+            "source": "druidic_quest_core:big_source_jar",
+            "target": "big_jars:big_source_jar",
+            "types": ["item","block"]
+        },
+        {
+            "source": "druidic_quest_core:huge_source_jar",
+            "target": "big_jars:huge_source_jar",
+            "types": ["item","block"]
+        },
+        {
             "source": "kubejs:rotten_flesh_block",
             "target": "druidic_quest_core:rotten_flesh_block",
             "types": ["item"]
