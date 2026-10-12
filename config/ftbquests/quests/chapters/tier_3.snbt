@@ -237,6 +237,7 @@
 				""
 				"&4&lEverything after this point is extremely unfinished and will most likely be completely changed!&r&r"
 			]
+			icon: "botania:terra_plate"
 			id: "6EC46F530F70BFBF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -247,11 +248,25 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			tasks: [{
-				id: "37B5B286DF819F7C"
-				item: "botania:terra_plate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "37B5B286DF819F7C"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "0AC37249F6BE88FB"
+					item: { Count: 21, id: "druidic_quest_core:arcane_bricks" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "37EF0992C6C6896E"
+					item: { Count: 16, id: "druidic_quest_core:alloy_bricks" }
+					type: "item"
+				}
+			]
 			title: "Agglomeration Plate"
 			x: 0.0d
 			y: -6.0d

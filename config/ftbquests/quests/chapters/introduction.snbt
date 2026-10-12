@@ -821,7 +821,7 @@
 				"{image:entity:minecraft:creeper[rotate=true] width:96 height:96 align:center}"
 			]
 			hide_until_deps_visible: false
-			icon: "minecraft:creeper_head"
+			icon: "minecraft:gunpowder"
 			id: "3F2E2B483880F030"
 			rewards: [
 				{
@@ -1344,6 +1344,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			subtitle: "How it shines!"
 			tasks: [
 				{
@@ -1384,6 +1385,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			subtitle: "Magic Wood"
 			tasks: [
 				{
@@ -1796,10 +1798,8 @@
 				"Tigerseye will scare off any creepers and stop them from exploding!"
 				""
 				"{image:entity:minecraft:creeper[rotate=true] width:96 height:96 align:center}"
-				""
-				""
-				"&4Note: Currently Tigerseye can run out of mana this won't happen in full release&r"
 			]
+			icon: "minecraft:creeper_head"
 			id: "49B93B2608800A22"
 			rewards: [
 				{
@@ -1828,7 +1828,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 3.5d
 		}
 	]

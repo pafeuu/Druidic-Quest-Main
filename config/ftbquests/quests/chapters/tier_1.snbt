@@ -223,7 +223,7 @@
 				""
 				"Automation will require filters, as a simple hopper will pull the item before crafting is completed."
 				""
-				"While &5source&r is not necessary for full function, it will greatly speed up the process."
+				"While &bSource&r is not necessary for full function, it will greatly speed up the process."
 			]
 			id: "769C5B75D85F81FC"
 			rewards: [{
@@ -708,7 +708,7 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
+			x: 13.0d
 			y: -4.0d
 		}
 		{
@@ -816,7 +816,11 @@
 		}
 		{
 			dependencies: ["118CF02B3B3C899C"]
-			description: ["Shulker Boxes now cheaper than ever"]
+			description: [
+				"Shulker Boxes now cheaper than ever"
+				""
+				"Sack to shulker box recipe keeps its inventory!"
+			]
 			id: "4BE9468347CCD7B1"
 			rewards: [{
 				id: "0EECED4BD477DA1B"
@@ -1311,7 +1315,7 @@
 			]
 			title: "AOE Tools"
 			x: 18.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["089147A7CE1A1DC6"]
@@ -1419,7 +1423,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5C199D8DE803D331"]

@@ -33,14 +33,11 @@
 				item: "botania:manasteel_ingot"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 4.0d
+			x: -15.0d
+			y: 6.0d
 		}
 		{
-			dependencies: [
-				"4E33A6524A987E23"
-				"2841B26876F416EE"
-			]
+			dependencies: ["2841B26876F416EE"]
 			description: [
 				"With the help of the &5&lEnchanting Apparatus&r&r, you can craft tons of new items!"
 				""
@@ -76,14 +73,11 @@
 				}
 			]
 			title: "Arcane Crafting"
-			x: -8.0d
-			y: 4.0d
+			x: -7.5d
+			y: 6.0d
 		}
 		{
-			dependencies: [
-				"72FB95A11B31AFEC"
-				"23D3902848A335F6"
-			]
+			dependencies: ["72FB95A11B31AFEC"]
 			description: ["Zinc makes a much more durable tool handle, necessary to make &bdiamond&r and &6gold&r tools."]
 			id: "4E1801454590B2B2"
 			rewards: [{
@@ -101,8 +95,8 @@
 				type: "item"
 			}]
 			title: "New Equipment Opportunity"
-			x: -5.5d
-			y: 7.0d
+			x: -7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4E1801454590B2B2"]
@@ -147,8 +141,8 @@
 				}
 			]
 			title: "Workstations on a Stick!"
-			x: -4.0d
-			y: 7.0d
+			x: -7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -199,7 +193,7 @@
 				}
 			]
 			title: "Distilling the Elements"
-			x: -5.5d
+			x: -4.0d
 			y: 4.0d
 		}
 		{
@@ -229,7 +223,7 @@
 				type: "dimension"
 			}]
 			title: "Visit the Nether!"
-			x: -5.5d
+			x: -11.5d
 			y: 10.0d
 		}
 		{
@@ -273,7 +267,7 @@
 				}
 			]
 			title: "Elemental Arcanum"
-			x: 1.5d
+			x: -1.0d
 			y: 4.0d
 		}
 		{
@@ -364,8 +358,8 @@
 				}
 			]
 			title: "New and Improved Gold Tools"
-			x: -4.5d
-			y: 6.0d
+			x: -6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4E1801454590B2B2"]
@@ -456,8 +450,8 @@
 				}
 			]
 			title: "Diamond Equipment"
-			x: -4.5d
-			y: 8.0d
+			x: -8.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6B18370E82275EED"]
@@ -526,7 +520,7 @@
 				type: "item"
 			}]
 			title: "Nature Essence"
-			x: -11.0d
+			x: -15.0d
 			y: 10.0d
 		}
 		{
@@ -592,7 +586,7 @@
 				item: "create:schematicannon"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 1.5d
 		}
 		{
@@ -612,7 +606,7 @@
 				item: "kubejs:infusion_catalyst"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.5d
 			y: 10.0d
 		}
 		{
@@ -688,8 +682,8 @@
 				item: "naturesaura:infused_iron"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 13.0d
+			x: -3.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -750,7 +744,7 @@
 			]
 			title: "Kiln Alloy Smelter!"
 			x: 5.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["67D119691018BD6C"]
@@ -770,7 +764,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 13.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["7E516240E967045E"]
@@ -792,8 +786,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.0d
+			x: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7E516240E967045E"]
@@ -810,8 +804,8 @@
 				item: "kubejs:capturing_gem"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["00AEA38F60CAAE90"]
@@ -827,7 +821,7 @@
 				item: "kubejs:warp_scroll"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 2.5d
 		}
 		{
@@ -882,7 +876,7 @@
 				}
 			]
 			title: "Copper Diving Set"
-			x: 7.0d
+			x: 7.5d
 			y: 3.5d
 		}
 		{
@@ -936,7 +930,7 @@
 				}
 			]
 			title: "Better AOE tools"
-			x: 7.0d
+			x: 7.5d
 			y: 7.5d
 		}
 		{
@@ -955,7 +949,7 @@
 				item: "quark:feeding_trough"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -15.0d
 			y: 12.5d
 		}
 		{
@@ -983,7 +977,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 8.5d
 		}
 		{
@@ -1007,7 +1001,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: 0.5d
 		}
 		{
@@ -1043,7 +1037,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
+			x: -13.0d
 			y: 10.0d
 		}
 		{
@@ -1061,8 +1055,8 @@
 				item: "aether:zanite_gemstone"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 8.5d
+			x: -4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["400EBA15A5B82A93"]
@@ -1079,8 +1073,8 @@
 				item: "deep_aether:skyjade"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 8.5d
+			x: -2.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["512084C232A880EF"]
@@ -1172,8 +1166,8 @@
 				}
 			]
 			title: "Zanite Tools"
-			x: -2.5d
-			y: 7.0d
+			x: -4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["73B4F5C2F480B53E"]
@@ -1265,8 +1259,8 @@
 				}
 			]
 			title: "Skyjade Tools"
-			x: -0.5d
-			y: 7.0d
+			x: -2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1323,8 +1317,8 @@
 				}
 			]
 			title: "Base of the Generator "
-			x: -11.0d
-			y: 7.0d
+			x: -11.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2C1867470E747C94"]
@@ -1350,7 +1344,7 @@
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							"ftbfiltersystem:filter": "item_tag(dq:generators/source)"
+							"ftbfiltersystem:filter": "item_tag(dq:generators/source_weak)"
 						}
 					}
 					title: "Sourcelink"
@@ -1359,7 +1353,7 @@
 			]
 			title: "Source Generators"
 			x: -9.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["67D119691018BD6C"]
@@ -1377,8 +1371,8 @@
 				item: "kubejs:aura_generator_block"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 15.0d
+			x: -3.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["0628C1A97EB1A5DB"]
@@ -1411,7 +1405,7 @@
 				item: "enigmaticlegacy:angel_blessing"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: 13.5d
 		}
 		{
@@ -1462,7 +1456,7 @@
 				item: "enigmaticlegacy:golem_heart"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: 12.5d
 		}
 		{
@@ -1499,7 +1493,7 @@
 			]
 			title: "Magical Ore Doubling"
 			x: 1.5d
-			y: 15.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["5E56A7D68E33C68B"]
@@ -1522,8 +1516,188 @@
 				item: "rubinated_nether:ruby_brazier"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["2841B26876F416EE"]
+			icon: "botania:mana_spreader"
+			id: "5CD7FA3E194089C4"
+			subtitle: "How do I move Source?"
+			tasks: [
+				{
+					id: "3330ADA78902684D"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "37A3C8163C0EA0E2"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botania:lens)"
+						}
+					}
+					title: "Any #botania:lens"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7E516240E967045E"]
+			description: [
+				"&b&lCorporea Network&r&r needs a single &b&lMaster Corporea Spark&r&r to function."
+				""
+				"Place sparks on top of inventories to connect them."
+				""
+				"Note that &b&lMaster Corporea Spark&r&r will not see anything in the inventory it is attatched to."
+				""
+				"To use &b&lCorporea Index&r&r connect it with a system using a spark walk into its range and type in chat whatever you want to withdraw from your system. Alternatively you can press &lC&r while hovering over an item."
+			]
+			icon: "botania:corporea_index"
+			id: "2351C816D8605ED8"
+			rewards: [
+				{
+					id: "6325EE0CE7BEE4BD"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4114C172C25751F1"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "5CC6D311410B066E"
+					item: "botania:corporea_index"
+					type: "item"
+				}
+				{
+					id: "28887D8BAA6152C9"
+					item: "botania:corporea_spark_master"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5934FEE38CE44C2F"
+					item: { Count: 2, id: "botania:corporea_spark" }
+					type: "item"
+				}
+			]
+			title: "Storage Network!"
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E33A6524A987E23"]
+			description: ["&9Source Alloy Tools&r are similiar in strength to iron equipment but they have the ability to self repair using source from your source tablet"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "botania:manasteel_pick"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "40817FFD62C8AEFD"
+			rewards: [
+				{
+					count: 9
+					id: "64FCE645D5E6EE75"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0B23C64C2F89F5FF"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Self Repairing Tools"
+			tasks: [
+				{
+					id: "614B7ED92255AAD1"
+					item: {
+						Count: 1
+						id: "botania:manasteel_pick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59DB1E2611B82195"
+					item: {
+						Count: 1
+						id: "botania:manasteel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AAA46D9AAA75B24"
+					item: {
+						Count: 1
+						id: "botania:manasteel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "014F05AF7D5EE9C2"
+					item: {
+						Count: 1
+						id: "botania:manasteel_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DE68E2198BF3C38"
+					item: {
+						Count: 1
+						id: "botania:manasteel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B2F7F7E2917639A"
+					item: {
+						Count: 1
+						id: "botania:manasteel_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F6CF5A79AE7FC57"
+					item: "botania:mana_tablet"
+					type: "item"
+				}
+			]
+			title: "Source Alloy Equipment"
+			x: -15.0d
+			y: 3.5d
 		}
 	]
 	title: "Tier 2 - Basic Elemental Infusion"

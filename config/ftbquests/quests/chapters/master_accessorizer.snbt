@@ -2128,27 +2128,6 @@
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
-			id: "65E2134AA5D53B81"
-			rewards: [{
-				id: "41C78B4F1805F731"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [{
-				id: "1A45E14153C621ED"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:ascension_amulet"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 7.199999999999998d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
 			id: "2B4663EC797C10F1"
 			rewards: [{
 				id: "5A16ED114603EA44"
@@ -3431,42 +3410,6 @@
 			title: "The Burden of Desolation"
 			x: -10.8d
 			y: 0.0d
-		}
-		{
-			dependencies: ["4CCE1DF1DF0C35DB"]
-			icon: {
-				Count: 1
-				id: "enigmaticlegacy:eldritch_amulet"
-				tag: { }
-			}
-			id: "0FB0BACCB6451888"
-			rewards: [{
-				id: "2C18A7F34ADADFB1"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
-			size: 0.8d
-			tasks: [
-				{
-					icon: "enigmaticlegacy:evil_essence"
-					id: "073C4FD178063620"
-					stat: "enigmaticlegacy:play_time_with_seven_curses"
-					type: "stat"
-					value: 1
-				}
-				{
-					id: "1B9819EC963824FF"
-					item: {
-						Count: 1
-						id: "enigmaticlegacy:eldritch_amulet"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			title: "The Testament of Contempt"
-			x: -10.8d
-			y: 0.8d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
