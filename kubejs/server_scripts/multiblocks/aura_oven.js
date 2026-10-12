@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
             },
             "result": {
                 "item": output,
-                "count": outputAmount
+                "count": 1
             },
             "processing_time": ProcessingTime,
             "aura_cost": AuraCost,
@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
             }
         })
     }
-    function tagAuraOven(input,output,outputAmount,ProcessingTime,AuraCost,FluidAmount)
+    function tagAuraOven(input,output,count,ProcessingTime,AuraCost,FluidAmount)
     {
         event.custom({
             "type": "naturesaura_plus:oven",
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
             },
             "result": {
                 "item": output,
-                "count": outputAmount
+                "count": count
             },
             "processing_time": ProcessingTime,
             "aura_cost": AuraCost,
@@ -41,10 +41,16 @@ ServerEvents.recipes(event => {
     
     simpleAuraOven("minecraft:coal",
         "thermal:coal_coke",
-        1,
         600,
         100,
         250
+    )
+
+    simpleAuraOven("minecraft:coal_block",
+        "thermal:coal_coke_block",
+        6000,
+        800,
+        2500
     )
     
     tagAuraOven("minecraft:logs",
