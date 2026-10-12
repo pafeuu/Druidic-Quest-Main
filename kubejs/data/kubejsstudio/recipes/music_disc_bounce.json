@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "thermal:sulfur_block"
+    },
+    "A": {
+      "tag": "minecraft:music_discs"
+    }
+  },
+  "result": {
+    "item": "minecraft:music_disc_bounce",
+    "count": 1
+  }
+}
