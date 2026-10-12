@@ -71,5 +71,13 @@ ServerEvents.recipes(event => {
 
     });
 
+    event.shaped("minecraft:brown_shulker_box", ["SSS", "SLS", "SSS"], {
+        S: "#forge:plates/livingwood",
+        L: "supplementaries:sack",
+    }).modifyResult((grid, result) => {
+        let input = grid.find("supplementaries:sack");
+        return result.withNBT(input.nbt)
+    })
+
 
 })
