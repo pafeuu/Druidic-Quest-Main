@@ -25,14 +25,6 @@
 					id: "050B9A1F12DACD35"
 					type: "command"
 				}
-				{
-					auto: "invisible"
-					command: "/sh_difficulty add @p 30"
-					elevate_perms: true
-					id: "7B0A7910A407C42B"
-					silent: true
-					type: "command"
-				}
 			]
 			tasks: [{
 				advancement: "restrictedportals:twilightforest"
@@ -58,14 +50,6 @@
 					command: "/tellraw @p [\"\",{\"text\":\"Difficulty has been raised!\",\"bold\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]"
 					elevate_perms: true
 					id: "31403352950BC7A7"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/sh_difficulty add @p 30"
-					elevate_perms: true
-					id: "481550F56215B8AD"
-					silent: true
 					type: "command"
 				}
 			]
@@ -95,14 +79,6 @@
 					id: "1FB3DAB22F2E7613"
 					type: "command"
 				}
-				{
-					auto: "invisible"
-					command: "/sh_difficulty add @p 50"
-					elevate_perms: true
-					id: "70965E494CE1CA18"
-					silent: true
-					type: "command"
-				}
 			]
 			tasks: [{
 				advancement: "restrictedportals:aether"
@@ -130,14 +106,6 @@
 					id: "3AE4AD0CBD53E7F6"
 					type: "command"
 				}
-				{
-					auto: "invisible"
-					command: "/sh_difficulty add @p 50"
-					elevate_perms: true
-					id: "7B968046CF40D499"
-					silent: true
-					type: "command"
-				}
 			]
 			tasks: [{
 				advancement: "restrictedportals:theend"
@@ -149,45 +117,10 @@
 			y: -0.5d
 		}
 		{
-			id: "79DB16325E1A7723"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/tellraw @p [\"\",{\"text\":\"Otherside grows tired of being kept in the darkness\",\"italic\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]"
-					elevate_perms: true
-					id: "3730F29DAC4C01B2"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @p [\"\",{\"text\":\"Difficulty has been raised!\",\"bold\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]"
-					elevate_perms: true
-					id: "6F9B6080D52D041C"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/sh_difficulty add @p 100"
-					elevate_perms: true
-					id: "6A700BE5349575A5"
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				advancement: "restrictedportals:otherside"
-				criterion: ""
-				id: "4A14F8FA7C1F140D"
-				type: "advancement"
-			}]
-			x: -1.5d
-			y: -0.5d
-		}
-		{
 			id: "7F12B835BB2BA131"
 			rewards: [
 				{
-					command: "/tellraw @p [\"\",{\"text\":\"[Watcher]\",\"color\":\"dark_green\"},{\"text\":\" You wake up tired and malnourished. You feel like you are slower and weaker than usuall, suprisingly you even feel like you cant reach as far as before.\",\"color\":\"green\"},{\"text\":\"\\n\\n\"},{\"text\":\"[Watcher] \",\"color\":\"dark_green\"},{\"text\":\"Check your keybinds to open the Questbook\",\"color\":\"green\"}]"
+					command: "/tellraw @p [\"\",{\"text\":\"[Watcher]\",\"color\":\"dark_green\"},{\"text\":\" You wake up tired and malnourished. You feel like you are slower and weaker than usual, suprisingly you even feel like you cant reach as far as before.\",\"color\":\"green\"},{\"text\":\"\\n\\n\"},{\"text\":\"[Watcher] \",\"color\":\"dark_green\"},{\"text\":\"Check your keybinds to open the Questbook\",\"color\":\"green\"}]"
 					elevate_perms: true
 					id: "165BBC22F9C2D9E3"
 					type: "command"
@@ -205,8 +138,8 @@
 				id: "05B6A43D2609B1E3"
 				type: "advancement"
 			}]
-			x: -5.5d
-			y: 0.5d
+			x: -6.5d
+			y: -0.5d
 		}
 	]
 	title: "Stages"
