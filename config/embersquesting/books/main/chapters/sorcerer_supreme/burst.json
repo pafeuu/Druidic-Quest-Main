@@ -1,0 +1,29 @@
+{
+  "title": "Burst",
+  "icon": "ars_nouveau:burst",
+  "x": 15.4,
+  "y": 11.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:burst",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

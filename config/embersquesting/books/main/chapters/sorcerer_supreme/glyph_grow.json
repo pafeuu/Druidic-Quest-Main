@@ -1,0 +1,29 @@
+{
+  "title": "Glyph Grow",
+  "icon": "ars_nouveau:glyph_grow",
+  "x": 18.6,
+  "y": 9.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_grow",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

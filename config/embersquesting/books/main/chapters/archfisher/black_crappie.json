@@ -1,0 +1,31 @@
+{
+  "title": "Black Crappie",
+  "icon": "tide:black_crappie{FishLength:30.0d}",
+  "x": 7.975,
+  "y": 0.75,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:black_crappie",
+      "components": "{FishLength:30.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

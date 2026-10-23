@@ -1,0 +1,31 @@
+{
+  "title": "Acrobat X",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"combatroll:acrobat\",lvl:10s}]}",
+  "x": 1.450000000000001,
+  "y": 6.6000000000000005,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"combatroll:acrobat\",lvl:10s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

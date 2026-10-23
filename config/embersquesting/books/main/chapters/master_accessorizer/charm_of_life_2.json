@@ -1,0 +1,26 @@
+{
+  "title": "Charm Of Life 2",
+  "icon": "twilightforest:charm_of_life_2",
+  "x": 20.2,
+  "y": 4.6000000000000005,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

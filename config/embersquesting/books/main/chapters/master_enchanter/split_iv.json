@@ -1,0 +1,31 @@
+{
+  "title": "Split IV",
+  "icon": "wizards_reborn:arcane_enchanted_book{arcaneEnchantments:{\"wizards_reborn:split\":4}}",
+  "x": 8.65,
+  "y": 2.0999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "wizards_reborn:arcane_enchanted_book",
+      "components": "{arcaneEnchantments:{\"wizards_reborn:split\":4}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

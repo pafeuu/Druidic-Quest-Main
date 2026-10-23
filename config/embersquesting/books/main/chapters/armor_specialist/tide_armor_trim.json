@@ -1,0 +1,28 @@
+{
+  "title": "Tide Armor Trim",
+  "icon": "minecraft:tide_armor_trim_smithing_template",
+  "x": 9,
+  "y": 4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:tide_armor_trim_smithing_template",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

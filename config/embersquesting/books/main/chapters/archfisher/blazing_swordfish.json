@@ -1,0 +1,32 @@
+{
+  "title": "Blazing Swordfish",
+  "icon": "tide:blazing_swordfish{Damage:0}",
+  "x": 14.35,
+  "y": 3.3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:blazing_swordfish",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

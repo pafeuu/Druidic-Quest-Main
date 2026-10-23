@@ -1,0 +1,26 @@
+{
+  "title": "Quark Item transportation",
+  "icon": "quark:pipe",
+  "x": 2.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "automation/item_entity_transportation"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "quark:pipe",
+      "type": "item"
+    },
+    {
+      "item": "quark:chute",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

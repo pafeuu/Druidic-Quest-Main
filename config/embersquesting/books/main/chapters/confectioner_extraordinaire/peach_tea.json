@@ -1,0 +1,29 @@
+{
+  "title": "Peach Tea",
+  "icon": "fruitsdelight:peach_tea",
+  "x": 0.9999999999999982,
+  "y": 3.1999999999999993,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:peach_tea",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

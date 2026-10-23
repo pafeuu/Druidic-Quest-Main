@@ -1,0 +1,43 @@
+{
+  "title": "Better AOE tools",
+  "description": [
+    "Upgrades all around!",
+    "Upgrade your AOE tools to increase their AOE range, double their durability and increase their speed by over 60%!"
+  ],
+  "icon": "kubejs:basic_mining_hammer{Damage:0}",
+  "x": 22.5,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "tier_2/earth_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "kubejs:basic_mining_hammer",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "kubejs:basic_excavator",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ars_nouveau:earth_essence",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "thermal:gold_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

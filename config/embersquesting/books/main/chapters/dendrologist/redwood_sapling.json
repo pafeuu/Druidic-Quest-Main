@@ -1,0 +1,33 @@
+{
+  "title": "Redwood Sapling",
+  "icon": "biomeswevegone:redwood_sapling",
+  "x": 2,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "biomeswevegone:redwood_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:coarse_dirt",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

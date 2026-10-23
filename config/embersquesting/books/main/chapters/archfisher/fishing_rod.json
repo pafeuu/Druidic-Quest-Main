@@ -1,0 +1,30 @@
+{
+  "title": "Fishing Rod",
+  "icon": "minecraft:fishing_rod{Damage:0,modifier:{bobber:{},hook:{},line:{}}}",
+  "x": 5,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "minecraft:fishing_rod",
+      "components": "{Damage:0,modifier:{bobber:{},hook:{},line:{}}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

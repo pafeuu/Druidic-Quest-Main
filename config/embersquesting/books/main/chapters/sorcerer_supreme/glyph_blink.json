@@ -1,0 +1,29 @@
+{
+  "title": "Glyph Blink",
+  "icon": "ars_nouveau:glyph_blink",
+  "x": 14.6,
+  "y": 11.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_blink",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

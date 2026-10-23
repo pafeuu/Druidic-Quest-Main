@@ -1,0 +1,26 @@
+{
+  "title": "Mining Charm",
+  "icon": "enigmaticlegacy:mining_charm",
+  "x": 17.4,
+  "y": 1.8000000000000003,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:mining_charm",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

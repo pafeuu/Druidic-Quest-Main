@@ -1,0 +1,28 @@
+{
+  "title": "Iron To Gold Tier Upgrade",
+  "description": [
+    "Even Bigger Storage!"
+  ],
+  "icon": "sophisticatedstorage:iron_to_gold_tier_upgrade",
+  "x": 16.5,
+  "y": 9,
+  "deps": {
+    "all": [
+      "tier_2/tainted_gold"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedstorage:iron_to_gold_tier_upgrade",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

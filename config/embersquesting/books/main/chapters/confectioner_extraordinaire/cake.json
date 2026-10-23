@@ -1,0 +1,29 @@
+{
+  "title": "Cake",
+  "icon": "minecraft:cake",
+  "x": 17,
+  "y": 4.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:cake",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

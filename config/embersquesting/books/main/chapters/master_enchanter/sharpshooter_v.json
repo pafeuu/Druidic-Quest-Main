@@ -1,0 +1,31 @@
+{
+  "title": "Sharpshooter V",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"enigmaticlegacy:sharpshooter\",lvl:5s}]}",
+  "x": 6.85,
+  "y": 2.0999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"enigmaticlegacy:sharpshooter\",lvl:5s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

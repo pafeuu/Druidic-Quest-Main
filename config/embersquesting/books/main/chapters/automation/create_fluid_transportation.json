@@ -1,0 +1,26 @@
+{
+  "title": "Create Fluid Transportation",
+  "icon": "create:fluid_pipe",
+  "x": 2,
+  "y": 16.5,
+  "deps": {
+    "all": [
+      "automation/fluid_transportation"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:fluid_pipe",
+      "type": "item"
+    },
+    {
+      "item": "create:mechanical_pump",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

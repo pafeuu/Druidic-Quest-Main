@@ -1,0 +1,47 @@
+{
+  "title": "Find an Amethyst Geode",
+  "description": [
+    "Not gold. Still glitters!",
+    "Right clicking with a §5§lDowsing Rod§r§r will highlight §5§lAmethyst§r§r-related blocks near you."
+  ],
+  "icon": "minecraft:amethyst_cluster",
+  "x": 25.5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "tier_1/crumbling_altar"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:amethyst_shard",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:basic_magic_machine",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "ars_nouveau:dowsing_rod",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    },
+    {
+      "item": "patchouli:guide_book",
+      "components": "{\"patchouli:book\":\"thermal:guidebook\"}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "complete": {
+    "min": 2
+  },
+  "shape": "rsquare"
+}

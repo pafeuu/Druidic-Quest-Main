@@ -1,0 +1,26 @@
+{
+  "title": "Ring Of Lesser Discount",
+  "icon": "ars_nouveau:ring_of_lesser_discount",
+  "x": 14.6,
+  "y": 1.7999999999999998,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ring_of_lesser_discount",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

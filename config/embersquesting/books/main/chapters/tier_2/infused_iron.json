@@ -1,0 +1,35 @@
+{
+  "title": "Infused Iron",
+  "description": [
+    "So full of life!",
+    "Infusing iron with Aura is one of the first critical steps in magical crafting."
+  ],
+  "icon": "naturesaura:infused_iron",
+  "x": 11.5,
+  "y": 13,
+  "deps": {
+    "all": [
+      "tier_2/infusion_catalyst"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:infused_iron",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 8,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"naturesaura:aura_mending\",lvl:1s}]}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

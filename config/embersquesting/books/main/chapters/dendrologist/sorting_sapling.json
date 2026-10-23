@@ -1,0 +1,33 @@
+{
+  "title": "Sorting Sapling",
+  "icon": "twilightforest:sorting_sapling",
+  "x": 0.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "twilightforest:sorting_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:coarse_dirt",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Runic Chalk",
+  "description": [
+    "Used to place runes which can be inscribed with a §5spell parchment.§r",
+    "",
+    "The rune will cast its inscribed spell on any entity that treads upon it."
+  ],
+  "icon": "ars_nouveau:runic_chalk{Damage:0}",
+  "x": 13.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "spellcasting/blank_parchment"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "ars_nouveau:runic_chalk",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

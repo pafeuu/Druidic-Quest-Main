@@ -1,0 +1,28 @@
+{
+  "title": "Shield Of Repulsion",
+  "icon": "aether:shield_of_repulsion{Damage:0}",
+  "x": 23.8,
+  "y": 4.199999999999999,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "aether:shield_of_repulsion",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

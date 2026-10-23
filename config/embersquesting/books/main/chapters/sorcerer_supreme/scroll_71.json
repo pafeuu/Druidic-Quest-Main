@@ -1,0 +1,31 @@
+{
+  "title": "Scroll",
+  "icon": "irons_spellbooks:scroll{ISB_Spells:{data:[{id:\"irons_spellbooks:gluttony\",index:0,level:5,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+  "x": 10.600000000000001,
+  "y": 7,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "irons_spellbooks:scroll",
+      "components": "{ISB_Spells:{data:[{id:\"irons_spellbooks:gluttony\",index:0,level:5,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

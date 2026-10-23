@@ -1,0 +1,29 @@
+{
+  "title": "Feather Bobber",
+  "icon": "tide:feather_bobber",
+  "x": 0.75,
+  "y": 8.825,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "tide:feather_bobber",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

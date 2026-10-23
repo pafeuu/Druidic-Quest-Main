@@ -1,0 +1,31 @@
+{
+  "title": "Hunter III",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"majruszsenchantments:hunter\",lvl:3s}]}",
+  "x": 5.05,
+  "y": 10.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"majruszsenchantments:hunter\",lvl:3s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

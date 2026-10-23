@@ -1,0 +1,29 @@
+{
+  "title": "Melon Jelly",
+  "icon": "fruitsdelight:melon_jelly",
+  "x": 16.6,
+  "y": 9.200000000000001,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:melon_jelly",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Schematicannon",
+  "description": [
+    "Building with Ease"
+  ],
+  "icon": "create:schematicannon",
+  "x": 22.5,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "tier_2/fire_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:schematicannon",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "quark:gunpowder_sack",
+      "count": 5,
+      "type": "item"
+    },
+    {
+      "item": "create:schematic_table",
+      "type": "item"
+    },
+    {
+      "item": "create:empty_schematic",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

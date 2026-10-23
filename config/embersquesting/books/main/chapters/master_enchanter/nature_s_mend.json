@@ -1,0 +1,31 @@
+{
+  "title": "Nature's Mend",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"naturesaura:aura_mending\",lvl:1s}]}",
+  "x": 3.25,
+  "y": 3.9000000000000004,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"naturesaura:aura_mending\",lvl:1s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Amulet Of Mana Boost",
+  "icon": "ars_nouveau:amulet_of_mana_boost",
+  "x": 14.6,
+  "y": 4.199999999999999,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:amulet_of_mana_boost",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Alchemy",
+  "icon": "kubejs:ultimate_alchemical_dust",
+  "order": 12,
+  "scope": "team",
+  "group": "side_questline",
+  "defaults": {
+    "progression": "flexible"
+  }
+}

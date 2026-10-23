@@ -1,0 +1,26 @@
+{
+  "title": "Blazing Core",
+  "icon": "enigmaticlegacy:blazing_core",
+  "x": 17.4,
+  "y": 5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:blazing_core",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

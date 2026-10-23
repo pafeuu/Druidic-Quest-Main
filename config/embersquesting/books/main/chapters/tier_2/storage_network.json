@@ -1,0 +1,49 @@
+{
+  "title": "Storage Network!",
+  "description": [
+    "§b§lCorporea Network§r§r needs a single §b§lMaster Corporea Spark§r§r to function.",
+    "",
+    "Place sparks on top of inventories to connect them.",
+    "",
+    "Note that §b§lMaster Corporea Spark§r§r will not see anything in the inventory it is attatched to.",
+    "",
+    "To use §b§lCorporea Index§r§r connect it with a system using a spark walk into its range and type in chat whatever you want to withdraw from your system. Alternatively you can press §lC§r while hovering over an item."
+  ],
+  "icon": "botania:corporea_index",
+  "x": 23.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "tier_2/air_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:corporea_index",
+      "type": "item"
+    },
+    {
+      "item": "botania:corporea_spark_master",
+      "type": "item"
+    },
+    {
+      "item": "botania:corporea_spark",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    },
+    {
+      "item": "botania:corporea_spark",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "circle"
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Shark Tooth Arrow",
+  "icon": "alexsmobs:shark_tooth_arrow",
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "alexsmobs:shark_tooth_arrow",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

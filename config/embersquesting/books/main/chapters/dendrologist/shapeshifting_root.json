@@ -1,0 +1,30 @@
+{
+  "title": "Shapeshifting Root",
+  "icon": "kubejs:shapeshifting_root",
+  "x": 10,
+  "y": 8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:shapeshifting_root",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

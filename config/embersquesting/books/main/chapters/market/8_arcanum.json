@@ -1,0 +1,32 @@
+{
+  "title": "8 Arcanum",
+  "description": [
+    "1 Gold Coin"
+  ],
+  "icon": "wizards_reborn:arcanum",
+  "x": 9,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "market/market",
+      "tier_1/imbuement_chamber"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "wizards_reborn:arcanum",
+      "count": 8,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

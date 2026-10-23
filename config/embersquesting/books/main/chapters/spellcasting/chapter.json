@@ -1,0 +1,10 @@
+{
+  "title": "Spellcasting",
+  "icon": "ars_nouveau:creative_spell_book",
+  "order": 13,
+  "scope": "team",
+  "group": "side_questline",
+  "defaults": {
+    "progression": "flexible"
+  }
+}

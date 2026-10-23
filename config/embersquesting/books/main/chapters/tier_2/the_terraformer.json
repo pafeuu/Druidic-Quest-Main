@@ -1,0 +1,33 @@
+{
+  "title": "The Terraformer",
+  "description": [
+    "Easy Digging",
+    "With the power of §2The Terraformer§r you can instantly turn basic stone blocks and dirt-like blocks into compost.",
+    "",
+    "Very nice for shaping the terrain around your base."
+  ],
+  "icon": "kubejs:the_terraformer{Damage:0}",
+  "x": 22.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "tier_2/earth_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "kubejs:the_terraformer",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Lavaproof Hook",
+  "icon": "tide:lavaproof_hook",
+  "x": 0.75,
+  "y": 2.025,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "tide:lavaproof_hook",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

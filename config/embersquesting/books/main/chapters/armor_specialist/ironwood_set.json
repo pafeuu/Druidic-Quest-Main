@@ -1,0 +1,49 @@
+{
+  "title": "Ironwood Set",
+  "icon": "twilightforest:ironwood_chestplate{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}",
+  "x": 7.5,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "twilightforest:ironwood_helmet",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:aqua_affinity\",lvl:1s}]}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "twilightforest:ironwood_chestplate",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "twilightforest:ironwood_leggings",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "twilightforest:ironwood_boots",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:feather_falling\",lvl:1s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

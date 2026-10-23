@@ -1,0 +1,32 @@
+{
+  "title": "4 Hamimelon Seeds",
+  "description": [
+    "5 Silver Coins"
+  ],
+  "icon": "fruitsdelight:hamimelon",
+  "x": 3.5,
+  "y": 8,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 5,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "fruitsdelight:hamimelon_seeds",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

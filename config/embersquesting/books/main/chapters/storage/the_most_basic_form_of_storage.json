@@ -1,0 +1,33 @@
+{
+  "title": "The most basic form of storage",
+  "description": [
+    "You dont need any explanation do you?"
+  ],
+  "icon": "minecraft:barrel",
+  "x": 1,
+  "y": 5,
+  "deps": {
+    "any": [
+      "storage/item_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:chest",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:barrel",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:chest",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

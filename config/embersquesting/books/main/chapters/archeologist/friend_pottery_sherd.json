@@ -1,0 +1,28 @@
+{
+  "title": "Friend Pottery Sherd",
+  "icon": "minecraft:friend_pottery_sherd",
+  "y": 3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:friend_pottery_sherd",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

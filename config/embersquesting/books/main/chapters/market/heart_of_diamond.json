@@ -1,0 +1,30 @@
+{
+  "title": "Heart of Diamond",
+  "description": [
+    "1 Netherite Coin"
+  ],
+  "icon": "quark:diamond_heart",
+  "x": 16.5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:netherite_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "quark:diamond_heart",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

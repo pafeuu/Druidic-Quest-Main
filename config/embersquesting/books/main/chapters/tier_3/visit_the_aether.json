@@ -1,0 +1,30 @@
+{
+  "title": "Visit the Aether!",
+  "description": [
+    "The Hostile Paradise"
+  ],
+  "icon": "aether:aether_portal_frame",
+  "x": 10,
+  "y": 6,
+  "deps": {
+    "all": [
+      "tier_3/redstone_core"
+    ]
+  },
+  "tasks": [
+    {
+      "dimension": "aether:the_aether",
+      "type": "location",
+      "icon": "aether:aether_portal_frame"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "supplementaries:cartographers_quill",
+      "components": "{RepairCost:0,display:{Name:'{\"text\":\"Aether Gold Dungeon Map\"}'},targetStructure:\"aether:gold_dungeon\"}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

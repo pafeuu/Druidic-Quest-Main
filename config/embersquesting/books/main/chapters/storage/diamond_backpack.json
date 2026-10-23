@@ -1,0 +1,26 @@
+{
+  "title": "Diamond Backpack",
+  "icon": "sophisticatedbackpacks:diamond_backpack",
+  "x": 4,
+  "y": 14,
+  "deps": {
+    "all": [
+      "storage/gold_backpack"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedbackpacks:diamond_backpack",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

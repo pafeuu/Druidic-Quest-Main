@@ -1,0 +1,37 @@
+{
+  "title": "Hey kid! Want to make a quick buck?",
+  "description": [
+    "No risk! Trust me bro..."
+  ],
+  "icon": "thermal:netherite_coin",
+  "x": 7,
+  "deps": {
+    "all": [
+      "market/market",
+      "introduction/sack"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "supplementaries:sack",
+      "mode": "consume",
+      "type": "item"
+    },
+    {
+      "item": "thermal:gold_coin",
+      "count": 3,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "tier1treasure",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "gear"
+}

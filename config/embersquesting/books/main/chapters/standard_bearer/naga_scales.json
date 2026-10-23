@@ -1,0 +1,28 @@
+{
+  "title": "Naga Scales",
+  "icon": "twilightforest:naga_banner_pattern",
+  "x": 5.5,
+  "y": 3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "twilightforest:naga_banner_pattern",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

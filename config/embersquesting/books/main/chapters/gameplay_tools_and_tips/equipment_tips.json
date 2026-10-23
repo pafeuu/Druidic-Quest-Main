@@ -1,0 +1,28 @@
+{
+  "title": "Equipment Tips",
+  "description": [
+    "Dress for Success!",
+    "Armor, weapons, and tools in the pack are highly specialized. Most armor can be put together into \"sets\" to give additional buffs.",
+    "",
+    "You'll also want to check out all the accessories available! ",
+    "",
+    "§2Equipping yourself appropriately for various situations could make a huge difference!§r"
+  ],
+  "icon": "deep_aether:stormforged_chestplate{Damage:0}",
+  "x": 5.25,
+  "y": 6,
+  "deps": {
+    "all": [
+      "welcome/tips_chapter"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "Expect the Unexpected"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "circle"
+}

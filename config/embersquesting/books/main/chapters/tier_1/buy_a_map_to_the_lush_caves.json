@@ -1,0 +1,36 @@
+{
+  "title": "Buy a Map to the Lush Caves",
+  "description": [
+    "Location is everything!",
+    "Getting to the §l§2Lush Caves§r§r is crucial for the progression of the next chapter!",
+    "",
+    "You can buy map to this biome for just §e4 gold coins!§r"
+  ],
+  "icon": "druidic_quest_core:nature_essence",
+  "x": 23.125,
+  "y": 10.625,
+  "deps": {
+    "all": [
+      "tier_1/imbuement_chamber"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 4,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "quark:pathfinders_quill",
+      "components": "{targetBiome:\"minecraft:lush_caves\"}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "size": 1.25,
+  "shape": "pentagon"
+}

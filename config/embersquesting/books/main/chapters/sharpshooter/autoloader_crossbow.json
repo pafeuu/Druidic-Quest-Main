@@ -1,0 +1,27 @@
+{
+  "title": "Autoloader Crossbow",
+  "icon": "irons_spellbooks:autoloader_crossbow{Damage:0}",
+  "x": 15,
+  "y": 5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:autoloader_crossbow",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

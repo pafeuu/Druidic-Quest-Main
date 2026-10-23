@@ -1,0 +1,30 @@
+{
+  "title": "Acacia Sapling",
+  "description": [
+    "1 Silver Coin"
+  ],
+  "icon": "minecraft:acacia_sapling",
+  "x": 5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:acacia_sapling",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

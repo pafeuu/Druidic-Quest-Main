@@ -1,0 +1,26 @@
+{
+  "title": "Lesser Nature Ring",
+  "icon": "kubejs:lesser_nature_ring",
+  "x": 8.200000000000001,
+  "y": 3.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:lesser_nature_ring",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

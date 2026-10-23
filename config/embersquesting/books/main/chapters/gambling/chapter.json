@@ -1,0 +1,92 @@
+{
+  "title": "Gambling",
+  "icon": "handcrafted:golden_thick_pot",
+  "order": 2,
+  "scope": "team",
+  "group": "money",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -1.3571429,
+      "width": 1.7142857,
+      "height": 1.7142857,
+      "content": {
+        "texture": "quark:textures/item/trowel.png",
+        "type": "image"
+      },
+      "x": 1.6428571
+    },
+    {
+      "y": 1.0714285,
+      "width": 0.85714287,
+      "height": 0.85714287,
+      "content": {
+        "texture": "supplementaries:textures/item/item_shelf.png",
+        "type": "image"
+      },
+      "x": 2.0714285
+    },
+    {
+      "y": 1.0714285,
+      "width": 0.85714287,
+      "height": 0.85714287,
+      "content": {
+        "texture": "supplementaries:textures/item/item_shelf.png",
+        "type": "image"
+      },
+      "x": 0.57142854
+    },
+    {
+      "y": 1.0714285,
+      "width": 0.85714287,
+      "height": 0.85714287,
+      "content": {
+        "texture": "supplementaries:textures/item/item_shelf.png",
+        "type": "image"
+      },
+      "x": 3.5714285
+    },
+    {
+      "y": -1.3571429,
+      "width": 1.7142857,
+      "height": 1.7142857,
+      "content": {
+        "texture": "farmersdelight:textures/item/hamburger.png",
+        "type": "image"
+      },
+      "x": 9.642858
+    },
+    {
+      "y": 1.0714285,
+      "width": 0.85714287,
+      "height": 0.85714287,
+      "content": {
+        "texture": "supplementaries:textures/item/item_shelf.png",
+        "type": "image"
+      },
+      "x": 8.571428
+    },
+    {
+      "y": 1.0714285,
+      "width": 0.85714287,
+      "height": 0.85714287,
+      "content": {
+        "texture": "supplementaries:textures/item/item_shelf.png",
+        "type": "image"
+      },
+      "x": 10.071428
+    },
+    {
+      "y": 1.0714285,
+      "width": 0.85714287,
+      "height": 0.85714287,
+      "content": {
+        "texture": "supplementaries:textures/item/item_shelf.png",
+        "type": "image"
+      },
+      "x": 11.571428
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Basic Alchemical Dust",
+  "icon": "kubejs:basic_alchemical_dust",
+  "x": 2,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "alchemy/infused_diamond",
+      "alchemy/primitive_alchemical_dust"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:basic_alchemical_dust",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "2 Potato Crates",
+  "description": [
+    "3 Silver Coins"
+  ],
+  "icon": "farmersdelight:potato_crate",
+  "x": 5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "market/market",
+      "introduction/potato_farming"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "farmersdelight:potato_crate",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

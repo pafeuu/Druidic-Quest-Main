@@ -1,0 +1,29 @@
+{
+  "title": "Familiar Wixie",
+  "icon": "ars_nouveau:familiar_wixie",
+  "x": 16.999999999999996,
+  "y": 3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:familiar_wixie",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

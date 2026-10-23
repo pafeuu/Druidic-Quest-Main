@@ -1,0 +1,30 @@
+{
+  "title": "Empty Sack",
+  "description": [
+    "1 Gold Coin"
+  ],
+  "icon": "supplementaries:sack",
+  "x": 12,
+  "y": 5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "supplementaries:sack",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Proppeling III",
+  "icon": "wizards_reborn:arcane_enchanted_book{arcaneEnchantments:{\"wizards_reborn:propelling\":3}}",
+  "x": 12.25,
+  "y": 6.6000000000000005,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "wizards_reborn:arcane_enchanted_book",
+      "components": "{arcaneEnchantments:{\"wizards_reborn:propelling\":3}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

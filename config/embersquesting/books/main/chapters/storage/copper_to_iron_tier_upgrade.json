@@ -1,0 +1,19 @@
+{
+  "title": "Copper To Iron Tier Upgrade",
+  "icon": "sophisticatedstorage:copper_to_iron_tier_upgrade",
+  "x": 2,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "storage/basic_to_copper_tier_upgrade"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedstorage:copper_to_iron_tier_upgrade",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

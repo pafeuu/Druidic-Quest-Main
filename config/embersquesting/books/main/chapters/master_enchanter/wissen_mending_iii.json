@@ -1,0 +1,31 @@
+{
+  "title": "Wissen Mending III",
+  "icon": "wizards_reborn:arcane_enchanted_book{arcaneEnchantments:{\"wizards_reborn:wissen_mending\":3}}",
+  "x": 10.45,
+  "y": 3.9000000000000004,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "wizards_reborn:arcane_enchanted_book",
+      "components": "{arcaneEnchantments:{\"wizards_reborn:wissen_mending\":3}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

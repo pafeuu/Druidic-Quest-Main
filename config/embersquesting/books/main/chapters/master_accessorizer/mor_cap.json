@@ -1,0 +1,26 @@
+{
+  "title": "Mor Cap",
+  "icon": "wizards_reborn:mor_cap",
+  "x": 12.6,
+  "y": 4.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:mor_cap",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

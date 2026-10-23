@@ -1,0 +1,31 @@
+{
+  "title": "Anaconda",
+  "description": [
+    "1 Netherite Coin"
+  ],
+  "icon": "alexsmobs:spawn_egg_anaconda",
+  "x": 16.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:netherite_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "supplementaries:cage",
+      "components": "{BlockEntityTag:{MobHolder:{EntityData:{Pos:[0.5d,0.20009998807907103d,0.5d],id:\"alexsmobs:anaconda\"},Name:\"Anaconda\",UUID:[I;719858050,1469468379,-1314582237,-2119634646]}}}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

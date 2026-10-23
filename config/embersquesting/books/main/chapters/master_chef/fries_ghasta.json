@@ -1,0 +1,30 @@
+{
+  "title": "Fries Ghasta",
+  "icon": "mynethersdelight:fries_ghasta",
+  "x": 1.1999999999999993,
+  "y": 6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mynethersdelight:fries_ghasta",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

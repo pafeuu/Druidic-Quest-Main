@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Chirp",
+  "icon": "minecraft:music_disc_chirp",
+  "x": 1.5,
+  "y": 10,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:music_disc_chirp",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

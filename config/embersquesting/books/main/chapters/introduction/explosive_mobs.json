@@ -1,0 +1,46 @@
+{
+  "title": "Explosive Mobs",
+  "description": [
+    "Crafting with a Bang!",
+    "",
+    "To get to the next chapter, you're gonna need to blow some stuff up.",
+    "",
+    "You can use either mobs or tnt to complete explosion crafting recipes.",
+    {
+      "width": 96,
+      "height": 96,
+      "texture": "entity:textures/minecraft:creeper[rotate=true].png",
+      "type": "image"
+    }
+  ],
+  "icon": "minecraft:gunpowder",
+  "x": 8.5,
+  "y": 10,
+  "deps": {
+    "all": [
+      "introduction/primitive_saw"
+    ]
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:creeper",
+      "type": "observe",
+      "title": "Look at the creeper",
+      "icon": "handcrafted:creeper_trophy"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:gunpowder",
+      "count": 2,
+      "type": "item"
+    },
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

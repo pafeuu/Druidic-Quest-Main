@@ -1,0 +1,31 @@
+{
+  "title": "Wooden Sword",
+  "icon": "minecraft:wooden_sword{Damage:0}",
+  "x": 0.45000000000000107,
+  "y": 13.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "minecraft:wooden_sword",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Red Loin On A Stick",
+  "icon": "mynethersdelight:red_loin_on_a_stick",
+  "x": 8.4,
+  "y": 8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mynethersdelight:red_loin_on_a_stick",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Decoration Table",
+  "description": [
+    "Storage with Style!",
+    "You can now easily modify the look of your storage containers with the help of the Decoration Table. Your options are limitless!",
+    "",
+    "You can even apply your decorations to the containers in-world with the help of the Paintbrush!"
+  ],
+  "icon": "sophisticatedstorage:decoration_table",
+  "x": 3,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "welcome/tips_chapter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedstorage:decoration_table",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "sophisticatedstorage:basic_to_iron_tier_upgrade",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "circle"
+}

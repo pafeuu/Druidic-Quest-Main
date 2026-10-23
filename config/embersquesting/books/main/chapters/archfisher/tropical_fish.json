@@ -1,0 +1,29 @@
+{
+  "title": "Tropical Fish",
+  "icon": "minecraft:tropical_fish",
+  "x": 6.275,
+  "y": 2.45,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:tropical_fish",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

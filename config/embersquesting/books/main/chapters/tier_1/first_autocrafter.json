@@ -1,0 +1,29 @@
+{
+  "title": "First Autocrafter",
+  "description": [
+    "Basic Magical Crafting",
+    ""
+  ],
+  "icon": "botania:crafty_crate",
+  "x": 19,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "tier_1/first_machine_casing"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:crafty_crate",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

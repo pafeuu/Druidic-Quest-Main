@@ -1,0 +1,29 @@
+{
+  "title": "Activated Bastion Jam",
+  "icon": "arsdelight:activated_bastion_jam",
+  "x": 15,
+  "y": 8.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "arsdelight:activated_bastion_jam",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

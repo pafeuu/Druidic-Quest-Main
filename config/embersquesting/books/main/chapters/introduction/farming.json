@@ -1,0 +1,45 @@
+{
+  "title": "Farming",
+  "description": [
+    "Ah, the simple life...",
+    "",
+    "§aHoes now till blocks in 3x3 or more depending on the hoe! They do take 6 times more durability, no matter how many blocks you till. To till in an AoE you are going to need to crouch§r",
+    "",
+    "Tons of crops now have uses in progression. For example, you will need to grow:",
+    "",
+    "-wheat to finish §3§ltier 0§r§r  ",
+    "",
+    "-potatoes for machines in§9 §ltier 1§r",
+    "",
+    "-beetroot to craft §5§lcapsids§r§r which can transport items up, as well as insert items into containers",
+    "",
+    "Hoes can harvest in a 3x3 or 5x5 depending on the quality of the hoe."
+  ],
+  "icon": "minecraft:wooden_hoe{Damage:0}",
+  "x": 12.5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "introduction/different_tools"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(minecraft:stone_hoe) item(minecraft:wooden_hoe))",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "quark:seed_pouch",
+      "components": "{itemCount:16,storedItem:{Count:1b,id:\"supplementaries:flax_seeds\"}}",
+      "type": "item"
+    },
+    {
+      "item": "solonion:lunchbag",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Innocent Wood Sapling",
+  "icon": "wizards_reborn:innocent_wood_sapling",
+  "x": 8,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:innocent_wood_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:coarse_dirt",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

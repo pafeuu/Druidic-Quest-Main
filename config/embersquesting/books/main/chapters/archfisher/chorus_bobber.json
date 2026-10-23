@@ -1,0 +1,29 @@
+{
+  "title": "Chorus Bobber",
+  "icon": "tide:chorus_bobber",
+  "x": 0.3250000000000002,
+  "y": 7.975,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "tide:chorus_bobber",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

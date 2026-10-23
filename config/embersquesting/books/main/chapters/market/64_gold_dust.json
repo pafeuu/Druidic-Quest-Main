@@ -1,0 +1,32 @@
+{
+  "title": "64 Gold Dust",
+  "description": [
+    "1 Gold Coin"
+  ],
+  "icon": "naturesaura:gold_powder",
+  "x": 13.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "market/market",
+      "introduction/assemble_the_ritual"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "naturesaura:gold_powder",
+      "count": 64,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Ultimate Automation Tools",
+  "description": [
+    "§4§owork in progress§r§r"
+  ],
+  "x": 9.5,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "introduction/the_big_oven"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "item transportation"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

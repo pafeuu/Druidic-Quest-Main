@@ -1,0 +1,32 @@
+{
+  "title": "Hellrazor",
+  "icon": "irons_spellbooks:hellrazor{Damage:0,\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:raise_hell\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
+  "x": 12.15,
+  "y": 2.3999999999999995,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:hellrazor",
+      "components": "{Damage:0,\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:raise_hell\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

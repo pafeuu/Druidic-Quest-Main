@@ -1,0 +1,25 @@
+{
+  "title": "Thicc Scroll",
+  "icon": "enigmaticlegacy:thicc_scroll",
+  "x": 25.5,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "tier_1/imbuement_chamber"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:thicc_scroll",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

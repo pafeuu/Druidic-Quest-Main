@@ -1,0 +1,29 @@
+{
+  "title": "Hawberry Sheet",
+  "icon": "fruitsdelight:hawberry_sheet",
+  "x": 8.6,
+  "y": 1.200000000000001,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:hawberry_sheet",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

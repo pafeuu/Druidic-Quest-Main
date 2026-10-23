@@ -1,0 +1,36 @@
+{
+  "title": "Arcanist Hammer",
+  "description": [
+    "Pound it!"
+  ],
+  "icon": "druidic_quest_core:arcanist_hammer{Damage:0}",
+  "x": 21,
+  "y": 9,
+  "deps": {
+    "all": [
+      "introduction/arcane_arts"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "druidic_quest_core:arcanist_hammer",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:coal",
+      "count": 8,
+      "type": "item"
+    },
+    {
+      "item": "thermal:copper_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

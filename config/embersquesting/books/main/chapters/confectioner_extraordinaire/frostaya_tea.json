@@ -1,0 +1,29 @@
+{
+  "title": "Frostaya Tea",
+  "icon": "arsdelight:frostaya_tea",
+  "x": 3,
+  "y": 1.5999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "arsdelight:frostaya_tea",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

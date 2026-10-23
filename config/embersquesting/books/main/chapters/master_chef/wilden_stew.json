@@ -1,0 +1,29 @@
+{
+  "title": "Wilden Stew",
+  "icon": "arsdelight:wilden_stew",
+  "x": 9.6,
+  "y": 4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "arsdelight:wilden_stew",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Relish Mason Jar",
+  "icon": "vintagedelight:relish_mason_jar",
+  "x": 0.3999999999999986,
+  "y": 8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "vintagedelight:relish_mason_jar",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

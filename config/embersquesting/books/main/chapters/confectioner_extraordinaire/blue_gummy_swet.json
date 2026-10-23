@@ -1,0 +1,29 @@
+{
+  "title": "Blue Gummy Swet",
+  "icon": "aether:blue_gummy_swet",
+  "x": 7,
+  "y": 2.000000000000001,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "aether:blue_gummy_swet",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

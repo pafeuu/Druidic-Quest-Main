@@ -1,0 +1,34 @@
+{
+  "title": "Important Piece of Equipment",
+  "description": [
+    "Finally! More range!",
+    "Right click to activate. When active, the eye gives +1.5 block reach for the cost of some unholy resistance and one heart."
+  ],
+  "icon": "enigmaticlegacy:enigmatic_eye",
+  "x": 21,
+  "y": 11,
+  "deps": {
+    "all": [
+      "introduction/arcane_arts"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:enigmatic_eye",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:beetroot_soup",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "enigmaticlegacy:extradimensional_eye",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

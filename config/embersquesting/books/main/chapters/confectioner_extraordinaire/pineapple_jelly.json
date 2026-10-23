@@ -1,0 +1,29 @@
+{
+  "title": "Pineapple Jelly",
+  "icon": "fruitsdelight:pineapple_jelly",
+  "x": 17.400000000000002,
+  "y": 10,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:pineapple_jelly",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

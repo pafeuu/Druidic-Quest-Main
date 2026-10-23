@@ -1,0 +1,30 @@
+{
+  "title": "Wixie Charm",
+  "description": [
+    "The cutest autocrafting around!",
+    ""
+  ],
+  "icon": "ars_nouveau:wixie_charm",
+  "x": 19,
+  "y": 2,
+  "deps": {
+    "all": [
+      "tier_1/first_autocrafter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:wixie_charm",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "kubejs:infused_amethyst",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Firel The Wild Hunt",
+  "icon": "ars_nouveau:music_disc_firel_the_wild_hunt",
+  "x": 12.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:music_disc_firel_the_wild_hunt",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

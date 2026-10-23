@@ -1,0 +1,25 @@
+{
+  "title": "Ancient Sword",
+  "icon": "ancient_aether:ancient_sword{Damage:0}",
+  "x": 9.45,
+  "y": 2.3999999999999995,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "ancient_aether:ancient_sword",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

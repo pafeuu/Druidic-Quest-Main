@@ -1,0 +1,26 @@
+{
+  "title": "Shield Of Remediation",
+  "icon": "ancient_aether:shield_of_remediation",
+  "x": 23.8,
+  "y": 5.799999999999999,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ancient_aether:shield_of_remediation",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

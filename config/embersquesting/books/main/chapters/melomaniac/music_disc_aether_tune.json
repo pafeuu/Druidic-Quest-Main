@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Aether Tune",
+  "icon": "aether:music_disc_aether_tune",
+  "x": 8,
+  "y": 6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "aether:music_disc_aether_tune",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Chill Blade",
+  "icon": "kubejs:chill_blade{Damage:0}",
+  "x": 3.1500000000000004,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "kubejs:chill_blade",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

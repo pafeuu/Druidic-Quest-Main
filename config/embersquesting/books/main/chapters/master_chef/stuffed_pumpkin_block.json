@@ -1,0 +1,29 @@
+{
+  "title": "Stuffed Pumpkin Block",
+  "icon": "farmersdelight:stuffed_pumpkin_block",
+  "x": 12.8,
+  "y": 9.600000000000001,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:stuffed_pumpkin_block",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

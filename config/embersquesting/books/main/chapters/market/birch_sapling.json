@@ -1,0 +1,31 @@
+{
+  "title": "Birch Sapling",
+  "description": [
+    "1 Silver Coin"
+  ],
+  "icon": "minecraft:birch_sapling",
+  "x": 2,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:birch_sapling",
+      "type": "item",
+      "auto": "claim"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

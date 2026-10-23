@@ -1,0 +1,33 @@
+{
+  "title": "Baobab Sapling",
+  "icon": "biomeswevegone:baobab_sapling",
+  "x": 14,
+  "y": 14,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "biomeswevegone:baobab_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:coarse_dirt",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

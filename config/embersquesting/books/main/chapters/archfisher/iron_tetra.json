@@ -1,0 +1,29 @@
+{
+  "title": "Iron Tetra",
+  "icon": "tide:iron_tetra",
+  "x": 9.675,
+  "y": 11.375,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "tide:iron_tetra",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

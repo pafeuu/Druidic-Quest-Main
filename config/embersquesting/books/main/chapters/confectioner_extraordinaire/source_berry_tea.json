@@ -1,0 +1,29 @@
+{
+  "title": "Source Berry Tea",
+  "icon": "arsdelight:source_berry_tea",
+  "x": 3.799999999999999,
+  "y": 1.5999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "arsdelight:source_berry_tea",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

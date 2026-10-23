@@ -1,0 +1,29 @@
+{
+  "title": "Blueberry Pie",
+  "icon": "biomeswevegone:blueberry_pie",
+  "x": 15,
+  "y": 2.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "biomeswevegone:blueberry_pie",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

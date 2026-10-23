@@ -1,0 +1,29 @@
+{
+  "title": "Record Gaia 1",
+  "icon": "botania:record_gaia_1",
+  "x": 4.75,
+  "y": 7.0535714285714235,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:record_gaia_1",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

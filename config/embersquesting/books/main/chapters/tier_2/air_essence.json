@@ -1,0 +1,28 @@
+{
+  "title": "Air Essence",
+  "description": [
+    "Light as a feather!"
+  ],
+  "icon": "ars_nouveau:air_essence",
+  "x": 20,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "tier_2/elemental_arcanum"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:air_essence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

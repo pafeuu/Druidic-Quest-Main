@@ -1,0 +1,26 @@
+{
+  "title": "Expect the Unexpected",
+  "description": [
+    "It's an expert pack, after all...",
+    "§2Druidic Quest§r strives to give you a wholly unique experience in Minecraft!  While you may recognize many mods included in this modpack, there is much that may surprise you along the way.",
+    "",
+    "With comprehensive mod-integration enhanced by exclusive content, §2Druidic Quest§r will push you to innovate new methods of automation by mixing the powers of magic and machinery!"
+  ],
+  "icon": "kubejs:andesite_machine",
+  "x": 5.25,
+  "y": 3,
+  "deps": {
+    "all": [
+      "welcome/tips_chapter"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "Expect the Unexpected"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.5,
+  "shape": "octagon"
+}

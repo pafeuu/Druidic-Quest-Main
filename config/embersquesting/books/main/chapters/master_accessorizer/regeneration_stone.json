@@ -1,0 +1,26 @@
+{
+  "title": "Regeneration Stone",
+  "icon": "aether:regeneration_stone",
+  "x": 22.2,
+  "y": 6.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "aether:regeneration_stone",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

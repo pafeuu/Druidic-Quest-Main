@@ -1,0 +1,26 @@
+{
+  "title": "Shapers Focus",
+  "icon": "ars_nouveau:shapers_focus",
+  "x": 15.4,
+  "y": 3.399999999999999,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:shapers_focus",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

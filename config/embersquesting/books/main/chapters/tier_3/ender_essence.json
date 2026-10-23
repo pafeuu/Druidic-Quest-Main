@@ -1,0 +1,31 @@
+{
+  "title": "Ender Essence",
+  "icon": "kubejs:ender_essence",
+  "x": 4,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "tier_3/elemental_binder"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:ender_essence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ars_nouveau:fire_essence",
+      "count": 2,
+      "type": "item"
+    },
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Bamboo Spikes",
+  "icon": "supplementaries:bamboo_spikes",
+  "x": 19,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "automation/mob_damaging"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "supplementaries:bamboo_spikes",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Primitive Saw",
+  "description": [
+    "Easier Planks",
+    "§4Remember that flint does not drop from gravel anymore. You will have to craft it using 4 gravel in the crafting grid.",
+    "§r",
+    "The saw allows you to make planks in a more efficient way. Holding a saw in one hand and stripped logs in the other will give you 3x more planks than using an axe."
+  ],
+  "icon": "kubejs:primitive_saw{Damage:0}",
+  "x": 8.5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "introduction/crafting_table"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "kubejs:primitive_saw",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 5,
+      "type": "item"
+    },
+    {
+      "item": "create:sand_paper",
+      "components": "{Damage:128}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

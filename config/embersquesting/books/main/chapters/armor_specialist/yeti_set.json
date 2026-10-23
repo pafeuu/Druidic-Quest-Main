@@ -1,0 +1,49 @@
+{
+  "title": "Yeti Set",
+  "icon": "twilightforest:yeti_chestplate{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s}]}",
+  "x": 14.5,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "twilightforest:yeti_helmet",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s}]}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "twilightforest:yeti_chestplate",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s}]}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "twilightforest:yeti_leggings",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s}]}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "twilightforest:yeti_boots",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:feather_falling\",lvl:4s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

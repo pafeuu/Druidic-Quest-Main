@@ -1,0 +1,26 @@
+{
+  "title": "Hoppers!",
+  "icon": "woodenhopper:wooden_hopper",
+  "x": 4,
+  "y": 9,
+  "deps": {
+    "any": [
+      "automation/item_entity_transportation"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "woodenhopper:wooden_hopper",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:hopper",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

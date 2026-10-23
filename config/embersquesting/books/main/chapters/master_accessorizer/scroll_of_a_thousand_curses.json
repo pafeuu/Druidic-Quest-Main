@@ -1,0 +1,32 @@
+{
+  "title": "Scroll of a Thousand Curses",
+  "icon": "enigmaticlegacy:cursed_scroll",
+  "x": 0.1999999999999993,
+  "y": 2.5999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "stat": "enigmaticlegacy:play_time_with_seven_curses",
+      "min": 1,
+      "type": "stat",
+      "icon": "enigmaticlegacy:evil_essence"
+    },
+    {
+      "item": "enigmaticlegacy:cursed_scroll",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Silver Dust",
+  "description": [
+    "Right clicking §bbasic alchemical dust§r on infested stones might get you some silver dust.",
+    "",
+    "§o§8But beware of the consequences...§r§r"
+  ],
+  "icon": "thermal:silver_dust",
+  "x": 0.5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "alchemy/basic_alchemical_dust"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_dust",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

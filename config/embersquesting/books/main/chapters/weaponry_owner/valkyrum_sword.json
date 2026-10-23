@@ -1,0 +1,32 @@
+{
+  "title": "Valkyrum Sword",
+  "icon": "ancient_aether:valkyrum_sword{Damage:0}",
+  "x": 7.65,
+  "y": 4.199999999999999,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "ancient_aether:valkyrum_sword",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

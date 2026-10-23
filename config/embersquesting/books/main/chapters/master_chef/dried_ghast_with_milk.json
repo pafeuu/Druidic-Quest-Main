@@ -1,0 +1,30 @@
+{
+  "title": "Dried Ghast With Milk",
+  "icon": "mynethersdelight:dried_ghast_with_milk",
+  "x": 3.1999999999999993,
+  "y": 1.5999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mynethersdelight:dried_ghast_with_milk",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

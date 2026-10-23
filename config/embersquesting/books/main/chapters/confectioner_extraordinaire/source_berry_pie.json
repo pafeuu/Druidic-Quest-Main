@@ -1,0 +1,29 @@
+{
+  "title": "Source Berry Pie",
+  "icon": "ars_nouveau:source_berry_pie",
+  "x": 17.4,
+  "y": 3.6000000000000005,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:source_berry_pie",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

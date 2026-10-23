@@ -1,0 +1,26 @@
+{
+  "title": "Eye Improved",
+  "icon": "naturesaura:eye_improved",
+  "x": 9.4,
+  "y": 4.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:eye_improved",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

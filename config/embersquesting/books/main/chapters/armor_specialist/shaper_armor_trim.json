@@ -1,0 +1,28 @@
+{
+  "title": "Shaper Armor Trim",
+  "icon": "minecraft:shaper_armor_trim_smithing_template",
+  "x": 10,
+  "y": 1,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:shaper_armor_trim_smithing_template",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

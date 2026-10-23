@@ -1,0 +1,29 @@
+{
+  "title": "Holy Upgrade Orb",
+  "icon": "irons_spellbooks:holy_upgrade_orb",
+  "x": 5.3999999999999995,
+  "y": 2.5999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:holy_upgrade_orb",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

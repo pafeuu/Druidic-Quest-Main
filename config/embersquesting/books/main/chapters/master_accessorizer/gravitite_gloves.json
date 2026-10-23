@@ -1,0 +1,28 @@
+{
+  "title": "Gravitite Gloves",
+  "icon": "aether:gravitite_gloves{Damage:0}",
+  "x": 6.2,
+  "y": 3.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "aether:gravitite_gloves",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

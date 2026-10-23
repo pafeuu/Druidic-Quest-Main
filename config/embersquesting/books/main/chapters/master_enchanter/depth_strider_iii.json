@@ -1,0 +1,31 @@
+{
+  "title": "Depth Strider III",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:depth_strider\",lvl:3s}]}",
+  "x": 10.45,
+  "y": 1.200000000000001,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"minecraft:depth_strider\",lvl:3s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Jelly Bread",
+  "icon": "fruitsdelight:jelly_bread{JellyEffectRoot:[\"HAMIMELON\"]}",
+  "x": 8.999999999999998,
+  "y": 4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "fruitsdelight:jelly_bread",
+      "components": "{JellyEffectRoot:[\"HAMIMELON\"]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

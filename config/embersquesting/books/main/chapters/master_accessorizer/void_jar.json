@@ -1,0 +1,26 @@
+{
+  "title": "Void Jar",
+  "icon": "ars_nouveau:void_jar",
+  "x": 15.4,
+  "y": 5.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:void_jar",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

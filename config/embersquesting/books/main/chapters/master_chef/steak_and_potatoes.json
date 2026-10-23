@@ -1,0 +1,29 @@
+{
+  "title": "Steak And Potatoes",
+  "icon": "farmersdelight:steak_and_potatoes",
+  "x": 15.2,
+  "y": 3.5999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:steak_and_potatoes",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "title": "The Big Oven",
+  "description": [
+    "Heatin' Up!",
+    "The §2§lAuric Concetrator§r§r is built by making a 3x3x3 cube of Auric Infused Bricks. To form the multiblock, right click it with an Arcanist's Hammer.",
+    "",
+    "It will take coal and transform it into coal coke and liquid coal essence, both necessary for further progression.",
+    "",
+    "§2✨ Congratulations on finishing your first chapter!§r",
+    "",
+    "§9✨ If you are enjoying the pack so far, be sure to visit our Discord to share your thoughts about it.§r",
+    "",
+    "§d✨ Your feedback and bug reports are crucial to the pack development!§r"
+  ],
+  "icon": "naturesaura_plus:auric_oven_brick",
+  "x": 24,
+  "y": 8,
+  "deps": {
+    "any": [
+      "introduction/brick_glue",
+      "introduction/arcanist_hammer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura_plus:auric_oven_brick",
+      "count": 27,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "waystones2",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "rsquare"
+}

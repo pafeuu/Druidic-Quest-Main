@@ -1,0 +1,26 @@
+{
+  "title": "Magnet Ring",
+  "icon": "botania:magnet_ring",
+  "x": 16.6,
+  "y": 3.0000000000000004,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:magnet_ring",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

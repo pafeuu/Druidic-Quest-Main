@@ -1,0 +1,28 @@
+{
+  "title": "Uranias Pisces",
+  "icon": "tide:uranias_pisces{FishLength:200.0d}",
+  "x": 7.975,
+  "y": 6.7,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:uranias_pisces",
+      "components": "{FishLength:200.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle"
+}

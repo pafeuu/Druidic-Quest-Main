@@ -1,0 +1,26 @@
+{
+  "title": "Angel Blessing",
+  "icon": "enigmaticlegacy:angel_blessing",
+  "x": 23,
+  "y": 14.5,
+  "deps": {
+    "all": [
+      "tier_2/elemental_core"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:angel_blessing",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

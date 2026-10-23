@@ -1,0 +1,50 @@
+{
+  "title": "Assemble the Ritual",
+  "description": [
+    "First Magical Ritual",
+    "Right click a stripped log with a §egold leaf§r in one hand and a §2knife§r in the other to turn it into a wooden stand.",
+    "",
+    "Items used in the ritual do not need to be placed in exact order.",
+    "",
+    "The tree in the middle must grow in order to obtain the result from the recipe.",
+    "",
+    "§aYou will need to place a sapling and new gold powder after every recipe, so make sure to mark the position of each.§r",
+    "",
+    "This pack includes custom §2ponders§r. Holding \"W\" while hovering over an item with an available ponder will display a schematic with an explanation on how to use it."
+  ],
+  "icon": "naturesaura:wood_stand",
+  "x": 14.5,
+  "y": 10,
+  "deps": {
+    "all": [
+      "introduction/golden_flower"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:gold_powder",
+      "count": 16,
+      "type": "item"
+    },
+    {
+      "item": "naturesaura:wood_stand",
+      "count": 8,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "naturesaura:gold_leaf",
+      "count": 8,
+      "type": "item"
+    },
+    {
+      "item": "create:tree_fertilizer",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "complete": "any",
+  "shape": "rsquare"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Steel Sword",
+  "icon": "druidic_quest_core:steel_sword",
+  "x": 9.45,
+  "y": 6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "druidic_quest_core:steel_sword",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

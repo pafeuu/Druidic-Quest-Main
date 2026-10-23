@@ -1,0 +1,49 @@
+{
+  "title": "Iron Set",
+  "icon": "minecraft:iron_chestplate{Damage:0}",
+  "x": 9.5,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "minecraft:iron_helmet",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "minecraft:iron_chestplate",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "minecraft:iron_leggings",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "minecraft:iron_boots",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

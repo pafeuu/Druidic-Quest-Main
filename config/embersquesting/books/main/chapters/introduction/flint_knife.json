@@ -1,0 +1,34 @@
+{
+  "title": "Flint Knife",
+  "description": [
+    "Now, modded grass variants will drop straw like vanilla grass when broken with a knife!",
+    "",
+    "Harvesting crops like wheat and flax with the knife will drop straw every time.",
+    "",
+    "Animals give more drops when killed with a knife. This is affected by Looting."
+  ],
+  "icon": "farmersdelight:flint_knife{Damage:0}",
+  "x": 16.5,
+  "y": 6,
+  "deps": {
+    "all": [
+      "introduction/primitive_mortar"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "farmersdelight:flint_knife",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "farmersdelight:bacon_sandwich",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Keeper Flamberge",
+  "icon": "irons_spellbooks:keeper_flamberge{Damage:0}",
+  "x": 7.65,
+  "y": 6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:keeper_flamberge",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Farm Animal of Choice",
+  "description": [
+    "6 Gold Coins"
+  ],
+  "icon": "minecraft:cow_spawn_egg",
+  "x": 13.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 6,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "farm_animals",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

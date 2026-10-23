@@ -1,0 +1,26 @@
+{
+  "title": "Aura Trove",
+  "icon": "naturesaura:aura_trove",
+  "x": 9.4,
+  "y": 3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:aura_trove",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

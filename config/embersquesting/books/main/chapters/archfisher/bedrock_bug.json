@@ -1,0 +1,31 @@
+{
+  "title": "Bedrock Bug",
+  "icon": "tide:bedrock_bug{FishLength:3.75d}",
+  "x": 10.524999999999999,
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:bedrock_bug",
+      "components": "{FishLength:3.75d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

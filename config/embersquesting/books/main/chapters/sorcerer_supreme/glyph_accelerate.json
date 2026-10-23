@@ -1,0 +1,29 @@
+{
+  "title": "Glyph Accelerate",
+  "icon": "ars_nouveau:glyph_accelerate",
+  "x": 14.600000000000001,
+  "y": 8.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_accelerate",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

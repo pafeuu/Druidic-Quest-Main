@@ -1,0 +1,27 @@
+{
+  "title": "Mana Spreader",
+  "description": [
+    "How do I move Source?"
+  ],
+  "icon": "botania:mana_spreader",
+  "x": 5.5,
+  "y": 9,
+  "deps": {
+    "all": [
+      "tier_2/source_generators"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:mana_spreader",
+      "type": "item"
+    },
+    {
+      "tag": "botania:lens",
+      "type": "item",
+      "title": "Any #botania:lens"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

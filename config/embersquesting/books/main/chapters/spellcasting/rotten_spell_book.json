@@ -1,0 +1,23 @@
+{
+  "title": "Rotten Spell Book",
+  "description": [
+    "8 Spell Slots"
+  ],
+  "icon": "irons_spellbooks:rotten_spell_book{ISB_Spells:{data:[],maxSpells:8,mustEquip:1b,spellWheel:1b}}",
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "tier_1/copper_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:rotten_spell_book",
+      "components": "{ISB_Spells:{data:[],maxSpells:8,mustEquip:1b,spellWheel:1b}}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

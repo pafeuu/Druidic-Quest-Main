@@ -1,0 +1,32 @@
+{
+  "title": "4 Glowberries",
+  "description": [
+    "5 Silver Coins"
+  ],
+  "icon": "minecraft:glow_berries",
+  "x": 2,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 5,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:glow_berries",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

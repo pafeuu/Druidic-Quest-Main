@@ -1,0 +1,26 @@
+{
+  "title": "Poisonward Ring",
+  "icon": "irons_spellbooks:poisonward_ring",
+  "x": 11.4,
+  "y": 3.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:poisonward_ring",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

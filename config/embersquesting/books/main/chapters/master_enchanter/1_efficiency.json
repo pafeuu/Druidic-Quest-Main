@@ -1,0 +1,31 @@
+{
+  "title": "+1 Efficiency",
+  "icon": "quark:ancient_tome{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5s}]}",
+  "x": 5.95,
+  "y": 3.9000000000000004,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "quark:ancient_tome",
+      "components": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

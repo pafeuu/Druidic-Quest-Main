@@ -1,0 +1,30 @@
+{
+  "title": "Candy Cane",
+  "icon": "aether:candy_cane",
+  "x": 10.200000000000001,
+  "y": 2.0000000000000004,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "aether:candy_cane",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

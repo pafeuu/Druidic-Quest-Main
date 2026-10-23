@@ -1,0 +1,55 @@
+{
+  "title": "First Jewelry",
+  "description": [
+    "So sparkly!",
+    "Jewelry is a big part of the modpack. Putting together a good set of curios might be necessary to survive in this cruel world."
+  ],
+  "icon": "enigmaticlegacy:iron_ring",
+  "x": 22,
+  "y": 10,
+  "deps": {
+    "all": [
+      "introduction/arcane_arts"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:magnet_ring",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:tin_ring",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:diamond_ring",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:nickel_ring",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:tin_pendant",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:diamond_pendant",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:nickel_pendant",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "shape": "circle"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Naga Set",
+  "icon": "twilightforest:naga_chestplate{Damage:0,Enchantments:[{id:\"minecraft:fire_protection\",lvl:3s}]}",
+  "x": 8.5,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "twilightforest:naga_chestplate",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:fire_protection\",lvl:3s}]}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "twilightforest:naga_leggings",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:3s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

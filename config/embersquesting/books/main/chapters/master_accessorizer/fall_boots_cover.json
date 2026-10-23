@@ -1,0 +1,26 @@
+{
+  "title": "Fall Boots Cover",
+  "icon": "kubejs:fall_boots_cover",
+  "x": 7.4,
+  "y": 6.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:fall_boots_cover",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

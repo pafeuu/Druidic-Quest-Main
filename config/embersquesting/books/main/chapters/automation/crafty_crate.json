@@ -1,0 +1,22 @@
+{
+  "title": "Crafty Crate",
+  "icon": "botania:crafty_crate",
+  "x": 9.5,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "automation/auto_crafting"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:crafty_crate",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

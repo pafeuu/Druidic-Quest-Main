@@ -1,0 +1,30 @@
+{
+  "title": "Diamond Fishing Rod",
+  "icon": "tide:diamond_fishing_rod{Damage:0,modifier:{bobber:{},hook:{},line:{}}}",
+  "x": 5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:diamond_fishing_rod",
+      "components": "{Damage:0,modifier:{bobber:{},hook:{},line:{}}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Thread Amethyst Golem",
+  "icon": "ars_nouveau:thread_amethyst_golem",
+  "x": 17,
+  "y": 0.5999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:thread_amethyst_golem",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

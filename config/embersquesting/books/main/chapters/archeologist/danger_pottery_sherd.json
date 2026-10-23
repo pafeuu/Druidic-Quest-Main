@@ -1,0 +1,29 @@
+{
+  "title": "Danger Pottery Sherd",
+  "icon": "minecraft:danger_pottery_sherd",
+  "x": 4.5,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:danger_pottery_sherd",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

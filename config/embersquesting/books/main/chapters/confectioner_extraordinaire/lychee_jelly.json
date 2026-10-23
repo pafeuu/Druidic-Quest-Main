@@ -1,0 +1,29 @@
+{
+  "title": "Lychee Jelly",
+  "icon": "fruitsdelight:lychee_jelly",
+  "x": 18.2,
+  "y": 9.200000000000001,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:lychee_jelly",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

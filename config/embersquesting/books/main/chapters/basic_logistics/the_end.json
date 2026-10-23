@@ -1,0 +1,35 @@
+{
+  "title": "The end!",
+  "description": [
+    "For now...",
+    "§4§lFor now you've beaten the pack!",
+    "",
+    "More stuff to come§r§r",
+    {
+      "width": 96,
+      "height": 96,
+      "texture": "entity:textures/minecraft:ender_dragon[rotate=true].png",
+      "type": "image"
+    }
+  ],
+  "icon": "minecraft:dragon_egg",
+  "x": 5,
+  "deps": {
+    "all": [
+      "basic_logistics/visit_the_end_dimension"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:dragonskin",
+      "type": "item"
+    },
+    {
+      "entity": "minecraft:ender_dragon",
+      "type": "kill"
+    }
+  ],
+  "visibility": "hidden",
+  "complete": "any",
+  "shape": "rsquare"
+}

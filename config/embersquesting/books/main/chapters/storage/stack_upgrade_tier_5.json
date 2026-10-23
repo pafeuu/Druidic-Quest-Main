@@ -1,0 +1,18 @@
+{
+  "title": "Stack Upgrade Tier 5",
+  "icon": "sophisticatedstorage:stack_upgrade_tier_5",
+  "y": 15.5,
+  "deps": {
+    "all": [
+      "storage/stack_upgrade_tier_4"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedstorage:stack_upgrade_tier_5",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

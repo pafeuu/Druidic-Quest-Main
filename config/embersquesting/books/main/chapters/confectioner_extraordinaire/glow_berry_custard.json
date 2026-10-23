@@ -1,0 +1,29 @@
+{
+  "title": "Glow Berry Custard",
+  "icon": "farmersdelight:glow_berry_custard",
+  "x": 1.799999999999999,
+  "y": 4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:glow_berry_custard",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

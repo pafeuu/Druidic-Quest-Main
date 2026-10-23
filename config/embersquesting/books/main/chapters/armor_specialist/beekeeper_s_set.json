@@ -1,0 +1,46 @@
+{
+  "title": "Beekeeper's Set",
+  "icon": "thermal:beekeeper_chestplate{Damage:0}",
+  "x": 8.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "thermal:beekeeper_helmet",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "thermal:beekeeper_chestplate",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "thermal:beekeeper_leggings",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "thermal:beekeeper_boots",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

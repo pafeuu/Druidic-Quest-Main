@@ -1,0 +1,26 @@
+{
+  "title": "Eye Of Nebula",
+  "icon": "enigmaticlegacy:eye_of_nebula",
+  "x": 17.4,
+  "y": 6.6000000000000005,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:eye_of_nebula",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

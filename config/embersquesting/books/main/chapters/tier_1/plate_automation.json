@@ -1,0 +1,32 @@
+{
+  "title": "Plate Automation",
+  "description": [
+    "More Efficient Plates",
+    "You can automate the creation of plates with an anvil falling on treated wood planks or smooth stone!",
+    "",
+    "§7§oThe spring launcher might prove useful...§r§r"
+  ],
+  "icon": "minecraft:anvil",
+  "x": 13,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "tier_1/plates"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:anvil",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:piston",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

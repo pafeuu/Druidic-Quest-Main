@@ -1,0 +1,33 @@
+{
+  "title": "Orange Blossom Sapling",
+  "icon": "quark:orange_blossom_sapling",
+  "x": 3.5,
+  "y": 8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "quark:orange_blossom_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:coarse_dirt",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

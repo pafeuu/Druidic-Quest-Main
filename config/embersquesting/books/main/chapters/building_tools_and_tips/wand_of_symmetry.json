@@ -1,0 +1,31 @@
+{
+  "title": "Wand Of Symmetry",
+  "description": [
+    "Mirror, mirror on the... ground?",
+    "The Wand of Symmetry is a game-changer for large builds! Once you've set your mirror point within the world, the Wand of Symmetry will exactly mirror the placement and breaking of blocks across that point while it is in your hotbar."
+  ],
+  "icon": "create:wand_of_symmetry",
+  "x": 3,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "welcome/tips_chapter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:wand_of_symmetry",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "create_windows",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "circle"
+}

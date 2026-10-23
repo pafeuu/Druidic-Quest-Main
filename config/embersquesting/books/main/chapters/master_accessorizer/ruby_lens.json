@@ -1,0 +1,26 @@
+{
+  "title": "Ruby Lens",
+  "icon": "rubinated_nether:ruby_lens",
+  "x": 4.2,
+  "y": 3.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "rubinated_nether:ruby_lens",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

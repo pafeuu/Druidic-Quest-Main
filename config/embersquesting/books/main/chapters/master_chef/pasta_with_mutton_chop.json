@@ -1,0 +1,29 @@
+{
+  "title": "Pasta With Mutton Chop",
+  "icon": "farmersdelight:pasta_with_mutton_chop",
+  "x": 14.799999999999999,
+  "y": 1.5999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:pasta_with_mutton_chop",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

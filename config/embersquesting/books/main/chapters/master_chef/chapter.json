@@ -1,0 +1,10 @@
+{
+  "title": "Michelin-Starred Chef",
+  "icon": "farmersdelight:honey_glazed_ham_block",
+  "order": 19,
+  "scope": "team",
+  "group": "ultimate_collector",
+  "defaults": {
+    "progression": "flexible"
+  }
+}

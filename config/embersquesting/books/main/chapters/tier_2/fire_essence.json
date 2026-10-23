@@ -1,0 +1,28 @@
+{
+  "title": "Fire Essence",
+  "description": [
+    "Too hot to touch!"
+  ],
+  "icon": "ars_nouveau:fire_essence",
+  "x": 20,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "tier_2/elemental_arcanum"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:fire_essence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

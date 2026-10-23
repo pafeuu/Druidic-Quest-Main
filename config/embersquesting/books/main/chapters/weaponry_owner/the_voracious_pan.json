@@ -1,0 +1,37 @@
+{
+  "title": "The Voracious Pan",
+  "icon": "enigmaticlegacy:eldritch_pan{Damage:0}",
+  "x": 10.35,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "stat": "enigmaticlegacy:play_time_with_seven_curses",
+      "min": 1,
+      "type": "stat",
+      "icon": "enigmaticlegacy:evil_essence"
+    },
+    {
+      "match_components": "none",
+      "item": "enigmaticlegacy:eldritch_pan",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

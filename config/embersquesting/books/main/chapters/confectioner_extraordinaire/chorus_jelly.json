@@ -1,0 +1,29 @@
+{
+  "title": "Chorus Jelly",
+  "icon": "fruitsdelight:chorus_jelly",
+  "x": 15.4,
+  "y": 10.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:chorus_jelly",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

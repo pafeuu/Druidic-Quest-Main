@@ -1,0 +1,41 @@
+{
+  "title": "Questbook",
+  "description": [
+    "You dont need a questbook, you can open quests by pressing `",
+    "Quests are not required to progress, but offer some nice rewards.",
+    "You might consider completing all of them as one of your goals! :)",
+    "",
+    "The shape of each quest has a meaning:",
+    "",
+    "§2§lRounded Square§r§r - Main Questline in the progression. These might also unlock new quests.",
+    "",
+    "§2§lHexagon§r §r- Informational Quests",
+    "",
+    "§2§lGear§r §r-  Quests outside of the Main progression that unlock quests in other chapters (usually in the Market).",
+    "",
+    "§2§lDiamond§r§r - Repeteable Quests, usually giving some nice items in exchange for currency.",
+    "",
+    "§2§lPentagon§r§r - One-time purchases; exchange coins for rare and useful items."
+  ],
+  "icon": "ftbquests:book",
+  "x": 2.5,
+  "y": 3,
+  "deps": {
+    "all": [
+      "welcome/welcome"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "eccentrictome:tome",
+      "components": "{\"eccentrictome:mods\":{alexsmobs:{0:{Count:1b,id:\"alexsmobs:animal_dictionary\"}},ars_nouveau:{0:{Count:1b,id:\"ars_nouveau:worn_notebook\"}},irons_spellbooks:{0:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"irons_spellbooks:iss_guide_book\"}}}}}",
+      "type": "item"
+    }
+  ],
+  "shape": "hexagon"
+}

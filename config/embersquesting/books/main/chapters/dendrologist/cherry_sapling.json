@@ -1,0 +1,33 @@
+{
+  "title": "Cherry Sapling",
+  "icon": "minecraft:cherry_sapling",
+  "x": 7,
+  "y": 11,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:cherry_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:coarse_dirt",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

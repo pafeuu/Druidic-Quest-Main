@@ -1,0 +1,20 @@
+{
+  "title": "Advanced Alchemical Dust",
+  "icon": "kubejs:advanced_alchemical_dust",
+  "x": 2,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "alchemy/ruby",
+      "alchemy/improved_alchemical_dust"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:advanced_alchemical_dust",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

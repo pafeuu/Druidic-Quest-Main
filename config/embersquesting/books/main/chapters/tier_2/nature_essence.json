@@ -1,0 +1,36 @@
+{
+  "title": "Nature Essence",
+  "description": [
+    "Smells Earthy...",
+    "To create §l§aNature Essence§r§r you need to toss the ingredients into water located in a Lush Caves biome.",
+    "",
+    "What?! You don't know where the Lush Caves are? Buy a map to the biome from the quest in the previous chapter!"
+  ],
+  "icon": "druidic_quest_core:nature_essence",
+  "y": 11,
+  "deps": {
+    "all": [
+      "tier_1/imbuement_chamber"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "druidic_quest_core:nature_essence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "druidic_quest_core:nature_essence",
+      "type": "item"
+    },
+    {
+      "item": "thermal:copper_coin",
+      "count": 8,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "rsquare"
+}

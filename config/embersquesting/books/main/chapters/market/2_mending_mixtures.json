@@ -1,0 +1,31 @@
+{
+  "title": "2 Mending Mixtures",
+  "description": [
+    "1 Netherite Coin"
+  ],
+  "icon": "enigmaticlegacy:mending_mixture",
+  "x": 15,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:netherite_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "enigmaticlegacy:mending_mixture",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

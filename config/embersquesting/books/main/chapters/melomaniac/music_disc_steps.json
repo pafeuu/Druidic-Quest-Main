@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Steps",
+  "icon": "twilightforest:music_disc_steps",
+  "x": 8,
+  "y": 2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "twilightforest:music_disc_steps",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

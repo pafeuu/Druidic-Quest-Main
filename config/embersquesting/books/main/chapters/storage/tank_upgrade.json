@@ -1,0 +1,25 @@
+{
+  "title": "Tank Upgrade",
+  "icon": "sophisticatedbackpacks:tank_upgrade",
+  "x": 13.5,
+  "y": 3,
+  "deps": {
+    "all": [
+      "storage/fluid_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedbackpacks:tank_upgrade",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

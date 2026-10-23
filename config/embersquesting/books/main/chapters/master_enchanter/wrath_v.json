@@ -1,0 +1,31 @@
+{
+  "title": "Wrath V",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"enigmaticlegacy:wrath\",lvl:5s}]}",
+  "x": 14.05,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"enigmaticlegacy:wrath\",lvl:5s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

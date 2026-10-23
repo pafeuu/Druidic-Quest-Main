@@ -1,0 +1,32 @@
+{
+  "title": "Basic To Copper Tier Upgrade",
+  "description": [
+    "More Storage",
+    "Bigger chests or barrels!",
+    "",
+    "Be sure to check for other upgrades available from §cSophisticated Storage!§r They'll come in handy along the way for more storage and automation options."
+  ],
+  "icon": "sophisticatedstorage:basic_to_copper_tier_upgrade",
+  "x": 6,
+  "y": 1,
+  "deps": {
+    "all": [
+      "tier_1/basic_tier_upgrade"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedstorage:basic_to_copper_tier_upgrade",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

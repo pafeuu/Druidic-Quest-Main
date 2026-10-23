@@ -1,0 +1,29 @@
+{
+  "title": "Hawberry Roll",
+  "icon": "fruitsdelight:hawberry_roll",
+  "x": 9.4,
+  "y": 1.200000000000001,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:hawberry_roll",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

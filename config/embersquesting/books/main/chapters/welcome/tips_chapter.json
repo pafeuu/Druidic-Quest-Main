@@ -1,0 +1,29 @@
+{
+  "title": "Tips Chapter",
+  "description": [
+    "If this is somehow your first modpack, you are §nreally§r gonna need to read the §aTips§r chapter.",
+    "",
+    "But... even veterans might not know everything there, so make sure to check it out!"
+  ],
+  "icon": "kubejs:infused_diamond",
+  "x": 7,
+  "y": 1,
+  "deps": {
+    "all": [
+      "welcome/welcome"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "shape": "gear"
+}

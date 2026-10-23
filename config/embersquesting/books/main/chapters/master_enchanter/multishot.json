@@ -1,0 +1,31 @@
+{
+  "title": "Multishot",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:multishot\",lvl:1s}]}",
+  "x": 6.85,
+  "y": 10.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"minecraft:multishot\",lvl:1s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

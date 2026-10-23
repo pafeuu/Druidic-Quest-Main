@@ -1,0 +1,48 @@
+{
+  "title": "Scarecrow Set",
+  "icon": "irons_spellbooks:pumpkin_chestplate{Damage:0}",
+  "x": 18.5,
+  "y": 8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:pumpkin_helmet",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:pumpkin_chestplate",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:pumpkin_leggings",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:pumpkin_boots",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

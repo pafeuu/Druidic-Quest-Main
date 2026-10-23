@@ -1,0 +1,28 @@
+{
+  "title": "Snout",
+  "icon": "minecraft:piglin_banner_pattern",
+  "x": 4,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:piglin_banner_pattern",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

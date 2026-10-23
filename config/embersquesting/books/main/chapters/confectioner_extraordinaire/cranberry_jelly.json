@@ -1,0 +1,29 @@
+{
+  "title": "Cranberry Jelly",
+  "icon": "fruitsdelight:cranberry_jelly",
+  "x": 13,
+  "y": 10.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:cranberry_jelly",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Curse of Fatigue",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"majruszsenchantments:fatigue_curse\",lvl:3s}]}",
+  "x": 0.5500000000000007,
+  "y": 3.9000000000000004,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"majruszsenchantments:fatigue_curse\",lvl:3s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

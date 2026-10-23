@@ -1,0 +1,32 @@
+{
+  "title": "Royal Guard Sword",
+  "icon": "kubejs:royal_guard_sword{Damage:0}",
+  "x": 2.25,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "kubejs:royal_guard_sword",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

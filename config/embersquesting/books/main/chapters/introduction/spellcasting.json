@@ -1,0 +1,40 @@
+{
+  "title": "Spellcasting",
+  "description": [
+    "Alakazam!",
+    "Many structures contain loot to help you begin your spellcasting journey!"
+  ],
+  "icon": "irons_spellbooks:common_ink",
+  "x": 7.5,
+  "y": 9,
+  "deps": {
+    "all": [
+      "introduction/new_combat_system"
+    ]
+  },
+  "tasks": [
+    {
+      "advancement": "irons_spellbooks:irons_spellbooks/ink_root",
+      "type": "advancement",
+      "icon": "irons_spellbooks:common_ink"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "irons_spellbooks:scroll",
+      "components": "{ISB_Spells:{data:[{id:\"irons_spellbooks:blaze_storm\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+      "type": "item"
+    },
+    {
+      "item": "irons_spellbooks:scroll",
+      "components": "{ISB_Spells:{data:[{id:\"irons_spellbooks:heal\",index:0,level:2,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Stratus Upgrade",
+  "icon": "deep_aether:stratus_smithing_template",
+  "x": 3.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "deep_aether:stratus_smithing_template",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

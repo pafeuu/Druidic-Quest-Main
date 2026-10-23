@@ -1,0 +1,26 @@
+{
+  "title": "Gold Backpack",
+  "icon": "sophisticatedbackpacks:gold_backpack",
+  "x": 4.5,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "storage/iron_backpack"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedbackpacks:gold_backpack",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

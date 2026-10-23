@@ -1,0 +1,49 @@
+{
+  "title": "Inventor Wizard Set",
+  "icon": "wizards_reborn:inventor_wizard_costume{Damage:0,arcaneEnchantments:{}}",
+  "x": 11.5,
+  "y": 11.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "wizards_reborn:inventor_wizard_hat",
+      "components": "{Damage:0,arcaneEnchantments:{}}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "wizards_reborn:inventor_wizard_costume",
+      "components": "{Damage:0,arcaneEnchantments:{}}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "wizards_reborn:inventor_wizard_trousers",
+      "components": "{Damage:0,arcaneEnchantments:{}}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "wizards_reborn:inventor_wizard_boots",
+      "components": "{Damage:0,arcaneEnchantments:{}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

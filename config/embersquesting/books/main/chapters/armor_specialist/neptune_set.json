@@ -1,0 +1,48 @@
+{
+  "title": "Neptune Set",
+  "icon": "aether:neptune_chestplate{Damage:0}",
+  "x": 11.5,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "aether:neptune_helmet",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "aether:neptune_chestplate",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "aether:neptune_leggings",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "aether:neptune_boots",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

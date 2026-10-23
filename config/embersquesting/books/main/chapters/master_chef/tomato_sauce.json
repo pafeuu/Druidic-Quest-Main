@@ -1,0 +1,29 @@
+{
+  "title": "Tomato Sauce",
+  "icon": "farmersdelight:tomato_sauce",
+  "x": 7.200000000000001,
+  "y": 9.600000000000001,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:tomato_sauce",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

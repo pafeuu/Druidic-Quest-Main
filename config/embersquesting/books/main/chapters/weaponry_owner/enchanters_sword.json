@@ -1,0 +1,25 @@
+{
+  "title": "Enchanters Sword",
+  "icon": "ars_nouveau:enchanters_sword{Damage:0}",
+  "x": 4.05,
+  "y": 9.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "ars_nouveau:enchanters_sword",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

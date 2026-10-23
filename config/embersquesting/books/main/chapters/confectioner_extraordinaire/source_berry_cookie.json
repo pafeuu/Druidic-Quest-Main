@@ -1,0 +1,29 @@
+{
+  "title": "Source Berry Cookie",
+  "icon": "arsdelight:source_berry_cookie",
+  "x": 17,
+  "y": 0.40000000000000036,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "arsdelight:source_berry_cookie",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

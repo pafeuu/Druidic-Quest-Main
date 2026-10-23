@@ -1,0 +1,31 @@
+{
+  "title": "Lightning Bottle",
+  "description": [
+    "You can craft it by exploding a cloud in a bottle and a lightning rod between §4§ly=180 and y=210§r§r.",
+    "",
+    "Or you could just right click a charged creeper with an empty bottle."
+  ],
+  "icon": "irons_spellbooks:lightning_bottle",
+  "x": 12,
+  "y": 12,
+  "deps": {
+    "all": [
+      "tier_1/bottled_cloud"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:lightning_bottle",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

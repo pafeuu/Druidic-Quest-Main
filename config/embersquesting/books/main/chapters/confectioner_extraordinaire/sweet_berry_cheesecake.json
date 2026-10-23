@@ -1,0 +1,29 @@
+{
+  "title": "Sweet Berry Cheesecake",
+  "icon": "farmersdelight:sweet_berry_cheesecake",
+  "x": 17.4,
+  "y": 2.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:sweet_berry_cheesecake",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

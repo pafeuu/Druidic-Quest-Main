@@ -1,0 +1,38 @@
+{
+  "title": "AOE Tools",
+  "description": [
+    "Hammers act like pickaxes, but mine a 3x3. ",
+    "",
+    "Excavators act like shovels, but mine a 3x3."
+  ],
+  "icon": "kubejs:primitive_mining_hammer{Damage:0}",
+  "x": 18,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "tier_1/slay_the_naga"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "kubejs:primitive_mining_hammer",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "kubejs:primitive_excavator",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Minoshroom Axe",
+  "icon": "twilightforest:minoshroom_banner_pattern",
+  "x": 5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "twilightforest:minoshroom_banner_pattern",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

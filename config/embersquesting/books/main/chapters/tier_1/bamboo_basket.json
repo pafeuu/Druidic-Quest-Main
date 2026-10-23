@@ -1,0 +1,28 @@
+{
+  "title": "Bamboo Basket",
+  "description": [
+    "Kind of like a hopper...",
+    "The basket picks up items from the block space next to its open side! They can be placed in any direction."
+  ],
+  "icon": "farmersdelight:bamboo_basket",
+  "x": 7.5,
+  "deps": {
+    "all": [
+      "tier_1/wooden_hopper"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:bamboo_basket",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

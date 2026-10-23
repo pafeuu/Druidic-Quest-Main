@@ -1,0 +1,36 @@
+{
+  "title": "EmergencyFood",
+  "icon": "minecraft:chest",
+  "options": [
+    {
+      "item": "vintagedelight:pb_j",
+      "count": 4,
+      "type": "item"
+    },
+    {
+      "item": "alexsdelight:bunfungus_sandwich",
+      "count": 4,
+      "type": "item"
+    },
+    {
+      "item": "farmersdelight:bacon_sandwich",
+      "count": 4,
+      "type": "item"
+    },
+    {
+      "item": "farmersdelight:chicken_sandwich",
+      "count": 4,
+      "type": "item"
+    },
+    {
+      "item": "farmersdelight:egg_sandwich",
+      "count": 6,
+      "type": "item"
+    },
+    {
+      "item": "brewinandchewin:ham_and_cheese_sandwich",
+      "count": 5,
+      "type": "item"
+    }
+  ]
+}

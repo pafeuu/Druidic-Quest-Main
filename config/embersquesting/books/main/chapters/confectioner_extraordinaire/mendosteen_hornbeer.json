@@ -1,0 +1,29 @@
+{
+  "title": "Mendosteen Hornbeer",
+  "icon": "arsdelight:mendosteen_hornbeer",
+  "x": 0.5999999999999996,
+  "y": 7.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "arsdelight:mendosteen_hornbeer",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

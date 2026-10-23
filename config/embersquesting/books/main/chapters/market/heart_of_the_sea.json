@@ -1,0 +1,30 @@
+{
+  "title": "Heart of the Sea",
+  "description": [
+    "1 Netherite Coin"
+  ],
+  "icon": "minecraft:heart_of_the_sea",
+  "x": 16.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:netherite_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:heart_of_the_sea",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

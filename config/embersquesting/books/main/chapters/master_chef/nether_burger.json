@@ -1,0 +1,30 @@
+{
+  "title": "Nether Burger",
+  "icon": "mynethersdelight:nether_burger",
+  "x": 9.6,
+  "y": 6.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mynethersdelight:nether_burger",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

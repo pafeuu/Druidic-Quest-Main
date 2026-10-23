@@ -1,0 +1,26 @@
+{
+  "title": "Wand",
+  "description": [
+    "Can be inscribed with a spell at the inscription table.",
+    "",
+    "The enchanter's wand always casts §5projectile --> accellerate§r as it's initial form and augment. When building your spell, simply continue from this point, adding §nonly§r effects and augments.",
+    "",
+    "This effectively allows you to cast spells beyond the typical 10-glyph limit."
+  ],
+  "icon": "ars_nouveau:wand",
+  "x": 8.5,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "spellcasting/scribes_table"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:wand",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

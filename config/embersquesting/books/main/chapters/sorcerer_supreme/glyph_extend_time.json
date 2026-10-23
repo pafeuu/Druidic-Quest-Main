@@ -1,0 +1,29 @@
+{
+  "title": "Glyph Extend Time",
+  "icon": "ars_nouveau:glyph_extend_time",
+  "x": 17,
+  "y": 8.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_extend_time",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

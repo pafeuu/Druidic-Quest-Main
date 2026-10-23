@@ -1,0 +1,10 @@
+{
+  "title": "Gameplay Tools and Tips",
+  "icon": "minecraft:diamond_sword{Damage:0}",
+  "order": 4,
+  "scope": "team",
+  "group": "tips",
+  "defaults": {
+    "progression": "flexible"
+  }
+}

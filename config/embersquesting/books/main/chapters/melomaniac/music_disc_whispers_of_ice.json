@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Whispers Of Ice",
+  "icon": "irons_spellbooks:music_disc_whispers_of_ice",
+  "x": 2.5,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:music_disc_whispers_of_ice",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

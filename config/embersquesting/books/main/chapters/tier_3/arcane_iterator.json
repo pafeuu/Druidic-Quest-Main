@@ -1,0 +1,35 @@
+{
+  "title": "Arcane Iterator",
+  "description": [
+    "A different sort of enchanting...",
+    "Using items from nearby pedestals, the §6Arcane Iterator§r takes wissen, health, and experience to create §5Enchantment Runes§r or to enchant §6Arcane Tools.§r"
+  ],
+  "icon": "wizards_reborn:arcane_iterator",
+  "x": 2,
+  "y": 13,
+  "deps": {
+    "all": [
+      "tier_3/arcane_gold_ingot"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:arcane_iterator",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "kubejs:large_enchanting_rune",
+      "count": 4,
+      "type": "item"
+    },
+    {
+      "item": "thermal:gold_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

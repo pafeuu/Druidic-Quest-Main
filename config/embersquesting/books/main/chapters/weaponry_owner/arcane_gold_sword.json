@@ -1,0 +1,31 @@
+{
+  "title": "Arcane Gold Sword",
+  "icon": "wizards_reborn:arcane_gold_sword{Damage:0,arcaneEnchantments:{}}",
+  "x": 4.95,
+  "y": 6.9,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "wizards_reborn:arcane_gold_sword",
+      "components": "{Damage:0,arcaneEnchantments:{}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

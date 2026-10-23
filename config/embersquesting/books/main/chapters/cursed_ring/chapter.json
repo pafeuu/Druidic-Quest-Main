@@ -1,0 +1,10 @@
+{
+  "title": "Cursed Ring",
+  "icon": "enigmaticlegacy:cursed_ring",
+  "order": 17,
+  "scope": "team",
+  "group": "side_questline",
+  "defaults": {
+    "progression": "linear"
+  }
+}

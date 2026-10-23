@@ -1,0 +1,26 @@
+{
+  "title": "Fireward Ring",
+  "icon": "irons_spellbooks:fireward_ring",
+  "x": 11.4,
+  "y": 1.7999999999999998,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:fireward_ring",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

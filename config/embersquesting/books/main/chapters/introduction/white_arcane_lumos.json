@@ -1,0 +1,36 @@
+{
+  "title": "White Arcane Lumos",
+  "description": [
+    "Pretty Lights!",
+    "You now have access to nicer light sources!",
+    "",
+    "Can be dyed any color.",
+    "",
+    "Place them on their own for a ball of light.",
+    "Use them on the salty lightsources to change their flame appearance."
+  ],
+  "icon": "wizards_reborn:white_arcane_lumos",
+  "x": 13.5,
+  "y": 14,
+  "deps": {
+    "all": [
+      "introduction/arcanum_ore"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:white_arcane_lumos",
+      "count": 16,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

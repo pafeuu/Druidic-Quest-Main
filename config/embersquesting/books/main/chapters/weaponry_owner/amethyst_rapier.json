@@ -1,0 +1,25 @@
+{
+  "title": "Amethyst Rapier",
+  "icon": "irons_spellbooks:amethyst_rapier{Damage:0,ISB_Spells:{data:[{id:\"irons_spellbooks:echoing_strikes\",index:0,level:5,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
+  "x": 13.05,
+  "y": 2.3999999999999995,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:amethyst_rapier",
+      "components": "{Damage:0,ISB_Spells:{data:[{id:\"irons_spellbooks:echoing_strikes\",index:0,level:5,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

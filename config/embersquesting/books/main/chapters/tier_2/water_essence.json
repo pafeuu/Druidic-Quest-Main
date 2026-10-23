@@ -1,0 +1,28 @@
+{
+  "title": "Water Essence",
+  "description": [
+    "Wetter than water?"
+  ],
+  "icon": "ars_nouveau:water_essence",
+  "x": 20,
+  "y": 4,
+  "deps": {
+    "all": [
+      "tier_2/elemental_arcanum"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:water_essence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

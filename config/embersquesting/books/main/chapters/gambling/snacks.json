@@ -1,0 +1,37 @@
+{
+  "title": "Snacks",
+  "description": [
+    "???",
+    "Gamble a gold coin on some snacks!"
+  ],
+  "icon": "vintagedelight:cheese_burger",
+  "x": 8.5,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "gambling/welcome_to_the_casino"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "mode": "consume",
+      "type": "item"
+    },
+    {
+      "item": "supplementaries:sack",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "icon": "vintagedelight:deluxe_burger",
+      "table": "snacks",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

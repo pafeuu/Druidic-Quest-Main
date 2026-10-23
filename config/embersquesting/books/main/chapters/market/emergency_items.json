@@ -1,0 +1,48 @@
+{
+  "title": "Emergency Items",
+  "description": [
+    "5 Silver Coins",
+    "Emergency tools!",
+    "",
+    "Pro Tip: if you don't want extra coins filling your inventory, you can spend them in advance and claim your rewards when you need them!"
+  ],
+  "icon": "minecraft:wooden_pickaxe{Damage:0}",
+  "x": 7,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 6,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:wooden_axe",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],display:{Name:'{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Emergency Axe\"}'}}",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:wooden_pickaxe",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],display:{Name:'{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Emergency Pickaxe\"}'}}",
+      "type": "item"
+    },
+    {
+      "item": "naturesaura_plus:aura_coffee",
+      "type": "item"
+    },
+    {
+      "item": "farmersdelight:bacon_sandwich",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

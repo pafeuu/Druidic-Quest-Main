@@ -1,0 +1,29 @@
+{
+  "title": "Pineapple Fried Rice",
+  "icon": "fruitsdelight:pineapple_fried_rice",
+  "x": 13.2,
+  "y": 8.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:pineapple_fried_rice",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

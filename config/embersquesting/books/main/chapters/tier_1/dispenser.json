@@ -1,0 +1,33 @@
+{
+  "title": "Dispenser",
+  "description": [
+    "Need more hands?",
+    "Dispenser can now place blocks, plant seeds and more!"
+  ],
+  "icon": "minecraft:dispenser",
+  "x": 17,
+  "y": 3,
+  "deps": {
+    "all": [
+      "tier_1/first_machine_casing"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:dispenser",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dispenser",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

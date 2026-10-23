@@ -1,0 +1,28 @@
+{
+  "title": "Warp Scroll",
+  "description": [
+    "Instant Transportation"
+  ],
+  "icon": "kubejs:warp_scroll",
+  "x": 22.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "tier_2/water_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:warp_scroll",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

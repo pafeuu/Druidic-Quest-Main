@@ -1,0 +1,32 @@
+{
+  "title": "Armor Set Choice",
+  "description": [
+    "3 Gold Coins"
+  ],
+  "icon": "irons_spellbooks:cultist_chestplate{Damage:0,ISB_Spells:{data:[],maxSpells:1,mustEquip:1b,spellWheel:1b}}",
+  "x": 12,
+  "y": 8,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 3,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "newarmorsets",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Visit the Twilight Forest!",
+  "description": [
+    "Where's the sun?",
+    "The §5§lDimension Ripper§r§r activates the Twilight Forest portal like a diamond usually would.",
+    "",
+    "The portal needs at least 4 water source blocks with any dirt around it with any flowers on top of the grass.",
+    "",
+    "Maximum size for the portal is 9x9 including the dirt frame."
+  ],
+  "icon": "twilightforest:twilight_portal_miniature_structure",
+  "x": 6,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "tier_1/bucket",
+      "tier_1/diamond_heart"
+    ]
+  },
+  "tasks": [
+    {
+      "dimension": "twilightforest:twilight_forest",
+      "type": "location"
+    },
+    {
+      "item": "kubejs:dimension_ripper",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "twilightforest:magic_map",
+      "type": "item"
+    },
+    {
+      "table": "newarmorsets",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "complete": "any",
+  "shape": "rsquare"
+}

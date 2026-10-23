@@ -1,0 +1,26 @@
+{
+  "title": "Enigmatic Eye",
+  "icon": "enigmaticlegacy:enigmatic_eye",
+  "x": 16.6,
+  "y": 0.6000000000000005,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:enigmatic_eye",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Vanilla Ways",
+  "icon": "minecraft:water_bucket",
+  "x": 4,
+  "y": 8,
+  "deps": {
+    "any": [
+      "automation/item_entity_transportation"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:water_bucket",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:ice",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dropper",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

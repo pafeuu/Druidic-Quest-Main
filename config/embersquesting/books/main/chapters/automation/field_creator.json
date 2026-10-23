@@ -1,0 +1,22 @@
+{
+  "title": "Field Creator",
+  "icon": "naturesaura:field_creator",
+  "x": 17,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "automation/block_breaker"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:field_creator",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

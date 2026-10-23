@@ -1,0 +1,31 @@
+{
+  "title": "Neptune Koi",
+  "icon": "tide:neptune_koi{FishLength:45.0d}",
+  "x": 10.524999999999999,
+  "y": 1.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:neptune_koi",
+      "components": "{FishLength:45.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Ritual Flight",
+  "icon": "ars_nouveau:ritual_flight",
+  "x": 18.599999999999998,
+  "y": 3.7999999999999994,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_flight",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

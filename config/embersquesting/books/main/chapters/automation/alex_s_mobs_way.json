@@ -1,0 +1,22 @@
+{
+  "title": "Alex's Mobs Way",
+  "icon": "alexsmobs:sculk_boomer",
+  "x": 17,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "automation/mob_damaging"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "alexsmobs:sculk_boomer",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

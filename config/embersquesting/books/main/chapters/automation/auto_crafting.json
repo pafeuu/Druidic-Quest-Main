@@ -1,0 +1,21 @@
+{
+  "title": "auto crafting",
+  "description": [
+    "§4§owork in progress§r§r"
+  ],
+  "x": 9.5,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "introduction/the_big_oven"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "auto crafting"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

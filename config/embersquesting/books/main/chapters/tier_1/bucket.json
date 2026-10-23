@@ -1,0 +1,30 @@
+{
+  "title": "Bucket",
+  "description": [
+    "Basic Fluid Transportation",
+    "You know how to use a bucket, don't you?"
+  ],
+  "icon": "minecraft:bucket",
+  "x": 4,
+  "y": 5,
+  "deps": {
+    "all": [
+      "tier_1/first_magical_feat"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:bucket",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

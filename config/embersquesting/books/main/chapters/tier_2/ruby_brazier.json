@@ -1,0 +1,29 @@
+{
+  "title": "Ruby Brazier",
+  "icon": "rubinated_nether:ruby_brazier",
+  "x": 22.5,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "tier_2/fire_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "rubinated_nether:ruby_brazier",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "kubejs:enchanting_rune_of_fire",
+      "type": "item"
+    },
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

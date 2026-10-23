@@ -1,0 +1,35 @@
+{
+  "title": "Andesite Machine",
+  "icon": "kubejs:andesite_machine",
+  "x": 6.5,
+  "y": 3,
+  "deps": {
+    "all": [
+      "tier_3/redstone_core",
+      "tier_3/andesite_alloy"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:andesite_machine",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    },
+    {
+      "item": "create:stressometer",
+      "type": "item"
+    },
+    {
+      "item": "create:speedometer",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

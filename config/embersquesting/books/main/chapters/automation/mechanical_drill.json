@@ -1,0 +1,38 @@
+{
+  "title": "Mechanical Drill",
+  "icon": "create:mechanical_drill",
+  "x": 15,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "automation/block_breaker"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:mechanical_drill",
+      "type": "item"
+    },
+    {
+      "item": "create:mechanical_saw",
+      "type": "item"
+    },
+    {
+      "item": "create:mechanical_harvester",
+      "type": "item"
+    },
+    {
+      "item": "create:mechanical_plough",
+      "type": "item"
+    },
+    {
+      "item": "create:mechanical_roller",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

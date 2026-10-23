@@ -1,0 +1,36 @@
+{
+  "title": "Coal Coke Production",
+  "description": [
+    "Hoarding Coke",
+    "You may find yourself needing a §omassive§r amount of coal coke later on.",
+    "§l",
+    "§4From now on you will lose hunger on death.§r§r"
+  ],
+  "icon": "thermal:coal_coke",
+  "y": 5,
+  "deps": {
+    "min": {
+      "count": 1,
+      "of": [
+        "introduction/the_big_oven"
+      ]
+    }
+  },
+  "tasks": [
+    {
+      "item": "thermal:coal_coke",
+      "type": "item",
+      "title": "Any #forge:coal_coke"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:coal_coke",
+      "count": 8,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "rsquare"
+}

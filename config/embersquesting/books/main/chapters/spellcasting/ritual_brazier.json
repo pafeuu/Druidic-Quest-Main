@@ -1,0 +1,28 @@
+{
+  "title": "Ritual Brazier",
+  "description": [
+    "A Different Kind of Spell",
+    "To perform a ritual, you will need a §5ritual brazier§r and a §5tablet§r to define the ritual.",
+    "",
+    "Use the tablet on the brazier to light the brazier. Once lit, you may add §5augmenting items§r by tossing them onto the brazier. Some rituals require §5source§r to operate.",
+    "",
+    "Activate the ritual by interacting with the brazier with an empty hand."
+  ],
+  "icon": "ars_nouveau:ritual_brazier",
+  "x": 14,
+  "y": 4,
+  "deps": {
+    "all": [
+      "tier_1/copper_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_brazier",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "circle"
+}

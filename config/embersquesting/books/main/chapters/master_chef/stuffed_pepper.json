@@ -1,0 +1,30 @@
+{
+  "title": "Stuffed Pepper",
+  "icon": "mynethersdelight:stuffed_pepper",
+  "x": 0.3999999999999986,
+  "y": 6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mynethersdelight:stuffed_pepper",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

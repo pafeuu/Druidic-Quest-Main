@@ -1,0 +1,23 @@
+{
+  "title": "Annotated Codex",
+  "description": [
+    "Sharing with Friends",
+    "Using the §5Annotated Codex§r will record all your known glyphs within it. If read by another player, that player will learn all the glyphs it contains. This will destroy the codex."
+  ],
+  "icon": "ars_nouveau:annotated_codex",
+  "x": 11,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "spellcasting/scribes_table"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:annotated_codex",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

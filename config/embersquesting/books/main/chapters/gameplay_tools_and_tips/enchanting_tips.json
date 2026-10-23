@@ -1,0 +1,28 @@
+{
+  "title": "Enchanting Tips",
+  "description": [
+    "RNG Begone!",
+    "No more RNG at the enchanting table! In fact, §ono more enchanting table!§r",
+    "",
+    "Enchanting is now entirely recipe-based through the powers of Ars Nouveau and Wizard's Reborn.",
+    "",
+    "The accumulating xp cost on the anvil has also been removed, making armor and tool repair much more rewarding."
+  ],
+  "icon": "minecraft:experience_bottle",
+  "x": 9.75,
+  "y": 3,
+  "deps": {
+    "all": [
+      "welcome/tips_chapter"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "Enchanting Tips"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "circle"
+}

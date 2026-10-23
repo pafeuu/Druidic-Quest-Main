@@ -1,0 +1,28 @@
+{
+  "title": "Judgment Fish",
+  "icon": "tide:judgment_fish{FishLength:60.0d}",
+  "x": 7.975,
+  "y": 3.3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:judgment_fish",
+      "components": "{FishLength:60.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle"
+}

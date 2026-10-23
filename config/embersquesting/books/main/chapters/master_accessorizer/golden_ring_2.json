@@ -1,0 +1,26 @@
+{
+  "title": "Golden Ring",
+  "icon": "aether:golden_ring",
+  "x": 21.4,
+  "y": 2.1999999999999997,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "aether:golden_ring",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

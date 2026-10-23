@@ -1,0 +1,10 @@
+{
+  "title": "Automation",
+  "icon": "kubejs:infused_iron_gear",
+  "order": 14,
+  "scope": "team",
+  "group": "side_questline",
+  "defaults": {
+    "progression": "flexible"
+  }
+}

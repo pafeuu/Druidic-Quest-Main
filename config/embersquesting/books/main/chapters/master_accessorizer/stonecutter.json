@@ -1,0 +1,26 @@
+{
+  "title": "Stonecutter",
+  "icon": "crafting_on_a_stick:stonecutter",
+  "x": 3.4000000000000004,
+  "y": 2.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "crafting_on_a_stick:stonecutter",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

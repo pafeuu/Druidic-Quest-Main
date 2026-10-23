@@ -1,0 +1,26 @@
+{
+  "title": "Medal Of Honor",
+  "icon": "deep_aether:medal_of_honor",
+  "x": 23.000000000000004,
+  "y": 7.799999999999999,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "deep_aether:medal_of_honor",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Brick Glue",
+  "description": [
+    "Brick's Crafting Component",
+    "Brick glue has 96 durability and uses one per brick block crafted."
+  ],
+  "icon": "kubejs:brick_glue{Damage:0}",
+  "x": 21,
+  "y": 7,
+  "deps": {
+    "all": [
+      "introduction/squid_hunt",
+      "introduction/why_is_it_always_clay",
+      "introduction/harvest_your_wheat",
+      "introduction/arcane_arts"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "kubejs:brick_glue",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

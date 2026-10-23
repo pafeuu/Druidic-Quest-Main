@@ -1,0 +1,31 @@
+{
+  "title": "Wissen Charge II",
+  "icon": "wizards_reborn:arcane_enchanted_book{arcaneEnchantments:{\"wizards_reborn:wissen_charge\":2}}",
+  "x": 8.65,
+  "y": 3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "wizards_reborn:arcane_enchanted_book",
+      "components": "{arcaneEnchantments:{\"wizards_reborn:wissen_charge\":2}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

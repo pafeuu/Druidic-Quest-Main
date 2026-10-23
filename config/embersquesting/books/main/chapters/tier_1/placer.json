@@ -1,0 +1,30 @@
+{
+  "title": "Placer",
+  "description": [
+    "More precise block placement.",
+    "Remember to unclaim your chunks if you want this to work"
+  ],
+  "icon": "naturesaura:placer",
+  "x": 17,
+  "y": 1,
+  "deps": {
+    "all": [
+      "tier_1/dispenser"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:placer",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:emerald",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

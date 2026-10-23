@@ -1,0 +1,26 @@
+{
+  "title": "Fluid Jar",
+  "icon": "starbunclemania:fluid_jar",
+  "x": 11,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "storage/fluid_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "starbunclemania:fluid_jar",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

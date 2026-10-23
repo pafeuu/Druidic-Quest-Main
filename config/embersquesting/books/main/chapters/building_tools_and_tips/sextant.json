@@ -1,0 +1,30 @@
+{
+  "title": "Sextant",
+  "description": [
+    ""
+  ],
+  "icon": "botania:sextant",
+  "x": 0.5,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "welcome/tips_chapter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:sextant",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "buildingmisc",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "circle"
+}

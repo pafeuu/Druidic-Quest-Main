@@ -1,0 +1,63 @@
+{
+  "title": "Diamond Equipment",
+  "description": [
+    "Precious Tools",
+    "§bDiamond tools§r are the most durable of the tools available in this tier, with over 2k durability!",
+    "",
+    "They also have the highest mining lvl."
+  ],
+  "icon": "minecraft:diamond_pickaxe{Damage:0}",
+  "x": 6.5,
+  "y": 3,
+  "deps": {
+    "all": [
+      "tier_2/new_equipment_opportunity"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "minecraft:diamond_pickaxe",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "minecraft:diamond_shovel",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "minecraft:diamond_axe",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "minecraft:diamond_hoe",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "minecraft:diamond_sword",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:diamond",
+      "count": 9,
+      "type": "item"
+    },
+    {
+      "item": "thermal:gold_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

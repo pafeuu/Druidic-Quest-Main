@@ -1,0 +1,28 @@
+{
+  "title": "Fermenting Jar",
+  "description": [
+    "New food types! Not to mention the other things it'll craft..."
+  ],
+  "icon": "vintagedelight:fermenting_jar",
+  "x": 24,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "tier_1/find_an_amethyst_geode"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "vintagedelight:fermenting_jar",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

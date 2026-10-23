@@ -1,0 +1,19 @@
+{
+  "title": "Iron To Gold Tier Upgrade",
+  "icon": "sophisticatedstorage:iron_to_gold_tier_upgrade",
+  "x": 2.5,
+  "y": 11,
+  "deps": {
+    "all": [
+      "storage/copper_to_iron_tier_upgrade"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedstorage:iron_to_gold_tier_upgrade",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

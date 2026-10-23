@@ -1,0 +1,28 @@
+{
+  "title": "Ender Bow",
+  "icon": "twilightforest:ender_bow{Damage:0}",
+  "x": 16,
+  "y": 2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "twilightforest:ender_bow",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

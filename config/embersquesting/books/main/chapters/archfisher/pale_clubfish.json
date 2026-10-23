@@ -1,0 +1,31 @@
+{
+  "title": "Pale Clubfish",
+  "icon": "tide:pale_clubfish{FishLength:52.5d}",
+  "x": 19.875,
+  "y": 1.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:pale_clubfish",
+      "components": "{FishLength:52.5d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

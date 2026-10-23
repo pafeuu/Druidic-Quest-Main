@@ -1,0 +1,36 @@
+{
+  "title": "3 Beehive Setups",
+  "description": [
+    "1 Gold Coin"
+  ],
+  "icon": "minecraft:beehive",
+  "x": 13.5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:beehive",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:campfire",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

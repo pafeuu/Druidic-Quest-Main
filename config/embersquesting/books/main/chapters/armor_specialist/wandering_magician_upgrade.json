@@ -1,0 +1,29 @@
+{
+  "title": "Wandering Magician Upgrade",
+  "icon": "kubejs:wandering_magician_upgrade_smithing_template",
+  "x": 2,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:wandering_magician_upgrade_smithing_template",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Ender Glider",
+  "icon": "tide:ender_glider{FishLength:59.0d}",
+  "x": 19.025,
+  "y": 4.15,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:ender_glider",
+      "components": "{FishLength:59.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

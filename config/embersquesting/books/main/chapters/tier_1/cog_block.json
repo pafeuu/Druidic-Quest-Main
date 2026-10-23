@@ -1,0 +1,32 @@
+{
+  "title": "Cog Block",
+  "description": [
+    "Vertical Redstone?!",
+    "Redstone dust in block form!",
+    "",
+    "Can move power up and down. Does not need a block to support it."
+  ],
+  "icon": "supplementaries:cog_block",
+  "x": 9,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "tier_1/redstone_innovations"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "supplementaries:cog_block",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "supplementaries:cog_block",
+      "count": 8,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

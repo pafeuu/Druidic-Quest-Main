@@ -1,0 +1,19 @@
+{
+  "title": "Basic To Copper Tier Upgrade",
+  "icon": "sophisticatedstorage:basic_to_copper_tier_upgrade",
+  "x": 2,
+  "y": 8,
+  "deps": {
+    "all": [
+      "storage/basic_tier_upgrade"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedstorage:basic_to_copper_tier_upgrade",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

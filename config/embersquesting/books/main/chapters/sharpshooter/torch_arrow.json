@@ -1,0 +1,24 @@
+{
+  "title": "Torch Arrow",
+  "icon": "quark:torch_arrow",
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "quark:torch_arrow",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

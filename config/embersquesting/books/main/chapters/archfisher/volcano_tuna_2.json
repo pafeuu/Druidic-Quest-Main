@@ -1,0 +1,31 @@
+{
+  "title": "Volcano Tuna",
+  "icon": "tide:volcano_tuna{FishLength:62.5d}",
+  "x": 6.275,
+  "y": 4.15,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:volcano_tuna",
+      "components": "{FishLength:62.5d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

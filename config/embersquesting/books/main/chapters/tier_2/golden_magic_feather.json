@@ -1,0 +1,38 @@
+{
+  "title": "Golden Magic Feather",
+  "description": [
+    "Nether Portal Help?",
+    "With the power of the §6Golden Magic Feather§r you can mine obsidian instantly by right clicking!",
+    "",
+    "Be careful, though! It doesn't have much durability."
+  ],
+  "icon": "kubejs:golden_magic_feather{Damage:0}",
+  "x": 2,
+  "y": 11,
+  "deps": {
+    "all": [
+      "tier_2/nature_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "kubejs:golden_magic_feather",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "alexsmobs:mosquito_repellent_stew",
+      "type": "item"
+    },
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

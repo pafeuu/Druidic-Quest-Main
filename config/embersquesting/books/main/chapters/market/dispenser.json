@@ -1,0 +1,30 @@
+{
+  "title": "Dispenser",
+  "description": [
+    "1 Gold Coin"
+  ],
+  "icon": "minecraft:dispenser",
+  "x": 12,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:dispenser",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

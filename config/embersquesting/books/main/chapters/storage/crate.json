@@ -1,0 +1,28 @@
+{
+  "title": "Crate",
+  "description": [
+    "Perfect for all sorts of junk"
+  ],
+  "icon": "quark:crate",
+  "x": 3,
+  "deps": {
+    "any": [
+      "storage/item_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "quark:crate",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:iron_plate",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

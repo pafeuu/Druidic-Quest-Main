@@ -1,0 +1,22 @@
+{
+  "title": "Placer",
+  "icon": "naturesaura:placer",
+  "x": 2,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "automation/block_placer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:placer",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

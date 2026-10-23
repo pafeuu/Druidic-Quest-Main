@@ -1,0 +1,50 @@
+{
+  "title": "Mining Tips",
+  "description": [
+    "Can't find what you're looking for?",
+    "Some ore generation has been changed to enhance the progression of the pack.",
+    "",
+    "Many modded ores cannot be found in the Overworld.",
+    "",
+    "Check the §2EMI info§r by clicking on the ores for more details.",
+    "",
+    "§4§owork in progress§r§r"
+  ],
+  "icon": "wizards_reborn:arcanum_ore",
+  "x": 1.5,
+  "y": 5.25,
+  "deps": {
+    "all": [
+      "welcome/tips_chapter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:sapphire_ore",
+      "type": "item"
+    },
+    {
+      "item": "wizards_reborn:arcanum_ore",
+      "type": "item"
+    },
+    {
+      "item": "rubinated_nether:molten_ruby_ore",
+      "type": "item"
+    },
+    {
+      "item": "thermal:cinnabar_ore",
+      "type": "item"
+    },
+    {
+      "item": "druidic_quest_core:uranium_ore",
+      "type": "item"
+    },
+    {
+      "item": "druidic_quest_core:platinum_ore",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "circle"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Notable Needleworker",
+  "icon": "minecraft:mojang_banner_pattern",
+  "order": 28,
+  "scope": "team",
+  "group": "ultimate_collector",
+  "defaults": {
+    "progression": "linear"
+  }
+}

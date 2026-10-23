@@ -1,0 +1,31 @@
+{
+  "title": "Budding Amethyst",
+  "description": [
+    "1 Netherite Coin",
+    "§o§4§nOne time offer!§r§r§r"
+  ],
+  "icon": "minecraft:budding_amethyst",
+  "x": 15,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "tier_1/find_an_amethyst_geode",
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:netherite_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:budding_amethyst",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "pentagon"
+}

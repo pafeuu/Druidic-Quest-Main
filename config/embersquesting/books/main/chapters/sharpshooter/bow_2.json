@@ -1,0 +1,27 @@
+{
+  "title": "Bow",
+  "icon": "minecraft:bow{AttributeModifiers:[{Amount:2,AttributeName:\"attributeslib:draw_speed\",Name:\"sa\",Operation:1,Slot:\"mainhand\",UUID:[I;1092535222,-450213868,-2139553788,1708566011]},{Amount:-0.95d,AttributeName:\"attributeslib:arrow_damage\",Name:\"rea\",Operation:1,Slot:\"mainhand\",UUID:[I;-1366993219,-935376953,-1925440782,-1055852673]}],Damage:0,display:{Name:'{\"text\":\"Utility Bow\",\"color\":\"green\"}'}}",
+  "x": 13,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:bow",
+      "components": "{AttributeModifiers:[{Amount:2,AttributeName:\"attributeslib:draw_speed\",Name:\"sa\",Operation:1,Slot:\"mainhand\",UUID:[I;1092535222,-450213868,-2139553788,1708566011]},{Amount:-0.95d,AttributeName:\"attributeslib:arrow_damage\",Name:\"rea\",Operation:1,Slot:\"mainhand\",UUID:[I;-1366993219,-935376953,-1925440782,-1055852673]}],Damage:0,display:{Name:'{\"text\":\"Utility Bow\",\"color\":\"green\"}'}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

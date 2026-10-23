@@ -1,0 +1,10 @@
+{
+  "title": "Tier 3 - Primitive Tech",
+  "icon": "druidic_quest_core:steel_ingot",
+  "order": 9,
+  "scope": "team",
+  "group": "main_questline",
+  "defaults": {
+    "progression": "linear"
+  }
+}

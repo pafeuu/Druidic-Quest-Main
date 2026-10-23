@@ -1,0 +1,32 @@
+{
+  "title": "Bottled Cloud",
+  "description": [
+    "Right click in the air between y=190 and y=320 to trap a cloud in a bottle.",
+    "",
+    "This isn't the only time you are gonna have to craft stuff at high altitudes so you should probably build some infrastructure around it.",
+    "",
+    "Below you are going to find a quest that sells you materials to make your very own makeshift cloud elevator!"
+  ],
+  "icon": "quark:bottled_cloud",
+  "x": 7,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "tier_1/glass"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "quark:bottled_cloud",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

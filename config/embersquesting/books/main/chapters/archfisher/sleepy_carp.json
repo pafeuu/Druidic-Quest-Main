@@ -1,0 +1,31 @@
+{
+  "title": "Sleepy Carp",
+  "icon": "tide:sleepy_carp{FishLength:60.0d}",
+  "x": 9.675,
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:sleepy_carp",
+      "components": "{FishLength:60.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

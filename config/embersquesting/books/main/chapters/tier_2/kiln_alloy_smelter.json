@@ -1,0 +1,53 @@
+{
+  "title": "Kiln Alloy Smelter!",
+  "description": [
+    "Mixing Metals",
+    "As you can see you will need a lot of essences to craft the whole Kiln.",
+    "",
+    "You might be tempted to bite the bullet and do it by hand but you will need much more in the future so it might be a good time to automate the basic essences.",
+    "",
+    "This multiblock requires specific fire related magic fuel.",
+    "",
+    "Check the uses for the alloy kiln to display how to build it correctly"
+  ],
+  "icon": "mbd2:alloy_kiln",
+  "x": 20,
+  "y": 12,
+  "deps": {
+    "all": [
+      "tier_2/magic_machine",
+      "tier_2/tainted_gold",
+      "tier_2/earth_essence",
+      "tier_2/air_essence",
+      "tier_2/fire_essence",
+      "tier_2/water_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "druidic_quest_core:alloy_bricks",
+      "count": 27,
+      "type": "item"
+    },
+    {
+      "item": "mbd2:alloy_kiln",
+      "type": "item"
+    },
+    {
+      "tag": "dq:kiln_fuel",
+      "type": "item",
+      "title": "Any Kiln Fuel"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "waystones2",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "complete": "any",
+  "size": 2.0,
+  "shape": "rsquare"
+}

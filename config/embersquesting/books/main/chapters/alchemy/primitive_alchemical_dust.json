@@ -1,0 +1,26 @@
+{
+  "title": "Primitive Alchemical Dust",
+  "icon": "kubejs:primitive_alchemical_dust",
+  "x": 2,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "alchemy/infused_emerald",
+      "alchemy/alchemical_machinery"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:primitive_alchemical_dust",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

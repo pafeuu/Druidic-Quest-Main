@@ -1,0 +1,31 @@
+{
+  "title": "Elemental Binder",
+  "description": [
+    "Complex Elements",
+    "Higher-level magical crafting will require more than simple elemental essences.",
+    "",
+    "The §9Elemental Binder§r will allow you to combine materials to form more complex elemental essences."
+  ],
+  "icon": "mbd2:elemental_binder",
+  "x": 4,
+  "y": 11,
+  "deps": {
+    "all": [
+      "tier_3/arcane_gold_ingot"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mbd2:elemental_binder",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

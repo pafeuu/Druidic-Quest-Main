@@ -1,0 +1,37 @@
+{
+  "title": "Empty Shulker Box",
+  "description": [
+    "1 Gold Coin + 2 Silver Coins"
+  ],
+  "icon": "minecraft:brown_shulker_box",
+  "x": 13.5,
+  "y": 8,
+  "deps": {
+    "all": [
+      "market/market",
+      "tier_1/brown_shulker_box"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "mode": "consume",
+      "type": "item"
+    },
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:brown_shulker_box",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

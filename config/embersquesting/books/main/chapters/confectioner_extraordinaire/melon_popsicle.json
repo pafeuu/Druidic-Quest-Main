@@ -1,0 +1,29 @@
+{
+  "title": "Melon Popsicle",
+  "icon": "farmersdelight:melon_popsicle",
+  "x": 0.9999999999999982,
+  "y": 4.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:melon_popsicle",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

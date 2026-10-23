@@ -1,0 +1,29 @@
+{
+  "title": "Ritual Animal Summon",
+  "icon": "ars_nouveau:ritual_animal_summon",
+  "x": 12.2,
+  "y": 4.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_animal_summon",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

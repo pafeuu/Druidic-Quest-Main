@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Cyclone",
+  "icon": "deep_aether:music_disc_cyclone",
+  "x": 10,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "deep_aether:music_disc_cyclone",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

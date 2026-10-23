@@ -1,0 +1,35 @@
+{
+  "title": "Lightning Crafting",
+  "description": [
+    "Energetic!",
+    "Works exactly like explosion crafting except with lightning.",
+    "",
+    "There are a few ways to accomplish this.",
+    "",
+    "You can even wait for a thunderstorm with a lightning rod! But that may take a while..."
+  ],
+  "icon": "kubejs:lightning_essence",
+  "x": 18,
+  "y": 10.5,
+  "deps": {
+    "any": [
+      "tier_1/lightning_bottle",
+      "tier_1/visit_the_twilight_forest"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "lychee:lightning_channeling_catalysts",
+      "type": "item",
+      "title": "Any #lychee:lightning_channeling_catalysts"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

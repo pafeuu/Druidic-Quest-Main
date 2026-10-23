@@ -1,0 +1,31 @@
+{
+  "title": "18 Bamboo",
+  "description": [
+    "1 Gold Coin"
+  ],
+  "icon": "minecraft:bamboo",
+  "x": 9,
+  "y": 5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:bamboo",
+      "count": 18,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

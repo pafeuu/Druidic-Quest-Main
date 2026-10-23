@@ -1,0 +1,31 @@
+{
+  "title": "Nephrosilu",
+  "icon": "tide:nephrosilu{FishLength:72.5d}",
+  "x": 10.524999999999999,
+  "y": 0.75,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:nephrosilu",
+      "components": "{FishLength:72.5d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Depth Sword",
+  "icon": "naturesaura:depth_sword{Damage:0}",
+  "x": 10.35,
+  "y": 5.1,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "naturesaura:depth_sword",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

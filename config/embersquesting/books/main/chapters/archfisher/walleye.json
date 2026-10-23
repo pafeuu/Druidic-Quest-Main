@@ -1,0 +1,28 @@
+{
+  "title": "Walleye",
+  "icon": "tide:walleye{FishLength:55.0d}",
+  "x": 8.825,
+  "y": 3.3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:walleye",
+      "components": "{FishLength:55.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle"
+}

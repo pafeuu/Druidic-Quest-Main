@@ -1,0 +1,26 @@
+{
+  "title": "Blazing Core",
+  "icon": "enigmaticlegacy:blazing_core",
+  "x": 22.5,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "tier_2/elemental_core"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:blazing_core",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

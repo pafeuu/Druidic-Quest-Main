@@ -1,0 +1,42 @@
+{
+  "title": "Copper Diving Set",
+  "description": [
+    "Seafloor, here we come!"
+  ],
+  "icon": "create:copper_diving_helmet{Damage:0}",
+  "x": 22.5,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "tier_2/water_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "create:copper_diving_helmet",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "create:copper_diving_boots",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "create:copper_backtank",
+      "components": "{Air:900}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

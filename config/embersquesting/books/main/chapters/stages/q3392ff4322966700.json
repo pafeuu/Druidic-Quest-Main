@@ -1,0 +1,31 @@
+{
+  "title": "",
+  "x": 4.5,
+  "y": 0.5,
+  "tasks": [
+    {
+      "advancement": "restrictedportals:theend",
+      "type": "advancement"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/tellraw @p [\"\",{\"text\":\"Outer dimension is preparing for a hostile invader\",\"italic\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]",
+      "silent": false,
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "command": "/tellraw @p [\"\",{\"text\":\"Difficulty has been raised!\",\"bold\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]",
+      "silent": false,
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "command": "/sh_difficulty add @p 50",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "shape": "circle"
+}

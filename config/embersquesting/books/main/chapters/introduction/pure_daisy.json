@@ -1,0 +1,39 @@
+{
+  "title": "Pure Daisy",
+  "description": [
+    "Magic Wood",
+    "The Pure Daisy will convert placed logs around it (including diagonally) into arcane wood logs after 1 minute."
+  ],
+  "icon": "botania:pure_daisy",
+  "x": 19,
+  "y": 12,
+  "deps": {
+    "all": [
+      "introduction/arcanum_ore"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:pure_daisy",
+      "type": "item"
+    },
+    {
+      "item": "wizards_reborn:arcane_wood_log",
+      "count": 8,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:birch_sapling",
+      "type": "item"
+    },
+    {
+      "item": "botania:lexicon",
+      "components": "{\"botania:elven_unlock\":1b}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

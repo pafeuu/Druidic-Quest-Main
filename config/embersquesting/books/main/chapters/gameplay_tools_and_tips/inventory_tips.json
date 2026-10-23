@@ -1,0 +1,32 @@
+{
+  "title": "Inventory Tips",
+  "description": [
+    "Handy-dandy useful things!",
+    "After typing the item you are looking for into EMI, you can double click the search bar to §6highlight§r that item in your §2inventory or opened containers§r. You can also §2hover§r over the item in your inventory or in EMI and §2press \"Y\"§r (by default).",
+    "",
+    "Use the §2Quick Stack to Nearby Chests§r button in your inventory to quickly deposit items into nearby inventories.",
+    "",
+    "You can quickly transfer items one-at-a-time between your inventory and any storage by §2scrolling§r the mouse wheel while §2hovering§r over the items you wish to move.",
+    "",
+    "§2Middle-clicking§r the mouse in an inventory will §2auto-sort§r that inventory.",
+    "",
+    "Annoying noises? Check out the §2Extreme Sound Muffler§r button in your inventory!"
+  ],
+  "icon": "minecraft:chest",
+  "x": 0.75,
+  "y": 3,
+  "deps": {
+    "all": [
+      "welcome/tips_chapter"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "Inventory Tips"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "circle"
+}

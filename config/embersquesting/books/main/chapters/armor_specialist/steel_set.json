@@ -1,0 +1,41 @@
+{
+  "title": "Steel Set",
+  "icon": "druidic_quest_core:steel_chestplate",
+  "x": 13.5,
+  "y": 11.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "druidic_quest_core:steel_helmet",
+      "type": "item"
+    },
+    {
+      "item": "druidic_quest_core:steel_chestplate",
+      "type": "item"
+    },
+    {
+      "item": "druidic_quest_core:steel_leggings",
+      "type": "item"
+    },
+    {
+      "item": "druidic_quest_core:steel_boots",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

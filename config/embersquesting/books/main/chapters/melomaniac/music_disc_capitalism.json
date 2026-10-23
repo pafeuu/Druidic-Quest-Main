@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Capitalism",
+  "icon": "wizards_reborn:music_disc_capitalism",
+  "x": 12.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:music_disc_capitalism",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

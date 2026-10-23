@@ -1,0 +1,29 @@
+{
+  "title": "Bacon And Eggs",
+  "icon": "farmersdelight:bacon_and_eggs",
+  "x": 0.3999999999999986,
+  "y": 2.4000000000000004,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:bacon_and_eggs",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

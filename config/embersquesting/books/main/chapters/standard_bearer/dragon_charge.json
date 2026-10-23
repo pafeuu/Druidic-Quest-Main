@@ -1,0 +1,28 @@
+{
+  "title": "Dragon Charge",
+  "icon": "supplementaries:dragon_banner_pattern",
+  "x": 2,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "supplementaries:dragon_banner_pattern",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

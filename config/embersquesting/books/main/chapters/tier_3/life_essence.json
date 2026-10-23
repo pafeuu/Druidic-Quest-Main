@@ -1,0 +1,26 @@
+{
+  "title": "Life Essence",
+  "icon": "kubejs:life_essence",
+  "x": 8,
+  "y": 13,
+  "deps": {
+    "all": [
+      "tier_3/light_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:life_essence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

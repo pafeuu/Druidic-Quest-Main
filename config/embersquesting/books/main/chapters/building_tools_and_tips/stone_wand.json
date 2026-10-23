@@ -1,0 +1,31 @@
+{
+  "title": "Stone Wand",
+  "description": [
+    "Convenient Randomization"
+  ],
+  "icon": "constructionwand:stone_wand{wand_options:{}}",
+  "x": 10.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "building_tools_and_tips/randomized_building"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "constructionwand:stone_wand",
+      "components": "{wand_options:{}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "wood",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

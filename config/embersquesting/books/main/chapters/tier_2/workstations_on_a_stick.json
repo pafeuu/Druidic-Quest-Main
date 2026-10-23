@@ -1,0 +1,46 @@
+{
+  "title": "Workstations on a Stick!",
+  "description": [
+    "Pocket Crafting",
+    "You can now access your crafting stations from your inventory by right clicking the crafting station on a stick in your hand. Or set a keybind for the Curio slot!"
+  ],
+  "icon": "crafting_on_a_stick:crafting_table",
+  "x": 7.5,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "tier_2/new_equipment_opportunity"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "crafting_on_a_stick:crafting_table",
+      "type": "item"
+    },
+    {
+      "item": "crafting_on_a_stick:anvil",
+      "type": "item"
+    },
+    {
+      "item": "crafting_on_a_stick:stonecutter",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 6,
+      "type": "item"
+    },
+    {
+      "item": "thermal:ruby",
+      "type": "item"
+    },
+    {
+      "item": "thermal:sapphire",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

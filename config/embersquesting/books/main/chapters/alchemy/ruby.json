@@ -1,0 +1,19 @@
+{
+  "title": "Ruby",
+  "icon": "thermal:ruby",
+  "x": 4,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "alchemy/alchemical_begining"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:ruby",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

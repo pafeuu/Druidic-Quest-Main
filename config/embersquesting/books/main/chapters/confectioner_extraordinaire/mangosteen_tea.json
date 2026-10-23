@@ -1,0 +1,29 @@
+{
+  "title": "Mangosteen Tea",
+  "icon": "fruitsdelight:mangosteen_tea",
+  "x": 2.5999999999999996,
+  "y": 3.1999999999999993,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:mangosteen_tea",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

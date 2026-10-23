@@ -1,0 +1,28 @@
+{
+  "title": "Spore Stalker",
+  "icon": "tide:spore_stalker{FishLength:45.0d}",
+  "x": 10.524999999999999,
+  "y": 6.7,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:spore_stalker",
+      "components": "{FishLength:45.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle"
+}

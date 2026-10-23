@@ -1,0 +1,28 @@
+{
+  "title": "Arapaima",
+  "icon": "tide:arapaima{FishLength:290.0d}",
+  "x": 7.975,
+  "y": 4.15,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:arapaima",
+      "components": "{FishLength:290.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle"
+}

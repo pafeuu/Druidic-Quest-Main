@@ -1,0 +1,31 @@
+{
+  "title": "Ironwood Sword",
+  "icon": "twilightforest:ironwood_sword{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}",
+  "x": 3.1500000000000004,
+  "y": 8.7,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "twilightforest:ironwood_sword",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

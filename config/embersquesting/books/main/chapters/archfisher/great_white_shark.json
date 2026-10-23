@@ -1,0 +1,31 @@
+{
+  "title": "Great White Shark",
+  "icon": "tide:great_white_shark{FishLength:430.0d}",
+  "x": 8.825,
+  "y": 0.75,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:great_white_shark",
+      "components": "{FishLength:430.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

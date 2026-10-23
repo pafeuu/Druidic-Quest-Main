@@ -1,0 +1,33 @@
+{
+  "title": "Ancient Sapling",
+  "description": [
+    "Generating Aura",
+    "Growing §dancient saplings§r can help you maintain a healthy amount of aura in an area. This will prove useful later when aura-usage increases. Wood from this tree is also required for some recipes.",
+    "",
+    "Read more about aura and ancient saplings in the §6Book of Natural Aura.§r",
+    "",
+    "§o§7Remember, you can find saplings needed for rituals in the Market!§r§r"
+  ],
+  "icon": "naturesaura:ancient_sapling",
+  "x": 15.5,
+  "y": 14,
+  "deps": {
+    "all": [
+      "introduction/arcanum_ore"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:ancient_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "naturesaura:eye",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "gear"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Infused Diamond",
+  "description": [
+    "Finally useful!"
+  ],
+  "icon": "kubejs:infused_diamond",
+  "x": 4,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "alchemy/alchemical_begining",
+      "alchemy/sacrificial_dagger"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:infused_diamond",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

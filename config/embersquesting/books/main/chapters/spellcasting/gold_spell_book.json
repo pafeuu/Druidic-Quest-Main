@@ -1,0 +1,24 @@
+{
+  "title": "Gold Spell Book",
+  "description": [
+    "8 Spell Slots"
+  ],
+  "icon": "irons_spellbooks:gold_spell_book{ISB_Spells:{data:[],maxSpells:8,mustEquip:1b,spellWheel:1b}}",
+  "x": 5.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "spellcasting/iron_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:gold_spell_book",
+      "components": "{ISB_Spells:{data:[],maxSpells:8,mustEquip:1b,spellWheel:1b}}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Netherite Upgrade",
+  "icon": "minecraft:netherite_upgrade_smithing_template",
+  "x": 1.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:netherite_upgrade_smithing_template",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

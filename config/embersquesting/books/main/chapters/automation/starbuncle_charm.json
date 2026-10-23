@@ -1,0 +1,21 @@
+{
+  "title": "Starbuncle Charm",
+  "icon": "ars_nouveau:starbuncle_charm",
+  "y": 9,
+  "deps": {
+    "all": [
+      "automation/item_entity_transportation"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:starbuncle_charm",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Iron Ring",
+  "icon": "enigmaticlegacy:iron_ring",
+  "x": 16.6,
+  "y": 2.2000000000000006,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:iron_ring",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

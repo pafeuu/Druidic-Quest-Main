@@ -1,0 +1,62 @@
+{
+  "title": "Crumbling Altar",
+  "description": [
+    "That's how the cookie crumbles...",
+    "Build a§2§l Natural Altar§r§r multiblock with the crumbling catalyst to grind a bit of gold dust.",
+    "",
+    "Be careful! Draining too much Aura from an area may have unwanted consequences.",
+    "",
+    "If this makes you nervous, you can use Create's millstone as a safer, manual alternative.",
+    "",
+    "Catalyst goes on top of one of the lower gem blocks."
+  ],
+  "icon": "naturesaura:nature_altar",
+  "x": 21.5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "tier_1/first_machine_casing",
+      "tier_1/slay_the_naga"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:nature_altar",
+      "type": "item"
+    },
+    {
+      "item": "naturesaura:crushing_catalyst",
+      "type": "item"
+    },
+    {
+      "tag": "dq:altar_gem_blocks",
+      "count": 8,
+      "type": "item",
+      "title": "Gem Blocks"
+    },
+    {
+      "tag": "dq:bricks",
+      "count": 20,
+      "type": "item",
+      "title": "Any #dq:bricks"
+    },
+    {
+      "tag": "dq:altar_wood",
+      "count": 20,
+      "type": "item",
+      "title": "Any #dq:altar_wood"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "complete": {
+    "min": 4
+  },
+  "shape": "rsquare"
+}

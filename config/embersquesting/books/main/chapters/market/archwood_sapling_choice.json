@@ -1,0 +1,32 @@
+{
+  "title": "Archwood Sapling Choice",
+  "description": [
+    "8 Gold Coins"
+  ],
+  "icon": "ars_nouveau:green_archwood_sapling",
+  "x": 10.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 8,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "archwood_saplings",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

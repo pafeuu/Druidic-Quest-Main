@@ -1,0 +1,65 @@
+{
+  "title": "Zanite Tools",
+  "description": [
+    "Pretty in Purple",
+    "§5Zanite tools§r reach 0.5 blocks farther than iron with double the durability.",
+    "",
+    "§5Zanite tools§r also mine faster the lower their durability gets. ",
+    "",
+    "The sword deals the same damage as iron, but most of its damage is converted to §eholy damage§r which makes it a perfect weapon against the §4undead§r."
+  ],
+  "icon": "aether:zanite_pickaxe{Damage:0}",
+  "x": 10.5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "tier_2/zanite_gemstone"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "aether:zanite_sword",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "aether:zanite_shovel",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "aether:zanite_pickaxe",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "aether:zanite_axe",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "aether:zanite_hoe",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "aether:zanite_gemstone",
+      "count": 9,
+      "type": "item"
+    },
+    {
+      "item": "thermal:gold_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

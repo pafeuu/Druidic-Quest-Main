@@ -1,0 +1,31 @@
+{
+  "title": "Arcane Tools",
+  "description": [
+    "Early Silk Touch",
+    "§5Arcane Wood Tools§r are extremely slow and brittle, but have innate silk touch ability and can harvest most of the blocks."
+  ],
+  "icon": "wizards_reborn:arcane_wood_pickaxe{Damage:0,arcaneEnchantments:{}}",
+  "x": 18,
+  "y": 14,
+  "deps": {
+    "all": [
+      "introduction/pure_daisy"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "forge:tools/arcane_wood",
+      "type": "item",
+      "title": "Any #forge:tools/arcane_wood"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

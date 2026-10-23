@@ -1,0 +1,25 @@
+{
+  "title": "Orbital Fluid Retainer",
+  "icon": "wizards_reborn:orbital_fluid_retainer",
+  "x": 8.5,
+  "y": 3,
+  "deps": {
+    "all": [
+      "storage/fluid_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:orbital_fluid_retainer",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

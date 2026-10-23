@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Atta",
+  "icon": "deep_aether:music_disc_atta",
+  "x": 10.5,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "deep_aether:music_disc_atta",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

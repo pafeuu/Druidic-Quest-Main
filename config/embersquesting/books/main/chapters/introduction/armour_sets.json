@@ -1,0 +1,59 @@
+{
+  "title": "Armour Sets!",
+  "description": [
+    "Craft Your First Armor",
+    "There's tons of armor to choose from in the pack! Most pieces are part of a set.",
+    "Sets give you bonuses for wearing 4 pieces of the same armor type.",
+    "",
+    "For example:",
+    "",
+    "§cLeather Armor§r gives you +30% movement speed.",
+    "",
+    "The §eBeekeeper Set§r provides you with a few immunities to negative effects.",
+    "",
+    "While the §2Cactus Set§r is the weakest option but it does provide you with thorns as well as regeneration while in the desert biomes."
+  ],
+  "icon": "thermal:beekeeper_chestplate{Damage:0}",
+  "x": 4,
+  "y": 10,
+  "deps": {
+    "all": [
+      "introduction/new_combat_system"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(thermal:beekeeper_boots) item(kubejs:cactus_boots) item(minecraft:leather_boots))",
+      "type": "item",
+      "title": "Early Game Boots"
+    },
+    {
+      "filter": "or(item(thermal:beekeeper_leggings) item(minecraft:leather_leggings) item(kubejs:cactus_leggings))",
+      "type": "item",
+      "title": "Early Game Leggings"
+    },
+    {
+      "filter": "or(item(minecraft:leather_chestplate) item(kubejs:cactus_chestplate) item(thermal:beekeeper_chestplate))",
+      "type": "item",
+      "title": "Early Game Chestplate"
+    },
+    {
+      "filter": "or(item(kubejs:cactus_helmet) item(minecraft:leather_helmet) item(thermal:beekeeper_helmet))",
+      "type": "item",
+      "title": "Early Game Helmet"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "alexsdelight:bison_burger",
+      "count": 2,
+      "type": "item"
+    },
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

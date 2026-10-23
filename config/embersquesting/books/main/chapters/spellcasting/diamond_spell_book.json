@@ -1,0 +1,24 @@
+{
+  "title": "Diamond Spell Book",
+  "description": [
+    "10 Spell Slots"
+  ],
+  "icon": "irons_spellbooks:diamond_spell_book{ISB_Spells:{data:[],maxSpells:10,mustEquip:1b,spellWheel:1b}}",
+  "x": 5.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "spellcasting/gold_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:diamond_spell_book",
+      "components": "{ISB_Spells:{data:[],maxSpells:10,mustEquip:1b,spellWheel:1b}}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

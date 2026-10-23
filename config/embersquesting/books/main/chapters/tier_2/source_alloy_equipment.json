@@ -1,0 +1,70 @@
+{
+  "title": "Source Alloy Equipment",
+  "description": [
+    "Self Repairing Tools",
+    "§9Source Alloy Tools§r are similiar in strength to iron equipment but they have the ability to self repair using source from your source tablet"
+  ],
+  "icon": "botania:manasteel_pick{Damage:0}",
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "tier_2/manasteel_ingot"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "botania:manasteel_pick",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "botania:manasteel_shovel",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "botania:manasteel_axe",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "botania:manasteel_hoe",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "botania:manasteel_sword",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "botania:manasteel_shears",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "item": "botania:mana_tablet",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "botania:manasteel_ingot",
+      "count": 9,
+      "type": "item"
+    },
+    {
+      "item": "thermal:gold_coin",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

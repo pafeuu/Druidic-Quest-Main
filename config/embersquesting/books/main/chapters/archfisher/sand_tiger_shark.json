@@ -1,0 +1,31 @@
+{
+  "title": "Sand Tiger Shark",
+  "icon": "tide:sand_tiger_shark{FishLength:245.0d}",
+  "x": 11.375,
+  "y": 3.3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:sand_tiger_shark",
+      "components": "{FishLength:245.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

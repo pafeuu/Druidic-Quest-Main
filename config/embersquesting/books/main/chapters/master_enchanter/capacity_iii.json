@@ -1,0 +1,31 @@
+{
+  "title": "Capacity III",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"create:capacity\",lvl:3s}]}",
+  "x": 6.85,
+  "y": 11.1,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"create:capacity\",lvl:3s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

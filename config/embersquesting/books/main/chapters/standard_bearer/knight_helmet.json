@@ -1,0 +1,28 @@
+{
+  "title": "Knight Helmet",
+  "icon": "twilightforest:knight_phantom_banner_pattern",
+  "x": 5.5,
+  "y": 6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "twilightforest:knight_phantom_banner_pattern",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

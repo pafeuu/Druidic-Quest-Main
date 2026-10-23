@@ -1,0 +1,48 @@
+{
+  "title": "Netherite Battlemage Set",
+  "icon": "irons_spellbooks:netherite_mage_chestplate{Damage:0,ISB_Spells:{data:[],maxSpells:1,mustEquip:1b,spellWheel:1b}}",
+  "x": 18.5,
+  "y": 12,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:netherite_mage_helmet",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:netherite_mage_chestplate",
+      "components": "{Damage:0,ISB_Spells:{data:[],maxSpells:1,mustEquip:1b,spellWheel:1b}}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:netherite_mage_leggings",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:netherite_mage_boots",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

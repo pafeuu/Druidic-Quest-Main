@@ -1,0 +1,26 @@
+{
+  "title": "Time to Gather Useful Materials",
+  "icon": "minecraft:wooden_shovel{Damage:0}",
+  "x": 16.5,
+  "y": 8,
+  "deps": {
+    "all": [
+      "introduction/primitive_mortar"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "forge:tools/shovels",
+      "type": "item",
+      "title": "Any #forge:tools/shovels"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "create:brown_toolbox",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Etherium Sword",
+  "icon": "enigmaticlegacy:etherium_sword{Damage:0}",
+  "x": 13.05,
+  "y": 0.5999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "enigmaticlegacy:etherium_sword",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

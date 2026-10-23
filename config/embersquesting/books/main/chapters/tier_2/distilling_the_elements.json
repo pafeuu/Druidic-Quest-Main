@@ -1,0 +1,43 @@
+{
+  "title": "Distilling the Elements",
+  "description": [
+    "Elemental Fluids",
+    "Mastering the elements is a crucial part of any magic-user's journey.",
+    "",
+    "Placing the appropriate items into the §9Elemental Evaporator§r will allow you to extract the elements in their liquid forms.",
+    "",
+    "Or you can place §9Elemental Extractor§r equipped with §9Elemental Pump§r to achieve the same result "
+  ],
+  "icon": "mbd2:elemental_evaporator",
+  "x": 11,
+  "y": 5,
+  "deps": {
+    "all": [
+      "tier_2/arcane_crafting",
+      "tier_2/new_equipment_opportunity"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(mbd2:elemental_extractor) item(mbd2:elemental_evaporator))",
+      "type": "item",
+      "title": "Elemental generators"
+    },
+    {
+      "match_components": "none",
+      "item": "kubejs:elemental_pump",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "complete": "any",
+  "shape": "rsquare"
+}

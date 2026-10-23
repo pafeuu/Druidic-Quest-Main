@@ -1,0 +1,19 @@
+{
+  "title": "Shulker Box",
+  "icon": "minecraft:shulker_box",
+  "x": 5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "storage/sack"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:shulker_box",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

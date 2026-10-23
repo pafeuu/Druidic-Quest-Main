@@ -1,0 +1,26 @@
+{
+  "title": "Affinity Ring",
+  "icon": "irons_spellbooks:affinity_ring",
+  "x": 10.6,
+  "y": 6.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:affinity_ring",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

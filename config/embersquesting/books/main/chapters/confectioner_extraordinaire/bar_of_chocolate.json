@@ -1,0 +1,29 @@
+{
+  "title": "Bar Of Chocolate",
+  "icon": "create:bar_of_chocolate",
+  "x": 9.8,
+  "y": 0.40000000000000036,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:bar_of_chocolate",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

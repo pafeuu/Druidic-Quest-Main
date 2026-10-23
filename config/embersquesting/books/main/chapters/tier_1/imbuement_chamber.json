@@ -1,0 +1,38 @@
+{
+  "title": "Imbuement Chamber",
+  "description": [
+    "Magical Transformation",
+    "Insert the item to be transformed by right clicking, or by some other means of item transport, such as a hopper.",
+    "",
+    "Automation will require filters, as a simple hopper will pull the item before crafting is completed.",
+    "",
+    "While §bSource§r is not necessary for full function, it will greatly speed up the process."
+  ],
+  "icon": "ars_nouveau:imbuement_chamber",
+  "x": 25.5,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "tier_1/crumbling_altar",
+      "tier_1/lightning_crafting",
+      "tier_1/find_an_amethyst_geode",
+      "tier_1/slay_the_naga"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:imbuement_chamber",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "tier1treasure",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "rsquare"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "The Ender Slayer",
+  "icon": "enigmaticlegacy:ender_slayer{Damage:0}",
+  "x": 11.25,
+  "y": 0.5999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "stat": "enigmaticlegacy:play_time_with_seven_curses",
+      "min": 1,
+      "type": "stat",
+      "icon": "enigmaticlegacy:evil_essence"
+    },
+    {
+      "match_components": "none",
+      "item": "enigmaticlegacy:ender_slayer",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

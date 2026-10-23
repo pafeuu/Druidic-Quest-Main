@@ -1,0 +1,27 @@
+{
+  "title": "Rope Arrow",
+  "icon": "supplementaries:rope_arrow{Damage:0}",
+  "x": 1,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "supplementaries:rope_arrow",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

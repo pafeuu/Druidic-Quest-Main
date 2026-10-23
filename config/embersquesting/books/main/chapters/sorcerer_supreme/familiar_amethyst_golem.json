@@ -1,0 +1,29 @@
+{
+  "title": "Familiar Amethyst Golem",
+  "icon": "ars_nouveau:familiar_amethyst_golem",
+  "x": 18.599999999999998,
+  "y": 3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:familiar_amethyst_golem",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Infinity Wand",
+  "icon": "constructionwand:infinity_wand{wand_options:{}}",
+  "x": 16.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "building_tools_and_tips/diamond_wand"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "constructionwand:infinity_wand",
+      "components": "{wand_options:{}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

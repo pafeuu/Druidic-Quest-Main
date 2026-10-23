@@ -1,0 +1,28 @@
+{
+  "title": "Enigmatic Amulet",
+  "icon": "enigmaticlegacy:enigmatic_amulet{AssignedColor:0.7f}",
+  "x": 18.2,
+  "y": 5.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "enigmaticlegacy:enigmatic_amulet",
+      "components": "{AssignedColor:0.7f}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

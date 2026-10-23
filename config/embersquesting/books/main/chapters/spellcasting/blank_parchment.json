@@ -1,0 +1,28 @@
+{
+  "title": "Blank Parchment",
+  "description": [
+    "The §5blank parchment§r is your access to full magical automation!",
+    "",
+    "By inscribing a spell onto the parchment, you can then use the resulting §5spell scroll§r to assign a spell to spell turrets.",
+    "",
+    "Using the blank parchment on a scry crystal will result in a §5bound scroll§r which can be used with the enchanter's eye.",
+    "",
+    "Combining a blank parchment with the appropriate ingredients will result in an §5item scroll,§r used for managing magical automation."
+  ],
+  "icon": "ars_nouveau:blank_parchment",
+  "x": 13.5,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "spellcasting/scribes_table"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:blank_parchment",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

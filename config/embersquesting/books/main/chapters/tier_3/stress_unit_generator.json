@@ -1,0 +1,41 @@
+{
+  "title": "Stress Unit Generator",
+  "description": [
+    "Stressed Out!",
+    "In this pack you can only heat up boilers with blaze burners.",
+    "",
+    "For many processes going forward, you are going to need to generate §cstress units§r. Steam engines will give you access to this crucial energy source!"
+  ],
+  "icon": "create:steam_engine",
+  "x": 14,
+  "y": 3,
+  "deps": {
+    "all": [
+      "tier_3/andesite_machine",
+      "tier_3/death_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:steam_engine",
+      "type": "item"
+    },
+    {
+      "item": "create:fluid_tank",
+      "type": "item"
+    },
+    {
+      "item": "create:blaze_burner",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "create:andesite_alloy",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

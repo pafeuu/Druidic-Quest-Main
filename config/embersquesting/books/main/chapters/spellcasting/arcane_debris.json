@@ -1,0 +1,24 @@
+{
+  "title": "Arcane Debris",
+  "description": [
+    "To make truly magical equipment, you will need this most durable of magical materials.",
+    "",
+    "Find it near §9y=56§r in the Overworld, though you will need §cnetherite§r or better to harvest it..."
+  ],
+  "icon": "irons_spellbooks:arcane_debris",
+  "x": 5.5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "spellcasting/arcane_anvil"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:arcane_debris",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

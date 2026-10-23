@@ -1,0 +1,28 @@
+{
+  "title": "Ascension",
+  "icon": "wizards_reborn:ascension_banner_pattern",
+  "x": 3,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:ascension_banner_pattern",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

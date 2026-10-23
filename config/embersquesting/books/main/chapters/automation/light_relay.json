@@ -1,0 +1,42 @@
+{
+  "title": "Light Relay",
+  "icon": "botania:light_relay",
+  "x": 0.5,
+  "y": 10,
+  "deps": {
+    "all": [
+      "automation/item_entity_transportation"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:light_relay",
+      "type": "item"
+    },
+    {
+      "item": "botania:light_launcher",
+      "type": "item"
+    },
+    {
+      "item": "botania:detector_light_relay",
+      "type": "item"
+    },
+    {
+      "item": "botania:fork_light_relay",
+      "type": "item"
+    },
+    {
+      "item": "botania:toggle_light_relay",
+      "type": "item"
+    },
+    {
+      "item": "botania:spectranthemum",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

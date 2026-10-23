@@ -1,0 +1,35 @@
+{
+  "title": "Welcome",
+  "description": [
+    "✨ Welcome to §2Druidic Quest!§r ✨",
+    "",
+    "This modpack is focused on adventure and automation through magic, as well as balancing most other aspects of the game!",
+    "",
+    "Many recipes are changed and will require you to set up automation for certain materials by using different mechanics from different mods.",
+    "",
+    "§2Time will pause while the questbook is open.§r §eQuests§r §2will help guide you through progression so§r §e§nmake sure to read them.§r"
+  ],
+  "icon": "minecraft:grass_block",
+  "x": 5,
+  "y": 3,
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "Idea behind the modpack"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "alexsdelight:bunfungus_sandwich",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:torch",
+      "count": 24,
+      "type": "item"
+    }
+  ],
+  "size": 2.0,
+  "shape": "hexagon"
+}

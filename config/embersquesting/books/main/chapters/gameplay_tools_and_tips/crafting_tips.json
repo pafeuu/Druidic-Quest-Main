@@ -1,0 +1,28 @@
+{
+  "title": "Crafting Tips",
+  "description": [
+    "EMI is your friend!",
+    "As a true expert pack, §2Druidic Quest§r features comprehensive mod integration.",
+    "",
+    "This means that most recipes within the pack have been changed to include components from various mods.",
+    "",
+    "Many mod mechanics have also been changed to provide balance, as well as to encourage unconventional methods of automation."
+  ],
+  "icon": "minecraft:crafting_table",
+  "x": 9,
+  "y": 0.75,
+  "deps": {
+    "all": [
+      "welcome/tips_chapter"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "Crafting Tips"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "circle"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Swiftness IV",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"majruszsenchantments:horse_swiftness\",lvl:4s}]}",
+  "x": 9.55,
+  "y": 10.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"majruszsenchantments:horse_swiftness\",lvl:4s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Slay the Naga ",
+  "description": [
+    "...or don't.",
+    "If you don't like fighting the Twilight Forest bosses, there are ways to synthesize their drops using alchemy!",
+    "",
+    "Check out the §3Alchemy§r quest tab for more info!",
+    {
+      "width": 96,
+      "height": 96,
+      "texture": "entity:textures/twilightforest:naga.png",
+      "type": "image"
+    }
+  ],
+  "icon": "twilightforest:naga_scale",
+  "x": 18,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "tier_1/visit_the_twilight_forest",
+      "tier_1/lightning_crafting"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "twilightforest:naga_scale",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "twilightforest:naga_scale",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

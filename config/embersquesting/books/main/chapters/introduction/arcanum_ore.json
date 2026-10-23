@@ -1,0 +1,38 @@
+{
+  "title": "Arcanum Ore",
+  "description": [
+    "How it shines!",
+    "§bArcanum Ore§r spawns between y90 and y-40 in the Overworld."
+  ],
+  "icon": "wizards_reborn:arcanum",
+  "x": 14.5,
+  "y": 12,
+  "deps": {
+    "all": [
+      "introduction/assemble_the_ritual"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:arcanum_dust",
+      "type": "item"
+    },
+    {
+      "item": "wizards_reborn:arcanum",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "wizards_reborn:arcanemicon",
+      "type": "item"
+    },
+    {
+      "item": "naturesaura_plus:aura_coffee",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

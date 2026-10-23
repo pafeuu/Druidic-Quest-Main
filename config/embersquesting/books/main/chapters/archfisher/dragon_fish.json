@@ -1,0 +1,31 @@
+{
+  "title": "Dragon Fish",
+  "icon": "tide:dragon_fish{FishLength:650.0d}",
+  "x": 18.174999999999997,
+  "y": 4.15,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:dragon_fish",
+      "components": "{FishLength:650.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

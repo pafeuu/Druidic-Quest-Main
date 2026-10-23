@@ -1,0 +1,36 @@
+{
+  "title": "Cutting Board",
+  "description": [
+    "Slicing and Dicing",
+    "You can now tinker even more with food!",
+    "",
+    "§8§oCan be automated with a hopper and dispenser in the next chapter.§r§r"
+  ],
+  "icon": "farmersdelight:cutting_board",
+  "x": 17.75,
+  "y": 7,
+  "deps": {
+    "all": [
+      "introduction/flint_knife"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:cutting_board",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "icon": "farmersdelight:chicken_sandwich",
+      "table": "food",
+      "type": "table"
+    },
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

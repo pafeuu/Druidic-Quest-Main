@@ -1,0 +1,18 @@
+{
+  "title": "Earth Heart",
+  "icon": "enigmaticlegacy:earth_heart",
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "alchemy/advanced_alchemical_dust"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:earth_heart",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

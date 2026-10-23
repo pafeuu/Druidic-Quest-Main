@@ -1,0 +1,48 @@
+{
+  "title": "Arcane Fortress Set",
+  "icon": "wizards_reborn:arcane_fortress_chestplate{Damage:0,arcaneEnchantments:{}}",
+  "x": 12.5,
+  "y": 11.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "wizards_reborn:arcane_fortress_helmet",
+      "components": "{Damage:0,arcaneEnchantments:{}}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "wizards_reborn:arcane_fortress_chestplate",
+      "components": "{Damage:0,arcaneEnchantments:{}}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "wizards_reborn:arcane_fortress_leggings",
+      "components": "{Damage:0,arcaneEnchantments:{}}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "wizards_reborn:arcane_fortress_boots",
+      "components": "{Damage:0,arcaneEnchantments:{}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

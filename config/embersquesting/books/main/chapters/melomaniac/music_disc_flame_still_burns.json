@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Flame Still Burns",
+  "icon": "irons_spellbooks:music_disc_flame_still_burns",
+  "x": 7.5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:music_disc_flame_still_burns",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

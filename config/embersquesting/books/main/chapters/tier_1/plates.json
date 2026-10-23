@@ -1,0 +1,39 @@
+{
+  "title": "Plates",
+  "description": [
+    "Flattened",
+    "To get plates, smash §lTreated Wood Planks§r and §lSmooth Stone§r with an §lEngineer's Hammer§r."
+  ],
+  "icon": "druidic_quest_core:arcanist_hammer{Damage:0}",
+  "x": 12,
+  "y": 5,
+  "deps": {
+    "all": [
+      "tier_1/basic_automation_material"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "druidic_quest_core:livingwood_plate",
+      "type": "item"
+    },
+    {
+      "item": "druidic_quest_core:livingrock_plate",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 5,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:potato",
+      "count": 18,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

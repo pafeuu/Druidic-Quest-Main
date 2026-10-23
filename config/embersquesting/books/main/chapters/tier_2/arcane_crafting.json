@@ -1,0 +1,42 @@
+{
+  "title": "Arcane Crafting",
+  "description": [
+    "Crafting with Source!",
+    "With the help of the §5§lEnchanting Apparatus§r§r, you can craft tons of new items!",
+    "",
+    "You can now access enchanting, as well... if you've found some enchanting runes.",
+    "",
+    "§5The Enchanting Apparatus can enchant §nany§r §5compatible item! Not just books!§r"
+  ],
+  "icon": "ars_nouveau:arcane_core",
+  "x": 7.5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "tier_2/source_generators"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:arcane_pedestal",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:enchanting_apparatus",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:arcane_core",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

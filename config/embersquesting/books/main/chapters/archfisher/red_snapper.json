@@ -1,0 +1,28 @@
+{
+  "title": "Red Snapper",
+  "icon": "tide:red_snapper{FishLength:45.0d}",
+  "x": 10.524999999999999,
+  "y": 4.15,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:red_snapper",
+      "components": "{FishLength:45.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle"
+}

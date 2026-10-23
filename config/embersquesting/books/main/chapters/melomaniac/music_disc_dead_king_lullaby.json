@@ -1,0 +1,28 @@
+{
+  "title": "Music Disc Dead King Lullaby",
+  "icon": "irons_spellbooks:music_disc_dead_king_lullaby",
+  "x": 12,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:music_disc_dead_king_lullaby",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

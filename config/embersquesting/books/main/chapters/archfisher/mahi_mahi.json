@@ -1,0 +1,28 @@
+{
+  "title": "Mahi Mahi",
+  "icon": "tide:mahi_mahi{FishLength:107.5d}",
+  "x": 8.825,
+  "y": 6.7,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:mahi_mahi",
+      "components": "{FishLength:107.5d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle"
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Stages",
+  "order": 1,
+  "scope": "team",
+  "defaults": {
+    "progression": "linear"
+  }
+}

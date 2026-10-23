@@ -1,0 +1,26 @@
+{
+  "title": "Enchanters Eye",
+  "description": [
+    "Can be inscribed with a spell at the inscription table.",
+    "",
+    "The enchanter's eye can cast spells remotely through a §5scry crystal!§r Use the eye directly on the scry crystal to set a single location, or hold a bound §5scry parchment§r in your offhand to allow for multiple locations.",
+    "",
+    "The enchanter's eye will cast the inscribed spell through the scry crystal, similar to a spell turret, though the spell is considered to have been cast directly by the player when using the eye."
+  ],
+  "icon": "ars_nouveau:enchanters_eye",
+  "x": 12,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "spellcasting/scribes_table"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:enchanters_eye",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "True Fishing Fanatic",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"majruszsenchantments:fishing_fanatic\",lvl:8s}]}",
+  "x": 4.15,
+  "y": 10.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"majruszsenchantments:fishing_fanatic\",lvl:8s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Warped Fungus Cap",
+  "icon": "wizards_reborn:warped_fungus_cap",
+  "x": 12.6,
+  "y": 3.4000000000000004,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:warped_fungus_cap",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

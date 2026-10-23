@@ -1,0 +1,32 @@
+{
+  "title": "Steeleaf Sword",
+  "icon": "twilightforest:steeleaf_sword{Damage:0,Enchantments:[{id:\"minecraft:looting\",lvl:2s}]}",
+  "x": 4.05,
+  "y": 8.7,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "twilightforest:steeleaf_sword",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:looting\",lvl:2s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

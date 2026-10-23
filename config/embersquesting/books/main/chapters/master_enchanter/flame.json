@@ -1,0 +1,31 @@
+{
+  "title": "Flame",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:flame\",lvl:1s}]}",
+  "x": 9.55,
+  "y": 2.0999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"minecraft:flame\",lvl:1s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

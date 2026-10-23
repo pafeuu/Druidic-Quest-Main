@@ -1,0 +1,26 @@
+{
+  "title": "Nutrition Charm",
+  "icon": "kubejs:nutrition_charm",
+  "x": 11.4,
+  "y": 7.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:nutrition_charm",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

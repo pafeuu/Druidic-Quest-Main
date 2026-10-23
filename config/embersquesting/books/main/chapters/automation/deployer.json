@@ -1,0 +1,22 @@
+{
+  "title": "Deployer",
+  "icon": "create:deployer",
+  "x": 11.5,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "automation/ultimate_automation_tools"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:deployer",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

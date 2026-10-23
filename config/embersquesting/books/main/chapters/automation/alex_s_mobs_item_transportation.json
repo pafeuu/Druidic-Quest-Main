@@ -1,0 +1,30 @@
+{
+  "title": "Alex's Mobs Item Transportation",
+  "description": [
+    "§l§eGustmaker§r§r when provided with a redstone signal will create a tornado that pushes all entities for over 25 blocks!",
+    "",
+    "§l§5Capsid§r§r will transport items up if it ends on a container it will deposit said item."
+  ],
+  "icon": "alexsmobs:gustmaker",
+  "y": 8,
+  "deps": {
+    "all": [
+      "automation/item_entity_transportation"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "alexsmobs:gustmaker",
+      "type": "item"
+    },
+    {
+      "item": "alexsmobs:capsid",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "The Ice Cube",
+  "icon": "kubejs:the_ice_cube",
+  "x": 7.4,
+  "y": 0.5999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:the_ice_cube",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

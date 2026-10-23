@@ -1,0 +1,32 @@
+{
+  "title": "4 Oat Seeds",
+  "description": [
+    "5 Silver Coins"
+  ],
+  "icon": "vintagedelight:oat",
+  "x": 5,
+  "y": 8,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 5,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "vintagedelight:oat_seeds",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

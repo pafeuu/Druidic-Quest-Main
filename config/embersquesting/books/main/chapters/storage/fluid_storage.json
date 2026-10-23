@@ -1,0 +1,22 @@
+{
+  "title": "Fluid Storage",
+  "description": [
+    "§4§owork in progress§r§r"
+  ],
+  "icon": "minecraft:lava_bucket",
+  "x": 11,
+  "y": 3,
+  "deps": {
+    "all": [
+      "tier_1/bucket"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "Fluid Storage"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

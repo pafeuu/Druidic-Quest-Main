@@ -1,0 +1,35 @@
+{
+  "title": "Primitive Chisel",
+  "description": [
+    "Shaping Stones"
+  ],
+  "icon": "kubejs:primitive_chisel{Damage:0}",
+  "x": 12.5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "introduction/different_tools"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "kubejs:primitive_chisel",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 4,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:flint",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

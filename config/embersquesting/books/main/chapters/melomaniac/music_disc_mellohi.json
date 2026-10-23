@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Mellohi",
+  "icon": "minecraft:music_disc_mellohi",
+  "x": 5.5,
+  "y": 10,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:music_disc_mellohi",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

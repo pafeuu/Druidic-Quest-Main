@@ -1,0 +1,22 @@
+{
+  "title": "Device Collector",
+  "icon": "thermal:device_collector",
+  "x": 9.5,
+  "y": 16.5,
+  "deps": {
+    "all": [
+      "automation/item_collectors"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:device_collector",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

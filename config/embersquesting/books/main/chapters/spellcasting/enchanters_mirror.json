@@ -1,0 +1,26 @@
+{
+  "title": "Enchanters Mirror",
+  "description": [
+    "Can be inscribed with a spell at the inscription table.",
+    "",
+    "The enchanter's mirror always casts §5self§r as it's initial form. When building your spell, simply continue from this point, adding §nonly§r effects and augments.",
+    "",
+    "This effectively allows you to cast spells beyond the typical 10-glyph limit."
+  ],
+  "icon": "ars_nouveau:enchanters_mirror",
+  "x": 10,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "spellcasting/scribes_table"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:enchanters_mirror",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

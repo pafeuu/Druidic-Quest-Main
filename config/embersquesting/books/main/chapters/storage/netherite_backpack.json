@@ -1,0 +1,25 @@
+{
+  "title": "Netherite Backpack",
+  "icon": "sophisticatedbackpacks:netherite_backpack",
+  "x": 4.5,
+  "y": 15.5,
+  "deps": {
+    "all": [
+      "storage/diamond_backpack"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedbackpacks:netherite_backpack",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

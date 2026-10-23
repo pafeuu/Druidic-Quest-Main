@@ -1,0 +1,29 @@
+{
+  "title": "Bison Burger",
+  "icon": "alexsdelight:bison_burger",
+  "x": 8.8,
+  "y": 6.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "alexsdelight:bison_burger",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

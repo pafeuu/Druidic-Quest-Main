@@ -1,0 +1,48 @@
+{
+  "title": "First Magical Feat",
+  "description": [
+    "If you can't even do that, are you sure you want to keep playing?",
+    "To craft a furnace you are going to need 8 sturdy stones and 1 coal block.",
+    "",
+    "Check the §aponder§r for more details!"
+  ],
+  "icon": "minecraft:furnace",
+  "x": 2,
+  "y": 5,
+  "deps": {
+    "all": [
+      "tier_1/coal_coke_production"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:furnace",
+      "type": "item"
+    },
+    {
+      "item": "quark:sturdy_stone",
+      "count": 8,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:coal_block",
+      "type": "item"
+    },
+    {
+      "item": "thermal:coal_coke",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "complete": {
+    "min": 2
+  },
+  "shape": "rsquare"
+}

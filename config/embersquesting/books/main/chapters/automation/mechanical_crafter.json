@@ -1,0 +1,22 @@
+{
+  "title": "Mechanical Crafter",
+  "icon": "create:mechanical_crafter",
+  "x": 11.5,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "automation/auto_crafting"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:mechanical_crafter",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

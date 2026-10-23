@@ -1,0 +1,26 @@
+{
+  "title": "Copper Backpack",
+  "icon": "sophisticatedbackpacks:copper_backpack",
+  "x": 4.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "storage/backpack"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedbackpacks:copper_backpack",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

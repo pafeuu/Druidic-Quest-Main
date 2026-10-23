@@ -1,0 +1,26 @@
+{
+  "title": "Sack",
+  "icon": "supplementaries:sack",
+  "x": 5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "storage/item_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "supplementaries:sack",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:string",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

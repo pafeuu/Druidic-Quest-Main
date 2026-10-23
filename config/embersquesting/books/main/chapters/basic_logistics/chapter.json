@@ -1,0 +1,10 @@
+{
+  "title": "Tier 4 - Infusion!",
+  "icon": "naturesaura:sky_ingot",
+  "order": 10,
+  "scope": "team",
+  "group": "main_questline",
+  "defaults": {
+    "progression": "linear"
+  }
+}

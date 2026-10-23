@@ -1,0 +1,26 @@
+{
+  "title": "Belt Of Unstable Gifts",
+  "icon": "ars_nouveau:belt_of_unstable_gifts",
+  "x": 14.6,
+  "y": 5.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:belt_of_unstable_gifts",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

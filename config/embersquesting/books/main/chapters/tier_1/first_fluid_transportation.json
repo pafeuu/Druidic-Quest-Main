@@ -1,0 +1,41 @@
+{
+  "title": "First Fluid Transportation",
+  "description": [
+    "No leaks here!",
+    "The §8§lfaucet§r§r can drain fluid out from the side of one container into another container placed below it!"
+  ],
+  "icon": "supplementaries:faucet",
+  "x": 11,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "tier_1/plates"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:fluid_tank",
+      "type": "item"
+    },
+    {
+      "item": "supplementaries:faucet",
+      "type": "item"
+    },
+    {
+      "item": "create:spout",
+      "type": "item"
+    },
+    {
+      "item": "create:depot",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

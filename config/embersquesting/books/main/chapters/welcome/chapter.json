@@ -1,0 +1,71 @@
+{
+  "title": "Welcome - Information Dump",
+  "icon": "minecraft:oak_sapling",
+  "scope": "team",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -1.8142858,
+      "width": 21.257143,
+      "height": 10.6285715,
+      "content": {
+        "texture": "kubejs:textures/questbook/welcomescreen/newwelcome.png",
+        "type": "image"
+      },
+      "x": -10.1285715
+    },
+    {
+      "click": {
+        "action": "open_url",
+        "value": "https://discord.gg/mqVNhCU2pT"
+      },
+      "tooltip": [
+        "Join the official discord!"
+      ],
+      "y": 6.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "kubejs:textures/questbook/welcomescreen/welcomescreen_discord.png",
+        "type": "image"
+      },
+      "x": 7.357143
+    },
+    {
+      "click": {
+        "action": "open_url",
+        "value": "https://www.curseforge.com/minecraft/modpacks/druidic-quest"
+      },
+      "tooltip": [
+        "Take a look at the CurseForge website"
+      ],
+      "y": 6.642857,
+      "width": 1.7142857,
+      "height": 1.7142857,
+      "content": {
+        "texture": "kubejs:textures/questbook/welcomescreen/welcomescreen_curseforge.png",
+        "type": "image"
+      },
+      "x": 5.642857
+    },
+    {
+      "click": {
+        "action": "open_url",
+        "value": "https://github.com/pafeuu/Druidic-Quest-Main"
+      },
+      "tooltip": [
+        "BTW, the pack is open source"
+      ],
+      "y": 6.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "kubejs:textures/questbook/welcomescreen/welcomescreen_github.png",
+        "type": "image"
+      },
+      "x": 8.857142
+    }
+  ]
+}

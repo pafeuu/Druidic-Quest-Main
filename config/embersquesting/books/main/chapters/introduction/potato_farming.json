@@ -1,0 +1,34 @@
+{
+  "title": "Potato Farming",
+  "description": [
+    "Most unusual...",
+    "Believe it or not, potatos are a crucial resource in the creation of machines."
+  ],
+  "icon": "minecraft:potato",
+  "x": 16,
+  "y": 2,
+  "deps": {
+    "all": [
+      "introduction/farming"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:potato",
+      "count": 18,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "farmersdelight:steak_and_potatoes",
+      "type": "item"
+    },
+    {
+      "item": "solonion:lunchbag",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

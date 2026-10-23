@@ -1,0 +1,26 @@
+{
+  "title": "Item Vault",
+  "icon": "create:item_vault",
+  "x": 1,
+  "y": 1,
+  "deps": {
+    "all": [
+      "storage/item_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:item_vault",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

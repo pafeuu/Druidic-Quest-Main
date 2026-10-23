@@ -1,0 +1,512 @@
+{
+  "title": "Market",
+  "icon": "thermal:gold_coin",
+  "order": 3,
+  "scope": "team",
+  "group": "money",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": 3.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 8.857142
+    },
+    {
+      "y": 3.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 10.357142
+    },
+    {
+      "y": 3.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 11.857142
+    },
+    {
+      "y": 3.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 13.357142
+    },
+    {
+      "y": 4.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 13.357142
+    },
+    {
+      "y": 4.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 11.857142
+    },
+    {
+      "y": 4.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 10.357142
+    },
+    {
+      "y": 4.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 8.857142
+    },
+    {
+      "y": 6.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 8.857142
+    },
+    {
+      "y": 6.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 10.357142
+    },
+    {
+      "y": 7.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 10.357142
+    },
+    {
+      "y": 7.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 8.857142
+    },
+    {
+      "y": 6.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 11.857142
+    },
+    {
+      "y": 7.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 11.857142
+    },
+    {
+      "y": 7.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 13.357142
+    },
+    {
+      "y": 6.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 13.357142
+    },
+    {
+      "y": 4.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "minecraft:textures/block/netherite_block.png",
+        "type": "image"
+      },
+      "x": 14.857142
+    },
+    {
+      "y": 3.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "minecraft:textures/block/netherite_block.png",
+        "type": "image"
+      },
+      "x": 14.857142
+    },
+    {
+      "y": 6.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "minecraft:textures/block/netherite_block.png",
+        "type": "image"
+      },
+      "x": 14.857142
+    },
+    {
+      "y": 9.357142,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 8.857142
+    },
+    {
+      "y": 9.357142,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "chipped:textures/block/gold_block/ancient_gold_block.png",
+        "type": "image"
+      },
+      "x": 10.357142
+    },
+    {
+      "y": 9.357142,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 11.857142
+    },
+    {
+      "y": 9.357142,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 13.357142
+    },
+    {
+      "y": 9.357142,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "chipped:textures/block/gold_block/ancient_gold_block.png",
+        "type": "image"
+      },
+      "x": 10.357142
+    },
+    {
+      "y": 9.357142,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "supplementaries:textures/block/gold_trapdoor.png",
+        "type": "image"
+      },
+      "x": 10.357142
+    },
+    {
+      "y": 3.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "minecraft:textures/block/netherite_block.png",
+        "type": "image"
+      },
+      "x": 16.357143
+    },
+    {
+      "y": 9.357142,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 6.857143
+    },
+    {
+      "y": 4.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "minecraft:textures/block/netherite_block.png",
+        "type": "image"
+      },
+      "x": 16.357143
+    },
+    {
+      "y": 6.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "minecraft:textures/block/netherite_block.png",
+        "type": "image"
+      },
+      "x": 16.357143
+    },
+    {
+      "y": 7.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "minecraft:textures/block/netherite_block.png",
+        "type": "image"
+      },
+      "x": 14.857142
+    },
+    {
+      "y": 9.357142,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 4.857143
+    },
+    {
+      "y": 9.357142,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 3.357143
+    },
+    {
+      "y": 9.357142,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 1.8571429
+    },
+    {
+      "y": 9.357142,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 0.35714287
+    },
+    {
+      "y": 7.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 4.857143
+    },
+    {
+      "y": 7.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 3.357143
+    },
+    {
+      "y": 7.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 1.8571429
+    },
+    {
+      "y": 7.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 0.35714287
+    },
+    {
+      "y": 6.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 0.35714287
+    },
+    {
+      "y": 6.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 1.8571429
+    },
+    {
+      "y": 6.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 3.357143
+    },
+    {
+      "y": 6.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 4.857143
+    },
+    {
+      "y": 4.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 4.857143
+    },
+    {
+      "y": 3.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 4.857143
+    },
+    {
+      "y": 3.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 3.357143
+    },
+    {
+      "y": 4.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 3.357143
+    },
+    {
+      "y": 4.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 1.8571429
+    },
+    {
+      "y": 3.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 1.8571429
+    },
+    {
+      "y": 3.357143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 0.35714287
+    },
+    {
+      "y": 4.857143,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "texture": "thermal:textures/block/silver_block.png",
+        "type": "image"
+      },
+      "x": 0.35714287
+    }
+  ]
+}

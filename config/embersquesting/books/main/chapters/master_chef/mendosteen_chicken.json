@@ -1,0 +1,29 @@
+{
+  "title": "Mendosteen Chicken",
+  "icon": "arsdelight:mendosteen_chicken",
+  "x": 13.2,
+  "y": 5.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "arsdelight:mendosteen_chicken",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

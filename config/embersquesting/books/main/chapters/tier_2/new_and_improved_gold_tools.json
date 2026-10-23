@@ -1,0 +1,63 @@
+{
+  "title": "New and Improved Gold Tools",
+  "description": [
+    "Let's make those Piglins jealous!",
+    "§6Gold tools§r have been completely reworked! Still faster than diamond, the durability has been increased significantly and the mining lvl is now the same as iron.",
+    "",
+    "Most importantly: Gold tools are imbued with natural §6Fortune 2§r and the sword with natural §6Looting 2§r."
+  ],
+  "icon": "minecraft:golden_pickaxe{Damage:0}",
+  "x": 8.5,
+  "y": 3,
+  "deps": {
+    "all": [
+      "tier_2/new_equipment_opportunity"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "minecraft:golden_pickaxe",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "minecraft:golden_shovel",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "minecraft:golden_axe",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "minecraft:golden_hoe",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "minecraft:golden_sword",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:ruby",
+      "count": 9,
+      "type": "item"
+    },
+    {
+      "item": "thermal:gold_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

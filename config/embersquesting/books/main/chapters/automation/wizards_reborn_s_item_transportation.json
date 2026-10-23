@@ -1,0 +1,26 @@
+{
+  "title": "Wizards Reborn's Item Transportation",
+  "icon": "wizards_reborn:item_sorter",
+  "x": 0.5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "automation/item_entity_transportation"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:item_sorter",
+      "type": "item"
+    },
+    {
+      "item": "wizards_reborn:arcane_hopper",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

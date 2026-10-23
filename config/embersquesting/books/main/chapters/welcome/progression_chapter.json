@@ -1,0 +1,28 @@
+{
+  "title": "Progression Chapter",
+  "description": [
+    "The Progression chapter is essential to not get lost in all the new things this modpack implements. It will also provide you with some nice rewards!",
+    "",
+    "To get started, proceed to your first progression quests in §2Tier 0 - Wooden Age§r in the tab to the left."
+  ],
+  "icon": "thermal:drill_head",
+  "x": 5,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "welcome/welcome"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "shape": "gear"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Craft some REAL weapons",
+  "description": [
+    "While holding the wand you will be able to cast the spell imbued inside it by right clicking or pressing \"Z\"",
+    "",
+    "§oIf you've reset the keybinds provided by the pack its going to be \"V\" instead§r"
+  ],
+  "x": 9.75,
+  "y": 8.625,
+  "deps": {
+    "all": [
+      "introduction/primitive_saw"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "dq:flower_staffs",
+      "type": "item",
+      "title": "Any #dq:flower_staffs"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.25,
+  "shape": "circle"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Market",
+  "description": [
+    "You can buy some useful stuff in the Market tab. It might be overpriced, but if you really need something..."
+  ],
+  "icon": "thermal:gold_coin",
+  "x": 7,
+  "y": 5,
+  "deps": {
+    "all": [
+      "welcome/welcome"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "shape": "gear"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Source Generators",
+  "description": [
+    "Pulling magic out of the world...",
+    "The §5§lEnchanting Apparatus§r§r uses source for many crafting recipes. Craft one of the source generators, as well as a source jar to produce and store your source!"
+  ],
+  "icon": "ars_nouveau:source_jar",
+  "x": 5.5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "tier_2/base_of_the_generator"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:source_jar",
+      "type": "item"
+    },
+    {
+      "tag": "dq:generators/source_weak",
+      "type": "item",
+      "title": "Sourcelink"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "complete": "any",
+  "shape": "rsquare"
+}

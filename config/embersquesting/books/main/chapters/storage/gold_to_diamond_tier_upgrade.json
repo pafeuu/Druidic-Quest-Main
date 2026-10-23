@@ -1,0 +1,19 @@
+{
+  "title": "Gold To Diamond Tier Upgrade",
+  "icon": "sophisticatedstorage:gold_to_diamond_tier_upgrade",
+  "x": 2,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "storage/iron_to_gold_tier_upgrade"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedstorage:gold_to_diamond_tier_upgrade",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

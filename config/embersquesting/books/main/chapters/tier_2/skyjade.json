@@ -1,0 +1,29 @@
+{
+  "title": "Skyjade",
+  "description": [
+    "Infusing emeralds with Aura unlocks new tools and armor!"
+  ],
+  "icon": "deep_aether:skyjade",
+  "x": 12.5,
+  "y": 9,
+  "deps": {
+    "all": [
+      "tier_2/infusion_catalyst"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "deep_aether:skyjade",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "deep_aether:skyjade",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

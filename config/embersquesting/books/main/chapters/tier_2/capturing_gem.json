@@ -1,0 +1,29 @@
+{
+  "title": "Capturing Gem",
+  "description": [
+    "Here creeper, creeper...",
+    ""
+  ],
+  "icon": "kubejs:capturing_gem",
+  "x": 22.5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "tier_2/air_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:capturing_gem",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

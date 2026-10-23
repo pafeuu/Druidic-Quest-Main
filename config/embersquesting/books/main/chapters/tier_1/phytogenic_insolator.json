@@ -1,0 +1,39 @@
+{
+  "title": "Phytogenic Insolator",
+  "description": [
+    "",
+    "Automatic wood!",
+    "",
+    "Very slow but does not require much setup.",
+    "",
+    "Only works with sky access and during the day"
+  ],
+  "icon": "mbd2:phytogenic_insolator",
+  "x": 28,
+  "y": 5,
+  "deps": {
+    "all": [
+      "tier_1/find_an_amethyst_geode"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mbd2:phytogenic_insolator",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "create:tree_fertilizer",
+      "count": 64,
+      "type": "item"
+    },
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

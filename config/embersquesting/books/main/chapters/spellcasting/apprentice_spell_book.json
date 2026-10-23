@@ -1,0 +1,22 @@
+{
+  "title": "Apprentice Spell Book",
+  "description": [
+    "Teir 2 Glyphs"
+  ],
+  "icon": "ars_nouveau:apprentice_spell_book",
+  "x": 8.5,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "spellcasting/novice_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:apprentice_spell_book",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

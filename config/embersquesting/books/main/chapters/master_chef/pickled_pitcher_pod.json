@@ -1,0 +1,29 @@
+{
+  "title": "Pickled Pitcher Pod",
+  "icon": "vintagedelight:pickled_pitcher_pod",
+  "x": 1.1999999999999993,
+  "y": 8.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "vintagedelight:pickled_pitcher_pod",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

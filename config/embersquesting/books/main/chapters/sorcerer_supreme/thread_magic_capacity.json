@@ -1,0 +1,29 @@
+{
+  "title": "Thread Magic Capacity",
+  "icon": "ars_nouveau:thread_magic_capacity",
+  "x": 18.2,
+  "y": 1.3999999999999995,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:thread_magic_capacity",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

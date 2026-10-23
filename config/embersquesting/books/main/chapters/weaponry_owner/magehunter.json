@@ -1,0 +1,25 @@
+{
+  "title": "Magehunter",
+  "icon": "irons_spellbooks:magehunter{Damage:0}",
+  "x": 9.45,
+  "y": 3.3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:magehunter",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

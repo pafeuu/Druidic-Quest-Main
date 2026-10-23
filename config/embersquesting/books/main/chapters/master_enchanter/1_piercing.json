@@ -1,0 +1,31 @@
+{
+  "title": "+1 Piercing",
+  "icon": "quark:ancient_tome{StoredEnchantments:[{id:\"minecraft:piercing\",lvl:4s}]}",
+  "x": 10.45,
+  "y": 9.3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "quark:ancient_tome",
+      "components": "{StoredEnchantments:[{id:\"minecraft:piercing\",lvl:4s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

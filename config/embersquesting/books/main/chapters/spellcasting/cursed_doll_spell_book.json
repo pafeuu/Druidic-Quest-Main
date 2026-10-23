@@ -1,0 +1,24 @@
+{
+  "title": "Cursed Doll Spell Book",
+  "description": [
+    "12 Spell Slots"
+  ],
+  "icon": "irons_spellbooks:cursed_doll_spell_book{\"irons_spellbooks:affinity_data\":{bonuses:{\"irons_spellbooks:blood_slash\":1,\"irons_spellbooks:blood_step\":1}},\"irons_spellbooks:spell_container\":{data:[],maxSpells:10,mustEquip:1b,spellWheel:1b}}",
+  "x": 1,
+  "y": 9,
+  "deps": {
+    "all": [
+      "tier_1/copper_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:cursed_doll_spell_book",
+      "components": "{\"irons_spellbooks:affinity_data\":{bonuses:{\"irons_spellbooks:blood_slash\":1,\"irons_spellbooks:blood_step\":1}},\"irons_spellbooks:spell_container\":{data:[],maxSpells:10,mustEquip:1b,spellWheel:1b}}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

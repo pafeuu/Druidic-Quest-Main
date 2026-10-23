@@ -1,0 +1,30 @@
+{
+  "title": "Hotdog With Mixed Salad",
+  "icon": "mynethersdelight:hotdog_with_mixed_salad",
+  "x": 8,
+  "y": 7.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mynethersdelight:hotdog_with_mixed_salad",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

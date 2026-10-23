@@ -1,0 +1,31 @@
+{
+  "title": "Darkness Eater",
+  "icon": "tide:darkness_eater{FishLength:200.0d}",
+  "x": 8.825,
+  "y": 15.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:darkness_eater",
+      "components": "{FishLength:200.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

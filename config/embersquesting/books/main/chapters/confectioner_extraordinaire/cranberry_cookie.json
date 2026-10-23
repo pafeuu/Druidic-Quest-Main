@@ -1,0 +1,29 @@
+{
+  "title": "Cranberry Cookie",
+  "icon": "fruitsdelight:cranberry_cookie",
+  "x": 14.6,
+  "y": 0.40000000000000036,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:cranberry_cookie",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

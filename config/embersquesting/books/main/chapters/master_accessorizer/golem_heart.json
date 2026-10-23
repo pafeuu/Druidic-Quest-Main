@@ -1,0 +1,26 @@
+{
+  "title": "Golem Heart",
+  "icon": "enigmaticlegacy:golem_heart",
+  "x": 17.4,
+  "y": 5.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:golem_heart",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

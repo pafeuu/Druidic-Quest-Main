@@ -1,0 +1,26 @@
+{
+  "title": "Death Essence",
+  "icon": "kubejs:death_essence",
+  "x": 14,
+  "y": 11,
+  "deps": {
+    "all": [
+      "tier_3/dark_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:death_essence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Gravity Boots Cover",
+  "icon": "kubejs:gravity_boots_cover",
+  "x": 7.4,
+  "y": 6.999999999999999,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:gravity_boots_cover",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

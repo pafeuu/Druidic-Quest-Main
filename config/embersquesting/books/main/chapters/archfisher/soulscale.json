@@ -1,0 +1,28 @@
+{
+  "title": "Soulscale",
+  "icon": "tide:soulscale{FishLength:47.5d}",
+  "x": 10.524999999999999,
+  "y": 5.85,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:soulscale",
+      "components": "{FishLength:47.5d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle"
+}

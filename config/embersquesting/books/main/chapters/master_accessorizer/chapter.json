@@ -1,0 +1,10 @@
+{
+  "title": "Master Accessorizer",
+  "icon": "enigmaticlegacy:enigmatic_amulet{AssignedColor:0.3f}",
+  "order": 25,
+  "scope": "team",
+  "group": "ultimate_collector",
+  "defaults": {
+    "progression": "flexible"
+  }
+}

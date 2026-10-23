@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Forlorn",
+  "icon": "integrated_stronghold:music_disc_forlorn",
+  "x": 10,
+  "y": 1,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "integrated_stronghold:music_disc_forlorn",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

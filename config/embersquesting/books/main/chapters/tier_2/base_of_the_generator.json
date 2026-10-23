@@ -1,0 +1,52 @@
+{
+  "title": "Base of the Generator ",
+  "description": [
+    "Crafting the §5§lMagical Generator Block§r§r might look complicated at first, but don't be afraid!",
+    "",
+    "Just hold \"W\" while hovering over the item to watch a §2ponder§r about the craft."
+  ],
+  "icon": "kubejs:magical_generator_block",
+  "x": 3.5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "tier_2/nature_essence",
+      "tier_2/manasteel_ingot",
+      "tier_2/visit_the_nether"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:magical_generator_block",
+      "type": "item"
+    },
+    {
+      "item": "botania:manasteel_block",
+      "count": 5,
+      "type": "item"
+    },
+    {
+      "item": "kubejs:arcanum_alloy_block",
+      "count": 4,
+      "type": "item"
+    },
+    {
+      "item": "kubejs:lemon_quartz",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:source_berry_pie",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "complete": "any",
+  "shape": "rsquare"
+}

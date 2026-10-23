@@ -1,0 +1,26 @@
+{
+  "title": "Amulet Of Mana Regen",
+  "icon": "ars_nouveau:amulet_of_mana_regen",
+  "x": 14.6,
+  "y": 5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:amulet_of_mana_regen",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

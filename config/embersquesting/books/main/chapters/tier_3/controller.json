@@ -1,0 +1,39 @@
+{
+  "title": "Controller",
+  "description": [
+    "Let's get Sophisiticated!",
+    "The storage controller and storage tool will give you even more control of your Sophisticated Storages. Use the Storage Lectern from Ars Nouveau to gain access to all connected inventories at once!"
+  ],
+  "icon": "sophisticatedstorage:controller",
+  "x": 4,
+  "y": 6,
+  "deps": {
+    "all": [
+      "tier_3/ender_essence",
+      "tier_3/redstone_core"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedstorage:controller",
+      "type": "item"
+    },
+    {
+      "item": "sophisticatedstorage:storage_link",
+      "type": "item"
+    },
+    {
+      "item": "sophisticatedstorage:storage_tool",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Chocolate Nut Granola Bar",
+  "icon": "vintagedelight:chocolate_nut_granola_bar",
+  "y": 0.8000000000000007,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "vintagedelight:chocolate_nut_granola_bar",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Storage",
+  "icon": "quark:crate",
+  "order": 15,
+  "scope": "team",
+  "group": "side_questline",
+  "defaults": {
+    "progression": "linear"
+  }
+}

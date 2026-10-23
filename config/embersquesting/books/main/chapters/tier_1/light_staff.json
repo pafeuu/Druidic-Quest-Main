@@ -1,0 +1,35 @@
+{
+  "title": "Light Staff",
+  "description": [
+    "That's one lit staff!",
+    "Uses aura from your aura cache to create light on right click!"
+  ],
+  "icon": "naturesaura:light_staff",
+  "x": 21,
+  "y": 12,
+  "deps": {
+    "all": [
+      "tier_1/lightning_crafting"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:light_staff",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "naturesaura:aura_cache",
+      "components": "{aura:400000}",
+      "type": "item"
+    },
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

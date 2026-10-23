@@ -1,0 +1,31 @@
+{
+  "title": "Echo Snapper",
+  "icon": "tide:echo_snapper{FishLength:75.0d}",
+  "x": 8.825,
+  "y": 11.375,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:echo_snapper",
+      "components": "{FishLength:75.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

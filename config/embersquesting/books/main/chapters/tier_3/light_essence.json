@@ -1,0 +1,26 @@
+{
+  "title": "Light Essence",
+  "icon": "kubejs:light_essence",
+  "x": 6,
+  "y": 13,
+  "deps": {
+    "all": [
+      "tier_3/elemental_binder"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:light_essence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Bellows",
+  "icon": "supplementaries:bellows",
+  "x": 1.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "automation/item_entity_transportation"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "supplementaries:bellows",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

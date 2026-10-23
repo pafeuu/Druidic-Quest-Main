@@ -1,0 +1,20 @@
+{
+  "title": "Ancient Pendant",
+  "icon": "ancient_aether:ancient_pendant",
+  "x": 23,
+  "y": 7,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ancient_aether:ancient_pendant",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

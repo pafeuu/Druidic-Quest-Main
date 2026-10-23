@@ -1,0 +1,26 @@
+{
+  "title": "trumpet_saplings",
+  "icon": "minecraft:chest",
+  "options": [
+    {
+      "item": "quark:red_blossom_sapling",
+      "type": "item"
+    },
+    {
+      "item": "quark:yellow_blossom_sapling",
+      "type": "item"
+    },
+    {
+      "item": "quark:orange_blossom_sapling",
+      "type": "item"
+    },
+    {
+      "item": "quark:lavender_blossom_sapling",
+      "type": "item"
+    },
+    {
+      "item": "quark:blue_blossom_sapling",
+      "type": "item"
+    }
+  ]
+}

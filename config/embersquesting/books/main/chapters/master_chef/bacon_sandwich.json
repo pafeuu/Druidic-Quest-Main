@@ -1,0 +1,29 @@
+{
+  "title": "Bacon Sandwich",
+  "icon": "farmersdelight:bacon_sandwich",
+  "x": 8,
+  "y": 8.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:bacon_sandwich",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Archmage Spell Book",
+  "description": [
+    "Tier 3 Glyphs"
+  ],
+  "icon": "ars_nouveau:archmage_spell_book",
+  "x": 8.5,
+  "y": 6,
+  "deps": {
+    "all": [
+      "spellcasting/apprentice_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:archmage_spell_book",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

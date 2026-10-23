@@ -1,0 +1,30 @@
+{
+  "title": "Honey Glazed Chimera",
+  "icon": "arsdelight:honey_glazed_chimera",
+  "x": 13.6,
+  "y": 9.600000000000001,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "arsdelight:honey_glazed_chimera",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

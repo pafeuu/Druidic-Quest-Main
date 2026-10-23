@@ -1,0 +1,32 @@
+{
+  "title": "Rainbow Magic Feather",
+  "description": [
+    "Roof Breaker",
+    "With the same obsidian-breaking powers of the other magic feathers, the §5Rainbow Magic Feather§r will also break the bedrock of the Nether Roof!"
+  ],
+  "icon": "kubejs:rainbow_magic_feather{Damage:0}",
+  "x": 4,
+  "y": 15,
+  "deps": {
+    "all": [
+      "tier_3/lightning_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "kubejs:rainbow_magic_feather",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

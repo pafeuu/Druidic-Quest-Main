@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Crickets",
+  "icon": "quark:music_disc_crickets",
+  "x": 14.5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "quark:music_disc_crickets",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

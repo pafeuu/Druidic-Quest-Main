@@ -1,0 +1,32 @@
+{
+  "title": "2 Blaze Rods",
+  "description": [
+    "1 Gold Coin"
+  ],
+  "icon": "minecraft:blaze_rod",
+  "x": 10.5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "market/market",
+      "tier_2/visit_the_nether"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:blaze_rod",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Item Storage",
+  "description": [
+    "§4§owork in progress§r§r"
+  ],
+  "icon": "minecraft:magma_block",
+  "x": 3,
+  "y": 3,
+  "deps": {
+    "all": [
+      "introduction/cutting_planks"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "Item Storage"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

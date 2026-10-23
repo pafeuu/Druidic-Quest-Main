@@ -1,0 +1,29 @@
+{
+  "title": "Mango Tea",
+  "icon": "fruitsdelight:mango_tea",
+  "x": 0.1999999999999993,
+  "y": 3.1999999999999993,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:mango_tea",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

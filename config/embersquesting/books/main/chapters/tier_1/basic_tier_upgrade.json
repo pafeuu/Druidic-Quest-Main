@@ -1,0 +1,30 @@
+{
+  "title": "Basic Tier Upgrade",
+  "description": [
+    "Functional Storage",
+    "Adds sophisticated functionality to the barrel or chest. Also allows for further upgrades of the storage space."
+  ],
+  "icon": "sophisticatedstorage:basic_tier_upgrade",
+  "x": 6,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "tier_1/redstone_innovations"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedstorage:basic_tier_upgrade",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:redstone",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

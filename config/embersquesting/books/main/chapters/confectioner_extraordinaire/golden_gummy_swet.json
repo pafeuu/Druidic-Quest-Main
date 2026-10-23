@@ -1,0 +1,29 @@
+{
+  "title": "Golden Gummy Swet",
+  "icon": "aether:golden_gummy_swet",
+  "x": 7.799999999999999,
+  "y": 2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "aether:golden_gummy_swet",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Visit the Nether!",
+  "description": [
+    "Dang, it's hot!",
+    "Upon entering §4The Nether§r you will want to find and slay some blazes. Their rods will be very useful for further creation of magical machines."
+  ],
+  "icon": "minecraft:netherrack",
+  "x": 3.5,
+  "y": 11,
+  "deps": {
+    "all": [
+      "tier_2/nature_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "dimension": "minecraft:the_nether",
+      "type": "location"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 4,
+      "type": "item"
+    },
+    {
+      "item": "naturesaura:fortress_finder",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

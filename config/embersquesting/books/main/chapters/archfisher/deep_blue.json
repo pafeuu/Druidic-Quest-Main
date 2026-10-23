@@ -1,0 +1,31 @@
+{
+  "title": "Deep Blue",
+  "icon": "tide:deep_blue{FishLength:51.5d}",
+  "x": 8.825,
+  "y": 14.35,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:deep_blue",
+      "components": "{FishLength:51.5d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

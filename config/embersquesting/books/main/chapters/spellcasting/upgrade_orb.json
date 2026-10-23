@@ -1,0 +1,26 @@
+{
+  "title": "Upgrade Orb",
+  "description": [
+    "Used to create upgrade orbs capable of giving your gear mighty powers! Combine with armor or weapons in the §9arcane anvil§r. You can do this up to 3 times to grant greater effects!"
+  ],
+  "icon": "irons_spellbooks:upgrade_orb",
+  "x": 5.5,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "spellcasting/arcane_debris"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:upgrade_orb",
+      "type": "item"
+    },
+    {
+      "tag": "irons_spellbooks:inscribed_rune",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

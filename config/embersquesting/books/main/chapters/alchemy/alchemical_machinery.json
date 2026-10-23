@@ -1,0 +1,39 @@
+{
+  "title": "Alchemical Machinery",
+  "icon": "wizards_reborn:alchemy_boiler",
+  "x": 2,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "alchemy/alchemical_begining"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:alchemy_furnace",
+      "type": "item"
+    },
+    {
+      "item": "wizards_reborn:alchemy_machine",
+      "type": "item"
+    },
+    {
+      "item": "wizards_reborn:alchemy_boiler",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "wizards_reborn:alchemy_glass",
+      "count": 8,
+      "type": "item"
+    },
+    {
+      "item": "create:brass_ingot",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

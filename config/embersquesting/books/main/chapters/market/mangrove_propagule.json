@@ -1,0 +1,31 @@
+{
+  "title": "Mangrove Propagule",
+  "description": [
+    "4 Silver Coins"
+  ],
+  "icon": "minecraft:mangrove_propagule",
+  "x": 2,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 4,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:mangrove_propagule",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

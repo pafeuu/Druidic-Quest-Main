@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Himininn",
+  "icon": "deep_aether:music_disc_himininn",
+  "x": 9,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "deep_aether:music_disc_himininn",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

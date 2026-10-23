@@ -1,0 +1,26 @@
+{
+  "title": "Heavy Chain Necklace",
+  "icon": "irons_spellbooks:heavy_chain_necklace",
+  "x": 11.4,
+  "y": 4.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:heavy_chain_necklace",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

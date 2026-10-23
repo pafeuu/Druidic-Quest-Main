@@ -1,0 +1,31 @@
+{
+  "title": "+1 Riptide",
+  "icon": "quark:ancient_tome{StoredEnchantments:[{id:\"minecraft:riptide\",lvl:3s}]}",
+  "x": 7.75,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "quark:ancient_tome",
+      "components": "{StoredEnchantments:[{id:\"minecraft:riptide\",lvl:3s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

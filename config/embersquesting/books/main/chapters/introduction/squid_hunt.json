@@ -1,0 +1,36 @@
+{
+  "title": "Squid Hunt",
+  "description": [
+    "Squid might drop ink sacs more often if killed with a knife.",
+    "",
+    "§8This might be a good time to equip §r§l§4the Cursed Ring§r§r§8 if you're brave enough...§r"
+  ],
+  "icon": "minecraft:ink_sac",
+  "x": 19,
+  "y": 6,
+  "deps": {
+    "all": [
+      "introduction/flint_knife"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:ink_sac",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:spruce_sapling",
+      "type": "item"
+    },
+    {
+      "item": "farmersdelight:squid_ink_pasta",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

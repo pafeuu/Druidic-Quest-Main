@@ -1,0 +1,30 @@
+{
+  "title": "Redstone Innovations!",
+  "description": [
+    "First Steps",
+    "Now that you can craft redstone torches, a lot of cool stuff opens up!"
+  ],
+  "icon": "minecraft:redstone_torch",
+  "x": 7.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "tier_1/basic_automation_material"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:redstone_torch",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:redstone",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

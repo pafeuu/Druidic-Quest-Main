@@ -1,0 +1,31 @@
+{
+  "title": "Fiery Magic Feather",
+  "description": [
+    "Fire makes it stronger...",
+    "Like the golden magic feather, the §4firey magic feather§r will insta-mine obsidian with a right click. However, it has §omuch§r more durability."
+  ],
+  "icon": "kubejs:fiery_magic_feather{Damage:0}",
+  "x": 23,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "tier_2/fire_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "kubejs:fiery_magic_feather",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

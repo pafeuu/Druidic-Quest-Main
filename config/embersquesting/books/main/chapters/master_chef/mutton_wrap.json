@@ -1,0 +1,29 @@
+{
+  "title": "Mutton Wrap",
+  "icon": "farmersdelight:mutton_wrap",
+  "x": 8.800000000000002,
+  "y": 8.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:mutton_wrap",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

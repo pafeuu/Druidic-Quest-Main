@@ -1,0 +1,31 @@
+{
+  "title": "Glass",
+  "description": [
+    "Clearly Essential",
+    "Glass not only looks nice, it is also needed for various crafting recipes."
+  ],
+  "icon": "minecraft:glass",
+  "x": 2,
+  "y": 12,
+  "deps": {
+    "all": [
+      "tier_1/first_magical_feat"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:glass",
+      "count": 12,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:sand",
+      "count": 24,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

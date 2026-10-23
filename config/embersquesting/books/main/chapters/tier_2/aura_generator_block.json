@@ -1,0 +1,30 @@
+{
+  "title": "Aura Generator Block",
+  "description": [
+    "Better Aura Generators",
+    "The §2Aura Generator BLock§r is a necessary component of higher-tier Aura generation."
+  ],
+  "icon": "kubejs:aura_generator_block",
+  "x": 11.5,
+  "y": 15,
+  "deps": {
+    "all": [
+      "tier_2/infused_iron"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:aura_generator_block",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

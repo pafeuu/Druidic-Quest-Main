@@ -1,0 +1,26 @@
+{
+  "title": "Extendo Grip",
+  "icon": "create:extendo_grip",
+  "x": 4.2,
+  "y": 1.7999999999999998,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:extendo_grip",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

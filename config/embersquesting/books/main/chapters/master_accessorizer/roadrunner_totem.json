@@ -1,0 +1,26 @@
+{
+  "title": "Roadrunner Totem",
+  "icon": "kubejs:roadrunner_totem",
+  "x": 1.4000000000000004,
+  "y": 1.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:roadrunner_totem",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

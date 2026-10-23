@@ -1,0 +1,28 @@
+{
+  "title": "Alteration Table",
+  "description": [
+    "Mystic Embroidery",
+    "The alteration table allows you to apply threads to your magical armor. §5Threads§r provide a wide array of §5augments and effects§r, giving your armor a truly magical boost!",
+    "",
+    "Placing the piece of armor on the table will give you access to its thread slots. Higher-tier slots provide greater effects.",
+    "",
+    "Choose your armor wisely! The sorcerer's set gives the lowest armor value with the most thread slots, while the battlemage's set gives the highest armor value with the fewest thread slots. Check the §5Worn Notebook§r for more details!"
+  ],
+  "icon": "ars_nouveau:alteration_table",
+  "x": 14,
+  "y": 6,
+  "deps": {
+    "all": [
+      "tier_1/copper_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:alteration_table",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "circle"
+}

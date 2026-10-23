@@ -1,0 +1,30 @@
+{
+  "title": "Dwarven Sword",
+  "icon": "kubejs:dwarven_sword",
+  "x": 3.1500000000000004,
+  "y": 11.399999999999999,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:dwarven_sword",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

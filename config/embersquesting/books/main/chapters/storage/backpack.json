@@ -1,0 +1,26 @@
+{
+  "title": "Backpack",
+  "icon": "sophisticatedbackpacks:backpack",
+  "x": 5,
+  "y": 8,
+  "deps": {
+    "all": [
+      "storage/shulker_box"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedbackpacks:backpack",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:leather",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

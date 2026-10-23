@@ -1,0 +1,27 @@
+{
+  "title": "Any tipped Arrow",
+  "icon": "minecraft:tipped_arrow{Potion:\"minecraft:water\"}",
+  "y": 2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "minecraft:tipped_arrow",
+      "components": "{Potion:\"minecraft:water\"}",
+      "type": "item",
+      "title": "Any tipped Arrow"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

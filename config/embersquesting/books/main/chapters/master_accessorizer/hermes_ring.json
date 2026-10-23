@@ -1,0 +1,26 @@
+{
+  "title": "Hermes Ring",
+  "icon": "ancient_aether:hermes_ring",
+  "x": 22.2,
+  "y": 3.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ancient_aether:hermes_ring",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

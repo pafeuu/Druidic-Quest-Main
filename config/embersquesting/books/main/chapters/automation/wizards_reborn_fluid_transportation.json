@@ -1,0 +1,25 @@
+{
+  "title": "Wizards Reborn Fluid Transportation",
+  "icon": "wizards_reborn:fluid_pipe",
+  "y": 14.5,
+  "deps": {
+    "all": [
+      "automation/fluid_transportation"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:fluid_pipe",
+      "type": "item"
+    },
+    {
+      "item": "wizards_reborn:fluid_extractor",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

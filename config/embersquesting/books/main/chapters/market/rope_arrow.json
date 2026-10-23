@@ -1,0 +1,32 @@
+{
+  "title": "Rope Arrow",
+  "description": [
+    "5 Silver Coins"
+  ],
+  "icon": "supplementaries:rope_arrow{Damage:0}",
+  "x": 3.5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 4,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "supplementaries:rope_arrow",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

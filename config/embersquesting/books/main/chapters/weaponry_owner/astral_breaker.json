@@ -1,0 +1,25 @@
+{
+  "title": "Astral Breaker",
+  "icon": "enigmaticlegacy:astral_breaker{Damage:0}",
+  "x": 12.15,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "enigmaticlegacy:astral_breaker",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

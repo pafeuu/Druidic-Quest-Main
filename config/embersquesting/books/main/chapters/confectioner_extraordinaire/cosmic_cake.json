@@ -1,0 +1,29 @@
+{
+  "title": "Cosmic Cake",
+  "icon": "enigmaticlegacy:cosmic_cake",
+  "x": 14.6,
+  "y": 4.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:cosmic_cake",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

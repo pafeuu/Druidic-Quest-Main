@@ -1,0 +1,26 @@
+{
+  "title": "Travelers Belt",
+  "icon": "kubejs:travelers_belt",
+  "x": 7.4,
+  "y": 3.7999999999999994,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:travelers_belt",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Cooldown Rune",
+  "icon": "irons_spellbooks:cooldown_rune",
+  "x": 9.399999999999999,
+  "y": 1.799999999999999,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:cooldown_rune",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

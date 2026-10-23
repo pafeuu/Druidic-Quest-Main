@@ -1,0 +1,29 @@
+{
+  "title": "Bayberry Cookie",
+  "icon": "fruitsdelight:bayberry_cookie",
+  "x": 15.4,
+  "y": 0.40000000000000036,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:bayberry_cookie",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

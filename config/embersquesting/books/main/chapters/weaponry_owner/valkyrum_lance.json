@@ -1,0 +1,32 @@
+{
+  "title": "Valkyrum Lance",
+  "icon": "ancient_aether:valkyrum_lance{Damage:0}",
+  "x": 11.25,
+  "y": 2.3999999999999995,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "ancient_aether:valkyrum_lance",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Ender pearl",
+  "description": [
+    "3 Gold Coins"
+  ],
+  "icon": "minecraft:ender_pearl",
+  "x": 9,
+  "y": 8,
+  "deps": {
+    "all": [
+      "market/market",
+      "tier_2/visit_the_nether"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 3,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:ender_pearl",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

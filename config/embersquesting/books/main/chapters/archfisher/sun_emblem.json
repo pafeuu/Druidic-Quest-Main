@@ -1,0 +1,28 @@
+{
+  "title": "Sun Emblem",
+  "icon": "tide:sun_emblem{FishLength:55.0d}",
+  "x": 9.675,
+  "y": 5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:sun_emblem",
+      "components": "{FishLength:55.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle"
+}

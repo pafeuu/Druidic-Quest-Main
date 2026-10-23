@@ -1,0 +1,25 @@
+{
+  "title": "Iron Backpack",
+  "icon": "sophisticatedbackpacks:iron_backpack",
+  "x": 4,
+  "y": 11,
+  "deps": {
+    "all": [
+      "storage/copper_backpack"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedbackpacks:iron_backpack",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Diamond To Netherite Tier Upgrade",
+  "icon": "sophisticatedstorage:diamond_to_netherite_tier_upgrade",
+  "x": 2.5,
+  "y": 14,
+  "deps": {
+    "all": [
+      "storage/gold_to_diamond_tier_upgrade"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedstorage:diamond_to_netherite_tier_upgrade",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

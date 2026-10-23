@@ -1,0 +1,28 @@
+{
+  "title": "Stormforged Gloves",
+  "icon": "deep_aether:stormforged_gloves{Damage:0}",
+  "x": 6.2,
+  "y": 6.6000000000000005,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "deep_aether:stormforged_gloves",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

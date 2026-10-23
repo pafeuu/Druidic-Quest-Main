@@ -1,0 +1,40 @@
+{
+  "title": "Millstone",
+  "description": [
+    "Embrace the grind!",
+    "Grind a bit of §6gold dust.§r Grind a lot, if you have the energy to crank a few millstones at once!",
+    "",
+    "§o§7Note that watermills no longer generate stress units, though they will still power blocks like belts and weighted ejectors.§r§r"
+  ],
+  "icon": "create:millstone",
+  "x": 21.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "tier_1/crumbling_altar"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:millstone",
+      "type": "item"
+    },
+    {
+      "item": "create:hand_crank",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "druidic_quest_core:primitive_machine",
+      "type": "item"
+    },
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

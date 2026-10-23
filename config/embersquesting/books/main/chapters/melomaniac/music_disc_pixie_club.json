@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Pixie Club",
+  "icon": "biomeswevegone:music_disc_pixie_club",
+  "x": 14.5,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "biomeswevegone:music_disc_pixie_club",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

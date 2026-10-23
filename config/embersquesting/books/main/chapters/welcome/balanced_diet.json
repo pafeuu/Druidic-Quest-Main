@@ -1,0 +1,33 @@
+{
+  "title": "Balanced Diet",
+  "description": [
+    "This modpack uses both Spice of Life: Onion and Carrot Editions.",
+    "",
+    "§6§lCarrot Edition§r gives additional hearts. You get your first extra heart after eating 5 new foods, then after every 25 new foods.",
+    "",
+    "§l§eOnion Edition§r§r, instead, depends on how diverse and nutritious your diet is, so eating bigger meals and cycling between different foods will get you extra buffs, such as extra reach, movement speed, resistances, and extra hearts.",
+    "",
+    "It is set up in a way that it only takes a bit of effort to be as strong as a regular player."
+  ],
+  "icon": "farmersdelight:pasta_with_mutton_chop",
+  "x": 3,
+  "y": 5,
+  "deps": {
+    "all": [
+      "welcome/welcome"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "farmersdelight:mutton_wrap",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "shape": "hexagon"
+}

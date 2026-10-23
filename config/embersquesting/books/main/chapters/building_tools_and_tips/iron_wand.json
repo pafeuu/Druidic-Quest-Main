@@ -1,0 +1,32 @@
+{
+  "title": "Iron Wand",
+  "description": [
+    "Need even more texture?",
+    ""
+  ],
+  "icon": "constructionwand:iron_wand{wand_options:{}}",
+  "x": 12.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "building_tools_and_tips/stone_wand"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "constructionwand:iron_wand",
+      "components": "{wand_options:{}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "buildingmisc",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

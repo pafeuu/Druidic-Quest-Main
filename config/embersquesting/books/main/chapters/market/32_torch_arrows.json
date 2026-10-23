@@ -1,0 +1,32 @@
+{
+  "title": "32 Torch Arrows",
+  "description": [
+    "3 Silver Coins"
+  ],
+  "icon": "quark:torch_arrow",
+  "x": 2,
+  "y": 5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "quark:torch_arrow",
+      "count": 32,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

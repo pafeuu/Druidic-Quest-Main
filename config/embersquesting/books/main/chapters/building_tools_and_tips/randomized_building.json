@@ -1,0 +1,44 @@
+{
+  "title": "Randomized Building",
+  "description": [
+    "Need some texture in your life?"
+  ],
+  "icon": "quark:trowel",
+  "x": 8,
+  "y": 2,
+  "deps": {
+    "all": [
+      "welcome/tips_chapter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "quark:trowel",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:coarse_dirt",
+      "count": 32,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:gravel",
+      "count": 32,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:rooted_dirt",
+      "count": 32,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "circle"
+}

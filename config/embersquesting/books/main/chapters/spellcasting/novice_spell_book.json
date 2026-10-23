@@ -1,0 +1,27 @@
+{
+  "title": "Novice Spell Book",
+  "description": [
+    "Teir 1 Glyphs",
+    "To begin constructing spells, §5open§r the spell book by pressing §5\"C\"§r (by default). This will give you access to all your learned glyphs. Glyphs come in three types: §5form§r, §5effect§r, and §5augment§r.",
+    "",
+    "A spell must first be given a form, followed by the desired effects. Both the form and effects can be augmented in various ways.",
+    "",
+    "Press §5\"V\"§r (by default) to quick-select your spells."
+  ],
+  "icon": "ars_nouveau:novice_spell_book",
+  "x": 8.5,
+  "y": 3,
+  "deps": {
+    "all": [
+      "tier_1/copper_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:novice_spell_book",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

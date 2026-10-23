@@ -1,0 +1,29 @@
+{
+  "title": "Chocolate Glazed Berries",
+  "icon": "create:chocolate_glazed_berries",
+  "x": 9,
+  "y": 0.40000000000000036,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:chocolate_glazed_berries",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Primitive Grappling Hook",
+  "description": [
+    "Not great but once you find some infused gems you can upgrade it!"
+  ],
+  "icon": "rehooked:wood_hook",
+  "x": 20,
+  "y": 14,
+  "deps": {
+    "all": [
+      "introduction/pure_daisy"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "rehooked:wood_hook",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Ocean Stone",
+  "icon": "enigmaticlegacy:ocean_stone",
+  "x": 17.4,
+  "y": 4.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:ocean_stone",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

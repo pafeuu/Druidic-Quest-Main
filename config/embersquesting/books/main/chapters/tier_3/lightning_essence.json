@@ -1,0 +1,26 @@
+{
+  "title": "Lightning Essence",
+  "icon": "kubejs:lightning_essence",
+  "x": 4,
+  "y": 13,
+  "deps": {
+    "all": [
+      "tier_3/elemental_binder"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:lightning_essence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

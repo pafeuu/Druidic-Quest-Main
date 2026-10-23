@@ -1,0 +1,10 @@
+{
+  "title": "Tier 2 - Basic Elemental Infusion",
+  "icon": "create:andesite_alloy",
+  "order": 8,
+  "scope": "team",
+  "group": "main_questline",
+  "defaults": {
+    "progression": "linear"
+  }
+}

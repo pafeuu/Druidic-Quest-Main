@@ -1,0 +1,28 @@
+{
+  "title": "Earth Essence",
+  "description": [
+    "Heavier than it looks..."
+  ],
+  "icon": "ars_nouveau:earth_essence",
+  "x": 20,
+  "y": 9,
+  "deps": {
+    "all": [
+      "tier_2/elemental_arcanum"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:earth_essence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

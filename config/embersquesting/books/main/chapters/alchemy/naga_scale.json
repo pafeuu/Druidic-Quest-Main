@@ -1,0 +1,29 @@
+{
+  "title": "Naga Scale",
+  "icon": "twilightforest:naga_scale",
+  "x": 0.5,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "alchemy/primitive_alchemical_dust"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "twilightforest:naga_scale",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "twilightforest:naga_scale",
+      "type": "item"
+    },
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Greater Shapeshifting Root",
+  "icon": "kubejs:greater_shapeshifting_root",
+  "x": 6,
+  "y": 8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:greater_shapeshifting_root",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

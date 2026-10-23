@@ -1,0 +1,58 @@
+{
+  "title": "New Tools",
+  "description": [
+    "You can make that?",
+    "§cCopper Tools§r are extremely durable and are able to mine higher-tier ores than stone tools.",
+    "",
+    "§8Iron Tools§r are not as durable, but gain some reach and are faster than copper tools.",
+    "",
+    "§7Silver Tools§r are the most brittle of the tools at this level. In exchange, they are fastest at this stage and give the user a movement speed boost!",
+    "",
+    "§9Lead Tools§r are similar to iron in durability and mining speed, but also gain knockback resistance and have the highest mining lvl at this tier.",
+    "",
+    "§6Bronze Tools§r are the most durable of the tools at this level. With the same mining lvl as lead, bronze is also imbued with natural Vein Mining."
+  ],
+  "icon": "kubejs:silver_pickaxe{Damage:0}",
+  "x": 6.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "tier_1/basic_automation_material"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "forge:tools/iron",
+      "type": "item",
+      "title": "Any #forge:tools/iron"
+    },
+    {
+      "tag": "forge:tools/copper",
+      "type": "item",
+      "title": "Any #forge:tools/copper"
+    },
+    {
+      "tag": "forge:tools/silver",
+      "type": "item",
+      "title": "Any #forge:tools/silver"
+    },
+    {
+      "tag": "forge:tools/lead",
+      "type": "item",
+      "title": "Any #forge:tools/lead"
+    },
+    {
+      "filter": "or(item(kubejs:bronze_pickaxe) item(kubejs:bronze_shovel) item(kubejs:bronze_hoe))",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

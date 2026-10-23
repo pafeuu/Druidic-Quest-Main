@@ -1,0 +1,29 @@
+{
+  "title": "Blast Furnace Booster",
+  "description": [
+    "Placing Armorer's Aid on top of a Blast Furnace sometimes makes it output more ingots from smelting raw ore"
+  ],
+  "icon": "naturesaura:blast_furnace_booster",
+  "x": 24.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "tier_1/find_an_amethyst_geode"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:blast_furnace_booster",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:raw_gold",
+      "count": 8,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Archeologist",
+  "icon": "minecraft:heart_pottery_sherd",
+  "order": 27,
+  "scope": "team",
+  "group": "ultimate_collector",
+  "defaults": {
+    "progression": "linear"
+  }
+}

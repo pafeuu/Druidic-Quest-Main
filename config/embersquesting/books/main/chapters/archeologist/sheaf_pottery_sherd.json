@@ -1,0 +1,29 @@
+{
+  "title": "Sheaf Pottery Sherd",
+  "icon": "minecraft:sheaf_pottery_sherd",
+  "x": 6,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:sheaf_pottery_sherd",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

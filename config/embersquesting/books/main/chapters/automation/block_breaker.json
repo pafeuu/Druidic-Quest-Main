@@ -1,0 +1,21 @@
+{
+  "title": "block breaker",
+  "description": [
+    "§4§owork in progress§r§r"
+  ],
+  "x": 17,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "introduction/the_big_oven"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "block breaker"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

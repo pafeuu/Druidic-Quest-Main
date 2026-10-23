@@ -1,0 +1,26 @@
+{
+  "title": "Leather Collar",
+  "icon": "wizards_reborn:leather_collar",
+  "x": 13.4,
+  "y": 1.0000000000000004,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:leather_collar",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

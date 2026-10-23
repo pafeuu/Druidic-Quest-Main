@@ -1,0 +1,29 @@
+{
+  "title": "Wooden Hopper",
+  "description": [
+    "Simple Item Transfer",
+    "Like regular hoppers but slower and only contain one slot."
+  ],
+  "icon": "woodenhopper:wooden_hopper",
+  "x": 7.5,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "tier_1/redstone_innovations"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "woodenhopper:wooden_hopper",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

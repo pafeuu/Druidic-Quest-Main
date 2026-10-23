@@ -1,0 +1,40 @@
+{
+  "title": "Before Furnaces, Humanity Used Campfires",
+  "description": [
+    "Mmm... Yum.",
+    "Now that you've crafted primitive tools, you can go into the real progression!",
+    "",
+    "You can't yet craft a furnace to smelt ore, but you should definitely cook some food.",
+    "A nutritious and diverse diet might give you some buffs."
+  ],
+  "icon": "minecraft:campfire",
+  "x": 10.5,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "introduction/mining"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:campfire",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "solonion:food_book",
+      "type": "item"
+    },
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    },
+    {
+      "item": "solcarrot:food_book",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "4 Lemon Seeds",
+  "description": [
+    "5 Silver Coins"
+  ],
+  "icon": "fruitsdelight:lemon",
+  "x": 0.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 5,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "fruitsdelight:lemon_seeds",
+      "count": 4,
+      "type": "item",
+      "auto": "claim"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

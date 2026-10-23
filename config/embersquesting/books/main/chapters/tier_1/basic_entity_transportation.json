@@ -1,0 +1,46 @@
+{
+  "title": "Basic Entity Transportation",
+  "description": [
+    "Slip, slidin' away...",
+    "Most basic item transportation aside from water channels.",
+    "",
+    "Items need to be put on the Luminizer Launcher to be transported through the luminizer connections.",
+    "",
+    "Use wand of the forest to connect Luminizers by shift-rightclicking.",
+    "",
+    "Right click a Luminizer to be transported through connections."
+  ],
+  "icon": "botania:light_relay",
+  "x": 15,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "tier_1/first_machine_casing"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:light_relay",
+      "count": 2,
+      "type": "item"
+    },
+    {
+      "item": "botania:light_launcher",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "botania:twig_wand",
+      "components": "{color1:14,color2:14}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Hopperhock",
+  "icon": "botania:hopperhock",
+  "x": 9.5,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "automation/item_collectors"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:hopperhock",
+      "type": "item"
+    },
+    {
+      "item": "botania:hopperhock_chibi",
+      "type": "item"
+    },
+    {
+      "item": "botania:floating_hopperhock",
+      "type": "item"
+    },
+    {
+      "item": "botania:floating_hopperhock_chibi",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

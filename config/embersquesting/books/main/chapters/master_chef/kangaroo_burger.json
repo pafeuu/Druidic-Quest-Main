@@ -1,0 +1,29 @@
+{
+  "title": "Kangaroo Burger",
+  "icon": "alexsmobs:kangaroo_burger",
+  "x": 7.199999999999999,
+  "y": 6.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "alexsmobs:kangaroo_burger",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

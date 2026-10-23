@@ -1,0 +1,19 @@
+{
+  "title": "Stack Upgrade Omega Tier",
+  "icon": "sophisticatedstorage:stack_upgrade_omega_tier",
+  "x": 0.5,
+  "y": 17,
+  "deps": {
+    "all": [
+      "storage/stack_upgrade_tier_5"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedstorage:stack_upgrade_omega_tier",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

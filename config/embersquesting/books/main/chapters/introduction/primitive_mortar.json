@@ -1,0 +1,35 @@
+{
+  "title": "Primitive Mortar",
+  "description": [
+    "Get into the grind!",
+    "To craft a primitve mortar, you will need to right click a stone slab with a chisel in one hand and flint in the other."
+  ],
+  "icon": "kubejs:primitive_mortar{Damage:0}",
+  "x": 14.5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "introduction/primitive_chisel"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "kubejs:primitive_mortar",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "fruitsdelight:mango_salad",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:flint",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

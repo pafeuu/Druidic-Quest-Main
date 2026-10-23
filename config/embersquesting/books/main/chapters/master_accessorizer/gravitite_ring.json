@@ -1,0 +1,28 @@
+{
+  "title": "Gravitite Ring",
+  "icon": "deep_aether:gravitite_ring{Damage:0}",
+  "x": 21.400000000000002,
+  "y": 5.3999999999999995,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "deep_aether:gravitite_ring",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

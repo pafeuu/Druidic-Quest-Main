@@ -1,0 +1,30 @@
+{
+  "title": "Squid Ink Pasta",
+  "icon": "farmersdelight:squid_ink_pasta",
+  "x": 14.399999999999999,
+  "y": 2.4000000000000004,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:squid_ink_pasta",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

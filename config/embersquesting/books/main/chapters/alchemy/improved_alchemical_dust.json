@@ -1,0 +1,20 @@
+{
+  "title": "Improved Alchemical Dust",
+  "icon": "kubejs:improved_alchemical_dust",
+  "x": 2,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "alchemy/sapphire",
+      "alchemy/basic_alchemical_dust"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:improved_alchemical_dust",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

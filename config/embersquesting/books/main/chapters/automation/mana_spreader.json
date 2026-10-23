@@ -1,0 +1,38 @@
+{
+  "title": "Mana Spreader",
+  "icon": "botania:mana_spreader",
+  "x": 9.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "automation/ultimate_automation_tools"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:mana_spreader",
+      "type": "item"
+    },
+    {
+      "item": "botania:lens_mine",
+      "type": "item"
+    },
+    {
+      "item": "botania:lens_explosive",
+      "type": "item"
+    },
+    {
+      "item": "botania:lens_damage",
+      "type": "item"
+    },
+    {
+      "item": "botania:lens_influence",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

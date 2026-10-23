@@ -1,0 +1,29 @@
+{
+  "title": "Astrolabe",
+  "description": [
+    "Different kind of building wand",
+    ""
+  ],
+  "icon": "botania:astrolabe",
+  "x": 12.5,
+  "deps": {
+    "all": [
+      "building_tools_and_tips/stone_wand"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:astrolabe",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "buildingmisc",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

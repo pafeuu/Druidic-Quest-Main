@@ -1,0 +1,30 @@
+{
+  "title": "Canvas",
+  "description": [
+    "Get to know this material well. You might be using it quite a lot later on!"
+  ],
+  "icon": "farmersdelight:canvas",
+  "x": 12.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "introduction/farming"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:canvas",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "farmersdelight:mixed_salad",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

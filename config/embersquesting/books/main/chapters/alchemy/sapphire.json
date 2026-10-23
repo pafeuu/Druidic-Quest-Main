@@ -1,0 +1,19 @@
+{
+  "title": "Sapphire",
+  "icon": "thermal:sapphire",
+  "x": 4,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "alchemy/alchemical_begining"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:sapphire",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

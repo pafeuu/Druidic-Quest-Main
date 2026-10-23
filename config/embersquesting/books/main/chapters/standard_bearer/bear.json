@@ -1,0 +1,28 @@
+{
+  "title": "Bear",
+  "icon": "alexsmobs:banner_pattern_bear",
+  "x": 0.5,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "alexsmobs:banner_pattern_bear",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

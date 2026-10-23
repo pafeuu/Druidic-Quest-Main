@@ -1,0 +1,30 @@
+{
+  "title": "Spicy Hoglin Stew",
+  "icon": "mynethersdelight:spicy_hoglin_stew",
+  "x": 9.2,
+  "y": 4.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mynethersdelight:spicy_hoglin_stew",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Aura Cache",
+  "icon": "naturesaura:aura_cache",
+  "x": 9.4,
+  "y": 2.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:aura_cache",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

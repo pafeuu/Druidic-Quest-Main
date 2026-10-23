@@ -1,0 +1,31 @@
+{
+  "title": "Alpha Fish",
+  "icon": "tide:alpha_fish{FishLength:50.0d}",
+  "x": 7.975,
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:alpha_fish",
+      "components": "{FishLength:50.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

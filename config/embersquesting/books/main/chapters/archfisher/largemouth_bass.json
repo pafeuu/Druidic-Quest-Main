@@ -1,0 +1,31 @@
+{
+  "title": "Largemouth Bass",
+  "icon": "tide:largemouth_bass{FishLength:50.0d}",
+  "x": 8.825,
+  "y": 2.45,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:largemouth_bass",
+      "components": "{FishLength:50.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

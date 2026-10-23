@@ -1,0 +1,31 @@
+{
+  "title": "Red 40",
+  "icon": "tide:red_40{FishLength:18.5d}",
+  "x": 19.025,
+  "y": 1.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:red_40",
+      "components": "{FishLength:18.5d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

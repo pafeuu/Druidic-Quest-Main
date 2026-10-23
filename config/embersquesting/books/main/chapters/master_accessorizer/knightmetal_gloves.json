@@ -1,0 +1,28 @@
+{
+  "title": "Knightmetal Gloves",
+  "icon": "umbral_skies:knightmetal_gloves{Damage:0}",
+  "x": 6.2,
+  "y": 0.20000000000000018,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "umbral_skies:knightmetal_gloves",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

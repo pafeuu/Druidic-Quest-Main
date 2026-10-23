@@ -1,0 +1,31 @@
+{
+  "title": "Andesite Alloy",
+  "description": [
+    "Nature's Alloy",
+    "§7Andesite Alloy§r is a unique material used in the crafting of automation materials and machines. You'll definitely want to stock up!"
+  ],
+  "icon": "create:andesite_alloy",
+  "x": 2,
+  "y": 3,
+  "deps": {
+    "all": [
+      "tier_2/kiln_alloy_smelter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:andesite_alloy",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "create:andesite_alloy",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "rsquare"
+}

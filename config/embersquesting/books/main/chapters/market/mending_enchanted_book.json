@@ -1,0 +1,32 @@
+{
+  "title": "Mending Enchanted Book",
+  "description": [
+    "4 Netherite Coins"
+  ],
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}",
+  "x": 15,
+  "y": 8,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:netherite_coin",
+      "count": 4,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

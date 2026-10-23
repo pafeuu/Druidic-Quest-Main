@@ -1,0 +1,26 @@
+{
+  "title": "Builders Belt",
+  "icon": "kubejs:builders_belt",
+  "x": 7.4,
+  "y": 4.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:builders_belt",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

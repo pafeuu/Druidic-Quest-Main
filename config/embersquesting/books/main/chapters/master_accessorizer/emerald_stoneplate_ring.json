@@ -1,0 +1,26 @@
+{
+  "title": "Emerald Stoneplate Ring",
+  "icon": "irons_spellbooks:emerald_stoneplate_ring",
+  "x": 10.6,
+  "y": 5.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:emerald_stoneplate_ring",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Steeleaf Set",
+  "icon": "twilightforest:steeleaf_chestplate{Damage:0,Enchantments:[{id:\"minecraft:blast_protection\",lvl:2s}]}",
+  "x": 9.5,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "twilightforest:steeleaf_helmet",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:2s}]}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "twilightforest:steeleaf_chestplate",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:blast_protection\",lvl:2s}]}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "twilightforest:steeleaf_leggings",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:fire_protection\",lvl:2s}]}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "twilightforest:steeleaf_boots",
+      "components": "{Damage:0,Enchantments:[{id:\"minecraft:feather_falling\",lvl:2s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

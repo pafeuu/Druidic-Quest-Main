@@ -1,0 +1,40 @@
+{
+  "title": "Mining",
+  "description": [
+    "Hit the mines, kids!"
+  ],
+  "icon": "minecraft:wooden_pickaxe{Damage:0}",
+  "x": 10.5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "introduction/different_tools"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:coal",
+      "type": "item"
+    },
+    {
+      "filter": "or(item(minecraft:wooden_pickaxe) item(minecraft:stone_pickaxe))",
+      "type": "item",
+      "title": "Early game pickaxe"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:torch",
+      "count": 16,
+      "type": "item"
+    },
+    {
+      "item": "fruitsdelight:jelly_bread",
+      "count": 3,
+      "components": "{JellyEffectRoot:[\"APPLE\"]}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

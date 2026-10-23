@@ -1,0 +1,26 @@
+{
+  "title": "Leather Belt",
+  "icon": "wizards_reborn:leather_belt",
+  "x": 12.6,
+  "y": 5.800000000000001,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:leather_belt",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

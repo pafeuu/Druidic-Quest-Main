@@ -1,0 +1,10 @@
+{
+  "title": "Armorsmith",
+  "icon": "alexsmobs:rocky_chestplate{Damage:0}",
+  "order": 23,
+  "scope": "team",
+  "group": "ultimate_collector",
+  "defaults": {
+    "progression": "flexible"
+  }
+}

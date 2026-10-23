@@ -1,0 +1,26 @@
+{
+  "title": "Eye",
+  "icon": "naturesaura:eye",
+  "x": 9.4,
+  "y": 3.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:eye",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

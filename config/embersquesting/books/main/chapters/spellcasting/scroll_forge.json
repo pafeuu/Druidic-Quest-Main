@@ -1,0 +1,32 @@
+{
+  "title": "Scroll Forge",
+  "description": [
+    "Forging Spells",
+    "Combine magic ink, paper, and the appropriate spell focus to create §9new spell scrolls!§r",
+    "",
+    "Each §9school of magic§r requires a specific item to access its spells.",
+    "",
+    "Higher-level ink will produce higher-level spells."
+  ],
+  "icon": "irons_spellbooks:scroll_forge",
+  "x": 3,
+  "y": 3,
+  "deps": {
+    "all": [
+      "spellcasting/inscription_table"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:scroll_forge",
+      "type": "item"
+    },
+    {
+      "filter": "or(item(irons_spellbooks:common_ink) item(irons_spellbooks:uncommon_ink) item(irons_spellbooks:rare_ink) item(irons_spellbooks:epic_ink) item(irons_spellbooks:legendary_ink))",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "circle"
+}

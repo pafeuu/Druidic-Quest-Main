@@ -1,0 +1,19 @@
+{
+  "title": "Fiery Blood",
+  "icon": "twilightforest:fiery_blood",
+  "x": 0.5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "alchemy/basic_alchemical_dust"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "twilightforest:fiery_blood",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

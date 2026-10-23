@@ -1,0 +1,22 @@
+{
+  "title": "Basic Spell Turret",
+  "icon": "ars_nouveau:basic_spell_turret",
+  "x": 7.5,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "automation/ultimate_automation_tools"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:basic_spell_turret",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

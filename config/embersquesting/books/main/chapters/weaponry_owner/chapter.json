@@ -1,0 +1,10 @@
+{
+  "title": "Bladesmith",
+  "icon": "aether:holy_sword{Damage:0}",
+  "order": 22,
+  "scope": "team",
+  "group": "ultimate_collector",
+  "defaults": {
+    "progression": "flexible"
+  }
+}

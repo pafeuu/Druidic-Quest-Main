@@ -1,0 +1,45 @@
+{
+  "title": "Before You Punch a Tree",
+  "description": [
+    "Craft a damaged axe.",
+    "You can sometimes find these materials laying on the ground.",
+    "",
+    "If you can't find any, you can destroy leaves for a chance to drop twigs and right click stone with a empty hand to get pebbles. ",
+    "",
+    "§2If you dont want to chop down the whole tree you need to sneak while destroying the logs! Your first axe has very little durability, so it might not be able to chop down bigger trees.§r"
+  ],
+  "icon": "minecraft:stone_axe{Damage:0}",
+  "y": 7,
+  "deps": {
+    "all": [
+      "welcome/progression_chapter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "twigs:pebble",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "twigs:twig",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "minecraft:stone_axe",
+      "components": "{Damage:120}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "rsquare"
+}

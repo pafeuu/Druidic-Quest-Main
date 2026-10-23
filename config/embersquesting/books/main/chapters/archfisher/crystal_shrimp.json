@@ -1,0 +1,29 @@
+{
+  "title": "Crystal Shrimp",
+  "icon": "tide:crystal_shrimp",
+  "x": 7.975,
+  "y": 10.524999999999999,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "tide:crystal_shrimp",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

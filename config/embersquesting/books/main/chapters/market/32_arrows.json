@@ -1,0 +1,32 @@
+{
+  "title": "32 Arrows",
+  "description": [
+    "2 Silver Coins"
+  ],
+  "icon": "minecraft:arrow",
+  "x": 0.5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:arrow",
+      "count": 32,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

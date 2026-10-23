@@ -1,0 +1,29 @@
+{
+  "title": "Knightmetal Sword",
+  "icon": "twilightforest:knightmetal_sword{Damage:0}",
+  "x": 4.95,
+  "y": 9.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "twilightforest:knightmetal_sword",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle"
+}

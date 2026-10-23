@@ -1,0 +1,32 @@
+{
+  "title": "Boreal Blade",
+  "icon": "irons_spellbooks:boreal_blade{Damage:0,\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:frostbite\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
+  "x": 5.85,
+  "y": 6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:boreal_blade",
+      "components": "{Damage:0,\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:frostbite\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

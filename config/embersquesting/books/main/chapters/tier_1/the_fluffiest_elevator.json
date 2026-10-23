@@ -1,0 +1,39 @@
+{
+  "title": "The Fluffiest Elevator",
+  "description": [
+    "Bounce to new heights!",
+    "§b§lBlue Aercloud§r§r will launch any player who walks into them high into the air!",
+    "",
+    "Meanwhile, §lCold Aerclouds§r are perfect for safely breaking your fall from a great height."
+  ],
+  "icon": "aether:blue_aercloud",
+  "x": 3.5,
+  "y": 10,
+  "deps": {
+    "any": [
+      "tier_1/glass"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 3,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "aether:blue_aercloud",
+      "count": 12,
+      "type": "item"
+    },
+    {
+      "item": "aether:cold_aercloud",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "shape": "pentagon"
+}

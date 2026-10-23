@@ -1,0 +1,28 @@
+{
+  "title": "Starbuncle Charm",
+  "description": [
+    "The cutest form of item transport!"
+  ],
+  "icon": "ars_nouveau:starbuncle_charm",
+  "x": 15,
+  "y": 2,
+  "deps": {
+    "all": [
+      "tier_1/basic_entity_transportation"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:starbuncle_charm",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "vintagedelight:golden_egg",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

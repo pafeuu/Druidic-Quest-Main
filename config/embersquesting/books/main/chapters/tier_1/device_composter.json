@@ -1,0 +1,36 @@
+{
+  "title": "Device Composter",
+  "description": [
+    "Works like a regular composter but composts 9 items at a time.",
+    "",
+    "The result will be compost instead of bone meal."
+  ],
+  "icon": "thermal:device_composter",
+  "x": 25.5,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "tier_1/find_an_amethyst_geode"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:device_composter",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "kubejs:sapling_ball",
+      "count": 8,
+      "type": "item"
+    },
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

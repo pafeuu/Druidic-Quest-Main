@@ -1,0 +1,26 @@
+{
+  "title": "Arcane Anvil",
+  "description": [
+    "Upgrades All Around!",
+    "Combine any weapon with a scroll to §9imbue the weapon§r with that spell!",
+    "",
+    "Combine §9scrolls§r with magic ink to level them up!"
+  ],
+  "icon": "irons_spellbooks:arcane_anvil",
+  "x": 3,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "spellcasting/scroll_forge"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:arcane_anvil",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "circle"
+}

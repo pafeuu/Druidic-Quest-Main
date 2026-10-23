@@ -1,0 +1,32 @@
+{
+  "title": "4 Cabbage Seeds",
+  "description": [
+    "5 Silver Coins"
+  ],
+  "icon": "farmersdelight:cabbage",
+  "x": 2,
+  "y": 8,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 5,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "farmersdelight:cabbage_seeds",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

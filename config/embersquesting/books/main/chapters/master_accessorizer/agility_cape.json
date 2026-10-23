@@ -1,0 +1,26 @@
+{
+  "title": "Agility Cape",
+  "icon": "aether:agility_cape",
+  "x": 23.8,
+  "y": 1,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "aether:agility_cape",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

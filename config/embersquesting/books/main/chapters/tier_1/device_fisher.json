@@ -1,0 +1,36 @@
+{
+  "title": "Device Fisher",
+  "description": [
+    "Automatic fishing!",
+    "",
+    "The loot table is quite different from regular fishing."
+  ],
+  "icon": "thermal:device_fisher",
+  "x": 27,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "tier_1/find_an_amethyst_geode"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:device_fisher",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:aquachow",
+      "count": 8,
+      "type": "item"
+    },
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

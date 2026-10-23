@@ -1,0 +1,40 @@
+{
+  "title": "Ziplining through the air!",
+  "description": [
+    "Connect your ropelike items to the walls and hold right click with a zipline attachment item to move around!"
+  ],
+  "icon": "minecraft:chain",
+  "x": 2,
+  "y": 3,
+  "deps": {
+    "all": [
+      "tier_1/first_magical_feat"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "connectiblechains:catenary_items",
+      "type": "item",
+      "title": "Rope like items"
+    },
+    {
+      "tag": "zipline:attachment",
+      "type": "item",
+      "title": "zipline attachment"
+    },
+    {
+      "tag": "connectiblechains:chain_connectible",
+      "type": "item",
+      "title": "walls and stuff"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Blast Protection IV",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:blast_protection\",lvl:4s}]}",
+  "x": 2.3500000000000005,
+  "y": 3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:enchanted_book",
+      "components": "{StoredEnchantments:[{id:\"minecraft:blast_protection\",lvl:4s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

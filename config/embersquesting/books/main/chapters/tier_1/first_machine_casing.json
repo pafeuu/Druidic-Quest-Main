@@ -1,0 +1,30 @@
+{
+  "title": "First Machine Casing",
+  "description": [
+    "New Stuff!",
+    "More innovations to play with!"
+  ],
+  "icon": "druidic_quest_core:primitive_machine",
+  "x": 17,
+  "y": 5,
+  "deps": {
+    "all": [
+      "tier_1/plates"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "druidic_quest_core:primitive_machine",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

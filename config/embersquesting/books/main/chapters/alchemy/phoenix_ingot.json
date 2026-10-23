@@ -1,0 +1,18 @@
+{
+  "title": "Phoenix Ingot",
+  "icon": "kubejs:phoenix_ingot",
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "alchemy/improved_alchemical_dust"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:phoenix_ingot",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

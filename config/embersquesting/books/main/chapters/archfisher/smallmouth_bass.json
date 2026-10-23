@@ -1,0 +1,31 @@
+{
+  "title": "Smallmouth Bass",
+  "icon": "tide:smallmouth_bass{FishLength:43.5d}",
+  "x": 11.375,
+  "y": 1.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:smallmouth_bass",
+      "components": "{FishLength:43.5d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

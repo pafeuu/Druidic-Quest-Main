@@ -1,0 +1,26 @@
+{
+  "title": "Elemental Core",
+  "icon": "kubejs:elemental_core",
+  "x": 20,
+  "y": 14,
+  "deps": {
+    "all": [
+      "tier_2/kiln_alloy_smelter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:elemental_core",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

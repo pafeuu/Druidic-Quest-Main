@@ -1,0 +1,30 @@
+{
+  "title": "Carpeted blocks",
+  "description": [
+    "Grand entrance, anyone?",
+    "You can now place carpets (including moss carpet) on stairs and slabs!"
+  ],
+  "icon": "minecraft:red_carpet",
+  "x": 5.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "welcome/tips_chapter"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:white_carpet",
+      "count": 8,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "octagon"
+}

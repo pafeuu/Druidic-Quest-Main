@@ -1,0 +1,38 @@
+{
+  "title": "Alchemical Begining",
+  "description": [
+    "Infused with...?",
+    "To get your first §5alchemical dust§r you are going to need some infused gems.",
+    "",
+    "The §4sacrificial altar§r will be required to obtain §2infused emeralds§r and §binfused diamonds§r.",
+    "",
+    "Hold \"W\" to §aponder§r the sacrificial altar."
+  ],
+  "icon": "kubejs:sacrificial_altar",
+  "x": 4,
+  "y": 11,
+  "deps": {
+    "all": [
+      "tier_1/plates"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:sacrificial_altar",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:ruby",
+      "type": "item"
+    },
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "circle"
+}

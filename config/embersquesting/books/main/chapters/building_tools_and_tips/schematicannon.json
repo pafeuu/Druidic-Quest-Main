@@ -1,0 +1,36 @@
+{
+  "title": "Schematicannon",
+  "description": [
+    "Is it cheating...?",
+    "The schematicannon is already an extremely useful tool in the Create arsenal, but... did you know it has a \"hidden\" trait?",
+    "",
+    "Blocks placed by this machine do not cause adjacent blocks to update, giving you mountains of possibilites like:",
+    "",
+    "-Changing out the obsidian in a Nether portal",
+    "-Placing blocks that need a special environment (placing flowers or azalea bushes on top of stone, etc.)"
+  ],
+  "icon": "create:schematicannon",
+  "x": 5.5,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "welcome/tips_chapter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:schematicannon",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:gunpowder",
+      "count": 8,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "circle"
+}

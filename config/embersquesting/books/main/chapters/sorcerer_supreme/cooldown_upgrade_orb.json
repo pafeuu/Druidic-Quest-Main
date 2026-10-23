@@ -1,0 +1,29 @@
+{
+  "title": "Cooldown Upgrade Orb",
+  "icon": "irons_spellbooks:cooldown_upgrade_orb",
+  "x": 9.399999999999999,
+  "y": 2.5999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:cooldown_upgrade_orb",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

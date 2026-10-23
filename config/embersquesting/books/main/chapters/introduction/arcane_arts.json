@@ -1,0 +1,49 @@
+{
+  "title": "Arcane Arts",
+  "description": [
+    "It begins...",
+    "Connect the arcane machinery using wissen wand . Ponder tells you more details.",
+    "",
+    "You can place the blocks in any pattern you want, even placing the translator on the ceilling!"
+  ],
+  "icon": "wizards_reborn:arcane_workbench",
+  "x": 19,
+  "y": 10,
+  "deps": {
+    "all": [
+      "introduction/assemble_the_ritual",
+      "introduction/pure_daisy"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:arcane_workbench",
+      "type": "item"
+    },
+    {
+      "item": "wizards_reborn:wissen_altar",
+      "type": "item"
+    },
+    {
+      "item": "wizards_reborn:wissen_translator",
+      "type": "item"
+    },
+    {
+      "item": "wizards_reborn:wissen_wand",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "wizards_reborn:arcanum",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "wizards_reborn:creative_knowledge_scroll",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

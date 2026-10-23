@@ -1,0 +1,30 @@
+{
+  "title": "waystones2",
+  "icon": "minecraft:chest",
+  "options": [
+    {
+      "item": "waystones:deepslate_waystone",
+      "type": "item"
+    },
+    {
+      "item": "waystones:blackstone_waystone",
+      "type": "item"
+    },
+    {
+      "item": "waystones:end_stone_waystone",
+      "type": "item"
+    },
+    {
+      "item": "waystones:waystone",
+      "type": "item"
+    },
+    {
+      "item": "waystones:mossy_waystone",
+      "type": "item"
+    },
+    {
+      "item": "waystones:sandy_waystone",
+      "type": "item"
+    }
+  ]
+}

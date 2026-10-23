@@ -1,0 +1,26 @@
+{
+  "title": "Bear Totem",
+  "icon": "kubejs:bear_totem",
+  "x": 1.4000000000000004,
+  "y": 6.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:bear_totem",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

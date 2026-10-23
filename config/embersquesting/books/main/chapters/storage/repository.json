@@ -1,0 +1,29 @@
+{
+  "title": "Repository",
+  "description": [
+    "Early game big storage"
+  ],
+  "icon": "ars_nouveau:repository",
+  "x": 5,
+  "y": 1,
+  "deps": {
+    "all": [
+      "storage/item_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:repository",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Infusion Catalyst",
+  "description": [
+    "Harnessing the Power of Nature",
+    "You'll need the power of the §aInfusion Catalyst§r in the Natural Altar to infuse mundane materials with magical properties!"
+  ],
+  "icon": "kubejs:infusion_catalyst",
+  "x": 11.5,
+  "y": 11,
+  "deps": {
+    "all": [
+      "tier_2/visit_the_nether"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:infusion_catalyst",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

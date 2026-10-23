@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Shimmer",
+  "icon": "wizards_reborn:music_disc_shimmer",
+  "x": 11.5,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:music_disc_shimmer",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

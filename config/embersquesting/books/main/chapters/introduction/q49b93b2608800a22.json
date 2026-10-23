@@ -1,0 +1,41 @@
+{
+  "title": "",
+  "description": [
+    "Tigerseye will scare off any creepers and stop them from exploding!",
+    "",
+    {
+      "width": 96,
+      "height": 96,
+      "texture": "entity:textures/minecraft:creeper[rotate=true].png",
+      "type": "image"
+    }
+  ],
+  "icon": "minecraft:creeper_head",
+  "x": 10,
+  "y": 11.5,
+  "deps": {
+    "all": [
+      "introduction/explosive_mobs"
+    ]
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:creeper",
+      "count": 5,
+      "type": "kill"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    },
+    {
+      "item": "botania:tigerseye",
+      "components": "{BlockEntityTag:{id:\"botania:tigerseye\",mana:10000}}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

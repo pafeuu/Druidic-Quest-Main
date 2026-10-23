@@ -1,0 +1,10 @@
+{
+  "title": "Tier 5 - The End?",
+  "icon": "botania:gaia_ingot",
+  "order": 11,
+  "scope": "team",
+  "group": "main_questline",
+  "defaults": {
+    "progression": "linear"
+  }
+}

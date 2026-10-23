@@ -1,0 +1,29 @@
+{
+  "title": "Mosquito Repellent Stew",
+  "icon": "alexsmobs:mosquito_repellent_stew",
+  "x": 7.6,
+  "y": 4.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "alexsmobs:mosquito_repellent_stew",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

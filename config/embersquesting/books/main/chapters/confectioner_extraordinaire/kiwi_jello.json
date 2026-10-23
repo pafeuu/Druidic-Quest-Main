@@ -1,0 +1,29 @@
+{
+  "title": "Kiwi Jello",
+  "icon": "fruitsdelight:kiwi_jello",
+  "x": 8.600000000000003,
+  "y": 10.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:kiwi_jello",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

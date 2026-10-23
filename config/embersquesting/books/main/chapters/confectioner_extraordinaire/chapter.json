@@ -1,0 +1,10 @@
+{
+  "title": "Confectioner Extraordinaire",
+  "icon": "farmersdelight:sweet_berry_cheesecake",
+  "order": 20,
+  "scope": "team",
+  "group": "ultimate_collector",
+  "defaults": {
+    "progression": "linear"
+  }
+}

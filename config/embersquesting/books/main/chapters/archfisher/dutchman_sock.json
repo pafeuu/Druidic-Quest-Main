@@ -1,0 +1,31 @@
+{
+  "title": "Dutchman Sock",
+  "icon": "tide:dutchman_sock{FishLength:5.5d}",
+  "x": 19.875,
+  "y": 2.45,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:dutchman_sock",
+      "components": "{FishLength:5.5d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

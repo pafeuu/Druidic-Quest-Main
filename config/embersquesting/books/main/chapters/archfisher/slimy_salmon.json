@@ -1,0 +1,31 @@
+{
+  "title": "Slimy Salmon",
+  "icon": "tide:slimy_salmon{FishLength:75.0d}",
+  "x": 9.675,
+  "y": 2.45,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:slimy_salmon",
+      "components": "{FishLength:75.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

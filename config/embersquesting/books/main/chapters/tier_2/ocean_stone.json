@@ -1,0 +1,26 @@
+{
+  "title": "Ocean Stone",
+  "icon": "enigmaticlegacy:ocean_stone",
+  "x": 22.5,
+  "y": 15.5,
+  "deps": {
+    "all": [
+      "tier_2/elemental_core"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:ocean_stone",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

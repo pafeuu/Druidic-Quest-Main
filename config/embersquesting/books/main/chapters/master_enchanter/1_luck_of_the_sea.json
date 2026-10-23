@@ -1,0 +1,31 @@
+{
+  "title": "+1 Luck of the Sea",
+  "icon": "quark:ancient_tome{StoredEnchantments:[{id:\"minecraft:luck_of_the_sea\",lvl:3s}]}",
+  "x": 5.05,
+  "y": 3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "quark:ancient_tome",
+      "components": "{StoredEnchantments:[{id:\"minecraft:luck_of_the_sea\",lvl:3s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

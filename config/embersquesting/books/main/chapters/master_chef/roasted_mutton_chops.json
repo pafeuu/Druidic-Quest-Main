@@ -1,0 +1,29 @@
+{
+  "title": "Roasted Mutton Chops",
+  "icon": "farmersdelight:roasted_mutton_chops",
+  "x": 14.399999999999999,
+  "y": 3.5999999999999996,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:roasted_mutton_chops",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

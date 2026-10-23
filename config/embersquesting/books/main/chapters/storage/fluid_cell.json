@@ -1,0 +1,27 @@
+{
+  "title": "Fluid Cell",
+  "icon": "thermal:fluid_cell{BlockEntityTag:{TankInv:[{Amount:0,Capacity:32000,FluidName:\"minecraft:empty\",Tank:0b}]}}",
+  "x": 9,
+  "y": 1,
+  "deps": {
+    "all": [
+      "storage/fluid_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "thermal:fluid_cell",
+      "components": "{BlockEntityTag:{TankInv:[{Amount:0,Capacity:32000,FluidName:\"minecraft:empty\",Tank:0b}]}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

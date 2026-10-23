@@ -1,0 +1,29 @@
+{
+  "title": "Holy Rune",
+  "icon": "irons_spellbooks:holy_rune",
+  "x": 5.3999999999999995,
+  "y": 1.799999999999999,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:holy_rune",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

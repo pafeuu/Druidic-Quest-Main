@@ -1,0 +1,29 @@
+{
+  "title": "Sack",
+  "description": [
+    "Load 'em up!",
+    "Sacks hold 9 stacks of items and retain their inventory when broken.",
+    "They are a valuable component of other portable storages."
+  ],
+  "icon": "supplementaries:sack",
+  "x": 12.5,
+  "deps": {
+    "all": [
+      "introduction/canvas"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "supplementaries:sack",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "gear"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Monster Charm",
+  "icon": "enigmaticlegacy:monster_charm",
+  "x": 17.4,
+  "y": 2.6000000000000005,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:monster_charm",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

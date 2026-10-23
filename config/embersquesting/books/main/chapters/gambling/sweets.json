@@ -1,0 +1,36 @@
+{
+  "title": "Sweets",
+  "description": [
+    "Gamble a gold coin on some sweets!"
+  ],
+  "icon": "minecraft:cookie",
+  "x": 10,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "gambling/welcome_to_the_casino"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "mode": "consume",
+      "type": "item"
+    },
+    {
+      "item": "supplementaries:sack",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "icon": "farmersdelight:honey_cookie",
+      "table": "sweets",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Melomaniac",
+  "icon": "minecraft:music_disc_cat",
+  "order": 18,
+  "scope": "team",
+  "group": "ultimate_collector",
+  "defaults": {
+    "progression": "flexible"
+  }
+}

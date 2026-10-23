@@ -1,0 +1,29 @@
+{
+  "title": "Crafting Station",
+  "description": [
+    "Advanced Crafting",
+    "The §5§lCrafting Station§r§r can pull items from inventories adjacent to all 6 of its sides!"
+  ],
+  "icon": "craftingstation:crafting_station",
+  "x": 26.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "tier_1/find_an_amethyst_geode"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "craftingstation:crafting_station",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

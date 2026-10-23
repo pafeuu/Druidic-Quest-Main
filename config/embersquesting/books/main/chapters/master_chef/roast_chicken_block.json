@@ -1,0 +1,29 @@
+{
+  "title": "Roast Chicken Block",
+  "icon": "farmersdelight:roast_chicken_block",
+  "x": 14,
+  "y": 8.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "farmersdelight:roast_chicken_block",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

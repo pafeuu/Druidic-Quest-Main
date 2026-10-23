@@ -1,0 +1,10 @@
+{
+  "title": "Building Tools and Tips",
+  "icon": "quark:trowel",
+  "order": 5,
+  "scope": "team",
+  "group": "tips",
+  "defaults": {
+    "progression": "flexible"
+  }
+}

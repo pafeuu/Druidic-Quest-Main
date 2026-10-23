@@ -1,0 +1,31 @@
+{
+  "title": "Scribes Table",
+  "description": [
+    "Magic for All Occasions",
+    "§5Ars Nouveau§r is your one-stop-shop for automation magic! The unique spell-building mechanic allows you to combine §5glyphs§r in multitudes of ways, limiting you only by your creativity!",
+    "",
+    "To begin, interact with the scribe's table with spell book in-hand. This will grant you the ability to create glyphs.",
+    "",
+    "Select the glyph you wish to craft and §5toss the required ingredients§r onto the table. The scribe's table will also §5automatically§r pull from nearby inventories if the required items are available. Using the dominion wand on the table will disable this.",
+    "",
+    "Once crafted, use the §5glyph§r to learn it."
+  ],
+  "icon": "ars_nouveau:scribes_table",
+  "x": 11,
+  "y": 3,
+  "deps": {
+    "all": [
+      "tier_1/copper_spell_book",
+      "spellcasting/novice_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:scribes_table",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "octagon"
+}

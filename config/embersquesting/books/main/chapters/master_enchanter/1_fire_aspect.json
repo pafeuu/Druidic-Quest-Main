@@ -1,0 +1,31 @@
+{
+  "title": "+1 Fire Aspect",
+  "icon": "quark:ancient_tome{StoredEnchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}]}",
+  "x": 7.75,
+  "y": 6.6000000000000005,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "quark:ancient_tome",
+      "components": "{StoredEnchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}]}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

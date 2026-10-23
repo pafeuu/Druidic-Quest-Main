@@ -1,0 +1,42 @@
+{
+  "title": "Destruction",
+  "description": [
+    "Supplementaries Cannon can shoot any projectile! also any tnt type while turning it on!"
+  ],
+  "icon": "supplementaries:cannon",
+  "x": 17,
+  "y": 5.5,
+  "deps": {
+    "any": [
+      "automation/block_breaker",
+      "automation/mob_damaging"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:tnt",
+      "type": "item"
+    },
+    {
+      "item": "supplementaries:cannon",
+      "type": "item"
+    },
+    {
+      "item": "supplementaries:cannonball",
+      "type": "item"
+    },
+    {
+      "item": "supplementaries:bomb",
+      "type": "item"
+    },
+    {
+      "item": "supplementaries:bomb_blue",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

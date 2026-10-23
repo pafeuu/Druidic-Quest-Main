@@ -1,0 +1,46 @@
+{
+  "title": "Elemental Arcanum",
+  "description": [
+    "Crystialized Elements",
+    "Arcanum can be infused with elemental fluid, yielding a crystalized form of the element which can then be used in crafting."
+  ],
+  "icon": "mbd2:elemental_infuser",
+  "x": 14,
+  "y": 5,
+  "deps": {
+    "all": [
+      "tier_2/distilling_the_elements"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mbd2:elemental_infuser",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:earth_infused_arcanum",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:fire_infused_arcanum",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:water_infused_arcanum",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:air_infused_arcanum",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "wizards_reborn:arcanum",
+      "count": 8,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

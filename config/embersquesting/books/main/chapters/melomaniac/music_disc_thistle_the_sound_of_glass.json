@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Thistle The Sound Of Glass",
+  "icon": "ars_nouveau:music_disc_thistle_the_sound_of_glass",
+  "x": 10.5,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:music_disc_thistle_the_sound_of_glass",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

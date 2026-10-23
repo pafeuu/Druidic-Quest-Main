@@ -144,18 +144,6 @@ ServerEvents.recipes(event => {
 		}
 	).id("wizards_reborn:shaped/arcane_workbench")
 
-	event.shaped("kubejs:arcanum_pylon",
-		[
-			"GAG",
-			"GAG",
-			"ATA"
-		],
-		{
-			G: "naturesaura:gold_leaf",
-			A: "wizards_reborn:arcanum",
-			T: "naturesaura:wood_stand"
-		}
-	)
 
 	event.shaped("wizards_reborn:arcane_pedestal",
 		[
@@ -4506,48 +4494,7 @@ ServerEvents.recipes(event => {
 
 	event.shapeless("enigmaticlegacy:darkest_scroll", ["enigmaticlegacy:thicc_scroll", "kubejs:dark_essence"])
 
-	event.custom(
-		{
-			type: "create:mechanical_crafting",
-			"pattern": [
-				"AAAAAAA",
-				"ANNNNNA",
-				"ANDXDNA",
-				"ANGYGNA",
-				"ANDZDNA",
-				"ANNNNNA",
-				"AAAAAAA"
-			],
-			"key": {
-				"A": {
-					item: "kubejs:spawner_part"
-				},
-				"N": {
-					tag: "forge:plates/netherite"
-				},
-				"D": {
-					item: "kubejs:death_essence"
-				},
-				"G": {
-					tag: "forge:gears/depth"
-				},
-				"X": {
-					item: "quark:monster_box"
-				},
-				"Y": {
-					item: "kubejs:steel_machine"
-				},
-				"Z": {
-					item: "naturesaura:animal_spawner"
-				}
-			},
-			"result": {
-				item: "minecraft:spawner",
-				"count": 1
-			},
-			"acceptMirrored": true
-		}
-	)
+	
 
 
 })

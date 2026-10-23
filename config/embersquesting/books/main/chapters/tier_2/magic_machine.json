@@ -1,0 +1,30 @@
+{
+  "title": "Magic Machine",
+  "description": [
+    "Innovative Magical Mechanisms!",
+    "Does the machine make the magic? Or is it the magic that makes the machine?"
+  ],
+  "icon": "kubejs:magic_machine",
+  "x": 16.5,
+  "y": 13,
+  "deps": {
+    "all": [
+      "tier_2/infused_iron"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:magic_machine",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

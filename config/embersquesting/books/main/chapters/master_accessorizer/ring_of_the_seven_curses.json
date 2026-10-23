@@ -1,0 +1,28 @@
+{
+  "title": "Ring of the Seven Curses",
+  "icon": "enigmaticlegacy:cursed_ring",
+  "x": 0.1999999999999993,
+  "y": 1.7999999999999998,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "stat": "enigmaticlegacy:play_time_with_seven_curses",
+      "min": 1,
+      "type": "stat",
+      "icon": "enigmaticlegacy:evil_essence"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

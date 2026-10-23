@@ -1,0 +1,28 @@
+{
+  "title": "Market",
+  "description": [
+    "Welcome to the Market!",
+    "We've got everything you could ever want!",
+    "",
+    "§7Or anything that'll make us profit, anyway...",
+    "§r",
+    "§2§lMore stuff in stock soon!§r§r"
+  ],
+  "icon": "thermal:gold_coin",
+  "x": 7,
+  "y": 6,
+  "deps": {
+    "all": [
+      "welcome/market"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "Market"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "hexagon"
+}

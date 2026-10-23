@@ -1,0 +1,30 @@
+{
+  "title": "Elytra",
+  "description": [
+    "I feel like I can glide!"
+  ],
+  "icon": "minecraft:elytra{Damage:0}",
+  "x": 22.5,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "tier_2/air_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "minecraft:elytra",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Bundles",
+  "description": [
+    "a whole stack of different kind of items inside"
+  ],
+  "icon": "silly_oddities:rainbow_bundle",
+  "x": 3,
+  "y": 6,
+  "deps": {
+    "all": [
+      "storage/item_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "silly_oddities:bundles",
+      "type": "item",
+      "title": "Any #silly_oddities:bundles"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:leather",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Redstone Core",
+  "description": [
+    "Magical Mechanicals",
+    "The §4Redstone Core§r is a powerful crafting component which will open up many new automation opportunities!"
+  ],
+  "icon": "kubejs:redstone_core",
+  "x": 6.5,
+  "y": 6,
+  "deps": {
+    "all": [
+      "tier_3/elemental_binder"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:redstone_core",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

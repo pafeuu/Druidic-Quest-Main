@@ -1,0 +1,26 @@
+{
+  "title": "Dark Essence",
+  "icon": "kubejs:dark_essence",
+  "x": 9,
+  "y": 11,
+  "deps": {
+    "all": [
+      "tier_3/elemental_binder"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:dark_essence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

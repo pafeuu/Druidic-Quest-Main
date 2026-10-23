@@ -1,0 +1,22 @@
+{
+  "title": "Iron Rod",
+  "icon": "quark:iron_rod",
+  "x": 19,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "automation/block_breaker"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "quark:iron_rod",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

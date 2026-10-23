@@ -1,0 +1,29 @@
+{
+  "title": "Feeding Trough",
+  "description": [
+    "Tending the Herd",
+    "Automatically feeds the animals around it when supplied with their preferred food. Not as efficient as feeding them yourself!"
+  ],
+  "icon": "quark:feeding_trough",
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "tier_2/nature_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "quark:feeding_trough",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

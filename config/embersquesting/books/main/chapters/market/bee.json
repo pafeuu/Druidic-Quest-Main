@@ -1,0 +1,31 @@
+{
+  "title": "Bee",
+  "description": [
+    "1 Gold Coin"
+  ],
+  "icon": "minecraft:bee_spawn_egg",
+  "x": 13.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "supplementaries:cage",
+      "components": "{BlockEntityTag:{MobHolder:{EntityData:{AbsorptionAmount:0.0f,Age:0,Air:300s,AngerTime:0,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:48.0d,Modifiers:[{Amount:0.03422828847599417d,Name:\"Random spawn bonus\",Operation:1,UUID:[I;-925689177,188367555,-1419474957,368942830]}],Name:\"minecraft:generic.follow_range\"},{Base:0.0d,Name:\"alembic:fire_damage.resistance\"},{Base:0.30000001192092896d,Name:\"minecraft:generic.movement_speed\"},{Base:0.1d,Name:\"caelus:fall_flying\"},{Base:0.0d,Name:\"forge:step_height_addition\"},{Base:1.0d,Name:\"forge:swim_speed\"},{Base:0.08d,Name:\"forge:entity_gravity\"}],BalmData:{},Brain:{memories:{}},CanPickUpLoot:0b,CanUpdate:1b,CannotEnterHiveTicks:0,CitadelData:{},CropsGrownSincePollination:0,DeathTime:0s,EntityJSData:{},FallDistance:0.0f,FallFlying:0b,Fire:0s,ForcedAge:0,ForgeCaps:{\"aether:mob_accessory\":{DropChances:{aether_gloves:0.085f,aether_pendant:0.085f,hands:0.085f,necklace:0.085f}},\"aether_redux:vampire_amulet\":{active:0b,has_curio:0b,timer:24000},\"alembic:fire_tag\":{fireType:\"normal\"},\"curios:inventory\":{Curios:[]},\"structure_gel:gel_entity\":{portal:\"structure_gel:empty\"},\"twilightforest:cap_shield\":{permshields:0,tempshields:0},\"twilightforest:cap_thrown\":{throwCooldown:0,throwX:0.0d,throwY:0.0d,throwZ:0.0d,yetiThrown:0b},\"twilightforest:giant_pick_mine\":{giantBlockConversion:0,giantPickBreaking:0b,giantPickMining:0L}},ForgeData:{},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],HasNectar:0b,HasStung:0b,Health:10.0f,HurtByTimestamp:0,HurtTime:0s,IMFlags:{CanBreakBlocks:2,CanFly:2,GearEnchanted:1b,IsThrown:0b,IsVariedSize:0b,MagicRes:0.0f,ModifiedArmor:1b,ModifiedAttributes:1b,ModifiedHeld:1b,ProjBoost:1.0f,explosionMult:1.0f},InLove:0,Invulnerable:0b,LeftHanded:0b,MobSpawnReason:12,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:0b,PortalCooldown:0,Pos:[0.5d,0.1251d,0.5d],Rotation:[0.0f,0.0f],TicksSincePollination:6,castingEquipmentSlot:\"\",castingSpellId:\"\",castingSpellLevel:0,effectFlags:0L,evasionHitsRemaining:0.0f,\"forge:spawn_type\":\"SPAWN_EGG\",heartStopAccumulatedDamage:0.0f,id:\"minecraft:bee\",isCasting:0b,spellSelection:{index:-1,lastIndex:-1,lastSlot:\"\",slot:\"\"},usedSpecial:0b},Name:\"Bee\",Scale:0.8219178f,UUID:[I;1267885141,823740732,-1383186595,-1455588486]}}}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

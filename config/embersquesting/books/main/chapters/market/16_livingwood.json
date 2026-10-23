@@ -1,0 +1,32 @@
+{
+  "title": "16 Livingwood",
+  "description": [
+    "1 Gold Coin"
+  ],
+  "icon": "botania:livingwood_log",
+  "x": 12,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "market/market",
+      "tier_1/basic_automation_material"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "botania:livingwood_log",
+      "count": 16,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

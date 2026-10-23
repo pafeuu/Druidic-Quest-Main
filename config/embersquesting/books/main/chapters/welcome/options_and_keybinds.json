@@ -1,0 +1,33 @@
+{
+  "title": "Options and Keybinds",
+  "description": [
+    "Remember to set your keybinds!",
+    "",
+    "ESC => Options => Controls => Keybinds",
+    "",
+    "The pack comes with assigned keybinds so there are no conflicts, but you'll want to set your own in many cases.",
+    "",
+    "Most are actually unset, and familiar keybinds can really benefit your gameplay."
+  ],
+  "icon": "thermal:netherite_gear",
+  "x": 3,
+  "y": 1,
+  "deps": {
+    "all": [
+      "welcome/welcome"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "shape": "hexagon"
+}

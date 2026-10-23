@@ -1,0 +1,25 @@
+{
+  "title": "Storm Sword",
+  "icon": "deep_aether:storm_sword{Damage:0}",
+  "x": 8.55,
+  "y": 3.3,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "deep_aether:storm_sword",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Mooneye",
+  "icon": "tide:mooneye{FishLength:29.0d}",
+  "x": 11.375,
+  "y": 0.75,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:mooneye",
+      "components": "{FishLength:29.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Arcane Gold Upgrade",
+  "icon": "kubejs:arcane_gold_upgrade_smithing_template",
+  "x": 1,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:arcane_gold_upgrade_smithing_template",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

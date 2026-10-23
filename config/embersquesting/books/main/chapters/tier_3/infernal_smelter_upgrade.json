@@ -1,0 +1,44 @@
+{
+  "title": "Infernal Smelter Upgrade",
+  "icon": "kubejs:soul_core",
+  "x": 11.5,
+  "y": 3,
+  "deps": {
+    "all": [
+      "tier_3/andesite_machine",
+      "tier_3/visit_the_aether",
+      "tier_3/deployer",
+      "tier_3/death_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:soul_core",
+      "type": "item"
+    },
+    {
+      "item": "mbd2:infernal_smelter",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:infernal_bricks",
+      "count": 26,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "kubejs:phoenix_ingot",
+      "count": 4,
+      "type": "item"
+    },
+    {
+      "item": "thermal:copper_coin",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "complete": "any",
+  "shape": "rsquare"
+}

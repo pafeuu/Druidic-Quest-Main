@@ -1,0 +1,31 @@
+{
+  "title": "New Equipment Opportunity",
+  "description": [
+    "Now we're talking!",
+    "Zinc makes a much more durable tool handle, necessary to make §bdiamond§r and §6gold§r tools."
+  ],
+  "icon": "kubejs:zinc_tool_handle",
+  "x": 7.5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "tier_2/arcane_crafting"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:zinc_tool_handle",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "create:zinc_ingot",
+      "count": 8,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

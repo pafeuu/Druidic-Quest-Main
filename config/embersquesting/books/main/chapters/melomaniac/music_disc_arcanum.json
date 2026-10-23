@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Arcanum",
+  "icon": "wizards_reborn:music_disc_arcanum",
+  "x": 12,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:music_disc_arcanum",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

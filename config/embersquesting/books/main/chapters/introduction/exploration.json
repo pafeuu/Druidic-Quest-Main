@@ -1,0 +1,55 @@
+{
+  "title": "Exploration ",
+  "description": [
+    "It's not stealing, is it?",
+    "As you can see, a lot of \"basic\" items have changed recipes, but you can still find those items while exploring the world!"
+  ],
+  "icon": "minecraft:compass",
+  "x": 7,
+  "y": 10,
+  "deps": {
+    "all": [
+      "introduction/new_combat_system"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:cauldron",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:clock",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:compass",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:hopper",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dropper",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:furnace",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "alexsmobs:kangaroo_burger",
+      "count": 2,
+      "type": "item"
+    },
+    {
+      "item": "thermal:gold_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Igneous Extruder",
+  "description": [
+    "1 Netherite Coin"
+  ],
+  "icon": "thermal:device_rock_gen",
+  "x": 15,
+  "y": 5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:netherite_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:device_rock_gen",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

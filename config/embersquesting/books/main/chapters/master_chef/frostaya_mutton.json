@@ -1,0 +1,29 @@
+{
+  "title": "Frostaya Mutton",
+  "icon": "arsdelight:frostaya_mutton",
+  "x": 15.6,
+  "y": 5.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "arsdelight:frostaya_mutton",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

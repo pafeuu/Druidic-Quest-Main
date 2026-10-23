@@ -1,0 +1,34 @@
+{
+  "title": "Rannuncarpus",
+  "icon": "botania:rannuncarpus",
+  "x": 4,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "automation/block_placer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:rannuncarpus",
+      "type": "item"
+    },
+    {
+      "item": "botania:rannuncarpus_chibi",
+      "type": "item"
+    },
+    {
+      "item": "botania:floating_rannuncarpus",
+      "type": "item"
+    },
+    {
+      "item": "botania:floating_rannuncarpus_chibi",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

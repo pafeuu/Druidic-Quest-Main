@@ -1,0 +1,28 @@
+{
+  "title": "Rainbow Trout",
+  "icon": "tide:rainbow_trout{FishLength:62.5d}",
+  "x": 10.524999999999999,
+  "y": 5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:rainbow_trout",
+      "components": "{FishLength:62.5d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Looting Tips",
+  "description": [
+    "The eyes have it!",
+    "Adventure and looting are critical components of §2Druidic Quest!§r",
+    "",
+    "Loot tables have been completely reworked, so don't throw away much! Everything you find is valuable in its own way."
+  ],
+  "icon": "thermal:ruby",
+  "x": 9,
+  "y": 5.25,
+  "deps": {
+    "all": [
+      "welcome/tips_chapter"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "Looting Tips"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "circle"
+}

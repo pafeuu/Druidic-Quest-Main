@@ -1,0 +1,32 @@
+{
+  "title": "Trumpet Sapling Choice",
+  "description": [
+    "8 Gold Coins"
+  ],
+  "icon": "quark:red_blossom_sapling",
+  "x": 9,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 8,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "trumpet_saplings",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

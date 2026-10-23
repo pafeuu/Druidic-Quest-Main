@@ -1,0 +1,43 @@
+{
+  "title": "Agglomeration Plate",
+  "description": [
+    "",
+    "",
+    "§4§lEverything after this point is extremely unfinished and will most likely be completely changed!§r§r"
+  ],
+  "icon": "botania:terra_plate",
+  "x": 10,
+  "deps": {
+    "all": [
+      "tier_3/deployer",
+      "tier_3/mechanical_mixer",
+      "tier_3/infernal_smelter_upgrade"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:terra_plate",
+      "type": "item"
+    },
+    {
+      "item": "druidic_quest_core:arcane_bricks",
+      "count": 21,
+      "type": "item"
+    },
+    {
+      "item": "druidic_quest_core:alloy_bricks",
+      "count": 16,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "waystones2",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "rsquare"
+}

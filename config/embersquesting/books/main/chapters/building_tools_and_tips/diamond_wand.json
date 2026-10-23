@@ -1,0 +1,31 @@
+{
+  "title": "Diamond Wand",
+  "description": [
+    "This ought to do the trick!"
+  ],
+  "icon": "constructionwand:diamond_wand{wand_options:{}}",
+  "x": 14.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "building_tools_and_tips/iron_wand"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "constructionwand:diamond_wand",
+      "components": "{wand_options:{}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "randomwood",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

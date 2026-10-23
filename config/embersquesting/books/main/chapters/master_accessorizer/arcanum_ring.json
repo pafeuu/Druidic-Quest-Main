@@ -1,0 +1,26 @@
+{
+  "title": "Arcanum Ring",
+  "icon": "wizards_reborn:arcanum_ring",
+  "x": 13.4,
+  "y": 5.000000000000001,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:arcanum_ring",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

@@ -1,0 +1,65 @@
+{
+  "title": "Skyjade Tools",
+  "description": [
+    "Going Green",
+    "§2Skyjade tools§r have the same range as iron and double the durability. They lose effectiveness as durability decreases.",
+    "",
+    "Both the §2Skyjade sword and axe§r deal extra §eholy damage§r making them excellent weapons against the undead.",
+    "",
+    "The §2Skyjade sword§r deals massive amounts of damage at the cost of attack speed. It also loses attack damage as the durability goes down."
+  ],
+  "icon": "deep_aether:skyjade_pickaxe{Damage:0}",
+  "x": 12.5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "tier_2/skyjade"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "deep_aether:skyjade_pickaxe",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "deep_aether:skyjade_shovel",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "deep_aether:skyjade_axe",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "deep_aether:skyjade_hoe",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "deep_aether:skyjade_sword",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "deep_aether:skyjade",
+      "count": 9,
+      "type": "item"
+    },
+    {
+      "item": "thermal:gold_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

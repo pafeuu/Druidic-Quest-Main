@@ -1,0 +1,26 @@
+{
+  "title": "Golem Heart",
+  "icon": "enigmaticlegacy:golem_heart",
+  "x": 23,
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "tier_2/elemental_core"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:golem_heart",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Auto Crafter",
+  "icon": "naturesaura:auto_crafter",
+  "x": 7.5,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "automation/auto_crafting"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:auto_crafter",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Inscription Table",
+  "description": [
+    "Spelling the Books",
+    "§9Iron's Spells and Spellbooks§r gives you access to highly-specialized combat magic! Amp up your spell power and take on mobs and bosses with spells fine-tuned to hit them at their weakest!",
+    "",
+    "Begin your spellcasting journey with the inscription table by placing your §9spell book§r in the book slot, §nor§r by interacting with the inscription table with your §9spell book§r in the spell book §9curio slot§r to begin filling it with spells.",
+    "",
+    "Place a §9scroll§r in the slot below the spell book, click on the §9spell slot§r you wish to use, then click the §9quill and ink button§r to assign the spell to that slot.",
+    "",
+    "Retrieve the scroll from the table to remove it from the book."
+  ],
+  "icon": "irons_spellbooks:inscription_table",
+  "x": 3,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "tier_1/copper_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:inscription_table",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "octagon"
+}

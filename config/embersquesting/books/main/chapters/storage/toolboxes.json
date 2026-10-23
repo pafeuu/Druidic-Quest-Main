@@ -1,0 +1,26 @@
+{
+  "title": "Toolboxes!",
+  "x": 6.5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "storage/sack"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "create:toolboxes",
+      "type": "item",
+      "title": "Any #create:toolboxes"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

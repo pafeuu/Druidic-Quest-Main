@@ -1,0 +1,25 @@
+{
+  "title": "Shriving Stone",
+  "description": [
+    "Oops...",
+    "Easily remove imbued spells from your weapons by combining them with a §9shriving stone§r in the arcane anvil. This will §nnot§r return the scroll.",
+    "",
+    "You can also use the shriving stone to remove §9upgrade orbs§r from your equipment, returning the orbs to you."
+  ],
+  "icon": "irons_spellbooks:shriving_stone",
+  "x": 3,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "spellcasting/arcane_anvil"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:shriving_stone",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

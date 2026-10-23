@@ -1,0 +1,29 @@
+{
+  "title": "Sizzling Pudding",
+  "icon": "mynethersdelight:sizzling_pudding",
+  "x": 18.2,
+  "y": 1.2000000000000002,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mynethersdelight:sizzling_pudding",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Copper Spell Book",
+  "description": [
+    "Spellcasting 101",
+    "With the help of an Inscription Table, the Flimsy Journal will open up the world of offensive and defensive magic!"
+  ],
+  "icon": "irons_spellbooks:copper_spell_book{ISB_Spells:{data:[],maxSpells:5,mustEquip:1b,spellWheel:1b}}",
+  "x": 11,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "tier_1/plates"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:copper_spell_book",
+      "components": "{ISB_Spells:{data:[],maxSpells:5,mustEquip:1b,spellWheel:1b}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

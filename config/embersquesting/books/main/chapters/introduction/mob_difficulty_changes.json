@@ -1,0 +1,46 @@
+{
+  "title": "Mob Difficulty Changes",
+  "description": [
+    "Is it just me...?",
+    "Be sure to keep upgrading your equipment if you want to survive this cruel world! The difficulty will increase each time you obtain the appropriate materials.",
+    {
+      "width": 96,
+      "height": 96,
+      "texture": "entity:textures/minecraft:zombie[rotate=true].png",
+      "type": "image"
+    }
+  ],
+  "icon": "minecraft:skeleton_skull",
+  "x": 3.5,
+  "y": 9,
+  "deps": {
+    "all": [
+      "introduction/new_combat_system"
+    ]
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:zombie",
+      "count": 5,
+      "type": "kill"
+    },
+    {
+      "entity": "minecraft:skeleton",
+      "count": 5,
+      "type": "kill"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "druidic_quest_core:primitive_shield",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

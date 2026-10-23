@@ -1,0 +1,22 @@
+{
+  "title": "tall_flower",
+  "icon": "minecraft:chest",
+  "options": [
+    {
+      "item": "minecraft:peony",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:rose_bush",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:lilac",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:sunflower",
+      "type": "item"
+    }
+  ]
+}

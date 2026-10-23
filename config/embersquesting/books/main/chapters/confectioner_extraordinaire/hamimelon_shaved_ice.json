@@ -1,0 +1,29 @@
+{
+  "title": "Hamimelon Shaved Ice",
+  "icon": "fruitsdelight:hamimelon_shaved_ice",
+  "x": 2.5999999999999996,
+  "y": 4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:hamimelon_shaved_ice",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

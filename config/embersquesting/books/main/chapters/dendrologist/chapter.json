@@ -1,0 +1,10 @@
+{
+  "title": "Dendrologist",
+  "icon": "kubejs:shapeshifting_root",
+  "order": 30,
+  "scope": "team",
+  "group": "ultimate_collector",
+  "defaults": {
+    "progression": "linear"
+  }
+}

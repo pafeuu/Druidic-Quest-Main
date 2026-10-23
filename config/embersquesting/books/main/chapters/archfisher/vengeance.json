@@ -1,0 +1,28 @@
+{
+  "title": "Vengeance",
+  "icon": "tide:vengeance{FishLength:65.0d}",
+  "x": 8.825,
+  "y": 5.85,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:vengeance",
+      "components": "{FishLength:65.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle"
+}

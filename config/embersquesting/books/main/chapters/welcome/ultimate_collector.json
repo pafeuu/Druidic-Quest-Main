@@ -1,0 +1,29 @@
+{
+  "title": "Ultimate Collector",
+  "description": [
+    "Many chapters have nothing to do with progression.",
+    "",
+    "The §l§2Ultimate Collector§r tab will show you all the collectibles in the pack!"
+  ],
+  "icon": "supplementaries:statue",
+  "x": 7.5,
+  "y": 3,
+  "deps": {
+    "all": [
+      "welcome/welcome"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "shape": "gear"
+}

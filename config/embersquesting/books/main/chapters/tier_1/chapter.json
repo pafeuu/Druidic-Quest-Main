@@ -1,0 +1,10 @@
+{
+  "title": "Tier 1 - Basic Magic",
+  "icon": "ars_nouveau:source_gem",
+  "order": 7,
+  "scope": "team",
+  "group": "main_questline",
+  "defaults": {
+    "progression": "linear"
+  }
+}

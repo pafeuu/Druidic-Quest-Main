@@ -1,0 +1,31 @@
+{
+  "title": "16 Cocoa Beans",
+  "description": [
+    "1 Gold Coin"
+  ],
+  "icon": "minecraft:cocoa_beans",
+  "x": 10.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:cocoa_beans",
+      "count": 16,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

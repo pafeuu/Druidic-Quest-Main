@@ -1,0 +1,29 @@
+{
+  "title": "Kiwi Popsicle",
+  "icon": "fruitsdelight:kiwi_popsicle",
+  "x": 1.7999999999999972,
+  "y": 4.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "fruitsdelight:kiwi_popsicle",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

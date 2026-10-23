@@ -1,0 +1,32 @@
+{
+  "title": "Deployer",
+  "icon": "create:deployer",
+  "x": 10,
+  "y": 3,
+  "deps": {
+    "all": [
+      "tier_3/andesite_machine",
+      "tier_3/stress_unit_generator"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:deployer",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "create:brass_hand",
+      "count": 2,
+      "type": "item"
+    },
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

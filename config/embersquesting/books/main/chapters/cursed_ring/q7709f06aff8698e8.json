@@ -1,0 +1,20 @@
+{
+  "title": "",
+  "description": [
+    "§4Nothing here yet§r"
+  ],
+  "icon": "enigmaticlegacy:cursed_ring",
+  "y": 0.5,
+  "tasks": [
+    {
+      "stat": "enigmaticlegacy:play_time_with_seven_curses",
+      "min": 1,
+      "type": "stat",
+      "icon": "enigmaticlegacy:cursed_ring"
+    }
+  ],
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

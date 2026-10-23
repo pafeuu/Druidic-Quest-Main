@@ -1,0 +1,29 @@
+{
+  "title": "Stuffed Burrito",
+  "icon": "vintagedelight:stuffed_burrito",
+  "x": 9.600000000000003,
+  "y": 8.8,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "vintagedelight:stuffed_burrito",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

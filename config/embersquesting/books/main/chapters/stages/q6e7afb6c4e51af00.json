@@ -1,0 +1,31 @@
+{
+  "title": "",
+  "x": 2.5,
+  "y": 0.5,
+  "tasks": [
+    {
+      "advancement": "restrictedportals:nether",
+      "type": "advancement"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/tellraw @p [\"\",{\"text\":\"You hear horrible screams coming from the underground...\",\"italic\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]",
+      "silent": false,
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "command": "/tellraw @p [\"\",{\"text\":\"Difficulty has been raised!\",\"bold\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]",
+      "silent": false,
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "command": "/sh_difficulty add @p 30",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "shape": "circle"
+}

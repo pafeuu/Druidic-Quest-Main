@@ -1,0 +1,32 @@
+{
+  "title": "Two-Tall Flower Choice",
+  "description": [
+    "4 Gold Coins"
+  ],
+  "icon": "minecraft:sunflower",
+  "x": 12,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 4,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "tall_flower",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

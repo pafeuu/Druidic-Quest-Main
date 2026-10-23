@@ -1,0 +1,26 @@
+{
+  "title": "Tiger Totem",
+  "icon": "kubejs:tiger_totem",
+  "x": 1.4000000000000004,
+  "y": 4.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:tiger_totem",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

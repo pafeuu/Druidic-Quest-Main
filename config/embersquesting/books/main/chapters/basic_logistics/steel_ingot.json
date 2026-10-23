@@ -1,0 +1,26 @@
+{
+  "title": "Steel Ingot",
+  "icon": "druidic_quest_core:steel_ingot",
+  "x": 0.5,
+  "deps": {
+    "all": [
+      "tier_3/agglomeration_plate"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "druidic_quest_core:steel_ingot",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "druidic_quest_core:steel_ingot",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "rsquare"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Brown Shulker Box",
+  "description": [
+    "Moving Day!",
+    "Shulker Boxes now cheaper than ever",
+    "",
+    "Sack to shulker box recipe keeps its inventory!"
+  ],
+  "icon": "minecraft:brown_shulker_box",
+  "x": 8.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "tier_1/basic_automation_material"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:brown_shulker_box",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "gear"
+}

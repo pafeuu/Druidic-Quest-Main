@@ -1,0 +1,31 @@
+{
+  "title": "Cherry Sapling",
+  "description": [
+    "4 Silver Coins"
+  ],
+  "icon": "minecraft:cherry_sapling",
+  "x": 3.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 4,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:cherry_sapling",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

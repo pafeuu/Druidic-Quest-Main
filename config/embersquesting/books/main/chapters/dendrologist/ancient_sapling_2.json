@@ -1,0 +1,32 @@
+{
+  "title": "Ancient Sapling",
+  "icon": "naturesaura:ancient_sapling",
+  "x": 5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:ancient_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:coarse_dirt",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:shapeshifting_root",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

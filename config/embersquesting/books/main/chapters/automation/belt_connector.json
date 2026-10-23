@@ -1,0 +1,38 @@
+{
+  "title": "Belt Connector",
+  "icon": "create:belt_connector",
+  "x": 3.5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "automation/item_entity_transportation"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:belt_connector",
+      "type": "item"
+    },
+    {
+      "item": "create:andesite_funnel",
+      "type": "item"
+    },
+    {
+      "item": "create:brass_funnel",
+      "type": "item"
+    },
+    {
+      "item": "create:chute",
+      "type": "item"
+    },
+    {
+      "item": "create:smart_chute",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

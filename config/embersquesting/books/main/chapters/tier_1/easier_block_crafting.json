@@ -1,0 +1,29 @@
+{
+  "title": "Easier Block Crafting",
+  "description": [
+    "Almost there..."
+  ],
+  "icon": "thermal:saw_blade",
+  "x": 12,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "tier_1/plates"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:saw_blade",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

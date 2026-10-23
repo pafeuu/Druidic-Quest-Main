@@ -1,0 +1,37 @@
+{
+  "title": "New Fishing!",
+  "description": [
+    "Just kickin' back.",
+    "Fishing is quite a bit different in this pack, thanks to the §l§3Tide§r§r mod!",
+    "",
+    "§8§oMore info soon to be added§r§r"
+  ],
+  "icon": "minecraft:fishing_rod{Damage:0,modifier:{bobber:14,hook:0,line:0}}",
+  "x": 5.5,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "introduction/new_combat_system"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "minecraft:fishing_rod",
+      "components": "{Damage:0,modifier:{bobber:14,hook:0,line:0}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "tide:angling_table",
+      "type": "item"
+    },
+    {
+      "item": "tide:fish_satchel",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

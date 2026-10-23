@@ -1,0 +1,26 @@
+{
+  "title": "Warrior Pendant",
+  "icon": "ancient_aether:warrior_pendant",
+  "x": 23,
+  "y": 5.3999999999999995,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ancient_aether:warrior_pendant",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

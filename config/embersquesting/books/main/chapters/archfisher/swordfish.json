@@ -1,0 +1,31 @@
+{
+  "title": "Swordfish",
+  "icon": "tide:swordfish{Damage:0,FishLength:235.0d}",
+  "x": 7.125,
+  "y": 2.45,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:swordfish",
+      "components": "{Damage:0,FishLength:235.0d}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.85,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

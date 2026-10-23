@@ -1,0 +1,30 @@
+{
+  "title": "Arcane Gold Ingot",
+  "description": [
+    "Bright Gold",
+    "§6Arcane Gold§r is a powerful magical resource. Building up a good supply will benefit you greatly."
+  ],
+  "icon": "wizards_reborn:arcane_gold_ingot",
+  "y": 11,
+  "deps": {
+    "all": [
+      "tier_2/kiln_alloy_smelter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:arcane_gold_ingot",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "wizards_reborn:arcane_gold_ingot",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "rsquare"
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Golden Flower",
+  "description": [
+    "All that glitters...",
+    "Drop §82 string§r, §a2 wheat seeds§r and §e4 golden flowers§r  on the ground then explode it with tnt or a creeper to craft §6Brilliant Fiber§r.",
+    "",
+    "Right click the §6Brilliant Fiber§r on some leaves and wait for it to spread. Once the leaves change, they will drop §egolden leaves§r, needed for further progression.",
+    "",
+    "Golden leaves are ready to harvest when you see sparkles coming out of them."
+  ],
+  "icon": "naturesaura:gold_fiber",
+  "x": 11.5,
+  "y": 10,
+  "deps": {
+    "any": [
+      "introduction/explosive_mobs"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "forge:flowers/golden",
+      "type": "item",
+      "title": "Golden Flower"
+    },
+    {
+      "item": "naturesaura:gold_leaf",
+      "count": 12,
+      "type": "item"
+    },
+    {
+      "item": "naturesaura:gold_fiber",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "patchouli:guide_book",
+      "components": "{\"patchouli:book\":\"naturesaura:book\"}",
+      "type": "item"
+    },
+    {
+      "item": "naturesaura:gold_leaf",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "complete": {
+    "min": 2
+  },
+  "progression": "flexible",
+  "shape": "rsquare"
+}

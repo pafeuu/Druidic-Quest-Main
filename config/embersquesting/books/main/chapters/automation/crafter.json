@@ -1,0 +1,22 @@
+{
+  "title": "Crafter",
+  "icon": "quark:crafter",
+  "x": 9.5,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "automation/auto_crafting"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "quark:crafter",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

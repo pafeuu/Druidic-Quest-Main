@@ -1,0 +1,26 @@
+{
+  "title": "Arcane Fortress Belt",
+  "icon": "wizards_reborn:arcane_fortress_belt",
+  "x": 12.6,
+  "y": 7.4,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:arcane_fortress_belt",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

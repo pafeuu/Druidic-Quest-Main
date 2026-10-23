@@ -1,0 +1,31 @@
+{
+  "title": "Infused Emerald",
+  "description": [
+    "Now to find a villager...",
+    ""
+  ],
+  "icon": "kubejs:infused_emerald",
+  "x": 4,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "alchemy/alchemical_begining",
+      "alchemy/sacrificial_dagger"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:infused_emerald",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Shears",
+  "description": [
+    "Snip, Snip!"
+  ],
+  "icon": "minecraft:shears{Damage:0}",
+  "x": 13,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "tier_1/plates"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "minecraft:shears",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

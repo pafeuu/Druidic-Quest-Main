@@ -1,0 +1,30 @@
+{
+  "title": "Vanilla Way",
+  "icon": "minecraft:magma_block",
+  "x": 15,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "automation/mob_damaging"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:lava_bucket",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:magma_block",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:cactus",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

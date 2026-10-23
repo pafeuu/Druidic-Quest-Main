@@ -1,0 +1,50 @@
+{
+  "title": "Magnet Upgrade",
+  "icon": "sophisticatedbackpacks:magnet_upgrade",
+  "x": 11.5,
+  "y": 14.5,
+  "deps": {
+    "all": [
+      "automation/item_collectors"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedbackpacks:magnet_upgrade",
+      "type": "item"
+    },
+    {
+      "item": "sophisticatedbackpacks:advanced_magnet_upgrade",
+      "type": "item"
+    },
+    {
+      "item": "sophisticatedstorage:magnet_upgrade",
+      "type": "item"
+    },
+    {
+      "item": "sophisticatedstorage:advanced_magnet_upgrade",
+      "type": "item"
+    },
+    {
+      "item": "sophisticatedbackpacks:pickup_upgrade",
+      "type": "item"
+    },
+    {
+      "item": "sophisticatedbackpacks:advanced_pickup_upgrade",
+      "type": "item"
+    },
+    {
+      "item": "sophisticatedstorage:pickup_upgrade",
+      "type": "item"
+    },
+    {
+      "item": "sophisticatedstorage:advanced_pickup_upgrade",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

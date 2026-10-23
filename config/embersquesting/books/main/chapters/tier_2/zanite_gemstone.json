@@ -1,0 +1,29 @@
+{
+  "title": "Zanite Gemstone",
+  "description": [
+    "Infusing diamonds with Aura unlocks new tools and armor!"
+  ],
+  "icon": "aether:zanite_gemstone",
+  "x": 10.5,
+  "y": 9,
+  "deps": {
+    "all": [
+      "tier_2/infusion_catalyst"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "aether:zanite_gemstone",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "aether:zanite_gemstone",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Prismarine Fishing Rod",
+  "icon": "tide:prismarine_fishing_rod{Damage:0}",
+  "x": 4,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "tide:prismarine_fishing_rod",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

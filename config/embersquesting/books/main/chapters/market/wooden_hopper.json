@@ -1,0 +1,31 @@
+{
+  "title": "Wooden Hopper",
+  "description": [
+    "5 Silver Coins"
+  ],
+  "icon": "woodenhopper:wooden_hopper",
+  "x": 0.5,
+  "y": 8,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 5,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "woodenhopper:wooden_hopper",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

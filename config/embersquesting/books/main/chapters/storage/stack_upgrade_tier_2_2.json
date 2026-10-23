@@ -1,0 +1,26 @@
+{
+  "title": "Stack Upgrade Tier 2",
+  "icon": "sophisticatedbackpacks:stack_upgrade_tier_2",
+  "x": 5.5,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "storage/stack_upgrade_tier_1_2"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedbackpacks:stack_upgrade_tier_2",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

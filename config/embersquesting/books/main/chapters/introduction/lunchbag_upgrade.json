@@ -1,0 +1,34 @@
+{
+  "title": "Lunchbag upgrade",
+  "description": [
+    "§4§lMake sure you only have an empty lunchbag in your inventory before you submit it!§r§r"
+  ],
+  "icon": "solonion:lunchbox",
+  "x": 16,
+  "deps": {
+    "all": [
+      "introduction/potato_farming"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "solonion:lunchbag",
+      "mode": "consume",
+      "type": "item"
+    },
+    {
+      "item": "thermal:silver_coin",
+      "count": 6,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "solonion:lunchbox",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "pentagon"
+}

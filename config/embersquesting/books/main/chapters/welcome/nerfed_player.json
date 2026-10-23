@@ -1,0 +1,44 @@
+{
+  "title": "Nerfed Player",
+  "description": [
+    "As you may or may not have realized, many player attributes have been nerfed, including:",
+    "",
+    "-Movement Speed",
+    "-Mining Speed",
+    "-Block Reach",
+    "-Max Health",
+    "",
+    "Choose a custom totem to negate one of those nerfs.",
+    "",
+    "§6Roadrunner Totem§r for movement speed.",
+    "",
+    "§4Crab Totem§r for block reach.",
+    "",
+    "§aLeafcutter Ant Totem§r for axe speed.",
+    "",
+    "§9Anaconda Totem§r for slower hunger depletion",
+    "",
+    "Totems are new items custom-made for the pack. They give special effects when held in the offhand. Search §d\"@druidic\"§r in EMI to check out more custom stuff!"
+  ],
+  "icon": "deep_aether:stratus_sword{Damage:0}",
+  "x": 5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "welcome/welcome"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "basic_totems",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "shape": "hexagon"
+}

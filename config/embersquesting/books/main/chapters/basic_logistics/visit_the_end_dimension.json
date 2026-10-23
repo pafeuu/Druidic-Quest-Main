@@ -1,0 +1,19 @@
+{
+  "title": "Visit the end dimension",
+  "icon": "minecraft:end_portal_frame",
+  "x": 3,
+  "deps": {
+    "all": [
+      "basic_logistics/steel_ingot"
+    ]
+  },
+  "tasks": [
+    {
+      "dimension": "minecraft:the_end",
+      "type": "location",
+      "icon": "minecraft:end_portal_frame"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

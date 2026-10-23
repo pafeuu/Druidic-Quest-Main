@@ -1,0 +1,31 @@
+{
+  "title": "Jungle Sapling",
+  "description": [
+    "4 Silver Coins"
+  ],
+  "icon": "minecraft:jungle_sapling",
+  "x": 5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 4,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:jungle_sapling",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

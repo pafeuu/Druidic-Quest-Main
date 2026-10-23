@@ -1,0 +1,30 @@
+{
+  "title": "Spruce Sapling",
+  "description": [
+    "1 Silver Coin"
+  ],
+  "icon": "minecraft:spruce_sapling",
+  "x": 3.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "market/market"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:spruce_sapling",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

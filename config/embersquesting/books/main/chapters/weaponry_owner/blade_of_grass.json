@@ -1,0 +1,32 @@
+{
+  "title": "Blade Of Grass",
+  "icon": "kubejs:blade_of_grass{Damage:0,ISB_Spells:{data:[{id:\"irons_spellbooks:poison_splash\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
+  "x": 6.75,
+  "y": 7.799999999999999,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "kubejs:blade_of_grass",
+      "components": "{Damage:0,ISB_Spells:{data:[{id:\"irons_spellbooks:poison_splash\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Tainted Gold",
+  "description": [
+    "Dark Gold",
+    "Regular gold is good for some things, but to progress with magical crafting, we must use magical ingredients.",
+    "",
+    "Aura-infused §6tainted gold§r will greatly assist you in your journey."
+  ],
+  "icon": "naturesaura:tainted_gold",
+  "x": 16.5,
+  "y": 11,
+  "deps": {
+    "all": [
+      "tier_2/infusion_catalyst"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:tainted_gold",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

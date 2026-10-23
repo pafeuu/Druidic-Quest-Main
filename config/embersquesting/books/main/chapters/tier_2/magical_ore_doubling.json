@@ -1,0 +1,39 @@
+{
+  "title": "Magical Ore Doubling",
+  "description": [
+    "Doesn't need Soul Core like EMI might suggest"
+  ],
+  "icon": "mbd2:infernal_smelter",
+  "x": 16.5,
+  "y": 15,
+  "deps": {
+    "all": [
+      "tier_2/magic_machine"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mbd2:infernal_smelter",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:infernal_bricks",
+      "count": 26,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "kubejs:fire_element_fluid_bucket",
+      "count": 4,
+      "type": "item"
+    },
+    {
+      "item": "thermal:gold_coin",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Concentration Amulet",
+  "icon": "irons_spellbooks:concentration_amulet",
+  "x": 11.4,
+  "y": 6.6,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:concentration_amulet",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

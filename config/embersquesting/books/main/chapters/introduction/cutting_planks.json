@@ -1,0 +1,31 @@
+{
+  "title": "Cutting Planks",
+  "description": [
+    "Everything seems different here...",
+    "To get planks, right click with an axe in one hand and stripped logs in the other."
+  ],
+  "icon": "minecraft:spruce_planks",
+  "x": 3,
+  "y": 7,
+  "deps": {
+    "all": [
+      "introduction/before_you_punch_a_tree"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "minecraft:planks",
+      "type": "item",
+      "title": "Any #minecraft:planks"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:stick",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

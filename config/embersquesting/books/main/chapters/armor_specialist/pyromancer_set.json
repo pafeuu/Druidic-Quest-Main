@@ -1,0 +1,49 @@
+{
+  "title": "Pyromancer Set",
+  "icon": "irons_spellbooks:pyromancer_chestplate{Damage:0,ISB_Spells:{data:[],maxSpells:1,mustEquip:1b,spellWheel:1b}}",
+  "x": 17.5,
+  "y": 9,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:pyromancer_helmet",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:pyromancer_chestplate",
+      "components": "{Damage:0,ISB_Spells:{data:[],maxSpells:1,mustEquip:1b,spellWheel:1b}}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:pyromancer_leggings",
+      "components": "{Damage:0}",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:pyromancer_boots",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Above The Rain",
+  "icon": "deep_aether:music_disc_above_the_rain",
+  "x": 10,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "deep_aether:music_disc_above_the_rain",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

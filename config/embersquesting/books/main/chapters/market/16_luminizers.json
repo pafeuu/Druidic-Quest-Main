@@ -1,0 +1,33 @@
+{
+  "title": "16 Luminizers",
+  "description": [
+    "2 Gold Coins"
+  ],
+  "icon": "botania:light_relay",
+  "x": 10.5,
+  "y": 8,
+  "deps": {
+    "all": [
+      "market/market",
+      "introduction/the_big_oven"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 2,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "botania:light_relay",
+      "count": 16,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "diamond"
+}

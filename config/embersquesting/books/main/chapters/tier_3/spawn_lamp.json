@@ -1,0 +1,29 @@
+{
+  "title": "Spawn Lamp",
+  "description": [
+    "Mobs Be Gone!"
+  ],
+  "icon": "naturesaura:spawn_lamp",
+  "x": 6,
+  "y": 15,
+  "deps": {
+    "all": [
+      "tier_3/light_essence"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "naturesaura:spawn_lamp",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

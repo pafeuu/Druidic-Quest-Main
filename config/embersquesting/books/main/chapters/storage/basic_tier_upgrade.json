@@ -1,0 +1,19 @@
+{
+  "title": "Basic Tier Upgrade",
+  "icon": "sophisticatedstorage:basic_tier_upgrade",
+  "x": 1,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "storage/the_most_basic_form_of_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "sophisticatedstorage:basic_tier_upgrade",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

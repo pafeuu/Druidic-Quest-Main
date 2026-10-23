@@ -1,0 +1,28 @@
+{
+  "title": "Wind Shield",
+  "icon": "deep_aether:wind_shield{Damage:0}",
+  "x": 23.8,
+  "y": 6.599999999999998,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "deep_aether:wind_shield",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

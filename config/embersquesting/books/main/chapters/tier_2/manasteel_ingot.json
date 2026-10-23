@@ -1,0 +1,32 @@
+{
+  "title": "Manasteel Ingot",
+  "description": [
+    "Magic Metal",
+    "Your first ingots of §5Source Alloy§r must be made with the inefficient tree ritual recipe.",
+    "",
+    "At the end of the chapter, you will unlock a much better method."
+  ],
+  "icon": "botania:manasteel_ingot",
+  "y": 7,
+  "deps": {
+    "all": [
+      "tier_1/imbuement_chamber"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "botania:manasteel_ingot",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 8,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "rsquare"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Tier 0 - Wooden Age",
+  "icon": "minecraft:flint",
+  "order": 6,
+  "scope": "team",
+  "group": "main_questline",
+  "defaults": {
+    "progression": "linear"
+  }
+}

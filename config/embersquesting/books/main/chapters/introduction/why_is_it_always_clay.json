@@ -1,0 +1,41 @@
+{
+  "title": "Why Is It Always Clay?",
+  "description": [
+    "You might want to harvest a bunch of clay and sand for the future."
+  ],
+  "icon": "minecraft:clay_ball",
+  "x": 19,
+  "y": 8,
+  "deps": {
+    "all": [
+      "introduction/time_to_gather_useful_materials"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "minecraft:sand",
+      "count": 36,
+      "type": "item",
+      "title": "Any sand",
+      "icon": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:clay",
+      "count": 18,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:gravel",
+      "count": 18,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

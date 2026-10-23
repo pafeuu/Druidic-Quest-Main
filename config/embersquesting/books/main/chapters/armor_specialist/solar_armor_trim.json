@@ -1,0 +1,25 @@
+{
+  "title": "Solar Armor Trim",
+  "icon": "ancient_aether:solar_armor_trim_smithing_template",
+  "x": 14,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ancient_aether:solar_armor_trim_smithing_template",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

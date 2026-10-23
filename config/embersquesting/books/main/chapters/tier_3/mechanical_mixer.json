@@ -1,0 +1,31 @@
+{
+  "title": "Mechanical Mixer",
+  "icon": "create:mechanical_mixer",
+  "x": 8.5,
+  "y": 3,
+  "deps": {
+    "all": [
+      "tier_3/andesite_machine",
+      "tier_3/stress_unit_generator"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:mechanical_mixer",
+      "type": "item"
+    },
+    {
+      "item": "create:blaze_burner",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

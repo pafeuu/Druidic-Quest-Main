@@ -1,0 +1,42 @@
+{
+  "title": "Horse for Sale!",
+  "description": [
+    "Pro Tip: Don't look a gift horse in the mouth.",
+    "Make a one-time purchase and receive your very own sturdy steed!"
+  ],
+  "icon": "minecraft:leather_horse_armor",
+  "x": 8.5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "introduction/primitive_saw"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 2,
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "icon": "minecraft:leather_horse_armor",
+      "command": "/summon minecraft:horse ~ ~ ~ {Variant:13}",
+      "silent": false,
+      "type": "command"
+    },
+    {
+      "item": "minecraft:saddle",
+      "type": "item"
+    },
+    {
+      "item": "naturesaura:pet_reviver",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "shape": "pentagon"
+}

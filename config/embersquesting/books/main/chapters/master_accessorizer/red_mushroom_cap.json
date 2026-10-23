@@ -1,0 +1,26 @@
+{
+  "title": "Red Mushroom Cap",
+  "icon": "wizards_reborn:red_mushroom_cap",
+  "x": 12.6,
+  "y": 1.8000000000000007,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:red_mushroom_cap",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Angel Blessing",
+  "icon": "enigmaticlegacy:angel_blessing",
+  "x": 17.4,
+  "y": 3.4000000000000004,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:angel_blessing",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

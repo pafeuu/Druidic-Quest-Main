@@ -1,0 +1,28 @@
+{
+  "title": "Arcane Wood Bow",
+  "icon": "wizards_reborn:arcane_wood_bow{Damage:0,arcaneEnchantments:{}}",
+  "x": 16,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "wizards_reborn:arcane_wood_bow",
+      "components": "{Damage:0,arcaneEnchantments:{}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle"
+}

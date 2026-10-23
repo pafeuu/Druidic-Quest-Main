@@ -1,0 +1,29 @@
+{
+  "title": "Music Disc Aria Biblio",
+  "icon": "ars_nouveau:music_disc_aria_biblio",
+  "x": 11.5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:music_disc_aria_biblio",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

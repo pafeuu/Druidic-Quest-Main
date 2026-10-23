@@ -1,0 +1,32 @@
+{
+  "title": "Abyssal Shroud Scroll",
+  "icon": "irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:abyssal_shroud\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+  "x": 4.2,
+  "y": 12.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "irons_spellbooks:scroll",
+      "components": "{\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:abyssal_shroud\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+      "type": "item",
+      "title": "Abyssal Shroud Scroll"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Wissen Ring",
+  "icon": "wizards_reborn:wissen_ring",
+  "x": 13.4,
+  "y": 4.2,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "wizards_reborn:wissen_ring",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle"
+}

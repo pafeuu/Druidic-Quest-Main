@@ -1,0 +1,32 @@
+{
+  "title": "Diamond Minotaur Axe",
+  "icon": "twilightforest:diamond_minotaur_axe{Damage:0}",
+  "x": 3.1500000000000004,
+  "y": 7.799999999999999,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "twilightforest:diamond_minotaur_axe",
+      "components": "{Damage:0}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 6,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.9,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}

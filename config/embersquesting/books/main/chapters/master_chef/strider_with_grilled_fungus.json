@@ -1,0 +1,30 @@
+{
+  "title": "Strider With Grilled Fungus",
+  "icon": "mynethersdelight:strider_with_grilled_fungus",
+  "x": 15.599999999999998,
+  "y": 6.799999999999999,
+  "deps": {
+    "all": [
+      "welcome/ultimate_collector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mynethersdelight:strider_with_grilled_fungus",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.8,
+  "shape": "circle",
+  "notify": {
+    "complete": "none"
+  }
+}
