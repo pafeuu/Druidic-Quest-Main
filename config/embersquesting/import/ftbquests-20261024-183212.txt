@@ -1,6 +1,5 @@
 welcome (3E5E80A2E082BA7C): imported from chapters/welcome.snbt
 stages (73F4F1CAA5EAD765): imported from chapters/stages.snbt
-stages (73F4F1CAA5EAD765): always_invisible dropped, the chapter is visible
 gambling (75AF8F3C27884D46): imported from chapters/gambling.snbt
 market (37D0225A9D849EF0): imported from chapters/market.snbt
 gameplay_tools_and_tips (17B276004C58B80C): imported from chapters/gameplay_tools_and_tips.snbt
@@ -128,14 +127,9 @@ stages/q3392ff4322966700 (3392FF4322966700): command placeholder {"text":"Outer 
 stages/q3392ff4322966700 (3392FF4322966700): command placeholder {"text":" "} kept as is
 stages/q3392ff4322966700 (3392FF4322966700): command placeholder {"text":"Difficulty has been raised!","bold":true,"color":"#DA2D2F"} kept as is
 stages/q3392ff4322966700 (3392FF4322966700): command placeholder {"text":" "} kept as is
-stages/q79db16325e1a7723 (79DB16325E1A7723): imported
-stages/q79db16325e1a7723 (79DB16325E1A7723): command placeholder {"text":"Otherside grows tired of being kept in the darkness","italic":true,"color":"#DA2D2F"} kept as is
-stages/q79db16325e1a7723 (79DB16325E1A7723): command placeholder {"text":" "} kept as is
-stages/q79db16325e1a7723 (79DB16325E1A7723): command placeholder {"text":"Difficulty has been raised!","bold":true,"color":"#DA2D2F"} kept as is
-stages/q79db16325e1a7723 (79DB16325E1A7723): command placeholder {"text":" "} kept as is
 stages/q7f12b835bb2ba131 (7F12B835BB2BA131): imported
 stages/q7f12b835bb2ba131 (7F12B835BB2BA131): command placeholder {"text":"[Watcher]","color":"dark_green"} kept as is
-stages/q7f12b835bb2ba131 (7F12B835BB2BA131): command placeholder {"text":" You wake up tired and malnourished. You feel like you are slower and weaker than usuall, suprisingly you even feel like you cant reach as far as before.","color":"green"} kept as is
+stages/q7f12b835bb2ba131 (7F12B835BB2BA131): command placeholder {"text":" You wake up tired and malnourished. You feel like you are slower and weaker than usual, suprisingly you even feel like you cant reach as far as before.","color":"green"} kept as is
 stages/q7f12b835bb2ba131 (7F12B835BB2BA131): command placeholder {"text":"\n\n"} kept as is
 stages/q7f12b835bb2ba131 (7F12B835BB2BA131): command placeholder {"text":"[Watcher] ","color":"dark_green"} kept as is
 stages/q7f12b835bb2ba131 (7F12B835BB2BA131): command placeholder {"text":"Check your keybinds to open the Questbook","color":"green"} kept as is
@@ -228,494 +222,494 @@ introduction/before_you_punch_a_tree (4E4E7EFB7FFC688B): imported
 introduction/before_you_punch_a_tree (4E4E7EFB7FFC688B): dropped fields: optional_task (3 tasks)
 introduction/crafting_table (69B93BA4460E5F95): imported
 introduction/crafting_table (69B93BA4460E5F95): no title, named after its first task item
-introduction/crafting_table (69B93BA4460E5F95): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/crafting_table (69B93BA4460E5F95): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/different_tools (2BB4A388858E481A): imported
-introduction/different_tools (2BB4A388858E481A): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/different_tools (2BB4A388858E481A): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/new_combat_system (118A5A467C0FEA36): imported
-introduction/new_combat_system (118A5A467C0FEA36): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/new_combat_system (118A5A467C0FEA36): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/exploration (729D1CD4DE8B6BBE): imported
-introduction/exploration (729D1CD4DE8B6BBE): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/exploration (729D1CD4DE8B6BBE): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/new_fishing (7E2375F791287F5E): imported
-introduction/new_fishing (7E2375F791287F5E): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/new_fishing (7E2375F791287F5E): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/armour_sets (7FA124A98B532194): imported
-introduction/armour_sets (7FA124A98B532194): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/armour_sets (7FA124A98B532194): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/before_furnaces_humanity_used_campfires (070D257FF3DE0DBF): imported
-introduction/before_furnaces_humanity_used_campfires (070D257FF3DE0DBF): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/before_furnaces_humanity_used_campfires (070D257FF3DE0DBF): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/mining (090099B8B3800BAE): imported
 introduction/mining (090099B8B3800BAE): dependency requirement all_started approximated as completed
-introduction/mining (090099B8B3800BAE): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/mining (090099B8B3800BAE): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/time_to_gather_useful_materials (08BFA7B9435D7DCC): imported
 introduction/time_to_gather_useful_materials (08BFA7B9435D7DCC): dependency requirement all_started approximated as completed
-introduction/time_to_gather_useful_materials (08BFA7B9435D7DCC): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/time_to_gather_useful_materials (08BFA7B9435D7DCC): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/farming (435BD5A742C05B1E): imported
 introduction/farming (435BD5A742C05B1E): dependency requirement all_started approximated as completed
-introduction/farming (435BD5A742C05B1E): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/farming (435BD5A742C05B1E): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/canvas (70FF5891DA236DA4): imported
 introduction/canvas (70FF5891DA236DA4): no title, named after its first task item
-introduction/canvas (70FF5891DA236DA4): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/canvas (70FF5891DA236DA4): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/potato_farming (4995F4B02484AECC): imported
-introduction/potato_farming (4995F4B02484AECC): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/potato_farming (4995F4B02484AECC): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/sack (23302F77050C32C5): imported
 introduction/sack (23302F77050C32C5): no title, named after its first task item
-introduction/sack (23302F77050C32C5): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/sack (23302F77050C32C5): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/cutting_board (0FC4FA79D5AB30AE): imported
 introduction/cutting_board (0FC4FA79D5AB30AE): no title, named after its first task item
-introduction/cutting_board (0FC4FA79D5AB30AE): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/cutting_board (0FC4FA79D5AB30AE): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/primitive_mortar (0E5A981A32056DDC): imported
 introduction/primitive_mortar (0E5A981A32056DDC): no title, named after its first task item
-introduction/primitive_mortar (0E5A981A32056DDC): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/primitive_mortar (0E5A981A32056DDC): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/primitive_chisel (2A0A25E7A7AA7334): imported
 introduction/primitive_chisel (2A0A25E7A7AA7334): no title, named after its first task item
-introduction/primitive_chisel (2A0A25E7A7AA7334): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/primitive_chisel (2A0A25E7A7AA7334): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/flint_knife (5C95579DC269AF2A): imported
 introduction/flint_knife (5C95579DC269AF2A): no title, named after its first task item
-introduction/flint_knife (5C95579DC269AF2A): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/flint_knife (5C95579DC269AF2A): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/harvest_your_wheat (22BF5448BA6B11AF): imported
-introduction/harvest_your_wheat (22BF5448BA6B11AF): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/harvest_your_wheat (22BF5448BA6B11AF): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/explosive_mobs (3F2E2B483880F030): imported
 introduction/explosive_mobs (3F2E2B483880F030): dependency requirement all_started approximated as completed
-introduction/explosive_mobs (3F2E2B483880F030): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/explosive_mobs (3F2E2B483880F030): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/explosive_mobs (3F2E2B483880F030): dropped fields: optional_task (1 tasks)
 introduction/golden_flower (474D50C2F74737EE): imported
 introduction/golden_flower (474D50C2F74737EE): no title, named after its first task
-introduction/golden_flower (474D50C2F74737EE): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/golden_flower (474D50C2F74737EE): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/golden_flower (474D50C2F74737EE): optional_task (1 tasks): the quest completes after any 2 of its 3 tasks
 introduction/assemble_the_ritual (3795DEE8A3FE6814): imported
-introduction/assemble_the_ritual (3795DEE8A3FE6814): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/assemble_the_ritual (3795DEE8A3FE6814): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/assemble_the_ritual (3795DEE8A3FE6814): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
 introduction/first_jewelry (3EDF5559C9E29ED4): imported
-introduction/first_jewelry (3EDF5559C9E29ED4): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/first_jewelry (3EDF5559C9E29ED4): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/important_piece_of_equipment (4B5BA7BEE6643B4C): imported
-introduction/important_piece_of_equipment (4B5BA7BEE6643B4C): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/important_piece_of_equipment (4B5BA7BEE6643B4C): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/why_is_it_always_clay (3795D0DD18CF8363): imported
-introduction/why_is_it_always_clay (3795D0DD18CF8363): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/why_is_it_always_clay (3795D0DD18CF8363): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/squid_hunt (0A4DF24D1B2E7889): imported
-introduction/squid_hunt (0A4DF24D1B2E7889): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/squid_hunt (0A4DF24D1B2E7889): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/brick_glue (78441BFCAC4CA22B): imported
 introduction/brick_glue (78441BFCAC4CA22B): no title, named after its first task item
-introduction/brick_glue (78441BFCAC4CA22B): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/brick_glue (78441BFCAC4CA22B): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 introduction/the_big_oven (51966AE20559FFA0): imported
-introduction/the_big_oven (51966AE20559FFA0): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/the_big_oven (51966AE20559FFA0): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/cutting_planks (4138D0D9B6F11604): imported
-introduction/cutting_planks (4138D0D9B6F11604): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/cutting_planks (4138D0D9B6F11604): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/primitive_saw (6814EBB8BDED9EEE): imported
 introduction/primitive_saw (6814EBB8BDED9EEE): no title, named after its first task item
-introduction/primitive_saw (6814EBB8BDED9EEE): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/primitive_saw (6814EBB8BDED9EEE): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/mob_difficulty_changes (2910627A1D09A447): imported
-introduction/mob_difficulty_changes (2910627A1D09A447): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/mob_difficulty_changes (2910627A1D09A447): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/arcanum_ore (3D782DAACBB5DE87): imported
-introduction/arcanum_ore (3D782DAACBB5DE87): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/arcanum_ore (3D782DAACBB5DE87): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/pure_daisy (093161CA8E0381C0): imported
 introduction/pure_daisy (093161CA8E0381C0): no title, named after its first task item
-introduction/pure_daisy (093161CA8E0381C0): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/pure_daisy (093161CA8E0381C0): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/arcane_tools (36E8803252843028): imported
-introduction/arcane_tools (36E8803252843028): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/arcane_tools (36E8803252843028): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/arcane_arts (7846743FB0D30EAD): imported
-introduction/arcane_arts (7846743FB0D30EAD): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/arcane_arts (7846743FB0D30EAD): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 introduction/arcanist_hammer (22940C5D29764070): imported
 introduction/arcanist_hammer (22940C5D29764070): no title, named after its first task item
-introduction/arcanist_hammer (22940C5D29764070): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/arcanist_hammer (22940C5D29764070): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/white_arcane_lumos (34A2ED5D35107D50): imported
 introduction/white_arcane_lumos (34A2ED5D35107D50): no title, named after its first task item
-introduction/white_arcane_lumos (34A2ED5D35107D50): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/white_arcane_lumos (34A2ED5D35107D50): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/spellcasting (49520CEBA3F18404): imported
-introduction/spellcasting (49520CEBA3F18404): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/spellcasting (49520CEBA3F18404): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/ancient_sapling (32A61115C0AD8C45): imported
 introduction/ancient_sapling (32A61115C0AD8C45): no title, named after its first task item
-introduction/ancient_sapling (32A61115C0AD8C45): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/ancient_sapling (32A61115C0AD8C45): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/horse_for_sale (5F3492DDB5A1328A): imported
-introduction/horse_for_sale (5F3492DDB5A1328A): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/horse_for_sale (5F3492DDB5A1328A): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/horse_for_sale (5F3492DDB5A1328A): command placeholder {Variant:13} kept as is
 introduction/primitive_grappling_hook (756DE0A4B031F8AB): imported
-introduction/primitive_grappling_hook (756DE0A4B031F8AB): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/primitive_grappling_hook (756DE0A4B031F8AB): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/lunchbag_upgrade (25CA514AD0C369FE): imported
-introduction/lunchbag_upgrade (25CA514AD0C369FE): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/lunchbag_upgrade (25CA514AD0C369FE): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/craft_some_real_weapons (4F8AD3FF4475A1C6): imported
-introduction/craft_some_real_weapons (4F8AD3FF4475A1C6): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/craft_some_real_weapons (4F8AD3FF4475A1C6): invisible until its dependencies are visible, they are hidden in FTB Quests
 introduction/q49b93b2608800a22 (49B93B2608800A22): imported
-introduction/q49b93b2608800a22 (49B93B2608800A22): hidden until unlocked, its dependencies are hidden in FTB Quests
+introduction/q49b93b2608800a22 (49B93B2608800A22): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/coal_coke_production (1651F797382E34A2): imported
 tier_1/first_magical_feat (00F6FC5B3A511000): imported
-tier_1/first_magical_feat (00F6FC5B3A511000): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/first_magical_feat (00F6FC5B3A511000): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/first_magical_feat (00F6FC5B3A511000): optional_task (2 tasks): the quest completes after any 2 of its 4 tasks
 tier_1/bucket (6CDE2D6E743FAAA5): imported
 tier_1/bucket (6CDE2D6E743FAAA5): no title, named after its first task item
-tier_1/bucket (6CDE2D6E743FAAA5): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/bucket (6CDE2D6E743FAAA5): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/basic_automation_material (118CF02B3B3C899C): imported
-tier_1/basic_automation_material (118CF02B3B3C899C): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/basic_automation_material (118CF02B3B3C899C): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/crumbling_altar (44B9FE4B80D14F6F): imported
-tier_1/crumbling_altar (44B9FE4B80D14F6F): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/crumbling_altar (44B9FE4B80D14F6F): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 tier_1/crumbling_altar (44B9FE4B80D14F6F): optional_task (1 tasks): the quest completes after any 4 of its 5 tasks
 tier_1/imbuement_chamber (769C5B75D85F81FC): imported
 tier_1/imbuement_chamber (769C5B75D85F81FC): no title, named after its first task item
-tier_1/imbuement_chamber (769C5B75D85F81FC): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/imbuement_chamber (769C5B75D85F81FC): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 tier_1/plates (5C199D8DE803D331): imported
-tier_1/plates (5C199D8DE803D331): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/plates (5C199D8DE803D331): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/first_machine_casing (2C7DD9A9CEA857D0): imported
-tier_1/first_machine_casing (2C7DD9A9CEA857D0): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/first_machine_casing (2C7DD9A9CEA857D0): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/lightning_crafting (19F860FA0B4324FB): imported
-tier_1/lightning_crafting (19F860FA0B4324FB): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/lightning_crafting (19F860FA0B4324FB): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/lightning_bottle (1B2326E0FC1C25D9): imported
 tier_1/lightning_bottle (1B2326E0FC1C25D9): no title, named after its first task item
-tier_1/lightning_bottle (1B2326E0FC1C25D9): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/lightning_bottle (1B2326E0FC1C25D9): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/bottled_cloud (677C282E80275B53): imported
 tier_1/bottled_cloud (677C282E80275B53): no title, named after its first task item
-tier_1/bottled_cloud (677C282E80275B53): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/bottled_cloud (677C282E80275B53): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/glass (1767BADCC1133711): imported
 tier_1/glass (1767BADCC1133711): no title, named after its first task item
-tier_1/glass (1767BADCC1133711): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/glass (1767BADCC1133711): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/redstone_innovations (42453AA97CCD3970): imported
-tier_1/redstone_innovations (42453AA97CCD3970): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/redstone_innovations (42453AA97CCD3970): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/easier_block_crafting (0C52DC15B58FA6DF): imported
-tier_1/easier_block_crafting (0C52DC15B58FA6DF): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/easier_block_crafting (0C52DC15B58FA6DF): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/new_tools (5B041C755EE18D60): imported
-tier_1/new_tools (5B041C755EE18D60): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/new_tools (5B041C755EE18D60): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/find_an_amethyst_geode (37E717454A7E8792): imported
-tier_1/find_an_amethyst_geode (37E717454A7E8792): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/find_an_amethyst_geode (37E717454A7E8792): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/find_an_amethyst_geode (37E717454A7E8792): optional_task (1 tasks): the quest completes after any 2 of its 3 tasks
 tier_1/basic_entity_transportation (089147A7CE1A1DC6): imported
-tier_1/basic_entity_transportation (089147A7CE1A1DC6): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/basic_entity_transportation (089147A7CE1A1DC6): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/sawmill (4572DC8C9535CB74): imported
 tier_1/sawmill (4572DC8C9535CB74): no title, named after its first task item
-tier_1/sawmill (4572DC8C9535CB74): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/sawmill (4572DC8C9535CB74): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/stonecutter (1F4A354510D73811): imported
 tier_1/stonecutter (1F4A354510D73811): no title, named after its first task item
-tier_1/stonecutter (1F4A354510D73811): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/stonecutter (1F4A354510D73811): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/dispenser (55B81BBB0E85645E): imported
 tier_1/dispenser (55B81BBB0E85645E): no title, named after its first task item
-tier_1/dispenser (55B81BBB0E85645E): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/dispenser (55B81BBB0E85645E): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/wooden_hopper (62BB9932A2712DF2): imported
 tier_1/wooden_hopper (62BB9932A2712DF2): no title, named after its first task item
-tier_1/wooden_hopper (62BB9932A2712DF2): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/wooden_hopper (62BB9932A2712DF2): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/basic_tier_upgrade (0F2FD265581372C2): imported
 tier_1/basic_tier_upgrade (0F2FD265581372C2): no title, named after its first task item
-tier_1/basic_tier_upgrade (0F2FD265581372C2): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/basic_tier_upgrade (0F2FD265581372C2): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/basic_to_copper_tier_upgrade (73415F6632A61CB3): imported
 tier_1/basic_to_copper_tier_upgrade (73415F6632A61CB3): no title, named after its first task item
-tier_1/basic_to_copper_tier_upgrade (73415F6632A61CB3): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/basic_to_copper_tier_upgrade (73415F6632A61CB3): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/bamboo_basket (29355E8CC5535951): imported
 tier_1/bamboo_basket (29355E8CC5535951): no title, named after its first task item
-tier_1/bamboo_basket (29355E8CC5535951): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/bamboo_basket (29355E8CC5535951): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/brown_shulker_box (4BE9468347CCD7B1): imported
 tier_1/brown_shulker_box (4BE9468347CCD7B1): no title, named after its first task item
-tier_1/brown_shulker_box (4BE9468347CCD7B1): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/brown_shulker_box (4BE9468347CCD7B1): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/fermenting_jar (4168F305B7E633CA): imported
 tier_1/fermenting_jar (4168F305B7E633CA): no title, named after its first task item
-tier_1/fermenting_jar (4168F305B7E633CA): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/fermenting_jar (4168F305B7E633CA): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/first_autocrafter (0773DBD92BA8845A): imported
-tier_1/first_autocrafter (0773DBD92BA8845A): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/first_autocrafter (0773DBD92BA8845A): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/device_composter (58D5C17CFEF156E6): imported
 tier_1/device_composter (58D5C17CFEF156E6): no title, named after its first task item
-tier_1/device_composter (58D5C17CFEF156E6): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/device_composter (58D5C17CFEF156E6): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/device_fisher (69EEB38CE28E243E): imported
 tier_1/device_fisher (69EEB38CE28E243E): no title, named after its first task item
-tier_1/device_fisher (69EEB38CE28E243E): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/device_fisher (69EEB38CE28E243E): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/shears (3F2C3DA3AB21C5B6): imported
 tier_1/shears (3F2C3DA3AB21C5B6): no title, named after its first task item
-tier_1/shears (3F2C3DA3AB21C5B6): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/shears (3F2C3DA3AB21C5B6): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/buy_a_map_to_the_lush_caves (1EC8670D9091464A): imported
-tier_1/buy_a_map_to_the_lush_caves (1EC8670D9091464A): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/buy_a_map_to_the_lush_caves (1EC8670D9091464A): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/cog_block (7BE52BCC5EB42805): imported
 tier_1/cog_block (7BE52BCC5EB42805): no title, named after its first task item
-tier_1/cog_block (7BE52BCC5EB42805): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/cog_block (7BE52BCC5EB42805): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/thicc_scroll (7E7BB0BB5C8EBBB5): imported
 tier_1/thicc_scroll (7E7BB0BB5C8EBBB5): no title, named after its first task item
-tier_1/thicc_scroll (7E7BB0BB5C8EBBB5): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/thicc_scroll (7E7BB0BB5C8EBBB5): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/first_fluid_transportation (5AA3FEC64480E95D): imported
-tier_1/first_fluid_transportation (5AA3FEC64480E95D): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/first_fluid_transportation (5AA3FEC64480E95D): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/light_staff (490B9B2E3CFE4E94): imported
 tier_1/light_staff (490B9B2E3CFE4E94): no title, named after its first task item
-tier_1/light_staff (490B9B2E3CFE4E94): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/light_staff (490B9B2E3CFE4E94): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/return_scroll (0F47267A3B25BB1B): imported
 tier_1/return_scroll (0F47267A3B25BB1B): no title, named after its first task item
-tier_1/return_scroll (0F47267A3B25BB1B): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/return_scroll (0F47267A3B25BB1B): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/plate_automation (102DB1ACA8393AF8): imported
-tier_1/plate_automation (102DB1ACA8393AF8): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/plate_automation (102DB1ACA8393AF8): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/visit_the_twilight_forest (30B689B22757873D): imported
-tier_1/visit_the_twilight_forest (30B689B22757873D): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/visit_the_twilight_forest (30B689B22757873D): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 tier_1/visit_the_twilight_forest (30B689B22757873D): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
 tier_1/slay_the_naga (41FA7D0AD437E6FB): imported
-tier_1/slay_the_naga (41FA7D0AD437E6FB): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/slay_the_naga (41FA7D0AD437E6FB): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 tier_1/slay_the_naga (41FA7D0AD437E6FB): advancement reward dropped
 tier_1/diamond_heart (0E40C9B32E05AC51): imported
 tier_1/diamond_heart (0E40C9B32E05AC51): no title, named after its first task item
-tier_1/diamond_heart (0E40C9B32E05AC51): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/diamond_heart (0E40C9B32E05AC51): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/aoe_tools (4A8886F5524F7811): imported
-tier_1/aoe_tools (4A8886F5524F7811): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/aoe_tools (4A8886F5524F7811): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/starbuncle_charm (0616621E8A10711A): imported
 tier_1/starbuncle_charm (0616621E8A10711A): no title, named after its first task item
-tier_1/starbuncle_charm (0616621E8A10711A): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/starbuncle_charm (0616621E8A10711A): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/placer (6EA8230FDC9F0A72): imported
 tier_1/placer (6EA8230FDC9F0A72): no title, named after its first task item
-tier_1/placer (6EA8230FDC9F0A72): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/placer (6EA8230FDC9F0A72): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/wixie_charm (63EF6558322E13C4): imported
 tier_1/wixie_charm (63EF6558322E13C4): no title, named after its first task item
-tier_1/wixie_charm (63EF6558322E13C4): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/wixie_charm (63EF6558322E13C4): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/crafting_station (2A75073D74CD0574): imported
 tier_1/crafting_station (2A75073D74CD0574): no title, named after its first task item
-tier_1/crafting_station (2A75073D74CD0574): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/crafting_station (2A75073D74CD0574): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/oak_generator (5B1A108E8E4B3DBF): imported
 tier_1/oak_generator (5B1A108E8E4B3DBF): no title, named after its first task item
-tier_1/oak_generator (5B1A108E8E4B3DBF): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/oak_generator (5B1A108E8E4B3DBF): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/copper_spell_book (6BCC24F77F7598FB): imported
 tier_1/copper_spell_book (6BCC24F77F7598FB): no title, named after its first task item
-tier_1/copper_spell_book (6BCC24F77F7598FB): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/copper_spell_book (6BCC24F77F7598FB): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/millstone (5B2014B3B0771EB5): imported
 tier_1/millstone (5B2014B3B0771EB5): no title, named after its first task item
-tier_1/millstone (5B2014B3B0771EB5): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/millstone (5B2014B3B0771EB5): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/the_fluffiest_elevator (6534B009CA155499): imported
 tier_1/the_fluffiest_elevator (6534B009CA155499): dependency requirement one_started approximated as completed
-tier_1/the_fluffiest_elevator (6534B009CA155499): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/the_fluffiest_elevator (6534B009CA155499): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/blast_furnace_booster (30A9922DBDA79150): imported
 tier_1/blast_furnace_booster (30A9922DBDA79150): no title, named after its first task item
-tier_1/blast_furnace_booster (30A9922DBDA79150): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/blast_furnace_booster (30A9922DBDA79150): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/phytogenic_insolator (61B4A5B170F6318C): imported
 tier_1/phytogenic_insolator (61B4A5B170F6318C): no title, named after its first task item
-tier_1/phytogenic_insolator (61B4A5B170F6318C): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/phytogenic_insolator (61B4A5B170F6318C): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_1/ziplining_through_the_air (5234208B4A6DDBFA): imported
-tier_1/ziplining_through_the_air (5234208B4A6DDBFA): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_1/ziplining_through_the_air (5234208B4A6DDBFA): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/manasteel_ingot (4E33A6524A987E23): imported
 tier_2/manasteel_ingot (4E33A6524A987E23): no title, named after its first task item
 tier_2/arcane_crafting (72FB95A11B31AFEC): imported
-tier_2/arcane_crafting (72FB95A11B31AFEC): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/arcane_crafting (72FB95A11B31AFEC): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/new_equipment_opportunity (4E1801454590B2B2): imported
-tier_2/new_equipment_opportunity (4E1801454590B2B2): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/new_equipment_opportunity (4E1801454590B2B2): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/workstations_on_a_stick (694245F07E3CAA48): imported
 tier_2/distilling_the_elements (5CB418E959BA9BC4): imported
-tier_2/distilling_the_elements (5CB418E959BA9BC4): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/distilling_the_elements (5CB418E959BA9BC4): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 tier_2/distilling_the_elements (5CB418E959BA9BC4): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
 tier_2/visit_the_nether (23D3902848A335F6): imported
-tier_2/visit_the_nether (23D3902848A335F6): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/visit_the_nether (23D3902848A335F6): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/elemental_arcanum (6B18370E82275EED): imported
-tier_2/elemental_arcanum (6B18370E82275EED): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/elemental_arcanum (6B18370E82275EED): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/new_and_improved_gold_tools (5489E55D327444EE): imported
-tier_2/new_and_improved_gold_tools (5489E55D327444EE): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/new_and_improved_gold_tools (5489E55D327444EE): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/diamond_equipment (7C6028C637BFF1B2): imported
 tier_2/air_essence (7E516240E967045E): imported
 tier_2/air_essence (7E516240E967045E): no title, named after its first task item
-tier_2/air_essence (7E516240E967045E): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/air_essence (7E516240E967045E): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/water_essence (00AEA38F60CAAE90): imported
 tier_2/water_essence (00AEA38F60CAAE90): no title, named after its first task item
-tier_2/water_essence (00AEA38F60CAAE90): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/water_essence (00AEA38F60CAAE90): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/nature_essence (7EBD23E275E837F2): imported
 tier_2/earth_essence (0F250E08450A1BEC): imported
 tier_2/earth_essence (0F250E08450A1BEC): no title, named after its first task item
-tier_2/earth_essence (0F250E08450A1BEC): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/earth_essence (0F250E08450A1BEC): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/fire_essence (5E56A7D68E33C68B): imported
 tier_2/fire_essence (5E56A7D68E33C68B): no title, named after its first task item
-tier_2/fire_essence (5E56A7D68E33C68B): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/fire_essence (5E56A7D68E33C68B): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/schematicannon (4701D8064C9A7A3A): imported
 tier_2/schematicannon (4701D8064C9A7A3A): no title, named after its first task item
-tier_2/schematicannon (4701D8064C9A7A3A): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/schematicannon (4701D8064C9A7A3A): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/infusion_catalyst (400EBA15A5B82A93): imported
 tier_2/infusion_catalyst (400EBA15A5B82A93): no title, named after its first task item
-tier_2/infusion_catalyst (400EBA15A5B82A93): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/infusion_catalyst (400EBA15A5B82A93): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/tainted_gold (4F3750AF3A13EB91): imported
 tier_2/tainted_gold (4F3750AF3A13EB91): no title, named after its first task item
-tier_2/tainted_gold (4F3750AF3A13EB91): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/tainted_gold (4F3750AF3A13EB91): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/iron_to_gold_tier_upgrade (70640C75EB97C35A): imported
 tier_2/iron_to_gold_tier_upgrade (70640C75EB97C35A): no title, named after its first task item
-tier_2/iron_to_gold_tier_upgrade (70640C75EB97C35A): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/iron_to_gold_tier_upgrade (70640C75EB97C35A): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/infused_iron (67D119691018BD6C): imported
 tier_2/infused_iron (67D119691018BD6C): no title, named after its first task item
-tier_2/infused_iron (67D119691018BD6C): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/infused_iron (67D119691018BD6C): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/kiln_alloy_smelter (0628C1A97EB1A5DB): imported
-tier_2/kiln_alloy_smelter (0628C1A97EB1A5DB): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/kiln_alloy_smelter (0628C1A97EB1A5DB): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 tier_2/kiln_alloy_smelter (0628C1A97EB1A5DB): optional_task (2 tasks): the quest completes after any 1 of its 3 tasks
 tier_2/magic_machine (38ADADE5E8F17847): imported
 tier_2/magic_machine (38ADADE5E8F17847): no title, named after its first task item
-tier_2/magic_machine (38ADADE5E8F17847): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/magic_machine (38ADADE5E8F17847): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/elytra (0C2AD3445015D9C0): imported
 tier_2/elytra (0C2AD3445015D9C0): no title, named after its first task item
-tier_2/elytra (0C2AD3445015D9C0): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/elytra (0C2AD3445015D9C0): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/capturing_gem (77F2DB343B15A33B): imported
 tier_2/capturing_gem (77F2DB343B15A33B): no title, named after its first task item
-tier_2/capturing_gem (77F2DB343B15A33B): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/capturing_gem (77F2DB343B15A33B): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/warp_scroll (2A5CFF660594EEA3): imported
 tier_2/warp_scroll (2A5CFF660594EEA3): no title, named after its first task item
-tier_2/warp_scroll (2A5CFF660594EEA3): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/warp_scroll (2A5CFF660594EEA3): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/copper_diving_set (757242D72869D9B3): imported
-tier_2/copper_diving_set (757242D72869D9B3): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/copper_diving_set (757242D72869D9B3): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/better_aoe_tools (03BD12785316A601): imported
-tier_2/better_aoe_tools (03BD12785316A601): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/better_aoe_tools (03BD12785316A601): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/feeding_trough (6F5F12972F0E25D2): imported
 tier_2/feeding_trough (6F5F12972F0E25D2): no title, named after its first task item
-tier_2/feeding_trough (6F5F12972F0E25D2): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/feeding_trough (6F5F12972F0E25D2): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/the_terraformer (6FDF956447A362ED): imported
 tier_2/the_terraformer (6FDF956447A362ED): no title, named after its first task item
-tier_2/the_terraformer (6FDF956447A362ED): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/the_terraformer (6FDF956447A362ED): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/fiery_magic_feather (5E6BD7260C3A119F): imported
 tier_2/fiery_magic_feather (5E6BD7260C3A119F): no title, named after its first task item
-tier_2/fiery_magic_feather (5E6BD7260C3A119F): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/fiery_magic_feather (5E6BD7260C3A119F): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/golden_magic_feather (2E527B86FB2AE87D): imported
 tier_2/golden_magic_feather (2E527B86FB2AE87D): no title, named after its first task item
-tier_2/golden_magic_feather (2E527B86FB2AE87D): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/golden_magic_feather (2E527B86FB2AE87D): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/zanite_gemstone (512084C232A880EF): imported
 tier_2/zanite_gemstone (512084C232A880EF): no title, named after its first task item
-tier_2/zanite_gemstone (512084C232A880EF): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/zanite_gemstone (512084C232A880EF): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/skyjade (73B4F5C2F480B53E): imported
 tier_2/skyjade (73B4F5C2F480B53E): no title, named after its first task item
-tier_2/skyjade (73B4F5C2F480B53E): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/skyjade (73B4F5C2F480B53E): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/zanite_tools (73FE35BFB73DAB72): imported
-tier_2/zanite_tools (73FE35BFB73DAB72): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/zanite_tools (73FE35BFB73DAB72): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/skyjade_tools (27C45F527AAF2CE3): imported
-tier_2/skyjade_tools (27C45F527AAF2CE3): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/skyjade_tools (27C45F527AAF2CE3): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/base_of_the_generator (2C1867470E747C94): imported
-tier_2/base_of_the_generator (2C1867470E747C94): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/base_of_the_generator (2C1867470E747C94): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 tier_2/base_of_the_generator (2C1867470E747C94): optional_task (3 tasks): the quest completes after any 1 of its 4 tasks
 tier_2/source_generators (2841B26876F416EE): imported
-tier_2/source_generators (2841B26876F416EE): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/source_generators (2841B26876F416EE): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/source_generators (2841B26876F416EE): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
 tier_2/aura_generator_block (189E5234B18E0B30): imported
 tier_2/aura_generator_block (189E5234B18E0B30): no title, named after its first task item
-tier_2/aura_generator_block (189E5234B18E0B30): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/aura_generator_block (189E5234B18E0B30): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/elemental_core (6237607319FF7E53): imported
 tier_2/elemental_core (6237607319FF7E53): no title, named after its first task item
-tier_2/elemental_core (6237607319FF7E53): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/elemental_core (6237607319FF7E53): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/angel_blessing (5A7FAC001CEEBCC7): imported
 tier_2/angel_blessing (5A7FAC001CEEBCC7): no title, named after its first task item
-tier_2/angel_blessing (5A7FAC001CEEBCC7): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/angel_blessing (5A7FAC001CEEBCC7): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/blazing_core (555D03DCB4FC88E7): imported
 tier_2/blazing_core (555D03DCB4FC88E7): no title, named after its first task item
-tier_2/blazing_core (555D03DCB4FC88E7): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/blazing_core (555D03DCB4FC88E7): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/ocean_stone (049D8AC1C18E830D): imported
 tier_2/ocean_stone (049D8AC1C18E830D): no title, named after its first task item
-tier_2/ocean_stone (049D8AC1C18E830D): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/ocean_stone (049D8AC1C18E830D): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/golem_heart (7D16A792594BDDD9): imported
 tier_2/golem_heart (7D16A792594BDDD9): no title, named after its first task item
-tier_2/golem_heart (7D16A792594BDDD9): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/golem_heart (7D16A792594BDDD9): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/magical_ore_doubling (5B063A590937C1F0): imported
-tier_2/magical_ore_doubling (5B063A590937C1F0): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/magical_ore_doubling (5B063A590937C1F0): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/ruby_brazier (47808B1139C7ADD2): imported
 tier_2/ruby_brazier (47808B1139C7ADD2): no title, named after its first task item
 tier_2/mana_spreader (5CD7FA3E194089C4): imported
 tier_2/mana_spreader (5CD7FA3E194089C4): no title, named after its first task item
-tier_2/mana_spreader (5CD7FA3E194089C4): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/mana_spreader (5CD7FA3E194089C4): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/storage_network (2351C816D8605ED8): imported
-tier_2/storage_network (2351C816D8605ED8): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_2/storage_network (2351C816D8605ED8): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_2/source_alloy_equipment (40817FFD62C8AEFD): imported
 tier_3/andesite_alloy (7199B6B476F453BB): imported
 tier_3/andesite_alloy (7199B6B476F453BB): no title, named after its first task item
 tier_3/arcane_gold_ingot (720EAE83846D3178): imported
 tier_3/arcane_gold_ingot (720EAE83846D3178): no title, named after its first task item
 tier_3/elemental_binder (0546AB4A107ED496): imported
-tier_3/elemental_binder (0546AB4A107ED496): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/elemental_binder (0546AB4A107ED496): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_3/redstone_core (6E30DFF0F2B9B811): imported
 tier_3/redstone_core (6E30DFF0F2B9B811): no title, named after its first task item
-tier_3/redstone_core (6E30DFF0F2B9B811): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/redstone_core (6E30DFF0F2B9B811): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_3/ender_essence (3DDF1CBFC865F991): imported
 tier_3/ender_essence (3DDF1CBFC865F991): no title, named after its first task item
-tier_3/ender_essence (3DDF1CBFC865F991): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/ender_essence (3DDF1CBFC865F991): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_3/controller (06F09790C8570FA7): imported
 tier_3/controller (06F09790C8570FA7): no title, named after its first task item
-tier_3/controller (06F09790C8570FA7): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/controller (06F09790C8570FA7): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 tier_3/andesite_machine (598CB97D6AAE242D): imported
 tier_3/andesite_machine (598CB97D6AAE242D): no title, named after its first task item
-tier_3/andesite_machine (598CB97D6AAE242D): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/andesite_machine (598CB97D6AAE242D): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 tier_3/deployer (1A94843C9B0DD8FF): imported
 tier_3/deployer (1A94843C9B0DD8FF): no title, named after its first task item
-tier_3/deployer (1A94843C9B0DD8FF): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/deployer (1A94843C9B0DD8FF): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 tier_3/agglomeration_plate (6EC46F530F70BFBF): imported
-tier_3/agglomeration_plate (6EC46F530F70BFBF): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/agglomeration_plate (6EC46F530F70BFBF): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 tier_3/mechanical_mixer (35BF841735837D97): imported
 tier_3/mechanical_mixer (35BF841735837D97): no title, named after its first task item
-tier_3/mechanical_mixer (35BF841735837D97): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/mechanical_mixer (35BF841735837D97): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 tier_3/rainbow_magic_feather (46BDE50D5EE37574): imported
 tier_3/rainbow_magic_feather (46BDE50D5EE37574): no title, named after its first task item
-tier_3/rainbow_magic_feather (46BDE50D5EE37574): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/rainbow_magic_feather (46BDE50D5EE37574): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_3/visit_the_aether (3CEA1955266AEAB3): imported
-tier_3/visit_the_aether (3CEA1955266AEAB3): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/visit_the_aether (3CEA1955266AEAB3): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_3/infernal_smelter_upgrade (3A94BCF22852A627): imported
-tier_3/infernal_smelter_upgrade (3A94BCF22852A627): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/infernal_smelter_upgrade (3A94BCF22852A627): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 tier_3/infernal_smelter_upgrade (3A94BCF22852A627): optional_task (2 tasks): the quest completes after any 1 of its 3 tasks
 tier_3/life_essence (792DD974C0AB477E): imported
 tier_3/life_essence (792DD974C0AB477E): no title, named after its first task item
-tier_3/life_essence (792DD974C0AB477E): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/life_essence (792DD974C0AB477E): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_3/death_essence (47CA7121501C2397): imported
 tier_3/death_essence (47CA7121501C2397): no title, named after its first task item
-tier_3/death_essence (47CA7121501C2397): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/death_essence (47CA7121501C2397): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_3/dark_essence (0D87D09C792CBD96): imported
 tier_3/dark_essence (0D87D09C792CBD96): no title, named after its first task item
-tier_3/dark_essence (0D87D09C792CBD96): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/dark_essence (0D87D09C792CBD96): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_3/light_essence (166492730EA5EBBD): imported
 tier_3/light_essence (166492730EA5EBBD): no title, named after its first task item
-tier_3/light_essence (166492730EA5EBBD): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/light_essence (166492730EA5EBBD): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_3/spawn_lamp (1AD18FEB552DB6BF): imported
 tier_3/spawn_lamp (1AD18FEB552DB6BF): no title, named after its first task item
-tier_3/spawn_lamp (1AD18FEB552DB6BF): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/spawn_lamp (1AD18FEB552DB6BF): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_3/lightning_essence (5604F661A992D207): imported
 tier_3/lightning_essence (5604F661A992D207): no title, named after its first task item
-tier_3/lightning_essence (5604F661A992D207): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/lightning_essence (5604F661A992D207): invisible until its dependencies are visible, they are hidden in FTB Quests
 tier_3/stress_unit_generator (309BD32733CE043D): imported
-tier_3/stress_unit_generator (309BD32733CE043D): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/stress_unit_generator (309BD32733CE043D): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 tier_3/arcane_iterator (4ECC6F65A0C69B47): imported
 tier_3/arcane_iterator (4ECC6F65A0C69B47): no title, named after its first task item
-tier_3/arcane_iterator (4ECC6F65A0C69B47): hidden until unlocked, its dependencies are hidden in FTB Quests
+tier_3/arcane_iterator (4ECC6F65A0C69B47): invisible until its dependencies are visible, they are hidden in FTB Quests
 basic_logistics/steel_ingot (0BC1E6E014D2F809): imported
 basic_logistics/steel_ingot (0BC1E6E014D2F809): no title, named after its first task item
 basic_logistics/visit_the_end_dimension (24F667ABDE037B01): imported
-basic_logistics/visit_the_end_dimension (24F667ABDE037B01): hidden until unlocked, its dependencies are hidden in FTB Quests
+basic_logistics/visit_the_end_dimension (24F667ABDE037B01): invisible until its dependencies are visible, they are hidden in FTB Quests
 basic_logistics/the_end (35D3E015F5847394): imported
-basic_logistics/the_end (35D3E015F5847394): hidden until unlocked, its dependencies are hidden in FTB Quests
+basic_logistics/the_end (35D3E015F5847394): invisible until its dependencies are visible, they are hidden in FTB Quests
 basic_logistics/the_end (35D3E015F5847394): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
 alchemy/alchemical_begining (0FE985C7CD170DA6): imported
 alchemy/infused_emerald (0024030A8C170534): imported
 alchemy/infused_emerald (0024030A8C170534): no title, named after its first task item
-alchemy/infused_emerald (0024030A8C170534): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/infused_emerald (0024030A8C170534): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 alchemy/infused_diamond (1BD83B6AB63F3178): imported
 alchemy/infused_diamond (1BD83B6AB63F3178): no title, named after its first task item
-alchemy/infused_diamond (1BD83B6AB63F3178): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/infused_diamond (1BD83B6AB63F3178): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 alchemy/primitive_alchemical_dust (1F1B1BF62C2E14CA): imported
 alchemy/primitive_alchemical_dust (1F1B1BF62C2E14CA): no title, named after its first task item
-alchemy/primitive_alchemical_dust (1F1B1BF62C2E14CA): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/primitive_alchemical_dust (1F1B1BF62C2E14CA): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 alchemy/basic_alchemical_dust (72B159FFE63F8CFA): imported
 alchemy/basic_alchemical_dust (72B159FFE63F8CFA): no title, named after its first task item
-alchemy/basic_alchemical_dust (72B159FFE63F8CFA): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/basic_alchemical_dust (72B159FFE63F8CFA): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 alchemy/sapphire (7E552E2451203E0D): imported
 alchemy/sapphire (7E552E2451203E0D): no title, named after its first task item
-alchemy/sapphire (7E552E2451203E0D): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/sapphire (7E552E2451203E0D): invisible until its dependencies are visible, they are hidden in FTB Quests
 alchemy/ruby (25D88EC6C72E5D78): imported
 alchemy/ruby (25D88EC6C72E5D78): no title, named after its first task item
-alchemy/ruby (25D88EC6C72E5D78): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/ruby (25D88EC6C72E5D78): invisible until its dependencies are visible, they are hidden in FTB Quests
 alchemy/improved_alchemical_dust (271C298B958B7602): imported
 alchemy/improved_alchemical_dust (271C298B958B7602): no title, named after its first task item
-alchemy/improved_alchemical_dust (271C298B958B7602): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/improved_alchemical_dust (271C298B958B7602): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 alchemy/advanced_alchemical_dust (5812063B29B992B5): imported
 alchemy/advanced_alchemical_dust (5812063B29B992B5): no title, named after its first task item
-alchemy/advanced_alchemical_dust (5812063B29B992B5): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/advanced_alchemical_dust (5812063B29B992B5): invisible until its dependencies are visible, they are hidden in FTB Quests (FTB Quests shows it once any one of them is)
 alchemy/naga_scale (7F24612EF01F5466): imported
 alchemy/naga_scale (7F24612EF01F5466): no title, named after its first task item
-alchemy/naga_scale (7F24612EF01F5466): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/naga_scale (7F24612EF01F5466): invisible until its dependencies are visible, they are hidden in FTB Quests
 alchemy/silver_dust (07EB636C6BF2BC33): imported
 alchemy/silver_dust (07EB636C6BF2BC33): no title, named after its first task item
-alchemy/silver_dust (07EB636C6BF2BC33): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/silver_dust (07EB636C6BF2BC33): invisible until its dependencies are visible, they are hidden in FTB Quests
 alchemy/fiery_blood (743A87F1349B4C28): imported
 alchemy/fiery_blood (743A87F1349B4C28): no title, named after its first task item
-alchemy/fiery_blood (743A87F1349B4C28): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/fiery_blood (743A87F1349B4C28): invisible until its dependencies are visible, they are hidden in FTB Quests
 alchemy/sacrificial_dagger (2499384C33421ED7): imported
 alchemy/sacrificial_dagger (2499384C33421ED7): no title, named after its first task item
-alchemy/sacrificial_dagger (2499384C33421ED7): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/sacrificial_dagger (2499384C33421ED7): invisible until its dependencies are visible, they are hidden in FTB Quests
 alchemy/phoenix_ingot (322C0032BBE3B362): imported
 alchemy/phoenix_ingot (322C0032BBE3B362): no title, named after its first task item
-alchemy/phoenix_ingot (322C0032BBE3B362): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/phoenix_ingot (322C0032BBE3B362): invisible until its dependencies are visible, they are hidden in FTB Quests
 alchemy/earth_heart (791D63C0735B944C): imported
 alchemy/earth_heart (791D63C0735B944C): no title, named after its first task item
-alchemy/earth_heart (791D63C0735B944C): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/earth_heart (791D63C0735B944C): invisible until its dependencies are visible, they are hidden in FTB Quests
 alchemy/alchemical_machinery (180B7C19875A9115): imported
-alchemy/alchemical_machinery (180B7C19875A9115): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemy/alchemical_machinery (180B7C19875A9115): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/inscription_table (33E1BDC4DFEDE8B0): imported
 spellcasting/inscription_table (33E1BDC4DFEDE8B0): no title, named after its first task item
 spellcasting/iron_spell_book (2DB5DB573C8D5038): imported
 spellcasting/iron_spell_book (2DB5DB573C8D5038): no title, named after its first task item
 spellcasting/gold_spell_book (53E622D931A34B85): imported
 spellcasting/gold_spell_book (53E622D931A34B85): no title, named after its first task item
-spellcasting/gold_spell_book (53E622D931A34B85): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/gold_spell_book (53E622D931A34B85): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/diamond_spell_book (3D81714D7E8B8E0D): imported
 spellcasting/diamond_spell_book (3D81714D7E8B8E0D): no title, named after its first task item
-spellcasting/diamond_spell_book (3D81714D7E8B8E0D): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/diamond_spell_book (3D81714D7E8B8E0D): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/scroll_forge (476BED3AE5DDB280): imported
 spellcasting/scroll_forge (476BED3AE5DDB280): no title, named after its first task item
-spellcasting/scroll_forge (476BED3AE5DDB280): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/scroll_forge (476BED3AE5DDB280): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/rotten_spell_book (309CF72640129A6E): imported
 spellcasting/rotten_spell_book (309CF72640129A6E): no title, named after its first task item
 spellcasting/druidic_spell_book (3AA48BD33DE49DE6): imported
@@ -734,270 +728,270 @@ spellcasting/netherite_spell_book (08CF64BD740D26C6): imported
 spellcasting/netherite_spell_book (08CF64BD740D26C6): no title, named after its first task item
 spellcasting/arcane_anvil (3F9EFB4F1DE435E7): imported
 spellcasting/arcane_anvil (3F9EFB4F1DE435E7): no title, named after its first task item
-spellcasting/arcane_anvil (3F9EFB4F1DE435E7): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/arcane_anvil (3F9EFB4F1DE435E7): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/arcane_debris (4D86E53BA19208BB): imported
 spellcasting/arcane_debris (4D86E53BA19208BB): no title, named after its first task item
-spellcasting/arcane_debris (4D86E53BA19208BB): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/arcane_debris (4D86E53BA19208BB): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/upgrade_orb (5CB5A21232A54013): imported
 spellcasting/upgrade_orb (5CB5A21232A54013): no title, named after its first task item
-spellcasting/upgrade_orb (5CB5A21232A54013): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/upgrade_orb (5CB5A21232A54013): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/shriving_stone (78D08FECC6F48017): imported
 spellcasting/shriving_stone (78D08FECC6F48017): no title, named after its first task item
-spellcasting/shriving_stone (78D08FECC6F48017): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/shriving_stone (78D08FECC6F48017): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/scribes_table (149C40A3CB1F7A9C): imported
 spellcasting/scribes_table (149C40A3CB1F7A9C): no title, named after its first task item
 spellcasting/novice_spell_book (78C091D917FDA212): imported
 spellcasting/novice_spell_book (78C091D917FDA212): no title, named after its first task item
 spellcasting/apprentice_spell_book (1FDA343AF65EEC95): imported
 spellcasting/apprentice_spell_book (1FDA343AF65EEC95): no title, named after its first task item
-spellcasting/apprentice_spell_book (1FDA343AF65EEC95): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/apprentice_spell_book (1FDA343AF65EEC95): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/archmage_spell_book (38A3EFB80DE92482): imported
 spellcasting/archmage_spell_book (38A3EFB80DE92482): no title, named after its first task item
-spellcasting/archmage_spell_book (38A3EFB80DE92482): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/archmage_spell_book (38A3EFB80DE92482): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/ritual_brazier (6D2B1D96DF618211): imported
 spellcasting/ritual_brazier (6D2B1D96DF618211): no title, named after its first task item
 spellcasting/alteration_table (03CFF686F97F8F2B): imported
 spellcasting/alteration_table (03CFF686F97F8F2B): no title, named after its first task item
 spellcasting/wand (4E3C4205FA435EDB): imported
 spellcasting/wand (4E3C4205FA435EDB): no title, named after its first task item
-spellcasting/wand (4E3C4205FA435EDB): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/wand (4E3C4205FA435EDB): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/enchanters_mirror (649D56B128247F46): imported
 spellcasting/enchanters_mirror (649D56B128247F46): no title, named after its first task item
-spellcasting/enchanters_mirror (649D56B128247F46): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/enchanters_mirror (649D56B128247F46): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/enchanters_eye (7129CD88CD0A6742): imported
 spellcasting/enchanters_eye (7129CD88CD0A6742): no title, named after its first task item
-spellcasting/enchanters_eye (7129CD88CD0A6742): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/enchanters_eye (7129CD88CD0A6742): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/runic_chalk (76EF88BB1C6DDF34): imported
 spellcasting/runic_chalk (76EF88BB1C6DDF34): no title, named after its first task item
-spellcasting/runic_chalk (76EF88BB1C6DDF34): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/runic_chalk (76EF88BB1C6DDF34): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/blank_parchment (7C24805B036F1332): imported
 spellcasting/blank_parchment (7C24805B036F1332): no title, named after its first task item
-spellcasting/blank_parchment (7C24805B036F1332): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/blank_parchment (7C24805B036F1332): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/annotated_codex (39C2D4633A28D6B5): imported
 spellcasting/annotated_codex (39C2D4633A28D6B5): no title, named after its first task item
-spellcasting/annotated_codex (39C2D4633A28D6B5): hidden until unlocked, its dependencies are hidden in FTB Quests
+spellcasting/annotated_codex (39C2D4633A28D6B5): invisible until its dependencies are visible, they are hidden in FTB Quests
 spellcasting/ice_spell_book (4B3081E698A67BCF): imported
 spellcasting/ice_spell_book (4B3081E698A67BCF): no title, named after its first task item
 spellcasting/cursed_doll_spell_book (25F7412DA4FDFDC6): imported
 spellcasting/cursed_doll_spell_book (25F7412DA4FDFDC6): no title, named after its first task item
 automation/hoppers (7D8E452FDD5F9A5E): imported
 automation/hoppers (7D8E452FDD5F9A5E): dependency requirement one_started approximated as completed
-automation/hoppers (7D8E452FDD5F9A5E): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/hoppers (7D8E452FDD5F9A5E): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/supplementaries_fluid_transportation (59579B12207DD310): imported
-automation/supplementaries_fluid_transportation (59579B12207DD310): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/supplementaries_fluid_transportation (59579B12207DD310): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/create_fluid_transportation (192F4A1B7714BA44): imported
-automation/create_fluid_transportation (192F4A1B7714BA44): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/create_fluid_transportation (192F4A1B7714BA44): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/wizards_reborn_fluid_transportation (2BB2936431BC8F06): imported
-automation/wizards_reborn_fluid_transportation (2BB2936431BC8F06): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/wizards_reborn_fluid_transportation (2BB2936431BC8F06): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/item_entity_transportation (5171A92A9587D551): imported
 automation/fluid_transportation (18F180938E232223): imported
 automation/fluid_transportation (18F180938E232223): no title, named after its first task
 automation/belt_connector (2922282787F18DF9): imported
 automation/belt_connector (2922282787F18DF9): no title, named after its first task item
-automation/belt_connector (2922282787F18DF9): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/belt_connector (2922282787F18DF9): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/block_placer (20647356BD02AC51): imported
 automation/block_breaker (7883B923A38920B9): imported
 automation/dispenser (586EFA581591FD72): imported
 automation/dispenser (586EFA581591FD72): no title, named after its first task item
-automation/dispenser (586EFA581591FD72): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/dispenser (586EFA581591FD72): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/placer (37F91090FC3DF586): imported
 automation/placer (37F91090FC3DF586): no title, named after its first task item
-automation/placer (37F91090FC3DF586): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/placer (37F91090FC3DF586): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/mechanical_drill (5BB69BE094871C04): imported
 automation/mechanical_drill (5BB69BE094871C04): no title, named after its first task item
-automation/mechanical_drill (5BB69BE094871C04): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/mechanical_drill (5BB69BE094871C04): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/starbuncle_charm (41A8C3AE12F51850): imported
 automation/starbuncle_charm (41A8C3AE12F51850): no title, named after its first task item
-automation/starbuncle_charm (41A8C3AE12F51850): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/starbuncle_charm (41A8C3AE12F51850): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/mob_damaging (5E369306ED039634): imported
 automation/ultimate_automation_tools (6961CE9521EE5279): imported
 automation/basic_spell_turret (7754CD311DA6DAA4): imported
 automation/basic_spell_turret (7754CD311DA6DAA4): no title, named after its first task item
-automation/basic_spell_turret (7754CD311DA6DAA4): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/basic_spell_turret (7754CD311DA6DAA4): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/deployer (10E2AF6AA0DE1957): imported
 automation/deployer (10E2AF6AA0DE1957): no title, named after its first task item
-automation/deployer (10E2AF6AA0DE1957): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/deployer (10E2AF6AA0DE1957): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/field_creator (5F799BA28BF9C24E): imported
 automation/field_creator (5F799BA28BF9C24E): no title, named after its first task item
-automation/field_creator (5F799BA28BF9C24E): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/field_creator (5F799BA28BF9C24E): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/bamboo_spikes (6296700FA5E5CF98): imported
 automation/bamboo_spikes (6296700FA5E5CF98): no title, named after its first task item
-automation/bamboo_spikes (6296700FA5E5CF98): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/bamboo_spikes (6296700FA5E5CF98): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/quark_item_transportation (3D5C9D562E85514E): imported
-automation/quark_item_transportation (3D5C9D562E85514E): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/quark_item_transportation (3D5C9D562E85514E): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/vanilla_way (2B04B54C341F195D): imported
-automation/vanilla_way (2B04B54C341F195D): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/vanilla_way (2B04B54C341F195D): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/vanilla_ways (2CD803C91158A465): imported
-automation/vanilla_ways (2CD803C91158A465): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/vanilla_ways (2CD803C91158A465): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/auto_crafting (085506B2810635B8): imported
 automation/auto_crafting (085506B2810635B8): no title, named after its first task
 automation/crafter (2B312995F2B9457A): imported
 automation/crafter (2B312995F2B9457A): no title, named after its first task item
-automation/crafter (2B312995F2B9457A): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/crafter (2B312995F2B9457A): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/mechanical_crafter (6E51BD3392DBC5D6): imported
 automation/mechanical_crafter (6E51BD3392DBC5D6): no title, named after its first task item
-automation/mechanical_crafter (6E51BD3392DBC5D6): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/mechanical_crafter (6E51BD3392DBC5D6): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/auto_crafter (3E3602BF68F5C926): imported
 automation/auto_crafter (3E3602BF68F5C926): no title, named after its first task item
-automation/auto_crafter (3E3602BF68F5C926): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/auto_crafter (3E3602BF68F5C926): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/destruction (5A68495E8322FC72): imported
-automation/destruction (5A68495E8322FC72): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/destruction (5A68495E8322FC72): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/item_collectors (5941068474570745): imported
 automation/item_collectors (5941068474570745): no title, named after its first task
 automation/hopper_upgrade (79518721DA4D4560): imported
 automation/hopper_upgrade (79518721DA4D4560): no title, named after its first task item
-automation/hopper_upgrade (79518721DA4D4560): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/hopper_upgrade (79518721DA4D4560): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/magnet_upgrade (064B99D930A004C4): imported
 automation/magnet_upgrade (064B99D930A004C4): no title, named after its first task item
-automation/magnet_upgrade (064B99D930A004C4): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/magnet_upgrade (064B99D930A004C4): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/device_collector (4BD524EDFDA5FFF5): imported
 automation/device_collector (4BD524EDFDA5FFF5): no title, named after its first task item
-automation/device_collector (4BD524EDFDA5FFF5): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/device_collector (4BD524EDFDA5FFF5): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/alex_s_mobs_item_transportation (1FB2E22555CD36CB): imported
-automation/alex_s_mobs_item_transportation (1FB2E22555CD36CB): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/alex_s_mobs_item_transportation (1FB2E22555CD36CB): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/bellows (3BB8FF2ED7F5B76B): imported
 automation/bellows (3BB8FF2ED7F5B76B): no title, named after its first task item
-automation/bellows (3BB8FF2ED7F5B76B): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/bellows (3BB8FF2ED7F5B76B): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/wizards_reborn_s_item_transportation (106F774ECF29F3ED): imported
-automation/wizards_reborn_s_item_transportation (106F774ECF29F3ED): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/wizards_reborn_s_item_transportation (106F774ECF29F3ED): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/iron_rod (2AF3F8354BFDB785): imported
 automation/iron_rod (2AF3F8354BFDB785): no title, named after its first task item
-automation/iron_rod (2AF3F8354BFDB785): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/iron_rod (2AF3F8354BFDB785): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/alex_s_mobs_way (4454D664EEECD423): imported
-automation/alex_s_mobs_way (4454D664EEECD423): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/alex_s_mobs_way (4454D664EEECD423): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/hopperhock (05B4C89BA68F75C3): imported
 automation/hopperhock (05B4C89BA68F75C3): no title, named after its first task item
-automation/hopperhock (05B4C89BA68F75C3): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/hopperhock (05B4C89BA68F75C3): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/mana_spreader (5F34DD73C82B6A3B): imported
 automation/mana_spreader (5F34DD73C82B6A3B): no title, named after its first task item
-automation/mana_spreader (5F34DD73C82B6A3B): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/mana_spreader (5F34DD73C82B6A3B): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/rannuncarpus (03F6FC0E6976F9F7): imported
 automation/rannuncarpus (03F6FC0E6976F9F7): no title, named after its first task item
-automation/rannuncarpus (03F6FC0E6976F9F7): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/rannuncarpus (03F6FC0E6976F9F7): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/crafty_crate (73D1B900F8142A13): imported
 automation/crafty_crate (73D1B900F8142A13): no title, named after its first task item
-automation/crafty_crate (73D1B900F8142A13): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/crafty_crate (73D1B900F8142A13): invisible until its dependencies are visible, they are hidden in FTB Quests
 automation/light_relay (4794EC1E30E1B38C): imported
 automation/light_relay (4794EC1E30E1B38C): no title, named after its first task item
-automation/light_relay (4794EC1E30E1B38C): hidden until unlocked, its dependencies are hidden in FTB Quests
+automation/light_relay (4794EC1E30E1B38C): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/item_storage (1CBDCC784C114148): imported
 storage/item_storage (1CBDCC784C114148): no title, named after its first task
 storage/repository (63F9B999733B8032): imported
 storage/repository (63F9B999733B8032): no title, named after its first task item
-storage/repository (63F9B999733B8032): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/repository (63F9B999733B8032): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/item_vault (0AA6D7DF12C7EA35): imported
 storage/item_vault (0AA6D7DF12C7EA35): no title, named after its first task item
-storage/item_vault (0AA6D7DF12C7EA35): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/item_vault (0AA6D7DF12C7EA35): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/the_most_basic_form_of_storage (24CE8EA5A982ADED): imported
 storage/the_most_basic_form_of_storage (24CE8EA5A982ADED): dependency requirement one_started approximated as completed
-storage/the_most_basic_form_of_storage (24CE8EA5A982ADED): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/the_most_basic_form_of_storage (24CE8EA5A982ADED): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/sack (07C47993064F01F0): imported
 storage/sack (07C47993064F01F0): no title, named after its first task item
-storage/sack (07C47993064F01F0): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/sack (07C47993064F01F0): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/crate (506A8F5F973A9DA0): imported
 storage/crate (506A8F5F973A9DA0): no title, named after its first task item
 storage/crate (506A8F5F973A9DA0): dependency requirement one_started approximated as completed
-storage/crate (506A8F5F973A9DA0): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/crate (506A8F5F973A9DA0): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/bundles (511D263DEE425267): imported
-storage/bundles (511D263DEE425267): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/bundles (511D263DEE425267): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/backpack (5071D5A0B03CCD10): imported
 storage/backpack (5071D5A0B03CCD10): no title, named after its first task item
-storage/backpack (5071D5A0B03CCD10): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/backpack (5071D5A0B03CCD10): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/copper_backpack (4419138FEA7EBDAE): imported
 storage/copper_backpack (4419138FEA7EBDAE): no title, named after its first task item
-storage/copper_backpack (4419138FEA7EBDAE): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/copper_backpack (4419138FEA7EBDAE): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/iron_backpack (35775F7B1B1343F5): imported
 storage/iron_backpack (35775F7B1B1343F5): no title, named after its first task item
-storage/iron_backpack (35775F7B1B1343F5): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/iron_backpack (35775F7B1B1343F5): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/diamond_backpack (653B960CC6ABE62E): imported
 storage/diamond_backpack (653B960CC6ABE62E): no title, named after its first task item
-storage/diamond_backpack (653B960CC6ABE62E): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/diamond_backpack (653B960CC6ABE62E): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/netherite_backpack (7B2380E46ADD3D68): imported
 storage/netherite_backpack (7B2380E46ADD3D68): no title, named after its first task item
-storage/netherite_backpack (7B2380E46ADD3D68): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/netherite_backpack (7B2380E46ADD3D68): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/fluid_storage (25205D8CDA01C923): imported
 storage/fluid_storage (25205D8CDA01C923): no title, named after its first task
-storage/fluid_storage (25205D8CDA01C923): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/fluid_storage (25205D8CDA01C923): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/fluid_jar (5D9784871E2DC5FC): imported
 storage/fluid_jar (5D9784871E2DC5FC): no title, named after its first task item
-storage/fluid_jar (5D9784871E2DC5FC): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/fluid_jar (5D9784871E2DC5FC): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/fluid_tank (62D22A665048A511): imported
 storage/fluid_tank (62D22A665048A511): no title, named after its first task item
-storage/fluid_tank (62D22A665048A511): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/fluid_tank (62D22A665048A511): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/fluid_cell (6398E76C0FB41209): imported
 storage/fluid_cell (6398E76C0FB41209): no title, named after its first task item
-storage/fluid_cell (6398E76C0FB41209): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/fluid_cell (6398E76C0FB41209): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/tank_upgrade (488A49BFFFB2C316): imported
 storage/tank_upgrade (488A49BFFFB2C316): no title, named after its first task item
-storage/tank_upgrade (488A49BFFFB2C316): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/tank_upgrade (488A49BFFFB2C316): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/orbital_fluid_retainer (75A1DD72AB15E518): imported
 storage/orbital_fluid_retainer (75A1DD72AB15E518): no title, named after its first task item
-storage/orbital_fluid_retainer (75A1DD72AB15E518): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/orbital_fluid_retainer (75A1DD72AB15E518): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/toolboxes (16E7032A891A8AA3): imported
-storage/toolboxes (16E7032A891A8AA3): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/toolboxes (16E7032A891A8AA3): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/gold_backpack (1DAE07EA0E5E3C79): imported
 storage/gold_backpack (1DAE07EA0E5E3C79): no title, named after its first task item
-storage/gold_backpack (1DAE07EA0E5E3C79): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/gold_backpack (1DAE07EA0E5E3C79): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/basic_tier_upgrade (6B5CAE60F049FB21): imported
 storage/basic_tier_upgrade (6B5CAE60F049FB21): no title, named after its first task item
-storage/basic_tier_upgrade (6B5CAE60F049FB21): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/basic_tier_upgrade (6B5CAE60F049FB21): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/basic_to_copper_tier_upgrade (26F23925026CD954): imported
 storage/basic_to_copper_tier_upgrade (26F23925026CD954): no title, named after its first task item
-storage/basic_to_copper_tier_upgrade (26F23925026CD954): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/basic_to_copper_tier_upgrade (26F23925026CD954): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/copper_to_iron_tier_upgrade (7EBC0B746163A1D9): imported
 storage/copper_to_iron_tier_upgrade (7EBC0B746163A1D9): no title, named after its first task item
-storage/copper_to_iron_tier_upgrade (7EBC0B746163A1D9): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/copper_to_iron_tier_upgrade (7EBC0B746163A1D9): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/iron_to_gold_tier_upgrade (20EDBDB0A941840D): imported
 storage/iron_to_gold_tier_upgrade (20EDBDB0A941840D): no title, named after its first task item
-storage/iron_to_gold_tier_upgrade (20EDBDB0A941840D): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/iron_to_gold_tier_upgrade (20EDBDB0A941840D): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/gold_to_diamond_tier_upgrade (4C3912B2C6713234): imported
 storage/gold_to_diamond_tier_upgrade (4C3912B2C6713234): no title, named after its first task item
-storage/gold_to_diamond_tier_upgrade (4C3912B2C6713234): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/gold_to_diamond_tier_upgrade (4C3912B2C6713234): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/diamond_to_netherite_tier_upgrade (1DC374F0E19AA889): imported
 storage/diamond_to_netherite_tier_upgrade (1DC374F0E19AA889): no title, named after its first task item
-storage/diamond_to_netherite_tier_upgrade (1DC374F0E19AA889): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/diamond_to_netherite_tier_upgrade (1DC374F0E19AA889): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/stack_upgrade_tier_1 (46CA7CC295C77CCF): imported
 storage/stack_upgrade_tier_1 (46CA7CC295C77CCF): no title, named after its first task item
-storage/stack_upgrade_tier_1 (46CA7CC295C77CCF): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/stack_upgrade_tier_1 (46CA7CC295C77CCF): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/stack_upgrade_tier_1_plus (15305F0AD4EFBBA2): imported
 storage/stack_upgrade_tier_1_plus (15305F0AD4EFBBA2): no title, named after its first task item
-storage/stack_upgrade_tier_1_plus (15305F0AD4EFBBA2): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/stack_upgrade_tier_1_plus (15305F0AD4EFBBA2): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/stack_upgrade_tier_2 (015EF4F6473ACF46): imported
 storage/stack_upgrade_tier_2 (015EF4F6473ACF46): no title, named after its first task item
-storage/stack_upgrade_tier_2 (015EF4F6473ACF46): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/stack_upgrade_tier_2 (015EF4F6473ACF46): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/stack_upgrade_tier_3 (174462C7CBF0AE6E): imported
 storage/stack_upgrade_tier_3 (174462C7CBF0AE6E): no title, named after its first task item
-storage/stack_upgrade_tier_3 (174462C7CBF0AE6E): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/stack_upgrade_tier_3 (174462C7CBF0AE6E): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/stack_upgrade_tier_5 (53E052FC3255D124): imported
 storage/stack_upgrade_tier_5 (53E052FC3255D124): no title, named after its first task item
-storage/stack_upgrade_tier_5 (53E052FC3255D124): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/stack_upgrade_tier_5 (53E052FC3255D124): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/stack_upgrade_tier_4 (3D2FE20EFA820B9A): imported
 storage/stack_upgrade_tier_4 (3D2FE20EFA820B9A): no title, named after its first task item
-storage/stack_upgrade_tier_4 (3D2FE20EFA820B9A): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/stack_upgrade_tier_4 (3D2FE20EFA820B9A): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/stack_upgrade_omega_tier (7AA5825213A3E2CE): imported
 storage/stack_upgrade_omega_tier (7AA5825213A3E2CE): no title, named after its first task item
-storage/stack_upgrade_omega_tier (7AA5825213A3E2CE): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/stack_upgrade_omega_tier (7AA5825213A3E2CE): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/stack_upgrade_starter_tier (7A5CCBF1F069683F): imported
 storage/stack_upgrade_starter_tier (7A5CCBF1F069683F): no title, named after its first task item
-storage/stack_upgrade_starter_tier (7A5CCBF1F069683F): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/stack_upgrade_starter_tier (7A5CCBF1F069683F): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/stack_upgrade_tier_1_2 (573E15BE5C158215): imported
 storage/stack_upgrade_tier_1_2 (573E15BE5C158215): no title, named after its first task item
-storage/stack_upgrade_tier_1_2 (573E15BE5C158215): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/stack_upgrade_tier_1_2 (573E15BE5C158215): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/stack_upgrade_tier_2_2 (229D84315B128481): imported
 storage/stack_upgrade_tier_2_2 (229D84315B128481): no title, named after its first task item
-storage/stack_upgrade_tier_2_2 (229D84315B128481): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/stack_upgrade_tier_2_2 (229D84315B128481): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/stack_upgrade_tier_3_2 (2B961350E9187842): imported
 storage/stack_upgrade_tier_3_2 (2B961350E9187842): no title, named after its first task item
-storage/stack_upgrade_tier_3_2 (2B961350E9187842): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/stack_upgrade_tier_3_2 (2B961350E9187842): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/stack_upgrade_tier_4_2 (34B1D697E765193C): imported
 storage/stack_upgrade_tier_4_2 (34B1D697E765193C): no title, named after its first task item
-storage/stack_upgrade_tier_4_2 (34B1D697E765193C): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/stack_upgrade_tier_4_2 (34B1D697E765193C): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/stack_upgrade_omega_tier_2 (1BE398C7FE5D84DE): imported
 storage/stack_upgrade_omega_tier_2 (1BE398C7FE5D84DE): no title, named after its first task item
-storage/stack_upgrade_omega_tier_2 (1BE398C7FE5D84DE): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/stack_upgrade_omega_tier_2 (1BE398C7FE5D84DE): invisible until its dependencies are visible, they are hidden in FTB Quests
 storage/shulker_box (3891F7E8C10DDD59): imported
 storage/shulker_box (3891F7E8C10DDD59): no title, named after its first task item
-storage/shulker_box (3891F7E8C10DDD59): hidden until unlocked, its dependencies are hidden in FTB Quests
+storage/shulker_box (3891F7E8C10DDD59): invisible until its dependencies are visible, they are hidden in FTB Quests
 cursed_ring/q7709f06aff8698e8 (7709F06AFF8698E8): imported
 melomaniac/music_disc_chirp (2926BDF2DE615D5A): imported
 melomaniac/music_disc_chirp (2926BDF2DE615D5A): no title, named after its first task item
@@ -3633,67 +3627,36 @@ dendrologist/mahogany_sapling (09A0E8A865065D7E): imported
 dendrologist/mahogany_sapling (09A0E8A865065D7E): no title, named after its first task item
 dendrologist/mangrove_propagule (221E3EAEA9C76CB4): imported
 dendrologist/mangrove_propagule (221E3EAEA9C76CB4): no title, named after its first task item
-welcome: replaced existing chapter folder (11 files)
 welcome: wrote 10 quests
-stages: replaced existing chapter folder (7 files)
-stages: wrote 6 quests
-gambling: replaced existing chapter folder (8 files)
+stages: wrote 5 quests
 gambling: wrote 7 quests
-market: replaced existing chapter folder (51 files)
 market: wrote 50 quests
-gameplay_tools_and_tips: replaced existing chapter folder (9 files)
 gameplay_tools_and_tips: wrote 8 quests
-building_tools_and_tips: replaced existing chapter folder (12 files)
 building_tools_and_tips: wrote 11 quests
-introduction: replaced existing chapter folder (45 files)
 introduction: wrote 44 quests
-tier_1: replaced existing chapter folder (53 files)
 tier_1: wrote 52 quests
-tier_2: replaced existing chapter folder (48 files)
 tier_2: wrote 47 quests
-tier_3: replaced existing chapter folder (22 files)
 tier_3: wrote 21 quests
-basic_logistics: replaced existing chapter folder (4 files)
 basic_logistics: wrote 3 quests
-tier_5_flower_madness: replaced existing chapter folder (1 files)
 tier_5_flower_madness: wrote 0 quests
-alchemy: replaced existing chapter folder (17 files)
 alchemy: wrote 16 quests
-spellcasting: replaced existing chapter folder (32 files)
 spellcasting: wrote 31 quests
-automation: replaced existing chapter folder (42 files)
 automation: wrote 41 quests
-storage: replaced existing chapter folder (41 files)
 storage: wrote 40 quests
-food: replaced existing chapter folder (1 files)
 food: wrote 0 quests
-cursed_ring: replaced existing chapter folder (2 files)
 cursed_ring: wrote 1 quests
-melomaniac: replaced existing chapter folder (69 files)
 melomaniac: wrote 68 quests
-master_chef: replaced existing chapter folder (147 files)
 master_chef: wrote 146 quests
-confectioner_extraordinaire: replaced existing chapter folder (159 files)
 confectioner_extraordinaire: wrote 158 quests
-master_enchanter: replaced existing chapter folder (119 files)
 master_enchanter: wrote 118 quests
-weaponry_owner: replaced existing chapter folder (72 files)
 weaponry_owner: wrote 71 quests
-armor_specialist: replaced existing chapter folder (102 files)
 armor_specialist: wrote 101 quests
-sorcerer_supreme: replaced existing chapter folder (268 files)
 sorcerer_supreme: wrote 267 quests
-master_accessorizer: replaced existing chapter folder (188 files)
 master_accessorizer: wrote 187 quests
-sharpshooter: replaced existing chapter folder (30 files)
 sharpshooter: wrote 29 quests
-archeologist: replaced existing chapter folder (22 files)
 archeologist: wrote 21 quests
-standard_bearer: replaced existing chapter folder (29 files)
 standard_bearer: wrote 28 quests
-archfisher: replaced existing chapter folder (147 files)
 archfisher: wrote 146 quests
-dendrologist: replaced existing chapter folder (104 files)
 dendrologist: wrote 103 quests
 reward_tables/waystones2: wrote
 reward_tables/emergencyfood: wrote

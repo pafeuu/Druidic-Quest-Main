@@ -3,6 +3,7 @@
   "icon": "farmersdelight:cooking_pot",
   "order": 16,
   "scope": "team",
+  "visibility": "hidden",
   "group": "side_questline",
   "defaults": {
     "progression": "linear"

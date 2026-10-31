@@ -4,13 +4,7 @@
     "5 Silver Coins"
   ],
   "icon": "woodenhopper:wooden_hopper",
-  "x": 0.5,
-  "y": 8,
-  "deps": {
-    "all": [
-      "market/market"
-    ]
-  },
+  "y": 7.5,
   "tasks": [
     {
       "item": "thermal:silver_coin",
@@ -25,7 +19,9 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "full",
   "repeat": {},
-  "shape": "diamond"
+  "progression": "linear",
+  "shape": "diamond",
+  "invisible_until_deps_visible": true
 }

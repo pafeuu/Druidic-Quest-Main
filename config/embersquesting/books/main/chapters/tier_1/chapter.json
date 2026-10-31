@@ -3,6 +3,7 @@
   "icon": "ars_nouveau:source_gem",
   "order": 7,
   "scope": "team",
+  "visibility": "hidden",
   "group": "main_questline",
   "defaults": {
     "progression": "linear"

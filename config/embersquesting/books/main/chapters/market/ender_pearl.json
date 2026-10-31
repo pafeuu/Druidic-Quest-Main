@@ -4,11 +4,10 @@
     "3 Gold Coins"
   ],
   "icon": "minecraft:ender_pearl",
-  "x": 9,
-  "y": 8,
+  "x": 8.5,
+  "y": 7.5,
   "deps": {
     "all": [
-      "market/market",
       "tier_2/visit_the_nether"
     ]
   },
@@ -27,7 +26,9 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "full",
   "repeat": {},
-  "shape": "diamond"
+  "progression": "linear",
+  "shape": "diamond",
+  "invisible_until_deps_visible": true
 }

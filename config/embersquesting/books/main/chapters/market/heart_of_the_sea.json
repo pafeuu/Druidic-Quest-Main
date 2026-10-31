@@ -4,13 +4,8 @@
     "1 Netherite Coin"
   ],
   "icon": "minecraft:heart_of_the_sea",
-  "x": 16.5,
-  "y": 6.5,
-  "deps": {
-    "all": [
-      "market/market"
-    ]
-  },
+  "x": 16.75,
+  "y": 6,
   "tasks": [
     {
       "item": "thermal:netherite_coin",
@@ -24,7 +19,9 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "full",
   "repeat": {},
-  "shape": "diamond"
+  "progression": "linear",
+  "shape": "diamond",
+  "invisible_until_deps_visible": true
 }

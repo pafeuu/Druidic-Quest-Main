@@ -7,11 +7,6 @@
   "icon": "minecraft:cobblestone",
   "x": 0.5,
   "y": 0.5,
-  "deps": {
-    "all": [
-      "gambling/welcome_to_the_casino"
-    ]
-  },
   "tasks": [
     {
       "item": "thermal:gold_coin",
@@ -31,7 +26,7 @@
       "type": "table"
     }
   ],
-  "visibility": "hidden",
   "repeat": {},
-  "shape": "diamond"
+  "shape": "diamond",
+  "invisible_until_deps_visible": true
 }

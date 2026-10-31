@@ -4,11 +4,10 @@
     "1 Gold Coin"
   ],
   "icon": "botania:livingwood_log",
-  "x": 12,
-  "y": 3.5,
+  "x": 11.5,
+  "y": 3,
   "deps": {
     "all": [
-      "market/market",
       "tier_1/basic_automation_material"
     ]
   },
@@ -26,7 +25,9 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "full",
   "repeat": {},
-  "shape": "diamond"
+  "progression": "linear",
+  "shape": "diamond",
+  "invisible_until_deps_visible": true
 }

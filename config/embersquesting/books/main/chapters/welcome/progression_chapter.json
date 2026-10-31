@@ -22,7 +22,12 @@
     {
       "item": "thermal:silver_coin",
       "type": "item"
+    },
+    {
+      "chapter": "introduction",
+      "type": "chapter"
     }
   ],
+  "progression": "linear",
   "shape": "gear"
 }

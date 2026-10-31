@@ -22,8 +22,13 @@
     {
       "item": "thermal:gold_coin",
       "type": "item"
+    },
+    {
+      "chapter": "market",
+      "type": "chapter"
     }
   ],
-  "visibility": "hidden",
-  "shape": "gear"
+  "progression": "linear",
+  "shape": "gear",
+  "invisible_until_deps_visible": true
 }

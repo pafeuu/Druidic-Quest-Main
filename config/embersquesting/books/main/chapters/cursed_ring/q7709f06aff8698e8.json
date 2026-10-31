@@ -4,6 +4,7 @@
     "§4Nothing here yet§r"
   ],
   "icon": "enigmaticlegacy:cursed_ring",
+  "x": -0.5,
   "y": 0.5,
   "tasks": [
     {
@@ -13,6 +14,7 @@
       "icon": "enigmaticlegacy:cursed_ring"
     }
   ],
+  "progression": "linear",
   "shape": "circle",
   "notify": {
     "complete": "none"

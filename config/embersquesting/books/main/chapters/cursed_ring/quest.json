@@ -1,0 +1,18 @@
+{
+  "title": "",
+  "x": 1,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "cursed_ring/q7709f06aff8698e8"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "enigmaticlegacy:soul_compass",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "progression": "linear"
+}

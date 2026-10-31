@@ -69,10 +69,15 @@
     {
       "item": "enigmaticlegacy:cursed_ring",
       "type": "item"
+    },
+    {
+      "chapter": "cursed_ring",
+      "type": "chapter"
     }
   ],
-  "visibility": "hidden",
   "optional": true,
+  "invisible_until_deps_visible": true,
   "size": 2.0,
+  "progression": "linear",
   "shape": "heart"
 }

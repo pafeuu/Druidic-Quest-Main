@@ -1,0 +1,22 @@
+{
+  "title": "basic_totems",
+  "icon": "minecraft:chest",
+  "options": [
+    {
+      "item": "kubejs:roadrunner_totem",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:leafcutter_ant_totem",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:crab_totem",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:anaconda_totem",
+      "type": "item"
+    }
+  ]
+}

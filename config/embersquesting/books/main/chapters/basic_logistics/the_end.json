@@ -29,7 +29,8 @@
       "type": "kill"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "unknown",
   "complete": "any",
+  "invisible_until_deps_visible": true,
   "shape": "rsquare"
 }

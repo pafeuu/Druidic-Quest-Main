@@ -4,11 +4,10 @@
     "1 Gold Coin"
   ],
   "icon": "naturesaura:gold_powder",
-  "x": 13.5,
-  "y": 3.5,
+  "x": 13,
+  "y": 3,
   "deps": {
     "all": [
-      "market/market",
       "introduction/assemble_the_ritual"
     ]
   },
@@ -26,7 +25,9 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "full",
   "repeat": {},
-  "shape": "diamond"
+  "progression": "linear",
+  "shape": "diamond",
+  "invisible_until_deps_visible": true
 }

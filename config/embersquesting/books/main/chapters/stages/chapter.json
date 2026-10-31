@@ -2,6 +2,7 @@
   "title": "Stages",
   "order": 1,
   "scope": "team",
+  "visibility": "always_hidden",
   "defaults": {
     "progression": "linear"
   }

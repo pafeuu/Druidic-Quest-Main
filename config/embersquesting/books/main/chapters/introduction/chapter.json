@@ -3,8 +3,10 @@
   "icon": "minecraft:flint",
   "order": 6,
   "scope": "team",
+  "visibility": "hidden",
   "group": "main_questline",
   "defaults": {
-    "progression": "linear"
+    "progression": "linear",
+    "visibility": "full"
   }
 }

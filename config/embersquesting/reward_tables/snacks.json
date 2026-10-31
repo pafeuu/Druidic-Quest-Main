@@ -14,7 +14,7 @@
     },
     {
       "item": "supplementaries:sack",
-      "components": "{BlockEntityTag:{ForgeCaps:{\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:2b,Slot:0b,id:\"farmersdelight:egg_sandwich\"},{Count:2b,Slot:1b,id:\"farmersdelight:chicken_sandwich\"},{Count:2b,Slot:2b,id:\"brewinandchewin:ham_and_cheese_sandwich\"},{Count:2b,Slot:3b,id:\"farmersdelight:egg_sandwich\"},{Count:2b,Slot:4b,id:\"farmersdelight:chicken_sandwich\"},{Count:2b,Slot:5b,id:\"brewinandchewin:ham_and_cheese_sandwich\"},{Count:2b,Slot:6b,id:\"farmersdelight:egg_sandwich\"},{Count:2b,Slot:7b,id:\"farmersdelight:chicken_sandwich\"},{Count:2b,Slot:8b,id:\"brewinandchewin:ham_and_cheese_sandwich\"}]}}",
+      "components": "{BlockEntityTag:{ForgeCaps:{\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:2b,Slot:0b,id:\"farmersdelight:egg_sandwich\"},{Count:2b,Slot:1b,id:\"farmersdelight:chicken_sandwich\"},{Count:2b,Slot:2b,id:\"farmersdelight:bacon_sandwich\"},{Count:2b,Slot:3b,id:\"farmersdelight:egg_sandwich\"},{Count:2b,Slot:4b,id:\"farmersdelight:chicken_sandwich\"},{Count:2b,Slot:5b,id:\"farmersdelight:bacon_sandwich\"},{Count:2b,Slot:6b,id:\"farmersdelight:egg_sandwich\"},{Count:2b,Slot:7b,id:\"farmersdelight:chicken_sandwich\"},{Count:2b,Slot:8b,id:\"farmersdelight:bacon_sandwich\"}]}}",
       "type": "item"
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "item": "supplementaries:sack",
-      "components": "{BlockEntityTag:{ForgeCaps:{\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:10b,Slot:0b,id:\"brewinandchewin:pizza_slice\"},{Count:10b,Slot:1b,id:\"vintagedelight:cheese_pizza_slice\"},{Count:10b,Slot:2b,id:\"vintagedelight:meat_pizza_slice\"},{Count:10b,Slot:3b,id:\"brewinandchewin:pizza_slice\"},{Count:10b,Slot:4b,id:\"vintagedelight:cheese_pizza_slice\"},{Count:10b,Slot:5b,id:\"vintagedelight:meat_pizza_slice\"},{Count:10b,Slot:6b,id:\"brewinandchewin:pizza_slice\"},{Count:10b,Slot:7b,id:\"vintagedelight:cheese_pizza_slice\"},{Count:10b,Slot:8b,id:\"vintagedelight:meat_pizza_slice\"}]}}",
+      "components": "{BlockEntityTag:{ForgeCaps:{\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:10b,Slot:0b,id:\"vintagedelight:cheese_pizza_slice\"},{Count:10b,Slot:1b,id:\"vintagedelight:cheese_pizza_slice\"},{Count:10b,Slot:2b,id:\"vintagedelight:meat_pizza_slice\"},{Count:10b,Slot:3b,id:\"vintagedelight:cheese_pizza_slice\"},{Count:10b,Slot:4b,id:\"vintagedelight:cheese_pizza_slice\"},{Count:10b,Slot:5b,id:\"vintagedelight:meat_pizza_slice\"},{Count:10b,Slot:6b,id:\"vintagedelight:cheese_pizza_slice\"},{Count:10b,Slot:7b,id:\"vintagedelight:cheese_pizza_slice\"},{Count:10b,Slot:8b,id:\"vintagedelight:meat_pizza_slice\"}]}}",
       "type": "item"
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "item": "supplementaries:sack",
-      "components": "{BlockEntityTag:{ForgeCaps:{\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:3b,Slot:0b,id:\"brewinandchewin:jerky\"},{Count:3b,Slot:1b,id:\"brewinandchewin:jerky\"},{Count:3b,Slot:2b,id:\"brewinandchewin:jerky\"},{Count:3b,Slot:3b,id:\"brewinandchewin:jerky\"},{Count:3b,Slot:4b,id:\"brewinandchewin:jerky\"},{Count:3b,Slot:5b,id:\"brewinandchewin:jerky\"},{Count:3b,Slot:6b,id:\"brewinandchewin:jerky\"},{Count:3b,Slot:7b,id:\"brewinandchewin:jerky\"},{Count:3b,Slot:8b,id:\"brewinandchewin:jerky\"}]}}",
+      "components": "{BlockEntityTag:{ForgeCaps:{\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:3b,Slot:0b,id:\"vintagedelight:salted_cod\"},{Count:3b,Slot:1b,id:\"vintagedelight:salted_cod\"},{Count:3b,Slot:2b,id:\"vintagedelight:salted_cod\"},{Count:3b,Slot:3b,id:\"vintagedelight:salted_cod\"},{Count:3b,Slot:4b,id:\"vintagedelight:salted_cod\"},{Count:3b,Slot:5b,id:\"vintagedelight:salted_cod\"},{Count:3b,Slot:6b,id:\"vintagedelight:salted_cod\"},{Count:3b,Slot:7b,id:\"vintagedelight:salted_cod\"},{Count:3b,Slot:8b,id:\"vintagedelight:salted_cod\"}]}}",
       "type": "item"
     }
   ]

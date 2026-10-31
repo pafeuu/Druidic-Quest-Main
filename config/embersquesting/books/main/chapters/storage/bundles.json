@@ -5,12 +5,7 @@
   ],
   "icon": "silly_oddities:rainbow_bundle",
   "x": 3,
-  "y": 6,
-  "deps": {
-    "all": [
-      "storage/item_storage"
-    ]
-  },
+  "y": 5,
   "tasks": [
     {
       "tag": "silly_oddities:bundles",
@@ -25,6 +20,6 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
-  "shape": "circle"
+  "shape": "circle",
+  "invisible_until_deps_visible": true
 }

@@ -4,11 +4,10 @@
     "3 Silver Coins"
   ],
   "icon": "farmersdelight:potato_crate",
-  "x": 5,
-  "y": 5,
+  "x": 4.5,
+  "y": 4.5,
   "deps": {
     "all": [
-      "market/market",
       "introduction/potato_farming"
     ]
   },
@@ -27,7 +26,9 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "full",
   "repeat": {},
-  "shape": "diamond"
+  "progression": "linear",
+  "shape": "diamond",
+  "invisible_until_deps_visible": true
 }

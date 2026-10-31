@@ -1,0 +1,21 @@
+{
+  "title": "create_windows",
+  "icon": "minecraft:chest",
+  "options": [
+    {
+      "item": "create:ornate_iron_window",
+      "count": 12,
+      "type": "item"
+    },
+    {
+      "item": "create:industrial_iron_window",
+      "count": 12,
+      "type": "item"
+    },
+    {
+      "item": "create:weathered_iron_window",
+      "count": 12,
+      "type": "item"
+    }
+  ]
+}

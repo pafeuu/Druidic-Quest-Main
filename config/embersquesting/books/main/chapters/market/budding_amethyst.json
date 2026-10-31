@@ -5,12 +5,11 @@
     "§o§4§nOne time offer!§r§r§r"
   ],
   "icon": "minecraft:budding_amethyst",
-  "x": 15,
-  "y": 3.5,
+  "x": 15.25,
+  "y": 3,
   "deps": {
     "all": [
-      "tier_1/find_an_amethyst_geode",
-      "market/market"
+      "tier_1/find_an_amethyst_geode"
     ]
   },
   "tasks": [
@@ -26,6 +25,8 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
-  "shape": "pentagon"
+  "visibility": "full",
+  "progression": "linear",
+  "shape": "pentagon",
+  "invisible_until_deps_visible": true
 }

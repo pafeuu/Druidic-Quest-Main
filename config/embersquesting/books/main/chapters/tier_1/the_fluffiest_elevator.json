@@ -33,7 +33,8 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "unknown",
   "optional": true,
+  "invisible_until_deps_visible": true,
   "shape": "pentagon"
 }

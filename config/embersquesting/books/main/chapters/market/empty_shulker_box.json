@@ -4,11 +4,10 @@
     "1 Gold Coin + 2 Silver Coins"
   ],
   "icon": "minecraft:brown_shulker_box",
-  "x": 13.5,
-  "y": 8,
+  "x": 13,
+  "y": 7.5,
   "deps": {
     "all": [
-      "market/market",
       "tier_1/brown_shulker_box"
     ]
   },
@@ -31,7 +30,9 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "full",
   "repeat": {},
-  "shape": "diamond"
+  "progression": "linear",
+  "shape": "diamond",
+  "invisible_until_deps_visible": true
 }

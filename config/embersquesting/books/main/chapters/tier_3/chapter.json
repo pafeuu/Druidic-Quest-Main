@@ -3,6 +3,7 @@
   "icon": "druidic_quest_core:steel_ingot",
   "order": 9,
   "scope": "team",
+  "visibility": "hidden",
   "group": "main_questline",
   "defaults": {
     "progression": "linear"

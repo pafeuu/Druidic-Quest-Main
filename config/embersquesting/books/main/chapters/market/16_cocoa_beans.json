@@ -4,13 +4,8 @@
     "1 Gold Coin"
   ],
   "icon": "minecraft:cocoa_beans",
-  "x": 10.5,
-  "y": 3.5,
-  "deps": {
-    "all": [
-      "market/market"
-    ]
-  },
+  "x": 10,
+  "y": 3,
   "tasks": [
     {
       "item": "thermal:gold_coin",
@@ -25,7 +20,9 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "full",
   "repeat": {},
-  "shape": "diamond"
+  "progression": "linear",
+  "shape": "diamond",
+  "invisible_until_deps_visible": true
 }

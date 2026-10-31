@@ -3,6 +3,7 @@
   "icon": "botania:gaia_ingot",
   "order": 11,
   "scope": "team",
+  "visibility": "hidden",
   "group": "main_questline",
   "defaults": {
     "progression": "linear"

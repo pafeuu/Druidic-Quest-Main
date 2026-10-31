@@ -4,13 +4,8 @@
     "1 Silver Coin"
   ],
   "icon": "minecraft:birch_sapling",
-  "x": 2,
-  "y": 3.5,
-  "deps": {
-    "all": [
-      "market/market"
-    ]
-  },
+  "x": 1.5,
+  "y": 3,
   "tasks": [
     {
       "item": "thermal:silver_coin",
@@ -25,7 +20,9 @@
       "auto": "claim"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "full",
   "repeat": {},
-  "shape": "diamond"
+  "progression": "linear",
+  "shape": "diamond",
+  "invisible_until_deps_visible": true
 }

@@ -5,6 +5,18 @@
   "scope": "team",
   "group": "ultimate_collector",
   "defaults": {
+    "invisible_until_deps_visible": true,
     "progression": "flexible"
-  }
+  },
+  "decorations": [
+    {
+      "width": 4.0,
+      "content": {
+        "text": "",
+        "type": "label"
+      },
+      "x": 3.75,
+      "y": -2.5
+    }
+  ]
 }

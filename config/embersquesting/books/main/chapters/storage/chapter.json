@@ -6,5 +6,29 @@
   "group": "side_questline",
   "defaults": {
     "progression": "linear"
-  }
+  },
+  "decorations": [
+    {
+      "width": 4.0,
+      "content": {
+        "color": "#32339C",
+        "text": "Item Storage",
+        "scale": 2.0,
+        "type": "label"
+      },
+      "x": 1.75,
+      "y": 1.75
+    },
+    {
+      "width": 4.5,
+      "content": {
+        "color": "#32339C",
+        "text": "Fluid Storage",
+        "scale": 2.0,
+        "type": "label"
+      },
+      "x": 11.25,
+      "y": 1.75
+    }
+  ]
 }

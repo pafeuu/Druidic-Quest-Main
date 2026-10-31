@@ -29,6 +29,7 @@
     }
   ],
   "visibility": "hidden",
+  "invisible_until_deps_visible": true,
   "size": 0.9,
   "shape": "circle",
   "notify": {

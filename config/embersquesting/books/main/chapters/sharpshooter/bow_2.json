@@ -23,5 +23,6 @@
     }
   ],
   "visibility": "hidden",
+  "invisible_until_deps_visible": true,
   "shape": "circle"
 }

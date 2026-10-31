@@ -4,13 +4,8 @@
     "4 Silver Coins"
   ],
   "icon": "minecraft:cherry_sapling",
-  "x": 3.5,
-  "y": 6.5,
-  "deps": {
-    "all": [
-      "market/market"
-    ]
-  },
+  "x": 3,
+  "y": 6,
   "tasks": [
     {
       "item": "thermal:silver_coin",
@@ -25,7 +20,9 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "full",
   "repeat": {},
-  "shape": "diamond"
+  "progression": "linear",
+  "shape": "diamond",
+  "invisible_until_deps_visible": true
 }

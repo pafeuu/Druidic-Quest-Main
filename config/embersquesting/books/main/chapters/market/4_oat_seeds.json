@@ -4,13 +4,8 @@
     "5 Silver Coins"
   ],
   "icon": "vintagedelight:oat",
-  "x": 5,
-  "y": 8,
-  "deps": {
-    "all": [
-      "market/market"
-    ]
-  },
+  "x": 4.5,
+  "y": 7.5,
   "tasks": [
     {
       "item": "thermal:silver_coin",
@@ -26,7 +21,9 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "full",
   "repeat": {},
-  "shape": "diamond"
+  "progression": "linear",
+  "shape": "diamond",
+  "invisible_until_deps_visible": true
 }

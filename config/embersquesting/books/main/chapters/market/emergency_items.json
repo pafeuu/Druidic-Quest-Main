@@ -7,13 +7,8 @@
     "Pro Tip: if you don't want extra coins filling your inventory, you can spend them in advance and claim your rewards when you need them!"
   ],
   "icon": "minecraft:wooden_pickaxe{Damage:0}",
-  "x": 7,
-  "y": 9.5,
-  "deps": {
-    "all": [
-      "market/market"
-    ]
-  },
+  "x": 6.5,
+  "y": 6,
   "tasks": [
     {
       "item": "thermal:silver_coin",
@@ -42,7 +37,9 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "full",
   "repeat": {},
-  "shape": "diamond"
+  "progression": "linear",
+  "shape": "diamond",
+  "invisible_until_deps_visible": true
 }

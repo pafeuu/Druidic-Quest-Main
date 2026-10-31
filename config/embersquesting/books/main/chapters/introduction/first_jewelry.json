@@ -49,7 +49,8 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
   "optional": true,
+  "invisible_until_deps_visible": true,
+  "progression": "linear",
   "shape": "circle"
 }

@@ -6,11 +6,6 @@
   "icon": "minecraft:barrel",
   "x": 1,
   "y": 5,
-  "deps": {
-    "any": [
-      "storage/item_storage"
-    ]
-  },
   "tasks": [
     {
       "item": "minecraft:chest",
@@ -28,6 +23,6 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
-  "shape": "circle"
+  "shape": "circle",
+  "invisible_until_deps_visible": true
 }

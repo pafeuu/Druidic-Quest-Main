@@ -3,6 +3,7 @@
   "icon": "create:andesite_alloy",
   "order": 8,
   "scope": "team",
+  "visibility": "hidden",
   "group": "main_questline",
   "defaults": {
     "progression": "linear"

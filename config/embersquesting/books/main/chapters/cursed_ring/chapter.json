@@ -3,8 +3,10 @@
   "icon": "enigmaticlegacy:cursed_ring",
   "order": 17,
   "scope": "team",
+  "visibility": "hidden",
   "group": "side_questline",
   "defaults": {
-    "progression": "linear"
+    "progression": "linear",
+    "visibility": "full"
   }
 }

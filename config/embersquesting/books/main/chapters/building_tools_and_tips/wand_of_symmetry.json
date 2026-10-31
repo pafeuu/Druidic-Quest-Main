@@ -26,6 +26,7 @@
     }
   ],
   "visibility": "hidden",
+  "invisible_until_deps_visible": true,
   "size": 2.0,
   "shape": "circle"
 }

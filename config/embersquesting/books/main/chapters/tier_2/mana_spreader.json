@@ -22,6 +22,7 @@
       "title": "Any #botania:lens"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "unknown",
+  "invisible_until_deps_visible": true,
   "shape": "circle"
 }

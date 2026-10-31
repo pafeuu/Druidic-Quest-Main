@@ -4,11 +4,10 @@
     "1 Gold Coin"
   ],
   "icon": "minecraft:blaze_rod",
-  "x": 10.5,
-  "y": 5,
+  "x": 10,
+  "y": 4.5,
   "deps": {
     "all": [
-      "market/market",
       "tier_2/visit_the_nether"
     ]
   },
@@ -26,7 +25,9 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "full",
   "repeat": {},
-  "shape": "diamond"
+  "progression": "linear",
+  "shape": "diamond",
+  "invisible_until_deps_visible": true
 }

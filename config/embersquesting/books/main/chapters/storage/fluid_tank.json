@@ -1,13 +1,8 @@
 {
   "title": "Fluid Tank",
   "icon": "create:fluid_tank",
-  "x": 13,
-  "y": 1,
-  "deps": {
-    "all": [
-      "storage/fluid_storage"
-    ]
-  },
+  "x": 15,
+  "y": 5,
   "tasks": [
     {
       "item": "create:fluid_tank",
@@ -21,6 +16,6 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
-  "shape": "circle"
+  "shape": "circle",
+  "invisible_until_deps_visible": true
 }

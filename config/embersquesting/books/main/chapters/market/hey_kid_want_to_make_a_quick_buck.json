@@ -4,10 +4,9 @@
     "No risk! Trust me bro..."
   ],
   "icon": "thermal:netherite_coin",
-  "x": 7,
+  "x": 6.5,
   "deps": {
     "all": [
-      "market/market",
       "introduction/sack"
     ]
   },
@@ -29,9 +28,14 @@
       "table": "tier1treasure",
       "type": "table",
       "claim_all": false
+    },
+    {
+      "chapter": "gambling",
+      "type": "chapter"
     }
   ],
-  "visibility": "hidden",
-  "size": 2.0,
-  "shape": "gear"
+  "progression": "linear",
+  "shape": "gear",
+  "invisible_until_deps_visible": true,
+  "size": 2.0
 }
