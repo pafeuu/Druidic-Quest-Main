@@ -153,7 +153,7 @@
 							{
 								Count: 2b
 								Slot: 2b
-								id: "brewinandchewin:ham_and_cheese_sandwich"
+								id: "farmersdelight:bacon_sandwich"
 							}
 							{
 								Count: 2b
@@ -168,7 +168,7 @@
 							{
 								Count: 2b
 								Slot: 5b
-								id: "brewinandchewin:ham_and_cheese_sandwich"
+								id: "farmersdelight:bacon_sandwich"
 							}
 							{
 								Count: 2b
@@ -183,7 +183,7 @@
 							{
 								Count: 2b
 								Slot: 8b
-								id: "brewinandchewin:ham_and_cheese_sandwich"
+								id: "farmersdelight:bacon_sandwich"
 							}
 						]
 					}
@@ -267,7 +267,7 @@
 							{
 								Count: 10b
 								Slot: 0b
-								id: "brewinandchewin:pizza_slice"
+								id: "vintagedelight:cheese_pizza_slice"
 							}
 							{
 								Count: 10b
@@ -282,7 +282,7 @@
 							{
 								Count: 10b
 								Slot: 3b
-								id: "brewinandchewin:pizza_slice"
+								id: "vintagedelight:cheese_pizza_slice"
 							}
 							{
 								Count: 10b
@@ -297,7 +297,7 @@
 							{
 								Count: 10b
 								Slot: 6b
-								id: "brewinandchewin:pizza_slice"
+								id: "vintagedelight:cheese_pizza_slice"
 							}
 							{
 								Count: 10b
@@ -473,47 +473,47 @@
 							{
 								Count: 3b
 								Slot: 0b
-								id: "brewinandchewin:jerky"
+								id: "vintagedelight:salted_cod"
 							}
 							{
 								Count: 3b
 								Slot: 1b
-								id: "brewinandchewin:jerky"
+								id: "vintagedelight:salted_cod"
 							}
 							{
 								Count: 3b
 								Slot: 2b
-								id: "brewinandchewin:jerky"
+								id: "vintagedelight:salted_cod"
 							}
 							{
 								Count: 3b
 								Slot: 3b
-								id: "brewinandchewin:jerky"
+								id: "vintagedelight:salted_cod"
 							}
 							{
 								Count: 3b
 								Slot: 4b
-								id: "brewinandchewin:jerky"
+								id: "vintagedelight:salted_cod"
 							}
 							{
 								Count: 3b
 								Slot: 5b
-								id: "brewinandchewin:jerky"
+								id: "vintagedelight:salted_cod"
 							}
 							{
 								Count: 3b
 								Slot: 6b
-								id: "brewinandchewin:jerky"
+								id: "vintagedelight:salted_cod"
 							}
 							{
 								Count: 3b
 								Slot: 7b
-								id: "brewinandchewin:jerky"
+								id: "vintagedelight:salted_cod"
 							}
 							{
 								Count: 3b
 								Slot: 8b
-								id: "brewinandchewin:jerky"
+								id: "vintagedelight:salted_cod"
 							}
 						]
 					}

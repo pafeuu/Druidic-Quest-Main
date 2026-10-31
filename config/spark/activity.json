@@ -5,6 +5,58 @@
       "name": "paffeu",
       "uniqueId": "e4821349-c45e-4877-8d3b-04d6d091997d"
     },
+    "time": 1792841112032,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/urdjOHb8j3"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "paffeu",
+      "uniqueId": "e4821349-c45e-4877-8d3b-04d6d091997d"
+    },
+    "time": 1792839006900,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/k0hs30nmE2"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "paffeu",
+      "uniqueId": "e4821349-c45e-4877-8d3b-04d6d091997d"
+    },
+    "time": 1792825522788,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/F4IUaHDSLJ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "paffeu",
+      "uniqueId": "e4821349-c45e-4877-8d3b-04d6d091997d"
+    },
+    "time": 1791970949322,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/OtboiFOSxZ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "paffeu",
+      "uniqueId": "e4821349-c45e-4877-8d3b-04d6d091997d"
+    },
     "time": 1738588171785,
     "type": "Heap dump",
     "data": {

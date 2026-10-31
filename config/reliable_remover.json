@@ -20,6 +20,9 @@
   "enableEmiRemoval": true,
   "showEmiToast": true,
   "showEmiChatMessages": true,
+  "enableJeiRemoval": false,
+  "showJeiToast": true,
+  "showJeiChatMessages": true,
   "reloadAfterRemoval": false,
   "blacklistedItems": [
     "botania:mana_distributor",
@@ -31,6 +34,13 @@
     "immersive_weathering:botania/dreamwood_scales",
     "botania:dreamwood_wand",
     "enigmaticlegacy:eldritch_amulet",
-    "naturesaura:rf_converter"
+    "naturesaura:rf_converter",
+    "botania:lens_efficiency",
+    "natures_spirit:whole_pizza",
+    "natures_spirit:three_quarters_pizza",
+    "natures_spirit:half_pizza",
+    "natures_spirit:quarter_pizza",
+    "natures_spirit:cheese_bucket",
+    "natures_spirit:cheese_arrow"
   ]
 }

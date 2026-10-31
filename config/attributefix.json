@@ -308,6 +308,17 @@
         "value": 1000
       }
     },
+    "minecraft:waypoint_transmit_range": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 60000000,
+        "value": 60000000
+      }
+    },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
       "min": {
@@ -559,6 +570,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "minecraft:waypoint_receive_range": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 60000000,
+        "value": 60000000
       }
     },
     "alembic:true_damage.shielding": {

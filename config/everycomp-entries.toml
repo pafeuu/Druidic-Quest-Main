@@ -7,6 +7,9 @@
 		[types.cake.mynethersdelight]
 			magma_cake = true
 
+		[types.cake.natures_spirit]
+			cheese_block = true
+
 	[types.wood_type]
 
 		[types.wood_type.ars_nouveau]
@@ -82,10 +85,30 @@
 
 		[types.wood_type.minecraft]
 			pale_oak = true
+			poplar = true
 
 		[types.wood_type.botania]
 			livingwood = true
 			dreamwood = true
+
+		[types.wood_type.natures_spirit]
+			redwood = true
+			sugi = true
+			wisteria = true
+			fir = true
+			willow = true
+			aspen = true
+			maple = true
+			cypress = true
+			olive = true
+			joshua = true
+			ghaf = true
+			palo_verde = true
+			coconut = true
+			cedar = true
+			larch = true
+			mahogany = true
+			saxaul = true
 
 	[types.leaves_type]
 
@@ -230,6 +253,41 @@
 
 		[types.leaves_type.minecraft]
 			pale_oak = true
+			red_poplar = true
+			orange_poplar = true
+			yellow_poplar = true
+
+		[types.leaves_type.natures_spirit]
+			frosty_redwood = true
+			redwood = true
+			sugi = true
+			wisteria = true
+			white_wisteria = true
+			part_white_wisteria = true
+			blue_wisteria = true
+			part_blue_wisteria = true
+			pink_wisteria = true
+			part_pink_wisteria = true
+			purple_wisteria = true
+			part_purple_wisteria = true
+			frosty_fir = true
+			fir = true
+			willow = true
+			aspen = true
+			yellow_aspen = true
+			red_maple = true
+			orange_maple = true
+			yellow_maple = true
+			cypress = true
+			olive = true
+			joshua = true
+			ghaf = true
+			palo_verde = true
+			coconut = true
+			cedar = true
+			larch = true
+			mahogany = true
+			saxaul = true
 
 #Disables specific entries
 [entries]
@@ -279,6 +337,9 @@
 
 		[entries.wood_type.twigs]
 			table = false
+
+		[entries.wood_type.vanillabackport]
+			shelf = true
 
 	[entries.leaves_type]
 

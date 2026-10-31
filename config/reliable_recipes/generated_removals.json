@@ -2,6 +2,11 @@
   {
     "action": "remove_recipe",
     "id": [
+      "everycomp:fd/mynethersdelight/salvaging/powdery_chest_boat",
+      "alexsdelight:barbecue_on_a_stick",
+      "create:cutting/runtime_generated/compat/naturesaura/stripped_ancient_log_to_ancient_planks",
+      "everycomp:fd/ars_nouveau/salvaging/archwood_chest_boat",
+      "everycomp:fd/botania/salvaging/livingwood_chest_boat",
       "botania:terra_plate/terrasteel_ingot",
       "druidic_quest_core:steel_shovel",
       "druidic_quest_core:steel_pickaxe",
@@ -25,7 +30,26 @@
       "botania:manasteel_helmet",
       "botania:manasteel_leggings",
       "botania:manasteel_boots",
-      "botania:manasteel_pick"
+      "botania:manasteel_pick",
+      "big_jars:big_source_jar",
+      "big_jars:huge_source_jar",
+      "twigs:azalea_flowers_from_flowering_azalea_leaves",
+      "aether:leather_gloves",
+      "aether:iron_gloves",
+      "aether:golden_gloves",
+      "aether:diamond_gloves",
+      "aether:zanite_gloves",
+      "deep_aether:skyjade_gloves",
+      "aether:gravitite_gloves",
+      "ancient_aether:valkyrum_gloves",
+      "deep_aether:stormforged_gloves_smithing",
+      "umbral_skies:naga_gloves",
+      "umbral_skies:ironwood_gloves",
+      "umbral_skies:fiery_iron_gloves",
+      "umbral_skies:fiery_gloves",
+      "umbral_skies:steeleaf_gloves",
+      "umbral_skies:knightmetal_gloves",
+      "umbral_skies:arctic_gloves"
     ]
   }
 ]

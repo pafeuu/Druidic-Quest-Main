@@ -91,7 +91,7 @@
 	#Rain Fog
 	[overlay.rainFog]
 		#Enable Rain Fog overlay effect.
-		rainFogOverlay = true
+		rainFogOverlay = false
 		#Intensity of Rain Fog overlay effect.
 		#Range: 0.0 ~ 2.0
 		rainFogOverlayIntensity = 0.3
