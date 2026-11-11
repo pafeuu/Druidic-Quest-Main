@@ -1,8 +1,8 @@
 {
   "title": "Source Berry Pie",
   "icon": "ars_nouveau:source_berry_pie",
-  "x": 17.4,
-  "y": 3.6000000000000005,
+  "x": 16,
+  "y": 2,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

@@ -1,8 +1,8 @@
 {
   "title": "Mango Tea",
   "icon": "fruitsdelight:mango_tea",
-  "x": 0.1999999999999993,
-  "y": 3.1999999999999993,
+  "x": 0.5,
+  "y": 1,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

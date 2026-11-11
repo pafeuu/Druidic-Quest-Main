@@ -1,8 +1,8 @@
 {
   "title": "Lychee Jelly",
   "icon": "fruitsdelight:lychee_jelly",
-  "x": 18.2,
-  "y": 9.200000000000001,
+  "x": 18,
+  "y": 7,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

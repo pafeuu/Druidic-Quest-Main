@@ -3,6 +3,7 @@
   "icon": "minecraft:heart_pottery_sherd",
   "order": 27,
   "scope": "team",
+  "visibility": "hidden",
   "group": "ultimate_collector",
   "defaults": {
     "invisible_until_deps_visible": true,

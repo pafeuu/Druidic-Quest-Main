@@ -6,7 +6,7 @@
   ],
   "icon": "minecraft:leather_horse_armor",
   "x": 8.5,
-  "y": 4,
+  "y": 5,
   "deps": {
     "all": [
       "introduction/primitive_saw"
@@ -37,7 +37,7 @@
     }
   ],
   "optional": true,
-  "invisible_until_deps_visible": true,
   "progression": "linear",
-  "shape": "pentagon"
+  "shape": "pentagon",
+  "invisible_until_deps_visible": true
 }

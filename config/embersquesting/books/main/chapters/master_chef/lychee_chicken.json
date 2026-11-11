@@ -1,8 +1,8 @@
 {
   "title": "Lychee Chicken",
   "icon": "fruitsdelight:lychee_chicken",
-  "x": 15.599999999999998,
-  "y": 4.4,
+  "x": 16.5,
+  "y": 4.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

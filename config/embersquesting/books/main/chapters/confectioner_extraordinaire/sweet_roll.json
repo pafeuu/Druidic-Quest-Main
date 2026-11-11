@@ -1,8 +1,8 @@
 {
   "title": "Sweet Roll",
   "icon": "create:sweet_roll",
-  "x": 13.8,
-  "y": 2.000000000000001,
+  "x": 18,
+  "y": 1,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

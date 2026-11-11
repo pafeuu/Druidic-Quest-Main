@@ -1,8 +1,8 @@
 {
   "title": "Deviled Egg",
   "icon": "mynethersdelight:deviled_egg",
-  "x": 3.1999999999999993,
-  "y": 5.2,
+  "x": 0.5,
+  "y": 5.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

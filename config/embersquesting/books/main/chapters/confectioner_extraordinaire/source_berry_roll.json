@@ -1,8 +1,8 @@
 {
   "title": "Source Berry Roll",
   "icon": "ars_nouveau:source_berry_roll",
-  "x": 13.4,
-  "y": 1.2000000000000002,
+  "x": 17,
+  "y": 1,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

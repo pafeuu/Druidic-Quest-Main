@@ -1,8 +1,8 @@
 {
   "title": "Pineapple Jello",
   "icon": "fruitsdelight:pineapple_jello",
-  "x": 7.400000000000002,
-  "y": 10,
+  "x": 8,
+  "y": 9,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

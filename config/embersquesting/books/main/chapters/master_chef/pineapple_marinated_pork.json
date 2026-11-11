@@ -1,8 +1,8 @@
 {
   "title": "Pineapple Marinated Pork",
   "icon": "fruitsdelight:pineapple_marinated_pork",
-  "x": 14.799999999999997,
-  "y": 4.4,
+  "x": 15.5,
+  "y": 4.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

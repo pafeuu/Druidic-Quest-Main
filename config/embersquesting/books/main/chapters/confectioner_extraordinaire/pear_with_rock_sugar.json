@@ -1,8 +1,8 @@
 {
   "title": "Pear With Rock Sugar",
   "icon": "fruitsdelight:pear_with_rock_sugar",
-  "x": 10.2,
-  "y": 1.200000000000001,
+  "x": 11.5,
+  "y": 0.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

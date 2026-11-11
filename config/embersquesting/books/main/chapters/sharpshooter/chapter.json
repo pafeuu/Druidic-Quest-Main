@@ -3,6 +3,7 @@
   "icon": "minecraft:spectral_arrow",
   "order": 26,
   "scope": "team",
+  "visibility": "hidden",
   "group": "ultimate_collector",
   "defaults": {
     "invisible_until_deps_visible": true,

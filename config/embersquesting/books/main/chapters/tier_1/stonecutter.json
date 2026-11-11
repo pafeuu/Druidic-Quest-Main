@@ -29,7 +29,6 @@
       "claim_all": false
     }
   ],
-  "visibility": "unknown",
-  "invisible_until_deps_visible": true,
-  "shape": "gear"
+  "shape": "gear",
+  "invisible_until_deps_visible": true
 }

@@ -3,6 +3,7 @@
   "icon": "kubejs:shapeshifting_root",
   "order": 30,
   "scope": "team",
+  "visibility": "hidden",
   "group": "ultimate_collector",
   "defaults": {
     "invisible_until_deps_visible": true,

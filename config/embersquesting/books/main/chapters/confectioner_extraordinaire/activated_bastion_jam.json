@@ -1,8 +1,8 @@
 {
   "title": "Activated Bastion Jam",
   "icon": "arsdelight:activated_bastion_jam",
-  "x": 15,
-  "y": 8.4,
+  "x": 17,
+  "y": 6,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

@@ -1,8 +1,8 @@
 {
   "title": "Meat Pizza",
   "icon": "vintagedelight:meat_pizza",
-  "x": 6.400000000000002,
-  "y": 9.600000000000001,
+  "x": 5.5,
+  "y": 7.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

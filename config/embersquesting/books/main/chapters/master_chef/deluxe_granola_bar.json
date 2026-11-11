@@ -1,8 +1,8 @@
 {
   "title": "Deluxe Granola Bar",
   "icon": "vintagedelight:deluxe_granola_bar",
-  "x": 1.6000000000000014,
-  "y": 0.8000000000000007,
+  "x": 1.5,
+  "y": 1,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

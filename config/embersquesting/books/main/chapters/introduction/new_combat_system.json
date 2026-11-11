@@ -21,16 +21,16 @@
   ],
   "rewards": [
     {
-      "item": "silly_oddities:rainbow_bundle",
-      "type": "item"
-    },
-    {
       "item": "patchouli:guide_book",
       "components": "{\"patchouli:book\":\"patchouli:druidic_beastiary\"}",
       "type": "item"
+    },
+    {
+      "item": "minecraft:pink_bundle",
+      "type": "item"
     }
   ],
-  "invisible_until_deps_visible": true,
   "progression": "linear",
-  "shape": "circle"
+  "shape": "circle",
+  "invisible_until_deps_visible": true
 }

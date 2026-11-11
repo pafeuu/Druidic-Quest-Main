@@ -1,8 +1,8 @@
 {
   "title": "Wilden Stew",
   "icon": "arsdelight:wilden_stew",
-  "x": 9.6,
-  "y": 4,
+  "x": 8,
+  "y": 3,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

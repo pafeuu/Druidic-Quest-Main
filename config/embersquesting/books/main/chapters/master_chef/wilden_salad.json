@@ -1,8 +1,8 @@
 {
   "title": "Wilden Salad",
   "icon": "arsdelight:wilden_salad",
-  "x": 14.4,
-  "y": 9.6,
+  "x": 15,
+  "y": 8.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

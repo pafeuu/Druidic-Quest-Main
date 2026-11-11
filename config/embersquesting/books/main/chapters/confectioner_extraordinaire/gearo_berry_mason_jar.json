@@ -1,8 +1,8 @@
 {
   "title": "Gearo Berry Mason Jar",
   "icon": "vintagedelight:gearo_berry_mason_jar",
-  "x": 16.6,
-  "y": 7.6,
+  "x": 18.3,
+  "y": 5.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

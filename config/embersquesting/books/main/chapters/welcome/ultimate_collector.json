@@ -23,6 +23,58 @@
       "item": "thermal:copper_coin",
       "count": 5,
       "type": "item"
+    },
+    {
+      "chapter": "dendrologist",
+      "type": "chapter"
+    },
+    {
+      "chapter": "archfisher",
+      "type": "chapter"
+    },
+    {
+      "chapter": "standard_bearer",
+      "type": "chapter"
+    },
+    {
+      "chapter": "sharpshooter",
+      "type": "chapter"
+    },
+    {
+      "chapter": "archeologist",
+      "type": "chapter"
+    },
+    {
+      "chapter": "master_accessorizer",
+      "type": "chapter"
+    },
+    {
+      "chapter": "sorcerer_supreme",
+      "type": "chapter"
+    },
+    {
+      "chapter": "armor_specialist",
+      "type": "chapter"
+    },
+    {
+      "chapter": "weaponry_owner",
+      "type": "chapter"
+    },
+    {
+      "chapter": "master_enchanter",
+      "type": "chapter"
+    },
+    {
+      "chapter": "master_chef",
+      "type": "chapter"
+    },
+    {
+      "chapter": "confectioner_extraordinaire",
+      "type": "chapter"
+    },
+    {
+      "chapter": "melomaniac",
+      "type": "chapter"
     }
   ],
   "shape": "gear"

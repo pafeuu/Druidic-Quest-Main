@@ -1,8 +1,8 @@
 {
   "title": "Maggot Salad",
   "icon": "alexsdelight:maggot_salad",
-  "x": 8.8,
-  "y": 0.8000000000000007,
+  "x": 9,
+  "y": 1,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

@@ -1,8 +1,8 @@
 {
   "title": "Pasta With Meatballs",
   "icon": "farmersdelight:pasta_with_meatballs",
-  "x": 14,
-  "y": 1.5999999999999996,
+  "x": 15,
+  "y": 1.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

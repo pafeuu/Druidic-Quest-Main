@@ -7,7 +7,7 @@
     "With comprehensive mod-integration enhanced by exclusive content, §2Druidic Quest§r will push you to innovate new methods of automation by mixing the powers of magic and machinery!"
   ],
   "icon": "kubejs:andesite_machine",
-  "x": 5.25,
+  "x": 5,
   "y": 3,
   "deps": {
     "all": [
@@ -21,7 +21,7 @@
     }
   ],
   "visibility": "hidden",
+  "shape": "octagon",
   "invisible_until_deps_visible": true,
-  "size": 2.5,
-  "shape": "octagon"
+  "size": 2.5
 }

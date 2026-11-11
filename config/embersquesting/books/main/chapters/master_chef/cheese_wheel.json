@@ -1,8 +1,8 @@
 {
   "title": "Cheese Wheel",
   "icon": "vintagedelight:cheese_wheel",
-  "x": 8.000000000000002,
-  "y": 9.600000000000001,
+  "x": 7,
+  "y": 8,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

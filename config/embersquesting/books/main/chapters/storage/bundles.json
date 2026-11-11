@@ -8,9 +8,9 @@
   "y": 5,
   "tasks": [
     {
-      "tag": "silly_oddities:bundles",
+      "tag": "minecraft:bundles",
       "type": "item",
-      "title": "Any #silly_oddities:bundles"
+      "title": "Any bundle"
     }
   ],
   "rewards": [

@@ -1,8 +1,8 @@
 {
   "title": "Jelly Bread",
   "icon": "fruitsdelight:jelly_bread{JellyEffectRoot:[\"MANGO\"]}",
-  "x": 7.799999999999999,
-  "y": 4.800000000000001,
+  "x": 8.5,
+  "y": 4.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -23,8 +23,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

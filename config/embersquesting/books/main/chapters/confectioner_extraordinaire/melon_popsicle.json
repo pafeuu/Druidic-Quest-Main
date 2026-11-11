@@ -1,8 +1,7 @@
 {
   "title": "Melon Popsicle",
   "icon": "farmersdelight:melon_popsicle",
-  "x": 0.9999999999999982,
-  "y": 4.8,
+  "y": 2.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +20,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

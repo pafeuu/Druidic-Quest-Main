@@ -1,8 +1,8 @@
 {
   "title": "Record Gaia 1",
   "icon": "botania:record_gaia_1",
-  "x": 4.75,
-  "y": 7.0535714285714235,
+  "x": 15.5,
+  "y": 2,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -10,7 +10,7 @@
   },
   "tasks": [
     {
-      "item": "botania:record_gaia_1",
+      "item": "botania:record_gaia_2",
       "type": "item"
     }
   ],
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "invisible_until_deps_visible": true,
   "shape": "circle",
+  "invisible_until_deps_visible": true,
   "notify": {
     "complete": "none"
   }

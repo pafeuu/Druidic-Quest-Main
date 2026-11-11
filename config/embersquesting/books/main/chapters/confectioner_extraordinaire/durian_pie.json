@@ -1,8 +1,8 @@
 {
   "title": "Durian Pie",
   "icon": "fruitsdelight:durian_pie",
-  "x": 16.2,
-  "y": 2.000000000000001,
+  "x": 16.5,
+  "y": 1.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

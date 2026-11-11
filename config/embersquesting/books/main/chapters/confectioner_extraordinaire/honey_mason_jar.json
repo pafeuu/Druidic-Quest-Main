@@ -1,8 +1,8 @@
 {
   "title": "Honey Mason Jar",
   "icon": "vintagedelight:honey_mason_jar",
-  "x": 15,
-  "y": 7.6,
+  "x": 16.5,
+  "y": 5.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

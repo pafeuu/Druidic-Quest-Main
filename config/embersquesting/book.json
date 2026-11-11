@@ -1,4 +1,10 @@
 {
+  "title": "Questbook",
+  "icon": "embersquesting:quest_book",
+  "inventory": {
+    "mode": "icon",
+    "badge": false
+  },
   "groups": {
     "side_questline": {
       "title": "Side Questline"

@@ -3,6 +3,7 @@
   "icon": "alexsmobs:rocky_chestplate{Damage:0}",
   "order": 23,
   "scope": "team",
+  "visibility": "hidden",
   "group": "ultimate_collector",
   "defaults": {
     "invisible_until_deps_visible": true,

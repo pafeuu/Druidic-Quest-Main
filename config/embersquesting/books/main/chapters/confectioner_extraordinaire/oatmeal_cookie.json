@@ -1,8 +1,8 @@
 {
   "title": "Oatmeal Cookie",
   "icon": "vintagedelight:oatmeal_cookie",
-  "x": 16.6,
-  "y": 1.2000000000000002,
+  "x": 17.5,
+  "y": 0.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

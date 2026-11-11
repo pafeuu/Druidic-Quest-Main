@@ -1,8 +1,8 @@
 {
   "title": "Gingerbread Man",
   "icon": "aether:gingerbread_man",
-  "x": 9.399999999999999,
-  "y": 2.0000000000000013,
+  "x": 11,
+  "y": 1,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

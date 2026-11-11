@@ -1,8 +1,8 @@
 {
   "title": "Golden Gummy Swet",
   "icon": "aether:golden_gummy_swet",
-  "x": 7.799999999999999,
-  "y": 2,
+  "x": 9,
+  "y": 1,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

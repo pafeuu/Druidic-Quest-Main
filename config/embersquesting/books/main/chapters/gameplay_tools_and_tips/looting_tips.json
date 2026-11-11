@@ -7,8 +7,8 @@
     "Loot tables have been completely reworked, so don't throw away much! Everything you find is valuable in its own way."
   ],
   "icon": "thermal:ruby",
-  "x": 9,
-  "y": 5.25,
+  "x": 8,
+  "y": 5,
   "deps": {
     "all": [
       "welcome/tips_chapter"
@@ -21,7 +21,7 @@
     }
   ],
   "visibility": "hidden",
+  "shape": "circle",
   "invisible_until_deps_visible": true,
-  "size": 1.5,
-  "shape": "circle"
+  "size": 1.5
 }

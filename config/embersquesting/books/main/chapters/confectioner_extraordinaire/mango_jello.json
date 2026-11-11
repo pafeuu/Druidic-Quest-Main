@@ -1,8 +1,8 @@
 {
   "title": "Mango Jello",
   "icon": "fruitsdelight:mango_jello",
-  "x": 7.800000000000004,
-  "y": 9.2,
+  "x": 8.5,
+  "y": 8.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

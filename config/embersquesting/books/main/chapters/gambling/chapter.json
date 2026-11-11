@@ -6,7 +6,7 @@
   "group": "money",
   "defaults": {
     "invisible_until_deps_visible": true,
-    "progression": "linear",
+    "progression": "flexible",
     "visibility": "full"
   },
   "decorations": [

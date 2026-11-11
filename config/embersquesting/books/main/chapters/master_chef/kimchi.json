@@ -1,8 +1,8 @@
 {
   "title": "Kimchi",
   "icon": "vintagedelight:kimchi",
-  "x": 2.799999999999999,
-  "y": 8,
+  "x": 3,
+  "y": 7,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

@@ -1,8 +1,7 @@
 {
   "title": "Vinegar Mason Jar",
   "icon": "vintagedelight:vinegar_mason_jar",
-  "x": 1.1999999999999993,
-  "y": 9.6,
+  "y": 8,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +20,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

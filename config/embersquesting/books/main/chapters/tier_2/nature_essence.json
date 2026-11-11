@@ -30,7 +30,6 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
-  "size": 2.0,
-  "shape": "rsquare"
+  "shape": "rsquare",
+  "size": 2.0
 }

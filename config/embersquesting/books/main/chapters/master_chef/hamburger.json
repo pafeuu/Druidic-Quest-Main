@@ -1,8 +1,8 @@
 {
   "title": "Hamburger",
   "icon": "farmersdelight:hamburger",
-  "x": 10.4,
-  "y": 6.4,
+  "x": 11,
+  "y": 6,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

@@ -1,8 +1,8 @@
 {
   "title": "Apple Jelly",
   "icon": "fruitsdelight:apple_jelly",
-  "x": 13.4,
-  "y": 9.2,
+  "x": 16.5,
+  "y": 6.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

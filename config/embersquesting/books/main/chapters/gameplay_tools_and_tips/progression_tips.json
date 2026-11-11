@@ -9,8 +9,8 @@
     "Rather, each new dimension is unlocked when the player obtains a specific item. With each new dimension unlocked, the mobs surrounding you will also grow more powerful."
   ],
   "icon": "create:clipboard",
-  "x": 1.5,
-  "y": 0.75,
+  "x": 2,
+  "y": 1,
   "deps": {
     "all": [
       "welcome/tips_chapter"
@@ -23,7 +23,7 @@
     }
   ],
   "visibility": "hidden",
+  "shape": "circle",
   "invisible_until_deps_visible": true,
-  "size": 1.5,
-  "shape": "circle"
+  "size": 1.5
 }

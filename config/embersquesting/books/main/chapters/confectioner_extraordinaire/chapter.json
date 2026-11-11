@@ -3,6 +3,7 @@
   "icon": "farmersdelight:sweet_berry_cheesecake",
   "order": 20,
   "scope": "team",
+  "visibility": "hidden",
   "group": "ultimate_collector",
   "defaults": {
     "progression": "linear"

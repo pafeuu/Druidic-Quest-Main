@@ -1,8 +1,8 @@
 {
   "title": "Cookie",
   "icon": "minecraft:cookie",
-  "x": 14.2,
-  "y": 1.2000000000000002,
+  "x": 15.5,
+  "y": 0.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

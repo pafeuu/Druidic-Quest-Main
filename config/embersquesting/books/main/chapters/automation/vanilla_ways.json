@@ -4,7 +4,7 @@
   "x": 4,
   "y": 8,
   "deps": {
-    "any": [
+    "all": [
       "automation/item_entity_transportation"
     ]
   },
@@ -22,8 +22,8 @@
       "type": "item"
     }
   ],
-  "invisible_until_deps_visible": true,
   "shape": "circle",
+  "invisible_until_deps_visible": true,
   "notify": {
     "complete": "none"
   }

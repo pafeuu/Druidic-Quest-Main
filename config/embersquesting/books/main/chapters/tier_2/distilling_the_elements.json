@@ -37,8 +37,7 @@
       "type": "item"
     }
   ],
-  "visibility": "unknown",
   "complete": "any",
-  "invisible_until_deps_visible": true,
-  "shape": "rsquare"
+  "shape": "rsquare",
+  "invisible_until_deps_visible": true
 }

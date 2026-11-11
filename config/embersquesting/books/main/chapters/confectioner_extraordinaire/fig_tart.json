@@ -1,8 +1,8 @@
 {
   "title": "Fig Tart",
   "icon": "fruitsdelight:fig_tart",
-  "x": 17.799999999999997,
-  "y": 2.000000000000001,
+  "x": 19,
+  "y": 1,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

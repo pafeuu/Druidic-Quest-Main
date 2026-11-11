@@ -1,8 +1,8 @@
 {
   "title": "Tomato Sauce",
   "icon": "farmersdelight:tomato_sauce",
-  "x": 7.200000000000001,
-  "y": 9.600000000000001,
+  "x": 6,
+  "y": 8,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

@@ -1,7 +1,7 @@
 {
   "title": "Jelly Bread",
   "icon": "fruitsdelight:jelly_bread{JellyEffectRoot:[\"APPLE\"]}",
-  "x": 6.6,
+  "x": 7,
   "y": 4,
   "deps": {
     "all": [
@@ -23,8 +23,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

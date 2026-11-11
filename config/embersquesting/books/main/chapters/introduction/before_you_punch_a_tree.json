@@ -26,6 +26,7 @@
       "type": "item"
     },
     {
+      "optional": true,
       "match_components": "none",
       "item": "minecraft:stone_axe",
       "components": "{Damage:120}",
@@ -40,6 +41,6 @@
     }
   ],
   "visibility": "hidden",
-  "size": 2.0,
-  "shape": "rsquare"
+  "shape": "rsquare",
+  "size": 2.0
 }

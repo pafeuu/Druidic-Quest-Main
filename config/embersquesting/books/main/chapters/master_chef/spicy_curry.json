@@ -1,8 +1,8 @@
 {
   "title": "Spicy Curry",
   "icon": "mynethersdelight:spicy_curry",
-  "x": 14.8,
-  "y": 6,
+  "x": 14.5,
+  "y": 5.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

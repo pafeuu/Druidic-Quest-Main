@@ -6,6 +6,6 @@
   "visibility": "hidden",
   "group": "side_questline",
   "defaults": {
-    "progression": "linear"
+    "progression": "flexible"
   }
 }

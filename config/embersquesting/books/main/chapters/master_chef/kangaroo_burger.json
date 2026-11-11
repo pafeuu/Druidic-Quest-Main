@@ -1,8 +1,8 @@
 {
   "title": "Kangaroo Burger",
   "icon": "alexsmobs:kangaroo_burger",
-  "x": 7.199999999999999,
-  "y": 6.4,
+  "x": 7,
+  "y": 6,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

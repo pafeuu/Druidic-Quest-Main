@@ -1,8 +1,8 @@
 {
   "title": "Spicy Cotton",
   "icon": "mynethersdelight:spicy_cotton",
-  "x": 1.9999999999999964,
-  "y": 6,
+  "x": 2.5,
+  "y": 5.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

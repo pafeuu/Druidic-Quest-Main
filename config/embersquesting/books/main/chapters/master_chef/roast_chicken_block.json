@@ -1,8 +1,8 @@
 {
   "title": "Roast Chicken Block",
   "icon": "farmersdelight:roast_chicken_block",
-  "x": 14,
-  "y": 8.8,
+  "x": 14.5,
+  "y": 8,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

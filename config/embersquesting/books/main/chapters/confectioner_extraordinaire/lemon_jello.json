@@ -1,8 +1,8 @@
 {
   "title": "Lemon Jello",
   "icon": "fruitsdelight:lemon_jello",
-  "x": 8.200000000000003,
-  "y": 10,
+  "x": 9,
+  "y": 9,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

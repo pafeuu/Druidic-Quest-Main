@@ -3,6 +3,7 @@
   "icon": "farmersdelight:honey_glazed_ham_block",
   "order": 19,
   "scope": "team",
+  "visibility": "hidden",
   "group": "ultimate_collector",
   "defaults": {
     "progression": "flexible"

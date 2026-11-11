@@ -1,8 +1,8 @@
 {
   "title": "Kelp Roll",
   "icon": "farmersdelight:kelp_roll",
-  "x": 1.1999999999999993,
-  "y": 4.4,
+  "x": 1,
+  "y": 4,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

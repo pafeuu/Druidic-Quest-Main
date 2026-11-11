@@ -1,8 +1,8 @@
 {
   "title": "Roast Stuffed Hoglin",
   "icon": "mynethersdelight:roast_stuffed_hoglin",
-  "x": 15.999999999999998,
-  "y": 9.600000000000001,
+  "x": 15.5,
+  "y": 9,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

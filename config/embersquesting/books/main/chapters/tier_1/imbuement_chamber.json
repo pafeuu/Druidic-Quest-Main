@@ -30,10 +30,13 @@
       "table": "tier1treasure",
       "type": "table",
       "claim_all": false
+    },
+    {
+      "chapter": "tier_2",
+      "type": "chapter"
     }
   ],
-  "visibility": "unknown",
+  "shape": "rsquare",
   "invisible_until_deps_visible": true,
-  "size": 2.0,
-  "shape": "rsquare"
+  "size": 2.0
 }

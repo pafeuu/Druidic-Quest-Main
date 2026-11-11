@@ -1,8 +1,8 @@
 {
   "title": "Persimmon Jelly",
   "icon": "fruitsdelight:persimmon_jelly",
-  "x": 16.6,
-  "y": 10,
+  "x": 18.5,
+  "y": 7.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

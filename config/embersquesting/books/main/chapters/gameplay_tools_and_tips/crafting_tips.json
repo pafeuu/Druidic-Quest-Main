@@ -9,8 +9,8 @@
     "Many mod mechanics have also been changed to provide balance, as well as to encourage unconventional methods of automation."
   ],
   "icon": "minecraft:crafting_table",
-  "x": 9,
-  "y": 0.75,
+  "x": 8,
+  "y": 1,
   "deps": {
     "all": [
       "welcome/tips_chapter"
@@ -23,7 +23,7 @@
     }
   ],
   "visibility": "hidden",
+  "shape": "circle",
   "invisible_until_deps_visible": true,
-  "size": 1.5,
-  "shape": "circle"
+  "size": 1.5
 }

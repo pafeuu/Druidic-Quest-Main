@@ -1,8 +1,8 @@
 {
   "title": "Bastion Pie",
   "icon": "arsdelight:bastion_pie",
-  "x": 15,
-  "y": 3.6000000000000005,
+  "x": 19,
+  "y": 2,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

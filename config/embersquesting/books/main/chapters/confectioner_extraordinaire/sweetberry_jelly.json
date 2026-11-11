@@ -1,8 +1,8 @@
 {
   "title": "Sweetberry Jelly",
   "icon": "fruitsdelight:sweetberry_jelly",
-  "x": 13.8,
-  "y": 10.8,
+  "x": 18,
+  "y": 8,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

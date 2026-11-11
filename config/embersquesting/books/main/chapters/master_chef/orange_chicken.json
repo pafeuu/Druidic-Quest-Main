@@ -1,8 +1,8 @@
 {
   "title": "Orange Chicken",
   "icon": "fruitsdelight:orange_chicken",
-  "x": 13.2,
-  "y": 4.4,
+  "x": 13.5,
+  "y": 4.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

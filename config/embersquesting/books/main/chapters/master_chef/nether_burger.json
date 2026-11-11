@@ -1,8 +1,8 @@
 {
   "title": "Nether Burger",
   "icon": "mynethersdelight:nether_burger",
-  "x": 9.6,
-  "y": 6.4,
+  "x": 10,
+  "y": 6,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

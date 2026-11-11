@@ -9,7 +9,7 @@
     "§2Equipping yourself appropriately for various situations could make a huge difference!§r"
   ],
   "icon": "deep_aether:stormforged_chestplate{Damage:0}",
-  "x": 5.25,
+  "x": 5,
   "y": 6,
   "deps": {
     "all": [
@@ -23,7 +23,7 @@
     }
   ],
   "visibility": "hidden",
+  "shape": "circle",
   "invisible_until_deps_visible": true,
-  "size": 1.5,
-  "shape": "circle"
+  "size": 1.5
 }

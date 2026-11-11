@@ -3,8 +3,9 @@
   "icon": "minecraft:mojang_banner_pattern",
   "order": 28,
   "scope": "team",
+  "visibility": "hidden",
   "group": "ultimate_collector",
   "defaults": {
-    "progression": "linear"
+    "progression": "flexible"
   }
 }

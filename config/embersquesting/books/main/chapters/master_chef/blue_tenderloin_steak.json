@@ -1,8 +1,8 @@
 {
   "title": "Blue Tenderloin Steak",
   "icon": "mynethersdelight:blue_tenderloin_steak",
-  "x": 14,
-  "y": 6.799999999999999,
+  "x": 15,
+  "y": 6,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

@@ -2,7 +2,7 @@
   "title": "Chicken Sandwich",
   "icon": "farmersdelight:chicken_sandwich",
   "x": 8,
-  "y": 6.4,
+  "y": 6,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

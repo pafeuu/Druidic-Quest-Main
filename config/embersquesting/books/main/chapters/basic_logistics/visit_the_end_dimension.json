@@ -14,7 +14,7 @@
       "icon": "minecraft:end_portal_frame"
     }
   ],
-  "visibility": "unknown",
-  "invisible_until_deps_visible": true,
-  "shape": "rsquare"
+  "visibility": "full",
+  "shape": "rsquare",
+  "invisible_until_deps_visible": true
 }

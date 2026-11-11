@@ -1,8 +1,8 @@
 {
   "title": "Plate Of Ghasta With Cream",
   "icon": "mynethersdelight:plate_of_ghasta_with_cream",
-  "x": 16,
-  "y": 2.4000000000000004,
+  "x": 16.5,
+  "y": 2,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

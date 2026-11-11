@@ -13,7 +13,7 @@
     "Annoying noises? Check out the §2Extreme Sound Muffler§r button in your inventory!"
   ],
   "icon": "minecraft:chest",
-  "x": 0.75,
+  "x": 1,
   "y": 3,
   "deps": {
     "all": [
@@ -27,7 +27,7 @@
     }
   ],
   "visibility": "hidden",
+  "shape": "circle",
   "invisible_until_deps_visible": true,
-  "size": 1.5,
-  "shape": "circle"
+  "size": 1.5
 }

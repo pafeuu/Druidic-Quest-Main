@@ -1,8 +1,8 @@
 {
   "title": "Roasted Mutton Chops",
   "icon": "farmersdelight:roasted_mutton_chops",
-  "x": 14.399999999999999,
-  "y": 3.5999999999999996,
+  "x": 15,
+  "y": 4,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

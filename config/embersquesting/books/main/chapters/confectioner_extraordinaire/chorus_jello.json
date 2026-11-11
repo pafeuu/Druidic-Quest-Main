@@ -1,8 +1,8 @@
 {
   "title": "Chorus Jello",
   "icon": "fruitsdelight:chorus_jello",
-  "x": 7.0000000000000036,
-  "y": 10.8,
+  "x": 8.5,
+  "y": 9.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

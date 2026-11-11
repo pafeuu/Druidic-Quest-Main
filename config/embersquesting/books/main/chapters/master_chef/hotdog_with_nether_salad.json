@@ -1,8 +1,8 @@
 {
   "title": "Hotdog With Nether Salad",
   "icon": "mynethersdelight:hotdog_with_nether_salad",
-  "x": 8.8,
-  "y": 7.2,
+  "x": 8.5,
+  "y": 6.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

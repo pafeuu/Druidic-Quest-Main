@@ -35,10 +35,13 @@
       "table": "waystones2",
       "mode": "choice",
       "type": "table"
+    },
+    {
+      "chapter": "basic_logistics",
+      "type": "chapter"
     }
   ],
-  "visibility": "unknown",
+  "shape": "rsquare",
   "invisible_until_deps_visible": true,
-  "size": 2.0,
-  "shape": "rsquare"
+  "size": 2.0
 }

@@ -4,6 +4,6 @@
   "scope": "team",
   "visibility": "always_hidden",
   "defaults": {
-    "progression": "linear"
+    "progression": "flexible"
   }
 }

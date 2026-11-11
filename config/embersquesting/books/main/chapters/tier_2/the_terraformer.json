@@ -28,7 +28,6 @@
       "type": "item"
     }
   ],
-  "visibility": "unknown",
-  "invisible_until_deps_visible": true,
-  "shape": "circle"
+  "shape": "circle",
+  "invisible_until_deps_visible": true
 }

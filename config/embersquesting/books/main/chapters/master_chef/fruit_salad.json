@@ -1,8 +1,8 @@
 {
   "title": "Fruit Salad",
   "icon": "farmersdelight:fruit_salad",
-  "x": 7.199999999999999,
-  "y": 0.8000000000000007,
+  "x": 7,
+  "y": 1,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

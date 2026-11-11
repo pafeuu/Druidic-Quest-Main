@@ -7,8 +7,8 @@
     "You can buy map to this biome for just §e4 gold coins!§r"
   ],
   "icon": "druidic_quest_core:nature_essence",
-  "x": 23.125,
-  "y": 10.625,
+  "x": 23.5,
+  "y": 10.5,
   "deps": {
     "all": [
       "tier_1/imbuement_chamber"
@@ -29,9 +29,8 @@
       "type": "item"
     }
   ],
-  "visibility": "unknown",
   "optional": true,
+  "shape": "pentagon",
   "invisible_until_deps_visible": true,
-  "size": 1.25,
-  "shape": "pentagon"
+  "size": 1.25
 }

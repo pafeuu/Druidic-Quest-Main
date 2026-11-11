@@ -1,8 +1,8 @@
 {
   "title": "Acacia Blossom Soup",
   "icon": "alexsdelight:acacia_blossom_soup",
-  "x": 7.199999999999999,
-  "y": 2.4000000000000004,
+  "x": 7,
+  "y": 2,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

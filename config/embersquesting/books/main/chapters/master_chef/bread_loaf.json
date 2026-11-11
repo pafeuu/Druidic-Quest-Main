@@ -1,8 +1,8 @@
 {
   "title": "Bread Loaf",
   "icon": "mynethersdelight:bread_loaf",
-  "x": 8.8,
-  "y": 9.6,
+  "x": 9,
+  "y": 8,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

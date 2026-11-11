@@ -1,8 +1,8 @@
 {
   "title": "Stuffed Pepper",
   "icon": "mynethersdelight:stuffed_pepper",
-  "x": 0.3999999999999986,
-  "y": 6,
+  "x": 1,
+  "y": 5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

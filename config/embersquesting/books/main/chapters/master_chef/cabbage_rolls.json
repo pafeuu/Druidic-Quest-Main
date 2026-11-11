@@ -2,7 +2,7 @@
   "title": "Cabbage Rolls",
   "icon": "farmersdelight:cabbage_rolls",
   "x": 2,
-  "y": 4.4,
+  "y": 4,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

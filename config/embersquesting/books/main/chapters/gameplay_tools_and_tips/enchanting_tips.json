@@ -9,7 +9,7 @@
     "The accumulating xp cost on the anvil has also been removed, making armor and tool repair much more rewarding."
   ],
   "icon": "minecraft:experience_bottle",
-  "x": 9.75,
+  "x": 9,
   "y": 3,
   "deps": {
     "all": [
@@ -23,7 +23,7 @@
     }
   ],
   "visibility": "hidden",
+  "shape": "circle",
   "invisible_until_deps_visible": true,
-  "size": 1.5,
-  "shape": "circle"
+  "size": 1.5
 }

@@ -1,7 +1,7 @@
 {
   "title": "Nut Milk Bottle",
   "icon": "vintagedelight:nut_milk_bottle",
-  "y": 1.5999999999999996,
+  "y": 1.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -20,8 +20,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

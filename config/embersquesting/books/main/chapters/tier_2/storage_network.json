@@ -43,8 +43,7 @@
       "type": "item"
     }
   ],
-  "visibility": "unknown",
+  "shape": "circle",
   "invisible_until_deps_visible": true,
-  "size": 1.5,
-  "shape": "circle"
+  "size": 1.5
 }

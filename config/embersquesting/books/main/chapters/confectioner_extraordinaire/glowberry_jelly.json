@@ -1,8 +1,8 @@
 {
   "title": "Glowberry Jelly",
   "icon": "fruitsdelight:glowberry_jelly",
-  "x": 15,
-  "y": 9.200000000000001,
+  "x": 18.5,
+  "y": 6.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

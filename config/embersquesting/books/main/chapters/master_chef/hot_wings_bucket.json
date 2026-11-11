@@ -1,8 +1,8 @@
 {
   "title": "Hot Wings Bucket",
   "icon": "mynethersdelight:hot_wings_bucket",
-  "x": 2.8000000000000007,
-  "y": 6,
+  "x": 2,
+  "y": 5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

@@ -1,8 +1,8 @@
 {
   "title": "Orange Jelly",
   "icon": "fruitsdelight:orange_jelly",
-  "x": 14.2,
-  "y": 10,
+  "x": 15.5,
+  "y": 7.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

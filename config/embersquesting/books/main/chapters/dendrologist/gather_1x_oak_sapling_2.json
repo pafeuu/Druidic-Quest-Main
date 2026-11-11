@@ -1,0 +1,23 @@
+{
+  "title": "",
+  "x": 9,
+  "y": 8,
+  "tasks": [
+    {
+      "item": "minecraft:birch_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dirt",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "invisible_until_deps_visible": false
+}

@@ -1,11 +1,12 @@
 {
   "title": "Tier 1 - Basic Magic",
-  "icon": "ars_nouveau:source_gem",
+  "icon": "druidic_quest_core:nature_essence",
   "order": 7,
   "scope": "team",
   "visibility": "hidden",
   "group": "main_questline",
   "defaults": {
-    "progression": "linear"
+    "progression": "flexible",
+    "visibility": "full"
   }
 }

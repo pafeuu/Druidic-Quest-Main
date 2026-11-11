@@ -1,8 +1,8 @@
 {
   "title": "Sausage And Potatoes",
   "icon": "mynethersdelight:sausage_and_potatoes",
-  "x": 13.2,
-  "y": 6.799999999999999,
+  "x": 14,
+  "y": 6,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

@@ -1,8 +1,8 @@
 {
   "title": "Apple Jello",
   "icon": "fruitsdelight:apple_jello",
-  "x": 6.6,
-  "y": 8.4,
+  "x": 8,
+  "y": 8,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

@@ -1,0 +1,25 @@
+{
+  "title": "",
+  "x": 13,
+  "y": 8,
+  "tasks": [
+    {
+      "item": "minecraft:dark_oak_sapling",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dirt",
+      "count": 4,
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "invisible_until_deps_visible": false
+}

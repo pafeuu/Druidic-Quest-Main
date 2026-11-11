@@ -1,8 +1,8 @@
 {
   "title": "Chorus Jelly",
   "icon": "fruitsdelight:chorus_jelly",
-  "x": 15.4,
-  "y": 10.8,
+  "x": 19,
+  "y": 8,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

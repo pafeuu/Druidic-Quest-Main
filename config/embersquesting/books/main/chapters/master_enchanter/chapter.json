@@ -3,8 +3,20 @@
   "icon": "quark:ancient_tome{StoredEnchantments:[{id:\"minecraft:piercing\",lvl:4s}]}",
   "order": 21,
   "scope": "team",
+  "visibility": "hidden",
   "group": "ultimate_collector",
   "defaults": {
     "progression": "flexible"
-  }
+  },
+  "decorations": [
+    {
+      "width": 2.0,
+      "content": {
+        "items": [],
+        "type": "item"
+      },
+      "x": 0.75,
+      "y": 1.5
+    }
+  ]
 }

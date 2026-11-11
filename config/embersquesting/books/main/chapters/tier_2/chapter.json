@@ -1,11 +1,12 @@
 {
   "title": "Tier 2 - Basic Elemental Infusion",
-  "icon": "create:andesite_alloy",
+  "icon": "wizards_reborn:arcane_gold_ingot",
   "order": 8,
   "scope": "team",
   "visibility": "hidden",
   "group": "main_questline",
   "defaults": {
-    "progression": "linear"
+    "progression": "flexible",
+    "visibility": "full"
   }
 }

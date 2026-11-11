@@ -1,8 +1,8 @@
 {
   "title": "Persimmon Cookie",
   "icon": "fruitsdelight:persimmon_cookie",
-  "x": 15,
-  "y": 1.2000000000000002,
+  "x": 16,
+  "y": 1,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

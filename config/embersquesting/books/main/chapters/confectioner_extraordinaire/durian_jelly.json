@@ -1,8 +1,8 @@
 {
   "title": "Durian Jelly",
   "icon": "fruitsdelight:durian_jelly",
-  "x": 18.6,
-  "y": 10.8,
+  "x": 18,
+  "y": 9,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

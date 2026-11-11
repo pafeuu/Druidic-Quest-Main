@@ -1,8 +1,8 @@
 {
   "title": "Arch Sauce",
   "icon": "arsdelight:arch_sauce",
-  "x": 7.199999999999999,
-  "y": 4,
+  "x": 6,
+  "y": 3,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

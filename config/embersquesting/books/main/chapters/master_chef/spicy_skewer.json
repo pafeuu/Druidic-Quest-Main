@@ -1,8 +1,8 @@
 {
   "title": "Spicy Skewer",
   "icon": "mynethersdelight:spicy_skewer",
-  "x": 10,
-  "y": 8,
+  "x": 10.5,
+  "y": 6.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

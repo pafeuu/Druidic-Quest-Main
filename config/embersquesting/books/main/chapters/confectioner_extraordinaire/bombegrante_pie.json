@@ -1,8 +1,8 @@
 {
   "title": "Bombegrante Pie",
   "icon": "arsdelight:bombegrante_pie",
-  "x": 15.8,
-  "y": 3.6000000000000005,
+  "x": 18,
+  "y": 2,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

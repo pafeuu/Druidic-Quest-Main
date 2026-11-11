@@ -3,6 +3,7 @@
   "icon": "irons_spellbooks:netherite_mage_helmet{Damage:0}",
   "order": 24,
   "scope": "team",
+  "visibility": "hidden",
   "group": "ultimate_collector",
   "defaults": {
     "progression": "flexible"

@@ -12,7 +12,7 @@
   "x": 11.5,
   "y": 10,
   "deps": {
-    "any": [
+    "all": [
       "introduction/explosive_mobs"
     ]
   },
@@ -44,10 +44,10 @@
       "type": "item"
     }
   ],
+  "progression": "flexible",
   "complete": {
     "min": 2
   },
-  "invisible_until_deps_visible": true,
-  "progression": "flexible",
-  "shape": "rsquare"
+  "shape": "rsquare",
+  "invisible_until_deps_visible": true
 }

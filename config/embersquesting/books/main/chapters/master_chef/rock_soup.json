@@ -1,8 +1,8 @@
 {
   "title": "Rock Soup",
   "icon": "mynethersdelight:rock_soup",
-  "x": 8.8,
-  "y": 2.4000000000000004,
+  "x": 9,
+  "y": 2,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

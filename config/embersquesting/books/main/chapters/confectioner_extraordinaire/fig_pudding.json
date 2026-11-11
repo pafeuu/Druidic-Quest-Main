@@ -1,8 +1,8 @@
 {
   "title": "Fig Pudding",
   "icon": "fruitsdelight:fig_pudding",
-  "x": 15.4,
-  "y": 4.4,
+  "x": 17.5,
+  "y": 2.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

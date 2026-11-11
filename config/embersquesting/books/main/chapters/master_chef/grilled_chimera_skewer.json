@@ -1,8 +1,8 @@
 {
   "title": "Grilled Chimera Skewer",
   "icon": "arsdelight:grilled_chimera_skewer",
-  "x": 7.6,
-  "y": 8,
+  "x": 8,
+  "y": 7,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

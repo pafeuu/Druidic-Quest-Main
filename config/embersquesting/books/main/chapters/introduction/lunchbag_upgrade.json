@@ -29,7 +29,8 @@
       "type": "item"
     }
   ],
-  "invisible_until_deps_visible": true,
+  "optional": true,
   "progression": "linear",
-  "shape": "pentagon"
+  "shape": "pentagon",
+  "invisible_until_deps_visible": true
 }

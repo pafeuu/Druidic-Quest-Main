@@ -54,10 +54,9 @@
       "type": "item"
     }
   ],
-  "visibility": "unknown",
   "complete": {
     "min": 4
   },
-  "invisible_until_deps_visible": true,
-  "shape": "rsquare"
+  "shape": "rsquare",
+  "invisible_until_deps_visible": true
 }

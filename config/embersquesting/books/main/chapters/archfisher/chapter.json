@@ -3,190 +3,191 @@
   "icon": "tide:netherite_fishing_rod{Damage:0,modifier:{bobber:\"tide:red_fishing_bobber\",hook:\"tide:fishing_hook\",line:\"tide:fishing_line\"}}",
   "order": 29,
   "scope": "team",
+  "visibility": "hidden",
   "group": "ultimate_collector",
   "defaults": {
     "progression": "linear"
   },
   "decorations": [
     {
-      "y": 4.714286,
       "width": 2.5714285,
       "height": 2.5714285,
       "content": {
         "texture": "minecraft:textures/item/lava_bucket.png",
         "type": "image"
       },
-      "x": 13.114285
+      "x": 13.114285,
+      "y": 4.714286
     },
     {
-      "y": 3.2142859,
       "width": 2.5714285,
       "height": 2.5714285,
       "content": {
         "texture": "apotheosis:textures/advancements/bg/apoth.png",
         "type": "image"
       },
-      "x": 18.214285
+      "x": 18.214285,
+      "y": 3.2142859
     },
     {
-      "y": 5.571429,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/end_stone.png",
         "type": "image"
       },
-      "x": 18.071428
+      "x": 18.071428,
+      "y": 5.571429
     },
     {
-      "y": 5.571429,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/end_stone.png",
         "type": "image"
       },
-      "x": 18.571428
+      "x": 18.571428,
+      "y": 5.571429
     },
     {
-      "y": 5.071429,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/end_stone.png",
         "type": "image"
       },
-      "x": 17.571428
+      "x": 17.571428,
+      "y": 5.071429
     },
     {
-      "y": 5.571429,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/end_stone.png",
         "type": "image"
       },
-      "x": 19.071428
+      "x": 19.071428,
+      "y": 5.571429
     },
     {
-      "y": 5.571429,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/end_stone.png",
         "type": "image"
       },
-      "x": 19.571428
+      "x": 19.571428,
+      "y": 5.571429
     },
     {
-      "y": 5.571429,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/end_stone.png",
         "type": "image"
       },
-      "x": 20.071428
+      "x": 20.071428,
+      "y": 5.571429
     },
     {
-      "y": 5.071429,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/end_stone.png",
         "type": "image"
       },
-      "x": 20.571428
+      "x": 20.571428,
+      "y": 5.071429
     },
     {
-      "y": 0.71428573,
       "width": 2.5714285,
       "height": 2.5714285,
       "content": {
         "texture": "apotheosis:textures/advancements/bg/apoth.png",
         "type": "image"
       },
-      "x": 18.214285
+      "x": 18.214285,
+      "y": 0.71428573
     },
     {
-      "y": 12.571428,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/bedrock.png",
         "type": "image"
       },
-      "x": 6.071429
+      "x": 6.071429,
+      "y": 12.571428
     },
     {
-      "y": 12.571428,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/bedrock.png",
         "type": "image"
       },
-      "x": 6.9414287
+      "x": 6.9414287,
+      "y": 12.571428
     },
     {
-      "y": 12.571428,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/bedrock.png",
         "type": "image"
       },
-      "x": 7.7914286
+      "x": 7.7914286,
+      "y": 12.571428
     },
     {
-      "y": 12.571428,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/bedrock.png",
         "type": "image"
       },
-      "x": 8.651428
+      "x": 8.651428,
+      "y": 12.571428
     },
     {
-      "y": 12.571428,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/bedrock.png",
         "type": "image"
       },
-      "x": 9.471428
+      "x": 9.471428,
+      "y": 12.571428
     },
     {
-      "y": 12.571428,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/bedrock.png",
         "type": "image"
       },
-      "x": 10.271428
+      "x": 10.271428,
+      "y": 12.571428
     },
     {
-      "y": 12.571428,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/bedrock.png",
         "type": "image"
       },
-      "x": 11.131429
+      "x": 11.131429,
+      "y": 12.571428
     },
     {
-      "y": 12.571428,
       "width": 0.85714287,
       "height": 0.85714287,
       "content": {
         "texture": "minecraft:textures/block/bedrock.png",
         "type": "image"
       },
-      "x": 11.971428
+      "x": 11.971428,
+      "y": 12.571428
     }
   ]
 }

@@ -37,3 +37,6 @@ config/kubejsstudio/pending.json
 /config/kubejsstudio
 config/kubejsstudio.json
 /emberstextapi/sdf-cache
+/config/embersquesting/previews
+config/embersquesting/changes.log
+config/embersquesting/seen_quests.json

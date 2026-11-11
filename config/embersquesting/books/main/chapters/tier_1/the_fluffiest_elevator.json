@@ -7,10 +7,10 @@
     "Meanwhile, §lCold Aerclouds§r are perfect for safely breaking your fall from a great height."
   ],
   "icon": "aether:blue_aercloud",
-  "x": 3.5,
+  "x": 4,
   "y": 10,
   "deps": {
-    "any": [
+    "all": [
       "tier_1/glass"
     ]
   },
@@ -33,8 +33,7 @@
       "type": "item"
     }
   ],
-  "visibility": "unknown",
   "optional": true,
-  "invisible_until_deps_visible": true,
-  "shape": "pentagon"
+  "shape": "pentagon",
+  "invisible_until_deps_visible": true
 }

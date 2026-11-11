@@ -1,8 +1,8 @@
 {
   "title": "Magma Cake Block",
   "icon": "mynethersdelight:magma_cake_block",
-  "x": 15,
-  "y": 5.199999999999999,
+  "x": 17,
+  "y": 3,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

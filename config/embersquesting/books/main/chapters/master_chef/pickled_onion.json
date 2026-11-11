@@ -1,8 +1,8 @@
 {
   "title": "Pickled Onion",
   "icon": "vintagedelight:pickled_onion",
-  "x": 2,
-  "y": 9.6,
+  "x": 3,
+  "y": 8,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

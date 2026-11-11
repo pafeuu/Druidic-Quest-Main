@@ -20,8 +20,8 @@
       "type": "item"
     }
   ],
-  "visibility": "hidden",
+  "visibility": "full",
+  "shape": "rsquare",
   "invisible_until_deps_visible": true,
-  "size": 2.0,
-  "shape": "rsquare"
+  "size": 2.0
 }

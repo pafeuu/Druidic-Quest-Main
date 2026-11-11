@@ -1,8 +1,8 @@
 {
   "title": "Honey Glazed Ham Block",
   "icon": "farmersdelight:honey_glazed_ham_block",
-  "x": 14.799999999999999,
-  "y": 8.8,
+  "x": 13.5,
+  "y": 8,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

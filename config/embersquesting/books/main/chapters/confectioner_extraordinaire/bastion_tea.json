@@ -1,8 +1,7 @@
 {
   "title": "Bastion Tea",
   "icon": "arsdelight:bastion_tea",
-  "x": 1.3999999999999986,
-  "y": 1.5999999999999996,
+  "x": 0.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +20,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

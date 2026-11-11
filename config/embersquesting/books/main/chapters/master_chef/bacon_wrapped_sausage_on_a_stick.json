@@ -1,8 +1,8 @@
 {
   "title": "Bacon-wrapped Sausage On A Stick",
   "icon": "mynethersdelight:bacon-wrapped_sausage_on_a_stick",
-  "x": 9.200000000000001,
-  "y": 8,
+  "x": 10,
+  "y": 7,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -22,8 +22,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

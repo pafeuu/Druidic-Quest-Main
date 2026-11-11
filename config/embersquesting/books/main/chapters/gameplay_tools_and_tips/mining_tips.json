@@ -11,8 +11,8 @@
     "§4§owork in progress§r§r"
   ],
   "icon": "wizards_reborn:arcanum_ore",
-  "x": 1.5,
-  "y": 5.25,
+  "x": 2,
+  "y": 5,
   "deps": {
     "all": [
       "welcome/tips_chapter"
@@ -45,7 +45,7 @@
     }
   ],
   "visibility": "hidden",
+  "shape": "circle",
   "invisible_until_deps_visible": true,
-  "size": 1.5,
-  "shape": "circle"
+  "size": 1.5
 }

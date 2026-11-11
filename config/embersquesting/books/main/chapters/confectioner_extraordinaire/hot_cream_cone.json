@@ -1,8 +1,8 @@
 {
   "title": "Hot Cream Cone",
   "icon": "mynethersdelight:hot_cream_cone",
-  "x": 15.8,
-  "y": 5.199999999999999,
+  "x": 17.5,
+  "y": 3.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

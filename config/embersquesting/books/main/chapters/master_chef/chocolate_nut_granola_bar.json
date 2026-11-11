@@ -1,7 +1,7 @@
 {
   "title": "Chocolate Nut Granola Bar",
   "icon": "vintagedelight:chocolate_nut_granola_bar",
-  "y": 0.8000000000000007,
+  "y": 2.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -20,8 +20,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

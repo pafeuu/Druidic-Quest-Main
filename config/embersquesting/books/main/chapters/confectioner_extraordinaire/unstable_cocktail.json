@@ -1,8 +1,8 @@
 {
   "title": "Unstable Cocktail",
   "icon": "arsdelight:unstable_cocktail",
-  "x": 2.1999999999999993,
-  "y": 6.8,
+  "x": 1.5,
+  "y": 7,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }

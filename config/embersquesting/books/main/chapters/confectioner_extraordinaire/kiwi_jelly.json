@@ -1,8 +1,8 @@
 {
   "title": "Kiwi Jelly",
   "icon": "fruitsdelight:kiwi_jelly",
-  "x": 17,
-  "y": 10.8,
+  "x": 17.5,
+  "y": 8.5,
   "deps": {
     "all": [
       "welcome/ultimate_collector"
@@ -21,8 +21,8 @@
     }
   ],
   "visibility": "hidden",
-  "size": 0.8,
   "shape": "circle",
+  "size": 0.8,
   "notify": {
     "complete": "none"
   }
