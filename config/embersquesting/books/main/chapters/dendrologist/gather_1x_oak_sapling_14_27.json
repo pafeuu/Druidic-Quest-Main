@@ -1,0 +1,24 @@
+{
+  "title": "",
+  "x": 4.5,
+  "y": 18.5,
+  "tasks": [
+    {
+      "item": "quark:red_blossom_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 4,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dirt",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "invisible_until_deps_visible": false
+}

@@ -1,0 +1,23 @@
+{
+  "title": "",
+  "x": 11.5,
+  "y": 20.5,
+  "tasks": [
+    {
+      "item": "deep_aether:sunroot_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dirt",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "invisible_until_deps_visible": false
+}

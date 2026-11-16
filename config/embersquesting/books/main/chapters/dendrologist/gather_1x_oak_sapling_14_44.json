@@ -1,0 +1,24 @@
+{
+  "title": "",
+  "x": 15,
+  "y": 17,
+  "tasks": [
+    {
+      "item": "twilightforest:sorting_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dirt",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "invisible_until_deps_visible": false
+}

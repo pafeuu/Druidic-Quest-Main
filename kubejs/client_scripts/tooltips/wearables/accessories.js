@@ -1,7 +1,5 @@
 ItemEvents.tooltip(event => {
 
-
-
     event.add("aether:agility_cape", [Text.gold("When on back:"), Text.blue("+0.5 step height")])
     event.add("aether:valkyrie_cape", [Text.gold("When on back:"), Text.blue("Grants slow falling")])
     event.add("aether:golden_feather", [Text.gold("When worn:"), Text.blue("Grants slow falling")])

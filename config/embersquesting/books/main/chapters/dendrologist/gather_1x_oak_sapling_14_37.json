@@ -1,0 +1,24 @@
+{
+  "title": "",
+  "x": 18,
+  "y": 16.5,
+  "tasks": [
+    {
+      "item": "twilightforest:twilight_oak_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 2,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dirt",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "invisible_until_deps_visible": false
+}

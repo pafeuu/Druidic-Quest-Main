@@ -1,0 +1,23 @@
+{
+  "title": "",
+  "x": 8,
+  "y": 19,
+  "tasks": [
+    {
+      "item": "wizards_reborn:arcane_wood_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dirt",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "invisible_until_deps_visible": false
+}

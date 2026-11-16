@@ -1,0 +1,23 @@
+{
+  "title": "",
+  "x": 11,
+  "y": 13.5,
+  "tasks": [
+    {
+      "item": "natures_spirit:olive_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dirt",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "invisible_until_deps_visible": false
+}

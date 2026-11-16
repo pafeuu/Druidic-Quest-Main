@@ -1,0 +1,23 @@
+{
+  "title": "",
+  "x": 12,
+  "y": 19,
+  "tasks": [
+    {
+      "item": "ancient_aether:skyroot_pine_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:silver_coin",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dirt",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "invisible_until_deps_visible": false
+}

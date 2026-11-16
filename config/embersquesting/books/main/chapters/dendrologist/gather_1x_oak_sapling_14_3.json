@@ -1,0 +1,23 @@
+{
+  "title": "",
+  "x": 12.5,
+  "y": 14,
+  "tasks": [
+    {
+      "item": "natures_spirit:purple_wisteria_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dirt",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "invisible_until_deps_visible": false
+}

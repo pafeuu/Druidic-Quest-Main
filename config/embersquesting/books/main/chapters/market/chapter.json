@@ -3,6 +3,7 @@
   "icon": "thermal:gold_coin",
   "order": 3,
   "scope": "team",
+  "visibility": "hidden",
   "group": "money",
   "defaults": {
     "invisible_until_deps_visible": true,

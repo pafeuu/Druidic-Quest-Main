@@ -1,0 +1,24 @@
+{
+  "title": "",
+  "x": 17.5,
+  "y": 16,
+  "tasks": [
+    {
+      "item": "twilightforest:canopy_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 2,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dirt",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "invisible_until_deps_visible": false
+}

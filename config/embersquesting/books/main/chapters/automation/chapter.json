@@ -3,6 +3,7 @@
   "icon": "kubejs:infused_iron_gear",
   "order": 14,
   "scope": "team",
+  "visibility": "hidden",
   "group": "side_questline",
   "defaults": {
     "progression": "flexible"

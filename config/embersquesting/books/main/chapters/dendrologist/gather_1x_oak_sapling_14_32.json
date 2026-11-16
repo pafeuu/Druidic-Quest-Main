@@ -1,0 +1,24 @@
+{
+  "title": "",
+  "x": 4,
+  "y": 14.5,
+  "tasks": [
+    {
+      "item": "ars_nouveau:green_archwood_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dirt",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "invisible_until_deps_visible": false
+}

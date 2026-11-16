@@ -1,0 +1,23 @@
+{
+  "title": "",
+  "x": 13,
+  "y": 12.5,
+  "tasks": [
+    {
+      "item": "natures_spirit:red_maple_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:dirt",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "invisible_until_deps_visible": false
+}

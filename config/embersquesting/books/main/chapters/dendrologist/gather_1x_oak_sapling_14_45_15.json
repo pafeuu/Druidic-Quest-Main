@@ -1,0 +1,24 @@
+{
+  "title": "",
+  "x": 17.5,
+  "y": 10.5,
+  "tasks": [
+    {
+      "item": "minecraft:crimson_fungus",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "thermal:copper_coin",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:crimson_nylium",
+      "count": 9,
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "invisible_until_deps_visible": false
+}
