@@ -60,7 +60,6 @@ ItemEvents.modification(event=>{
     'farmersdelight:fruit_salad',
     'farmersdelight:glow_berry_custard',
     'fruitsdelight:mangosteen_tea',
-    'biomeswevegone:aloe_vera_juice',
     'fruitsdelight:lychee_cherry_tea',
     'fruitsdelight:kiwi_juice',
     'fruitsdelight:pear_juice',

@@ -43,8 +43,6 @@ ServerEvents.recipes(e=>{
     });
     Pies("arsdelight:bombegrante_pie","ars_nouveau:bombegranate_pod")
     Pies("farmersdelight:chocolate_pie","create:bar_of_chocolate")
-    Pies("biomeswevegone:green_apple_pie","biomeswevegone:green_apple")
-    Pies("biomeswevegone:blueberry_pie","fruitsdelight:blueberry")
     Pies("farmersdelight:apple_pie","apple")
     Pies("fruitsdelight:durian_pie","fruitsdelight:durian")
     Pies("fruitsdelight:pineapple_pie","fruitsdelight:pineapple")
