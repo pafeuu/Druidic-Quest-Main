@@ -150,16 +150,16 @@ StartupEvents.registry('item', item => {
   item.create('primitive_shears',"shears").maxDamage(8).unstackable().tag("forge:tools")
   item.create("steel_knife","farmersdelight:knife").tag("minecraft:tools").tag("forge:tools/knives").tag("dq:tier1/tool").unstackable().tag("forge:tools/steel")
 
-  item.createCustom('primitive_firestarter',() => new $FlintAndSteelItem(new $ItemProperties().defaultDurability(8))).tag("forge:tools/flint").tag("forge:tools")
+  item.createCustom('primitive_firestarter',() => new $FlintAndSteelItem(new $ItemProperties().defaultDurability(8))).tag("forge:tools")
 
   item.create('brick_glue').maxDamage(96).unstackable().tag("forge:tools/glue").tag("dq:tier0/tool")
 
-  item.create('primitive_mortar').maxDamage(16).unstackable().tag("forge:tools/mortars").tag("dq:tier0/tool").tag("forge:tools/flint").tag("forge:tools")
+  item.create('primitive_mortar').maxDamage(16).unstackable().tag("forge:tools/mortars").tag("dq:tier0/tool").tag("forge:tools")
   item.create('basic_mortar').maxDamage(64).unstackable().tag("forge:tools/mortars").tag("dq:tier1/tool").tag("forge:tools/copper").tag("forge:tools")
-  item.create('primitive_saw').maxDamage(64).unstackable().tag("forge:tools/saws").tag("dq:tier0/tool").tag("forge:tools/flint").tag("forge:tools")
+  item.create('primitive_saw').maxDamage(64).unstackable().tag("forge:tools/saws").tag("dq:tier0/tool").tag("forge:tools")
   item.create('basic_saw').maxDamage(512).unstackable().tag("forge:tools/saws").tag("dq:tier1/tool").tag("forge:tools/copper").tag("forge:tools")
 
-  item.create('primitive_chisel').maxDamage(16).unstackable().tag("forge:tools/chisels").tag("dq:tier0/tool").tag("forge:tools").tag("forge:tools/flint").tag("forge:tools")
+  item.create('primitive_chisel').maxDamage(16).unstackable().tag("forge:tools/chisels").tag("dq:tier0/tool").tag("forge:tools").tag("forge:tools")
   item.create('basic_chisel').maxDamage(128).tag("forge:tools/chisels").tag("dq:tier2/tool").unstackable().tag("forge:tools").tag("forge:tools/copper").tag("forge:tools")
 
   item.create('elemental_pump').maxDamage(4096).unstackable().tag("dq:tier2/components")
