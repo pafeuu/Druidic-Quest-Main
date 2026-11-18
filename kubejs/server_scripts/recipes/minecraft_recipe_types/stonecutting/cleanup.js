@@ -61,36 +61,6 @@ ServerEvents.recipes(event => {
 		event.shapeless(`wizards_reborn:${id}_pie`, `4x wizards_reborn:${id}_pie_slice`).id(`wizards_reborn:shapeless/${id}_pie`)
 	});
 
-	event.shaped("9x biomeswevegone:tall_allium",
-		[
-			"B",
-			"B"
-		],
-		{
-			B: "biomeswevegone:allium_petal_block"
-		}
-	)
-
-	event.shaped("9x biomeswevegone:tall_white_allium",
-		[
-			"B",
-			"B"
-		],
-		{
-			B: "biomeswevegone:white_allium_petal_block"
-		}
-	)
-
-	event.shaped("9x biomeswevegone:tall_pink_allium",
-		[
-			"B",
-			"B"
-		],
-		{
-			B: "biomeswevegone:pink_allium_petal_block"
-		}
-	)
-
 	event.custom({
 		"type": "patchouli:shapeless_book_recipe",
 		"ingredients": [

@@ -27,6 +27,7 @@ ServerEvents.recipes(event=>{
     workbenchDummyRecipe("apotheosis:other_tome")
     workbenchDummyRecipe("apotheosis:scrap_tome")
     workbenchDummyRecipe("apotheosis:prismatic_web")
+    workbenchDummyRecipe("apotheosis:enchanted_golden_apple")
     
     event.forEachRecipe({mod:"apotheosis"},r=>{
 

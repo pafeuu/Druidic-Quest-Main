@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
     })*/
 	
 	event.remove({output:'#minecraft:axes'})
-	event.remove({output:'#minecraft:pick1axes'})
+	event.remove({output:'#minecraft:pickaxes'})
 	event.remove({output:'#minecraft:shovels'})
 	event.remove({output:'#minecraft:hoes'})
 	event.remove({output:'#minecraft:swords'})
@@ -590,7 +590,8 @@ ServerEvents.recipes(event => {
 			S: "#c:rods/wooden",
 			F: "flint"
 		}
-	)
+	).id("farmersdelight:flint_knife")
+
 	event.shaped("kubejs:wooden_staff",
 		[
 			"  S",
@@ -613,7 +614,8 @@ ServerEvents.recipes(event => {
 			W: "#c:rods/wooden",
 			S: "string"
 		}
-	)
+	).id("minecraft:fishing_rod")
+	
 	event.shaped("aether:candy_cane_sword",
 		[
 			" C ",
@@ -625,6 +627,17 @@ ServerEvents.recipes(event => {
 			S: "string"
 		}
 	)
+
+	event.shaped("aether:skyroot_bucket",
+		[
+			"PSP",
+			" P "
+		],
+		{
+			S: "#c:rods/wooden",
+			P: "#aether:skyroot_repairing"
+		}
+	).id("aether:skyroot_bucket")
 
 	event.shaped("rehooked:wood_hook",
 		[
