@@ -1,0 +1,21 @@
+{
+  "type": "botania:mana_upgrade",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "ars_nouveau:ring_of_potential"
+    },
+    "T": {
+      "item": "botania:mana_tablet"
+    }
+  },
+  "pattern": [
+    "TI ",
+    "IXI",
+    " I "
+  ],
+  "result": {
+    "item": "botania:mana_ring"
+  },
+  "show_notification": true
+}
