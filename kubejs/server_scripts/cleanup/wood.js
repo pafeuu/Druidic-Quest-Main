@@ -112,16 +112,6 @@ ServerEvents.recipes(event => {
 					"type": "drop_item",
 					"item": planks,
 					"count": 1
-				},
-				{
-					"type": "execute",
-					"command": "playsound sawmill:ui.sawmill.take_result neutral @p",
-					"hide": true
-				},
-				{
-					"type": "execute",
-					"command": "particle crit ~ ~ ~ 0.25 0.25 0.25 0 15",
-					"hide": true
 				}
 			],
 			"item_in": [
@@ -152,16 +142,6 @@ ServerEvents.recipes(event => {
 					"item": planks,
 					"count": 3
 				},
-				{
-					"type": "execute",
-					"command": "playsound sawmill:ui.sawmill.take_result neutral @p",
-					"hide": true
-				},
-				{
-					"type": "execute",
-					"command": "particle crit ~ ~ ~ 0.25 0.25 0.25 0 15",
-					"hide": true
-				}
 			],
 			"item_in": [
 				{
@@ -237,31 +217,34 @@ ServerEvents.recipes(event => {
 	CuttingLogs("ars_nouveau:archwood_planks", "ars_nouveau:stripped_purple_archwood_log")
 	CuttingLogs("wizards_reborn:innocent_wood_planks", "wizards_reborn:stripped_innocent_wood_log")
 	CuttingLogs("wizards_reborn:arcane_wood_planks", "wizards_reborn:stripped_arcane_wood_log")
-	CuttingLogs("biomeswevegone:aspen_planks", "biomeswevegone:stripped_aspen_log")
-	CuttingLogs("biomeswevegone:baobab_planks", "biomeswevegone:stripped_baobab_log")
-	CuttingLogs("biomeswevegone:blue_enchanted_planks", "biomeswevegone:stripped_blue_enchanted_log")
-	CuttingLogs("biomeswevegone:cika_planks", "biomeswevegone:stripped_cika_log")
-	CuttingLogs("biomeswevegone:cypress_planks", "biomeswevegone:stripped_cypress_log")
-	CuttingLogs("biomeswevegone:ebony_planks", "biomeswevegone:stripped_ebony_log")
-	CuttingLogs("biomeswevegone:fir_planks", "biomeswevegone:stripped_fir_log")
-	CuttingLogs("biomeswevegone:green_enchanted_planks", "biomeswevegone:stripped_green_enchanted_log")
-	CuttingLogs("biomeswevegone:holly_planks", "biomeswevegone:stripped_holly_log")
-	CuttingLogs("biomeswevegone:ironwood_planks", "biomeswevegone:stripped_ironwood_log")
-	CuttingLogs("biomeswevegone:jacaranda_planks", "biomeswevegone:stripped_jacaranda_log")
-	CuttingLogs("biomeswevegone:mahogany_planks", "biomeswevegone:stripped_mahogany_log")
-	CuttingLogs("minecraft:birch_planks", "biomeswevegone:stripped_palo_verde_log")
-	CuttingLogs("biomeswevegone:zelkova_planks", "biomeswevegone:stripped_zelkova_log")
-	CuttingLogs("biomeswevegone:witch_hazel_planks", "biomeswevegone:stripped_witch_hazel_log")
-	CuttingLogs("biomeswevegone:willow_planks", "biomeswevegone:stripped_willow_log")
-	CuttingLogs("biomeswevegone:white_mangrove_planks", "biomeswevegone:stripped_white_mangrove_log")
-	CuttingLogs("biomeswevegone:skyris_planks", "biomeswevegone:stripped_skyris_log")
-	CuttingLogs("biomeswevegone:sakura_planks", "biomeswevegone:stripped_sakura_log")
-	CuttingLogs("biomeswevegone:rainbow_eucalyptus_planks", "biomeswevegone:stripped_rainbow_eucalyptus_log")
-	CuttingLogs("biomeswevegone:redwood_planks", "biomeswevegone:stripped_redwood_log")
-	CuttingLogs("biomeswevegone:pine_planks", "biomeswevegone:stripped_pine_log")
-	CuttingLogs("biomeswevegone:palm_planks", "biomeswevegone:stripped_palm_log")
-	CuttingLogs("biomeswevegone:maple_planks", "biomeswevegone:stripped_maple_log")
-	CuttingLogs("biomeswevegone:florus_planks", "biomeswevegone:stripped_florus_stem")
+	
+	let naturesSpiritWoodTypes = [
+		"redwood",
+		"joshua",
+		"sugi",
+		"wisteria",
+		"fir",
+		"willow",
+		"aspen",
+		"maple",
+		"cypress",
+		"olive",
+		"ghaf",
+		"palo_verde",
+		"coconut",
+		"cedar",
+		"larch",
+		"mahogany",
+		"saxaul"
+	]
+	naturesSpiritWoodTypes.forEach(woodType => {
+		CuttingLogs(`natures_spirit:${woodType}_planks`,`natures_spirit:stripped_${woodType}_log`)
+		if(woodType=="joshua")
+			return;
+		CuttingLogs(`natures_spirit:${woodType}_planks`,`natures_spirit:stripped_${woodType}_wood`)
+	});
+
+
 
 	CuttingLogs("minecraft:oak_planks", "minecraft:stripped_oak_wood")
 	CuttingLogs("minecraft:spruce_planks", "minecraft:stripped_spruce_wood")
@@ -300,31 +283,6 @@ ServerEvents.recipes(event => {
 	CuttingLogs("ars_nouveau:archwood_planks", "ars_nouveau:stripped_purple_archwood_wood")
 	CuttingLogs("wizards_reborn:innocent_wood_planks", "wizards_reborn:stripped_innocent_wood")
 	CuttingLogs("wizards_reborn:arcane_wood_planks", "wizards_reborn:stripped_arcane_wood")
-	CuttingLogs("biomeswevegone:aspen_planks", "biomeswevegone:stripped_aspen_wood")
-	CuttingLogs("biomeswevegone:baobab_planks", "biomeswevegone:stripped_baobab_wood")
-	CuttingLogs("biomeswevegone:blue_enchanted_planks", "biomeswevegone:stripped_blue_enchanted_wood")
-	CuttingLogs("biomeswevegone:cika_planks", "biomeswevegone:stripped_cika_wood")
-	CuttingLogs("biomeswevegone:cypress_planks", "biomeswevegone:stripped_cypress_wood")
-	CuttingLogs("biomeswevegone:ebony_planks", "biomeswevegone:stripped_ebony_wood")
-	CuttingLogs("biomeswevegone:fir_planks", "biomeswevegone:stripped_fir_wood")
-	CuttingLogs("biomeswevegone:green_enchanted_planks", "biomeswevegone:stripped_green_enchanted_wood")
-	CuttingLogs("biomeswevegone:holly_planks", "biomeswevegone:stripped_holly_wood")
-	CuttingLogs("biomeswevegone:ironwood_planks", "biomeswevegone:stripped_ironwood_wood")
-	CuttingLogs("biomeswevegone:jacaranda_planks", "biomeswevegone:stripped_jacaranda_wood")
-	CuttingLogs("biomeswevegone:mahogany_planks", "biomeswevegone:stripped_mahogany_wood")
-	CuttingLogs("minecraft:birch_planks", "biomeswevegone:stripped_palo_verde_wood")
-	CuttingLogs("biomeswevegone:zelkova_planks", "biomeswevegone:stripped_zelkova_wood")
-	CuttingLogs("biomeswevegone:witch_hazel_planks", "biomeswevegone:stripped_witch_hazel_wood")
-	CuttingLogs("biomeswevegone:willow_planks", "biomeswevegone:stripped_willow_wood")
-	CuttingLogs("biomeswevegone:white_mangrove_planks", "biomeswevegone:stripped_white_mangrove_wood")
-	CuttingLogs("biomeswevegone:skyris_planks", "biomeswevegone:stripped_skyris_wood")
-	CuttingLogs("biomeswevegone:sakura_planks", "biomeswevegone:stripped_sakura_wood")
-	CuttingLogs("biomeswevegone:rainbow_eucalyptus_planks", "biomeswevegone:stripped_rainbow_eucalyptus_wood")
-	CuttingLogs("biomeswevegone:redwood_planks", "biomeswevegone:stripped_redwood_wood")
-	CuttingLogs("biomeswevegone:pine_planks", "biomeswevegone:stripped_pine_wood")
-	CuttingLogs("biomeswevegone:palm_planks", "biomeswevegone:stripped_palm_wood")
-	CuttingLogs("biomeswevegone:maple_planks", "biomeswevegone:stripped_maple_wood")
-	CuttingLogs("biomeswevegone:florus_planks", "biomeswevegone:stripped_florus_wood")
 	CuttingLogs("naturesaura:ancient_planks", "naturesaura:stripped_ancient_log")
 	CuttingLogs("naturesaura:ancient_planks", "naturesaura:stripped_ancient_bark")
 	CuttingLogs("wizards_reborn:cork_bamboo_planks", "wizards_reborn:cork_bamboo_block")
@@ -365,62 +323,20 @@ ServerEvents.recipes(event => {
 	SlabsAndStairs("ars_nouveau", "archwood")
 	SlabsAndStairs("wizards_reborn", "innocent_wood")
 	SlabsAndStairs("wizards_reborn", "arcane_wood")
-	SlabsAndStairs("biomeswevegone", "aspen")
-	SlabsAndStairs("biomeswevegone", "baobab")
-	SlabsAndStairs("biomeswevegone", "blue_enchanted")
-	SlabsAndStairs("biomeswevegone", "green_enchanted")
-	SlabsAndStairs("biomeswevegone", "florus")
-	SlabsAndStairs("biomeswevegone", "cika")
-	SlabsAndStairs("biomeswevegone", "cypress")
-	SlabsAndStairs("biomeswevegone", "ebony")
-	SlabsAndStairs("biomeswevegone", "fir")
-	SlabsAndStairs("biomeswevegone", "holly")
-	SlabsAndStairs("biomeswevegone", "ironwood")
-	SlabsAndStairs("biomeswevegone", "jacaranda")
-	SlabsAndStairs("biomeswevegone", "mahogany")
-	SlabsAndStairs("biomeswevegone", "maple")
-	SlabsAndStairs("biomeswevegone", "palm")
-	SlabsAndStairs("biomeswevegone", "pine")
-	SlabsAndStairs("biomeswevegone", "rainbow_eucalyptus")
-	SlabsAndStairs("biomeswevegone", "redwood")
-	SlabsAndStairs("biomeswevegone", "sakura")
-	SlabsAndStairs("biomeswevegone", "skyris")
-	SlabsAndStairs("biomeswevegone", "white_mangrove")
-	SlabsAndStairs("biomeswevegone", "willow")
-	SlabsAndStairs("biomeswevegone", "witch_hazel")
-	SlabsAndStairs("biomeswevegone", "zelkova")
+	SlabsAndStairs("natures_spirit", "redwood")
+	SlabsAndStairs("natures_spirit", "sugi")
+	SlabsAndStairs("natures_spirit", "wisteria")
+	SlabsAndStairs("natures_spirit", "fir")
+	SlabsAndStairs("natures_spirit", "willow")
+	SlabsAndStairs("natures_spirit", "aspen")
+	SlabsAndStairs("natures_spirit", "maple")
+	SlabsAndStairs("natures_spirit", "cypress")
+	SlabsAndStairs("natures_spirit", "olive")
+	SlabsAndStairs("natures_spirit", "joshua")
 	SlabsAndStairs("naturesaura", "ancient")
 	SlabsAndStairs("wizards_reborn", "cork_bamboo")
 	SlabsAndStairs("wizards_reborn", "cork_bamboo_chiseled")
 
-
-	function CraftingTable(woodtype) {
-		event.shapeless("biomeswevegone:" + woodtype + "_crafting_table", ["crafting_table", "biomeswevegone:" + woodtype + "_planks"]).id("biomeswevegone:" + woodtype + "_crafting_table")
-	}
-
-	CraftingTable("baobab")
-	CraftingTable("blue_enchanted")
-	CraftingTable("green_enchanted")
-	CraftingTable("florus")
-	CraftingTable("cika")
-	CraftingTable("cypress")
-	CraftingTable("ebony")
-	CraftingTable("fir")
-	CraftingTable("holly")
-	CraftingTable("ironwood")
-	CraftingTable("jacaranda")
-	CraftingTable("mahogany")
-	CraftingTable("maple")
-	CraftingTable("palm")
-	CraftingTable("pine")
-	CraftingTable("rainbow_eucalyptus")
-	CraftingTable("redwood")
-	CraftingTable("sakura")
-	CraftingTable("skyris")
-	CraftingTable("white_mangrove")
-	CraftingTable("willow")
-	CraftingTable("witch_hazel")
-	CraftingTable("zelkova")
 
 	// WR torches and campfires
 
@@ -469,72 +385,17 @@ ServerEvents.recipes(event => {
 		event.replaceInput({ id: "wizards_reborn:shaped/" + type + "_salt_lantern" }, "wizards_reborn:arcane_gold_nugget", "gold_nugget")
 	}
 
-	function SillyTorch(type, plank) {
-		event.shaped("6x silly_oddities:" + type + "_salt_torch",
-			[
-				"S",
-				"C",
-				"P"
-			],
-			{
-				P: plank,
-				C: "#minecraft:coals",
-				S: "#forge:salt"
-			}
-		)
-
-		event.shaped("12x silly_oddities:" + type + "_salt_torch",
-			[
-				"S",
-				"C",
-				"P"
-			],
-			{
-				P: plank,
-				C: "#forge:coal_coke",
-				S: "#forge:salt"
-			}
-		).id("silly_oddities:integration/wizards_reborn/shaped/" + type + "/" + type + "_salt_torch")
-
-		event.shaped("silly_oddities:" + type + "_salt_campfire",
-			[
-				"S",
-				"C",
-				"P"
-			],
-			{
-				P: plank,
-				C: "campfire",
-				S: "#forge:salt"
-			}
-		).id("silly_oddities:integration/wizards_reborn/shaped/" + type + "/" + type + "_salt_campfire")
-
-		event.replaceInput({ id: "silly_oddities:integration/wizards_reborn/shaped/" + type + "/" + type + "_salt_lantern" }, "wizards_reborn:arcane_gold_nugget", "gold_nugget")
-	}
+	
 
 	WizardsTorch("arcane", "arcane_wood_planks")
 	WizardsTorch("innocent", "innocent_wood_planks")
 	WizardsTorch("cork_bamboo", "cork_bamboo_planks")
 	WizardsTorch("wisestone", "wisestone")
-	SillyTorch("dark_oak", "dark_oak_planks")
-	SillyTorch("spruce", "spruce_planks")
-	SillyTorch("oak", "oak_planks")
-	SillyTorch("birch", "birch_planks")
-	SillyTorch("crimson", "crimson_planks")
-	SillyTorch("warped", "warped_planks")
-	SillyTorch("jungle", "jungle_planks")
-	SillyTorch("acacia", "acacia_planks")
-	SillyTorch("mangrove", "mangrove_planks")
-	SillyTorch("cherry", "cherry_planks")
-	SillyTorch("bamboo", "bamboo_planks")
 
-
-	const woodtype = ["oak", "spruce", "cherry", "dark_oak", "birch", "jungle", "bamboo", "mangrove", "acacia", "warped", "crimson"]
 
 	const wizardwood = ["arcane_wood", "innocent_wood", "cork_bamboo"]
 
 	wizardwood.forEach(id => {
-
 
 		event.shaped("wizards_reborn:" + id + "_frame",
 			[
@@ -543,11 +404,23 @@ ServerEvents.recipes(event => {
 				"SNS"
 			],
 			{
-				S: "minecraft:" + id + "_slab",
+				S: "wizards_reborn:" + id + "_slab",
 				N: "#forge:nuggets/gold"
 
 			}
 		).id("wizards_reborn:arcane_workbench/" + id + "_frame")
+
+		event.shaped("6x wizards_reborn:"+id+"_planks_baulk",
+			[
+				"  S",
+				" S ",
+				"S  "
+			],
+			{
+				S: "wizards_reborn:" + id + "_planks"
+
+			}
+		).id("wizards_reborn:shaped/"+id+"_planks_baulk")
 
 		event.shapeless("wizards_reborn:" + id + "_casing", ["wizards_reborn:" + id + "_frame", "wizards_reborn:" + id + "_planks"]).id("wizards_reborn:arcane_workbench/" + id + "_casing")
 
@@ -604,82 +477,22 @@ ServerEvents.recipes(event => {
 				N: "wizards_reborn:fluid_pipe"
 
 			}
-		).id("silly_oddities:integration/wizards_reborn/arcane_workbench/" + id + "/" + id + "_fluid_casing")
+		).id(`wizards_reborn:arcane_workbench/${id}_fluid_casing`)
 	});
 
-	woodtype.forEach(id => {
-
-		event.shapeless("silly_oddities:" + id + "_pedestal", ["wizards_reborn:arcane_pedestal", "minecraft:" + id + "_planks"]).id("silly_oddities:integration/wizards_reborn/shaped/" + id + "/" + id + "_pedestal")
-		event.shaped("silly_oddities:" + id + "_frame",
-			[
-				"SNS",
-				"N N",
-				"SNS"
-			],
-			{
-				S: "minecraft:" + id + "_slab",
-				N: "#forge:nuggets/gold"
-
-			}
-		).id("silly_oddities:integration/wizards_reborn/arcane_workbench/" + id + "/" + id + "_frame")
-
-		event.shapeless("silly_oddities:" + id + "_casing", ["silly_oddities:" + id + "_frame", "minecraft:" + id + "_planks"]).id("silly_oddities:integration/wizards_reborn/arcane_workbench/" + id + "/" + id + "_casing")
-
-		event.shapeless("silly_oddities:" + id + "_glass_frame", ["silly_oddities:" + id + "_frame", "wizards_reborn:alchemy_glass"]).id("silly_oddities:integration/wizards_reborn/arcane_workbench/" + id + "/" + id + "_glass_frame")
-
-		event.shaped("silly_oddities:" + id + "_wissen_casing",
+	event.shaped("wizards_reborn:wisestone_fluid_casing",
 			[
 				" N ",
 				"NXN",
 				" N "
 			],
 			{
-				X: "silly_oddities:" + id + "_casing",
-				N: "wizards_reborn:wissen_translator"
-
-			}
-		).id("silly_oddities:integration/wizards_reborn/arcane_workbench/" + id + "/" + id + "_wissen_casing")
-
-		event.shaped("silly_oddities:" + id + "_light_casing",
-			[
-				" N ",
-				"NXN",
-				" N "
-			],
-			{
-				X: "silly_oddities:" + id + "_casing",
-				N: "wizards_reborn:light_transfer_lens"
-
-			}
-		).id("silly_oddities:integration/wizards_reborn/arcane_workbench/" + id + "/" + id + "_light_casing")
-
-		event.shaped("silly_oddities:" + id + "_steam_casing",
-			[
-				" N ",
-				"NXN",
-				" N "
-			],
-			{
-				X: "silly_oddities:" + id + "_casing",
-				N: "wizards_reborn:steam_pipe"
-
-			}
-		).id("silly_oddities:integration/wizards_reborn/arcane_workbench/" + id + "/" + id + "_steam_casing")
-
-
-		event.shaped("silly_oddities:" + id + "_fluid_casing",
-			[
-				" N ",
-				"NXN",
-				" N "
-			],
-			{
-				X: "silly_oddities:" + id + "_casing",
+				X: "wizards_reborn:wisestone_casing",
 				N: "wizards_reborn:fluid_pipe"
 
 			}
-		).id("silly_oddities:integration/wizards_reborn/arcane_workbench/" + id + "/" + id + "_fluid_casing")
-	});
+		).id(`wizards_reborn:arcane_workbench/wisestone_fluid_casing`)
+
 	//event.shaped("6x wizards_reborn:arcane_salt_torch")
 
 	event.forEachRecipe({ input: "#minecraft:planks", output: "#minecraft:wooden_trapdoors", type: "minecraft:crafting_shaped" }, r => {
@@ -721,7 +534,7 @@ ServerEvents.recipes(event => {
 				P: trapdoor
 			}
 		).damageIngredient("#forge:tools/saws", 1).id(door + "_from_trapdoors")
-		if (log == "minecraft:warped_log" || log == "minecraft:crimson_log" || log == "biomeswevegone:florus_log")
+		if (log == "minecraft:warped_log" || log == "minecraft:crimson_log")
 			log = log.replace("_log", "_stem")
 		if (log == "minecraft:bamboo_log" || log == "mynethersdelight:powdery_log" || log == "wizards_reborn:cork_bamboo_log")
 			log = log.replace("_log", "_block")
