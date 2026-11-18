@@ -101,7 +101,7 @@ ServerEvents.recipes(event => {
 			C: "#minecraft:coals",
 			L: "#minecraft:logs"
 		}
-	)
+	).id("minecraft:campfire")
 
 	event.shaped("minecraft:soul_campfire",
 		[
@@ -125,7 +125,7 @@ ServerEvents.recipes(event => {
 			S: "#c:rods/wooden",
 			P: "#minecraft:planks"
 		}
-	)
+	).id("farmersdelight:cutting_board")
 
 	event.shapeless("create:rose_quartz_lamp", ["minecraft:redstone_lamp", "rose_bush", "minecraft:quartz"]).id("create:crafting/kinetics/rose_quartz_lamp")
 
@@ -2684,8 +2684,28 @@ ServerEvents.recipes(event => {
 		).id(`everycomp:hc/deep_aether/${wood}_fancy_bed`)
 	});
 
-	wood_BWG.forEach(wood => {
-		event.shaped(`everycomp:hc/biomeswevegone/${wood}_fancy_bed`,
+	let naturesSpiritWoodTypes = [
+		"redwood",
+		"joshua",
+		"sugi",
+		"wisteria",
+		"fir",
+		"willow",
+		"aspen",
+		"maple",
+		"cypress",
+		"olive",
+		"ghaf",
+		"palo_verde",
+		"coconut",
+		"cedar",
+		"larch",
+		"mahogany",
+		"saxaul"
+	]
+
+	naturesSpiritWoodTypes.forEach(wood => {
+		event.shaped(`everycomp:hc/natures_spirit/${wood}_fancy_bed`,
 			[
 				'HP ',
 				'PXP',
@@ -2694,9 +2714,9 @@ ServerEvents.recipes(event => {
 			{
 				H: 'handcrafted:hammer',
 				X: '#minecraft:beds',
-				P: `biomeswevegone:${wood}_planks`
+				P: `natures_spirit:${wood}_planks`
 			}
-		).id(`everycomp:hc/biomeswevegone/${wood}_fancy_bed`)
+		).id(`everycomp:hc/natures_spirit/${wood}_fancy_bed`)
 	});
 
 	event.remove({ output: 'minecraft:smoker' })
