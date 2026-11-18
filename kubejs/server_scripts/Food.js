@@ -104,8 +104,6 @@ ServerEvents.recipes(e => {
         "minecraft:enchanted_book",
         "vintagedelight:ghost_pepper",
         "vintagedelight:nut_mash_mason_jar"],"minecraft:enchanted_golden_apple",20,200)
-
-    e.remove({id:"biomeswevegone:golden_apple_from_green_apple"})
     
 
     cooking(["kubejs:aquatic_spice",
