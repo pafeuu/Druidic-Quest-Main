@@ -3,6 +3,9 @@ const $CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi")
 
 LootJS.modifiers((event) => {
     
+    event.addLootTableModifier("minecraft:chests/village/village_snowy_house")
+    .randomChance(0.5)
+    .addLoot("kubejs:mittens")
     ///=======================================Replacing Junk
 
     event.addLootTypeModifier(LootType.CHEST)
@@ -241,7 +244,11 @@ LootJS.modifiers((event) => {
 
     event.addEntityLootModifier("minecraft:witch")
         .randomChance(0.0125)
-        .addLoot("kubejs:lesser_arcane_ring");
+        .addLoot("kubejs:lesser_evocation_ring");
+
+    event.addEntityLootModifier("minecraft:witch")
+        .randomChance(0.250)
+        .addLoot("kubejs:lesser_evocation_ring");
 
     event.addEntityLootModifier("minecraft:blaze")
         .randomChance(0.0125)
@@ -263,6 +270,9 @@ LootJS.modifiers((event) => {
         .randomChance(0.0125)
         .addLoot("kubejs:basalz_totem")
         .addLoot("kubejs:lesser_nature_ring");
+
+     event.addEntityLootModifier("irons_spellbooks:priest")
+        .addLoot("kubejs:lesser_holy_ring");
 
     event.addEntityLootModifier("minecraft:zombie")
         .randomChance(0.0125)
@@ -324,7 +334,7 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier("kubejs:charged_copper_block")
         .replaceLoot("kubejs:charged_copper_block","minecraft:copper_block")
         
-  
+    
     event.addLootTypeModifier(LootType.CHEST)
         .replaceLoot("enigmaticlegacy:forbidden_fruit","enchanted_golden_apple")
 
@@ -485,6 +495,15 @@ LootJS.modifiers((event) => {
         .addLoot(sapling)	
         
     })
+
+    event.addLootTableModifier("aether:chests/dungeon/gold/gold_dungeon_reward")
+    .addLoot("ancient_aether:solar_armor_trim_smithing_template")
+
+    event.addLootTableModifier("aether:chests/dungeon/silver/silver_dungeon_reward")
+    .addLoot("ancient_aether:royal_armor_trim_smithing_template")
+
+    event.addLootTableModifier("aether:chests/dungeon/bronze/bronze_dungeon_reward")
+    .addLoot("ancient_aether:ancient_armor_trim_smithing_template")
            
     
     
