@@ -68,31 +68,33 @@ ItemEvents.rightClicked(event => {
 	StrippedWoodCutting("ars_nouveau:archwood_planks","ars_nouveau:stripped_purple_archwood_log")
 	StrippedWoodCutting("wizards_reborn:innocent_wood_planks","wizards_reborn:stripped_innocent_wood_log")
 	StrippedWoodCutting("wizards_reborn:arcane_wood_planks","wizards_reborn:stripped_arcane_wood_log")
-	StrippedWoodCutting("biomeswevegone:aspen_planks","biomeswevegone:stripped_aspen_log")
-	StrippedWoodCutting("biomeswevegone:baobab_planks","biomeswevegone:stripped_baobab_log")
-	StrippedWoodCutting("biomeswevegone:blue_enchanted_planks","biomeswevegone:stripped_blue_enchanted_log")
-	StrippedWoodCutting("biomeswevegone:cika_planks","biomeswevegone:stripped_cika_log")
-	StrippedWoodCutting("biomeswevegone:cypress_planks","biomeswevegone:stripped_cypress_log")
-	StrippedWoodCutting("biomeswevegone:ebony_planks","biomeswevegone:stripped_ebony_log")
-	StrippedWoodCutting("biomeswevegone:fir_planks","biomeswevegone:stripped_fir_log")
-	StrippedWoodCutting("biomeswevegone:green_enchanted_planks","biomeswevegone:stripped_green_enchanted_log")
-	StrippedWoodCutting("biomeswevegone:holly_planks","biomeswevegone:stripped_holly_log")
-	StrippedWoodCutting("biomeswevegone:ironwood_planks","biomeswevegone:stripped_ironwood_log")
-	StrippedWoodCutting("biomeswevegone:jacaranda_planks","biomeswevegone:stripped_jacaranda_log")
-	StrippedWoodCutting("biomeswevegone:mahogany_planks","biomeswevegone:stripped_mahogany_log")
-	StrippedWoodCutting("minecraft:birch_planks","biomeswevegone:stripped_palo_verde_log")
-	StrippedWoodCutting("biomeswevegone:zelkova_planks","biomeswevegone:stripped_zelkova_log")
-	StrippedWoodCutting("biomeswevegone:witch_hazel_planks","biomeswevegone:stripped_witch_hazel_log")
-	StrippedWoodCutting("biomeswevegone:willow_planks","biomeswevegone:stripped_willow_log")
-	StrippedWoodCutting("biomeswevegone:white_mangrove_planks","biomeswevegone:stripped_white_mangrove_log")
-	StrippedWoodCutting("biomeswevegone:skyris_planks","biomeswevegone:stripped_skyris_log")
-	StrippedWoodCutting("biomeswevegone:sakura_planks","biomeswevegone:stripped_sakura_log")
-	StrippedWoodCutting("biomeswevegone:rainbow_eucalyptus_planks","biomeswevegone:stripped_rainbow_eucalyptus_log")
-	StrippedWoodCutting("biomeswevegone:redwood_planks","biomeswevegone:stripped_redwood_log")
-	StrippedWoodCutting("biomeswevegone:pine_planks","biomeswevegone:stripped_pine_log")
-	StrippedWoodCutting("biomeswevegone:palm_planks","biomeswevegone:stripped_palm_log")
-	StrippedWoodCutting("biomeswevegone:maple_planks","biomeswevegone:stripped_maple_log")
-	StrippedWoodCutting("biomeswevegone:florus_planks","biomeswevegone:stripped_florus_stem")
+
+	let naturesSpiritWoodTypes = [
+		"redwood",
+		"joshua",
+		"sugi",
+		"wisteria",
+		"fir",
+		"willow",
+		"aspen",
+		"maple",
+		"cypress",
+		"olive",
+		"ghaf",
+		"palo_verde",
+		"coconut",
+		"cedar",
+		"larch",
+		"mahogany",
+		"saxaul"
+	]
+
+	naturesSpiritWoodTypes.forEach(woodType => {
+		StrippedWoodCutting(`natures_spirit:${woodType}_planks`,`natures_spirit:stripped_${woodType}_log`)
+		if(woodType=="joshua")
+			return;
+		StrippedWoodCutting(`natures_spirit:${woodType}_planks`,`natures_spirit:stripped_${woodType}_wood`)	
+	});
 
 	StrippedWoodCutting("minecraft:oak_planks","minecraft:stripped_oak_wood")
 	StrippedWoodCutting("minecraft:spruce_planks","minecraft:stripped_spruce_wood")
@@ -140,31 +142,6 @@ ItemEvents.rightClicked(event => {
 	StrippedWoodCutting("ars_nouveau:archwood_planks","ars_nouveau:stripped_purple_archwood_wood")
 	StrippedWoodCutting("wizards_reborn:innocent_wood_planks","wizards_reborn:stripped_innocent_wood")
 	StrippedWoodCutting("wizards_reborn:arcane_wood_planks","wizards_reborn:stripped_arcane_wood")
-	StrippedWoodCutting("biomeswevegone:aspen_planks","biomeswevegone:stripped_aspen_wood")
-	StrippedWoodCutting("biomeswevegone:baobab_planks","biomeswevegone:stripped_baobab_wood")
-	StrippedWoodCutting("biomeswevegone:blue_enchanted_planks","biomeswevegone:stripped_blue_enchanted_wood")
-	StrippedWoodCutting("biomeswevegone:cika_planks","biomeswevegone:stripped_cika_wood")
-	StrippedWoodCutting("biomeswevegone:cypress_planks","biomeswevegone:stripped_cypress_wood")
-	StrippedWoodCutting("biomeswevegone:ebony_planks","biomeswevegone:stripped_ebony_wood")
-	StrippedWoodCutting("biomeswevegone:fir_planks","biomeswevegone:stripped_fir_wood")
-	StrippedWoodCutting("biomeswevegone:green_enchanted_planks","biomeswevegone:stripped_green_enchanted_wood")
-	StrippedWoodCutting("biomeswevegone:holly_planks","biomeswevegone:stripped_holly_wood")
-	StrippedWoodCutting("biomeswevegone:ironwood_planks","biomeswevegone:stripped_ironwood_wood")
-	StrippedWoodCutting("biomeswevegone:jacaranda_planks","biomeswevegone:stripped_jacaranda_wood")
-	StrippedWoodCutting("biomeswevegone:mahogany_planks","biomeswevegone:stripped_mahogany_wood")
-	StrippedWoodCutting("minecraft:birch_planks","biomeswevegone:stripped_palo_verde_wood")
-	StrippedWoodCutting("biomeswevegone:zelkova_planks","biomeswevegone:stripped_zelkova_wood")
-	StrippedWoodCutting("biomeswevegone:witch_hazel_planks","biomeswevegone:stripped_witch_hazel_wood")
-	StrippedWoodCutting("biomeswevegone:willow_planks","biomeswevegone:stripped_willow_wood")
-	StrippedWoodCutting("biomeswevegone:white_mangrove_planks","biomeswevegone:stripped_white_mangrove_wood")
-	StrippedWoodCutting("biomeswevegone:skyris_planks","biomeswevegone:stripped_skyris_wood")
-	StrippedWoodCutting("biomeswevegone:sakura_planks","biomeswevegone:stripped_sakura_wood")
-	StrippedWoodCutting("biomeswevegone:rainbow_eucalyptus_planks","biomeswevegone:stripped_rainbow_eucalyptus_wood")
-	StrippedWoodCutting("biomeswevegone:redwood_planks","biomeswevegone:stripped_redwood_wood")
-	StrippedWoodCutting("biomeswevegone:pine_planks","biomeswevegone:stripped_pine_wood")
-	StrippedWoodCutting("biomeswevegone:palm_planks","biomeswevegone:stripped_palm_wood")
-	StrippedWoodCutting("biomeswevegone:maple_planks","biomeswevegone:stripped_maple_wood")
-	StrippedWoodCutting("biomeswevegone:florus_planks","biomeswevegone:stripped_florus_wood")
 	StrippedWoodCutting("naturesaura:ancient_planks","naturesaura:stripped_ancient_bark")
 	StrippedWoodCutting("naturesaura:ancient_planks","naturesaura:stripped_ancient_log")
 })

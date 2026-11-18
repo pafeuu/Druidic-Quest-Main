@@ -230,7 +230,7 @@ ServerEvents.recipes(event => {
                "ars_nouveau:source_gem",
                "ars_nouveau:source_gem"
           ],
-          "biomeswevegone:indigo_jacaranda_sapling"
+          "natures_spirit:purple_wisteria_sapling"
      )
 
      tree_ritual("wizards_reborn:arcane_wood_sapling",
@@ -244,7 +244,7 @@ ServerEvents.recipes(event => {
                "wizards_reborn:arcanum_dust",
                "wizards_reborn:arcanum_dust",
           ],
-          "biomeswevegone:blue_spruce_sapling"
+          "natures_spirit:fir_sapling"
      )
 
 
@@ -282,7 +282,7 @@ ServerEvents.recipes(event => {
      TallFlower("minecraft:lilac", "#minecraft:flowers", "magenta", "birch_sapling")
      TallFlower("minecraft:peony", "#minecraft:flowers", "pink", "spruce_sapling")
      TallFlower("minecraft:rose_bush", "#minecraft:flowers/roses", "red", "oak_sapling")
-     TallFlower("biomeswevegone:blue_rose_bush", "#minecraft:flowers/roses", "blue", "spruce_sapling")
+     /*TallFlower("biomeswevegone:blue_rose_bush", "#minecraft:flowers/roses", "blue", "spruce_sapling")
      TallFlower("biomeswevegone:delphinium", "#minecraft:flowers", "blue", "jungle_sapling")
      TallFlower("biomeswevegone:foxglove", "#minecraft:flowers", "cyan", "jungle_sapling")
      TallFlower("biomeswevegone:japanese_orchid", "#minecraft:flowers/orchid", "pink", "cherry_sapling")
@@ -290,7 +290,7 @@ ServerEvents.recipes(event => {
      TallFlower("biomeswevegone:tall_allium", "#biomeswevegone:flowers/alliums", "magenta", "oak_sapling")
      TallFlower("biomeswevegone:tall_pink_allium", "#biomeswevegone:flowers/alliums", "pink", "oak_sapling")
      TallFlower("biomeswevegone:magenta_pitcher_plant", "minecraft:pitcher_pod", "pink", "jungle_sapling")
-     TallFlower("biomeswevegone:cyan_pitcher_plant", "minecraft:pitcher_pod", "cyan", "jungle_sapling")
+     TallFlower("biomeswevegone:cyan_pitcher_plant", "minecraft:pitcher_pod", "cyan", "jungle_sapling")*/
 
 
      tree_ritual("naturesaura:token_joy",
@@ -478,62 +478,6 @@ ServerEvents.recipes(event => {
           "#c:trumpet_saplings"
      )
 
-     const spruceColors = ["red", "yellow", "blue", "orange"]
-
-     spruceColors.forEach(color => {
-
-          tree_ritual(`biomeswevegone:${color}_spruce_sapling`,
-               [
-                    "kubejs:shapeshifting_root",
-                    "spruce_sapling",
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-               ],
-               "spruce_sapling"
-          )
-     });
-
-     const birchColors = ["brown", "red", "yellow", "orange"]
-
-     birchColors.forEach(color => {
-
-          tree_ritual(`biomeswevegone:${color}_birch_sapling`,
-               [
-                    "kubejs:shapeshifting_root",
-                    "birch_sapling",
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-               ],
-               "birch_sapling"
-          )
-     });
-
-     const oakColors = ["brown", "red", "orange"]
-
-     oakColors.forEach(color => {
-
-          tree_ritual(`biomeswevegone:${color}_oak_sapling`,
-               [
-                    "kubejs:shapeshifting_root",
-                    "oak_sapling",
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-                    `#c:dyes/${color}`,
-               ],
-               "oak_sapling"
-          )
-     });
 
      tree_ritual(`minecraft:dark_oak_sapling`,
           [
@@ -745,33 +689,6 @@ ServerEvents.recipes(event => {
           "minecraft:oak_sapling"
      )
 
-     tree_ritual("biomeswevegone:jacaranda_sapling",
-          [
-               "kubejs:shapeshifting_root",
-               "minecraft:flowering_azalea",
-               "#c:dyes/magenta",
-               "#c:dyes/magenta",
-               "#c:dyes/magenta",
-               "#c:dyes/magenta",
-               "#c:dyes/magenta",
-               "#c:dyes/magenta"
-          ],
-          "minecraft:flowering_azalea"
-     )
-
-     tree_ritual("biomeswevegone:indigo_jacaranda_sapling",
-          [
-               "kubejs:shapeshifting_root",
-               "biomeswevegone:jacaranda_sapling",
-               "#c:dyes/purple",
-               "#c:dyes/purple",
-               "#c:dyes/purple",
-               "#c:dyes/purple",
-               "#c:dyes/purple",
-               "#c:dyes/purple"
-          ],
-          "biomeswevegone:jacaranda_sapling"
-     )
 
      tree_ritual("minecraft:crimson_fungus",
           [

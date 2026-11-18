@@ -2,8 +2,10 @@
 
 ServerEvents.tags("item", (event) => {
 
+  event.add("embersquesting:obtainable",["alexsmobs:shrimp_fried_rice","mynethersdelight:plate_of_ghasta_with_cream","create:chocolate_glazed_berries","sophisticatedbackpacks:tank_upgrade"])
   event.removeAllTagsFrom(["ancient_aether:highsproot_wood_wall", "ancient_aether:stripped_sakura_log_wall", "ancient_aether:sakura_log_wall", "ancient_aether:stripped_sakura_wood_wall", "ancient_aether:sakura_wood_wall", "ancient_aether:stripped_highsproot_wood_wall", "ancient_aether:stripped_highsproot_log_wall", "ancient_aether:highsproot_log_wall"])
 
+  event.add("quark:stone_tool_materials","#minecraft:stone_tool_materials")
   event.removeAll('botania:petals')
   event.add("connectiblechains:chain_connectible",[
     "#c:chains",
@@ -109,9 +111,6 @@ ServerEvents.tags("item", (event) => {
 
   event.add("forge:cactus", [
     "minecraft:cactus",
-    "biomeswevegone:carved_barrel_cactus",
-    "biomeswevegone:flowering_barrel_cactus",
-    "biomeswevegone:barrel_cactus",
     "naturesaura:aura_cactus",
   ]);
 
@@ -134,11 +133,6 @@ ServerEvents.tags("item", (event) => {
     "supplementaries:wild_flax"
   ]);
 
-  event.add("minecraft:flowers", [
-    'biomeswevegone:allium_flower_bush',
-    'biomeswevegone:pink_allium_flower_bush',
-    'biomeswevegone:white_allium_flower_bush',
-  ])
 
   event.remove("minecraft:small_flowers", [
     "farmersdelight:wild_potatoes",
@@ -154,11 +148,6 @@ ServerEvents.tags("item", (event) => {
     "supplementaries:wild_flax"
   ]);
 
-  event.add("minecraft:small_flowers", [
-    'biomeswevegone:allium_flower_bush',
-    'biomeswevegone:pink_allium_flower_bush',
-    'biomeswevegone:white_allium_flower_bush'
-  ])
   event.remove("minecraft:tall_flowers", "farmersdelight:wild_rice");
 
   event.add("c:hidden_from_recipe_viewers", [
@@ -287,14 +276,6 @@ ServerEvents.tags("item", (event) => {
     "minecraft:sunflower",
     "minecraft:dandelion",
     "naturesaura:aura_bloom",
-    "bloomingnature:wild_sunflower",
-    "biomeswevegone:firecracker_flower_bush",
-    "biomeswevegone:orange_amaranth",
-    "biomeswevegone:lollipop_flower",
-    "biomeswevegone:guzmania",
-    "biomeswevegone:yellow_sakura_petals",
-    "biomeswevegone:yellow_tulip",
-    "silly_oddities:wildflowers",
     'deep_aether:golden_aspess',
     'deep_aether:enchanted_blossom',
     'deep_aether:golden_flower',
@@ -302,39 +283,28 @@ ServerEvents.tags("item", (event) => {
     'botania:yellow_mystical_flower',
     'botania:yellow_shiny_flower',
     'botania:yellow_double_flower',
-    'wizards_reborn:old_dandelion'
+    'wizards_reborn:old_dandelion',
+    'natures_spirit:begonia',
+    'natures_spirit:tiger_lily',
+    'natures_spirit:marigold',
+    'natures_spirit:yellow_wildflower'
   ]);
 
   event.add("forge:flowers/lush", [
-    'biomeswevegone:incan_lily',
-    'biomeswevegone:green_tulip',
-    'biomeswevegone:flower_patch',
     'immersive_weathering:azalea_flowers',
     'deep_aether:aerlavender',
     'minecraft:pink_petals',
     'minecraft:pink_tulip',
-    'biomeswevegone:tall_allium',
-    'biomeswevegone:tall_pink_allium',
-    'biomeswevegone:pink_anemone',
-    'biomeswevegone:pink_allium_flower_bush',
-    'biomeswevegone:pink_allium',
     'minecraft:peony',
     'wizards_reborn:old_paeonia',
     'minecraft:white_tulip',
     'minecraft:lilac',
     'wizards_reborn:shiny_clover',
     'aether:purple_flower',
-    'biomeswevegone:purple_tulip',
     'minecraft:allium',
-    'biomeswevegone:allium_flower_bush',
-    'biomeswevegone:iris',
     'deep_aether:echaisy',
-    'biomeswevegone:crocus',
-    'biomeswevegone:alpine_bellflower',
-    'biomeswevegone:purple_sage',
     'deep_aether:radiant_orchid',
     'ancient_aether:elevetia',
-    'biomeswevegone:purple_amaranth',
     'botania:pink_double_flower',
     'botania:magenta_double_flower',
     'botania:lime_double_flower',
@@ -352,34 +322,28 @@ ServerEvents.tags("item", (event) => {
     'botania:green_shiny_flower',
     'botania:purple_shiny_flower',
     'botania:magenta_shiny_flower',
-    'botania:pink_shiny_flower'
+    'botania:pink_shiny_flower',
+    'natures_spirit:dwarf_blossoms',
+    'natures_spirit:bleeding_heart',
+    'natures_spirit:purple_wildflower',
+    'natures_spirit:lavender',
+    'natures_spirit:protea',
+    'natures_spirit:purple_heather',
+    'natures_spirit:foxglove',
+    'twigs:azalea_flowers',
+    'natures_spirit:anemone',
+    'natures_spirit:snapdragon'
   ])
 
   event.add("forge:flowers/pure", [
     'aether:white_flower',
     'minecraft:open_eyeblossom',
-    'biomeswevegone:snowdrops',
-    'biomeswevegone:japanese_orchid',
     'wizards_reborn:petals_of_innocence',
-    'biomeswevegone:richea',
-    'biomeswevegone:silver_vase_flower',
     'minecraft:lily_of_the_valley',
     'alexsmobs:acacia_blossom',
-    'biomeswevegone:yellow_daffodil',
-    'biomeswevegone:daffodil',
-    'biomeswevegone:white_sage',
-    'biomeswevegone:white_anemone',
-    'biomeswevegone:bistort',
     'minecraft:azure_bluet',
-    'biomeswevegone:winter_rose',
-    'biomeswevegone:angelica',
-    'biomeswevegone:foxglove',
     'minecraft:oxeye_daisy',
-    'biomeswevegone:white_allium_flower_bush',
-    'biomeswevegone:tall_white_allium',
-    'biomeswevegone:white_sakura_petals',
     'wizards_reborn:old_sunrise_blossom',
-    'biomeswevegone:white_allium',
     'botania:light_gray_floating_flower',
     'botania:white_floating_flower',
     'botania:white_shiny_flower',
@@ -387,25 +351,21 @@ ServerEvents.tags("item", (event) => {
     'botania:light_gray_mystical_flower',
     'botania:light_gray_double_flower',
     'botania:white_mystical_flower',
-    'botania:white_double_flower'
+    'botania:white_double_flower',
+    'natures_spirit:protea',
+    'natures_spirit:gardenia',
+    'natures_spirit:white_heather',
+    'natures_spirit:silverbush'
   ])
 
   event.add("forge:flowers/ebony", [
     'minecraft:allium',
-    'biomeswevegone:purple_tulip',
     'aether:purple_flower',
-    'biomeswevegone:black_rose',
     'minecraft:wither_rose',
     'minecraft:closed_eyeblossom',
     'ancient_aether:elevetia',
     'deep_aether:radiant_orchid',
-    'biomeswevegone:purple_sage',
-    'biomeswevegone:purple_amaranth',
-    'biomeswevegone:alpine_bellflower',
-    'biomeswevegone:crocus',
     'deep_aether:echaisy',
-    'biomeswevegone:iris',
-    'biomeswevegone:allium_flower_bush',
     'botania:brown_double_flower',
     'botania:brown_floating_flower',
     'botania:purple_double_flower',
@@ -419,25 +379,18 @@ ServerEvents.tags("item", (event) => {
     'botania:brown_mystical_flower',
     'botania:gray_shiny_flower',
     'botania:black_shiny_flower',
-    'botania:brown_shiny_flower'
+    'botania:brown_shiny_flower',
+    'natures_spirit:dwarf_blossoms',
+    'natures_spirit:black_iris',
+    'natures_spirit:cattail'
   ])
 
   event.add("forge:flowers/cobalt",
     [
       'minecraft:blue_orchid',
       'minecraft:cornflower',
-      'biomeswevegone:blue_sage',
-      'biomeswevegone:violet_leather_flower',
-      'biomeswevegone:cyan_pitcher_plant',
       'wizards_reborn:old_blue_rose',
-      'biomeswevegone:winter_scilla',
-      'biomeswevegone:winter_cyclamen',
       'wizards_reborn:old_moonlight_bloom',
-      'biomeswevegone:cyan_amaranth',
-      'biomeswevegone:delphinium',
-      'biomeswevegone:cyan_tulip',
-      'biomeswevegone:cyan_rose',
-      'biomeswevegone:blue_rose_bush',
       'deep_aether:iaspove',
       'deep_aether:aether_cattails',
       'ancient_aether:wynd_thistle',
@@ -455,19 +408,13 @@ ServerEvents.tags("item", (event) => {
       'botania:blue_mystical_flower',
       'botania:cyan_shiny_flower',
       'botania:light_blue_shiny_flower',
-      'botania:blue_shiny_flower'
+      'botania:blue_shiny_flower',
+      'natures_spirit:blue_iris',
+      'natures_spirit:bluebell',
+      'natures_spirit:blue_bulbs'
     ])
 
   event.add("forge:flowers/crimson", [
-    'biomeswevegone:osiria_rose',
-    'biomeswevegone:california_poppy',
-    'biomeswevegone:rose',
-    'biomeswevegone:begonia',
-    'biomeswevegone:pink_daffodil',
-    'biomeswevegone:magenta_tulip',
-    'biomeswevegone:amaranth',
-    'biomeswevegone:orange_daisy',
-    'biomeswevegone:protea_flower',
     'minecraft:poppy',
     'minecraft:rose_bush',
     'ancient_aether:sunset_rose',
@@ -476,15 +423,7 @@ ServerEvents.tags("item", (event) => {
     'minecraft:torchflower',
     'minecraft:red_tulip',
     'minecraft:orange_tulip',
-    'biomeswevegone:foxglove',
-    'biomeswevegone:lazarus_bellflower',
-    'biomeswevegone:fairy_slipper',
-    'biomeswevegone:peach_leather_flower',
-    'silly_oddities:cactus_flower',
-    'biomeswevegone:kovan_flower',
     'wizards_reborn:old_rose',
-    'biomeswevegone:magenta_amaranth',
-    'biomeswevegone:magenta_pitcher_plant',
     'botania:red_floating_flower',
     'botania:orange_floating_flower',
     'botania:orange_shiny_flower',
@@ -492,7 +431,14 @@ ServerEvents.tags("item", (event) => {
     'botania:orange_mystical_flower',
     'botania:orange_double_flower',
     'botania:red_double_flower',
-    'botania:red_mystical_flower'
+    'botania:red_mystical_flower',
+    'natures_spirit:begonia',
+    'natures_spirit:tiger_lily',
+    'natures_spirit:marigold',
+    'natures_spirit:ruby_blossoms',
+    'natures_spirit:red_heather',
+    'natures_spirit:carnation',
+    'natures_spirit:hibiscus'
   ])
 
   event.add("c:hidden_from_recipe_viewers", "#forge:tools/skyroot");;
@@ -909,14 +855,6 @@ ServerEvents.tags("item", (event) => {
   ]);
 
   event.add("minecraft:doors", [
-    "silly_oddities:waxed_oxidized_copper_door",
-    "silly_oddities:waxed_weathered_copper_door",
-    "silly_oddities:waxed_exposed_copper_door",
-    "silly_oddities:copper_door",
-    "silly_oddities:exposed_copper_door",
-    "silly_oddities:weathered_copper_door",
-    "silly_oddities:oxidized_copper_door",
-    "silly_oddities:waxed_copper_door",
     "immersive_weathering:exposed_iron_door",
     "immersive_weathering:weathered_iron_door",
     "immersive_weathering:rusted_iron_door",
@@ -938,14 +876,6 @@ ServerEvents.tags("item", (event) => {
     "immersive_weathering:weathered_iron_trapdoor",
     "immersive_weathering:rusted_iron_trapdoor",
     "thermal:rubberwood_trapdoor",
-    "silly_oddities:waxed_oxidized_copper_trapdoor",
-    "silly_oddities:waxed_weathered_copper_trapdoor",
-    "silly_oddities:waxed_exposed_copper_trapdoor",
-    "silly_oddities:waxed_copper_trapdoor",
-    "silly_oddities:oxidized_copper_trapdoor",
-    "silly_oddities:weathered_copper_trapdoor",
-    "silly_oddities:exposed_copper_trapdoor",
-    "silly_oddities:copper_trapdoor",
     "copycats:copycat_iron_trapdoor",
     "copycats:copycat_trapdoor",
   ]);

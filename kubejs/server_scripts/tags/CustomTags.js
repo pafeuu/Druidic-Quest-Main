@@ -26,45 +26,6 @@ ServerEvents.tags("item", (e) => {
     "naturesaura_plus:aura_mana_holder"
   ])
 
-  /*e.add("dq:unbreakables", [
-    "kubejs:capturing_gem",
-    "druidic_quest_core:steel_axe",
-    "druidic_quest_core:steel_pickaxe",
-    "druidic_quest_core:steel_hoe",
-    "druidic_quest_core:steel_shovel",
-    "druidic_quest_core:steel_sword",
-    "druidic_quest_core:steel_helmet",
-    "druidic_quest_core:steel_chestplate",
-    "druidic_quest_core:steel_leggings",
-    "druidic_quest_core:steel_boots",
-    "create:extendo_grip",
-    "kubejs:steel_knife",
-    'thermal:hazmat_helmet',
-    'thermal:hazmat_chestplate',
-    'thermal:hazmat_leggings',
-    'thermal:hazmat_boots',
-    'enigmaticlegacy:etherium_helmet',
-    'enigmaticlegacy:etherium_chestplate',
-    'enigmaticlegacy:etherium_leggings',
-    'enigmaticlegacy:etherium_boots',
-    'ancient_aether:valkyrum_helmet',
-    'ancient_aether:valkyrum_chestplate',
-    'ancient_aether:valkyrum_leggings',
-    'ancient_aether:valkyrum_boots',
-    "constructionwand:stone_wand",
-    "constructionwand:iron_wand",
-    "constructionwand:diamond_wand",
-    "constructionwand:infinity_wand",
-    "kubejs:mycelial_hoe",
-    "aether:flaming_sword",
-    "ancient_aether:ancient_sword",
-    "aether:holy_sword",
-    "aether:lightning_sword",
-    "kubejs:lumber_axe",
-    "kubejs:dwarven_pickaxe",
-    "kubejs:dwarven_sword"
-  ])*/
-
   e.add("dq:soul_harvester", [
     "naturesaura:depth_sword",
     "naturesaura:depth_axe",
@@ -107,12 +68,6 @@ ServerEvents.tags("item", (e) => {
 
   e.add("minecraft:flowers/roses", [
     "twilightforest:thorn_rose",
-    "biomeswevegone:rose",
-    "biomeswevegone:osiria_rose",
-    "biomeswevegone:black_rose",
-    "biomeswevegone:cyan_rose",
-    "biomeswevegone:blue_rose_bush",
-    "biomeswevegone:winter_rose",
     "ancient_aether:sunset_rose",
     "minecraft:rose_bush",
     "minecraft:wither_rose",
@@ -122,7 +77,6 @@ ServerEvents.tags("item", (e) => {
   e.add("minecraft:flowers/orchid", [
     "minecraft:blue_orchid",
     "deep_aether:radiant_orchid",
-    "biomeswevegone:japanese_orchid",
   ]);
 
   e.add("forge:jams", [
@@ -761,41 +715,10 @@ ServerEvents.tags("item", (e) => {
   e.add("c:wooden_pedestals", [
     "wizards_reborn:cork_bamboo_pedestal",
     "wizards_reborn:arcane_pedestal",
-    "silly_oddities:warped_pedestal",
-    "wizards_reborn:innocent_pedestal",
-    "silly_oddities:oak_pedestal",
-    "silly_oddities:crimson_pedestal",
-    "silly_oddities:bamboo_pedestal",
-    "silly_oddities:cherry_pedestal",
-    "silly_oddities:mangrove_pedestal",
-    "silly_oddities:dark_oak_pedestal",
-    "silly_oddities:acacia_pedestal",
-    "silly_oddities:jungle_pedestal",
-    "silly_oddities:birch_pedestal",
-    "silly_oddities:spruce_pedestal",
+    "wizards_reborn:innocent_pedestal"
   ]);
 
   e.add("c:copper_blocks", [
-    "silly_oddities:waxed_chiseled_copper",
-    "silly_oddities:waxed_exposed_chiseled_copper",
-    "silly_oddities:waxed_weathered_chiseled_copper",
-    "silly_oddities:waxed_oxidized_chiseled_copper",
-    "silly_oddities:copper_grate",
-    "silly_oddities:exposed_copper_grate",
-    "silly_oddities:weathered_copper_grate",
-    "silly_oddities:oxidized_copper_grate",
-    "silly_oddities:waxed_oxidized_copper_bulb",
-    "silly_oddities:waxed_weathered_copper_bulb",
-    "silly_oddities:waxed_exposed_copper_bulb",
-    "silly_oddities:waxed_copper_bulb",
-    "silly_oddities:oxidized_copper_bulb",
-    "silly_oddities:weathered_copper_bulb",
-    "silly_oddities:exposed_copper_bulb",
-    "silly_oddities:copper_bulb",
-    "silly_oddities:waxed_oxidized_copper_grate",
-    "silly_oddities:waxed_weathered_copper_grate",
-    "silly_oddities:waxed_exposed_copper_grate",
-    "silly_oddities:waxed_copper_grate",
     "create:waxed_copper_shingles",
     "create:waxed_exposed_copper_shingles",
     "create:waxed_weathered_copper_shingles",
@@ -805,10 +728,6 @@ ServerEvents.tags("item", (e) => {
     "create:waxed_weathered_copper_tiles",
     "create:waxed_oxidized_copper_tiles",
     "kubejs:charged_copper_block",
-    "silly_oddities:oxidized_chiseled_copper",
-    "silly_oddities:weathered_chiseled_copper",
-    "silly_oddities:exposed_chiseled_copper",
-    "silly_oddities:chiseled_copper",
     "create:oxidized_copper_tiles",
     "minecraft:waxed_exposed_cut_copper",
     "minecraft:waxed_weathered_copper",

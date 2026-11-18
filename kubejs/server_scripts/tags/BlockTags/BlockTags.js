@@ -24,9 +24,6 @@ ServerEvents.tags("block", (event) => {
   ]);
 
   event.add("treeliable:leaves_like", [
-    "biomeswevegone:allium_petal_block",
-    "biomeswevegone:pink_allium_petal_block",
-    "biomeswevegone:white_allium_petal_block"
   ])
 
   event.add("minecraft:needs_stone_tool", ["mbd2:basic_recycler"]);
@@ -75,18 +72,47 @@ ServerEvents.tags("block", (event) => {
     "twigs:schist",
     "twigs:rhyolite",
     "immersiveweathering:mossy_stone",
-    "biomeswevegone:dacite",
-    "biomeswevegone:white_dacite",
-    "biomeswevegone:red_rock",
-    "biomeswevegone:rocky_stone",
-    "biomeswevegone:mossy_stone",
+    'natures_spirit:red_moss_block',
+    'natures_spirit:pink_sandstone',
+    'natures_spirit:travertine',
+    'natures_spirit:chert',
+    'natures_spirit:kaolin',
+    'natures_spirit:white_kaolin',
+    'natures_spirit:light_gray_kaolin',
+    'natures_spirit:gray_kaolin',
+    'natures_spirit:black_kaolin',
+    'natures_spirit:brown_kaolin',
+    'natures_spirit:red_kaolin',
+    'natures_spirit:orange_kaolin',
+    'natures_spirit:yellow_kaolin',
+    'natures_spirit:lime_kaolin',
+    'natures_spirit:green_kaolin',
+    'natures_spirit:cyan_kaolin',
+    'natures_spirit:light_blue_kaolin',
+    'natures_spirit:blue_kaolin',
+    'natures_spirit:purple_kaolin',
+    'natures_spirit:magenta_kaolin',
+    'natures_spirit:pink_kaolin',
+    'natures_spirit:white_chalk',
+    'natures_spirit:light_gray_chalk',
+    'natures_spirit:gray_chalk',
+    'natures_spirit:black_chalk',
+    'natures_spirit:brown_chalk',
+    'natures_spirit:red_chalk',
+    'natures_spirit:orange_chalk',
+    'natures_spirit:yellow_chalk',
+    'natures_spirit:lime_chalk',
+    'natures_spirit:green_chalk',
+    'natures_spirit:cyan_chalk',
+    'natures_spirit:light_blue_chalk',
+    'natures_spirit:blue_chalk',
+    'natures_spirit:purple_chalk',
+    'natures_spirit:magenta_chalk'
   ]);
 
   let grass = [
     "immersive_weathering:frosty_grass",
     "immersive_weathering:dune_grass",
-    "biomeswevegone:prairie_grass",
-    "biomeswevegone:tall_prairie_grass",
   ];
 
   let pickaxeable = [
@@ -166,12 +192,8 @@ ServerEvents.tags("block", (event) => {
   event.add("forge:relocation_not_supported", gravityBlacklist);
 
   event.add("twilightforest:portal/decoration", [
-    'biomeswevegone:tall_prairie_grass',
-    'biomeswevegone:prairie_grass',
-    'biomeswevegone:tall_beach_grass',
-    'biomeswevegone:beach_grass',
-    'silly_oddities:short_dry_grass',
-    'silly_oddities:tall_dry_grass',
+    'minecraft:short_dry_grass',
+    'minecraft:tall_dry_grass',
     'deep_aether:tall_golden_grass',
     'deep_aether:medium_golden_grass',
     'deep_aether:short_golden_grass',

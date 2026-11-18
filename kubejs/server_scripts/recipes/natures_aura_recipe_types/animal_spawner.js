@@ -228,7 +228,7 @@ ServerEvents.recipes((event) => {
 
     spawn("alexsmobs:mimic_octopus",
         ["naturesaura:birth_spirit",
-            "silly_oddities:rainbow_bundle",
+            "wizards_reborn:rainbow_arcane_lumos",
             "#minecraft:fishes"], RegularAnimalAuraCost, 60)
 
     spawn("alexsmobs:rain_frog",

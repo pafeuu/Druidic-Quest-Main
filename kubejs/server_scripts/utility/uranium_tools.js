@@ -5,7 +5,6 @@ BlockEvents.broken((event) => {
   if (!player.mainHandItem.hasTag("forge:tools/uranium")) return;
 
   if (Math.random() < 0.025) {
-    // 5% chance
     const pos = event.block.pos;
 
     level
@@ -17,7 +16,6 @@ BlockEvents.broken((event) => {
 });
 
 EntityEvents.hurt((event) => {
-  //const player = event.player
   const level = event.level;
   const attacker = event.source.player;
 

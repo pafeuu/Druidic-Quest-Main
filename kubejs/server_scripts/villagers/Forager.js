@@ -1,4 +1,4 @@
-MoreJSEvents.villagerTrades((event) => {
+/*MoreJSEvents.villagerTrades((event) => {
 
     event.addTrade("biomeswevegone:forager",1,"8x vintagedelight:gearo_berry","3x thermal:copper_coin")
 	event.addTrade("biomeswevegone:forager",1,"12x sweet_berries","2x thermal:copper_coin")
@@ -19,4 +19,4 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("biomeswevegone:forager",5,"3x thermal:enderium_coin","kubejs:mycelial_hoe")
 	event.addTrade("biomeswevegone:forager",5,"5x thermal:netherite_coin","kubejs:mycelial_ring")
     
-})
+})*/
