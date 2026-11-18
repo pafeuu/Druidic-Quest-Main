@@ -3,6 +3,7 @@
   "icon": "handcrafted:golden_thick_pot",
   "order": 2,
   "scope": "team",
+  "visibility": "hidden",
   "group": "money",
   "defaults": {
     "invisible_until_deps_visible": true,

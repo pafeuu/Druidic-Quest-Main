@@ -24,6 +24,10 @@
       "item": "minecraft:scaffolding",
       "count": 16,
       "type": "item"
+    },
+    {
+      "chapter": "automation",
+      "type": "chapter"
     }
   ],
   "shape": "rsquare",

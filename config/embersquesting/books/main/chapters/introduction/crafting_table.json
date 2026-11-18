@@ -27,9 +27,13 @@
       "item": "sophisticatedbackpacks:backpack",
       "components": "{borderColor:14643122,clothColor:14972592,inventorySlots:27,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\"}]},upgradeSlots:1}",
       "type": "item"
+    },
+    {
+      "chapter": "storage",
+      "type": "chapter"
     }
   ],
-  "invisible_until_deps_visible": true,
   "progression": "linear",
-  "shape": "rsquare"
+  "shape": "rsquare",
+  "invisible_until_deps_visible": true
 }

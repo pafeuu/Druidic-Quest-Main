@@ -9,7 +9,7 @@
     },
     {
       "item": "supplementaries:sack",
-      "components": "{BlockEntityTag:{ForgeCaps:{\"astages:owners\":{},\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:21b,Slot:0b,id:\"biomeswevegone:mahogany_log\"},{Count:21b,Slot:1b,id:\"biomeswevegone:mahogany_fence\"},{Count:21b,Slot:2b,id:\"biomeswevegone:mahogany_trapdoor\"},{Count:21b,Slot:3b,id:\"biomeswevegone:mahogany_log\"},{Count:21b,Slot:4b,id:\"biomeswevegone:mahogany_fence\"},{Count:21b,Slot:5b,id:\"biomeswevegone:mahogany_trapdoor\"},{Count:21b,Slot:6b,id:\"biomeswevegone:mahogany_log\"},{Count:21b,Slot:7b,id:\"biomeswevegone:mahogany_fence\"},{Count:21b,Slot:8b,id:\"biomeswevegone:mahogany_trapdoor\"}]}}",
+      "components": "{BlockEntityTag:{ForgeCaps:{\"astages:owners\":{},\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:21b,Slot:0b,id:\"natures_spirit:redwood_log\"},{Count:21b,Slot:1b,id:\"natures_spirit:redwood_fence\"},{Count:21b,Slot:2b,id:\"natures_spirit:redwood_trapdoor\"},{Count:21b,Slot:3b,id:\"natures_spirit:redwood_log\"},{Count:21b,Slot:4b,id:\"natures_spirit:redwood_fence\"},{Count:21b,Slot:5b,id:\"natures_spirit:redwood_trapdoor\"},{Count:21b,Slot:6b,id:\"natures_spirit:redwood_log\"},{Count:21b,Slot:7b,id:\"natures_spirit:redwood_fence\"},{Count:21b,Slot:8b,id:\"natures_spirit:redwood_trapdoor\"}]}}",
       "type": "item"
     },
     {
@@ -19,7 +19,7 @@
     },
     {
       "item": "supplementaries:sack",
-      "components": "{BlockEntityTag:{ForgeCaps:{\"astages:owners\":{},\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:21b,Slot:0b,id:\"biomeswevegone:blue_enchanted_log\"},{Count:21b,Slot:1b,id:\"biomeswevegone:blue_enchanted_fence\"},{Count:21b,Slot:2b,id:\"biomeswevegone:blue_enchanted_trapdoor\"},{Count:21b,Slot:3b,id:\"biomeswevegone:blue_enchanted_log\"},{Count:21b,Slot:4b,id:\"biomeswevegone:blue_enchanted_fence\"},{Count:21b,Slot:5b,id:\"biomeswevegone:blue_enchanted_trapdoor\"},{Count:21b,Slot:6b,id:\"biomeswevegone:blue_enchanted_log\"},{Count:21b,Slot:7b,id:\"biomeswevegone:blue_enchanted_fence\"},{Count:21b,Slot:8b,id:\"biomeswevegone:blue_enchanted_trapdoor\"}]}}",
+      "components": "{BlockEntityTag:{ForgeCaps:{\"astages:owners\":{},\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:21b,Slot:0b,id:\"natures_spirit:fir_log\"},{Count:21b,Slot:1b,id:\"natures_spirit:fir_fence\"},{Count:21b,Slot:2b,id:\"natures_spirit:fir_trapdoor\"},{Count:21b,Slot:3b,id:\"natures_spirit:fir_log\"},{Count:21b,Slot:4b,id:\"natures_spirit:fir_fence\"},{Count:21b,Slot:5b,id:\"natures_spirit:fir_trapdoor\"},{Count:21b,Slot:6b,id:\"natures_spirit:fir_log\"},{Count:21b,Slot:7b,id:\"natures_spirit:fir_fence\"},{Count:21b,Slot:8b,id:\"natures_spirit:fir_trapdoor\"}]}}",
       "type": "item"
     },
     {
@@ -29,7 +29,7 @@
     },
     {
       "item": "supplementaries:sack",
-      "components": "{BlockEntityTag:{ForgeCaps:{\"astages:owners\":{},\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:21b,Slot:0b,id:\"biomeswevegone:sakura_log\"},{Count:21b,Slot:1b,id:\"biomeswevegone:sakura_fence\"},{Count:21b,Slot:2b,id:\"biomeswevegone:sakura_trapdoor\"},{Count:21b,Slot:3b,id:\"biomeswevegone:sakura_log\"},{Count:21b,Slot:4b,id:\"biomeswevegone:sakura_fence\"},{Count:21b,Slot:5b,id:\"biomeswevegone:sakura_trapdoor\"},{Count:21b,Slot:6b,id:\"biomeswevegone:sakura_log\"},{Count:21b,Slot:7b,id:\"biomeswevegone:sakura_fence\"},{Count:21b,Slot:8b,id:\"biomeswevegone:sakura_trapdoor\"}]}}",
+      "components": "{BlockEntityTag:{ForgeCaps:{\"astages:owners\":{},\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:21b,Slot:0b,id:\"natures_spirit:coconut_log\"},{Count:21b,Slot:1b,id:\"natures_spirit:coconut_fence\"},{Count:21b,Slot:2b,id:\"natures_spirit:coconut_trapdoor\"},{Count:21b,Slot:3b,id:\"natures_spirit:coconut_log\"},{Count:21b,Slot:4b,id:\"natures_spirit:coconut_fence\"},{Count:21b,Slot:5b,id:\"natures_spirit:coconut_trapdoor\"},{Count:21b,Slot:6b,id:\"natures_spirit:coconut_log\"},{Count:21b,Slot:7b,id:\"natures_spirit:coconut_fence\"},{Count:21b,Slot:8b,id:\"natures_spirit:coconut_trapdoor\"}]}}",
       "type": "item"
     },
     {
@@ -39,12 +39,12 @@
     },
     {
       "item": "supplementaries:sack",
-      "components": "{BlockEntityTag:{ForgeCaps:{\"astages:owners\":{},\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:21b,Slot:0b,id:\"biomeswevegone:pine_log\"},{Count:21b,Slot:1b,id:\"biomeswevegone:pine_fence\"},{Count:21b,Slot:2b,id:\"biomeswevegone:pine_trapdoor\"},{Count:21b,Slot:3b,id:\"biomeswevegone:pine_log\"},{Count:21b,Slot:4b,id:\"biomeswevegone:pine_fence\"},{Count:21b,Slot:5b,id:\"biomeswevegone:pine_trapdoor\"},{Count:21b,Slot:6b,id:\"biomeswevegone:pine_log\"},{Count:21b,Slot:7b,id:\"biomeswevegone:pine_fence\"},{Count:21b,Slot:8b,id:\"biomeswevegone:pine_trapdoor\"}]}}",
+      "components": "{BlockEntityTag:{ForgeCaps:{\"astages:owners\":{},\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:21b,Slot:0b,id:\"natures_spirit:larch_log\"},{Count:21b,Slot:1b,id:\"natures_spirit:larch_fence\"},{Count:21b,Slot:2b,id:\"natures_spirit:larch_trapdoor\"},{Count:21b,Slot:3b,id:\"natures_spirit:larch_log\"},{Count:21b,Slot:4b,id:\"natures_spirit:larch_fence\"},{Count:21b,Slot:5b,id:\"natures_spirit:larch_trapdoor\"},{Count:21b,Slot:6b,id:\"natures_spirit:larch_log\"},{Count:21b,Slot:7b,id:\"natures_spirit:larch_fence\"},{Count:21b,Slot:8b,id:\"natures_spirit:larch_trapdoor\"}]}}",
       "type": "item"
     },
     {
       "item": "supplementaries:sack",
-      "components": "{BlockEntityTag:{ForgeCaps:{\"astages:owners\":{},\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:21b,Slot:0b,id:\"biomeswevegone:zelkova_log\"},{Count:21b,Slot:1b,id:\"biomeswevegone:zelkova_fence\"},{Count:21b,Slot:2b,id:\"biomeswevegone:zelkova_trapdoor\"},{Count:21b,Slot:3b,id:\"biomeswevegone:zelkova_log\"},{Count:21b,Slot:4b,id:\"biomeswevegone:zelkova_fence\"},{Count:21b,Slot:5b,id:\"biomeswevegone:zelkova_trapdoor\"},{Count:21b,Slot:6b,id:\"biomeswevegone:zelkova_log\"},{Count:21b,Slot:7b,id:\"biomeswevegone:zelkova_fence\"},{Count:21b,Slot:8b,id:\"biomeswevegone:zelkova_trapdoor\"}]}}",
+      "components": "{BlockEntityTag:{ForgeCaps:{\"astages:owners\":{},\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:21b,Slot:0b,id:\"natures_spirit:olive_log\"},{Count:21b,Slot:1b,id:\"natures_spirit:olive_fence\"},{Count:21b,Slot:2b,id:\"natures_spirit:olive_trapdoor\"},{Count:21b,Slot:3b,id:\"natures_spirit:olive_log\"},{Count:21b,Slot:4b,id:\"natures_spirit:olive_fence\"},{Count:21b,Slot:5b,id:\"natures_spirit:olive_trapdoor\"},{Count:21b,Slot:6b,id:\"natures_spirit:olive_log\"},{Count:21b,Slot:7b,id:\"natures_spirit:olive_fence\"},{Count:21b,Slot:8b,id:\"natures_spirit:olive_trapdoor\"}]}}",
       "type": "item"
     }
   ]

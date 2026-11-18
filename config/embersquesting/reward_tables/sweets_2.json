@@ -44,7 +44,7 @@
     },
     {
       "item": "supplementaries:sack",
-      "components": "{BlockEntityTag:{ForgeCaps:{\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:1b,Slot:0b,id:\"farmersdelight:chocolate_pie\"},{Count:1b,Slot:1b,id:\"arsdelight:bastion_pie\"},{Count:1b,Slot:3b,id:\"biomeswevegone:green_apple_pie\"},{Count:1b,Slot:5b,id:\"create:blaze_cake\"},{Count:1b,Slot:7b,id:\"minecraft:cake\"},{Count:1b,Slot:8b,id:\"biomeswevegone:blueberry_pie\"}]}}",
+      "components": "{BlockEntityTag:{ForgeCaps:{\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:1b,Slot:0b,id:\"farmersdelight:chocolate_pie\"},{Count:1b,Slot:1b,id:\"arsdelight:bastion_pie\"},{Count:1b,Slot:3b,id:\"wizards_reborn:pitcher_turnip_pie\"},{Count:1b,Slot:5b,id:\"create:blaze_cake\"},{Count:1b,Slot:7b,id:\"minecraft:cake\"},{Count:1b,Slot:8b,id:\"wizards_reborn:carrot_pie\"}]}}",
       "type": "item"
     }
   ]

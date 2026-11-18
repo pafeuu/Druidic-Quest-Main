@@ -9,7 +9,7 @@
     },
     {
       "item": "supplementaries:sack",
-      "components": "{BlockEntityTag:{ForgeCaps:{\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:3b,Slot:0b,id:\"biomeswevegone:aloe_vera_juice\"},{Count:3b,Slot:1b,id:\"biomeswevegone:aloe_vera_juice\"},{Count:3b,Slot:2b,id:\"biomeswevegone:aloe_vera_juice\"},{Count:3b,Slot:3b,id:\"biomeswevegone:aloe_vera_juice\"},{Count:3b,Slot:4b,id:\"biomeswevegone:aloe_vera_juice\"},{Count:3b,Slot:5b,id:\"biomeswevegone:aloe_vera_juice\"},{Count:3b,Slot:6b,id:\"biomeswevegone:aloe_vera_juice\"},{Count:3b,Slot:7b,id:\"biomeswevegone:aloe_vera_juice\"},{Count:3b,Slot:8b,id:\"biomeswevegone:aloe_vera_juice\"}]}}",
+      "components": "{BlockEntityTag:{ForgeCaps:{\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:3b,Slot:0b,id:\"fruitsdelight:kiwi_juice\"},{Count:3b,Slot:1b,id:\"fruitsdelight:kiwi_juice\"},{Count:3b,Slot:2b,id:\"fruitsdelight:kiwi_juice\"},{Count:3b,Slot:3b,id:\"fruitsdelight:kiwi_juice\"},{Count:3b,Slot:4b,id:\"fruitsdelight:kiwi_juice\"},{Count:3b,Slot:5b,id:\"fruitsdelight:kiwi_juice\"},{Count:3b,Slot:6b,id:\"fruitsdelight:kiwi_juice\"},{Count:3b,Slot:7b,id:\"fruitsdelight:kiwi_juice\"},{Count:3b,Slot:8b,id:\"fruitsdelight:kiwi_juice\"}]}}",
       "type": "item"
     },
     {
@@ -19,7 +19,7 @@
     },
     {
       "item": "supplementaries:sack",
-      "components": "{BlockEntityTag:{ForgeCaps:{\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:2b,Slot:0b,id:\"biomeswevegone:aloe_vera_juice\"},{Count:1b,Slot:1b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}},{Count:2b,Slot:2b,id:\"biomeswevegone:aloe_vera_juice\"},{Count:1b,Slot:3b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}},{Count:2b,Slot:4b,id:\"biomeswevegone:aloe_vera_juice\"},{Count:1b,Slot:5b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}},{Count:2b,Slot:6b,id:\"biomeswevegone:aloe_vera_juice\"},{Count:1b,Slot:7b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}},{Count:2b,Slot:8b,id:\"biomeswevegone:aloe_vera_juice\"}]}}",
+      "components": "{BlockEntityTag:{ForgeCaps:{\"improvedmobs:opened_flag\":{HasBeenOpened:0b}},Items:[{Count:2b,Slot:0b,id:\"fruitsdelight:kiwi_juice\"},{Count:1b,Slot:1b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}},{Count:2b,Slot:2b,id:\"fruitsdelight:kiwi_juice\"},{Count:1b,Slot:3b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}},{Count:2b,Slot:4b,id:\"fruitsdelight:kiwi_juice\"},{Count:1b,Slot:5b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}},{Count:2b,Slot:6b,id:\"fruitsdelight:kiwi_juice\"},{Count:1b,Slot:7b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}},{Count:2b,Slot:8b,id:\"fruitsdelight:kiwi_juice\"}]}}",
       "type": "item"
     },
     {
