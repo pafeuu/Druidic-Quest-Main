@@ -1,15 +1,7 @@
 ServerEvents.recipes(event=>{
 
-    const apparatus = event.recipes.ars_nouveau.enchanting_apparatus
+    let apparatus = event.recipes.ars_nouveau.enchanting_apparatus
 
-    /*apparatus([
-        "bone_block",
-        "druidic_quest_core:rotten_flesh_block",
-        "quark:soul_bead"],
-        "kubejs:warp_scroll",
-        "corpsecomplex:scroll",
-        1000).id("corpsecomplex:scroll")
-    */
 
     apparatus([
         "#forge:gears/arcane_gold",
@@ -28,6 +20,21 @@ ServerEvents.recipes(event=>{
         "ars_nouveau:earth_essence",
         "ars_nouveau:earth_essence"
     ],"kubejs:infused_diamond","kubejs:elemental_core",50000)
+
+    apparatus([
+        "#forge:gears/arcane_gold",
+        "#forge:gears/arcane_gold",
+        "#forge:gears/arcane_gold",
+        "#forge:gears/arcane_gold",
+        "botania:rune_air",
+        "botania:rune_air",
+        "botania:rune_air",
+        "botania:rune_air",
+        "botania:rune_air",
+        "botania:rune_air",
+        "botania:rune_air",
+        "botania:rune_air",
+    ],"enigmaticlegacy:darkest_scroll","enigmaticlegacy:heaven_scroll",1000000)
 
     apparatus([
         "ars_nouveau:fire_essence",
