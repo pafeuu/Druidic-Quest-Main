@@ -9,7 +9,7 @@
 
 ["Bundles of Bravery"]
 	#enable the modern bundle interface and controls
-	has_updated_bundles = false
+	has_updated_bundles = true
 	#allow Bundles to generate in Village loot chests
 	bundle_loot = true
 	#allow bundles to be dyed
@@ -46,17 +46,17 @@
 
 ["Spring to Life"]
 	#allow Bushes to generate
-	bushes = false
+	bushes = true
 	#allow Firefly Bushes to generate
-	firefly_bushes = false
+	firefly_bushes = true
 	#allow Wildflowers to generate
-	wildflowers = false
+	wildflowers = true
 	#allow Dry Grass to generate
-	dry_grass = false
+	dry_grass = true
 	#allow Fallen Trees to generate
 	fallen_trees = true
 	#allow Leaf Litter to generate
-	leaf_litter = false
+	leaf_litter = true
 	#allow Chicken, Cow, and Pig variants to spawn
 	farm_animal_variants = true
 	#allow wolves to have sound variants
@@ -97,17 +97,17 @@
 
 ["Chaos Cubed"]
 	#allow Sulfur Cave biomes to generate
-	has_sulfur_caves = false
+	has_sulfur_caves = true
 	#allow Sulfur Springs to generate in Sulfur Caves
-	has_sulfur_springs = false
+	has_sulfur_springs = true
 	#allow Potent Sulfur blocks to generate Geysers
-	do_geysers_erupt = false
+	do_geysers_erupt = true
 	#allow Sulfur Cubes to spawn in Sulfur Caves
-	has_sulfur_cubes = false
+	has_sulfur_cubes = true
 	#allow explosive Sulfur Cube archetypes to explode
-	do_sulfur_cubes_explode = false
+	do_sulfur_cubes_explode = true
 	#allow damaging Sulfur Cube archetypes to deal damage
-	do_sulfur_cubes_damage = false
+	do_sulfur_cubes_damage = true
 	#allow Wandering Traders to offer items from Chaos Cubed
 	do_merchant_trade_chaos_cubed_contents = false
 	#allows the Bounce music disc to generate in Abandoned Mineshafts loot chests
@@ -134,9 +134,9 @@
 	#Range: > 1
 	golem_item_carry_amount = 16
 	#allow Copper Nuggets to be obtainable via crafting
-	has_copper_nuggets = true
+	has_copper_nuggets = false
 	#allow Copper Armor, Weapons and Tools to be obtainable
-	has_copper_toolset = true
+	has_copper_toolset = false
 	#allow Weathering Lightning Rods to be obtainable
 	has_weathering_lightning_rods = true
 

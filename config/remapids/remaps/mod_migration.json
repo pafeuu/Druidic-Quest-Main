@@ -1,6 +1,136 @@
 {
     "remaps":[
         {
+            "source": "biomeswevegone:aspen*",
+            "target": "natures_spirit:coconut*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:cika*",
+            "target": "natures_spirit:sugi*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:florus*",
+            "target": "natures_spirit:palo_verde*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:green_enchanted*",
+            "target": "natures_spirit:palo_verde*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:fir*",
+            "target": "natures_spirit:ghaf*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:zelkova*",
+            "target": "natures_spirit:ghaf*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:ebony*",
+            "target": "natures_spirit:joshua*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:blue_enchanted*",
+            "target": "natures_spirit:larch*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:baobab*",
+            "target": "natures_spirit:olive*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:cypress*",
+            "target": "natures_spirit:olive*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:witch_hazel*",
+            "target": "natures_spirit:olive*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:willow*",
+            "target": "natures_spirit:olive*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:white_mangrove*",
+            "target": "natures_spirit:wisteria*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:skyris*",
+            "target": "natures_spirit:larch*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:sakura*",
+            "target": "natures_spirit:redwood*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:redwood*",
+            "target": "natures_spirit:cedar*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:rainbow_eucalyptus*",
+            "target": "natures_spirit:sugi*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:pine*",
+            "target": "natures_spirit:wisteria*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:palm*",
+            "target": "natures_spirit:wisteria*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:maple*",
+            "target": "natures_spirit:saxaul*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:mahogany*",
+            "target": "natures_spirit:cedar*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:jacaranda*",
+            "target": "natures_spirit:cedar*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:ironwood*",
+            "target": "natures_spirit:saxaul*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "biomeswevegone:holly*",
+            "target": "natures_spirit:maple*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "silly_oddities:*",
+            "target": "minecraft:*",
+            "types": ["item","block"]
+        },
+        {
+            "source": "silly_oddities:rainbow_bundle",
+            "target": "minecraft:pink_bundle",
+            "types": ["item","block"]
+        },
+        {
             "source": "druidic_quest_core:big_source_jar",
             "target": "big_jars:big_source_jar",
             "types": ["item","block"]

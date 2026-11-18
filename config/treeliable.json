@@ -14,7 +14,7 @@
   "exponential_felling_speedup": false,
   "max_tree_blocks": 1024,
   "max_leaves_blocks": 1024,
-  "max_break_leaves_distance": 10,
+  "max_break_leaves_distance": 16,
   "ignore_persistent_leaves": true,
   "fell_leaves_strategy": "DECAY",
   "fell_credit_strategy": "NONE",

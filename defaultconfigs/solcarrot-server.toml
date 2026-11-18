@@ -18,8 +18,8 @@
 	'vintagedelight:glow_berry_jam_bottle',
 	'vintagedelight:sweet_berry_jam_bottle',
 	'vintagedelight:gearo_berry_jam_bottle',
-	'vintagedelight:glow_berry_mason_jar',
-	'biomeswevegone:blueberries']
+	'vintagedelight:glow_berry_mason_jar'
+	]
 	#When this list contains anything, the blacklist is ignored and instead only foods from here count.
 	whitelist = []
 	#The minimum hunger value foods need to provide in order to count for milestones, in half drumsticks.
