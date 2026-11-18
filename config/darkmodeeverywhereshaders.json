@@ -11,6 +11,10 @@
         "f_135805_": "dark_position_tex_color"
       },
       "displayName": {
+        "emberstextapi$scrollIndex": 0,
+        "emberstextapi$typewriterIndex": 0,
+        "emberstextapi$obfuscateSpanStart": 0,
+        "emberstextapi$obfuscateSpanLength": 0,
         "translate": "gui.darkmodeeverywhere.perfect_dark"
       },
       "divideFactor": 5.5,
@@ -26,6 +30,10 @@
         "f_135805_": "dark_position_tex_color"
       },
       "displayName": {
+        "emberstextapi$scrollIndex": 0,
+        "emberstextapi$typewriterIndex": 0,
+        "emberstextapi$obfuscateSpanStart": 0,
+        "emberstextapi$obfuscateSpanLength": 0,
         "translate": "gui.darkmodeeverywhere.less_perfect_dark"
       },
       "divideFactor": 3.5,
@@ -41,6 +49,10 @@
         "f_135805_": "dark_position_tex_color"
       },
       "displayName": {
+        "emberstextapi$scrollIndex": 0,
+        "emberstextapi$typewriterIndex": 0,
+        "emberstextapi$obfuscateSpanStart": 0,
+        "emberstextapi$obfuscateSpanLength": 0,
         "translate": "gui.darkmodeeverywhere.toasted_light"
       },
       "divideFactor": 2.0,
@@ -48,5 +60,5 @@
     }
   ],
   "version": 2,
-  "selectedShaderIndex": 3
+  "selectedShaderIndex": 0
 }
