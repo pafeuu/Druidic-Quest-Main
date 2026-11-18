@@ -79,7 +79,6 @@ ServerEvents.recipes(event=>{
     fullRepair("druidic_quest_core:improved_cobalt_flower_staff","wizards_reborn:arcane_wood_branch")
     fullRepair("druidic_quest_core:improved_lush_flower_staff","wizards_reborn:arcane_wood_branch")
     
-    fullRepair("kubejs:silver_knife","#forge:ingots/silver")
     fullRepair("wizards_reborn:arcane_gold_knife","wizards_reborn:arcane_gold_ingot")
     fullRepair("farmersdelight:golden_knife","#forge:ingots/gold")
     fullRepair("farmersdelight:iron_knife","#forge:ingots/iron")
