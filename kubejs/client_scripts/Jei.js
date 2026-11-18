@@ -17,8 +17,8 @@ JEIEvents.information(event => {
     event.addItem("kubejs:wooden_crucifix", ["Rare drop from undead creatures"])
     event.addItem("kubejs:lumber_axe", ["Drops from lumberjack zombies spawned in the forest biomes"])
     event.addItem("thermal:compost", ["Created by Batch Composter"])
+    event.addItem("alexsmobs:shrimp_fried_rice",["Created by giving Cooked Rice to tamed Mantis Shrimp. Shrimp needs to be out of the water and set to break block mode before either a Furnace or a Smoker is placed nearby"])
 
-    event.addItem("kubejs:mittens", ["Common loot in chests in snowy biomes"])
     event.addItem("supplementaries:ash", ["Created in world after blocks burn"])
     event.addItem(['wizards_reborn:arcane_salt_torch',
         'wizards_reborn:innocent_salt_torch',
@@ -31,40 +31,7 @@ JEIEvents.information(event => {
         'wizards_reborn:arcane_salt_campfire',
         'wizards_reborn:innocent_salt_campfire',
         'wizards_reborn:cork_bamboo_salt_campfire',
-        'wizards_reborn:wisestone_salt_campfire',
-        'silly_oddities:oak_salt_torch',
-        'silly_oddities:oak_salt_lantern',
-        'silly_oddities:acacia_salt_lantern',
-        'silly_oddities:acacia_salt_torch',
-        'silly_oddities:jungle_salt_campfire',
-        'silly_oddities:jungle_salt_lantern',
-        'silly_oddities:jungle_salt_torch',
-        'silly_oddities:birch_salt_campfire',
-        'silly_oddities:birch_salt_lantern',
-        'silly_oddities:birch_salt_torch',
-        'silly_oddities:spruce_salt_campfire',
-        'silly_oddities:spruce_salt_lantern',
-        'silly_oddities:spruce_salt_torch',
-        'silly_oddities:oak_salt_campfire',
-        'silly_oddities:acacia_salt_campfire',
-        'silly_oddities:dark_oak_salt_torch',
-        'silly_oddities:dark_oak_salt_lantern',
-        'silly_oddities:dark_oak_salt_campfire',
-        'silly_oddities:mangrove_salt_torch',
-        'silly_oddities:mangrove_salt_lantern',
-        'silly_oddities:mangrove_salt_campfire',
-        'silly_oddities:cherry_salt_torch',
-        'silly_oddities:cherry_salt_lantern',
-        'silly_oddities:cherry_salt_campfire',
-        'silly_oddities:bamboo_salt_torch',
-        'silly_oddities:bamboo_salt_lantern',
-        'silly_oddities:bamboo_salt_campfire',
-        'silly_oddities:crimson_salt_torch',
-        'silly_oddities:crimson_salt_lantern',
-        'silly_oddities:crimson_salt_campfire',
-        'silly_oddities:warped_salt_torch',
-        'silly_oddities:warped_salt_lantern',
-        'silly_oddities:warped_salt_campfire'], ["Can be dyed with Arcane Lumos"])
+        'wizards_reborn:wisestone_salt_campfire'],["Can be dyed with Arcane Lumos"])
 
     event.addItem("deep_aether:goldenleaf_berries", ["Found growing on Quicksoil in Golden Heights biome"])
 

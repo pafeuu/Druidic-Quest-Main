@@ -35,9 +35,6 @@ ClientEvents.lang("en_us", event => {
 
     event.renameBlock("immersive_weathering:permafrost","Gray Permafrost")
     event.renameBlock("immersive_weathering:grassy_permafrost","Grassy Gray Permafrost")
-    event.renameBlock("biomeswevegone:sandy_dirt","Sturdy Sand")
-    event.renameBlock("biomeswevegone:sandy_dirt_path","Sturdy Sand Path")
-    event.renameBlock("biomeswevegone:sandy_farmland","Sturdy Sand Farmland")
 
     event.renameItem("create:dough","Sweet Dough")
 
@@ -75,10 +72,6 @@ ClientEvents.lang("en_us", event => {
     event.renameBlock("vintagedelight:gearo_berry_bag","Gearo Berry Crate")
     event.renameBlock("ars_nouveau:sourceberry_sack","Sourceberry Crate")
 
-    event.renameBlock("biomeswevegone:lush_dirt", "Verdant Dirt")
-    event.renameBlock("biomeswevegone:lush_dirt_path", "Verdant Dirt Path")
-    event.renameBlock("biomeswevegone:lush_farmland", "Verdant Farmland")
-    event.renameBlock("biomeswevegone:lush_grass_block", "Verdant Grass Block")
     
     
 
