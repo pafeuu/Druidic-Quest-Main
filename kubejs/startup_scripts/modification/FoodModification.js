@@ -111,7 +111,6 @@ ItemEvents.modification(event=>{
         'aether:blue_berry',
         'ars_nouveau:sourceberry_bush',
         'minecraft:sweet_berries',
-        'biomeswevegone:blueberries',
         'deeperdarker:bloom_berries',
         'deep_aether:golden_vines']
 
@@ -128,12 +127,9 @@ ItemEvents.modification(event=>{
     const Fruit = [
         'fruitsdelight:mangosteen',
         'ars_nouveau:bombegranate_pod',
-        'biomeswevegone:baobab_fruit',
-        'biomeswevegone:yucca_fruit',
         'minecraft:chorus_fruit',
         'quark:ancient_fruit',
         'ars_nouveau:bastion_pod',
-        'biomeswevegone:green_apple',
         'minecraft:apple',
         'ars_nouveau:frostaya_pod',
         'fruitsdelight:fig',
@@ -165,8 +161,6 @@ ItemEvents.modification(event=>{
         'farmersdelight:cabbage',
         'farmersdelight:tomato',
         'farmersdelight:onion',
-        'biomeswevegone:oddion_bulb',
-        'biomeswevegone:white_puffball_cap',
         'vintagedelight:peanut',
         'vintagedelight:ghost_pepper',
         'vintagedelight:cucumber'
@@ -185,13 +179,10 @@ ItemEvents.modification(event=>{
         'minecraft:baked_potato',
         'fruitsdelight:baked_pear',
         'fruitsdelight:baked_durian',
-        'biomeswevegone:cooked_white_puffball_cap',
         'farmersdelight:cooked_rice',
         'farmersdelight:tomato_sauce',
         'vintagedelight:roasted_peanut',
         'fruitsdelight:dried_persimmon',
-        'biomeswevegone:cooked_oddion_bulb',
-        'biomeswevegone:cooked_yucca_fruit',
         'fruitsdelight:baked_pear']
 
     BakedPlant.forEach(id => {
@@ -253,8 +244,6 @@ ItemEvents.modification(event=>{
         'farmersdelight:sweet_berry_cheesecake',
         'minecraft:cake',
         'fruitsdelight:mangosteen_cake',
-        'biomeswevegone:blueberry_pie',
-        'biomeswevegone:green_apple_pie',
         'minecraft:pumpkin_pie',
         'arsdelight:bombegrante_pie',
         'arsdelight:frostaya_pie',
@@ -457,7 +446,6 @@ ItemEvents.modification(event=>{
 
     const Juice = [
         'fruitsdelight:mangosteen_tea',
-        'biomeswevegone:aloe_vera_juice',
         'fruitsdelight:lychee_cherry_tea',
         'fruitsdelight:kiwi_juice',
         'fruitsdelight:pear_juice',
