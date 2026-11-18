@@ -17,6 +17,13 @@ LootJS.modifiers(event=>{
         Item.of("kubejs:silver_shovel").withChance(10),
         LootEntry.of("minecraft:air").withWeight(40)
     ])
+    .addWeightedLoot([1],[
+        Item.of("ancient_aether:ancient_ring").withChance(10),
+        Item.of("ancient_aether:ancient_pendant").withChance(10),
+        Item.of("ancient_aether:growth_ring").withChance(20),
+        Item.of("ancient_aether:growth_pendant").withChance(20),
+        LootEntry.of("minecraft:air").withWeight(20)
+    ])
     .addWeightedLoot([1,2],[
         Item.of("kubejs:infused_emerald").withChance(10),
         Item.of("kubejs:infused_diamond").withChance(10),
