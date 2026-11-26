@@ -172,6 +172,6 @@ ServerEvents.recipes(event=>{
 	plates("forge:ingots/depth", "kubejs:depth_plate", "naturesaura:depth_ingot_block")
 	plates("forge:ingots/storm", "kubejs:storm_plate", "kubejs:storm_block")
 
-    PlatesOnetoOne("druidic_quest_core:livingwood_plate", "botania:livingwood")
+    PlatesOnetoOne("druidic_quest_core:livingwood_plate", "botania:livingwood_planks")
 	PlatesOnetoOne("druidic_quest_core:livingrock_plate", "botania:livingrock")
 })
