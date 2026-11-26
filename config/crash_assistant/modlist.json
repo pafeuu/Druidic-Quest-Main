@@ -1,9 +1,9 @@
 ﻿{
-  "fmlloader-1.20.1-47.4.10.jar (modloader)": {
-    "jarName": "fmlloader-1.20.1-47.4.10.jar (modloader)",
+  "fmlloader-1.20.1-47.4.28.jar (modloader)": {
+    "jarName": "fmlloader-1.20.1-47.4.28.jar (modloader)",
     "modId": "forge",
     "name": "forge",
-    "version": "fmlloader-1.20.1-47.4.10.jar"
+    "version": "fmlloader-1.20.1-47.4.28.jar"
   },
   "AdvancedCoreInfo-forge-1.20.1-1.5.0.jar": {
     "jarName": "AdvancedCoreInfo-forge-1.20.1-1.5.0.jar",
@@ -1338,13 +1338,13 @@
     "curseForgeHash": 2086622523,
     "modrinthHash": "c0f6e2421088f06abf5c1be2f49f39639552b1d0"
   },
-  "naturesaura_plus-0.4.1-beta-1.20.1.jar": {
-    "jarName": "naturesaura_plus-0.4.1-beta-1.20.1.jar",
+  "naturesaura_plus-0.4-beta-1.20.1.jar": {
+    "jarName": "naturesaura_plus-0.4-beta-1.20.1.jar",
     "modId": "naturesaura_plus",
     "name": "NaturesAuraPlus",
-    "version": "0.4.1-beta-1.20.1",
-    "curseForgeHash": 745688565,
-    "modrinthHash": "b3c1099d22825532cc70ad26ddd8975d0b84ab68"
+    "version": "0.4-beta-1.20.1",
+    "curseForgeHash": 1236925296,
+    "modrinthHash": "5f6049811d171fa44c95ca55f0c92cc5901c12d1"
   },
   "NaturesCompass-1.20.1-1.12.0-forge.jar": {
     "jarName": "NaturesCompass-1.20.1-1.12.0-forge.jar",
@@ -1386,13 +1386,13 @@
     "curseForgeHash": 1367373369,
     "modrinthHash": "c0806369f4257149664904db44efc60bd1785c17"
   },
-  "OctoLib-FORGE-0.5.0.2-1.20.1.jar": {
-    "jarName": "OctoLib-FORGE-0.5.0.2-1.20.1.jar",
+  "OctoLib-FORGE-0.5.0.1+1.20.1.jar": {
+    "jarName": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
     "modId": "octolib",
     "name": "OctoLib",
-    "version": "0.5.0.2",
-    "curseForgeHash": 1042327064,
-    "modrinthHash": "e963794076d2799db02eb91c4d61278ae8d4f179"
+    "version": "0.5.0.1",
+    "curseForgeHash": 2265070471,
+    "modrinthHash": "9eab28baff36942e1c924489e34753df10f40208"
   },
   "oculus-flywheel-compat-Forge-2.0.3.jar": {
     "jarName": "oculus-flywheel-compat-Forge-2.0.3.jar",
