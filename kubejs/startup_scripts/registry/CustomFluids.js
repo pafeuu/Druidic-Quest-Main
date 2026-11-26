@@ -24,9 +24,9 @@ StartupEvents.registry('fluid', event => {
     .thickTexture(0xff0000)
     .bucketColor(0xff0000)
 
-  event.create('liquid_coal_essence')
+  /*event.create('liquid_coal_essence')
     .thinTexture(0x18181a)
-    .bucketColor(0x18181a)
+    .bucketColor(0x18181a)*/
 
 
 })
