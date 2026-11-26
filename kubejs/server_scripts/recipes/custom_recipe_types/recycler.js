@@ -233,5 +233,10 @@ ServerEvents.recipes(event=>
         .outputItems("5x wizards_reborn:arcane_wood_log")
         .duration(200)
 
+    event.recipes.mbd2.recycling()
+        .inputItems("kubejs:lumber_axe")
+        .outputItems("2x minecraft:iron_ingot")
+        .duration(200)
+
     
 })

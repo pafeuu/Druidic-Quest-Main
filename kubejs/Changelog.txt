@@ -5648,17 +5648,19 @@ Patch 6.0.0
     -SophisticatedStorageCreateIntegration
     -TooltipOverhaul
     -Treeliable
+
+### Recipes:
+    -Changed for Livingwood Plate
+    -Added for Recycling the Lumber Axe
+
+### Other:
+    -Liquid Coal Essence Bucket can now be used by a dispenser
+    -Fixed Bugged mining harvest levels
     
-TODO - Missing ladder in enchanting towers
+
 TODO - More Spawn Biomes
-TODO - DruidicQuestCore stuff
 TODO - Balance Source Alloy tools and armor
-TODO - Fix broken wood recipes
-TODO - Add new chests to chest upgrading script
 TODO - Rework Dendrologist chapter
 TODO - Add Terra Plate Ponder
-TODO - Add Lumberjack recycling
-TODO - Shulker Boxes
 TODO - New outdoors panorama for main menu and indoor panorama for world selection
 TODO - Uranium pillars redesign
-TODO - Copper tools and armor merge

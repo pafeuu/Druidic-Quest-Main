@@ -1,0 +1,48 @@
+{
+  "armorSetName": "cactus",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "kubejs:cactus_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "kubejs:cactus_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "kubejs:cactus_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "kubejs:cactus_boots",
+    "mustBeEmpty": false
+  },
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "alembic:fire_damage.resistance",
+      "value": 2,
+      "modifierUUID": "d5a7dc33-9335-4299-b1e5-250b4c6dd218",
+      "partialBonusRequiredAmount": 2,
+      "description": "+2 fire resistance"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:regeneration",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 60,
+      "description": "Regeneration",
+      "conditions": [
+        {
+          "type": "inBiome",
+          "extra": "#c:is_desert",
+          "tooltipDescription": "while in desert biomes!"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

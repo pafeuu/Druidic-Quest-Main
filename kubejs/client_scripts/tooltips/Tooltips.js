@@ -131,7 +131,16 @@ ItemEvents.tooltip(tooltip => {
   tooltip.add("aether:pig_slayer", Text.blue("Deals extra damage to pigs and piglike creatures!"))
   tooltip.add("deep_aether:afterburner", Text.blue("Hold right click to shoot a barrage of fireballs!"))
 
-  tooltip.add("twilightforest:transformation_powder", [Text.blue("Can be used by a Dispenser")])
+  let dispenserInteraction = [
+    "kubejs:liquid_coal_essence_bucket",
+    "botania:twig_wand",
+    "twilightforest:transformation_powder"
+  ]
+
+  tooltip.addAdvanced(dispenserInteraction,
+    (item, advanced, text) => {
+      text.add(1, Text.of("Can be used by a Dispenser").blue())
+    })
   tooltip.addAdvanced(["#dq:unbreakables"],
     (item, advanced, text) => {
       text.add(1, Text.of("Unbreakable").blue())

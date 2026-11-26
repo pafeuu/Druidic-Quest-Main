@@ -6,7 +6,7 @@
 	},
 	"spawnBiomes": {
 		"//": "The biomes new worlds spawn in, a higher weight is picked more often. A biome from another dimension, modded ones included, moves the spawn there.",
-		"value": "biomeswevegone:allium_shrubland,biomeswevegone:amaranth_grassland,ars_nouveau:archwood_forest,minecraft:cherry_grove,biomeswevegone:ebony_woods,biomeswevegone:forgotten_forest,biomeswevegone:weeping_witch_forest"
+		"value": "ars_nouveau:archwood_forest,minecraft:cherry_grove,minecraft:birch_forest=1,minecraft:dappled_forest=1,minecraft:flower_forest=1,minecraft:swamp=1,natures_spirit:aspen_forest=1,natures_spirit:blooming_sugi_forest=1,natures_spirit:cypress_fields=1,natures_spirit:fir_forest=1,natures_spirit:marigold_meadows=1"
 	},
 	"biomeSearchRadius": {
 		"//": "How far from the center of the world (x=0, z=0), in blocks, the mod searches for one of the spawn biomes. A larger radius finds rarer biomes, but makes creating a new world take longer. min: 256, max: 30,000",
