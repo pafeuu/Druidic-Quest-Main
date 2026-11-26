@@ -1,8 +1,8 @@
 
 #Config for Sophisticated Item Actions
 [SophisticatedItemActions]
-	#Whether to make Sophisticated Item Actions (Restock and Deposit) be gated behind an advancement. (Default: false)
+	#Whether to make Sophisticated Item Actions (Deposit) be gated behind an advancement. (Default: false)
 	enableSophActionGating = false
-	#The advancement id for the advancement-gating for Sophisticated Item Actions' features. (Ex: "minecraft:adventure/kill_a_mob"
+	#The advancement id for the advancement-gating for Sophisticated Item Actions' deposit. (Ex: "minecraft:adventure/kill_a_mob"
 	advIdForSophAction = ""
 
