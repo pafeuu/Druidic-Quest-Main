@@ -5618,7 +5618,7 @@ Patch 6.0.0
     -Fixed Missing blocks on enchanting towers(this time for real)
     
 
-# Patch 6.1
+# Patch 6.0.2
 
 ### Updated Mods:
     -ALI
@@ -5648,14 +5648,20 @@ Patch 6.0.0
     -SophisticatedStorageCreateIntegration
     -TooltipOverhaul
     -Treeliable
+    -DruidicQuestCore
 
 ### Recipes:
     -Changed for Livingwood Plate
     -Added for Recycling the Lumber Axe
 
+### Quests:
+    -Fixed outdated info in "" Quest
+    -Disabled completion notification on all the quests in the ultimate collector group
+    
 ### Other:
     -Liquid Coal Essence Bucket can now be used by a dispenser
     -Fixed Bugged mining harvest levels
+    -Added more options for Starting Biome
     
 
 TODO - More Spawn Biomes
