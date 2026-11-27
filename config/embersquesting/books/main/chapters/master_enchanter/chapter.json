@@ -6,7 +6,12 @@
   "visibility": "hidden",
   "group": "ultimate_collector",
   "defaults": {
-    "progression": "flexible"
+    "progression": "flexible",
+    "notify": {
+      "unlock": "none",
+      "complete": "none",
+      "fail": "none"
+    }
   },
   "decorations": [
     {

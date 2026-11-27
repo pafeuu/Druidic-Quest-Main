@@ -7,7 +7,12 @@
   "group": "ultimate_collector",
   "defaults": {
     "invisible_until_deps_visible": true,
-    "progression": "flexible"
+    "progression": "flexible",
+    "notify": {
+      "unlock": "none",
+      "complete": "none",
+      "fail": "none"
+    }
   },
   "decorations": [
     {

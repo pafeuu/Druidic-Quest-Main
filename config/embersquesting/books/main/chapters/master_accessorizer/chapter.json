@@ -7,6 +7,11 @@
   "group": "ultimate_collector",
   "defaults": {
     "progression": "flexible",
-    "visibility": "hidden"
+    "visibility": "hidden",
+    "notify": {
+      "unlock": "none",
+      "complete": "none",
+      "fail": "none"
+    }
   }
 }

@@ -7,6 +7,11 @@
   "group": "main_questline",
   "defaults": {
     "progression": "linear",
-    "visibility": "full"
+    "visibility": "full",
+    "notify": {
+      "unlock": "none",
+      "complete": "none",
+      "fail": "none"
+    }
   }
 }
