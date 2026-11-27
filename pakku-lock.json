@@ -4,7 +4,7 @@
         "1.20.1"
     ],
     "loaders": {
-        "Forge": "47.4.10"
+        "Forge": "47.4.28"
     },
     "projects": [
         {
@@ -3019,7 +3019,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "druidic_quest_core-0.6.2.jar",
+                    "file_name": "druidic_quest_core-0.6.3.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3027,16 +3027,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/9815/162/druidic_quest_core-0.6.2.jar",
-                    "id": "9815162",
+                    "url": "https://edge.forgecdn.net/files/9833/15/druidic_quest_core-0.6.3.jar",
+                    "id": "9833015",
                     "parent_id": "1644276",
                     "hashes": {
-                        "sha1": "6dca36e590f1e3ba7eb98e58a116fecfbf5eb0f5",
-                        "md5": "8c2ffb5735bc7629e0811efcc07c88a7"
+                        "sha1": "76b8231775b95185967e4ed143a3183ac9d40c8a",
+                        "md5": "6dd66fddcba9e3fc3118df3974557ecf"
                     },
                     "required_dependencies": [],
-                    "size": 314925,
-                    "date_published": "2026-11-25T18:46:39.397Z"
+                    "size": 318021,
+                    "date_published": "2026-11-26T19:48:55.713Z"
                 }
             ]
         },
