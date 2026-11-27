@@ -17,17 +17,6 @@ ServerEvents.tags("item", event => {
         /*'wizards_reborn:arcane_salt_lantern',
         'wizards_reborn:innocent_salt_lantern',
         'wizards_reborn:cork_bamboo_salt_lantern',
-        'wizards_reborn:wisestone_salt_lantern',
-        'silly_oddities:oak_salt_lantern',
-        'silly_oddities:spruce_salt_lantern',
-        'silly_oddities:birch_salt_lantern',
-        'silly_oddities:jungle_salt_lantern',
-        'silly_oddities:acacia_salt_lantern',
-        'silly_oddities:dark_oak_salt_lantern',
-        'silly_oddities:mangrove_salt_lantern',
-        'silly_oddities:cherry_salt_lantern',
-        'silly_oddities:bamboo_salt_lantern',
-        'silly_oddities:crimson_salt_lantern',
-        'silly_oddities:warped_salt_lantern'*/ // They dont display the flame sadly :(
+        'wizards_reborn:wisestone_salt_lantern', They dont display the flame sadly :(*/
     ])
 })
